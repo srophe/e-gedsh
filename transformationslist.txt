@@ -101,7 +101,48 @@ deleted
 <Subsubsection> to <label type="subsubsection">
 </Subsubsection> to </label>
 
+replaced
+</ref>(.)<ref type="cr">
+
+replaced
+ʿ<ref type="cr">
+with
+ʿ
+
+<i>(<\/\w+>)
+with
+\1
+
+
+replaced:
+</i><i><sup>(.+)</i></sup><i>
+
+with
+<sup>\1</sup>
+
+<i><sup>(.+)</i></sup>
+with
+<i><sup>(.+)</sup></i>
+
+all <sup>
+all <u>
+
 to Do:
+
+<ab type="infobox"/>(.+)
+<p>
+
+to
+
+<ab type="infobox">\1</ab>
+<p>
+
+[^\s]<i> Ex. ʿ<i>
+
+\s/
+ 
+with 
+</
 
 deleted
 </i><i>
