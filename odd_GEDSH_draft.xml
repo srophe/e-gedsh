@@ -1,0 +1,856 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="schemas/odd4odds.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="schemas/odd4odds.isosch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+  xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>e-GEDSH</title>
+        <author><persName ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L.
+            Schwartz</persName></author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Syriaca.org: The Syriac Reference Portal</publisher>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by/3.0/">
+            <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <p>[Information about the creation of the ODD]</p>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc>
+      <change who="http://syriaca.org/documentation/editors.xml#dschwartz" when="2016-09-29"
+        >First draft</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+      <p>This schema has been created to to constrain the TEI P5 for the purpose of producing a
+        digital edition of the Gorgias Encyclopedic Dictionary of the Syriac Heritage. In several
+        limited cases we have also allowed attributes in places where the TEI P5 does not allow
+        them. For a project containing one XML file a customization of the TEI would not normally be
+        necessary. However, the document to which it will be applied originally came to Syriaca.org
+        from the publisher of the print edition, Gorgias Press, as an XML file created from
+        InDesign. Syriaca.org converted this into TEI and then put it through an extensive editing
+        process that included marking up the cross references indicated in bold in the print edition
+        and the application of many Syriaca.org URIs. We desired a schema customization to
+        streamline this editing process and aid in the necessary additions of data.</p>
+
+      <schemaSpec ident="e-GEDSH" source="tei:current" start="TEI">
+
+        <moduleRef key="core"
+          include="p ref hi listBibl head bibl title corr sic editor resp respStmt date biblStruct milestone monogr name note imprint pubPlace publisher"/>
+        <moduleRef key="tei"/>
+        <moduleRef key="header"
+          include="teiHeader fileDesc titleStmt sponsor funder principal editionStmt edition publicationStmt authority availability licence sourceDesc idno"/>
+        <moduleRef key="textstructure" include="TEI text body div byline"/>
+        <moduleRef key="namesdates"/>
+        <moduleRef key="linking" include="ab"/>
+
+        <elementSpec ident="ab" mode="change" module="linking">
+          <attList>
+            <attDef ident="type" mode="replace" usage="req">
+              <desc>This customization requires that the ab element have a type attribute with one of the following values.</desc>
+              <datatype>
+                <dataRef key="teidata.enumerated"/>
+              </datatype>
+              <valList type="closed">
+                <valItem ident="idnos"/>
+                <valItem ident="infobox"/>
+                <valItem ident="crossreference"/>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+
+        <elementSpec ident="availability" mode="change" module="header">
+          <attList>
+            <attDef ident="status" mode="replace" usage="req">
+              <desc>This customization requires that the availability element have a status attribute with one of the following values.</desc>
+              <datatype>
+                <dataRef key="teidata.enumerated"/>
+              </datatype>
+              <valList type="closed">
+                <valItem ident="restricted"/>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+
+        <elementSpec ident="div" mode="change" module="textstructure">
+          <attList>
+            <attDef ident="type" mode="replace" usage="req">
+              <desc>This customization requires that the div element have a type attribute with one of the following values.</desc>
+              <datatype>
+                <dataRef key="teidata.enumerated"/>
+              </datatype>
+              <valList type="closed">
+                <valItem ident="entry"/>
+                <valItem ident="body"/>
+                <valItem ident="crossreference"/>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+
+        <elementSpec ident="editor" mode="change" module="core">
+          <attList>
+            <attDef ident="role" mode="replace" usage="opt">
+              <desc>This customization requires that the values of the role attribute are constrained when applied to the editor element.</desc>
+              <datatype>
+                <dataRef key="teidata.enumerated"/>
+              </datatype>
+              <valList type="closed">
+                <valItem ident="general"/>
+                <valItem ident="print-edition"/>
+                <valItem ident="electronic-edition"/>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+
+        <elementSpec ident="head" mode="change" module="core">
+          <attList>
+            <attDef ident="type" mode="replace" usage="opt">
+              <desc>This customization requires that the values of the type attribute are constrained when applied to the head element.</desc>
+              <datatype>
+                <dataRef key="teidata.enumerated"/>
+              </datatype>
+              <valList type="closed">
+                <valItem ident="subsection"/>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+
+        <elementSpec ident="hi" mode="change" module="core">
+          <attList>
+            <attDef ident="rend" mode="replace" usage="req">
+              <desc>This customization requires that the hi element have a rend attribute with one of the following values.</desc>
+              <datatype>
+                <dataRef key="teidata.enumerated"/>
+              </datatype>
+              <valList type="closed">
+                <valItem ident="italic"/>
+                <valItem ident="superscript"/>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+
+        <elementSpec ident="idno" mode="change" module="header">
+          <attList>
+            <attDef ident="subtype" mode="add" usage="opt">
+              <desc>This customization makes the subtype attribute available to the idno element and constrains its value to the following.</desc>
+              <valList type="closed">
+                <valItem ident="altorder"/>
+              </valList>
+            </attDef>
+            <attDef ident="type" mode="replace" usage="req">
+              <desc>This customization requires that the idno element have a type attribute with one of the following values.</desc>
+              <datatype>
+                <dataRef key="teidata.enumerated"/>
+              </datatype>
+              <valList type="closed">
+                <valItem ident="uri"/>
+                <valItem ident="syriaca-bibl"/>
+                <valItem ident="subject"/>
+                <valItem ident=" entry"/>
+                <valItem ident="althead"/>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+
+        <elementSpec ident="milestone" mode="change" module="core">
+          <attList>
+            <attDef ident="unit" mode="replace" usage="req">
+              <desc>This customization requires that the milestone element have a unit attribute with the following value.</desc>
+              <datatype>
+                <dataRef key="teidata.enumerated"/>
+              </datatype>
+              <valList type="closed">
+                <valItem ident="pages"/>
+              </valList>
+            </attDef>
+            <attDef ident="n" mode="change" usage="req">
+              <desc>This customization requires that the milestone element have an n attribute.</desc>
+            </attDef>
+          </attList>
+        </elementSpec>
+
+        <elementSpec ident="note" mode="change" module="core">
+          <attList>
+            <attDef ident="type" mode="replace" usage="opt">
+              <desc>This customization requires that the values of the type attribute are constrained when applied to the note element.</desc>
+              <datatype>
+                <dataRef key="teidata.enumerated"/>
+              </datatype>
+              <valList type="closed">
+                <valItem ident="type"/>
+                <valItem ident="abstract"/>
+                <valItem ident="affiliation"/>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+
+        <elementSpec ident="ref" mode="change" module="core">
+          <attList>
+            <attDef ident="rend" mode="replace" usage="req">
+              <desc>This customization TEMPORARILY require a rend attribute for the ref element and constrain attribute
+                value to those listed. We will need to change the schema before adding Syriaca
+                URIs</desc>
+              <datatype>
+                <dataRef key="teidata.enumerated"/>
+              </datatype>
+              <valList type="closed">
+                <valItem ident="bold"/>
+              </valList>
+            </attDef>
+            <attDef ident="target" mode="replace" usage="req">
+              <desc>This customization TEMPORARILY require a target attribute for the ref element and constrain
+                attribute value to those listed. We will need to change the schema before adding
+                Syriaca URIs</desc>
+              <datatype>
+                <dataRef key="teidata.enumerated"/>
+              </datatype>
+              <valList type="closed">
+                <valItem ident="Aba-I"/>
+                <valItem ident="Aba-II-of-Kashkar"/>
+                <valItem ident="Aba"/>
+                <valItem ident="Abdisho-bar-Bahriz"/>
+                <valItem ident="Abdisho-bar-Brikha"/>
+                <valItem ident="Abdisho-of-Gazarta"/>
+                <valItem ident="Abdullah-I-bar-Stephanos"/>
+                <valItem ident="Abdullah-II-Sattuf"/>
+                <valItem ident="Abdulmasih-II"/>
+                <valItem ident="Abgar-the-Hagiographer"/>
+                <valItem ident="Abgarids-of-Edessa"/>
+                <valItem ident="Abraham-bar-Dashandad"/>
+                <valItem ident="Abraham-bar-Lipeh"/>
+                <valItem ident="Abraham-of-Beth-Rabban"/>
+                <valItem ident="Abraham-of-Kashkar"/>
+                <valItem ident="Abraham-of-Nathpar"/>
+                <valItem ident="Abrohom-II-Gharib"/>
+                <valItem ident="Abrohom-Nahshirtono"/>
+                <valItem ident="Addai-Teaching-of"/>
+                <valItem ident="Adiabene"/>
+                <valItem ident="Aesop"/>
+                <valItem ident="Ahiqar"/>
+                <valItem ident="Ahob-Qatraya"/>
+                <valItem ident="Ahudemmeh"/>
+                <valItem ident="Ahudemmeh-of-Balad"/>
+                <valItem ident="Aitalaha"/>
+                <valItem ident="Albonesi-Teseo-Ambrogio-degli"/>
+                <valItem ident="Aleppo"/>
+                <valItem ident="Alexander-Cycle"/>
+                <valItem ident="Alqosh"/>
+                <valItem ident="Alqosh-School-of"/>
+                <valItem ident="Amid"/>
+                <valItem ident="Amira-Jirjis"/>
+                <valItem ident="Amyun"/>
+                <valItem ident="al-Anbar"/>
+                <valItem ident="Antioch"/>
+                <valItem ident="Antun-of-Tagrit"/>
+                <valItem ident="Apamea"/>
+                <valItem ident="Aphrahat"/>
+                <valItem ident="Apocalypses"/>
+                <valItem ident="Aqaq"/>
+                <valItem ident="Arabic-Syriac-translations-from"/>
+                <valItem ident="Aramaic"/>
+                <valItem ident="Arameans"/>
+                <valItem ident="Arbela"/>
+                <valItem ident="Aristides-of-Athens"/>
+                <valItem ident="Aristotle"/>
+                <valItem ident="Armalah-Ishaq"/>
+                <valItem ident="Armenian-Christianity-Syriac-contacts-with"/>
+                <valItem ident="Art-and-architecture"/>
+                <valItem ident="Asad-Gabriel"/>
+                <valItem ident="Assemani-Elia"/>
+                <valItem ident="Assemani-Joseph-Aloysius"/>
+                <valItem ident="Assemani-Josephus-Simonius"/>
+                <valItem ident="Assemani-Stephanus-Evodius"/>
+                <valItem ident="Assfalg-Julius"/>
+                <valItem ident="Assyrians"/>
+                <valItem ident="Athanasios-I-Gamolo"/>
+                <valItem ident="Athanasios-II-of-Balad"/>
+                <valItem ident="Athanasios-Aslan"/>
+                <valItem ident="Athanasius-of-Alexandria"/>
+                <valItem ident="Audo-Toma"/>
+                <valItem ident="Awgen-Mar"/>
+                <valItem ident="Aydin-Numan"/>
+                <valItem ident="Ayyub-Barsoum"/>
+                <valItem ident="Babai-the-Great"/>
+                <valItem ident="Babai-of-Nisibis"/>
+                <valItem ident="Baghdad"/>
+                <valItem ident="Bahdeidat"/>
+                <valItem ident="Balad"/>
+                <valItem ident="Balai"/>
+                <valItem ident="Bar-Ali-Isho"/>
+                <valItem ident="Bar-Bahlul-Hasan"/>
+                <valItem ident="Bar-Ebroyo-Grigorios"/>
+                <valItem ident="Bar-Edta-Rabban"/>
+                <valItem ident="Bardaisan"/>
+                <valItem ident="Barhadbshabba-Arbaya"/>
+                <valItem ident="Barlaam-and-Josaphat"/>
+                <valItem ident="Barsawma-of-Nisibis"/>
+                <valItem ident="Barsawmo"/>
+                <valItem ident="Barsawmo-Dayro-d-Mor"/>
+                <valItem ident="Barsawmo-Safi-Grigorios"/>
+                <valItem ident="Barsoum-Ignatius-Afram"/>
+                <valItem ident="Barsoum-Murad-Saliba"/>
+                <valItem ident="Bartelle"/>
+                <valItem ident="Baselios-Gewargis"/>
+                <valItem ident="Basil-of-Caesarea"/>
+                <valItem ident="Baumstark-Anton"/>
+                <valItem ident="Beck-Edmund"/>
+                <valItem ident="Bedjan-Paul"/>
+                <valItem ident="Behnam-Dayro-d-Mor"/>
+                <valItem ident="Behnam-Hadloyo"/>
+                <valItem ident="Beirut"/>
+                <valItem ident="Bello-Estipan"/>
+                <valItem ident="Benjamin-of-Edessa"/>
+                <valItem ident="Beth-Abe-Monastery-of"/>
+                <valItem ident="Beth-Aramaye"/>
+                <valItem ident="Beth-Arbaye"/>
+                <valItem ident="Beth-Garmai"/>
+                <valItem ident="Beth-Lapat"/>
+                <valItem ident="Beth-Nuhadra"/>
+                <valItem ident="Beth-Qatraye"/>
+                <valItem ident="Beulay-Robert"/>
+                <valItem ident="Bible-General"/>
+                <valItem ident="Bible-Old-Testament-manuscripts"/>
+                <valItem ident="Bible-New-Testament-manuscripts"/>
+                <valItem ident="Bibliography"/>
+                <valItem ident="Bidary-Pawlos"/>
+                <valItem ident="Bidawid-Raphael-I"/>
+                <valItem ident="Bnay-Qyama-Bnat-Qyama"/>
+                <valItem ident="Book-of-Steps"/>
+                <valItem ident="Bostra"/>
+                <valItem ident="Braun-Oskar"/>
+                <valItem ident="British-Orthodox-Church"/>
+                <valItem ident="Brockelmann-Carl"/>
+                <valItem ident="Brooks-Ernest-Walter"/>
+                <valItem ident="Budge-Sir-Ernest-Alfred-Wallis"/>
+                <valItem ident="Burkitt-Francis-Crawford"/>
+                <valItem ident="Cardahi-Gabriel"/>
+                <valItem ident="Catherine-Monastery-of-St"/>
+                <valItem ident="Cause-of-Causes"/>
+                <valItem ident="Cave-of-Treasures"/>
+                <valItem ident="Ceriani-Antonio-Maria"/>
+                <valItem ident="Chabot-Jean-Baptiste"/>
+                <valItem ident="Chaldean-Catholic-Church"/>
+                <valItem ident="Chaldean-Syrian-Church"/>
+                <valItem ident="Chaldeans"/>
+                <valItem ident="Chicago"/>
+                <valItem ident="China-Syriac-Christianity-in"/>
+                <valItem ident="Christian-Palestinian-Aramaic"/>
+                <valItem ident="Chronicle-of-1234"/>
+                <valItem ident="Chronicle-of-Edessa"/>
+                <valItem ident="Chronicles-Syriac"/>
+                <valItem ident="Church-of-the-East"/>
+                <valItem ident="Cicek-Julius-Yeshu"/>
+                <valItem ident="Clement-of-Rome-and-Pseudo-Clementine-literature"/>
+                <valItem ident="Colophons"/>
+                <valItem ident="Computing-Syriac"/>
+                <valItem ident="Coptic-Christianity-Syriac-contacts-with"/>
+                <valItem ident="Costaz-Louis"/>
+                <valItem ident="Crusades"/>
+                <valItem ident="Cureton-William"/>
+                <valItem ident="Cyril-of-Alexandria"/>
+                <valItem ident="Cyril-of-Jerusalem"/>
+                <valItem ident="Dabbus-Antoine"/>
+                <valItem ident="Dadisho-I"/>
+                <valItem ident="Dadisho-Qatraya"/>
+                <valItem ident="Damascus"/>
+                <valItem ident="Damyanos-of-Alqosh"/>
+                <valItem ident="Danhash-George"/>
+                <valItem ident="Daniel-bar-Maryam"/>
+                <valItem ident="Daniel-bar-Tubanitha"/>
+                <valItem ident="Daniel-of-Mardin"/>
+                <valItem ident="Daniel-of-Salah"/>
+                <valItem ident="Daoud-Francis"/>
+                <valItem ident="Darmo-Toma"/>
+                <valItem ident="David-Clemens-Joseph"/>
+                <valItem ident="Dawid-bar-Pawlos"/>
+                <valItem ident="Dawid-Puniqoyo"/>
+                <valItem ident="De-Rossi-Azariah-Buonaiuto"/>
+                <valItem ident="Denha"/>
+                <valItem ident="Diamper-Synod-of"/>
+                <valItem ident="Diaspora"/>
+                <valItem ident="Diatessaron"/>
+                <valItem ident="al-Dibs-Yusuf"/>
+                <valItem ident="Didascalia-Apostolorum"/>
+                <valItem ident="Dinno-Nimatullah"/>
+                <valItem ident="Diodore-of-Tarsus"/>
+                <valItem ident="Dionysios-bar-Salibi"/>
+                <valItem ident="Dionysios-of-Tel-Mahre"/>
+                <valItem ident="Dionysius-the-Areopagite-Pseudo-"/>
+                <valItem ident="Dionysius-Thrax"/>
+                <valItem ident="Diosqoros-of-Gozarto"/>
+                <valItem ident="Dolabani-Philoxenos-Yuhanon"/>
+                <valItem ident="Dorektha"/>
+                <valItem ident="Draguet-Rene"/>
+                <valItem ident="Drijvers-Hendrik-Han-Jan-Willem"/>
+                <valItem ident="Dura-Europos"/>
+                <valItem ident="Duval-Paul-Rubens"/>
+                <valItem ident="al-Duwayhi-Istifan"/>
+                <valItem ident="Ecumenical-dialogue"/>
+                <valItem ident="Edde"/>
+                <valItem ident="Edessa"/>
+                <valItem ident="Edessa-School-of"/>
+                <valItem ident="Eli-of-Qartmin"/>
+                <valItem ident="Elias-Ghattas-Danho-Maqdisi"/>
+                <valItem ident="Elisha-bar-Quzbaye"/>
+                <valItem ident="Eliya-I-of-Tirhan"/>
+                <valItem ident="Eliya-III-Shakir"/>
+                <valItem ident="Eliya-mid-6th-cent"/>
+                <valItem ident="Eliya-late-8thearly-9th-cent"/>
+                <valItem ident="Eliya-of-al-Anbar"/>
+                <valItem ident="Eliya-of-Nisibis"/>
+                <valItem ident="Emmanuel-bar-Shahhare"/>
+                <valItem ident="Enanisho"/>
+                <valItem ident="The-Enaton"/>
+                <valItem ident="Ephrem"/>
+                <valItem ident="Ephrem-Life-of"/>
+                <valItem ident="Epiphanius-of-Salamis"/>
+                <valItem ident="Ethiopic-Christianity-Syriac-contacts-with"/>
+                <valItem ident="Euphemia-and-the-Goth"/>
+                <valItem ident="Eusebius-of-Caesarea"/>
+                <valItem ident="Eusebius-of-Emesa"/>
+                <valItem ident="Eutyches"/>
+                <valItem ident="Evagrius-of-Pontus"/>
+                <valItem ident="Exegesis-Old-Testament"/>
+                <valItem ident="Exegesis-New-Testament"/>
+                <valItem ident="Faiq-Naum"/>
+                <valItem ident="Fars"/>
+                <valItem ident="Fathallah-Elias"/>
+                <valItem ident="Fiey-Jean-Maurice"/>
+                <valItem ident="Furlani-Giuseppe"/>
+                <valItem ident="Gabriel-Fawlos"/>
+                <valItem ident="Gabriel-Monastery-of-Mor"/>
+                <valItem ident="Gabriel-bar-Bokhtisho"/>
+                <valItem ident="Gabriel-of-Basra"/>
+                <valItem ident="Gabriel-Qamsa"/>
+                <valItem ident="Gabriel-Qatraya"/>
+                <valItem ident="Galen"/>
+                <valItem ident="Gannat-Bussame"/>
+                <valItem ident="Garshuni"/>
+                <valItem ident="Geoponika"/>
+                <valItem ident="Georgian-Christianity-Syriac-contacts-with"/>
+                <valItem ident="Gewargis-I"/>
+                <valItem ident="Gewargis-of-Arbela"/>
+                <valItem ident="Gewargis-of-Arbela-Pseudo-"/>
+                <valItem ident="Gewargis-Warda"/>
+                <valItem ident="Giwargi-bp-of-the-Arab-tribes"/>
+                <valItem ident="Giwargis-II-Ignatius"/>
+                <valItem ident="Giwargis-of-Beltan"/>
+                <valItem ident="Gospel-of-the-Twelve-Apostles"/>
+                <valItem ident="Graffin-Francois"/>
+                <valItem ident="Graffin-Rene"/>
+                <valItem ident="Greek-Syriac-translations-from"/>
+                <valItem ident="Gregory-of-Nazianzus"/>
+                <valItem ident="Gregory-of-Nyssa"/>
+                <valItem ident="Gregory-Thaumaturgus"/>
+                <valItem ident="Grigor-I"/>
+                <valItem ident="Grigorios-of-Cyprus"/>
+                <valItem ident="Grigorios-Yawseph"/>
+                <valItem ident="Guidi-Ignazio"/>
+                <valItem ident="Guillaumont-Antoine"/>
+                <valItem ident="Habbi-Yusuf"/>
+                <valItem ident="Hagiography"/>
+                <valItem ident="Hakkari"/>
+                <valItem ident="de-Halleux-Andre"/>
+                <valItem ident="Hanno-Sulayman"/>
+                <valItem ident="al-Haqilani-Ibrahim"/>
+                <valItem ident="Harqlean-Version"/>
+                <valItem ident="Harran"/>
+                <valItem ident="Harris-James-Rendel"/>
+                <valItem ident="Hatch-William-Henry-Paine"/>
+                <valItem ident="Hazqiel-I"/>
+                <valItem ident="Henana"/>
+                <valItem ident="Henanisho-I"/>
+                <valItem ident="Henanisho-II"/>
+                <valItem ident="Henanisho-bar-Seroshway"/>
+                <valItem ident="Hiba"/>
+                <valItem ident="Hims"/>
+                <valItem ident="Himyar"/>
+                <valItem ident="Hippolytus-of-Rome"/>
+                <valItem ident="Hirta"/>
+                <valItem ident="Historiography-Syriac"/>
+                <valItem ident="Hormizd-Monastery-of-Rabban"/>
+                <valItem ident="Hubeika-Joseph"/>
+                <valItem ident="Hunayn-b-Ishaq"/>
+                <valItem ident="Ibn-al-Tayyib"/>
+                <valItem ident="Ignatius-of-Antioch"/>
+                <valItem ident="Ignatius-Yaqub-III"/>
+                <valItem ident="Ihidaya"/>
+                <valItem ident="Inscriptions"/>
+                <valItem ident="Isaiah-of-Scetis"/>
+                <valItem ident="Ishaq"/>
+                <valItem ident="Ishaq-of-Amid"/>
+                <valItem ident="Ishaq-of-Antioch"/>
+                <valItem ident="Ishaq-of-Edessa"/>
+                <valItem ident="Ishaq-of-Nineveh"/>
+                <valItem ident="Ishaq-Shbadnaya"/>
+                <valItem ident="Ishaya-of-Beth-Sbirina"/>
+                <valItem ident="Isho-bar-Nun"/>
+                <valItem ident="Isho-of-Merv"/>
+                <valItem ident="Ishobokht-of-Rev-Ardashir"/>
+                <valItem ident="Ishodad-of-Merv"/>
+                <valItem ident="Ishodnah"/>
+                <valItem ident="Ishoq-Azar"/>
+                <valItem ident="Ishoq-Saliba"/>
+                <valItem ident="Ishoyahb-I"/>
+                <valItem ident="Ishoyahb-II-of-Gdala"/>
+                <valItem ident="Ishoyahb-III-of-Adiabene"/>
+                <valItem ident="Ishoyahb-IV"/>
+                <valItem ident="Ishoyahb-bar-Malkon"/>
+                <valItem ident="Isidore-of-Pelusium"/>
+                <valItem ident="Islam-Syriac-contacts-with"/>
+                <valItem ident="Israel-of-Alqosh"/>
+                <valItem ident="Iwannis-of-Dara"/>
+                <valItem ident="Iwannis-Yuhanon"/>
+                <valItem ident="Iyob-of-Edessa"/>
+                <valItem ident="Jacob-Cyril"/>
+                <valItem ident="Jamil-Shmuel"/>
+                <valItem ident="Jansma-Taeke"/>
+                <valItem ident="Jerusalem"/>
+                <valItem ident="John-bar-Aphtonia"/>
+                <valItem ident="John-Chrysostom"/>
+                <valItem ident="John-Climacus"/>
+                <valItem ident="John-of-Damascus"/>
+                <valItem ident="John-Philoponos"/>
+                <valItem ident="John-Rufus"/>
+                <valItem ident="Josephus"/>
+                <valItem ident="Judaism-Syriac-contacts-with"/>
+                <valItem ident="Julian-of-Halicarnassus"/>
+                <valItem ident="Julian-Romance"/>
+                <valItem ident="Juridical-literature"/>
+                <valItem ident="Kaftun-Dayr"/>
+                <valItem ident="Kalila-and-Dimna"/>
+                <valItem ident="Karamlish"/>
+                <valItem ident="Karka-d-Beth-Slokh"/>
+                <valItem ident="Kfar-Helda"/>
+                <valItem ident="Khamis-bar-Qardahe"/>
+                <valItem ident="Khouri-Sarkis-Gabriel"/>
+                <valItem ident="Khoury-Asmar"/>
+                <valItem ident="Kokhe"/>
+                <valItem ident="Konat-Matta"/>
+                <valItem ident="Kthobonoyo-Syriac"/>
+                <valItem ident="de-Lagarde-Paul-Anton"/>
+                <valItem ident="Lamsa-George"/>
+                <valItem ident="Land-Jan-Pieter-Nicolaas"/>
+                <valItem ident="Leloir-Louis"/>
+                <valItem ident="Leon-of-Harran"/>
+                <valItem ident="Leroy-Jules"/>
+                <valItem ident="Levi-Della-Vida-Giorgio"/>
+                <valItem ident="Liturgy"/>
+                <valItem ident="Loozar-bar-Sobtho"/>
+                <valItem ident="Loozar-of-Beth-Qandasa"/>
+                <valItem ident="Maad"/>
+                <valItem ident="Macarian-Homilies"/>
+                <valItem ident="Malabar-Catholic-Church"/>
+                <valItem ident="Malabar-Independent-Syrian-Church"/>
+                <valItem ident="Malankara-Catholic-Church"/>
+                <valItem ident="Malankara-Orthodox-Syrian-Church"/>
+                <valItem ident="Malankara-Syriac-Orthodox-Church"/>
+                <valItem ident="Man-of-God-of-Edessa"/>
+                <valItem ident="Mani"/>
+                <valItem ident="Manna-Yaqob-Awgen"/>
+                <valItem ident="Manuscripts"/>
+                <valItem ident="Maphrian"/>
+                <valItem ident="Maqdisi-Jeremiah"/>
+                <valItem ident="Mar-Thoma-Syrian-Church-Malankara"/>
+                <valItem ident="Mara-bar-Serapion-Letter-of"/>
+                <valItem ident="Marcian-the-Monk"/>
+                <valItem ident="Marcion"/>
+                <valItem ident="Mardin"/>
+                <valItem ident="Mari-Acts-of"/>
+                <valItem ident="Mark-the-Monk"/>
+                <valItem ident="Mark-Monastery-of-St"/>
+                <valItem ident="Maron"/>
+                <valItem ident="Maronite-Church"/>
+                <valItem ident="Martyrs-and-persecutions"/>
+                <valItem ident="Marutha-of-Maypherqat"/>
+                <valItem ident="Marutha-of-Tagrit"/>
+                <valItem ident="Mary"/>
+                <valItem ident="Masius-Andreas"/>
+                <valItem ident="Masora"/>
+                <valItem ident="Masud-of-Tur-Abdin"/>
+                <valItem ident="Matay-Dayro-d-Mor"/>
+                <valItem ident="Maximus"/>
+                <valItem ident="Medicine"/>
+                <valItem ident="Melitene"/>
+                <valItem ident="Meliton-the-Philosopher"/>
+                <valItem ident="Melkite"/>
+                <valItem ident="Melkite-literature-in-Syriac"/>
+                <valItem ident="Menander-Syriac-sentences-of"/>
+                <valItem ident="Methodius-Apocalypse-of-Pseudo-"/>
+                <valItem ident="Michael-I-Rabo"/>
+                <valItem ident="Michael-II-the-Younger"/>
+                <valItem ident="Michael-Badoqa"/>
+                <valItem ident="Midyat"/>
+                <valItem ident="Mingana-Alphonse"/>
+                <valItem ident="Moberg-Axel"/>
+                <valItem ident="Monasticism"/>
+                <valItem ident="Mosul"/>
+                <valItem ident="Mubarak-Butros"/>
+                <valItem ident="Murad-Michael"/>
+                <valItem ident="Musa-al-Habashi-Dayr-Mar"/>
+                <valItem ident="Mushe-of-Aggel"/>
+                <valItem ident="Mushe-bar-Kipho"/>
+                <valItem ident="Mushe-of-Mardin"/>
+                <valItem ident="Mushe-of-Nisibis"/>
+                <valItem ident="Nagran"/>
+                <valItem ident="Naqqasheh-Afram"/>
+                <valItem ident="Narsai"/>
+                <valItem ident="Nathniel-of-Sirzor"/>
+                <valItem ident="Nau-Francois"/>
+                <valItem ident="Nestorianism"/>
+                <valItem ident="Nestorios-of-Beth-Nuhadra"/>
+                <valItem ident="Nestorius"/>
+                <valItem ident="Nicolaus-of-Damascus"/>
+                <valItem ident="Nilus-the-Solitary"/>
+                <valItem ident="Nimatullah-Ignatius"/>
+                <valItem ident="Nineveh"/>
+                <valItem ident="Nisibis"/>
+                <valItem ident="Nisibis-School-of"/>
+                <valItem ident="Noldeke-Theodor"/>
+                <valItem ident="Nonos-of-Nisibis"/>
+                <valItem ident="Nuh-the-Lebanese"/>
+                <valItem ident="Nuri-Athanasios-Ignatios"/>
+                <valItem ident="Nuro-Abrohom"/>
+                <valItem ident="Old-Syriac-documents"/>
+                <valItem ident="Old-Syriac-Version"/>
+                <valItem ident="Onitha"/>
+                <valItem ident="Palimpsests"/>
+                <valItem ident="Palladius"/>
+                <valItem ident="Papa-bar-Aggai"/>
+                <valItem ident="Papyri-Syriac"/>
+                <valItem ident="Paradise-of-the-Fathers-Book-of"/>
+                <valItem ident="Pawla-of-Edessa"/>
+                <valItem ident="Pawlos-of-Beth-Ukome"/>
+                <valItem ident="Pawlos-of-Kallinikos"/>
+                <valItem ident="Pawlos-of-Nisibis"/>
+                <valItem ident="Pawlos-the-Persian"/>
+                <valItem ident="Pawlos-the-Philosopher"/>
+                <valItem ident="Pawlos-of-Tella"/>
+                <valItem ident="Payne-Smith-Mrs-Margoliouth-Jessie"/>
+                <valItem ident="Payne-Smith-Robert"/>
+                <valItem ident="Perley-David-Barsum"/>
+                <valItem ident="Peshitta"/>
+                <valItem ident="Peter-the-Iberian"/>
+                <valItem ident="Peter-of-Kallinikos"/>
+                <valItem ident="Philoxenos-of-Mabbug"/>
+                <valItem ident="Physiologus"/>
+                <valItem ident="van-der-Ploeg-Johannes-P-M"/>
+                <valItem ident="Poetry"/>
+                <valItem ident="Polykarpos"/>
+                <valItem ident="Porphyry"/>
+                <valItem ident="Printing"/>
+                <valItem ident="Proba"/>
+                <valItem ident="Proba-metr-of-Chalcedon"/>
+                <valItem ident="Proclus-of-Constantinople"/>
+                <valItem ident="Psalms-Syriac-Apocryphal"/>
+                <valItem ident="Qara"/>
+                <valItem ident="Qarabashi-Abd-al-Masih-Numan"/>
+                <valItem ident="Qaraqosh"/>
+                <valItem ident="Qarqaphto-Monastery-of"/>
+                <valItem ident="Qdam-w-Bathar"/>
+                <valItem ident="Qenneshre-Monastery-of"/>
+                <valItem ident="Qiryo-Yuhanna"/>
+                <valItem ident="Qiyore-of-Edessa"/>
+                <valItem ident="Qoro-Elias-Malke"/>
+                <valItem ident="Qurillona"/>
+                <valItem ident="Quryaqos"/>
+                <valItem ident="Rabbula-of-Edessa"/>
+                <valItem ident="Rabbula-Gospels"/>
+                <valItem ident="al-Rahib-Elias"/>
+                <valItem ident="Rahmani-Ignatius-Ephrem-II"/>
+                <valItem ident="Renaissance-Syriac"/>
+                <valItem ident="Reshayna"/>
+                <valItem ident="Rhetore-Jacques"/>
+                <valItem ident="Rhetoric"/>
+                <valItem ident="Romanos-the-Melodist"/>
+                <valItem ident="Saba-Boutros"/>
+                <valItem ident="Sabrisho-I"/>
+                <valItem ident="Sabrisho-bar-Pawlos"/>
+                <valItem ident="Sachau-Eduard"/>
+                <valItem ident="Sahdona-Martyrius"/>
+                <valItem ident="al-Sahyuni-Jibrail"/>
+                <valItem ident="Saka-Yaqub"/>
+                <valItem ident="al-Salib-Dayr"/>
+                <valItem ident="Salman-Hanna"/>
+                <valItem ident="Salomon-Desire"/>
+                <valItem ident="Samuel-Athanasios-Yeshu"/>
+                <valItem ident="Sargis-bar-Wahle"/>
+                <valItem ident="Sargis-Bhira"/>
+                <valItem ident="Sargis-the-Stylite"/>
+                <valItem ident="Sauget-Joseph-Marie"/>
+                <valItem ident="Sawma-Abrohom"/>
+                <valItem ident="Sawma-Rabban"/>
+                <valItem ident="Sayfo"/>
+                <valItem ident="Scher-Addai"/>
+                <valItem ident="Schulthess-Friedrich"/>
+                <valItem ident="Scribes"/>
+                <valItem ident="Script-Syriac"/>
+                <valItem ident="Secundus"/>
+                <valItem ident="Selb-Walter"/>
+                <valItem ident="Seleucia-Ctesiphon"/>
+                <valItem ident="Seminary-of-St-John"/>
+                <valItem ident="Sergios-of-Reshayna"/>
+                <valItem ident="Severos-Commentary-of-the-monk"/>
+                <valItem ident="Severos-bar-Mashqo"/>
+                <valItem ident="Severos-Sebokht"/>
+                <valItem ident="Severus-of-Antioch"/>
+                <valItem ident="Sextus-Sentences-of"/>
+                <valItem ident="Shahdost"/>
+                <valItem ident="Shalita-Mar"/>
+                <valItem ident="Shallita-of-Reshayna"/>
+                <valItem ident="Shamsi-Clan"/>
+                <valItem ident="Sharbokht-bar-Msargis"/>
+                <valItem ident="Sharfeh"/>
+                <valItem ident="Shaya-Elias"/>
+                <valItem ident="Shemon-Eshai"/>
+                <valItem ident="Shemon-bar-Sabbae"/>
+                <valItem ident="Shemon-of-Rev-Ardashir"/>
+                <valItem ident="Shemon-Shanqlawi"/>
+                <valItem ident="Shemon-d-Taybutheh"/>
+                <valItem ident="Shemun-II-Basileios"/>
+                <valItem ident="Shemun-of-Beth-Arsham"/>
+                <valItem ident="Shemun-of-Edessa"/>
+                <valItem ident="Shemun-Quqoyo"/>
+                <valItem ident="Shemun-the-Stylite"/>
+                <valItem ident="Shlemon-of-Basra"/>
+                <valItem ident="Shubhalmaran"/>
+                <valItem ident="Siirt"/>
+                <valItem ident="Silwanos-of-Qardu"/>
+                <valItem ident="Sindbad"/>
+                <valItem ident="Sleepers-of-Ephesus-Legend-of-the"/>
+                <valItem ident="Smith-Agnes-and-Margaret"/>
+                <valItem ident="Sobo-Ignatius"/>
+                <valItem ident="Sobo-Malki-al-Qas-Afram"/>
+                <valItem ident="Sogdian"/>
+                <valItem ident="Solomon-Odes-of"/>
+                <valItem ident="Sophronius"/>
+                <valItem ident="Stephanos-bar-Sudayli"/>
+                <valItem ident="Strothmann-Werner"/>
+                <valItem ident="Sureth"/>
+                <valItem ident="al-Suryan-Dayr"/>
+                <valItem ident="Symmachus"/>
+                <valItem ident="Synodicon-Orientale"/>
+                <valItem ident="Syriac-Catholic-Church"/>
+                <valItem ident="Syriac-Conferences"/>
+                <valItem ident="Syriac-Language"/>
+                <valItem ident="Syriac-Lexicography"/>
+                <valItem ident="Syriac-Orthodox-Church"/>
+                <valItem ident="Syro-Hexapla"/>
+                <valItem ident="Tagrit"/>
+                <valItem ident="Tappuni-Gabriel"/>
+                <valItem ident="Tatian"/>
+                <valItem ident="Taw-Mim-Simkath"/>
+                <valItem ident="Telkepe"/>
+                <valItem ident="Tell-Ada-Monastery-of"/>
+                <valItem ident="Testament-of-Adam"/>
+                <valItem ident="Testament-of-our-Lord-Jesus-Christ"/>
+                <valItem ident="Thabit-b-Qurra"/>
+                <valItem ident="Theano"/>
+                <valItem ident="Theodora-Empress"/>
+                <valItem ident="Theodore-of-Mopsuestia"/>
+                <valItem ident="Theodoret-of-Cyrrhus"/>
+                <valItem ident="Theodoros-Abu-Qurra"/>
+                <valItem ident="Theodoros-bar-Koni"/>
+                <valItem ident="Theodoros-bar-Wahbun"/>
+                <valItem ident="Theodosios-patr"/>
+                <valItem ident="Theodosios-of-Edessa"/>
+                <valItem ident="Theodosius-of-Alexandria"/>
+                <valItem ident="Theodotos-of-Amid"/>
+                <valItem ident="Theodotus-of-Ancyra"/>
+                <valItem ident="Theophilos-of-Edessa"/>
+                <valItem ident="Thomas-Acts-of"/>
+                <valItem ident="Thomas-Christians"/>
+                <valItem ident="Timotheos-I"/>
+                <valItem ident="Timotheos-II"/>
+                <valItem ident="Timotheos-II-of-Alexandria"/>
+                <valItem ident="Timotheus-Abimalek"/>
+                <valItem ident="Titus-of-Bostra"/>
+                <valItem ident="Toma-of-Edessa"/>
+                <valItem ident="Toma-of-Marga"/>
+                <valItem ident="Tsereteli-Konstantin"/>
+                <valItem ident="Tumo-of-Harqel"/>
+                <valItem ident="Tur-Abdin"/>
+                <valItem ident="Turfan-Syriac-texts-from"/>
+                <valItem ident="Turoyo"/>
+                <valItem ident="Urmia"/>
+                <valItem ident="Van-den-Eynde-Ceslas-Florent"/>
+                <valItem ident="Van-Roey-Albert"/>
+                <valItem ident="Vaschalde-Arthur-Adolphe-CSB"/>
+                <valItem ident="Voobus-Arthur"/>
+                <valItem ident="Wall-paintings-in-Syria-and-Lebanon"/>
+                <valItem ident="Women-in-the-Syriac-Tradition"/>
+                <valItem ident="Wright-William"/>
+                <valItem ident="Xian"/>
+                <valItem ident="Yahbalaha-I"/>
+                <valItem ident="Yahbalaha-III"/>
+                <valItem ident="Yahya-b-Adi"/>
+                <valItem ident="Yaqub-bar-Shakko"/>
+                <valItem ident="Yaqub-Burdoyo"/>
+                <valItem ident="Yaqub-of-Edessa"/>
+                <valItem ident="Yaqub-of-Nisibis"/>
+                <valItem ident="Yaqub-of-Serugh"/>
+                <valItem ident="Yawsep-I-of-Seleucia-Ctesiphon"/>
+                <valItem ident="Yawsep-II"/>
+                <valItem ident="Yawsep-d-Beth-Qelayta"/>
+                <valItem ident="Yawsep-Busnaya"/>
+                <valItem ident="Yawsep-Hazzaya"/>
+                <valItem ident="Yawsep-Huzaya"/>
+                <valItem ident="Yawsep-of-Telkepe"/>
+                <valItem ident="Yeshu-bar-Khayrun"/>
+                <valItem ident="Yeshu-the-Stylite"/>
+                <valItem ident="Yohannan-Azraq"/>
+                <valItem ident="Yohannan-bar-Abgare"/>
+                <valItem ident="Yohannan-bar-Penkaye"/>
+                <valItem ident="Yohannan-bar-Sarapion"/>
+                <valItem ident="Yohannan-bar-Zobi"/>
+                <valItem ident="Yohannan-of-Beth-Rabban"/>
+                <valItem ident="Yohannan-of-Dailam"/>
+                <valItem ident="Yohannan-of-Dalyatha"/>
+                <valItem ident="Yohannan-Ihidaya"/>
+                <valItem ident="Yohannan-of-Mosul"/>
+                <valItem ident="Yohannan-Sullaqa"/>
+                <valItem ident="Yuhanon-X-Isho-bar-Shushan"/>
+                <valItem ident="Yuhanon-XIV-bar-Shayullah"/>
+                <valItem ident="Yuhanon-bar-Madani"/>
+                <valItem ident="Yuhanon-Barbur"/>
+                <valItem ident="Yuhanon-of-Ephesus"/>
+                <valItem ident="Yuhanon-of-Litarba"/>
+                <valItem ident="Yuhanon-of-Mardin"/>
+                <valItem ident="Yuhanon-Maron"/>
+                <valItem ident="Yuhanon-Naqar"/>
+                <valItem ident="Yuhanon-Qashisho"/>
+                <valItem ident="Yuhanon-of-the-Sedre"/>
+                <valItem ident="Yuhanon-of-Tella"/>
+                <valItem ident="Yulyana-Saba"/>
+                <valItem ident="Zacharias-Pseudo-"/>
+                <valItem ident="Zacharias-Rhetor"/>
+                <valItem ident="al-Zafaran-Dayr"/>
+                <valItem ident="Zingerle-Pius-Jacob"/>
+                <valItem ident="Zuqnin-Chronicle-of"/>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+
+      </schemaSpec>
+
+
+    </body>
+  </text>
+</TEI>
