@@ -44,7 +44,7 @@
       <schemaSpec ident="e-GEDSH" source="tei:current" start="TEI">
 
         <moduleRef key="core"
-          include="p ref hi listBibl head bibl title corr sic editor resp respStmt date biblStruct milestone monogr name note imprint pubPlace publisher"/>
+          include="choice p ref hi listBibl head bibl title corr sic editor resp respStmt date biblStruct label milestone monogr name note imprint pubPlace publisher foreign"/>
         <moduleRef key="tei"/>
         <moduleRef key="header"
           include="teiHeader fileDesc titleStmt sponsor funder principal editionStmt edition publicationStmt authority availability licence sourceDesc idno"/>
@@ -52,6 +52,17 @@
         <moduleRef key="namesdates"/>
         <moduleRef key="linking" include="ab"/>
 
+        <classSpec type="atts" ident="att.global.analytic" mode="add">
+          <desc>I have needed to include this because it somehow disappeared from this customization. I do not know why this was necessary.</desc>
+          <attList>
+            <attDef ident="ana" mode="add">
+              <datatype>
+                <dataRef key="teidata.text"/>
+              </datatype>
+            </attDef>
+          </attList>
+        </classSpec>
+        
         <elementSpec ident="ab" mode="change" module="linking">
           <attList>
             <attDef ident="type" mode="replace" usage="req">
@@ -93,6 +104,7 @@
                 <valItem ident="entry"/>
                 <valItem ident="body"/>
                 <valItem ident="crossreference"/>
+                <valItem ident="bibl"/>
               </valList>
             </attDef>
           </attList>
@@ -113,7 +125,31 @@
             </attDef>
           </attList>
         </elementSpec>
-
+        
+        <elementSpec ident="foreign" mode="change" module="core">
+          <attList>
+            <attDef ident="rend" mode="replace" usage="req">
+              <desc>This customization requires that the foreign element have a rend attribute with the following value.</desc>
+              <datatype>
+                <dataRef key="teidata.enumerated"/>
+              </datatype>
+              <valList type="closed">
+                <valItem ident="italic"/>
+              </valList>
+            </attDef>
+            <attDef ident="xml:lang" mode="replace" usage="req">
+              <desc>This customization requires that the foreign element have an xml:lang attribute and suggests the following values.</desc>
+              <datatype>
+                <dataRef key="teidata.enumerated"/>
+              </datatype>
+              <valList type="semi">
+                <valItem ident="en-x-gedsh"/>
+                <valItem ident="la"/>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+        
         <elementSpec ident="head" mode="change" module="core">
           <attList>
             <attDef ident="type" mode="replace" usage="opt">
@@ -138,6 +174,7 @@
               <valList type="closed">
                 <valItem ident="italic"/>
                 <valItem ident="superscript"/>
+                <valItem ident="underline"/>
               </valList>
             </attDef>
           </attList>
@@ -157,7 +194,7 @@
                 <dataRef key="teidata.enumerated"/>
               </datatype>
               <valList type="closed">
-                <valItem ident="uri"/>
+                <valItem ident="URI"/>
                 <valItem ident="syriaca-bibl"/>
                 <valItem ident="subject"/>
                 <valItem ident=" entry"/>
@@ -202,10 +239,8 @@
 
         <elementSpec ident="ref" mode="change" module="core">
           <attList>
-            <attDef ident="rend" mode="replace" usage="req">
-              <desc>This customization TEMPORARILY require a rend attribute for the ref element and constrain attribute
-                value to those listed. We will need to change the schema before adding Syriaca
-                URIs</desc>
+            <attDef ident="rend" mode="replace" usage="opt">
+              <desc>This customization requires that the values of the rend attribute are constrained when applied to the ref element.</desc>
               <datatype>
                 <dataRef key="teidata.enumerated"/>
               </datatype>
@@ -213,14 +248,21 @@
                 <valItem ident="bold"/>
               </valList>
             </attDef>
-            <attDef ident="target" mode="replace" usage="req">
-              <desc>This customization TEMPORARILY require a target attribute for the ref element and constrain
-                attribute value to those listed. We will need to change the schema before adding
-                Syriaca URIs</desc>
+            <attDef ident="type" mode="replace" usage="opt">
+              <desc>This customization requires that the values of the rend attribute are constrained when applied to the ref element.</desc>
               <datatype>
                 <dataRef key="teidata.enumerated"/>
               </datatype>
               <valList type="closed">
+                <valItem ident="url"/>
+              </valList>
+            </attDef>
+            <attDef ident="target" mode="replace" usage="opt">
+              <desc>This customization suggest values for the target attribute when applied to the ref element. These values are the GEDSH headwords.</desc>
+              <datatype>
+                <dataRef key="teidata.enumerated"/>
+              </datatype>
+              <valList type="semi">
                 <valItem ident="Aba-I"/>
                 <valItem ident="Aba-II-of-Kashkar"/>
                 <valItem ident="Aba"/>
