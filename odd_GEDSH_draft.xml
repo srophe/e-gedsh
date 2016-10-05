@@ -44,13 +44,14 @@
       <schemaSpec ident="e-GEDSH" source="tei:current" start="TEI">
 
         <moduleRef key="core"
-          include="choice p ref hi listBibl head bibl title corr sic editor resp respStmt date biblStruct label milestone monogr name note imprint pubPlace publisher foreign"/>
+          include="choice p ref hi listBibl head bibl title corr sic editor resp respStmt date biblStruct label milestone monogr name note imprint pubPlace publisher foreign pb graphic"/>
         <moduleRef key="tei"/>
         <moduleRef key="header"
           include="teiHeader fileDesc titleStmt sponsor funder principal editionStmt edition publicationStmt authority availability licence sourceDesc idno"/>
-        <moduleRef key="textstructure" include="TEI text body div byline"/>
+        <moduleRef key="textstructure" include="TEI text front body back div div1 div2 div3 byline"/>
         <moduleRef key="namesdates"/>
         <moduleRef key="linking" include="ab"/>
+        <moduleRef key="figures" include="figure figDesc table row cell"/>
 
         <classSpec type="atts" ident="att.global.analytic" mode="add">
           <desc>I have needed to include this because it somehow disappeared from this customization. I do not know why this was necessary.</desc>
