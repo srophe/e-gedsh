@@ -891,6 +891,20 @@
           </attList>
         </elementSpec>
 
+        <elementSpec ident="title" mode="change" module="core">
+          <attList>
+            <attDef ident="rend" mode="replace" usage="opt">
+              <desc>This customization requires that the values of the rend attribute are constrained when applied to the title element.</desc>
+              <datatype>
+                <dataRef key="teidata.enumerated"/>
+              </datatype>
+              <valList type="closed">
+                <valItem ident="italic"/>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+        
       </schemaSpec>
 
 
