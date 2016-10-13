@@ -1,0 +1,745 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../../out/odd_GEDSH_draft.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div1>
+            <figure>
+               <graphic url="http://gedsh.bethmardutho.org/fig/1"/>
+               <figDesc>Fig. 1. Orpheus taming wild animals. Mosaic decorating the tomb of Papa,
+                  with Syriac inscription dated 194, and reflecting Greco-Roman culture of the
+                  Edessa area under the Abgarids. Dallas Museum of Art. Photo: John F. Healey. See
+                  J. F. Healey. A new Syriac mosaic inscription, J.S.S. 51 (2006), 313–27 as well as
+                  U. Possekel, Orpheus among the animals. A new dated mosaic from Osrhoene, OC92
+                  (2008), 1–35.</figDesc>
+            </figure>
+            <figure>
+               <graphic url="http://gedsh.bethmardutho.org/fig/2"/>
+               <figDesc>Fig. 2. King Abgar receiving the portrait of Jesus. Modern relief in the
+                  Syr. Orth. Church of St. George in Aleppo. The two inscriptions contain extracts
+                  from the epistolary exchange between Abgar and Jesus. From Brock and Taylor,
+                  Hidden Pearl, vol. 2,50 (Photo: Riccardo Grassetti).</figDesc>
+            </figure>
+            <figure>
+               <graphic url="http://gedsh.bethmardutho.org/fig/4"/>
+               <figDesc>Fig. 4. Alqosh, Iraq. The village in the snow. Photo: Lucas Van Rompay
+                  (1971).</figDesc>
+            </figure>
+            <figure>
+               <graphic url="http://gedsh.bethmardutho.org/fig/5"/>
+               <figDesc>Fig. 5. Amid (Diyarbakır). Syr. Orth. Church of Yoldat Aloho. Photo: Hidemi
+                  Takahashi.</figDesc>
+            </figure>
+            <figure>
+               <graphic url="http://gedsh.bethmardutho.org/fig/7"/>
+               <figDesc>Fig. 7. Armenian inscriptions in the Dayro d-Mor Behnam, main entrance. The
+                  upper inscription was left by an Armenian visitor from Sebaste (Sivas) in 1884.
+                  Photo: Amir Harrak</figDesc>
+            </figure>
+            <figure>
+               <graphic url="http://gedsh.bethmardutho.org/fig/8"/>
+               <figDesc>Fig. 8. Initial page of the Syriac-Armenian lexicon in ms. Yale Syr. 9.
+                  Beinecke Library of Yale University. See H. Takahashi and J.J.S. Weitenberg. ‘The
+                  Shorter Syriac-Armenian Glossary in Ms. Yale Syriac 9. Part 1’, JCSSS 10 (2010)
+                  68–83.</figDesc>
+            </figure>
+            <figure>
+               <graphic url="http://gedsh.bethmardutho.org/fig/9"/>
+               <figDesc>Fig. 9. Basilica of Kharab Shams, Syria, built in the 4th cent. and
+                  partially reconstructed in the 5th cent. One of the many abandoned Christian
+                  monuments in the region between Aleppo and Antioch. Photo: Annewies van den Hoek.
+                  See I. Peña, The Christian art of Byzantine Syria (1996), 64–65.</figDesc>
+            </figure>
+            <figure>
+               <graphic url="http://gedsh.bethmardutho.org/fig/10"/>
+               <figDesc>Fig. 10. Bema lectern from Bennawi, near Aleppo. Garden of the National
+                  Museum Damascus. From Brock and Taylor, Hidden Pearl, vol. 2, 43 (Photo: Riccardo
+                  Grassetti).</figDesc>
+            </figure>
+            <figure>
+               <graphic url="http://gedsh.bethmardutho.org/fig/11"/>
+               <figDesc>Fig. 11. Mosaic with the female name of Symeonis. From a monastery at Tall
+                  Biʿa, near Raqqaʿ, Syria. Deutsche Orient-Gesellschaft, Grabung Tall Biʿa. Photo:
+                  Anwar ʿAbd al-Ghafour.</figDesc>
+            </figure>
+            <figure>
+               <graphic url="http://gedsh.bethmardutho.org/fig/13"/>
+               <figDesc>Fig. 13. Bronze incense burner from Tagrit, with scenes from the life of
+                  Jesus. In this image the baptism is depicted. Baghdad Iraqi Museum no. 11243/1.
+                  Courtesy of Amir Harrak. See A. Harrak, ‘The incense burner of Takrit: An
+                  iconographical analysis’, ECA (2006), 47–52.</figDesc>
+            </figure>
+            <figure>
+               <graphic url="http://gedsh.bethmardutho.org/fig/14"/>
+               <figDesc>Fig. 14. Liturgical fan, made for Dayr al-Suryān (Egypt) and containing a
+                  Syriac inscription dated 1202/3. Courtesy of the Musée Royal de Mariemont
+                  (Morlanwelz, Belgium). See B. Snelders, Identity and Christian-Muslim interaction.
+                  Medieval art of the Syrian Orthodox from the Mosul area (OLA 198; 2010),
+                  105–50.</figDesc>
+            </figure>
+            <figure>
+               <graphic url="http://gedsh.bethmardutho.org/fig/15"/>
+               <figDesc>Fig. 15. Modern Syr. Cath. Church in Zaydal, near Ḥimṣ, Syria. The church is
+                  decorated with wall paintings by the Maronite artist and scholar Abdo Badwi, who
+                  draws much of his inspiration from earlier Syr. Christian art. Photo: Lucas Van
+                  Rompay. See also Fig. 86.</figDesc>
+            </figure>
+            <figure>
+               <graphic url="http://gedsh.bethmardutho.org/fig/16"/>
+               <figDesc>Fig. 16. Bahdeidat, Lebanon, Maronite Church of Mar Tadros. Paul van Moorsel
+                  Centre for Christian Art and Culture in the Middle East, Leiden University. Photo:
+                  Mat Immerzeel. See M. Immerzeel, Identity puzzles, Medieval Christian art in Syria
+                  and Lebanon (2009), 101–5.</figDesc>
+            </figure>
+            <figure>
+               <graphic url="http://gedsh.bethmardutho.org/fig/17"/>
+               <figDesc>Fig. 17. Bahdeidat, Lebanon, Maronite Church of Mar Tadros. St. Stephen:
+                  detail of the lower part of the wall painting program in the conch of the apse,
+                  with Syriac inscription. Paul van Moorsel Centre for Christian Art and Culture in
+                  the Middle East, Leiden University. Photo: Mat Immerzeel</figDesc>
+            </figure>
+            <figure>
+               <graphic url="http://gedsh.bethmardutho.org/fig/18"/>
+               <figDesc>Fig. 18. Autographed ex-libris of Bar ʿEbroyo, preserved in a ms. in
+                  Istanbul. Published in A. Sayılı, ‘Khwāja Naṣīr-i Tūsī wa raṣadkhāna-i Marāgha,
+                  Ankara Üniversitesi Dil ve Tarih-Coğrafya Fakültesi Dergisi 14 (1956), plate
+                  opposite p. 16.</figDesc>
+            </figure>
+            <figure>
+               <graphic url="http://gedsh.bethmardutho.org/fig/19"/>
+               <figDesc>Fig. 19. The Syriac Saint Barṣawmo depicted in the nave of the church of St.
+                  Antony's Monastery, Egypt, with an inscription partly in Syriac and partly in
+                  Coptic. Bibliotheca Alexandrina, Alexandria, Egypt. Courtesy of Ahmed Mansour. See
+                  Kh. Azab and A. Mansour, Journey of Writing in Egypt (2008), 158
+                  (Fig.10).</figDesc>
+            </figure>
+            <figure>
+               <graphic url="http://gedsh.bethmardutho.org/fig/20"/>
+               <figDesc>Fig. 20. The tombs of Grigorios Bar ʿEbroyo and his brother Grigorios
+                  Barṣawmo Ṣafī in the Dayro d-Mor Matay, with inscriptions in Garshuni and Syriac,
+                  probably dating from the 17th cent. Photo: Amir Harrak. See Harrak, Syriac and
+                  Garshuni inscriptions of Iraq, AF.01.05.</figDesc>
+            </figure>
+            <figure>
+               <graphic url="http://gedsh.bethmardutho.org/fig/21"/>
+               <figDesc>Fig. 21. Portrait of Mor Severius Barsoum, the future Patriarch Ignatius
+                  Afram Barsoum. From Brock and Taylor, Hidden Pearl, vol. 3, 205 (Photo: Riccardo
+                  Grassetti).</figDesc>
+            </figure>
+            <figure>
+               <graphic url="http://gedsh.bethmardutho.org/fig/22"/>
+               <figDesc>Fig. 22. Barṭelle, Iraq. Syr. Orth. Church of Mart Shmuni. Photo. Amir
+                  Harrak.</figDesc>
+            </figure>
+            <figure>
+               <graphic url="http://gedsh.bethmardutho.org/fig/23"/>
+               <figDesc>Fig. 23. Barṭelle, Iraq. Syr. Orth. Church of Mart Shmuni: ancient baptismal
+                  font with Syr. inscription, dated 1342/43. Photo: Amir Harrak. See Harrak, Syriac
+                  and Garshuni inscriptions of Iraq, AB.01.01.</figDesc>
+            </figure>
+            <figure>
+               <graphic url="http://gedsh.bethmardutho.org/fig/24"/>
+               <figDesc>Fig. 24. First page of P. Bedjan's translation into Neo-Aramaic of Thomas à
+                  Kempis’ Imitation of Christ (1885).</figDesc>
+            </figure>
+            <figure>
+               <graphic url="http://gedsh.bethmardutho.org/fig/25"/>
+               <figDesc>Fig, 25. Dayro d-Mor Behnam: entrance to the main building and back side of
+                  the martyrium (left). Photo: Lucas Van Rompay (1971).</figDesc>
+            </figure>
+            <figure>
+               <graphic url="http://gedsh.bethmardutho.org/fig/26"/>
+               <figDesc>Fig, 26. Dayro d-Mor Behnam: entrance to the main building, after
+                  renovation. Photo: Amir Harrak.</figDesc>
+            </figure>
+            <figure>
+               <graphic url="http://gedsh.bethmardutho.org/fig/27"/>
+               <figDesc>Fig, 27. Dayro d-Mor Behnam: martyrium of Behnam and Sarah (left) and
+                  entrance building Photo. Amir Harrak.</figDesc>
+            </figure>
+            <figure>
+               <graphic url="http://gedsh.bethmardutho.org/fig/28"/>
+               <figDesc>Fig. 28. Dayro d-Mor Behnam: outer gate of the church with Syriac and Arabic
+                  inscriptions. Photo taken by the University of Michigan Expedition for the Iraqi
+                  Department of Antiquities (in the 1930s). Courtesy of Amir Harrak. See Harrak,
+                  Syriac and Garshani inscriptions of Iraq, AE.0105.</figDesc>
+            </figure>
+            <figure>
+               <graphic url="http://gedsh.bethmardutho.org/fig/29"/>
+               <figDesc>Fig. 29. Ms. London, Brit. Libr., Add. 14,471. E.-Syr. ms. containing the
+                  Four Gospels (the passage reproduced is Luke 11:48–12:10). The ms. was written in
+                  Nisibis and is dated only by the regnal year of the Sasanian king Khusrau II
+                  (590–628), viz. his 25th year (= 614/5). From Hatch, Album, 212 (Plate CLXI). See
+                  S. Brock, ‘Early dated manuscripts of the Church of the East, 7th–13th century’,
+                  JAAS. 21.2 (2007), 10–11.</figDesc>
+            </figure>
+            <figure>
+               <graphic url="http://gedsh.bethmardutho.org/fig/30"/>
+               <figDesc>Fig. 30. Folio from ms. 716 of the Edgar J. Goodspeed Collection of the
+                  Special Collections Library of the University of Chicago. Incomplete ms. of the
+                  Peshitta New Testament (probably 9th cent.). The passage reproduced is Acts
+                  27:33–28:6, with several (secondary) Arabic glosses in the right-hand
+                  margin.</figDesc>
+            </figure>
+            <figure>
+               <graphic url="http://gedsh.bethmardutho.org/fig/31"/>
+               <figDesc>Fig. 31. Ms. Duke Special Collections Library, Syr. 1. Incomplete ms. of the
+                  Four Gospels (10th or 11th cent.). The passage reproduced is Mark 7:23–30, with
+                  the lection heading for the fourth Sunday of Lent.</figDesc>
+            </figure>
+            <figure>
+               <graphic url="http://gedsh.bethmardutho.org/fig/33"/>
+               <figDesc>Fig. 33. The news about the big fire in Chicago as reported in the
+                  Neo-Aramaic periodical Zahrīre d-Bahrā 1871/12, printed at the press of the
+                  American mission in Urmia. See H. L. Murre-van den Berg, From a spoken to a
+                  written language. The introduction and development of Literary Urmia Aramaic in
+                  the nineteenth century (1999), 394–97.</figDesc>
+            </figure>
+            <figure>
+               <graphic url="http://gedsh.bethmardutho.org/fig/34"/>
+               <figDesc>Fig. 34. Rubbing of the Luoyang pillar (first half). The pillar was
+                  discovered in 2006 and contains Christian texts contemporaneous with the Xi’an
+                  stele. Photo: Hidemi Takahashi.</figDesc>
+            </figure>
+            <figure>
+               <graphic url="http://gedsh.bethmardutho.org/fig/35"/>
+               <figDesc>Fig. 35. Bālulan, in the Tergawar district, west of Urmia: single-nave
+                  church. Photo: Heleen Murre-van den Berg</figDesc>
+            </figure>
+            <figure>
+               <graphic url="http://gedsh.bethmardutho.org/fig/36"/>
+               <figDesc>Fig. 36. Common verse with which the calligrapher bp. Çiçek often concluded
+                  his writing: ‘Just as the sailor rejoices once his ship has reached the shore, so
+                  too does the scribe rejoice at the final line of his book.’ From the facsimile
+                  edition of the Šḥimo (4th printing, 1981), the original of which was handwritten
+                  by bp. Çiçek. See S. Brock, ‘The scribe reaches harbour’, Byzantinische
+                  Forschungen 21 (1995), 195–202 (repr. in From Ephrem to Romanos. Interactions
+                  between Greek and Syriac in Late Antiquity [1999], ch. XVI).</figDesc>
+            </figure>
+            <figure>
+               <graphic url="http://gedsh.bethmardutho.org/fig/37"/>
+               <figDesc>Fig. 37. Main church of the Coptic Monastery of the Virgin, also known as
+                  Dayr al-Suryān, in which for centuries Coptic and Syriac monks lived together.
+                  Photo: Lucas Van Rompay.</figDesc>
+            </figure>
+            <figure>
+               <graphic url="http://gedsh.bethmardutho.org/fig/38"/>
+               <figDesc>Fig. 38. Coptic and Syriac coexisting on the capital of a pillar inside the
+                  main Church of the Virgin, Dayr al-Suryān. Photo: Karel Innemée.</figDesc>
+            </figure>
+            <figure>
+               <graphic url="http://gedsh.bethmardutho.org/fig/39"/>
+               <figDesc>Fig. 39. Damascus: Bāb Tūmā, one of the city gates around which much of the
+                  Christian population and Commercial activity are concentrated. Paul van Moorsel
+                  Centre for Christian Art and Culture in the Middle East, Leiden University. Photo:
+                  Mat Immerzeel.</figDesc>
+            </figure>
+            <figure>
+               <graphic url="http://gedsh.bethmardutho.org/fig/40"/>
+               <figDesc>Fig. 40. Bust of Mor Athanasios Yeshuʿ Samuel (1907–1995), Syr. Orth. bp. of
+                  Jerusalem and first bp. of the United States (1957–1995), outside St. Mark's
+                  Cathedral in Teaneck, New Jersey. From Brock and Taylor, Hidden Pearl, vol. 3, 119
+                  (Photo: Riccardo Grassetti).</figDesc>
+            </figure>
+            <figure>
+               <graphic url="http://gedsh.bethmardutho.org/fig/41"/>
+               <figDesc>Fig. 41. Syr. Orth. Church of Mor Gabriel in Kirchardt, Germany. From Brock
+                  and Taylor, Hidden Pearl, vol. 3,176 (Photo: Riccardo Grassetti).</figDesc>
+            </figure>
+            <figure>
+               <graphic url="http://gedsh.bethmardutho.org/fig/42"/>
+               <figDesc>Fig. 42. Aerial view of the Syr. Orth. Monastery of St. Ephrem in
+                  Glane-Losser, The Netherlands. Courtesy of bp. Mor Polycarpus.</figDesc>
+            </figure>
+            <figure>
+               <graphic url="http://gedsh.bethmardutho.org/fig/43"/>
+               <figDesc>Fig. 43. Tomb of bp. Dolabani in Dayr al-Zaʿfarān, near Mardin. Photo: Amir
+                  Harrak.</figDesc>
+            </figure>
+            <figure>
+               <graphic url="http://gedsh.bethmardutho.org/fig/44"/>
+               <figDesc>Fig. 44. Beginning of a Dorekthā by Yawsep of Telkepe, from a manuscript in
+                  the Library of the Dominican Fathers in Mosul (Catalogue B. Sony (2006), 81). The
+                  pencil note in the margin is by Jacques Rhétoré. Courtesy of Rev. Father Najeeb
+                  Michaeel and Bruno Poizat.</figDesc>
+            </figure>
+            <figure>
+               <graphic url="http://gedsh.bethmardutho.org/fig/45"/>
+               <figDesc>Fig. 45. Aerial view of the side of Dura-Europos with the Euphrates river in
+                  the background (taken in 1932). Courtesy of the Yale University Art
+                  Gallery.</figDesc>
+            </figure>
+            <figure>
+               <graphic url="http://gedsh.bethmardutho.org/fig/46"/>
+               <figDesc>Fig. 46. Eddé, Lebanon, Church of Mar Saba. General view. Paul van Moorsel
+                  Centre for Christian Art and Culture in the Middle East, Leiden University. Photo:
+                  Mat Immerzeel.</figDesc>
+            </figure>
+            <figure>
+               <graphic url="http://gedsh.bethmardutho.org/fig/47"/>
+               <figDesc>Fig. 47. Edessa (Urfa), Pool of Abraham (Birket Ibrahim), with sacred fish.
+                  According to legend, the pool is the site where Abraham landed when Nimrod threw
+                  him down from the top of the citadel. From Brock and Taylor, Hidden Pearl vol.
+                  2,51 (Photo: Riccardo Grassetti).</figDesc>
+            </figure>
+            <figure>
+               <graphic url="http://gedsh.bethmardutho.org/fig/48"/>
+               <figDesc>Fig. 48. Eight of the so-called Nine Saints (the missing Saint, Yemʾata, is
+                  depicted in an adjacent mural). Cupola, ca. 15th cent., in a small church near the
+                  village of Guh (Gheralta district, Tigre province). Photo: Jan Tromp
+                  (2005).</figDesc>
+            </figure>
+            <figure>
+               <graphic url="http://gedsh.bethmardutho.org/fig/50"/>
+               <figDesc>Fig. 50. Beginning of Eusebius of Caesarea’s Letter to Carpianus, in which
+                  he explains the use of the Gospel canon tables. Ms. Florence, Biblioteca
+                  Mediceo-Laurenziana, Pluteus I,56, f. 2v. See Rabbula Gospels.</figDesc>
+            </figure>
+            <figure>
+               <graphic url="http://gedsh.bethmardutho.org/fig/51"/>
+               <figDesc>Fig. 51. Father J-M. Fiey (standing in the second row, third from right) and
+                  the French instructors, Dominican Fathers, at the Seminary of St. John, Mosul, in
+                  the school year 1963–1964. Courtesy of Amir Harrak.</figDesc>
+            </figure>
+            <figure>
+               <graphic url="http://gedsh.bethmardutho.org/fig/52"/>
+               <figDesc>Fig. 52. Bell-tower and entrance (below) of the church in the Monastery of
+                  Mor Gabriel. Photo: Helen Brock (ca. 1978).</figDesc>
+            </figure>
+            <figure>
+               <graphic url="http://gedsh.bethmardutho.org/fig/53"/>
+               <figDesc>Fig. 53. Monastery of Mor Gabriel: view of the house of Malfono ʿIsa Gülten,
+                  taken from the Nuns’ quarters. Photo: Helen Brock (1972).</figDesc>
+            </figure>
+            <figure>
+               <graphic url="http://gedsh.bethmardutho.org/fig/54"/>
+               <figDesc>Fig. 54. Early evidence of Garshuni from a historical note in ms. Florence,
+                  Biblioteca Mediceo-Laurenziana, Pluteus I,56 (Rabbula Gospels), f. 7v. See A.
+                  Mengozzi, ‘The history of Garshuni as a writing system: Evidence from the Rabbula
+                  Codex’, in CAMSEMUD 2007 (Proceedings of the 13th Italian meeting of Afro-Asiatic
+                  linguistics) (2010), 297–305.</figDesc>
+            </figure>
+            <figure>
+               <graphic url="http://gedsh.bethmardutho.org/fig/55"/>
+               <figDesc>Fig.55. Ruins of Ḥarran. Photo: Hugo Lundhaug.</figDesc>
+            </figure>
+            <figure>
+               <graphic url="http://gedsh.bethmardutho.org/fig/57"/>
+               <figDesc>Fig. 57. Monastery of Rabban Hormizd near Alqosh. Burial place with tomb
+                  stones of several patriarchs. Photo: Amir Harrak. See A. Harrak, ‘Patriarchal
+                  funerary inscriptions in the Monastery of Rabban Hormizd: Types, literary origins,
+                  and purpose’, Hugoye 6.2 (2003).</figDesc>
+            </figure>
+            <figure>
+               <graphic url="http://gedsh.bethmardutho.org/fig/58"/>
+               <figDesc>Fig. 58. ‘Mirror inscription’ in the main church of Dayr al-Suryān,
+                  mentioning the name of ‘Quryaqos, patriarch of Antioch’, whose tenure was 793–817.
+                  Photo: Karel C. Innemée. Drawing by Lucas Van Rompay.</figDesc>
+            </figure>
+            <figure>
+               <graphic url="http://gedsh.bethmardutho.org/fig/59"/>
+               <figDesc>Fig. 59. Syriac inscription on a pillar at the entrance to the Church of the
+                  Holy Sepulcher in Jerusalem, mentioning 'Sargis the monk, from Ḥaḥ’. This Sargis
+                  is also known as a scribe, and he became metropolitan bp. of Ḥaḥ in 1505. Above
+                  Sargis's name are Armenian inscriptions. Photo: Lucas Van Rompay. See S. Brock, H.
+                  Goldfus, and A. Kofsky, ‘The Syriac inscriptions at the entrance to the Holy
+                  Sepulchre, Jerusalem’, ARAM 18–19 (2006-2007), esp.417–18.</figDesc>
+            </figure>
+            <figure>
+               <graphic url="http://gedsh.bethmardutho.org/fig/60"/>
+               <figDesc>Fig. 60. Mosaic inscription from a hermitage near Jericho. The inscription
+                  gives the names of the E-Syr. founders of the hermitage, two of whom are known to
+                  belong to the 7th cent. From Brock and Taylor, Hidden Pearl, vol. 2, 46 (Photo:
+                  Riccardo Grassetti). See J.-M. Fiey, Rabban Bûya de Shaqlâwâ et de Jéricho”, POC
+                  33 (1983), 34–38.</figDesc>
+            </figure>
+            <figure>
+               <graphic url="http://gedsh.bethmardutho.org/fig/61"/>
+               <figDesc>Fig. 61. Dayr Kaftun, near Kaftun, Lebanon. Greek-Orthodox Church of Sts.
+                  Sergius and Bacchus. Paul van Moorsel Centre for Christian Art and Culture in the
+                  Middle East, Leiden University. Photo: Mat Immerzeel.</figDesc>
+            </figure>
+            <figure>
+               <graphic url="http://gedsh.bethmardutho.org/fig/62"/>
+               <figDesc>Fig. 62. Dayr Kaftun, near Kaftun, Lebanon. Greek-Orthodox Church of Sts.
+                  Sergius and Bacchus. Detail of 13th-cent. wall painting representing the Communion
+                  of the Apostles: Philip and Mark, with Syriac inscriptions. Paul van Moorsel
+                  Centre for Christian Art and Culture in the Middle East, Leiden University. Photo:
+                  Mat Immerzeel.</figDesc>
+            </figure>
+            <figure>
+               <graphic url="http://gedsh.bethmardutho.org/fig/63"/>
+               <figDesc>Fig. 63. Maʿad, Lebanon, Church of Mar Charbel. Wall painting depicting the
+                  Dormition of the Virgin, detail: mourning apostle. Paul van Moorsel Centre for
+                  Christian Art and Culture in the Middle East, Leiden University. Photo: Mat
+                  Immerzeel. See M. Immerzeel, Identity puzzles, Medieval Christian art in Syria and
+                  Lebanon (2009), 105–8.</figDesc>
+            </figure>
+            <figure>
+               <graphic url="http://gedsh.bethmardutho.org/fig/64"/>
+               <figDesc>Fig. 64. Wooden reliquary cross in the Malabar Catholic (or Syro-Malabar)
+                  Church of Pallippuram. According to tradition the cross was carved by St. Thomas
+                  and has miraculous power. This type of cross may be called the St. Thomas cross in
+                  contrast to the Persian cross. The cross is being held by Fr. Ignatius Payyappilly
+                  Photo: István Perczel.</figDesc>
+            </figure>
+            <figure>
+               <graphic url="http://gedsh.bethmardutho.org/fig/65"/>
+               <figDesc>Fig. 65. Baptismal font in the church of Kanjoor (Malabar Catholic). Photo:
+                  István Perczel.</figDesc>
+            </figure>
+            <figure>
+               <graphic url="http://gedsh.bethmardutho.org/fig/66"/>
+               <figDesc>Fig. 66. Malankara Orthodox Syrian Church of Thiruvithancode (the present
+                  construction is probably from the 16th cent.): the nave. Photo: István
+                  Perczel.</figDesc>
+            </figure>
+            <figure>
+               <graphic url="http://gedsh.bethmardutho.org/fig/68"/>
+               <figDesc>Fig. 68. Ms. London, Brit. Libr. Add. 17,236. Melkite ms. of an Eklogadion,
+                  or collection of verse texts for select fixed commemorations in the liturgical
+                  year (here, St. Peter and St. Paul, 29th June). The ms. is dated 1283/84 and was
+                  written in the Monastery of Mary, the Mother of God, on the Kaftun river. From
+                  Hatch, Album, 241 (Pl. CXC).</figDesc>
+            </figure>
+            <figure>
+               <graphic url="http://gedsh.bethmardutho.org/fig/69"/>
+               <figDesc>Fig. 69. Jerusalem, Old City, entrance to the Syr. Orth. Monastery of St.
+                  Mark. From Brock and Taylor, Hidden Pearl, vol. 2, 55 (Photo: Riccardo
+                  Grassetti).</figDesc>
+            </figure>
+            <figure>
+               <graphic url="http://gedsh.bethmardutho.org/fig/70"/>
+               <figDesc>Fig. 70. Tombs of Priest Ragheed Ganni and bp. Bulus Faraj Rahho (Chaldean
+                  bishop of Mosul), who fell victim to violence against Christians in Iraq in 2007
+                  and 2008, respectively. Karamlish, Chald. Church of Mar Addai. Photo. Amir
+                  Harrak.</figDesc>
+            </figure>
+            <figure>
+               <graphic url="http://gedsh.bethmardutho.org/fig/72"/>
+               <figDesc>Fig. 72. Ms. London, Brit. Libr. Add. 12,138. E-Syr. Masora. The ms. was
+                  written in Ḥarran in 899. From Hatch, Album, 217 (Plate CLXVI). See S. Brock,
+                  ‘Early dated manuscripts of the Church of the East, 7th-13th century’, JAAS 21:2
+                  (2007), 18–20.</figDesc>
+            </figure>
+            <figure>
+               <graphic url="http://gedsh.bethmardutho.org/fig/73"/>
+               <figDesc>Fig. 73. Dayro d-Mor Matay after its recent renovation: front façade with
+                  main entrance. Photo. Amir Harrak.</figDesc>
+            </figure>
+            <figure>
+               <graphic url="http://gedsh.bethmardutho.org/fig/74"/>
+               <figDesc>Fig. 74. Beth Qadishe in Dayro d-Mor Matay, with several tombs. Photo. Amir
+                  Harrak.</figDesc>
+            </figure>
+            <figure>
+               <graphic url="http://gedsh.bethmardutho.org/fig/75"/>
+               <figDesc>Fig. 75. Note written by Michael Rabo on the last folio of ms. London, Brit.
+                  Libr. Add. 14,599. This ms. (dated 568/9) contains Cathedral Homilies 31–59 of
+                  Severus of Antioch and was borrowed by Michael from Egypt and kept in his
+                  patriarchal cell, where it was made available to the monks for reading. See F.
+                  Nau, ‘Sur quelques autographes de Michel le Syrien, patriarche d'Antioche de 1166
+                  à 1199', ROC 19 (1914), 394–95. © The British Library Board.</figDesc>
+            </figure>
+            <figure>
+               <graphic url="http://gedsh.bethmardutho.org/fig/78"/>
+               <figDesc>Fig. 78. Monastery of Mor Abrohom, in the vicinity of Midyat. Photo: Hidemi
+                  Takahashi.</figDesc>
+            </figure>
+            <figure>
+               <graphic url="http://gedsh.bethmardutho.org/fig/80"/>
+               <figDesc>Fig. 80. Syr. Orth. monk depicted on the Gate of double baptism (i.e. by
+                  water and blood) in the Church of Mor Behnam's Monastery. Photo: Amir Harrak. See
+                  B. Snelders, Identity and Christian-Muslim interaction, Medieval art of the Syrian
+                  Orthodox from the Mosul area (OLA 198; 2010), 310–18.</figDesc>
+            </figure>
+            <figure>
+               <graphic url="http://gedsh.bethmardutho.org/fig/81"/>
+               <figDesc>Fig. 81. Syr. Orth. nuns in Ṭur ʿAbdin, in the village of Kfarbe (in the
+                  vicinity of the Monastery of Mor Gabriel). Photo: Naures Atto.</figDesc>
+            </figure>
+            <figure>
+               <graphic url="http://gedsh.bethmardutho.org/fig/82"/>
+               <figDesc>Fig. 82. Mosul, Syr. Orth. Church of Mar Tumo. Photo. Amir Harrak.</figDesc>
+            </figure>
+            <figure>
+               <graphic url="http://gedsh.bethmardutho.org/fig/83"/>
+               <figDesc>Fig. 83. Mosul, Syr. Cath. Church al-Ṭāhira (Old Church): Iconostasis with
+                  inscription dated 1744. Photo: Amir Harrak. See Harrak, Syriac and Garshuni
+                  inscriptions of Iraq, AA.08.06.</figDesc>
+            </figure>
+            <figure>
+               <graphic url="http://gedsh.bethmardutho.org/fig/84"/>
+               <figDesc>Fig. 84. Mosul, Chaldean Church of al-Ṭāhra: tripartite arcade of the
+                  sanctuary. Photo: Amir Harrak.</figDesc>
+            </figure>
+            <figure>
+               <graphic url="http://gedsh.bethmardutho.org/fig/86"/>
+               <figDesc>Fig. 86. Dayr Mār Mūsā al-Ḥabashī: an angel belonging to the scene of Jesus’
+                  Baptism, in the north aisle of the church (layer 2, 1095). Paul van Moorsel Centre
+                  for Christian Art and Culture in the Middle East, Leiden University. Photo: Mat
+                  Immerzeel. See also Fig. 15.</figDesc>
+            </figure>
+            <figure>
+               <graphic url="http://gedsh.bethmardutho.org/fig/87"/>
+               <figDesc>Fig. 87. Dayr Mār Mūsā al-Ḥabashī: south-eastern pier spandrel in the nave
+                  of the church. The evangelist Matthew is writing the first words of his Gospel,
+                  which he copies from a tablet in heaven (layer 3, ca. 1200). Paul van Moorsel
+                  Centre for Christian Art and Culture in the Middle East, Leiden University. Photo:
+                  Mat Immerzeel. See E. Cruikshank Dodd, The Frescoes of Mar Masa al-Habashi (2001),
+                  57, as well as J. den Heijer et al., ‘Deir Mar Musa. The inscriptions’, ECA
+                  (2007), 144–46.</figDesc>
+            </figure>
+            <figure>
+               <graphic url="http://gedsh.bethmardutho.org/fig/89"/>
+               <figDesc>Fig. 89. The name of Mushe of Nisibis written in an inscription on a wooden
+                  door in the main church of Dayr al-Suryān. The inscription refers to the building
+                  of the altar space under Mushe's tenure and is dated 926/27. Photo: Lucas Van
+                  Rompay.</figDesc>
+            </figure>
+            <figure>
+               <graphic url="http://gedsh.bethmardutho.org/fig/90"/>
+               <figDesc>Fig. 90. Coptic inscription in the central dome above the khurus of the main
+                  church of Dayr al-Suryān, mentioning, ‘Papa Moses the hegoumenos’, who may
+                  possibly be identified as Mushe of Nisibis. Photo: Karel Innemée. See J. van der
+                  Vliet, ‘History through inscriptions: Coptic epigraphy in the Wadi al-Natrun’, in
+                  Christianity and monasticism in Wadi al-Natrun, ed. M. S. A. Mikhail and M. Moussa
+                  (2009), 336–37.</figDesc>
+            </figure>
+            <figure>
+               <graphic url="http://gedsh.bethmardutho.org/fig/91"/>
+               <figDesc>Fig. 91. The city of Nineveh as background for the sleeping prophet Jonah.
+                  Ms. Florence, Biblioteca Mediceo-Laurenziana, Pluteus I,56 (Rabbula Gospels), f.
+                  6r (detail).</figDesc>
+            </figure>
+            <figure>
+               <graphic url="http://gedsh.bethmardutho.org/fig/92"/>
+               <figDesc>Fig. 92. Nusaybin (Nisibis): the Syr. Orth. Church of Mor Yaʿqub, which
+                  houses the baptistery that contains a Greek inscription dated 359 as well as the
+                  tomb of Yaʿqub of Nisibis. Photo: Hidemi Takahashi.</figDesc>
+            </figure>
+            <figure>
+               <graphic url="http://gedsh.bethmardutho.org/fig/93"/>
+               <figDesc>Fig. 93. Malfono Abrohom Nuro (lower corner on the right) with students of
+                  the Syriac evening school in Aleppo, and some guests (in the 1960s). From A. Nuro,
+                  My four in the parishes of the Syrian Church in Syria and Lebanon (1967),
+                  84.</figDesc>
+            </figure>
+            <figure>
+               <graphic url="http://gedsh.bethmardutho.org/fig/94"/>
+               <figDesc>Fig. 94. Front of P. Dura 28, describing the sale of a female slave dated 9
+                  May 243. Beinecke Rare Book and Manuscript Library, Yale University.</figDesc>
+            </figure>
+            <figure>
+               <graphic url="http://gedsh.bethmardutho.org/fig/95"/>
+               <figDesc>Fig. 95. Ms. London, Brit. Libr. Add. 14,512, a famous palimpsest ms.
+                  containing in its lower writing portions from the biblical book of Isaiah (Leiden
+                  Peshitta Institute: 5ph1), dated 459/60 (which makes this ms. the oldest dated
+                  biblical ms. that is known) and in its upper writing services for the feasts of
+                  the liturgical year. At the top right the middle of Is. 16:8 is clearly visible.
+                  From Hatch, Album, 53 (Plate II).</figDesc>
+            </figure>
+            <figure>
+               <graphic url="http://gedsh.bethmardutho.org/fig/96"/>
+               <figDesc>Fig. 96. Papyrus fragment preserved in Dayr al-Suryān, Egypt, probably 9th
+                  cent. Photo: Lucas Van Rompay. See Fr. Bigoul El-Souriany and L. Van Rompay,
+                  “Syriac papyrus fragments recently discovered in Deir al-Surian (Egypt)', 'Hugoye
+                  4.1 (2001).</figDesc>
+            </figure>
+            <figure>
+               <graphic url="http://gedsh.bethmardutho.org/fig/97"/>
+               <figDesc>Fig.97. Pawlos of Kalinikos, mentioned as bp. in an inscription, dated 509,
+                  uncovered in Tall Biʿa, near Raqqaʿ, Syria. Deutsche Orient-Gesellschaft, Grabung
+                  Tall Biʿa. Photo: Anwar ʿAbd al-Ghafour.</figDesc>
+            </figure>
+            <figure>
+               <graphic url="http://gedsh.bethmardutho.org/fig/98"/>
+               <figDesc>Fig. 98. Table of the alphabet from J. A. Widmanstetter, Syriacae linguae
+                  prima elementa (1556), published shortly after his first edition of the Syriac New
+                  Testament (1555).</figDesc>
+            </figure>
+            <figure>
+               <graphic url="http://gedsh.bethmardutho.org/fig/99"/>
+               <figDesc>Fig. 99. Bible in Neo-Aramaic. Printed on the press of the American
+                  missionaries in Urmia (edition of 1893). The image shows Psalm 1.</figDesc>
+            </figure>
+            <figure>
+               <graphic url="http://gedsh.bethmardutho.org/fig/100"/>
+               <figDesc>Fig. 100. Title page of E-Syr, missal: the proper of the mass. Printed on
+                  the press of the Dominican Fathers in Mosul (1901). See J. F. Coakley and D. G. K.
+                  Taylor, ‘Syriac books printed at the Dominican Press, Mosul’, in Malphono w-Rabo
+                  d-Malphone, ed. Kiraz (2008), 101–2 (no. 58).</figDesc>
+            </figure>
+            <figure>
+               <graphic url="http://gedsh.bethmardutho.org/fig/101"/>
+               <figDesc>Fig. 101. Qara, Syria, Church of Sts. Sergius and Bacchus. Detail of wall
+                  painting the nursing Virgin, with Greek and Syriac inscription. Paul van Moorsel
+                  Centre for Christian Art and Culture in the Middle East, Leiden University. Photo:
+                  Bas ter Haar Romeny.</figDesc>
+            </figure>
+            <figure>
+               <graphic url="http://gedsh.bethmardutho.org/fig/102"/>
+               <figDesc>Fig. 102. Qara, Syria: Dayr Mar Yaʿqub, main entrance. Paul van Moorsel
+                  Centre for Christian Art and Culture in the Middle East, Leiden University.
+                  Courtesy of Mat Immerzeel.</figDesc>
+            </figure>
+            <figure>
+               <graphic url="http://gedsh.bethmardutho.org/fig/103"/>
+               <figDesc>Fig. 103. Qaraqosh, Syr. Cath. Church of the Mother of God. Photo: Amir
+                  Harrak.</figDesc>
+            </figure>
+            <figure>
+               <graphic url="http://gedsh.bethmardutho.org/fig/105"/>
+               <figDesc>Fig. 105. Recently discovered inscription containing the name of bp.
+                  Rabbula, dated 425/26 (‘In the year 737, in the days of Mar Rabbula the Bishop’).
+                  Courtesy of Françoise Briquel-Chatonnet, Alain Desreumaux, and Joseph Moukarzel.
+                  See their "Découverte d'une inscription syriaque mentionnant l'évêque Rabbula', in
+                  Malphono w-Rabo d-Malphone, ed, Kiraz (2008), 19–28.</figDesc>
+            </figure>
+            <figure>
+               <graphic url="http://gedsh.bethmardutho.org/fig/106"/>
+               <figDesc>Fig. 106. Portrait of Syr. Cath. Patr. Ignatius Ephrem II Raḥmani in the
+                  reception hall of the Monastery of Sharfeh, Lebanon. Photo: Jean Fathi.</figDesc>
+            </figure>
+            <figure>
+               <graphic url="http://gedsh.bethmardutho.org/fig/107"/>
+               <figDesc>Fig. 107. Dayr al-Ṣalīb, monastery 30 km. northeast of Midyat; general view.
+                  Photo: Hidemi Takahashi.</figDesc>
+            </figure>
+            <figure>
+               <graphic url="http://gedsh.bethmardutho.org/fig/108"/>
+               <figDesc>Fig. 108. Addai Scher, Chald. bp. of Siirt, and Syriac scholar, assassinated
+                  in 1915. From A. Nuro, My four in the parishes of the Syrian Church in Syria and
+                  Lebanon (1967), 84.</figDesc>
+            </figure>
+            <figure>
+               <graphic url="http://gedsh.bethmardutho.org/fig/109"/>
+               <figDesc>Fig. 109. Father Joseph Omez and a class of students in the Seminary of St.
+                  John, Mosul, in 1963–64. Courtesy of Amir Harrak.</figDesc>
+            </figure>
+            <figure>
+               <graphic url="http://gedsh.bethmardutho.org/fig/110"/>
+               <figDesc>Fig. 110. Severus of Antioch, as depicted in inlaid ivory (most of which is
+                  lost) and identified with his Greek name, on a panel of the wooden door that
+                  separates the altar space from the khurus in the main church of Dayr al-Suryān
+                  (dated May 914, under abbot Mushe of Nisibis). Photo: Karel Innemée (after 2010
+                  conservation).</figDesc>
+            </figure>
+            <figure>
+               <graphic url="http://gedsh.bethmardutho.org/fig/111"/>
+               <figDesc>Fig. 111. Syr. Cath. Monastery of Sharfeh, to the northeast of Beirut.
+                  Entrance of the Monastery. Photo: Jean Fathi.</figDesc>
+            </figure>
+            <figure>
+               <graphic url="http://gedsh.bethmardutho.org/fig/112"/>
+               <figDesc>Fig. 112. Qalʿat Simʿān (northern Syria): the basilica built around Shemʿun
+                  the Stylite's pillar. Photo: Lucas Van Rompay.</figDesc>
+            </figure>
+            <figure>
+               <graphic url="http://gedsh.bethmardutho.org/fig/113"/>
+               <figDesc>Fig. 113. Dayr al-Suryān, Wadi al-Natrun, Egypt, in winter. Photo: Lucas Van
+                  Rompay.</figDesc>
+            </figure>
+            <figure>
+               <graphic url="http://gedsh.bethmardutho.org/fig/114"/>
+               <figDesc>Fig. 114. Syriac Orthodox Patriarchal Residence and Seminary in Maʿarrat
+                  Ṣaydnāyā, 35 km. north of Damascus. Photo: Amir Harrak.</figDesc>
+            </figure>
+            <figure>
+               <graphic url="http://gedsh.bethmardutho.org/fig/115"/>
+               <figDesc>Fig. 115. Seal of Athanasios, metropolitan of Tagrit (late 9th cent), in the
+                  form of a cross, of which three edges contain a Syriac inscription, found in
+                  Athanasios’s tomb in Tagrit. Baghdad, Iraqi Museum. Courtesy of A. Harrak. See A.
+                  Harrak, ‘Recent archaeological excavations in Takrit and the discovery of Syriac
+                  inscriptions’, JCSSS 1 (2001), esp. 23–24 as well as Harrak, Syriac and Garshuni
+                  inscriptions of Iraq, FA.01.04.</figDesc>
+            </figure>
+            <figure>
+               <graphic url="http://gedsh.bethmardutho.org/fig/116"/>
+               <figDesc>Fig. 116. Representation of a reliquary St. Thomas cross flanking the
+                  entrance to the Malabar Catholic Church at Kanjoor. It is carved in granite.
+                  Photo: István Perczel.</figDesc>
+            </figure>
+            <figure>
+               <graphic url="http://gedsh.bethmardutho.org/fig/117"/>
+               <figDesc>Fig. 117. Teaching infant Jesus. Rare teak-wood statue from St. Mary’s
+                  Church at Kanjoor (Malabar Catholic). The sculpture, a fine product of
+                  Indo-Christian art and reflecting Buddhist influence as well, is difficult to
+                  date. Catholic Art Museum, Ernakulam. Courtesy of the museum’s Curator, Fr.
+                  Ignatius Payyappilly Photo: István Perczel.</figDesc>
+            </figure>
+            <figure>
+               <graphic url="http://gedsh.bethmardutho.org/fig/118"/>
+               <figDesc>Fig. 118. Granite columns from the façade of the Kanjoor Malabar Catholic
+                  church. The columns closely resemble those of Hindu temples but contain Christian
+                  symbols. Photo: István Perczel.</figDesc>
+            </figure>
+            <figure>
+               <graphic url="http://gedsh.bethmardutho.org/fig/119"/>
+               <figDesc>Fig. 119. Ms. Piramadam Syr. 25, f. 41v–42r. Colophon of a copy of the
+                  Revelations of Gregory the Theologian (= Pseudo-Gregory of Nazianzus), translated
+                  from Arabic into Syriac by Mor Ivanios Ḥidayatallah, bp. of Nineveh and Antiochian
+                  Patriarchal Delegate in Malabar, in Kadamattam, in the year 1689/90. This is one
+                  of the two copies of this work known to date. Courtesy of the Project for
+                  Preserving the Manuscripts of the Syrian Christians in India (SRITE).</figDesc>
+            </figure>
+            <figure>
+               <graphic url="http://gedsh.bethmardutho.org/fig/121"/>
+               <figDesc>Fig. 121. Beth Ṣlutho in Ḥaḥ, Ṭur ʿAbdin. Photo: Helen Brock
+                  (1978).</figDesc>
+            </figure>
+            <figure>
+               <graphic url="http://gedsh.bethmardutho.org/fig/124"/>
+               <figDesc>Fig. 124. Children's poem about the rain. Ṭuroyo in Latin transcription.
+                  From Y. Ishaq, Toxu Qorena (1983), 49.</figDesc>
+            </figure>
+            <figure>
+               <graphic url="http://gedsh.bethmardutho.org/fig/125"/>
+               <figDesc>Fig. 125. The Assyrian Missionary Cemetery, situated on a mountain
+                  overlooking Urmia. Photo: Heleen Murre-van den Berg</figDesc>
+            </figure>
+            <figure>
+               <graphic url="http://gedsh.bethmardutho.org/fig/126"/>
+               <figDesc>Fig. 126. Urmia, Iran: Church of Mart Maryam. Photo: Heleen Murre-van den
+                  Berg</figDesc>
+            </figure>
+            <figure>
+               <graphic url="http://gedsh.bethmardutho.org/fig/127"/>
+               <figDesc>Fig. 127. Detail from the Xi’an stele (right side), with names of Church
+                  officials, in Syriac and Chinese. After the rubbing included in H. Havret, La
+                  stèle chrétienne de Si-ngan-fou (Variétés sinologiques 7; 1895). See also P.
+                  Pelliot, J. Dauvillier, and A. Guillaumont, Recherches sur les Chrétiens d’Asie
+                  Centrale et d’Extrême-Orient, II.1. La stèle de Si-gnan-fou (Œuvres posthumes de
+                  Paul Pelliot, 1984), esp. p. 60 (text and FT) and 73–74 (commentary). On the
+                  second line (left), the last word in Syriac script is a transliteration in Syriac
+                  of a Chinese term. Pelliot argued that the underlying Chinese term is shàng-zuò,
+                  ‘upper seat’, the name used for an elder in Chinese Buddhist literature, which may
+                  be the equivalent of ‘abbot’. See H. Takahashi, ‘Transcribed proper names in
+                  Chinese Syriac Christian documents, in Malphono w-Rabo d-Malphone, ed. Kiraz
+                  (2008), 643.</figDesc>
+            </figure>
+            <figure>
+               <graphic url="http://gedsh.bethmardutho.org/fig/128"/>
+               <figDesc>Fig. 128. Yaʿqub Burdʿoyo as imagined by Elias Zayat, a modern painter in
+                  Damascus. Courtesy of Elias Zayat.</figDesc>
+            </figure>
+
+         </div1>
+      </body>
+   </text>
+</TEI>
