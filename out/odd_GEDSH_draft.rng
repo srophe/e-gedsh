@@ -5,7 +5,7 @@
          xmlns:teix="http://www.tei-c.org/ns/Examples"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2016-10-22T21:08:26Z. .
+Schema generated from ODD source 2016-10-22T22:55:01Z. .
 TEI Edition: Version 3.0.0. Last updated on
 	29th March 2016, revision 89ba24e
 TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.0.0/
@@ -1391,29 +1391,41 @@ Suggested values include: 1] label; 2] data</a:documentation>
    <define name="model.pPart.editorial">
       <choice>
          <ref name="choice"/>
+         <ref name="abbr"/>
       </choice>
    </define>
    <define name="model.pPart.editorial_alternation">
       <choice>
          <ref name="choice"/>
+         <ref name="abbr"/>
       </choice>
    </define>
    <define name="model.pPart.editorial_sequence">
       <ref name="choice"/>
+      <ref name="abbr"/>
    </define>
    <define name="model.pPart.editorial_sequenceOptional">
       <optional>
          <ref name="choice"/>
+      </optional>
+      <optional>
+         <ref name="abbr"/>
       </optional>
    </define>
    <define name="model.pPart.editorial_sequenceOptionalRepeatable">
       <zeroOrMore>
          <ref name="choice"/>
       </zeroOrMore>
+      <zeroOrMore>
+         <ref name="abbr"/>
+      </zeroOrMore>
    </define>
    <define name="model.pPart.editorial_sequenceRepeatable">
       <oneOrMore>
          <ref name="choice"/>
+      </oneOrMore>
+      <oneOrMore>
+         <ref name="abbr"/>
       </oneOrMore>
    </define>
    <define name="model.pPart.transcriptional">
@@ -2237,6 +2249,7 @@ Suggested values include: 1] label; 2] data</a:documentation>
          <ref name="corr"/>
          <ref name="reg"/>
          <ref name="orig"/>
+         <ref name="abbr"/>
       </choice>
    </define>
    <define name="model.imprintPart">
@@ -2703,6 +2716,25 @@ Normalization 12. Critical Apparatus]</a:documentation>
          <ref name="att.datable.attributes"/>
          <ref name="att.editLike.attributes"/>
          <ref name="att.typed.attributes"/>
+         <empty/>
+      </element>
+   </define>
+   <define name="abbr">
+      <element name="abbr">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(abbreviation) contains an abbreviation of any sort. [3.5.5. Abbreviations and Their Expansions]</a:documentation>
+         <ref name="macro.phraseSeq"/>
+         <ref name="att.global.attributes"/>
+         <ref name="att.source.attributes"/>
+         <ref name="att.typed.attribute.subtype"/>
+         <optional>
+            <attribute name="type">
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">allows the encoder to classify the abbreviation according to some convenient typology.
+Sample values include: 1] suspension; 2] contraction; 3] brevigraph; 4] superscription; 5] acronym; 6] title; 7] organization; 8] geographic</a:documentation>
+               <data type="token">
+                  <param name="pattern">(\p{L}|\p{N}|\p{P}|\p{S})+</param>
+               </data>
+            </attribute>
+         </optional>
          <empty/>
       </element>
    </define>
