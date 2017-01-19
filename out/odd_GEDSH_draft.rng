@@ -5,10 +5,10 @@
          xmlns:teix="http://www.tei-c.org/ns/Examples"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2016-11-16T22:38:45Z. .
-TEI Edition: Version 3.0.0. Last updated on
-	29th March 2016, revision 89ba24e
-TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.0.0/
+Schema generated from ODD source 2017-01-19T22:39:50Z. .
+TEI Edition: Version 3.1.0. Last updated on
+	15th December 2016, revision d3f5e70
+TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.1.0/
   
 --><!--[http://creativecommons.org/licenses/by/3.0/] Distributed under a Creative Commons Attribution 3.0 Unported License.-->
    <define name="macro.paraContent">
@@ -588,7 +588,6 @@ Sample values include: 1] approved; 2] candidate; 3] cleared; 4] deprecated; 5] 
    </define>
    <define name="att.editLike.attributes">
       <ref name="att.dimensions.attributes"/>
-      <ref name="att.source.attributes"/>
       <ref name="att.editLike.attribute.evidence"/>
       <ref name="att.editLike.attribute.instant"/>
    </define>
@@ -672,11 +671,27 @@ Suggested values include: 1] internal; 2] external; 3] conjecture</a:documentati
          </attribute>
       </optional>
    </define>
+   <define name="att.global.source.attributes">
+      <ref name="att.global.source.attribute.source"/>
+   </define>
+   <define name="att.global.source.attribute.source">
+      <optional>
+         <attribute name="source">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">specifies the source from which some aspect of this element is drawn.</a:documentation>
+            <list>
+               <oneOrMore>
+                  <data type="anyURI"/>
+               </oneOrMore>
+            </list>
+         </attribute>
+      </optional>
+   </define>
    <define name="att.global.attributes">
       <ref name="att.global.rendition.attributes"/>
       <ref name="att.global.linking.attributes"/>
       <ref name="att.global.analytic.attributes"/>
       <ref name="att.global.responsibility.attributes"/>
+      <ref name="att.global.source.attributes"/>
       <ref name="att.global.attribute.xmlid"/>
       <ref name="att.global.attribute.n"/>
       <ref name="att.global.attribute.xmllang"/>
@@ -2385,6 +2400,7 @@ Suggested values include: 1] label; 2] data</a:documentation>
    <define name="model.frontPart">
       <choice>
          <ref name="model.frontPart.drama"/>
+         <ref name="listBibl"/>
          <ref name="titlePage"/>
       </choice>
    </define>
@@ -2469,21 +2485,6 @@ Suggested values include: 1] label; 2] data</a:documentation>
    </define>
    <define name="model.sourceDescPart">
       <notAllowed/>
-   </define>
-   <define name="att.source.attributes">
-      <ref name="att.source.attribute.source"/>
-   </define>
-   <define name="att.source.attribute.source">
-      <optional>
-         <attribute name="source">
-            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">provides a pointer to the bibliographical source from which a quotation or citation is drawn.</a:documentation>
-            <list>
-               <oneOrMore>
-                  <data type="anyURI"/>
-               </oneOrMore>
-            </list>
-         </attribute>
-      </optional>
    </define>
    <define name="model.resourceLike">
       <choice>
@@ -2577,6 +2578,7 @@ Suggested values include: 1] label; 2] data</a:documentation>
          <ref name="att.global.analytic.attribute.ana"/>
          <ref name="att.global.responsibility.attribute.cert"/>
          <ref name="att.global.responsibility.attribute.resp"/>
+         <ref name="att.global.source.attribute.source"/>
          <attribute name="xml:lang">
             <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">This customization requires that the foreign element have an xml:lang attribute and suggests the following values.
 Suggested values include: 1] en-x-gedsh; 2] la</a:documentation>
@@ -2622,6 +2624,7 @@ Suggested values include: 1] en-x-gedsh; 2] la</a:documentation>
          <ref name="att.global.analytic.attribute.ana"/>
          <ref name="att.global.responsibility.attribute.cert"/>
          <ref name="att.global.responsibility.attribute.resp"/>
+         <ref name="att.global.source.attribute.source"/>
          <ref name="att.written.attributes"/>
          <attribute name="rend">
             <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">This customization requires that the hi element have a rend attribute with one of the following values.</a:documentation>
@@ -2630,6 +2633,8 @@ Suggested values include: 1] en-x-gedsh; 2] la</a:documentation>
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                <value>superscript</value>
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               <value>bold</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
             </choice>
          </attribute>
          <empty/>
@@ -2637,11 +2642,9 @@ Suggested values include: 1] en-x-gedsh; 2] la</a:documentation>
    </define>
    <define name="sic">
       <element name="sic">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Latin for thus or so
-   ) contains text reproduced although apparently incorrect or inaccurate. [3.4.1. Apparent Errors]</a:documentation>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Latin for thus or so) contains text reproduced although apparently incorrect or inaccurate. [3.4.1. Apparent Errors]</a:documentation>
          <ref name="macro.paraContent"/>
          <ref name="att.global.attributes"/>
-         <ref name="att.source.attributes"/>
          <empty/>
       </element>
    </define>
@@ -2685,7 +2688,6 @@ Normalization 12. Critical Apparatus]</a:documentation>
 Normalization 12. Critical Apparatus]</a:documentation>
          <ref name="macro.paraContent"/>
          <ref name="att.global.attributes"/>
-         <ref name="att.source.attributes"/>
          <empty/>
       </element>
    </define>
@@ -2724,7 +2726,6 @@ Normalization 12. Critical Apparatus]</a:documentation>
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(abbreviation) contains an abbreviation of any sort. [3.5.5. Abbreviations and Their Expansions]</a:documentation>
          <ref name="macro.phraseSeq"/>
          <ref name="att.global.attributes"/>
-         <ref name="att.source.attributes"/>
          <ref name="att.typed.attribute.subtype"/>
          <optional>
             <attribute name="type">
@@ -2770,6 +2771,7 @@ Sample values include: 1] suspension; 2] contraction; 3] brevigraph; 4] superscr
          <ref name="att.global.analytic.attribute.ana"/>
          <ref name="att.global.responsibility.attribute.cert"/>
          <ref name="att.global.responsibility.attribute.resp"/>
+         <ref name="att.global.source.attribute.source"/>
          <ref name="att.pointing.attribute.targetLang"/>
          <ref name="att.pointing.attribute.evaluate"/>
          <ref name="att.internetMedia.attributes"/>
@@ -4098,7 +4100,6 @@ Suggested values include: 1] Aba-I; 2] Aba-II-of-Kashkar; 3] Aba; 4] Abdisho-bar
          <ref name="att.global.attributes"/>
          <ref name="att.placement.attributes"/>
          <ref name="att.pointing.attributes"/>
-         <ref name="att.source.attributes"/>
          <ref name="att.typed.attribute.subtype"/>
          <ref name="att.written.attributes"/>
          <optional>
@@ -4171,6 +4172,7 @@ Elements]</a:documentation>
          <ref name="att.global.analytic.attribute.ana"/>
          <ref name="att.global.responsibility.attribute.cert"/>
          <ref name="att.global.responsibility.attribute.resp"/>
+         <ref name="att.global.source.attribute.source"/>
          <ref name="att.typed.attributes"/>
          <ref name="att.edition.attributes"/>
          <ref name="att.spanning.attributes"/>
@@ -4405,8 +4407,10 @@ Elements]</a:documentation>
          <ref name="att.global.analytic.attribute.ana"/>
          <ref name="att.global.responsibility.attribute.cert"/>
          <ref name="att.global.responsibility.attribute.resp"/>
+         <ref name="att.global.source.attribute.source"/>
          <ref name="att.canonical.attributes"/>
          <ref name="att.typed.attribute.subtype"/>
+         <ref name="att.datable.attributes"/>
          <optional>
             <attribute name="rend">
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">This customization requires that the values of the rend attribute are constrained when applied to the title element.</a:documentation>
@@ -4528,40 +4532,22 @@ Sample values include: 1] main; 2] sub(subordinate) ; 3] alt(alternate) ; 4] sho
       <element name="biblStruct">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(structured bibliographic citation) contains a structured bibliographic citation, in which only bibliographic sub-elements appear and in a specified order. [3.11.1. Methods of Encoding Bibliographic References and Lists of References 2.2.7. The Source Description 15.3.2. Declarable Elements]</a:documentation>
          <group>
-      
-        
-      
+            
             <oneOrMore>
                <group>
                   <ref name="monogr"/>
         
-          
-        
                </group>
             </oneOrMore>
-      
             <zeroOrMore>
                <choice>
                   <ref name="model.noteLike"/>
-                  <ref name="idno"/>
-          
                   <ref name="model.ptrLike"/>
-          
-          
+        
+        
                </choice>
             </zeroOrMore>
-      
          </group>
-         <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="e-GEDSH-biblStruct-deprecate-altIdentifier-child-constraint-7">
-            <rule context="tei:biblStruct">
-               <sch:report xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                           xmlns="http://www.tei-c.org/ns/1.0"
-                           xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-                           test="child::tei:idno"
-                           role="nonfatal">WARNING: use of deprecated method — the use of the idno element as a direct child of the biblStruct element will be removed from the TEI on 2016-09-18</sch:report>
-            </rule>
-         </pattern>
          <ref name="att.global.attributes"/>
          <ref name="att.declarable.attributes"/>
          <ref name="att.typed.attributes"/>
@@ -4618,17 +4604,6 @@ Sample values include: 1] main; 2] sub(subordinate) ; 3] alt(alternate) ; 4] sho
       
          </group>
          <ref name="att.global.attributes"/>
-         <optional>
-            <attribute xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"
-                       name="type"
-                       a:defaultValue="text">
-               <a:documentation>specifies the kind of document to which the header is attached, for example whether it is a corpus or individual text.
-Sample values include: 1] text; 2] corpus</a:documentation>
-               <data type="token">
-                  <param name="pattern">(\p{L}|\p{N}|\p{P}|\p{S})+</param>
-               </data>
-            </attribute>
-         </optional>
          <empty/>
       </element>
    </define>
@@ -4788,6 +4763,7 @@ Sample values include: 1] text; 2] corpus</a:documentation>
          </zeroOrMore>
          <ref name="att.global.attributes"/>
          <ref name="att.sortable.attributes"/>
+         <ref name="att.datable.attributes"/>
          <attribute name="type">
             <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">This customization requires that the idno element have a type attribute with one of the following values.</a:documentation>
             <choice>
@@ -4807,6 +4783,15 @@ Sample values include: 1] text; 2] corpus</a:documentation>
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
             </choice>
          </attribute>
+         <optional>
+            <attribute name="subtype">
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">This customization makes the subtype attribute available to the idno element and constrains its value to the following.</a:documentation>
+               <choice>
+                  <value>altorder</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               </choice>
+            </attribute>
+         </optional>
          <optional>
             <attribute name="subtype">
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">This customization makes the subtype attribute available to the idno element and constrains its value to the following.</a:documentation>
@@ -5175,7 +5160,7 @@ Sample values include: 1] text; 2] corpus</a:documentation>
             </optional>
          </group>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="e-GEDSH-div-abstractModel-structure-l-constraint-8">
+                  id="e-GEDSH-div-abstractModel-structure-l-constraint-7">
             <rule context="tei:div">
                <report xmlns:rng="http://relaxng.org/ns/structure/1.0"
                        xmlns:sch="http://purl.oclc.org/dsdl/schematron"
@@ -5185,7 +5170,7 @@ Sample values include: 1] text; 2] corpus</a:documentation>
             </rule>
          </pattern>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="e-GEDSH-div-abstractModel-structure-p-constraint-9">
+                  id="e-GEDSH-div-abstractModel-structure-p-constraint-8">
             <rule context="tei:div">
                <report xmlns:rng="http://relaxng.org/ns/structure/1.0"
                        xmlns:sch="http://purl.oclc.org/dsdl/schematron"
@@ -5665,7 +5650,7 @@ Suggested values include: 1] main; 2] sub(subordinate) ; 3] alt(alternate) ; 4] 
       <element name="back">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(back matter) contains any appendixes, etc. following the main part of a text. [4.7. Back Matter 4. Default Text Structure]</a:documentation>
          <group>
-      
+
             <zeroOrMore>
                <choice>
                   <ref name="model.frontPart"/>
@@ -5675,16 +5660,16 @@ Suggested values include: 1] main; 2] sub(subordinate) ; 3] alt(alternate) ; 4] 
                   <ref name="model.global"/>
                </choice>
             </zeroOrMore>
-      
-      
-        
+
+
+
             <optional>
                <choice>
                   <group>
-              
+
                      <ref name="model.div1Like"/>
-              
-              
+
+
                      <zeroOrMore>
                         <choice>
                            <ref name="model.frontPart"/>
@@ -5692,13 +5677,13 @@ Suggested values include: 1] main; 2] sub(subordinate) ; 3] alt(alternate) ; 4] 
                            <ref name="model.global"/>
                         </choice>
                      </zeroOrMore>
-              
+
                   </group>
                   <group>
-              
+
                      <ref name="model.divLike"/>
-              
-              
+
+
                      <zeroOrMore>
                         <choice>
                            <ref name="model.frontPart"/>
@@ -5706,29 +5691,29 @@ Suggested values include: 1] main; 2] sub(subordinate) ; 3] alt(alternate) ; 4] 
                            <ref name="model.global"/>
                         </choice>
                      </zeroOrMore>
-              
+
                   </group>
                </choice>
             </optional>
-        
-      
-      
+
+
+
             <optional>
                <group>
-          
+
                   <ref name="model.divBottomPart"/>
-          
-          
+
+
                   <zeroOrMore>
                      <choice>
                         <ref name="model.divBottomPart"/>
                         <ref name="model.global"/>
                      </choice>
                   </zeroOrMore>
-          
+
                </group>
             </optional>
-      
+
          </group>
          <ref name="att.global.attributes"/>
          <ref name="att.declaring.attributes"/>
@@ -6641,7 +6626,7 @@ Suggested values include: 1] main; 2] sub(subordinate) ; 3] alt(alternate) ; 4] 
    <define name="occupation">
       <element name="occupation">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains an informal description of a person's trade, profession or occupation. [15.2.2. The Participant Description]</a:documentation>
-         <ref name="macro.phraseSeq"/>
+         <ref name="macro.specialPara"/>
          <ref name="att.global.attributes"/>
          <ref name="att.datable.attributes"/>
          <ref name="att.editLike.attributes"/>
@@ -6991,7 +6976,7 @@ Suggested values include: 1] main; 2] sub(subordinate) ; 3] alt(alternate) ; 4] 
             </rule>
          </pattern>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="e-GEDSH-relation-activemutual-constraint-10">
+                  id="e-GEDSH-relation-activemutual-constraint-9">
             <rule context="tei:relation">
                <report xmlns:rng="http://relaxng.org/ns/structure/1.0"
                        xmlns:sch="http://purl.oclc.org/dsdl/schematron"
@@ -7000,7 +6985,7 @@ Suggested values include: 1] main; 2] sub(subordinate) ; 3] alt(alternate) ; 4] 
             </rule>
          </pattern>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="e-GEDSH-relation-activepassive-constraint-11">
+                  id="e-GEDSH-relation-activepassive-constraint-10">
             <rule context="tei:relation">
                <report xmlns:rng="http://relaxng.org/ns/structure/1.0"
                        xmlns:sch="http://purl.oclc.org/dsdl/schematron"
@@ -7442,7 +7427,7 @@ Suggested values include: 1] main; 2] sub(subordinate) ; 3] alt(alternate) ; 4] 
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(anonymous block) contains any arbitrary component-level unit of text, acting as an anonymous container for phrase or inter level elements analogous to, but without the semantic baggage of, a paragraph. [16.3. Blocks, Segments, and Anchors]</a:documentation>
          <ref name="macro.paraContent"/>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="e-GEDSH-ab-abstractModel-structure-p-constraint-12">
+                  id="e-GEDSH-ab-abstractModel-structure-p-constraint-11">
             <rule context="tei:ab">
                <report xmlns:rng="http://relaxng.org/ns/structure/1.0"
                        xmlns:sch="http://purl.oclc.org/dsdl/schematron"
@@ -7452,7 +7437,7 @@ Suggested values include: 1] main; 2] sub(subordinate) ; 3] alt(alternate) ; 4] 
             </rule>
          </pattern>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="e-GEDSH-ab-abstractModel-structure-l-constraint-13">
+                  id="e-GEDSH-ab-abstractModel-structure-l-constraint-12">
             <rule context="tei:ab">
                <report xmlns:rng="http://relaxng.org/ns/structure/1.0"
                        xmlns:sch="http://purl.oclc.org/dsdl/schematron"
@@ -7661,6 +7646,16 @@ Suggested values include: 1] main; 2] sub(subordinate) ; 3] alt(alternate) ; 4] 
       <element name="catchwords">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">describes the system used to ensure correct ordering of the quires making up a codex or incunable, typically by means of annotations at the foot of the page. [10.3.7. Catchwords, Signatures, Secundo Folio]</a:documentation>
          <ref name="macro.phraseSeq"/>
+         <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
+                  id="e-GEDSH-catchwords-catchword_in_msDesc-constraint-6">
+            <rule context="tei:catchwords">
+               <sch:assert xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                           xmlns="http://www.tei-c.org/ns/1.0"
+                           xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                           test="ancestor::tei:msDesc"
+                           role="nonfatal">WARNING: deprecated use of element — The <sch:name/> element will not be allowed outside of msDesc as of 2018-10-01.</sch:assert>
+            </rule>
+         </pattern>
          <ref name="att.global.attributes"/>
          <empty/>
       </element>
@@ -7675,7 +7670,7 @@ Suggested values include: 1] main; 2] sub(subordinate) ; 3] alt(alternate) ; 4] 
             </choice>
          </zeroOrMore>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="e-GEDSH-dimensions-duplicateDim-constraint-14">
+                  id="e-GEDSH-dimensions-duplicateDim-constraint-13">
             <rule context="tei:dimensions">
                <report xmlns:rng="http://relaxng.org/ns/structure/1.0"
                        xmlns:sch="http://purl.oclc.org/dsdl/schematron"
@@ -7685,7 +7680,7 @@ The element <name/> may appear once only
             </rule>
          </pattern>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="e-GEDSH-dimensions-duplicateDim-constraint-15">
+                  id="e-GEDSH-dimensions-duplicateDim-constraint-14">
             <rule context="tei:dimensions">
                <report xmlns:rng="http://relaxng.org/ns/structure/1.0"
                        xmlns:sch="http://purl.oclc.org/dsdl/schematron"
@@ -7695,7 +7690,7 @@ The element <name/> may appear once only
             </rule>
          </pattern>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="e-GEDSH-dimensions-duplicateDim-constraint-16">
+                  id="e-GEDSH-dimensions-duplicateDim-constraint-15">
             <rule context="tei:dimensions">
                <report xmlns:rng="http://relaxng.org/ns/structure/1.0"
                        xmlns:sch="http://purl.oclc.org/dsdl/schematron"
@@ -7862,6 +7857,16 @@ Sample values include: 1] leaves; 2] ruled; 3] pricked; 4] written; 5] miniature
       <element name="secFol">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(second folio) marks the word or words taken from a fixed point in a codex (typically the beginning of the second leaf) in order to provide a unique identifier for it.  [10.3.7. Catchwords, Signatures, Secundo Folio]</a:documentation>
          <ref name="macro.phraseSeq"/>
+         <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
+                  id="e-GEDSH-secFol-secFol_in_msDesc-constraint-7">
+            <rule context="tei:secFol">
+               <sch:assert xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                           xmlns="http://www.tei-c.org/ns/1.0"
+                           xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                           test="ancestor::tei:msDesc"
+                           role="nonfatal">WARNING: deprecated use of element — The <sch:name/> element will not be allowed outside of msDesc as of 2018-10-01.</sch:assert>
+            </rule>
+         </pattern>
          <ref name="att.global.attributes"/>
          <empty/>
       </element>
@@ -7870,6 +7875,16 @@ Sample values include: 1] leaves; 2] ruled; 3] pricked; 4] written; 5] miniature
       <element name="signatures">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains discussion of the leaf or quire signatures found within a codex. [10.3.7. Catchwords, Signatures, Secundo Folio]</a:documentation>
          <ref name="macro.specialPara"/>
+         <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
+                  id="e-GEDSH-signatures-signatures_in_msDesc-constraint-8">
+            <rule context="tei:signatures">
+               <sch:assert xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                           xmlns="http://www.tei-c.org/ns/1.0"
+                           xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                           test="ancestor::tei:msDesc"
+                           role="nonfatal">WARNING: deprecated use of element — The <sch:name/> element will not be allowed outside of msDesc as of 2018-10-01.</sch:assert>
+            </rule>
+         </pattern>
          <ref name="att.global.attributes"/>
          <empty/>
       </element>
@@ -7949,7 +7964,7 @@ Sample values include: 1] leaves; 2] ruled; 3] pricked; 4] written; 5] miniature
       
          </group>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="e-GEDSH-msIdentifier-msId_minimal-constraint-17">
+                  id="e-GEDSH-msIdentifier-msId_minimal-constraint-16">
             <rule context="tei:msIdentifier">
                <report xmlns:rng="http://relaxng.org/ns/structure/1.0"
                        xmlns:sch="http://purl.oclc.org/dsdl/schematron"
@@ -8267,7 +8282,10 @@ Sample values include: 1] leaves; 2] ruled; 3] pricked; 4] written; 5] miniature
                      </choice>
                   </zeroOrMore>
           
-          
+                  <optional>
+                     <ref name="filiation"/>
+                  </optional>
+            
                   <zeroOrMore>
                      <ref name="model.noteLike"/>
                   </zeroOrMore>
@@ -8848,7 +8866,6 @@ Suggested values include: 1] paper; 2] parch(parchment) ; 3] mixed</a:documentat
          <ref name="att.global.attributes"/>
          <ref name="att.datable.attributes"/>
          <ref name="att.typed.attributes"/>
-         <ref name="att.source.attributes"/>
          <empty/>
       </element>
    </define>
@@ -8984,10 +9001,7 @@ Suggested values include: 1] paper; 2] parch(parchment) ; 3] mixed</a:documentat
       <element name="msPart">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(manuscript part) contains information about an originally distinct manuscript or part of a manuscript, which is now part of a composite manuscript. [10.10. Manuscript Parts]</a:documentation>
          <group>
-            <choice>
-               <ref name="altIdentifier"/>
-               <ref name="msIdentifier"/>
-            </choice>
+            <ref name="msIdentifier"/>
             <zeroOrMore>
                <ref name="model.headLike"/>
             </zeroOrMore>
@@ -9014,17 +9028,8 @@ Suggested values include: 1] paper; 2] parch(parchment) ; 3] mixed</a:documentat
                </group>
             </choice>
          </group>
-         <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="e-GEDSH-msPart-deprecate-altIdentifier-child-constraint-18">
-            <rule context="tei:msPart">
-               <sch:report xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                           xmlns="http://www.tei-c.org/ns/1.0"
-                           xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-                           test="child::tei:altIdentifier"
-                           role="nonfatal">WARNING: use of deprecated method — the use of the altIdentifier element as a direct child of the msPart element will be removed from the TEI on 2016-09-09</sch:report>
-            </rule>
-         </pattern>
          <ref name="att.global.attributes"/>
+         <ref name="att.typed.attributes"/>
          <empty/>
       </element>
    </define>
@@ -9060,6 +9065,7 @@ Suggested values include: 1] paper; 2] parch(parchment) ; 3] mixed</a:documentat
             </choice>
         </group>
          <ref name="att.global.attributes"/>
+         <ref name="att.typed.attributes"/>
          <empty/>
       </element>
    </define>
