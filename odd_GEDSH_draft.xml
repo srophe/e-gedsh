@@ -176,6 +176,7 @@
               <valList type="closed">
                 <valItem ident="italic"/>
                 <valItem ident="superscript"/>
+                <valItem ident="bold"/>
               </valList>
             </attDef>
           </attList>
@@ -183,7 +184,7 @@
 
         <elementSpec ident="idno" mode="change" module="header">
           <attList>
-            <attDef ident="subtype" mode="add" usage="opt">
+            <attDef ident="subtype" mode="change" usage="opt">
               <desc>This customization makes the subtype attribute available to the idno element and constrains its value to the following.</desc>
               <valList type="closed">
                 <valItem ident="altorder"/>
