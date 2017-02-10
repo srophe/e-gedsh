@@ -7,6 +7,7 @@
             <!-- Does not currently search tei header info, other then title -->
             <!-- Should maybe not index placeName, location, state or event?-->
             <text qname="tei:body"/>
+            <text qname="tei:head" boost="2.0"/>
             <text qname="tei:biblStruct"/>
             <text qname="tei:div"/>
             <text qname="tei:author" boost="2.0"/>
