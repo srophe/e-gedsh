@@ -1,3 +1,7 @@
+xquery version "3.1";
+import module namespace functx="http://www.functx.com";
+declare namespace tei="http://www.tei-c.org/ns/1.0";
+
 declare function local:update-ref($ref){
 let $target := $ref/@target
 let $s := 
