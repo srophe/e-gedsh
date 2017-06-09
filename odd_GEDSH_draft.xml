@@ -96,19 +96,8 @@
         </elementSpec>
 
         <elementSpec ident="div" mode="change" module="textstructure">
-          <classes mode="change">
-            <memberOf key="model.divLike" mode="add"/>
-          </classes>
-          <content>
-            <elementRef key="div" minOccurs="0" maxOccurs="unbounded"/>
-            <elementRef key="p" minOccurs="0" maxOccurs="unbounded"/>
-            <elementRef key="head" minOccurs="0" maxOccurs="unbounded"/>
-            <elementRef key="ab" minOccurs="0" maxOccurs="unbounded"/>
-            <elementRef key="byline" minOccurs="0" maxOccurs="unbounded"/>
-            <elementRef key="listBibl" minOccurs="0" maxOccurs="unbounded"/>
-          </content>
           <attList>
-            <attDef ident="type" mode="replace" usage="req">
+            <attDef ident="type" mode="change" usage="req">
               <desc>This customization requires that the div element have a type attribute with one of the following values.</desc>
               <datatype>
                 <dataRef key="teidata.enumerated"/>
