@@ -96,9 +96,9 @@
         </elementSpec>
 
         <elementSpec ident="div" mode="change" module="textstructure">
-          <content>
-            <elementRef key="p" minOccurs="0" maxOccurs="unbounded"/>
-          </content>
+          <classes mode="change">
+            <memberOf key="model.divLike" mode="add"/>
+          </classes>
           <attList>
             <attDef ident="type" mode="replace" usage="req">
               <desc>This customization requires that the div element have a type attribute with one of the following values.</desc>
