@@ -171,15 +171,16 @@
 
         <elementSpec ident="hi" mode="change" module="core">
           <attList>
-            <attDef ident="rend" mode="replace" usage="req">
-              <desc>This customization requires that the hi element have a rend attribute with one of the following values.</desc>
-              <datatype>
+            <attDef ident="rend" mode="change" usage="req">
+              <desc>This customization requires that the hi element have a rend attribute with one or more of the following values.</desc>
+              <datatype minOccurs="1" maxOccurs="unbounded">
                 <dataRef key="teidata.enumerated"/>
               </datatype>
-              <valList type="closed">
+              <valList type="closed" mode="add">
                 <valItem ident="italic"/>
                 <valItem ident="superscript"/>
                 <valItem ident="bold"/>
+                <valItem ident="small-caps"/>
               </valList>
             </attDef>
           </attList>
