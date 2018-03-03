@@ -18,9 +18,13 @@
    </teiHeader>
    <text>
       <body>
-         <list><!-- Mss. not marked. Consider this for cross referencing with the index of mss. -->
-            <figure><!--I think I need to put each figure into a div and then add an ab type idnos inside the div. There I would ad the URI which is currently the graphic type=url. I would then need to point the graphic type=url to the image server. -->
-               <graphic url="http://gedsh.bethmardutho.org/fig/1"/>
+         <!-- Mss. not marked. Consider this for cross referencing with the index of mss. -->
+            <div type="figure">
+               <ab type="idnos">
+                  <idno type="URI">http://gedsh.bethmardutho.org/fig/1</idno>
+               </ab>
+               <figure><!--I think I need to put each figure into a div and then add an ab type idnos inside the div. There I would ad the URI which is currently the graphic type=url. I would then need to point the graphic type=url to the image server. -->
+                  <graphic url="http://cantaloupe.dh.tamu.edu/iiif/..."/>
                <figDesc>Fig. 1. Orpheus taming wild animals. Mosaic decorating the tomb of Papa,
                   with Syriac inscription dated 194, and reflecting Greco-Roman culture of the
                   Edessa area under the Abgarids. Dallas Museum of Art. Photo: John F. Healey. See
@@ -34,6 +38,7 @@
                   <ref target="http://gedsh.bethmardutho.org/Old-Syriac-documents">Old Syriac documents</ref>.
                </figDesc>
             </figure>
+            </div>
             <figure>
                <graphic url="http://gedsh.bethmardutho.org/fig/2"/>
                <figDesc>Fig. 2. King Abgar receiving the portrait of Jesus. Modern relief in the
@@ -1387,7 +1392,7 @@
                   <ref target="http://gedsh.bethmardutho.org/al-Zafaran-Dayr">Dayr al-Zaʿfarān</ref>.
                </figDesc>
             </figure>
-         </list>
+         
       </body>
    </text>
 </TEI>
