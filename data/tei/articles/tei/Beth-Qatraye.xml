@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Beth Qaṭraye</title>
+            <author>
+               <persName>
+                  <forename>Lucas</forename> 
+                  <surname>Van Rompay</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0">Electronic Edition Draft Version 1.0</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Beth Qaṭraye</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Beth-Qatraye</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/111</idno>
+                    <idno type="entry">102</idno>
+                    <milestone unit="pages" n="72-73"/>
+                    <idno type="subject">http://syriaca.org/place/37</idno>
+                    <note type="type">place</note>
+                    <note type="abstract">Region including the peninsula of Qaṭar, but also its hinterland Yamāma, and the entire
+                        coast of northeast Arabia as far as the peninsula of Musandam, in
+                        present-day Oman, along with the islands.<note/>
+                    </note>
+                </ab>
+                <div type="body">
+                    <p>The region known in Syriac as Beth Qaṭraye includes not only the peninsula of
+                        Qaṭar, but also its hinterland Yamāma, and the entire coast of northeast
+                        Arabia as far as the peninsula of Musandam, in present-day Oman, along with
+                        the islands. Christianity must have reached Beth Qaṭraye no later than the
+                        4th <abbr>cent.</abbr> Eliya, <abbr>
+                            <choice>
+                                <sic>Bp.</sic>
+                                <corr>bp.</corr>
+                            </choice>
+                        </abbr> of Mashmahig, was present at the first Synod of the Ch.
+                        of E., in <ref rend="bold" target="https://gedsh.bethmardutho.org/Seleucia-Ctesiphon">
+                            <placeName ref="http://syriaca.org/place/182">Seleucia-Ctesiphon</placeName>
+                        </ref> (410), while another <abbr>bp.</abbr> of Mashmahig was
+                        deposed and excommunicated at the same synod. From the 6th <abbr>cent.</abbr> onwards, in
+                        addition to Mashmahig, there were bishops in Dayrin, Mazun, Hagar, and
+                        Ḥaṭṭa. Initially they were under the control of the metropolitan of Rev
+                        Ardashir, in <ref rend="bold" target="https://gedsh.bethmardutho.org/Fars">
+                            <placeName ref="http://syriaca.org/place/84">Fars</placeName>
+                        </ref>, until Beth Qaṭraye obtained its own metropolitan, whose
+                        existence is attested only in 676.</p>
+                    <p>Most of the information on Beth Qaṭraye pertains to the early Islamic period.
+                        Among the correspondence of <abbr>Cath.</abbr> 
+                  <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Ishoyahb-III-of-Adiabene">
+                            <persName ref="http://syriaca.org/person/561">Ishoʿyahb III</persName>
+                        </ref> (649–59), five letters deal with troubles in Beth
+                        Qaṭraye. The background is the rebellion of metropolitan <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Shemon-of-Rev-Ardashir">
+                            <persName ref="http://syriaca.org/person/740">Shemʿon of
+                            Rev Ardashir</persName>
+                        </ref> against the <abbr>
+                            <choice>
+                                <sic>Cath.</sic>
+                                <corr>cath.</corr>
+                            </choice>
+                        </abbr>; this triggered an uprising among
+                        the bishops of Beth Qaṭraye, who likewise turned their back on the <abbr>
+                            <choice>
+                                <sic>Cath.</sic>
+                                <corr>cath.</corr>
+                            </choice>
+                        </abbr>
+                        Among Ishoʿyahb III’s preserved letters one is addressed to the bishops, two
+                        to the Christians in general, and two to the monks. Although the details are
+                        not known, the rebellion had come to an end in 676, when <abbr>Cath.</abbr> 
+                  <ref rend="bold" target="https://gedsh.bethmardutho.org/Gewargis-I">
+                            <persName ref="http://syriaca.org/person/501">Gewargis</persName>
+                        </ref> (659–80) went to Beth Qaṭraye for a local
+                        synod. Very little is known of the subsequent history of Beth Qaṭraye;
+                        Christianity may have disappeared from the region after the 9th <abbr>cent.</abbr>
+                    </p>
+                    <p>In the 6th and 7th <abbr>cent.</abbr>, Christian Beth Qaṭraye produced a number of
+                        important Syriac authors. Most <choice>
+                            <sic>well known</sic>
+                            <corr>well-known</corr>
+                        </choice> among them is the ascetic and
+                        mystical author <ref rend="bold" target="https://gedsh.bethmardutho.org/Ishaq-of-Nineveh">
+                            <persName ref="http://syriaca.org/person/550">Isḥaq of
+                            Nineveh</persName>
+                        </ref>, who was born and lived for some time in Beth Qaṭraye,
+                        before <abbr>Cath.</abbr> Gewargis took him to <ref rend="bold" target="https://gedsh.bethmardutho.org/Beth-Aramaye">
+                            <placeName ref="http://syriaca.org/place/32">Beth Aramaye</placeName>
+                        </ref>.
+                        After a short-lived episcopate in <ref rend="bold" target="https://gedsh.bethmardutho.org/Nineveh">
+                            <placeName ref="http://syriaca.org/place/144">Nineveh</placeName>
+                        </ref>, he
+                        withdrew to eremitic life in Beth Huzaye. Another very important ascetic
+                        author from this region is <ref rend="bold" target="https://gedsh.bethmardutho.org/Dadisho-Qatraya">
+                            <persName ref="http://syriaca.org/person/434">Dadishoʿ
+                            Qaṭraya</persName>
+                        </ref>. Among the various authors designated as <ref rend="bold" target="https://gedsh.bethmardutho.org/Gabriel-Qatraya">
+                            <persName ref="http://syriaca.org/person/495">Gabriel
+                            Qaṭraya</persName>
+                        </ref> in the sources, there is a biblical interpreter, who was a
+                        teacher in Seleucia-Ctesiphon in the mid-7th <abbr>cent.</abbr>, and a commentator on the
+                        <ref rend="bold" target="https://gedsh.bethmardutho.org/Liturgy">liturgy</ref>, who lived in the first half of the 7th
+                        <abbr>cent.</abbr> The latter Gabriel’s work on the liturgy probably was the main source
+                        for the short commentary attributed to <ref rend="bold" target="https://gedsh.bethmardutho.org/Abraham-bar-Lipeh">
+                            <persName ref="http://syriaca.org/person/318">Abraham Qaṭraya
+                            bar Lipeh</persName>
+                        </ref>. Another biblical interpreter frequently quoted in later
+                        sources is <ref rend="bold" target="https://gedsh.bethmardutho.org/Ahob-Qatraya">
+                            <persName ref="http://syriaca.org/person/324">Aḥob
+                        Qaṭraya</persName>
+                        </ref>.</p>
+                    <p>While Christians in Beth Qaṭraye used Syriac as their literary and liturgical
+                        language, Persian and Arabic must have existed in the region as well. This
+                        linguistic complexity is reflected in a few dozen glosses, explicitly
+                        identified as being in the ‘language of Beth Qaṭraye’ (in some cases the
+                        adverb <hi rend="italic">qaṭrāʾit</hi> is used) and preserved in later
+                        works, esp. in biblical commentaries and in the Lexicon of <ref rend="bold" target="https://gedsh.bethmardutho.org/Bar-Bahlul-Hasan">
+                            <persName ref="http://syriaca.org/person/365">Bar
+                        Bahlul</persName>
+                        </ref>. Some of these glosses are attributed to the biblical
+                        interpreters Gabriel and Aḥob Qaṭraya. While some can be identified as
+                        Aramaic, others point to a Persian (Pahlavi or proto-Neo-Persian) or to an
+                        Arabic origin. Users of this language must have been among the readers and
+                        writers of Syriac texts in Bet Qaṭraye.</p>
+                    <p>Christians from Beth Qaṭraye also served as translators. The Persian
+                        translator for the (undoubtedly Arabic speaking) Laḥmid king al-Nuʿmān III
+                        (579–601) is said to have been a Christian from Beth Qaṭraye. A monk from
+                        Beth Qaṭraye is credited with the translation from Persian into Syriac of
+                        the Law Book of Shemʿon of Rev Ardashir.</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>J.  Beaucamp and C.  Robin, ‘L’évêché nestorien de Mâšmâhîg dans
+                            l’archipel d’al-Bahrain (V<hi rend="superscript">e</hi>–IX<hi rend="superscript">e</hi> siècle)’, <title rend="italic">Dilmun. New
+                                Studies in the Archaeology and early History of Bahrain
+                            </title>, <abbr>ed.</abbr>
+                            D. T.  Potts (Berliner Beiträge zum <choice>
+                                <sic>vorderen</sic>
+                                <corr>Vorderen</corr>
+                            </choice> Orient 1; 1983),
+                            171–96.</bibl>
+                        <bibl>S. P.  Brock, ‘Syriac writers from Beth Qaṭraye’, <title rend="italic">ARAM</title> 11–12 (1999–2000), 85–96.</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>S.  Brock</reg>
+                        <orig>idem</orig>
+                     </choice>, ‘From Qatar to Tokyo, by way of Mar Saba’, <title rend="italic">ARAM</title> 11–12 (1999/2000), 475–84.</bibl>
+                        <bibl>R. A.  Carter, ‘Christianity in the Gulf during the first centuries of
+                            Islam’, <title rend="italic">Arab Archaeology and Epigraphy</title> 19
+                            (2008), 71–108.</bibl>
+                        <bibl>R.  Contini, ‘La lingua del Bēt Qaṭrāyē’, in <title rend="italic">Mélanges David Cohen</title>, <abbr>ed.</abbr> J. Lentin and A. Lonnet (2003),
+                            173–81.</bibl>
+                        <bibl>J.-M.  Fiey, ‘Diocèses syriens-orientaux du Golfe Persique’, in <title rend="italic">Mémorial Mgr. Gabriel Khouri-Sarkis</title>
+                            (1898–1968), 209–19.</bibl>
+                        <bibl>J. F.  Healey, ‘The Christians of Qatar in the 7<hi rend="superscript">th</hi> century A.D.’, in <title rend="italic">Studies in Honour of
+                                C. E. Bosworth</title>, <abbr>ed.</abbr> I. R. Netton, vol. 1 (2000),
+                            222–37.</bibl>
+                        <bibl>D. T.  Potts, <title rend="italic">The Arabian Gulf in
+                                Antiquity</title>, vol. 2. <title rend="italic">From Alexander the
+                                Great to the coming of Islam</title> (1990).</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Lucas</forename> 
+                  <surname>Van Rompay</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

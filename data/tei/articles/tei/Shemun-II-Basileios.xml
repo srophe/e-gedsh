@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Shemʿun II, Basileios</title>
+            <author>
+               <persName>
+                  <forename>George A.</forename> 
+                  <surname>Kiraz</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0">Electronic Edition Draft Version 1.0</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Shemʿun II, Basileios</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Shemun-II-Basileios</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/512</idno>
+                    <idno type="entry">503</idno>
+                    <milestone unit="pages" n="375-376"/>
+                    <idno type="althead" subtype="altorder">Basileios Shemʿun II</idno>
+                    <idno type="subject">http://syriaca.org/person/291</idno>
+                    <note type="type">person</note>
+                    <note type="abstract">Writer, maph. of Ṭur ʿAbdin (1710–40), and martyr.<note/>
+                    </note>
+                </ab>
+                <ab type="infobox">(<abbr>ca.</abbr> 1670–1740) [<abbr>Syr. Orth.</abbr>]</ab>
+                <div type="body">
+                    <p>Writer, maph. of <ref rend="bold" target="https://gedsh.bethmardutho.org/Tur-Abdin">
+                            <placeName ref="http://syriaca.org/place/221">Ṭur ʿAbdin</placeName>
+                        </ref>
+                        (1710–40), and martyr. He was born in Beth Manʿem <abbr>ca.</abbr> 1670 to Malke <abbr>b.</abbr> Ayyub
+                        and Saydeh. He became a monk <abbr>ca.</abbr> 1690 and visited <ref rend="bold" target="https://gedsh.bethmardutho.org/Matay-Dayro-d-Mor">
+                            <persName ref="http://syriaca.org/person/227">Dayro d-Mor
+                            Matay</persName>
+                        </ref> in 1695. Shortly after, he was ordained a priest and became
+                        a <hi rend="italic">ḥbišoyo</hi> ‘recluse’ at Dayro d-Mor Yaʿqub near <ref rend="bold" target="https://gedsh.bethmardutho.org/al-Zafaran-Dayr">
+                            <placeName ref="http://syriaca.org/place/69">Dayr
+                            al-Zaʿfarān</placeName>
+                        </ref>. He was consecrated maph. for Ṭur ʿAbdin in 1710 by
+                        <abbr>Patr.</abbr> 
+                  <ref rend="bold" target="https://gedsh.bethmardutho.org/Ishoq-Azar">
+                            <persName ref="http://syriaca.org/person/289">Isḥoq ʿAzar</persName>
+                        </ref> at the church of Mor Thoma in Qaṭrabil near <ref rend="bold" target="https://gedsh.bethmardutho.org/Amid">
+                            <placeName ref="http://syriaca.org/place/8">Amid</placeName>
+                        </ref>. The
+                        following year, however, Shemʿun temporarily retired from the
+                        responsibilities of the maphrianate without abdicating, preferring the life
+                        of a <hi rend="italic">ḥbišoyo</hi> at Dayro d-Mor Yaʿqub. In 1725, he
+                        brought about a reconciliation between the Patriarchate of Ṭur ʿAbdin, upon
+                        the death of its <abbr>Patr.</abbr> Ignatius Denḥo, with the mainstream Patriarchate in
+                            <ref rend="bold" target="https://gedsh.bethmardutho.org/Mardin">
+                            <placeName ref="http://syriaca.org/place/130">Mardin</placeName>
+                        </ref>, a union which lasted for 15 years. He returned to
+                        actively administer the maphrianate in 1727.</p>
+                    <p>Shemʿun was tortured then killed on 6 Apr. 1740 by ʿAbdal Agha, a local
+                        Kurdish warlord, for refusing to grant a matrimonial permission for the
+                        Agha’s <abbr>Syr. Orth.</abbr> servant who wished to marry a close cousin, an act
+                        prohibited by the canon law of the time. Shemʿun is particularly known for a
+                        Kurdish song, <hi rend="italic">Lawij</hi> ‘lyrical song’, which he is said
+                        to have recited during an audience with the Kurdish Amir of Jazireh,
+                        Muḥammad al-Bakhti, during the time when ʿAbdal Agha was trying to get
+                        Shemʿun killed.</p>
+                    <p>His literary works include: 1. A book on religion and theology (<abbr>ms.</abbr> Syr.
+                        Orth. <abbr>Patr.</abbr> Libr.); 2. A book on the Sacraments, <hi rend="italic">Markabat
+                            al-asrār</hi> (lost); 3. Another theological book, <hi rend="italic">Ṣilāḥ̣ al-dīn wa-turs al-yaqīn</hi> (<abbr>ms.</abbr>); 4. A collection of sermons
+                        (<abbr>ms.</abbr>); 5. A collection of poems and <hi rend="italic">memre</hi> (a few <abbr>ed.</abbr>
+                        by Çiçek); 6. An abridged dictionary based on that of <ref rend="bold" target="https://gedsh.bethmardutho.org/Bar-Bahlul-Hasan">
+                            <persName ref="http://syriaca.org/person/365">Bar Bahlul</persName>
+                        </ref>
+                        (<abbr>ms.</abbr>); 7. A commentary on the Lord’s Prayer (<abbr>ed.</abbr> Çiçek, 1998).</p>
+                </div>
+                <div type="bibl">
+                    <listBibl>
+                        <listBibl>
+                            <head>Primary Sources</head>
+                            <bibl>Y. Çiçek, <title rend="italic">Kapho d-habobe</title>
+                                (Glane/Losser, 1981), 21–33. (Kurdish text of <title rend="italic">Lawij</title>)</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>Y. Çiçek</reg>
+                           <orig>idem</orig>
+                        </choice>, <title rend="italic">Tenḥotho d-ṭur ʿabdin</title>
+                                (Glane/Losser, 1987). (contains some <title rend="italic">memre</title> and the Kurdish text of <title rend="italic">Lawij
+                                </title>[98–114])</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>Y. Çiçek</reg>
+                           <orig>idem</orig>
+                        </choice>, <title rend="italic">Phušoq ṣlutho d-Abun d-ba-šmayo</title>
+                                (Glane/Losser, 1998).</bibl>
+                            <bibl>P.  Kreyenbroek, ‘The Lawij of Mor Basilios <choice>
+                                    <sic>Shem’un</sic>
+                                    <corr>Shemʿun</corr>
+                                </choice>: a Kurdish
+                                Christian text in Syriac script’, <title rend="italic">Journal of
+                                    Kurdish Studies</title> 1 (1995), 29–54. (<abbr>ET</abbr> of <title rend="italic">Lawij</title>)</bibl>
+                        </listBibl>
+                        <listBibl>
+                            <head>Secondary Sources</head>
+                            <bibl>Barsoum, in <title rend="italic">
+                                    <abbr>PatMagJer</abbr>
+                                </title> 6 (1939),
+                                23–30.</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>Barsoum</reg>
+                           <orig>idem</orig>
+                        </choice>, <title rend="italic">Scattered pearls</title>,
+                                516–18.</bibl>
+                        </listBibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>George A.</forename> 
+                  <surname>Kiraz</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

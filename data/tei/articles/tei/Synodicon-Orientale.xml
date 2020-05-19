@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Synodicon Orientale</title>
+            <author>
+               <persName>
+                  <forename>Lucas</forename> 
+                  <surname>Van Rompay</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0">Electronic Edition Draft Version 1.0</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Synodicon Orientale</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Synodicon-Orientale</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/534</idno>
+                    <idno type="entry">525</idno>
+                    <milestone unit="pages" n="387-389"/>
+                    <note type="type">work</note>
+                    <note type="abstract">Collection of reports and canons of the synods of the Ch.
+                        of E. held between the years 410 and 775/6.<note/>
+                    </note>
+                </ab>
+                <ab type="infobox">[Ch. of E.]</ab>
+                <div type="body">
+                    <p>Collection of reports and canons of the synods of the <abbr>Ch. of E.</abbr> held between
+                        the years 410 and 775/6. This collection of synods is only one part of a
+                        much larger collection of canonical and juridical texts, which is
+                        transmitted in a single 13th- or 14th-cent. <abbr>ms.</abbr> (Alqosh Syr. 169),
+                        accessible to Western scholars in a number of later copies. The larger
+                        collection has sometimes been called the ‘great Synodicon’ (‘Das grosse
+                        Synodikon’ in Selb’s description, consisting of 80 items, see p. 59–63). The
+                        more limited collection, the Synodicon Orientale proper, covers nos. 28–41
+                        of Selb’s list. It is this more limited collection that has been edited by
+                        Chabot and translated by both Braun (<abbr>GT</abbr>) and Chabot (<abbr>FT</abbr>) under the title
+                        Synodicon Orientale. Within the <abbr>ms.</abbr> itself, the title ‘Book of synods’ (<hi rend="italic">Ktābā d-swnhdw</hi>) is used a few times, either for the
+                        collection of E.-Syr. synods or, as a <hi rend="italic">pars pro toto</hi>,
+                        for the entire collection. The collection of synods is specifically
+                        introduced with the term <hi rend="italic">swnhdyqw</hi> (plur.) ‘synodical
+                        texts’ (Braun: ‘Synodalacten’; Chabot: ‘décisions synodales’).</p>
+                    <p>Chabot divides the entire collection into three parts (covering 840 pages in
+                        the Borgia <abbr>ms.</abbr>). The part edited by him, the Synodicon Orientale proper, is
+                        the second (p. 242–561). The first part (p. 1–242; nos. 1–27 in Selb’s list)
+                        contains texts attributed to the apostles along with canons and related
+                        literature of the early Greek synods; it also includes the 73 pseudo-Nicene
+                        canons attributed to <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Marutha-of-Maypherqat">
+                            <persName ref="http://syriaca.org/person/25">Marutha of
+                            Maypherqaṭ</persName>
+                        </ref> and some other texts relevant to the early history of
+                        the <abbr>Ch. of E.</abbr>, such as the correspondence related to <ref rend="bold" target="https://gedsh.bethmardutho.org/Papa-bar-Aggai">
+                            <persName ref="http://syriaca.org/person/669">Papa bar
+                            ʿAggai</persName>
+                        </ref>. The third part (p. 561–840; nos. 42–80 in Selb’s list)
+                        contains additional materials pertaining to <abbr>Cath.</abbr> Mar <ref rend="bold" target="https://gedsh.bethmardutho.org/Aba-I">
+                            <persName ref="http://syriaca.org/person/306">Aba I</persName>
+                        </ref> and <ref rend="bold" target="https://gedsh.bethmardutho.org/Henanisho-II">
+                            <persName ref="http://syriaca.org/person/532">Ḥenanishoʿ  II</persName>
+                        </ref>; extracts from Greek theological writings; the
+                        monastic canons of <ref rend="bold" target="https://gedsh.bethmardutho.org/Abraham-of-Kashkar">
+                            <persName ref="http://syriaca.org/person/320">Abraham of
+                            Kashkar</persName>
+                        </ref> and his successor Dadishoʿ on Mount Izla; the canons of the
+                            <ref rend="bold" target="https://gedsh.bethmardutho.org/Nisibis-School-of">School of
+                            Nisibis</ref>; several lawbooks associated with the names of <abbr>
+                            <choice>
+                                <sic>cath.</sic>
+                                <corr>Cath.</corr>
+                            </choice>
+                        </abbr> 
+                  <ref rend="bold" target="https://gedsh.bethmardutho.org/Henanisho-I">
+                            <persName ref="http://syriaca.org/person/531">Ḥenanishoʿ I</persName>
+                        </ref> (late 7th <abbr>cent.</abbr>), <abbr>
+                            <choice>
+                                <sic>cath.</sic>
+                                <corr>Cath.</corr>
+                            </choice>
+                        </abbr> 
+                  <ref rend="bold" target="https://gedsh.bethmardutho.org/Timotheos-I">
+                            <persName ref="http://syriaca.org/person/790">Timotheos I</persName>
+                        </ref>
+                        (d.  823), <abbr>
+                            <choice>
+                                <sic>cath.</sic>
+                                <corr>Cath.</corr>
+                            </choice>
+                        </abbr> 
+                  <ref rend="bold" target="https://gedsh.bethmardutho.org/Isho-bar-Nun">
+                            <persName ref="http://syriaca.org/person/552">Ishoʿ bar Nun</persName>
+                        </ref>
+                        (d. 828), <ref rend="bold" target="https://gedsh.bethmardutho.org/Abdisho-bar-Bahriz">
+                            <persName ref="http://syriaca.org/person/309">ʿAbdishoʿ bar
+                            Bahrīz</persName>
+                        </ref> (early 9th <abbr>cent.</abbr>), <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Shemon-of-Rev-Ardashir">
+                            <persName ref="http://syriaca.org/person/740">Shemʿon of
+                            Rev Ardashir</persName>
+                        </ref> (7th or 8th <abbr>cent.</abbr>), and <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Ishobokht-of-Rev-Ardashir">
+                            <persName ref="http://syriaca.org/person/554">Ishoʿbokht</persName>
+                        </ref> (8th <abbr>cent.</abbr>); the Syro-Roman Lawbook; letters of <abbr>
+                            <choice>
+                                <sic>cath.</sic>
+                                <corr>Cath.</corr>
+                            </choice>
+                        </abbr>
+                        Timotheos I; a document concerning <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Nestorios-of-Beth-Nuhadra">
+                            <persName ref="http://syriaca.org/person/654">Nestorios of Beth Nuhadra</persName>
+                        </ref>; treatises on hereditary law by <abbr>
+                            <choice>
+                                <sic>cath.</sic>
+                                <corr>Cath.</corr>
+                            </choice>
+                        </abbr>
+                            <ref rend="bold" target="https://gedsh.bethmardutho.org/Eliya-I-of-Tirhan">
+                            <persName ref="http://syriaca.org/person/468">Eliya I</persName>
+                        </ref> (d. 1049), <ref rend="bold" target="https://gedsh.bethmardutho.org/Gewargis-of-Arbela">
+                            <persName ref="http://syriaca.org/person/502">Gewargis of
+                            Arbela</persName>
+                        </ref> (late 10th <abbr>cent.</abbr>), and <ref rend="bold" target="https://gedsh.bethmardutho.org/Eliya-of-Nisibis">
+                            <persName ref="http://syriaca.org/person/472">Eliya of
+                            Nisibis</persName>
+                        </ref> (bar Shinaya, d.  1046). The presence, at the very end of
+                        the collection, of a concluding note under the name of <abbr>
+                            <choice>
+                                <sic>cath.</sic>
+                                <corr>Cath.</corr>
+                            </choice>
+                        </abbr> Eliya I, may
+                        suggest that the collection received its final redaction during his tenure
+                        (1028–49), even though the exact role of this note — in a damaged part of
+                        the original <abbr>ms.</abbr>  — and Eliya’s involvement in the collection have been
+                        debated (Kaufhold 1983, 727–30). Several items of the collection remain
+                        unpublished.</p>
+                    <p>The second part of the collection, the Synodicon Orientale proper, contains
+                        reports of the synods, along with the canons (and in some cases confessions
+                        of faith, lists of signatures, and relevant letters), of the following
+                        synods: <abbr>
+                            <choice>
+                                <sic>cath.</sic>
+                                <corr>Cath.</corr>
+                            </choice>
+                        </abbr> 
+                  <ref rend="bold" target="https://gedsh.bethmardutho.org/Ishaq">
+                            <persName ref="http://syriaca.org/person/549">Isḥaq</persName>
+                        </ref> (410); <abbr>
+                            <choice>
+                                <sic>cath.</sic>
+                                <corr>Cath.</corr>
+                            </choice>
+                            </abbr> 
+                  <ref rend="bold" target="https://gedsh.bethmardutho.org/Yahbalaha-I">
+                            <persName ref="http://syriaca.org/person/809">Yahbalaha</persName>
+                        </ref> (420); <abbr>
+                            <choice>
+                                <sic>cath.</sic>
+                                <corr>Cath.</corr>
+                            </choice>
+                        </abbr>
+                            <ref rend="bold" target="https://gedsh.bethmardutho.org/Dadisho-I">
+                            <persName ref="http://syriaca.org/person/433">Dadishoʿ</persName>
+                        </ref> (424, no canons); <abbr>
+                            <choice>
+                                <sic>cath.</sic>
+                                <corr>Cath.</corr>
+                            </choice>
+                        </abbr> 
+                  <ref rend="bold" target="https://gedsh.bethmardutho.org/Aqaq">
+                            <persName ref="http://syriaca.org/person/338">Aqaq</persName>
+                        </ref> (486, followed by
+                        a note on the 484 Synod of <ref rend="bold" target="https://gedsh.bethmardutho.org/Barsawma-of-Nisibis">
+                            <persName ref="http://syriaca.org/person/369">Barṣawma of
+                            Nisibis</persName>
+                        </ref>, with a reference to letters by Barṣawma provided in an
+                        appendix); <abbr>
+                            <choice>
+                                <sic>cath.</sic>
+                                <corr>Cath.</corr>
+                            </choice>
+                        </abbr> Babai (497, no canons); <abbr>
+                            <choice>
+                                <sic>cath.</sic>
+                                <corr>Cath.</corr>
+                            </choice>
+                        </abbr> Aba I (544, followed by
+                        several documents); <abbr>
+                            <choice>
+                                <sic>cath.</sic>
+                                <corr>Cath.</corr>
+                            </choice>
+                        </abbr> 
+                  <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Yawsep-I-of-Seleucia-Ctesiphon">
+                            <persName ref="http://syriaca.org/person/812">Yawsep I</persName>
+                        </ref> (554); <abbr>
+                            <choice>
+                                <sic>cath.</sic>
+                                <corr>Cath.</corr>
+                            </choice>
+                        </abbr> 
+                  <ref rend="bold" target="https://gedsh.bethmardutho.org/Hazqiel-I">
+                            <persName ref="http://syriaca.org/person/529">Ḥazqiel</persName>
+                        </ref> (576); <choice>
+                            <sic/>
+                            <corr>Cath. </corr>
+                        </choice>
+                        <ref rend="bold" target="https://gedsh.bethmardutho.org/Ishoyahb-I">
+                            <persName ref="http://syriaca.org/person/559">Ishoʿyahb
+                            I</persName>
+                        </ref> (585); <abbr>
+                            <choice>
+                                <sic>cath.</sic>
+                                <corr>Cath.</corr>
+                            </choice>
+                        </abbr> 
+                  <ref rend="bold" target="https://gedsh.bethmardutho.org/Sabrisho-I">
+                            <persName ref="http://syriaca.org/person/708">Sabrishoʿ I</persName>
+                        </ref>
+                        (596, no canons); <abbr>
+                            <choice>
+                                <sic>cath.</sic>
+                                <corr>Cath.</corr>
+                            </choice>
+                        </abbr> 
+                  <ref rend="bold" target="https://gedsh.bethmardutho.org/Grigor-I">
+                            <persName ref="http://syriaca.org/person/514">Grigor I</persName>
+                        </ref> (605);
+                        <abbr>
+                            <choice>
+                                <sic>cath.</sic>
+                                <corr>Cath.</corr>
+                            </choice>
+                        </abbr> 
+                  <ref rend="bold" target="https://gedsh.bethmardutho.org/Gewargis-I">
+                            <persName ref="http://syriaca.org/person/501">Gewargis I</persName>
+                        </ref> (676, followed by an important theological letter);
+                        and <abbr>
+                            <choice>
+                                <sic>cath.</sic>
+                                <corr>Cath.</corr>
+                            </choice>
+                        </abbr> Ḥenanishoʿ II (775). There is reason to assume that this
+                        collection, focused on the synods between 410 and 775 (the Synodicon
+                        Orientale in the narrower sense), originated independently from the other
+                        documents of the larger collection. Given the time period covered, it is
+                        likely that it was put together <abbr>ca.</abbr> 800, possibly under the instigation of
+                        <abbr>
+                            <choice>
+                                <sic>cath.</sic>
+                                <corr>Cath.</corr>
+                            </choice>
+                        </abbr> Timotheos I, whose interest in matters of church legislation and canon
+                        law is well attested. This collection then became one of the main components
+                        of the larger collection, created at a later period in time. The Synodicon
+                        Orientale is an extremely valuable source for the study of the history and
+                        the theology (Brock) of the <abbr>Ch. of E.</abbr> in the Sasanian and early Islamic
+                        period, even if the later redactors may occasionally have updated the
+                        terminology or introduced minor changes, according to their perspective
+                        (Fiey).</p>
+                    <p>The textual transmission is based on a single <abbr>ms.</abbr>: Alqosh Syr. 169 (Vosté; or
+                        no. 90 in an earlier checklist by A. Scher), the writing of which seemed to
+                        Scher (who is followed by Vosté) to be ‘prior to the 14th <abbr>cent.</abbr>’. This <abbr>ms.</abbr>
+                        presently is kept in the Monastery of the Chaldeans in <ref rend="bold" target="https://gedsh.bethmardutho.org/Baghdad">
+                            <placeName ref="http://syriaca.org/place/41">Baghdad</placeName>
+                        </ref> (<abbr>Ms.</abbr> 509;
+                        cf. Kaufhold 2005, 230). Mgr. Joseph David brought a 19th-cent. copy to Rome
+                        in 1869. This two-volume copy became <abbr>ms.</abbr> Museo Borgiano K. VI, 4 and 3, and
+                        was later incorporated into the Vatican Library as Borg. Syr. 82 and 81.
+                        Among the first scholars to study it was I. Guidi (1889), followed by O.
+                        Braun. The latter prepared a German translation of the second part of the
+                        collection (Synodicon Orientale), which appeared in 1900. J.-B. Chabot,
+                        while he was planning an edition of the same part, was able to use a second
+                        copy of the Alqosh <abbr>ms.</abbr>, which subsequently became <abbr>ms.</abbr> Paris, Bibl. Nat. Syr.
+                        332 (dated 1895). This contains the Synodicon Orientale only, not the larger
+                        collection. A number of other copies, complete or incomplete, exist (Selb,
+                        64–6 and Kaufhold 1983, 730–1). While for the Synodicon Orientale no other
+                        <abbr>mss.</abbr> beyond <abbr>ms.</abbr> Alqosh Syr. 169 and its descendants are extant, for a number
+                        of the sections of the larger collection additional <abbr>mss.</abbr> are available or a
+                        parallel transmission exists in an Arabic collection under the name of <choice>
+                            <sic>Īlīyā
+                            al-Jawharī</sic>
+                            <corr>
+                                <hi rend="italic">Īlīyā
+                                al-Jawharī</hi>
+                            </corr>
+                        </choice> (<abbr>ca.</abbr> 900) and in <ref rend="bold" target="https://gedsh.bethmardutho.org/Ibn-al-Tayyib">
+                            <persName ref="http://syriaca.org/person/543">Ibn
+                        al-Ṭayyib</persName>
+                        </ref>’s <hi rend="italic">Fiqh al-Naṣrāniyya</hi> (Kaufhold 1976,
+                        24–5).</p>
+                </div>
+                <div type="bibl">
+                    <listBibl>
+                        <listBibl>
+                            <head>Primary Sources</head>
+                            <bibl>Braun, <title rend="italic">Synodicon Orientale</title>.</bibl>
+                            <bibl>Chabot, <title rend="italic">Synodicon Orientale</title>.</bibl>
+                        </listBibl>
+                        <listBibl>
+                            <head>Secondary Sources</head>
+                            <bibl>Brock, ‘The christology of the Church of the East’, 125–42.</bibl>
+                            <bibl>Fiey, <title rend="italic">Jalons</title>, esp. 17–18.</bibl>
+                            <bibl>I.  Guidi, ‘Ostsyrische Bischöfe und Bischofssitze im V., VI. und
+                                VII. Jahrhundert’, <title rend="italic">
+                                    <abbr>ZDMG</abbr>
+                                </title> 43 (1889),
+                                388–414.</bibl>
+                            <bibl>Kaufhold, <title rend="italic">Die Rechtssammlung des Gabriel von
+                                    Baṣra</title>, 24–31.</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>Kaufhold</reg>
+                           <orig>idem</orig>
+                        </choice>, Review of W.  Selb, <title rend="italic">Orientalisches
+                                    Kirchenrecht</title>, vol.  1, <title rend="italic">Zeitschrift
+                                    der Savigny-Stiftung für Rechtsgeschichte</title> 100 (1983),
+                                724–35.</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>Kaufhold</reg>
+                           <orig>idem</orig>
+                        </choice>, ‘Die syrische <choice>
+                                    <sic>Rechtsliterature</sic>
+                                    <corr>Rechtsliteratur</corr>
+                                </choice>’, in <title rend="italic">Sources syriaques</title>, I. <title rend="italic">Nos sources:
+                                        <choice>
+                                        <sic>Arts</sic>
+                                        <corr>Art</corr>
+                                    </choice> et littératures syriaques</title>, <abbr>ed.</abbr> M.  Atallah <abbr>et al.</abbr>
+                                (2005), 211–35.</bibl>
+                            <bibl>W.  Selb, <title rend="italic">Orientalisches
+                                Kirchenrecht</title>, vol. 1. <title rend="italic">Die Geschichte
+                                    des Kirchenrechts der Nestorianer (von den Anfängen bis zur
+                                    Mongolenzeit)</title> (Österreichische Akademie der
+                                Wissenschaften, phil.-hist. Klasse, Sitzungsberichte 388; 1981),
+                                59–71.</bibl>
+                            <bibl>J.  Vosté, <title rend="italic">Catalogue de la <choice>
+                                        <sic>Biblothèque</sic>
+                                        <corr>Bibliothèque</corr>
+                                    </choice>
+                                    syro-chaldéenne du couvent de Notre-Dame des semences près
+                                    d’Alqoš (Iraq)</title> (1929), 63–6. (extracted from <title rend="italic">Angelicum</title> 5 [1928], but with separate page
+                                numbering)</bibl>
+                        </listBibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Lucas</forename> 
+                  <surname>Van Rompay</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

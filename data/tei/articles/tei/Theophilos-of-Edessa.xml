@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Theophilos of Edessa</title>
+            <author>
+               <persName>
+                  <forename>Lucas</forename> 
+                  <surname>Van Rompay</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0">Electronic Edition Draft Version 1.0</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Theophilos of Edessa</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Theophilos-of-Edessa</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/562</idno>
+                    <idno type="entry">553</idno>
+                    <milestone unit="pages" n="409-410"/>
+                    <idno type="subject">http://syriaca.org/person/787</idno>
+                    <note type="type">person</note>
+                    <note type="abstract">Multifaceted author, historiographer, and
+                        translator.<note/>
+                    </note>
+                </ab>
+                <ab type="infobox">(d. 785) [<abbr>Maron.</abbr>]</ab>
+                <div type="body">
+                    <p>Multifaceted author, historiographer, and translator. Theophilos, who is said
+                        to have been a Maronite, served as astrologer to the Abbasid Caliph al-Mahdī
+                        (<abbr>r.</abbr> 775–785) and wrote in Arabic several works on astrology, among which an
+                        influential book on military forecasts, which by the mid-9th <abbr>cent.</abbr> had been
+                        partly translated into Greek.</p>
+                    <p>Theophilos’s translations from Greek into Syriac include works by <ref rend="bold" target="https://gedsh.bethmardutho.org/Aristotle">
+                            <persName ref="http://syriaca.org/person/342">Aristotle</persName>
+                        </ref>, possibly <ref rend="bold" target="https://gedsh.bethmardutho.org/Galen">
+                            <persName ref="http://syriaca.org/person/496">Galen</persName>
+                        </ref>, and most
+                        importantly Homer. Even though <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Bar-Ebroyo-Grigorios">
+                            <persName ref="http://syriaca.org/person/239">Bar ʿEbroyo</persName>
+                        </ref> attributes
+                        to Theophilos the translation of ‘two books’ by Homer, which seems to
+                        suggest that both the Iliad and the Odyssey were involved, there is no
+                        evidence that the Odyssey ever existed in Syriac. The Iliad, by contrast,
+                        was known to several authors, such as <ref rend="bold" target="https://gedsh.bethmardutho.org/Antun-of-Tagrit">
+                            <persName ref="http://syriaca.org/person/154">Anṭun of
+                            Tagrit</persName>
+                        </ref> and the author of the <ref rend="bold" target="https://gedsh.bethmardutho.org/Chronicle-of-1234">Chronicle of
+                            1234</ref> (who incorporated a long extract into his work), and it is
+                        plausible that Theophilos’s translation was their source. That the Greek
+                        text of the Iliad was available to Syr. scholars is proven by the
+                        underwriting of <abbr>ms.</abbr> Brit. Libr. Add. 17,210 (60 folios containing the Greek
+                        Iliad in a 5th-cent. hand), which was re-used in the early 9th <abbr>cent.</abbr> for
+                        copying works by <ref rend="bold" target="https://gedsh.bethmardutho.org/Severus-of-Antioch">
+                            <persName ref="http://syriaca.org/person/51">Severus of
+                            Antioch</persName>
+                        </ref> (see Wright, <hi rend="italic">Catalogue … British
+                            Museum</hi>, vol. 2, 548a–550b).</p>
+                    <p>In addition, Theophilos is the author of a historical work, which was used by
+                            <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Dionysios-of-Tel-Mahre">
+                            <persName ref="http://syriaca.org/person/155">Dionysios
+                            of Tel Maḥre</persName>
+                        </ref> and through Dionysios was known to <ref rend="bold" target="https://gedsh.bethmardutho.org/Michael-I-Rabo">
+                            <persName ref="http://syriaca.org/person/217">Michael Rabo</persName>
+                        </ref> and to the author of the Chronicle of 1234.
+                        Dionysios calls Theophilos a Chalcedonian and accuses him of being biased
+                        against the <abbr>Syr. Orth.</abbr>, which did not prevent him, however, from using
+                        Theophilos to a considerable extent. Even though Theophilos’s historical
+                        work does not survive, it is not only Dionysios who transmits some of his
+                        materials. Scholars nowadays assume that Theophilos’s work served as the
+                        common source on which, in addition to Dionysios, two other historians drew:
+                        the Byzantine historian Theophanes (who must have known an abridged Greek
+                        translation) and the Melkite Agapius of Manbij, who wrote in Arabic. In all
+                        likelihood, Theophilos’s work was a narrative history that focused on the
+                        early Islamic period, until the middle of the 8th <abbr>cent.</abbr> (see Hoyland,
+                        631–71).</p>
+                    <p>While some scholars in the past wanted to see the remnants of Theophilos’s
+                        work in the imperfectly preserved Maronite Chronicle (which covers the
+                        period from Alexander to the 660s: <abbr>ed.</abbr> E. W. Brooks and J. B.  Chabot, in
+                        <abbr>CSCO</abbr> 3–4 [1904], 43–74 [Syr.], 37–57 [<abbr>LT</abbr>]), this has now become very
+                        unlikely, in view of the lack of overlap between the Maronite Chronicle and
+                        the ‘common source’ referred to above.</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>L. I.  Conrad, ‘Theophanes and the Arabic historical tradition:
+                            Some indications of intercultural transmission’, <title rend="italic">Byzantinische Forschungen</title> 15 (1990), 1–44.</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>L. I.  Conrad</reg>
+                        <orig>idem</orig>
+                     </choice>, ‘Varietas Syriaca: Secular and scientific culture in the
+                            Christian communities of Syria after the Arab Conquest’, in <title rend="italic">After Bardaisan</title>, <abbr>ed.</abbr> Reinink and Klugkist,
+                            85–105.</bibl>
+                        <bibl>Hoyland, <title rend="italic">Seeing Islam</title>, 135–9, 400–9, 432,
+                            631–71.</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>Hoyland</reg>
+                        <orig>idem</orig>
+                     </choice>, <title rend="italic">Theophilus of Edessa’s Chronicle</title>
+                            (forthcoming).</bibl>
+                        <bibl>H.  Raguse, ‘Syrische Homerzitate in der Rhetorik des Anton von
+                            Tagrit’, in <title rend="italic">Paul de Lagarde und die syrische
+                                Kirchengeschichte</title> (1968), 162–75.</bibl>
+                        <bibl>H. G. B.  Teule, ‘Theophilus of Edessa’, in <title rend="italic">Christian-Muslim relations</title>, <abbr>ed.</abbr> Thomas and Roggema,
+                            305–8.</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Lucas</forename> 
+                  <surname>Van Rompay</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Ḥunayn <abbr>b.</abbr> Isḥāq</title>
+            <author>
+               <persName>
+                  <forename>Aaron M.</forename> 
+                  <surname>Butts</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0">Electronic Edition Draft Version 1.0</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Ḥunayn <abbr>b.</abbr> Isḥāq</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Hunayn-b-Ishaq</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/275</idno>
+                    <idno type="entry">266</idno>
+                    <milestone unit="pages" n="205-206"/>
+                    <idno type="subject">http://syriaca.org/person/542</idno>
+                    <note type="type">person</note>
+                    <note type="abstract">Famous physician, philosopher, theologian, and translator.<note/>
+                    </note>
+                </ab>
+                <ab type="infobox">(808–873) [Ch. of E.]</ab>
+                <div type="body">
+                    <p>Physician, philosopher, theologian, and translator. His full name is Abū Zayd
+                        Ḥunayn <abbr>b.</abbr> Isḥāq <abbr>b.</abbr> Sulaymān <abbr>b.</abbr> Ayyūb al-ʿIbādī, and he was known in medieval
+                        Europe as Johannitius. He was born in 808 near <ref rend="bold" target="https://gedsh.bethmardutho.org/Hirta">
+                            <placeName ref="http://syriaca.org/place/219">Ḥirta</placeName>
+                        </ref>, where his
+                        father was a pharmacist. He likely grew up bilingual in Arabic and Syriac,
+                        and he acquired an excellent knowledge of Greek as well as Persian in the
+                        course of his education. Ḥunayn studied medicine in <ref rend="bold" target="https://gedsh.bethmardutho.org/Baghdad">
+                            <placeName ref="http://syriaca.org/place/41">Baghdad</placeName>
+                        </ref> under the
+                        famous physician Yūḥannā <abbr>b.</abbr> Māsawayh (d. 857), who stemmed from one of the
+                        prominent medical families of Gondeshapur (<ref rend="bold" target="https://gedsh.bethmardutho.org/Beth-Lapat">
+                            <placeName ref="http://syriaca.org/place/35">Beth Lapaṭ</placeName>
+                        </ref>). In
+                        Baghdad, Ḥunayn became well-known as one of the foremost translators of
+                        Greek texts into Syriac and Arabic. In addition to his translation activity,
+                        Ḥunayn was also the personal physician of Caliph al-Mutawakkil (<abbr>r.</abbr> 847–61).
+                        He died in Baghdad in 873.</p>
+                    <p>Ḥunayn is best known for the central role that he played in the Graeco-Arabic
+                        translation movement of the early Abbasid period (in general, see Gutas).
+                        His translation activity was carried out in conjunction with a number of his
+                        students, including his son Isḥāq <abbr>b.</abbr> Ḥunayn (d. 910), his nephew Ḥubaysh <abbr>b.</abbr>
+                        al-Ḥasan, ʿĪsā <abbr>b.</abbr> Yaḥyā, and Isṭifān <abbr>b.</abbr> Bāsīl. Ḥunayn and his school
+                        translated well over a hundred Greek medical works, including Hippocrates,
+                        Dioscorides, as well as almost the entire corpus of <ref rend="bold" target="https://gedsh.bethmardutho.org/Galen">
+                            <persName ref="http://syriaca.org/person/496">Galen</persName>
+                        </ref>. In addition to
+                        medicine, they translated Greek philosophical and scientific texts,
+                        including Plato, <ref rend="bold" target="https://gedsh.bethmardutho.org/Aristotle">
+                            <persName ref="http://syriaca.org/person/342">Aristotle</persName>
+                        </ref>,
+                        Proclus, and <ref rend="bold" target="https://gedsh.bethmardutho.org/Porphyry">
+                            <persName ref="http://syriaca.org/person/684">Porphyry</persName>
+                        </ref>. A number
+                        of fascinating insights into the philological method of Ḥunayn and his
+                        school can be gleaned from Ḥunayn’s ‘Letter to ʿAlī <abbr>b.</abbr> Yaḥyā on Galen’s books
+                        which have been translated …’ (<hi rend="italic">Risāla ilā ʿAlī ibn Yaḥyā
+                            fī dhikr mā turjima min kutub Jālīnūs …</hi>; <abbr>ed.</abbr> with <abbr>GT</abbr> in
+                        Bergsträsser 1925, 1932; <abbr>ET</abbr> Lamoreaux). In this Letter, Ḥunayn reports that
+                        he travelled throughout Mesopotamia, Syria, Palestine, and Egypt in order to
+                        procure Greek <abbr>mss.</abbr> of works that he wished to translate. He often collated
+                        multiple <abbr>mss.</abbr> of a given work in order to obtain a sound textual basis for
+                        his translations. In his translations, he seems to have adopted a <hi rend="italic">sensus de sensu </hi>approach departing from the literal
+                            <hi rend="italic">verbum e verbo </hi>approach that characterized 6th-
+                        and 7th-cent. Syriac translations from Greek (see Brock; see also <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Greek-Syriac-translations-from">Greek, Syriac translations from</ref>). In some cases, Ḥunayn revised
+                        older translations, such as those by <ref rend="bold" target="https://gedsh.bethmardutho.org/Sergios-of-Reshayna">
+                            <persName ref="http://syriaca.org/person/49">Sergios of
+                            Reshʿayna</persName>
+                        </ref> (d. 536) and <ref rend="bold" target="https://gedsh.bethmardutho.org/Iyob-of-Edessa">
+                            <persName ref="http://syriaca.org/person/568">Iyob of
+                            Edessa</persName>
+                        </ref> (d. <abbr>ca.</abbr> 835?). In other cases, however, he states that the
+                        existing translations were so poor that it was necessary for him to begin
+                        anew from the Greek. Ḥunayn translated from Greek into both Syriac and
+                        Arabic (usually via Syriac) depending on the request of his patron. In a
+                        number of cases, Ḥunayn first translated the Greek into Syriac, and after
+                        that one of his students translated the Syriac into Arabic, which Ḥunayn
+                        then corrected against the Greek.</p>
+                    <p>In addition to his vast body of translation work, Ḥunayn was an important
+                        author in his own right. In his <hi rend="italic">ʿUyūn al-ʾanbāʾ fī ṭabaqāt
+                            al-ʾaṭibbā</hi>, Ibn Abī Uṣaybiʿa (d. 1270) attributes 111 works to
+                        Ḥunayn (<abbr>ed.</abbr> A. Müller, <hi rend="italic">Ibn Abi Useibia</hi> [1884],
+                        184–200). Most of Ḥunayn’s works are in the field of <ref rend="bold" target="https://gedsh.bethmardutho.org/Medicine">medicine</ref>, and a majority of these medical works are epitomes,
+                        paraphrases, or summaries of Greek works. Among Ḥunayn’s best known original
+                        works in medicine is his ‘Introduction to medicine’ (<hi rend="italic">Kitāb
+                            al-mudkhal fī al-ṭibb</hi>). The substance of this text is also found in
+                        catechetical form in his ‘Book of medical questions’ (<hi rend="italic">Kitāb al-masāʾil al-ṭibbiyya</hi>), which also exists in Syriac (see
+                        Degen) and which in its Latin translation remained authoritative through the
+                        Middle Ages. In addition, Ḥunayn authored several important works on ocular
+                        medicine, including the ‘Ten treatises on the eye’ (<hi rend="italic">al-ʿAšr maqālāt fī al-ʿayn</hi>;<abbr> ed.</abbr> with <abbr>ET</abbr> Meyerhof) and the ‘Book of
+                        questions on the eye’ (<hi rend="italic">Kitāb al-masāʾil fī al-ʿayn</hi>; 
+                        <abbr>ed.</abbr> with <abbr>FT</abbr> Sbath and Meyerhof).</p>
+                    <p>Ḥunayn is said to have written several works on grammar, including ‘The rules
+                        of inflexion according to the Greeks’ (<hi rend="italic">Kitāb fī aḥkām
+                            al-iʿrāb ʿalā madhab al-yūnāniyyīn</hi>), ‘Book on syntax’ (<hi rend="italic">Kitāb fī al-naḥw</hi>), and ‘Book of the diacritical
+                        points’ (<hi rend="italic">Kitāb al-nuqaṭ</hi>). In his ‘Catalogue’, <ref rend="bold" target="https://gedsh.bethmardutho.org/Abdisho-bar-Brikha">
+                            <persName ref="http://syriaca.org/person/310">ʿAbdishoʿ bar Brikha</persName>
+                        </ref> (d. 1318) also attributes a grammar to
+                        Ḥunayn (Assemani, <hi rend="italic">BibOr</hi>, vol. 3.1, 165). In addition,
+                        Ḥunayn is said to have written several works on Syriac lexicography,
+                        including the ‘Book of similar words’ (<hi rend="italic">Ktābā da-šmāhe
+                            dāmyāye</hi>; <abbr>ed.</abbr> Hoffmann, 2–49 along with Gottheil 1887, 61*–67*;
+                        1889), the ‘Explanation of Greek words in Syriac’ (<hi rend="italic">Puššāq
+                            šmāhe yawnāye b-suryāyā</hi>), and a Compendious Lexicon (<hi rend="italic">Lehksiqāwn b-pāsiqātā</hi>). These lexicographical works laid the
+                        foundation for the Syriac-Arabic lexicon of Ḥunayn’s student <ref rend="bold" target="https://gedsh.bethmardutho.org/Bar-Ali-Isho">
+                            <persName ref="http://syriaca.org/person/364">Ishoʿ bar ʿAli</persName>
+                        </ref> (second half of the 9th  cent.) as well
+                        as that of <ref rend="bold" target="https://gedsh.bethmardutho.org/Bar-Bahlul-Hasan">
+                            <persName ref="http://syriaca.org/person/365">Ḥasan bar Bahlul
+                        </persName>
+                        </ref> (mid-10th cent.) (see <ref rend="bold" target="https://gedsh.bethmardutho.org/Syriac-Lexicography">Lexicography</ref>).</p>
+                    <p>Ḥunayn also authored several works of a religious character, of which the
+                        following have been edited: ‘Treatise on human destiny’ (<hi rend="italic">Maqāla fī al-ājāl</hi>; <abbr>ed.</abbr> Samir 1991; see also his study in <hi rend="italic">ARAM</hi> 31 [1991], 171–92), ‘Book on the comprehension of
+                        the truth of religions’ (<hi rend="italic">Kitāb fī idrāk ḥaqīqat
+                            al-adyān</hi>; title varies; <abbr>ed.</abbr> with <abbr>FT</abbr> Cheikho; <abbr>ed.</abbr> Sbath 1929; <abbr>ed.</abbr>
+                        Samir 1997), and the related response to ʿAlī <abbr>b.</abbr> Yaḥyā al-Munajjim (<abbr>ed.</abbr> with
+                        <abbr>FT</abbr> Samir and Nwyia). Unpublished or lost works of a religious character
+                        include: <hi rend="italic">Risāla fī dalālat al-qad(a)r ʿalā al-tawḥīd
+                        </hi>(exact meaning uncertain, but dealing with the unity of God), ‘Treatise
+                        on the creation of humanity and that it was for the benefit and favor (of
+                        humanity) that it was made needy’ (<hi rend="italic">maqāla fī khalq
+                            al-insān wa-annahū min maṣlaḥatihi wa-al-tafaḍḍul ʿalayhi juʿila
+                            muḥtājan</hi>), ‘Book on the history of the world’ (<hi rend="italic">Kitāb taʾrīkh al-ʿālam</hi>), and (in Syriac) ‘Chapters on the fear of
+                        God’ (<hi rend="italic">Reše d-deḥlat alāhā</hi>).</p>
+                    <p>Finally mention should be made of Ḥunayn’s <hi rend="italic">Kitāb ādāb
+                            al-falāsifa</hi>, also known as <hi rend="italic">Nawādir
+                            al-falāsifa</hi>, which is primarily a collection of sayings of Greek
+                        and Persian sages and philosophers (<abbr>ed.</abbr> Badawi; cf. Griffith).</p>
+                </div>
+                <div type="bibl">
+                    <listBibl>
+                        <listBibl>
+                            <head>Primary Sources</head>
+                            <bibl>A.  Badawi, <title rend="italic">Hunain ibn Ishâq. Âdâb
+                                    al-Falâsifa (Sentences des philosophes)</title> (1985).
+                                (Arabic)</bibl>
+                            <bibl>G.  Bergsträsser, <title rend="italic">Ḥunain Ibn Isḥāq über die
+                                    syrischen und arabischen Galen-Übersetzungen</title> (1925).
+                                (Arabic with <abbr>GT</abbr>)</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>G.  Bergsträsser</reg>
+                           <orig>idem</orig>
+                        </choice>, <title rend="italic">Neue <choice>
+                                        <sic>materialien</sic>
+                                        <corr>Materialien</corr>
+                                    </choice> zu Ḥunain Ibn Isḥāq’s
+                                    Galen-Bibliographie</title> (1932).</bibl>
+                            <bibl>L. Cheikho, ‘Un traité inédit de Ḥonein’, in <title rend="italic">Orientalische Studien Theodor Nöldeke zum siebzigsten
+                                    Geburtstag (2. März 1906) gewidmet …</title>, <abbr>ed.</abbr> C. Bezold
+                                (1906), vol. 1, 283–91. (Arabic with <abbr>FT</abbr>; reprinted several
+                                times)</bibl>
+                            <bibl>R. J. H.  Gottheil, <title rend="italic">A treatise on Syriac
+                                    grammar by Mâr(i) Eliâ of Ṣôbhâ</title> (1887), 61*–67*.</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>R. J. H.  Gottheil</reg>
+                           <orig>idem</orig>
+                        </choice>, ‘A Syriac lexicographical tract’, <title rend="italic">Hebraica</title> 5 (1889), 215–229.</bibl>
+                            <bibl>G.  Hoffmann, <title rend="italic">Opuscula nestoriana</title>
+                                (1880), 2–49. (Syr.)</bibl>
+                            <bibl>J. C.  Lamoreaux, <title rend="italic">Ḥunayn Ibn Isḥāq on his
+                                    Galen translations</title> (Eastern Christian Texts 3;
+                                forthcoming). (<abbr>ET</abbr>)</bibl>
+                            <bibl>M.  Meyerhof, <title rend="italic">The book of the ten treatises
+                                    on the eye ascribed to Hunain ibn Ishâq (809–877 A.D.)</title>
+                                (1928). (Arabic with <abbr>ET</abbr>)</bibl>
+                            <bibl>P. P.  Sbath, <title rend="italic">Vingt traités philosophiques et
+                                    apologétiques d’auteurs arabes chrétiens du IX<hi rend="superscript">e</hi> au XIV<hi rend="superscript">e</hi> siècles</title> (1929), 181–5. (Arabic)</bibl>
+                            <bibl>Kh.  Samir, ‘Maqāla “Fī al-ājāl” li-Ḥunayn ibn Isḥāq’, <title rend="italic">Machriq</title> 65 (1991), 403–25. (Arabic)</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>Kh.  Samir</reg>
+                           <orig>idem</orig>
+                        </choice>, ‘Maqālat Ḥunayn ibn Isḥāq fī “Kafiyyat idrāk ḥaqīqat
+                                al-diyāna”’, <title rend="italic">Machriq</title> 71 (1997), 345–63.
+                                (Arabic)</bibl>
+                            <bibl>Kh.  Samir and P. Nwyia, <title rend="italic">Une correspondance
+                                islamo-chrétienne entre Ibn al-Munağğim, Ḥunayn ibn Isḥāq et
+                                Qusṭā ibn Lūqā</title> (<abbr>PO</abbr> 40.4; 1981). (Arabic with <abbr>FT</abbr>;
+                                Ḥunayn’s response is found on p. 168–83)</bibl>
+                            <bibl>P. P.  Sbath and M. Meyerhof, <title rend="italic">Le livre des
+                                    questions sur l’œil de Ḥonaïn ibn Isḥāq</title> (1938). (Arabic
+                                with <abbr>FT</abbr>)</bibl>
+                            
+                        </listBibl>
+                        <listBibl>
+                            <head>Secondary Sources</head>
+                            <bibl>G. C.  Anawati and A. Z.  Iskandar, ‘Ḥunayn ibn Isḥāq al-ʿIbādī,
+                                Abū Zayd’, in <title rend="italic">Dictionary of scientific
+                                    biography</title>, vol. 15. <title rend="italic">Supplement
+                                    I</title>, <abbr>ed.</abbr> C. C. Gillispie (1980), 230–49.</bibl>
+                            <bibl>Baumstark, <title rend="italic">
+                                    <choice>
+                                        <sic>Geschichte</sic>
+                                        <corr>Literatur</corr>
+                                    </choice>
+                                </title>, 227–30.</bibl>
+                            <bibl>G.  Bergsträsser, <title rend="italic">Ḥunain Ibn Ishaḳ und seine
+                                    Schule</title> (1913).</bibl>
+                            <bibl>S. P.  Brock, ‘The Syriac background to Ḥunayn’s translation
+                                techniques’, <title rend="italic">ARAM</title> 3 (1991),
+                                139–62.</bibl>
+                            <bibl>C.  Brockelmann, <title rend="italic">Geschichte der arabischen
+                                    Litteratur</title>, vol. 1 (2nd <abbr>ed.</abbr> 1943), 224–7; Suppl. vol. 1
+                                (1937), 366–439.</bibl>
+                            <bibl>R. Degen, ‘The oldest known Syriac manuscript of Ḥunayn <abbr>b.</abbr> Isḥāq’,
+                                in <abbr>
+                                    <title rend="italic">SymSyr</title> II</abbr>, 63–71.</bibl>
+                            <bibl>Graf, <title rend="italic">GCAL</title>, vol. 2 (1947),
+                                122–29.</bibl>
+                            <bibl>S. H.  Griffith, ‘Ḥunayn ibn Isḥāq and the <title rend="italic">Kitāb Ādāb al-Falāsifah</title>: The pursuit of wisdom and a
+                                humane polity in early Abbasid Baghdad’, in <title rend="italic">Malphono w-Rabo d-Malphone</title>, <abbr>ed.</abbr> Kiraz (2008),
+                                135–60.</bibl>
+                            <bibl>Gutas, <title rend="italic">Greek thought, Arabic
+                                culture</title>.</bibl>
+                            <bibl>Y.  Ḥabbi, <title rend="italic">Ḥunayn ibn Isḥāq</title> (1984).
+                                (in Arabic)</bibl>
+                            <bibl>W. F.  Macomber, ‘The literary activity of Hunain <abbr>b.</abbr> Ishaq in
+                                Syriac’, in <title rend="italic">Mihrajān Afrām
+                                wa-Ḥunayn</title> (Baghdad, 1974), 545–70. (this volume contains
+                                several other relevant contributions)</bibl>
+                            <bibl>J. P.  Monferrer-Sala and B. Roggema, ‘Ḥunayn ibn Isḥāq’, in
+                                    <title rend="italic">Christian-Muslim relations</title>, <abbr>ed.</abbr>
+                                Thomas and Roggema, 768–79.</bibl>
+                            <bibl>M.  Salama-Carr, <title rend="italic">La traduction à l’époque
+                                    abbasside. L’école de Ḥunayn Ibn Isḥāq et son importance pour la
+                                    traduction</title> (1990).</bibl>
+                            <bibl>F.  Sezgin, <title rend="italic">Geschichte des arabischen
+                                    Schrifttums</title> (1967–2007), vol. 3, 247–56.</bibl>
+                            <bibl>G. Strohmaier, in <title rend="italic">EI</title>
+                                <hi rend="superscript">2</hi>, vol. 3, 578.</bibl>
+                            <bibl>M. Ullmann, <title rend="italic">Die Medizin im Islam</title>
+                                (1970), 115–9, 205–7.</bibl>
+                        </listBibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Aaron M.</forename> 
+                  <surname>Butts</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

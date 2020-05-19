@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Malankara Syriac Orthodox Church</title>
+            <author>
+               <persName>
+                  <forename>Thomas</forename> 
+                  <surname>Joseph</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0">Electronic Edition Draft Version 1.0</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Malankara Syriac Orthodox Church</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Malankara-Syriac-Orthodox-Church</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/349</idno>
+                    <idno type="entry">340</idno>
+                    <milestone unit="pages" n="258-260"/>
+                    <idno type="althead">Jacobite Syrian Christian Church</idno>
+                    <note type="type">org</note>
+                    <note type="abstract">The W.-Syr. Church in India which is an integral part of
+                        the <abbr>Syr. Orth.</abbr> Church.<note/>
+                    </note>
+                </ab>
+                <ab type="infobox">Jacobite Syrian Christian Church</ab>
+                <div type="body">
+                    <p>The W.-Syr. Church in India which is an integral part of the <abbr>Syr. Orth.</abbr>
+                        Church. The <abbr>Syr. Orth.</abbr>
+                        <abbr> 
+                     <choice>
+                                <sic>Patr.</sic>
+                                <corr>patr.</corr>
+                            </choice>
+                        </abbr> of <ref rend="bold" target="https://gedsh.bethmardutho.org/Antioch">
+                            <placeName ref="http://syriaca.org/place/10">Antioch</placeName>
+                        </ref> is its
+                        spiritual head, and the <abbr>
+                            <choice>
+                                <sic>Cath.</sic>
+                                <corr>cath.</corr>
+                            </choice>
+                        </abbr> of India (<ref rend="bold" target="https://gedsh.bethmardutho.org/Maphrian">Maphrian</ref>) is the
+                        regional head. The <abbr>
+                            <choice>
+                                <sic>Cath.</sic>
+                                <corr>cath.</corr>
+                            </choice>
+                        </abbr> presides over the regional Synod, and, in the role
+                        of Malankara Metropolitan, presides over a democratic body of elected parish
+                        representatives, responsible for temporal administration.</p>
+                    <p>Though direct evidence is scant, tradition attributes the origins of the
+                        Church to the Apostle Thomas. The long history of trade between the
+                        south-western coast of India and the Middle East and the presence of a
+                        Jewish community of traders in this part of India makes this apostolic
+                        connection plausible. The earliest indirect evidence, cited by <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Eusebius-of-Caesarea">
+                            <persName ref="http://syriaca.org/person/480">Eusebius</persName>
+                        </ref> and Jerome, suggesting the presence of
+                        Christians in India<choice>
+                            <sic/>
+                            <corr>,</corr>
+                        </choice> is from the alleged mission of Pantaenus of Alexandria
+                        to India in <abbr>ca.</abbr> 190 where he is said to have encountered natives who were
+                        acquainted with the Gospel of Matthew.</p>
+                    <p>While the dominant view is that the <ref rend="bold" target="https://gedsh.bethmardutho.org/Thomas-Christians">Thomas
+                            Christians</ref> were continually in communion with the <abbr>Ch. of E.</abbr> under
+                        the <abbr>Cath.</abbr>-<abbr>
+                            <choice>
+                                <sic>Patr.</sic>
+                                <corr>patr.</corr>
+                            </choice>
+                        </abbr> of <ref rend="bold" target="https://gedsh.bethmardutho.org/Seleucia-Ctesiphon">
+                            <placeName ref="http://syriaca.org/place/182">Seleucia-Ctesiphon</placeName>
+                        </ref> until the arrival of the Portuguese in the
+                        15th <abbr>cent.</abbr>, the Malankara Syriac Orthodox Church holds that Thomas
+                        Christians held in great esteem the ecclesiastical authority of the <abbr>
+                            <choice>
+                                <sic>Patr.</sic>
+                                <corr>patr.</corr>
+                            </choice>
+                        </abbr> of
+                        Antioch over the ‘East<choice>
+                            <sic>,’</sic>
+                            <corr>’,</corr>
+                        </choice> laid down in the canons of the Council of Nicaea
+                        (325) and the Council of Constantinople (381), ‘East’ being interpreted to
+                        include Persia and India. They received bishops from Persia, who, at least
+                        until the late 5th <abbr>cent.</abbr>, acknowledged the ecclesiastical position of the
+                        <abbr>
+                            <choice>
+                                <sic>Patr.</sic>
+                                <corr>patr.</corr>
+                            </choice>
+                        </abbr> of Antioch. As late as the 16th <abbr>cent.</abbr>, when the ecclesiastical
+                        relation with the <abbr>Ch. of E.</abbr> was in ascendancy, the recognition of the
+                        canonical pre-eminence of Antioch in Malankara is attested in the
+                        ‘Narratives of Joseph the Indian’ (1507), although incorrectly identifying
+                        the <abbr>
+                            <choice>
+                                <sic>Cath.</sic>
+                                <corr>cath.</corr>
+                            </choice>
+                        </abbr> as the successor of St. Peter at Antioch. It further argues that
+                        the fragmented evidence concerning the pre-Portuguese period is insufficient
+                        to establish the doctrinal confession of the Malankara Church as that of the
+                        <abbr>Ch. of E.</abbr> or preclude at least intermittent relations with the
+                        non-Chalcedonian Patriarchates of Alexandria and Antioch. However, it
+                        concedes continuous relations with the <abbr>Ch. of E.</abbr> between the 14th and 16th
+                        <abbr>cent.</abbr>
+                    </p>
+                    <p>The history from the 15th <abbr>cent.</abbr> onward is well-documented (see Thomas
+                        Christians). The community that rejected the authority of Rome in 1653
+                        gravitated to the <abbr>Syr. Orth.</abbr> Patriarchate of Antioch by 1665, and this
+                        relationship was then nurtured by bishops who were delegated from
+                        Mesopotamia. Schisms within the community seeded the current <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Malabar-Independent-Syrian-Church">Malabar Independent Church</ref> (<abbr>ca.</abbr> 1772), Church of South India
+                        (1836), <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Mar-Thoma-Syrian-Church-Malankara">Mar Thoma Church</ref> (1889), <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Malankara-Orthodox-Syrian-Church">Malankara Orthodox Church</ref> (1912/1975), and <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Malankara-Catholic-Church">Malankara Catholic Church</ref> (1930) leaving the Malankara Syriac
+                        Orthodox Church alone under the <abbr>Syr. Orth.</abbr> Patriarchate today.</p>
+                    <p>The first head of the Church, after it asserted a <abbr>Syr. Orth.</abbr> identity, was
+                        Archdeacon Parambil Thomas (1637–70), the chief protagonist of the ‘Coonan
+                        Kurishu Satyam’ of 1653 (Oath at the Leaning Cross, Mattanchery); shortly
+                        thereafter, he assumed episcopal dignity with the name Mar Thoma I and was
+                        subsequently consecrated canonically by the first <abbr>Syr. Orth.</abbr> delegate, Mor
+                        Gregorios ʿAbdel al-Jaleel, who arrived in 1665. He was succeeded by eight
+                        indigenous metropolitans who assumed the same titular name, ending with
+                        Thomas  IX (d. 1817). In the interim, Mar Thoma VI, fearing the invalidity
+                        of his first consecration by the hands of his predecessor, was
+                        re-consecrated as Mar Dionysius I in 1770 by Mor Gregorios Yuḥanon,
+                        Patriarchal delegate, but his successor resumed the line as Mar Thoma  VII.
+                        The Dionysios line was resumed in 1815 with the consecration of Dionysios II
+                        as a rival to the Thomas line. Mar Athanasios Mathews was the first to be
+                        consecrated by a <abbr>patr.</abbr>, in 1843 at <ref rend="bold" target="https://gedsh.bethmardutho.org/Mardin">
+                            <placeName ref="http://syriaca.org/place/130">Mardin</placeName>
+                        </ref>, but lapsed
+                        into schism over <choice>
+                            <sic>Anglican inspired</sic>
+                            <corr>Anglican-inspired</corr>
+                        </choice> reforms. In 1876, <abbr>Patr.</abbr> Petros III/IV
+                        consecrated six bishops to administer newly formed dioceses along with the
+                        Malankara Metropolitan Dionysios V (consecrated in 1865). Dionysios V was
+                        followed by other Malankara Metropolitans, prominent among whom are
+                        Dionysios VI (excommunicated in 1911), Mar Kurillos Paulose, and Mar
+                        Athanasios Paulose. In 1964, <abbr>Patr .</abbr>
+                        <ref rend="bold" target="https://gedsh.bethmardutho.org/Ignatius-Yaqub-III">
+                            <persName ref="http://syriaca.org/person/545">Ignatius
+                            Yaʿqub III</persName>
+                        </ref> consecrated Mar Baselios Augen as ‘<abbr>Cath.</abbr> of the East<choice>
+                            <sic>,’</sic>
+                            <corr>’,</corr>
+                        </choice>
+                        only to excommunicate him in 1975 and replace him with Mar Baselios Paulose
+                        II (d. 1996). In 2002, a ‘<abbr>Cath.</abbr> of India’ was consecrated with the name
+                        Baselios Thomas I.</p>
+                    <p>Many bishops and monks were delegated from Mesopotamia to Malankara from the
+                        17th <abbr>cent.</abbr> onwards. Prominent among them are Mor Gregorios ʿAbd al-Jaleel,
+                        <abbr>bp.</abbr> of Jerusalem (arrived 1665, died 1671, interred at North Parur),
+                        Maphrian Mor Baselios Yaldo (arr. and d. 1685, int. Kothamangalam), Mor
+                        Ivanios Ḥidayatallah (arr. 1685, d. 1693, int. Mulanthuruthy), Maphrian Mor
+                        Shakrallah Baselios (arr. 1751, d. 1764, int. Kandanad), Mor Gregorios
+                        Yuḥanon (arr. 1749, d. 1773, int. Mulanthuruthy), Mor Ivanios Yuḥanon (arr.
+                        1751, d. 1794, int. Chengannur), Mor Dioscoros Yuḥanon (arr. 1806, departed
+                        1809), Mor Athanasios ʿAbd al-Masīḥ (arr. 1825, dep. 1827), Mor Kurillos
+                        Yuyakim (arr. 1846, d. 1874, int. Mulanthuruthy), Mor Athanasios Stephanos
+                        (arr. 1849, dep. 1851), Mor Athanasios Shemʿoon (arr. 1849/1881, d. 1889,
+                        int. Kottayam), Mor Ostatheos Ṣleebo (arr. 1881, d. 1930, int. Kunnamkulam),
+                        Mor <ref rend="bold" target="https://gedsh.bethmardutho.org/Qoro-Elias-Malke">
+                            <persName ref="http://syriaca.org/person/698">Elias Malke</persName>
+                        </ref> (arr. 1909/1927, d. 1962, int. Manjinikkara), Rabban
+                        ʿAbd al-Aḥad (later <abbr>Patr.</abbr> Yaʿqub III) (arr. 1933, dep. 1946), Rabban Mushe
+                        Salama (arr. 1951, dep. 1959), Rabban Aphrem Paulose (arr. 1960, dep. 1964),
+                        and Mor Timotheos Aphrem Aboodi (arr. 1965, dep. 1973). <abbr>Patr.</abbr> Petros III/IV
+                        was the first patriarch to visit India (arr. 1875, dep. 1877) and began a
+                        tradition of visits by all subsequent patriarchs with the exception of <abbr>Patr. </abbr>
+                            <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Barsoum-Ignatius-Afram">
+                            <persName ref="http://syriaca.org/person/372">Ignatius
+                            Afram Barsoum</persName>
+                        </ref>.</p>
+                    <p>The Malankara Syriac Orthodox Church has today 17 dioceses and more than 600
+                        churches in India and several educational and medical institutions as well
+                        as social service organizations. Nearly 80 parishes have been established in
+                        North America, Europe, the Persian Gulf, Singapore, Australia, and New
+                        Zealand. A few of the churches in India are also claimed by the
+                        autocephalous Malankara Orthodox Church and are often uneasily shared under
+                        court direction or are closed for worship. Since 2002, the Catholicate is at
+                        Puthenkurishu, near Kochi. In addition to the <abbr>
+                            <choice>
+                                <sic>Cath.</sic>
+                                <corr>cath.</corr>
+                            </choice>
+                        </abbr> there are 29 bishops.
+                        The number of faithful is estimated to be over a million; the vast majority
+                        are concentrated in the dioceses of Ankamaly, Kochi (Cochin), Kandanad, and
+                        Kottayam — all in central Kerala.</p>
+                    <p>The <abbr>Cath.</abbr> of India exercises authority over 15 dioceses as well as
+                        institutions under the Malankara Synod which has 17 bishops. Churches of the
+                        diaspora outside India are directly under the <abbr>
+                            <choice>
+                                <sic>Patr.</sic>
+                                <corr>patr.</corr>
+                            </choice>
+                        </abbr> but administered by
+                        bishops of Indian origin. The Knanaya archdiocese of the ‘Southist’
+                        endogamous community — with its origins from a Mesopotamian emigration, by
+                        tradition<choice>
+                            <sic>,</sic>
+                            <corr/>
+                        </choice> dated to 345 — has an archbishop, independent of the Catholicate,
+                        with three suffragans, over 70 churches, and a sizeable diaspora in Europe
+                        and North America. Since 1920, churches have been established in India
+                        directly under the temporal authority of the <abbr>
+                            <choice>
+                                <sic>Patr.</sic>
+                                <corr>patr.</corr>
+                            </choice>
+                        </abbr> and administered by the
+                        Patriarchal delegate to Malankara; today these parishes are under a
+                        Patriarchal Vicariate called the ‘Simhasana’ (‘Throne’) Churches and
+                        Institutions with four bishops including the Patriarchal delegate and about
+                        30 churches. The major monasteries of the Malankara Syriac Orthodox Church
+                        at Manjinikkara, Piramadom, and Malekurishu fall under this Vicariate. The
+                        Evangelical Association of the East — the missionary arm of the Church,
+                        established in 1924 — has three bishops, one of whom presides over the
+                        autonomous Honovar St. Antony’s Mission; the Association has about 45
+                        churches, 10 educational institutions, and other charitable organizations.
+                        Since 1990, the Seminary of the Church, now headed by a <abbr>bp.</abbr>, has functioned
+                        at Udayagiri where a <choice>
+                            <sic>four year</sic>
+                            <corr>four-year</corr>
+                        </choice> Bachelor’s degree in Theology is offered. The
+                        Church has lay organizations for youth, students, women, and Sunday School.
+                        The Church has an active laity-sponsored presence on the internet with a
+                        number of general as well as parish websites, discussion groups, radio, and
+                        TV sites.</p>
+                    <p>The Church curiously retains ‘Jacobite’ in its name, even though the Syr.
+                        Orth. Church rejects this appellation as pejorative. Thomas Christians were
+                        known as ‘Nazranis’ in the era prior to European influence. The Christians
+                        who asserted a <abbr>Syr. Orth.</abbr> identity in the 17th  cent. were called the
+                        ‘Puthenkoor’ (‘New Allegiance’), but this gave way to the term ‘Jacobite’
+                        under European influence. The term appears to have been adopted without
+                        recognizing its negative connotations elsewhere; its continued formal usage
+                        results from the distinct historical identity it confers and is encouraged
+                        by a popular misconception that it is the antique name of the Church.</p>
+                    <p>Historically, the liturgical language of the Thomas Christians is Syriac.
+                        <abbr>Syr. Orth.</abbr> liturgies were adopted from Mesopotamia over a long period of
+                        time and liturgical practices evolved, progressively conforming to Syr.
+                        Orth. traditions, but with notable local adaptations. Malayalam translations
+                        of the <ref rend="bold" target="https://gedsh.bethmardutho.org/Peshitta">Peshitta</ref> Gospels were first printed in 1811. The first ever print
+                        of the Syriac <hi rend="italic">Šḥimo</hi> (Simple Prayer) in linotype was
+                        published in 1861. The late 19th/early 20th <abbr>cent.</abbr> saw the advent of the
+                        Syriac <ref rend="bold" target="https://gedsh.bethmardutho.org/Printing">printing</ref> press and the publication of several
+                        liturgical texts in Syriac and Malayalam by V. Rev. Malpan <ref rend="bold" target="https://gedsh.bethmardutho.org/Konat-Matta">
+                            <persName ref="http://syriaca.org/person/303">Matta Konat</persName>
+                        </ref> at
+                        Mar Julius Press, Pampakuda; these editions became the authorized versions,
+                        de facto. The Reformist movement in the 19th <abbr>cent.</abbr> prompted worship services
+                        in the vernacular Malayalam, although it was only in the early 20th <abbr>cent.</abbr>
+                        that manuscripts and prints of translations came into vogue. Today,
+                        liturgical services are conducted predominantly in Malayalam, although with
+                        some remnants of Syriac, primarily in liturgical formulas. Most clergymen
+                        today have, at best, a rudimentary knowledge of Syriac. The musical system
+                        based on the Beth Gazo has been influenced by various <hi rend="italic">malphone</hi> from Mesopotamia, most recently, Mor Yulios Elias Qoro
+                        and Rabban ʿAbd al-Aḥad (later <abbr>Patr.</abbr> Yaʿqub III); thus the fusion of
+                        different Middle Eastern schools of music with local adaptations resulted in
+                        a unique musical tradition. However, since the 1970s, secular music
+                        influenced by the indigenous Carnatic as well as Western genres has altered
+                        liturgical music indiscriminately and, today, the octoechos is known only to
+                        the connoisseur. The Malankara <abbr>Syr. Orth.</abbr> influence on <abbr>Syr. Orth.</abbr> churches
+                        across the world is most visible in the liturgical vestments and clothes
+                        produced in Kerala, with a distinct style.</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <p>For references, see entry on <ref rend="bold" target="https://gedsh.bethmardutho.org/Thomas-Christians">Thomas Christians</ref> and the citations
+                        below.</p>
+                    <listBibl>
+                        <bibl>(V. Rev.) Kaniamparambil Curien, <title rend="italic">The Syrian
+                                Orthodox Church in India and its Apostolic Faith</title>
+                            (1989).</bibl>
+                        <bibl>(Rev.) P. T.  Geevarghese, ‘Were the Syrian Christians Nestorians?’ in
+                                <title rend="italic">Four historic documents</title>, <abbr>ed.</abbr> (V. Rev.)
+                            Kuriakose Moolayil (2002), 107–64.</bibl>
+                        <bibl>E. M.  Philip, <title rend="italic">The Indian Churches of St.
+                                Thomas</title> (1908, <abbr>repr.</abbr> 2002).</bibl>
+                        <bibl>Joseph Ittoop (Writer) Pukadiyil, <title rend="italic">Malayāḷathuḷḷa suryāni kristiyānikaḷuṭe sabha
+                                charithram</title> (History of the Syrian Christians of Malayalam)
+                            (1869, <abbr>repr.</abbr> 2004).</bibl>
+                        <bibl>W. H. Taylor, <title rend="italic">Antioch and Canterbury: The Syrian
+                                Orthodox Church and the Church of England 1874–1928</title>
+                            (2005).</bibl>
+                        <bibl>Ignatius Yacoub III (tr. Matti Moosa), <title rend="italic">History of
+                                the Syrian Church of India</title> (2009).</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Thomas</forename> 
+                  <surname>Joseph</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

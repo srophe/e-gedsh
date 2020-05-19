@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Awgen, Mar</title>
+            <author>
+               <persName>
+                  <forename>Edward G.</forename> 
+                  <surname>Mathews</surname>, <genName>Jr.</genName>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0">Electronic Edition Draft Version 1.0</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Awgen, Mar</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Awgen-Mar</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/72</idno>
+                    <idno type="entry">63</idno>
+                    <milestone unit="pages" n="48"/>
+                    <idno type="althead" subtype="altorder">Mar Awgen</idno>
+                    <idno type="subject">http://syriaca.org/person/356</idno>
+                    <note type="type">person</note>
+                    <note type="abstract">Mar Awgen is the alleged founder of monasticism in
+                            <placeName ref="http://syriaca.org/place/1452">Mesopotamia, but his historicity has been questioned.</placeName>.<note/>
+                    </note>
+                </ab>
+                <ab type="infobox">(<abbr>fl.</abbr> 4th – early 5th <abbr>cent.</abbr>)</ab>
+                <div type="body">
+                    <p>Mar Awgen is the traditional founder of monasticism in Mesopotamia. The two
+                        primary sources for his life are an anonymous ‘Life of Mar Awgen’ and a
+                        brief account preserved in the ‘Book of Chastity’, composed by <ref rend="bold" target="https://gedsh.bethmardutho.org/Ishodnah">
+                            <persName ref="http://syriaca.org/person/556">Ishoʿdnaḥ</persName>
+                        </ref> of Baṣra (9th <abbr>cent.</abbr>). He receives an earlier mention in
+                            <ref rend="bold" target="https://gedsh.bethmardutho.org/Dadisho-Qatraya">
+                            <persName ref="http://syriaca.org/person/434">Dadishoʿ Qaṭraya</persName>
+                        </ref>, in the 7th <abbr>cent.</abbr> Mar Awgen was an Egyptian,
+                        born in the time of Constantine. He worked for twenty-five years as a pearl
+                        diver, but then left this occupation to join the nascent monastic movement,
+                        and he became a disciple of Pachomius, the famous Egyptian monastic leader.
+                        After spending some time in the monastery of Pachomius, Mar Awgen travelled
+                        to <ref rend="bold" target="https://gedsh.bethmardutho.org/Nisibis">
+                            <placeName ref="http://syriaca.org/place/142">Nisibis</placeName>
+                        </ref> and founded a monastery on nearby Mt. Izla. His seventy
+                        disciples who followed him from Egypt were the reputed founders of other
+                        monasteries in various parts of Mesopotamia and other Syriac-speaking lands.
+                        Mar Awgen himself is said to have performed numerous miracles in the
+                        presence of Shapur, the King of Persia. It has also been reported that his
+                        remains and those of certain of his disciples were brought to the Monastery
+                        of Mar Ḥananya (<ref rend="bold" target="https://gedsh.bethmardutho.org/al-Zafaran-Dayr">
+                            <placeName ref="http://syriaca.org/place/69">Dayr
+                            al-Zaʿfarān</placeName>
+                        </ref>). Mar Awgen is held in the highest esteem in all the
+                        eastern churches with Syriac roots.</p>
+                    <p>Scholars have now shown that this traditional account does not have a firm
+                        historical foundation and has served primarily to obfuscate the native
+                        origins of Syro-Mesopotamian monasticism in favor of reputed Egyptian
+                        origins. These accounts of Mar Awgen have been shown to be of late origin,
+                        anachronistic, and extremely divergent on important details, <choice>
+                            <sic>e.g.</sic>
+                            <corr>e.g., </corr>
+                        </choice>the number
+                        of his disciples ranges from eighteen to seventy, and a number of monks
+                        named in these accounts actually lived as late as the 7th and even 10th
+                        <abbr>cent.</abbr> Attempts to connect Mar Awgen to the Aōnes mentioned in Sozomen’s
+                        Ecclesiastical History (VI.33) have failed, and it is even possible, as some
+                        scholars have surmised, that there was, in fact, no such historical person
+                        as Mar Awgen.</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>P. Bedjan, <title rend="italic">Acta Martyrum et
+                                Sanctorum</title>, vol. 3 (1890–97), 376–480.</bibl>
+                        <bibl>J.-B. Chabot, <title rend="italic">Livre de la Chasteté</title>
+                            (1896).</bibl>
+                        <bibl>S. Chialà, <title rend="italic">Abramo di Kashkar e la sua
+                                comunità</title> (2005), 13–20.</bibl>
+                        <bibl>J.-M.  Fiey, ‘Aônês, Awun et Awgin’, <title rend="italic">
+                                <abbr>AB</abbr>
+                            </title>
+                            80 (1962), 52–81.</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>J.-M.  Fiey</reg>
+                        <orig>idem</orig>
+                     </choice>, <title rend="italic">Jalons</title> (<abbr>CSCO</abbr> 310), 100–11.</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>J.-M.  Fiey</reg>
+                        <orig>idem</orig>
+                     </choice>, <title rend="italic">Saints syriaques</title> (2004),
+                            40–1.</bibl>
+                        <bibl>Labourt, <title rend="italic">Le christianisme dans l’empire
+                                perse</title>, 300–15.</bibl>
+                        <bibl>A. Scher, <title rend="italic">Histoire nestorienne inédite (Chronique
+                                de Séert)</title>, Première partie (<abbr>PO</abbr> 4; 1907).</bibl>
+                        <bibl>N. Sims-Williams, ‘Eugenius (Mar Awgen)’, <title rend="italic">
+                                <abbr>EIr</abbr>
+                            </title>, vol. 9 (1999), 64.</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Edward G.</forename> 
+                  <surname>Mathews</surname>, <genName>Jr.</genName>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

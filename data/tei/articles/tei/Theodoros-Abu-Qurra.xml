@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Theodoros Abū Qurra</title>
+            <author>
+               <persName>
+                  <forename>Aaron M.</forename> 
+                  <surname>Butts</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0">Electronic Edition Draft Version 1.0</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Theodoros Abū Qurra</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Theodoros-Abu-Qurra</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/554</idno>
+                    <idno type="entry">545</idno>
+                    <milestone unit="pages" n="403-405"/>
+                    <idno type="subject">http://syriaca.org/person/782</idno>
+                    <note type="type">person</note>
+                    <note type="abstract">Author, <abbr>Chalcedonain bp.</abbr> of Ḥarran.<note/>
+                    </note>
+                </ab>
+                <ab type="infobox">(probably d. after 829) [<abbr>Melk.</abbr>]</ab>
+                <div type="body">
+                    <p>Author, <abbr>bp.</abbr> of <ref rend="bold" target="https://gedsh.bethmardutho.org/Harran">
+                            <placeName ref="http://syriaca.org/place/216">Ḥarran</placeName>
+                        </ref>. Little is definitively known about the life of Theodoros
+                        Abū Qurra. He was likely born in <ref rend="bold" target="https://gedsh.bethmardutho.org/Edessa">
+                            <placeName ref="http://syriaca.org/place/78">Edessa</placeName>
+                        </ref> toward the
+                        middle of the 8th <abbr>cent.</abbr> At an unknown date, he became <abbr>bp.</abbr> of Ḥarran. He is
+                        traditionally thought to have been a monk at the monastery of Mar Saba,
+                        though this has recently been called into question (see Lamoreaux 2002). In
+                        his Chronicle, <ref rend="bold" target="https://gedsh.bethmardutho.org/Michael-I-Rabo">
+                            <persName ref="http://syriaca.org/person/217">Michael Rabo</persName>
+                        </ref> (d. 1199) reports that Abū
+                        Qurra was deposed from his see by Theodoret, the <abbr>Melk.</abbr>
+                        <abbr> 
+                     <choice>
+                                <sic>Patr.</sic>
+                                <corr>patr.</corr>
+                            </choice>
+                        </abbr> of <ref rend="bold" target="https://gedsh.bethmardutho.org/Antioch">
+                            <placeName ref="http://syriaca.org/place/10">Antioch</placeName>
+                        </ref>
+                        (Chabot, <hi rend="italic">Chronique de Michel le Syrien</hi>, vol. 3, 32–4
+                        [<abbr>FT</abbr>]; vol. 4, 495–8 [Syr.]). The historicity of this has, however, also
+                        recently been challenged (see Lamoreaux 2005, xiii–xv). In the Chronicle of
+                        Michael Rabo, Abū Qurra is also said to have travelled to Armenia where he
+                        debated with the <abbr>Syr. Orth.</abbr> scholar <ref rend="bold" target="https://gedsh.bethmardutho.org/Nonos-of-Nisibis">
+                            <persName ref="http://syriaca.org/person/156">Nonos of
+                            Nisibis</persName>
+                        </ref> (d. after 861) in the court of the Armenian prince Ashot
+                        Msaker (d. 826). This event, which occurred between 813 and 817, is
+                        corroborated by the writings of Ḥabīb <abbr>b.</abbr> Khidma Abū Rāʾiṭa (d. after 830), a
+                        relative of Nonos and the one who sent him to Armenia. Around the same time,
+                        Abū Qurra translated the pseudo-Aristotelian treatise <hi rend="italic">De
+                            virtutibus animae</hi> into Arabic (<abbr>ed.</abbr> with <abbr>GT</abbr> Kellermann). In the
+                        anonymous <ref rend="bold" target="https://gedsh.bethmardutho.org/Chronicle-of-1234">Chronicle of
+                            1234</ref>, it is reported that a debate took place in 829 between Abū
+                        Qurra and Caliph al-Maʾmūn (<abbr>r.</abbr> 813–33) (<abbr>ed.</abbr> J.-B. Chabot, <hi rend="italic">Anonymi auctoris Chronicon ad annum Christi 1234 pertinens</hi>, II
+                        [<abbr>CSCO</abbr> 82; 1916], 22–3; <abbr>FT</abbr> A. Abouna and J.-M. Fiey, <hi rend="italic">Anonymi auctoris Chronicon ad A.C. 1234 pertinens</hi>, II [<abbr>CSCO</abbr> 354;
+                        1974], 15–6). A literary text purporting to be an account of this debate is
+                        preserved in a number of <abbr>mss.</abbr> (<abbr>ed.</abbr> Dick 1999; <abbr>ed.</abbr> with <abbr>ET</abbr> Bertaina 2007);
+                        its historicity is, however, disputed (see D. Bertaina, ‘The debate of
+                        Theodore Abū Qurra’, in <hi rend="italic">Christian-Muslim relations</hi>,
+                        <abbr>ed.</abbr> Thomas and Roggema, 556–64).</p>
+                    <p>Abū Qurra is among the first Christians known to have written in Arabic.
+                        According to his own testimony (Bacha 1904, 60–1; <abbr>ET</abbr> Lamoreaux 2005, 119),
+                        he also wrote in Syriac, though none of his Syriac works are known to
+                        survive. His works are extant in both Arabic and Greek as well as Georgian
+                        translations (for the latter, see Datiašvili). The textual tradition of
+                        these works is not, however, very well understood (a monograph is in
+                        preparation by J. C. Lamoreaux).</p>
+                    <p>Abū Qurra’s works in Arabic are as follows (titles generally follow the
+                        abbreviated versions in Lamoreaux 2005): ‘On free will’ (<abbr>ed.</abbr> Bacha 1904,
+                        9–22; <abbr>ed.</abbr> with <abbr>IT</abbr> Pizzo and Samir; <abbr>GT</abbr> Graf 1910, 223–38; <abbr>ET</abbr> Lamoreaux 2005,
+                        195–206); ‘On the Trinity’ (<abbr>ed.</abbr> Bacha 1904, 23–47; <abbr>GT</abbr> Graf 1910, 133–60; <abbr>ET</abbr>
+                        Lamoreaux 2005, 175–93); ‘On the death of Christ’ (<abbr>ed.</abbr> Bacha 1904, 48–70; <abbr>GT</abbr>
+                        Graf 1910, 198–223; <abbr>ET</abbr> Lamoreaux 2005, 109–28); ‘On the confirmation of the
+                        Gospel’ (<abbr>ed.</abbr> Bacha 1904, 71–75; <abbr>GT</abbr> Graf 1910, 128–33; <abbr>ET</abbr> Lamoreaux 2005,
+                        49–53); ‘On the method of the knowledge of God’ (<abbr>ed.</abbr> Bacha 1904, 75–82; <abbr>GT</abbr>
+                        Graf 1910, 160–8; <abbr>ET</abbr> Lamoreaux 2005, 157–64); an untitled work on salvation,
+                        three sections of which are extant (<abbr>ed.</abbr> Bacha 1904, 83–91, 180–186, 91–104;
+                        <abbr>GT</abbr> Graf 1910, 169–98; <abbr>ET</abbr> Lamoreaux 2005, 129–49); ‘Letter to David’ (<abbr>ed.</abbr>
+                        Bacha 1904, 104– 139; <abbr>GT</abbr> Graf 1910, 239–77); ‘Against the Jews’ (<abbr>ed.</abbr> Bacha
+                        1904, 140–54; <abbr>ed.</abbr> with <abbr>FT</abbr> Bacha 1905; <abbr>GT</abbr> Graf 1910, 88–102; <abbr>ET</abbr> Lamoreaux
+                        2005, 27–39); ‘On the councils’ (<abbr>ed.</abbr> Bacha 1904, 154–79; <abbr>GT</abbr> Graf 1910,
+                        103–128; <abbr>ET</abbr> Lamoreaux 2005, 61–81); ‘Treatise on the veneration of the holy
+                        icons’ (<abbr>ed.</abbr> Dick 1986; <abbr>GT</abbr> Graf 1910, 278–333; <abbr>ET</abbr> Griffith 1997; <abbr>IT</abbr> Pizzo);
+                        ‘Treatise on the existence of the Creator and the true religion’ (<abbr>ed.</abbr> Dick
+                        1982; <abbr>GT</abbr> Graf 1913; <abbr>ET</abbr> Lamoreaux 2005, 1–25, 41–7, 165–74 [who argues that
+                        this is actually three separate treatises]); ‘Confession of faith’ (<abbr>ed.</abbr> with
+                        <abbr>FT</abbr> Dick 1959, 56–62; <abbr>ET</abbr> Lamoreaux 2005, 151–4); ‘On the characteristics of
+                        the true religion’ (<abbr>ed.</abbr> with <abbr>FT</abbr> Dick 1959, 62–7; <abbr>ET</abbr> Lamoreaux 2005, 55–7);
+                        ‘Questions on free will’ (<abbr>ed.</abbr> with <abbr>ET</abbr> Griffith 1979; <abbr>ET</abbr> Lamoreaux 2005,
+                        207–8); ‘Against the Armenians’ (<abbr>ed.</abbr> with <abbr>ET</abbr> Lamoreaux 1992; <abbr>ET</abbr> Lamoreaux
+                        2005, 97–101). In addition, there are a number of unpublished works in
+                        Arabic (see Samir 1999, 433–36; 2005, 101–13; Lamoreaux 2009, 470–3).</p>
+                    <p>The Greek works attributed to Abū Qurra are collected (with <abbr>LT</abbr>) in Migne’s
+                            <hi rend="italic">Patrologiae Graecae</hi>, vol. 94, col. 1595–1598;
+                        vol. 97, col. 1445–1610. An <abbr>ET</abbr> of many of these is available in Lamoreaux
+                        2005. Most of the Greek works against Islam have recently been re-edited
+                        with <abbr>GT</abbr> by Glei and Khoury. Some of these are not, however, by Abū Qurra,
+                        but rather are part of a collection of dialogues reported by John the Deacon
+                        (see Lamoreaux 2001). The authenticity of a number of the other Greek works
+                        attributed to Abū Qurra is also uncertain. Though there are several
+                        substantial treatises, most of the Greek works are fragments that probably
+                        belonged at one time to larger, now lost treatises. It is explicitly
+                        mentioned in the introduction to <hi rend="italic">Opusculum</hi> 4 that it
+                        was translated from Arabic by Michael Synkellos (<title rend="italic">
+                            <abbr>PG</abbr>
+                        </title>,
+                        vol. 97, col. 1504; <abbr>ET</abbr> Lamoreaux 2005, 83). In addition, an Arabic precursor
+                        has been discovered for <hi rend="italic">Opusculum</hi> 9 (see Griffith
+                        1979). In addition to the published works, there are a dozen or so
+                        unpublished texts in Greek attributed to Abū Qurra; most of these are short
+                        though there is a more extensive refutation of Islam (see Lamoreaux 2005,
+                        xxvi).</p>
+                </div>
+                <div type="bibl">
+                    <listBibl>
+                        <listBibl>
+                            <head>Primary Sources</head>
+                            <bibl>C.  Bacha, <title rend="italic">Mayāmir Thāwudūrus Abī Qurra usquf
+                                    Ḥarrān</title> (1904). (Arabic)</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>C.  Bacha</reg>
+                           <orig>idem</orig>
+                        </choice>, <title rend="italic">Un traité des œuvres arabes de Théodore
+                                    Abou-Kurra évêque de Haran / Maymar fī ṣiḥḥat al-dīn
+                                    al-masīḥī</title> (1905). (Arabic with <abbr>FT</abbr>)</bibl>
+                            <bibl>D.  Bertaina, <title rend="italic">An Arabic account of Theodore
+                                    Abu Qurra in debate at the court of Caliph al-Maʾmun: A study in
+                                    early Christian and Muslim literary dialogues</title> (Ph.D.
+                                Diss., Catholic University of America; 2007). (incl. Arabic with
+                                <abbr>ET</abbr>)</bibl>
+                            <bibl>L.  Datiašvili, <title rend="italic">T’eodore Abukura. Trak’tatebi
+                                    da dialogebi</title> (1980). (Georgian)</bibl>
+                            <bibl>I.  Dick, ‘Deux écrits inédits de Théodore Abuqurra’, <title rend="italic">
+                                    <abbr>LM</abbr>
+                                </title> 72 (1959), 53–67. (Arabic with
+                                <abbr>FT</abbr>)</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>I.  Dick</reg>
+                           <orig>idem</orig>
+                        </choice>, <title rend="italic">Théodore Abuqurra. Traité de
+                                    l’existence du Créateur et de la vraie religion / Maymar fī
+                                    wujūd al-khāliq wa-al-din al-qawīm</title> (<abbr>PAC</abbr> 3; 1982).
+                                (Arabic)</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>I.  Dick</reg>
+                           <orig>idem</orig>
+                        </choice>, <title rend="italic">Théodore Abuqurra. Traité du culte des
+                                <choice>
+                                        <sic>icones</sic>
+                                        <corr>icônes</corr>
+                                    </choice> / Maymar fī ikrām al-ayqūnāt li-Thāwudhūrus Abī
+                                    Qurra</title> (<abbr>PAC</abbr> 10; 1986). (Arabic)</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>I.  Dick</reg>
+                           <orig>idem</orig>
+                        </choice>, <title rend="italic">Mujādalat Abī Qurra maʿa
+                                    al-mutakallimīn al-muslimīn fī majlis al-khalīfa
+                                    al-Maʾmūn</title> (1999; 2nd printing 2007). (Arabic)</bibl>
+                            <bibl>R.  Glei and A. Th.  Khoury, <title rend="italic">Johannes
+                                    Damaskenos und Theodor Abū Qurra. Schriften zum Islam</title>
+                                (1995). (Greek with <abbr>GT</abbr>)</bibl>
+                            <bibl>G.  Graf, <title rend="italic">Die arabischen Schriften des
+                                    Theodor Abû Qurra<choice>
+                                        <sic>.</sic>
+                                        <corr>,</corr>
+                                    </choice> Bischofs von Ḥarrân (<abbr>ca.</abbr> 740–820)</title>
+                                (1910). (<abbr>GT</abbr>)</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>G.  Graf</reg>
+                           <orig>idem</orig>
+                        </choice>, <title rend="italic">Des Theodor Abû Ḳurra Traktat über den
+                                    Schöpfer und die wahre <choice>
+                                        <sic>religion</sic>
+                                        <corr>Religion</corr>
+                                    </choice>
+                                </title> (1913). (<abbr>GT</abbr>)</bibl>
+                            <bibl>M.  Kellermann, <title rend="italic">Ein pseudoaristotelischer
+                                    Traktat über die Tugend</title> (Ph.D. Diss.,
+                                Friedrich-Alexander-Universität; 1965). (Arabic with <abbr>GT</abbr>)</bibl>
+                            <bibl>J. C.  Lamoreaux, ‘An unedited tract against the Armenians by
+                                Theodore Abū Qurrah’, <title rend="italic">
+                                    <abbr>LM</abbr>
+                                </title> 105 (1992),
+                                327–41. (Arabic with <abbr>ET</abbr>)</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>J. C.  Lamoreaux</reg>
+                           <orig>idem</orig>
+                        </choice>, <title rend="italic">Theodore
+                                    Abū Qurrah</title> (Library of the Christian East 1; 2005).
+                                (<abbr>ET</abbr>)</bibl>
+                            <bibl>S. H.  Griffith, ‘Some unpublished Arabic sayings attributed to
+                                Theodore Abu Qurrah’, <title rend="italic">
+                                    <abbr>LM</abbr>
+                                </title> 92 (1979),
+                                29–35. (Arabic with <abbr>ET</abbr>)</bibl>
+                            <bibl>S. H.  Griffith, <title rend="italic">A Treatise on the veneration
+                                    of the holy icons written in Arabic by Theodore Abū Qurrah,
+                                    bishop of Harrān (c. 750 – c. 830 A.D.)</title> (Eastern
+                                Christian Texts in Translation 1; 1997). (<abbr>ET</abbr>)</bibl>
+                            <bibl>P.  Pizzo, <title rend="italic">Teodoro Abū Qurrah. La difesa
+                                    delle icone. Trattato sulla venerazione delle immagini</title>
+                                (1995). (<abbr>IT</abbr>)</bibl>
+                            <bibl>P. Pizzo and Kh. Samir, <title rend="italic">Teodoro Abū Qurrah.
+                                    La libertà</title> (2002). (incl. Arabic with <abbr>IT</abbr>)</bibl>
+                        </listBibl>
+                        <listBibl>
+                            <head>Secondary Sources</head>
+                            <bibl>Graf, <title rend="italic">GCAL</title>, vol. 2 (1947),
+                                7–26.</bibl>
+                            <bibl>S. H.  Griffith, <title rend="italic">Theodore Abū Qurrah. The
+                                    intellectual profile of an Arab Christian writer of the first
+                                    Abbasid century</title> (1992).</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>S. H.  Griffith</reg>
+                           <orig>idem</orig>
+                        </choice>, ‘Reflections on the biography of Theodore Abū Qurrah’,
+                                    <title rend="italic">
+                                    <abbr>ParOr</abbr>
+                                </title> 18 (1993), 143–70.</bibl>
+                            <bibl>J. C.  Lamoreaux, ‘Theodore Abū Qurrah and John the Deacon’,
+                                    <title rend="italic">Greek, Roman, and Byzantine Studies</title>
+                                42 (2001), 361–86.</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>J. C.  Lamoreaux</reg>
+                           <orig>idem</orig>
+                        </choice>, ‘The biography of Theodore Abū Qurrah revisited’, <title rend="italic">
+                                    <abbr>DOP</abbr>
+                                </title> 56 (2002), 25–40.</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>J. C.  Lamoreaux</reg>
+                           <orig>idem</orig>
+                        </choice>, ‘Theodore Abū Qurra’, in <title rend="italic">Christian-Muslim relations</title>, <abbr>ed.</abbr> Thomas and Roggema,
+                                439–91.</bibl>
+                            <bibl>Kh. Samir, ‘al-Jadīd fī sīrat Thāwudūrus Abī Qurra wa-āthārihi’,
+                                    <title rend="italic">Machriq</title>73 (1999), 417–49.</bibl>
+                            <bibl>Kh.  Samir (trans. J. P.  Monferrer-Sala), <title rend="italic">Abū Qurrah. Vida, bibliografía y obras</title> (2005). (incl.
+                                extensive bibliography)</bibl>
+                        </listBibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Aaron M.</forename> 
+                  <surname>Butts</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

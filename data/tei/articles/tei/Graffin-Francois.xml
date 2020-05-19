@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Graffin, François</title>
+            <author>
+               <persName>
+                  <forename>Françoise</forename> 
+                  <surname>Briquel-Chatonnet</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0">Electronic Edition Draft Version 1.0</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Graffin, François</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Graffin-Francois</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/241</idno>
+                    <idno type="entry">232</idno>
+                    <milestone unit="pages" n="179"/>
+                    <idno type="althead" subtype="altorder">François Graffin</idno>
+                    <idno type="subject">http://syriaca.org/person/508</idno>
+                    <note type="type">person</note>
+                    <note type="abstract">French Syriac scholar, director of <title rend="italic" xml:lang="la">Patrologia Orientalis</title> (1941-92).<note/>
+                    </note>
+                </ab>
+                <ab type="infobox">(1905–2002)</ab>
+                <div type="body">
+                    <p>French Syriac scholar, director of <hi rend="italic">Patrologia
+                            Orientalis</hi> (1941–92). Born in Mayet (Sarthe), in the West of France
+                        on 1 Jan. 1905, he studied in Le Mans in a school of the Jesuit Fathers and
+                        entered the Society of Jesus. In 1931, his uncle, Mgr. <ref rend="bold" target="https://gedsh.bethmardutho.org/Graffin-Rene">
+                            <persName ref="http://syriaca.org/person/509">René Graffin</persName>
+                        </ref>,
+                        the founder and first director of <hi rend="italic">Patrologia
+                            Orientalis</hi>, chose him to be his successor and secured the help of
+                        Pope Pius XI to obtain permission from the General of Jesuits that he should
+                        be allowed to prepare himself for this task. Graffin then studied all the
+                        Eastern Christian languages, but Syriac was to be his main field of
+                        interest. He taught Syriac at the Institut Catholique in Paris from 1951 to
+                        1975 and was the professor of a whole generation of Syriac scholars, from
+                        France and abroad. In 1941, at the death of his uncle, he became director of
+                        the <hi rend="italic">Patrologia Orientalis</hi>, a task that he pursued for
+                        fifty years until 1992, when René Lavenant, at the Pontifical Oriental
+                        Institute in Rome, was entrusted with the directorship. Graffin himself was
+                        able to complete two major multi-volume editions initiated by M. Brière:
+                            <ref rend="bold" target="https://gedsh.bethmardutho.org/Severus-of-Antioch">
+                            <persName ref="http://syriaca.org/person/51">Severus of
+                            Antioch</persName>
+                        </ref>’s ‘Cathedral Homilies’, to which, after Brière’s death
+                        (1960), Graffin contributed the edition and translation of homilies 1–57 (<abbr>PO</abbr>
+                        35.3; 36.1, 3, and 4; 37.1; and 38.2; between 1969 and 1977, all under the
+                        names of Brière and Graffin); and <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Philoxenos-of-Mabbug">
+                            <persName ref="http://syriaca.org/person/44">Philoxenos
+                            of Mabbog</persName>
+                        </ref>’s ‘Dissertationes decem de Uno e sancta Trinitate
+                        incorporato et passo’ (also known as ‘Memre against Habbib’), to which he
+                        contributed the edition and translation of Memre 3–10 (<abbr>PO</abbr> 38.3; 39.4; 40.2;
+                        between 1977 and 1980, all under the names of Brière and Graffin) as well as
+                        an additional volume with accompanying texts and an important Florilegium
+                        (<abbr>PO</abbr> 41.1; 1982, under the names of Brière and Graffin). He published one of
+                        the ‘Bases’ of <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Bar-Ebroyo-Grigorios">
+                            <persName ref="http://syriaca.org/person/239">Bar ʿEbroyo</persName>
+                        </ref>’s ‘Lamp of the Sanctuary’,
+                        dealing with theology (<abbr>PO</abbr> 27.4; 1957); a series of anonymous homilies of the
+                        6th <abbr>cent.</abbr> (<abbr>PO</abbr> 41.4; 1984); and <ref rend="bold" target="https://gedsh.bethmardutho.org/Yawsep-Hazzaya">
+                            <persName ref="http://syriaca.org/person/816">Yawsep
+                            Ḥazzaya</persName>
+                        </ref>’s ‘Letter on the three degrees of monastic life’ (<abbr>PO</abbr> 45.2;
+                        1992, co-authored with P. Harb). He also contributed regularly with
+                        editions, translations, and studies to <hi rend="italic">L’Orient
+                            syrien</hi> and later to <hi rend="italic">Parole de l’Orient</hi>, as
+                        well as to several Festschrifts. He himself was the recipient of a
+                        Festschrift in 1978 and of an honorary doctorate from SEERI, in India, in
+                        1997. He died in Paris on 4 Dec. 2002.</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>
+                            <title rend="italic">Mélanges offerts au R. P. François
+                            Graffin</title> (= <title rend="italic">
+                                <abbr>ParOr</abbr>
+                            </title> 6–7 [1975–76]).
+                            (bibliography on p. xi–xvi)</bibl>
+                        <bibl>B.  Outtier, ‘François Graffin, S.J. (1905–2002)’, <title rend="italic">
+                                <abbr>Hugoye</abbr>
+                            </title> 6.2 (2003).</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>B.  Outtier</reg>
+                        <orig>idem</orig>
+                     </choice>, ‘François Graffin (1905–2002)’, <title rend="italic">
+                                <abbr>JA</abbr>
+                            </title>
+                            291 (2003), 1–4.</bibl>
+                        <bibl>J. Thekeparampil, ‘Introducing Fr. François Graffin S.J.’, <title rend="italic">
+                                <abbr>Harp</abbr>
+                            </title> 10 (1997), 81–2. (On the occasion of his
+                            Doctorate <choice>
+                                <sic>honoris causa</sic>
+                                <corr>
+                                    <hi rend="italic">honoris causa</hi>
+                                </corr>
+                            </choice> in SEERI, Kottayam, India)</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Françoise</forename> 
+                  <surname>Briquel-Chatonnet</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

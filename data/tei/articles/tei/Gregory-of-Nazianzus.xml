@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Gregory of Nazianzus</title>
+            <author>
+               <persName>
+                  <forename>Sebastian P.</forename> 
+                  <surname>Brock</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0">Electronic Edition Draft Version 1.0</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Gregory of Nazianzus</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Gregory-of-Nazianzus</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/244</idno>
+                    <idno type="entry">235</idno>
+                    <milestone unit="pages" n="181-182"/>
+                    <idno type="subject">http://syriaca.org/person/511</idno>
+                    <note type="type">person</note>
+                    <note type="abstract">Greek Church Father, and one of the three Cappadocian
+                        fathers, whose influential writings earned him the title ‘the
+                        theologian’.<note/>
+                    </note>
+                </ab>
+                <ab type="infobox">(330–390)</ab>
+                <div type="body">
+                    <p>Greek Church Father, and one of the three Cappadocian Fathers, whose
+                        influential writings earned him the title ‘the theologian’. He was appointed
+                        <abbr>bp.</abbr> of Constantinople during the Council there in 381, but he resigned
+                        shortly afterwards. Many of his writings were translated into Syriac,
+                        sometimes in two versions. The most important are:</p>
+                    <p>1. 47 Homilies, or ‘Orations’ (<hi rend="italic">
+                            <abbr>CPG</abbr>
+                        </hi> 3010, and Suppl.).
+                        There is an earlier version, preserved incomplete, and a thorough revision
+                        made by <ref rend="bold" target="https://gedsh.bethmardutho.org/Pawla-of-Edessa">
+                            <persName ref="http://syriaca.org/person/84">Pawla of
+                            Edessa</persName>
+                        </ref>, in 623/4 in Cyprus (whither he had fled from the Persian
+                        occupation of the eastern Byzantine provinces). Subsequent light revisions
+                        to this were made by <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Athanasios-II-of-Balad">
+                            <persName ref="http://syriaca.org/person/109">Athanasios
+                            II</persName>
+                        </ref> and others. The following have been published so far (Greek
+                        numbering, the Syriac is different): Hom. 15, ‘On the Maccabees’, by R. L.
+                        Bensly and W. E. B. Barnes, <hi rend="italic">The Fourth Book of
+                            Maccabees</hi> (1895), 55–73 (Pawla’s revision); Hom. 39 and 41, ‘On
+                        Epiphany and Pentecost’, by A. Malki, <hi rend="italic">Die <choice>
+                                <sic>syr. Hs</sic>
+                                <corr>syrische Handschrift</corr>
+                            </choice> Berlin
+                            Sachau 220</hi> (1984), 153–76, 258–82 (Pawla’s revision); and in the
+                        Louvain Corpus Nazianzenum: Hom. 40, ‘On Baptism’ (2001); Hom. 13, ‘On
+                        Eulalius’, and 41, ‘On Pentecost’ (2002); Hom. 27, ‘Against the Eunomians’,
+                        38, ‘On the Nativity’, and 39, ‘On Epiphany’ (2005); Homs. 28–31,
+                        ‘Theological Orations’ (2007), all providing both versions (further volumes
+                        are in preparation). The <abbr>mss.</abbr> of the two versions are described by A. Van
+                        Roey and H.  Moors, in <title rend="italic">
+                            <abbr>OLP</abbr>
+                        </title> 4 (1973), 121–33; 5
+                        (1974), 79–126, and by A. Schmidt and M. Quaschning-Kirsch, in <title rend="italic">
+                            <abbr>LM</abbr>
+                        </title> 113 (2000), 87–114. Pawla’s revision is always
+                        transmitted in two parts, 1–30 and 31–47. The Scholia (attached to the
+                        Homilies) explaining Gregory’s allusions to Greek mythology were edited,
+                        with <abbr>ET</abbr>, by S. P. Brock (1971), with both versions. Other scholia etc. were
+                        discussed by A. de Halleux, in <title rend="italic">
+                            <abbr>LM</abbr>
+                        </title> 98 (1985), 103–47;
+                        103 (1990), 67–90, and by A. Schmidt, in <title rend="italic">
+                            <abbr>LM</abbr>
+                        </title> 111
+                        (1998), 279–85. The Syriac revisions of the Homilies are mentioned by <ref rend="bold" target="https://gedsh.bethmardutho.org/Timotheos-I">
+                            <persName ref="http://syriaca.org/person/790">Timotheos
+                            I</persName>
+                        </ref>, in Letters 17, 22, 42, and 43.</p>
+                    <p>2. Letters (<hi rend="italic">
+                            <abbr>CPG</abbr>
+                        </hi> 3032). According to <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Bar-Ebroyo-Grigorios">
+                            <persName ref="http://syriaca.org/person/239">Bar ʿEbroyo</persName>
+                        </ref> (‘Book of Directions’, VII.9) 31 Letters circulated
+                        in Syriac translation, out of a much larger number in Greek. Smaller
+                        collections survive in two <abbr>mss.</abbr> of <choice>
+                            <sic/>
+                            <corr>the </corr>
+                        </choice>8th/9th <abbr>cent.</abbr> (<abbr>ms.</abbr> London, Brit. Libr.
+                        Add. 17,209 and 14,544), representing two different translations
+                        (unpublished).</p>
+                    <p>3. Poems. The names of three translators are known, Candidatus of Amid (17
+                        poems, done in 665, according to <abbr>ms.</abbr> Vat. Syr. 96), <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Theodosios-of-Edessa">
+                            <persName ref="http://syriaca.org/person/150">Theodosios
+                            of Edessa</persName>
+                        </ref>, a monk of the <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Qenneshre-Monastery-of">
+                            <placeName ref="http://syriaca.org/place/230">Monastery
+                            of Qenneshre</placeName>
+                        </ref> and brother of <abbr>Patr.</abbr>
+                        <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Dionysios-of-Tel-Mahre">
+                            <persName ref="http://syriaca.org/person/155"> Dionysios</persName>
+                        </ref>, done in 802, according to Bar ʿEbroyo, Ecclesiastical
+                        History, vol. I, col. 363; and a certain Gabriel, mentioned in Timotheos I,
+                        Letter 24. Candidatus is also mentioned in a funerary inscription of his
+                        granddaughter Mariam, dated Sept. 760 (in the Vatican Museum, <abbr>ed.</abbr> Guidi, <hi rend="italic">Actes, X Congrès des Orientalistes</hi>, vol. 3 [1896],
+                        73–82). A large collection of poems survives in <abbr>ms.</abbr> Vat. Syr. 105, <abbr>ed.</abbr> P. J.
+                        Bollig (1895), and smaller groupings in three <abbr>mss.</abbr> in the British Library,
+                        <abbr>ed.</abbr> H. Gismondi (1896). It is unclear whether any of these can be allocated
+                        to either Candidatus or Theodosios.</p>
+                    <p>4. There is also a <abbr>Syr. Orth.</abbr> Anaphora attributed to Gregory (<hi rend="italic">
+                            <abbr>CPG</abbr>
+                        </hi> 3097), <abbr>ed.</abbr> with <abbr>LT</abbr>, I. Hausherr, <hi rend="italic">Anaphorae Syriacae</hi> I.2 (1940).</p>
+                    <p>His commemoration is on 1 or 15 Jan.</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>
+                            <title rend="italic">
+                                <abbr>CPG</abbr>
+                            </title> 3010–3125.</bibl>
+                        <bibl>C. Crimi, ‘Fra tradizione diretta et tradizione indiretta: Note alla
+                            versione siriaca dei «Carmi» di Gregorio Nazianzeno’, in <title rend="italic">La diffusione dell’eredità classica nell’età
+                                tardoantica e medievale</title>, vol. 1, <abbr>ed.</abbr> A. Valvo (1997),
+                            83–93.</bibl>
+                        <bibl>A. de Halleux, ‘La version syriaque des discours de Grégoire de
+                            Nazianze<choice>
+                                <sic>.</sic>
+                                <corr/>
+                            </choice>’, in <title rend="italic">II Symposium Nazianzenum</title>,
+                            <abbr>ed.</abbr> J. Mossay (1983), 75–111.</bibl>
+                        <bibl>J. T. McGuckin, <title rend="italic">
+                                <choice>
+                                    <sic>St</sic>
+                                    <corr>St.</corr>
+                                </choice> Gregory of Nazianzus: an
+                                intellectual biography</title> (2001). (for the wider
+                            background)</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Sebastian P.</forename> 
+                  <surname>Brock</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

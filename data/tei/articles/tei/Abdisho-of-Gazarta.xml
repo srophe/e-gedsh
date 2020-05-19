@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">ʿAbdishoʿ of Gazarta</title>
+            <author>
+               <persName>
+                  <forename>Herman G. B.</forename> 
+                  <surname>Teule</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0">Electronic Edition Draft Version 1.0</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>ʿAbdishoʿ of Gazarta</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Abdisho-of-Gazarta</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/15</idno>
+                    <idno type="entry">6</idno>
+                    <milestone unit="pages" n="4"/>
+                    <idno type="subject">http://syriaca.org/person/311</idno>
+                    <note type="type">person</note>
+                    <note type="abstract">ʿAbdishoʿ bar Yoḥannan d-Beth Maron, monk of the
+                            <placeName ref="http://syriaca.org/place/126">monastery of Mar Aḥa the
+                            Egyptian</placeName>, in the <placeName ref="http://syriaca.org/place/712">region of Gazarta
+                        (Cizre)</placeName>.<note/>
+                    </note>
+                </ab>
+                <ab type="infobox">(d. 1567) [Ch. of E., <abbr>Chald.</abbr>]</ab>
+                <div type="body">
+                    <p>ʿAbdishoʿ bar Yoḥannan d-Beth Maron, monk of the monastery of Mar Aḥa the
+                        Egyptian, in the region of Gazarta (Cizre), participated in the Synod which
+                        deposed <abbr>Patr.</abbr> Shemʿon VII bar Mama (1552) and elected <ref rend="bold" target="https://gedsh.bethmardutho.org/Yohannan-Sullaqa">
+                            <persName ref="http://syriaca.org/person/829">Yoḥannan
+                            Sullaqa</persName>
+                        </ref> as <abbr>Patr.</abbr>
+                        <abbr> 
+                     <choice>
+                                <sic>Cath.</sic>
+                                <corr>cath.</corr>
+                            </choice>
+                        </abbr> Recognized by the Pope, Yoḥannan ordained
+                        ʿAbdishoʿ <abbr>Metr.</abbr> of Gazarta. After Yoḥannan Sullaqa’s violent death in 1555,
+                        ʿAbdishoʿ succeeded him as <abbr>
+                            <choice>
+                                <sic>Patr.</sic>
+                                <corr>patr.</corr>
+                            </choice>
+                        </abbr> of the newly established E.-Syr. Uniate
+                        (Chaldean) Church. He mainly resided in the Monastery of Yaʿqob the Recluse
+                        near <ref rend="bold" target="https://gedsh.bethmardutho.org/Siirt">
+                            <placeName ref="http://syriaca.org/place/188">Siirt</placeName>
+                        </ref>.</p>
+                    <p>He wrote three Syriac panegyrics of unequal length on his predecessor. The
+                        first describes the alleged debaucheries of <abbr>Patr.</abbr> Shemʿon VII bar Mama, the
+                        election of Yoḥannan Sullaqa, his journey to Rome and his profession of
+                        faith submitted to the Pope, his consecration as archbishop and <abbr>
+                            <choice>
+                                <sic>Patr.</sic>
+                                <corr>patr.</corr>
+                            </choice>
+                        </abbr> and
+                        his return to the Middle East. The work ends with an original description of
+                        the churches of Rome. The second poem describes the assassination of
+                        Yoḥannan Sullaqa at the instigation of Shemʿon  VII. The third is a funeral
+                            <hi rend="italic">madrāšā</hi>. He composed in Syriac a profession of
+                        faith, destined to the Roman authorities (original lost, preserved in
+                        different Latin redactions and a retroversion into Syriac), an acrostic <hi rend="italic">turgāmā</hi> in honor of Pope Paul IV, several liturgical
+                        pieces, a grammatical poem, and a <hi rend="italic">memrā</hi> on the
+                        soul.</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>Baumstark, <title rend="italic">Literatur</title>, 333.</bibl>
+                        <bibl>
+                            <choice>
+                                <sic>J.</sic>
+                                <corr>A.</corr>
+                            </choice>  Lampart, <title rend="italic">Ein Märtyrer der Union mit Rom<choice>
+                                    <sic> </sic>
+                                    <corr>: </corr>
+                                </choice>Joseph I, 1681–1696, Patriarch der Chaldäer</title> (1966), 52–8.</bibl>
+                        <bibl>J.  Vosté, ‘Mar Iohannan Soulaqa. Premier patriarche des Chaldéens,
+                            martyr de l’union avec Rome (†1555). Trois poésies inédites de ʿAbdišoʿ
+                            de Gazerte’, <title rend="italic">Angelicum</title> 8 (1931),
+                            187–234.</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Herman G. B.</forename> 
+                  <surname>Teule</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

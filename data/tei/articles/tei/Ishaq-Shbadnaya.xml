@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Isḥaq Shbadnaya</title>
+            <author>
+               <persName>
+                  <forename>Thomas A.</forename> 
+                  <surname>Carlson</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0">Electronic Edition Draft Version 1.0</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Isḥaq Shbadnaya</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Ishaq-Shbadnaya</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/287</idno>
+                    <idno type="entry">278</idno>
+                    <milestone unit="pages" n="214-215"/>
+                    <idno type="subject">http://syriaca.org/person/551</idno>
+                    <note type="type">person</note>
+                    <note type="abstract">Priest and author of the ‘Poem on the Divine Economy from In the Beginning Until Eternity’ as well as other works.<note/>
+                    </note>
+                </ab>
+                <ab type="infobox">(<abbr>fl.</abbr> 1439/40) [Ch. of E.]</ab>
+                <div type="body">
+                    <p>Priest and author, also known as Asko Shbadnaya and Isḥaq Qardaḥa Eshbadnaya.
+                        From his name, Isḥaq is presumed to be from a village named Shbaden or Shbad
+                        in ‘the land of the Sendaye’, a region northeast of Zakho. Isḥaq is known to
+                        have written several works, including three liturgical poems composed in
+                        1439/40 for the Fast of the Ninevites, the commemoration of St. George, and
+                        the Feast of the Finding of the Cross. Isḥaq’s masterpiece is a long poem
+                        entitled ‘Poem on the Divine Economy from In the Beginning Until Eternity’,
+                        divided into 30 <hi rend="italic">sedre</hi> or sections, each on a separate
+                        theme. This poem employs numerous acrostic patterns and includes dozens of
+                        Greek words written in Syriac script. The Greek words and some obscure
+                        Syriac words are supplied with interlinear or marginal definitions in Syriac
+                        or, rarely, Arabic. After most sections of poetry, Isḥaq added a section of
+                        commentary explaining his poem by means of quotations from earlier Syriac
+                        and Greek authors ranging from <ref rend="bold" target="https://gedsh.bethmardutho.org/Ephrem">
+                            <persName ref="http://syriaca.org/person/13">Ephrem</persName>
+                        </ref> and Irenaeus
+                        to <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Theodore-of-Mopsuestia">
+                            <persName ref="http://syriaca.org/person/780">Theodore
+                            of Mospuestia</persName>
+                        </ref>, <ref rend="bold" target="https://gedsh.bethmardutho.org/Ishodad-of-Merv">
+                            <persName ref="http://syriaca.org/person/555">Ishoʿdad of
+                            Merv</persName>
+                        </ref>, and <ref rend="bold" target="https://gedsh.bethmardutho.org/Yohannan-bar-Zobi">
+                            <persName ref="http://syriaca.org/person/823">Yoḥannan bar
+                            Zoʿbi</persName>
+                        </ref>. Some of these quotations are extensive. In composing a
+                        commentary on his own poem, Isḥaq may have been imitating <ref rend="bold" target="https://gedsh.bethmardutho.org/Abdisho-bar-Brikha">
+                            <persName ref="http://syriaca.org/person/310">ʿAbdishoʿ of Nisibis</persName>
+                        </ref>, who also composed a commentary on his own
+                        poetry. Isḥaq also composed an acrostic riddle of six lines which was often
+                        transmitted with his liturgical poems. Finally, a short acrostic poem about
+                        the trials afflicting the Church, which is contained in a single <abbr>ms.</abbr> of
+                        Isḥaq’s masterpiece, is probably also composed by Isḥaq. The continued
+                        importance of Isḥaq is indicated by the large number of <abbr>mss.</abbr> of his works
+                        and the fact that he is one of the few later authors included in histories
+                        of Syriac literature and cited by <ref rend="bold" target="https://gedsh.bethmardutho.org/Audo-Toma">
+                            <persName ref="http://syriaca.org/person/355">Toma Audo</persName>
+                        </ref> in his
+                        Syriac dictionary.</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>Abūna, <title rend="italic">Adab</title>, 463–4.</bibl>
+                        <bibl>Baumstark, <title rend="italic">Literatur</title>, 330.</bibl>
+                        <bibl>G.  Cardahi, <title rend="italic">Liber thesauri de arte poetica
+                                Syrorum</title> (1875), 128–9, 168–71. (contains selections of
+                            Isḥaq’s poetry)</bibl>
+                        <bibl>
+                            <title rend="italic">Ktabuna d-Partute</title> (Urmia, 1898),
+                            143–9.</bibl>
+                        <bibl>Macuch, <title rend="italic">Geschichte</title>, 33.</bibl>
+                        <bibl>Reinink, <title rend="italic">Studien zur Quellen- und
+                                Traditionsgeschichte</title>, 49–60.</bibl>
+                        <bibl>P. Sarmas, <title rend="italic">Tašʿitā d-seprāyutā Atorāytā</title>
+                            (1962), 202–3.</bibl>
+                        <bibl>A.  Scher, ‘Étude supplémentaire sur les écrivains syriens orientaux’,
+                                <title rend="italic">ROC</title> 11 (1906), 31.</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Thomas A.</forename> 
+                  <surname>Carlson</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

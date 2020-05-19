@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Ephrem</title>
+            <author>
+               <persName>
+                  <forename>Sebastian P.</forename> 
+                  <surname>Brock</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0">Electronic Edition Draft Version 1.0</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Ephrem</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Ephrem</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/206</idno>
+                    <idno type="entry">197</idno>
+                    <milestone unit="pages" n="145-147"/>
+                    <idno type="subject">http://syriaca.org/person/13</idno>
+                    <note type="type">person</note>
+                    <note type="abstract">Poet and theologian.<note>brief</note>
+                    </note>
+                </ab>
+                <ab type="infobox">(d. 373)</ab>
+                <div type="body">
+                    <p>Deacon, poet, and theologian. Born probably of Christian parents in the early
+                        years of the 4th <abbr>cent.</abbr> in the region of <ref rend="bold" target="https://gedsh.bethmardutho.org/Nisibis">
+                            <placeName ref="http://syriaca.org/place/142">Nisibis</placeName>
+                        </ref>, he spent
+                        most of his life in Nisibis, serving a series of bishops (beginning with
+                            <ref rend="bold" target="https://gedsh.bethmardutho.org/Yaqub-of-Nisibis">
+                            <persName ref="http://syriaca.org/person/811">Yaʿqub of Nisibis</persName>
+                        </ref>, d. 338). As part of the peace treaty between
+                        the Roman and Persian Empires in 363, Nisibis was handed over to the
+                        Persians and the Christian population had to leave. Ephrem may have gone
+                        first to <ref rend="bold" target="https://gedsh.bethmardutho.org/Amid">
+                            <placeName ref="http://syriaca.org/place/8">Amid</placeName>
+                        </ref>, but ended up settling in <ref rend="bold" target="https://gedsh.bethmardutho.org/Edessa">
+                            <placeName ref="http://syriaca.org/place/78">Edessa</placeName>
+                        </ref>, where he
+                        spent the last ten years of his life. He probably died on 9 June 373. His
+                        biography, written perhaps 200 years after his death, is full of unreliable
+                        information (see <ref rend="bold" target="https://gedsh.bethmardutho.org/Ephrem-Life-of">Ephrem, Life
+                            of</ref>).</p>
+                    <p>Ephrem’s genuine writings fall into four main categories, prose, artistic
+                        prose, stanzaic poetry (<hi rend="italic">madrāše</hi>), and 7+7 syllable
+                        couplets (<hi rend="italic">memre</hi>).</p>
+                    <p>1. Prose: Commentary on Genesis and part of Exodus (<abbr>ed.</abbr> R. M. Tonneau, <abbr>CSCO</abbr>
+                        152–3); Commentary on the Diatessaron (<abbr>ed.</abbr> L. Leloir, 1963, 1990), whose
+                        final editing was probably after his death; Commentaries on Acts and the
+                        Pauline Letters which only survive in Armenian translation; various works
+                        against <ref rend="bold" target="https://gedsh.bethmardutho.org/Bardaisan">
+                            <persName ref="http://syriaca.org/person/3">Bardaiṣan</persName>
+                        </ref>, <ref rend="bold" target="https://gedsh.bethmardutho.org/Marcion">
+                            <persName ref="http://syriaca.org/person/616">Marcion</persName>
+                        </ref>, and <ref rend="bold" target="https://gedsh.bethmardutho.org/Mani">
+                            <persName ref="http://syriaca.org/person/608">Mani</persName>
+                        </ref> (<abbr>ed.</abbr>
+                        C. Mitchell and F. C. Burkitt, <hi rend="italic">Prose Refutations</hi>,
+                        I–II [1912, 1921]).</p>
+                    <p>2. Artistic prose: <hi rend="italic">memrā</hi> on our Lord (<abbr>ed.</abbr> Beck, <abbr>CSCO</abbr>
+                        270–1); Letter to Publius (<abbr>ed.</abbr> S. P. Brock, <title rend="italic">
+                            <abbr>LM</abbr>
+                        </title> 89,
+                        1976); <hi rend="italic">memrā</hi> on the signs performed by Moses in Egypt
+                        (<abbr>ed.</abbr> Overbeck, <hi rend="italic">S. Ephraemi ... Opera Selecta</hi> [1865],
+                        88–94).</p>
+                    <p>3. <hi rend="italic">Madrāše</hi> (‘<hi rend="italic">Hymni</hi>’). Nearly
+                        400 <hi rend="italic">madrāše</hi> survive, using some 50 different metrical
+                        patterns, designated by their melody titles (<hi rend="italic">qāle</hi>).
+                        According to <ref rend="bold" target="https://gedsh.bethmardutho.org/Yaqub-of-Serugh">
+                            <persName ref="http://syriaca.org/person/42">Yaʿqub of
+                            Serugh</persName>
+                        </ref>, Ephrem instituted women’s choirs to sing his <hi rend="italic">madrāše</hi>. These are transmitted in collections of
+                        various sizes, and are all edited by E. Beck: on the Church (<abbr>CSCO</abbr> 198–9); on
+                        the Crucifixion (<abbr>CSCO</abbr> 248–9); on Faith (<abbr>CSCO</abbr> 212–3); on the Fast (<abbr>CSCO</abbr>
+                        246–7); against Heresies (<abbr>CSCO</abbr> 169–70); against Julian the Apostate (<abbr>CSCO</abbr>
+                        174–5); on the Nativity (<abbr>CSCO</abbr> 186–7); of the Nisibenes (<abbr>CSCO</abbr> 218–9, 240–1);
+                        on Paradise (<abbr>CSCO</abbr> 174–5); on the Resurrection (<abbr>CSCO</abbr> 248–9); on Unleavened
+                        Bread (<abbr>CSCO</abbr> 248–9); and on Virginity (<abbr>CSCO</abbr> 222–3). Collections attributed to
+                        Ephrem, but which largely contain <hi rend="italic">madrāše</hi> that must
+                        be slightly later, are: on Abraham of Qidun and Yulyana Saba (<abbr>ed.</abbr> Beck, <abbr>CSCO</abbr>
+                        322–3); on the Confessors (<abbr>ed.</abbr> Beck, <abbr>CSCO</abbr> 363–4); on Epiphany (<abbr>ed.</abbr> Beck,
+                        <abbr>CSCO</abbr> 186–7).</p>
+                    <p>4. <hi rend="italic">Memre</hi> (‘<hi rend="italic">Sermones</hi>’). Since
+                        the seven-syllable <choice>
+                     <reg>meter</reg>
+                     <orig>metre</orig>
+                  </choice>, used by Ephrem, became known as the ‘meter of Mar
+                        Ephrem’, a large number of <hi rend="italic">memre</hi>, certainly not by
+                        Ephrem, came to be attributed to him. The six <hi rend="italic">memre</hi>
+                        on Faith (<abbr>ed.</abbr> Beck, <abbr>CSCO</abbr> 212–3) are definitely genuine. Of the four further
+                        collections of <hi rend="italic">memre</hi> edited by Beck (<hi rend="italic">Sermones</hi> I–IV, <abbr>CSCO</abbr> 305–6, 311–2, 320–1, 334–5), only
+                        the following are considered by him to be genuine: I, 1–3; II, 1 (on Jonah
+                        and Nineveh) and the core of 4 (On the Sinful Woman, Luke 7); and IV, 2
+                        (perhaps). All the rest in these volumes date from times later than Ephrem;
+                        this also applies to <hi rend="italic">memre</hi> in Beck’s further volumes,
+                        <abbr>CSCO</abbr> 363–4 (<hi rend="italic">Nachträge</hi>) and 412–3 (on Holy Week). Only
+                        some excerpts from a collection of <hi rend="italic">memre</hi> on Nicomedia
+                        survive in Syriac, but a complete Armenian translation preserves it (<abbr>ed.</abbr> C.
+                        Renoux, <abbr>PO</abbr> 37, 2–3).</p>
+                    <p>The dating of Ephrem’s writings, to before or after his move from Nisibis in
+                        363, for the most part remains uncertain. Very probably composed before 363
+                        are the <hi rend="italic">memre</hi> on Faith, the <hi rend="italic">madrāše</hi> on Paradise, and at least most of the Nisibene collection
+                        (the first can be dated exactly, since it describes the flooding of the
+                        surroundings during the siege of Nisibis in 350). The <hi rend="italic">madrāše</hi> against Julian must date from shortly after the emperor’s
+                        death in 363, during his Persian campaign. It would seem reasonable to date
+                        with confidence to his Edessan period those works which include references
+                        to Bardaiṣan (Prose Refutations, <hi rend="italic">madrāše</hi> against
+                        Heresies); likewise the <hi rend="italic">madrāše</hi> on Faith, many of
+                        which are concerned with the later developments of Arianism.</p>
+                    <p>The <hi rend="italic">madrāše</hi> collections are preserved in 6th-cent.
+                        <abbr>mss.</abbr> (not always quite complete). This is fortunate since later <abbr>mss.</abbr> (almost
+                        all liturgical) provide only excerpts, often mixed in with later material;
+                        furthermore they attribute to Ephrem numerous poems which are certainly not
+                        by him (see <hi rend="italic">Studia Patristica</hi> 33 [1997], 490–505). An
+                        important clue to the early transmission of the collections is provided by
+                        an early index of <hi rend="italic">qāle</hi> (<abbr>ed.</abbr> A. de Halleux, <title rend="italic">
+                            <abbr>LM</abbr>
+                        </title> 85 [1972], 171–99). Three of the six-volume Roman
+                        edition of Ephrem’s works (1732–6) provided the first printed edition of his
+                        works in Syriac (the other volumes contain texts in Greek). In the 19th
+                        <abbr>cent.</abbr> editions of further works were published by Overbeck (1865), Bickell
+                        (1866), and especially Lamy (I–IV, 1882–1902). These older editions are now
+                        almost entirely replaced, as far as genuine works are concerned, by the
+                        20th-century editions of Beck and others (a guide to all these editions is
+                        given in <hi rend="italic">The Harp</hi> 3 [1990], 7–29; in <hi rend="italic">S. Ephrem, un poète pour notre temps</hi>, 281–307; and in
+                        the Russian Theological Encyclopaedia [under Ephrem]).</p>
+                    <p>Ephrem was already known outside Syriac circles to <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Epiphanius-of-Salamis">
+                            <persName ref="http://syriaca.org/person/477">Epiphanius</persName>
+                        </ref> (‘Panarion’, 51.22.7: ‘the sage among the Syrians’)
+                        and to Jerome (‘On Famous Men’, 115, written in 392), and translations of
+                        some of his works into Greek were soon made. Ephrem’s fame, however, led to
+                        a large number of Greek texts being attributed to him, only a few of which
+                        are really by him (and many are not even translations from Syriac); <hi rend="italic">
+                            <abbr>CPG</abbr>
+                        </hi> 3905–4175 provides a guide to these. Translations
+                        were made from Greek into Latin, Slavonic, and other languages; those into
+                        Armenian, however, were directly from Syriac.</p>
+                    <p>Ephrem was also a profound thinker, preferring to express his theological
+                        vision through poetry, rather than prose. Though his importance for the
+                        Christian tradition as a whole was recognised by Pope Benedict XV in 1920,
+                        when he proclaimed Ephrem to be a Doctor of the Universal Church, it is only
+                        in fairly recent years that his significance as a theologian has begun to be
+                        properly appreciated.</p>
+                    <p>The iconographical tradition either depicts him as a deacon (thus on a
+                        10th-cent. icon at <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Catherine-Monastery-of-St">
+                            <placeName ref="http://syriaca.org/place/368">St. Catherine’s Monastery</placeName>
+                        </ref>, Sinai),
+                        or (more frequently) as a monk, following the misleading 6th-century Life. A
+                        popular theme in Late Byzantine art was the Death of St. Ephrem.</p>
+                    <p>The dates of his liturgical commemorations vary in the different Churches.
+                        <abbr>Syr. Orth.</abbr>, Saturday of the 1st week of Lent (with St. Theodore); also 28
+                        Jan. and 19 Feb.; <abbr>Maron.</abbr>, 27 Jan.; <abbr>Ch. of E.</abbr>, Friday of 5th week after
+                        Epiphany (Syriac Doctors). Greek and Russian Orthodox, 28 Jan. Roman
+                        Catholic, 9 June.</p>
+                    <p>See <ref target="https://gedsh.bethmardutho.org/fig/49c">Fig. 49c</ref>.</p>
+                </div>
+                <div type="bibl">
+                    <listBibl>
+                        <listBibl>
+                            <head>Bibliography</head>
+                            <bibl>K.  den Biesen, <title rend="italic">Bibliography of St
+                                    Ephrem</title> (2002) provides very full coverage; subsequent
+                                studies can be located in ‘Syriac studies: a classified bibliography
+                                (2001–2005)’, <title rend="italic">
+                                    <abbr>ParOr</abbr>
+                                </title> 33 (2008),
+                                325–331.</bibl>
+                        </listBibl>
+                        <listBibl>
+                            <head>Primary Sources</head>
+                            <bibl>For Syr. editions, see above. There are bilingual editions of On
+                                the Nativity (Syr. with <abbr>AT</abbr> by J. Khoury 1994), and of 20 selected
+                                poems (Syr. with <abbr>ET</abbr> by S. P. Brock and G. A.  Kiraz 2006). Beck’s
+                                editions are all accompanied by <abbr>GT</abbr>; a <abbr>GT</abbr> of the Commentary on the
+                                Diatessaron recently appeared as C. Lange, <title rend="italic">Ephraem der Syrer. Kommentar zum Diatessaron</title> (<abbr>FC</abbr>
+                                54.1–2; 2008). For French, Italian, and other translations, see
+                                    <title rend="italic">S. Ephrem, Un poète pour notre
+                                    temps</title> (2007), 294–307. <abbr>ET</abbr> are as follows:</bibl>
+                            <bibl>S. P.  Brock, <title rend="italic">The Harp of the Spirit: 18
+                                    Poems of St Ephrem</title> (2nd  ed. 1983).</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>S. P.  Brock</reg>
+                           <orig>idem</orig>
+                        </choice>, <title rend="italic">St Ephrem the Syrian, Hymns on
+                                    Paradise</title> (1990).</bibl>
+                            <bibl>M.  Hansbury, <title rend="italic">Hymns [on the Table] of St
+                                    Ephrem the Syrian</title> (2006).</bibl>
+                            <bibl>E. G.  Mathews and J. P. Amar, <title rend="italic">St Ephrem the
+                                    Syrian. Selected Prose Works</title> (1994).</bibl>
+                            <bibl>C.  McCarthy, <title rend="italic">Saint Ephrem’s Commentary on
+                                    Tatian’s Diatessaron</title> (1993).</bibl>
+                            <bibl>K. McVey, <title rend="italic">Ephrem the Syrian, Hymns</title>
+                                (1989).</bibl>
+                            
+                        </listBibl>
+                        <listBibl>
+                            <head>Secondary Sources</head>
+                            <bibl>E. Beck, <title rend="italic">Ephräms des Syrers Psychologie und
+                                    Erkenntnislehre</title> (<abbr>CSCO</abbr> 419; 1980).</bibl>
+                            <bibl>T. Bou Mansour, <title rend="italic">La théologie symbolique de
+                                    Saint Éphrem</title> (1988).</bibl>
+                            <bibl>S. P.  Brock, <title rend="italic">The Luminous Eye: the Spiritual
+                                    World Vision of St Ephrem</title> (2nd <abbr>ed.</abbr> 1992; there are
+                                French, Italian, Malayalam, Romanian, Russian, and Swedish
+                                translations).</bibl>
+                            <bibl>Centre d’Études et de Recherches Orientales (CERO), <title rend="italic">Saint Éphrem, un poète pour notre temps</title>
+                                (Patrimoine syriaque, Colloque XI; 2007).</bibl>
+                            <bibl>K.  den  Biesen, <title rend="italic">Simple and bold. Ephrem’s
+                                    art of symbolic thought</title> (2006).</bibl>
+                            <bibl>S. H.  Griffith, ‘Ephrem the exegete’, in <title rend="italic">Handbook of Patristic Exegesis</title>, <abbr>ed.</abbr> C. Kannengiesser
+                                (2004), vol. 2, 1395–448.</bibl>
+                            <bibl>C.  Lange, <title rend="italic">The Portrayal of Christ in the
+                                    Syriac Commentary on the Diatessaron</title> (<abbr>CSCO</abbr> 616;
+                                2005).</bibl>
+                            <bibl>Murray, <title rend="italic">Symbols</title>.</bibl>
+                            <bibl>U.  Possekel, <title rend="italic">Evidence of Greek philosophical
+                                    concepts in the writings of Ephrem the Syrian</title> (<abbr>CSCO</abbr> 580;
+                                1999).</bibl>
+                            <bibl>A.  Shemunkasho, <title rend="italic">Healing in the theology of
+                                    St Ephrem</title> (2002).</bibl>
+                            <bibl>P.  Yousif, <title rend="italic">L’Eucharistie chez s. Éphrem de
+                                    Nisibe</title> (<abbr>OCA</abbr> 224; 1984).</bibl>
+                        </listBibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Sebastian P.</forename> 
+                  <surname>Brock</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

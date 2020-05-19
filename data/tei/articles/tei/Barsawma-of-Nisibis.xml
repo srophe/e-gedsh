@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Barṣawma of Nisibis</title>
+            <author>
+               <persName>
+                  <forename>Adam H.</forename> 
+                  <surname>Becker</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0">Electronic Edition Draft Version 1.0</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Barṣawma of Nisibis</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Barsawma-of-Nisibis</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/88</idno>
+                    <idno type="entry">79</idno>
+                    <milestone unit="pages" n="58-59"/>
+                    <idno type="subject">http://syriaca.org/person/369</idno>
+                    <note type="type">person</note>
+                    <note type="abstract">Controversial E.-Syr. <abbr>
+                            <choice>
+                                <sic>Bp.</sic>
+                                <corr>bp.</corr>
+                            </choice>
+                        </abbr> of Nisibis.<note/>
+                    </note>
+                </ab>
+                <ab type="infobox">(d. <abbr>ca.</abbr> 491–96) [Ch. of E.]</ab>
+                <div type="body">
+                    <p>Controversial E.-Syr. <abbr>
+                            <choice>
+                                <sic>Bp.</sic>
+                                <corr>bp.</corr>
+                            </choice>
+                        </abbr> of <ref rend="bold" target="https://gedsh.bethmardutho.org/Nisibis">
+                            <placeName ref="http://syriaca.org/place/142">Nisibis</placeName>
+                        </ref>. After
+                        spending time at the <ref rend="bold" target="https://gedsh.bethmardutho.org/Edessa-School-of">School of
+                            Edessa</ref>, Barṣawma was made metropolitan <abbr>bp.</abbr> of Nisibis (<abbr>ca.</abbr> 459, or
+                        perhaps as early as 435) by the <abbr>Cath.</abbr> Babowai (457–484/6). The shah Peroz
+                        (457–84) showed a liking to him and may have even commissioned him to
+                        officiate in matters pertaining to border security, even entrusting him with
+                        troops. Later Miaphysite sources suggest that he used this force against his
+                        theological enemies, but there seems to be an exaggeration in this account.
+                        Until Gero’s work, scholars generally believed the W.-Syr. characterization
+                        of Barṣawma as playing an important role in the so-called ‘nestorianization’
+                        of the <abbr>Ch. of E.</abbr> For example, <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Shemun-of-Beth-Arsham">
+                            <persName ref="http://syriaca.org/person/53">Shemʿun of
+                            Beth Arsham</persName>
+                        </ref>’s letter on the spread of Dyophysitism across the
+                        Sasanian Empire was published by Assemani as ‘On Barṣawma, Bishop of
+                        Nisibis, and the heresy of the Nestorians’, although it only mentions him
+                        twice and in passing. To what extent he played a central role in the
+                        propagation of Dyophysite Christology in the Ch. of  E. is unclear, but it
+                        seems certain that he was involved in some of the major ecclesiastical
+                        developments of the day. For example, he may have initiated the founding of
+                        the <ref rend="bold" target="https://gedsh.bethmardutho.org/Nisibis-School-of">School of
+                            Nisibis</ref>. The sources describe him as persuading <ref rend="bold" target="https://gedsh.bethmardutho.org/Narsai">
+                            <persName ref="http://syriaca.org/person/650">Narsai</persName>
+                        </ref> to found the
+                        new school in Nisibis after the expulsion of the Dyophysites from the School
+                        of Edessa in the last decades of the 5th <abbr>cent.</abbr> Barṣawma engaged in a project
+                        of ethical reform, which included granting permission for clergy to marry.
+                        He later had a falling out with Narsai, perhaps in part due to his marriage
+                        to an ex-nun, Mamai. He openly opposed the <abbr>Cath.</abbr> Babowai and called together
+                        a synod at <ref rend="bold" target="https://gedsh.bethmardutho.org/Beth-Lapat">
+                            <placeName ref="http://syriaca.org/place/35">Beth Lapaṭ</placeName>
+                        </ref> in
+                        484, which did not include the <choice>
+                            <sic>Cath.</sic>
+                            <corr>cath.</corr>
+                        </choice> This was followed by a synod at Beth
+                        ʿEdray (?) in 486. We have extant a letter from Barṣawma explaining his
+                        absence from the Synod of Mar <ref rend="bold" target="https://gedsh.bethmardutho.org/Aqaq">
+                            <persName ref="http://syriaca.org/person/338">Aqaq</persName>
+                        </ref>, held in 486,
+                        which further addressed the issues of clerical marriage. <ref rend="bold" target="https://gedsh.bethmardutho.org/Abdisho-bar-Brikha">
+                            <persName ref="http://syriaca.org/person/310">ʿAbdishoʿ bar
+                            Brikha</persName>
+                        </ref> is vague about his works, citing various genres, including
+                        metrical homilies, liturgical works, and epistles (Assemani, <hi rend="italic">BibOr</hi>, vol. 3.1, 66). Gero provides a possible
+                        chronology for his several extant letters.</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>Assemani, <title rend="italic">BibOr</title>, vol. 1, 351 n.
+                            4.</bibl>
+                        <bibl>P.  Bruns, ‘Barsauma von Nisibis und die Aufhebung der
+                            Klerikerenthaltsamkeit im Gefolge der Synode von Beth-Lapat (484)’,
+                                <title rend="italic">Annuarium Historiae Conciliorum</title> 37
+                            (2005), 1–42.</bibl>
+                        <bibl>S.  Gero, <title rend="italic">Barṣauma of Nisibis and Persian
+                                Christianity in the fifth century</title> (<abbr>CSCO</abbr> 426; 1981).
+                            (contains a full discussion of sources)</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Adam H.</forename> 
+                  <surname>Becker</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Edessa</title>
+            <author>
+               <persName>
+                  <forename>Amir</forename> 
+                  <surname>Harrak</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0">Electronic Edition Draft Version 1.0</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Edessa</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Edessa</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/192</idno>
+                    <idno type="entry">183</idno>
+                    <milestone unit="pages" n="138-139"/>
+                    <idno type="subject">http://syriaca.org/place/78</idno>
+                    <note type="type">place</note>
+                    <note type="abstract">Modern Urfa, Syriac Urhay, and ancient Adme, on the Balikh
+                        river, to the northwest of Ḥarran in southeastern <placeName ref="http://syriaca.org/place/648">Turkey</placeName>.<note/>
+                    </note>
+                </ab>
+                <div type="body">
+                    <p>Modern Urfa, Syriac Urhay, and ancient Adme, on the Balikh river, to the
+                        northwest of <ref rend="bold" target="https://gedsh.bethmardutho.org/Harran">
+                            <placeName ref="http://syriaca.org/place/216">Ḥarran</placeName>
+                        </ref> in southeastern Turkey. In ancient times Edessa was a
+                        caravan city on a trade route mentioned in Old Assyrian and Babylonian
+                        itineraries as Adme, Admi, and Admum, located beside Ḥarran. <ref rend="bold" target="https://gedsh.bethmardutho.org/Ephrem">
+                            <persName ref="http://syriaca.org/person/13">Ephrem</persName>
+                        </ref> associates Edessa with biblical Erech (the ancient Sumerian
+                        Uruk) ruled by the legendary Nimrod. Another source associates its name with
+                        its mythical first ruler ʾRHY BR ḤWYʾ, whereas Jewish and Islamic traditions
+                        conveniently turned the city into the dwelling place of Abraham. In 304 BC,
+                        Seleucus I Nicator rebuilt the ancient settlement into a Hellenistic <choice>
+                            <sic>polis</sic>
+                            <corr>
+                                <hi rend="italic">polis</hi>
+                            </corr>
+                        </choice>,
+                        naming it after the Macedonian city of Edessa, possibly because both
+                        localities enjoyed plentiful water. The Syriac name <hi rend="italic">Urhay</hi> (Arabic <hi rend="italic">al-Rahhāʾ</hi>) may derive from
+                        the name Antiochia Kallirhoe ‘Antioch by the Kallirhoe’ inscribed on coins
+                        struck there by Antiochus IV Epiphanes (175–64 BC). The city became part of
+                        the small province of Osrhoene created after the defeat of Antiochus Sidetes
+                        in 130–129 BC at the hands of the Parthians. From this time the province
+                        enjoyed independence, being ruled by local kings (most of whom were named
+                        Abgar or Maʿnu) until AD 213 when it turned into a Roman colony (see <ref rend="bold" target="https://gedsh.bethmardutho.org/Abgarids-of-Edessa">Abgarids</ref>). Christianity spread out in Mesopotamia
+                        probably through Edessa, and in any case, its <ref rend="bold" target="https://gedsh.bethmardutho.org/Aramaic">Aramaic</ref> dialect
+                        attested in inscriptions, deeds of sales, and coins, became the language of
+                        Syriac Christianity. Edessa is the scene of Addai’s missionary activities
+                        according to the <ref rend="bold" target="https://gedsh.bethmardutho.org/Addai-Teaching-of">Teaching of
+                            Addai</ref>, and it had a church destroyed in 201 by the flooding of the
+                        Daiṣan, the river that passed through the city. This is reported by the <ref rend="bold" target="https://gedsh.bethmardutho.org/Chronicle-of-Edessa">Chronicle of Edessa</ref>, which drew on the royal archives of the
+                        city. During the 3rd and 4th <abbr>cent.</abbr> Edessa witnessed a diversity of Christian
+                        traditions including followers of <ref rend="bold" target="https://gedsh.bethmardutho.org/Bardaisan">
+                            <persName ref="http://syriaca.org/person/3">Bardaiṣan</persName>
+                        </ref>, <ref rend="bold" target="https://gedsh.bethmardutho.org/Marcion">
+                            <persName ref="http://syriaca.org/person/616">Marcion</persName>
+                        </ref>, and <ref rend="bold" target="https://gedsh.bethmardutho.org/Mani">
+                            <persName ref="http://syriaca.org/person/608">Mani</persName>
+                        </ref>, all contending
+                        with Roman ecclesiastical orthodoxy championed by Ephrem (d. 373). During
+                        most of the 5th <abbr>cent.</abbr> Edessa was the scene of struggles between ‘Nestorians’
+                        and Miaphysites, opposing <abbr>Bp.</abbr> 
+                  <ref rend="bold" target="https://gedsh.bethmardutho.org/Rabbula-of-Edessa">
+                            <persName ref="http://syriaca.org/person/26">Rabbula</persName>
+                        </ref> (d. 435), an
+                        archenemy of Nestorianism, and <ref rend="bold" target="https://gedsh.bethmardutho.org/Hiba">
+                            <persName ref="http://syriaca.org/person/534">Hiba</persName>
+                        </ref> (d. 457) who,
+                        while teaching at the <ref rend="bold" target="https://gedsh.bethmardutho.org/Edessa-School-of">School of
+                            Edessa</ref>, assisted in the translation of the works of <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Theodore-of-Mopsuestia">
+                            <persName ref="http://syriaca.org/person/780">Theodore</persName>
+                        </ref> and other Antiochene theologians from Greek
+                        into Syriac. After succeeding Rabbula as <abbr>bp.</abbr> of Edessa, Hiba eventually
+                        anathematized both <ref rend="bold" target="https://gedsh.bethmardutho.org/Nestorius">
+                            <persName ref="http://syriaca.org/person/655">Nestorius</persName>
+                        </ref> and
+                            <ref rend="bold" target="https://gedsh.bethmardutho.org/Eutyches">
+                            <persName ref="http://syriaca.org/person/482">Eutyches</persName>
+                        </ref>, but the suppression of Nestorianism in the city
+                        occurred during the time of <abbr>
+                            <choice>
+                                <sic>bp.</sic>
+                                <corr>Bp.</corr>
+                            </choice>
+                        </abbr> Qiyore (d. 498), under whose instigation the
+                        ‘School of the Persians’ was shut in 489 by Zeno on account of its
+                        ‘Nestorian’ tendencies. During the 6th <abbr>cent.</abbr> Edessa suffered the
+                        consequences of warfare between Byzantines and Sasanians some of which are
+                        vividly recorded in the so-called Chronicle of <ref rend="bold" target="https://gedsh.bethmardutho.org/Yeshu-the-Stylite">
+                            <persName ref="http://syriaca.org/person/40">Yeshuʿ the
+                            Stylite</persName>
+                        </ref>. In about 542 the city had a bishop named <ref rend="bold" target="https://gedsh.bethmardutho.org/Yaqub-Burdoyo">
+                            <persName ref="http://syriaca.org/person/69">Yaʿqub
+                            Burdʿoyo</persName>
+                        </ref> (d. 578), who, with the support of the Empress <ref rend="bold" target="https://gedsh.bethmardutho.org/Theodora-Empress">
+                            <persName ref="http://syriaca.org/person/779">Theodora</persName>
+                        </ref>, undertook the reorganization of the
+                        Miaphysite community in Syria into the <abbr>Syr. Orth.</abbr> Church that survives to
+                        this day. In 641 Edessa was conquered by the Arabs and in 1098 it became a
+                        Crusader principality to be crushed by Zengi of <ref rend="bold" target="https://gedsh.bethmardutho.org/Mosul">
+                            <placeName ref="http://syriaca.org/place/139">Mosul</placeName>
+                        </ref> in 1144. The
+                        Chronicle of <ref rend="bold" target="https://gedsh.bethmardutho.org/Michael-I-Rabo">
+                            <persName ref="http://syriaca.org/person/217">Michael Rabo</persName>
+                        </ref> contains a dramatic report
+                        of the massacres that accompanied the fall of the city and a lamentation
+                        over it was composed by <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Dionysios-bar-Salibi">
+                            <persName ref="http://syriaca.org/person/212">Dionysios
+                            Bar Ṣalibi</persName>
+                        </ref> 
+                  <abbr> bp.</abbr> of <ref rend="bold" target="https://gedsh.bethmardutho.org/Amid">
+                            <placeName ref="http://syriaca.org/place/8">Amid</placeName>
+                        </ref>. From 1517 Edessa
+                        became part of the Ottoman empire, and during World War I some of its Syriac
+                        and Armenian inhabitants were massacred, a fact that led the remnants to
+                        leave the city once <choice>
+                            <sic/>
+                            <corr>and </corr>
+                        </choice>for all in 1924, heading to <ref rend="bold" target="https://gedsh.bethmardutho.org/Aleppo">
+                            <placeName ref="http://syriaca.org/place/18">Aleppo</placeName>
+                        </ref> where they
+                        still live in Hay al-Suryān ‘Quarter of the Syriacs’. Edessa was a Syr.
+                        Orth. Metropolitan seat probably from the early 6th <abbr>cent.</abbr> and as late as
+                        1924.</p>
+                    <p>See <ref target="https://gedsh.bethmardutho.org/fig/1">Fig. 1</ref> and <ref target="https://gedsh.bethmardutho.org/fig/47">47</ref>.</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>Chabot, <title rend="italic">Chronique de Michel le
+                                Syrien</title>, vol. 3, 260–7.</bibl>
+                        <bibl>R.  Duval, <title rend="italic">Histoire politique, religieuse et
+                                littéraire d’Édesse jusqu’à la première croisade</title>
+                            (1892).</bibl>
+                        <bibl>H. J. W.  Drijvers, ‘Hatra, Palmyra und Edessa. Die Städte der
+                            syrisch-mesopotamischen Wüste in politischer, kulturgeschichtlicher und
+                            religionsgeschichtlicher Beleuchtung’, in <title rend="italic">Aufstieg
+                                und Niedergang der römischen Welt</title>, vol. <choice>
+                                <sic>2</sic>
+                                <corr>VIII.2</corr>
+                            </choice>, <abbr>ed.</abbr> H.  Temporini
+                            and W. Haase (1977), 800–906.</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>H. J. W.  Drijvers</reg>
+                        <orig>idem</orig>
+                     </choice>, <title rend="italic">Cults and beliefs at Edessa</title>
+                            (1980).</bibl>
+                        <bibl>Fiey, <title rend="italic">Pour un Oriens christianus novus</title>,
+                            194–6.</bibl>
+                        <bibl>L.  Greisiger <abbr>et al.</abbr> (<abbr>ed.</abbr>), <title rend="italic">Edessa in
+                                hellenistisch-römischer Zeit. Religion, Kultur und Politik zwischen
+                                Ost und West</title> (<abbr>BTS</abbr> 116; 2009).</bibl>
+                        <bibl>I.  Guidi, <title rend="italic">Chronica minora</title>, 1 (<abbr>CSCO</abbr> 1–2;
+                            1903), 1–11 and 1–3 (Syr. with <abbr>LT</abbr> of ‘Chronicle of Edessa’).</bibl>
+                        <bibl>L.  Hallier, <title rend="italic">Untersuchungen über die Edessenische
+                                Chronik</title> (<abbr>TU</abbr> 9.2; 1892).</bibl>
+                        <bibl>A.  Harrak, ‘The Ancient Name of Edessa’, <title rend="italic">
+                                <abbr>JNES</abbr>
+                            </title> 51 (1992), 209–14.</bibl>
+                        <bibl>S. K.  Ross, <title rend="italic">Roman Edessa. Politics and culture
+                                on the Eastern fringe of the Roman Empire, 114–224 CE</title>
+                            (2001).</bibl>
+                        <bibl>J. B.  Segal, <title rend="italic">Edessa ‘The Blessed City’</title>
+                            (1970).</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Amir</forename> 
+                  <surname>Harrak</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

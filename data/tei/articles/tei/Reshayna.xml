@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Reshʿayna</title>
+            <author>
+               <persName>
+                  <forename>Hidemi</forename> 
+                  <surname>Takahashi</surname>
+               </persName>
+               <persName>
+                  <forename>Lucas</forename> 
+                  <surname>Van Rompay</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0">Electronic Edition Draft Version 1.0</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Reshʿayna</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Reshayna</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/464</idno>
+                    <idno type="entry">455</idno>
+                    <milestone unit="pages" n="351"/>
+                    <idno type="althead">Theodosiopolis</idno>
+                    <idno type="subject">http://syriaca.org/place/172</idno>
+                    <note type="type">place</note>
+                    <note type="abstract">City on the Khabur, located in the eastern part of ancient
+                        Osrhoene and today straddling the Turkish-Syrian border, the Syrian part now
+                        bearing the name <foreign rend="italic" xml:lang="en-x-gedsh">Raʾs
+                            al-ʿAyn</foreign> and the Turkish part <foreign rend="italic" xml:lang="en-x-gedsh">Ceylanpınar</foreign> (earlier Resülayn).<note/>
+                    </note>
+                </ab>
+                <ab type="infobox">Theodosiopolis</ab>
+                <div type="body">
+                    <p>City on the Khabur, located in the eastern part of ancient Osrhoene and today
+                        straddling the Turkish-Syrian border, the Syrian part now bearing the name
+                            <hi rend="italic">Raʾs al-ʿAyn</hi> and the Turkish part <hi rend="italic">Ceylanpınar</hi> (earlier Resülayn). Its Syriac and Arabic
+                        names, meaning ‘spring-head’ in both cases, refer to the large number of
+                        springs in the area, from which the Khabur draws much of its water. The
+                        biblical city of Resen (Gen. 10:12; Pesh.: Rasan) was identified with
+                        Reshʿayna by <ref rend="bold" target="https://gedsh.bethmardutho.org/Ephrem">
+                            <persName ref="http://syriaca.org/person/13">Ephrem</persName>
+                        </ref> (Commentary on Genesis, <abbr>ed.</abbr> R. M. Tonneau [<abbr>CSCO</abbr> 152],
+                        65.25–6) and in the later Syr. exegetical tradition (as well as in the
+                        Palestinian Targumim). In classical times it was also known as
+                        Theodosiopolis after Emperor Theodosius I (379–95), who according to the
+                            <ref rend="bold" target="https://gedsh.bethmardutho.org/Chronicle-of-Edessa">Chronicle of
+                            Edessa</ref> ‘founded’ the city in 380/1 (<abbr>ed.</abbr> Guidi, 5.17–8) and
+                        according to Malalas granted it municipal status in 383. The city, which was
+                        taken by the Arabs in 640, saw brief occupations by the Byzantines in 943
+                        and by the Franks under Count Joscelin I of <ref rend="bold" target="https://gedsh.bethmardutho.org/Edessa">
+                            <placeName ref="http://syriaca.org/place/78">Edessa</placeName>
+                        </ref> in around
+                        1129. It fell into insignificance in the modern period, so that the
+                        present-day twin city of Raʾs al-ʿAyn-Ceylanpınar is largely a modern
+                        foundation created in the late 19th <abbr>cent.</abbr>
+                    </p>
+                    <p>Among the early bishops of Reshʿayna mention may be made of Andrew, banished
+                        for his opposition to the ‘Henoticon’ in 484, Peṭros, a correspondent of
+                            <ref rend="bold" target="https://gedsh.bethmardutho.org/Severus-of-Antioch">
+                            <persName ref="http://syriaca.org/person/51">Severus of
+                            Antioch</persName>
+                        </ref> who was exiled by Justin I in 519, and ʾSWL
+                        (Asylios/Ascholios?), whom <ref rend="bold" target="https://gedsh.bethmardutho.org/Sergios-of-Reshayna">
+                            <persName ref="http://syriaca.org/person/49">Sergios of
+                            Reshʿayna</persName>
+                        </ref> denounced before the Chalcedonian <abbr>Patr.</abbr> Ephrem of <ref rend="bold" target="https://gedsh.bethmardutho.org/Antioch">
+                            <placeName ref="http://syriaca.org/place/10">Antioch</placeName>
+                        </ref>
+                        in <abbr>ca.</abbr> 535. After the Islamic conquest, we hear of the <abbr>Syr. Orth.</abbr>
+                        <abbr> bp.</abbr>
+                        Gabriel in 667. The synod at which <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Athanasios-II-of-Balad">
+                            <persName ref="http://syriaca.org/person/109">Athanasios
+                            II of Balad</persName>
+                        </ref> was elected <abbr>
+                            <choice>
+                                <sic>Patr.</sic>
+                                <corr>patr.</corr>
+                            </choice>
+                        </abbr> was held in Reshʿayna in 684. The
+                        names of nine bishops of Reshʿayna between 724 and 986 are known from the
+                        Chronicle of <ref rend="bold" target="https://gedsh.bethmardutho.org/Michael-I-Rabo">
+                            <persName ref="http://syriaca.org/person/217">Michael I
+                            Rabo</persName>
+                        </ref>. In the 11th and early 12th <abbr>cent.</abbr> the see of Reshʿayna is
+                        usually found united with that of <ref rend="bold" target="https://gedsh.bethmardutho.org/Mardin">
+                            <placeName ref="http://syriaca.org/place/130">Mardin</placeName>
+                        </ref>.</p>
+                    <p>Among the E.-Syr. authors mentioned by <ref rend="bold" target="https://gedsh.bethmardutho.org/Abdisho-bar-Brikha">
+                            <persName ref="http://syriaca.org/person/310">ʿAbdishoʿ bar
+                            Brikha</persName>
+                        </ref> are Daniel of Reshʿayna (<abbr>ca.</abbr> 550) (Assemani, <hi rend="italic">
+                            <choice>
+                                <sic>Bib. Or.</sic>
+                                <corr>BibOr</corr>
+                            </choice>
+                        </hi> III/1, 223) and <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Shallita-of-Reshayna">
+                            <persName ref="http://syriaca.org/person/734">Shalliṭa of
+                            Reshʿayna</persName>
+                        </ref>, the latter of whom is said in <abbr>mss.</abbr> of his work to have
+                        been a <abbr>bp.</abbr> Reshʿayna is mentioned as a suffragan of <ref rend="bold" target="https://gedsh.bethmardutho.org/Nisibis">
+                            <placeName ref="http://syriaca.org/place/142">Nisibis</placeName>
+                        </ref> in a list
+                        of E.-Syr. dioceses in 1007/8.</p>
+                    <p>An important monastery in the neighbourhood of Reshʿayna is known under
+                        different names: 1. <hi rend="italic">Speqlis/ʾEspeqlis</hi>, i.e.,
+                        ‘Specula’ or ‘Watchtower’ (<abbr>mss.</abbr> Brit. Libr. Add. 14,430 and 12,135[I], two
+                        Reshʿayna, ‘who never made a blotted <hi rend="italic">taw</hi>’; see
+                        Wright, <hi rend="italic">Catalogue</hi>, vol. I, 15b–16b and 24b–26a; comp.
+                            <choice>
+                            <sic>
+                                <hi rend="italic">ibid.</hi>
+                            </sic>
+                            <corr>ibid.</corr>
+                        </choice>, 9a–10a); 2. Asphulos/Asphuloye/Saphylos
+                        (Michael Rabo); and 3. Pgimto (<ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Bar-Ebroyo-Grigorios">
+                            <persName ref="http://syriaca.org/person/239">Bar ʿEbroyo</persName>
+                        </ref>, ‘Chron.
+                        Eccl.’, <abbr>ed.</abbr> Abbeloos and Lamy, I.281: <hi rend="italic">Dayro da-Pgimto
+                            ʾawkit d-SPWLWS</hi>, which is mentioned here as the monastery of origin
+                        of <abbr>Patr.</abbr> 
+                  <ref rend="bold" target="https://gedsh.bethmardutho.org/Severos-bar-Mashqo">
+                            <persName ref="http://syriaca.org/person/106">Severos bar
+                            Mashqo</persName>
+                        </ref>). Barsoum claims that it was built in the 5th <abbr>cent.</abbr> and
+                        reduced to ruins shortly before 1203, and that it produced two patriarchs
+                        and eleven bishops.</p>
+                    <p>Two monks who are regularly quoted in the margin of <ref rend="bold" target="https://gedsh.bethmardutho.org/Masora">Masora</ref> 
+                  <abbr>mss.</abbr>, Ṭubhono
+                        and Sobho, may have belonged to the nearby <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Qarqaphto-Monastery-of">
+                            <placeName ref="http://syriaca.org/place/229">Monastery
+                            of Qarqaphto</placeName>
+                        </ref>. Their fame also spread to the <abbr>Ch. of E.</abbr>, as <ref rend="bold" target="https://gedsh.bethmardutho.org/Bar-Bahlul-Hasan">
+                            <persName ref="http://syriaca.org/person/365">Bar
+                            Bahlul</persName>
+                        </ref> mentions them in his Lexicon (<abbr>ed.</abbr> R. Duval, 1363–4),
+                        specifically linking them to Reshʿayna and crediting them with an important
+                        role in the ‘tradition (<hi rend="italic">mašlmonutho</hi>) of the (two)
+                        Testaments’. Whether this monk Sobho (whom Bar Bahlul also calls Sanṭo)
+                        might be the same as the <choice>
+                            <sic>early–8th</sic>
+                            <corr>early-8th</corr>
+                        </choice>-cent. Sobho of the ‘Watchtower’,
+                        mentioned above, remains an open question (Loopstra argues for their
+                        identity).</p>
+                    <p>On the stretch of the Khabur between Reshʿayna and Hassaka to the south are
+                        thirty-seven villages settled by refugees from the <ref rend="bold" target="https://gedsh.bethmardutho.org/Hakkari">
+                            <placeName ref="http://syriaca.org/place/90">Hakkari</placeName>
+                        </ref> region,
+                        mostly members of the <abbr>Ch. of E.</abbr>, who arrived here via Iraq in <choice>
+                            <sic>1930’s</sic>
+                            <corr>1930s</corr>
+                        </choice>.</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>Barsoum, <title rend="italic">Scattered pearls</title>,
+                            567.</bibl>
+                        <bibl>Fiey, <title rend="italic">Pour un Oriens christianus novus</title>,
+                            124, 259–60.</bibl>
+                        <bibl>Honigmann, <title rend="italic">Évêques et évêchés
+                                monophysites</title>, 5, 104–5, 149.</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>Honigmann</reg>
+                        <orig>idem</orig>
+                     </choice>, ‘Raʾs al-ʿAyn’, in <title rend="italic">EI</title>
+                            <hi rend="superscript">2</hi>, vol. 7 (1995), 433–5.</bibl>
+                        <bibl>J. A.  Loopstra, <title rend="italic">Patristic selections in the
+                                “Masoretic” handbooks of the Qarqaptā tradition</title> (Ph. D.
+                            Diss., The Catholic University of America; 2009).</bibl>
+                        <bibl>S.  Talay, <title rend="italic">Die neuaramäischen Dialekte der
+                                Khabur-Assyrer in Nordostsyrien</title> (2008).</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Hidemi</forename> 
+                  <surname>Takahashi</surname>
+               </persName> and <persName>
+                  <forename>Lucas</forename> 
+                  <surname>Van Rompay</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

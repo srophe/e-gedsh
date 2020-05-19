@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Aristotle</title>
+            <author>
+               <persName>
+                  <forename>Sebastian P.</forename> 
+                  <surname>Brock</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0">Electronic Edition Draft Version 1.0</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Aristotle</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Aristotle</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/56</idno>
+                    <idno type="entry">47</idno>
+                    <milestone unit="pages" n="32-33"/>
+                    <idno type="subject">http://syriaca.org/person/342</idno>
+                    <note type="type">person</note>
+                    <note type="abstract">Greek philosopher.<note>brief</note>
+                    </note>
+                </ab>
+                <ab type="infobox">(384–322 BC)</ab>
+                <div type="body">
+                    <p>Greek <choice>
+                            <sic>Philosopher</sic>
+                            <corr>philosopher</corr>
+                        </choice>. In Late Antiquity the philosophies of Plato and Aristotle
+                        were considered to be in harmony, and not in conflict; accordingly the
+                        syllabus for studying philosophy began with Aristotle (commencing with his
+                        logical works, the ‘Organon’, or ‘Tool’), leaving Plato to the climax. This
+                        accounts for the fact that the early books of the ‘Organon’ (‘Categories’,
+                        ‘On Interpretation’, and ‘Prior Analytics’ [at first only to I.7]) were the
+                        first works of Aristotle to be translated (along with <ref rend="bold" target="https://gedsh.bethmardutho.org/Porphyry">
+                            <persName ref="http://syriaca.org/person/684">Porphyry</persName>
+                        </ref>’s
+                        ‘Introduction’), and it is only these that actually survive, although there
+                        is evidence that much more was translated; it also accounts for the fact
+                        that no genuine works by Plato were ever translated into <ref rend="bold" target="https://gedsh.bethmardutho.org/Syriac-Language">Syriac</ref>.</p>
+                    <p>The Syriac translations fall into three main periods: 1. the earliest,
+                        anonymous, translations probably belonging to the early 6th <abbr>cent.</abbr>; these
+                        survive, and are confined to the early books of the ‘Organon’; 2. the 7th-
+                        and early 8th-cent. revisions by <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Athanasios-II-of-Balad">
+                            <persName ref="http://syriaca.org/person/109">Athanasios of Balad</persName>
+                        </ref>,
+                            <ref rend="bold" target="https://gedsh.bethmardutho.org/Yaqub-of-Edessa">
+                            <persName ref="http://syriaca.org/person/113">Yaʿqub of Edessa</persName>
+                        </ref>, and <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Giwargi-bp-of-the-Arab-tribes">
+                            <persName ref="http://syriaca.org/person/122">Giwargi <abbr>bp.</abbr> of the Arab
+                            tribes</persName>
+                        </ref>, several of which survive; the later books of the ‘Organon’
+                        were also translated by Athanasios, but these are no longer extant; Yaʿqub
+                        evidently knew the ‘Metaphysics’, but that work appears never to have been
+                        translated into Syriac; 3. further revisions and new translations made in
+                        the course of the ‘translation movement’ patronised by the Abbasid caliphs;
+                        the new translations also included many other works, beyond the ‘Organon’
+                        (see Peters); hardly any of these survive in their original form, since they
+                        were usually made just to serve as the basis for further translation into
+                        Arabic; some use of them, however, was made by <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Bar-Ebroyo-Grigorios">
+                            <persName ref="http://syriaca.org/person/239">Bar
+                            ʿEbroyo</persName>
+                        </ref> in his ‘Cream of Wisdom’ and elsewhere.</p>
+                    <p>The earliest Syriac commentators, (for whom, see Hugonnard-Roche, <hi rend="italic">La logique</hi>, 123–291), <ref rend="bold" target="https://gedsh.bethmardutho.org/Sergios-of-Reshayna">
+                            <persName ref="http://syriaca.org/person/49">Sergios of
+                            Reshʿayna</persName>
+                        </ref>, <ref rend="bold" target="https://gedsh.bethmardutho.org/Proba">
+                            <persName ref="http://syriaca.org/person/686">Proba</persName>
+                        </ref>, and <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Pawlos-the-Philosopher">
+                            <persName ref="http://syriaca.org/person/675">Pawlos the
+                            Persian</persName>
+                        </ref>, all belong to the early or mid-6th <abbr>cent.</abbr> (on internal
+                        evidence the 5th-cent. date sometimes given to Proba cannot be correct). In
+                        the 7th <abbr>cent. </abbr>
+                        <ref rend="bold" target="https://gedsh.bethmardutho.org/Severos-Sebokht">
+                            <persName ref="http://syriaca.org/person/99">Severos
+                            Sebokht</persName>
+                        </ref> wrote on syllogisms, while Athanasios of Balad wrote an
+                        Introduction to Aristotelian logic, and Yaʿqub of Edessa provided an
+                        ‘Encheiridion’ of philosophical terms. Giwargi’s revision of the first three
+                        books of the Organon (including the whole of the ‘Prior Analytics’) is
+                        accompanied by introductions to a number of the books, as well as
+                        annotation. E.-Syr. authors from <ref rend="bold" target="https://gedsh.bethmardutho.org/Gabriel-Qatraya">
+                            <persName ref="http://syriaca.org/person/495">Gabriel
+                            Qaṭraya</persName>
+                        </ref> and <ref rend="bold" target="https://gedsh.bethmardutho.org/Babai-the-Great">
+                            <persName ref="http://syriaca.org/person/359">Babai</persName>
+                        </ref> onwards also show an
+                        awareness of Aristotle’s logical works, and writings dealing with topics in
+                        the ‘Organon’ by <ref rend="bold" target="https://gedsh.bethmardutho.org/Michael-Badoqa">
+                            <persName ref="http://syriaca.org/person/637">Michael
+                            Badoqa</persName>
+                        </ref>, <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Ishobokht-of-Rev-Ardashir">
+                            <persName ref="http://syriaca.org/person/554">Ishoʿbokht</persName>
+                        </ref>, <ref rend="bold" target="https://gedsh.bethmardutho.org/Silwanos-of-Qardu">
+                            <persName ref="http://syriaca.org/person/748">Silwanos of
+                            Qardu</persName>
+                        </ref> (who knows all the books of the ‘Organon’; <abbr>CSCO</abbr> 464, p. 35),
+                            <ref rend="bold" target="https://gedsh.bethmardutho.org/Theodoros-bar-Koni">
+                            <persName ref="http://syriaca.org/person/783">Theodoros bar
+                            Koni</persName>
+                        </ref>, and others survive, but no specific commentaries are
+                        preserved. A glimpse at the translation movement in action is given by <ref rend="bold" target="https://gedsh.bethmardutho.org/Timotheos-I">
+                            <persName ref="http://syriaca.org/person/790">Timotheos
+                            I</persName>
+                        </ref> in his Letters 43 and 48, on translating the ‘Topics’. From the
+                        late 12th <abbr>cent.</abbr> a commentary reaching the ‘Analytics’ by <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Dionysios-bar-Salibi">
+                            <persName ref="http://syriaca.org/person/212">Dionysios
+                            bar Ṣalibi</persName>
+                        </ref> survives (<abbr>ms.</abbr> Cambridge Gg. 2.14). In the early 13th
+                        <abbr>cent.</abbr> both <ref rend="bold" target="https://gedsh.bethmardutho.org/Yohannan-bar-Zobi">
+                            <persName ref="http://syriaca.org/person/823">Yoḥannan bar
+                            Zoʿbi</persName>
+                        </ref> and <ref rend="bold" target="https://gedsh.bethmardutho.org/Yaqub-bar-Shakko">
+                            <persName ref="http://syriaca.org/person/231">Yaʿqub bar
+                            Shakko</persName>
+                        </ref> (in his ‘Dialogues’) are concerned with related topics; a
+                        little later Bar ʿEbroyo, in his <hi rend="italic">Ktobo d-boboto</hi>
+                        covers in brief the whole of the ‘Organon’, while his ‘Cream of Wisdom’
+                        serves as a general compendium of almost all aspects of Aristotelian
+                        philosophy.</p>
+                    <p>Besides two short biographies (<abbr>ed.</abbr> Baumstark, <hi rend="italic">Aristoteles</hi>, 2*–3*), a number of works falsely under Aristotle’s
+                        name were also translated into Syriac, the most notable being the <hi rend="italic">Peri Kosmou</hi> (‘On the universe’; <abbr>ed.</abbr> de Lagarde, <hi rend="italic">Analecta Syriaca</hi> , 134–58), translated by Sergios of
+                        Reshʿayna. Although it was once thought that the Arabic Neoplatonist work
+                        known as the ‘Theology of Aristotle’ was translated from a lost Syriac text,
+                        this is now considered improbable.</p>
+                </div>
+                <div type="bibl">
+                    <listBibl>
+                        <listBibl>
+                            <head>Primary Sources</head>
+                            <bibl>K.  Georr, <title rend="italic">Les Catégories d’Aristote dans
+                                    leurs versions syro-arabes</title> (1948).</bibl>
+                            <bibl>J. G. H.  Hoffmann, <title rend="italic">De hermeneuticis apud
+                                    Syros</title> (1869).</bibl>
+                            <bibl>(For details of other editions, see the Appendix in Brock, ‘The
+                                Syriac Commentary tradition’)</bibl>
+                        </listBibl>
+                        <listBibl>
+                            <head>Secondary Sources</head>
+                            <bibl>A.  Baumstark, <title rend="italic">Aristoteles bei den Syrern vom
+                                    5. bis 8. Jahrhundert</title> (1900).</bibl>
+                            <bibl>S. P.  Brock, ‘The Syriac Commenatary tradition’, in <title rend="italic">Glosses and Commentaries on Aristotelian Logical
+                                    Texts</title>, <abbr>ed.</abbr> C.  Burnett (1993), 3–18. (with details of
+                                translations and commentaries; <abbr>repr.</abbr> in <title rend="italic">From
+                                    Ephrem to Romanos</title> [1999], ch. XIII)</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>S. P. Brock</reg>
+                           <orig>idem</orig>
+                        </choice>, ‘Two letters of the Patriarch Timothy from the late eighth
+                                century on translations from Greek’, <title rend="italic">Arabic
+                                    Sciences and Philosophy</title> 9 (1999), 233–46. (<abbr>ET</abbr> of Letters
+                                43 and 48)</bibl>
+                            <bibl>H.  Daiber, ‘Die Aristotelesrezeption in der syrischen Literatur’,
+                                in <title rend="italic">Die Gegenwart des Altertums</title>, <abbr>ed.</abbr> D.
+                                Kuhn and H. Stahl (2001), 327–45.</bibl>
+                            <bibl>H.  Hugonnard-Roche, <title rend="italic">La logique d’Aristote du
+                                    grec au syriaque. Études sur la transmission des textes de
+                                    l’Organon et leur interprétation philosophique</title>
+                                (2004).</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>H.  Hugonnard-Roche</reg>
+                           <orig>idem</orig>
+                        </choice>, ‘L’Organon. Tradition syriaque et arabe’, in <title rend="italic">Dictionnaire des philosophes antiques</title>,
+                                vol. 1, <abbr>ed.</abbr> R. Goulet (1989), 502–528.</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>H.  Hugonnard-Roche</reg>
+                           <orig>idem</orig>
+                        </choice>, ‘Jacob of Edessa and the reception of Aristotle’, in <title rend="italic">Jacob of Edessa and the Syriac Culture of his
+                                    Day</title>, <abbr>ed.</abbr> B. ter Haar Romeny (2008), 205–22.</bibl>
+                            <bibl>F. E.  Peters, <title rend="italic">Aristoteles Arabus</title>
+                                (1968). (also with reference to Syriac)</bibl>
+                            <bibl>P. L.  Schoonheim, ‘Météorologiques. Tradition syriaque et arabe’,
+                                in <title rend="italic">Dictionnaire des philosophes
+                                    antiques</title>, Supplément (2003), 324–8.</bibl>
+                            <bibl>J.  Teixidor, <title rend="italic">Aristote en syriaque. Paul le
+                                    perse, logicien du VIe siècle</title> (2003).</bibl>
+                            <bibl>J. W.  Watt, ‘[Aristote] La rhétorique’, in <title rend="italic">Dictionnaire des philosophes antiques</title>, Supplément
+                                (2003), 219.</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>J. W.  Watt</reg>
+                           <orig>idem</orig>
+                        </choice>, ‘Al-Farabi and the history of the Syriac Organon’, in <title rend="italic">Malphono w-Rabo d-<choice>
+                                        <sic>Malphon</sic>
+                                        <corr>Malphone</corr>
+                                    </choice>
+                                </title>, <abbr>ed.</abbr> Kiraz,
+                                751–78.</bibl>
+                        </listBibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Sebastian P.</forename> 
+                  <surname>Brock</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

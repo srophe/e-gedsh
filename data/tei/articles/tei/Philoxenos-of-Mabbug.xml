@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Philoxenos of Mabbug</title>
+            <author>
+               <persName>
+                  <forename>David  A.</forename> 
+                  <surname>Michelson</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0">Electronic Edition Draft Version 1.0</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Philoxenos of Mabbug</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Philoxenos-of-Mabbug</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/437</idno>
+                    <idno type="entry">428</idno>
+                    <milestone unit="pages" n="332-333"/>
+                    <idno type="subject">http://syriaca.org/person/44</idno>
+                    <note type="type">person</note>
+                    <note type="abstract">Metropolitan <abbr>bp.</abbr> of Mabbug (modern Membij/ancient
+                        Hierapolis) (485-519), ascetic theologian, christological polemicist, and
+                        sponsor of the Philoxenian <abbr>NT</abbr>.<note/>
+                    </note>
+                </ab>
+                <ab type="infobox">(<abbr>ca.</abbr> 440s?–523) [<abbr>Syr. Orth.</abbr>]</ab>
+                <div type="body">
+                    <p>Metropolitan <abbr>bp.</abbr> of Mabbug (modern Membij/ancient Hierapolis) (485–519),
+                        ascetic theologian, christological polemicist, and sponsor of the
+                        Philoxenian <abbr>NT</abbr>. Born in <ref rend="bold" target="https://gedsh.bethmardutho.org/Beth-Garmai">
+                            <placeName ref="http://syriaca.org/place/33">Beth Garmai</placeName>
+                        </ref>
+                        before 450, Philoxenos was educated in <ref rend="bold" target="https://gedsh.bethmardutho.org/Edessa">
+                            <placeName ref="http://syriaca.org/place/78">Edessa</placeName>
+                        </ref> and likely
+                        ordained in <ref rend="bold" target="https://gedsh.bethmardutho.org/Antioch">
+                            <placeName ref="http://syriaca.org/place/10">Antioch</placeName>
+                        </ref> under <abbr>Patr.</abbr> Peter the Fuller (<abbr>ca.</abbr> 470s). With Peter,
+                        Philoxenos joined the controversies over the anti-Chalcedonian addition to
+                        the Trisagion. Exiled from Antioch under <abbr>Patr.</abbr> Calendio (482–484),
+                        Philoxenos sojourned among the monasteries of Syria. Supporting the
+                        Henotikon, Philoxenos visited Constantinople in 484 to offer Zeno a
+                        Miaphysite profession of faith. Upon Peter’s restoration in 485, Philoxenos
+                        was named metropolitan of Mabbug. Philoxenos soon established a reputation
+                        as a theologian of asceticism (following <ref rend="bold" target="https://gedsh.bethmardutho.org/Evagrius-of-Pontus">
+                            <persName ref="http://syriaca.org/person/483">Evagrius of
+                            Pontus</persName>
+                        </ref>) and christology (following <ref rend="bold" target="https://gedsh.bethmardutho.org/Cyril-of-Alexandria">
+                            <persName ref="http://syriaca.org/person/430">Cyril of
+                            Alexandria</persName>
+                        </ref>). Writing primarily for monastic audiences, Philoxenos
+                        considered the fight against christological error to be a step in the
+                        ascetic pursuit of divine knowledge.</p>
+                    <p>By the 490s, Philoxenos emerged as the senior leader of the
+                        anti-Chalcedonians in Syria and Mesopotamia, particularly after 498 when the
+                        pro-Chalcedonian Flavian was named <abbr>
+                            <choice>
+                                <sic>Patr.</sic>
+                                <corr>patr.</corr>
+                            </choice>
+                        </abbr> of Antioch. Philoxenos had little
+                        success converting Mabbug to Miaphysite christology. Nevertheless, he used
+                        his thirty-year tenure to bolster Miaphysite theology throughout the Roman
+                        East and beyond (supporting missionaries in Persia and <ref rend="bold" target="https://gedsh.bethmardutho.org/Nagran">
+                            <placeName ref="http://syriaca.org/place/464">Nagran</placeName>
+                        </ref>).</p>
+                    <p>Philoxenos’s theology was very much centered on the Greek milieu of Antioch
+                        and Constantinople. Philoxenos came to mistrust traditional Syriac
+                        vocabulary as insufficient for expressing the nuances of Greek
+                        christological thought. He sought to bring Syriac theology closer to Greek
+                        terminology and established Mabbug as a center for translation. He sponsored
+                        a new translation of the <abbr>NT</abbr> into Syriac by the auxiliary <abbr>bp.</abbr> 
+                  <ref rend="bold" target="https://gedsh.bethmardutho.org/Polykarpos">
+                            <persName ref="http://syriaca.org/person/35">Polykarpos</persName>
+                        </ref>. Philoxenos himself wrote polemical commentaries on
+                        portions of Matthew, Luke, and John. No copies of the Philoxenian version
+                        are extant (having been superseded by the later <ref rend="bold" target="https://gedsh.bethmardutho.org/Harqlean-Version">Ḥarqlean</ref> translation), but firsthand evidence of the scriptorium
+                        survives in three <abbr>mss.</abbr> produced in Philoxenos’s own lifetime: London, Brit.
+                        Libr. Add. 14,528; 14,534; and 17,126.</p>
+                    <p>Philoxenos’s anti-Chalcedon efforts culminated in 512 when Flavian was ousted
+                        in favor of <ref rend="bold" target="https://gedsh.bethmardutho.org/Severus-of-Antioch">
+                            <persName ref="http://syriaca.org/person/51">Severus</persName>
+                        </ref> as <abbr>
+                            <choice>
+                                <sic>Patr.</sic>
+                                <corr>patr.</corr>
+                            </choice>
+                        </abbr> of Antioch. Philoxenos
+                        and his suffragan bishops (including a relation, Philoxenos of Doliche)
+                        assisted at Severus’s consecration. Although later opponents vilified
+                        Philoxenos and Severus as uncompromising, epistolary evidence reveals that
+                        they initially struck a conciliatory tone as they sought to consolidate
+                        Miaphysite control of the clergy in Syria and Anatolia.</p>
+                    <p>In 519, Justin I exiled Philoxenos. In his final years, Philoxenos continued
+                        writing to monastic communities, encouraging them to persist in ascesis and
+                        Miaphysite christology. Philoxenos died in 523 under house arrest. Later
+                        traditions that he was executed are difficult to substantiate.</p>
+                    <p>Philoxenos’s reputation grew after his death. Several 6th- and 7th-cent. <abbr>mss.</abbr>
+                        survive citing his works alongside Cyril and Severus. Philoxenos’s cult was
+                        strong in <ref rend="bold" target="https://gedsh.bethmardutho.org/Tur-Abdin">
+                            <placeName ref="http://syriaca.org/place/221">Ṭur ʿAbdin</placeName>
+                        </ref> where his relics were translated to a church dedicated
+                        to him in <ref rend="bold" target="https://gedsh.bethmardutho.org/Midyat">
+                            <placeName ref="http://syriaca.org/place/137">Midyat</placeName>
+                        </ref> and to the <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Gabriel-Monastery-of-Mor">
+                            <placeName ref="http://syriaca.org/place/226">Monastery of Mor Gabriel</placeName>
+                        </ref>. In the 13th <abbr>cent.</abbr> 
+                  <ref rend="bold" target="https://gedsh.bethmardutho.org/Eli-of-Qartmin">
+                            <persName ref="http://syriaca.org/person/465">Eli of
+                            Qarṭmin</persName>
+                        </ref> composed a valuable life of Philoxenos.</p>
+                    <p>Although Philoxenos’s ascetic Discourses circulated widely in their entirety,
+                        the majority of his corpus was preserved only in the catena of polemical
+                        handbooks, stripping his christological polemics of their ascetic context.
+                        Considering his entire corpus, Philoxenos was no mere polemicist. He played
+                        the many roles of late antique <abbr>bp.</abbr>, monastic leader, prolific theologian,
+                        biblical commentator, and would-be imperial counsellor.</p>
+                    <p>Liturgical commemorations for Philoxenos are attested for 10 Dec., 18 Feb., 1
+                        and 2 April, and 16 and 18 Aug.</p>
+                </div>
+                <div type="bibl">
+                    <listBibl>
+                        <listBibl>
+                            <head>Primary Sources</head>
+                            <bibl>R.  Akhras, <title rend="italic">Egrotho</title>, I–II; <title rend="italic">Syome ruḥonoye</title>, III (2007). (Syr. with
+                                Arabic translation)</bibl>
+                            <bibl>M.  Brière and F.  Graffin, <title rend="italic">Sancti Philoxeni
+                                    episcopi Mabbugensis dissertationes decem de uno e sancta
+                                    trinitate incorporato et passo (Memre contre Habib)</title> (<abbr>PO</abbr>
+                                15, 38.8, 39.4, 40.2, 41.1; 1920–1982).</bibl>
+                            <bibl>E. A. W. Budge, <title rend="italic">The Discourses of Philoxenus,
+                                    Bishop of Mabbôgh, A.D. 485–519</title> (1894). (with <abbr>ET</abbr>)</bibl>
+                            <bibl>I. Guidi, <title rend="italic">La lettera di Filosseno ai monaci
+                                    di Tell ʿAddâ</title> (Atti della Reale Accad. dei Lincei,
+                                classe di sc. morali 3.12; 1884), 449–501. (Syr. with <abbr>IT</abbr>)</bibl>
+                            <bibl>A.  de  Halleux, <title rend="italic">Lettre aux moines de
+                                    Senoun</title> (<abbr>CSCO</abbr> 231–32; 1963).</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>A.  de  Halleux</reg>
+                           <orig>idem</orig>
+                        </choice>, <title rend="italic">Commentaire du prologue johannique (<abbr>Ms.</abbr>
+                                    Br. Mus. Add. 14,534)</title> (<abbr>CSCO</abbr> 380–81; 1977).</bibl>
+                            <bibl>E.  Lemoine and R.  Lavenant, <title rend="italic">Philoxène de
+                                    Mabboug, Homélies</title> (SC 44; 2007). (<abbr>FT</abbr>; incl. further
+                                references)</bibl>
+                            <bibl>A. A.  Vaschalde, <title rend="italic">Three Letters of Philoxenus
+                                    Bishop of Mabbôgh (485–519): Being the Letter to the Monks, the
+                                    First Letter to the Monks of Beth-Gaugal, and the Letter to
+                                    Emperor Zeno</title> (1902).</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>A. A.  Vaschalde</reg>
+                           <orig>idem</orig>
+                        </choice>, <title rend="italic">Tractatus tres de trinitate et
+                                    incarnatione</title> (<abbr>CSCO</abbr> 9–10; 1907).</bibl>
+                            <bibl>J. W.  Watt, <title rend="italic">Fragments of the Commentary on
+                                    Matthew and Luke</title> (<abbr>CSCO</abbr> 392–3; 1978).</bibl>
+                        </listBibl>
+                        <listBibl>
+                            <head>Secondary Sources</head>
+                            <bibl>L.  Abramowski, ‘Aus dem Streit um das “Unus ex trinitate passus
+                                est”, Der Protest des Habib gegen die Epistula dogmatica des
+                                Philoxenus an die Mönche’, in <title rend="italic">Jesus der
+                                    Christus</title>, vol. 2/3, <abbr>ed.</abbr> Grillmeier and Hainthaler
+                                (2002), 570–647.</bibl>
+                            <bibl>T.  Bou  Mansour, ‘Die Christologie des Philoxenus von Mabbug’, in
+                                    <title rend="italic">Jesus der Christus</title>, vol. 2/3, <abbr>ed.</abbr>
+                                Grillmeier and Hainthaler, 500–69.</bibl>
+                            <bibl>Fiey, <title rend="italic">Saints syriaques</title>, 151.</bibl>
+                            <bibl>A.  de  Halleux, <title rend="italic">Philoxène de Mabbog. Sa vie,
+                                    ses écrits, sa théologie</title> (1963). (incl. further
+                                references)</bibl>
+                            <bibl>R. G.  Jenkins, <title rend="italic">The Old Testament quotations
+                                    of Philoxenus of Mabbug</title> (<abbr>CSCO</abbr> 514; 1989).</bibl>
+                            <bibl>G. Lardreau, <title rend="italic">Discours philosophique et
+                                    discours spirituel. Autour de la philosophie spirituelle de
+                                    Philoxène de Mabboug</title> (1985).</bibl>
+                            <bibl>D.  Michelson, <title rend="italic">Orthodoxy and the spiritual
+                                    struggle in the world of Philoxenos of Mabbug (470–523)</title>
+                                (Ph. D. Diss., Princeton University; 2007).</bibl>
+                            <bibl>L. Van Rompay, ‘Mallpânâ dilan Suryâyâ: Ephrem in the works of
+                                Philoxenus of Mabbog: Respect and distance,’ <title rend="italic">
+                                    <abbr>Hugoye</abbr>
+                                </title> 7.1 (2004).</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>L. Van Rompay</reg>
+                           <orig>idem</orig>
+                        </choice>, ‘Bardaisan and Mani in Philoxenus of Mabbog’s Mēmrē against
+                                Habbib,’ in <title rend="italic">Syriac polemics. Studies in honour
+                                    of G. J.</title>  
+                        <title rend="italic">Reinink</title>, <abbr>ed.</abbr>
+                                W. J.  Van Bekkum <abbr>et al.</abbr> (2007), 77–90.</bibl>
+                        </listBibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>David  A.</forename> 
+                  <surname>Michelson</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

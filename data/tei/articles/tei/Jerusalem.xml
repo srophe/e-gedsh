@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Jerusalem</title>
+            <author>
+               <persName>
+                  <forename>George A.</forename> 
+                  <surname>Kiraz</surname>
+               </persName>
+               <persName>
+                  <forename>Lucas</forename> 
+                  <surname>Van Rompay</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0">Electronic Edition Draft Version 1.0</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Jerusalem</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Jerusalem</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/310</idno>
+                    <idno type="entry">301</idno>
+                    <milestone unit="pages" n="227-229"/>
+                    <idno type="subject">http://syriaca.org/place/104</idno>
+                    <note type="type">place</note>
+                    <note type="abstract">
+                        <note/>
+                    </note>
+                </ab>
+                <ab type="infobox">Syr. <hi rend="italic">Oreshlem</hi>, <hi rend="italic">Urishlem</hi>
+                </ab>
+                <div type="body">
+                    <p>As the birthplace of Christianity and the main destination of pilgrimage,
+                        Jerusalem played an important role for Christians of all Syr. traditions. At
+                        times, however, Syr. Christians had a somewhat ambivalent attitude towards
+                        the ‘earthly’ Jerusalem, to which the idea of the ‘heavenly’ Jerusalem or
+                        the eschatological city of Jerusalem often was contrasted as a more
+                        productive locus of theological or ascetic reflection.</p>
+                    <p>Along with visitors and pilgrims from all over the Christian world, Syr.
+                        Christians started visiting Jerusalem or living there for some time no later
+                        than the 4th or early 5th <abbr>cent.</abbr> There is ample evidence of pilgrimages to
+                        Jerusalem throughout the centuries by both W. and E. Syrians.</p>
+                    <p>At the Council of Chalcedon (451) Jerusalem became an independent
+                        patriarchate, but the <abbr>Syr. Orth.</abbr> Church and the <abbr>Ch. of E.</abbr>, who either
+                        rejected or ignored this council, continued to see Jerusalem as being under
+                        the authority of the patriarchate of <ref rend="bold" target="https://gedsh.bethmardutho.org/Antioch">
+                            <placeName ref="http://syriaca.org/place/10">Antioch</placeName>
+                        </ref>. Efforts to
+                        associate the Christians of Jerusalem with the resistance to Chalcedon, in
+                        particular in the years when <ref rend="bold" target="https://gedsh.bethmardutho.org/Severus-of-Antioch">
+                            <persName ref="http://syriaca.org/person/51">Severus</persName>
+                        </ref> resided as <abbr>patr.</abbr>
+                        in Antioch (512–518), were largely unsuccessful, and the majority of
+                        Christians in Jerusalem and Palestine accepted the Council of Chalcedon. The
+                        Syr. churches, therefore, only had a marginal presence in Jerusalem. Due to
+                        their non-acceptance of the Council of Chalcedon, Syr. bps. of Jerusalem did
+                        not have the patriarchal rank, even though in the later period (from the
+                        16th <abbr>cent.</abbr> onwards) the title of <abbr>patr.</abbr> was occasionally used by <abbr>Syr. Orth.</abbr>
+                        bps. In general, bps. of Jerusalem, of both Syr. churches, were metropolitan
+                        bps. (even though, with very few exceptions, they did not have suffragan
+                        bps.).</p>
+                    <p>For the <abbr>Syr. Orth.</abbr> Church, a list appended to the Chronicle of <ref rend="bold" target="https://gedsh.bethmardutho.org/Michael-I-Rabo">
+                            <persName ref="http://syriaca.org/person/217">Michael Rabo</persName>
+                        </ref> (App. IV) provides the names of bps. of
+                        Jerusalem. For the period until the early 6th <abbr>cent.</abbr>, the names coincide with
+                        those of the bps. of the Imperial Church. For the period between <abbr>ca.</abbr> 500 and
+                        <abbr>ca.</abbr> 800 only a few names are preserved, and it is unclear whether we are
+                        dealing with the formal institution of a Jerusalem episcopacy. From the late
+                        8th until the late 12th <abbr>cent.</abbr> Michael provides a continuous list of 25 Syr.
+                        Orth. bps. of Jerusalem, which is generally seen as reliable. For the
+                        subsequent period, from the 12th <abbr>cent.</abbr> until the present day, a list of all
+                        known bps. is available in Kiraz, 45–7.</p>
+                    <p>For the <abbr>Ch. of E.</abbr>, a metropolitan <abbr>bp.</abbr> ‘of Damascus, Jerusalem, and the
+                        coastal area’ is attested from the late 9th <abbr>cent.</abbr> onwards. Only a handful of
+                        names are known for the subsequent period and the institution disappeared in
+                        the modern period.</p>
+                    <p>Several buildings are associated with the <abbr>Syr. Orth.</abbr> presence in Jerusalem:
+                        first, the Church of Mary Magdalene and Simon the Pharisee, i.e., where the
+                        episode recounted in Lk. 7:36–50 was situated (near Herod’s Gate; perhaps
+                        going back to the early 9th <abbr>cent.</abbr>, later expanded with a monastery, and at
+                        the end of the 12th <abbr>cent.</abbr> converted into the <hi rend="italic">Madrasat
+                            al-Qādisiyya</hi>); second, the Church of Thomas, near the Armenian
+                        Monastery (attested from the 14th <abbr>cent.</abbr> onwards; it later became divided
+                        between the al-Yaʿqubī Mosque and the Anglican Cathedral); third, Dayr
+                        al-ʿAdas in Zion (which following the assassination of <abbr>Bp.</abbr> Gregorios Joseph
+                        IV in 1537 was turned into a mosque and later, in 1907, was converted into
+                        the Greek Orthodox Monastery of Nicodemus); and finally, the Church of the
+                        Mother of God, traditionally regarded as the house of the evangelist Mark,
+                        known as the <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Mark-Monastery-of-St">
+                            <placeName ref="http://syriaca.org/place/388">Monastery of
+                            St. Mark</placeName>
+                        </ref> (which may have come into <abbr>Syr. Orth.</abbr> possession around
+                        1500) and still in <abbr>Syr. Orth.</abbr> possession today. In addition, the <abbr>Syr. Orth.</abbr>
+                        had a presence in the Church of the Holy Sepulcher (attested since the 12th
+                        <abbr>cent.</abbr>). Nowadays they use the Chapel of Nicodemus, although the rights are
+                        somewhat disputed. <abbr>Syr. Orth.</abbr> pilgrims left a number of Syr. <ref rend="bold" target="https://gedsh.bethmardutho.org/Inscriptions">inscriptions</ref> at the entrance of the Church of the Holy
+                        Sepulcher (see Brock, Goldfus, and Kofsky).</p>
+                    <p>As for the <abbr>Ch. of E.</abbr>, in the 16th and 17th <abbr>cent.</abbr> there existed a church ‘of
+                        the Nestorians’ dedicated to St. Mary, situated to the north of the Holy
+                        Sepulcher. When the E.-Syr. presence in Jerusalem came to an end, in the
+                        18th or possibly in the early 19th <abbr>cent.</abbr>, the <abbr>ms.</abbr> collection belonging to
+                        this church passed into the hands of the Greek Orthodox Patriarchate (see
+                        Chabot, Rücker, and Brock).</p>
+                    <p>Outside of Jerusalem, there is evidence of <abbr>Syr. Orth.</abbr> presence in the
+                        medieval period in Tiberias, and from the 14th <abbr>cent.</abbr> onwards in the Church
+                        of the Nativity in Bethlehem. The presence of monks from the <abbr>Ch. of E.</abbr> is
+                        attested in a hermitage near Jericho (Fiey 1983, and Brock and Taylor, <hi rend="italic">Hidden Pearl</hi>, vol. 2, 46) and possibly in a monastic
+                        complex at Tel Masos, in the northern Negev (Fritz and Maiberger).</p>
+                    <p>Following the <ref rend="bold" target="https://gedsh.bethmardutho.org/Sayfo">Sayfo</ref> a number of <abbr>Syr. Orth.</abbr> families settled in Jerusalem and
+                        Bethlehem, many of whom emigrated out of the area after the 1948 and 1976
+                        Arab-Israeli wars. <abbr>Bp. </abbr>
+                        <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Samuel-Athanasios-Yeshu">
+                            <persName ref="http://syriaca.org/person/716">Athanasios Yeshuʿ Samuel</persName>
+                        </ref> played an important role in the
+                        discovery of the Dead Sea Scrolls. His autobiographical book on this subject
+                        contains much information on the Jerusalem community, in particular in the
+                        second quarter of the 20th <abbr>cent.</abbr> The present-day Syr. Orth <abbr>bp.</abbr> of Jerusalem
+                        has the title of ‘Patriarchal vicar of the Holy Land and Jordan’. Similarly,
+                        the <abbr>Syr. Cath.</abbr> and Chaldean Churches are represented in Jerusalem by
+                        patriarchal vicars, while the Maronite Church has a patriarchal exarch.</p>
+                    <p>See <ref target="https://gedsh.bethmardutho.org/fig/59">Fig. 59</ref>, <ref target="https://gedsh.bethmardutho.org/fig/60">60</ref>, and <ref target="https://gedsh.bethmardutho.org/fig/69">69</ref>.</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>S. P.  Brock, ‘East Syriac pilgrims to Jerusalem in the early
+                            Ottoman period’, <title rend="italic">ARAM</title> 18–19 (2006–7),
+                            189–201.</bibl>
+                        <bibl>S. P.  Brock, H.  Goldfus, and A.  Kofsky, ‘The Syriac inscriptions at
+                            the entrance to the Holy Sepulchre, Jerusalem’, <title rend="italic">ARAM</title> 18–19 (2006–7), 415–38.</bibl>
+                        <bibl>Brock and Taylor, <title rend="italic">Hidden Pearl</title>, vol.
+                            2.</bibl>
+                        <bibl>J.-B.  Chabot, ‘Notice sur les manuscrits syriaques conservés dans la
+                            Bibliothèque du Patriarcat grec orthodoxe de Jérusalem’, <title rend="italic">
+                                <abbr>JA</abbr>
+                            </title> 9.3 (1894), 92–134.</bibl>
+                        <bibl>F. Y.  Dolabany (<abbr>ed.</abbr> G. Y. Ibrahim), <title rend="italic">Catalogue of
+                                Syriac manuscripts in St. Mark’s Monastery (Dairo dMor
+                                Marqos)</title> (1994).</bibl>
+                        <bibl>J.-M.  Fiey, ‘Le pèlerinage des Nestoriens et des Jacobites à
+                            Jérusalem’, <title rend="italic">Cahiers de civilisation
+                                médiévale</title> 12 (1969), 113–26.</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>J.-M.  Fiey</reg>
+                        <orig>idem</orig>
+                     </choice>  ‘Rabban Bûya de Shaqlâwâ et de Jéricho’, <title rend="italic">
+                                <abbr>POC</abbr>
+                            </title> 33 (1983), 34–8.</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>J.-M.  Fiey</reg>
+                        <orig>idem</orig>
+                     </choice>  
+                     <title rend="italic">Pour un Oriens christianus novus</title>,
+                            97–8 and 218–22.</bibl>
+                        <bibl>V.  Fritz and P.  Maiberger, ‘Das nestorianische Kloster’, in <title rend="italic">Ergebnisse der Ausgrabungen auf der Hirbet al-Msas
+                                (Tel Masos) 1972–1975</title>, <abbr>ed.</abbr> V. Fritz and A. Kempinski (1983),
+                            138–216.</bibl>
+                        <bibl>Y. K.  Karkenny, <title rend="italic">The Syrian Orthodox Church in
+                                the Holy Land</title> (1976).</bibl>
+                        <bibl>H.  Kaufhold, ‘Zur Bedeutung Jerusalems für die Syrisch-Orthodoxe
+                            Kirche’, in <title rend="italic">L’idea di Gerusalemme nella
+                                spiritualità cristiana del Medioevo</title> (Pontificio Comitato di
+                            scienze storiche. Atti e documenti 12; 2003), 132–65.</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>H.  Kaufhold</reg>
+                        <orig>idem</orig>
+                     </choice>  ‘Der Ehrentitel »Jerusalempilger« (syrisch <title rend="italic">maqdšāyā</title>, arabisch <title rend="italic">maqdisī</title>,
+                            armenisch <title rend="italic">mahtesi</title>’, <title rend="italic">
+                                <abbr>OC</abbr>
+                            </title> 75 (1991), 44–61.</bibl>
+                        <bibl>G. A.  Kiraz, <title rend="italic">ʿIqd al-jumān fī akhbār al-Suryān
+                          </title> (1988).</bibl>
+                        <bibl>T. Maier, ‘L’Eglise syrienne orthodoxe de Jerusalem’, <title rend="italic">
+                                <abbr>POC</abbr>
+                            </title> 54 (2004), 305–12.</bibl>
+                        <bibl>O. Meinardus, ‘A note on the Nestorians in Jerusalem’, <title rend="italic">
+                                <abbr>OC</abbr>
+                            </title> 51 (1967), 123–9.</bibl>
+                        <bibl>J.  Pahlitsch, ‘St Maria Magdalen, St Thomas und St. Markus. Tradition
+                            und Geschichte dreier syrisch-orthodoxer Kirchen in Jerusalem’, <title rend="italic">
+                                <abbr>OC</abbr>
+                            </title> 81 (1997), 82–106.</bibl>
+                        <bibl>A.  Palmer, ‘The history of the Syrian Orthodox in Jerusalem’, <title rend="italic">
+                                <abbr>OC</abbr>
+                            </title> 75 (1991), 16–43. (with further
+                            references)</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>A.  Palmer</reg>
+                        <orig>idem</orig>
+                     </choice>, ‘The history of the Syrian Orthodox in Jerusalem. Part  II.
+                            Queen Melisende and the Jacobite estates’, <title rend="italic">
+                                <abbr>OC</abbr>
+                            </title> 76 (1992), 74–94.</bibl>
+                        <bibl>A. Palmer and G. J. van Gelder, ‘Syriac and Arabic Inscriptions at the
+                            Monastery of St. Mark’s in Jerusalem’, <title rend="italic">
+                                <abbr>OC</abbr>
+                            </title>
+                            78 (1994), 33–61.</bibl>
+                        <bibl>A.  Rücker, ‘Ein alter Handschriftenkatalog des ehemahligen
+                            nestorianischen Klosters in Jerusalem’, <title rend="italic">
+                                <abbr>OC</abbr>
+                            </title>
+                            3.6 (1931), 90–6.</bibl>
+                        <bibl>A. Y.  Samuel, <title rend="italic">Treasure of Qumran. My story of
+                                the Dead Sea Scrolls</title> (1968).</bibl>
+                        <bibl>M.  Tamcke, ‘Abraham of Kashkar’s pilgrimage’, <title rend="italic">ARAM</title> 18–19 (2006–7), 477–82.</bibl>
+                        <bibl>H. G. B.  Teule, ‘The perception of the Jerusalem pilgrimage in Syriac
+                            monastic circles’, in <abbr>
+                                <title rend="italic">SymSyr</title> VI</abbr>,
+                            311–21.</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>George A.</forename> 
+                  <surname>Kiraz</surname>
+               </persName> and <persName>
+                  <forename>Lucas</forename> 
+                  <surname>Van Rompay</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

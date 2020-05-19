@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Eusebius of Caesarea</title>
+            <author>
+               <persName>
+                  <forename>Sebastian P.</forename> 
+                  <surname>Brock</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0">Electronic Edition Draft Version 1.0</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Eusebius of Caesarea</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Eusebius-of-Caesarea</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/211</idno>
+                    <idno type="entry">202</idno>
+                    <milestone unit="pages" n="153-155"/>
+                    <idno type="subject">http://syriaca.org/person/480</idno>
+                    <note type="type">person</note>
+                    <note type="abstract">Greek Church Father, <abbr>bp.</abbr> of Caesarea (Palestine), and
+                        author of the first History of the Church and first universal
+                        Chronicle.<note/>
+                    </note>
+                </ab>
+                <ab type="infobox">(<abbr>ca.</abbr> 260 – <abbr>ca.</abbr> 340)</ab>
+                <div type="body">
+                    <p>Greek Church Father, <abbr>bp.</abbr> of Caesarea (Palestine), and author of the first
+                        History of the Church and first universal Chronicle. His Ecclesiastical
+                        History is confined to the Roman Empire; at the end of Book I it contains
+                        the earliest reference to the letter of king Abgar of <ref rend="bold" target="https://gedsh.bethmardutho.org/Edessa">
+                            <placeName ref="http://syriaca.org/place/78">Edessa</placeName>
+                        </ref> to Jesus and
+                        the sending to Edessa of Thaddaios (Addai in the later Syriac work, <ref rend="bold" target="https://gedsh.bethmardutho.org/Addai-Teaching-of">The
+                            Teaching of Addai</ref>). Many of Eusebius’s works were translated into
+                        Syriac and some survive complete only in Syriac.</p>
+                    <p>1. ‘Ecclesiastical History’ (<hi rend="italic">
+                            <abbr>CPG</abbr>
+                        </hi> 3495), preserved
+                        incomplete; <abbr>ed.</abbr> P. Bedjan (1897) and W. Wright and N. Mclean (1898); <abbr>GT</abbr> by
+                        E. Nestle (1901). The Armenian translation was made from Syriac, rather than
+                        Greek.</p>
+                    <p>2. ‘Martyrs of Palestine’ (<hi rend="italic">
+                            <abbr>CPG</abbr>
+                        </hi> 3490): the long
+                        recension is preserved solely in Syriac (<abbr>ed.</abbr> with <abbr>ET</abbr>, W. Cureton [1861]); in
+                        Greek only the short recension is found in Book X of the Ecclesiastical
+                        History.</p>
+                    <p>3. ‘Theophania’ (<hi rend="italic">
+                            <abbr>CPG</abbr>
+                        </hi> 3488), preserved complete only in
+                        Syriac, <abbr>ed.</abbr> S. Lee 1842, <abbr>ET</abbr> 1843; <abbr>GT</abbr> by H. Gressmann (1904; new <abbr>ed.</abbr>, by A.
+                        Laminski, 1992), and study by Gressmann (1903). Extracts are given in
+                        Bedjan, <hi rend="italic">Mar Jacobi Sarugensis Homiliae Selectae</hi>, vol.
+                        1, 721–69.</p>
+                    <p>4. ‘Chronicle’ (<hi rend="italic">
+                            <abbr>CPG</abbr>
+                        </hi> 3494). The Greek original of this
+                        important work is lost, and the complete text is preserved only in Latin and
+                        Armenian translations. According to  <ref rend="bold" target="https://gedsh.bethmardutho.org/Abdisho-bar-Brikha">
+                            <persName ref="http://syriaca.org/person/310">ʿAbdishoʿ</persName>
+                        </ref> this
+                        was translated by Shemʿon of <ref rend="bold" target="https://gedsh.bethmardutho.org/Beth-Garmai">
+                            <placeName ref="http://syriaca.org/place/33">Beth Garmai</placeName>
+                        </ref>
+                        (6th <abbr>cent.</abbr>?), but according to <ref rend="bold" target="https://gedsh.bethmardutho.org/Michael-I-Rabo">
+                            <persName ref="http://syriaca.org/person/217">Michael Rabo</persName>
+                        </ref>, by <ref rend="bold" target="https://gedsh.bethmardutho.org/Yaqub-of-Edessa">
+                            <persName ref="http://syriaca.org/person/113">Yaʿqub of Edessa</persName>
+                        </ref> (who in fact continued Eusebius’s Chronicle in
+                        his own work). Only excerpts survive incorporated into Syriac chronicles
+                        (notable the <ref rend="bold" target="https://gedsh.bethmardutho.org/Zuqnin-Chronicle-of">Chronicle of
+                            Zuqnin</ref>, <ref rend="bold" target="https://gedsh.bethmardutho.org/Eliya-of-Nisibis">
+                            <persName ref="http://syriaca.org/person/472">Eliya of
+                            Nisibis</persName>
+                        </ref>, and Michael Rabo); for these, see P. Keseling, ‘Die
+                        Chronik des E. in der syr. Überlieferung’, <title rend="italic">
+                            <abbr>OC</abbr>
+                        </title> 3.1
+                        (1927), 23–48, 223–41, and 3.2 (1927), 33–56; also R. W. Burgess, <hi rend="italic">Studies in Eusebian and post-Eusebian Chronography</hi>,
+                        vol. 1 (1999), and W. Witakowski, ‘The Chronicle of Eusebius, its type and
+                        continuation in Syriac historiography’, <hi rend="italic">ARAM</hi> 11/12
+                        (1999/2000), 419–37.</p>
+                    <p>5. ‘Onomasticon’ (<hi rend="italic">
+                            <abbr>CPG</abbr>
+                        </hi> 3466), on biblical place names;
+                        fragments of the Syriac translation were <abbr>ed.</abbr> by I. E. Rahmani (and others)
+                        in <title rend="italic">ROC</title> 23 (1922/3), 225–70, and have been republished
+                        (in transcription) by S. Timm (<abbr>TU</abbr> 152; 2005).</p>
+                    <p>6. ‘Letter to Carpianus’ (<hi rend="italic">
+                            <abbr>CPG</abbr>
+                        </hi> 3465), explaining the
+                        tables indicating concordances between the four Gospels. This ingenious
+                        system was originally devised by Ammonius, but was considerably refined in
+                        Syriac (where the tables are found in many early Gospel <abbr>mss.</abbr>). The Syriac
+                        text is edited by P. Pusey and G. H. Gwilliam in their edition of the
+                        Peshitta Gospels (1901), 1–21; with a study by Gwilliam in <hi rend="italic">Studia Biblica</hi> 2 (1890), 241–72.</p>
+                    <p>7. ‘Gospel Questions’ (<hi rend="italic">
+                            <abbr>CPG</abbr>
+                        </hi> 3470), dealing with the
+                        exegesis of select passages; the available Syriac excerpts were <abbr>ed.</abbr> by G.
+                        Beyer, in <title rend="italic">
+                            <abbr>OC</abbr>
+                        </title> 2.12–14 (1925), 30–70; 3.1 and 2 (1927),
+                        80–97, 57–69.</p>
+                    <p>8. ‘Apology for Origen’ (<hi rend="italic">
+                            <abbr>CPG</abbr>
+                        </hi> 3476). An excerpt in
+                        Syriac translation is attributed to <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Gregory-Thaumaturgus">
+                            <persName ref="http://syriaca.org/person/513">Gregory
+                            Thaumaturgus</persName>
+                        </ref>, <abbr>ed.</abbr> P. de Lagarde, <hi rend="italic">Analecta
+                            Syriaca</hi> (1858), 64–5.</p>
+                    <p>Two further works survive only in Syriac, but are not thought to be
+                        genuine:</p>
+                    <p>9. ‘Encomium on the Martyrs’ (<hi rend="italic">
+                            <abbr>CPG</abbr>
+                        </hi> 3493), preserved in
+                        a <abbr>ms.</abbr> dated 411; <abbr>ed.</abbr> B. H. Cooper, in <hi rend="italic">Journal of Sacred
+                            Literature</hi> 5 (1868), 404–8.</p>
+                    <p>10. ‘On the Star of the Magi’ (<hi rend="italic">
+                            <abbr>CPG</abbr>
+                        </hi> 3507), <abbr>ed.</abbr> W.
+                        Wright, in <hi rend="italic">Journal of Sacred Literature</hi> 4.9 (1866),
+                        117–36; 4.10 (1867), 150–64.</p>
+                    <p>According to ʿAbdishoʿ there was also a Syriac translation of Eusebius’s
+                        ‘Life of Constantine’, but this does not survive. In his ‘Preparatio
+                        Evangelica’ (not translated into Syriac) Eusebius quotes (VI.10.1–48) from a
+                        Greek translation of the ‘Book of the Laws of the Countries’, attributed to
+                            <ref rend="bold" target="https://gedsh.bethmardutho.org/Bardaisan">
+                            <persName ref="http://syriaca.org/person/3">Bardaiṣan</persName>
+                        </ref>.</p>
+                    <p>See <ref target="https://gedsh.bethmardutho.org/fig/50">Fig. 50</ref>.</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>
+                            <title rend="italic">
+                                <abbr>CPG</abbr>
+                            </title> 3465–3507.</bibl>
+                        <bibl>S. P.  Brock, ‘Eusebius and Syriac Christianity’, in <title rend="italic">Eusebius, Christianity and Judaism</title>, <abbr>ed.</abbr> H. W.
+                            Attridge and G. Hata (1992), 212–34.</bibl>
+                        <bibl>L.  Van Rompay, ‘Some preliminary remarks on the origins of Classical
+                            Syriac as a standard language: the Syriac version of Eusebius of
+                            Caesarea’s Ecclesiastical History’, in <title rend="italic">Semitic and
+                                Cushitic Studies</title>, <abbr>ed.</abbr> G. Goldenberg and S. Raz (1994),
+                            70–89.</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Sebastian P.</forename> 
+                  <surname>Brock</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

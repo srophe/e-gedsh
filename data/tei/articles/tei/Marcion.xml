@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Marcion</title>
+            <author>
+               <persName>
+                  <forename>Lucas</forename> 
+                  <surname>Van Rompay</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0">Electronic Edition Draft Version 1.0</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Marcion</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Marcion</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/359</idno>
+                    <idno type="entry">350</idno>
+                    <milestone unit="pages" n="266-267"/>
+                    <idno type="subject">http://syriaca.org/person/616</idno>
+                    <note type="type">person</note>
+                    <note type="abstract">Early Christian thinker, founder of the
+                        Marcionites.<note/>
+                    </note>
+                </ab>
+                <ab type="infobox">(d. <abbr>ca.</abbr> 160)</ab>
+                <div type="body">
+                    <p>Early Christian thinker, founder of the Marcionites. Marcion was born in
+                        Sinope on the southern shore of the Black Sea in Asia Minor. In <abbr>ca.</abbr> 140 he
+                        traveled to Rome, where in 144 he was excommunicated by the Christian Church
+                        and he subsequently founded his own church. A great number of Christian
+                        authors, both in the East and the West, wrote against Marcion and his
+                        followers, which may be seen as an indication of his influence and of the
+                        threat he posed to (what later would develop into) orthodox Christianity.
+                        Since none of Marcion’s writings have survived, his teaching must be
+                        reconstructed from patristic refutations. Marcion drastically differed from
+                        mainstream Christianity in his rejection of the <abbr>OT</abbr>. In his view, the God of
+                        the <abbr>OT</abbr>, who was the creator of the material world (which was seen as evil)
+                        and the protagonist in <abbr>OT</abbr> history, was not the same as the God whom Jesus
+                        Christ revealed in the <abbr>NT</abbr>. The <abbr>OT</abbr> God, even though he was just, was inferior
+                        to the perfect, yet hidden God of grace of the <abbr>NT</abbr>. The <abbr>OT</abbr>, therefore, was
+                        irrelevant to Christians, even though Marcion did not deny its validity for
+                        the Jews. Based on these insights, Marcion created his own canon of
+                        scripture, which consisted of one Gospel (mainly based on Luke) and a
+                        collection of ten expurgated Pauline epistles. Marcion’s views and canon
+                        formation had a significant impact on the development of nascent orthodox
+                        Christianity.</p>
+                    <p>Marcion’s followers reached Syria and <ref rend="bold" target="https://gedsh.bethmardutho.org/Edessa">
+                            <placeName ref="http://syriaca.org/place/78">Edessa</placeName>
+                        </ref> by the end of
+                        the 2nd <abbr>cent.</abbr> According to <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Eusebius-of-Caesarea">
+                            <persName ref="http://syriaca.org/person/480">Eusebius</persName>
+                        </ref> (Ecclesiastical
+                        History, 5,13), <ref rend="bold" target="https://gedsh.bethmardutho.org/Bardaisan">
+                            <persName ref="http://syriaca.org/person/3">Bardaiṣan</persName>
+                        </ref>
+                        composed dialogues against the Marcionites (which are not preserved), and
+                        the ‘Book of the laws of the countries’ contains anti-Marcionite polemics,
+                        albeit without naming Marcion. In the 4th <abbr>cent.</abbr>, <ref rend="bold" target="https://gedsh.bethmardutho.org/Ephrem">
+                            <persName ref="http://syriaca.org/person/13">Ephrem</persName>
+                        </ref>
+                        attacked the Marcionites in several of his works. These sometimes strident
+                        attacks suggest that the Marcionites represented a serious threat in his
+                        day. Moreover, Ephrem established a genealogical link between Marcion, the
+                        arch-heretic, and the later heretics Bardaiṣan and <ref rend="bold" target="https://gedsh.bethmardutho.org/Mani">
+                            <persName ref="http://syriaca.org/person/608">Mani</persName>
+                        </ref>. Ephrem’s most
+                        systematic refutation of Marcion can be found in the collection of writings
+                        known as the ‘Prose Refutations’. Another anti-Marcionite treatise of Syriac
+                        origin survives in an Armenian translation and mainly deals with the
+                        parables of the Gospel and their <abbr>OT</abbr> antecedents. The Syriac original of this
+                        work may be traced back to the (early?) 4th <abbr>cent.</abbr>, but contrary to the view
+                        of the most recent editor (Egan), Ephrem should not be seen as its author
+                        (see Outtier and Bundy).</p>
+                    <p>While the significance of Marcion and his movement in the early period of
+                        Syriac Christianity has been widely recognized since the days of W. Bauer,
+                        it is unclear how long the Marcionites had their own ecclesiastical
+                        institutions in the Syriac world. A remarkable episode in the ‘Life of Mar
+                            <ref rend="bold" target="https://gedsh.bethmardutho.org/Aba">
+                            <persName ref="http://syriaca.org/person/308">Aba</persName>
+                        </ref>’
+                        (<abbr>ed.</abbr> Bedjan) suggests that in mid-6th <abbr>cent.</abbr> Mesopotamia Marcionites still
+                        had a significant presence and were called <hi rend="italic">kresṭyāne</hi>,
+                        as opposed to mainstream Christians who were called <hi rend="italic">mšiḥāye</hi>.</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>W.  Bauer, <title rend="italic">Rechtgläubigkeit und Ketzerei im
+                                ältesten Christentum</title> (1934; 2nd <abbr>ed.</abbr> 1964), ch. 1 on Edessa.
+                            (<abbr>ET</abbr> as <title rend="italic">Orthodoxy and heresy in earliest
+                                Christianity</title> [1971])</bibl>
+                        <bibl>P.  Bedjan, <title rend="italic">Histoire de Mar Jab-Alaha,
+                                patriarche, de trois autres patriarches, d’un prêtre et de deux
+                                laïques nestoriens</title> (1895; <abbr>repr.</abbr> 2007), 213–4.</bibl>
+                        <bibl>D.  Bundy, ‘Marcion and the Marcionites in early Syriac apologetics’,
+                                <title rend="italic">
+                                <abbr>LM</abbr>
+                            </title> 101 (1988), 21–32.</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>D.  Bundy</reg>
+                        <orig>idem</orig>
+                     </choice>, ‘The anti-Marcionite commentary on the Lucan parables
+                            (Pseudo-Ephrem A): Images in tension’, <title rend="italic">
+                                <abbr>LM</abbr>
+                            </title> 103 (1990), 111–23.</bibl>
+                        <bibl>H. J. W. Drijvers, ‘Marcionism in Syria: Principles, problems,
+                            polemics’, <title rend="italic">The Second Century. A Journal for Early
+                                Christian Studies</title> 6.3 (1987–88), 153–72.</bibl>
+                        <bibl>G. A.  Egan, <title rend="italic">Saint Ephrem. An Exposition of the
+                                Gospel</title> (<abbr>CSCO</abbr> 291–2; 1968).</bibl>
+                        <bibl>A. von Harnack, <title rend="italic">Marcion: Das Evangelium vom
+                                femden Gott</title> (1921). (<abbr>ET</abbr> as <title rend="italic">Marcion: The
+                                Gospel of the alien God</title> [1990])</bibl>
+                        <bibl>G. May, K. Greschat, and M. Meiser (<abbr>ed.</abbr>), <title rend="italic">Marcion
+                                and his impact on Church history</title> (Berlin-Brandenburgische
+                            Akademie der Wissenschaften. <abbr>TU</abbr> 150; 2002).</bibl>
+                        <bibl>C. W. Mitchell, <title rend="italic">S. Ephraim’s Prose
+                                Refutations</title>, vol. 1 (1912; <abbr>repr.</abbr> 2008), esp. 44–91 (Syr.);
+                            li–lxxiii (<abbr>ET</abbr>).</bibl>
+                        <bibl>C. W. Mitchell, A. A. Bevan, and F. C. Burkitt, <title rend="italic">S. Ephraim’s Prose Refutations</title>, vol. 2 (1921; <abbr>repr.</abbr> 2008),
+                            esp. 50–142 (Syr.) and xxiii–lxv (<abbr>ET</abbr>).</bibl>
+                        <bibl>B.  Outtier, ‘Une explication de l’évangile attribuée à Saint Ephrem.
+                            A propos d’une édition récente’, <title rend="italic">
+                                <abbr>ParOr</abbr>
+                            </title> 1
+                            (1970), 385–407.</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Lucas</forename> 
+                  <surname>Van Rompay</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

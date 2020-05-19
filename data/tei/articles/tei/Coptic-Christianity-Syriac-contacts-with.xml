@@ -1,0 +1,535 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Coptic Christianity, Syriac contacts with</title>
+            <author>
+               <persName>
+                  <forename>Lucas</forename> 
+                  <surname>Van Rompay</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0">Electronic Edition Draft Version 1.0</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Coptic Christianity, Syriac contacts with</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Coptic-Christianity-Syriac-contacts-with</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/148</idno>
+                    <idno type="entry">139</idno>
+                    <milestone unit="pages" n="103-106"/>
+                    <idno type="althead" subtype="altorder">Syriac contacts with Coptic
+                        Christianity</idno>
+                    <note type="type">subject</note>
+                    <note type="abstract">From the earliest period of Christian history, contacts
+                        and interaction existed between Egypt and the Syriac world.<note/>
+                    </note>
+                </ab>
+                <div type="body">
+                    <p>From the earliest period of Christian history, contacts and interaction
+                        existed between Egypt and the Syriac world. For some of the Coptic writings
+                        of the Nag Hammadi Library, such as the Gospel of Thomas and the Gospel of
+                        Philip, the existence of a Syriac original has often been presumed, going
+                        back to the 2nd <abbr>cent.</abbr> Even if such a Syr. original once existed, it is
+                        unclear whether the Coptic translation would have been made directly from
+                        Syr. or from a Greek intermediary. For the five Coptic <ref rend="bold" target="https://gedsh.bethmardutho.org/Solomon-Odes-of">Odes of
+                            Solomon</ref> that are incorporated in the Gnostic collection known as
+                        ‘Pistis Sophia’ (generally dated to the 2nd half of the 3rd <abbr>cent.</abbr>), the
+                        source language was almost certainly Greek (regardless of whether the Odes
+                        were originally written in Greek or Syr.). Some Coptic Manichean texts,
+                        however, were translated directly from a (lost) Syr. original, and recent
+                        discoveries in the Dakhla oasis have provided fascinating evidence of the
+                        immediate coexistence of Coptic and Manichean Syr. (or at any rate an
+                        Aramaic dialect, very close to Syr. in both language and script). The Dakhla
+                        findings include, among other things, some wooden tablets with a Syr.-Coptic
+                        glossary (<abbr>ed.</abbr> Franzmann).</p>
+                    <p>Within the Christian Roman Empire, contacts between Christians in Egypt and
+                        in Syria and Mesopotamia intensified. Egyptian desert asceticism attracted
+                        interest and visits from Syr. Christians, and several writings about the
+                        Desert Fathers became known in Syr. as early as the 5th <abbr>cent.</abbr> It is very
+                        telling that the later Syr. tradition of the <ref rend="bold" target="https://gedsh.bethmardutho.org/Ephrem-Life-of">Life of
+                            Ephrem</ref> lets Ephrem travel to Egypt and spend several years in
+                        Scetis, where he met with Bishoi, one of the founders of Coptic monasticism
+                        (a legend that lives on in <ref rend="bold" target="https://gedsh.bethmardutho.org/al-Suryan-Dayr">
+                            <placeName ref="http://syriaca.org/place/360">Dayr
+                            al-Suryān</placeName>
+                        </ref> to the present day). This should be seen as part of the
+                        process of ‘egyptianization’ of Syr. asceticism (Becker), which tended to
+                        legitimization in the Egyptian tradition of desert asceticism, by giving
+                        precedence to texts and persons of Egyptian origin, by re-identifying the
+                        authors of existing works as Egyptians, and even by inventing Egyptian
+                        founding fathers of asceticism, such as <ref rend="bold" target="https://gedsh.bethmardutho.org/Awgen-Mar">
+                            <persName ref="http://syriaca.org/person/356">Mar Awgen</persName>
+                        </ref>.</p>
+                    <p>In the development of Christian doctrine, the patriarchates of Alexandria and
+                            <ref rend="bold" target="https://gedsh.bethmardutho.org/Antioch">
+                            <placeName ref="http://syriaca.org/place/10">Antioch</placeName>
+                        </ref> played an equally important role. Tensions between the
+                        two patriarchates, however, came to the fore and formed much of the
+                        background against which the Council of Ephesus (431) was held, which was
+                        seen as a victory for <ref rend="bold" target="https://gedsh.bethmardutho.org/Cyril-of-Alexandria">
+                            <persName ref="http://syriaca.org/person/430">Cyril of
+                            Alexandria</persName>
+                        </ref> over <ref rend="bold" target="https://gedsh.bethmardutho.org/Nestorius">
+                            <persName ref="http://syriaca.org/person/655">Nestorius</persName>
+                        </ref>, the
+                        latter being associated with Antiochene Christianity. In the wake of the
+                        Council, however, reconciliation between Antiochene and Alexandrian bishops
+                        took place (433). The subsequent Christological debate brought many Egyptian
+                        and Syr. Christians closer together in their rejection of the two-nature
+                        formula of the Council of Chalcedon (451), to which they opposed the
+                        ‘Miaphysite’ doctrine of the one nature in Christ, in which both the full
+                        humanity and full divinity are preserved. While both Egyptian and Syr.
+                        Christians were divided between Chalcedonians and anti-Chalcedonians, the
+                        latter were able in the course of the 6th <abbr>cent.</abbr> to build a church structure
+                        that became the foundation for the Miaphysite Coptic Orthodox Church in
+                        Egypt and for the Miaphysite <abbr>Syr. Orth.</abbr> Church in Syria. They did so in
+                        defiance of the imperial authorities who, after some hesitation in the late
+                        5th and early 6th <abbr>cent.</abbr> resolutely chose for strict adherence to Chalcedon
+                        with the accession of Emperor Justin I (518). <ref rend="bold" target="https://gedsh.bethmardutho.org/Severus-of-Antioch">
+                            <persName ref="http://syriaca.org/person/51">Severus</persName>
+                        </ref>, since 512 Miaphysite <abbr>
+                            <choice>
+                                <sic>Patr.</sic>
+                                <corr>patr.</corr>
+                            </choice>
+                        </abbr> of Antioch, fled to Egypt in 518,
+                        where he not only continued to lead the <abbr>Syr. Orth.</abbr> community, but also
+                        forged a strong alliance with the Church of Alexandria, arguing that in
+                        times of oppression the two Churches needed to act as one. Severus won for
+                        himself lasting authority in both the Syr. and the Coptic churches. At his
+                        death (538), the Syr. Miaphysites turned for leadership to <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Theodosius-of-Alexandria">
+                            <persName ref="http://syriaca.org/person/784">Theodosius</persName>
+                        </ref>, the exiled <abbr>
+                            <choice>
+                                <sic>Patr.</sic>
+                                <corr>patr.</corr>
+                            </choice>
+                        </abbr> of Alexandria who lived in
+                        Constantinople, thus again giving expression to the idea that the
+                        Miaphysites in Egypt and in Syria should be united. It was only in the late
+                        550s that attempts were made to reestablish an independent <abbr>Syr. Orth.</abbr>
+                        patriarch. Towards the end of the 6th <abbr>cent.</abbr>, a theological dispute broke out
+                        between the Egyptian <abbr>Patr.</abbr> Damian (569–605) and the <abbr>Syr. Orth.</abbr>
+                        <abbr> Patr.</abbr> 
+                  <ref rend="bold" target="https://gedsh.bethmardutho.org/Peter-of-Kallinikos">
+                            <persName ref="http://syriaca.org/person/75">Peter of Kallinikos</persName>
+                        </ref> (581–91). This was healed only in 616 by
+                        <abbr>Patr.</abbr> Anastasius of Alexandria (605–16) and the <abbr>Syr. Orth.</abbr>
+                        <abbr> Patr.</abbr> 
+                  <ref rend="bold" target="https://gedsh.bethmardutho.org/Athanasios-I-Gamolo">
+                            <persName ref="http://syriaca.org/person/88">Athanasios I Gamolo</persName>
+                        </ref>. By that time both the Syr. and the Coptic
+                        Miaphysite churches had fully adopted Severus’s theology as their foundation
+                        (rejecting the teachings of <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Julian-of-Halicarnassus">
+                            <persName ref="http://syriaca.org/person/579">Julian of
+                            Halicarnassus</persName>
+                        </ref>, which enjoyed a certain degree of popularity
+                        throughout the 6th <abbr>cent.</abbr>). Although the Coptic and Syr. Miaphysite Churches
+                        henceforth existed as separate churches, there was full doctrinal agreement,
+                        which opened the way to different ways of contact and interaction.
+                        Particularly important was the exchange of a ‘synodical letter’ at the
+                        election of a new patriarch, expressing and reaffirming the communion
+                        between the two Churches. Throughout the 6th <abbr>cent.</abbr> the language of
+                        communication between the Alexandrians and Antiochenes was Greek, and the
+                        Coptic translations of Severus’s oeuvre are based on the Greek originals,
+                        not on the Syr. translations. In the early Islamic period, the language of
+                        communication quickly became Arabic, while Syr. and Coptic continued to be
+                        used within the individual churches.</p>
+                    <p>The absence of any dogmatic barrier made it possible for Syr. Christians to
+                        fully integrate into the Coptic Church. This happened on different levels.
+                        On the highest level, four Christians of Syr. origin or descent served as
+                        <abbr>patr.</abbr> of the Coptic Church (Damian: 579–605; Simon  I: 692–700; Afrahām <abbr>b.</abbr>
+                        Zurʿa: 975–78; and Murqus <abbr>b.</abbr> Zurʿa: 1166–1189), while a fifth Syrian, the
+                        monk Samuel, was close to being elected in 1092 (Den Heijer 2004). It is not
+                        uncommon in the colophons of Syr. <abbr>mss.</abbr> (mostly but not exclusively in those
+                        written in Egypt) as well as in Syr. inscriptions to find references to both
+                        the Syr. and the Coptic patriarch (Kaufhold). Monks of Syr. origin lived in
+                        various monasteries in Egypt, where they sometimes produced Syr.
+                        inscriptions, and collected or wrote Syr. <abbr>mss.</abbr> Some of these monasteries are
+                        explicitly mentioned in colophons of Syr. <abbr>mss.</abbr>, such as the Monastery of Mar
+                        Michael, in Upper Egypt, where <abbr>ms.</abbr> Brit. Libr. Add. 14,582 was produced in
+                        816; an unnamed monastery in the Thebais where in 822/23 the monk Ahron,
+                        from Dara, produced <abbr>ms.</abbr> Brit. Libr. Add. 14,623 (reusing a 6th-cent. <abbr>ms.</abbr>
+                        that contained <ref rend="bold" target="https://gedsh.bethmardutho.org/Ephrem">
+                            <persName ref="http://syriaca.org/person/13">Ephrem</persName>
+                        </ref>’s ‘Prose
+                        Refutations’); the Monastery of Mar Yonan, from where around the middle of
+                        the 9th <abbr>cent.</abbr> three monks brought 10 <abbr>mss.</abbr> (<abbr>ms.</abbr> Brit. Libr. Add. 14,623 being
+                        one of them) to <ref rend="bold" target="https://gedsh.bethmardutho.org/al-Suryan-Dayr">
+                            <placeName ref="http://syriaca.org/place/360">Dayr
+                            al-Suryān</placeName>
+                        </ref>; and the well-known Monastery of St. Paul, near the Red
+                        Sea, where <abbr>ms.</abbr> Brit. Libr. Or. 5021 was produced at the end of the 9th <abbr>cent.</abbr>
+                        (Brock 1995). The traditional historiographies of the Coptic and the Syr.
+                        Orth. Churches (in particular the Arabic ‘History of the Patriarchs of
+                        Alexandria’ and the Syr. Chronicle of <ref rend="bold" target="https://gedsh.bethmardutho.org/Michael-I-Rabo">
+                            <persName ref="http://syriaca.org/person/217">Michael Rabo</persName>
+                        </ref>)
+                        pay much attention to developments in the sister church. Among the Syr.
+                        Orth. patriarchs with particular interest and contacts in Egypt, <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Dionysios-of-Tel-Mahre">
+                            <persName ref="http://syriaca.org/person/155">Dionysios
+                            of Tel Maḥre</persName>
+                        </ref> and <ref rend="bold" target="https://gedsh.bethmardutho.org/Quryaqos">
+                            <persName ref="http://syriaca.org/person/145">Quryaqos</persName>
+                        </ref> should be
+                        singled out. The <abbr>Syr. Orth.</abbr> never set up their own hierarchy in Egypt, even
+                        if they had some Syr. churches for their communities (Den Heijer 2004,
+                        935–36).</p>
+                    <p>A clear example of the proximity and the interaction between the two Churches
+                        is the creation and millennium-long existence of Dayr al-Suryān. After Syr.
+                        Orth. monks (in the first period mainly from <ref rend="bold" target="https://gedsh.bethmardutho.org/Tagrit">
+                            <placeName ref="http://syriaca.org/place/193">Tagrit</placeName>
+                        </ref>) settled in
+                        the monastery in the second decade of the 9th <abbr>cent.</abbr>, they lived together
+                        with Coptic monks. The inscriptions and wall paintings in the monastery
+                        clearly attest to the coexistence of the two communities, Syr. and Coptic,
+                        and from the 11th <abbr>cent.</abbr> onwards the scriptorium produced Coptic and Arabic
+                        <abbr>mss.</abbr> (along with the Syr. ones, which started being written in the monastery
+                        no later than the 10th <abbr>cent.</abbr>). While the status of the monastery between the
+                        Coptic and Syr. world has received much attention in recent scholarship, the
+                        disappearance of the Syr. element in the early 17th <abbr>cent.</abbr> should be seen
+                        rather as the gradual absorption of the Syr. monks into the mainstream of
+                        Coptic life than as a radical linguistic or cultural shift within the
+                        monastery’s population (Den Heijer 2004, 937).</p>
+                    <p>While the Syrians’ familiarity with the main theologians of the Alexandrian
+                        tradition (such as <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Athanasius-of-Alexandria">
+                            <persName ref="http://syriaca.org/person/354">Athanasius</persName>
+                        </ref>, Cyril, <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Timotheos-II-of-Alexandria">
+                            <persName ref="http://syriaca.org/person/792">Timotheos</persName>
+                        </ref>, and Theodosius) and with the main texts of
+                        Egyptian asceticism was primarily based on Greek texts, there is some
+                        evidence of translation work from Coptic into Syriac. A Bohairic Coptic
+                        original underlies the extant Syriac Life of Macarius (Toda). Evidence of
+                        translation work carried out at the beginning of the 10th <abbr>cent.</abbr> by Yuḥanon
+                        bar Maqari, the abbot of Dayr al-Suryān, may be found in Syr. <abbr>ms.</abbr> Dayr
+                        al-Suryān 30. In this <abbr>ms.</abbr>, partly written by <ref rend="bold" target="https://gedsh.bethmardutho.org/Mushe-of-Nisibis">
+                            <persName ref="http://syriaca.org/person/647">Mushe of
+                            Nisibis</persName>
+                        </ref> (the later abbot), Yuḥanon is credited with the
+                        translation ‘from the Egyptian tongue into Syriac’ of the Life of the Roman
+                        brothers Maximos and Dometios (unpublished) and of the Life of Macarius (<abbr>ed.</abbr>
+                        P. Bedjan, <hi rend="italic">Acta martyrum et sanctorum</hi>, 5 [1895],
+                        177–262). The same Yuḥanon left a note in Coptic in Syr. <abbr>ms.</abbr> Brit. Libr.
+                        Add. 14,635 (f. 5r), a <abbr>ms.</abbr> with extracts from <ref rend="bold" target="https://gedsh.bethmardutho.org/Evagrius-of-Pontus">
+                            <persName ref="http://syriaca.org/person/483">Evagrius of
+                            Pontus</persName>
+                        </ref>, which he helped bind in 894, when he already was abbot.
+                        The Syr. impact on the Coptic liturgical tradition is significant. Many Syr.
+                        saints were adopted in the Coptic Church: in addition to Severus of Antioch,
+                        two major Syr. saints, <ref rend="bold" target="https://gedsh.bethmardutho.org/Barsawmo">
+                            <persName ref="http://syriaca.org/person/370">Barṣawmo</persName>
+                        </ref> and <ref rend="bold" target="https://gedsh.bethmardutho.org/Shemun-the-Stylite">
+                            <persName ref="http://syriaca.org/person/744">Shemʿun the Stylite</persName>
+                        </ref>, are represented in the Coptic Synaxarium
+                        (Farag) and are depicted in Coptic art; many more are listed in Coptic
+                        martyrologia and liturgical calendars (Fiey 1972–1973, 305–10). Some
+                        extracts from Ephrem and <ref rend="bold" target="https://gedsh.bethmardutho.org/Yaqub-of-Serugh">
+                            <persName ref="http://syriaca.org/person/42">Yaʿqub of
+                            Serugh</persName>
+                        </ref> are preserved in a dogmatic florilegium that may go back to
+                        Coptic sources, but is preserved only in Arabic and Ethiopic (Graf 1937). A
+                        number of translations from Syriac into Arabic were carried out in Egypt;
+                        some of them can be located in Dayr al-Suryān in the 15th–17th <abbr>cent.</abbr> (Graf
+                        1951, 23).</p>
+                    <p>While the present overview has focused on the Coptic contacts with the Syr.
+                        Orth. Church, E.-Syr. Christians traveled to Egypt as well, either as
+                        pilgrims and visitors (e.g., <ref rend="bold" target="https://gedsh.bethmardutho.org/Aba-I">
+                            <persName ref="http://syriaca.org/person/306">Aba I</persName>
+                        </ref>, <ref rend="bold" target="https://gedsh.bethmardutho.org/Abraham-of-Kashkar">
+                            <persName ref="http://syriaca.org/person/320">Abraham of Kashkar</persName>
+                        </ref>, and <ref rend="bold" target="https://gedsh.bethmardutho.org/Enanisho">
+                            <persName ref="http://syriaca.org/person/474">ʿEnanishoʿ</persName>
+                        </ref>) or for
+                        a longer stay. Around 700, an E.-Syr. <abbr>bp.</abbr> is attested for the E.-Syr.
+                        diaspora in Egypt, but shortly after his consecration he fell into the hands
+                        of Bedouins and was reduced to slavery for the remaining 40 years of his
+                        life. Other bps. are attested in the 10th and 11th <abbr>cent.</abbr> (Fiey 1972–1973,
+                        338–340). E.-Syr. authors who became popular in the Coptic Church include
+                            <ref rend="bold" target="https://gedsh.bethmardutho.org/Ishaq-of-Nineveh">
+                            <persName ref="http://syriaca.org/person/550">Isḥaq of Nineveh</persName>
+                        </ref> and <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Yohannan-of-Dalyatha">
+                            <persName ref="http://syriaca.org/person/826">Yoḥannan of
+                            Dalyatha</persName>
+                        </ref> (‘the spiritual elder’), but their works were translated
+                        from Syriac directly into Arabic.</p>
+                    <p>In the 19th <abbr>cent.</abbr> a Syr. Catholic hierarchy was set up in Cairo, while a
+                        Chaldean diocese, based in Heliopolis, was created in 1980. In the worldwide
+                            <ref rend="bold" target="https://gedsh.bethmardutho.org/Diaspora">
+                            <choice>
+                                <sic>Diaspora</sic>
+                                <corr>diaspora</corr>
+                            </choice>
+                        </ref> the Coptic and <abbr>Syr. Orth.</abbr> communities often work
+                        together. The <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/British-Orthodox-Church">British
+                            Orthodox Church</ref>, whose episcopal succession was partly <abbr>Syr. Orth.</abbr>
+                        in origin, was given a home in the Coptic Orth. Church in 1994.</p>
+                    <p>A promising field of study may be the comparative study of the Coptic and
+                        Syriac language and syntax, as the two languages developed under similar
+                        conditions and were both exposed to the influence of Greek. Among the few
+                        features that have received some attention is the Syr. structure (occurring
+                        from the early 6th <abbr>cent.</abbr> onwards) consisting of the verb <hi rend="italic">ʿbad</hi> ‘to do’ followed by the Greek infinitive (<choice>
+                            <sic>e.g.</sic>
+                            <corr>e.g., </corr>
+                        </choice>
+                        <hi rend="italic">ʿbad filosofise</hi> ‘to philosophize’), which parallels,
+                        and may be derived from, a similar structure existing in all Coptic dialects
+                        except Sahidic, and which consists of the verbal form -<hi rend="italic">er</hi> ‘to do’ and a non-conjugated form of the Greek verb (<choice>
+                            <sic>e.g.</sic>
+                            <corr>e.g.,</corr>
+                        </choice>
+                        Bohairic <hi rend="italic">er pisteuin</hi> ‘to believe’) (most recently
+                        Brock 2004 — for a different explanation, however, see C. A. Ciancaglini,
+                        ‘L’origine delle locuzioni verbali con <hi rend="italic">ʿbad</hi> in
+                        siriaco’, in <hi rend="italic">Loquentes linguis. Studi linguistici e
+                            orientali in onore di Fabrizio A. Pennacchietti</hi>, <abbr>ed.</abbr> P. G. Borbone
+                        <abbr>et al.</abbr> [2006], 173–84).</p>
+                    <p>See <ref target="https://gedsh.bethmardutho.org/fig/19">Fig. 19</ref>, <ref target="https://gedsh.bethmardutho.org/fig/37">37</ref>, <ref target="https://gedsh.bethmardutho.org/fig/38">38</ref>, <ref target="https://gedsh.bethmardutho.org/fig/58">58</ref>, <ref target="https://gedsh.bethmardutho.org/fig/89">89</ref>, <ref target="https://gedsh.bethmardutho.org/fig/90">90</ref>, and <ref target="https://gedsh.bethmardutho.org/fig/113">113</ref>.</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>A. S. Atiya, <title rend="italic">The Coptic
+                                Encyclopedia</title>, 8 <choice>
+                                <sic>vol.</sic>
+                                <corr>vols.</corr>
+                            </choice> (1991).</bibl>
+                        <bibl>Becker, <title rend="italic">Fear of God</title>, 172–75.</bibl>
+                        <bibl>Bigoul el-Suriany, ‘The manuscript collection of Deir al-Surian: Its
+                            survival into the third millennium’, in <title rend="italic">Coptic
+                                Studies on the threshold of a new millennium</title>, <abbr>ed.</abbr> M.
+                            Immerzeel and J. van der Vliet (<abbr>OLA</abbr> 133; 2004), vol. 1, 281–94.</bibl>
+                        <bibl>M. J.  Blanchard, ‘The Coptic Heritage of St. Ephrem the Syrian’, in
+                                <title rend="italic">Acts of the Fifth International Congress of
+                                Coptic Studies, Washington, 12–15 August 1992</title>, <abbr>ed.</abbr> T.
+                            Orlandi and D. J. Johnson, vol. 2 (1993), 37–51.</bibl>
+                        <bibl>S. P.  Brock, ‘Notulae syriacae’, <title rend="italic">
+                                <abbr>LM</abbr>
+                            </title> 108
+                            (1995), 74–6.</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>S. P.  Brock</reg>
+                        <orig>idem</orig>
+                     </choice>, ‘Secondary formations from Greek loanwords in Syriac’, in <title rend="italic">Verbum et calamus. Semitic and related studies in
+                                honour of Professor T. Harviainen</title>, <abbr>ed.</abbr> H. Juusola <abbr>et al.</abbr>
+                            (Studia Orientalia 99; 2004), 31–39.</bibl>
+                        <bibl>J. den Heijer, ‘Relations between Copts and Syrians in the light of
+                            recent discoveries at Dayr as-Suryān’, in <title rend="italic">Coptic
+                                Studies on the threshold of a new millennium</title>, <abbr>ed.</abbr> M.
+                            Immerzeel and J. van der Vliet (<abbr>OLA</abbr> 133; 2004), vol. 2, 923–38.</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>J. den Heijer</reg>
+                        <orig>idem</orig>
+                     </choice>, ‘Les patriarches coptes d’origine syrienne’, in <title rend="italic">Studies on the Christian Arabic Heritage. In honour of
+                                Father Prof. Dr. Samir Khalil Samir S.I.</title>, <abbr>ed.</abbr> R. Ebied and
+                            H. Teule (<abbr>ECS</abbr> 5; 2004), 45–63.</bibl>
+                        <bibl>L.  Farag, ‘Coptic-Syriac relations beyond dogmatic rhetoric’, <title rend="italic">
+                                <abbr>Hugoye</abbr>
+                            </title> 11.1 (2008).</bibl>
+                        <bibl>
+                     <choice>
+                        <sic>J. M.</sic>
+                        <corr>J.-M.</corr>
+                     </choice>  Fiey, ‘Coptes et Syriaques. Contacts et échanges’, <title rend="italic">Studia Orientalia Christiana. Collectanea</title> 15
+                            (1972–73), 296–365.</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>J.-M. Fiey</reg>
+                        <orig>idem</orig>
+                     </choice>, <title rend="italic">Pour un Oriens christianus novus</title>,
+                            78, 182.</bibl>
+                        <bibl>M. Franzmann and I. Gardner, ‘Section B: Syriac texts’, in <title rend="italic">Kellis Literary Texts</title> 1, <abbr>ed.</abbr> I. Gardner
+                            (Dakhleh Oasis Project 4; 1996), 101–31.</bibl>
+                        <bibl>M.  Franzmann, ‘Addenda et corrigenda’, in <title rend="italic">Coptic
+                                Documentary texts from Kellis</title> 1, <abbr>ed.</abbr> I. Gardner <abbr>et al.</abbr>
+                            (Dakhleh Oasis Project 9; 1999), 344–64.</bibl>
+                        <bibl>G.  Graf, ‘Zwei dogmatische Florilegien der Kopten, B. Das Bekenntnis
+                            der Väter’, <title rend="italic">
+                                <abbr>OCP</abbr>
+                            </title> 3 (1937), 345–402.</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>G.  Graf</reg>
+                        <orig>idem</orig>
+                     </choice>, <title rend="italic">GCAL</title>, vol. 4, 11 and 23.</bibl>
+                        <bibl>K. Innemée and L. Van Rompay, ‘La présence des Syriens dans le Wadi
+                            al-Natrun (Égypte). À propos des découvertes récentes de peintures et de
+                            textes muraux dans l’Église de la Vierge du Couvent des Syriens’, <title rend="italic">
+                                <abbr>ParOr</abbr>
+                            </title> 23 (1998), 167–202.</bibl>
+                        <bibl>H.  Kaufhold, ‘Kirchliche Gemeinschaft und Schisma im Spiegel
+                            syrischer Schreibervermerke’, <title rend="italic">
+                                <abbr>OC</abbr>
+                            </title> 85 (2001),
+                            94–118.</bibl>
+                        <bibl>O. Meinardus, ‘The Nestorians in Egypt’, <title rend="italic">
+                                <abbr>OC</abbr>
+                            </title> 51 (1967), 112–122.</bibl>
+                        <bibl>H. J.  Polotsky, ‘Ephraem’s Reise nach Aegypten’, <title rend="italic">Orientalia</title>
+                            <abbr> ns</abbr> 2 (1933), 269–74.</bibl>
+                        <bibl>S.  Toda, ‘Syriac translation in Egypt. The case of the <title rend="italic">Life of Saint Macarius the Egyptian</title>’, <title rend="italic">Orientalia</title>
+                            <abbr> ns</abbr> 75 (2006), 96–106.</bibl>
+                        <bibl>L.  Van  Rompay, ‘Society and community in the Christian East’, in
+                                <title rend="italic">The Cambridge companion to the age of
+                                Justinian</title>, <abbr>ed.</abbr> M. Maas (2005), 239–66.</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>L.  Van  Rompay</reg>
+                        <orig>idem</orig>
+                     </choice>, ‘Severus, patriarch of Antioch (512–538), in the Greek, Syriac,
+                            and Coptic traditions’, <title rend="italic">
+                                <abbr>JCSSS</abbr>
+                            </title> 8 (2008),
+                            3–22.</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>L.  Van  Rompay</reg>
+                        <orig>idem</orig>
+                     </choice>, ‘Syriac and related scripts in Egypt’, in <title rend="italic">Journey of writing in Egypt</title>, <abbr>ed.</abbr> Kh. Azab and A. Mansour
+                            (2008), 150–63.</bibl>
+                        <bibl>L. Van Rompay and A. B. Schmidt, ‘Takritans in the Egyptian desert:
+                            The Monastery of the Syrians in the ninth century’, <title rend="italic">
+                                <abbr>JCSSS</abbr>
+                            </title> 1 (2001), 41–60.</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Lucas</forename> 
+                  <surname>Van Rompay</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

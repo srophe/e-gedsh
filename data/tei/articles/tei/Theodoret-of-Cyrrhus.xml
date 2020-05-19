@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Theodoret of Cyrrhus</title>
+            <author>
+               <persName>
+                  <forename>Robert A.</forename> 
+                  <surname>Kitchen</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0">Electronic Edition Draft Version 1.0</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Theodoret of Cyrrhus</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Theodoret-of-Cyrrhus</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/553</idno>
+                    <idno type="entry">544</idno>
+                    <milestone unit="pages" n="402-403"/>
+                    <idno type="subject">http://syriaca.org/person/781</idno>
+                    <note type="type">person</note>
+                    <note type="abstract">
+                        <abbr>Bp.</abbr>, biblical exegete, church historian, hagiographer, and
+                        defender of Antiochene Christology against Cyril of Alexandria.<note/>
+                    </note>
+                </ab>
+                <ab type="infobox">(393–466)</ab>
+                <div type="body">
+                    <p>
+                        <abbr>Bp.</abbr>, biblical exegete, church historian, hagiographer, and defender of
+                        Antiochene Christology against <ref rend="bold" target="https://gedsh.bethmardutho.org/Cyril-of-Alexandria">
+                            <persName ref="http://syriaca.org/person/430">Cyril of
+                            Alexandria</persName>
+                        </ref>. <choice>
+                     <sic>Born</sic>
+                     <corr>He was born</corr>
+                  </choice> in <ref rend="bold" target="https://gedsh.bethmardutho.org/Antioch">
+                            <placeName ref="http://syriaca.org/place/10">Antioch</placeName>
+                        </ref> to a pious
+                        mother who took him regularly to visit monks in the outskirts of Antioch, in
+                        particular Peter the Galatian. Theodoret was made <abbr>bp.</abbr> of Cyrrhus (60 miles
+                        northeast of Antioch in the diocese of Hierapolis/Mabbug) in 423 and
+                        participated in the Council of Ephesus (431), defending <ref rend="bold" target="https://gedsh.bethmardutho.org/Nestorius">
+                            <persName ref="http://syriaca.org/person/655">Nestorius</persName>
+                        </ref> against
+                        Cyril of Alexandria. Deposed by the Second Council at Ephesus (449), he was
+                        reinstated at Chalcedon (451).</p>
+                    <p>Theodoret is the author of a number of biblical commentaries, an argument for
+                        the superiority of Christianity over paganism, a response to <ref rend="bold" target="https://gedsh.bethmardutho.org/Eutyches">
+                            <persName ref="http://syriaca.org/person/482">Eutyches</persName>
+                        </ref> against the miaphysite position, an Ecclesiastical
+                        History which continued <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Eusebius-of-Caesarea">
+                            <persName ref="http://syriaca.org/person/480">Eusebius</persName>
+                        </ref>’s chronicle to 428,
+                        and the ‘History of the Monks of Syria’ (<hi rend="italic">Historia
+                            Religiosa</hi>).</p>
+                    <p>The ‘History of the Monks of Syria’ is a collection of 30 brief to
+                        medium-length lives of ascetics in the region of Antioch from the early 4th
+                        to mid-5th <abbr>cent.</abbr>, many with whom Theodoret had personal contact and
+                        interaction. The lives follow chronologically the course of Theodoret’s
+                        life. The first 20 lives are of ascetics who were deceased by the time of
+                        Theodoret’s writing; the last ten describe ascetics who were still living
+                        when he wrote. Also, the first 13 ascetics are located in the Antioch
+                        region, where Theodoret was raised and educated, while the latter 17 center
+                        around Cyrrhus, the locus of his episcopacy.</p>
+                    <p>Theodoret portrays the ascetics in similar patterns with little character
+                        development, helping to create an image of Syriac Christianity dominated by
+                        severe asceticism. Yet, Theodoret depicts himself intervening with a number
+                        of ascetics in his role as <abbr>bp.</abbr> to mitigate the rigor of their
+                        asceticism.</p>
+                    <p>Theodoret wrote all his works in classical Greek, but was fluent in Syriac
+                        evidenced by his many conversations with contemporary ascetics. In the life
+                        of Jacob of Cyrrhestica, a demon approaches and speaks to Theodoret in
+                        Syriac (21.15).</p>
+                    <p>Noteworthy lives include: <ref rend="bold" target="https://gedsh.bethmardutho.org/Yulyana-Saba">
+                            <persName ref="http://syriaca.org/person/834">Yulyana Saba</persName>
+                        </ref>
+                        (2) — subject of a long <hi rend="italic">memrā</hi> attributed to <ref rend="bold" target="https://gedsh.bethmardutho.org/Ephrem">
+                            <persName ref="http://syriaca.org/person/13">Ephrem</persName>
+                        </ref>;
+                        Peter the Galatian (9) — an ascetic who healed Theodoret’s mother and
+                        converted her to a more sober lifestyle; <ref rend="bold" target="https://gedsh.bethmardutho.org/Maron">
+                            <persName ref="http://syriaca.org/person/621">Maron</persName>
+                        </ref>  (16)  — the
+                        namesake of the founder of the Maronite community (<ref rend="bold" target="https://gedsh.bethmardutho.org/Yuhanon-Maron">
+                            <persName ref="http://syriaca.org/person/832">Yuḥanon
+                        Maron</persName>
+                        </ref>); Jacob of Cyrrhestica   (21)  — the lengthiest written life and
+                        the first ascetic still living at the time of Theodoret’s writing; <ref rend="bold" target="https://gedsh.bethmardutho.org/Shemun-the-Stylite">
+                            <persName ref="http://syriaca.org/person/744">Shemʿun the Stylite</persName>
+                        </ref>  (26)  — the most celebrated of Theodoret’s
+                        figures. Two chapters concerning women ascetics are included at the end of
+                        the ‘History of the Monks of Syria’: Marana and Cyra (29) and
+                        Domnina  (30).</p>
+                    <p>The ‘History of the Monks of Syria’ includes a prologue and an epilogue on
+                        divine love. The lives included are: 1. <ref rend="bold" target="https://gedsh.bethmardutho.org/Yaqub-of-Nisibis">
+                            <persName ref="http://syriaca.org/person/811">Yaʿqub of
+                            Nisibis</persName>
+                        </ref> (d. 337/8); 2. Yulyana Saba (d. 367); 3. Marcianus of
+                        Chalcis (d. 380s); 4. Eusebius of Tell ʿAda (<abbr>fl.</abbr> 350s); 5. Publius of
+                        Euphratesia (<abbr>fl.</abbr> 350s); 6. Symeon the Elder of Antioch (<abbr>fl.</abbr> 370s); 7.
+                        Palladius of Antioch (<abbr>fl.</abbr> 370s); 8. Aphrahaṭ of Antioch (d. <abbr>ca.</abbr> 410); 9.
+                        Peter of Mt. Silpius (d. <abbr>ca.</abbr> 403); 10. Theodosius of Cilicia (d. <abbr>ca.</abbr> 405);
+                        11. Romanos of Mt. Silpius (d. <abbr>ca.</abbr> 400); 12. Zeno of Mt. Silpius (d. 410s);
+                        13. Macedonius of Mt. Silpius (d. <abbr>ca.</abbr> 420); 14. Maesymas of Cyrrhus (<abbr>fl.</abbr>
+                        late 4th <abbr>cent.</abbr>); 15. Acepsimas of Cyrrhus (<abbr>fl.</abbr> late 4th <abbr>cent.</abbr>); 16. Maron of
+                        Cyrrhus (d. 410s); 17. Abraham of Cyrrhus (d. 420s); 18. Eusebius of Asikha
+                        (d. 430s); 19. Salamanes by the Euphrates; 20. Maris of Cyrrhus (d. c. 430);
+                        21. Jacob of Cyrrhestica; 22. Linneaeus of Cyrrhus; 23. John of Cyrrhus,
+                        Moses of Rama, Antonius; 24. Zebinas, Polychronius of Cyrrhus; 25. Asclepius
+                        of Cyrrhus, John of Nimouza; 26. Shemʿun the Stylite; 27. Baradatus of
+                        Antioch; 28. Thalelaeus of Gabala; 29. Marana and Cyra of Beroea; 30.
+                        Domnina of Cyrrhus.</p>
+                    <p>Three chapters from his ‘History of the Monks’ survive in Syriac translation
+                        (Yaʿqub of Nisibis, Yulyana Saba, and Abraham of <ref rend="bold" target="https://gedsh.bethmardutho.org/Harran">
+                            <placeName ref="http://syriaca.org/place/216">Ḥarran</placeName>
+                        </ref>), and there
+                        are also fragments of a Syriac translation of his Ecclesiastical History
+                        (unpublished).</p>
+                </div>
+                <div type="bibl">
+                    <listBibl>
+                        <listBibl>
+                            <head>Primary Sources</head>
+                            <bibl>
+                                <title rend="italic">
+                                    <abbr>CPG</abbr>
+                                </title> 6200–6288.</bibl>
+                            <bibl>P.  Canivet and A.  Leroy-Molinghen, <title rend="italic">Histoire
+                                    des moines de Syrie</title> (SC 234, 257; 1977–9). (Greek with
+                                <abbr>FT</abbr> of ‘History of the Monks of Syria’)</bibl>
+                            <bibl>R. M.  Price, <title rend="italic">A history of the monks of
+                                    Syria</title> (1985). (<abbr>ET</abbr> of ‘History of the Monks of
+                                Syria’)</bibl>
+                        </listBibl>
+                        <listBibl>
+                            <head>Secondary Sources</head>
+                            <bibl>P. Canivet, <title rend="italic">Le monachisme syrien selon
+                                    Théodoret de Cyr</title> (1977).</bibl>
+                            <bibl>A.  de  Halleux, ‘L’<title rend="italic">Histoire
+                                    Ecclésiastique</title> de Théodoret dans les florilèges
+                                grégoriens syriaques’, in <title rend="italic">Mélanges Antoine
+                                    Guillaumont</title> (1988), 221–32.</bibl>
+                            <bibl>F. Millar, ‘Theodoret of Cyrrhus: A Syrian in Greek Dress?’<choice>
+                                    <sic>,</sic>
+                                    <corr/>
+                                </choice> in
+                                    <title rend="italic">From Rome to Constantinople. Studies in
+                                    Honour of A. Cameron</title>, <abbr>ed.</abbr> H. Amirav and B. ter Haar
+                                Romeny (Late Antique History and Religion 1; 2007), 105–25.</bibl>
+                            <bibl>B.  Outtier, ‘Notule sur les versions orientales de l’<title rend="italic">Histoire Philothée</title> (<abbr>CPG</abbr> 6221)’, in <title rend="italic">ANTIΔΩΡON. Hommage à M. Geerard</title>, I (1984),
+                                73–80.</bibl>
+                            <bibl>M. Parmentier, ‘A letter from Theodoret of Cyrus to the exiled
+                                Nestorius (<abbr>CPG</abbr> 6270) in a Syriac version’, <title rend="italic">Bijdragen</title> 51 (1990), 234–45.</bibl>
+                            <bibl>Ph.  Rousseau, ‘Moses, monks, and mountains in Theodoret’s
+                                Historia religiosa’, in <title rend="italic">Il monachesimo tra
+                                    eredità e aperture</title>, <abbr>ed.</abbr> M. Bielawski and D. Hombergen
+                                (2004), 323–46.</bibl>
+                            <bibl>Th. Urbainczyk, <title rend="italic">Theodoret of Cyrrhus: The
+                                    bishop and the holy man</title> (2002).</bibl>
+                            <bibl>eadem, ‘ “The devil spoke Syriac to me”: Theodoret in Syria’, in
+                                    <title rend="italic">Ethnicity and culture in Late
+                                    Antiquity</title>, <abbr>ed.</abbr> S. Mitchell and G. Greatrex (2000),
+                                253–65.</bibl>
+                        </listBibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Robert A.</forename> 
+                  <surname>Kitchen</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

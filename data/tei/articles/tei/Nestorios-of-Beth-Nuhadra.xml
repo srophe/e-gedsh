@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Nestorios of Beth Nuhadra</title>
+            <author>
+               <persName>
+                  <forename>Lucas</forename> 
+                  <surname>Van Rompay</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0">Electronic Edition Draft Version 1.0</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Nestorios of Beth Nuhadra</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Nestorios-of-Beth-Nuhadra</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/403</idno>
+                    <idno type="entry">394</idno>
+                    <milestone unit="pages" n="306"/>
+                    <idno type="subject">http://syriaca.org/person/654</idno>
+                    <note type="type">person</note>
+                    <note type="abstract">Bishop of Beth Nuhadra; author.<note/>
+                    </note>
+                </ab>
+                <ab type="infobox">(d. <abbr>ca.</abbr> 800) [Ch. of E.]</ab>
+                <div type="body">
+                    <p>From 790 until his death, Nestorios occupied the episcopal see of <ref rend="bold" target="https://gedsh.bethmardutho.org/Beth-Nuhadra">
+                            <placeName ref="http://syriaca.org/place/36">Beth
+                            Nuhadra</placeName>
+                        </ref>. Before being admitted to this office, he had to be
+                        cleared from any mistrust concerning his orthodoxy. His formal abjuration of
+                        messalianism and other heterodox teachings (preserved among <abbr>Patr. </abbr>
+                        <ref rend="bold" target="https://gedsh.bethmardutho.org/Timotheos-I">
+                            <persName ref="http://syriaca.org/person/790">Timotheos</persName>
+                        </ref>’s letters and published by Braun) opened the
+                        way to his consecration and (as far as we know) uneventful tenure as <abbr>bp.</abbr>,
+                        enjoying the support of his <abbr>
+                            <choice>
+                                <sic>Patr.</sic>
+                                <corr>patr.</corr>
+                            </choice>
+                        </abbr>
+                    </p>
+                    <p>This investigation should be seen in the context of the synod of 790/91, at
+                        which three mystics were condemned: <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Yohannan-of-Dalyatha">
+                            <persName ref="http://syriaca.org/person/826">Yoḥannan of
+                            Dalyatha</persName>
+                        </ref>, <ref rend="bold" target="https://gedsh.bethmardutho.org/Yawsep-Hazzaya">
+                            <persName ref="http://syriaca.org/person/816">Yawsep
+                            Ḥazzaya</persName>
+                        </ref>, and (a certain) Yoḥannan Iḥidaya (the condemnation was
+                        later lifted under Timotheos’s successor). Since Nestorios had lived in the
+                        Monastery of Mar Yozadaq (in Beth Qardu), the home of Yoḥannan of Dalyatha,
+                        and also had known Yawsep Ḥazzaya, it is not surprising that he was
+                        associated with them.</p>
+                    <p>In his ‘Book of Chastity’ <ref rend="bold" target="https://gedsh.bethmardutho.org/Ishodnah">
+                            <persName ref="http://syriaca.org/person/556">Ishoʿdnaḥ</persName>
+                        </ref> of Baṣra
+                        attributes to Nestorios a no longer extant biography of Yawsep Ḥazzaya.
+                        Nestorios may have written it in defense of Yawsep when the latter became
+                        victim to accusations. One short treatise by Nestorios is preserved, ‘On the
+                        initial motion (<hi rend="italic">mettziʿānutā</hi>) of God’s grace’. In it
+                        Nestorios argues that due to the ‘natural seeds’ that God instilled in us
+                        (weakened by sin but reinvigorated by Christ’s coming), we are able to
+                        receive God’s fire. He also maintains that man indeed is able to see God in
+                        a spiritual vision, a hotly debated question in Nestorios’s day. Nestorios
+                        certainly was ‘not a marginal’ figure in a period when the <abbr>Ch. of E.</abbr> was
+                        trying to strike a balance ‘between institution and prophecy’ (Berti).</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>V.  Berti, ‘Grazia, visione e natura divina in Nestorio di
+                            Nuhadra, solitario e vescovo siro-orientale († 800 <abbr>ca.</abbr>)’, <title rend="italic">Annali di Scienze Religiose</title> 10 (2005),
+                            219–57.</bibl>
+                        <bibl>O.  Braun, ‘Zwei Synoden des Katholikos Timotheos I’, <title rend="italic">
+                                <abbr>OC</abbr>
+                            </title> 2 (1902), 283–311.</bibl>
+                        <bibl>J.  Martikainen, ‘Timotheos I. und der Messaliansimus’, in <title rend="italic">
+                                <choice>
+                                    <sic>Makarios Symposium</sic>
+                                    <corr>Makarios-Symposium</corr>
+                                </choice> 
+                        <choice>
+                                    <sic>uber</sic>
+                                    <corr>über</corr>
+                                </choice> das Gebet</title>, <abbr>ed.</abbr> J.
+                            Martikainen and H.-O. Kvist (1989), 47–60.</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Lucas</forename> 
+                  <surname>Van Rompay</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

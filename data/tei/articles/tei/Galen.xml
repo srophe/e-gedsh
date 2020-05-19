@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Galen</title>
+            <author>
+               <persName>
+                  <forename>Sebastian P.</forename> 
+                  <surname>Brock</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0">Electronic Edition Draft Version 1.0</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Galen</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Galen</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/228</idno>
+                    <idno type="entry">219</idno>
+                    <milestone unit="pages" n="171"/>
+                    <idno type="subject">http://syriaca.org/person/496</idno>
+                    <note type="type">person</note>
+                    <note type="abstract">Influential Greek writer on medicine.<note/>
+                    </note>
+                </ab>
+                <ab type="infobox">(d. <abbr>ca.</abbr> 199)</ab>
+                <div type="body">
+                    <p>Influential Greek writer on <ref rend="bold" target="https://gedsh.bethmardutho.org/Medicine">medicine</ref> from Pergamum. A
+                        short biographical note concerning him is given by <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Bar-Ebroyo-Grigorios">
+                            <persName ref="http://syriaca.org/person/239">Bar
+                            ʿEbroyo</persName>
+                        </ref> (<hi rend="italic">Chronicon Syriacum</hi>, <abbr>ed.</abbr> Bedjan,
+                        53–4). His medical writings, together with his doctrine of the four humors,
+                        proved to be extremely influential and came to dominate medical thinking in
+                        both East and West for well over a thousand years. Numerous works of his
+                        were translated into Syriac, and an invaluable listing of these and their
+                        translators is preserved in <ref rend="bold" target="https://gedsh.bethmardutho.org/Hunayn-b-Ishaq">
+                            <persName ref="http://syriaca.org/person/542">Ḥunayn <abbr>b.</abbr>
+                            Isḥāq</persName>
+                        </ref>’s <hi rend="italic">Risāla</hi>, concerning his own
+                        translations of works by Galen. <ref rend="bold" target="https://gedsh.bethmardutho.org/Sergios-of-Reshayna">
+                            <persName ref="http://syriaca.org/person/49">Sergios of
+                            Reshʿayna</persName>
+                        </ref> is the earliest of the translators who are mentioned.
+                        Only a few of the many Syriac translations survive (including some of those
+                        by Sergios); these are either in early <abbr>mss.</abbr>, or incorporated into a large
+                        compendium (<abbr>ed.</abbr> Budge; the identification of passages by Galen was
+                        subsequently made by Schleifer).</p>
+                </div>
+                <div type="bibl">
+                    <listBibl>
+                        <listBibl>
+                            <head>Primary Sources</head>
+                            <bibl>E. A. W. Budge, <title rend="italic">The Syriac Book of
+                                    Medicines</title> (2 vols.; 1913).</bibl>
+                            <bibl>A.  Merx, ‘Proben der syrischen Übersetzung von Galenus’ Schrift
+                                über die einfachen Heilmittel’, <title rend="italic">
+                                    <abbr>ZDMG</abbr>
+                                </title> 39
+                                (1885), 237–305.</bibl>
+                        </listBibl>
+                        <listBibl>
+                            <head>Secondary Sources</head>
+                            <bibl>G.  Bergsträsser, <title rend="italic">Hunain ibn Ishaq. Über die
+                                    syrischen und arabischen
+                                Galen-Übersetzungen</title> (1925).</bibl>
+                            <bibl>R.  Degen, ‘Galen im Syrischen: Eine Übersicht über die syrische
+                                Überlieferung der Werke Galens’, in <title rend="italic">Galen:
+                                    Problems and Prospects</title>, <abbr>ed.</abbr> V. Nutton (1981),
+                                131–66.</bibl>
+                            <bibl>M.  Meyerhof, ‘Les versions syriaques et arabes des écrits
+                                galéniques’, <title rend="italic">Byzantion</title> 3 (1927),
+                                33–51.</bibl>
+                            <bibl>J.  <choice>
+                                    <sic>Schleiffer</sic>
+                                    <corr>Schleifer</corr>
+                                </choice>, ‘Zum syrischen Medizinbuch’, <title rend="italic">Zeitschrift für Semitistik und verwandte Gebiete</title> 4
+                                (1926), 70–122, 161–95; 5 (1927), 195–237; 6 (1928), 154–77,
+                                275–99.</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>J. Schleifer</reg>
+                           <orig>idem</orig>
+                        </choice>, ‘Zum syrischen Medizinbuch. II. Der therapeutische Teil’,
+                                    <title rend="italic">
+                                    <abbr>RSO</abbr>
+                                </title> 18 (1940), 341–72; 20 (1942/3),
+                                1–32, 162–210, 383–98; 21(1946), 157–82.</bibl>
+                            <bibl>O. Temkin, <title rend="italic">Galenism</title> (1973). (for the
+                                wider background)</bibl>
+                        </listBibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Sebastian P.</forename> 
+                  <surname>Brock</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Syriac Catholic Church</title>
+            <author>
+               <persName>
+                  <forename>Amir</forename> 
+                  <surname>Harrak</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0">Electronic Edition Draft Version 1.0</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Syriac Catholic Church</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Syriac-Catholic-Church</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/535</idno>
+                    <idno type="entry">526</idno>
+                    <milestone unit="pages" n="389"/>
+                    <note type="type">org</note>
+                    <note type="abstract">A branch out of the <abbr>Syr. Orth.</abbr> Church
+                             in union with Rome.
+                    </note>
+                </ab>
+                <div type="body">
+                    <p>The elevation in 1656 of Andrew Akhījān (d. 1677) as Catholic <abbr>bp.</abbr> of <ref rend="bold" target="https://gedsh.bethmardutho.org/Aleppo">
+                            <placeName ref="http://syriaca.org/place/18">Aleppo</placeName>
+                        </ref>
+                        and then as <abbr>
+                            <choice>
+                                <sic>Patr.</sic>
+                                <corr>patr.</corr>
+                            </choice>
+                        </abbr> in 1662 was the first major attempt to create a ‘Syriac
+                        Catholic’ branch out of the <abbr>Syr. Orth.</abbr> Church of <ref rend="bold" target="https://gedsh.bethmardutho.org/Antioch">
+                            <placeName ref="http://syriaca.org/place/10">Antioch</placeName>
+                        </ref>. This
+                        attempt was short-lived but when the <abbr>Syr. Orth.</abbr>
+                        <abbr> bp.</abbr> of Aleppo Michael Jarweh
+                        (d. 1800) and four other bishops professed the Catholic faith in 1782 in
+                            <ref rend="bold" target="https://gedsh.bethmardutho.org/Mardin">
+                            <placeName ref="http://syriaca.org/place/130">Mardin</placeName>
+                        </ref>, a durable Catholic Church was established. Thereafter,
+                        numerous communities in Syria, Turkey, Iraq, and Palestine joined the Uniate
+                        movement, and an unbroken line of successors followed Patriarch Jarweh.
+                        Among these prelates are the liturgist Jirjis V Shalḥat (d. 1891), the
+                        learned <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Rahmani-Ignatius-Ephrem-II">
+                            <persName ref="http://syriaca.org/person/701">Ignatius Ephrem Raḥmani</persName>
+                        </ref>, (d. 1929), Cardinal
+                            <ref rend="bold" target="https://gedsh.bethmardutho.org/Tappuni-Gabriel">
+                            <persName ref="http://syriaca.org/person/770">Gabriel Tappuni</persName>
+                        </ref> (d. 1968), and lately Cardinal Mūsā I Dāʾūd,
+                        former Prefect of the Congregation of Eastern Churches. In 1930 in India, a
+                        group within the <abbr>Syr. Orth.</abbr> Church of Malabar joined the Roman Catholic
+                        Church. The <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Malankara-Catholic-Church">Malankara Catholic Church</ref> that emerged shares with the Syriac
+                        Catholic Church its liturgy but they differ in that the former is
+                        Archiepiscopal while the latter is patriarchal. The Church currently
+                        consists of 3 eparchies (<ref rend="bold" target="https://gedsh.bethmardutho.org/Beirut">
+                            <placeName ref="http://syriaca.org/place/46">Beirut</placeName>
+                        </ref>
+                        [patriarchal], Cairo, USA-Canada), 6 archdioceses (<ref rend="bold" target="https://gedsh.bethmardutho.org/Damascus">
+                            <placeName ref="http://syriaca.org/place/66">Damascus</placeName>
+                        </ref>, Aleppo,
+                            <ref rend="bold" target="https://gedsh.bethmardutho.org/Hims">
+                            <placeName ref="http://syriaca.org/place/215">Ḥimṣ</placeName>
+                        </ref>-Nabk, Hasaka-<ref rend="bold" target="https://gedsh.bethmardutho.org/Nisibis">
+                            <placeName ref="http://syriaca.org/place/142">Nisibis</placeName>
+                        </ref>, <ref rend="bold" target="https://gedsh.bethmardutho.org/Mosul">
+                            <placeName ref="http://syriaca.org/place/139">Mosul</placeName>
+                        </ref>,
+                            <ref rend="bold" target="https://gedsh.bethmardutho.org/Baghdad">
+                            <placeName ref="http://syriaca.org/place/41">Baghdad</placeName>
+                        </ref>), 4 patriarchal eparchies (Turkey, <ref rend="bold" target="https://gedsh.bethmardutho.org/Jerusalem">
+                            <placeName ref="http://syriaca.org/place/104">Jerusalem</placeName>
+                        </ref>-Holy
+                        Land, Baṣra-Gulf, Venezuela), 4 missions (France, Sweden, Australia,
+                        Brazil), and 1 patriarchal procuracy (Rome). The patriarchal seat is in
+                        Beirut, where the cyclical synods of the Church take place. There too is the
+                        Monastery of <ref rend="bold" target="https://gedsh.bethmardutho.org/Sharfeh">
+                            <placeName ref="http://syriaca.org/place/232">Sharfeh</placeName>
+                        </ref>, which not only contains a precious collection of <abbr>mss.</abbr>
+                        and a press, but also includes the Church’s main seminary. The Church owns
+                        other monasteries as well, including <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Musa-al-Habashi-Dayr-Mar">
+                            <placeName ref="http://syriaca.org/place/228">Dayr Mār
+                            Mūsā al-Ḥabashī</placeName>
+                        </ref> in Syria, which contains famous medieval wall
+                        paintings, and the 12th-cent. <ref rend="bold" target="https://gedsh.bethmardutho.org/Behnam-Dayro-d-Mor">
+                            <placeName ref="http://syriaca.org/place/225">Dayro d-Mor
+                            Behnam</placeName>
+                        </ref> in Iraq, an architectural jewel and a true museum of
+                        lapidary art. Syr. Catholic monastic and priestly communities include the
+                        Ephremite nuns in Lebanon, an ascetic community in Dayr Mār Mūsā in Syria,
+                        and the ‘Priests of Jesus the King’ in Iraq, a group that promotes priestly
+                        communal life.</p>
+                    <p>See <ref target="https://gedsh.bethmardutho.org/fig/111">Fig. 111</ref>.</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>M. al-Jamīl, <title rend="italic">al-Abrašiyyāt al-suryāniyya
+                                min 1900 ilā 2003</title> (2003).</bibl>
+                        <bibl>C. Sélis, <title rend="italic">Les Syriens orthodoxes et
+                                catholiques</title> (1988).</bibl>
+                        <bibl>Ph. de Tarrazi, <title rend="italic">al-Salāsil al-taʾrīkhiyya</title>
+                            (1910).</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Amir</forename> 
+                  <surname>Harrak</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

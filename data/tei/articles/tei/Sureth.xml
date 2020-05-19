@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Sureth</title>
+            <author>
+               <persName>
+                  <forename>Alessandro</forename> 
+                  <surname>Mengozzi</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0">Electronic Edition Draft Version 1.0</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Sureth</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Sureth</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/531</idno>
+                    <idno type="entry">522</idno>
+                    <milestone unit="pages" n="385-386"/>
+                    <idno type="althead">Modern Syriac</idno>
+                    <idno type="althead">Neo-Syriac</idno>
+                    <idno type="althead">Felliḥi</idno>
+                    <note type="type">subject</note>
+                    <note type="abstract">The term Sureth (&lt; <foreign rend="italic" xml:lang="en-x-gedsh">surāʾith</foreign> ‘in Syriac’) refers to a number
+                        of North-Eastern Neo-Aramaic dialects spoken by E. Syrians in North
+                        <placeName>Iraq</placeName>, especially in the
+                        villages of the <placeName ref="http://syriac.org/place/722" type="region">Mosul
+                            plain</placeName>.<note/>
+                    </note>
+                </ab>
+                <ab type="infobox">Modern Syriac, Neo-Syriac, Felliḥi</ab>
+                <div type="body">
+                    <p>The term Sureth (&lt; <hi rend="italic">surāʾith</hi> ‘in Syriac’) refers to
+                        a number of North-Eastern Neo-Aramaic dialects spoken by E. Syrians in North
+                        Iraq, especially in the villages of the <ref rend="bold" target="https://gedsh.bethmardutho.org/Mosul">
+                            <placeName ref="http://syriaca.org/place/139">Mosul</placeName>
+                        </ref> plain. The use
+                        for literary purposes of what is seemingly a <hi rend="italic">koine</hi>
+                        based on the <ref rend="bold" target="https://gedsh.bethmardutho.org/Alqosh">
+                            <placeName ref="http://syriaca.org/place/19">Alqosh</placeName>
+                        </ref> (and <ref rend="bold" target="https://gedsh.bethmardutho.org/Telkepe">
+                            <placeName ref="http://syriaca.org/place/197">Telkepe</placeName>
+                        </ref>?) dialects
+                        has been attested since the end of the 16th <abbr>cent.</abbr> Later on, 19th and 20th
+                        <abbr>cent.</abbr> Sureth texts exhibit dialectal features of other districts, such as
+                        the mountain villages on the Iraqi-Turkish border or the town of Mosul. The
+                        <abbr>ms.</abbr> transmission of Sureth texts is characterized by phonetic spelling,
+                        unlike the rather historico-etymological standard in use for <ref rend="bold" target="https://gedsh.bethmardutho.org/Urmia">
+                            <placeName ref="http://syriaca.org/place/206">Urmia</placeName>
+                        </ref>
+                        Neo-Aramaic (Assyrian). The earliest attested texts are religious poems
+                        belonging to the <ref rend="bold" target="https://gedsh.bethmardutho.org/Dorektha">
+                            <hi rend="italic">dorekthā</hi>
+                        </ref> genre. Wedding songs in
+                        Sureth (<hi rend="italic">zmeryāthā d-rāwe</hi>) have been recorded in
+                        written form by European and Assyrian scholars. Spoken or literary varieties
+                        of Sureth are also known as Felliḥi, Iraqi koine, Modern Syriac, Neo-Syriac,
+                        Vernacular Syriac.</p>
+                    <p>See also <ref rend="bold" target="https://gedsh.bethmardutho.org/Aramaic">Aramaic</ref>.</p>
+                    <p>See <ref target="https://gedsh.bethmardutho.org/fig/44">Fig. 44</ref>.</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>I.  Guidi, ‘Beiträge zur Kenntnis des neuaramäischen
+                            Fellīḥī-Dialektes’, <title rend="italic">
+                                <abbr>ZDMG</abbr>
+                            </title> 39 (1883),
+                            293–318.</bibl>
+                        <bibl>O.  Jastrow, ‘The Neo-Aramaic languages’, in <title rend="italic">The
+                                Semitic languages</title>, <abbr>ed.</abbr> R.  Hetzron (1997), 334–77.</bibl>
+                        <bibl>J. Rhétoré, <title rend="italic">Grammaire de la langue soureth ou
+                                chaldéen vulgaire selon le dialecte de la plaine de Mossoul et des
+                                pays adjacents</title> (1912).</bibl>
+                        <bibl>E.  Sachau, <title rend="italic">Skizze des Fellichi-Dialekts von
+                                Mosul</title> (1895).</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>E.  Sachau</reg>
+                        <orig>idem</orig>
+                     </choice>, ‘Über die Poesie in der Volkssprache der Nestorianer’, <title rend="italic">
+                                <choice>
+                                    <sic>Sitzungsberichten</sic>
+                                    <corr>Sitzungsberichte</corr>
+                                </choice> der Königlich-Preussischen Akademie
+                                der Wissenschaften zu Berlin</title> 11.8 (1896), 179–215.</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Alessandro</forename> 
+                  <surname>Mengozzi</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

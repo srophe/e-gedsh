@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Maʿad</title>
+            <author>
+               <persName>
+                  <forename>Erica Cruikshank</forename> 
+                  <surname>Dodd</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0">Electronic Edition Draft Version 1.0</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Maʿad</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Maad</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/343</idno>
+                    <idno type="entry">334</idno>
+                    <milestone unit="pages" n="252-253"/>
+                    <idno type="subject">http://syriaca.org/place/264</idno>
+                    <note type="type">place</note>
+                    <note type="abstract">Village 14 km. northeast of Byblos and 52 km. from Beirut; site of 6th-cent. Church of Mar Charbel that has wall paintings<note/>
+                    </note>
+                </ab>
+                <div type="body">
+                    <p>The village of Maʿad is 14 km. northeast of Byblos (Jbeil), 52 km. from <ref rend="bold" target="https://gedsh.bethmardutho.org/Beirut">
+                            <placeName ref="http://syriaca.org/place/46">Beirut</placeName>
+                        </ref>,
+                        525 m. above sea level. The Church of Mar Charbel is built on the remains of
+                        a 1st-cent. temple to the Roman <choice>
+                            <sic>God</sic>
+                            <corr>god</corr>
+                        </choice> Satrapos. The base of the temple,
+                        columns, and capitals were used in the building of a church dating from the
+                        6th <abbr>cent.</abbr> At a later period, in the 12th or 13th <abbr>cent.</abbr>, a substantial
+                        narthex was added to the W. end along with new vaulting.</p>
+                    <p>At least two layers of decoration are painted on the walls of the church: 1.
+                        to the first period belong the wall paintings of the apse, and paintings on
+                        the northern wall of a small annex in the southeast corner of the church, at
+                        the end of the southern nave; 2. a large Dormition of the Virgin, on the
+                        southern wall of this same small room, belongs to the second period.
+                        Paintings of the second period also cover parts of the paintings on the
+                        northern wall.</p>
+                    <p>In the apse, four evangelists stand on either side of a central crowned saint
+                        who has not been identified. On the northern wall of the annex are two more
+                        unidentified saints from the first period, accompanied by two donors, a male
+                        and a female. On this same wall and partially covering the saints
+                        underneath, is the large figure of an archangel, between two more saints,
+                        also unidentified. These latter saints, and a donor on the same wall, belong
+                        to the second period. Accompanying the twelve apostles and Christ, beside
+                        the Virgin’s bier, in the Dormition, are St. Dionysios the Areopagite, and
+                        also the Jew Jephonias, whose hands have been cut off by the archangel
+                        Gabriel. The donor of this painting is represented behind Jephonias.</p>
+                    <p>All the wall paintings in Mar Charbel are inscribed in Syriac, in a mixture
+                        of Serṭo and Esṭrangela which sometimes contains Arabic words.</p>
+                    <p>
+                        <ref rend="bold" target="https://gedsh.bethmardutho.org/al-Duwayhi-Istifan">
+                            <persName ref="http://syriaca.org/person/460">Isṭifān al-Duwayhī</persName>
+                        </ref>, <abbr>Maron.</abbr>
+                        <abbr> 
+                     <choice>
+                                <sic>Patr.</sic>
+                                <corr>patr.</corr>
+                            </choice>
+                        </abbr> in the 17th <abbr>cent.</abbr>, writes that
+                        Ḥanna al-Franjiyya, Bint al-Khabbaz, was buried in this church in 1243. This
+                        date corresponds to the style of the second group of paintings. The style of
+                        each layer of painting is distinctive. The hand of a 12th  cent. French
+                        painter has been identified in the first layer. The style of the second
+                        layer belongs to the <abbr>Syr. Orth.</abbr> tradition of <ref rend="bold" target="https://gedsh.bethmardutho.org/Bahdeidat">
+                            <placeName ref="http://syriaca.org/place/263">Bahdeidat</placeName>
+                        </ref> and
+                            <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Musa-al-Habashi-Dayr-Mar">
+                            <placeName ref="http://syriaca.org/place/228">Dayr Mār
+                            Mūsā al-Ḥabashī</placeName>
+                        </ref>, in the 13th <abbr>cent.</abbr>
+                    </p>
+                    <p>See <ref target="https://gedsh.bethmardutho.org/fig/63">Fig. 63</ref>.</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>E.  Cruikshank Dodd, <title rend="italic">Medieval Painting in
+                                the Lebanon</title> (2001), 316–36.</bibl>
+                        <bibl>N.  Hélou, ‘La fonction de l’annexe sud de l’église de Ma’ad’, <title rend="italic">Tempora. Annales d’histoire et
+                            d’archéologie</title> 10–11 (1999–2000), 139–62.</bibl>
+                        <bibl>L. Nordiguian and J.-C. Voisin, <title rend="italic">Châteaux et
+                                églises du moyen âge au Liban</title> (1999), 395–6.</bibl>
+                        <bibl>L.  Nordiguian and F. Chausson, <title rend="italic">Ma’ad. De
+                                Sadrapha au Christ</title> (2000).</bibl>
+                        
+                        <bibl>Y. Sader, <title rend="italic">Painted churches and rock-cut chapels
+                                of Lebanon</title> (1997), 101–119.</bibl>
+                        <bibl>M.  Tallon, ‘Peintures byzantines au Liban. Inventaire’, <title rend="italic">
+                                <abbr>MUSJ</abbr>
+                            </title> 38 (1962), 294.</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Erica Cruikshank</forename> 
+                  <surname>Dodd</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

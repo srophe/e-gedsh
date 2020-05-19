@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Rhetoric</title>
+            <author>
+               <persName>
+                  <forename>John W.</forename> 
+                  <surname>Watt</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0">Electronic Edition Draft Version 1.0</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Rhetoric</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Rhetoric</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/466</idno>
+                    <idno type="entry">457</idno>
+                    <milestone unit="pages" n="352-353"/>
+                    <note type="type">subject</note>
+                    <note type="abstract">Artistic use of
+                        language, primarily in speech but secondarily in writing, with the purpose
+                        of influencing the hearers or readers.<note/>
+                    </note>
+                </ab>
+                <div type="body">
+                    <p>In the widest sense a term designating the artistic use of language,
+                        primarily in speech but secondarily in writing, with the purpose of
+                        influencing the hearers or readers. As such rhetoric has arisen in
+                        civilizations and languages the world over, and in Syriac the most notable
+                        extant rhetoric may be thought to be the poetry of <ref rend="bold" target="https://gedsh.bethmardutho.org/Ephrem">
+                            <persName ref="http://syriaca.org/person/13">Ephrem</persName>
+                        </ref>, which,
+                        through the artistic use of the Syriac language, was designed to persuade
+                        the hearers to adhere to his vision of the Christian faith and to dissuade
+                        them from the ways of his opponents. Within the sphere of European and Near
+                        Eastern civilization, however, ‘rhetoric’ often serves as a short
+                        designation for what may be more precisely termed ‘classical rhetoric’, the
+                        theory of discourse, applied both to speaking and writing, developed in
+                        ancient Greece and Rome. This theory or technique was presented in treatises
+                        and manuals in Greek and Latin, and became, both at elementary and higher
+                        levels, a principal component of the educational system of classical and
+                        late antiquity. With the influence of Greek culture in the Syriac-speaking
+                        area, classical rhetoric became familiar to Syrians and exercised an
+                        influence also on Syriac literature, and in this sense the term <hi rend="italic">rhiṭuriqe</hi> (or similar) and its cognates are employed
+                        in Syriac, from the Greek (<hi rend="italic">technē</hi>) <hi rend="italic">rhētorikē</hi>. <ref rend="bold" target="https://gedsh.bethmardutho.org/John-bar-Aphtonia">
+                            <persName ref="http://syriaca.org/person/52">John bar
+                            Aphtonia</persName>
+                        </ref>, founder of the famous <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Qenneshre-Monastery-of">
+                            <placeName ref="http://syriaca.org/place/230">Monastery
+                            of Qenneshre</placeName>
+                        </ref>, was born in <ref rend="bold" target="https://gedsh.bethmardutho.org/Edessa">
+                            <placeName ref="http://syriaca.org/place/78">Edessa</placeName>
+                        </ref> of a father
+                        who, according to a Syriac panegyric of John, ‘partook of secular wisdom, as
+                        not without foresight it ends up with the art of rhetoric (<hi rend="italic">ummānuthā d-rhiṭruthā</hi>)’.</p>
+                    <p>Classical rhetoric categorized discourse as forensic (judgement on the past),
+                        deliberative (advice for the future), or epideictic (praise or blame), and
+                        examples of each may be found in Syriac literature. The oration of <ref rend="bold" target="https://gedsh.bethmardutho.org/Narsai">
+                            <persName ref="http://syriaca.org/person/650">Narsai</persName>
+                        </ref>
+                        on the three E.-Syr. teachers has been analysed as a speech of defence
+                        structured according to the precepts of forensic rhetoric, and the <ref rend="bold" target="https://gedsh.bethmardutho.org/Book-of-Steps">Book of
+                            Steps</ref> as a set of exhortations patterned after the principles of
+                        deliberative rhetoric. The clearest examples of the influence of classical
+                        rhetoric in Syriac, however, fall within the realm of epideictic: an
+                        anonymous speech in praise of John bar Aphtonia, an oration on <ref rend="bold" target="https://gedsh.bethmardutho.org/Severus-of-Antioch">
+                            <persName ref="http://syriaca.org/person/51">Severus of Antioch</persName>
+                        </ref> by <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Giwargi-bp-of-the-Arab-tribes">
+                            <persName ref="http://syriaca.org/person/122">Giwargi <abbr>bp.</abbr> of the Arab
+                            tribes</persName>
+                        </ref>, and an oration on <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Philoxenos-of-Mabbug">
+                            <persName ref="http://syriaca.org/person/44">Philoxenos
+                            of Mabbug</persName>
+                        </ref> by <ref rend="bold" target="https://gedsh.bethmardutho.org/Eli-of-Qartmin">
+                            <persName ref="http://syriaca.org/person/465">Eli of
+                            Qarṭmin</persName>
+                        </ref>.</p>
+                    <p>The ‘Book of Dialogues’ of <ref rend="bold" target="https://gedsh.bethmardutho.org/Yaqub-bar-Shakko">
+                            <persName ref="http://syriaca.org/person/231">Yaʿqub bar
+                            Shakko</persName>
+                        </ref> is evidence that even as late as the 13th <abbr>cent.</abbr> Syriac
+                        scholars accorded rhetoric a place in their curriculum of ‘secular wisdom’
+                        consistent with the position it held in late antiquity, for Book One of this
+                        treatise has four sections devoted to grammar, rhetoric, poetics, and the
+                        copiousness of the Syriac language, Book Two being devoted to logic and
+                        philosophy. Most of the sections on rhetoric and poetics are derived from
+                        the single extant treatise in Syriac devoted entirely to rhetoric, that by
+                            <ref rend="bold" target="https://gedsh.bethmardutho.org/Antun-of-Tagrit">
+                            <persName ref="http://syriaca.org/person/154">Anṭun of Tagrit</persName>
+                        </ref>. This lengthy treatise (in five Books) exhibits
+                        several points of contact with classical rhetorical theory, but also some
+                        significant differences. While naming <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Gregory-of-Nazianzus">
+                            <persName ref="http://syriaca.org/person/511">Gregory of
+                            Nazianzus</persName>
+                        </ref>, whose orations he knew in Syriac translation, ‘the
+                        prince of rhetors’, Anṭun equally admired the ‘ornamentation of words’ (the
+                        subject of Book Five) produced by Ephrem.</p>
+                    <p>The ‘Rhetoric’ of <ref rend="bold" target="https://gedsh.bethmardutho.org/Aristotle">
+                            <persName ref="http://syriaca.org/person/342">Aristotle</persName>
+                        </ref>, in
+                        modern times the most widely admired treatise of Greek rhetoric, was not as
+                        influential in late antiquity as the works of other Greek writers on
+                        rhetoric. It was, however, included by late antique Alexandrian philosophers
+                        in the Organon, the set of treatises by Aristotle devoted to logic. Like
+                        other treatises of the Organon, it was rendered into Syriac. The Syriac
+                        version is lost, but was probably the basis for the ‘old’ (<choice>
+                            <sic>i.e. </sic>
+                            <corr>i.e., </corr>
+                        </choice>prior to
+                            <ref rend="bold" target="https://gedsh.bethmardutho.org/Hunayn-b-Ishaq">
+                            <persName ref="http://syriaca.org/person/542">Ḥunayn <abbr>b.</abbr> Isḥāq</persName>
+                        </ref>) Arabic version, which is extant and was the
+                        subject of commentaries by Islamic philosophers. The Syriac version was the
+                        subject of a commentary by <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Bar-Ebroyo-Grigorios">
+                            <persName ref="http://syriaca.org/person/239">Bar ʿEbroyo</persName>
+                        </ref> in his ‘Cream
+                        of Wisdom’, although Bar ʿEbroyo also made much use of the Arabic commentary
+                        by Avicenna on the old Arabic version.</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>A.  Böhlig, ‘Zur Rhetorik im Liber Graduum’, in <abbr>
+                                <title rend="italic">SymSyr </title>IV</abbr>, 297–305.</bibl>
+                        <bibl>P. E.  Eskenasy, <title rend="italic">Antony of Tagrit’s Rhetoric Book
+                                One: introduction, partial translation, and commentary</title>
+                            (Ph. D. diss. Harvard University; 1991). (review by E. Riad, in <title rend="italic">
+                                <abbr>OrSuec</abbr>
+                            </title> 41–42 [1992–93], 309–14)</bibl>
+                        <bibl>M. C.  Lyons, <title rend="italic">Aristotle’s Ars rhetorica: The
+                                Arabic version</title> (1982).</bibl>
+                        <bibl>K. E.  McVey, ‘The memra of Narsai on the three Nestorian doctors as
+                            an example of forensic rhetoric’, in <abbr>
+                                <title rend="italic">SymSyr</title>
+                            III</abbr>, 87–96.</bibl>
+                        <bibl>eadem, <title rend="italic">George, bishop of the Arabs. A homily on
+                                blessed Mar Severus, patriarch of Antioch</title> (<abbr>CSCO</abbr> 530–1;
+                            1993).</bibl>
+                        <bibl>R. R.  Phenix, <title rend="italic">The Sermons on Joseph of Balai of
+                                Qenneshrin. Rhetoric and interpretation in fifth-century Syriac
+                                literature</title> (Studien und Texte zu Antike und Christentum;
+                            2008).</bibl>
+                        <bibl>J. W.  Watt, <title rend="italic">The fifth Book of the Rhetoric of
+                                Antony of Tagrit</title> (<abbr>CSCO</abbr> 480–1; 1986).</bibl>
+                        <bibl>J. W.  Watt, ‘Syriac panegyric in theory and practice’, <title rend="italic">
+                                <abbr>LM</abbr>
+                            </title> 102 (1989), 271–98.</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>J. W.  Watt</reg>
+                        <orig>idem</orig>
+                     </choice>, ‘Grammar, Rhetoric, and the Enkyklios Paideia in Syriac’, <title rend="italic">
+                                <abbr>ZDMG</abbr>
+                            </title> 143 (1993), 45–71.</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>J. W.  Watt</reg>
+                        <orig>idem</orig>
+                     </choice>, ‘The Syriac reception of Platonic and Aristotelian rhetoric’,
+                                <title rend="italic">ARAM</title> 5 (1993), 579–601.</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>J. W.  Watt</reg>
+                        <orig>idem</orig>
+                     </choice>, ‘A portrait of John bar Aphtonia, founder of the monastery of
+                            Qenneshre’, in <title rend="italic">Portraits of Spiritual
+                                Authority</title>, <abbr>ed.</abbr> J. W. Drijvers and J. W. Watt (Religions in
+                            the Graeco-Roman World 137; 1999), 155–69.</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>J. W.  Watt</reg>
+                        <orig>idem</orig>
+                     </choice>, <title rend="italic">Aristotelian rhetoric in Syriac. Bar
+                                Hebraeus, Butyrum Sapientiae, Book of Rhetoric</title> (Aristoteles
+                            Semitico-Latinus 18; 2005).</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>J. W.  Watt</reg>
+                        <orig>idem</orig>
+                     </choice>, ‘Literary and philosophical rhetoric in Syriac’, in <title rend="italic">Literary and philosophical rhetoric in the Greek,
+                                Roman, Syriac and Arabic worlds</title>, <abbr>ed.</abbr> F. Woerther (Europaea
+                            Memoria 1.66; 2009), 141–54.</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>John W.</forename> 
+                  <surname>Watt</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

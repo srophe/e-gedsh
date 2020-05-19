@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Mardin</title>
+            <author>
+               <persName>
+                  <forename>Hidemi</forename> 
+                  <surname>Takahashi</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0">Electronic Edition Draft Version 1.0</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Mardin</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Mardin</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/360</idno>
+                    <idno type="entry">351</idno>
+                    <milestone unit="pages" n="267-268"/>
+                    <idno type="althead">Marde</idno>
+                    <idno type="subject">http://syriaca.org/place/130</idno>
+                    <note type="type">place</note>
+                    <note type="abstract">City in upper <placeName ref="http://syriaca.org/place/1452">Mesopotamia</placeName> and
+                        important center of Syriac Christianity, especially for the <abbr>Syr. Orth.</abbr>
+                        Church as the city closest to <placeName ref="http://syriaca.org/place/69">Dayr al-Zaʿfarān</placeName>, the seat of the <abbr>
+                            <choice>
+                                <sic>Patr.</sic>
+                                <corr>patr.</corr>
+                            </choice>
+                        </abbr> from 1293 until
+                        1932. <note/>
+                    </note>
+                </ab>
+                <ab type="infobox">Marde</ab>
+                <div type="body">
+                    <p>City in upper Mesopotamia and important center of Syriac Christianity,
+                        especially for the <abbr>Syr. Orth.</abbr> Church as the city closest to <ref rend="bold" target="https://gedsh.bethmardutho.org/al-Zafaran-Dayr">
+                            <placeName ref="http://syriaca.org/place/69">Dayr
+                            al-Zaʿfarān</placeName>
+                        </ref>, the seat of the <abbr>patr.</abbr> from 1293 until 1932. Despite
+                        its strategic location overlooking the plain to the south at the point where
+                        the road from <ref rend="bold" target="https://gedsh.bethmardutho.org/Nisibis">
+                            <placeName ref="http://syriaca.org/place/142">Nisibis</placeName>
+                        </ref> to <ref rend="bold" target="https://gedsh.bethmardutho.org/Amid">
+                            <placeName ref="http://syriaca.org/place/8">Amid</placeName>
+                        </ref>
+                        enters the mountains, Mardin seems to have been of relatively little
+                        importance in Roman and Byzantine times. In Islamic times, it was the seat
+                        of a line of Artuqids from 1108/9 until 1408. Administrative center of a
+                        district (<hi rend="italic">sancak</hi>) within the province (<hi rend="italic">vilayet</hi>) of Diyarbakır in late Ottoman times, Mardin
+                        is today the capital of the province of the same name in the Republic of
+                        Turkey.</p>
+                    <p>Barsoum mentions as the first <abbr>bp.</abbr> of Mardin a certain Christopher named in
+                        the Life of Mor Abḥai. Historically more certain is Daniel ʿUzoyo, abbot of
+                        Qarṭmin (see <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Gabriel-Monastery-of-Mor">
+                            <placeName ref="http://syriaca.org/place/226">Monastery of Mor Gabriel</placeName>
+                        </ref>), who was made metropolitan of Tella,
+                        Mardin, Dara, and <ref rend="bold" target="https://gedsh.bethmardutho.org/Tur-Abdin">
+                            <placeName ref="http://syriaca.org/place/221">Ṭur ʿAbdin</placeName>
+                        </ref> in
+                        614/5. Until the 12th <abbr>cent.</abbr>, the see of Mardin was frequently joined with
+                        that of Kfartuto, apparently with residence at first (until 8th <abbr>cent.</abbr>?) in
+                        Kfartuto and later in Mardin. In the schism that followed the death of <abbr>Patr.</abbr>
+                        Philoxenos Nemrod in 1292, Ignatius bar Wahib (<abbr>patr.</abbr> 1293–1333) became the
+                        first in the line of patriarchs who resided regularly in Mardin and Dayr
+                        al-Zaʿfarān. Following the death of <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Dolabani-Philoxenos-Yuhanon">
+                            <persName ref="http://syriaca.org/person/454">Philoxenos Yuḥanon Dolabani</persName>
+                        </ref> in 1969, the see remained vacant and
+                        was administered by patriarchal vicars until the appointment of Philoxenos
+                        Saliba Özmen in 2003.</p>
+                    <p>Mardin was also an important center of the Syr. Catholic movement and was,
+                        along with <ref rend="bold" target="https://gedsh.bethmardutho.org/Beirut">
+                            <placeName ref="http://syriaca.org/place/46">Beirut</placeName>
+                        </ref>, a regular place of residence for the Syr. Catholic
+                        patriarchs from 1853, when <abbr>Metr.</abbr> Yūliyūs Anṭūn Samḥīrī of Mardin was
+                        elevated to the patriarchate, until the First World War.</p>
+                    <p>The presence of E.-Syr. Christians in Mardin is suggested by the inclusion of
+                        ‘Mardin’ in the titles of bishops of Maypherqaṭ from the 12th <abbr>cent.</abbr> onwards.
+                        The first E.-Syr. <abbr>bp.</abbr> specifically for Mardin seems to be the <abbr>Chald.</abbr>
+                        Ḥenanishoʿ consecrated after the schism of 1552. The scholar-<abbr>bp.</abbr> Yoḥannan
+                        Eliya Mellus (1831–1908, <abbr>metr.</abbr> of Mardin since 1890) left an important
+                        collection of <abbr>mss.</abbr> at the <abbr>Chald.</abbr> episcopal residence. The <abbr>Chald.</abbr> see of
+                        Mardin lapsed with the death of Israel Audo (<abbr>metr.</abbr> 1914–41).</p>
+                    <p>In 1913, Tfinkdji estimated the Christian population of Mardin at 20,000 out
+                        of a total population of 50,000, with 6,500 Armenian Catholics, 7,000 Syr.
+                        Orth., 1,750 Syr. Catholics, 1,100 <abbr>Chald.</abbr> and 120 Protestants. In 2005,
+                        there were reported to be 75 <abbr>Syr. Orth.</abbr>, 7 Syr. Catholic, and 2 Armenian
+                        families as well as 1 <abbr>Chald.</abbr> family.</p>
+                    <p>The following churches are to be found today or are known to have existed in
+                        the past in Mardin. <abbr>Syr. Orth.</abbr>: 1. Forty Martyrs (in Şar Quarter, west of
+                        Cumhuriyet Square, formerly Mor Behnam and Sara, 5/6th <abbr>cent.</abbr>, principal
+                        church of <abbr>Syr. Orth.</abbr> community with former patriarchal apartments); 2. Mor
+                        Mikayel (south of town, on the site of martyrdom of Michael and his sister,
+                        5th  cent.?); 3. Mort Shmuni (in Teker Quarter in eastern part of old city,
+                        6th <abbr>cent.</abbr>?); 4. Mor Peṭros and Pawlos (in Gül Quarter near eastern end of
+                        old city, 1914<choice>
+                            <sic>.</sic>
+                            <corr/>
+                        </choice>); 5. Yoldat Aloho (in Savur Gate Quarter near eastern end of
+                        old city, 1857, sold in 1953). Syr. Catholic: 1. Yoldat Aloho (Immaculate
+                        Conception, on Cumhuriyet Square, 1860; the adjacent former patriarchate,
+                        built in 1895, is now a municipal museum); 2. Mor Ephrem Monastery (in
+                        Diyarbakır Gate Quarter at western end of old city, 1884). <abbr>Chald.</abbr>: 1. Mar
+                        Hormizd (east of Cumhuriyet Square, 430). Others: 1. St. George (Surp
+                        Kevork, former Armenian Catholic cathedral, 420); 2. St. Joseph (Surp
+                        Hovsep, Armenian Catholic, 1894); 3. St. Barbara (Armenian Catholic
+                        monastery, demolished); 4. ‘Patriye Kilisesi’ (Latin [Capuchin], 1884,
+                        demolished); 5. Protestant (demolished); 6. former Forty Martyrs (converted
+                        to mosque in 1170, now Şehidiye Mosque); 7. former Mor Yuḥanon (<abbr>Syr. Orth.</abbr>,
+                        converted to mosque in <choice>
+                            <sic>1950’s</sic>
+                            <corr>1950s</corr>
+                        </choice>, now Zeyt Mosque); 8. former Mor Tumo (now Ulu
+                        Cami?).</p>
+                    <p>Of the 94 <abbr>mss.</abbr> at the <abbr>Chald.</abbr> episcopal residence described by A. Scher in
+                        1908, sixteen were donated to the Vatican by Israel Audo, but most of the
+                        remainder are believed still to be in Mardin, along with a good number of
+                        <abbr>mss.</abbr> transferred there from Amid. An important collection of <abbr>mss.</abbr> is also to
+                        be found at the <abbr>Syr. Orth.</abbr> Church of the Forty Martyrs.</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>H.  Anschütz, <title rend="italic">Die syrischen Christen vom
+                                Tur ʿAbdin</title> (1984), 143–150.</bibl>
+                        <bibl>G.  Akyüz, <title rend="italic">Mardin ili’nin merkezinde civar
+                                köylerinde ve ilçelerinde bulunan kiliselerin ve manastırların
+                                tarihi</title> (Mardin, 1998). (on the churches)</bibl>
+                        <bibl>Afram Barsoum (trans. M. Moosa), <title rend="italic">History of the
+                            <choice>
+                                    <sic>Za’faraan</sic>
+                                    <corr>Zaʿfaraan</corr>
+                                </choice> Monastery</title> (2008).</bibl>
+                        <bibl>A.  Desreumaux, <title rend="italic">Répertoire des bibliothèques et
+                                des catalogues de manuscrits syriaques</title> (1991), 182–6. (on
+                            the <abbr>mss.</abbr>)</bibl>
+                        <bibl>Fiey, <title rend="italic">Pour un Oriens christianus novus</title>,
+                            97f., 233–38.</bibl>
+                        <bibl>D.  Gaunt, <title rend="italic">Massacres, resistance, protectors:
+                                Muslim-Christian relations in Eastern Anatolia during World War
+                                I</title> (2006), 165–75.</bibl>
+                        <bibl>H.  Hollerweger, <title rend="italic">Lebendiges Kulturerbe.
+                                Turabdin</title> (1999), 314–25. (on the churches)</bibl>
+                        <bibl>H.  Kaufhold, ‘Mardin’, in <title rend="italic">
+                                <abbr>KLCO</abbr>
+                            </title>,
+                            335.</bibl>
+                        <bibl>E.  Keser, <title rend="italic">Tur Abdin. Süryani Ortodoks dini
+                                mimarisi</title> (Istanbul, 2002), 81–92. (on the churches)</bibl>
+                        <bibl>V. Minorsky-[C. E. Bosworth], in <title rend="italic">EI</title>
+                            <hi rend="superscript">2</hi>, vol. 6, 539–42.</bibl>
+                        <bibl>T. A.  Sinclair, <title rend="italic">Eastern Turkey. An architectural
+                                and archaeological survey</title>, vol. 3 (1989), 201–14,
+                            331.</bibl>
+                        <bibl>Wilmshurst, <title rend="italic">Ecclesiastical organisation</title>,
+                            72–80.</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Hidemi</forename> 
+                  <surname>Takahashi</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

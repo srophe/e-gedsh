@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">
+                    <hi rend="italic">Bnay Qyāmā</hi>, <hi rend="italic">Bnāt Qyāmā</hi>
+                </title>
+            <author>
+               <persName>
+                  <forename>Robert A.</forename> 
+                  <surname>Kitchen</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0">Electronic Edition Draft Version 1.0</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>
+                    <hi rend="italic">Bnay Qyāmā</hi>, <hi rend="italic">Bnāt Qyāmā</hi>
+                </head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Bnay-Qyama-Bnat-Qyama</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/119</idno>
+                    <idno type="entry">110</idno>
+                    <milestone unit="pages" n="84-85"/>
+                    <idno type="althead" subtype="altorder">Bnāt Qyāmā Bnay Qyāmā</idno>
+                    <idno type="althead">bar qyāmā</idno>
+                    <idno type="althead">ba(r)t qyāmā</idno>
+                    <note type="type">org</note>
+                    <note type="abstract">Terms for a committed community of ascetic individuals,
+                        originating in the pre-monastic 4th <abbr>cent.</abbr> and continuing in various forms to
+                        the present.<note/>
+                    </note>
+                </ab>
+                <ab type="infobox">sing. <hi rend="italic">bar qyāmā</hi>, <hi rend="italic">ba(r)t
+                        qyāmā</hi>
+                </ab>
+                <div type="body">
+                    <p>Terms for a committed community of ascetic individuals, originating in the
+                        pre-monastic 4th <abbr>cent.</abbr> and continuing in various forms to the present.</p>
+                    <p>The meaning of the term has long been debated. <hi rend="italic">Qyāmā</hi>
+                        is derived from the root <hi rend="italic">qwm</hi> with the basic meaning
+                        ‘to stand’, ‘to rise’, but also has the range of ‘stance’, ‘status’,
+                        ‘state’, ‘station (in life)’. From this some see the concept of ‘taking a
+                        stand’ or ‘covenant’ to have developed. A <hi rend="italic">bar/ba(r)t
+                            qyāmā</hi> is a ‘son/daughter of the covenant’ or ‘covenanter’ (see
+                        Nedungatt) — one who has accepted or adopted the covenant of the Christian
+                        ascetical way of life. The word <hi rend="italic">qyāmā</hi> by itself was
+                        frequently used as a synonym not only for the consecrated elite, but for the
+                        whole Syriac Christian community.</p>
+                    <p>Some scholars believe the term suggests <hi rend="italic">bnay qyāmtā</hi>
+                        ‘sons of the resurrection’ and while this requires shifting the masculine
+                            <hi rend="italic">qyāmā</hi> to feminine <hi rend="italic">qyāmtā</hi>,
+                        an allusion is possible with reference to Luke 20:36, ‘for they have become
+                        children of the resurrection’.</p>
+                    <p>More recently, some scholars have explored the possible connections between
+                            <hi rend="italic">qyāmā</hi>and the Greek term <hi rend="italic">kanōn</hi> (as an equivalent of ‘clergy’) and theHebrew term <hi rend="italic">maʿămād</hi> (especially in the Jewish institution of the
+                            <hi rend="italic">anšē maʿămād</hi>) (see Macina, as well as <choice>
+                            <sic>M. J.</sic>
+                            <corr>M.-J.</corr>
+                        </choice>
+                        Pierre, <hi rend="italic">Aphraate, le Sage persan: Les exposés</hi> [SC
+                        249; 1988], 99 n. 84).</p>
+                    <p>The principle source for the early history of the <hi rend="italic">bnay/bnāt
+                            qyāmā</hi> is <ref rend="bold" target="https://gedsh.bethmardutho.org/Aphrahat">
+                            <persName ref="http://syriaca.org/person/10">Aphrahaṭ</persName>
+                        </ref>’s Sixth
+                        Demonstration, ‘On the <hi rend="italic">Bnay Qyāmā</hi>’, particularly in
+                        the section dubbed ‘Aphrahaṭ’s Rule’ (<hi rend="italic">Dem</hi>. 6.8).
+                        Celibacy is no longer a requirement for inclusion, nor is absolute poverty
+                        required as almsgiving is encouraged. Fervent faith, evidenced in zealous
+                        fasting and prayer, is the foundation. Much attention is directed to sincere
+                        and careful speech, avoiding gossip and envious feelings, as well as
+                        treating enemies and evil ones without enmity.</p>
+                    <p>The goal is the imitation of Christ, whereby Aphrahaṭ used the term <ref rend="bold" target="https://gedsh.bethmardutho.org/Ihidaya">
+                            <hi rend="italic">iḥidāyā</hi>
+                        </ref>
+                        ‘solitary, single’, as a synonym for <hi rend="italic">bar/ba(r)t
+                        qyāmā</hi>, <hi rend="italic">iḥidāyā</hi> being also the term for Christ,
+                        ‘the Only-Begotten One’ (Greek <hi rend="italic">monogenēs</hi>). The <hi rend="italic">bnay/bnāt qyāmā</hi> were solitaries who followed the way
+                        of the <hi rend="italic">Iḥidāyā</hi>.</p>
+                    <p>Aphrahaṭ cautions against excessive behavior, fancy clothes and hair, and
+                        going to intemperate feasts. His greatest concern is the practice of
+                        ‘spiritual marriage’ among males and females of the <hi rend="italic">qyāmā</hi> who live together for the purposes of helping one another in
+                        the maintenance of a household.</p>
+                    <p>The activity of the <hi rend="italic">bnay/bnāt qyāmā</hi> is referred to in
+                        a number of later documents and contexts. <ref rend="bold" target="https://gedsh.bethmardutho.org/Ephrem">
+                            <persName ref="http://syriaca.org/person/13">Ephrem</persName>
+                        </ref> reputedly
+                        organized and conducted a choir of <hi rend="italic">bnāt qyāmā</hi> who
+                        sang most of his hymns. The 15th canon of the Synod of Laodicea of Phrygia
+                        (between 343–81) prohibits anyone to sing in the church except <hi rend="italic">bnāt qyāmā</hi> and other chanters. Nearly half of the
+                        canons of <ref rend="bold" target="https://gedsh.bethmardutho.org/Rabbula-of-Edessa">
+                            <persName ref="http://syriaca.org/person/26">Rabbula</persName>
+                        </ref>, <abbr>bp.</abbr> of <ref rend="bold" target="https://gedsh.bethmardutho.org/Edessa">
+                            <placeName ref="http://syriaca.org/place/78">Edessa</placeName>
+                        </ref> (411–32) deal
+                        with the <hi rend="italic">bnay/bnāt qyāmā</hi>, proscribing excessive
+                        behavior and indicating a wide-spread presence and involvement in the
+                        administration and active ministries of local churches, towns, and
+                        villages.</p>
+                    <p>During the 4th and 5th <abbr>cent.</abbr> the <hi rend="italic">bnay/bnāt qyāmā</hi> were
+                        novitiates living in the world, preparing for the priesthood or monastic
+                        vocation. Many used the institution as a youthful rite of passage and
+                        training experience rounding them out for a secular career upon attaining
+                        maturity. In general, communities of the <hi rend="italic">bnāt qyāmā</hi>
+                        appear to have maintained a more vital existence than those of their male
+                        counterparts.</p>
+                    <p>Later references to the institution are found in <ref rend="bold" target="https://gedsh.bethmardutho.org/Yuhanon-of-Ephesus">
+                            <persName ref="http://syriaca.org/person/74">Yuḥanon of
+                            Ephesus</persName>
+                        </ref> (d. 586), whose life of Simeon the Mountaineer (<hi rend="italic">Lives of the Eastern Saints</hi>, 16) depicts an ascetic
+                        who settles in a village, reestablishing there the church and <hi rend="italic">bnay qyāmā</hi>, though not without resistance; in <ref rend="bold" target="https://gedsh.bethmardutho.org/Dadisho-Qatraya">
+                            <persName ref="http://syriaca.org/person/434">Dadishoʿ Qaṭraya</persName>
+                        </ref> (7th <abbr>cent.</abbr>); in canons of the 7th and 12th
+                        <abbr>cent.</abbr>; and in <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Bar-Ebroyo-Grigorios">
+                            <persName ref="http://syriaca.org/person/239">Bar ʿEbroyo</persName>
+                        </ref> (d. 1286). Gradually, the
+                            <hi rend="italic">bnay/bnāt qyāmā</hi> lost their status as the
+                        ascetical elite to monks and solitaries who live apart from the town and
+                        village. Monasticism proper assumed their roles, though Bar ʿEbroyo points
+                        to a brief revival of <hi rend="italic">bnay/bnāt qyāmā</hi> in the 13th
+                        <abbr>cent.</abbr> The term <hi rend="italic">ba(r)t qyāmā</hi> survives in <abbr>W. Syr.</abbr> as
+                            <hi rend="italic">bath qyomo</hi> to denote a priest’s wife until this
+                        day.</p>
+                </div>
+                <div type="bibl">
+                    <listBibl>
+                        <listBibl>
+                            <head>Primary Sources</head>
+                            <bibl>I.  Parisot, <title rend="italic">Aphraatis Sapientis Persae
+                                    Demonstrationes</title> (<abbr>PS</abbr> 1; 1894), 239–312. (Syr. with <abbr>LT</abbr> of
+                                Aphrahaṭ’s Sixth Demonstration)</bibl>
+                        </listBibl>
+                        <listBibl>
+                            <head>Secondary Sources</head>
+                            <bibl>S. A.  Harvey, ‘Revisiting the Daughters of the Covenant: Women’s
+                                choirs and sacred song in ancient Syriac Christianity’, <title rend="italic">
+                                    <abbr>Hugoye</abbr>
+                                </title> 8.2 (2005).</bibl>
+                            <bibl>S. H.  Griffith, ‘“Singles” in God’s service: thoughts on the
+                                ihidaye from the works of Aphrahat and Ephraem the Syrian’, <title rend="italic">
+                                    <abbr>Harp</abbr>
+                                </title> 4 (1991) 145–59.</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>S. H.  Griffith</reg>
+                           <orig>idem</orig>
+                        </choice>, ‘Monks, “Singles,” and the “Sons of the Covenant.”
+                                Reflections on Syriac ascetic terminology’, in <title rend="italic">Eulogema. Studies in Honor of R. Taft<choice>
+                                        <sic/>
+                                        <corr>,</corr>
+                                    </choice> S.J.</title>, <abbr>ed.</abbr> E. Carr
+                                <abbr>et al.</abbr> (Studia Anselmiana 110; 1993), 141–60.</bibl>
+                            <bibl>R.  Macina, ‘Les <title rend="italic">bnay</title> et <title rend="italic">bnat qyama</title> de l’Église syriaque: Une piste
+                                philologique sérieuse’, <title rend="italic">Patrimoine
+                                    syriaque</title>, vol. 6. <title rend="italic">Le monachisme
+                                    syriaque</title> (1999), 13–49.</bibl>
+                            <bibl>R.  Murray, ‘The Exhortation to Candidates for Ascetical Vows at
+                                Baptism in the Ancient Syriac Church’, <title rend="italic">
+                                    <abbr>NTS</abbr>
+                                </title> 21 (1974/75), 59–80.</bibl>
+                            <bibl>G. Nedungatt, ‘The Covenanters of the Early Syriac-Speaking
+                                Church’, <title rend="italic">
+                                    <abbr>OCP</abbr>
+                                </title> 39 (1973), 191–215,
+                                419–44.</bibl>
+                            <bibl>A.  Vööbus, ‘The Institution of the Benai Qeiama and Benat Qeiama
+                                in the Ancient Syrian Church’, <title rend="italic">CH</title> 30
+                                (1961), 14–27.</bibl>
+                        </listBibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Robert A.</forename> 
+                  <surname>Kitchen</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

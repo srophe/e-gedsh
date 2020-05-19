@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Arabic, Syriac translations from</title>
+            <author>
+               <persName>
+                  <forename>Herman G. B.</forename> 
+                  <surname>Teule</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0">Electronic Edition Draft Version 1.0</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Arabic, Syriac translations from</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Arabic-Syriac-translations-from</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/51</idno>
+                    <idno type="entry">42</idno>
+                    <milestone unit="pages" n="27-28"/>
+                    <idno type="althead" subtype="altorder">Syriac translations from Arabic</idno>
+                    <note type="type">subject</note>
+                    <note type="abstract">Translation from Syriac into Arabic is a well-known
+                        phenomenon.<note/>
+                    </note>
+                </ab>
+                <div type="body">
+                    <p>Translation from Syriac into Arabic is a well-known phenomenon. This is
+                        especially true for the translations of philosophical and scientific works
+                        that were made in the first Abbasid period by <ref rend="bold" target="https://gedsh.bethmardutho.org/Hunayn-b-Ishaq">
+                            <persName ref="http://syriaca.org/person/542">Ḥunayn <abbr>b.</abbr>
+                            Isḥāq</persName>
+                        </ref> and others, which have been the object of significant
+                        scholarly research (see, e.g., Bergsträsser). Much less attention has,
+                        however, been paid to the opposite phenomenon: translations from Arabic into
+                        Syriac. It has even been suggested (by <ref rend="bold" target="https://gedsh.bethmardutho.org/Eliya-of-Nisibis">
+                            <persName ref="http://syriaca.org/person/472">Eliya of
+                            Nisibis</persName>
+                        </ref> in his discussions with the vizier al-Maghribī) that the
+                        absence of such translations are proof of the superiority of Syriac science
+                        and culture. As a matter of fact, however, the Syrians already had
+                        translations from Arabic some time before Eliya. One may distinguish six
+                        different, unrelated fields:</p>
+                    <p>1. The earliest category consists of ascetical and hagiographic material
+                        related to the life and spirituality of the monks from the Egyptian desert.
+                        Though most of these Syriac texts were translated from a Greek original (e.g
+                        the apophthegmata by <ref rend="bold" target="https://gedsh.bethmardutho.org/Enanisho">
+                            <persName ref="http://syriaca.org/person/474">ʿEnanishoʿ</persName>
+                        </ref>), at
+                        least a few seem to have had an Arabic original, which in its turn goes back
+                        to a Coptic <choice>
+                            <sic>Vorlage</sic>
+                            <corr>
+                                <hi rend="italic">Vorlage</hi>
+                            </corr>
+                        </choice>: a panegyric on John the Small by a monk of <ref rend="bold" target="https://gedsh.bethmardutho.org/al-Suryan-Dayr">
+                            <placeName ref="http://syriaca.org/place/360">Dayr
+                            al-Suryān</placeName>
+                        </ref> and the biography of Shenute by his disciple Besa (10th
+                        <abbr>cent.</abbr>).</p>
+                    <p>2. The second field covers a few writings pertaining to Syriac entertainment
+                        literature, such as the stories of <ref rend="bold" target="https://gedsh.bethmardutho.org/Kalila-and-Dimna">Kalila and
+                            Dimna</ref> (11th <abbr>cent.</abbr>, by an E.-Syr. priest, in addition to an earlier
+                        Syriac version made from Pahlavi in the 7th <abbr>cent.</abbr>), ‘<ref rend="bold" target="https://gedsh.bethmardutho.org/Sindbad">
+                            <persName ref="http://syriaca.org/person/749">Sindbad</persName>
+                        </ref> the
+                        wise’,and the tale of the ‘Ten viziers and the son of King Azad-Bekht’.</p>
+                    <p>3. The next category is constituted by medical texts of Greek origin, which
+                        were translated in the first Abbasid period. Though in most cases these
+                        texts were translated directly from the Greek original into Syriac (which
+                        served as the basis of a subsequent Arabic translation), there are a few
+                        instances in which Arabic served as the intermediary between Greek and
+                        Syriac. Ḥunayn <abbr>b.</abbr> Isḥāq mentions that his co-religionist Yūḥannā <abbr>b.</abbr>
+                        Māsawayh, the private physician of several caliphs, requested that Ḥunayn’s
+                        nephew Ḥubaysh translate into Syriac three medical works by <ref rend="bold" target="https://gedsh.bethmardutho.org/Galen">
+                            <persName ref="http://syriaca.org/person/496">Galen</persName>
+                        </ref>, which were
+                        already available in an Arabic version. We may assume that the reason behind
+                        this request was that the very critical Ibn Māsawayh held that Syriac was
+                        more appropriate than Arabic for expressing scientific idioms. A Syriac
+                        version of Ḥunayn’s Arabic treatise <hi rend="italic">al-Masāʾil
+                            al-ṭibbiyya</hi> ‘Book of medical questions’ is preserved in some late
+                        <abbr>Chald.</abbr>
+                        <abbr> mss.</abbr>, through there is no information about the translator (for
+                        discussion, see Teule, forthcoming).</p>
+                    <p>4. <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Bar-Ebroyo-Grigorios">
+                            <persName ref="http://syriaca.org/person/239">Bar ʿEbroyo</persName>
+                        </ref> had a good knowledge of Muslim-Arabic
+                        literature. Many of his works can be characterized as sometimes literal,
+                        sometimes paraphrastic translations/adaptations of Arabic philosophical and
+                        religious writings, such as the ‘Ethicon’ and the ‘Book of the Dove’ (based
+                        on Ghazālī), the <hi rend="italic">Swād supyā</hi> (based on Ibn Sinā), etc.
+                        In these cases, however, the author did not intend to make translations, and
+                        the origin of the source text was not revealed. Nevertheless, Bar ʿEbroyo
+                        did also compose several translations that were meant as such: the <hi rend="italic">Kitāb al-išārāt wa-al-tanbīhāt</hi> by Ibn Sīna (Syriac
+                            <hi rend="italic">Ktobo d-remze wa-mʿironwoto d-Abu ʿAli bar Sīnā</hi>),
+                        in which he acknowledges the authorship of Ibn Sīnā and does justice to the
+                        Islamic context of this work, Athīr al-Dīn al-Abharī’s <hi rend="italic">Zubdat al-Asrār</hi> (lost), and possibly Ibn Sinā’s ‘Medical Canon’.
+                        Bar ʿEbroyo’s translation activities are to be understood in the context of
+                        the growing acceptance of Muslim cultural and religious influences
+                        characteristic of the so-called <ref rend="bold" target="https://gedsh.bethmardutho.org/Renaissance-Syriac">Syriac
+                            Renaissance</ref>.</p>
+                    <p>In Bar ʿEbroyo’s writings, one can also find several quotations (in Syriac)
+                        from verses of the Qurʾān. We have no certainty about a complete Syriac
+                        translation of this work, but <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Dionysios-bar-Salibi">
+                            <persName ref="http://syriaca.org/person/212">Dionysios
+                            bar Ṣalibi</persName>
+                        </ref> gives literal translations of several <hi rend="italic">sūra</hi>s in his ‘Treatise against the Muslims’.</p>
+                    <p>5. The most important category is composed of theological writings translated
+                        from Latin or other European languages into Arabic by Western missionaries
+                        (16th <abbr>cent.</abbr> and later) with the help of local Christians, which served as
+                        the basis for new translations into Syriac. Examples are the <hi rend="italic">Maḥzitā mriqtā</hi> ‘the Polished Mirror’ by the <abbr>Chald.</abbr>
+                        <abbr>Patr. </abbr>
+                        <ref rend="bold" target="https://gedsh.bethmardutho.org/Yawsep-II">
+                            <persName ref="http://syriaca.org/person/813">Yawsep II</persName>
+                        </ref> (d. 1713), a Uniate apologetic treatise, translated by
+                        himself, in defense of the Primacy of the Pope, and the ‘Book of the
+                        Magnet’, a popular book of moral theology. The reason for these translations
+                        was that the Christian population under the authority of Yawsep II (Northern
+                        Mesopotamia) did not have sufficient knowledge of Arabic. This is explicitly
+                        mentioned by the <abbr>Chald.</abbr> priest Khidr from <ref rend="bold" target="https://gedsh.bethmardutho.org/Mosul">
+                            <placeName ref="http://syriaca.org/place/139">Mosul</placeName>
+                        </ref> (d. 1751), who
+                        translated into Syriac Arabic versions of European works or original Arabic
+                        treatises composed by <abbr>Maron.</abbr> or Syr. Catholic authors. The priest Yawsep
+                        Abraham from Rāwandūz (1832) translated the <hi rend="italic">Mizān
+                            al-zamān</hi> ‘the Balance of Time’ an originally Italian work, which
+                        was popular in Uniate circles, as well as some other theological and
+                        spiritual treatises. He also made a Syriac translation (from Arabic) of the
+                        <abbr>NT</abbr> Catholic Letters. An Arabic work by the zealous defender of the Uniate
+                        cause, the <abbr>Melk.</abbr> author ʿAbdallāh Zākhir (d. 1748) is also extant in a
+                        Syriac translation, probably made in Mesopotamia (on the Trinity and
+                        Incarnation). This translation activity from Arabic substantially diminished
+                        in the 19th <abbr>cent.</abbr>, when the <abbr>Chald.</abbr> clergy had direct access to Latin and
+                        Italian theological writings.</p>
+                    <p>6. Some modern works written by authors like <abbr>Bp. </abbr>
+                        <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Dolabani-Philoxenos-Yuhanon">
+                            <persName ref="http://syriaca.org/person/454">Yuḥanon
+                            Dolabani</persName>
+                        </ref> or <abbr>Patr. </abbr>
+                        <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Barsoum-Ignatius-Afram">
+                            <persName ref="http://syriaca.org/person/372">Ignatius
+                            Afram Barsoum</persName>
+                        </ref> (especially his history of Syriac literature,
+                        translated into Syriac under the title <hi rend="italic">Brule bdire</hi>)
+                        were translated from Arabic into Syriac.</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>Abūna, <title rend="italic">Adab</title>, 531–40.</bibl>
+                        <bibl>Baumstark, <title rend="italic">Literatur</title>, 283–84.</bibl>
+                        <bibl>G.  Bergstrasser, <title rend="italic">Hunain ibn Ishaq. Übersetzung
+                                der syrischen und arabischen Galen-Übersetzungen</title>
+                            (1925).</bibl>
+                        <bibl>S. P.  Brock, ‘A Syriac <title rend="italic">Narratio</title> attributed
+                            to Abba Daniel of Sketis’, <title rend="italic">
+                                <abbr>AB</abbr>
+                            </title> 113 (1995),
+                            269–80.</bibl>
+                        <bibl>Macuch, <title rend="italic">Geschichte,</title> 42–8.</bibl>
+                        <bibl>H.  Takahashi, <title rend="italic">Barhebraeus. A
+                                bio-bibliography</title> (2005), 70–1, 86–88.</bibl>
+                        <bibl>H.  Teule, ‘The transmission of Islamic culture to the world of Syriac
+                            Christianity: Barhebraeus’ translation of Avicenna’s <title rend="italic">Kitāb al-Išārāt wa l-Tanbīhāt.</title> First
+                            soundings’, in <title rend="italic">Redefining Christian
+                                Identity</title>, <abbr>ed.</abbr> J. van Ginkel <abbr>et al.</abbr> (<abbr>OLA</abbr> 134; 2005),
+                            167–84.</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>H. Teule</reg>
+                        <orig>idem</orig>
+                     </choice>, ‘Translations from Syriac into Arabic’, <title rend="italic">
+                                <abbr>JEastCS</abbr>
+                            </title>. Forthcoming.
+                        </bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Herman G. B.</forename> 
+                  <surname>Teule</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

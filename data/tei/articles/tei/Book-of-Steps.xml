@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Book of Steps</title>
+            <author>
+               <persName>
+                  <forename>Robert A.</forename> 
+                  <surname>Kitchen</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0">Electronic Edition Draft Version 1.0</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Book of Steps</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Book-of-Steps</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/120</idno>
+                    <idno type="entry">111</idno>
+                    <milestone unit="pages" n="85-86"/>
+                    <idno type="althead">Liber Graduum</idno>
+                    <idno type="althead">Ktābā d-massqātā</idno>
+                    <note type="type">work</note>
+                    <note type="abstract">Collection of thirty Syriac discourses on the
+                        spiritual life and the pursuit of perfection, dating likely from the early fifth century.<note/>
+                    </note>
+                </ab>
+                <ab type="infobox">
+                    <hi rend="italic">Liber Graduum, Ktābā d-massqātā</hi>
+                </ab>
+                <div type="body">
+                    <p>Proposed dates range from mid-4th <choice>
+                            <sic>cent</sic>
+                            <corr>cent.</corr>
+                        </choice> to <abbr>ca.</abbr> 430. Collection of thirty
+                        Syriac discourses (<hi rend="italic">memre</hi>) preceded by an introductory
+                        essay (<hi rend="italic">mamllā</hi>) on the spiritual life and the pursuit
+                        of perfection. The anonymous author gives very few historical or
+                        geographical details in the <hi rend="italic">memre</hi>, but one reference
+                        points to a location of the author and his spiritual community in northeast
+                        Iraq near the Lesser Zab River.</p>
+                    <p>The collection does not have a Syriac title. Its Latin title (<hi rend="italic">Liber Graduum)</hi> was given by Michael Kmosko in his
+                        1926 critical edition of the Syriac text (with Latin translation), referring
+                        to the ascetical steps (<hi rend="italic">massqātā</hi>) one must climb
+                        along the steep road to the heavenly city of Christ. This term is mentioned
+                        only in two <hi rend="italic">memre</hi>, numbers 19 and 20. Kmosko utilized
+                        fifteen <abbr>mss.</abbr>, only three containing more than five <hi rend="italic">memre</hi>.</p>
+                    <p>Kmosko theorized that the the book was a primary text of the Messalian
+                        movement in the mid-to-late-4th <abbr>cent.</abbr> This view was accepted by I. Hausherr
+                        and dominated scholarship for the next thirty years. In the 1950’s A. Vööbus
+                        challenged the Messalian characterization of the book and directed scholars
+                        towards its witness to early Syriac asceticism and spirituality. Others
+                        focused on the pneumatology (A. Guillaumont), ecclesiology (R. Murray),
+                        anthropology and prayer (A. Kowalski), structure (L. Wickham), and
+                        christology and asceticism (D. Juhl).</p>
+                    <p>The thirty <hi rend="italic">memre</hi> are of uneven length and utilize a
+                        variety of genres: extended biblical exegeses, sermons, discourses on
+                        ascetical method. The dominant theme threading throughout the collection is
+                        the description of the two statuses of Christian life: uprightness (<hi rend="italic">kenutā</hi>) and perfection or maturity (<hi rend="italic">gmirutā</hi>) and those individuals who attempt to embody these ways of
+                        life — the Upright (<hi rend="italic">kene</hi>) and the Perfect (<hi rend="italic">gmire</hi>).</p>
+                    <p>Writing in the midst of a pre-monastic religious community, the author of the
+                        ‘Book of Steps’ attempted to counter a decline in the standards and fervor
+                        among the Perfect. The first half of the collection presents a rule for both
+                        levels as the ideal to which they aspire. The second half contains a variety
+                        of materials, with the last six <hi rend="italic">memre</hi> advocating the
+                        legitimacy of the Upright.</p>
+                    <p>The titles of the <hi rend="italic">memre</hi> are: Preface by the editor of
+                        the collection; 1. Author’s introduction; 2. About those who want to become
+                        Perfect; 3. The physical and spiritual ministry; 4. On the vegetables for
+                        the sick; 5. On the milk of the children; 6. On those who are made Perfect
+                        and continue to grow; 7. On the commandments of the Upright; 8. On one who
+                        gives all he has to feed the poor; 9. On Uprightness and the love of the
+                        Upright and the prophets; 10. On fasting and the humility of body and soul;
+                        11. On the hearing of Scripture when the Law is read before us; 12. On the
+                        hidden and public ministry of the church; 13. By the same author on the ways
+                        of the Upright; 14. On the Upright and the Perfect; 15. On Adam’s marital
+                        desire; 16. On how a person may surpass the major commandments; 17. On the
+                        sufferings of our Lord who became through them an example for us all; 18. On
+                        the tears of prayer; 19. On the discernment of the way of Perfection; 20. On
+                        the difficult steps which are on the road of the City of our Lord; 21. On
+                        the tree of Adam; 22. On the judgments which do not save those who observe
+                        them; 23. On Satan and Pharaoh and the Israelites; 24. On repentance; 25. On
+                        the voice of God and of Satan; 26. On the second law which the Lord
+                        established for Adam; 27. About the history of the thief who is saved; 28.
+                        On the fact that the human soul is not identical with the blood; 29. On the
+                        discipline of the body; 30. On the commandments of faith and the love of the
+                        solitaries.</p>
+                </div>
+                <div type="bibl">
+                    <listBibl>
+                        <listBibl>
+                            <head>Primary Sources</head>
+                            <bibl>R. A.  Kitchen and M. F. G.  Parmentier, <title rend="italic">The
+                                    Book of Steps. The Syriac Liber Graduum</title> (2004). (<abbr>ET</abbr>,
+                                incl. further references)</bibl>
+                            <bibl>M. Kmosko, <title rend="italic">Liber Graduum</title> (<abbr>PS</abbr> 3;
+                                1926). (Syr. text with <abbr>LT</abbr>)</bibl>
+                        </listBibl>
+                        <listBibl>
+                            <head>Secondary Sources</head>
+                            <bibl>K.  Fitschen, <title rend="italic">Messalianismus und
+                                    Antimessalianismus</title> (1998), 104–128.</bibl>
+                            <bibl>A.  Guillaumont, ‘Situation et significance du Liber Graduum dans
+                                la spiritualité syriaque’, in <abbr>
+                                    <title rend="italic">SymSyr</title> I</abbr>,
+                                311–22.</bibl>
+                            <bibl>K. S. Heal and R. A. Kitchen (<abbr>ed.</abbr>), <title rend="italic">Breaking
+                                    the mind: New studies in the Syriac Book of Steps</title>
+                                (<choice>
+                                    <sic>forthcoming</sic>
+                                    <corr>2014</corr>
+                                </choice>).</bibl>
+                            <bibl>D. Juhl, <title rend="italic">Die Askese im Liber Graduum und bei
+                                    Afrahat</title> (Orientalia Biblica et Christiana 9;
+                                1996).</bibl>
+                            <bibl>N. A.  Khalek, ‘Methods of instructing Syriac-speaking Christians
+                                to care for the poor: A brief comparison of the eighth Mēmrā of the
+                                Book of Steps and the Story of the Man of God of Edessa’, <title rend="italic">
+                                    <abbr>Hugoye</abbr>
+                                </title> 8.1 (2005).</bibl>
+                            <bibl>R. A.  Kitchen, ‘Conflict on the stairway to heaven: The anonymity
+                                of perfection in the Syriac Liber Graduum’, in <abbr>
+                                    <title rend="italic">SymSyr</title> VII</abbr>, 211–20.</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>R. A.  Kitchen</reg>
+                           <orig>idem</orig>
+                        </choice>, ‘Becoming perfect: The maturing of asceticism in the Syriac
+                                Book of Steps’, <title rend="italic">
+                                    <abbr>JCSSS</abbr>
+                                </title> 2 (2002),
+                                30–45.</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>R. A.  Kitchen</reg>
+                           <orig>idem</orig>
+                        </choice>, ‘Syriac additions to Anderson: The Garden of Eden in the
+                                Book of Steps and Philoxenus of Mabbug’, <title rend="italic">
+                                    <abbr>Hugoye</abbr>
+                                </title> 6.1 (2003).</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>R. A.  Kitchen</reg>
+                           <orig>idem</orig>
+                        </choice>, ‘Slouching Towards Antioch: Biblical Exegesis in the Syriac
+                                Book of Steps’, in <title rend="italic">Syriac and Antiochian
+                                    Exegesis and Biblical Theology for the 3rd Millennium</title>,
+                                <abbr>ed.</abbr> R. D. Miller (2008), 64–95.</bibl>
+                            <bibl>R. A.  Kitchen, ‘Making the Imperfect Perfect: The Adaptation of
+                                Hebrews 11 in the 9<hi rend="superscript">th</hi> Mēmrā of the
+                                Syriac Book of Steps’, in <title rend="italic">The Reception and
+                                    Interpretation of the Bible in Late Antiquity</title>, <abbr>ed.</abbr> L.
+                                DiTommaso and L. Turcescu (2008), 227–51.</bibl>
+                            <bibl>A.  Kowalski, <title rend="italic">Perfezione e giustizia di Adamo
+                                    nel Liber Graduum</title> (<abbr>OCA</abbr> 232; 1989).</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>A.  Kowalski</reg>
+                           <orig>idem</orig>
+                        </choice>, ‘Die Gebete im Liber Graduum’, <title rend="italic">
+                                    <abbr>OCP</abbr>
+                                </title> 55 (1989), 273–282.</bibl>
+                            <bibl>D.  Lane, ‘The Book of Grades, or Steps’, <title rend="italic">
+                                    <abbr>Harp</abbr>
+                                </title> 14 (2001), 81–8.</bibl>
+                            <bibl>R.  Murray, <title rend="italic">Symbols of Church and
+                                    Kingdom</title> (1975), 34–6, 263–269.</bibl>
+                            <bibl>C. Stewart, <title rend="italic">Working the earth of the heart:
+                                    The Messalian controversy in history, texts, and language to AD
+                                    431</title> (1991).</bibl>
+                            <bibl>A.  Vööbus, ‘Liber Graduum: Some aspects of its significance for
+                                the history of early Syrian asceticism’, in <title rend="italic">Charisteria Ioanni Kõpp octogenario oblata</title> (<abbr>PETSE</abbr> 7;
+                                1954), 108–28.</bibl>
+                            <bibl>A.  Vööbus, <title rend="italic">History of Asceticism in the
+                                    Syrian Orient</title>, vol. 1 (<abbr>CSCO</abbr> 184<choice>
+                                    <sic>,</sic>
+                                    <corr>;</corr>
+                                </choice> 1958), 178–84, 190–7;
+                                vol. 3 (<abbr>CSCO</abbr> 500<choice>
+                                    <sic>,</sic>
+                                    <corr>;</corr>
+                                </choice> 1988), 1–18.</bibl>
+                            <bibl>L.  Wickham, ‘The Liber Graduum revisited’, in <abbr>
+                                    <title rend="italic">SymSyr</title> VI</abbr> (1994), 177–87.</bibl>
+                        </listBibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Robert A.</forename> 
+                  <surname>Kitchen</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

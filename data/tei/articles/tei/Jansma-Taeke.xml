@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Jansma, Taeke</title>
+            <author>
+               <persName>
+                  <forename>Lucas</forename> 
+                  <surname>Van Rompay</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0">Electronic Edition Draft Version 1.0</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Jansma, Taeke</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Jansma-Taeke</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/309</idno>
+                    <idno type="entry">300</idno>
+                    <milestone unit="pages" n="226-227"/>
+                    <idno type="althead" subtype="altorder">Taeke Jansma</idno>
+                    <idno type="subject">http://syriaca.org/person/571</idno>
+                    <note type="type">person</note>
+                    <note type="abstract">Syriac scholar, professor at the university of Leiden, The
+                        Netherlands.<note/>
+                    </note>
+                </ab>
+                <ab type="infobox">(1919–2007)</ab>
+                <div type="body">
+                    <p>Syriac scholar, professor at the University of Leiden, The Netherlands. After
+                        defending his Ph.D. dissertation (on the Hebrew text and ancient versions of
+                        Zechariah, ch. 9–14) in 1949, and spending an additional year of study in
+                        Leeds and Oxford, Jansma was appointed full professor of ‘Hebrew language
+                        and literature, Israelite Antiquities, and Aramaic’ at Leiden in 1950. He
+                        held this position until 1973. Although in that year the position was split,
+                        leaving to Jansma the responsibility for Aramaic only, he soon thereafter
+                        had to retire for reasons of health. For the last thirty years of his life
+                        he did not engage in teaching or research.</p>
+                    <p>Jansma left a number of important publications, several of which are related
+                        to his work for the Leiden based edition of the <abbr>OT </abbr>
+                        <ref rend="bold" target="https://gedsh.bethmardutho.org/Peshitta">Peshitta</ref> (for
+                        which he prepared Genesis). He edited Syr. fragments of <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Theodore-of-Mopsuestia">
+                            <persName ref="http://syriaca.org/person/780">Theodore
+                            of Mopsuestia</persName>
+                        </ref>’s Commentary on Genesis and studied various
+                        exegetical homilies by <ref rend="bold" target="https://gedsh.bethmardutho.org/Narsai">
+                            <persName ref="http://syriaca.org/person/650">Narsai</persName>
+                        </ref> and <ref rend="bold" target="https://gedsh.bethmardutho.org/Yaqub-of-Serugh">
+                            <persName ref="http://syriaca.org/person/42">Yaʿqub of Serugh</persName>
+                        </ref> (as well as some anonymous homilies). With an
+                        important essay, ‘Investigations into the early Syrian Fathers on Genesis’
+                        (1958), he laid the groundwork for a systematic study of E.-Syr. exegetical
+                        literature. Among his other interests, his work on <ref rend="bold" target="https://gedsh.bethmardutho.org/Bardaisan">
+                            <persName ref="http://syriaca.org/person/3">Bardaiṣan</persName>
+                        </ref>, on
+                            <ref rend="bold" target="https://gedsh.bethmardutho.org/Ephrem">
+                            <persName ref="http://syriaca.org/person/13">Ephrem</persName>
+                        </ref>’s ‘Commentary on Gen. and Ex.’, and on <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Yohannan-bar-Penkaye">
+                            <persName ref="http://syriaca.org/person/821">Yoḥannan bar
+                            Penkaye</persName>
+                        </ref> should be singled out.</p>
+                </div>
+                <div type="bibl">
+                    <listBibl>
+                        <listBibl>
+                            <head>Select Syriac publications by Jansma</head>
+                            <bibl>‘Investigations into the Early Syrian Fathers on Genesis. An
+                                approach to the exegesis of the Nestorian Church and to the
+                                comparison of Nestorian and Jewish exegesis,’ <title rend="italic">Oudtestamentische Studiën</title> 12 (1958), 69–181.</bibl>
+                            <bibl>‘Projet d’édition du «K<hi rend="superscript">e</hi>tâbâ d<hi rend="superscript">e</hi>rêš mellê» de Jean bar Penkayé,’ <title rend="italic">
+                                    <abbr>OS</abbr>
+                                </title> 8 (1963), 87–106.</bibl>
+                            <bibl>‘Encore le Credo de Jacques de Saroug. Nouvelles recherches sur
+                                l’argument historique concernant son orthodoxie,’ <title rend="italic">
+                                    <abbr>OS</abbr>
+                                </title> 10 (1965), 75–88, 193–236, 331–70,
+                                475–510.</bibl>
+                            <bibl>
+                                <title rend="italic">Natuur, lot en vrijheid. Bardesanes, de
+                                    filosoof der Arameeërs en zijn images</title> (1969).</bibl>
+                            <bibl>‘Narsai and Ephraem. Some observations on Narsai’s Homilies on
+                                Creation and Ephraem’s Hymns on Faith,’ <title rend="italic">
+                                    <abbr>ParOr</abbr>
+                                </title> 1 (1970), 49–68.</bibl>
+                            <bibl>‘Beiträge zur Berichtigung einzelner Stellen in Ephraems
+                                Genesiskommentar,’ <title rend="italic">
+                                    <abbr>OC</abbr>
+                                </title> 56 (1972),
+                                59–79.</bibl>
+                            <bibl>‘Weitere Beiträge zur Berichtigung einzelner Stellen in Ephraems
+                                <choice>
+                                    <sic>Kommentare</sic>
+                                    <corr>Kommentaren</corr>
+                                </choice> zu Genesis und Exodus,’ <title rend="italic">
+                                    <abbr>OC</abbr>
+                                </title>
+                                58 (1974), 121–31.</bibl>
+                        </listBibl>
+                        <listBibl>
+                            <head>Secondary Sources</head>
+                            <bibl>L.  Van  Rompay, ‘Taeke Jansma (1919–2007)’, <title rend="italic">
+                                    <abbr>Hugoye</abbr>
+                                </title> 10.2 (2007). (with full bibliography)</bibl>
+                        </listBibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Lucas</forename> 
+                  <surname>Van Rompay</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

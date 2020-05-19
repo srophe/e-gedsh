@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Yaḥyā <abbr>b.</abbr> ʿAdī</title>
+            <author>
+               <persName>
+                  <forename>Aaron M.</forename> 
+                  <surname>Butts</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0">Electronic Edition Draft Version 1.0</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Yaḥyā <abbr>b.</abbr> ʿAdī</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Yahya-b-Adi</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/588</idno>
+                    <idno type="entry">579</idno>
+                    <milestone unit="pages" n="429-430"/>
+                    <idno type="subject">http://syriaca.org/person/180</idno>
+                    <note type="type">person</note>
+                    <note type="abstract">Translator, philosopher, logician, and theologian.<note/>
+                    </note>
+                </ab>
+                <ab type="infobox">(893/4–974) [<abbr>Syr. Orth.</abbr>]</ab>
+                <div type="body">
+                    <p>Translator, philosopher, logician, and theologian. His full name is Abū
+                        Zakariyyā Yaḥyā <abbr>b.</abbr> ʿAdī <abbr>b.</abbr> Ḥamīd <abbr>b.</abbr> Zakariyyā (some <abbr>mss.</abbr> copied in Iran add:
+                        <abbr>b.</abbr> Yaḥyā <abbr>b.</abbr> ʿUthmān <abbr>b.</abbr> Ḥamīd <abbr>b.</abbr> Buzurjmihr). He was born in 893/4 in <ref rend="bold" target="https://gedsh.bethmardutho.org/Tagrit">
+                            <placeName ref="http://syriaca.org/place/193">Tagrit
+                        </placeName>
+                        </ref> and spent most of his adult life in <ref rend="bold" target="https://gedsh.bethmardutho.org/Baghdad">
+                            <placeName ref="http://syriaca.org/place/41">Baghdad</placeName>
+                        </ref>. He died 13
+                        Aug. 974 at the age of 81 and was buried in the church of Mār Tūmā in
+                        Baghdad. He was a student of the <abbr>Ch. of E.</abbr> philosopher Abū Bishr Mattā <abbr>b.</abbr>
+                        Yūnus (d. <abbr>ca.</abbr> 940) and the celebrated Muslim philosopher Abū Naṣr al-Fārābī
+                        (d. <abbr>ca.</abbr> 950). Yaḥyā had a number of prominent students, both Christians and
+                        Muslims. His Christian students include Abū ʿAlī ʿĪsā <abbr>b.</abbr> Zurʿa (d. 1008) and
+                        al-Ḥasan <abbr>b.</abbr> Suwār <abbr>b.</abbr> al-Khammār (d. after 1017), the latter of whom
+                        instructed <ref rend="bold" target="https://gedsh.bethmardutho.org/Ibn-al-Tayyib">
+                            <persName ref="http://syriaca.org/person/543">Ibn
+                        al-Ṭayyib</persName>
+                        </ref> (d. 1043). His Muslim students include Abū Sulaymān
+                        al-Sijistānī (d. <abbr>ca.</abbr> 985), ʿĪsā <abbr>b.</abbr> ʿAlī (d. 1001; to be distinguished from
+                        the Syriac lexicographer <ref rend="bold" target="https://gedsh.bethmardutho.org/Bar-Ali-Isho">
+                            <persName ref="http://syriaca.org/person/364">Ishoʿ bar ʿAli</persName>
+                        </ref>), and Abū
+                        Ḥayyān al-Tawḥīdī (d. 1023). Like his contemporary Ibn al-Nadīm (<abbr>fl.</abbr> 987),
+                        who wrote the <hi rend="italic">Kitāb al-Fihrist</hi>, Yaḥyā was a
+                        professional scribe and bookseller in Baghdad. He is, however, better known
+                        as the master of philosophy of his time.</p>
+                    <p>Yaḥyā’s <hi rend="italic">oeuvre</hi> includes more than 130 items, all in
+                        Arabic, that span the fields of philosophy, logic, metaphysics, ethics,
+                        physics and mathematics, and theology (an indispensible inventory is
+                        provided by Endress 1977 with important additions and corrections by Samir
+                        1979). Following in the tradition of <ref rend="bold" target="https://gedsh.bethmardutho.org/Hunayn-b-Ishaq">
+                            <persName ref="http://syriaca.org/person/542">Ḥunayn <abbr>b.</abbr>
+                            Isḥāq</persName>
+                        </ref> (d. 873), Yaḥyā edited, translated (often via Syriac), and
+                        commented on many Greek philosophical texts. Chief among these were the
+                        works of <ref rend="bold" target="https://gedsh.bethmardutho.org/Aristotle">
+                            <persName ref="http://syriaca.org/person/342">Aristotle</persName>
+                        </ref>, especially the ‘Topics’ and ‘Physics’. Yaḥyā was,
+                        however, also an author in his own right. One of his more important works is
+                        his <hi rend="italic">Maqāl fī al-tawḥīd</hi> ‘Discourse on unity’ (<abbr>ed.</abbr>
+                        Kh.  Samir 1980), in which he defines the unity of God in such a way as to
+                        affirm monotheism (important to his Muslim audience) while maintaining three
+                        attributes of God, namely goodness, wisdom, and power (pointing to a
+                        Trinitarian understanding of God). In addition to his writings on logic and
+                        philosophy, Yaḥyā was a prolific author in Christian theology with many of
+                        his works being of an apologetic nature. Some of his apologetic writings are
+                        directed against the Muslim <hi rend="italic">mutakallimūn</hi> with whom he
+                        was in regular contact (see <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Islam-Syriac-contacts-with">Islam,
+                            Syriac contacts with</ref>). Yaḥyā, for instance, wrote a lengthy
+                        response to the <hi rend="italic">Kitāb fī al-radd ʿalā al-firaq al-thalāth
+                            min al-naṣārā </hi>‘Refutation of the three sects of the Christians’ by
+                        Abū ʿĪsā Muḥammad <abbr>b.</abbr> Hārūn al-Warrāq (d. <abbr>ca.</abbr> 862) (<abbr>ed.</abbr> Platti 1987). Yaḥyā
+                        also wrote apologetic works against the <abbr>Ch. of E.</abbr> in which he defended the
+                        Christological formulation of the <abbr>Syr. Orth.</abbr> Church (see, e.g., Platti
+                        1981–1982, 1983). Finally, mention should be made of Yaḥyā’s <hi rend="italic">Tahdhīb al-akhlāq</hi> ‘The Reformation of Morals’ (Arabic
+                        with <abbr>ET</abbr> Griffith 2002), which is one of the earliest and most important
+                        works on ethics in Arabic literature.</p>
+                </div>
+                <div type="bibl">
+                    <listBibl>
+                        <listBibl>
+                            <head>Primary Sources</head>
+                            <bibl>C.  Ehrig-Eggert, <title rend="italic">Die Abhandlung über den
+                                    Nachweis der Natur des Möglichen von Yaḥyā Ibn ʿAdī (gest. 974
+                                    A.D.)</title> (1990). (<abbr>GT</abbr> with commentary)</bibl>
+                            <bibl>S. H.  Griffith, <title rend="italic">Yaḥyā ibn ʿAdī. The
+                                    Reformation of Morals</title> (2002). (Arabic with <abbr>ET</abbr>)</bibl>
+                            <bibl>S.  Khalifat, <title rend="italic">Yahyā Ibn ʿAdī. The
+                                    Philosophical Treatises</title> (1988). (Arabic)</bibl>
+                            <bibl>A.  Périer, <title rend="italic">Petits traités apologétiques de
+                                    Yaḥyâ ben ʿAdî</title> (1920). (Arabic with <abbr>FT</abbr>)</bibl>
+                            <bibl>A.  Périer, ‘Un traité de Yaḥyâ ben ʿAdî, défense du dogme de la
+                                Trinité contre les objections d’Al-Kindî’, <title rend="italic">ROC</title> 22 (1920–1921), 3–21. (Arabic with <abbr>FT</abbr>)</bibl>
+                            <bibl>E.  Platti, <title rend="italic">La grande polémique
+                                    anti-nestorienne de Yaḥyā <abbr>b.</abbr> ʿAdī</title> (<abbr>CSCO</abbr> 427–8, 437–8;
+                                1981–2). (Arabic with <abbr>FT</abbr>)</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>E.  Platti</reg>
+                           <orig>idem</orig>
+                        </choice>, <title rend="italic">Yaḥyā ibn ʿAdī, théologien chrétien et
+                                    philosophe arabe: Sa théologie de l’incarnation</title> (<abbr>OLA</abbr> 14;
+                                1983). (Arabic with <abbr>FT</abbr>; incl. further references)</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>E.  Platti</reg>
+                           <orig>idem</orig>
+                        </choice>, <title rend="italic">Abū ʿĪsā al-Warrāq. Yaḥyā <abbr>b.</abbr> ʿAdī. De
+                                    l’incarnation</title> (<abbr>CSCO</abbr> 490–1; 1987). (Arabic with
+                                <abbr>FT</abbr>)</bibl>
+                            <bibl>Kh. Samir, <title rend="italic">Le traité de l’unité de Yaḥyā ibn
+                                    ʿAdī (893–974)</title> (1980). (Arabic)</bibl>
+                            <bibl>P. P.  Sbath, <title rend="italic">Vingt traités philosophiques et
+                                    apologétiques d’auteurs arabes chrétiens du IX<hi rend="superscript">e</hi> au XIV<hi rend="superscript">e</hi> siècles</title> (1929), 168–75. (Arabic)</bibl>
+                            <bibl>G.  Troupeau, ‘Trois traités apologétiques de Yaḥyâ Ibn ʿAdî,
+                                traduits en français’, in <title rend="italic">L’Art des confins.
+                                    Mélanges offerts à Maurice de Gandillac</title>, <abbr>ed.</abbr>
+                                A.  Cazenave and J.-F. Lyotard (1985), 177–84. (<abbr>FT</abbr> of texts edited
+                                in Sbath; <abbr>repr.</abbr> in <title rend="italic">Études sur le christianisme
+                                    arabe au Moyen Age</title>[1995], ch. xi)</bibl>
+                        </listBibl>
+                        <listBibl>
+                            <head>Secondary Sources</head>
+                            <bibl>G.  Endress, <title rend="italic">The works of Yaḥyā ibn ʿAdī. An
+                                    analytical inventory</title> (1977). (incl. further
+                                references)</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>G.  Endress</reg>
+                           <orig>idem</orig>
+                        </choice>, in <title rend="italic">EI</title>
+                                <hi rend="superscript">2</hi>, vol. 11, 245.</bibl>
+                            <bibl>G.  Graf, <title rend="italic">Die Philosophie und Gotteslehre des
+                                    Jaḥjâ ibn ʿAdī und späterer Autoren</title> (1910).</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>G.  Graf</reg>
+                           <orig>idem</orig>
+                        </choice>, <title rend="italic">GCAL</title>, vol. 2 (1947),
+                                233–49.</bibl>
+                            <bibl>S. H.  Griffith, <title rend="italic">The Church in the shadow of
+                                    the Mosque. Christians and Muslims in the world of Islam</title>
+                                (2008), esp. 122–5.</bibl>
+                            <bibl>J.  Kraemer, <title rend="italic">Humanism in the Renaissance of
+                                    Islam. The cultural revival during the Buyid Age</title> (1986),
+                                esp. 104–16.</bibl>
+                            <bibl>A.  Périer, <title rend="italic">Yaḥyâ ben ʿAdî. Un philosophe
+                                    arabe chrétien du X<hi rend="superscript">e</hi> siècle</title>
+                                (1920).</bibl>
+                            <bibl>Kh.  Samir, ‘Yaḥyā ibn ʿAdī’, <title rend="italic">Bulletin
+                                    d’Arabe Chrétien</title> 3 (1979), 45–63. (important additions to
+                                Endress 1977)</bibl>
+                        </listBibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Aaron M.</forename> 
+                  <surname>Butts</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

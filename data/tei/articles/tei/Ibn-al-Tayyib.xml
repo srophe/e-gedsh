@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Ibn al-Ṭayyib</title>
+            <author>
+               <persName>
+                  <forename>Aaron M.</forename> 
+                  <surname>Butts</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0">Electronic Edition Draft Version 1.0</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Ibn al-Ṭayyib</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Ibn-al-Tayyib</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/276</idno>
+                    <idno type="entry">267</idno>
+                    <milestone unit="pages" n="206-207"/>
+                    <idno type="subject">http://syriaca.org/person/543</idno>
+                    <note type="type">person</note>
+                    <note type="abstract">Priest, theologian, exegete, physician, translator, and
+                        philosopher. His full name is Abū al-Faraj ʿAbd Allāh Ibn al-Ṭayyib
+                        al-ʿIrāqī.<note/>
+                    </note>
+                </ab>
+                <ab type="infobox">(d. 1043) [Ch. of E.]</ab>
+                <div type="body">
+                    <p>Priest, theologian, exegete, physician, translator, and philosopher. His full
+                        name is Abū al-Faraj ʿAbd Allāh Ibn al‑Ṭayyib al-ʿIrāqī. He worked at the
+                        ʿAḍūdiyya Hospital in <ref rend="bold" target="https://gedsh.bethmardutho.org/Baghdad">
+                            <placeName ref="http://syriaca.org/place/41">Baghdad</placeName>
+                        </ref> and served
+                        as secretary to both <abbr>Cath.</abbr> Yūḥannā <abbr>b.</abbr> Nāzūk (<abbr>r.</abbr> 1012–22) and <abbr>Cath. </abbr>
+                        <ref rend="bold" target="https://gedsh.bethmardutho.org/Eliya-I-of-Tirhan">
+                            <persName ref="http://syriaca.org/person/468">Eliya I</persName>
+                        </ref> (<abbr>r.</abbr>  1028–49). He was a student of al-Ḥasan <abbr>b.</abbr>
+                        Suwār <abbr>b.</abbr> al-Khammār (d. after 1017), who himself was a student of <ref rend="bold" target="https://gedsh.bethmardutho.org/Yahya-b-Adi">
+                            <persName ref="http://syriaca.org/person/180">Yaḥyā <abbr>b.</abbr>
+                            ʿAdī</persName>
+                        </ref> (d. 974). Ibn al-Ṭayyib’s students include ʿAlī <abbr>b.</abbr> ʿĪsā
+                        al-kaḥḥāl (d. after 1010), Abū al-Ḥusayn al-Baṣrī (d. 1044), and Ibn Buṭlān
+                        (d. 1066). He was also a contemporary of Ibn Sīnā (Avicenna).</p>
+                    <p>Ibn al-Ṭayyib’s oeuvre includes more than forty items, all in Arabic,
+                        that span the fields of philosophy, medicine, theology, exegesis, and canon
+                        law. In philosophy, he wrote commentaries on the ‘Isagoge’ of <ref rend="bold" target="https://gedsh.bethmardutho.org/Porphyry">
+                            <persName ref="http://syriaca.org/person/684">Porphyry</persName>
+                        </ref> (<abbr>ed.</abbr> Gyekye) and on several works by <ref rend="bold" target="https://gedsh.bethmardutho.org/Aristotle">
+                            <persName ref="http://syriaca.org/person/342">Aristotle</persName>
+                        </ref>,
+                        including the ‘Categories’(<abbr>ed.</abbr> Ferrari; <abbr>ed.</abbr> ʿAlī Ḥusayn al-Jābirī <abbr>et al.</abbr>).
+                        In medicine, he wrote several treatises in addition to commentaries on
+                        Hippocrates and <ref rend="bold" target="https://gedsh.bethmardutho.org/Galen">
+                            <persName ref="http://syriaca.org/person/496">Galen</persName>
+                        </ref>. Among Ibn
+                        al-Ṭayyib’s most significant works in theology is his biblical commentary
+                        entitled <hi rend="italic">Firdaws al-naṣrāniyya</hi> ‘The Paradise of
+                        Christianity’ (Gen. <abbr>ed.</abbr> with <abbr>FT</abbr> Sanders). This exegetical work draws upon
+                        various Syriac sources, including the Scholion of <ref rend="bold" target="https://gedsh.bethmardutho.org/Theodoros-bar-Koni">
+                            <persName ref="http://syriaca.org/person/783">Theodoros bar
+                            Koni</persName>
+                        </ref> (<abbr>fl.</abbr> end of the 8th <abbr>cent.</abbr>), the ‘Selected Questions’ of <ref rend="bold" target="https://gedsh.bethmardutho.org/Isho-bar-Nun">
+                            <persName ref="http://syriaca.org/person/552">Ishoʿ
+                            bar Nun</persName>
+                        </ref> (d. 828), and the commentaries of <ref rend="bold" target="https://gedsh.bethmardutho.org/Ishodad-of-Merv">
+                            <persName ref="http://syriaca.org/person/555">Ishoʿdad of
+                            Merv</persName>
+                        </ref> (<abbr>fl.</abbr>
+                        <abbr> ca.</abbr> 850), and it served as one of the primary bridges by
+                        which E.-Syr. biblical exegesis reached <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Coptic-Christianity-Syriac-contacts-with">Coptic Christianity</ref> and <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Ethiopic-Christianity-Syriac-contacts-with">Ethiopic
+                            Christianity</ref>. In addition to the <hi rend="italic">Firdaws
+                            al-naṣrāniyya</hi>, Ibn al-Ṭayyib wrote separate commentaries on the
+                        Psalms (<abbr>ed.</abbr> Manquriyūs and Jirjis) and the Gospels (<abbr>ed.</abbr> Manquriyūs; cf.
+                        Faultless) as well as (probably) translated the <ref rend="bold" target="https://gedsh.bethmardutho.org/Diatessaron">Diatessaron</ref>
+                        into Arabic (see Baarda). He also authored a number of theological
+                        treatises. Finally, mention should be made of his <hi rend="italic">Fiqh
+                            al-naṣrāniyya</hi> ‘The law of Christianity’, which is a compilation of
+                            <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Juridical-literature">juridical literature</ref> of the <abbr>Ch. of E.</abbr> (<abbr>ed.</abbr>
+                        Hoenerbach and Spies).</p>
+                </div>
+                <div type="bibl">
+                    <listBibl>
+                        <listBibl>
+                            <head>Primary Sources</head>
+                            <bibl>C.  Ferrari, <title rend="italic">
+                                    <choice>
+                                        <sic>Die</sic>
+                                        <corr>Der</corr>
+                                    </choice> Kategorienkommentar von Abū
+                                    l-Farağ ʿAbdallāh ibn aṭ-Ṭayyib. Text und Untersuchungen</title>
+                                (2006). (Arabic with <abbr>GT</abbr>)</bibl>
+                            <bibl>K.  Gyekye, <title rend="italic">Ibn al-Tayyib’s Commentary on
+                                    Porphyry’s Eisagoge. Arabic text edited with introduction and a
+                                    glossary of Greek-Arabic logical terms</title> (1975).
+                                (Arabic)</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>K.  Gyekye</reg>
+                           <orig>idem</orig>
+                        </choice>, <title rend="italic">Arabic Logic. Ibn al-Ṭayyib’s
+                                    Commentary on Porphyry’s Eisagoge</title> (1979). (<abbr>ET</abbr>)</bibl>
+                            <bibl>W.  Hoenerbach and O. Spies, <title rend="italic">Ibn aṭ-Ṭayyib.
+                                    Fiqh al-naṣrānīya</title> (<abbr>CSCO</abbr> 161–2, 167–8; 1956–57). (Arabic
+                                with <abbr>GT</abbr>)</bibl>
+                            <bibl>ʿAlī Ḥusayn al-Jābirī <abbr>et al.</abbr>, <title rend="italic">al-Šarḥ
+                                    al-kabīr li-maqūlāt Arisṭū</title> (2002). (Arabic)</bibl>
+                            <bibl>M.  Kellermann, <title rend="italic">Ein pseudoaristotelischer
+                                    Traktat über die Tugend</title> (Ph.D. Diss.,
+                                Friedrich-Alexander-Universität Erlangen-Nürnberg; 1965). (Arabic with <abbr>GT</abbr>)</bibl>
+                            <bibl>Y. T.  Langermann, ‘Abū al-Faraj ibn al-Ṭayyib on spirit and
+                                soul’, <title rend="italic">
+                                    <abbr>LM</abbr>
+                                </title> 122 (2009), 149–58. (Arabic
+                                with <abbr>ET</abbr>)</bibl>
+                            <bibl>Y. Manquriyūs, <title rend="italic">Tafsīr al-mašriqī</title>
+                                (1908–10). (Arabic)</bibl>
+                            <bibl>Y.  Manquriyūs and Ḥ.  Jirjis, <title rend="italic">al-Rawḍ
+                                    al-nadīr fī tafsīr al-mazāmīr</title> (1902). (Arabic)</bibl>
+                            <bibl>F. Rosenthal, ‘The symbolism of the Tabula Cebetis according to
+                                Abû l-Faraj Ibn aṭ-Ṭayyib’, in <title rend="italic">Recherches
+                                    d’Islamologie</title> (1977), 273–83. (Arabic with <abbr>ET</abbr>)</bibl>
+                            <bibl>Kh. Samir, ‘Nécessité de la science. Texte de ʿAbdallāh Ibn
+                                aṭ-Ṭayyib (m. 1043)’, <title rend="italic">
+                                    <abbr>ParOr</abbr>
+                                </title> 3 (1972),
+                                241–59. (Arabic with <abbr>FT</abbr>)</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>Kh. Samir</reg>
+                           <orig>idem</orig>
+                        </choice>, ‘Nécessité de l’exégèse scientifique. Texte de ʿAbdallāh Ibn
+                                aṭ-Ṭayyib’, <title rend="italic">
+                                    <abbr>ParOr</abbr>
+                                </title> 5 (1974), 243–79.
+                                (Arabic with <abbr>FT</abbr>)</bibl>
+                            <bibl>J. C. J.  Sanders, <title rend="italic">Commentaire sur la
+                                    Genèse</title> (<abbr>CSCO</abbr> 274–5; 1967). (Arabic with <abbr>FT</abbr>)</bibl>
+                            <bibl>P. P.  Sbath, <title rend="italic">Vingt traités philosophiques et
+                                    apologétiques d’auteurs arabes chrétiens du IX<hi rend="superscript">e</hi> au XIX<hi rend="superscript">e</hi> siècles</title> (1929), 179–80. (Arabic)</bibl>
+                            <bibl>G.  Troupeau, ‘Le traité sur l’unité et la Trinité de ʿAbd Allāh
+                                ibn al-Ṭayyib’, <title rend="italic">
+                                    <abbr>ParOr</abbr>
+                                </title> 2 (1971), 71–89.
+                                (Arabic with <abbr>FT</abbr>)</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>G.  Troupeau</reg>
+                           <orig>idem</orig>
+                        </choice>, ‘Le traité sur l’union de ʿAbd Allāh Ibn aṭ-Ṭayyib’, <title rend="italic">
+                                    <abbr>ParOr</abbr>
+                                </title> 8 (1977–78), 141–50. (Arabic with
+                                <abbr>FT</abbr>)</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>G.  Troupeau</reg>
+                           <orig>idem</orig>
+                        </choice>, ‘Le traité sur les hypostases et la substance de ʿAbd Allāh
+                                Ibn al-Ṭayyib’, <title rend="italic">Orientalia Hispanica</title>,
+                                <abbr>ed.</abbr> J. M. Barral (1974), 640–4. (Arabic with <abbr>FT</abbr>)</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>G.  Troupeau</reg>
+                           <orig>idem</orig>
+                        </choice>, ‘Le traité sur la Trinité et l’unité de ʿAbd Allāh ibn
+                                al-Ṭayyib’, <title rend="italic">Bulletin d’études
+                                    orientales</title> 25 (1972), 105–23. (Arabic with <abbr>FT</abbr>)</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>G.  Troupeau</reg>
+                           <orig>idem</orig>
+                        </choice>, ‘Traité sur la science et le miracle et fragments du Traité
+                                sur les fondements de la religion de ʿAbd Allāh ibn al-Ṭayyib’, in
+                                    <title rend="italic">Études de civilisation médiévale, IXe–XIIe
+                                    siècles</title> (1985), 177–84. (<abbr>FT</abbr> of texts in Sbath)</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>G.  Troupeau</reg>
+                           <orig>idem</orig>
+                        </choice>, <title rend="italic">Études sur le christianisme arabe au
+                                    Moyen Âge</title> (1995). (incl. reprints of previous
+                                items)</bibl>
+                            <bibl>H. Z.  Ülken, <title rend="italic">Ibn Sina Risâleleri</title>
+                                (1953), vol. 1, 57–65. (Arabic)</bibl>
+                        </listBibl>
+                        <listBibl>
+                            <head>Secondary Sources</head>
+                            <bibl>T.  Baarda, ‘The author of the Arabic Diatessaron’, in <title rend="italic">Miscellanea Neotestamentica</title>, <abbr>ed.</abbr>
+                                T.  Baarda, A. F. J.  Klijn, W. C.  van Unnik, vol. 1 (1978),
+                                61–103. (<abbr>repr.</abbr> in T. Baarda, <title rend="italic">Early transmission
+                                    of words of Jesus</title> [1983], 207–49)</bibl>
+                            <bibl>J.  Faultless, ‘The two recensions of the Prologue to John in Ibn
+                                al-Ṭayyib’s <title rend="italic">Commentary on the Gospels</title>’,
+                                in <title rend="italic">Christians at the heart of Islamic rule.
+                                    Church life and scholarship in ʿAbbasid Iraq</title>, <abbr>ed.</abbr> D. R.
+                                Thomas (The History of Christian-Muslim Relations 1; 2003),
+                                177–98.</bibl>
+                            <bibl>P. Féghali, ‘Ibn aṭ-Ṭayyib et son commentaire sur la Genèse’,
+                                    <title rend="italic">
+                                    <abbr>ParOr</abbr>
+                                </title> 16 (1990–91), 149–62.</bibl>
+                            <bibl>Graf, <title rend="italic">GCAL</title>, vol. 1 (1944), 152–5;
+                                vol. 2 (1947), 160–77.</bibl>
+                            <bibl>Kh.  Samir, ‘La place d’Ibn aṭ-Ṭayyib dans la pensée arabe’,
+                                    <title rend="italic">
+                                    <abbr>JEastCS</abbr>
+                                </title> 58 (2006), 177–93.</bibl>
+                            <bibl>J. C. J.  Sanders, <title rend="italic">Inleiding op het
+                                    Genesiskommentaar van de Nestoriaan Ibn aṭ-Ṭaiyib</title>
+                                (1963).</bibl>
+                            <bibl>M.  Ullmann, <title rend="italic">Die Medizin im Islam</title>
+                                (1970), 156–7.</bibl>
+                            <bibl>J.  Vernet, ‘Ibn al-Ṭayyib’, in <title rend="italic">EI</title>
+                                <hi rend="superscript">2</hi>, vol. 3, 955.</bibl>
+                        </listBibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Aaron M.</forename> 
+                  <surname>Butts</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

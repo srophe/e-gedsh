@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Athanasius of Alexandria</title>
+            <author>
+               <persName>
+                  <forename>Sebastian P.</forename> 
+                  <surname>Brock</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0">Electronic Edition Draft Version 1.0</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Athanasius of Alexandria</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Athanasius-of-Alexandria</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/70</idno>
+                    <idno type="entry">61</idno>
+                    <milestone unit="pages" n="46-47"/>
+                    <idno type="subject">http://syriaca.org/person/354</idno>
+                    <note type="type">person</note>
+                    <note type="abstract">
+                        <abbr>Bp.</abbr> of <placeName type="diocese" subtype="general">Alexandria</placeName> and Greek author.<note/>
+                    </note>
+                </ab>
+                <ab type="infobox">(<abbr>ca.</abbr> 296–373)</ab>
+                <div type="body">
+                    <p>
+                        <abbr>Bp.</abbr> of Alexandria and Greek author. He became <abbr>bp.</abbr> of Alexandria in 328, but
+                        spent much of his life in exile due to his vigorous opposition to Arianism.
+                        Many of his numerous writings (in Greek) were translated into Syriac, and
+                        some of these survive in several recensions. Most of Athanasius’s works in
+                        Syriac are only known from early <abbr>Syr. Orth.</abbr> or Melkite <abbr>mss.</abbr> (in some cases
+                        there have been some dogmatic alterations). <ref rend="bold" target="https://gedsh.bethmardutho.org/Timotheos-I">
+                            <persName ref="http://syriaca.org/person/790">Timotheos  I</persName>
+                        </ref>, however, in his Letters knew of several works, and
+                        the Letter to Epictetus is quoted in both E.- and W.-Syr. dogmatic
+                        florilegia. The only work transmitted in a large number of <abbr>mss.</abbr> is the Life
+                        of Antony, which was later incorporated into <ref rend="bold" target="https://gedsh.bethmardutho.org/Enanisho">
+                            <persName ref="http://syriaca.org/person/474">ʿEnanishoʿ</persName>
+                        </ref>’s
+                        ‘Paradise of the Fathers’. The following are the most important translations
+                        which have so far been edited:</p>
+                    <p>1. ‘On the Incarnation’ (<hi rend="italic">
+                            <abbr>CPG</abbr>
+                        </hi> 2091), <abbr>ed.</abbr> with <abbr>ET</abbr>, R. W.
+                        Thomson, <hi rend="italic">Athanasiana Syriaca</hi>, vol. 1 (<abbr>CSCO</abbr> 257–8;
+                        1965). This represents the short recension of the Greek text.</p>
+                    <p>2. ‘Life of Antony’ (<hi rend="italic">
+                            <abbr>CPG</abbr>
+                        </hi> 2101), <abbr>ed.</abbr> with <abbr>FT</abbr>,
+                        R.  Draguet (<abbr>CSCO</abbr> 417–8; 1980); earlier editions by P.  Bedjan in <hi rend="italic">Acta Martyrum et Sanctorum</hi>, vol. 5, and E. A. W.
+                        Budge in <hi rend="italic">Paradise of the Fathers</hi> (1904). Draguet’s
+                        view that the very free translation represents a lost earlier form of the
+                        Greek text is now discounted.</p>
+                    <p>3. ‘Exposition of the Psalms’ (<hi rend="italic">
+                            <abbr>CPG</abbr>
+                        </hi> 2140), <abbr>ed.</abbr> with <abbr>ET</abbr>,
+                        Thomson, <hi rend="italic">Athanasiana Syriaca</hi>, vol. 4 (<abbr>CSCO</abbr> 386–7;
+                        1977). There is both a full and an abbreviated form.</p>
+                    <p>4. ‘On Virginity’ (<hi rend="italic">
+                            <abbr>CPG</abbr>
+                        </hi> 2145), <abbr>ed.</abbr> with <abbr>FT</abbr>, J. Lebon in
+                            <title rend="italic">
+                            <abbr>
+                                <hi rend="italic">LM</hi>
+                            </abbr>
+                        </title> 40 (1927), 205–48; <abbr>ET</abbr> in Brakke 1995, 303–9.
+                        This is only known in Syriac and Armenian.</p>
+                    <p>5. Homily on Matt. 12:32 (<hi rend="italic">
+                            <abbr>CPG</abbr>
+                        </hi> 2096), <abbr>ed.</abbr> with <abbr>ET</abbr>,
+                        Thomson, <hi rend="italic">Athanasiana Syriaca</hi>, vol. 2.</p>
+                    <p>6. Letters:</p>
+                    <p>a. Festal Letters (<hi rend="italic">
+                            <abbr>CPG</abbr>
+                        </hi> 2102), <abbr>ed.</abbr> W. Cureton (1848);
+                        <abbr>FT</abbr> of the Syriac index in A.  Martin and M. Albert, in <title rend="italic">
+                            <abbr>
+                                <hi rend="italic">SC</hi>
+                            </abbr>
+                        </title> 317 (1985). <abbr>IT</abbr> and study in A. Camplani, <hi rend="italic">Atanasio di Alessandria, Lettere Festali; Anonimo, Indice delle Lettere
+                            Festale</hi> (2003). The Syriac translation is particularly important
+                        since most of the Greek originals is lost.</p>
+                    <p>b. The following letters have been edited, with <abbr>ET</abbr>, by Thomson: in <hi rend="italic">Athanasiana Syriaca</hi>, vol. 1: to Epictetus (<hi rend="italic">
+                            <abbr>CPG</abbr>
+                        </hi> 2095); in <hi rend="italic">Athanasiana
+                            Syriaca</hi>, vol. 2: to Adelphius (<hi rend="italic">
+                            <abbr>CPG</abbr>
+                        </hi> 2098),
+                        (Serapion [<hi rend="italic">
+                            <abbr>CPG</abbr>
+                        </hi> 2096]), the Africans (<hi rend="italic">
+                            <abbr>CPG</abbr>
+                        </hi> 2133), the Antiochenes (<hi rend="italic">
+                            <abbr>CPG</abbr>
+                        </hi> 2134), Maximus (<hi rend="italic">
+                            <abbr>CPG</abbr>
+                        </hi> 2100); in <hi rend="italic">Athanasiana Syriaca</hi>, vol. 3: to Jovian (<hi rend="italic">
+                            <abbr>CPG</abbr>
+                        </hi> 2253). The Letter to Epictetus was also published
+                        by P. Bedjan, <hi rend="italic">Nestorius, Le livre d’Héraclide</hi> (1910),
+                        577–96.</p>
+                    <p>c. To the Virgins (<hi rend="italic">
+                            <abbr>CPG</abbr>
+                        </hi> 2146), <abbr>ed.</abbr> with <abbr>FT</abbr>, J. Lebon,
+                        in <title rend="italic">
+                            <abbr>LM</abbr>
+                        </title> 41 (1928), 169–216. This is only found in
+                        Syriac. Unpublished Syriac translations include Against the Arians (<hi rend="italic">
+                            <abbr>CPG</abbr>
+                        </hi> 2093), in <abbr>ms.</abbr> Damascus <abbr>Patr.</abbr> 12/24 (beginning and
+                        end lost; see S. P. Brock, in <title rend="italic">
+                            <abbr>LM</abbr>
+                        </title> 86 [1973],
+                        437–42).</p>
+                    <p>A number of writings claiming to be by Athanasius were put out under his name
+                        by Apollinarians; some of these were translated into Syriac and have been
+                        published: On the Incarnation of God the Word (<hi rend="italic">
+                            <abbr>CPG</abbr>
+                        </hi>
+                        3365), <abbr>ed.</abbr> with <abbr>ET</abbr>, Thomson, <hi rend="italic">Athanasiana Syriaca</hi>,
+                        vol. 3; That Christ is one (<hi rend="italic">
+                            <abbr>CPG</abbr>
+                        </hi> 3737), <abbr>ed.</abbr> with <abbr>ET</abbr>,
+                        Thomson, <hi rend="italic">Athanasiana Syriaca</hi>, vol. 3. (These were
+                        also edited earlier by J. Flemming and H. Lietzmann, 1904).</p>
+                    <p>Other texts wrongly ascribed in Syriac to Athanasius are:</p>
+                    <p>1. ‘On the Cross and the Passion’ (<hi rend="italic">
+                            <abbr>CPG</abbr>
+                        </hi> 2247), <abbr>ed.</abbr> with
+                        <abbr>ET</abbr>, Thomson, <hi rend="italic">Athanasiana Syriaca</hi>, vol. 3.</p>
+                    <p>2. ‘Against Apollinarius I’ (<hi rend="italic">
+                            <abbr>CPG</abbr>
+                        </hi> 2231), <abbr>ed.</abbr> with <abbr>ET</abbr>,
+                        Thomson, <hi rend="italic">Athanasiana Syriaca</hi>, vol. 3. Three
+                        recensions are known.</p>
+                    <p>3. ‘On the Incarnation against the Arians’ (<hi rend="italic">
+                            <abbr>CPG</abbr>
+                        </hi> 2806),
+                        <abbr>ed.</abbr> with <abbr>ET</abbr>, Thomson, <hi rend="italic">Athanasiana Syriaca</hi>, vol.  3.
+                        This is now attributed to Marcellus of Ancyra.</p>
+                    <p>4. Another treatise on Virginity, <abbr>ed.</abbr> with <abbr>ET</abbr>, D. Brakke (<abbr>CSCO</abbr> 592–3;
+                        2002).</p>
+                    <p>5. A baptismal address, <abbr>ed.</abbr> with <abbr>ET</abbr>, S. P. Brock in <title rend="italic">
+                            <abbr>OC</abbr>
+                        </title>
+                        61 (1977), 92–102.</p>
+                    <p>6. An Anaphora, <abbr>ed.</abbr> A. Baumstark, in <title rend="italic">
+                            <abbr>OC</abbr>
+                        </title> 2 (1902),
+                        90–129.</p>
+                    <p>There is a Syriac biography of Athanasius compiled from <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Theodoret-of-Cyrrhus">
+                            <persName ref="http://syriaca.org/person/781">Theodoret
+                        </persName>
+                        </ref> and other Greek sources (edition by M. Hollerich in preparation); this
+                        was a source for <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Barhadbshabba-Arbaya">
+                            <persName ref="http://syriaca.org/person/367">Barḥadbshabba</persName>
+                        </ref>’s notice on Athanasius
+                        in his Ecclesiastical History.</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>
+                            <title rend="italic">
+                                <abbr>CPG</abbr>
+                            </title> 2090–2309.</bibl>
+                        <bibl>D.  Brakke, ‘The Greek and Syriac versions of the Life of Antony’,
+                                <title rend="italic">
+                                <abbr>LM</abbr>
+                            </title> 107 (1994), 29–53.</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>D.  Brakke</reg>
+                        <orig>idem</orig>
+                     </choice>, ‘The authenticity of the ascetic Athanasiana’, <title rend="italic">Orientalia</title> 63 (1994), 17–56.</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>D.  Brakke</reg>
+                        <orig>idem</orig>
+                     </choice>, <title rend="italic">Athanasius and the Politics of
+                                Asceticism</title> (1995). (for the wider background)</bibl>
+                        <bibl>A.  Camplani, <title rend="italic">Le Lettere Festali di Atanasio di
+                                <choice>
+                                    <sic>Alexandria</sic>
+                                    <corr>Alessandria</corr>
+                                </choice>
+                            </title> (1989).</bibl>
+                        <bibl>M. Hollerich, ‘The sources of Ps. Amphilochius’ <title rend="italic">Vita Athanasii Syriaca</title>’, in <abbr>
+                                <title rend="italic">SymSyr</title> V</abbr>, 273–83.</bibl>
+                        <bibl>F. Takeda, ‘Monastic theology of the Syriac version of the Life of
+                            Antony’, <title rend="italic">
+                                <abbr>StPatr</abbr>
+                            </title>, vol. 35 (2001),
+                            148–57.</bibl>
+                        <bibl>R. W.  Thomson, ‘Some remarks on the Syriac version of Athanasius de
+                            Incarnatione’, <title rend="italic">
+                                <abbr>LM</abbr>
+                            </title> 77 (1964), 17–28.</bibl>
+                        <bibl>P. van Nuffelen, ‘Les lettres festales d’Athanase d’Alexandrie: les
+                            “erreurs” chronologiques de l’Index syriaque’, <title rend="italic">Revue des études augustiniennes</title> 47 (2001), 85–95.</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Sebastian P.</forename> 
+                  <surname>Brock</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

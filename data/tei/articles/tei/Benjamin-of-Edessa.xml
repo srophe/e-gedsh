@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Benjamin of Edessa</title>
+            <author>
+               <persName>
+                  <forename>Lucas</forename> 
+                  <surname>Van Rompay</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0">Electronic Edition Draft Version 1.0</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Benjamin of Edessa</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Benjamin-of-Edessa</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/104</idno>
+                    <idno type="entry">95</idno>
+                    <milestone unit="pages" n="69-70"/>
+                    <idno type="subject">http://syriaca.org/person/152</idno>
+                    <note type="type">person</note>
+                    <note type="abstract">Metropolitan <abbr>bp.</abbr> of <placeName type="diocese" ana="Syrian Orthodox">Edessa</placeName>, professor of dogma,
+                        commentator on the homilies of Gregory of Nazianzus and on the works of
+                            <persName>Pseudo-Dionysius the Areopagite</persName>.<note/>
+                    </note>
+                </ab>
+                <ab type="infobox">(first half of the 9th <abbr>cent.</abbr>) [<abbr>Syr. Orth.</abbr>]</ab>
+                <div type="body">
+                    <p>Metropolitan <abbr>bp.</abbr> of <ref rend="bold" target="https://gedsh.bethmardutho.org/Edessa">
+                            <placeName ref="http://syriaca.org/place/78">Edessa</placeName>
+                        </ref>, professor of
+                        dogma, commentator on the homilies of <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Gregory-of-Nazianzus">
+                            <persName ref="http://syriaca.org/person/511">Gregory of
+                            Nazianzus</persName>
+                        </ref> and on the works of <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Dionysius-the-Areopagite-Pseudo-">Pseudo-Dionysius
+                            the Areopagite</ref>. Prior to his consecration as <abbr>bp.</abbr>, Benjamin was
+                        monk in the Monastery of Mor Yaʿqub (most likely in Kaysum). Later in his
+                        life he was found teaching at the monasteries of Eusebona (833/4) and Tell
+                        ʿAda (836/7, when in his capacity of <hi rend="italic">Rabban d-dogma</hi>,
+                        ‘professor of dogma’, he was there for a period of retreat: <hi rend="italic">kawšo d-tawtobutho</hi>). Benjamin’s work is known to us
+                        in the commentaries written down by his disciples, who mention him in their
+                        colophons. One of them was Daniel (see <abbr>ms.</abbr> Brit. Libr. Add. 14,725; Wright,
+                            <hi rend="italic">Catalogue … British Museum</hi>, vol. 2, 442). An
+                        anonymous commentary on the first volume of Gregory is said to have been
+                        written ‘according to the tradition’ (<hi rend="italic">mašlmonutho</hi>) of
+                        Mar Benjamin (<abbr>ms.</abbr> Brit. Libr. Add. 17,197; Wright, <hi rend="italic">Catalogue … British Museum</hi>, vol. 2, 441a).</p>
+                    <p>While the W.-Syr. information on Benjamin seems to be limited to his work on
+                        Gregory of Nazianzus (with the exception of a quotation by <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Dionysios-bar-Salibi">
+                            <persName ref="http://syriaca.org/person/212">Dionysios
+                            bar Ṣalibi</persName>
+                        </ref>, mentioned by Barsoum), <ref rend="bold" target="https://gedsh.bethmardutho.org/Bar-Bahlul-Hasan">
+                            <persName ref="http://syriaca.org/person/365">Bar Bahlul</persName>
+                        </ref>
+                        knows a certain Benjamin, <hi rend="italic">dayroyo</hi> or <hi rend="italic">iḥidoyo</hi>, to whom on two occasions he specifically
+                        attributes a commentary on Dionysius (<abbr>ed.</abbr> Duval, 475.9–10 and 1383.6–7). In
+                        all likelihood we are dealing with the same person. (This Benjamin is
+                        clearly to be distinguished from the allegedly 4th-cent. monk of that name;
+                        see Fiey, <hi rend="italic">Saints syriaques</hi>, 56.)</p>
+                    <p>A letter of ‘Benjamin, <abbr>bp.</abbr> of Edessa, concerning reasons (<hi rend="italic">ʿellotho</hi>) for the Eucharist and baptism’, is preserved in <abbr>ms.</abbr>
+                        Brit. Libr. Add. 14,538, f. 38v (Wright, vol.  2, 1004b). It is
+                        unedited.</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>Barsoum, <title rend="italic">Scattered <choice>
+                                    <sic>Pearls</sic>
+                                    <corr>pearls</corr>
+                                </choice>
+                            </title>,
+                            382–3.</bibl>
+                        <bibl>Baumstark, <title rend="italic">Literatur</title>, 276–7.</bibl>
+                        <bibl>A.  de Halleux, ‘Les commentaires syriaques des Discours de Grégoire
+                            de Nazianze. Un premier sondage’, <title rend="italic">
+                                <abbr>LM</abbr>
+                            </title> 98
+                            (1985), 103–47.</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>A.  de Halleux</reg>
+                        <orig>idem</orig>
+                     </choice>, ‘Rabban Benjamin d’Édesse et la date du <abbr>ms.</abbr> B. L. Or., 8731’, in
+                                <abbr>
+                                <title rend="italic">SymSyr</title> IV</abbr>, 445–51.</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Lucas</forename> 
+                  <surname>Van Rompay</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">de Lagarde, Paul Anton</title>
+            <author>
+               <persName>
+                  <forename>Lucas</forename> 
+                  <surname>Van Rompay</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0">Electronic Edition Draft Version 1.0</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>de Lagarde, Paul Anton</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/de-Lagarde-Paul-Anton</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/333</idno>
+                    <idno type="entry">324</idno>
+                    <milestone unit="pages" n="245-246"/>
+                    <idno type="althead" subtype="altorder">Paul Anton de Lagarde</idno>
+                    <idno type="subject">http://syriaca.org/person/592</idno>
+                    <note type="type">person</note>
+                    <note type="abstract">Scholar of Semitic and Eastern languages and literatures;
+                        professor of Eastern languages at the University of Göttingen.<note/>
+                    </note>
+                </ab>
+                <ab type="infobox">(1827–1891)</ab>
+                <div type="body">
+                    <p>Scholar of Semitic and Eastern languages and literatures; professor of
+                        Eastern languages at the University of Göttingen. His earliest publications
+                        are under the name Bötticher (Boetticher), the name of his father, which he
+                        later replaced by de Lagarde (sometimes Latinized into Lagardius), a name
+                        that existed in his mother’s family.</p>
+                    <p>Born in Berlin, de Lagarde studied theology and oriental languages in Berlin
+                        and in Halle, where he habilitated in 1851. In the following years, he spent
+                        much time in the British Museum in London, where he was among the first
+                        Western scholars to study the Syriac manuscripts that had arrived from <ref rend="bold" target="https://gedsh.bethmardutho.org/al-Suryan-Dayr">
+                            <placeName ref="http://syriaca.org/place/360">Dayr
+                            al-Suryān</placeName>
+                        </ref> in the 1840s. Many of his publications are based on
+                        these manuscripts. It was only in 1869 that he was appointed professor at
+                        Göttingen, as the successor of the famous Semitist and Hebrew Bible scholar
+                        Heinrich Ewald (one of Th. Nöldeke’s teachers).</p>
+                    <p>In addition to his publications in such fields as Hebrew, Arabic, Armenian,
+                        Coptic, and Septuagint, de Lagarde published a number of Syriac texts: the
+                        <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Didascalia-Apostolorum">Didascalia Apostolorum</ref> (1854); other collections of ecclesiastical law
+                        (1856); <ref rend="bold" target="https://gedsh.bethmardutho.org/Titus-of-Bostra">
+                            <persName ref="http://syriaca.org/person/794">Titus of Bostra</persName>
+                        </ref>’s work against the Manichaeans, preserved in <abbr>ms.</abbr>
+                        Brit. Libr. Add. 12,150 of the year 411 (1859); Syriac texts dealing with
+                        agriculture and related issues, continuing the Greek tradition of <ref rend="bold" target="https://gedsh.bethmardutho.org/Geoponika">Geoponika</ref>
+                        (1860); the ‘Recognitions’ attributed to <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Clement-of-Rome-and-Pseudo-Clementine-literature">Clement of Rome</ref>, again from <abbr>ms.</abbr>
+                        Brit. Libr. Add. 12,150 (1861); and ‘Apocryphal’ books of the <abbr>OT</abbr> (1861: Bar
+                        Sira, Wisdom of Solomon, Tobith, Baruch I and II, Epistle of Jeremiah,
+                        Judith, Prayer of Ananias and his companions, Bel, Dragon, Susannah, I Ezra,
+                        I and II Maccabees). A number of shorter texts were grouped together and
+                        published as <hi rend="italic">Analecta Syriaca</hi> (1858) and <hi rend="italic">Praetermissorum libri duo</hi> (1879; which has Syriac
+                        printed in Hebrew characters). He also planned a series entitled <hi rend="italic">Bibliotheca Syriaca</hi>, of which, however, he was able
+                        to prepare only the first volume which, after his death, his student A.
+                        Rahlfs edited (1892). Whereas in his public and university life de Lagarde
+                        did not shy away from expressing strong views  — thereby sometimes provoking
+                        harsh reactions and controversy, not least with his Jewish colleagues  — his
+                        Syriac work is sober and very solid. Most of his editions have been often
+                        reprinted and are still valuable today (some of them have never been
+                        replaced!). De Lagarde’s interests extended beyond philology and text
+                        editions, into the fields of linguistics and lexicography. Quite impressive
+                        for his day is his list of ‘Persian, Armenian, and Indian words in Syriac’
+                        (included in his <hi rend="italic">Gesammelte Abhandlungen</hi>), which is
+                        often quoted in C. Brockelmann’s <hi rend="italic">Lexicon
+                        Syriacum</hi>.</p>
+                    <p>De Lagarde was known for his painstaking attention to correct and precise
+                        typesetting, reflecting the <abbr>ms.</abbr> model as closely as possible. Towards the
+                        end of his life he seems to have been instrumental in the development of a
+                        new Syriac printing type by the Leipzig printing house Drugulin. He did not
+                        live to see it used in his own publications, but it was successfully used
+                        from the early 1890s onwards, and it was eternalized in the second edition
+                        of Nöldeke’s <hi rend="italic">Kurzgefasste syrische Grammatik</hi> (1898;
+                        <abbr>repr.</abbr> 1966) and in its subsequent English translation (1904; <abbr>repr.</abbr>
+                        2001).</p>
+                    <p>A volume to commemorate de Lagarde’s Syriac work in Göttingen was published
+                        in 1968 by the Göttinger Arbeitskreis für syrische Kirchengeschichte.
+                        Several of the contributions deal with topics on which de Lagarde himself
+                        had published or — as in the case of <ref rend="bold" target="https://gedsh.bethmardutho.org/Antun-of-Tagrit">
+                            <persName ref="http://syriaca.org/person/154">Anṭun of
+                            Tagrit</persName>
+                        </ref> — in which he had been particularly interested.</p>
+                </div>
+                <div type="bibl">
+                    <listBibl>
+                        <listBibl>
+                            <head>Select publications by de Lagarde</head>
+                            <bibl>
+                                <title rend="italic">Didascalia apostolorum syriace</title>
+                                (1854).</bibl>
+                            <bibl>
+                                <title rend="italic">Reliquiae iuris ecclesiastici antiquissimae
+                                    syriace</title> (1856).</bibl>
+                            <bibl>
+                                <title rend="italic">Analecta syriaca</title> (1858).</bibl>
+                            <bibl>
+                                <title rend="italic">Titi Bostreni Contra Manichaeos libri quotuor
+                                    syriace</title> (1859).</bibl>
+                            <bibl>
+                                <title rend="italic">Geoponicon in sermonem syriacum versorum quae
+                                    supersunt</title> (1860).</bibl>
+                            <bibl>
+                                <title rend="italic">Libri Veteris Testamenti apocryphi
+                                    syriace</title> (1861).</bibl>
+                            <bibl>
+                                <title rend="italic">Clementis Romani Recognitiones syriace</title>
+                                (1861).</bibl>
+                            <bibl>
+                                <title rend="italic">Gesammelte Abhandlungen</title> (1866).
+                                (1–84: ‘Persische, armenische und indische Wörter im
+                                Syrischen)</bibl>
+                            <bibl>(<abbr>ed.</abbr> A. Rahlfs), <title rend="italic">Bibliothecae Syriacae a
+                                    Paulo de Lagarde collectae quae ad philologiam sacram
+                                    pertinent</title> (1892).</bibl>
+                        </listBibl>
+                        <listBibl>
+                            <head>Secondary Sources</head>
+                            <bibl>J. F.  Coakley, <title rend="italic">The Typography of Syriac. A
+                                    historical catalogue of printing types 1537–1958</title> (2006),
+                                144–46.</bibl>
+                            <bibl>R. J. H.  Gottheil, ‘Bibliography of the works of Paul de
+                                Lagarde’, <title rend="italic">
+                                    <abbr>JAOS</abbr>
+                                </title> 15 (1893), CCXI–CCXXIX.
+                                (specifically Syriac publications are on CCXX–CCXXII [nos.
+                                137–66a])</bibl>
+                            <bibl>
+                                <title rend="italic">Paul de Lagarde und die syrische
+                                    Kirchengeschichte</title>, <abbr>ed.</abbr> Göttinger Arbeitskreis für
+                                syrische Kirchengeschichte (1968). (Unsigned note on P. de Lagarde
+                                on p. 3–7)</bibl>
+                            <bibl>A.  Rahlfs, <title rend="italic">Paul de Lagardes
+                                    wissenschaftliches Lebenswerk im Rahmen einer Geschichte seines
+                                    Lebens dargestellt</title> (Mitteilungen des
+                                Septuaginta-Unternehmens 4.1; 1928).</bibl>
+                        </listBibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Lucas</forename> 
+                  <surname>Van Rompay</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

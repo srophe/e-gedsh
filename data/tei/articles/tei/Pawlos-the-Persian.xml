@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Pawlos the Persian</title>
+            <author>
+               <persName>
+                  <forename>Lucas</forename> 
+                  <surname>Van Rompay</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0">Electronic Edition Draft Version 1.0</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Pawlos the Persian</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Pawlos-the-Persian</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/428</idno>
+                    <idno type="entry">419</idno>
+                    <milestone unit="pages" n="324-325"/>
+                    <idno type="subject">http://syriaca.org/person/674</idno>
+                    <note type="type">person</note>
+                    <note type="abstract">Itinerant E-Syr. scholar educated at the School of Nisibis.<note/>
+                    </note>
+                </ab>
+                <ab type="infobox">(first half of 6th <abbr>cent.</abbr>) [Ch. of E.]</ab>
+                <div type="body">
+                    <p>Itinerant E.-Syr. scholar. Pawlos is primarily known through a mid-6th-cent.
+                        Latin manual of biblical interpretation, authored by Junillus Africanus.
+                        Junillus names as his main authority ‘a certain man called Pawlos, a Persian
+                        by origin, who was educated at the Syrian School in the city of <ref rend="bold" target="https://gedsh.bethmardutho.org/Nisibis">
+                            <placeName ref="http://syriaca.org/place/142">Nisibis</placeName>
+                        </ref>’ (Preface). This Pawlos is said to have written a biblical
+                        manual in Greek, which Junillus claims to have used extensively. Scholars
+                        had noticed that Junillus’s handbook did indeed reflect many of the themes
+                        and approaches known from the <ref rend="bold" target="https://gedsh.bethmardutho.org/Nisibis-School-of">School of
+                            Nisibis</ref> and often traceable to <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Theodore-of-Mopsuestia">
+                            <persName ref="http://syriaca.org/person/780">Theodore
+                            of Mopsuestia</persName>
+                        </ref>. Junillus’s handbook was, therefore, seen as a more
+                        or less faithful translation of Pawlos’s work. The most recent analysis of
+                        the work, however, by Maas and Mathews, depicts Junillus as a more
+                        independent author (‘neither a passive translator of Pawlos the Persian nor
+                        a mouthpiece for the School of Nisibis’, 11), who relied only loosely on
+                        Pawlos’s work.</p>
+                    <p>It may have been the same Pawlos who had a debate with a Manichaean in
+                        Constantinople in 527. The text of this is preserved in Greek, along with
+                        the refutation of a pamphlet written by (probably) the same Manichaean.
+                        Scholars in the past also tried to fuse Pawlos’s identity with that of <ref rend="bold" target="https://gedsh.bethmardutho.org/Pawlos-of-Nisibis">
+                            <persName ref="http://syriaca.org/person/673">Pawlos of Nisibis</persName>
+                        </ref> or <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Pawlos-the-Philosopher">
+                            <persName ref="http://syriaca.org/person/675">Pawlos the
+                            Philosopher</persName>
+                        </ref>. For reasons of chronology and content it seems wiser
+                        to distinguish between the three persons named Pawlos, even though all three
+                        illustrate the vivid interest E.-Syr. intellectuals were showing in Greek
+                        culture during the age of Justinian.</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>H.-G.  Beck, <title rend="italic">Kirche und theologische
+                                Literatur im byzantinischen Reich</title> (Handbuch der
+                            Altertumswissenschaft 12.2.1; 1959), 386.</bibl>
+                        <bibl>A. H.  Becker, ‘The dynamic reception of Theodore of Mopsuestia in the
+                            sixth century: Greek, Syriac and Latin’, in <choice>
+                                <sic>
+                                    <title rend="italic">Greek
+                                Literature in Late Antiquity: Dynamism, Didacticism and
+                                Classicism,</title>
+                                </sic>
+                                <corr>
+                                    <title rend="italic">Greek
+                                    Literature in Late Antiquity: Dynamism, Didacticism and
+                                    Classicism</title>,</corr>
+                            </choice> ed. S. F. Johnson (2006), 29–47.</bibl>
+                        <bibl>M. Maas and E. G. Mathews, Jr., <title rend="italic">Exegesis and
+                                Empire in the early Byzantine Mediterranean. Junillus Africanus and
+                                the Instituta Regularia Divinae Legis</title> (Studies and Texts in
+                            Antiquity and Christianity 17; 2003).</bibl>
+                        <bibl>M.  Richard, <title rend="italic">Iohannis Caesariensis presbyteri et
+                                grammatici opera quae supersunt</title> (<abbr>CCSG</abbr> 1; 1977),
+                            xxxix–xli.</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Lucas</forename> 
+                  <surname>Van Rompay</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

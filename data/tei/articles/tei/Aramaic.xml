@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Aramaic</title>
+            <author>
+               <persName>
+                  <forename>Lucas</forename> 
+                  <surname>Van Rompay</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0">Electronic Edition Draft Version 1.0</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Aramaic</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Aramaic</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/52</idno>
+                    <idno type="entry">43</idno>
+                    <milestone unit="pages" n="28-30"/>
+                    <note type="type">subject</note>
+                    <note type="abstract">Language belonging to the Northwest Semitic
+                        subfamily within the larger family of Semitic languages. <note/>
+                    </note>
+                </ab>
+                <div type="body">
+                    <p>The Aramaic language belongs to the Northwest Semitic subfamily within the
+                        larger family of Semitic languages. To the same subfamily belong among
+                        others Hebrew, Phoenician, and Ugaritic. Aramaic itself consists of a great
+                        number of language forms (and indeed languages), spoken and written in many
+                        different scripts over a period of 3000 years. Aramaic always co-existed and
+                        interacted with other, related or non-related, languages. Among the Aramaic
+                        languages <ref rend="bold" target="https://gedsh.bethmardutho.org/Syriac-Language">Syriac</ref> is by far the best documented
+                        language. Geographically, Aramaic first was used in various locations of the
+                        ‘Fertile Crescent’, in Syria and Mesopotamia. It later spread all over the
+                        Middle East and well into Central Asia. From the 6th <abbr>cent.</abbr> BC to the 7th
+                        <abbr>cent.</abbr> AD, Aramaic, in a variety of interrelated language forms, or
+                        ‘dialects’, was the most widespread language of the Middle East, co-existing
+                        first with Old Persian (6th–4th <abbr>cent.</abbr> BC), and then with Greek (3rd  cent.
+                        BC – 7th <abbr>cent.</abbr> AD), and Middle Persian (3rd– 7th <abbr>cent.</abbr> AD). Under the
+                        dominance of Arabic and Islam, Aramaic lived on among various religious
+                        minorities, Syriac Christianity being the most important among them. In the
+                        third millennium AD, Aramaic and Syriac are used by a few million people —
+                        Christians, Jews, Samaritans, and Mandaeans — in liturgy, literature, and/or
+                        in spoken dialects in the Middle East, Southern India, and the worldwide
+                        diasporas.</p>
+                    <p>Various scholarly attempts have been made at classifying the Aramaic
+                        languages. One among them, first proposed by J. Fitzmyer, and slightly
+                        adapted by S. Kaufman among others, has become widely used. It is based on a
+                        five-fold division of Aramaic linguistic history.</p>
+                    <p>1. Old Aramaic (<abbr>ca.</abbr> 900 – <abbr>ca.</abbr> 600 BC). Aramaic was used by semi-autonomous
+                        <ref rend="bold" target="https://gedsh.bethmardutho.org/Arameans">Aramean</ref> tribes in Syria, Palestine, and
+                        Mesopotamia. Royal and funerary inscriptions of the <ref rend="bold" target="https://gedsh.bethmardutho.org/Aleppo">
+                            <placeName ref="http://syriaca.org/place/18">Aleppo</placeName>
+                        </ref> region
+                        exhibit a relatively, but not entirely, unified language in the Phoenician
+                        sphere of influence, while the bilingual inscription of the Tell Fakhariyya
+                        statue (northeast Syria) points to an Akkadian linguistic and cultural
+                        context. The script is nearly identical to the one found in the Phoenician
+                        inscriptions, from which it was borrowed.</p>
+                    <p>2. Imperial, or Official Aramaic (<abbr>ca.</abbr> 600 – <abbr>ca.</abbr> 200 BC). Already in the later
+                        days of the Neo-Assyrian Empire (following the loss of independence of the
+                        Aramean city states), Aramaic began to be used for trade and communication.
+                        The expansion of Aramaic went on in the Neo-Babylonian Empire and culminated
+                        in the ‘official’ status that Aramaic achieved (along with Persian and
+                        Elamite) in the Achaemenid Persian Empire (mid-6th <abbr>cent.</abbr> – 330 BC). Along
+                        with inscriptions, a great number of texts on papyrus, parchment, and
+                        ostraca have been unearthed in Egypt. They evidence the use of Aramaic in
+                        official documents issued by, and addressed to, the Persian administration,
+                        in correspondence of a more private character, and in literary compositions.
+                        The Aramaic documents in the biblical book of Ezra and their narrative
+                        framework represent the same type of language. The official use of Aramaic
+                        implied that there was a certain linguistic and orthographical standard,
+                        even if individual texts often deviated from it. This standard remained
+                        authoritative for several centuries after the fall of the Persian Empire.
+                        Its literary variant has been called ‘Standard Literary Aramaic’.</p>
+                    <p>3. Middle Aramaic (<abbr>ca.</abbr> 200 BC – <abbr>ca.</abbr> 250 AD). First, there is the continued
+                        use of the earlier standardized language, in such texts as the Aramaic
+                        chapters of the biblical book of Daniel, the Aramaic portions of the Dead
+                        Sea documents, and the earliest layer of the Jewish Targumim, or
+                        translations of the Hebrew Bible (Targum Onkelos for the Pentateuch and
+                        Targum Jonathan for the Prophets). Second, there are corpora of Aramaic
+                        inscriptions, produced in the Nabataean Empire (which had Petra as its
+                        capital), and in the city states of Ḥaṭra, Palmyra, and <ref rend="bold" target="https://gedsh.bethmardutho.org/Edessa">
+                            <placeName ref="http://syriaca.org/place/78">Edessa</placeName>
+                        </ref>. These lost
+                        their independence in the 2nd and 3rd <abbr>cent.</abbr> AD. The languages of these
+                        places each slightly differ from one another and they are written in
+                        slightly different scripts, derived from the script used in the Persian
+                        period. Nabataean Aramaic exhibits features that are due to contact with Old
+                        North Arabian, which was widely spoken throughout the Nabatean Empire.</p>
+                    <p>4. Late Aramaic (3rd <abbr>cent.</abbr> to <abbr>ca.</abbr> 1200 AD). From this period literary texts
+                        are preserved which received classical status in at least four different
+                        religious communities. At the same time, a clear distinction emerges between
+                        West-Aramaic and East-Aramaic dialects.</p>
+                    <p>West-Aramaic texts were produced by Jews (Palestinian Targumim, Aramaic
+                        portions in the Palestinian Talmud and in the Midrashim, Aramaic
+                        compositions preserved among the Cairo Genizah documents  — many of the
+                        texts mentioned represent the Galilean Aramaic dialect), Samaritans
+                        (Targumim, hymns, and prose compositions); and Christians of the Jerusalem
+                        area (<ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Christian-Palestinian-Aramaic">Christian Palestinian Aramaic</ref>).</p>
+                    <p>East-Aramaic texts were produced by Jews (parts of the Babylonian Talmud and
+                        Gaonic literature), Mandaeans (classical Mandaic literature), and Christians
+                        (Syriac). The status of Syriac has been somewhat disputed. While Syriac
+                        traditionally has been considered the westernmost of the East-Aramaic
+                        languages, some scholars now tend to classify it as a separate branch of
+                        late Aramaic. The language of <ref rend="bold" target="https://gedsh.bethmardutho.org/Mani">
+                            <persName ref="http://syriaca.org/person/608">Mani</persName>
+                        </ref> and of the early
+                        Manicheans must have been close to Syriac, but next to nothing has
+                        survived.</p>
+                    <p>Jewish Aramaic texts are written in the Hebrew square script, which itself is
+                        an adaptation of the earlier Aramaic script. Samaritan Aramaic is written in
+                        a separate script, which derives from the earlier Hebrew script.
+                        <choice>
+                            <sic>Christian-Palestinian</sic>
+                            <corr>Christian Palestinian</corr>
+                        </choice> Aramaic is written in a <ref rend="bold" target="https://gedsh.bethmardutho.org/Script-Syriac">script</ref>
+                        that is related to Esṭrangela, and Mandaic has its own script, likely
+                        derived from the Parthian/Late Iranian scripts. An interesting genre that
+                        existed across religious borders is that of the incantations written on
+                        ‘magic bowls’: texts that are very similar exist in Jewish (Babylonian)
+                        Aramaic, Mandaic, and Syriac (written either in Esṭrangela or in a different
+                        script, which has been called ‘Proto-Manichean’).</p>
+                    <p>Each of these languages had its heyday in the pre-Islamic period, when the
+                        literary languages to a large extent reflected, and were nourished by, the
+                        spoken languages. In the Islamic period, when Arabic became more prominent,
+                        the literary languages gradually became disconnected from the waning spoken
+                        dialects, which survived in geographical and social isolation.</p>
+                    <p>5. Modern Aramaic, or Neo-Aramaic (to the present day). While the classical
+                        languages, shaped and standardized in the previous period, continued to be
+                        transmitted and written — and do so up to the present day  — the spoken
+                        variants started having their own history, much of which went unrecorded. It
+                        is only in the 17th <abbr>cent.</abbr> that some dialects began to be written for the
+                        first time. This happened in Northern Iraq with Modern Jewish Aramaic and
+                        with Modern Syriac (see <ref rend="bold" target="https://gedsh.bethmardutho.org/Sureth">Sureth</ref>), which was
+                        written in and around <ref rend="bold" target="https://gedsh.bethmardutho.org/Alqosh">
+                            <placeName ref="http://syriaca.org/place/19">Alqosh</placeName>
+                        </ref>. In the 19th
+                        <abbr>cent.</abbr>, under the impulse of American missionaries, a new literary language
+                        was created for the Christians of <ref rend="bold" target="https://gedsh.bethmardutho.org/Urmia">
+                            <placeName ref="http://syriaca.org/place/206">Urmia</placeName>
+                        </ref> and its
+                        surroundings. First used for a new translation of the Bible, Literary Urmia
+                        Aramaic later was adapted and upgraded to serve as the vehicle of the <ref rend="bold" target="https://gedsh.bethmardutho.org/Assyrians">Assyrian</ref> identity. As such it is still used today
+                        among E.-Syr. Christians in the Middle East and in the worldwide <ref rend="bold" target="https://gedsh.bethmardutho.org/Diaspora">diaspora</ref>.</p>
+                    <p>The modern spoken dialects are generally subdivided as follows:</p>
+                    <p>a. West-Neo-Aramaic, spoken in Maʿlula and in a few neighboring villages to
+                        the north of Damascus by Christians (Greek Orthodox and Greek Catholic) and
+                        by some Muslims. This language may be seen as an offshoot of West-Aramaic,
+                        described under 4. Some texts are available in contemporary scholarly
+                        transliterations.</p>
+                    <p>b. Central-Neo-Aramaic, of which the main dialect is <ref rend="bold" target="https://gedsh.bethmardutho.org/Turoyo">Ṭuroyo</ref>, spoken in
+                            <ref rend="bold" target="https://gedsh.bethmardutho.org/Tur-Abdin">
+                            <placeName ref="http://syriaca.org/place/221">Ṭur
+                            ʿAbdin</placeName>
+                        </ref>, mainly by <abbr>Syr. Orth.</abbr> Christians. The language is now
+                        widespread among the Syr. Orth diaspora. There have been a few attempts to
+                        write it down, most successfully among the Swedish communities (in Latin
+                        script).</p>
+                    <p>c. North-East-Neo-Aramaic, spoken to the east of the Tigris, in Eastern
+                        Turkey, Persian Kurdistan, and Northern Iraq (north of <ref rend="bold" target="https://gedsh.bethmardutho.org/Mosul">
+                            <placeName ref="http://syriaca.org/place/139">Mosul</placeName>
+                        </ref>) by both
+                        Christians and Jews. Due to massive relocation throughout the 20th <abbr>cent.</abbr>,
+                        originally distinct languages have been mixed and cases of Koine formation
+                        have emerged. Here again, many speakers live in the diaspora; Jewish Aramaic
+                        lives on in Israel.</p>
+                    <p>d. South-East-Neo-Aramaic, represented by much endangered Mandaic dialects,
+                        spoken in southern Iraq and western Iran.</p>
+                    <p>Each of these many modern dialects carries its own cultural and religious
+                        tradition. Linguistically they share a number of features, particularly in
+                        the radical transformation of the verbal system. In the lexicon, many
+                        loanwords were borrowed from the surrounding languages along with phonetic,
+                        morphological, and syntactical features.</p>
+                    <p>In the Syriac tradition the term <hi rend="italic">ārāmāyā</hi> (<hi rend="italic">oromoyo</hi>) is often used, along with <hi rend="italic">suryāyā</hi> (<hi rend="italic">suryoyo</hi>), to denote the Syriac
+                        language. Syriac rewriting of texts originally composed in other Aramaic
+                        languages may be found in the Aramaic sections of the Old Testament and in
+                        such texts as the story of <ref rend="bold" target="https://gedsh.bethmardutho.org/Ahiqar">
+                            <persName ref="http://syriaca.org/person/323">Aḥiqar</persName>
+                        </ref>. An awareness
+                        of an Aramean unity, based on the language (<hi rend="italic">leššānā</hi> /
+                            <hi rend="italic">lešono</hi>) and the written tradition (<hi rend="italic">seprā</hi> / <hi rend="italic">sepro</hi>), extending from
+                        the first Chaldean and Assyrian kings to the Christian Syrians, can be found
+                        in the second Appendix added to the Chronicle of <ref rend="bold" target="https://gedsh.bethmardutho.org/Michael-Badoqa">
+                            <persName ref="http://syriaca.org/person/637">Michael
+                            Rabo</persName>
+                        </ref>, which deals with ‘the kingdoms that have been established in
+                        Antiquity by our race, (that of) the Arameans, namely the descendants of
+                        Aram, who were called Syrians or inhabitants of Syria’ (<abbr>ed.</abbr> J. B. Chabot,
+                        text in vol. 4, 748–51; <abbr>FT</abbr> in vol. 3, 442–7). Among the present-day
+                        Syr. Christians the Aramaic heritage is particularly emphasized by the Syr.
+                        Orth.</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>K.  Beyer, <title rend="italic">Die aramäischen Texte vom Toten
+                                Meer</title> (1984); <title rend="italic">Ergänzungsband</title>
+                            (1994).</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>K. Beyer</reg>
+                        <orig>idem</orig>
+                     </choice>, <title rend="italic">The Aramaic language</title> (1986). (= <abbr>ET</abbr>
+                            by J. F. Healey of p. 23–76 of Beyer’s 1984 publication)</bibl>
+                        <bibl>D.  Boyarin, ‘An Inquiry into the formation of the Middle Aramaic
+                            dialects’, in <title rend="italic">Bono homini donum. Essays in
+                                historical linguistics in memory of J. A. Kerns</title>, <abbr>ed.</abbr> Y. L.
+                            Arbeitman and A. R. Bomhard, vol. 2 (1981), 613–49.</bibl>
+                        <bibl>S. P.  Brock, ‘Three thousand years of Aramaic literature’, <title rend="italic">ARAM</title> 1 (1989), 11–23.</bibl>
+                        <bibl>Brock and Taylor, <title rend="italic">Hidden Pearl</title>, esp. vol.
+                            1. <title rend="italic">The ancient Aramaic heritage</title>; vol.  2.
+                            (with W.  Balicka-Witakowski and W.  Witakowski) <title rend="italic">The heirs of the ancient Aramaic heritage</title>.</bibl>
+                        <bibl>R.  Contini, ‘Hypothèses sur l’araméen manichéen’, <title rend="italic">Annali di Ca’ Foscari</title> 34 (1995),
+                            65–107.</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>R. Contini</reg>
+                        <orig>idem</orig>
+                     </choice>, ‘L’orizzonte linguistico della Chiesa di Persia: considerazioni
+                            preliminari’, <choice>
+                                <sic/>
+                                <corr>in </corr>
+                            </choice>
+                            <title rend="italic">Storia, cristologia e tradizioni
+                                della Chiesa Siro-orientale</title>, <abbr>ed.</abbr> E. Vergani and S. Chialà
+                            (2006), 47–77.</bibl>
+                        <bibl>J. A.  Fitzmyer, ‘The phases of the Aramaic Language’, in <title rend="italic">A Wandering Aramean. Collected Aramaic Essays</title>
+                            (<abbr>SBL</abbr> Monographs 25; 1979), 57–84.</bibl>
+                        <bibl>J. C. Greenfield, ‘Standard Literary Aramaic’, in <title rend="italic">Actes du premier congrès international de linguistique sémitique et
+                                chamito-sémitique</title>, <abbr>ed.</abbr> A. Caquot and D. Cohen (1974),
+                            280–89.</bibl>
+                        <bibl>H.  Gzella and M. L.  Folmer (<abbr>ed.</abbr>), <title rend="italic">Aramaic in
+                                its historical and linguistic setting</title> (Akademie der
+                            Wissenschaften und der Literatur, Mainz. Veröffentlichungen der
+                            Orientalischen Kommission 50; 2008).</bibl>
+                        <bibl>J. F. Healey, <title rend="italic">Aramaic inscriptions and documents
+                                of the Roman period</title> (Textbook of Syrian Semitic Inscriptions
+                            4; 2009).</bibl>
+                        <bibl>W.  Heinrichs (<abbr>ed.</abbr>), <title rend="italic">Studies in
+                                Neo-Aramaic</title> (Harvard Semitic Studies 36; 1990).</bibl>
+                        <bibl>J.  Huehnergard, ‘What is Aramaic?’, <title rend="italic">ARAM</title>
+                            7 (1995), 261–282.</bibl>
+                        <bibl>O. Jastrow, ‘Neo-Aramaic Dialectology. The state of the art’, <title rend="italic">Israel Oriental Studies</title> 20 (2002),
+                            365–77.</bibl>
+                        <bibl>S. A.  Kaufman, ‘Aramaic’, in <title rend="italic">
+                                <abbr>AB</abbr>D</title>, vol. 4
+                            (1992), 173–8.</bibl>
+                        <bibl>E.  Lipiński, <title rend="italic">The Arameans. Their ancient
+                                history, culture, religion</title> (<abbr>OLA</abbr> 100; 2000).</bibl>
+                        <bibl>A.  Mengozzi, <title rend="italic">Israel of Alqosh and Joseph of
+                                Telkepe. A story in a truthful language. Religious poems in
+                                vernacular Syriac (North Iraq, 17th century)</title> (<abbr>CSCO</abbr> 589–90;
+                            2002).</bibl>
+                        <bibl>H. L.  Murre-van den Berg, <title rend="italic">From a spoken to a
+                                written language. The introduction and development of Literary Urmia
+                                Aramaic in the nineteenth century</title> (Publications of the De
+                            Goeje Fund 28; 1999).</bibl>
+                        <bibl>F.  Rosenthal, <title rend="italic">Die aramaistische Forschung seit
+                                Th. Nöldeke’s Veröffentlichungen</title> (1939).</bibl>
+                        <bibl>Weltecke, <title rend="italic">Die «Beschreibung der Zeiten»</title>,
+                            222–32.</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Lucas</forename> 
+                  <surname>Van Rompay</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

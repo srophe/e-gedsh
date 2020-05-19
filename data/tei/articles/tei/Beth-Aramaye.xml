@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Beth Aramaye</title>
+            <author>
+               <persName>
+                  <forename>Lucas</forename> 
+                  <surname>Van Rompay</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0">Electronic Edition Draft Version 1.0</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Beth Aramaye</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Beth-Aramaye</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/106</idno>
+                    <idno type="entry">97</idno>
+                    <milestone unit="pages" n="70-71"/>
+                    <idno type="subject">http://syriaca.org/place/32</idno>
+                    <note type="type">place</note>
+                    <note type="abstract">Ecclesiastical province of the <abbr>Ch. of E.</abbr>, situated in
+                        Central <placeName ref="http://syriaca.org/place/98">Iraq</placeName>.<note/>
+                    </note>
+                </ab>
+                <div type="body">
+                    <p>Ecclesiastical province of the <abbr>Ch. of E.</abbr>, situated in Central Iraq. It had
+                        the patriarchal see of <ref rend="bold" target="https://gedsh.bethmardutho.org/Kokhe">
+                            <placeName ref="http://syriaca.org/place/475">Kokhe</placeName>
+                        </ref>, or <ref rend="bold" target="https://gedsh.bethmardutho.org/Seleucia-Ctesiphon">
+                            <placeName ref="http://syriaca.org/place/182">Seleucia-Ctesiphon</placeName>
+                        </ref>, as its administrative and spiritual center.
+                        Its name points to a significant presence of <ref rend="bold" target="https://gedsh.bethmardutho.org/Arameans">Arameans</ref> or
+                        speakers of <ref rend="bold" target="https://gedsh.bethmardutho.org/Aramaic">Aramaic</ref> in the region. The Persian name Asuristan (or Asorestan),
+                        which is preserved in some Arabic sources as well as in Armenian, may be a
+                        translation of the Aramaic name. In a letter of <ref rend="bold" target="https://gedsh.bethmardutho.org/Barsawma-of-Nisibis">
+                            <persName ref="http://syriaca.org/person/369">Barṣawma of
+                            Nisibis</persName>
+                        </ref>, dated 484, it is reported that there was a ‘<hi rend="italic">marzbān</hi> (<choice>
+                            <sic>i.e. </sic>
+                            <corr>i.e., </corr>
+                        </choice>governor) of Beth Aramaye’ (Chabot,
+                        527.3; <abbr>FT</abbr> 533), who must have been a Sasanian official (Christensen,
+                        136–40).</p>
+                    <p>In the Synod of 410 (see <ref rend="bold" target="https://gedsh.bethmardutho.org/Ishaq">
+                            <persName ref="http://syriaca.org/person/549">Isḥaq</persName>
+                        </ref>) only one <abbr>bp.</abbr>
+                        is mentioned under the jurisdiction of the <abbr>bp.</abbr> of Seleucia-Ctesiphon (later:
+                        Catholicos), namely the <abbr>bp.</abbr> of Kashkar, who is the <abbr>bp.</abbr> of
+                        Seleucia-Ctesiphon’s right hand and assistant as well as the caretaker of
+                        his see after his death (Canon 21: Chabot, 33.15; <abbr>FT</abbr> 272). But four more
+                        dioceses of Beth Aramaye are known for the early 5th <abbr>cent.</abbr>: Zabe, <ref rend="bold" target="https://gedsh.bethmardutho.org/Hirta">
+                            <placeName ref="http://syriaca.org/place/219">Ḥirta</placeName>
+                        </ref>,
+                        Dayra d-Qunni, and Dasqarta d-Malka (Fiey 1968, 148; map facing p. 152),
+                        while slightly later sources provide several additional names. Fiey (1968,
+                        151–261) distinguishes between the ‘Persian’ and the ‘Arab’ dioceses. The
+                        ‘Persian’ dioceses, tracing their origin back to the Sasanian period,
+                        include: 1. Kashkar-Wāsiṭ; 2. Dayra d-Qunni (said to be the earliest
+                        monastery in Beth Aramaye), Beth Daraye, and Beth Kusaye; 3. Zabe
+                        (al-Zawābi, <choice>
+                            <sic>i.e. </sic>
+                            <corr>i.e., </corr>
+                        </choice>the region between Seleucia and Kashkar), al-Nuʿmāniyya,
+                        and Dayr Ḥazqiel); 4. Dasqarta d-Malka (<abbr>ca.</abbr> 88 km. northeast of <ref rend="bold" target="https://gedsh.bethmardutho.org/Baghdad">
+                            <placeName ref="http://syriaca.org/place/41">Baghdad</placeName>
+                        </ref>); 5. Ḥirta, ʿĀqūlā, and <ref rend="bold" target="https://gedsh.bethmardutho.org/Nagran">
+                            <placeName ref="http://syriaca.org/place/464">Nagran</placeName>
+                        </ref> (named after
+                        Nagran in S. Arabia); 6.  Peruz Shapur, later known as <ref rend="bold" target="https://gedsh.bethmardutho.org/al-Anbar">
+                            <placeName ref="http://syriaca.org/place/211">al-Anbār</placeName>
+                        </ref>. The
+                        ‘Arab’ dioceses emerged under Abbasid rule. They include: 1.  al-Qaṣr,
+                        between Baghdad and al-Kūfa; 2. Niffar (ancient Nippur) and al-Nīl; 3.
+                        ʿAbdāsi and Nahrgūr, both in the southeast of Iraq; 4. al-Rādhān,
+                        al-Baradān, and Beth Dārūn (of uncertain location, not far from Baghdad). In
+                        the later Islamic period, dioceses of Beth Aramaye were repeatedly
+                        amalgamated. By the 14th <abbr>cent.</abbr>, Syr. Christianity had largely disappeared
+                        from Central Iraq. It was the north of Iraq that gradually became the center
+                        of the <abbr>Ch. of E.</abbr> (Wilmshurst, <hi rend="italic">Ecclesiastical
+                            Organisation</hi>, 344). The name ‘Beth Aramaye’ lost its relevance.</p>
+                    <p>While both Persian and Arabic must have existed in the region from an early
+                        period onwards, in Syriac sources the inhabitants of Beth Aramaye were
+                        called <hi rend="italic">Ārāmāye</hi> ‘Arameans’ (most often to be
+                        distinguished from <hi rend="italic">Armāye</hi> ‘pagans’), sing. <hi rend="italic">Ārāmāyā</hi>, <choice>
+                            <sic>i.e. </sic>
+                            <corr>i.e., </corr>
+                        </choice>‘from Beth Aramaye’ (this usage thus
+                        coexisted with a different and broader use of the term for the Aramaic
+                        language and ethnicity in general). <ref rend="bold" target="https://gedsh.bethmardutho.org/Bar-Bahlul-Hasan">
+                            <persName ref="http://syriaca.org/person/365">Bar
+                        Bahlul</persName>
+                        </ref>, in his Lexicon, quotes some peculiar forms of the Aramaic
+                        language of Beth Aramaye, which he, therefore, did not see as identical to
+                        Classical Syriac. Fiey (1990) has pointed out that in the Islamic period
+                        much of the content of the term ‘Beth Aramaye’ was transferred to the Arabic
+                        name ‘Nabaṭ’ (even though the ‘Nabaṭ’ of Central Iraq were distinguished
+                        from different groups of ‘Nabaṭ’, esp. in Arabia and Syria; see also
+                        Nöldeke). The Arabic term <hi rend="italic">nabṭī</hi> also carried some of
+                        the connotations of ‘Aramean’ and ‘Aramaic’ and even was occasionally used,
+                        both by Christians and Muslims, as a substitute for ‘Aramaic’. This occurs,
+                        e.g., in <ref rend="bold" target="https://gedsh.bethmardutho.org/Ibn-al-Tayyib">
+                            <persName ref="http://syriaca.org/person/543">Ibn
+                        al-Ṭayyib</persName>
+                        </ref>’s ‘Paradise of Christianity’ (commenting on the first
+                        language of the world) and in a related passage in Ibn al-Nadīm’s <hi rend="italic">Fihrist</hi> (Fiey 1990, 83–84; cf. K. Samir, ‘Théodore de
+                        Mopsueste dans le «Fihrist» d’Ibn an-Nadīm’, <title rend="italic">
+                            <abbr>LM</abbr>
+                        </title> 90
+                        [1977], 355–63). <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Bar-Ebroyo-Grigorios">
+                            <persName ref="http://syriaca.org/person/239">Bar ʿEbroyo</persName>
+                        </ref>, in his <hi rend="italic">Mukhtaṣar</hi>, is aware that the Aramaic language (<hi rend="italic">nabṭiyya</hi>) of Central Iraq is different from the
+                        Syriac of <ref rend="bold" target="https://gedsh.bethmardutho.org/Edessa">
+                            <placeName ref="http://syriaca.org/place/78">Edessa</placeName>
+                        </ref> and <ref rend="bold" target="https://gedsh.bethmardutho.org/Harran">
+                            <placeName ref="http://syriaca.org/place/216">Ḥarran</placeName>
+                        </ref> as well as
+                        from ‘Palestinian’ Aramaic (quoted in Fiey 1990, 86), but it is not clear
+                        whether he speaks about the situation of his own day or rather reflects
+                        notions of a much earlier period.</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>Chabot, <title rend="italic">Synodicon Orientale</title>.</bibl>
+                        <bibl>A. Christensen, <title rend="italic">L’Iran sous les
+                                Sassanides</title>, 2nd <abbr>ed.</abbr> (1944).</bibl>
+                        <bibl>Fiey, <title rend="italic">Assyrie chrétienne</title>, vol. 3 (1968),
+                            147–261.</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>Fiey</reg>
+                        <orig>idem</orig>
+                     </choice>, ‘Les « Nabaṭ » de Kaskar-Wāsiṭ dans les premiers siècles de
+                            l’Islam’, <title rend="italic">
+                                <abbr>MUSJ</abbr>
+                            </title> 51 (1990), 51–87.</bibl>
+                        <bibl>T. Nöldeke, ‘Die Namen der aramäischen Nation und Sprache’, <title rend="italic">
+                                <abbr>ZDMG</abbr>
+                            </title> 25 (1871), 113–31.</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Lucas</forename> 
+                  <surname>Van Rompay</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

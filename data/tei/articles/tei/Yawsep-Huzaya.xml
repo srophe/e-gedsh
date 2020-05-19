@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Yawsep Huzaya</title>
+            <author>
+               <persName>
+                  <forename>Lucas</forename> 
+                  <surname>Van Rompay</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0">Electronic Edition Draft Version 1.0</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Yawsep Huzaya</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Yawsep-Huzaya</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/599</idno>
+                    <idno type="entry">590</idno>
+                    <milestone unit="pages" n="437-438"/>
+                    <idno type="subject">http://syriaca.org/person/817</idno>
+                    <note type="type">person</note>
+                    <note type="abstract">Teacher in the School of Nisibis.
+                    </note>
+                </ab>
+                <ab type="infobox">(<abbr>ca.</abbr> 500) [Ch. of E.]</ab>
+                <div type="body">
+                    <p>Maqryānā in the <ref rend="bold" target="https://gedsh.bethmardutho.org/Nisibis-School-of">School of
+                            Nisibis</ref> at the end of the 5th and/or in the first half of the 6th
+                        <abbr>cent.</abbr> In this position Yawsep was in charge of teaching correct reading and
+                        the first level of interpretation. Later sources present him as <ref rend="bold" target="https://gedsh.bethmardutho.org/Narsai">
+                            <persName ref="http://syriaca.org/person/650">Narsai</persName>
+                        </ref>’s
+                        successor as director of the School, but this is contradicted by
+                        contemporary sources. No further information on Yawsep’s life is available,
+                        except the fact that he was from Beth Huzaye, as his name indicates, i.e.,
+                        Huzistan, the ancient region of Susiana.</p>
+                    <p>A note in <abbr>ms.</abbr> London, Brit. Libr. Add. 12,138, dated to 899 and containing an
+                        E.-Syr. <ref rend="bold" target="https://gedsh.bethmardutho.org/Masora">Masora</ref>, points to Yawsep as the inventor of the nine ‘accents’ or
+                        punctuation signs (f. 312v), which are preserved in the later tradition with
+                        some variation. They mark the division of the sentence and prescribe the
+                        tone of the pronunciation (particularly in interrogative, imperative, and
+                        exclamatory clauses) as well as the rhythm of the recitation. Whether Yawsep
+                        invented them or rather adapted and systematized a pre-existing system
+                        remains uncertain. In any case, Yawsep’s contribution to establishing the
+                        correct reading and pronunciation of Classical Syriac in the E.-Syr.
+                        tradition must have been significant, even if <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Bar-Ebroyo-Grigorios">
+                            <persName ref="http://syriaca.org/person/239">Bar
+                            ʿEbroyo</persName>
+                        </ref>’s remark that Yawsep ‘changed the Edessene reading (<hi rend="italic">qrāytā</hi>) into the eastern one prevailing among the
+                        Nestorians’ may be an exaggeration.</p>
+                    <p>In addition, Bar ʿEbroyo mentions Yawsep as the author of a work on
+                        homographs (<choice>
+                            <sic>i.e. </sic>
+                            <corr>i.e., </corr>
+                        </choice>words written with the same consonants, but having a
+                        different pronunciation and meaning), which may have been the first in this
+                        genre. Unfortunately it has not been preserved. Moreover, Yawsep’s name is
+                        connected with the Syriac translation of the <hi rend="italic">Technè
+                            Grammatikè</hi>, an influential Greek work on grammar written by <ref rend="bold" target="https://gedsh.bethmardutho.org/Dionysius-Thrax">
+                            <persName ref="http://syriaca.org/person/453">Dionysius Thrax</persName>
+                        </ref> (<abbr>ca.</abbr> 170 – <abbr>ca.</abbr> 90 BC). Whereas the E.-Syr. <abbr>mss.</abbr>
+                        are explicit in ascribing the translation to Yawsep and are supported in
+                        this by <ref rend="bold" target="https://gedsh.bethmardutho.org/Abdisho-bar-Brikha">
+                            <persName ref="http://syriaca.org/person/310">ʿAbdishoʿ bar
+                            Brikha</persName>
+                        </ref>, the work is anonymous in the W.-Syr. tradition.</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>R.  Contini, ‘Considerazioni interlinguistiche sull’adattamento
+                            siriaco della TEXNH ΓPAMMATIKH di Dionisio Trace’, in <title rend="italic">La diffusione dell’eredità classica nell’età
+                                tardoantica e medievale. Il ‘Romanzo di Alessandro’ e altri
+                                scriti</title>, <abbr>ed.</abbr> R. B.  Finazzi and A. Valvo (1998), 95–111, esp.
+                            99–100.</bibl>
+                        <bibl>A.  Merx, <title rend="italic">Historia artis grammaticae apud
+                                Syros</title> (1889), 8, 28–30, 68–99, 99–102, and 49–72.
+                            (Syr.)</bibl>
+                        <bibl>L.  Van Rompay, ‘Joseph Huzaya’, in <title rend="italic">
+                                <abbr>DHGE</abbr>
+                            </title>,
+                            vol. 28 (2003), 208b–209a. (incl. further references)</bibl>
+                        <bibl>J. B.  Segal, <title rend="italic">The Diacritical Point and the
+                                Accents in Syriac</title> (1953), 63–7.</bibl>
+                        <bibl>Vööbus, <title rend="italic">History of the School of Nisibis</title>,
+                            160–1, 198–200, 223.</bibl>
+                        <bibl>Th.  Weiss, <title rend="italic">Zur ostsyrischen Laut- und
+                                Akzentlehre auf Grund der ostsyrischen Massorah-Handschrift des
+                                British Museum</title> (1933), 27–64.</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Lucas</forename> 
+                  <surname>Van Rompay</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

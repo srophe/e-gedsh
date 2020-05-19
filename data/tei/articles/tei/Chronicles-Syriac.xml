@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Chronicles, Syriac</title>
+            <author>
+               <persName>
+                  <forename>Amir</forename> 
+                  <surname>Harrak</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0">Electronic Edition Draft Version 1.0</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Chronicles, Syriac</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Chronicles-Syriac</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/142</idno>
+                    <idno type="entry">133</idno>
+                    <milestone unit="pages" n="98-99"/>
+                    <idno type="althead" subtype="altorder">Syriac Chronicles</idno>
+                    <note type="type">work</note>
+                    <note type="abstract">There are two basic types of chronicles in Syriac, local
+                        and universal (or world) chronicles.<note/>
+                    </note>
+                </ab>
+                <div type="body">
+                    <p>There are two basic types of chronicles in Syriac, local and universal (or
+                        world) chronicles. Local chronicles discuss the historical, religious,
+                        military, and economic conditions of specific regions, though incidental
+                        information on world history can also be included. The earliest local
+                        chronicle is the so-called Chronicle of <ref rend="bold" target="https://gedsh.bethmardutho.org/Yeshu-the-Stylite">
+                            <persName ref="http://syriaca.org/person/40">Yeshuʿ the
+                            Stylite</persName>
+                        </ref>, which deals with the effects of the Byzantine-Sasanian
+                        warfare on the Jazīra region in the early 6th <abbr>cent.</abbr> Universal chronicles
+                        deal with human history from the beginning of the world to the time of the
+                        writer. While early human history is based mostly on the Bible, the
+                        Hellenistic and subsequent periods are based on a variety of sources, mostly
+                        but not uniquely Greek, and for the Islamic period Syriac and sometimes
+                        Arabic sources are also used. The earliest universal chronicle is that of
+                            <ref rend="bold" target="https://gedsh.bethmardutho.org/Yaqub-of-Edessa">
+                            <persName ref="http://syriaca.org/person/113">Yaʿqub of Edessa</persName>
+                        </ref> (d. 708), which includes a chronography and
+                        canons up to the year 692, extended by someone else to the year 710. This
+                        chronicle is incompletely preserved, though some gaps can be filled with
+                        quotations made from it by <ref rend="bold" target="https://gedsh.bethmardutho.org/Eliya-of-Nisibis">
+                            <persName ref="http://syriaca.org/person/472">Eliya of
+                            Nisibis</persName>
+                        </ref> (d. 1046) and <ref rend="bold" target="https://gedsh.bethmardutho.org/Michael-I-Rabo">
+                            <persName ref="http://syriaca.org/person/217">Michael Rabo</persName>
+                        </ref> (d.
+                        1199). The <ref rend="bold" target="https://gedsh.bethmardutho.org/Zuqnin-Chronicle-of">Chronicle of
+                            Zuqnin</ref> written in 774 is universal but its latter part (part 4) is
+                        essentially local, concentrating on the economy of the Jazīra under the
+                        early Abbasids. Several universal chronicles are known only by the names of
+                        their authors, while others survived as extracts in other similar works.
+                        This is the case of the chronicle of <abbr>Patr.</abbr> 
+                  <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Dionysios-of-Tel-Mahre">
+                            <persName ref="http://syriaca.org/person/155">Dionysios
+                            of Tel Maḥre</persName>
+                        </ref> (d. 845) largely quoted in <ref rend="bold" target="https://gedsh.bethmardutho.org/Chronicle-of-1234">Chronicle of
+                            1234</ref> (see below) and in the Chronicle of <abbr>Patr.</abbr> Michael Rabo. The
+                        latter massive Chronicle is divided into three parts in three columns,
+                        covering civil and religious histories in two columns and various events in
+                        the third one, all up to the year 1195. The chronicle was translated into
+                        Armenian and Arabic, though it survived in only one Syriac <abbr>ms.</abbr> The last two
+                        universal chronicles are the anonymous Chronicle of 1234 and the Chronicle
+                        of <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Bar-Ebroyo-Grigorios">
+                            <persName ref="http://syriaca.org/person/239"> Bar ʿEbroyo</persName>
+                        </ref> (d.  1286), both divided into two
+                        rather than three parts, covering secular and ecclesiastical histories. In
+                        Bar ʿEbroyo’s Chronicle, secular history begins with the creation of the
+                        world and ends with the Mongol invasion, witnessed by the chronicler. The
+                        ecclesiastical history starts with Aaron and subsequent high priests; in the
+                        Christian era the chronicler concentrates on the patriarchs of <ref rend="bold" target="https://gedsh.bethmardutho.org/Antioch">
+                            <placeName ref="http://syriaca.org/place/10">Antioch</placeName>
+                        </ref>
+                        and by the 7th <abbr>cent.</abbr> attention is drawn to the Syriac maphrians. In terms of
+                        genres, local chronicles are rooted in annals preserved in royal courts in
+                        such cities as <ref rend="bold" target="https://gedsh.bethmardutho.org/Edessa">
+                            <placeName ref="http://syriaca.org/place/78">Edessa</placeName>
+                        </ref> under the
+                            <ref rend="bold" target="https://gedsh.bethmardutho.org/Abgarids-of-Edessa">Abgarids of
+                            Edessa</ref> and presumably elsewhere. Reference to the royal archives
+                        of Edessa is made by <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Eusebius-of-Caesarea">
+                            <persName ref="http://syriaca.org/person/480">Eusebius</persName>
+                        </ref> (d. 339), the mid-6th
+                        century <ref rend="bold" target="https://gedsh.bethmardutho.org/Chronicle-of-Edessa">Chronicle of
+                            Edessa</ref>, and Chronicle of 724. Syriac universal chronicles are
+                        modeled after Eusebius’s Chronicon and canons, of which there is more than
+                        one Syriac translation, though none has survived completely. Syriac writers
+                        followed Eusebius closely but not blindly. Thus, Yaʿqub of Edessa, in his
+                        Chronicle and canons made after Eusebius, supplements the list of rulers
+                        with names of Sasanian figures, corrects a calculation error in his model,
+                        and uses additional computation systems. This is also the attitude of the
+                        E.-Syr. Eliya of Nisibis in the first part of his Chronography, where the
+                        material is organized differently from his Eusebian model and in which he
+                        added information of interest to his own Church.</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>M. Debié (<abbr>ed.</abbr>), <title rend="italic">L’historiographie
+                                syriaque</title> (<abbr>ÉtSyr</abbr> 6; 2009).</bibl>
+                        <bibl>A.  Palmer, <title rend="italic">The seventh century in the
+                                West-Syrian chronicles</title> (<abbr>TTH</abbr> 15; 1993).</bibl>
+                        <bibl>W.  Witakowski, <title rend="italic">The Syriac Chronicle of
+                                Pseudo-Dionysius of Tel-Maḥrē: A Study in the History of
+                                Historiography</title> (Acta Universitatis Upsaliensis. Studia
+                            Semitica Upsaliensia 7; 1987).</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>W.  Witakowski</reg>
+                        <orig>idem</orig>
+                     </choice>, ‘Interpreting the past: Syriac historical writing’, in Brock and
+                            Taylor, <title rend="italic">Hidden Pearl,</title> vol. 3, 165,
+                            185–94.</bibl>
+                        <bibl>E.-I. Yousif, <title rend="italic">Les chroniqueurs syriaques</title>
+                            (2002).</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Amir</forename> 
+                  <surname>Harrak</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

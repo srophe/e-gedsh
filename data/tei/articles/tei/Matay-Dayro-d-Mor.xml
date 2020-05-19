@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Matay, Dayro d-Mor</title>
+            <author>
+               <persName>
+                  <forename>George A.</forename> 
+                  <surname>Kiraz</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0">Electronic Edition Draft Version 1.0</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Matay, Dayro d-Mor</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Matay-Dayro-d-Mor</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/373</idno>
+                    <idno type="entry">364</idno>
+                    <milestone unit="pages" n="280-281"/>
+                    <idno type="althead" subtype="altorder">Dayro d-Mor Matay</idno>
+                    <idno type="subject">http://syriaca.org/person/227</idno>
+                    <note type="type">person</note>
+                    <note type="abstract">Monastery located 35 km. northeast of <placeName ref="http://syriaca.org/place/139">Mosul</placeName>.<note/>
+                    </note>
+                </ab>
+                <div type="body">
+                    <p>Located on the Alfof Mountain, known in Arabic as Jabal Maqlūb, 35 km.
+                        northeast of <ref rend="bold" target="https://gedsh.bethmardutho.org/Mosul">
+                            <placeName ref="http://syriaca.org/place/139">Mosul</placeName>
+                        </ref>, the monastery is mostly known by its Arabic name Dayr Mār
+                        Mattā. It is named after a monk named Matay who came from the region of <ref rend="bold" target="https://gedsh.bethmardutho.org/Amid">
+                            <placeName ref="http://syriaca.org/place/8">Amid</placeName>
+                        </ref> in
+                        the latter part of the 4th <abbr>cent.</abbr> It is known from historical documents as
+                        early as the late 5th or early 6th <abbr>cent.</abbr>, when it was already a center of
+                        the <abbr>Syr. Orth.</abbr> Church. The Chronicles of <ref rend="bold" target="https://gedsh.bethmardutho.org/Michael-I-Rabo">
+                            <persName ref="http://syriaca.org/person/217">Michael Rabo</persName>
+                        </ref>
+                        and <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Bar-Ebroyo-Grigorios">
+                            <persName ref="http://syriaca.org/person/239">Bar ʿEbroyo</persName>
+                        </ref> record that life resumed at the
+                        monastery by the end of the 5th <abbr>cent.</abbr> Monasticism took various forms in the
+                        monastery, including monks who were <hi rend="italic">ʾabile</hi>
+                        ‘anchorites’, <hi rend="italic">ḥbiše</hi> ‘recluses’, and <hi rend="italic">ʾiḥidoye</hi> ‘hermits’, but others preferred communal life. The
+                        monastery appears to have had a bishopric line from its early days, whose
+                        title often included <ref rend="bold" target="https://gedsh.bethmardutho.org/Nineveh">
+                            <placeName ref="http://syriaca.org/place/144">Nineveh</placeName>
+                        </ref> (<choice>
+                            <sic>i.e.</sic>
+                            <corr>i.e.,</corr>
+                        </choice>
+                        Mosul). It was also here that a number of local Synods took place. The
+                        bishopric of this monastery was so strong that on many occasions, especially
+                        from the 7th <abbr>cent.</abbr> onward, the residing <abbr>bp.</abbr> would challenge the authority of
+                        the <ref rend="bold" target="https://gedsh.bethmardutho.org/Maphrian">Maphrian</ref>, to the degree that he became a de facto co-equal to the
+                        Maphrian, each of them ruling over half of the <abbr>Syr. Orth.</abbr> Church in the
+                        East. In 869, <abbr>Patr.</abbr> Yuḥanon III held a Synod which reiterated the
+                        subordinate position of the Maphrianate of the East in relation to the
+                        Patriarchate of <ref rend="bold" target="https://gedsh.bethmardutho.org/Antioch">
+                            <placeName ref="http://syriaca.org/place/10">Antioch</placeName>
+                        </ref>. In
+                        addition, the first Canon of that Synod made it clear that the <abbr>bp.</abbr> of the
+                        monastery is to be subordinate to the Maphrian. Michael Rabo also reiterated
+                        this relationship in 1174. The monastery was famous for its magnificent
+                        library which is cited in the correspondence of <ref rend="bold" target="https://gedsh.bethmardutho.org/Timotheos-I">
+                            <persName ref="http://syriaca.org/person/790">Timotheos I</persName>
+                        </ref> in
+                        the 8th <abbr>cent.</abbr>, and later by <ref rend="bold" target="https://gedsh.bethmardutho.org/Dawid-bar-Pawlos">
+                            <persName ref="http://syriaca.org/person/144">Dawid bar
+                            Pawlos</persName>
+                        </ref> of Beth Rabban. It is also mentioned in a colophon of a
+                        Syriac <abbr>ms.</abbr> (Berlin, no. 327) that in 1298 the library contained all the
+                        writings of Bar ʿEbroyo. In 1171, the Kurds attacked the monastery and many
+                        of the <abbr>mss.</abbr> were damaged; some that survived were carried by monks to Mosul.
+                        In 1369, another Kurdish attack on the monastery damaged more <abbr>mss.</abbr> Today
+                        <abbr>mss.</abbr> from this monastery can be found in the British Library, Cambridge
+                        University Library, Staatsbibliothek, Berlin, and the Vatican Library. The
+                        monastery served as the seat for the Maphrian on many occasions. Bar ʿEbroyo
+                        spent the first seven years of his Maphrianate here. During the early 19th
+                        <abbr>cent.</abbr>, the Kurds raided the monastery many times, and as a result it was
+                        abandoned for 12 years. Later that century, Oswald Parry, a delegate of the
+                        Archbishop of Canterbury, visited the monastery and published an account
+                        detailing life there. In modern times, the monastery was the venue of the
+                        Dayro d-Mor Matay Synod in 1930, the first and only Synod with
+                        representation of the laity. The Beth Qadishe of the monastery contains the
+                        remains of six Maphrians and many bishops including Bar ʿEbroyo and his
+                        brother. The monastery has over 50 rooms, 3 halls for gathering, and a
+                        church. To the left of the monastery is a large cave with natural mountain
+                        spring water dripping from the ceiling. Today, the monastery is the seat of
+                        its own archdiocese.</p>
+                    <p>See <ref target="https://gedsh.bethmardutho.org/fig/20">Fig. 20</ref>, <ref target="https://gedsh.bethmardutho.org/fig/73">73</ref>, and <ref target="https://gedsh.bethmardutho.org/fig/74">74</ref>.</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>Fiey, <title rend="italic">Pour un Oriens christianus
+                                novus</title>, 239–40.</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>Fiey</reg>
+                        <orig>idem</orig>
+                     </choice>, ‘Le cas de Mar Matta’, <title rend="italic">
+                                <abbr>ParOr</abbr>
+                            </title> 5
+                            (1974), 373–93.</bibl>
+                        <bibl>Ignatius Jacob III, <title rend="italic">Dafaqāt al-ṭīb fī taʾrīkh
+                                dayr Mār Matta al-ʿAjīb</title> (Damascus, 1961). (<abbr>ET</abbr> by Matti
+                            Moosa, 2008)</bibl>
+                        <bibl>O. Parry, <title rend="italic">Six months in a Syrian
+                                Monastery</title> (1895), ch. 19.</bibl>
+                        <bibl>H. Southgate, <title rend="italic">Narrative of a Visit to the Syrian
+                                [Jacobite] Church of Mesopotamia</title> (1856).</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>George A.</forename> 
+                  <surname>Kiraz</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

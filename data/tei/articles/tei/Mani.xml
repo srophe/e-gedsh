@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Mani</title>
+            <author>
+               <persName>
+                  <forename>Jeff W.</forename> 
+                  <surname>Childers</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0">Electronic Edition Draft Version 1.0</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Mani</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Mani</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/351</idno>
+                    <idno type="entry">342</idno>
+                    <milestone unit="pages" n="261"/>
+                    <idno type="subject">http://syriaca.org/person/608</idno>
+                    <note type="type">person</note>
+                    <note type="abstract">Founder of a religious movement
+                            (Manichaeism).<note>brief</note>
+                    </note>
+                </ab>
+                <ab type="infobox">(216 – <abbr>ca.</abbr> 276)</ab>
+                <div type="body">
+                    <p>Founder of a religious movement (Manichaeism). Mani was born in Mesopotamia.
+                        Reared in a strict Jewish-Christian baptismal sect, at the age of 12 Mani
+                        began to experience revelations from a heavenly being called<choice>
+                            <sic>,</sic>
+                            <corr/>
+                        </choice> ‘The Twin’. At
+                        24, he received a divine calling to be the ‘apostle of light’, the incarnate
+                        Paraclete of God, chosen to propagate his ‘lifegiving message’. Due to his
+                        frequent travels and bold evangelistic proclamation — and the royal
+                        protection of Shapur I (242–72) — Mani converted many people to his
+                        religion. Manichaeism was a complex ascetic system based on Zoroastrian
+                        dualism, that also included features of Gnostic cosmology, Judaism,
+                        Christianity, Buddhism, and Babylonian myth. The practice of Manichaeism
+                        allowed for two classes of followers: the ‘elect’, devoted to liberating
+                        spiritual particles of light from their material imprisonment through full
+                        adherence to the sect’s harsh ascetic rules, and the ‘auditor’, who provided
+                        for the needs of the elect and followed a less severe code, in the hope of
+                        eventual reincarnation as one of the elect. During the reign of Bahram  I
+                        (273–6), the Zoroastrian hierarchy instigated a widespread persecution of
+                        minority religions, including Manichaeism. Mani was put to death <abbr>ca.</abbr> 276.
+                        Nevertheless, Manichaean missionaries continued to attract converts
+                        throughout Persia and the Roman empire, into central Asia, where it survived
+                        into the Mongol period, and even as far as eastern <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/China-Syriac-Christianity-in">China</ref>. The spread of Manichaeism and its use of Christian
+                        elements elicited numerous polemical responses on the part of orthodox
+                        Christians. Mani wrote books in <ref rend="bold" target="https://gedsh.bethmardutho.org/Aramaic">Aramaic</ref> and
+                        Pahlavi, though only fragments survive. Seeking to promote his
+                        universalizing teaching across cultural barriers, he encouraged the
+                        translation of Manichaean texts into different languages, for which a
+                        distinctive Manichean script, akin to Syriac Esṭrangela, was devised.
+                        Manichaean texts were eventually disseminated in a wide variety of
+                        languages.</p>
+                </div>
+                <div type="bibl">
+                    <listBibl>
+                        <listBibl>
+                            <head>Primary Sources</head>
+                            <bibl>R.  Cameron and A.  Dewey, <title rend="italic">The Cologne Mani
+                                    Codex: ‘Concerning the Origin of His Body’</title> (1979).
+                                (Greek with <abbr>ET</abbr> of Life of Mani)</bibl>
+                            <bibl>I.  Gardiner, <title rend="italic">The Kephalaia of the Teacher:
+                                    The Edited Coptic Manichean Texts in Translation with
+                                    Commentary</title> (1995). (Coptic with <abbr>ET</abbr> of life of
+                                Mani)</bibl>
+                            <bibl>G.  Gnoli (<abbr>ed.</abbr>), <title rend="italic">Il Manicheismo,</title>1–4
+                                (2003, 2006, and forthcoming). (<abbr>IT</abbr>)</bibl>
+                        </listBibl>
+                        <listBibl>
+                            <head>Secondary Sources</head>
+                            <bibl>R.  Contini, ‘Hypothèses sur l’araméen manichéen’, <title rend="italic">Annali di Ca’ Foscari</title> 34 (1995),
+                                65–107.</bibl>
+                            <bibl>H. J. W.  Drijvers, ‘Odes of Solomon and Psalms of Mani,
+                                Christians and Manichaeans in Third-Century Syria’, in <title rend="italic">Studies in Gnosticism and Hellenistic
+                                    Religions</title>, <abbr>ed.</abbr> R. van den Broek and M. J. Vermaseren
+                                (1981), 117–30.</bibl>
+                            <bibl>
+                                <choice>
+                                    <sic>H. J.</sic>
+                                    <corr>H.-J.</corr>
+                                </choice>  Klimkeit, <title rend="italic">Manichean Art and
+                                    Calligraphy</title> (1982).</bibl>
+                            <bibl>S. N. C.  Lieu, <title rend="italic">Manichaeism in the Later
+                                    Roman Empire and Medieval China</title> (2nd <abbr>ed.</abbr> 1992).</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>S. N. C.  Lieu</reg>
+                           <orig>idem</orig>
+                        </choice>, <title rend="italic">Manichaeism in Mesopotamia and the
+                                    Roman East</title> (1994).</bibl>
+                            <bibl>P. A.  Mirecki, ‘Manichaeans and Manichaeism’, in <title rend="italic">
+                                    <abbr>ABD</abbr>
+                                </title>, vol. 4, 502–11.</bibl>
+                            <bibl>C. G.  Stroumsa, ‘Aspects of Anti-Manichaean Polemics in Late
+                                Antiquity and under Early Islam’, <title rend="italic">
+                                    <abbr>HTR</abbr>
+                                </title> 81
+                                (1988), 37–58.</bibl>
+                            <bibl>M.  Tardieu, <title rend="italic">Le manichéisme</title>
+                                (1981).</bibl>
+                        </listBibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Jeff W.</forename> 
+                  <surname>Childers</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Fars</title>
+            <author>
+               <persName>
+                  <forename>Joel T.</forename> 
+                  <surname>Walker</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0">Electronic Edition Draft Version 1.0</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Fars</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Fars</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/218</idno>
+                    <idno type="entry">209</idno>
+                    <milestone unit="pages" n="163-164"/>
+                    <idno type="subject">http://syriaca.org/place/84</idno>
+                    <note type="type">place</note>
+                    <note type="abstract">Region in southwestern Iran, often identified as the
+                        heartland of the Iranian people.<note/>
+                    </note>
+                </ab>
+                <div type="body">
+                    <p>A region in southwestern Iran, often identified as the heartland of the
+                        Iranian people. Known as Anshan in Elamite texts, the region received the
+                        name Fars in the mid 7th <abbr>cent.</abbr> BC, following the migration of
+                        Persian-speaking tribes from the northern Zagros Mountains (de Planhol<choice>
+                            <sic/>
+                            <corr>,</corr>
+                        </choice> 328).
+                        Under the Sasanian Empire (224–642), the region reclaimed its role —
+                        established under the Achaemenids — as the epicenter for Persian royal
+                        ritual and building. Early Sasanian rulers honored the ‘holy places’ of
+                        their ancestors with new cliff reliefs and multilingual inscriptions and
+                        established ambitious urban foundations, such as Bishapur and Firuzabad, in
+                        the broad highland basins of the region’s interior (Wiesehöfer<choice>
+                            <sic/>
+                            <corr>,</corr>
+                        </choice> 336).</p>
+                    <p>Christianity arrived in Fars via at least two major channels between the 3rd
+                        and 4th <abbr>cent.</abbr> Deportees from Roman Syria, forcibly resettled in the region
+                        by Shapur I (<abbr>r.</abbr> 240–72) and his grandson Shapur II (<abbr>r.</abbr> 309–79), included
+                        Christians who maintained their faith even after some of them intermarried
+                        with the local ‘Persian’ population. E.-Syr. martyr literature, chronicles,
+                        and archaeology preserve scattered echoes of these deportees’ background in
+                        Roman Syria (Jullien and Jullien<choice>
+                            <sic/>
+                            <corr>,</corr>
+                        </choice> 153–87). Commercial contacts with northern
+                        Mesopotamia provided the other major conduit for the introduction of
+                        Christian doctrines into Fars. The <ref rend="bold" target="https://gedsh.bethmardutho.org/Mari-Acts-of">Acts of Mar Mari
+                        </ref> (a 7th-cent. apostolic narrative) claim, for instance, that merchants
+                        from Fars and Khuzistan traveled to the ‘West’, where they were converted by
+                        ‘the blessed apostle Addai’, presumably at <ref rend="bold" target="https://gedsh.bethmardutho.org/Edessa">
+                            <placeName ref="http://syriaca.org/place/78">Edessa</placeName>
+                        </ref>, before
+                        returning home. The region’s earliest churches were thus diverse in both
+                        their origins and ethnicity. According to a plausible report in the
+                        11th-cent. Chronicle of <ref rend="bold" target="https://gedsh.bethmardutho.org/Siirt">
+                            <placeName ref="http://syriaca.org/place/188">Siirt</placeName>
+                        </ref> (<abbr>ed.</abbr> Scher, I.I
+                        [<abbr>PO</abbr> 4], 222, ch. 2), the liturgy in 3rd-cent. Fars was conducted in both
+                        Greek and Syriac.</p>
+                    <p>During the 5th–6th <abbr>cent.</abbr>, the Christian community of Fars emerged as one of
+                        the most important eparchies of the <abbr>Ch. of E.</abbr> The region’s metropolitan <abbr>bp.</abbr>,
+                        based in the coastal city of Rev Ardashir, signed as the sixth highest
+                        ranking <abbr>bp.</abbr> at the synod of <ref rend="bold" target="https://gedsh.bethmardutho.org/Seleucia-Ctesiphon">
+                            <placeName ref="http://syriaca.org/place/182">Seleucia-Ctesiphon</placeName>
+                        </ref> in 424 (Fiey<choice>
+                            <sic/>
+                            <corr>,</corr>
+                        </choice> 178–9). Other regional cities,
+                        such as Darabgard, Ardashir Khurrah (possibly to be identified with medieval
+                        Siraf), and even Istakhr (where the Sasanian dynasty was founded), had also
+                        attained episcopal status by this time (idem<choice>
+                            <sic/>
+                            <corr>,</corr>
+                        </choice> 202–3). The bishops’ names,
+                        more often Persian than Syriac, hint at the growing influence of ethnic
+                        Persians, whose conversion sparked a wave of translations, beginning in the
+                        6th <abbr>cent.</abbr>, from Syriac into Middle Persian. The demand for these
+                        translations was heightened by the links between Fars and the
+                        Persian-speaking population of adjoining regions, especially the dioceses
+                        scattered around the periphery of the Persian Gulf. According to a
+                        well-known passage in the Chronicle of Siirt (<abbr>ed.</abbr> Scher, II.I [<abbr>PO</abbr> 7], 117,
+                        ch.  9), Maʿna, metropolitan <abbr>bp.</abbr> of Fars in the mid-6th <abbr>cent.</abbr>, produced
+                        Persian ‘hymns, homilies, and responses to be sung in church’, and
+                        distributed them to ‘the maritime lands (<ref rend="bold" target="https://gedsh.bethmardutho.org/Beth-Qatraye">
+                            <placeName ref="http://syriaca.org/place/37">Beth Qaṭraye</placeName>
+                        </ref>)
+                        and India’. It appears that the metropolitans of Fars even appointed clergy
+                        for the most far-flung merchant communities of the Indian Ocean. The
+                        6th-cent. pepper merchant of Alexandria, Cosmas Indicopleustes, was amazed
+                        to find clergy appointed ‘from Persia’ (<hi rend="italic">dia Persidos</hi>)
+                        on the island of Socotra near modern Somalia and at Kalliana on the
+                        south-western coast of India (‘Christian Topography’ 3.65; Weerakkody<choice>
+                            <sic/>
+                            <corr>,</corr>
+                        </choice> 237
+                        and 244).</p>
+                    <p>In the late Sasanian and early Islamic period, the metropolitan bishops of
+                        Fars entered into a prolonged and bitter conflict with the E.-Syr.
+                        patriarchs. The patriarchal correspondence of <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Ishoyahb-III-of-Adiabene">
+                            <persName ref="http://syriaca.org/person/561">Ishoʿyahb III</persName>
+                        </ref> documents the growth of this rivalry that
+                        culminated in the synod in 676, which raised the provinces of Beth Qaṭraye
+                        and India to metropolitan status, thus removing them from the authority of
+                        bishops of Fars. Despite this truncation of its jurisdiction, Fars remained
+                        the base for a vigorous Persian Christian culture deep into the Islamic
+                        period. Christian law books produced in Fars in the 8th and 9th  cent.
+                        reveal not only the depth of Christians’ adoption of Sasanian-derived
+                        marriage patterns, but also the determined efforts of the clergy to purge
+                        their flock of these ‘Magian’ habits (Payne<choice>
+                            <sic/>
+                            <corr>,</corr>
+                        </choice> 191–241). Synodical lists
+                        continue to name bishops for the region into the 12th  cent. — and indeed as
+                        late as 1318 at the port city of Siraf.</p>
+                    <p>In contrast to the range and depth of these textual references, the
+                        archaeology of Fars has not yet yielded any clear physical evidence for the
+                        region’s Christian communities. This lacuna probably reflects the biases of
+                        modern research conditions more than a lack of archaeological potential,
+                        since parallel fieldwork in the Persian Gulf has identified the remains of
+                        churches at at least eight sites, including a large 9th-cent. monastery
+                        (123 x 88 m) on the island of Kharg, only 50 km northwest of ancient Rev
+                        Ardashir (Carter<choice>
+                            <sic/>
+                            <corr>,</corr>
+                        </choice> 97–8; Steve<choice>
+                            <sic/>
+                            <corr>,</corr>
+                        </choice> 85–154).</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>R. A.  Carter, ‘Christianity in the Gulf during the first
+                            centuries of Islam’, <title rend="italic">Arabian Archaeology and
+                                Epigraphy</title>19 (2008), 71–108.</bibl>
+                        <bibl>J.  Fiey, ‘Diocèses syriens orientaux du Golfe persique’, in <title rend="italic">Mémorial Mgr Gabriel Khouri-Sarkis</title> (1969),
+                            177–219.</bibl>
+                        <bibl>F. Jullien and C. Jullien, <title rend="italic">Apôtres des confins:
+                                Processus missionnaires chrétiens dans l’empire iranien</title>
+                            (2002).</bibl>
+                        <bibl>R.  Payne, <title rend="italic">Christianity and Iranian society in
+                                Late Antiquity, <abbr>ca.</abbr> 500–700 CE</title> (Ph.D. Diss., Princeton
+                            Univ.; 2010).</bibl>
+                        <bibl>X.  de Planhol, ‘Fars: Geography’, in <title rend="italic">
+                                <abbr>EIr</abbr>
+                            </title>, vol. 9 (1999), 328–333.</bibl>
+                        <bibl>M.-J. Steve. <title rend="italic">L’île de Kharg: Une page de
+                                l’histoire du Golfe Persique et du monachisme oriental</title>
+                            (2003).</bibl>
+                        <bibl>D. Weerakkody, <title rend="italic">Taprobanê: Ancient Sri Lanka as
+                                known to Greeks and Romans</title> (1997).</bibl>
+                        <bibl>J. Wiesehöfer, ‘Fars: History in the pre-Islamic Period’, in <title rend="italic">
+                                <abbr>EIr</abbr>
+                            </title>, vol.9 (1999), 333–7.</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Joel T.</forename> 
+                  <surname>Walker</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

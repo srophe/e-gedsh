@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Church of the East</title>
+            <author>
+               <persName>
+                  <forename>Sebastian P.</forename> 
+                  <surname>Brock</surname>
+               </persName>
+               <persName>
+                  <forename>James F.</forename> 
+                  <surname>Coakley</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0">Electronic Edition Draft Version 1.0</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Church of the East</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Church-of-the-East</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/143</idno>
+                    <idno type="entry">134</idno>
+                    <milestone unit="pages" n="99-100"/>
+                    <note type="type">org</note>
+                    <note type="abstract">The Church of the East traces its history to the earliest
+                        planting of Christianity in the Persian Empire, but came far to transcend its boundaries.<note/>
+                    </note>
+                </ab>
+                <div type="body">
+                    <p>The Church of the East traces its history to the earliest planting of
+                        Christianity in the Persian Empire. The fact that the church developed
+                        outside the Roman Empire and its conciliar process partly explains its
+                        particular doctrinal tradition. It represents a third position in the
+                        three-way split in Eastern Christianity that resulted from the
+                        Christological controversies of the 5th/6th <abbr>cent.</abbr>, alongside the Syriac (and
+                        other Oriental) Orthodox and the Chalcedonian (Melkite, Rum) Orthodox
+                        Churches. The Church of the East follows the strictly dyophysite
+                        (‘two-nature’) christology of <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Theodore-of-Mopsuestia">
+                            <persName ref="http://syriaca.org/person/780">Theodore
+                            of Mopsuestia</persName>
+                        </ref>, as a result of which it was misleadingly labelled
+                        as ‘Nestorian’ by its theological opponents.</p>
+                    <p>Especially in the second half of the first millennium the Church expanded
+                        eastwards, reaching <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/China-Syriac-Christianity-in">China</ref> and south India (where the
+                        E.-Syr. tradition remains prominent today; see <ref rend="bold" target="https://gedsh.bethmardutho.org/Thomas-Christians">Thomas
+                            Christians</ref>). From the 14th <abbr>cent.</abbr> onwards, however, the Church of
+                        the East became greatly diminished on account of plague, oppression, and
+                        periodic massacres. In the mid 16th <abbr>cent.</abbr> a separate patriarchal line
+                        developed, in communion with Rome (see <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Chaldean-Catholic-Church">Chaldean
+                            Catholic Church</ref>). By the 19th <abbr>cent.</abbr>, the territory of the Church
+                        of the East was practically limited to the highlands of <ref rend="bold" target="https://gedsh.bethmardutho.org/Hakkari">
+                            <placeName ref="http://syriaca.org/place/90">Hakkari</placeName>
+                        </ref> in Turkey
+                        and the plain around the city of <ref rend="bold" target="https://gedsh.bethmardutho.org/Urmia">
+                            <placeName ref="http://syriaca.org/place/206">Urmia</placeName>
+                        </ref> in Iran. (Some
+                        congregations in India were reclaimed by the consecration of a <abbr>bp.</abbr> for them
+                        in 1907.) An estimated third of its people were victims of the massacres
+                        just before, during, and in the aftermath of the First World War (see <ref rend="bold" target="https://gedsh.bethmardutho.org/Sayfo">Sayfo</ref>).
+                        The remnant of the Church were forced to settle in Iraq as refugees.
+                        Following the killing of Assyrian civilians by the Iraqi army at Semele in
+                        1933, the Catholicos Patriarch (Mar <ref rend="bold" target="https://gedsh.bethmardutho.org/Shemon-Eshai">
+                            <persName ref="http://syriaca.org/person/739">Eshai Shemʿon</persName>
+                        </ref>,
+                        then still treated as the civil head of all the <ref rend="bold" target="https://gedsh.bethmardutho.org/Assyrians">Assyrians</ref>) was
+                        expelled from Iraq.</p>
+                    <p>In 1968 the Church suffered a schism, the immediate cause of which was the
+                        adoption of the New Calendar mandated by Mar Shemʿon in California. The
+                        government of Iraq favored the anti-Mar Shemʿon party and facilitated the
+                        election of Mar <ref rend="bold" target="https://gedsh.bethmardutho.org/Darmo-Toma">
+                            <persName ref="http://syriaca.org/person/441">Toma Darmo</persName>
+                        </ref> as a
+                        counter <abbr>patr.</abbr> Mar Darmo also made an issue of his opposition to the
+                        hereditary succession to the patriarchate. However, Mar Shemʿon had no
+                        nephews to succeed him, and in 1976, following his assassination, the new
+                        <abbr>patr.</abbr> Mar <ref rend="bold" target="https://gedsh.bethmardutho.org/Denha">
+                            <persName ref="http://syriaca.org/person/97">Denḥa</persName>
+                        </ref> IV was elected canonically. The issue of succession thus no
+                        longer divides the two Church bodies, but other historical issues (of which
+                        the calendar is only one) and animosities continue to do so. Both Churches
+                        have now (2009) agreed to hold a joint synod to try to resolve differences
+                        (in India the matter was already resolved in 1995). Both Churches have large
+                        diasporas, especially in North America (see <ref rend="bold" target="https://gedsh.bethmardutho.org/Diaspora">diaspora</ref>).</p>
+                    <p> 1. Assyrian Church of the East: Mar <ref rend="bold" target="https://gedsh.bethmardutho.org/Denha">
+                            <persName ref="http://syriaca.org/person/97">Denḥa</persName>
+                        </ref> IV fixed the
+                        name of the Church as the ‘Holy Catholic Apostolic Assyrian Church of the
+                        East’. Like his predecessor he resides in the United States, although in
+                            <ref rend="bold" target="https://gedsh.bethmardutho.org/Chicago">
+                            <placeName ref="http://syriaca.org/place/471">Chicago</placeName>
+                        </ref> rather than California. There are dioceses in Iraq (<ref rend="bold" target="https://gedsh.bethmardutho.org/Baghdad">
+                            <placeName ref="http://syriaca.org/place/41">Baghdad</placeName>
+                        </ref>, Duhok), Syria (al-Ḥasake), Lebanon (<ref rend="bold" target="https://gedsh.bethmardutho.org/Beirut">
+                            <placeName ref="http://syriaca.org/place/46">Beirut</placeName>
+                        </ref>), Western
+                        Europe (Norsborg, Sweden), Western United States (Glendale, Arizona),
+                        California, Canada (Toronto), India (Trissur), and Australia (Sydney). The
+                        <abbr>bp.</abbr> of Duhok also has responsibility for Russia (where there is a thriving
+                        church in Moscow). Since the mid 1980s the Ch. of the East has been actively
+                        involved in <ref rend="bold" target="https://gedsh.bethmardutho.org/Ecumenical-dialogue">Ecumenical
+                            dialogue</ref> with the Catholic Church, and in 1994 Mar <ref rend="bold" target="https://gedsh.bethmardutho.org/Denha">
+                            <persName ref="http://syriaca.org/person/97">Denḥa</persName>
+                        </ref> IV
+                        and Pope John Paul II issued a historic common statement on christology. In
+                        1997 the synods of the Assyrian Church of the East and the Chaldean Catholic
+                        Church agreed to take common steps to restore union between the two
+                        Churches; this process, however, has encountered a number of obstacles and
+                        little progress has been made so far.</p>
+                    <p>2. Ancient Church of the East: The Church under Mar Toma Darmo (d. 1968) and
+                        his successor Mar Addai II (1972–) adopted the name ‘Ancient Church of the
+                        East’, to difference itself from the larger ‘Assyrian’ Church (and possibly
+                        to avoid a nationalistic-sounding name in Iraq). Mar Addai is resident in
+                        Baghdad. Outside Baghdad there are dioceses of Kirkuk, Nineveh (<ref rend="bold" target="https://gedsh.bethmardutho.org/Mosul">
+                            <placeName ref="http://syriaca.org/place/139">Mosul</placeName>
+                        </ref>),
+                        Syria and Lebanon (residing in al-Ḥasake), Western Europe (Mainz, Germany),
+                        United States and Canada (San Fernando), and Western United States
+                        (Modesto). The Ancient Church of the East, as well as the Assyrian Church of
+                        the East, has been present at Pro Oriente’s <choice>
+                            <sic>Non-Official</sic>
+                            <corr>non-official</corr>
+                        </choice> ‘Syriac Dialogue’
+                        since its inception in 1994.</p>
+                    <p>See <ref target="https://gedsh.bethmardutho.org/fig/35">Fig. 35</ref>.</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>E.  Tisserant, ‘Nestorienne (l’Église)’, <title rend="italic">
+                                <abbr>DTC</abbr>
+                            </title>, vol. 11 (1931), 157–323.</bibl>
+                        <bibl>Mar Aprem, <title rend="italic">The Assyrian Church of the East in the
+                                twentieth century</title> (Moran Etho 18; 2002).</bibl>
+                        <bibl>W.  Baum and D. W.  Winkler, <title rend="italic">The Church of the
+                                East: A concise history</title> (2000).</bibl>
+                        <bibl>C.  Baumer, <title rend="italic">The Church of the East. An
+                                illustrated history of Assyrian Christianity</title> (2006).</bibl>
+                        <bibl>J. F.  Coakley and K.  Parry (<abbr>ed.</abbr>), <title rend="italic">The Church of
+                                the East: Life and thought</title> (1996).</bibl>
+                        <bibl>H.  Teule, <title rend="italic">Les Assyro-Chaldéens</title> (2008).
+                            (with further references)</bibl>
+                        <bibl>Wilmshurst, <title rend="italic">Ecclesiastical
+                            organisation</title>.</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Sebastian P.</forename> 
+                  <surname>Brock</surname>
+               </persName> and <persName>
+                  <forename>James F.</forename> 
+                  <surname>Coakley</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

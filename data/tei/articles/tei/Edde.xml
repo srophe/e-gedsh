@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Eddé</title>
+            <author>
+               <persName>
+                  <forename>Erica Cruikshank</forename> 
+                  <surname>Dodd</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0">Electronic Edition Draft Version 1.0</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Eddé</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Edde</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/191</idno>
+                    <idno type="entry">182</idno>
+                    <milestone unit="pages" n="137"/>
+                    <idno type="subject">http://syriaca.org/place/265</idno>
+                    <note type="type">place</note>
+                    <note type="abstract">Town in the foothills of Mount Lebanon,
+                        above the town of Batrun (Botrom); site of church of Mar Saba.<note/>
+                    </note>
+                </ab>
+                <div type="body">
+                    <p>The town of Eddé lies in the foothills of Mount Lebanon, above the town of
+                        Batrun (Botrom). The church of Mar Saba, which nowadays is Maronite, is an
+                        imposing Crusader building from the 12th <abbr>cent.</abbr>, with a wide central nave and
+                        side aisles, under a complicated system of rib vaulting. An open narthex
+                        with groin vaults adorns the west end. The interior of the church was
+                        cleaned of white wash only recently, and a few fragments of wall painting
+                        were exposed which are now being preserved.</p>
+                    <p>On the northern wall, near the entrance, are two fragments of painting
+                        representing the Dormition of the Virgin. In this imposing scene, only a few
+                        of the apostles, angels, and <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Dionysius-the-Areopagite-Pseudo-">Dionysius the Areopagite</ref>
+                        can still be distinguished. An inscription above the Dormition was read by
+                        the <abbr>Maron.</abbr>
+                        <abbr> Patr.</abbr> 
+                  <ref rend="bold" target="https://gedsh.bethmardutho.org/al-Duwayhi-Istifan">
+                            <persName ref="http://syriaca.org/person/460">Isṭifān
+                            al-Duwayhī</persName>
+                        </ref>, in the 17th <abbr>cent.</abbr>, where he gives the date of this
+                        painting as the Greek year 1573 (= AD 1261/2).</p>
+                    <p>There are also a fine Crucifixion on the northern wall of the nave, above the
+                        arches; an imposing but very damaged painting of the Virgin in the position
+                        known as the Nikopoia, with the Christ Child held frontally on her lap; and
+                        the scant remains of several equestrian cavaliers and other saints.</p>
+                    <p>The Virgin Nikopoia is inscribed in Greek and stylistically this painting
+                        belongs to the <abbr>Syr. Orth.</abbr> style of the 12th <abbr>cent.</abbr> The inscriptions of the
+                        Dormition, however, are in Syriac. In spite of the Syriac inscriptions, this
+                        Dormition shows a fine 13th-cent. style that most closely follows the style
+                        of painting associated with Constantinople in the 13th <abbr>cent.</abbr> This style is
+                        unquestionably Byzantine and far removed from the <abbr>Syr. Orth.</abbr> style of other
+                        Lebanese paintings.</p>
+                    <p>See <ref target="https://gedsh.bethmardutho.org/fig/46">Fig. 46</ref>.</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>E.  Cruikshank Dodd, <title rend="italic">Medieval Painting in
+                                the Lebanon</title> (2004), 280–91.</bibl>
+                        <bibl>L.  Nordiguian and J.-C.  Voisin, <title rend="italic">Châteaux et
+                                églises du moyen âge au Liban</title> (1999), 380–1.</bibl>
+                        <bibl>L.  Nordiguian and N. Reveyron, ‘L’église Mar Saba de Eddé (Batroun).
+                            Pour une archéologie du bâti au Liban’, <title rend="italic">Tempora.
+                                Annales d’histoire et d’archéologie</title>12–13 (2001–2),
+                            115–23.</bibl>
+                        <bibl>Y.  Sader, <title rend="italic">Painted Churches and rock-cut chapels
+                                of Lebanon</title> (1997), 120–34.</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Erica Cruikshank</forename> 
+                  <surname>Dodd</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Melitene</title>
+            <author>
+               <persName>
+                  <forename>Hidemi</forename> 
+                  <surname>Takahashi</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0">Electronic Edition Draft Version 1.0</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Melitene</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Melitene</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/376</idno>
+                    <idno type="entry">367</idno>
+                    <milestone unit="pages" n="283-284"/>
+                    <idno type="subject">http://syriaca.org/place/136</idno>
+                    <note type="type">place</note>
+                    <note type="abstract">City in eastern Anatolia, located near the right bank of
+                        the <placeName ref="http://syriaca.org/place/82">Euphrates</placeName> and
+                        to the north of the main range of the Eastern Taurus.<note/>
+                    </note>
+                </ab>
+                <div type="body">
+                    <p>City in eastern Anatolia, located near the right bank of the Euphrates and to
+                        the north of the main range of the Eastern Taurus. It lies in a fertile
+                        plain whose orchards are famed today for their apricots and where the
+                        ancient Persian ‘Royal Road’ intersected the north-south route along the
+                        Euphrates. Its name appears in forms such as <hi rend="italic">Malidiya</hi>
+                        and <hi rend="italic">Melidi</hi> in Hittite and Assyrian records from the
+                        middle of the 2nd millennium BC. Melitene became an important garrison town
+                        under Roman rule and was made a provincial capital in the 4th <abbr>cent.</abbr> (of
+                        ‘Armenia  II’, renamed ‘Armenia III’ in 536). The city lay in an area that
+                        often changed hands between the Byzantines and the Arabs after the rise of
+                        Islam. It was first attacked by the Turks in 1058, and, after periods of
+                        rule by the Armenian curopalate Philaretos Brachamios and the similarly
+                        Armenian, though Chalcedonian, Gabriel (Khoril) of Melitene, it passed to
+                        the Danishmendids in 1101 and then to the Rum Seljuks in the <choice>
+                            <sic>1170’s</sic>
+                            <corr>1170s</corr>
+                        </choice>. The
+                        Mongols first reached the neighbourhood of Melitene in 1231, and attacked
+                        the city on several occasions in 1243–44 and 1251–53. Melitene continued to
+                        be ruled by the Seljuks under Mongol suzerainty until it fell to the Mamluks
+                        in 1315. The city was taken by the Ottomans in 1516. The modern city of
+                        Malatya, to which the majority of the population migrated in the 19th <abbr>cent.</abbr>,
+                        is situated approximately 12 km. to the south-southwest of the site of the
+                        antique and medieval city, which is known today as Old Malatya (Eski
+                        Malatya, officially Battalgazi).</p>
+                    <p>Melitene was an important center of Christianity from early on. Meletius of
+                        Antioch (d. 381), who presided over the First Council of Constantinople, was
+                        a native of the city, while its early bishops included such figures as
+                        Otreios, present at that council of 381, Acacius (d. before 449), one of the
+                        fathers at Ephesus (431), Mamas (Momo), a renegade to the miaphysite cause
+                        who was restored to his see under Justin I, and Domitian (d. 602), a nephew
+                        of Emperor Maurice (582–602). The list of bishops for Melitene in the
+                        Chronicle of <ref rend="bold" target="https://gedsh.bethmardutho.org/Michael-I-Rabo">
+                            <persName ref="http://syriaca.org/person/217">Michael I
+                            Rabo</persName>
+                        </ref> (Chabot, <hi rend="italic">Chronique de Michel le
+                        Syrien</hi>, vol. 3, 494) indicates that there was a long interruption after
+                        Domitian, no doubt reflecting the absence of <abbr>Syr. Orth.</abbr> Christians in the
+                        area. The list resumes with names of four bishops whose dates are unknown.
+                        The fifth name on that part of the list is that of <abbr>
+                            <choice>
+                                <sic>bp.</sic>
+                                <corr>Bp.</corr>
+                            </choice>
+                        </abbr> Daniel, ordained by
+                            <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Dionysios-of-Tel-Mahre">
+                            <persName ref="http://syriaca.org/person/155">Dionysios
+                            of Tel Maḥre</persName>
+                        </ref> (<abbr>
+                            <choice>
+                                <sic>Patr.</sic>
+                                <corr>patr.</corr>
+                            </choice>
+                        </abbr> 818–45). From Grigorios onwards, who was
+                        ordained by <abbr>Patr.</abbr> Basilios (923–35), the titulars are styled as
+                        ‘metroplitans’.</p>
+                    <p>Melitene and the surrounding area, lying to the north of areas traditionally
+                        inhabited by Syr. Christians, saw an influx of <abbr>Syr. Orth.</abbr> settlers in the
+                        wake of their reconquest by the Byzantines in 934 and especially after the
+                        adoption of a policy encouraging such migration by Nicephoras II Phocas
+                        (963–69), who, being unable to entice Chalcedonians to settle in the area,
+                        invited the <abbr>Syr. Orth.</abbr>
+                        <abbr> Patr.</abbr> Yuḥanon da-Srigteh (965–86) to move with his
+                        followers to the region of ‘Melitene, Hanzīṭ, and Qlisuro’, promising them
+                        immunity from persecution (Chabot, <hi rend="italic">Chronique de Michel le
+                            Syrien</hi>, vol. 4, 335f.). Although that promise was not kept for
+                        long, the wealth created through this resettlement became a major factor in
+                        bringing about the revival of cultural activities among Syr. Christians
+                        which has come to be termed the ‘<ref rend="bold" target="https://gedsh.bethmardutho.org/Renaissance-Syriac">Syriac
+                            Renaissance</ref>’. Melitene played a central role in the ecclesiastical
+                        and cultural life of the <abbr>Syr. Orth.</abbr> Church during the following three
+                        centuries, giving birth to the most important <abbr>Syr. Orth.</abbr> authors from that
+                        period, Michael I Rabo, <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Bar-Ebroyo-Grigorios">
+                            <persName ref="http://syriaca.org/person/239">Bar ʿEbroyo</persName>
+                        </ref>, and, probably,
+                            <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Dionysios-bar-Salibi">
+                            <persName ref="http://syriaca.org/person/212">Dionysios
+                            bar Ṣalibi</persName>
+                        </ref>. Of the Patriarchs from the period, Yuḥanon bar ʿAbdun
+                        (1004–31), <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Yuhanon-X-Isho-bar-Shushan">
+                            <persName ref="http://syriaca.org/person/193">Yuḥanon X bar Shushan</persName>
+                        </ref> (1064–73),
+                        Athanasios VI bar Qeṭreh (1139–66), and <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Michael-II-the-Younger">
+                            <persName ref="http://syriaca.org/person/223">Michael II
+                            the Younger</persName>
+                        </ref> (1199–1215), as well as Michael I, were natives of
+                        Melitene, while Athanasios bar Kamoro (1090–1129), though born in <ref rend="bold" target="https://gedsh.bethmardutho.org/Amid">
+                            <placeName ref="http://syriaca.org/place/8">Amid</placeName>
+                        </ref>, was
+                        raised in Melitene, and Ignatius III Dawid (maph. 1215–22, <abbr>
+                            <choice>
+                                <sic>Patr.</sic>
+                                <corr>patr.</corr>
+                            </choice>
+                        </abbr> 1222–52),
+                        Dionysios VI ʿAngur (1252–61), and Philoxenos Nemrud (1283–92) were
+                        metropolitans of Melitene before their elevation to the patriarchate. A
+                        large number of other authors, such as the apostate Ignatius (Iwanis) Marqos
+                        bar Qiqi (<abbr>metr.</abbr> of Melitene, then maph. 991–1016), Ignatius of Melitene (d.
+                        1104), Yuḥanon Saʿīd bar Ṣabūnī (<abbr>metr.</abbr> in 1105), <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Theodoros-bar-Wahbun">
+                            <persName ref="http://syriaca.org/person/216">Theodoros
+                            bar Wahbun</persName>
+                        </ref> (d. 1193), Grigorios Yaʿqub (maph. 1189–1214), were
+                        also associated with the city either as its natives or its
+                        metropolitans.</p>
+                    <p>In the first half of the 11th <abbr>cent.</abbr>, the Coptic <abbr>bp.</abbr> Michael of Tinnīs,
+                        reporting on his visit to the region, spoke of Melitene as the large city
+                        under the jurisdiction of <abbr>Patr.</abbr> Yuḥanon bar ʿAbdun, with 56 churches and
+                        60,000 arms-bearing Christians in the city and its surroundings (A. S. Atiya
+                        <abbr>et al.</abbr>, <hi rend="italic">History of the Patriarchs of the Egyptian
+                            Church</hi>, vol. 2, pt. 2 [Cairo, 1948], 141f.). The Christians of the
+                        city included Melkites, as well as Armenians, and it may have been through
+                        contacts with Melkites there that the redaction of the <hi rend="italic">Qonune yawnoye</hi> designated as Melitenian was adopted by the Syr.
+                        Christians. The leading role <abbr>Metr.</abbr> Dionysios ʿAngur is reported to have
+                        played in the defence of the city in 1243 suggests that the Syr. Christians
+                        then constituted the majority of the Christians and possibly also of the
+                        overall population. One peculiarity of the local dialect of Aramaic, the
+                        pronunciation of <hi rend="italic">qoph</hi> as <hi rend="italic">gomal</hi>, is mentioned by Bar ʿEbroyo in his treatise ‘On equilitteral
+                        words’ (Martin, <hi rend="italic">Œuvres grammaticales d’Abou’lfaradj dit
+                            Bar Hebreus</hi>, vol. 2, 82; cf. Duval, <hi rend="italic">Traité de
+                            grammaire syriaque</hi>, xi).</p>
+                    <p>The political disturbances in the latter half of the 13th <abbr>cent.</abbr> evidently had
+                        a devastating effect on the <abbr>Syr. Orth.</abbr> communities in Melitene and its
+                        surroundings; Bar ʿEbroyo, writing in 1283, says that there was ‘not one
+                        house remaining’ in the seven dioceses in the neighbourhood of Melitene,
+                        namely Laqabin, ʿArqo, Qlisuro, Gubos, Ṣemḥo, Qlawdiya, and Gargar (Abbeloos
+                        and Lamy, <hi rend="italic">Gregorii Barhebraei chronicon
+                            ecclesiasticum</hi>, vol. 3, 459). One of the three claimants to the
+                        patriarchate in the schism following the death of Philoxenos Nemrud was
+                        Constantine of Melitene, who was murdered by the Kurds within a year of his
+                        ordination in 1293. The third in the Cilician line of patriarchs was
+                        Basilios Gabriel of Melitene (1349–87), while Ignatius Shihāb (1366–81), the
+                        third in the Mardin line, is also said to have been metropolitan of Melitene
+                        (A. Barsoum, <hi rend="italic">History of the <choice>
+                                <sic>Za’faraan</sic>
+                                <corr>Zaʿfaraan</corr>
+                            </choice> Monastery</hi>
+                        [2008], 49; F. Y. Dolabani, <choice>
+                            <sic>
+                                <hi rend="italic">Maktbonuto d-faṭriyarke
+                            d-Anṭiyokiy</hi>a</sic>
+                            <corr>
+                                <hi rend="italic">Maktbonuto d-faṭriyarke
+                                d-Anṭiyokiya</hi>
+                            </corr>
+                        </choice> [1990], 186). In two lists drawn up in 1579/80–81 the
+                        title of the <abbr>bp.</abbr> of Melitene is found attached to that of Gargar and <ref rend="bold" target="https://gedsh.bethmardutho.org/Edessa">
+                            <placeName ref="http://syriaca.org/place/78">Edessa</placeName>
+                        </ref>.
+                        By the end of the 19th <abbr>cent.</abbr>, the Christian population of the city consisted
+                        almost entirely of Armenians, who made up about one tenth of the total
+                        population of 30,000 (V.  Cuinet, <hi rend="italic">La Turquie d’Asie</hi>,
+                        vol. 2 [1892], 372).</p>
+                    <p>Although there was never any significant E.-Syr. presence in the region
+                        around Melitene, ‘bishop of Tarsus and Malatya’ is mentioned as a suffragan
+                        of <ref rend="bold" target="https://gedsh.bethmardutho.org/Damascus">
+                            <placeName ref="http://syriaca.org/place/66">Damascus</placeName>
+                        </ref> in a list of <abbr>Ch. of E.</abbr> bishoprics found appended in an
+                        early 13th-cent. <abbr>ms.</abbr> (Vat. Arab. 157) to the canonical work of Elias of
+                        Damascus (<abbr>ca.</abbr> 900) (Assemani, <hi rend="italic">BibOr</hi>, vol. 2, 458f.;
+                        cf. Graf, <hi rend="italic">GCAL</hi>, vol. 2, 134).</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>Baumstark, <title rend="italic">Literatur</title>,
+                            290–303.</bibl>
+                        <bibl>G.  Dagron, ‘Minorités ethniques et religieuses dans l’Orient byzantin
+                            à la fin du X<hi rend="superscript">e</hi> et au XI<hi rend="superscript">e</hi> siècle: L’immigration syrienne’, <title rend="italic">Travaux et mémoires</title> 6 (1976), 177–216.
+                            (reprinted in Dagron, <title rend="italic">La romanité chrétien en
+                                Orient </title>[1984], ch. X)</bibl>
+                        <bibl>Fiey, <title rend="italic">Pour un Oriens christianus novus</title>,
+                            138 (s.v. ‘Tarse’), 242–3 (s.v. ‘Mélitène’).</bibl>
+                        <bibl>E.  Honigmann and S.  Faroqhi, ‘Malaṭya’, <title rend="italic">EI</title>
+                            <hi rend="superscript">2</hi>, vol. 6 (1990), 230–2. (also the earlier, more detailed article
+                            by Honigmann in <title rend="italic">EI</title>
+                            <hi rend="superscript">1</hi>, vol. 5, 193–7)</bibl>
+                        <bibl>H. Husmann, ‘Die melkitische Liturgie als Quelle der syrischen Qanune
+                            iaonaie. Melitene und Edessa’, <title rend="italic">
+                                <abbr>OCP</abbr>
+                            </title> 41
+                            (1975), 5–56.</bibl>
+                        <bibl>A.  Palmer, ‘Charting undercurrents in the history of the West-Syrian
+                            people: The resettlement of Byzantine Melitene after 934’, <title rend="italic">
+                                <abbr>OC</abbr>
+                            </title> 70 (1986), 37–68.</bibl>
+                        <bibl>T. A.  Sinclair, <title rend="italic">Eastern Turkey. An architectural
+                                and archaeological survey</title>, vol. 3 (1989), 3–18, 134–60,
+                            421–2.</bibl>
+                        <bibl>H.  Takahashi, <title rend="italic">Barhebraeus: A
+                                Bio-Bibliography</title> (2005), 3–7.</bibl>
+                        <bibl>D.  Weltecke, <title rend="italic">Die «Beschreibung der Zeiten» von
+                                Mōr Michael dem Grossen (1126–1199)</title> (<abbr>CSCO</abbr> 594; 2003),
+                            62–8.</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Hidemi</forename> 
+                  <surname>Takahashi</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

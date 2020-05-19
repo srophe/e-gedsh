@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Malabar Independent Syrian Church</title>
+            <author>
+               <persName>
+                  <forename>John R. K.</forename> 
+                  <surname>Fenwick</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0">Electronic Edition Draft Version 1.0</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Malabar Independent Syrian Church</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Malabar-Independent-Syrian-Church</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/346</idno>
+                    <idno type="entry">337</idno>
+                    <milestone unit="pages" n="255-256"/>
+                    <idno type="althead">The Thozhiyur Church</idno>
+                    <note type="type">org</note>
+                    <note type="abstract">The Malabar Independent Syrian Church is the oldest of the
+                        various jurisdictions into which the non-Roman Catholic section of the
+                        Thomas Christians has been divided since the 17th <abbr>cent.</abbr>
+                        <note/>
+                    </note>
+                </ab>
+                <ab type="infobox">The Thozhiyur Church</ab>
+                <div type="body">
+                    <p>The Malabar Independent Syrian Church is the oldest of the various
+                        jurisdictions into which the non-Roman Catholic section of the <ref rend="bold" target="https://gedsh.bethmardutho.org/Thomas-Christians">Thomas Christians</ref> has been divided since the 17th <abbr>cent.</abbr> Following
+                        the imposition of Portuguese control and European bishops after the <ref rend="bold" target="https://gedsh.bethmardutho.org/Diamper-Synod-of">Synod of Diamper</ref> in 1599, there was an attempt by the whole
+                        community to break free of Jesuit control in 1653 at the Coonan Cross
+                        incident. Subsequently, as a result of the successful efforts of Carmelite
+                        missionaries, the majority of St. Thomas Christians returned to Roman
+                        obedience (see <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Malabar-Catholic-Church">Malabar
+                            Catholic Church</ref>). The remaining section (called <hi rend="italic">Puthenkuttukar</hi> or New Party to distinguish them from the
+                        Romo-Syrians who were <hi rend="italic">Pazhayakuttukar</hi> or Old Party),
+                        continued to use latinized E.-Syr. rites, but began to come under the
+                        influence of periodic visitors of the <abbr>Syr. Orth.</abbr> tradition.</p>
+                    <p>A definitive step took place in 1751 when the <abbr>Syr. Orth.</abbr> Mafryono Basilios
+                        Shakrallah arrived in Kerala, accompanied by Mar Gregorios of <ref rend="bold" target="https://gedsh.bethmardutho.org/Jerusalem">
+                            <placeName ref="http://syriaca.org/place/104">Jerusalem</placeName>
+                        </ref> and another companion, whom the Mafryono soon
+                        consecrated with the title ‘Mar Ivanios, <abbr>bp.</abbr> of India’. The party seems to
+                        represent a more systematic attempt to introduce W.-Syr. usage than had been
+                        the case with earlier visitors. The delegation was also authorised by the
+                        <abbr>
+                            <choice>
+                                <sic>Patr.</sic>
+                                <corr>patr.</corr>
+                            </choice>
+                        </abbr> to regularize the <choice>
+                            <sic>Orders</sic>
+                            <corr>orders</corr>
+                        </choice> of the Indian head of the Puthenkuttukar
+                        community, Mar Thoma V, with the expectation that he would minister under
+                        the jurisdiction of the Mafryono and his companions. Squabbles about money
+                        and jurisdiction prevented this intended outcome, and Mar Thoma V died in
+                        about 1765, without having been re-consecrated, but having himself
+                        consecrated his nephew as Mar Thoma VI.</p>
+                    <p>The Mafryono gathered a small household, among whom he disseminated Syr.
+                        Orth. usage. Immediately prior to his death in 1764, he consecrated a native
+                        priest of the Kattumangat family as <abbr>bp.</abbr>, giving him the title of Mar
+                        Koorilose. For several years the new <abbr>bp.</abbr> lived quietly in a monastic
+                        community at Thevanal. In 1770 Mar Gregorios and Mar Ivanios consecrated Mar
+                        Thoma VI as Mar Dionysios I. Mar Gregorios seems to have very soon regretted
+                        this action and in 1772 raised Mar Koorilose to the rank of Metropolitan.
+                        Mar Koorilose also received a ring from the Rajah of Cochin, the traditional
+                        acknowledgement of the head of the St. Thomas Christians. Mar Dionysios
+                        managed to imprison his rival, who eventually escaped and fled to the
+                        village of Anjur in the territory of the Zamorin of Calicut, later British
+                        Malabar. A gift of land from a prominent Muslim, whose son Mar Koorilose had
+                        healed, enabled a Cathedral Church to be built at nearby Thozhiyur.</p>
+                    <p>Following the failure of validly consecrated bishops among Mar Dionysios I’s
+                        successors in the early 19th <abbr>cent.</abbr>, recourse was had to a successor of Mar
+                        Koorilose at Thozhiyur, Mar Philoxenos II, who consecrated three bishops <choice>
+                            <sic>to</sic>
+                            <corr>as</corr>
+                        </choice>
+                        Malankara Metropolitan (Pulikottil Mar Dionysios II <abbr>ca.</abbr> 1813; Punnathra Mar
+                        Dionysios III in 1816; Cheppat Mar Dionysios IV in 1825) and who himself
+                        occupied that position for several years.</p>
+                    <p>Important legal rulings in the 1850s established the independence of the
+                        Thozhiyur Church from either the <abbr>
+                            <choice>
+                                <sic>Patr.</sic>
+                                <corr>patr.</corr>
+                            </choice>
+                        </abbr> of <ref rend="bold" target="https://gedsh.bethmardutho.org/Antioch">
+                            <placeName ref="http://syriaca.org/place/10">Antioch</placeName>
+                        </ref> or the
+                        Malankara Metropolitan.</p>
+                    <p>In 1894 the two Thozhiyur bishops (Mar Athanasios I and Mar Koorilose V)
+                        consecrated a Metropolitan for that section of the Puthenkuttukar which
+                        repudiated Patriarchal authority and desired a degree of reform (see <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Mar-Thoma-Syrian-Church-Malankara">Mar Thoma Syrian Church</ref>).</p>
+                    <p>The community has always been <abbr>Syr. Orth.</abbr> in rite. It has about 15 churches
+                        and priests, and several schools. The Church is active in ecumenical
+                        activities in Kerala and outside India. In 1998 and 2008 the Metropolitans
+                        were Ecumenical Observers at the Lambeth Conference of Anglican bishops. In
+                        2006 both current bishops (Mar Koorilose IX and Mar Basilios I) participated
+                        in the consecration of bishops for the Free Church of England.</p>
+                    <p>A Constitution was drawn up in 1947, appointing a Sabha Mandalam,
+                        representing all the churches, for special business such as electing a <abbr>bp.</abbr>,
+                        and Council of Clergy and Laity to assist the Metropolitan in governing the
+                        Church.</p>
+                    <p>Since the 1970s worship has been celebrated mainly in Malayalam, though
+                        Syriac is still used for the Daily Offices and midweek Qurbanas at Thozhiyur
+                        Cathedral.</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>L. Brown, <title rend="italic">The Indian Christians of St.
+                                Thomas</title> (1982).</bibl>
+                        <bibl>D. Daniel, <title rend="italic">The Orthodox Church of India</title>
+                            (1986).</bibl>
+                        <bibl>J. R. K. Fenwick, <title rend="italic">The Malabar Independent Syrian
+                                Church</title> (1992).</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>J. R. K. Fenwick</reg>
+                        <orig>idem</orig>
+                     </choice>, <title rend="italic">The Forgotten Bishops. The Malabar
+                                Independent Syrian Church and its Place in the Story of the St
+                                Thomas Christians of South India</title> (2009).</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>John R. K.</forename> 
+                  <surname>Fenwick</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

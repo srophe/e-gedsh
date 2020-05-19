@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Abraham bar Dashandad</title>
+            <author>
+               <persName>
+                  <forename>Herman G. B.</forename> 
+                  <surname>Teule</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0">Electronic Edition Draft Version 1.0</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Abraham bar Dashandad</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Abraham-bar-Dashandad</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/21</idno>
+                    <idno type="entry">12</idno>
+                    <milestone unit="pages" n="7"/>
+                    <idno type="subject">http://syriaca.org/person/317</idno>
+                    <note type="type">person</note>
+                    <note type="abstract">Nicknamed ‘the Lame of <placeName ref="http://syriaca.org/place/1072">Beth Ṣayyade</placeName>’ after the
+                        village in <placeName ref="http://syriaca.org/place/993">Adiabene</placeName> were he was born, he was the disciple of the
+                        reformer of ecclesiastical music <persName ref="http://syriaca.org/person/995">Babai of Gbilta</persName> and later
+                        became teacher at the <orgName>School of
+                            Bashosh</orgName> in <placeName ref="http://syriaca.org/place/526">Persia</placeName>.<note/>
+                    </note>
+                </ab>
+                <ab type="infobox">(8th <abbr>cent.</abbr>) [E.-Syr.]</ab>
+                <div type="body">
+                    <p>Nicknamed ‘the Lame of Beth Ṣayyade’ after the village in <ref rend="bold" target="https://gedsh.bethmardutho.org/Adiabene">
+                            <placeName ref="http://syriaca.org/place/993">Adiabene</placeName>
+                        </ref> where he
+                        was born, he was the disciple of the reformer of ecclesiastical music Babai
+                        of Gbilta and later became teacher at the School of Bashosh in Persia,
+                        founded by Babai, and the School of Marga. At the end of his life, he
+                        established himself at the <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Gabriel-Monastery-of-Mor">
+                            <placeName ref="http://syriaca.org/place/226">Monastery of Mor Gabriel</placeName>
+                        </ref> near <ref rend="bold" target="https://gedsh.bethmardutho.org/Mosul">
+                            <placeName ref="http://syriaca.org/place/139">Mosul</placeName>
+                        </ref>, known as the
+                        Upper Monastery. According to <ref rend="bold" target="https://gedsh.bethmardutho.org/Abdisho-bar-Brikha">
+                            <persName ref="http://syriaca.org/person/310">ʿAbdishoʿ bar
+                            Brikha</persName>
+                        </ref>, he was the author of a Book of <choice>
+                            <sic>a</sic>
+                            <corr>A</corr>
+                        </choice>dmonition, a Commentary of
+                        Marcus Eremita, a Disputation with the Jews, a work on the Royal Path, some
+                            <hi rend="italic">memre</hi> on penitence and different letters. Of the
+                        latter, only his Letter to a certain Yoḥannan, who had decided to embrace
+                        the monastic life, is preserved. It is followed by some spiritual
+                        admonitions (<hi rend="italic">zuhhāre</hi>). His importance for Syriac
+                        lexicography is acknowledged by <ref rend="bold" target="https://gedsh.bethmardutho.org/Bar-Bahlul-Hasan">
+                            <persName ref="http://syriaca.org/person/365">Bar
+                        Bahlul</persName>
+                        </ref>, who mentions him in the introduction to his Syriac-Arabic
+                        lexicon. According to <ref rend="bold" target="https://gedsh.bethmardutho.org/Timotheos-I">
+                            <persName ref="http://syriaca.org/person/790">Timotheos I</persName>
+                        </ref>, a
+                        certain Abraham, who may have been Abraham bar Dashandad, was also active as
+                        a copyist of works of <ref rend="bold" target="https://gedsh.bethmardutho.org/John-Chrysostom">
+                            <persName ref="http://syriaca.org/person/573">John
+                            Chrysostom</persName>
+                        </ref> (including one of his writings to the fallen
+                            Theodore [<hi rend="italic">
+                            <abbr>CPG</abbr>
+                        </hi> 4305] and the Letters to Olympias
+                            [<hi rend="italic">
+                            <abbr>CPG</abbr>
+                        </hi> 4405]) and <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Theodore-of-Mopsuestia">
+                            <persName ref="http://syriaca.org/person/780">Theodore
+                            of Mopsuestia</persName>
+                        </ref>. Following Krüger, the fragments of the commentary
+                        on <ref rend="bold" target="https://gedsh.bethmardutho.org/Mark-the-Monk">
+                            <persName ref="http://syriaca.org/person/619">Mark the Monk</persName>
+                        </ref>, preserved in <abbr>ms.</abbr> Brit. Libr. Syr. Add. <choice>
+                     <reg>17,270</reg>
+                     <orig>17270</orig>
+                  </choice>,
+                        which according to the <hi rend="italic">Catalogue</hi> of W. Wright (<choice>
+                            <sic>
+                                <hi rend="italic">Catalogue … British Museum</hi>
+                            </sic>
+                            <corr>
+                                <hi rend="italic">Catalogue<choice>
+                                        <sic>…</sic>
+                                        <corr> … </corr>
+                                    </choice>British Museum</hi>
+                            </corr>
+                        </choice>, vol. 2, 482) may have
+                        been written by Abraham bar Dashandad, are rather to be attributed to <ref rend="bold" target="https://gedsh.bethmardutho.org/Babai-the-Great">
+                            <persName ref="http://syriaca.org/person/359">Babai
+                            the Great</persName>
+                        </ref>. The Book of Admonition is partly preserved in an Arabic
+                        translation in <ref rend="bold" target="https://gedsh.bethmardutho.org/Eliya-of-Nisibis">
+                            <persName ref="http://syriaca.org/person/472">Eliya of
+                            Nisibis</persName>
+                        </ref>’s ‘<hi rend="italic">Book of Continence</hi>’.</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>V. Berti, <title rend="italic">Abramo Bar Dashandad. Custodisci
+                                te stesso. Lettera a Giovanni</title> (2006).</bibl>
+                        <bibl>O. Hesse, ‘Markus Eremita in der syrischen Literatur’, <title rend="italic">
+                                <abbr>ZDMG</abbr>
+                            </title> Suppl. 1.2 (1969), 450–7.</bibl>
+                        <bibl>G. Kessel, ‘A Fragment from Abraham bar Dašandad’s lost “Book of
+                            Exhortation(s)” in “Risāla faḍīlat al-ʿiffa” (Letter on Priority of
+                            Abstinence) of Elias of Nisibis’, in <title rend="italic">Gotteserlebnis
+                                und Gotteslehre. Christliche und islamische Mystik im
+                            Orient</title>, <abbr>ed.</abbr> M. Tamcke<choice> 
+                        <sic>(forthcoming)</sic>
+                                <corr> (2010)</corr>
+                            </choice>.</bibl>
+                        <bibl>P. Krüger, ‘Überlieferung und Verfasser der beiden Memre über das
+                            <choice> 
+                        <sic>’geistige Gesetzʻ</sic>
+                                <corr>‘geistige Gesetz’</corr>
+                            </choice> des Mönches Markus’, <title rend="italic">
+                                <abbr>OKS</abbr>
+                            </title> 6
+                            (1957), 257–9.</bibl>
+                        <bibl>A. Mingana, <title rend="italic">Early Christian Mystics</title>
+                            (Woodbrooke Studies 7; 1934), 248–55 (Syr.), 186–97 (<abbr>ET</abbr>).</bibl>
+                        <bibl>K. Pinggéra, ‘Abraham bar Daschandad’, in <title rend="italic">
+                                <abbr>BBK</abbr>
+                            </title>, vol. 17, 1–4. (incl. further references)</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Herman G. B.</forename> 
+                  <surname>Teule</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

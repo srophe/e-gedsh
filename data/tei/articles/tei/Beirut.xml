@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Beirut</title>
+            <author>
+               <persName>
+                  <forename>Ray Jabre</forename> 
+                  <surname>Mouawad</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0">Electronic Edition Draft Version 1.0</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Beirut</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Beirut</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/102</idno>
+                    <idno type="entry">93</idno>
+                    <milestone unit="pages" n="68-69"/>
+                    <idno type="althead">Berytus</idno>
+                    <idno type="subject">http://syriaca.org/place/46</idno>
+                    <note type="type">place</note>
+                    <note type="abstract">City in 
+                            <placeName>Lebanon</placeName> mentioned in many <abbr>Syr. Orth.</abbr> texts.<note/>
+                    </note>
+                </ab>
+                <ab type="infobox">Berytus</ab>
+                <div type="body">
+                    <p>Beirut, Lebanon is mentioned in many <abbr>Syr. Orth.</abbr> texts in connection with the
+                        St. Jude monastery and church. It was described by <ref rend="bold" target="https://gedsh.bethmardutho.org/Zacharias-Rhetor">
+                            <persName ref="http://syriaca.org/person/58">Zacharias
+                            Rhetor</persName>
+                        </ref> in his ‘Life of <ref rend="bold" target="https://gedsh.bethmardutho.org/Severus-of-Antioch">
+                            <persName ref="http://syriaca.org/person/51">Severus</persName>
+                        </ref>’, the <abbr>
+                            <choice>
+                                <sic>Patr.</sic>
+                                <corr>patr.</corr>
+                            </choice>
+                        </abbr>
+                        of <ref rend="bold" target="https://gedsh.bethmardutho.org/Antioch">
+                            <placeName ref="http://syriaca.org/place/10">Antioch</placeName>
+                        </ref> (512–38). Although Zacharias wrote originally in Greek,
+                        his text survives only in Syriac translation. The author narrates Severus’s
+                        conversion to Christianity while both he and Severus were studying at the
+                        famous School of Law in 487–91, and he gives a lively description of the
+                        lives of young Christians in <choice>
+                            <sic>5th </sic>
+                            <corr>5th-</corr>
+                        </choice>
+                        <abbr>cent.</abbr> Beirut. He mentions four churches in
+                        Beirut among which was a ‘venerable church of the holy apostle Jude, brother
+                        of James who were both sons of Joseph’. It was located outside of Beirut and
+                        had a community of ascetics, priests, and monks. Different sources show that
+                        the community was anti-Chalcedonian. Severus himself in one of his letters
+                        reports that in 482–83, when <ref rend="bold" target="https://gedsh.bethmardutho.org/Peter-the-Iberian">
+                            <persName ref="http://syriaca.org/person/680">Peter the
+                            Iberian</persName>
+                        </ref>, a popular anti-Chalcedonian figure in Palestine, passed
+                        by Beirut, he prayed in ‘the glorious church of the famous martyr and
+                        apostle Jude, brother of James who is buried in Berytus’. In the early Syr.
+                        Orth. tradition, therefore, Beirut’s church of St. Jude was known for being
+                        a martyrium church as well as having an anti-Chalcedonian stance. Medieval
+                        <abbr>Syr. Orth.</abbr> authors like <ref rend="bold" target="https://gedsh.bethmardutho.org/Michael-I-Rabo">
+                            <persName ref="http://syriaca.org/person/217">Michael Rabo</persName>
+                        </ref>and <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Bar-Ebroyo-Grigorios">
+                            <persName ref="http://syriaca.org/person/239">Bar ʿEbroyo</persName>
+                        </ref> support these claims. The monastery
+                        apparently survived the earthquake of 551 that destroyed Beirut entirely,
+                        including its famous Law School, although Michael Rabo in his Chronicle
+                        describes the effects of the earthquake without mentioning the church. It
+                        was probably rebuilt eventually by <abbr>Syr. Orth.</abbr> monks because in a <choice>
+                            <sic>12th </sic>
+                            <corr>12th-</corr>
+                        </choice>
+                        <abbr>cent.</abbr>
+                        papal letter a church of St. Jude in Beirut is mentioned, which was put
+                        under the jurisdiction of the Latin bishop of the city. The church was
+                        destroyed by the army of Ṣalāḥ al-dīn al-Ayyūbī who occupied Beirut for ten
+                        years (1187–97), for when the German pilgrim Wilbrand of Oldenburg visited
+                        Beirut in 1211–12, he found only the tombs of Jude and his brother Simon in
+                        place of the monastery outside the walls of the city.</p>
+                    <p>A <ref rend="bold" target="https://gedsh.bethmardutho.org/Maronite-Church">Maronite</ref> presence in Beirut is mentioned for the
+                        first time in a papal confirmation of 1184. It reports that the Latin bishop
+                        of Beirut gave the Maronites a chapel with adjacent land (see Pringle). This
+                        may have been the church of Saint Georges located northeast of the city and
+                        cited by an anonymous Rhenan pilgrim in 1098. It is there, the pilgrim
+                        affirms, that long ago Saint George killed the dragon. Under the Ottomans in
+                        the 16th <abbr>cent.</abbr>, the Maronites were in possession of that church with an
+                        adjacent cemetery where their bishops were buried (Duwayhī). In the course
+                        of the 17th <abbr>cent.</abbr> they lost this church, which became the mosque of
+                        al-Khidr. Another Maronite church was located within the walls of Beirut,
+                        but it was taken from them in 1571 by the ruling local emir Manṣūr ʿAssāf in
+                        the aftermath of his participation in the Ottoman conquest of Cyprus. ʿAssāf
+                        seized the church, but the Maronites did not leave, and they even named
+                        their first known bishop of Beirut a few years later, in 1577. Maronite bps.
+                        were named for Beirut but did not reside in the city, staying instead in
+                        different monasteries of the Kisrawān and the Matn districts near the
+                        capital. In 1736 the Council of Luwayza mentioned eight Maronite dioceses
+                        among which the Beirut diocese included the Matn, the Jurd, and the Gharb up
+                        to Jisr al-Qādī near Dāmūr. Around 1748, the emir Yūssif Murād Abillamā
+                        authorized the general abbot of the Antonine Order to build a monastery in
+                        old Beirut and <abbr>Bp.</abbr> Mikhāʾil Fādil built the small cathedral church of Saint
+                        Georges in 1753, which was renovated, destroyed, and rebuilt many times but
+                        still stands today in the center of Beirut. The Maronite see of Beirut was
+                        built by <abbr>Bp.</abbr> Tubiyā ʿAwn (1844–71) near the cathedral, and his successor
+                            <ref rend="bold" target="https://gedsh.bethmardutho.org/al-Dibs-Yusuf">
+                            <persName ref="http://syriaca.org/person/448">Yūsuf al-Dibs</persName>
+                        </ref> (1872–1907) transferred it near al-Ḥikma School,
+                        where it still is today. The Lebanese civil war (1975–90) greatly affected
+                        the Maronite diocese of Beirut, which numbered 140 churches before 1975 but
+                        lost 62 during the war as a result of the evacuation of Christians from 60
+                        villages.</p>
+                    <p>As for the <abbr>Syr. Orth.</abbr>, a new diocese was created in the 19th <abbr>cent.</abbr>, when
+                        refugees from Diyarbakır, <ref rend="bold" target="https://gedsh.bethmardutho.org/Mardin">
+                            <placeName ref="http://syriaca.org/place/130">Mardin</placeName>
+                        </ref>, and <ref rend="bold" target="https://gedsh.bethmardutho.org/Tur-Abdin">
+                            <placeName ref="http://syriaca.org/place/221">Ṭur
+                            ʿAbdin</placeName>
+                        </ref> began to arrive in Lebanon, followed in the 20th <abbr>cent.</abbr> by
+                        those coming from Adana, Tarsus, and <ref rend="bold" target="https://gedsh.bethmardutho.org/Edessa">
+                            <placeName ref="http://syriaca.org/place/78">Edessa</placeName>
+                        </ref>. Beirut also
+                        became an important center for the <abbr>Syr. Cath.</abbr> Church, which transferred its
+                        patriarchal residence from Mardin to Beirut under <abbr>Patr.</abbr> 
+                  <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Rahmani-Ignatius-Ephrem-II">
+                            <persName ref="http://syriaca.org/person/701">Ignatius Ephrem Raḥmani</persName>
+                        </ref> (1898–1929) and had its main seminary in
+                            <ref rend="bold" target="https://gedsh.bethmardutho.org/Sharfeh">
+                            <placeName ref="http://syriaca.org/place/232">Sharfeh</placeName>
+                        </ref>. In the second half of the 20th <abbr>cent.</abbr> Beirut also became
+                        an episocopal see for the <abbr>Chald.</abbr> Church (with <ref rend="bold" target="https://gedsh.bethmardutho.org/Bidawid-Raphael-I">
+                            <persName ref="http://syriaca.org/person/396">Raphael
+                            Bidawid</persName>
+                        </ref> as its most notable incumbent, between 1966 and 1989) as
+                        well as for the <abbr>Ch. of E.</abbr>
+                    </p>
+                </div>
+                <div type="bibl">
+                    <listBibl>
+                        <listBibl>
+                            <head>Primary Sources</head>
+                            <bibl>Abbeloos and Lamy, <title rend="italic">Gregorii Barhebraei
+                                    chronicon ecclesiasticum.</title> (Syr. and <abbr>LT</abbr>)</bibl>
+                            <bibl>E. W.  Brooks, <title rend="italic">A collection of Letters of
+                                    Severus of Antioch</title> (<abbr>PO</abbr> 12.2; 14.1; 1919–1920).</bibl>
+                            <bibl>Chabot, <title rend="italic">Chronique de Michel le
+                                Syrien</title>. (Syr. and <abbr>FT</abbr>)</bibl>
+                            <bibl>M.  Delpech and J. C. Voisin, ‘La mission en Cilicie de Wilbrand
+                                von Oldenburg en 1211–1212’, <title rend="italic">
+                                    <abbr>MUSJ</abbr>
+                                </title> 56
+                                (1999–2003), 291–346.</bibl>
+                            <bibl>Y.  al-Dibs, <title rend="italic">al-Jāmiʿ al-mufaṣṣal fī taʾrīkh
+                                    al-Mawārina al-muʿassal</title> (1905).</bibl>
+                            <bibl>M.-A. Kugener, <title rend="italic">Zacharie le Scolastique. Vie
+                                    de Sévère</title> (<abbr>PO</abbr> 2; 1907), 5–115.</bibl>
+                            <bibl>R. Shartūnī, <title rend="italic">Istiphān Duwayhī. Taʾrīkh
+                                    al-Azmina</title> (1890).</bibl>
+                        </listBibl>
+                        <listBibl>
+                            <head>Secondary Sources</head>
+                            <bibl>T.  Abī ʿĀd, ‘Abrašiyat Bayrūt’, <title rend="italic">al-Manāra</title> 1.2 (1992), 91–108.</bibl>
+                            <bibl>Fiey, <title rend="italic">Pour un Oriens christianus
+                                    novus</title>, 69–70 and 179–80.</bibl>
+                            <bibl>L. J.  Hall, <title rend="italic">Roman Beirut</title>
+                                (2004).</bibl>
+                            <bibl>Honigmann, <title rend="italic">Évêques et évêchés
+                                    monophysites</title>, 32–3.</bibl>
+                            <bibl>R. J. Mouawad, ‘La mosquée du Sérail à Beyrouth: histoire d’un
+                                lieu de culte’, <title rend="italic">Tempora: Annales d’Histoire et
+                                    d’Archéologie. Université Saint-Joseph</title> 14–15 (2003–2004),
+                                153–73.</bibl>
+                            <bibl>D.  Pringle, <title rend="italic">The Churches of the Crusader
+                                    Kingdom of Jerusalem</title> (1993).</bibl>
+                            <bibl>R.  Du Mesnil du Buisson, ‘Le lieu du combat de St. Georges à
+                                Beyrouth’, <title rend="italic">
+                                    <abbr>MUSJ</abbr>
+                                </title> 12 (1927),
+                                251–65.</bibl>
+                        </listBibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Ray Jabre</forename> 
+                  <surname>Mouawad</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

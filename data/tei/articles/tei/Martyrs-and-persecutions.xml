@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Martyrs and persecutions</title>
+            <author>
+               <persName>
+                  <forename>Sebastian P.</forename> 
+                  <surname>Brock</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0">Electronic Edition Draft Version 1.0</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Martyrs and persecutions</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Martyrs-and-persecutions</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/366</idno>
+                    <idno type="entry">357</idno>
+                    <milestone unit="pages" n="271-273"/>
+                    <note type="type">subject</note>
+                    <note type="abstract">Times of persecution and of martyrdom fall into four main
+                        periods: 1. early 4th <abbr>cent.</abbr> (and again under Julian, 361-3), within the
+                        Roman Empire (<choice>
+                            <sic>i.e. </sic>
+                            <corr>i.e., </corr>
+                        </choice>approximately <placeName ref="http://syriaca.org/place/648">Turkey</placeName>, <placeName ref="http://syriaca.org/place/486">Syria</placeName>, <placeName ref="http://syriaca.org/place/487">Lebanon</placeName>, and Palestine);
+                        2. mid-4th to mid-7th <abbr>cent.</abbr>, in the Persian (Sasanian) Empire (approximately
+                        modern <placeName>Iraq</placeName> and Iran); 3. under
+                        Arab rule; and 4. under Ottoman rule and in modern times.<note/>
+                    </note>
+                </ab>
+                <div type="body">
+                    <p>Times of persecution and of martyrdom fall into four main periods: 1. early
+                        4th <abbr>cent.</abbr> (and again under Julian, 361–3), within the Roman Empire (<choice>
+                            <sic>i.e.</sic>
+                            <corr>i.e.,</corr>
+                        </choice>
+                        approximately Turkey, Syria, Lebanon, and Palestine); 2. mid-4th to mid-7th
+                        <abbr>cent.</abbr>, in the Persian (Sasanian) Empire (approximately modern Iraq and
+                        Iran); 3. under Arab rule; and 4. under Ottoman rule and in modern times. It
+                        is only from the first two periods that sizeable collections of ‘Martyr
+                        Acts’ in Syriac are available. From both a literary and a historical point
+                        of view these works can vary enormously in character: a few are brief
+                        factual reports made more or less at the time; many more are later literary
+                        reworkings which, even though they may sometimes be based on reliable
+                        sources, have introduced imaginary dialogues between persecutor and
+                        persecuted whose aim is to edify and give encouragement to those who read or
+                        hear them; miraculous elements also tend to appear. In other martyr acts the
+                        miraculous takes over on a large scale and they take on an epic
+                        character.</p>
+                    <p>Two groups of Syriac Martyr Acts from the Roman Empire are of especial
+                        importance: <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Eusebius-of-Caesarea">
+                            <persName ref="http://syriaca.org/person/480">Eusebius</persName>
+                        </ref>’s Palestinian Martyrs, whose
+                        complete form survives only in Syriac translation, and the various
+                        martyrdoms associated with <ref rend="bold" target="https://gedsh.bethmardutho.org/Edessa">
+                            <placeName ref="http://syriaca.org/place/78">Edessa</placeName>
+                        </ref>.</p>
+                    <p>The Edessene martyrdoms fall into two distinct categories, historical and
+                        legendary. The former concern the deacon Ḥabib and the laymen Shmona and
+                        Gurya, who were martyred probably in 309 and 310; all three came from
+                        villages around Edessa, but met their death in Edessa. Although the accounts
+                        have been embellished with dialogues and miraculous elements, it is likely
+                        that the basic information given is reasonably reliable. This cannot be said
+                        concerning two other Edessan martyrdoms, the Acts of Sharbel and those of
+                        Barsamya, which purport to be contemporary accounts of events that took
+                        place under Trajan in 105: both can be shown to be fictional accounts put
+                        out in the first half of the 5th <abbr>cent.</abbr> by circles in Edessa which also
+                        produced the <choice>
+                            <sic>
+                                <ref rend="bold" target="https://gedsh.bethmardutho.org/Addai-Teaching-of">Teaching of
+                            Adda</ref>i</sic>
+                            <corr>
+                                <ref rend="bold" target="https://gedsh.bethmardutho.org/Addai-Teaching-of">Teaching of
+                                Addai</ref>
+                            </corr>
+                        </choice> and the legend of the city’s conversion.</p>
+                    <p>Outside the Roman Empire it appears that there was no persecution of
+                        Christians under the Parthian dynasty, which came to an end in 226. Under
+                        the Sasanians (224–651) serious persecution first arose only after
+                        Constantine and his successors had adopted Christianity; it is significant
+                        that most of the outbreaks in the 4th and 5th <abbr>cent.</abbr> were at times of war
+                        with the Roman Empire. The persecution of the 340s under Shapur II was the
+                        most widespread, and produced a large number of martyr acts, of varying
+                        historical reliability. <ref rend="bold" target="https://gedsh.bethmardutho.org/Shemon-bar-Sabbae">
+                            <persName ref="http://syriaca.org/person/9">Shemʿon bar
+                            Ṣabbaʿe</persName>
+                        </ref>, <abbr>bp.</abbr> of <ref rend="bold" target="https://gedsh.bethmardutho.org/Seleucia-Ctesiphon">
+                            <placeName ref="http://syriaca.org/place/182">Seleucia-Ctesiphon</placeName>
+                        </ref> (which was beginning to emerge as the
+                        patriarchal see) was one of the first to be put to death (probably in 344).
+                        The persecution extended to villages as well as to towns and included lay
+                        people as well as clergy. Knowledge of these Persian martyrdoms reached the
+                        Roman Empire by means of Greek translations and Sozomen’s account in his
+                        Ecclesiastical History (II.9–14), as well as by word of mouth. A list of
+                        these martyrs was given at the end of a <abbr>ms.</abbr> written in Edessa in November
+                        411 (ms. Brit. Libr. Add. 12,150).</p>
+                    <p>Subsequent persecutions again occurred in <abbr>ca.</abbr> 420 (at the end of the reign of
+                        Yazdgard I and beginning of that of Bahram V), and <abbr>ca.</abbr> 445 (under Yazdgard
+                        II), but on a much smaller scale; both were at times of hostilities with the
+                        Roman Empire. Several accounts of the martyrdoms during these persecutions
+                        survive, especially for the former (some of these are by a certain <ref rend="bold" target="https://gedsh.bethmardutho.org/Abgarids-of-Edessa">Abgar</ref>; there is also an account in <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Theodoret-of-Cyrrhus">
+                            <persName ref="http://syriaca.org/person/781">Theodoret</persName>
+                        </ref>’s Ecclesiastical History, V, 39). Martyrdoms continue
+                        to occur down to the end of the Sasanian Empire, but after the middle of the
+                        5th <abbr>cent.</abbr> they are almost all confined to isolated cases of converts from
+                        Zoroastrianism of noble birth. Several long accounts of these, often of
+                        great historical interest, survive in both Syriac and Greek; these include
+                        the Acts of Grigor (who managed to become a general after his conversion,
+                        but was eventually martyred in 542), the learned <abbr>Cath. </abbr>
+                        <ref rend="bold" target="https://gedsh.bethmardutho.org/Aba">
+                            <persName ref="http://syriaca.org/person/308">Aba</persName>
+                        </ref> (540–552), two
+                        women martyrs, Shirin (558/9) and Golindush/Mary (591), Giwargis (George)
+                        and his sister Mary (613), Ishoʿsabran (620), and Mogundat/Anastasius (628)
+                        whose martyr acts enjoyed great popularity in Greek and Latin.</p>
+                    <p>The earliest and most detailed information about persecution and martyrdoms
+                        in <ref rend="bold" target="https://gedsh.bethmardutho.org/Nagran">
+                            <placeName ref="http://syriaca.org/place/464">Nagran</placeName>
+                        </ref>, in the South Arabian kingdom of <ref rend="bold" target="https://gedsh.bethmardutho.org/Himyar">
+                            <placeName ref="http://syriaca.org/place/474">Ḥimyar</placeName>
+                        </ref>, comes from
+                        three related Syriac texts, one of which is a Letter by <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Shemun-of-Beth-Arsham">
+                            <persName ref="http://syriaca.org/person/53">Shemʿun of
+                            Beth Arsham</persName>
+                        </ref> written in 524, while subsequent Martyr Acts are in
+                        Greek, Ethiopic, and other languages. The date of the persecution is not
+                        certain: 518, 522, and 523 are the possibilities.</p>
+                    <p>Several Martyr Acts survive from the early centuries of Arab rule, though
+                        only a very few are written in Syriac, and these are incorporated into
+                        Chronicles. Under the Umayyads there were only isolated martyrdoms and the
+                        majority of martyrdoms took place under the early Abbasids, in particular
+                        during the caliphates of al-Manṣūr (754–75) and al-Mahdī (775–85). Those
+                        martyred fall into a number of different categories. Christian Arabs in
+                        particular were under considerable pressure to convert to Islam, and a
+                        number of those who resisted were put to death. Muslim converts to
+                        Christianity, and Christians who had converted to Islam and then returned to
+                        Christianity were in especial danger of martyrdom, and among the latter
+                        category there are cases of Christians who had been captured as children and
+                        then been brought up as Muslims, but who subsequently decided to return to
+                        their original faith. Prisoners of war were sometimes forced to apostasize,
+                        and those who refused were put to death (in some cases this was a matter of
+                        reprisals). Non-Arab Christians living under Arab rule were (at least in the
+                        earlier period) in less danger of suffering persecution and martyrdom unless
+                        they openly provoked the authorities. In the following centuries persecution
+                        tended to be intermittent and local, though none the less dire; this was
+                        especially the case under the Mongol ruler Timur Lang (Timurlane) in the
+                        14th <abbr>cent.</abbr>
+                    </p>
+                    <p>Although later centuries (both under Ottoman rule and more recently, in the
+                        20th and 21st <abbr>cent.</abbr>) have witnessed periods of persecution with many
+                        martyrdoms in the Syriac and other Churches of the Middle East, the genre of
+                        Martyr Acts seems to have largely died out in languages other than in Greek
+                        (for which the <hi rend="italic">Neon Martyrologion</hi> provides many
+                        examples from the Ottoman period). A notable martyr of this period was <ref rend="bold" target="https://gedsh.bethmardutho.org/Shemun-II-Basileios">
+                            <persName ref="http://syriaca.org/person/291">Shemʿun II,</persName>
+                        </ref> Mafryono of <ref rend="bold" target="https://gedsh.bethmardutho.org/Tur-Abdin">
+                            <placeName ref="http://syriaca.org/place/221">Ṭur ʿAbdin</placeName>
+                        </ref>
+                        (1740). Records, if they exist, of massacres and martyrdoms are primarily to
+                        be found in the course of historical accounts and in poetry; this applies in
+                        particular to the appalling massacres of 1895/6 and 1915 (<ref rend="bold" target="https://gedsh.bethmardutho.org/Sayfo">Sayfo</ref>, the year of
+                        the ‘Sword’), when all the Syriac communities suffered immense losses, as
+                        well as the Armenians. Many of the victims were killed specifically because
+                        they refused to deny their faith.</p>
+                    <p>See <ref target="https://gedsh.bethmardutho.org/fig/70">Fig. 70</ref>.</p>
+                </div>
+                <div type="bibl">
+                    <listBibl>
+                        <listBibl>
+                            <head>Primary Sources</head>
+                            <listBibl>
+                                <head>First Period</head>
+                                <bibl>F. C.  Burkitt, <title rend="italic">Euphemia and the
+                                        Goth</title> (1913). (Shmona, Gurya, Ḥabib)</bibl>
+                                <bibl>W.  Cureton, <title rend="italic">History of the Martyrs of
+                                        Palestine</title> (1861).</bibl>
+                                <bibl>
+                           <choice>
+                              <reg>W.  Cureton</reg>
+                              <orig>idem</orig>
+                           </choice>, <title rend="italic">Ancient Syriac Documents</title>
+                                    (1864). (Barsamya, Sharbel)</bibl>
+                            </listBibl>
+                            <listBibl>
+                                <head>Second Period</head>
+                                <bibl>Most of the Persian Martyr Acts were published by P. Bedjan in
+                                    his <title rend="italic">Acta Martyrum et Sanctorum</title> (II
+                                    and IV), and his <title rend="italic">Histoire de Mar Jab-Alaha,
+                                        de trois autres Patriarches...</title> (1895; <abbr>repr.</abbr> 2007).
+                                    Selected translations in O. Braun, <title rend="italic">Ausgewählte Akten persischer Märtyrer</title> (1915), and
+                                    selected summaries in G.  Hoffmann, <title rend="italic">Auszüge
+                                        aus syrischen Akten persischer Märtyrer</title> (1880). A
+                                    guide to the 64 different texts, and to translations (where
+                                    available) and further bibliography is given in the Appendix to
+                                    S. P. Brock, <title rend="italic">The history of Mar Maʿin, with
+                                        a guide to the Persian Martyr Acts</title> (2008).</bibl>
+                            </listBibl>
+                            <listBibl>
+                                <head>Third Period</head>
+                                <bibl>Accounts of persecutions and martyrdoms are to be found here
+                                    and there in the various chronicles, notably the Zuqnin
+                                    Chronicle (late 8th <abbr>cent.</abbr>; see Harrak, under Secondary Sources)
+                                    and that of Michael Rabo.</bibl>
+                            </listBibl>
+                            <listBibl>
+                                <head>Fourth Period</head>
+                                <bibl>Mor Julius Çiçek, <title rend="italic">Mimre d-ʿal
+                                        Sayfe</title> (1981). (covering 1714–1914)</bibl>
+                                <bibl>Shlemun Henno, <title rend="italic">Gunḥe d-Suryoye d-Ṭur
+                                        ʿAbdin</title> (1987).</bibl>
+                                <bibl>ʿAbdmshiḥo Naʿman d-Qarahbash, <title rend="italic">Dmo
+                                        zliḥo</title> (1987, 1989; <abbr>GT</abbr> 2002).</bibl>
+                                <bibl>Naʿman Aydin, <title rend="italic">Gedše w-šabṭe d-Ṭur
+                                        ʿAbdin</title> (1997).</bibl>
+                                <bibl>Asmar al-Khoury, <title rend="italic">Ṣulfoto qašyoto d-ʿal
+                                        Suryoye</title> (1998).</bibl>
+                            </listBibl>
+                        </listBibl>
+                        <listBibl>
+                            <head>Secondary Sources</head>
+                            <bibl>J. Bet-Şawoce, <title rend="italic">Sayfo b-Ţurʿabdin
+                                    1914–1915</title> (2006).</bibl>
+                            <bibl>S. P. Brock, ‘Christians in the Sasanid Empire: a case of divided
+                                loyalties’, in <title rend="italic">Syriac Perspectives on Late
+                                    Antiquity</title> (1984), ch. 6.</bibl>
+                            <bibl>P. Devos, ‘Les martyrs persans à travers <choice>
+                                    <sic>leur</sic>
+                                    <corr>leurs</corr>
+                                </choice> actes syriaques’, in
+                                    <title rend="italic">La Persia e il mondo Greco-Romano</title>
+                                (1966), 213–25.</bibl>
+                            <bibl>J.-M.  Fiey, ‘Martyrs sous les Ottomans’, <title rend="italic">
+                                    <abbr>LM</abbr>
+                                </title> 101 (1983), 387–406.</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>J.-M.  Fiey</reg>
+                           <orig>idem</orig>
+                        </choice>, <title rend="italic">Saints syriaques</title>.</bibl>
+                            <bibl>D. Gaunt, <title rend="italic">Massacres, resistance, protectors.
+                                    Muslim-Christian relations in Eastern Anatolia during World War
+                                    I</title> (2006). (with further bibliography)</bibl>
+                            <bibl>A.  Harrak, ‘Piecing together the fragmentary account of the
+                                martyrdom of Cyrus of Harran’ [in the Zuqnin Chronicle], <title rend="italic">
+                                    <abbr>AB</abbr>
+                                </title> 121 (2003), 297–328.</bibl>
+                            <bibl>J. Walker, <title rend="italic">The Legend of Mar Qardagh</title>
+                                (2006).</bibl>
+                            <bibl>G.  Wiessner, <title rend="italic">Zur Märtyrerüberlieferung aus
+                                    der Christenverfolgung Schapurs II</title> (1967).</bibl>
+                            <bibl>G.  Yonan, <title rend="italic">Ein vergessener Holocaust. Die
+                                    Vernichtung der christlichen Assyrer in der Turkei</title>
+                                (1989).</bibl>
+                        </listBibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Sebastian P.</forename> 
+                  <surname>Brock</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

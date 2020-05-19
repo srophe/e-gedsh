@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Wall paintings in Syria and Lebanon</title>
+            <author>
+               <persName>
+                  <forename>Erica Cruikshank</forename> 
+                  <surname>Dodd</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0">Electronic Edition Draft Version 1.0</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Wall paintings in Syria and Lebanon</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Wall-paintings-in-Syria-and-Lebanon</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/582</idno>
+                    <idno type="entry">573</idno>
+                    <milestone unit="pages" n="425-426"/>
+                    <note type="type">subject</note>
+                    <note type="abstract">
+                        <note/>
+                    </note>
+                </ab>
+                <div type="body">
+                    <p>Syriac-speaking Christians painted their churches throughout their long
+                        history. In the Early Christian period, these paintings closely followed the
+                        style and iconography of painting in Constantinople. In the city of Resafa,
+                        Syria, built by Justinian in the 6th <abbr>cent.</abbr>, remains of wall paintings are
+                        well preserved in the soffits of the windows of the Cathedral and a large
+                        cross was painted in the apse of a side chapel. The remains of an Adoration
+                        of the Magi from the 6th <abbr>cent.</abbr> are visible in the Cathedral of <ref rend="bold" target="https://gedsh.bethmardutho.org/Bostra">
+                            <placeName ref="http://syriaca.org/place/40">Bostra</placeName>
+                        </ref>,
+                        in the Ḥawrān (S. Syria). A remarkable painting of the Enthroned Christ with
+                        angels still adorns the Temple of Bel in Palmyra, which was used as a
+                        Christian church. There are many other examples not so well preserved.</p>
+                    <p>Following the Arab conquests, Christians continued to paint their churches
+                        and these paintings were reportedly much admired, even by Muslims. When <ref rend="bold" target="https://gedsh.bethmardutho.org/Jerusalem">
+                            <placeName ref="http://syriaca.org/place/104">Jerusalem</placeName>
+                        </ref> fell to the Crusaders in 1099, eastern Christians, both
+                        within the occupied lands and outside of them, experienced what Leroy calls
+                        a ‘Renaissance’ in all aspects of their religious and cultural life (see
+                            <ref rend="bold" target="https://gedsh.bethmardutho.org/Renaissance-Syriac">Renaissance,
+                            Syriac</ref>). This growth is evident in their painted churches.</p>
+                    <p>Fine paintings from the late 12th <abbr>cent.</abbr> adorn the walls of the Church of Sts.
+                        Sergios and Bacchos in <ref rend="bold" target="https://gedsh.bethmardutho.org/Qara">
+                            <placeName ref="http://syriaca.org/place/161">Qara</placeName>
+                        </ref>, Syria, and in
+                        the nearby Dayro d-Mor Yaʿqub. The little church of Mar Elian in <ref rend="bold" target="https://gedsh.bethmardutho.org/Hims">
+                            <placeName ref="http://syriaca.org/place/215">Ḥimṣ</placeName>
+                        </ref> still
+                        preserves paintings that have been damaged by recent restoration. There is
+                        an account of painters from the monastery of Mar Elian, in Qaryatayn, who
+                        came to paint churches in Lebanon and paintings have been restored in the
+                        chapel of Maʿarrat Ṣaydnāyā, near <ref rend="bold" target="https://gedsh.bethmardutho.org/Damascus">
+                            <placeName ref="http://syriaca.org/place/66">Damascus</placeName>
+                        </ref>. Wall
+                        paintings from the 13th  cent. also remain in the castles of Marqab and Crac
+                        des Chevaliers. Although the paintings in the castles were commissioned by
+                        the Crusaders, there is every indication that they were painted by local
+                        painters, trained in the Syr. tradition. The best preserved of the paintings
+                        in Syria are in <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Musa-al-Habashi-Dayr-Mar">
+                            <placeName ref="http://syriaca.org/place/228">Dayr Mār
+                            Mūsā al-Ḥabashī</placeName>
+                        </ref>, near Nabk (<abbr>Syr. Orth.</abbr>), where the walls of the
+                        chapel were elaborately painted on at least four different occasions in the
+                        11th and 12th/13th <abbr>cent.</abbr>
+                    </p>
+                    <p>By the end of the 12th <abbr>cent.</abbr>, Christians of different communities, Syr.
+                        Orth., <abbr>Ch. of E.</abbr>, <abbr>Maron.</abbr>, <abbr>Chald.</abbr>, <abbr>Syr. Cath.</abbr>, <abbr>Melk.</abbr>, and even Abyssinians
+                        and Copts had moved into Lebanon to profit from new opportunities in trade
+                        and commerce offered by the Crusader states. The liturgies of many of these
+                        churches in Lebanon were in Syriac. Fragments of church painting from the
+                        late 12th and 13th <abbr>cent.</abbr> in the mountains of Lebanon witness to a continuing
+                        tradition of church decoration during this period. In both Syria and
+                        Lebanon, the earlier paintings are inscribed in Greek, whereas by the 13th
+                        <abbr>cent.</abbr> the common language for the inscriptions was Syriac (mostly in
+                        Esṭrangela), Arabic (often in <ref rend="bold" target="https://gedsh.bethmardutho.org/Garshuni">Garshuni</ref>), or a
+                        combination of both.</p>
+                    <p>Churches decorated with outstanding paintings in Lebanon are the Church of
+                        Mar Phocas in <ref rend="bold" target="https://gedsh.bethmardutho.org/Amyun">
+                            <placeName ref="http://syriaca.org/place/269">Amyūn</placeName>
+                        </ref>, Mar Saba in <ref rend="bold" target="https://gedsh.bethmardutho.org/Edde">
+                            <placeName ref="http://syriaca.org/place/265">Eddé</placeName>
+                        </ref>, Mar Tadros in
+                            <ref rend="bold" target="https://gedsh.bethmardutho.org/Bahdeidat">
+                            <placeName ref="http://syriaca.org/place/263">Bahdeidat</placeName>
+                        </ref>, Mar Charbel in <ref rend="bold" target="https://gedsh.bethmardutho.org/Maad">
+                            <placeName ref="http://syriaca.org/place/264">Maʿad</placeName>
+                        </ref>, and Sts. Sergios and Bacchos in <ref rend="bold" target="https://gedsh.bethmardutho.org/Kaftun-Dayr">
+                            <placeName ref="http://syriaca.org/place/268">Kaftun</placeName>
+                        </ref>. In addition, there are more than two dozen churches with
+                        fragmentary remains of painting on the walls. These paintings are all in the
+                        north of Lebanon, centered around the rich commercial area of Tripoli, in
+                        the Holy Valley of the Qadisha in the Lebanon range and in the lower
+                        foothills around Byblos and Batrun. Some of these paintings were hidden for
+                        many years under a coating of whitewash. Others remain untouched in the
+                        hermit caves by the river and under the cliffs of the Qadisha Gorge. Taken
+                        all together, they present an overview of the varied painterly tradition
+                        during the Crusader occupation, a tradition that survived into the Mamluk
+                        period. Paintings still exist also from the 16th and — until very recently —
+                        the 17th <abbr>cent.</abbr> Some of these paintings were destroyed in the last few years
+                        but have been recorded. The remainder are in precarious condition.</p>
+                    <p>In Syria, this tradition of Christian painting was continued during Muslim
+                        rule. In Lebanon, the paintings indicate the rich and continuing tradition
+                        of Christian art in lands dominated by Crusaders. Both traditions are
+                        evidence of a flourishing Christian society that acted as liaison between
+                        Arabs and Franks. In this cultural ‘Renaissance’, the <abbr>Syr. Orth.</abbr> were
+                        especially prominent. In the 12th and 13th <abbr>cent.</abbr> they moved into Lebanon
+                        from the outlying areas of Damascus, <ref rend="bold" target="https://gedsh.bethmardutho.org/Mardin">
+                            <placeName ref="http://syriaca.org/place/130">Mardin</placeName>
+                        </ref>, Diyarbakır
+                            (<ref rend="bold" target="https://gedsh.bethmardutho.org/Amid">
+                            <placeName ref="http://syriaca.org/place/8">Amid</placeName>
+                        </ref>), and <ref rend="bold" target="https://gedsh.bethmardutho.org/Mosul">
+                            <placeName ref="http://syriaca.org/place/139">Mosul</placeName>
+                        </ref>, in order to
+                        occupy the monasteries behind Tripoli, taking over many Maronite
+                        establishments. The Mamluks allowed them to prosper in Lebanon, and they
+                        were joined by a further influx of monks from lands as distant as Abyssinia.
+                        By the end of the 15th <abbr>cent.</abbr>, especially after 1488, the Maronites had
+                        assumed control of the Qadisha Valley and the adjacent mountainous areas.
+                        These areas remain largely Maronite today.</p>
+                    <p>See also <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Art-and-architecture">Art and
+                            architecture</ref>.</p>
+                    <p>See <ref target="https://gedsh.bethmardutho.org/fig/15">Fig. 15</ref>, <ref target="https://gedsh.bethmardutho.org/fig/17">17</ref>, <ref target="https://gedsh.bethmardutho.org/fig/62">62</ref>, <ref target="https://gedsh.bethmardutho.org/fig/63">63</ref>, <ref target="https://gedsh.bethmardutho.org/fig/86">86</ref>, <ref target="https://gedsh.bethmardutho.org/fig/87">87</ref>, <ref target="https://gedsh.bethmardutho.org/fig/88c">88c</ref>, and <ref target="https://gedsh.bethmardutho.org/fig/101">101</ref>.</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>A.  Badwi, ‘The wall paintings of Mount Lebanon’, in <title rend="italic">Documentation and conservation of art in
+                            Syria</title>, <abbr>ed.</abbr> E.  Zayat and M. Immerzeel (2000), 61–68 (Arab.:
+                            136–46).</bibl>
+                        <bibl>E.  Cruikshank Dodd, <title rend="italic">The frescoes of Mar Musa
+                                al-Habashi. A study of medieval painting in Syria</title>
+                            (2001).</bibl>
+                        <bibl>eadem, <title rend="italic">Medieval painting in the Lebanon</title>
+                            (<abbr>SKCO</abbr> 8; 2004).</bibl>
+                        <bibl>P.  Dall’Oglio <abbr>et al.</abbr>, <title rend="italic">Il restauro del monastero
+                                di San Mosè l’Abassino, Nebek, Siria</title> (1998).</bibl>
+                        <bibl>J.  Folda, <title rend="italic">The art of the Crusaders in the Holy
+                                Land, 1098–1187</title> (1995).</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>J.  Folda</reg>
+                        <orig>idem</orig>
+                     </choice>, <title rend="italic">Crusader Art in the Holy Land. From the
+                                Third Crusade to the Fall of Acre</title> (2005).</bibl>
+                        <bibl>B.  ter Haar Romeny <abbr>et al.</abbr>, ‘The wall paintings and inscriptions of
+                            Deir Mar Musa al-Habashi’, <title rend="italic">
+                                <abbr>ECA</abbr>
+                            </title> 4 (2007),
+                            95–188.</bibl>
+                        <bibl>N.  Hélou, ‘L’icône bilatérale de la Vierge de Kaftoun au Liban: Une
+                            œuvre d’art syro-byzantin à l’époque des Croisés’, <title rend="italic">Chronos. Revue d’histoire de l’<choice>
+                                    <sic>Univerité</sic>
+                                    <corr>Université</corr>
+                                </choice> de Balamand</title> 7
+                            (2003), 101–31.</bibl>
+                        <bibl>eadem, ‘À propos d’une école syro-libanaise d’icônes au XIII<hi rend="superscript">e</hi> siècle’, <title rend="italic">
+                                <abbr>ECA</abbr>
+                            </title>
+                            3 (2006), 53–72.</bibl>
+                        <bibl>L.-A.  Hunt, ‘Christian art in Greater Syria and Egypt: A triptych of
+                            the Ascension with Military Saints reattributed’, <title rend="italic">Al-Masāq</title> 12 (2000), 1–36.</bibl>
+                        <bibl>eadem, ‘A woman’s prayer to St. Sergios in Latin Syria. Interpreting a
+                            thirteenth-century Icon at Mount Sinai’, <title rend="italic">Byzantine
+                                and Modern Greek Studies</title> 15 (1991) 96–145. (<abbr>repr.</abbr> in <title rend="italic">Byzantium, Eastern Christendom and Islam. Art at the
+                                Crossroads of the Medieval Mediterranean</title>, vol. 2 [2000],
+                            78–126)</bibl>
+                        <bibl>M.  Immerzeel, ‘Le saint cavalier de Deir Saydet Hamatour’, <title rend="italic">Tempora, Annales d’histoire et d’archéologie</title>
+                            14–15 (2003–4), 175–85.</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>M.  Immerzeel</reg>
+                        <orig>idem</orig>
+                     </choice>  ‘Medieval wall paintings in Lebanon: Donors and artists’,
+                                <title rend="italic">Chronos. Revue d’histoire de l’Université de
+                                Balamand</title> 10 (2004), 7–47.</bibl>
+                        <bibl>M.  Immerzeel, ‘The wall paintings in the Church of Mar Elian at Homs:
+                            A ‘Restoration Project’ of a nineteenth-century Palestinian master’,
+                                <title rend="italic">
+                                <abbr>ECA</abbr>
+                            </title> 2 (2005), 149–65.</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>M.  Immerzeel</reg>
+                        <orig>idem</orig>
+                     </choice>, ‘Monasteries and Churches of the Qalamoun (Syria): Art and
+                            pilgrimage in the Middle Ages’, <title rend="italic">
+                                <abbr>JCSSS</abbr>
+                            </title> 7
+                            (2007), 74–98.</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>M.  Immerzeel</reg>
+                        <orig>idem</orig>
+                     </choice>, ‘The Monastery of Our Lady of Saydnaya and its icon’, <title rend="italic">
+                                <abbr>ECA</abbr>
+                            </title> 4 (2007), 13–26.</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>M.  Immerzeel</reg>
+                        <orig>idem</orig>
+                     </choice>, <title rend="italic">Identity puzzles. Medieval Christian art in
+                                Syria and Lebanon</title> (<abbr>OLA</abbr> 184; 2009).</bibl>
+                        <bibl>K.  Innemée and M.  Immerzeel, ‘The Chapel of the Prophet Elijah near
+                            Maʿarrat Saydnaya (Syria) and its mural paintings’, <title rend="italic">Al-Masāq</title> 12 (2000), 69–97.</bibl>
+                        <bibl>H.  Kaufhold, ‘Notizen über das Moseskloster bei Nabk und das
+                            Julianskloster bei Qaryatain in Syrien’, <title rend="italic">
+                                <abbr>OC</abbr>
+                            </title>
+                            79 (1995), 48–119.</bibl>
+                        <bibl>J.  Lassus, <title rend="italic">Sanctuaires chrétiens de
+                                Syrie</title> (1947), 299–301, fig. 109.</bibl>
+                        <bibl>J.  Leroy, <title rend="italic">Les manuscrits syriaques à peintures
+                                conservés dans les bibliothèques d’Europe et d’Orient. Contribution
+                                à l’étude de l’iconographie des églises de langue syriaque</title>
+                            (Institut français d’archéologie de Beyrouth. Bibliothèque archéologique
+                            et historique 77; 1964).</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>J.  Leroy</reg>
+                        <orig>idem</orig>
+                     </choice>  ‘La renaissance de l’église syriaque aux XII<hi rend="superscript">e</hi>–XIII<hi rend="superscript">e</hi>
+                            siècles’, <title rend="italic">Cahiers de civilisation médiévale</title>
+                            14 (1971), 131–48, 239–55.</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>J.  Leroy</reg>
+                        <orig>idem</orig>
+                     </choice>, ‘Découvertes de peintures chrétiennes en Syrie’, <title rend="italic">Les Annales archéologiques arabes syriennes</title> 25
+                            (1975), 95–113.</bibl>
+                        <bibl>M.  Mundell, ‘Monophysite Church decoration’, in <title rend="italic">Iconoclasm. Papers given at the ninth Spring Symposium of Byzantine
+                                Studies</title>, <abbr>ed.</abbr> A.  Bryer and J.  Herrin (1977), 59–74.</bibl>
+                        <bibl>J.  Nasrallah, ‘Le couvent de Saint Moïse l’Ethiopien dans le Djebel
+                            Kalamoun (Syrie)’, <title rend="italic">Étape. Revue de la France
+                                Libre</title> (1941).</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>J.  Nasrallah</reg>
+                        <orig>idem</orig>
+                     </choice>, ‘La peinture monumentale des patriarcats melkites’, in <title rend="italic">Icônes melkites. Exposition organisée par le Musée N.
+                                Sursock</title> (1969), 67–98.</bibl>
+                        <bibl>L.  Nordiguian, ‘Une chapelle peinte à Kfar Chlaïmane dans le
+                            haut-pays de Batroun’, <title rend="italic">
+                                <abbr>MUSJ</abbr>
+                            </title> 54 (1995–6),
+                            97–116.</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>L.  Nordiguian</reg>
+                        <orig>idem</orig>
+                     </choice>, ‘La chapelle peinte de Saydet Hamatour dans le Koura’, <title rend="italic">Chronos. Revue d’histoire de l’Université de
+                                Balamand</title> 1 (1998), 67–89.</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>L.  Nordiguian</reg>
+                        <orig>idem</orig>
+                     </choice>, ‘Note sur deux fragments de peinture à Saydet Kharayeb de Kfar
+                            Helda’, <title rend="italic">Tempora. Annales d’histoire et
+                                d’archéologie</title> 14–15 (2003–4), 187–92.</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>L.  Nordiguian</reg>
+                        <orig>idem</orig>
+                     </choice>, ‘Une vision de Saint Eustathe au Liban’, <title rend="italic">Tempora</title> 16–17 (2005–6), 163–9.</bibl>
+                        <bibl>L.  Nordiguian and J.-C.  Voisin, <title rend="italic">Châteaux et
+                                églises du Moyen Âge au Liban</title> (1999).</bibl>
+                        <bibl>Y.  Sader, <title rend="italic">Peintures murales dans les églises
+                                maronites médiévales du Liban</title> (1987).</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>L.  Nordiguian and J.-C.  Voisin</reg>
+                        <orig>idem</orig>
+                     </choice>, <title rend="italic">Painted churches and rock-cut chapels of
+                                Lebanon</title> (1997).</bibl>
+                        <bibl>A.  Schmidt and S.  Westphalen (<abbr>ed.</abbr>), <title rend="italic">Christliche
+                                Wandmalereien in Syrien. Qara und das Kloster Mar Yakub</title>
+                            (<abbr>SKCO</abbr> 14; 2005).</bibl>
+                        <bibl>B. Snelders, ‘A newly discovered wall painting in the Church of Mar
+                            Giworgis in Qaraqosh, Iraq’, <title rend="italic">
+                                <abbr>ECA</abbr>
+                            </title> 4 (2007),
+                            27–48.</bibl>
+                        <bibl>S.  Westphalen, ‘Wandmalereien in syrischen und libanesischen Kirchen.
+                            Aspekte christlicher Kunst im Orient vom 11.–13. Jahhundert’, <title rend="italic">Antike Welt</title> 31.5 (2000), 487–502.</bibl>
+                        <bibl>M.  Zibawi, <title rend="italic">Orients
+                            chrétiens</title> (1996).</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Erica Cruikshank</forename> 
+                  <surname>Dodd</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

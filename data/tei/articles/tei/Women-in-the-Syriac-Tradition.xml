@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Women in the Syriac Tradition</title>
+            <author>
+               <persName>
+                  <forename>Susan Ashbrook</forename> 
+                  <surname>Harvey</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0">Electronic Edition Draft Version 1.0</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Women in the Syriac Tradition</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Women-in-the-Syriac-Tradition</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/583</idno>
+                    <idno type="entry">574</idno>
+                    <milestone unit="pages" n="427"/>
+                    <note type="type">subject</note>
+                    <note type="abstract">
+                    </note>
+                </ab>
+                <div type="body">
+                    <p>Syriac Christianity from the beginning allotted women important positions as
+                        widows, deaconesses, and consecrated virgins; these roles were canonically
+                        named, ecclesiastically supervised, and granted significant responsibilities
+                        by the 3rd <abbr>cent.</abbr> Syriac churches also developed distinctive roles for women
+                        that differed from other Christian areas. Notable was the office of
+                        Covenanter, or Sons and Daughters of the Covenant (<hi rend="italic">bnay</hi> and <hi rend="italic">bnāt qyāmā</hi>; see <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Bnay-Qyama-Bnat-Qyama">
+                            <hi rend="italic">bnay qyāmā</hi>
+                        </ref>), which appears during the 3rd <abbr>cent.</abbr> and continues at
+                        least into the 10th in both W.- and E.-Syr. churches. These were men and
+                        women who had taken vows of celibacy and simplicity, working in the service
+                        of the local <abbr>bp.</abbr> The rise of institutionalized <ref rend="bold" target="https://gedsh.bethmardutho.org/Monasticism">monasticism</ref> in the 4th <abbr>cent.</abbr> did not eclipse their work. For the
+                        women, this office included the crucial task of singing doctrinal hymns (<hi rend="italic">madrāše</hi>) in the liturgy of the civic churches. Later
+                        tradition ascribes the establishment of these women’s choirs to <ref rend="bold" target="https://gedsh.bethmardutho.org/Ephrem">
+                            <persName ref="http://syriaca.org/person/13">Ephrem</persName>
+                        </ref>
+                        himself.</p>
+                    <p>No known Syriac text written by a woman survives until modern times, although
+                        the large corpus of anonymous Syriac hymnography and <ref rend="bold" target="https://gedsh.bethmardutho.org/Hagiography">hagiography</ref> may include women’s contributions. Important Syriac
+                        women saints, both historical and legendary, gained renown in the Greek and
+                        Latin churches and sometimes beyond: Pelagia the Harlot of <ref rend="bold" target="https://gedsh.bethmardutho.org/Antioch">
+                            <placeName ref="http://syriaca.org/place/10">Antioch</placeName>
+                        </ref>, Mary the
+                        Niece of Abraham of Qidun, and Febronia of <ref rend="bold" target="https://gedsh.bethmardutho.org/Nisibis">
+                            <placeName ref="http://syriaca.org/place/142">Nisibis</placeName>
+                        </ref> are among
+                        the best known. Furthermore, biblical women were often prominent in Syriac
+                        hymns and homilies, with stories much elaborated beyond the biblical text.
+                        Appreciation for the interconnection between biblical women and female
+                        saints may be seen in the Syriac ‘Book of Women’, containing the biblical
+                        books of Ruth, Esther, Judith, and Susanna as well as the ‘Book of Thecla’
+                        (from the ‘Acts of Paul and Thecla’).</p>
+                    <p>Additionally, ancient Syriac tradition produced striking feminine imagery for
+                        the divine, especially for the Holy Spirit (following grammar: <hi rend="italic">ruḥā </hi>‘spirit’, being a feminine noun in Syriac).
+                        Perhaps related, devotion to the Virgin <ref rend="bold" target="https://gedsh.bethmardutho.org/Mary">
+                            <persName ref="http://syriaca.org/person/624">Mary</persName>
+                        </ref> was profoundly
+                        developed from an early stage in Syriac, anticipating by a century and more
+                        similar developments in Greek and Latin communities.</p>
+                    <p>Female monasticism flourished in late antique Syriac Christianity, with an
+                        apparent encouragement of women’s literacy and learning. These declined
+                        quickly under Islamic domination, until modern times. Already in the early
+                        modern period, there is evidence of women’s leadership and patronage of
+                        religious learning in E.-Syr. communities. The holy woman Hindiyya, an 18th
+                        <abbr>cent.</abbr> Maronite nun in Lebanon, produced lengthy mystical writings in Arabic;
+                        the 20th <abbr>cent.</abbr> brought the renewal of Syriac women’s monastic communities in
+                        Turkey, Syria, and Iraq. In the 21st <abbr>cent.</abbr>, both E.- and W.-Syr. women’s
+                        choirs have undergone significant revival, with enhanced liturgical roles
+                        and, in Europe and Sweden, annual competitions and celebrations of their
+                        chanting.</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>S. P.  Brock, ‘Deaconesses in the Syriac tradition’, in <title rend="italic">Woman in prism and focus: Her profile in major world
+                                religions and in Christian traditions</title>, <abbr>ed.</abbr> P. Vazheeparampil
+                            (1996), 205–18.</bibl>
+                        <bibl>S. P.  Brock and S. A.  Harvey, <title rend="italic">Holy Women of the
+                                Syrian Orient</title> (1998).</bibl>
+                        <bibl>C.  Burris and L.  Van Rompay, ‘Thecla in Syriac Christianity:
+                            Preliminary Observations,’ <title rend="italic">
+                                <abbr>Hugoye</abbr>
+                            </title> 5.2
+                            (2002).</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>C.  Burris and L.  Van Rompay</reg>
+                        <orig>idem</orig>
+                     </choice>, ‘Some Further Notes on Thecla in Syriac Christianity’, <title rend="italic">
+                                <abbr>Hugoye</abbr>
+                            </title> 6.2 (July 2003).</bibl>
+                        <bibl>J.-M.  Fiey, ‘Une hymne nestorienne sur les saintes femmes’, <title rend="italic">
+                                <abbr>AB</abbr>
+                            </title> 84 (1966), 77–110.</bibl>
+                        <bibl>E.  Gülcan, ‘The renewal of monastic life for women in a monastery in
+                            Tur Abdin’, <title rend="italic">Sobornost</title> 7.4 (1977),
+                            288–98.</bibl>
+                        <bibl>S. A.  Harvey, ‘Revisiting the Daughters of the Covenant: Women’s
+                            choirs and sacred song in ancient Syriac Christianity’, <title rend="italic">
+                                <abbr>Hugoye</abbr>
+                            </title> 8.2 (July 2005).</bibl>
+                        <bibl>eadem,  ‘Feminine imagery for the divine: the Holy Spirit, the Odes of
+                            Solomon, and Early Syriac Tradition’, <title rend="italic">St.
+                                Vladimir’s Theological Quarterly</title> 37 (1993), 111–39.</bibl>
+                        <bibl>eadem, ‘Spoken words, voiced silence: Biblical women in Syriac
+                            tradition’, <title rend="italic">
+                                <abbr>JECS</abbr>
+                            </title> 9 (2001), 105–31.</bibl>
+                        <bibl>A. M.  Makhlouf, ‘Hindiyyah ʿUgaymi and the monastic life: The rule of
+                            life for the Congregation of the Sacred Heart’, <title rend="italic">
+                                <abbr>ParOr</abbr>
+                            </title> 18 (1993), 293–302.</bibl>
+                        <bibl>H.  Murre-van den Berg, ‘ “Dear Mother of my soul”: Fidelia Fiske and
+                            the role of women missionaries in mid-nineteenth century Iran’, <title rend="italic">Exchange</title> 30.1 (2001), 33–48.</bibl>
+                        <bibl>eadem, ‘Generous devotion: Women in the Church of the East between
+                            1550 and 1850’, <title rend="italic">
+                                <abbr>Hugoye</abbr>
+                            </title> 7.1 (January
+                            2004).</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Susan Ashbrook</forename> 
+                  <surname>Harvey</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

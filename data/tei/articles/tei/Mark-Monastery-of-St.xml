@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Mark, Monastery of St.</title>
+            <author>
+               <persName>
+                  <forename>George A.</forename> 
+                  <surname>Kiraz</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0">Electronic Edition Draft Version 1.0</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Mark, Monastery of St.</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Mark-Monastery-of-St</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/363</idno>
+                    <idno type="entry">354</idno>
+                    <milestone unit="pages" n="269-270"/>
+                    <idno type="althead" subtype="altorder">Monastery of St. Mark</idno>
+                    <idno type="subject">http://syriaca.org/place/388</idno>
+                    <note type="type">place</note>
+                    <note type="abstract">Monastery in <placeName ref="http://syriaca.org/place/104">Jerusalem</placeName>.<note/>
+                    </note>
+                </ab>
+                <div type="body">
+                    <p>Said to be located on the site of the Last Supper and named after the
+                        Evangelist, the monastery is situated on mount Zion in <ref rend="bold" target="https://gedsh.bethmardutho.org/Jerusalem">
+                            <placeName ref="http://syriaca.org/place/104">Jerusalem</placeName>
+                        </ref>.
+                        Mention of the ‘House of Mark’ appears in the 9th <abbr>cent.</abbr> in the writings of
+                            <ref rend="bold" target="https://gedsh.bethmardutho.org/Iwannis-of-Dara">
+                            <persName ref="http://syriaca.org/person/161">Iwannis of Dara</persName>
+                        </ref>. An inscription, discovered in 1940, reads ‘This
+                        is the house of Mary, the Mother of John who was called Mark. And it was
+                        proclaimed a church by the Holy Apostles in the name of the Mother of God,
+                        Mary, after the Ascension of our Lord Jesus Christ into heaven. It was built
+                        a second time after Jerusalem was destroyed at the hands of King Titus the
+                        year 73 of Christ’. The dating in the inscription is peculiar as one would
+                        expect a Seleucid calendar date, not a Christian one. Afram Barsoum dated
+                        the inscription to the 6th  cent. on paleographical grounds, while later
+                        scholars assign it to after the Monastery was acquired by the <abbr>Syr. Orth.</abbr> in
+                        the 15th <abbr>cent.</abbr> A monastery in the name of the Mother of God was purchased
+                        from the Copts in 1471/2, before which the <abbr>Syr. Orth.</abbr> had owned other
+                        properties in the city. Kaufhold identified this monastery with St. Mark’s
+                        based on a note in the 17th<choice>
+                            <sic> </sic>
+                            <corr>-</corr>
+                        </choice>
+                        <abbr>cent.</abbr>
+                        <abbr> ms.</abbr> London, Brit. Libr. Egerton 704 which
+                        was written in the ‘Holy Monastery of the Mother of God, called the House of
+                        Mark’, and ordination lists from the 18th <abbr>cent.</abbr> It was around the late 1400s
+                        that St. Mark’s became the seat of the <abbr>Syr. Orth.</abbr>
+                        <abbr> bp.</abbr> of Jerusalem. The
+                        monastery was renovated a number of times, the earliest known renovation
+                        being in 1718 by Gregorios Shimʿun of Ṣalaḥ, followed by another renovation
+                        by his successor Gregorios ʿAbd al-Aḥad <abbr>b.</abbr> Fanna of <ref rend="bold" target="https://gedsh.bethmardutho.org/Mardin">
+                            <placeName ref="http://syriaca.org/place/130">Mardin</placeName>
+                        </ref>. Other
+                        renovations took place during 1738–44 by Gregorios Jirjis Fattal of <ref rend="bold" target="https://gedsh.bethmardutho.org/Aleppo">
+                            <placeName ref="http://syriaca.org/place/18">Aleppo</placeName>
+                        </ref>,
+                        during 1780–92 by Gregorios Bshara, and during 1833–40 by Gregorios ʿAbd
+                        al-Aḥad Dajjala. The last two renovations from the 19th <abbr>cent.</abbr> were done by
+                        Ostethewos ʿAbd al-Nūr of <ref rend="bold" target="https://gedsh.bethmardutho.org/Edessa">
+                            <placeName ref="http://syriaca.org/place/78">Edessa</placeName>
+                        </ref> during
+                        1840–77, and Gregorios Jirjis of Ṣadad in 1882. The monastery’s library
+                        includes a fine collection of <abbr>mss.</abbr>, <abbr>ca.</abbr> 15 of which date from the 7th to the
+                        15th <abbr>cent.</abbr> The library itself was established probably in the 16th or 17th
+                        <abbr>cent.</abbr>, and the early <abbr>mss.</abbr> must have been brought from other monasteries in
+                        the city, especially from the Monastery of Mary Magdalene, and elsewhere.
+                        Some of the <abbr>mss.</abbr> of <ref rend="bold" target="https://gedsh.bethmardutho.org/al-Zafaran-Dayr">
+                            <placeName ref="http://syriaca.org/place/69">Dayr
+                            al-Zaʿfarān</placeName>
+                        </ref> were transferred to it after World War I. In turn,
+                        some of its <abbr>mss.</abbr> were transferred by <abbr>Patr. </abbr>
+                        <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Barsoum-Ignatius-Afram">
+                            <persName ref="http://syriaca.org/person/372">Afram  I
+                            Barsoum</persName>
+                        </ref> to the Patriarchate in <ref rend="bold" target="https://gedsh.bethmardutho.org/Hims">
+                            <placeName ref="http://syriaca.org/place/215">Ḥimṣ</placeName>
+                        </ref> prior to the
+                        Arab-Israeli war of 1948, and later to <ref rend="bold" target="https://gedsh.bethmardutho.org/Damascus">
+                            <placeName ref="http://syriaca.org/place/66">Damascus</placeName>
+                        </ref>. A few of
+                        the <abbr>mss.</abbr> were brought by <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Samuel-Athanasios-Yeshu">
+                            <persName ref="http://syriaca.org/person/716">Athanasios Yeshuʿ Samuel</persName>
+                        </ref> to the USA in 1948 and are kept now at
+                        St. Mark’s Cathedral, Teaneck, NJ. A catalog of the library was compiled by
+                        Dolabani. The monastery became famous with the first publication of the
+                        discoveries of the Dead Sea Scrolls titled <hi rend="italic">The Dead Sea
+                            Scrolls of St. Mark’s Monastery</hi>. In addition to the main church
+                        inside the monastery, dedicated to St. Mark, there is an adjacent chapel
+                        dedicated to Mar Behnam.</p>
+                    <p>See <ref target="https://gedsh.bethmardutho.org/fig/69">Fig. 69</ref>.</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>G. B.  Behnam, <title rend="italic">Bayt Marqos fī
+                                Urašalim</title>
+                            <choice>
+                                <sic>.</sic>
+                                <corr/>
+                            </choice> (1962).</bibl>
+                        <bibl>F. Y.  Dolabany, <title rend="italic">Catalogue of Syriac manuscripts
+                                in St. Mark’s Monastery (Dairo dMor Marqos)</title>, <abbr>ed.</abbr> G. Y.
+                            Ibrahim (1994).</bibl>
+                        <bibl>Y. K.  Karkenny, <title rend="italic">The Syrian Orthodox Church in
+                                the Holy Land</title> (1976).</bibl>
+                        <bibl>H.  Kaufhold, ‘Zur Bedeutung Jerusalems für die Syrisch-Orthodoxe
+                            Kirche’, in <title rend="italic">L’idea di Gerusalemme nella
+                                spiritualità cristiana del Medioevo</title> (Pontificio Comitato di
+                            scienze storiche. Atti e documenti 12; 2003), 132–65.</bibl>
+                        <bibl>G. A.  Kiraz, <title rend="italic">ʿIqd al-jumān fī akhbār
+                                al-Suryān</title> (1988), 25–31.</bibl>
+                        <bibl>T.  Maier, ‘L’Eglise syrienne orthodoxe de Jérusalem’, <title rend="italic">
+                                <abbr>POC</abbr> 
+                     </title> 54 (2004), 305–12.</bibl>
+                        <bibl>J.  Pahlitzsch, ‘St<choice>
+                        <sic/>
+                        <corr>.</corr>
+                     </choice> Maria Magdalen, St<choice>
+                        <sic/>
+                        <corr>.</corr>
+                     </choice> Thomas und St. Markus’, <title rend="italic">
+                                <abbr>OC</abbr>
+                            </title> 81 (1997), 82–106.</bibl>
+                        <bibl>A.  Palmer, ‘The history of the Syrian Orthodox in Jerusalem’, <title rend="italic">
+                                <abbr>OC</abbr>
+                            </title> 75 (1991), 16–43; 76 (1992), 74–94.</bibl>
+                        <bibl>A. Palmer and G. J. van Gelder, ‘Syriac and Arabic inscriptions at the
+                            Monastery of St. Mark’s in Jerusalem’, <title rend="italic">
+                                <abbr>OC</abbr>
+                            </title> 78
+                            (1994), 33–61.</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>George A.</forename> 
+                  <surname>Kiraz</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

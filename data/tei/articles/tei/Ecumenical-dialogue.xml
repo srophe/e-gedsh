@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Ecumenical dialogue</title>
+            <author>
+               <persName>
+                  <forename>Sebastian P.</forename> 
+                  <surname>Brock</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0">Electronic Edition Draft Version 1.0</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Ecumenical dialogue</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Ecumenical-dialogue</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/190</idno>
+                    <idno type="entry">181</idno>
+                    <milestone unit="pages" n="135-137"/>
+                    <note type="type">subject</note>
+                    <note type="abstract">The entry surveys roots of ecclesiastical devisions in the fifth century, as well as attemtps in to overcome the divisions. Modern efforts at ecumenical dialogue commenced in the 1990s and continue in the present.<note/>
+                    </note>
+                </ab>
+                <div type="body">
+                    <p>The 5th <abbr>cent.</abbr> witnessed much controversy over how best to describe the
+                        relationship between the divinity and humanity in the incarnate Christ while
+                        maintaining, on the one hand<choice>
+                            <sic/>
+                            <corr>,</corr>
+                        </choice> the transcendence of the Godhead, and on the
+                        other, the full reality of the incarnation.</p>
+                    <label type="subsection">The Origins of Division</label>
+                    <p>In the second quarter of the 5th <abbr>cent.</abbr> two different approaches to
+                        christology emerged, usually referred to as ‘Antiochene’ and ‘Alexandrian’,
+                        after the locations of the leading theologians of each. Different concerns
+                        and starting points led to differences of emphasis on either side, giving
+                        rise to two different conceptions of how salvation for humanity comes about.
+                        For the Antiochenes, a concern for the transcendence of the divinity meant
+                        that it was important to maintain the distinction between the divinity and
+                        the humanity in the incarnate Christ (hence their dislike of ‘theopaschite’
+                        language): for them, salvation for humanity was achieved by means of the
+                        humanity of Christ, raised up at the Ascension; as a result, it was
+                        important for them to call Mary ‘mother of Christ’ and not ‘mother of God’.
+                        By contrast, for the Alexandrians, salvation is brought about by the divine
+                        Word ‘becoming’, but without change, fully human at the incarnation. Thus
+                        for them it was essential to stress the ‘oneness’ in the incarnate Christ.
+                        For each side, the other side’s approach was seen at best as unsatisfactory,
+                        and at worst, heretical.</p>
+                    <p>Successive Roman emperors attempted to get the issue resolved by convening a
+                        series of Councils, of which those at Ephesus (431) and at Chalcedon (451)
+                        proved to be the most important, and as matters turned out, the most
+                        divisive. At Ephesus, owing to the delayed arrival of the Antiochene bishops
+                        (under John, <abbr>bp.</abbr> of <ref rend="bold" target="https://gedsh.bethmardutho.org/Antioch">
+                            <placeName ref="http://syriaca.org/place/10">Antioch</placeName>
+                        </ref>), the
+                        Alexandrian bishops (under <ref rend="bold" target="https://gedsh.bethmardutho.org/Cyril-of-Alexandria">
+                            <persName ref="http://syriaca.org/person/430">Cyril</persName>
+                        </ref>, <abbr>bp.</abbr> of Alexandria)
+                        met by themselves and deposed <ref rend="bold" target="https://gedsh.bethmardutho.org/Nestorius">
+                            <persName ref="http://syriaca.org/person/655">Nestorius</persName>
+                        </ref>, <abbr>bp.</abbr> of
+                        Constantinople, a leading proponent of Antiochene christology. When the
+                        Antiochene bishops subsequently arrived they held their own council, and
+                        condemned Cyril’s. Two years later, in 433, a compromise was reached (the
+                        ‘Formulary of Reunion’). Polarization of the different positions, however,
+                        continued, and in the course of this three technical terms became prominent
+                        in formulations of christology, above all at the Council of Chalcedon:
+                        person (<hi rend="italic">parṣopā</hi>; Greek <hi rend="italic">prosopon</hi>), nature (<hi rend="italic">kyānā</hi>; Greek <hi rend="italic">physis</hi>), and ‘hypostasis’ (<hi rend="italic">qnomā</hi>), the last two of which were understood in different ways by
+                        different people. According to the dogmatic Definition of faith laid down at
+                        Chalcedon, the incarnate Christ is ‘made known in two natures ... concurring
+                        into one person and one hypostasis’. This formulation gave rise to a sharp
+                        division between those who spoke of ‘two natures’ in the incarnate Christ
+                        (‘dyophysites’) and those who adhered to Cyril’s formula ‘one incarnate
+                        nature of God the Word’ (‘miaphysites’).</p>
+                    <p>It was very largely the imposition, by Justin (518–527) and especially
+                        Justinian (527–565) of Chalcedon’s Definition of faith as the sole
+                        touchstone of orthodoxy that led to the three-way split in Eastern
+                        Christianity which is represented today by three separate traditions: 1. the
+                        Oriental Orthodox Churches, among which is the <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Syriac-Orthodox-Church">Syr.
+                            Orthodox</ref>; these accept the Council of Ephesus of 431, but not the
+                        Council of Chalcedon; 2. the Churches which accept both the Council of
+                        Ephesus and that of Chalcedon (the various Eastern Orthodox, Catholic, and
+                        Reformed Churches); and 3. the <ref rend="bold" target="https://gedsh.bethmardutho.org/Church-of-the-East">Church of the
+                            East</ref>, which does not accept either of the two Councils (since its
+                        adherents were largely outside the Roman Empire, the imperial councils did
+                        not directly concern them).</p>
+                    <p>For both the Oriental Orthodox and the Church of the East the Chalcedonian
+                        Definition was seen as illogical, the former objecting to ‘in two natures’
+                        and the latter to ‘one hypostasis’. The basic problem lay in different
+                        understandings of two of the terms used, ‘nature’ (<hi rend="italic">physis/kyānā</hi>) and ‘hypostasis’ (<hi rend="italic">qnomā</hi>): for
+                        the miaphysites ‘nature’ implied ‘hypostasis’ (and not <hi rend="italic">ousia</hi>), while for the Church of the East <hi rend="italic">qnomā</hi> meant ‘set of characteristics’, and not ‘hypostasis’. With
+                        these different understandings it can readily be seen that the Chalcedonian
+                        Definition was not satisfactory. Thus the miaphysites (Syr. and other
+                        Oriental Orthodox) insisted on Cyril’s ‘one incarnate nature’, while the
+                        Church of the East spoke of ‘two natures with their <hi rend="italic">qnome</hi>’ (where <hi rend="italic">qnome</hi> has the sense of
+                        ‘characteristics’ and not ‘<hi rend="italic">hypostaseis</hi>’). In an
+                        attempt to overcome the problem, the ‘Neo-Chalcedonians’ of the early 6th
+                        <abbr>cent.</abbr> held that either ‘in two natures’ or ‘out of two natures’ was
+                        acceptable (the latter, which had been in the draft of the Council’s
+                        Definition, was acceptable to the <abbr>Syr. Orth.</abbr>), but attempts at bringing
+                        about agreement by Justinian and others failed, though this was very nearly
+                        achieved under Heraclius in the early 630s with both the <abbr>Syr. Orth.</abbr> and the
+                        Church of the East. The Arab invasions, which followed shortly after, then
+                        fossilized not only the divisions, but also the misleading polemical names
+                        given by Chalcedonians to their opponents: ‘Nestorians’ (implying a belief
+                        in two sons, the Son of God and the son of Mary), ‘Eutychians’ (implying a
+                        belief that the Christ was not ‘consubstantial with us’, as well as ‘with
+                        the Father’), and ‘Monophysites’ (implying a Eutychian position) — positions
+                        which the Church of the East and <abbr>Syr. Orth.</abbr> have always strongly rejected.
+                        On every side the polemical literature became increasingly scholastic in
+                        character, although a few voices (notably that of <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Bar-Ebroyo-Grigorios">
+                            <persName ref="http://syriaca.org/person/239">Bar
+                            ʿEbroyo</persName>
+                        </ref>) were to be heard, pointing out that underlying the
+                        conflicting doctrinal formulae there lay a consensus on the essential
+                        understanding of the incarnation. The general feeling of antagonism between
+                        Churches only became increased as a result of the creation of the Eastern
+                        Rite Catholic Churches (<ref rend="bold" target="https://gedsh.bethmardutho.org/Chaldeans">Chaldean</ref>, 1553; <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Syriac-Catholic-Church">Syrian
+                            Catholic</ref>, 1782), and of the various Protestant missions of the
+                        19th <abbr>cent.</abbr> Though the help in educational matters given by different Western
+                        Churches benefited individual Syr. Churches, this never led to any real
+                        dialogue, and so matters continued largely unchanged until the late 20th
+                        <abbr>cent.</abbr> when ecumenical dialogue at last began to remove the fog of
+                        misconceptions on all sides.</p>
+                    <label type="subsection">Modern Dialogue</label>
+                    <p>The aim of modern dialogue is not uniformity, but unity through the
+                        acceptance of variety. At the end of the very first meeting of the Oriental
+                        and Eastern Orthodox non-official dialogue, in 1964, the communiqué stated
+                        ‘on the essence of the Christological dogma we found ourselves in full
+                        agreement. Through the different terminologies used by each side, we saw the
+                        same truth expressed’. The four non-official dialogues were followed by an
+                        Official Dialogue, and at the end of the third meeting (1990) it was
+                        recommended that a mutual lifting of anathemas and condemnations should take
+                        place (this, however, still remains to be implemented). In 1991 an important
+                        agreement on various practical matters was made between the <abbr>Syr. Orth.</abbr> and
+                        Rum Orth. Patriarchs of Antioch.</p>
+                    <p>Dialogue between the Oriental Orthodox and Catholic Churches began in 1971
+                        with a series of non-official meetings in Vienna initiated by the Pro
+                        Oriente Foundation. The very first meeting produced what came to be known as
+                        ‘the Vienna Christological formula’, which has played an important part in
+                        subsequent Official Dialogue. The 6th meeting of this Dialogue took place in
+                        Jan. 2009, with the theme ‘The Nature, Constitution and Mission of the
+                        Church’. Meetings also took place between the <abbr>Syr. Orth.</abbr>
+                        <abbr> Patr.</abbr> 
+                  <ref rend="bold" target="https://gedsh.bethmardutho.org/Ignatius-Yaqub-III">
+                            <persName ref="http://syriaca.org/person/545">Ignatius Yaʿqub III</persName>
+                        </ref> and Pope Paul VI in 1971, and between <abbr>Patr.</abbr>
+                        Ignatius Zakka I and Pope John Paul II in 1984. Each ended with a joint
+                        communiqué.</p>
+                    <p>Beginning in 1994, Pro Oriente has arranged a series of non-official meetings
+                        entitled ‘Syriac Dialogue’, involving all the different Syr. Churches; these
+                        have proved most helpful in clearing away traditional misunderstandings,
+                        especially concerning the christology of the Church of the East. In
+                        particular it was soon recognized that ‘Nestorius’ (and hence
+                        ‘Nestorianism’) means completely different things to different people: to
+                        the Church of the East Nestorius is primarily seen as a leading figure,
+                        alongside Diodore and <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Theodore-of-Mopsuestia">
+                            <persName ref="http://syriaca.org/person/780">Theodore</persName>
+                        </ref>, of the dyophysite
+                        cause, but to the Oriental Orthodox he is an arch-heretic who divided Christ
+                        into two sons, while to modern scholarship the real character of his
+                        christology is disputed and remains unclear. In any case, the theology of
+                        the Church of the East is far more under the influence of the writings of
+                        Theodore (in a modified form) than of those of Nestorius.</p>
+                    <p>The Church of the East had at first been left out of the wider dialogue in
+                        the 1960s and 1970s, but in 1984 <abbr>Patr.</abbr> Mar Denḥa IV had an official meeting
+                        with Pope John Paul II in Rome, and ten years later, on 11  Nov. 1994, the
+                        two heads of Churches issued a historical Common Declaration of Faith. A
+                        further important event, in 1997, was the decision of the synods of the
+                        Assyrian Church of the East and the Chaldean Catholic Church to inaugurate
+                        moves to bring about the full ecclesial union of the two Churches; an
+                        important step towards this was the Vatican’s publication (26 Oct. 2001) of
+                        ‘Guidelines for admission to the Eucharist between the Chaldean Catholic and
+                        the Assyrian Church of the East’, which incorporated recognition of the
+                        legitimacy of the Anaphora of Addai and Mari in its original form, without
+                        any explicit Institution Narrative. Another momentous decision of the synod
+                        of the Assyrian Church of the East in 1997 was to lift unilaterally all
+                        anathemas against persons in other Churches whom they had traditionally
+                        regarded as heretical, thus setting an example for all other Churches.
+                        Unfortunately relations between the Church of the East and the Oriental
+                        Orthodox Churches (in particular the Coptic) have remained problematic, at
+                        least on the official level, and the Church of the East still has not yet
+                        been admitted as a member of the Middle East Council of Churches.</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>Mar Aprem, <title rend="italic">The Council of Ephesus
+                                431</title> (1978). (from the viewpoint of the <abbr>Ch. of E.</abbr>)</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>Mar Aprem</reg>
+                        <orig>idem</orig>
+                     </choice>, <title rend="italic">The Assyrian Church of the East in the
+                                twentieth century</title> (2003), 186–216, 236–49.</bibl>
+                        <bibl>S. P.  Brock, ‘The “Nestorian” Church: A lamentable misnomer’, in
+                                <title rend="italic">The Church of the East: Life and
+                                thought,</title>
+                            <abbr> ed.</abbr> J. F. Coakley and K.  Parry (1996),
+                            23–35.</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>S. P.  Brock</reg>
+                        <orig>idem</orig>
+                     </choice>  ‘The Syriac Churches in ecumenical dialogue on Christology’, in
+                                <title rend="italic">Eastern Christianity. Studies in modern
+                                history, religion and politics,</title> ed. A. O’Mahony (2004),
+                            44–65.</bibl>
+                        <bibl>Brock and Taylor, <title rend="italic">Hidden Pearl</title>, vol. 3
+                            (2001), 11–33.</bibl>
+                        <bibl>C.  Chaillot and A. Belopopsky (<abbr>ed.</abbr>), <title rend="italic">Towards
+                                unity. The theological dialogue between the Orthodox Church and the
+                                Oriental Orthodox Churches</title> (1998).</bibl>
+                        <bibl>G. Chediath, ‘The Churches of Syriac tradition and ecumenism’, <title rend="italic">
+                                <abbr>Harp</abbr>
+                            </title> 20:2 (2006), 75–91.</bibl>
+                        <bibl>J. F.  Coakley, <title rend="italic">The Church of the East and the
+                                Church of England. A history of the archbishop of Canterbury’s
+                                Assyrian Mission</title> (1992).</bibl>
+                        <bibl>A.  de  Halleux, ‘Nestorius, histoire et doctrine’, <title rend="italic">Irénikon</title> 66 (1993), 38–51, 163–77. (ET, but
+                            without notes, in <title rend="italic">Syriac Dialogue</title> 1 [1994],
+                            200–15)</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>A.  de  Halleux</reg>
+                        <orig>idem</orig>
+                     </choice>, ‘La première session du Concile d’Ephèse (23 juin 431)’, <title rend="italic">
+                                <abbr>
+                                    <abbr>ET</abbr>L</abbr>
+                            </title> 59 (1993), 48–87.</bibl>
+                        <bibl>W.  Hage, ‘Ecumenical aspects of Barhebraeus’ christology’, <title rend="italic">
+                                <abbr>Harp</abbr>
+                            </title> 4 (1991), 103–9.</bibl>
+                        <bibl>Th.  Hainthaler, ‘Die Gemeinsame Erklärung von 1984’, <title rend="italic">Der christliche Osten</title> 64 (2009),
+                            247–58.</bibl>
+                        <bibl>
+                            <title rend="italic">Pro Oriente</title>, <title rend="italic">Five Vienna Consultations between
+                                Theologians of the Oriental Orthodox Churches and the Roman Catholic
+                                Church</title> (1993).
+                        </bibl>
+                        <bibl>
+                     <choice>
+                        <reg>
+                           <title rend="italic">Pro Oriente</title>
+                        </reg>
+                        <orig>idem</orig>
+                     </choice>, <title rend="italic">Syriac Dialogue</title>, 1–6
+                            (1994–2004).</bibl>
+                        <bibl>V.  Samuel, <title rend="italic">The Council of Chalcedon
+                                re-examined</title> (1977). (from an Oriental Orthodox
+                            standpoint)</bibl>
+                        <bibl>W.  Taylor, ‘Antioch and Canterbury. A study in ecumenical relations
+                            in the early 20<hi rend="superscript">th</hi> century’, in <title rend="italic">Christianity in the Middle East. Studies in Modern
+                                History, Theology and Politics,</title> ed. A. O’Mahony (2008),
+                            328–74.</bibl>
+                        <bibl>D. W.  Winkler, ‘Christology and ecclesiology in the unofficial
+                            consultations held between the Catholic and the Oriental Orthodox
+                            Churches’, <title rend="italic">
+                                <abbr>Harp</abbr>
+                            </title> 19 (2006), 211–27.</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Sebastian P.</forename> 
+                  <surname>Brock</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

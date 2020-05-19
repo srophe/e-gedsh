@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">John Rufus</title>
+            <author>
+               <persName>
+                  <forename>Jan-Eric</forename> 
+                  <surname>Steppa</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0">Electronic Edition Draft Version 1.0</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>John Rufus</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/John-Rufus</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/316</idno>
+                    <idno type="entry">307</idno>
+                    <milestone unit="pages" n="231-232"/>
+                    <idno type="subject">http://syriaca.org/person/39</idno>
+                    <note type="type">person</note>
+                    <note type="abstract">Monastic author and anti-Chalcedonian leader who flourished in the 5th to 6th 
+                        <abbr>cent.</abbr> in Palestine.<note/>
+                    </note>
+                </ab>
+                <div type="body">
+                    <p>Also known as John of Beth Ruphina and John of Maiuma. An anti-Chalcedonian
+                        presbyter, monk, and hagiographer of the 5th and 6th <abbr>cent.</abbr>; dates of birth
+                        and death unknown. He was probably born in the province of Arabia, and seems
+                        to have spent some time as a student of law at <ref rend="bold" target="https://gedsh.bethmardutho.org/Beirut">
+                            <placeName ref="http://syriaca.org/place/46">Beirut</placeName>
+                        </ref> before his
+                        ordination as presbyter in <ref rend="bold" target="https://gedsh.bethmardutho.org/Antioch">
+                            <placeName ref="http://syriaca.org/place/10">Antioch</placeName>
+                        </ref> by Peter
+                        the Fuller about 475. During the confusion that followed upon Emperor Zeno’s
+                        expulsion of Peter the Fuller in 477, and the appointment of Calandion as
+                        new head of the church of Antioch, John found refuge in Ascalon where he
+                        became a monk under <ref rend="bold" target="https://gedsh.bethmardutho.org/Peter-the-Iberian">
+                            <persName ref="http://syriaca.org/person/680">Peter the
+                            Iberian</persName>
+                        </ref>, the spiritual leader of the anti-Chalcedonian communities
+                        in Palestine. After the death of Peter in 491, John was entrusted with the
+                        service of the altar in the church of a newly built monastery at Maiuma,
+                        dedicated to the memory of Peter the Iberian. In the title of one of his
+                        works (Plerophories), he is styled ‘bishop of Maiuma at Gaza’.</p>
+                    <p>From John Rufus three works have survived, originally composed in Greek but
+                        preserved solely in Syriac: the ‘Life of Peter the Iberian’, the
+                        ‘Commemoration of the Death of Theodosius’, and the ‘Plerophories’. The most
+                        important of these works is unquestionably the ‘Life of Peter the Iberian’,
+                        to which we owe much of our knowledge about the first generation of
+                        opposition to Chalcedon. The text has been anonymously preserved, but in
+                        1912, Eduard Schwartz proved its proper attribution to John Rufus, mainly
+                        through an evaluation of internal evidences. The narrative, rhetorically and
+                        stylistically advanced, covers Peter the Iberian’s life from birth to death,
+                        but draws particular focus on the travels throughout the eastern provinces
+                        which Peter the Iberian undertook to provide spiritual support to those who
+                        refused Chalcedonian communion. The much less extensive ‘Commemoration of
+                        the Death of Theodosius’, written as an appendix to the ‘Life of Peter the
+                        Iberian’, deals with the martyrdom of Theodosius, the Palestinian monk who
+                        seized the Patriarchal throne in <ref rend="bold" target="https://gedsh.bethmardutho.org/Jerusalem">
+                            <placeName ref="http://syriaca.org/place/104">Jerusalem</placeName>
+                        </ref> from
+                        Juvenal immediately after Chalcedon. The Plerophories, finally, seems to
+                        have been composed during the patriarchate of <ref rend="bold" target="https://gedsh.bethmardutho.org/Severus-of-Antioch">
+                            <persName ref="http://syriaca.org/person/51">Severus of
+                            Antioch</persName>
+                        </ref> (512–18) and consists of a collection of eighty-nine
+                        anecdotes about prophesies, visions, and other signs received by holy men
+                        against the council of Chalcedon. As a result of its harsh and relentless
+                        language and imagery, the Plerophories may be considered one of the most
+                        aggressive and eccentric instances of anti-Chalcedonian polemics.</p>
+                </div>
+                <div type="bibl">
+                    <listBibl>
+                        <listBibl>
+                            <head>Primary Sources</head>
+                            <bibl>
+                                <title rend="italic">
+                                    <abbr>CPG</abbr>
+                                </title> 7505–7507.</bibl>
+                            <bibl>E. W.  Brooks, <title rend="italic">Vitae virorum apud
+                                    monophysitas celeberrimorum</title> (<abbr>CSCO</abbr> 7–8; 1907), 21–7
+                                (Syr.); 15–9 (<abbr>LT</abbr>). (entitled <title rend="italic">Narratio de obitu
+                                    Theodosii Hierosolymorum et Romani Monachi</title>)</bibl>
+                            <bibl>C. B.  Horn and R. R.  Phenix, <title rend="italic">John Rufus:
+                                    the Lives of Peter the Iberian, Theodosius of Jerusalem, and the
+                                    Monk Romanus</title> (2008). (<abbr>ET</abbr>)</bibl>
+                            <bibl>F.  Nau, <title rend="italic">Jean Rufus, évêque de Maïouma.
+                                    Plérophories: c’est-a-dire témoignages et révélations contre le
+                                    concile de Chalcédoine</title> (<abbr>PO</abbr> 8.1; 1911).</bibl>
+                            <bibl>R.  Raabe, <title rend="italic">Petrus der Iberer: Ein
+                                    Charakterbild zur Kirchen- und Sittengeschichte des fünften
+                                    Jahrhunderts</title> (1895).</bibl>
+                        </listBibl>
+                        <listBibl>
+                            <head>Secondary Sources</head>
+                            <bibl>B.  Flusin, ‘L’hagiographie palestinienne et la réception du
+                                Concile de chalcédoine’, in <title rend="italic">ΛΕΙΜΩΝ: Studies
+                                    presented to Lennart Rydén on his sixty-fifth birthday</title>,
+                                <abbr>ed.</abbr> J. O. Rosenqvist (1996), 25–47.</bibl>
+                            <bibl>C. B.  Horn, <title rend="italic">Asceticism and christological
+                                    controversy in fifth-century Palestine. The career of Peter the
+                                    Iberian</title> (2006).</bibl>
+                            <bibl>E.  Schwartz, ‘Johannes Rufus: ein monophysitischer
+                                Schriftsteller’, in <title rend="italic">Sitzungsberichte der
+                                    Heidelberger Akademie der Wissenschaften.
+                                    Philosophisch-historische Klasse</title> 3.16 (1912),
+                                1–28.</bibl>
+                            <bibl>J.-E.  Steppa, <title rend="italic">John Rufus and the world
+                                    vision of anti-Chalcedonian culture</title> (2002).</bibl>
+                        </listBibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Jan-Eric</forename> 
+                  <surname>Steppa</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

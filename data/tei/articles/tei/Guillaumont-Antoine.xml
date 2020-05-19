@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Guillaumont, Antoine</title>
+            <author>
+               <persName>
+                  <forename>Françoise</forename> 
+                  <surname>Briquel-Chatonnet</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0">Electronic Edition Draft Version 1.0</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Guillaumont, Antoine</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Guillaumont-Antoine</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/251</idno>
+                    <idno type="entry">242</idno>
+                    <milestone unit="pages" n="184-185"/>
+                    <idno type="althead" subtype="altorder">Antoine Guillaumont</idno>
+                    <idno type="subject">http://syriaca.org/person/518</idno>
+                    <note type="type">person</note>
+                    <note type="abstract">Syriac scholar, specialist of Eastern Christian asceticism
+                        and monasticism.<note/>
+                    </note>
+                </ab>
+                <ab type="infobox">(1915–2000)</ab>
+                <div type="body">
+                    <p>Syriac scholar, specialist of Eastern Christian asceticism and monasticism.
+                        Antoine Guillaumont studied classics in Montpellier. Between periods of
+                        mobilization in the army, he obtained his <hi rend="italic">agrégation de
+                            lettres classiques</hi> in 1943. He taught for two years in the Lycée of
+                        Monaco and subsequently was admitted to the Centre National de la Recherche
+                        Scientifique. He also took up a tenured teaching position at the École
+                        Pratique des Hautes Études, first in Hebrew and <ref rend="bold" target="https://gedsh.bethmardutho.org/Aramaic">Aramaic</ref>, later in
+                        Eastern Christianity. In 1977, he was elected a <choice>
+                            <sic>professsor</sic>
+                            <corr>professor</corr>
+                        </choice> in the
+                        prestigious <choice>
+                            <sic>College</sic>
+                            <corr>Collège</corr>
+                        </choice> de France (1977–86), with a chair dedicated to
+                        ‘Christianity and Gnoses in the Pre-Islamic East’. In 1983, he became a
+                        member of the French Académie des Inscriptions et Belles-Lettres. With his
+                        main focus on asceticism, he first turned to Coptic documents and
+                        particularly to the Sahidic fragments of the Coptic version of the
+                        ‘Asceticon’ of Abba Isaiah (<ref rend="bold" target="https://gedsh.bethmardutho.org/Isaiah-of-Scetis">
+                            <persName ref="http://syriaca.org/person/548">Isaiah of
+                            Scetis</persName>
+                        </ref>), which he published in 1956. His entire life was dedicated
+                        to a better understanding of asceticism, monasticism, and withdrawal from
+                        the world. As part of the broader cultural environment from which the
+                        ascetic movement emerged, he studied biblical texts from the Hellenistic
+                        period, which led to his collaboration on several books (Maccabees,
+                        Proverbs, Qohelet, the additions to Esther, Tobit, Judith, Wisdom of
+                        Solomon) for the French translation of the Bible edited by E. Dhorme
+                        (1956–59). He also collaborated on Psalms for the <hi rend="italic">Traduction œcuménique de la Bible</hi> (1975). He studied various
+                        gnostic texts and contributed to the first edition and translation of the
+                        ‘Gospel of Thomas’ (1959). Most of his studies, conferences, courses, and
+                        publications were dedicated to notions of asceticism, withdrawal, solitary
+                        life, spiritual fight, and <hi rend="italic">acedia</hi>(‘listlessness’),
+                        which he studied in ascetic literature, including the ‘History of the Monks
+                        of Egypt’, the ‘Sayings of the Desert Fathers’ (Apophthegmata), the ‘Lausiac
+                        History’, and the Syriac ‘<ref rend="bold" target="https://gedsh.bethmardutho.org/Book-of-Steps">Book of
+                        Steps</ref>’, as well as in archeological remains in Northern Syria and
+                        Egypt. Of particular significance are his editions of the works of <ref rend="bold" target="https://gedsh.bethmardutho.org/Evagrius-of-Pontus">
+                            <persName ref="http://syriaca.org/person/483">Evagrius of Pontus</persName>
+                        </ref>, based on the Greek and Eastern, especially
+                        Syriac sources. He published the ‘Kephalaia Gnostica’ (1958) as well as the
+                        following together with his wife Claire: the ‘Practical Treatise’ (1971),
+                        the ‘Gnosticon’ (1989), and (in collaboration with P. Géhin) ‘On the
+                        Thoughts’ (SC 438; 1998). He also published an important monograph on the
+                        ‘Kephalaia Gnostica’ (1962), in which he traced the far-reaching influence
+                        of Origenism and Evagrianism in Syr. Christianity, including such authors as
+                            <ref rend="bold" target="https://gedsh.bethmardutho.org/Babai-the-Great">
+                            <persName ref="http://syriaca.org/person/359">Babai the Great</persName>
+                        </ref> in the E.-Syr. and <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Stephanos-bar-Sudayli">
+                            <persName ref="http://syriaca.org/person/36">Sṭephanos
+                            bar Ṣudayli</persName>
+                        </ref> in the W.-Syr. tradition. His last and posthumous
+                        book, <hi rend="italic">Un philosophe au désert, Évagre le Pontique</hi>
+                        (2004) is the culmination of his work on this important philosopher. For
+                        Guillaumont the literary study of these texts could not be disconnected from
+                        the places where ascetics lived. Using the texts and gleaning information
+                        from them, he was able to identify the site of Kellia, a center of eremitic
+                        life situated between Scetis and Nitria, where Evagrius lived during 14
+                        years. Guillaumont directed archeological campaigns in Kellia from 1965 to
+                        1969. In addition to the publication of the archeological reports, this
+                        archeological experience also formed the background for his volumes <hi rend="italic">Aux origines du monachisme chrétien</hi> (1979) and <hi rend="italic">Études sur la spiritualité de l’Orient Chrétien</hi>
+                        (1996), in which a number of his papers are brought together. A Festschrift
+                        was presented to him in 1988.</p>
+                </div>
+                <div type="bibl">
+                    <listBibl>
+                        <listBibl>
+                            <head>Select publications by Guillaumont</head>
+                            <bibl>
+                                <title rend="italic">Les six Centuries des “Kephalaia Gnostica”
+                                    d’Évagre le Pontique. Édition critique de la version syriaque
+                                    commune et édition d’une nouvelle version syriaque intégrale,
+                                    avec une double traduction française</title> (<abbr>PO</abbr> 28.1;
+                                1958).</bibl>
+                            <bibl>
+                                <title rend="italic">Les ‘Képhalaia Gnostica’ d’Évagre le Pontique
+                                    et l’histoire de l’origénisme chez les Grecs et chez les
+                                    Syriens</title> (1962).</bibl>
+                            <bibl>‘Situation et signification du “Liber Graduum” dans la
+                                spiritualité syriaque’, in <abbr>
+                                    <title rend="italic">SymSyr</title> I</abbr>,
+                                311–25.</bibl>
+                            <bibl>
+                                <title rend="italic">Aux origines du monachisme chrétien. Pour une
+                                    phénoménologie du monachisme</title> (1979).</bibl>
+                            <bibl>(with C.  Guillaumont), <title rend="italic">Évagre le Pontique.
+                                    Traité pratique ou le moine</title> (2 vols.; SC 170–1;
+                                1971).</bibl>
+                            <bibl>
+                                <title rend="italic">Évagre le Pontique. Le Gnostique ou À celui qui
+                                    est devenu digne de la science. Édition critique des fragments
+                                    grecs. Traduction intégrale établie au moyen des versions
+                                    syriaques et arménienne</title> (SC 356; 1989).</bibl>
+                            <bibl>
+                                <title rend="italic">Un philosophe au désert, Évagre le
+                                    Pontique</title> (Textes et Traditions 8; 2004).</bibl>
+                        </listBibl>
+                        <listBibl>
+                            <head>Secondary Sources</head>
+                            <bibl>
+                                <title rend="italic">Mélanges Antoine Guillaumont. Contributions à
+                                    l’étude des christianismes orientaux. Avec une bibliographie du
+                                    dédicataire</title> (1988). (bibliography by R.‑G.
+                                Coquin)</bibl>
+                            <bibl>Ph.  Gignoux, ‘Antoine Guillaumont (1915–2000)’, <title rend="italic">
+                                    <abbr>JA</abbr>
+                                </title> 288 (2000), 255–60.</bibl>
+                            <bibl>M. Tardieu, ‘Antoine Guillaumont (1915–2000)’, online at <ref type="url"
+                             target="http://www.college-de-france.fr/media/professeurs-disparus/UPL54914_homguill2.pdf">
+                                    <choice>
+                                        <sic>http://www.college-de-france.fr/default/EN/all/ins_dis/antoine_guillaumont.htm</sic>
+                                    <corr>http://www.college-de-france.fr/media/professeurs-disparus/UPL54914_homguill2.pdf</corr>
+                                    </choice>
+                                </ref>
+                            </bibl>
+                        </listBibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Françoise</forename> 
+                  <surname>Briquel-Chatonnet</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

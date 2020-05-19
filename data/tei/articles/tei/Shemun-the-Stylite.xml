@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Shemʿun the Stylite</title>
+            <author>
+               <persName>
+                  <forename>Robert</forename> 
+                  <surname>Doran</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0">Electronic Edition Draft Version 1.0</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Shemʿun the Stylite</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Shemun-the-Stylite</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/516</idno>
+                    <idno type="entry">507</idno>
+                    <milestone unit="pages" n="377-378"/>
+                    <idno type="althead">Simeon the Stylite</idno>
+                    <idno type="subject">http://syriaca.org/person/744</idno>
+                    <note type="type">person</note>
+                    <note type="abstract">Famous ascetic; the first known to have mounted a pillar.
+                    </note>
+                </ab>
+                <ab type="infobox">Simeon the Stylite (<abbr>ca.</abbr> 380–459)</ab>
+                <div type="body">
+                    <p>Saint. Born in the village of Sisa near Nicopolis, Shemʿun was the child of
+                        Christian parents. Uninstructed in the faith, he happened to enter a church,
+                        and thereafter sought God. First he lived with some ascetics near his
+                        village, and then spent 10 years in the <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Tell-Ada-Monastery-of">
+                            <placeName ref="http://syriaca.org/place/233">Monastery
+                            of Tell ʿAda</placeName>
+                        </ref> before being asked to leave because of his extreme
+                        ascetic practices. He traveled to Telneshe, where he spent 3 years on a
+                        nearby summit in a small domed hut before standing in the open air within a
+                        circle of stones. Later, he mounted the first of several increasingly higher
+                        pillars till he reached a height of around 20 meters. Here he took his
+                        stance of continual prayer. For 47 years he prayed and prostrated,
+                        adjudicated and advised, healed and harmed. His fame reached from the
+                        Persian Empire to Britain, and pilgrims flocked to his pillar from all
+                        levels of society. His novel asceticism of standing on a pillar aroused
+                        criticism, but was later imitated. Shemʿun attempted to persuade <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Theodoret-of-Cyrrhus">
+                            <persName ref="http://syriaca.org/person/781">Theodoret of Cyrrhus</persName>
+                        </ref> to accept the Formula of Reunion of 433
+                        between bishops John of Antioch and <ref rend="bold" target="https://gedsh.bethmardutho.org/Cyril-of-Alexandria">
+                            <persName ref="http://syriaca.org/person/430">Cyril of
+                            Alexandria</persName>
+                        </ref>. On his death, his body was brought with great pomp to
+                            <ref rend="bold" target="https://gedsh.bethmardutho.org/Antioch">
+                            <placeName ref="http://syriaca.org/place/10">Antioch</placeName>
+                        </ref> and buried there. His life is known through the works of
+                        three writers: Theodoret of Cyrrhus devoted to Shemʿun a chapter of his
+                        ‘History of the Monks of Syria’, written in 444 before the death of Shemʿun;
+                        a life written in Syriac and extant in 3 <abbr>mss.</abbr> (<abbr>ms.</abbr> Vat. Syr. 160, <abbr>ed.</abbr> S. E.
+                        Assemani, <hi rend="italic">Acta Sanctorum et Martyrum</hi>, vol. II [1748],
+                        230–398; <abbr>ms.</abbr> Brit. Libr. Add. 14,484, <abbr>ed.</abbr> Bedjan, <hi rend="italic">AMS</hi>, vol. IV, 507–644; Dam. <abbr>Patr.</abbr> 12/17) seems to stem from the
+                        monastic community which grew up around Shemʿun’s pillar and would have been
+                        written in the last half of the 5th <abbr>cent.</abbr>; finally, a life in Greek claiming
+                        to have been written by his intimate disciple, Antonius. The three lives
+                        give basically the same description of Shemʿun’s life till his stance on the
+                        pillar and of the circumstances surrounding his death, but there are almost
+                        no narratives in common for the time he spent on the pillar. In what appears
+                        to be a genuine letter to <abbr>bp.</abbr> Basil of Antioch, Shemʿun accepts the Council
+                        of Chalcedon, though <choice>
+                            <sic>3</sic>
+                            <corr>three</corr>
+                        </choice> letters ascribed to him are anti-Chalcedon. His feast
+                        day is 27 July for the Syr. Church, 1 Sept. for the Greek Church.</p>
+                    <p>See <ref target="https://gedsh.bethmardutho.org/fig/112">Fig. 112</ref>.</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>P. Canivet, <title rend="italic">Le monachisme syrien selon
+                                Théodoret de Cyr</title> (Théologie historique 42; 1977).</bibl>
+                        <bibl>H. Delehaye, <title rend="italic">Les Saints Stylites</title>
+                            (1923).</bibl>
+                        <bibl>R. Doran, <title rend="italic">The Lives of Simeon Stylites</title>
+                            (1992).</bibl>
+                        <bibl>D.  Frankfurter, ‘Stylites and Phallobates: Pillar Religions in Late
+                            Antique Syria’, <title rend="italic">
+                                <abbr>VC</abbr>
+                            </title> 44 (1990), 168–98.</bibl>
+                        <bibl>L.  Lent, ‘The Life of St. Simeon Stylites: A translation of the
+                            Syriac text in Bedjan’s Acta Martyrum et Sanctorum, vol. IV’, <title rend="italic">
+                                <abbr>JAOS</abbr>
+                            </title> 25 (1915), 103–98.</bibl>
+                        <bibl>H.  Lietzmann, <title rend="italic">Das Leben des heiligen Symeon
+                                Stylites</title> (<abbr>TU</abbr> 32,4; 1908).</bibl>
+                        <bibl>R. M.  Price, <title rend="italic">Theodoret of Cyrrhus<choice>
+                                    <sic/>
+                                    <corr>,</corr>
+                                </choice> A History of
+                                the Monks of Syria</title> (1985).</bibl>
+                        <bibl>C. C.  Torrey, ‘The Letters of Simeon the Stylite’, <title rend="italic">
+                                <abbr>JAOS</abbr>
+                            </title> 20 (1899), 253–76.</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Robert</forename> 
+                  <surname>Doran</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

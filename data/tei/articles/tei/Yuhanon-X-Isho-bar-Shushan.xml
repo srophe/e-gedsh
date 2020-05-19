@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Yuḥanon X, Ishoʿ bar Shushan</title>
+            <author>
+               <persName>
+                  <forename>Lucas</forename> 
+                  <surname>Van Rompay</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0">Electronic Edition Draft Version 1.0</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Yuḥanon X, Ishoʿ bar Shushan</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Yuhanon-X-Isho-bar-Shushan</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/614</idno>
+                    <idno type="entry">605</idno>
+                    <milestone unit="pages" n="443-444"/>
+                    <idno type="althead" subtype="altorder">Ishoʿ bar Shushan Yuḥanon X</idno>
+                    <idno type="althead">Yūḥannā Yūšaʿ b. Šūšān</idno>
+                    <idno type="subject">http://syriaca.org/person/193</idno>
+                    <note type="type">person</note>
+                    <note type="abstract">Catholicos.
+                    </note>
+                </ab>
+                <ab type="infobox">Yūḥannā Yūšaʿ <abbr>b.</abbr> Šūšān (d. 1072 or 1073) [<abbr>Syr. Orth.</abbr>]</ab>
+                <div type="body">
+                    <p>Following the death of <abbr>Patr.</abbr> Yuḥanon IX (1057), Yuḥanon was elected by the
+                        Oriental bps. and consecrated in <ref rend="bold" target="https://gedsh.bethmardutho.org/Amid">
+                            <placeName ref="http://syriaca.org/place/8">Amid</placeName>
+                        </ref>, while
+                        simultaneously a different candidate was elected and consecrated with
+                        broader support (Athanasios VI Ḥoye). Yuḥanon subsequently stepped down and
+                        opted for a quiet life of study and scholarship, thus allowing Athanasios to
+                        take office. When five years later, however, Athanasios died, Yuḥanon was
+                        urged to come back and was unanimously elected as Athanasios’s successor,
+                        serving for nine years, until his death in 1072 (or 1073). Yuḥanon spent
+                        most of his life in Amid, rather than in <ref rend="bold" target="https://gedsh.bethmardutho.org/Melitene">
+                            <placeName ref="http://syriaca.org/place/136">Melitene</placeName>
+                        </ref>, due to
+                        the Byzantine oppression of the <abbr>Syr. Orth.</abbr> Our main sources for Yuḥanon’s
+                        life are <ref rend="bold" target="https://gedsh.bethmardutho.org/Michael-I-Rabo">
+                            <persName ref="http://syriaca.org/person/217">Michael Rabo</persName>
+                        </ref> (XV.1; <abbr>ed.</abbr> Chabot, 573–5 and
+                        579 [Syr.]; vol.  3, 162–4 and 170–2 [<abbr>FT</abbr>]) and <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Bar-Ebroyo-Grigorios">
+                            <persName ref="http://syriaca.org/person/239">Bar
+                            ʿEbroyo</persName>
+                        </ref> (Ecclesiastical History, <abbr>ed.</abbr> Abbeloos and Lamy, vol. 1,
+                        435–48).</p>
+                    <p>According to Michael Rabo, Yuḥanon was a very prolific writer, who ‘filled
+                        the universe with his letters and volumes’ (XV.3: <abbr>ed.</abbr> Chabot, 579 [Syr.];
+                        vol. 3, 171 [<abbr>FT</abbr>]; cf. Bar ʿEbroyo, vol. 1, 447). He specifically mentions
+                        his work on <ref rend="bold" target="https://gedsh.bethmardutho.org/Ephrem">
+                            <persName ref="http://syriaca.org/person/13">Ephrem</persName>
+                        </ref> and <ref rend="bold" target="https://gedsh.bethmardutho.org/Ishaq">
+                            <persName ref="http://syriaca.org/person/549">Isḥaq</persName>
+                        </ref> (of Antioch):
+                        Yuḥanon is said to have brought (selections from) their work together in one
+                        volume, which he wrote in his old age with his own hands, prevented by
+                        death, however, from finishing it. Yuḥanon’s name is in fact associated with
+                        Isḥaq’s <hi rend="italic">memre</hi> in <abbr>ms.</abbr> Vat. Syr. 119 (cf. S. E. and
+                        J. S. Assemani, <hi rend="italic">Bibliothecae Apostolicae Vaticanae …
+                            Catalogus</hi>, I.3 [1759], 115–23) and in <abbr>ms.</abbr> Berlin 56 (cf. E. Sachau,
+                            <hi rend="italic">Verzeichniss der syrischen Handschriften</hi>,
+                        188–90). A letter addressed to the <abbr>Cath.</abbr> of the Armenians, in which Armenian
+                        criticism against the <abbr>Syr. Orth.</abbr> is refuted and certain views and practices
+                        of the latter are defended, is transmitted as the first part of a larger
+                        compilation dealing with the Armenians. It was edited, translated, and
+                        studied twice in 1912 by two scholars working independently of one another.
+                        There is also an Anaphora transmitted under Yuḥanon’s name. Michael reports
+                        that Yuḥanon wrote 4 books (of poetry) on the sack of Melitene (by the Turks
+                        in 1058), but these have not been preserved (Chabot 574; vol. 3, 159).</p>
+                    <p>In Arabic a letter to the Coptic <abbr>Patr.</abbr> Christodoulos (1047–77), defending the
+                        <abbr>Syr. Orth.</abbr> practice of mixing salt and oil with the Eucharistic bread,
+                        survives. In addition, P. Sbath reports that a treatise on the unity and
+                        trinity of God, against the Muslims, exists in one of the <abbr>mss.</abbr> of his
+                        collection (see Graf).</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>Barsoum, <title rend="italic">Scattered pearls</title>,
+                            416–17.</bibl>
+                        <bibl>Baumstark, <title rend="italic">Literatur</title>, 291–92.</bibl>
+                        <bibl>Graf, <title rend="italic">GCAL</title>, vol. 2, 263.</bibl>
+                        <bibl>O.  Lichti, ‘Das Sendschreiben des Patriarchen Barschuschan an den
+                            Catholicus der Armenier’, <title rend="italic">
+                                <abbr>JAOS</abbr>
+                            </title> 32 (1912),
+                            268–342.</bibl>
+                        <bibl>F.  Nau, ‘Lettre du patriarche Jean X (1064–1073) au Catholique
+                            arménien Grégoire II (1065–1105)’, <title rend="italic">ROC</title> 17
+                            (1912), 145–98. (Syr. and <abbr>FT</abbr>)</bibl>
+                        <bibl>Wright, <title rend="italic">A short history of Syriac
+                                literature</title>, 225–27.</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Lucas</forename> 
+                  <surname>Van Rompay</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

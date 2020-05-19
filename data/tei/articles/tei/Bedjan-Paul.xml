@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Bedjan, Paul</title>
+            <author>
+               <persName>
+                  <forename>Heleen L.</forename> 
+                  <surname>Murre-van den Berg</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0">Electronic Edition Draft Version 1.0</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Bedjan, Paul</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Bedjan-Paul</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/99</idno>
+                    <idno type="entry">90</idno>
+                    <milestone unit="pages" n="65-66"/>
+                    <idno type="althead" subtype="altorder">Paul Bedjan</idno>
+                    <idno type="subject">http://syriaca.org/person/379</idno>
+                    <note type="type">person</note>
+                    <note type="abstract">Missionary and scholar.<note>brief</note>
+                    </note>
+                </ab>
+                <ab type="infobox">(1838–1920) [Chald.]</ab>
+                <div type="body">
+                    <p>Missionary and scholar. Paul Bedjan was born and raised in Khosrowa,
+                        northwest Iran, in a <abbr>Chald.</abbr> family with strong ties to the Lazarist mission
+                        (St. Vincent de Paul) whose missionaries had established themselves in that
+                        town in 1840. Bedjan received his primary education at their seminary and in
+                        1856 traveled to Paris to enter the order and continue his education. In
+                        1861 he returned to Iran where he worked as a missionary until 1880, when he
+                        left again for Europe, living in Paris, Ans-les-Lièges, Seraing (Belgium),
+                        and Köln Nippes (Germany), never to return to Iran. Several times Iranian
+                        clergy and lay people attempted to make Bedjan <abbr>bp.</abbr> of Khosrowa, but due to
+                        opposition from the <abbr>Chald.</abbr> patriarchate in <ref rend="bold" target="https://gedsh.bethmardutho.org/Mosul">
+                            <placeName ref="http://syriaca.org/place/139">Mosul</placeName>
+                        </ref>, partly the
+                        result of the discussions that surrounded Bedjan’s edition of the Chaldean
+                        Breviary, as well as to Bedjan’s preference for Europe, this never
+                        materialized. Despite his estrangement from the <abbr>Chald.</abbr> hierarchy and his
+                        latinizing tendencies, Bedjan succeeded in the prime object of his stay in
+                        Europe: to provide books for the <abbr>Chald.</abbr> community in Iran, among other
+                        things to counteract the influence of the publications of the Protestant
+                        press in <ref rend="bold" target="https://gedsh.bethmardutho.org/Urmia">
+                            <placeName ref="http://syriaca.org/place/206">Urmia</placeName>
+                        </ref>. He published thirty-two classical Syriac works and wrote
+                        eight books in the vernacular language of Urmia, as it had developed in the
+                        first half of the 19th <abbr>cent.</abbr> These include a translation of the ‘Imitation
+                        of Christ’ of Thomas à Kempis (1885), a retelling of the Bible (<hi rend="italic">Histoire Sainte</hi>, 1888), devotional texts on Mary (<hi rend="italic">Mois de Marie</hi>, 1904) and a shortened version of the
+                        Saints’ <choice>
+                            <sic>lives</sic>
+                            <corr>Lives</corr>
+                        </choice> (<hi rend="italic">Vies des Saints</hi>, 1912). It was through
+                        his classical Syriac editions, among which the seven-volume collection of
+                        Saints’ Lives, the History of Mar Yahbalaha, and works of <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Bar-Ebroyo-Grigorios">
+                            <persName ref="http://syriaca.org/person/239">Bar ʿEbroyo</persName>
+                        </ref>, <ref rend="bold" target="https://gedsh.bethmardutho.org/Toma-of-Marga">
+                            <persName ref="http://syriaca.org/person/796">Toma of
+                        Marga</persName>
+                        </ref>, <ref rend="bold" target="https://gedsh.bethmardutho.org/Ishaq-of-Nineveh">
+                            <persName ref="http://syriaca.org/person/550">Isḥaq of
+                            Nineveh</persName>
+                        </ref>, and <ref rend="bold" target="https://gedsh.bethmardutho.org/Yaqub-of-Serugh">
+                            <persName ref="http://syriaca.org/person/42">Yaʿqub of
+                            Serugh</persName>
+                        </ref>, that his name became known also to western scholars, with
+                        some of whom he co-operated. All of his books were published by Otto
+                        <choice>
+                            <sic>Harrasowitz</sic>
+                            <corr>Harrassowitz</corr>
+                        </choice> in Leipzig and/or in Paris and shipped in thousands to the
+                        Middle East.</p>
+                    <p>See <ref target="https://gedsh.bethmardutho.org/fig/24">Fig. 24</ref>.</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>J. M.  Vosté, ‘Paul Bedjan, le lazariste persan. Notes
+                            bio-bibliographiques’, <title rend="italic">
+                                <abbr>OCP</abbr>
+                            </title> 11 (1945),
+                            45–102.</bibl>
+                        <bibl>N.  Simono, <title rend="italic">Paul Bedjan (1838–1920)</title>
+                            (Tehran, 1984). (in Neo-Aramaic and Persian)</bibl>
+                        <bibl>H.  Murre-van den Berg, ‘Paul Bedjan, missionary for life
+                            (1838–1920)’, in <title rend="italic">Homilies of Mar Jacob of Sarug
+                                [Homiliae Selectae Mar-Jacobi Sarugensis]</title>, vol. 6 (<abbr>repr.</abbr>
+                            2006), 339–69.</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Heleen L.</forename> 
+                  <surname>Murre-van den Berg</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

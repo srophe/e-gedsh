@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Anṭun of Tagrit</title>
+            <author>
+               <persName>
+                  <forename>John W.</forename> 
+                  <surname>Watt</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0">Electronic Edition Draft Version 1.0</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Anṭun of Tagrit</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Antun-of-Tagrit</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/46</idno>
+                    <idno type="entry">37</idno>
+                    <milestone unit="pages" n="23"/>
+                    <idno type="subject">http://syriaca.org/person/154</idno>
+                    <note type="type">person</note>
+                    <note type="abstract">Author of a book on rhetoric, and a monk.<note/>
+                    </note>
+                </ab>
+                <ab type="infobox">(9th <abbr>cent.</abbr>?) [<abbr>Syr. Orth.</abbr>]</ab>
+                <div type="body">
+                    <p>Author of uncertain date, designated ‘rhetor’ and ‘philoponos’, according to
+                        a <abbr>ms.</abbr> colophon from the family of Gurgin (<hi rend="italic">d-beth
+                            Gurgin</hi>), and a monk. Nothing is known of him apart from his works
+                        and a brief report in the Ecclesiastical History of <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Bar-Ebroyo-Grigorios">
+                            <persName ref="http://syriaca.org/person/239">Bar
+                            ʿEbroyo</persName>
+                        </ref> to the effect that he lived at the time of the patriarch
+                            <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Dionysios-of-Tel-Mahre">
+                            <persName ref="http://syriaca.org/person/155">Dionysios
+                            of Tel Maḥre</persName>
+                        </ref> (active in 825), a view which Bar ʿEbroyo declares to
+                        be generally accepted by his contemporary teachers and elders. Bar ʿEbroyo
+                        supports this by identifying an unnamed student of Greek poetry in Anṭun’s
+                        ‘Rhetoric’ with Dionysios’s brother <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Theodosios-of-Edessa">
+                            <persName ref="http://syriaca.org/person/150">Theodosios
+                            of Edessa</persName>
+                        </ref>, translator of the poems of <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Gregory-of-Nazianzus">
+                            <persName ref="http://syriaca.org/person/511">Gregory of
+                            Nazianzus</persName>
+                        </ref>. The 9th-cent. dating of Anṭun has thus not gone
+                        uncontested. Mention of his works by later authors first appears in <ref rend="bold" target="https://gedsh.bethmardutho.org/Yaqub-bar-Shakko">
+                            <persName ref="http://syriaca.org/person/231">Yaʿqub bar Shakko</persName>
+                        </ref> and Bar ʿEbroyo.</p>
+                    <p>Two <abbr>mss.</abbr> in London (Brit. Libr. Add. 17,208 + Dayr al-Suryān 32 and Brit.
+                        Libr. Add. 14,726) contain all his known shorter writings and fragments of
+                        his major work, a treatise on rhetoric. The shorter writings comprise a
+                        substantial work ‘On Divine Providence’, notable not least for its knowledge
+                        of medicine, a treatise ‘On the Myron’, in its prologue largely identical
+                        with that by <ref rend="bold" target="https://gedsh.bethmardutho.org/Mushe-bar-Kipho">
+                            <persName ref="http://syriaca.org/person/173">Mushe bar
+                            Kipho</persName>
+                        </ref> and probably dependent upon Pseudo-Dionysius, eight poems
+                        (five in letter form), and four liturgical hymns.</p>
+                    <p>His most significant work is his treatise on rhetoric, in five books. Apart
+                        from the London fragments, the older <abbr>mss.</abbr> have perished or are now in a
+                        location difficult to access, but some copies were made from the late 19th
+                        <abbr>cent.</abbr> and have survived. These copies preserve the text in full, with the
+                        exception of the final part of the fifth book. The treatise is unique in
+                        Syriac literature, with the exception of its partial reproduction and
+                        paraphrasing in the ‘Book of Dialogues’ of Yaʿqub bar Shakko. It was greatly
+                        admired by Bar ʿEbroyo, who cited it frequently in his ‘Book of Splendors’
+                        and prefaced it to the ‘Organon’ of <ref rend="bold" target="https://gedsh.bethmardutho.org/Aristotle">
+                            <persName ref="http://syriaca.org/person/342">Aristotle</persName>
+                        </ref> in the
+                        curriculum of ‘external’ (<choice>
+                            <sic>
+                                <choice>
+                                    <sic>i.e. </sic>
+                                    <corr>i.e., </corr>
+                                </choice>
+                            </sic>
+                            <corr>i.e., </corr>
+                        </choice>secular) works he wished to see studied in
+                        the schools.</p>
+                    <p>The main importance of the work lies in the evidence it provides of a
+                        rhetorical tradition in Syriac which has clear points of contact with the
+                        Greek (see <ref rend="bold" target="https://gedsh.bethmardutho.org/Rhetoric">Rhetoric</ref>). It is most unlikely that Anṭun knew Greek, but he
+                        mentions having had a teacher in the reading of Homer, and much of the
+                        treatise can only be understood on the supposition that a considerable
+                        amount of Greek rhetorical theory had been incorporated into Syriac
+                        teaching. The work is also remarkable for the range of authors cited in it
+                        as rhetorical examples. For Anṭun, as for Greek Christian rhetors, Gregory
+                        of Nazianzus was the supreme model of eloquence, but Anṭun was proud of his
+                        Syriac heritage, and in his eyes Gregory shared this position with <ref rend="bold" target="https://gedsh.bethmardutho.org/Ephrem">
+                            <persName ref="http://syriaca.org/person/13">Ephrem</persName>
+                        </ref>,
+                        whose poetry also belonged to the sphere of rhetoric. In addition to many
+                        Greek and Syriac Christian authors, several pagan writers are cited,
+                        including Homer, Plutarch, Heliodorus, and an unknown Evodius and (Aramean)
+                        Wapha. Anṭun also exhibits knowledge of the Platonic political-philosophical
+                        concept of the philosopher-king, a concept which was also important in the
+                        thought of al-Fārābī, the great Muslim philosopher who studied with
+                        Syro-Arabic Christian Aristotelian philosophers in <ref rend="bold" target="https://gedsh.bethmardutho.org/Baghdad">
+                            <placeName ref="http://syriaca.org/place/41">Baghdad</placeName>
+                        </ref> in the 10th
+                        <abbr>cent.</abbr>
+                    </p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>
+                            <title rend="italic">Antony Rhitor of Tagrit, The Book of the
+                                Rhetoric</title> (2000). (Syriac text published by Författares
+                            Bokmaskin<choice>
+                                <sic/>
+                                <corr>, </corr>
+                            </choice>Stockholm)</bibl>
+                        <bibl>S. P.  Brock, ‘Dialogue and other <title rend="italic">sugyotho</title>’,
+                            in <title rend="italic">Mélanges offerts au Prof. P. Louis Hage</title>,
+                            <abbr>ed.</abbr> P. A. Chahwan (Université Saint-Esprit de Kaslik, Faculté de
+                            musique, Études 9; 2008), 363–84.</bibl>
+                        <bibl>A.  Corcella, ‘Due citazioni dalle <title rend="italic">Etiopiche</title> di Eliodoro nella <title rend="italic">Retorica</title> di Antonio di Tagrit’, <title rend="italic">
+                                <abbr>OCP</abbr>
+                            </title> 74 (2008), 389–416.</bibl>
+                        <bibl>H. J. W.  Drijvers, ‘Antony of Tagrit’s book on the good providence of
+                            God’, in <abbr>
+                                <title rend="italic">SymSyr</title> V</abbr>, 163–72.</bibl>
+                        <bibl>P. E.  Eskenasy, <title rend="italic">Antony of Tagrit’s Rhetoric Book
+                                One: introduction, partial translation, and commentary</title> (Ph.
+                            D. Diss., Harvard University; 1991). (review by E. Riad, in <title rend="italic">
+                                <abbr>OrSuec</abbr>
+                            </title> 41–42 [1992–93], 309–14)</bibl>
+                        <bibl>
+                            <title rend="italic">Paul de Lagarde und die syrische
+                                Kirchengeschichte</title>
+                            <choice>
+                                <sic/>
+                                <corr>, ed. Göttinger Arbeitskreis für syrische Kirchengeschichte</corr>
+                            </choice> (1968). (with relevant contributions by P.
+                            Bäss, J. Bendrat, E. Lanz, R. Messling, H. Raguse, and W.
+                            Strothmann)</bibl>
+                        <bibl>J. W.  Watt, <title rend="italic">The fifth Book of the Rhetoric of
+                                Antony of Tagrit</title> (<abbr>CSCO</abbr> 480–81; 1986).</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>J. W.  Watt</reg>
+                        <orig>idem</orig>
+                     </choice>, ‘Antony of Tagrit on rhetorical figures’, in <abbr>
+                                <title rend="italic">SymSyr</title> IV</abbr>, 317–25.</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>J. W.  Watt</reg>
+                        <orig>idem</orig>
+                     </choice>, ‘Syriac panegyric in theory and practice’, <title rend="italic">
+                                <abbr>LM</abbr>
+                            </title> 102 (1989), 271–98.</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>J. W.  Watt</reg>
+                        <orig>idem</orig>
+                     </choice>, ‘Syriac rhetorical theory and the Syriac version of Aristotle’s
+                            Rhetoric’, in <title rend="italic">Peripatetic Rhetoric after
+                                Aristotle</title>, <abbr>ed.</abbr> W. W. Fortenbaugh and D. C. Mirhady (Rutgers
+                            University Studies in Classical Humanities 6; 1994), 243–60.</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>J. W.  Watt</reg>
+                        <orig>idem</orig>
+                     </choice>, ‘The philosopher-king in the Rhetoric of Antony of Tagrit’, in
+                                <abbr>
+                                <title rend="italic">SymSyr</title> VI</abbr>, 245–58.</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>J. W.  Watt</reg>
+                        <orig>idem</orig>
+                     </choice>, ‘The recovery of an old text: scribes, scholars, collectors and
+                            the Rhetoric of Antony of Tagrit’, <title rend="italic">
+                                <abbr>Harp</abbr>
+                            </title> 16
+                            (2003), 285–95.</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>J. W.  Watt</reg>
+                        <orig>idem</orig>
+                     </choice>, ‘Guarding the Syriac language in an Arabic environment: Antony
+                            of Tagrit on the uses of grammar in rhetoric’, in <title rend="italic">Syriac polemics: studies in honour of G. J. Reinink</title>, <abbr>ed.</abbr> W.
+                            J. van Bekkum <abbr>et al.</abbr> (<abbr>OLA</abbr> 170; 2007), 133–50.</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>John W.</forename> 
+                  <surname>Watt</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

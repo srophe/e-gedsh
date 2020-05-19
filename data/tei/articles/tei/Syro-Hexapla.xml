@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Syro-Hexapla</title>
+            <author>
+               <persName>
+                  <forename>Alison G.</forename> 
+                  <surname>Salvesen</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0">Electronic Edition Draft Version 1.0</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Syro-Hexapla</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Syro-Hexapla</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/540</idno>
+                    <idno type="entry">531</idno>
+                    <milestone unit="pages" n="394-395"/>
+                    <note type="type">work</note>
+                    <note type="abstract">A rendering into Syriac of the Septuagint column of
+                        Origen’s Hexapla.<note/>
+                    </note>
+                </ab>
+                <div type="body">
+                    <p>A rendering into Syriac of the Septuagint column of Origen’s Hexapla. The
+                        Greek Christian writer and biblical scholar Origen (<abbr>ca.</abbr> 185 – <abbr>ca.</abbr> 253)
+                        created the text-critical tool known as the Hexapla in order to recover the
+                        ‘original’ Greek of the Septuagint. The Hexapla was a six-columned synopsis
+                        of Scripture, giving the Hebrew text word by word, lined up with a Greek
+                        transcription and four Greek translations, namely the Septuagint and the
+                        three later Jewish versions of Aquila, Symmachus, and Theodotion. Origen
+                        marked up the fifth, Septuagint, column with text-critical signs to indicate
+                        where material had been added or omitted in comparison with the current
+                        Hebrew text used by the rabbis (which Origen assumed was identical with the
+                        text from which the Septuagint had been translated).</p>
+                    <p>The Hexapla must have been too vast to copy in its entirety, and the
+                        original, which was created and kept in Caesarea, may have perished during
+                        the Persian or Arab invasions of the <choice>
+                            <sic>mid–7th</sic>
+                            <corr>mid-7th</corr>
+                        </choice> 
+                  <abbr>cent.</abbr> Only a few folios of
+                        Psalms remain, and these date from the 9th and 10th <abbr>cent.</abbr> Since the focus of
+                        the Hexapla itself was on the Septuagint column, it was this which was
+                        copied separately along with its critical signs, and eventually even the
+                        latter were omitted from most Greek <abbr>mss.</abbr> This Hexaplaric Septuagint column
+                        was also translated literally into Syriac by <ref rend="bold" target="https://gedsh.bethmardutho.org/Pawlos-of-Tella">
+                            <persName ref="http://syriaca.org/person/82">Pawlos of
+                            Tella</persName>
+                        </ref> in 616–17 and supplemented with short readings from the
+                        other Greek versions. The Syro-Hexapla is of particular value for scholars,
+                        because it has preserved the <choice>
+                            <sic>text–critical</sic>
+                            <corr>text-critical</corr>
+                        </choice> signs as well as fragments from
+                        the later Jewish Greek versions. For theological and geographical reasons,
+                        it was much more influential among W. Syrians than in the <abbr>Ch. of E.</abbr>, though
+                        it seems to have been ‘rediscovered’ by <ref rend="bold" target="https://gedsh.bethmardutho.org/Timotheos-I">
+                            <persName ref="http://syriaca.org/person/790">Timotheos I</persName>
+                        </ref>
+                        (see Braun) and was certainly used by the 9th-cent. E.-Syr. scholar <ref rend="bold" target="https://gedsh.bethmardutho.org/Ishodad-of-Merv">
+                            <persName ref="http://syriaca.org/person/555">Ishoʿdad of Merv</persName>
+                        </ref> in his biblical commentaries (see Van Eynde,
+                        XXII–XXV). It was an influence on <ref rend="bold" target="https://gedsh.bethmardutho.org/Yaqub-of-Edessa">
+                            <persName ref="http://syriaca.org/person/113">Yaʿqub of
+                            Edessa</persName>
+                        </ref>’s revision of the <abbr>OT</abbr>, and individual readings have
+                        sometimes crept into later <ref rend="bold" target="https://gedsh.bethmardutho.org/Peshitta">Peshitta</ref> 
+                  <abbr>mss.</abbr>
+                    </p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>W. Baars, <title rend="italic">New Syro-Hexaplaric Texts</title>
+                            (1968).</bibl>
+                        <bibl>O. Braun, ‘Ein Brief des Katholikos Timotheos über biblische Studien
+                            des 9. Jahrhunderts’, <title rend="italic">
+                                <abbr>OC</abbr>
+                            </title> 1 (1901), 299–313.
+                            (<abbr>ET</abbr> in S. P. Brock, <title rend="italic">A Brief Outline of Syriac
+                                Literature</title> [2nd <abbr>ed.</abbr> 2009], 240–5)</bibl>
+                        <bibl>S. P.  Brock, <title rend="italic">Syriac Studies. A Classified
+                                Bibliography (1960–1990)</title> (1996), 53–4.</bibl>
+                        <bibl>A. M.  Ceriani, <title rend="italic">Pentateuchi Syrohexaplaris quae
+                                supersunt cum notis</title> (Monumenta sacra et profana 2;
+                            1864).</bibl>
+                        <bibl>F. Field, <title rend="italic">Origenis Hexaplorum quae supersunt,
+                                sive veterum interpretum graecorum in totum Vetus Testamentum
+                                fragmenta</title> (1875; <abbr>repr.</abbr> 1964).</bibl>
+                        <bibl>P. de Lagarde, <title rend="italic">Bibliothecae Syriacae. Veteris
+                                Testamenti Graeci in sermonem Syriacum versi fragmenta octo</title>
+                            (1892).</bibl>
+                        <bibl>A.  Salvesen, ‘Hexaplaric sources in Ishoʿdad of Merv’, in <title rend="italic">The Book of Genesis in Jewish and Oriental Christian
+                                interpretation</title>, <abbr>ed.</abbr> J. Frishman and L. Van Rompay (<abbr>TEG</abbr> 5;
+                            1997), 229–53.</bibl>
+                        <bibl>eadem (<abbr>ed.</abbr>), <title rend="italic">Origen’s Hexapla and
+                                Fragments</title> (Texte und Studien zum antiken Judentum 58;
+                            1998).</bibl>
+                        <bibl>C.  Van den Eynde, <title rend="italic">Commentaire d’Ishoʿdad de Merv
+                                sur l’Ancien Testament</title>, vol. 1. <title rend="italic">Genèse.
+                                Version</title> (<abbr>CSCO</abbr> 156; 1955).</bibl>
+                        <bibl>J. M.  Vosté and C.  Van den Eynde, <title rend="italic">Commentaire
+                                d’Ishoʿdad de Merv sur l’Ancien Testament</title>, vol. 1. <title rend="italic">Genèse. Texte</title> (<abbr>CSCO</abbr> 126; 1950).</bibl>
+                        <bibl>A.  Vööbus, <title rend="italic">The Pentateuch in the version of the
+                                Syro-Hexapla. A facsimile edition of a Midyat MS discovered
+                                1964</title> (<abbr>CSCO</abbr> 369; 1975).</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Alison G.</forename> 
+                  <surname>Salvesen</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

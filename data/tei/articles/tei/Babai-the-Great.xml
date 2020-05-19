@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Babai the Great</title>
+            <author>
+               <persName>
+                  <forename>Sebastian P.</forename> 
+                  <surname>Brock</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0">Electronic Edition Draft Version 1.0</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Babai the Great</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Babai-the-Great</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/75</idno>
+                    <idno type="entry">66</idno>
+                    <milestone unit="pages" n="49-50"/>
+                    <idno type="subject">http://syriaca.org/person/359</idno>
+                    <note type="type">person</note>
+                    <note type="abstract">Theologian and monastic author.<note>brief</note>
+                    </note>
+                </ab>
+                <ab type="infobox">(<abbr>ca.</abbr> 551–628) [Ch. of E.]</ab>
+                <div type="body">
+                    <p>Theologian and monastic author. The main sources for Babai’s life are <ref rend="bold" target="https://gedsh.bethmardutho.org/Ishodnah">
+                            <persName ref="http://syriaca.org/person/556">Ishoʿdnaḥ</persName>
+                        </ref>’s ‘Book of Chastity’ (chap.  39), <ref rend="bold" target="https://gedsh.bethmardutho.org/Toma-of-Marga">
+                            <persName ref="http://syriaca.org/person/796">Toma of
+                        Marga</persName>
+                        </ref>’s ‘Book of Superiors’ (I, ch. 27 and 29), and the Chronicle of
+                            <ref rend="bold" target="https://gedsh.bethmardutho.org/Siirt">
+                            <placeName ref="http://syriaca.org/place/188">Siirt</placeName>
+                        </ref> (chap. 84). Born in Beth ʿAynatha (in Beth Zabdai), he
+                        studied at the <ref rend="bold" target="https://gedsh.bethmardutho.org/Nisibis-School-of">School of
+                            Nisibis</ref> under <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Abraham-of-Beth-Rabban">
+                            <persName ref="http://syriaca.org/person/319">Abraham of
+                            Beth Rabban</persName>
+                        </ref>. He subsequently became a monk of the ‘Great
+                        Monastery’, founded in 571 by <ref rend="bold" target="https://gedsh.bethmardutho.org/Abraham-of-Kashkar">
+                            <persName ref="http://syriaca.org/person/320">Abraham of
+                            Kashkar</persName>
+                        </ref> (d. 588). Later, he moved to Beth Zabdai to found his own
+                        monastery there, but in 604 he returned to the Great Monastery, where he had
+                        been appointed <choice>
+                            <sic>Abbot</sic>
+                            <corr>abbot</corr>
+                        </choice>, in succession to Dadishoʿ. During the interregnum
+                        (609–28) following the death of the <abbr>Cath.</abbr> 
+                  <ref rend="bold" target="https://gedsh.bethmardutho.org/Grigor-I">
+                            <persName ref="http://syriaca.org/person/514">Grigor</persName>
+                        </ref>, the
+                        <abbr>Ch. of E.</abbr> was administered jointly by the Archdeacon and Babai, the latter
+                        having the title ‘Visitor of the monasteries’. He died shortly after the
+                        death of Khusrau II (628), who had not allowed the appointment of a
+                        successor to Grigor.</p>
+                    <p>Babai’s writings cover four main topics:</p>
+                    <p>1. Christology. His ‘Book of the Union, on the divinity and humanity (of
+                        Christ) and on the prosopon of the union’, remains a fundamental statement
+                        of the Christology of the Church to this day. It is composed in seven books,
+                        of which the seventh may originally have belonged to another work. The ‘Book
+                        of the Union’ was edited (with <abbr>LT</abbr>) by A. Vaschalde (<abbr>CSCO</abbr> 79–80; 1915); there
+                        is an unpublished <abbr>ET</abbr> by M. Birnie. In the same volume of the <abbr>CSCO</abbr> there is
+                        also a short treatise ‘Against those who say “Just as the body and soul are
+                        one <hi rend="italic">qnomā</hi>, so too God the Word and the Man are one
+                            <hi rend="italic">qnomā</hi>” ’. An excerpt arguing that ‘two natures’
+                        (in the incarnate Christ) implies ‘two <hi rend="italic">qnome</hi>’
+                        features in a late collection of Christological texts (<abbr>ed.</abbr> with <abbr>ET</abbr> by L.
+                        Abramowski and A. Goodman, <hi rend="italic">Nestorian Christological
+                            Texts</hi> [1972], vol. 1, 207–9 [Syr.], vol. 2, 123–5 [<abbr>ET</abbr>]).</p>
+                    <p>2. Monastic topics. Of great significance, for its learning as well as for
+                        its length, is his Commentary on <ref rend="bold" target="https://gedsh.bethmardutho.org/Evagrius-of-Pontus">
+                            <persName ref="http://syriaca.org/person/483">Evagrius of
+                            Pontus</persName>
+                        </ref>’s ‘Gnostic Chapters’ (<abbr>ed.</abbr> with <abbr>GT</abbr> by Frankenberg, 1912).
+                        Babai also wrote a Commentary on <ref rend="bold" target="https://gedsh.bethmardutho.org/Mark-the-Monk">
+                            <persName ref="http://syriaca.org/person/619">Mark the
+                        Monk</persName>
+                        </ref>’s ‘Spiritual Law’ (unpublished; study by G. Krüger, in <title rend="italic">
+                            <abbr>
+                                <hi rend="italic">OC</hi>
+                            </abbr>
+                        </title> 44 [1960], 46–74). A collection of short ‘Useful
+                        Counsels on the Ascetic Life’ are also unpublished, but there is an <abbr>ET</abbr> by G.
+                        Chediath, <hi rend="italic">Babai the Great. Some Useful Counsels on the
+                            Ascetic Life</hi> (Moran Etho 15; 2001). Babai wrote a set of Rules for
+                        monks, preserved only in Arabic translation (<abbr>ed.</abbr> with <abbr>ET</abbr>, A. Vööbus,
+                            <hi rend="italic">Syriac and Arabic Documents regarding Legislation
+                            relative to Syrian <choice>
+                                <sic>Asceticism</sic>
+                                <corr>asceticism</corr>
+                            </choice>
+                        </hi> [1960], 176–84).</p>
+                    <p>3. Hagiography. In his Life of Gewargis (<abbr>ed.</abbr> 
+                  <ref rend="bold" target="https://gedsh.bethmardutho.org/Bedjan-Paul">
+                            <persName ref="http://syriaca.org/person/379">P.
+                        Bedjan</persName>
+                        </ref>, <hi rend="italic">Histoire de Mar Jabalaha, de trois autres
+                            patriarches, d’un prêtre et deux <choice>
+                                <sic>laiques</sic>
+                                <corr>laïques</corr>
+                            </choice>, nestoriens</hi> [1895; <abbr>repr.</abbr>
+                        2007], 424–8) Babai gives a list of his hagiographical works, but of these
+                        only the Life of Mihramgushnasp/Gewargis (martyred in 615) survives in full
+                        (<abbr>ed.</abbr> Bedjan, <hi rend="italic">Histoire de Mar Jabalaha,</hi> 416–571; <abbr>GT</abbr> by
+                        G. Hoffmann, 1880). Unfortunately the only <abbr>ms.</abbr> of a woman martyr, Christina,
+                        breaks off soon after the beginning (<abbr>ed.</abbr> Bedjan, <hi rend="italic">Acta
+                            Martyrum et Sanctorum</hi>, vol. 4, 201–7).</p>
+                    <p>4. Liturgy. Two <hi rend="italic">tešbḥātā</hi> (‘Our Father who is in
+                        heaven, holy is his nature...’ and ‘Blessed is the Compassionate One who in
+                        his grace...’) are specifically attributed to him (though some <abbr>mss.</abbr> have a
+                        different attribution); the first of these also features in the Maronite <hi rend="italic">Šḥimto</hi> (Thurs. <hi rend="italic">Lilyo</hi>). A Hymn
+                        for the Commemoration of the Greek Doctors is also attributed to him (<abbr>ms.</abbr>
+                        Cambridge Add. 1980, f. 210r; not found in T. Darmo’s edition of the <hi rend="italic">ḥudrā</hi>).</p>
+                    <p>5. Parts of a work on the monastic life are preserved in a <abbr>ms.</abbr> (M20N) of the
+                        ‘New Finds’ at the <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Catherine-Monastery-of-St">
+                            <placeName ref="http://syriaca.org/place/368">Monastery of St. Catherine</placeName>
+                        </ref>, Mount
+                        Sinai.</p>
+                    <p>A large number of other works by Babai have not survived (<ref rend="bold" target="https://gedsh.bethmardutho.org/Abdisho-bar-Brikha">
+                            <persName ref="http://syriaca.org/person/310">ʿAbdishoʿ</persName>
+                        </ref> states that he wrote ‘83 volumes’ in all).</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>L.  Abramowski, ‘Babai der Grosse: christologische Probleme und
+                            ihre Lösungen’, <title rend="italic">
+                                <abbr>OCP</abbr>
+                            </title> 41 (1975),
+                            289–343.</bibl>
+                        <bibl>G.  Chediath, <title rend="italic">The Christology of Mar Babai the
+                                Great</title> (Kottayam, 1982).</bibl>
+                        <bibl>G. J.  Reinink, ‘Babai the Great’s <title rend="italic">Life of
+                                George</title> and the propagation of doctrine in the late Sasanian
+                            Empire’, in <title rend="italic">Portraits of spiritual
+                                authority</title>, <abbr>ed.</abbr> J. W. Drijvers and J. W. Watt (Religions in
+                            the Graeco-Roman world 137; 1999), 171–93.</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Sebastian P.</forename> 
+                  <surname>Brock</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

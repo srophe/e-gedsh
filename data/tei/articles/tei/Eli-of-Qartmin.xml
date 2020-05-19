@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Eli of Qarṭmin</title>
+            <author>
+               <persName>
+                  <forename>Robert A.</forename> 
+                  <surname>Kitchen</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0">Electronic Edition Draft Version 1.0</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Eli of Qarṭmin</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Eli-of-Qartmin</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/194</idno>
+                    <idno type="entry">185</idno>
+                    <milestone unit="pages" n="140"/>
+                    <idno type="subject">http://syriaca.org/person/465</idno>
+                    <note type="type">person</note>
+                    <note type="abstract">Monastic author of a verse biography of Philoxenus of
+                        Mabbug (445–52); patron saint of the monastery of
+                        Qarṭmin (20 km. southeast of Midyat).<note/>
+                    </note>
+                </ab>
+                <ab type="infobox">(<abbr>ca.</abbr> 13th <abbr>cent.</abbr>) [<abbr>Syr. Orth.</abbr>]</ab>
+                <div type="body">
+                    <p>Monastic author of a verse biography of <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Philoxenos-of-Mabbug">
+                            <persName ref="http://syriaca.org/person/44">Philoxenos
+                            of Mabbug</persName>
+                        </ref> (445–523), who had become the patron saint of the
+                        monastery of Qarṭmin (20 km. southeast of <ref rend="bold" target="https://gedsh.bethmardutho.org/Midyat">
+                            <placeName ref="http://syriaca.org/place/137">Midyat</placeName>
+                        </ref>). Nothing is
+                        known of the author, except that he is a member of the monastic community at
+                        Qarṭmin. References in the text imply that he was a priest and probably
+                        wrote the <hi rend="italic">mimro</hi> during the 13th <abbr>cent.</abbr>
+                    </p>
+                    <p>The <hi rend="italic">mimro</hi> survives in a single <abbr>ms.</abbr>, Paris, Bibl. Nat.
+                        Syr. 377, ff. 219r–241v. The <abbr>ms.</abbr> was copied in 1855, belonging to <ref rend="bold" target="https://gedsh.bethmardutho.org/Scher-Addai">
+                            <persName ref="http://syriaca.org/person/723">Addai
+                            Scher</persName>
+                        </ref>, before being acquired by the Bibliothèque Nationale in
+                        Paris.</p>
+                    <p>The <hi rend="italic">mimro</hi> is a panegyric composed in honor of
+                        Philoxenos and read on the occasion of one of the three annual
+                        commemorations at the Miaphysite monastery of Qarṭmin (lines 343–8): 1.
+                        Ordination to the episcopacy, 18 August; 2. Death, 10 December; 3.
+                        Translation, 18 February.</p>
+                    <p>The modern editor, André de Halleux, divides the <hi rend="italic">mimro</hi>
+                        into two parts: 1. (vv. 1–24) Introduction; (vv.  25–290) Life of
+                        Philoxenos; (vv. 291–332) Passion and martyrdom of Philoxenos — suffocation
+                        in bathhouse at Gangra; (vv. 333–68) Translation of Philoxenos’s remains to
+                        Qarṭmin and Midyat; 2. (vv. 369–410) Narrative of a posthumous miracle,
+                        dated 1144/5, when raiders attacked and pillaged <ref rend="bold" target="https://gedsh.bethmardutho.org/Tur-Abdin">
+                            <placeName ref="http://syriaca.org/place/221">Ṭur ʿAbdin</placeName>
+                        </ref>,
+                        emptying the bones and head of Philoxenos on the road. A column of light
+                        appeared from the remains; (vv. 411–504) Elegy paralleling the life and
+                        achievements of Philoxenos with various Biblical characters; (vv. 505–550)
+                        Invocation to Philoxenos for patronage over Ṭur ʿAbdin; (vv. 551–4) Closing
+                        doxology.</p>
+                    <p>De Halleux concludes that Eli’s biographical details are only as good as his
+                        sources from such a distance in time, and while there are numerous errors,
+                        Eli’s focus on Philoxenos’s relationship with Ṭur ʿAbdin deserves
+                        attention.</p>
+                    <p>Philoxenos’s connection with Ṭur ʿAbdin is tied to three locations: 1. the
+                        monastery at Qarṭmin at Dayr al-ʿUmr where his body is interred; 2. the
+                        monastery of Mar Abraham, near Midyat, where his head was reputedly
+                        transferred in 1144/5; 3. Beth Severianos (Bāsebrīna), in the vicinity of
+                        which Philoxenos is said to have constructed a stone cell for himself (vv.
+                        505–6).</p>
+                    <p>The <hi rend="italic">mimro</hi> relates two significant events in the life
+                        of Philoxenos that connect him to Qarṭmin: the miraculous encounter with the
+                        stylite Abel when Abel’s column bent down to meet Philoxenos (vv. 99–118);
+                        and his correspondence with <abbr>
+                            <choice>
+                                <sic>bp.</sic>
+                                <corr>Bp.</corr>
+                            </choice>
+                        </abbr> Yuḥanon of Amid (vv.  231–54), both of whom
+                        were said to be fellow novices with Philoxenos at Qarṭmin. Both, according
+                        to de Halleux, while being problematic historically, give evidence of
+                        genuine encounters.</p>
+                    <p>De Halleux appended a short <hi rend="italic">qolo</hi> on the martyrdom of
+                        Philoxenos, entitled ‘For the definition of the faith’ (<abbr>ms.</abbr> Paris, Bibl.
+                        Nat. Syr. 165, f. 237v.), eight verses in Ephrem’s meter (two hemistichs of
+                        heptasyllabic verse). He also pointed out the possible connection of the <hi rend="italic">mimro </hi>with a biographical notice on Philoxenos
+                        preserved in <abbr>ms.</abbr> Vat. Syr. 155 (<abbr>CSCO</abbr> 234, I n. 2).</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>A.  de  Halleux, <title rend="italic">Ēlī de Qartamīn. Mēmrā sur
+                                S. Mār Philoxène de Mabbog</title> (<abbr>CSCO</abbr> 233–4; 1963).</bibl>
+                        <bibl>Palmer, <title rend="italic">Monk and mason</title>.</bibl>
+                        <bibl>J. W.  Watt, ‘Syriac panegyric in theory and practice. Antony of
+                            Tagrit and Eli of Qartamin’, <title rend="italic">
+                                <abbr>LM</abbr>
+                            </title> 102 (1989),
+                            271–98.</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>J. W.  Watt</reg>
+                        <orig>idem</orig>
+                     </choice>, ‘The rhetorical structure of the Memra of Eli of Qartamin on
+                            Philoxenus of Mabbug’, in <abbr>
+                                <title rend="italic">SymSyr</title> V</abbr>
+                            299–306.</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Robert A.</forename> 
+                  <surname>Kitchen</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

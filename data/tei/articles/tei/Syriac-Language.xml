@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Syriac Language</title>
+            <author>
+               <persName>
+                  <forename>Aaron M.</forename> 
+                  <surname>Butts</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0">Electronic Edition Draft Version 1.0</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Syriac Language</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Syriac-Language</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/537</idno>
+                    <idno type="entry">528</idno>
+                    <milestone unit="pages" n="390-391"/>
+                    <note type="type">subject</note>
+                    <note type="abstract">
+                        <note/>
+                    </note>
+                </ab>
+                <div type="body">
+                    <p>Syriac, the self-designations of which are <hi rend="italic">suryāyā</hi>,
+                            <hi rend="italic">ārāmāyā</hi>, and <hi rend="italic">urhāyā</hi>, is a
+                        dialect of the <ref rend="bold" target="https://gedsh.bethmardutho.org/Aramaic">Aramaic</ref> language
+                        branch, which is itself a member of the larger Semitic language family.
+                        Syriac is generally grouped in the late Aramaic period (<abbr>ca.</abbr> 200–1200)
+                        despite the fact that it is attested from the 1st <abbr>cent.</abbr> AD to the present.
+                        Though previously considered an East-Aramaic dialect, some evidence suggests
+                        that Syriac should be classified as a separate branch of late Aramaic that
+                        is distinct both from East-Aramaic, which includes Mandaic and Jewish
+                        Babylonian Aramaic, and from West-Aramaic, which includes <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Christian-Palestinian-Aramaic">Christian Palestinian Aramaic</ref>, Samaritan Aramaic, and Jewish
+                        Palestinian Aramaic. In comparison to other late Aramaic dialects, Syriac
+                        preserves many features of earlier ‘Standard Literary Aramaic’.</p>
+                    <p>Syriac is by far the best documented Aramaic dialect. Based on the
+                        designation <hi rend="italic">urhāyā</hi> ‘(the language) of Edessa’, it is
+                        likely that Syriac originated in or around <ref rend="bold" target="https://gedsh.bethmardutho.org/Edessa">
+                            <placeName ref="http://syriaca.org/place/78">Edessa</placeName>
+                        </ref>. As the
+                        primary language of Syriac Christianity, it spread over much of Mesopotamia
+                        and Syria reaching as far as Ethiopia, India, and Central Asia. Syriac is
+                        first found in non-Christian tomb <ref rend="bold" target="https://gedsh.bethmardutho.org/Inscriptions">inscriptions</ref> that
+                        date from the 1st to the 3rd <abbr>cent.</abbr> These inscriptions display a number of
+                        archaic features — some of which also occur in early <abbr>mss.</abbr> — that were lost
+                        in the standardization of classical Syriac. The majority of Syriac
+                        literature stems from the Christian communities that emerged in Mesopotamia
+                        and Northern Syria starting in the 2nd <abbr>cent.</abbr> AD. The ‘Golden Age’ of Syriac
+                        spanned from the 4th to the 7th <abbr>cent.</abbr> and produced a considerable corpus of
+                        original prose and poetry as well as translations from Greek. After the
+                        Islamic conquests in the 7th <abbr>cent.</abbr>, Syriac was gradually replaced by Arabic
+                        though it lived on for several centuries and even witnessed a brief
+                        renaissance in the 12th and 13th <abbr>cent.</abbr> (see <ref rend="bold" target="https://gedsh.bethmardutho.org/Renaissance-Syriac">Syriac
+                            Renaissance</ref>). Alongside the numerous Neo-Aramaic dialects (see
+                        Aramaic, <ref rend="bold" target="https://gedsh.bethmardutho.org/Sureth">Sureth</ref>, <ref rend="bold" target="https://gedsh.bethmardutho.org/Turoyo">Ṭuroyo</ref>), classical
+                        Syriac still functions today as a liturgical and literary language for Syr.
+                        Christians both in the Middle East and the worldwide <ref rend="bold" target="https://gedsh.bethmardutho.org/Diaspora">diaspora</ref> (see <ref rend="bold" target="https://gedsh.bethmardutho.org/Kthobonoyo-Syriac">Kthobonoyo
+                            Syriac</ref>). In addition to the large surviving literary corpus
+                        related to Syriac Christianity, Syriac is attested in incantation bowls,
+                        amulets, inscriptions, and documentary texts written on <ref rend="bold" target="https://gedsh.bethmardutho.org/Papyri-Syriac">papyrus</ref> and parchment (for the latter, see <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Old-Syriac-documents">Old
+                            Syriac Documents</ref>).</p>
+                    <p>After the Christological controversies in the 5th and 6th <abbr>cent.</abbr>, Syriac split
+                        into an E.-Syr. and W.-Syr. tradition. The differences between these
+                        traditions appear primarily in <ref rend="bold" target="https://gedsh.bethmardutho.org/Script-Syriac">script</ref> and phonology.
+                        While the Esṭrangela script continued in restricted use in both traditions,
+                        the W.-Syr. tradition adopted Serṭo as its primary script, and the E.-Syr.
+                        tradition developed a new script based on Esṭrangela. In phonology, the
+                        E.-Syr. tradition employs a seven vowel system, which more closely reflects
+                        earlier stages of Aramaic. In the W.-Syr. tradition, however, several vowel
+                        changes occurred, <choice>
+                            <sic>e.g.</sic>
+                            <corr>e.g., </corr>
+                        </choice>the shifts of *<hi rend="italic">ā</hi> to <hi rend="italic">o</hi>, *<hi rend="italic">ē</hi> to <hi rend="italic">i</hi>, and *<hi rend="italic">o</hi> to <hi rend="italic">u</hi>.</p>
+                    <p>Like all Aramaic dialects, Syriac throughout its long history has been in
+                        contact with other languages. In addition to inheriting a number of Akkadian
+                        and Persian loanwords from earlier periods of Aramaic, Syriac borrowed
+                        lexemes from Middle Persian, Hebrew, and  — later in its history — Arabic.
+                        The language that had the most significant impact on Syriac, however, is
+                        Greek. Greek influence is found in texts from the earliest period, such as
+                        the ‘Book of the Laws of the Countries’ (see <ref rend="bold" target="https://gedsh.bethmardutho.org/Bardaisan">
+                            <persName ref="http://syriaca.org/person/3">Bardaiṣan</persName>
+                        </ref>) and
+                        the <ref rend="bold" target="https://gedsh.bethmardutho.org/Solomon-Odes-of">Odes of Solomon</ref>, and reached its apex in the 5th through 7th
+                        <abbr>cent.</abbr> when the translation movements were in progress (see <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Greek-Syriac-translations-from">Greek, Syriac translations from</ref>). This close contact with Greek
+                        had an effect on Syriac not only in its vocabulary where many Greek
+                        loanwords are found, but also in syntax and even morphology.</p>
+                    <p>Syriac has enjoyed a long tradition of academic study in Syriac-speaking
+                        communities. <ref rend="bold" target="https://gedsh.bethmardutho.org/Yaqub-of-Edessa">
+                            <persName ref="http://syriaca.org/person/113">Yaʿqub of
+                            Edessa</persName>
+                        </ref> (d. 708) is traditionally considered the first author of a
+                        Syriac grammar. Although this work does not survive in its entirety,
+                        portions of it were incorporated into the so-called Syriac <ref rend="bold" target="https://gedsh.bethmardutho.org/Masora">Masora</ref> (<hi rend="italic">mašlmānutā</hi>). This important compilation also contains
+                        vocalized texts of the <abbr>OT</abbr>, <abbr>NT</abbr>, and patristic authors, which serve as a rich
+                        source of philological and grammatical material. As is the case with so many
+                        of the sciences in Syriac, the grammatical tradition was codified by the
+                        polymath <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Bar-Ebroyo-Grigorios">
+                            <persName ref="http://syriaca.org/person/239">Bar ʿEbroyo</persName>
+                        </ref> (d. 1286), who wrote both a
+                        small metrical grammar and a much larger opus entitled ‘The Book of
+                        Splendors’ (<hi rend="italic">ktobo d-ṣemḥe</hi>). Syriac-speaking
+                        communities also produced works on <ref rend="bold" target="https://gedsh.bethmardutho.org/Syriac-Lexicography">lexicography
+                            </ref>, the
+                        most well-known of which are the Syriac-Arabic dictionaries of <ref rend="bold" target="https://gedsh.bethmardutho.org/Bar-Ali-Isho">
+                            <persName ref="http://syriaca.org/person/364">Bar ʿAli</persName>
+                        </ref> (second half of the 9th <abbr>cent.</abbr>) and of <ref rend="bold" target="https://gedsh.bethmardutho.org/Bar-Bahlul-Hasan">
+                            <persName ref="http://syriaca.org/person/365">Bar
+                            Bahlul</persName>
+                        </ref> (<abbr>fl.</abbr> 10th <abbr>cent.</abbr>).</p>
+                    <p>The study of Syriac in the West, which began in the 16th <abbr>cent.</abbr>, culminated at
+                        the turn of the 20th <abbr>cent.</abbr> with the publication of the grammar of <ref rend="bold" target="https://gedsh.bethmardutho.org/Noldeke-Theodor">
+                            <persName ref="http://syriaca.org/person/661">Th. Nöldeke</persName>
+                        </ref> (1880; 2nd <abbr>ed.</abbr> 1898; <abbr>ET</abbr> in 1904) and the
+                        lexica of <ref rend="bold" target="https://gedsh.bethmardutho.org/Payne-Smith-Robert">
+                            <persName ref="http://syriaca.org/person/677">R. Payne Smith</persName>
+                        </ref> (1879–1901), <ref rend="bold" target="https://gedsh.bethmardutho.org/Brockelmann-Carl">
+                            <persName ref="http://syriaca.org/person/402">C. Brockelmann</persName>
+                        </ref> (1895; 2nd <abbr>ed.</abbr> 1928; <abbr>ET</abbr> in 2009 by
+                        Sokoloff), and <ref rend="bold" target="https://gedsh.bethmardutho.org/Audo-Toma">
+                            <persName ref="http://syriaca.org/person/355">T. Audo</persName>
+                        </ref> (1897),
+                        all of which remain standard reference works today. In addition to the
+                        grammar of Nöldeke, detailed grammars of Syriac are available in Arayathinal
+                        (1957–9) and, more recently, Muraoka (2005). The most common Syriac
+                        dictionary for students is <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Payne-Smith-Mrs-Margoliouth-Jessie">
+                            <persName ref="http://syriaca.org/person/676">J. Payne Smith</persName>
+                        </ref> (1903); M. Sokoloff (2009) has also recently
+                        provided an English translation (with correction, expansion, and update) of
+                        Brockelmann’s <hi rend="italic">Lexicon</hi>. Elementary grammars of Syriac
+                        include Coakley (2002), Healey (2005), and Thackston (1999). Useful <ref rend="bold" target="https://gedsh.bethmardutho.org/Bibliography">bibliographies</ref> for the study of the Syriac language can be found
+                        in Albert (1993), Muraoka (2005), and Brock (2006).</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>M.  Albert, ‘Langue et littérature syriaques’, in <title rend="italic">Christianismes orientaux. Introduction à l’étude des
+                                langues et des littératures</title> (1993), 297–375. (incl. further
+                            references)</bibl>
+                        <bibl>T.  Arayathinal, <title rend="italic">Aramaic Grammar, method
+                                Gaspey-Otto-Sauer</title> (1957–9).</bibl>
+                        <bibl>T.  Audo, <title rend="italic">Dictionnaire de la langue
+                                chaldéenne</title> (1897).</bibl>
+                        <bibl>K.  Beyer, ‘Der reichsaramäische Einschlag in der ältesten syrischen
+                            Literatur’, <title rend="italic">
+                                <abbr>ZDMG</abbr>
+                            </title> 116 (1966), 242–54.</bibl>
+                        <bibl>D.  Boyarin, ‘An inquiry into the formation of the Middle Aramaic
+                            dialects’, in <title rend="italic">Bono homini donum. Essays in
+                                historical linguistics in memory of J. Alexander Kerns</title>, <abbr>ed.</abbr>
+                            Y. L. Arbeitman and A. R. Bomhard, vol. 2 (1981), 613–49.</bibl>
+                        <bibl>S. P. Brock, ‘Some observations on the use of Classical Syriac in the
+                            late twentieth century’, <title rend="italic">
+                                <abbr>JSS</abbr>
+                            </title> 34 (1989),
+                            363–75.</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>S. P. Brock</reg>
+                        <orig>idem</orig>
+                     </choice>, <title rend="italic">An introduction to Syriac Studies</title>
+                            (2006). (incl. further references)</bibl>
+                        <bibl>C.  Brockelmann, <title rend="italic">Lexicon Syriacum</title> (1895;
+                            2nd <abbr>ed.</abbr> 1928). (see also under Sokoloff)</bibl>
+                        <bibl>J. F.  Coakley, <title rend="italic">Robinson’s paradigms and
+                                exercises in Syriac Grammar</title> (2002).</bibl>
+                        <bibl>Drijvers and Healey, <title rend="italic">The Old Syriac
+                                inscriptions</title>.</bibl>
+                        <bibl>J. F. Healey, <title rend="italic">Leshono Suryoyo. First studies in
+                                Syriac</title> (2005).</bibl>
+                        <bibl>A.  Juckel, ‘The “Syriac Masora” and the New Testament  Peshitta’, in
+                                <title rend="italic">The Peshitta: Its Use in Literature and
+                                Liturgy</title>, <abbr>ed.</abbr> B. ter Haar Romeny (2006), 107–21. (incl.
+                            further refer.)</bibl>
+                        <bibl>M. Moriggi, <title rend="italic">La lingua delle coppe magiche
+                                siriache</title> (2004).</bibl>
+                        <bibl>T. Muraoka, <title rend="italic">Classical Syriac. A basic grammar
+                                with a chrestomathy</title> (1997; 2nd <abbr>ed.</abbr> 2005).</bibl>
+                        <bibl>Th.  Nöldeke, <title rend="italic">Kurzgefasste syrische
+                                Grammatik</title> (1880; 2nd <abbr>ed.</abbr> 1898). (<abbr>ET</abbr> by J. A. Crichton as
+                                <title rend="italic">Compendious Syriac grammar</title>
+                            [1904])</bibl>
+                        <bibl>F.  Rosenthal, <title rend="italic">Die aramaistische Forschung seit
+                                Th. Nöldeke’s Veröffentlichungen</title> (1939), 179–211.</bibl>
+                        <bibl>J. Payne Smith (Mrs. Margoliouth), <title rend="italic">A compendious
+                                Syriac dictionary</title> (1903).</bibl>
+                        <bibl>R. Payne Smith, <title rend="italic">Thesaurus Syriacus</title>
+                            (1879–1901).</bibl>
+                        <bibl>M.  Sokoloff, <title rend="italic">A Syriac Lexicon. A translation
+                                from the Latin, correction, expansion, and update of C.
+                                Brockelmann’s Lexicon Syriacum</title> (2009).</bibl>
+                        <bibl>D. G. K.  Taylor, ‘Bilingualism and diglossia in Late Antique Syria
+                            and Mesopotamia’, in <title rend="italic">Bilingualism in Ancient
+                                Society</title>, <abbr>ed.</abbr> J. N. Adams, M. Janse, and S. Swain (2002),
+                            298–331. (incl. further references)</bibl>
+                        <bibl>W. M.  Thackston, <title rend="italic">An introduction to
+                                Syriac</title> (1999).</bibl>
+                        <bibl>L.  Van Rompay, ‘Some preliminary remarks on the origins of classical
+                            Syriac as a standard language’, in <title rend="italic">Semitic and
+                                Cushitic Studies</title>, <abbr>ed.</abbr> G. Goldenberg and Sh. Raz (1994),
+                            70–89.</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Aaron M.</forename> 
+                  <surname>Butts</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

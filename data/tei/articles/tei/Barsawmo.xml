@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Barṣawmo</title>
+            <author>
+               <persName>
+                  <forename>Lucas</forename> 
+                  <surname>Van Rompay</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0">Electronic Edition Draft Version 1.0</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Barṣawmo</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Barsawmo</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/89</idno>
+                    <idno type="entry">80</idno>
+                    <milestone unit="pages" n="59"/>
+                    <idno type="subject">http://syriaca.org/person/370</idno>
+                    <note type="type">person</note>
+                    <note type="abstract">Monk and abbot.<note/>
+                    </note>
+                </ab>
+                <ab type="infobox">(d. <abbr>ca.</abbr> 458) [<abbr>Syr. Orth.</abbr>]</ab>
+                <div type="body">
+                    <p>Monk and abbot. Barṣawmo was a supporter of Dioscorus of Alexandria. In 449,
+                        invited by Emperor Theodosius II, he attended the Council of Ephesus, which
+                        accepted a profession of faith by <ref rend="bold" target="https://gedsh.bethmardutho.org/Eutyches">
+                            <persName ref="http://syriaca.org/person/482">Eutyches</persName>
+                        </ref>. Two
+                        years later, Barṣawmo also was present at the Council of Chalcedon, which
+                        rejected Eutyches’s views and deposed Dioscorus. Barṣawmo expressed his
+                        strong opposition to the decisions of this council and remained opposed to
+                        the council for the rest of his life. It is explicitly stated that Barṣawmo
+                        spoke Syriac in both councils and that his words were translated into
+                        Greek.</p>
+                    <p>Aside from his brief appearance at these two councils, recorded in the Greek
+                        Acts of the Council of Chalcedon and in the Syriac Acts of the Council of
+                        Ephesus, no further contemporary evidence on Barṣawmo exists. Around the
+                        middle of the 6th <abbr>cent.</abbr>, however, a Syriac Life was composed, which situates
+                        Barṣawmo’s birth in the region of Samosata and details his many travels to
+                            <ref rend="bold" target="https://gedsh.bethmardutho.org/Jerusalem">
+                            <placeName ref="http://syriaca.org/place/104">Jerusalem</placeName>
+                        </ref>, Petra, the Sinai, and Cyprus. Barṣawmo is portrayed as
+                        an energetic monk, converting non-Christians and fighting against Jews and
+                        pagans. The historical value of this Life, preserved in three incomplete
+                        <abbr>mss.</abbr> (the earliest from the 11th <abbr>cent.</abbr>), is doubtful. In his Chronicle, <ref rend="bold" target="https://gedsh.bethmardutho.org/Michael-I-Rabo">
+                            <persName ref="http://syriaca.org/person/217">Michael Rabo</persName>
+                        </ref>, who was abbot in the monastery named
+                        after Barṣawmo (see <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Barsawmo-Dayro-d-Mor">
+                            <placeName ref="http://syriaca.org/place/224">Dayro d-Mor
+                            Barṣawmo</placeName>
+                        </ref>), fails to record many of the data provided in the
+                        Life.</p>
+                    <p>Despite his acceptance of Eutyches, whose legacy was later rejected by the
+                        <abbr>Syr. Orth.</abbr> Church, Barṣawmo became a popular saint. He gave his name to the
+                        famous Monastery of Barṣawmo, near <ref rend="bold" target="https://gedsh.bethmardutho.org/Melitene">
+                            <placeName ref="http://syriaca.org/place/136">Melitene</placeName>
+                        </ref>.
+                        Barṣawmo’s fame also spread to the Coptic and Ethiopian churches.</p>
+                    <p>Barṣawmo is depicted in an illuminated <abbr>ms.</abbr> of the <ref rend="bold" target="https://gedsh.bethmardutho.org/Harqlean-Version">Ḥarqlean</ref> Gospels (dated 1054) that once belonged to the Monastery
+                        of Barṣawmo and later was in the possession of the <abbr>Syr. Orth.</abbr> patriarchal
+                        library at <ref rend="bold" target="https://gedsh.bethmardutho.org/Hims">
+                            <placeName ref="http://syriaca.org/place/215">Ḥimṣ</placeName>
+                        </ref>. He is also portrayed in Coptic wall paintings in the
+                        Monastery of Baramus and in the Monastery of St. Antony. In the latter he
+                        holds an open scroll, which is inscribed partly in Syriac and partly in
+                        Coptic.</p>
+                    <p>See <ref target="https://gedsh.bethmardutho.org/fig/19">Fig. 19</ref>.</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>Fiey, <title rend="italic">Saints syriaques</title>,
+                            49–50.</bibl>
+                        <bibl>S. Grébaut, ‘Vie de Barsoma le Syrien’, <title rend="italic">ROC</title> 13 (1908), 337–45; 14 (1909), 135–42; 264–75; 401–16.
+                            (Ethiopic with <abbr>FT</abbr>)</bibl>
+                        <bibl>E.  Honigmann, <title rend="italic">Le couvent de Barṣauma et le
+                                patriarcat jacobite d’Antioche et de Syrie</title> (<abbr>CSCO</abbr> 146; 1967),
+                            6–23.</bibl>
+                        <bibl>H.  Kaufhold, ‘Notizen zur späten Geschichte des Barṣaumô-Klosters’,
+                                <title rend="italic">
+                                <abbr>Hugoye</abbr>
+                            </title> 3.2 (2000).</bibl>
+                        <bibl>J.  Leroy, <title rend="italic">Les manuscrits syriaques à peintures
+                                conservés dans les bibliothèques d’Europe et d’Orient. Contribution
+                                à l’étude de l’iconographie des églises de langue syriaque</title>
+                            (1964), 226; Album, pl. 52,2.</bibl>
+                        <bibl>P.  van  Moorsel, <title rend="italic">Les peintures du Monastère de
+                                Saint-Antoine près de la Mer Rouge</title> (La peinture murale chez
+                            les Coptes III; 1995), 130–1, pl. 67–8.</bibl>
+                        <bibl>F. Nau, ‘Résumé de monographies syriaques’, <title rend="italic">ROC</title>18 (1913), 270–76, 379–89; 19 (1914), 113–34,
+                            278–89.</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>F. Nau</reg>
+                        <orig>idem</orig>
+                     </choice>, ‘Deux épisodes de l’histoire juive sous Théodose II d’après la
+                            vie de Barsauma le Syrien’, <title rend="italic">Revue des études
+                                juives</title> 93 (1927), 184–206.</bibl>
+                        <bibl>B. A.  Pearson, ‘The Coptic inscriptions in the Church of St. Antony’,
+                            in <title rend="italic">Monastic Visions. Wall paintings in the
+                                Monastery of St. Antony at the Red Sea</title>, <abbr>ed.</abbr> E. S. Bolman
+                            (2002), 222–223.</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Lucas</forename> 
+                  <surname>Van Rompay</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

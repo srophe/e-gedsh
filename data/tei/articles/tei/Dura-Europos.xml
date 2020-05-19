@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Dura-Europos</title>
+            <author>
+               <persName>
+                  <forename>Lucas</forename> 
+                  <surname>Van Rompay</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0">Electronic Edition Draft Version 1.0</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Dura-Europos</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Dura-Europos</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/187</idno>
+                    <idno type="entry">178</idno>
+                    <milestone unit="pages" n="132-133"/>
+                    <idno type="subject">http://syriaca.org/place/77</idno>
+                    <note type="type">place</note>
+                    <note type="abstract">Ancient city situated on the west bank of the Middle
+                            <placeName ref="http://syriaca.org/place/82">Euphrates</placeName>,
+                        today known as Tell Ṣāliḥiyya, some 90 km. south-east of <placeName ref="http://syriaca.org/place/482">Dayr al-Zor</placeName>,
+                        <placeName>Syria</placeName>.<note/>
+                    </note>
+                </ab>
+                <div type="body">
+                    <p>Ancient city situated on the west bank of the Middle Euphrates, today known
+                        as Tell Ṣāliḥiyya, some 90 km. south-east of Dayr al-Zor, Syria. King
+                        Seleucus Nicator founded the city at a place known as Dura around 300  BC
+                        and gave it the name of his birthplace in Macedonia, Europos. In antiquity,
+                        either the name Dura or Europos was used; the combined name Dura-Europos is
+                        a modern invention.</p>
+                    <p>After having been ruled by the Macedonians and Greeks, the city was conquered
+                        by the Parthians around 113 BC and remained a military outpost of the
+                        Parthian Empire until AD 165. In that year the city came under Roman rule
+                        and was to play an important role in the defense of the Roman Empire. Around
+                        250, the Sasanians took hold of the city. Following its destruction, in 256,
+                        the city was abandoned and fell into oblivion. Rediscovered in 1920, Dura
+                        was excavated mainly by a French-American team between 1928 and 1937. Work
+                        was interrupted by the Second World War and was only resumed in 1986, now by
+                        a Syrian-French mission.</p>
+                    <p>Both its military role and its function as a commercial center in the trade
+                        between East and West explain the presence of many sojourners of various
+                        origins, having different religions and speaking different languages. Greek,
+                        in all likelihood, was the main language for official purposes throughout
+                        the history of the city and most inscriptions are in Greek. In addition,
+                        various <ref rend="bold" target="https://gedsh.bethmardutho.org/Aramaic">Aramaic</ref> language forms must have been spoken and written,
+                        although it has not been possible to pinpoint the local dialect of Dura. In
+                        the inscriptions of the synagogue, Jewish Aramaic is found, and the
+                        Palmyrene community of Dura used the Palmyrene Aramaic language and script.
+                        A few inscriptions are in Syriac, comparable to the non-Christian <ref rend="bold" target="https://gedsh.bethmardutho.org/Inscriptions">inscriptions</ref> of <ref rend="bold" target="https://gedsh.bethmardutho.org/Edessa">
+                            <placeName ref="http://syriaca.org/place/78">Edessa</placeName>
+                        </ref> (most
+                        recently Bertolino, 54–8). In recent years Dura has received much scholarly
+                        attention for the ways in which different religious communities co-existed
+                        and interacted (Dirven; Elsner; Kaizer), while the exceptionally rich
+                        iconography of the Jewish synagogue has been studied in connection with
+                        early Christian art (Weitzman and Kessler).</p>
+                    <p>Among the many important archeological discoveries there is a Christian
+                        assembly house with a baptistery annexed to it. The baptistery is decorated
+                        with wall paintings, representing scenes from the <abbr>OT</abbr> (<choice>
+                            <sic>e.g.</sic>
+                            <corr>e.g., </corr>
+                        </choice>Adam and Eve,
+                        David and Goliath) as well as from the <abbr>NT</abbr> (<choice>
+                            <sic>e.g.</sic>
+                            <corr>e.g., </corr>
+                        </choice>the Good Shepherd, Christ
+                        walking on the water, Resurrection scenes). Inscriptions are in Greek; a
+                        graffito from the courtyard, however, may be interpreted as a Syriac
+                        alphabet (Bertolino, 57). A unique Greek parchment fragment containing some
+                        verses of the <ref rend="bold" target="https://gedsh.bethmardutho.org/Diatessaron">Diatessaron</ref>
+                        provides a further reference to Christianity in this garrison town around
+                        the middle of the 3rd <abbr>cent.</abbr>
+                    </p>
+                    <p>More significant for Syriac studies is the discovery, early in 1933, of a
+                        Syriac parchment (catalogued as P. Dura 28) describing the purchase made by
+                        a resident of <ref rend="bold" target="https://gedsh.bethmardutho.org/Harran">
+                            <placeName ref="http://syriaca.org/place/216">Ḥarran</placeName>
+                        </ref> of a twenty-eight year old female slave from an Edessene
+                        lady. The transaction is dated in ‘the month of Iyyar, the year 554 by the
+                        former reckoning’ and in ‘the year 31 of the Freedom of ... Edessa ...’,
+                        which is AD 243 (the Freedom of Edessa refers to the city gaining the status
+                        of a Roman <hi rend="italic">colonia</hi> in 213). This document bears
+                        witness to the use of Syriac as the language of official transactions in
+                        Edessa and its environs, in the middle of the 3rd <abbr>cent.</abbr> Situated outside the
+                        realm of Edessene Christianity, the language of this document is the
+                        continuation of the language used in inscriptions of Edessa and Osrhoene.
+                        Two more Syriac legal documents from the Middle Euphrates area, also dating
+                        from the early 240s, which came to light in the 1980s, provide further
+                        evidence to the use of Syriac for secular purposes (see <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Old-Syriac-documents">Old Syriac
+                            documents</ref>).</p>
+                    <p>See <ref target="https://gedsh.bethmardutho.org/fig/45">Fig. 45</ref> and <ref target="https://gedsh.bethmardutho.org/fig/94">94</ref>.</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>R.  Bertolino, <title rend="italic">Corpus des inscriptions
+                                sémitiques de Doura-Europos</title> (2004).</bibl>
+                        <bibl>L.  Dirven, <title rend="italic">The Palmyrenes of Dura-Europos. A
+                                study of religious interaction in Roman Syria</title> (Religions in
+                            the Graeco-Roman World 138; 1999).</bibl>
+                        <bibl>L.  Dirven, ‘Religious competition and the decoration of sanctuaries.
+                            The case of Dura-Europos’, <title rend="italic">
+                                <abbr>ECA</abbr>
+                            </title> 1 (2004),
+                            1–20.</bibl>
+                        <bibl>eadem, ‘Paradise lost, paradise regained: The meaning of Adam and Eve
+                            in the baptistery of Dura-Europos’, <title rend="italic">
+                                <abbr>ECA</abbr>
+                            </title> 5
+                            (2008), 43–57.</bibl>
+                        <bibl>Drijvers and Healey, <title rend="italic">The Old Syriac
+                                inscriptions</title>, 231–48.</bibl>
+                        <bibl>J.  Elsner, ‘Cultural resistance and the visual image: The case of
+                            Dura-Europos’, <title rend="italic">Classical Philology</title> 96
+                            (2001), 269–304.</bibl>
+                        <bibl>J. A.  Goldstein, ‘The Syriac bill of sale from Dura-Europos’, <title rend="italic">
+                                <abbr>JNES</abbr>
+                            </title> 25 (1966), 1–16.</bibl>
+                        <bibl>C.  Hopkins, <title rend="italic">The discovery of
+                                Dura-Europos</title>, <abbr>ed.</abbr> B.  Goldman (1979).</bibl>
+                        <bibl>T.  Kaizer, ‘Religion and language in Dura-Europos’, in <title rend="italic">From Hellenism to Islam. Cultural and linguistic
+                                change in the Roman Near East</title>, <abbr>ed.</abbr> H. M. Cotton <abbr>et al.</abbr>
+                            (2009), 235–53.</bibl>
+                        <bibl>C. H.  Kraeling and C.  Bradford Welles, <title rend="italic">The
+                                Christian Building</title> (The Excavations at Dura-Europos. Final
+                            Report, VIII, 2; 1967).</bibl>
+                        <bibl>Millar, <title rend="italic">Roman Near East</title>, 478–81.</bibl>
+                        <bibl>K.  Weitzmann and H. L.  Kessler, <title rend="italic">The frescoes of
+                                the Dura Synagogue and Christian art</title> (1990).</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Lucas</forename> 
+                  <surname>Van Rompay</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

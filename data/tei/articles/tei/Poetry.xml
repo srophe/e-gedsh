@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Poetry</title>
+            <author>
+               <persName>
+                  <forename>Sebastian P.</forename> 
+                  <surname>Brock</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0">Electronic Edition Draft Version 1.0</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Poetry</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Poetry</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/440</idno>
+                    <idno type="entry">431</idno>
+                    <milestone unit="pages" n="334-336"/>
+                    <note type="type">subject</note>
+                    <note type="abstract">The basic organizing principle of Syriac poetry is
+                        syllable (<foreign rend="italic" xml:lang="en-x-gedsh">hegyānā</foreign>)
+                            count.<note>not a summary</note>
+                    </note>
+                </ab>
+                <div type="body">
+                    <p>The basic organizing principle of Syriac poetry is syllable (<hi rend="italic">hegyānā</hi>) count. Although it has sometimes been
+                        claimed that stress patterns also played a role, this has never been
+                        satisfactorily substantiated. Rhyme is occasionally found in early poetry,
+                        but it is only used for special effect. The regular use of rhyme becomes a
+                        common feature from about the 9th <abbr>cent.</abbr> onwards, due to the influence of
+                        Arabic poetry. Acrostics, both alphabetic and spelling out the author’s
+                        name, are already found in <ref rend="bold" target="https://gedsh.bethmardutho.org/Ephrem">
+                            <persName ref="http://syriaca.org/person/13">Ephrem</persName>
+                        </ref>’s poetry.</p>
+                    <p>There are two main forms of poetry: 1. The <hi rend="italic">memrā</hi>, or
+                        narrative poem, employing couplets all in the same syllabic meter; the most
+                        common meters are those associated with <ref rend="bold" target="https://gedsh.bethmardutho.org/Balai">
+                            <persName ref="http://syriaca.org/person/27">Balai</persName>
+                        </ref> (5 syllable
+                        couplets), Ephrem (7 syllable couplets) and <ref rend="bold" target="https://gedsh.bethmardutho.org/Yaqub-of-Serugh">
+                            <persName ref="http://syriaca.org/person/42">Yaʿqub of
+                            Serugh</persName>
+                        </ref> (12 syllable couplets, with each line consisting of 4+4+4
+                        syllables). Other meters, such as 6+6 and 8+8 are less frequently found.
+                        Although the term <hi rend="italic">memrā</hi> has been conventionally
+                        translated by Latin <hi rend="italic">carmen</hi> ‘song’, <hi rend="italic">memre</hi> were probably recited rather than sung; 2. The stanzaic
+                        poem, or <hi rend="italic">madrāšā</hi> (often translated ‘hymn’); here each
+                        stanza (<hi rend="italic">baytā</hi>) follows the same syllabic pattern (<hi rend="italic">mšuḥtā</hi>). These patterns may either be simple, built
+                        up of units of the same number of syllables (<choice>
+                            <sic>e.g.</sic>
+                            <corr>e.g., </corr>
+                        </choice>stanzas of 5+5+5+5+5
+                        syllables), or complex (<choice>
+                            <sic>e.g.</sic>
+                            <corr>e.g., </corr>
+                        </choice>5+6 7+4 4+4 4+5). Ephrem already employs some
+                        50 syllabic patterns, or <hi rend="italic">qāle</hi>, and many more
+                        subsequently came into use; in this context the term <hi rend="italic">qālā</hi> properly denotes the melody to which the <hi rend="italic">madrāšā</hi> was to be sung, but the <hi rend="italic">qālā</hi> title
+                        also serves as an indicator of the meter and would usually be taken from the
+                        opening words of a particular <hi rend="italic">madrāšā</hi>; thus, for
+                        example, the <hi rend="italic">qālā</hi> title for Ephrem’s Nisibene <hi rend="italic">madrāšā</hi> no. 50 is given as <hi rend="italic">a(n)t
+                            mār(y) aktebtāh</hi>, which are the opening words of no. 10 of his <hi rend="italic">madrāše</hi> on Faith. According to some scholars the <hi rend="italic">madrāšā</hi> was not originally sung, and it was <ref rend="bold" target="https://gedsh.bethmardutho.org/Bardaisan">
+                            <persName ref="http://syriaca.org/person/3">Bardaiṣan</persName>
+                        </ref> who introduced that aspect (see McVey 1999).</p>
+                    <p>Later on, terms for certain sub-categories of the <hi rend="italic">madrāšā</hi> were introduced, notably <hi rend="italic">qālā</hi> and
+                            <hi rend="italic">soghithā</hi>. In the liturgical books <hi rend="italic">qālā</hi> became a generic term for stanzaic verse. The
+                        Chronicle of <ref rend="bold" target="https://gedsh.bethmardutho.org/Yeshu-the-Stylite">
+                            <persName ref="http://syriaca.org/person/40">Yeshuʿ the
+                            Stylite</persName>
+                        </ref> (chap. 54), composed in Yaʿqub of Serugh’s own lifetime,
+                        speaks of Yaʿqub as having composed <hi rend="italic">soghyāthā</hi> (and
+                            <hi rend="italic">zmirāthā</hi>) as well as <hi rend="italic">memre</hi>, and indeed a few of these survive, alongside his much more
+                        familiar <hi rend="italic">memre</hi>. In due course the term <hi rend="italic">soghithā</hi> came to designate four-line poems with a
+                        simple meter, usually 7+7 7+7 (or, in <abbr>Maron.</abbr> tradition, 8+8), with or
+                        without an alphabetic acrostic. A sub-category of the <hi rend="italic">soghithā</hi> was the dialogue, or dispute, poem (normally with an
+                        alphabetic acrostic), where two protagonists speak in alternating verses.
+                        This particular literary genre, taken up in many different languages of the
+                        Middle East, can be traced back to the precedence disputes of Ancient
+                        Mesopotamia, and it has remained popular right up to the present day (some
+                        examples in Neo-Aramaic dialects are known).</p>
+                    <p>Two Greek poetic repertoires were taken over (as prose translations) into the
+                        <abbr>Syr. Orth.</abbr> tradition, the <hi rend="italic">maʿnyotho</hi> of <ref rend="bold" target="https://gedsh.bethmardutho.org/Severus-of-Antioch">
+                            <persName ref="http://syriaca.org/person/51">Severus</persName>
+                        </ref> and others (often misleadingly entitled the
+                        Octoechos), and the <hi rend="italic">qonune</hi>, or ‘canons’. It was under
+                        the influence of Melkite translations of Greek ‘canons’ by <ref rend="bold" target="https://gedsh.bethmardutho.org/John-of-Damascus">
+                            <persName ref="http://syriaca.org/person/575">John of
+                            Damascus</persName>
+                        </ref>, Cosmas of Jerusalem, and others, that this particular
+                        new genre was adopted in the more westerly dioceses of the <abbr>Syr. Orth.</abbr>
+                        tradition: <hi rend="italic">qonune yawnoye</hi> ‘Greek canons’, largely
+                        translated from Greek, took as their starting point the Canticles (or Odes),
+                        while the <hi rend="italic">qonune suryoye</hi>, ‘Syriac canons’, were
+                        Syriac compositions, based on Ps. 51 (and other psalms).</p>
+                    <p>From about the 9th <abbr>cent.</abbr> Syriac began to adopt various features
+                        characteristic of Arabic poetry; most notable among these were various forms
+                        of rhyme (initial and internal, as well as end rhyme). The influence of
+                        Arabic can also be seen in many of the poems that make up <ref rend="bold" target="https://gedsh.bethmardutho.org/Abdisho-bar-Brikha">
+                            <persName ref="http://syriaca.org/person/310">ʿAbdishoʿ bar
+                            Brikha</persName>
+                        </ref>’s ‘Paradise of Eden’, where all sorts of artifices, such as
+                        lipograms, can be found; that these have continued to be appreciated is
+                        indicated by the considerable number of <abbr>mss.</abbr> (and several printed editions)
+                        of this work. At least one later writer composed picture poems: thus in 1616
+                        Gabriel, metropolitan of Ḥesno d-Kifo, provided such a poem in honour of
+                        Pope Paul V (illustrated in S. Giamil, <hi rend="italic">Genuinae relationes
+                            inter sedem apostolicam et Assyriorum orientalium seu Chaldaeorum
+                            ecclesiam</hi> [1902], 159).</p>
+                    <p>An early classification of the <hi rend="italic">qāle</hi> used by Ephrem is
+                        found in a 7th-cent. <abbr>ms.</abbr> on Sinai (<abbr>ed.</abbr> A. de Halleux, in <title rend="italic">
+                            <abbr>LM</abbr>
+                        </title> 85 [1972], 171–99). The first Syriac writer, however, to write a
+                        treatise on poetry was <ref rend="bold" target="https://gedsh.bethmardutho.org/Antun-of-Tagrit">
+                            <persName ref="http://syriaca.org/person/154">Anṭun of
+                            Tagrit</persName>
+                        </ref> (9th <abbr>cent.</abbr>); this forms Book 5 (<abbr>ed.</abbr> J. W. Watt) of his
+                        larger work on ‘Rhetoric’. <ref rend="bold" target="https://gedsh.bethmardutho.org/Yaqub-bar-Shakko">
+                            <persName ref="http://syriaca.org/person/231">Yaʿqub bar
+                            Shakko</persName>
+                        </ref> also devotes a section to the subject in his ‘Book of
+                        Dialogues’ (<abbr>ed.</abbr> J. P. P. Martin, with <abbr>FT</abbr>). In about the 12th/13th <abbr>cent.</abbr> the
+                        liturgical book known as the <hi rend="italic">Beth Gazo</hi> emerged,
+                        classifying the melodies used and arranging them according to the eight
+                        tones (a system that enters the <abbr>Syr. Orth.</abbr> liturgical tradition from about
+                        the 9th century, according to Cody); somewhat analogous to the Greek
+                        Heirmologion, the <hi rend="italic">Beth Gazo</hi> provides the model
+                        stanzas that accompanied each <hi rend="italic">qālā</hi>. A number of
+                        printed editions of these have been published, both in India (Pampakuda,
+                        undated, 1986, 1997) and in Europe, going back to an edition (1913) by
+                        Dolabani (Glane/Losser, 1981, 1985); and in a much fuller form, 1992, based
+                        primarily on a <abbr>ms.</abbr> of 1554; editions provided with western musical notation
+                        have been prepared by Nuri Iskander (Aleppo, 1996 and 2003); the former of
+                        these two volumes represents the <ref rend="bold" target="https://gedsh.bethmardutho.org/Mardin">
+                            <placeName ref="http://syriaca.org/place/130">Mardin</placeName>
+                        </ref> tradition
+                        (and includes an Introduction on Syriac music by Mor Grigorios Yūḥannā
+                        Ibrāhīm), while the latter represents that of <ref rend="bold" target="https://gedsh.bethmardutho.org/Edessa">
+                            <placeName ref="http://syriaca.org/place/78">Edessa</placeName>
+                        </ref>. (The musical
+                        aspects of the <hi rend="italic">Beth Gazo</hi> were the subject of a number
+                        of studies by J. Jeannin, H. Hussmann, and others). Many of the texts in an
+                        early Maronite <hi rend="italic">Beth Gazo</hi> (<abbr>ms.</abbr> Brit. Libr. Add.
+                        14,703, of the 12th/13th <abbr>cent.</abbr>) have been edited by J. Tabet (Kaslik,
+                        2001–4). (The E.-Syr. liturgical volume entitled Gazza is a hymnary of a
+                        different character).</p>
+                    <p>In the 17th <abbr>cent.</abbr> the great <abbr>Maron.</abbr>
+                        <abbr> Patr.</abbr> and scholar, <ref rend="bold" target="https://gedsh.bethmardutho.org/al-Duwayhi-Istifan">
+                            <persName ref="http://syriaca.org/person/460">Isṭifān
+                            al-Duwayhī</persName>
+                        </ref>, set out to classify the model strophes according to
+                        their syllabic meters; this has now been edited and translated by L.  Hage
+                        (1987). In recent times the learned metropolitan of Mardin, Mar <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Dolabani-Philoxenos-Yuhanon">
+                            <persName ref="http://syriaca.org/person/454">Philoxenos Yuḥanon Dolabani</persName>
+                        </ref> (d. 1969) wrote a short handbook on
+                        Syriac poetic form, published the year after his death (Aleppo, 1970); as he
+                        indicates in his preface, this is based on Anṭun and <ref rend="bold" target="https://gedsh.bethmardutho.org/Cardahi-Gabriel">
+                            <persName ref="http://syriaca.org/person/406">G.
+                        Cardahi</persName>
+                        </ref>’s <hi rend="italic">Liber thesauri de arte poetica
+                            syrorum</hi> (1875; an anthology of late poets, with Arabic
+                        introduction).</p>
+                    <p>Since verse has always frequently been a medium of instruction, it can be
+                        found used also for subjects that might surprise Western readers, such as
+                        exegesis, astronomy, chronology, and grammar.</p>
+                    <p>A list of the main Syriac poets in the <abbr>Syr. Orth.</abbr> tradition is given by <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Barsoum-Ignatius-Afram">
+                            <persName ref="http://syriaca.org/person/372">Barsoum</persName>
+                        </ref>, <choice>
+                            <sic>
+                                <hi rend="italic">Scattered pearls,</hi>
+                            </sic>
+                                <corr>
+                                <hi rend="italic">Scattered pearls</hi>,</corr>
+                        </choice> 35–8,
+                        where he provides four separate categories, according to their quality. His
+                        first category includes Ephrem, <ref rend="bold" target="https://gedsh.bethmardutho.org/Qurillona">
+                            <persName ref="http://syriaca.org/person/20">Qurillona</persName>
+                        </ref>, the
+                        various persons named <ref rend="bold" target="https://gedsh.bethmardutho.org/Ishaq">
+                            <persName ref="http://syriaca.org/person/549">Isḥaq</persName>
+                        </ref>, <ref rend="bold" target="https://gedsh.bethmardutho.org/Shemun-Quqoyo">
+                            <persName ref="http://syriaca.org/person/37">Shemʿun Quqoyo</persName>
+                        </ref>, Yaʿqub
+                        of Serugh, <ref rend="bold" target="https://gedsh.bethmardutho.org/Yaqub-of-Edessa">
+                            <persName ref="http://syriaca.org/person/113">Yaʿqub of
+                            Edessa</persName>
+                        </ref>, <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Giwargi-bp-of-the-Arab-tribes">
+                            <persName ref="http://syriaca.org/person/122">Giwargi <abbr>bp.</abbr> of the Arab tribes</persName>
+                        </ref>, Bar
+                        Sobto, Bar Qiqi, Bar Sabouni, Timotheos of Gargar, Bar Andrawos, <ref rend="bold" target="https://gedsh.bethmardutho.org/Yuhanon-bar-Madani">
+                            <persName ref="http://syriaca.org/person/236">Yuḥanon bar Maʿdani</persName>
+                        </ref>, and <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Bar-Ebroyo-Grigorios">
+                            <persName ref="http://syriaca.org/person/239">Bar ʿEbroyo</persName>
+                        </ref>. To
+                        these one might add, from the E.-Syr. tradition, <ref rend="bold" target="https://gedsh.bethmardutho.org/Narsai">
+                            <persName ref="http://syriaca.org/person/650">Narsai</persName>
+                        </ref>, <ref rend="bold" target="https://gedsh.bethmardutho.org/Eliya-of-al-Anbar">
+                            <persName ref="http://syriaca.org/person/471">Eliya of al-Anbār</persName>
+                        </ref>, <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Emmanuel-bar-Shahhare">
+                            <persName ref="http://syriaca.org/person/473">Emmanuel
+                            bar Shahhare</persName>
+                        </ref>, ʿAbdishoʿ of Soba, <ref rend="bold" target="https://gedsh.bethmardutho.org/Gewargis-Warda">
+                            <persName ref="http://syriaca.org/person/504">Gewargis
+                            Warda</persName>
+                        </ref>, and <ref rend="bold" target="https://gedsh.bethmardutho.org/Khamis-bar-Qardahe">
+                            <persName ref="http://syriaca.org/person/587">Khamis bar
+                            Qardaḥe</persName>
+                        </ref>. A large amount of poetry continues to be produced in
+                        Classical Syriac right up to the present day. Finally, it should not be
+                        forgotten that a great deal of anonymous poetry, for the most part
+                        transmitted in liturgical <abbr>mss.</abbr>, is of very high quality.</p>
+                    <p>See also <ref rend="bold" target="https://gedsh.bethmardutho.org/Onitha">
+                            <hi rend="italic">ʿOnitha</hi>
+                        </ref>.</p>
+                </div>
+                <div type="bibl">
+                    <listBibl>
+                        <listBibl>
+                            <head>Primary Sources</head>
+                            <bibl>Mar Philoxenos Yuḥanon Dawlabani, <title rend="italic">Puʾiṭuto</title> (Aleppo, 1970). (in Syriac and Arabic)</bibl>
+                            <bibl>L.  Hage, <title rend="italic">The Syriac model strophes and their
+                                    poetic meters by the Maronite Patriarch Stephen Douayhi</title>
+                                (<abbr>BUSEK</abbr> 14; 1987).</bibl>
+                            <bibl>J. P. P. Martin, <title rend="italic">De la métrique chez les
+                                    Syriens</title> (Abhandlungen für die Kunde des Morgenlandes,
+                                7:2; 1879). (for Yaʿqub bar Shakko)</bibl>
+                            <bibl>J. W.  Watt, <title rend="italic">The fifth book of the Rhetoric
+                                    of Antony of Tagrit</title> (<abbr>CSCO</abbr> 480–1; 1986).</bibl>
+                        </listBibl>
+                        <listBibl>
+                            <head>Secondary Sources</head>
+                            <bibl>S. P.  Brock, ‘The dispute poem: from Sumer to Syriac’, <title rend="italic">
+                                    <abbr>JCSSS</abbr>
+                                </title> 1 (2001), 3–10. (with further
+                                references)</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>S. P.  Brock</reg>
+                           <orig>idem</orig>
+                        </choice>, ‘Poetry and hymnography (3): Syriac’, in <title rend="italic">The Oxford Handbook of Early Christian
+                                    Studies</title>, <abbr>ed.</abbr> S. A. Harvey and D. Hunter (2008), 657–71.
+                                (with further references)</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>S. P.  Brock</reg>
+                           <orig>idem</orig>
+                        </choice>, ‘Dialogue and other sughyotho’, in <title rend="italic">Mélanges offerts au Prof. P. Louis Hage</title>, <abbr>ed.</abbr> A. Chahwan
+                                (2008), 363–84.</bibl>
+                            <bibl>A.  Cody, ‘The early history of the Octoechos in Syria’, in <title rend="italic">East of Byzantium</title>, <abbr>ed.</abbr> Garsoian <abbr>et al.</abbr>,
+                                89–114.</bibl>
+                            <bibl>L.  Hage, <title rend="italic">Musique maronite</title>, vol. 5–7.
+                                    <title rend="italic">Les strophes-types syriaques</title> (<abbr>BUSEK</abbr>
+                                42–44; 2001).</bibl>
+                            <bibl>G. Hölscher, <title rend="italic">Syrische Verskunst</title>
+                                (Leipziger semitistische Studien, NS 5; 1932). (reviewed by G.
+                                Bergsträsser, in <title rend="italic">Orientalische
+                                    Literaturzeitung</title> 36 [1933], 748–54)</bibl>
+                            <bibl>H. Husmann, ‘Die melkitische Liturgie als Quelle der syrischen
+                                Qanune iaonaie: Melitene und Edessa’, <title rend="italic">
+                                    <abbr>OCP</abbr>
+                                </title> 41 (1975), 5–56.</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>H. Husmann</reg>
+                           <orig>idem</orig>
+                        </choice>, ‘Zur Geschichte des Qala’, <title rend="italic">
+                                    <abbr>OCP</abbr>
+                                </title>
+                                45 (1979), 99–113.</bibl>
+                            <bibl>K.  McVey, ‘Were the earliest madrashe songs or recitations?’, in
+                                    <title rend="italic">After Bardaisan</title>, <abbr>ed.</abbr> Reinink and
+                                Klugkist (<abbr>OLA</abbr> 89), 185–99.</bibl>
+                            <bibl>A. N.  Palmer, ‘Akrostich poems: restoring Ephrem’s madrashe’,
+                                    <title rend="italic">
+                                    <abbr>Harp</abbr>
+                                </title> 15 (2002), 275–87.</bibl>
+                            <bibl>M.  Sprengling, ‘Antonius Rhetor on versification’, <title rend="italic">
+                                    <abbr>AJSLL</abbr>
+                                </title> 32 (1915–16), 145–216.</bibl>
+                        </listBibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Sebastian P.</forename> 
+                  <surname>Brock</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

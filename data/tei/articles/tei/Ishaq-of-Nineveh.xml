@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Isḥaq of Nineveh</title>
+            <author>
+               <persName>
+                  <forename>Sebastian P.</forename> 
+                  <surname>Brock</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0">Electronic Edition Draft Version 1.0</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Isḥaq of Nineveh</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Ishaq-of-Nineveh</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/286</idno>
+                    <idno type="entry">277</idno>
+                    <milestone unit="pages" n="213-214"/>
+                    <idno type="subject">http://syriaca.org/person/550</idno>
+                    <note type="type">person</note>
+                    <note type="abstract">Influential monastic author.<note>brief</note>
+                    </note>
+                </ab>
+                <ab type="infobox">(late 7th <abbr>cent.</abbr>) [Ch. of E.]</ab>
+                <div type="body">
+                    <p>Influential monastic author. Originating from <ref rend="bold" target="https://gedsh.bethmardutho.org/Beth-Qatraye">
+                            <placeName ref="http://syriaca.org/place/37">Beth Qaṭraye</placeName>
+                        </ref>,
+                        he was made <abbr>bp.</abbr> of <ref rend="bold" target="https://gedsh.bethmardutho.org/Nineveh">
+                            <placeName ref="http://syriaca.org/place/144">Nineveh</placeName>
+                        </ref> (<ref rend="bold" target="https://gedsh.bethmardutho.org/Mosul">
+                            <placeName ref="http://syriaca.org/place/139">Mosul</placeName>
+                        </ref>) by
+                        <abbr>Cath.</abbr> Gewargis (661–81), perhaps <abbr>ca.</abbr> 676/80. After a short while, however,
+                        he left (‘for reasons which only God knows’, as one of the two short
+                        biographical accounts puts it) and became a hermit, attached to the
+                        Monastery of Rabban Shabur, in the region of Shuster. His writings on
+                        monastic spirituality come down in several ‘Parts’, three of which are now
+                        known. The First Part, with 82  chapters, evidently circulated widely, and
+                        much of it was translated into Greek at the Chalcedonian Monastery of Mar
+                        Saba (St. Sabbas), near <ref rend="bold" target="https://gedsh.bethmardutho.org/Jerusalem">
+                            <placeName ref="http://syriaca.org/place/104">Jerusalem</placeName>
+                        </ref>, in the
+                        late 8th or early 9th <abbr>cent.</abbr> From Greek, his works were subsequently
+                        translated into many other languages, in particular into Slavonic (whence
+                        they were included in the Russian edition of the ‘Philokalia’). This Greek
+                        translation also included (under Isḥaq’s name) three short works by <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Yohannan-of-Dalyatha">
+                            <persName ref="http://syriaca.org/person/826">Yoḥannan of Dalyatha</persName>
+                        </ref>, and an abbreviated form of <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Philoxenos-of-Mabbug">
+                            <persName ref="http://syriaca.org/person/44">Philoxenos</persName>
+                        </ref>’s ‘Letter to Patricius’. The current printed editions
+                        of the Greek translation go back to that by N. Theotokis (1770), and have a
+                        different chapter numbering from that of the Syriac (a much-needed new
+                        edition of the Greek text is in preparation by M. Pirard). A Second Part,
+                        consisting of 41 chapters, is preserved complete in a single early <abbr>ms.</abbr> The
+                        long third chapter of this Part consists of four ‘Centuries’ of short
+                        sayings on spiritual knowledge (modelled on <ref rend="bold" target="https://gedsh.bethmardutho.org/Evagrius-of-Pontus">
+                            <persName ref="http://syriaca.org/person/483">Evagrius</persName>
+                        </ref>’s ‘Kephalaia Gnostica’). A Third Part has also recently come
+                        to light, in a <abbr>ms.</abbr> in Tehran copied <abbr>ca.</abbr> 1900; this contains 17 chapters, two
+                        of which are duplicates with the First Part, and one with the Second Part.
+                        Though the Second and Third Parts were not translated into Greek, some
+                        chapters from them have been identified in Arabic, and they were both
+                        evidently known in Syriac monastic circles outside the <abbr>Ch. of E.</abbr>, as well.
+                        The ‘Book of Grace’, probably by <ref rend="bold" target="https://gedsh.bethmardutho.org/Shemon-d-Taybutheh">
+                            <persName ref="http://syriaca.org/person/742">Shemʿon
+                            d-Ṭaybutheh</persName>
+                        </ref>, has sometimes been wrongly attributed to Isḥaq.</p>
+                    <p>Isḥaq’s monastic spirituality draws on many sources, both Syriac and Greek
+                        (in Syriac translation); two authors would appear to have been particularly
+                        appreciated by Isḥaq, <ref rend="bold" target="https://gedsh.bethmardutho.org/Yohannan-Ihidaya">
+                            <persName ref="http://syriaca.org/person/827">Yoḥannan
+                            Iḥidaya</persName>
+                        </ref> and Evagrius. His teaching lays great emphasis on the
+                        immensity of divine love and on the need for humanity to respond to this
+                        with wonder and humility.</p>
+                </div>
+                <div type="bibl">
+                    <listBibl>
+                        <listBibl>
+                            <head>Primary Sources</head>
+                            <listBibl>
+                                <head>Part 1</head>
+                                <bibl>P. Bedjan, <title rend="italic">Mar Isaacus Ninivita, de
+                                        Perfectione Religiosa</title> (1909; <abbr>repr.</abbr> 2007).
+                                    (Syr.)</bibl>
+                                <bibl>M.  Gallo and P. Bettiolo, <title rend="italic">Isacco di
+                                        Ninive. Discorsi ascetici</title> (1984). (<abbr>IT</abbr> of ch.
+                                    1–38)</bibl>
+                                <bibl>M.  Hansbury, <title rend="italic">
+                                        <choice>
+                                            <sic>St</sic>
+                                            <corr>St.</corr>
+                                        </choice> Isaac of Nineveh, on
+                                        Ascetical Life</title> (1989). (<abbr>ET</abbr> of ch. 1–6)</bibl>
+                                <bibl>[D. Miller], <title rend="italic">The Ascetical Homilies of
+                                        Saint Isaac the Syrian</title> (1984). (<abbr>ET</abbr> of Greek)</bibl>
+                                <bibl>J.  Touraille, <title rend="italic">Isaac le Syrien. Oeuvres
+                                        spirituelles</title> (1981). (<abbr>FT</abbr> of Greek)</bibl>
+                                <bibl>A. J.  Wensinck, <title rend="italic">Mystic Treatises by
+                                        Isaac of Nineveh</title> (1923). (<abbr>ET</abbr> of Syr.)</bibl>
+                                <bibl>[<abbr>AT</abbr> by I. Atallah (1998); partial <abbr>GT</abbr> by G. Bickell
+                                    (1874)]</bibl>
+                            </listBibl>
+                            <listBibl>
+                                <head>Part 2</head>
+                                <bibl>H. Alfeyev, <title rend="italic">Prepodobnij Isaak
+                                        Sirini</title> (1998). (<abbr>RT</abbr>)</bibl>
+                                <bibl>P.  Bettiolo, <title rend="italic">Isacco di Ninive. Discorsi
+                                        spirituali</title> (1985, 1990). (<abbr>IT</abbr> of Four
+                                    Centuries)</bibl>
+                                <bibl>S. P.  Brock, <title rend="italic">Isaac of Nineveh (Isaac the
+                                        Syrian). ‘The Second Part’, Chapters IV-XLI</title> (<abbr>CSCO</abbr>
+                                    224–225; 1995). (Syr. with <abbr>ET</abbr>)</bibl>
+                                <bibl>I. I.  Ica, Jr. <title rend="italic">Isaac Sirul. Cuvinte
+                                        catre singuratici. Partea II recent descoperita</title>
+                                    (2003). (Romanian trans.)</bibl>
+                                <bibl>N.  Kavvadas, <title rend="italic">Isaak tou Syrou
+                                        Askētika</title> (3 vols.; 2005–6). (Modern Greek
+                                    translation)</bibl>
+                                <bibl>A. Louf, <title rend="italic">Isaac le Syrien. Oeuvres
+                                        spirituelles</title> (2003). (<abbr>FT</abbr>)</bibl>
+                                <bibl>N.  Nin, <title rend="italic">Isaac de Níneve, Centúries sobre
+                                        el coneixement</title> (2005). (Catalan trans.)</bibl>
+                                <bibl>The edition of the first three chapters (with the Centuries)
+                                    is in preparation by P. Bettiolo.</bibl>
+                            </listBibl>
+                            <listBibl>
+                                <head>Part 3</head>
+                                <bibl>S.  Chialà, <title rend="italic">Isacco di Ninive. Discorsi
+                                        ascetici, terza collezione</title> (2004). (<abbr>IT</abbr>)</bibl>
+                                <bibl>[Edition of Syr. forthcoming by Chialà; selections from Parts
+                                    I and II: <abbr>IT</abbr>, by S. Chialà (Bose, 1999); <abbr>ET</abbr>, S. P.  Brock,
+                                        <title rend="italic">The Wisdom of <choice>
+                                            <sic>St</sic>
+                                            <corr>St.</corr>
+                                        </choice> Isaac of
+                                        Nineveh</title> (2006)]</bibl>
+                            </listBibl>
+                        </listBibl>
+                        <listBibl>
+                            <head>Secondary Sources</head>
+                            <bibl>H. Alfeyev, <title rend="italic">The Spiritual World of Isaac the
+                                    Syrian</title> (2000).</bibl>
+                            <bibl>S. P.  Brock, ‘From Qatar to Tokyo, by way of Mar Saba: the
+                                translations of Isaac of Beth Qatraye’, <title rend="italic">ARAM</title> 11/12 (1999/2000), 275–84.</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>S. P.  Brock</reg>
+                           <orig>idem</orig>
+                        </choice>, ‘Syriac into Greek at Mar Saba: the translation of St Isaac
+                                the Syrian’, in <title rend="italic">The Sabaite Heritage of the
+                                    Orthodox Church</title>, <abbr>ed.</abbr> J. Patrich (<abbr>OLA</abbr> 98; 2001),
+                                201–8.</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>S. P.  Brock</reg>
+                           <orig>idem</orig>
+                        </choice>, ‘Isaac the Syrian’, in <title rend="italic">La théologie
+                                    byzantine</title>, vol. 1, <abbr>ed.</abbr> G.  Conticello and V. Conticello
+                                (forthcoming).</bibl>
+                            <bibl>S.  Chialà, <title rend="italic">Dall’ascesi eremitica alla
+                                    misericordia infinita. Ricerche su Isacco di Ninive e la sua
+                                    fortuna</title> (2002).</bibl>
+                            <bibl>P.  Hagman, <title rend="italic">Understanding Asceticism. Body
+                                    and Society in the Asceticism of St Isaac of
+                                Nineveh</title> (2008).
+                            </bibl>
+                        </listBibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Sebastian P.</forename> 
+                  <surname>Brock</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

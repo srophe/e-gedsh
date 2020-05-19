@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Baghdad</title>
+            <author>
+               <persName>
+                  <forename>Hidemi</forename> 
+                  <surname>Takahashi</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0">Electronic Edition Draft Version 1.0</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Baghdad</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Baghdad</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/77</idno>
+                    <idno type="entry">68</idno>
+                    <milestone unit="pages" n="50-51"/>
+                    <idno type="subject">http://syriaca.org/place/41</idno>
+                    <note type="type">place</note>
+                    <note type="abstract">City on the <placeName ref="http://syriaca.org/place/202">Tigris</placeName>, approximately 35 km. north of
+                        Seleucia-Ctesiphon.<note/>
+                    </note>
+                </ab>
+                <div type="body">
+                    <p>City on the Tigris, approximately 35 km. north of <ref rend="bold" target="https://gedsh.bethmardutho.org/Seleucia-Ctesiphon">
+                            <placeName ref="http://syriaca.org/place/182">Seleucia-Ctesiphon</placeName>
+                        </ref>. The seat of the <abbr>Ch. of E.</abbr>
+                        <abbr> 
+                     <choice>
+                                <sic>Cath.</sic>
+                                <corr>cath.</corr>
+                            </choice>
+                        </abbr> under the
+                        Abbasids and the seat today of the <abbr>Chald.</abbr>
+                        <abbr> 
+                     <choice>
+                                <sic>Patr.</sic>
+                                <corr>patr.</corr>
+                            </choice>
+                        </abbr> and Ancient <abbr>Ch. of E.</abbr>
+                        <abbr> 
+                     <choice>
+                                <sic>Patr.</sic>
+                                <corr>patr.</corr>
+                            </choice>
+                        </abbr>
+                        ‘Baghdad’, whose etymology is disputed, was originally the name of one of
+                        the villages that stood on the site of the city founded by the second
+                        Abbasid caliph al-Manṣūr under the name of Madīnat al-Salām ‘City of Peace’
+                        in 762. Later Syriac authors often call the city ‘Babel’, <choice>
+                            <sic>i.e. </sic>
+                            <corr>i.e., </corr>
+                        </choice>Babylon. From
+                        762 until 1258, when it was taken by Hulagu (except in 836–92, when the
+                        caliphs resided in Sāmarrāʾ), Baghdad was the seat of the Abbasid caliphate,
+                        and in the first half of that period was among the most prosperous and
+                        culturally advanced cities in the world. Capital of a province corresponding
+                        largely to the central part of today’s Iraq under the Ottomans (1534–1623,
+                        1638–1918), Baghdad became the capital of the newly formed state of Iraq in
+                        1921.</p>
+                    <p>The first <abbr>Ch. of E.</abbr>
+                        <abbr> 
+                     <choice>
+                                <sic>Cath.</sic>
+                                <corr>cath.</corr>
+                            </choice>
+                        </abbr> to spend time in Baghdad was Yaʿqob II (753–73),
+                        namely in a prison there, an experience shared by the <abbr>Syr. Orth.</abbr>
+                        <abbr> Patr.</abbr> 
+                  <ref rend="bold" target="https://gedsh.bethmardutho.org/Giwargis-of-Beltan">
+                            <persName ref="http://syriaca.org/person/139">Giwargis</persName>
+                        </ref> I (759–90) and the <abbr>Melk.</abbr>
+                        <abbr> Patr.</abbr> Theodoros
+                        (751–97). <abbr>Cath.</abbr> 
+                  <ref rend="bold" target="https://gedsh.bethmardutho.org/Henanisho-II">
+                            <persName ref="http://syriaca.org/person/532">Ḥenanishoʿ II</persName>
+                        </ref>
+                        (773–80), though elected in the Monastery of Mar Petion in Baghdad,
+                        continued to reside in Seleucia-Ctesiphon. With <ref rend="bold" target="https://gedsh.bethmardutho.org/Timotheos-I">
+                            <persName ref="http://syriaca.org/person/790">Timotheos I</persName>
+                        </ref>
+                        (780–823) the Catholicoi begin to reside permanently in Baghdad. Major
+                        groups of Christians who settled in the city came from earlier <abbr>E. Syr.</abbr>
+                        centers at <ref rend="bold" target="https://gedsh.bethmardutho.org/Hirta">
+                            <placeName ref="http://syriaca.org/place/219">Ḥirta</placeName>
+                        </ref>, Kashkar (al-Wāsiṭ), and <ref rend="bold" target="https://gedsh.bethmardutho.org/Beth-Garmai">
+                            <placeName ref="http://syriaca.org/place/33">Beth Garmai</placeName>
+                        </ref>.
+                        W.-Syr. Christians also had a significant presence in Baghdad by the end of
+                        the 8th <abbr>cent.</abbr> Beginning with Timotheos I himself, in the period down to the
+                        middle of the 11th <abbr>cent.</abbr>, Syr. Christian scholars played a vital role in the
+                        intellectual life of Baghdad, especially as physicians and as translators of
+                        Greek philosophical and scientific works into Arabic — scholars such as <ref rend="bold" target="https://gedsh.bethmardutho.org/Hunayn-b-Ishaq">
+                            <persName ref="http://syriaca.org/person/542">Ḥunayn
+                            <abbr>b.</abbr> Isḥāq</persName>
+                        </ref> (d. 873), Abū Bishr Mattā <abbr>b.</abbr> Yūnus (d. 940), <ref rend="bold" target="https://gedsh.bethmardutho.org/Yahya-b-Adi">
+                            <persName ref="http://syriaca.org/person/180">Yaḥyā <abbr>b.</abbr>
+                            ʿAdī</persName>
+                        </ref> (893–974), and <ref rend="bold" target="https://gedsh.bethmardutho.org/Ibn-al-Tayyib">
+                            <persName ref="http://syriaca.org/person/543">Abū al-Faraj ibn
+                                al-Ṭayyib</persName>
+                        </ref> (d. 1043), to name but a few (see <ref rend="bold" target="https://gedsh.bethmardutho.org/Medicine">medicine</ref> and <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Greek-Syriac-translations-from">Greek, Syriac translations from</ref>). Though not subject to official
+                        persecutions as occurred earlier under the Sasanians, the Christians in
+                        Baghdad were subject to certain discriminations and were vulnerable to
+                        attacks by the populace, especially at times of instability under weak
+                        governments, which was often the case from the middle of the 10th <abbr>cent.</abbr>
+                        onwards.</p>
+                    <p>The residences of the Catholicoi generally followed the movement of the
+                        political and commercial center of the city. In the first period, they
+                        resided on the right bank of the Tigris, in the Monastery of Klil Ishoʿ
+                        (also called Dayr al-Jāthalīq ‘Monastery of the Catholicos’) to the south of
+                        the ‘Round City’, where most of the Catholicoi from Timotheos I to Sargis I
+                        (860–72) were buried, and in the Monastery of Mar Petion (Dayr al-ʿAtīqa) in
+                        the former village of Sūrāyā (al-ʿAtīqa) to the east of the Round City,
+                        which predated the foundation of Madīnat al-Salām and was restored by
+                        Sabrishoʿ II (831–35). Yoḥannan II (884–91) was the first Catholicos to
+                        establish his residence on the left bank, in the Shammāsiyya Quarter in the
+                        northern part of the walled city of that period. Most of the Catholicoi from
+                        Yoḥannan III (893– 899) to Eliya II (1111–32) resided there and were buried
+                        in the ‘Palace of the Greeks’ (Dār al-Rūm). Barṣawma  I (1134–36) moved his
+                        residence south to the Church of Mar Sabrishoʿ in Sūq al-Thalātha, and
+                        Yahbalaha II (1190–1222) to the Church of St. Mary in the Karkh Quarter on
+                        the west bank. After the fall of Baghdad to the initially pro-Christian
+                        Mongols, Makkika  II (1257–65) was given a group of buildings centered
+                        around the mansion of a former vizier on the Tigris as his residence, but
+                        his successor Denḥa I (1265–81) was forced to withdraw to <ref rend="bold" target="https://gedsh.bethmardutho.org/Arbela">
+                            <placeName ref="http://syriaca.org/place/13">Arbela</placeName>
+                        </ref> by Muslim
+                        reactions against Mongol rule in the city. <ref rend="bold" target="https://gedsh.bethmardutho.org/Yahbalaha-III">
+                            <persName ref="http://syriaca.org/person/810">Yahbalaha III</persName>
+                        </ref>
+                        (1281–1317), <ref rend="bold" target="https://gedsh.bethmardutho.org/Timotheos-II">
+                            <persName ref="http://syriaca.org/person/791">Timotheos II</persName>
+                        </ref>
+                        (1318–32) and, probably, Denḥa II (mid-14th <abbr>cent.</abbr>) were still consecrated in
+                        Baghdad, but normally resided away from Baghdad in northern Iraq and
+                        (today’s Iranian) Azerbaijan.</p>
+                    <p>Ḥabib, the first known <abbr>Syr. Orth.</abbr>
+                        <abbr> bp.</abbr> of Baghdad, is attested in 818. Among
+                        the churches belonging to the <abbr>Syr. Orth.</abbr> community in Baghdad was that of
+                        Mār Tūmā, the burial place of Yaḥyā <abbr>b.</abbr> ʿAdī, in the Christian quarter
+                        (Qaṭīʿat al-Naṣārā) to the south of the Round City. <abbr>Ch. of E.</abbr>
+                        <abbr> 
+                     <choice>
+                                <sic>Cath.</sic>
+                                <corr>cath.</corr>
+                            </choice>
+                        </abbr> Yoḥannan
+                        V (1000–11) succeeded in obtaining a decree from the caliph forbidding the
+                        long-term residence of <abbr>Syr. Orth.</abbr> maphrians in Baghdad during a visit to the
+                        city by Maph. Ignatius bar Qiqi (991–1016) in 1003/4. Nevertheless, <ref rend="bold" target="https://gedsh.bethmardutho.org/Yuhanon-bar-Madani">
+                            <persName ref="http://syriaca.org/person/236">Yuḥanon bar Maʿdani</persName>
+                        </ref> (Maphr. 1232–53, <abbr>
+                            <choice>
+                                <sic>Patr.</sic>
+                                <corr>patr.</corr>
+                            </choice>
+                        </abbr> 1253–63) was later
+                        able to spend several years of his maphrianate in Baghdad, devoting part of
+                        that time to the study of Arabic literature. The last pre-modern <abbr>Syr. Orth.</abbr>
+                        <abbr>bp.</abbr> of Baghdad was Timotheos Yeshuʿ, ordained there by <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Bar-Ebroyo-Grigorios">
+                            <persName ref="http://syriaca.org/person/239">Bar
+                            ʿEbroyo</persName>
+                        </ref> in 1265.</p>
+                    <p>Little is heard of the Christians in Baghdad after the sack of the city by
+                        Timur in 1401, and it is only in the 17th <abbr>cent.</abbr> that we have evidence again
+                        of the presence of Christians in any significant numbers. From the middle of
+                        the 19th <abbr>cent.</abbr>, the <abbr>Chald.</abbr> patriarchs (bearing the title ‘of Babylon’),
+                        though normally resident in <ref rend="bold" target="https://gedsh.bethmardutho.org/Mosul">
+                            <placeName ref="http://syriaca.org/place/139">Mosul</placeName>
+                        </ref>, often visited
+                        Baghdad. Two of them, Yoḥannan  VIII Hormizd (1830–38) and ʿAbdishoʿ V
+                        Khayyāṭ (1895–99), died and were buried in Baghdad. The <abbr>Chald.</abbr> patriarchate
+                        was transferred from Mosul to Baghdad de facto under Yawsep VII Ghanīma
+                        (1947–58) and officially under Pawlos II Cheikho (1958–89). The <abbr>Ch. of E.</abbr>
+                        <abbr>Patr.</abbr> Shemʿon XX Pawlos (1918–20), who died as a refugee in Baʿqūba, was
+                        interred in Baghdad. The <abbr>Ch. of E.</abbr> has had a bishop in Baghdad since 1951.
+                        Baghdad has been the seat of the patriarchs of the Ancient Church of the
+                        East since 1968, when <ref rend="bold" target="https://gedsh.bethmardutho.org/Darmo-Toma">
+                            <persName ref="http://syriaca.org/person/441">Toma Darmo</persName>
+                        </ref>
+                        (d.  1969) was elected patriarch there by those opposed to the introduction
+                        of the Gregorian calendar in the <abbr>Ch. of E.</abbr> The Syr. Catholic Church has had
+                        a <abbr>bp.</abbr> resident in Baghdad since 1862. The new <abbr>Syr. Orth.</abbr> see of Baghdad and
+                        Baṣra was erected in 1960, and has had the scholar Būlus Behnām (<abbr>metr.</abbr>
+                        1962–69) and the future patriarch Severus (later Ignatius) Zakkā ʿIwāṣ
+                        (<abbr>metr.</abbr> 1969–80, <abbr>
+                            <choice>
+                                <sic>Patr.</sic>
+                                <corr>patr.</corr>
+                            </choice>
+                        </abbr> 1980–) as its occupants.</p>
+                    <p>There are around fifty churches of various denominations in the city today
+                        (including 24 <abbr>Chald.</abbr>, 7 <abbr>Syr. Orth.</abbr>, 4 <abbr>Ch. of E.</abbr>, 3 Syr. Catholic, and 2
+                        Ancient <abbr>Ch. of E.</abbr> in regular use, according to S. Rassam, <hi rend="italic">Christianity in Iraq</hi>, 2005). The oldest is that of<choice>
+                            <sic/>
+                            <corr> the</corr>
+                        </choice> Virgin Mary on
+                        al-Maydān Square near the northern end of the Ottoman city area, built in
+                        1639 and now in Armenian Orthodox hands. A number of churches were founded
+                        in the 19th  cent. in the area that came to be called ʿAqd al-Naṣārā nearer
+                        the center of the old city, including the <abbr>Chald.</abbr> Church of Mary Mother of
+                        Sorrows (Umm al-Aḥzān; place of burial of <abbr>Patr.</abbr> Yoḥannan VIII, ʿAbdishoʿ V,
+                        and Pawlos II) and the former <abbr>Syr. Cath.</abbr> cathedral, as well as the Latin
+                        church now used by the Coptic Orthodox. Many of the newer representative
+                        churches are found in the area to the southeast of the city center,
+                        including the new <abbr>Syr. Cath.</abbr> Cathedral of Our Lady of Deliverance/Sayyidat
+                        al-Najāt (1968, commonly called Umm al-Ṭāq) and the <abbr>Chald.</abbr> Church of St.
+                        Joseph (Kharbanda, 1956; place of burial of <abbr>Patr.</abbr> Yawsep VII) in the eastern
+                        part of al-Karrāda. The <abbr>Syr. Orth.</abbr> cathedral (Sts. Peter and Paul, 1964) is
+                        located further east near the University of Technology, and the Ancient
+                        Church of the East cathedral (Virgin Mary, 1988) further southeast in Ḥayy
+                        al-Riyāḍ. Another important Christian area of the city is al-Dawra to the
+                        south of the large bend of the Tigris, including the ‘Assyrian Quarter’
+                        (Ḥayy al-Āthūriyyīn) in its southern part and Ḥayy al-Mīkānīk further south
+                        with the Ch. of E. Church of Mar Zaya (built to replace the former
+                        Cathedral of Mar Zaya in Karrādat Maryam which was demolished by the
+                        government in 1985) and the Pontifical Babel College for Philosophy and
+                        Theology (founded in 1991, temporarily transferred to ʿAynkawa near Arbela
+                        in 2007). Many of the churches in Baghdad have been the targets of terrorist
+                        attacks in the period of instability since 2003.</p>
+                    <p>The Syriac Corporation of the Iraqi Academy of Science, originally founded as
+                        the Syriac Academy in 1975, has played an important role in the promotion of
+                        the academic study of Syriac. A Department of Syriac Language was
+                        established at the University of Baghdad in 2004. The troubles since 2003
+                        have had adverse effects on the state of Syriac and Christian Arabic <abbr>mss.</abbr> in
+                        Baghdad, including those in major collections, such as those of the <abbr>Chald.</abbr>
+                        Monastery of St. Antony (collection formerly at the Monastery of Our Lady of
+                        the Seeds at <ref rend="bold" target="https://gedsh.bethmardutho.org/Alqosh">
+                            <placeName ref="http://syriaca.org/place/19">Alqosh</placeName>
+                        </ref>), the <abbr>Chald.</abbr> Patriarchate (incorporating collections from
+                        elsewhere in Iraq) and the <abbr>Ch. of E.</abbr> Archbishopric, as well as those in
+                        other ecclesiastical, public and private collections.</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>M.  Allard, ‘Les chrétiens à Baġdād’, <title rend="italic">Arabica</title> 9 (1962), 375–88.</bibl>
+                        <bibl>A. A.  Duri, in  <title rend="italic">EI</title>
+                            <hi rend="superscript">2</hi>, vol. 1 (1960), 894–908.</bibl>
+                        <bibl>J.-M.  Fiey, <title rend="italic">Chrétiens syriaques sous les
+                                Abbassides surtout à Bagdad (749–1258)</title> (<abbr>CSCO</abbr> 420;
+                            1980).</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>J.-M.  Fiey</reg>
+                        <orig>idem</orig>
+                     </choice>, ‘Résidences et sépultures des patriarches syriaques-orientaux’,
+                                <title rend="italic">
+                                <abbr>LM</abbr>
+                            </title> 98 (1985), 149–68.</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>J.-M.  Fiey</reg>
+                        <orig>idem</orig>
+                     </choice>, <title rend="italic">Pour un Oriens christianus novus</title>,
+                            57, 173–4.</bibl>
+                        <bibl>J. Habbi, ‘Manuscrits arabes chrétiens en Iraq’, <title rend="italic">
+                                <abbr>ParOr</abbr>
+                            </title> 22 (1997), 361–80.</bibl>
+                        <bibl>H. Kaufhold, ‘Bagdad’, in <title rend="italic">
+                                <abbr>KLCO</abbr>
+                            </title>,
+                            92–3.</bibl>
+                        <bibl>Wilmshurst, <title rend="italic">Ecclesiastical organisation</title>,
+                            182–7.</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Hidemi</forename> 
+                  <surname>Takahashi</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

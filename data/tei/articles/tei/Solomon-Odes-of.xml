@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Solomon, Odes of</title>
+            <author>
+               <persName>
+                  <forename>Michael</forename> 
+                  <surname>Lattke</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0">Electronic Edition Draft Version 1.0</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Solomon, Odes of</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Solomon-Odes-of</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/527</idno>
+                    <idno type="entry">518</idno>
+                    <milestone unit="pages" n="383-384"/>
+                    <idno type="althead" subtype="altorder">Odes of Solomon</idno>
+                    <note type="type">work</note>
+                    <note type="abstract">Collection of 42 short lyric poems; dating perhaps from the 2nd century.<note/>
+                    </note>
+                </ab>
+                <div type="body">
+                    <p>The Odes of Solomon consist of 42 short lyric poems, of which the Syriac
+                        version is preserved almost complete, while Ode 11 is also known in Greek,
+                        and five Odes in Coptic (including 1, lost in Syriac). At least some of them
+                        seem to have been composed in Greek. The editio princeps was by J. R. Harris
+                        in 1909 (2nd <abbr>ed.</abbr> 1911, after F. C. Burkitt had discovered a second, even
+                        more incomplete <abbr>ms.</abbr>). In both Syriac <abbr>mss.</abbr>, H and N, the Odes of Solomon are
+                        followed by the 18  Psalms of Solomon. It should be noted that one and the
+                        same Syriac term (viz. <hi rend="italic">zmirtā</hi>) is used for both,
+                        ‘Ode’ and ‘Psalm’. Before the discovery of the Syriac texts of Odes of
+                        Solomon 3–42 (H) and 17–42 respectively (N, sometimes labelled B) our
+                        knowledge of these enigmatic poems (also described as hymns, psalms, and
+                        songs) was restricted to the Latin quotation of Solomon’s ‘ode’ 19.6–7a by
+                        Lactantius (early 4th <abbr>cent.</abbr>), the listing of ‘Psalms and Odes of Solomon’ as
+                        <abbr>OT</abbr> 
+                  <hi rend="italic">antilegomena</hi> in the so-called ‘Synopsis’ of
+                        Pseudo-Athanasius (7th <abbr>cent.</abbr>) and the ‘Stichometria’ ascribed to Nikephoros
+                        (8th– 9th <abbr>cent.</abbr>), and the Coptic version of Solomon’s ‘odes’ 1, 5, 6, 22,
+                        and 25 quoted in the Gnostic work ‘Pistis Sophia’ (3rd <abbr>cent.</abbr>; <hi rend="italic">Codex</hi> A, 4th <abbr>cent.</abbr>). These five pieces were taken
+                        from a Greek collection in which the Odes of Solomon were preceded, not
+                        followed, by the Psalms of Solomon. In 1959 the Greek text of Ode 11 was
+                        published by M. Testuz (<hi rend="italic">Papyrus Bodmer</hi>, XI [3rd– 4th
+                        <abbr>cent.</abbr>]). In the Syriac version of this very ode we find the only verse (viz.
+                        11.23a) which has left a clear trace in Syriac literature (cf. Ephrem, ‘On
+                        Paradise’, 7.21). The author(s), date, and place of origin are unknown. It
+                        is, however, probable that the anonymous odes later attributed to Solomon
+                        were composed and used by gnosticising Christians in bilingual Syria as
+                        early as the 2nd <abbr>cent.</abbr> In form and content they appear to be strongly
+                        influenced by biblical language and show some connection with texts from
+                        Qumran. The Saviour is also called Lord, Son, and Messiah, but never appears
+                        under the name of Jesus. Dominant theological terms are Spirit, God, Lord,
+                        Most High, and Father. Among the most important soteriological concepts are
+                        grace, joy, knowledge, life, light, love, rest, truth, and word.</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>J. H.  Charlesworth, <title rend="italic">The Odes of
+                                Solomon</title> (1973; 2nd <abbr>ed.</abbr> 1977).</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>J. H.  Charlesworth</reg>
+                        <orig>idem</orig>
+                     </choice>, <title rend="italic">Papyri and leather manuscripts of the Odes
+                                of Solomon</title> (1981). (includes photos)</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>J. H.  Charlesworth</reg>
+                        <orig>idem</orig>
+                     </choice>, <title rend="italic">Critical reflections on the Odes of
+                                Solomon</title>, vol. 1. <title rend="italic">Literary setting,
+                                textual studies, Gnosticism, the Dead Sea Scrolls and the Gospel of
+                                John</title> (Journal for the Study of the Pseudepigrapha Suppl.
+                            Ser. 22; 1998).</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>J. H.  Charlesworth</reg>
+                        <orig>idem</orig>
+                     </choice>, <title rend="italic">The earliest Christian hymnbook: The Odes
+                                of Solomon</title> (2009). (<abbr>ET</abbr>)</bibl>
+                        <bibl>C.  Colpe, ‘Die Christologie der Oden Salomos im Zusammenhang von
+                            Gnosis und Synkretismus’, in <title rend="italic">Mein Haus wird ein
+                                Bethaus für alle Völker genannt werden (Jes 56,7). Judentum seit der
+                                Zeit des Zweiten Tempels in Geschichte, Literatur und Kult.
+                                Festschrift für Thomas Willi zum 65. Geburtstag</title>, <abbr>ed.</abbr> J.
+                            Männchen (with T. Reiprich) (2007), 39–52.</bibl>
+                        <bibl>H. J. W. Drijvers, ‘Die Oden Salomos und die Polemik mit den
+                            Markioniten im syrischen Christentum’, in <abbr>
+                                <title rend="italic">SymSyr</title> II</abbr>, 39–55. (<abbr>repr.</abbr> in <title rend="italic">East of
+                                Antioch</title> [1984], ch. VII)</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>H. J. W. Drijvers</reg>
+                        <orig>idem</orig>
+                     </choice>, ‘The 19th Ode of Solomon: Its interpretation and place in Syrian
+                            Christianity’, <title rend="italic">
+                                <abbr>JTS</abbr>
+                            </title>
+                            <abbr> ns</abbr> 31 (1980), 337–55.
+                            (<abbr>repr.</abbr> in <title rend="italic">East of Antioch</title> [1984], ch.
+                            IX)</bibl>
+                        <bibl>M.  Franzmann, <title rend="italic">The Odes of Solomon</title> (Novum
+                            Testamentum et orbis antiquus 20; 1991).</bibl>
+                        <bibl>J. R.  Harris and A.  Mingana, <title rend="italic">The Odes and
+                                Psalms of Solomon</title> (2 vols.; 1916, 1920).</bibl>
+                        <bibl>H.  Koester, <title rend="italic">History and literature of early
+                                Christianity</title> (2nd <abbr>ed.</abbr> 2000), 222–4.</bibl>
+                        <bibl>M.  Lattke, <title rend="italic">Die Oden Salomos in ihrer Bedeutung
+                                für Neues Testament und Gnosis</title> (Orbis biblicus et Orientalis
+                            25.1, 1a, 2–4; 1979–1998).</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>M.  Lattke</reg>
+                        <orig>idem</orig>
+                     </choice>, <title rend="italic">Oden Salomos</title> (<abbr>FC</abbr> 19; 1995).</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>M.  Lattke</reg>
+                        <orig>idem</orig>
+                     </choice>, <title rend="italic">Oden Salomos: Text, Übersetzung,
+                                Kommentar</title>, 1–3 (Novum Testamentum et orbis antiquus 41.1–3;
+                            1999–2005).</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>M.  Lattke</reg>
+                        <orig>idem</orig>
+                     </choice>, ‘Titel, Überschriften und Unterschriften der sogenannten Oden
+                            und Psalmen Salomos’, in <title rend="italic">For the Children, Perfect
+                                Instruction: Studies in Honor of Hans-Martin Schenke</title>, <abbr>ed.</abbr>
+                            H.-G.  Bethge <abbr>et al.</abbr> (Nag Hammadi et Manichaean Studies 54; 2002),
+                            439–47.</bibl>
+                        <bibl>M.  Lattke, ‘Die Oden Salomos: Einleitungsfragen und
+                            Forschungsgeschichte’, <title rend="italic">
+                                <abbr>ZNW</abbr>
+                            </title> 98 (2007),
+                            277–307.</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>M.  Lattke</reg>
+                        <orig>idem</orig>
+                     </choice>, ‘Druckfehler, Ergänzungen und Verbesserungen im Kommentar zu den
+                            Oden Salomos’, online at <ref type="url"
+                          target="http://espace.library.uq.edu.au/view.php?pid=UQ:13861">http://espace.library.uq.edu.au/view.php?pid=UQ:13861</ref>.</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>M.  Lattke</reg>
+                        <orig>idem</orig>
+                     </choice>, <title rend="italic">Odes of Solomon</title> (Hermeneia. A
+                            critical and historical commentary on the Bible; 2009).</bibl>
+                        <bibl>M.-J. Pierre, <title rend="italic">Les Odes de Salomon</title>
+                            (1994).</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Michael</forename> 
+                  <surname>Lattke</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

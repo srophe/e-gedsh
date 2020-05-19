@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">ʿAbdishoʿ bar Bahrīz</title>
+            <author>
+               <persName>
+                  <forename>Barbara H.</forename> 
+                  <surname>Roggema</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0">Electronic Edition Draft Version 1.0</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>ʿAbdishoʿ bar Bahrīz</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Abdisho-bar-Bahriz</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/13</idno>
+                    <idno type="entry">4</idno>
+                    <milestone unit="pages" n="2-3"/>
+                    <idno type="subject">http://syriaca.org/person/309</idno>
+                    <note type="type">person</note>
+                    <note type="abstract">Logician, theologian, legal scholar, translator, and
+                        metropolitan, first of <placeName>Ḥarran</placeName>, and later of
+                            <placeName ref="http://syriaca.org/place/2346">Mosul</placeName> and
+                            <placeName ref="http://syriaca.org/place/6">Ḥazza</placeName>.<note/>
+                    </note>
+                </ab>
+                <ab type="infobox">(<abbr>fl.</abbr> first quarter of 9th <abbr>cent.</abbr>) [Ch. of E]</ab>
+                <div type="body">
+                    <p>Logician, theologian, legal scholar, translator, and metropolitan, first of
+                            <ref rend="bold" target="https://gedsh.bethmardutho.org/Harran">
+                            <placeName ref="http://syriaca.org/place/216">Ḥarran</placeName>
+                        </ref>, and later of <ref rend="bold" target="https://gedsh.bethmardutho.org/Mosul">
+                            <placeName ref="http://syriaca.org/place/139">Mosul</placeName>
+                        </ref> and Ḥazza. The
+                        name ‘Bahrīz’ reveals his Persian descent. Ḥabīb was probably his given name
+                        and ʿAbdishoʿ his ecclesiastical name. Most of our information about
+                        ʿAbdishoʿ derives from Muslim sources, most importantly from Ibn al-Nadīm,
+                        who mentions that he translated many works of logic and philosophy, and that
+                        he wrote commentaries on classical works for the Abbasid Caliph al-Maʾmūn
+                        (d. 833), and made summaries of <ref rend="bold" target="https://gedsh.bethmardutho.org/Aristotle">
+                            <persName ref="http://syriaca.org/person/342">Aristotle</persName>
+                        </ref>’s
+                        ‘Categories’ and ‘On Interpretation’. Ibn al-Nadīm also makes reference to
+                        his works in defense of ‘Nestorian’ Christology, among which is a response
+                        to two works by a <abbr>Syr. Orth.</abbr>, in which ʿAbdishoʿ refuted the <abbr>Syr. Orth.</abbr> and
+                        <abbr>Melk.</abbr> belief in the ‘oneness of hypostasis’ (in Christ), and hence showed
+                        that ‘his wisdom was close to the wisdom of Islam’. In an anonymous report
+                        of a brief Christological discussion between ‘ʿAbdishoʿ, the Nestorian
+                        Muṭrān, <ref rend="bold" target="https://gedsh.bethmardutho.org/Theodoros-Abu-Qurra">
+                            <persName ref="http://syriaca.org/person/782">Abū
+                            Qurra</persName>
+                        </ref>, the Melkite Bishop, and Abū Rāʾiṭa, the Jacobite’ before a
+                        Muslim vizier (<abbr>ed.</abbr> with <abbr>ET</abbr> by Toenies Keating), the name of the ‘Nestorian’
+                        has been taken by most modern scholars as a reference to <abbr>Cath.</abbr> 
+                  <ref rend="bold" target="https://gedsh.bethmardutho.org/Isho-bar-Nun">
+                            <persName ref="http://syriaca.org/person/552">Ishoʿ
+                            bar Nun</persName>
+                        </ref> (823–28), but it is more likely that this name points to
+                        ʿAbdishoʿ bar Bahrīz, who was also a contemporary of these interlocutors.
+                        ʿAbdishoʿ’s apologetic work entitled <hi rend="italic">Maqāla fī al-tawḥīd
+                            wa-al-tathlīth</hi>, ‘Treatise on the Unity and Trinity (of God)’
+                        possibly still survives in <abbr>mss.</abbr> in Syria that have remained inaccessible so
+                        far (see Swanson). Of two works that have been published, one is in Syriac
+                        and one in Arabic. The former is his legal handbook on marriage and
+                        inheritance law (<abbr>ed.</abbr> Selb), the latter a treatise on logic based on
+                        Aristotle’s ‘Categories’ and <ref rend="bold" target="https://gedsh.bethmardutho.org/Porphyry">
+                            <persName ref="http://syriaca.org/person/684">Porphyry</persName>
+                        </ref>’s
+                        ‘Isagoge’ (<abbr>ed.</abbr> Dānishpazhūh). This work on logic, <hi rend="italic">Kitāb
+                            ḥudūd al-manṭiq</hi>, was commissioned by Caliph al-Maʾmūn. ʿAbdishoʿ’s
+                        connection with the Abbasid elite is further evidenced by the fact that he
+                        translated Nicomachus’s ‘Introduction to Arithmetic’ from Syriac into
+                        Arabic, for the Abbasid general Ṭāhir <abbr>b.</abbr> al-Ḥusayn (see Freudenthal and
+                        Lévy). He also translated works for his friend <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Gabriel-bar-Bokhtisho">
+                            <persName ref="http://syriaca.org/person/492">Gabriel bar
+                            Bokhtishoʿ</persName>
+                        </ref>, presumably in the field of medicine.</p>
+                </div>
+                <div type="bibl">
+                    <listBibl>
+                        <listBibl>
+                            <head>Primary Sources</head>
+                            <bibl>M.  T.  Dānishpazhūh, <title rend="italic">al-Manṭiq li-Ibn
+                                    al-Muqaffaʿ. Ḥudūd al-manṭiq li-Ibn Bihrīz</title> (1978; <abbr>repr.</abbr> 2002).</bibl>
+                            <bibl>W.  Selb, <title rend="italic">ʿAbdīšōʿ bar Bahrīz. Ordnung der
+                                    Ehe und der Erbschaften sowie Entscheidung von
+                                    Rechtsfällen</title> (1970).</bibl>
+                            <bibl>S.  Toenies Keating, <title rend="italic">Defending the ‘People of
+                                    Truth’ in the Early Islamic period. The Christian apologies of
+                                    Abū Rāʾiṭah</title> (2006), 352–7.</bibl>
+                        </listBibl>
+                        <listBibl>
+                            <head>Secondary Sources</head>
+                            <bibl>J.-M.  Fiey, ‘Ibn Bahrīz et son portrait’, <title rend="italic">
+                                    <abbr>ParOr</abbr>
+                                </title> 16 (1990–91), 133–7.</bibl>
+                            <bibl>G.  Freudenthal and T.  Lévy, ‘De Gérase à Bagdad. Ibn Bahrīz,
+                                al-Kindī et leur recension arabe de l’<title rend="italic">Introduction Arithmétique</title> de Nicomaque, d’après la
+                                version hébraïque de Qalonymos ben Qalonymos d’Arles’, in <title rend="italic">De Zénon d’Elée à Poincaré. Recueil d’études en
+                                    hommage à Roshdi Rashed</title>, <abbr>ed.</abbr> R. Morelon and A. Hasnawi
+                                (2004), 479–544.</bibl>
+                            <bibl>M.  N.  Swanson, ‘ʿAbdīshūʿ ibn Bahrīz’, in <title rend="italic">Christian-Muslim relations</title>, <abbr>ed.</abbr> Thomas and Roggema,
+                                550–2.</bibl>
+                            <bibl>G.  Troupeau, ‘ʿAbdīšūʿ Ibn Bahrīz et son livre sur les
+                                définitions de la logique (<choice>
+                                    <sic>Kitāb Ḥudūd al-manṭiq</sic>
+                                    <corr>
+                                        <hi rend="italic">Kitāb Ḥudūd al-manṭi</hi>q</corr>
+                                </choice>)’, in <title rend="italic">Les voies de la science grecque. Études sur la
+                                    transmission des textes de l’Antiquité au dix-neuvième
+                                    siècle</title>, <abbr>ed.</abbr> D. Jacquart (1997), 135–45 (<abbr>repr.</abbr> in G.
+                                Troupeau, <title rend="italic">Études sur la grammaire et la
+                                    lexicographie arabes</title> [2002], 23–33).</bibl>
+                        </listBibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Barbara H.</forename> 
+                  <surname>Roggema</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

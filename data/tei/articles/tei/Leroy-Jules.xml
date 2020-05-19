@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Leroy, Jules</title>
+            <author>
+               <persName>
+                  <forename>Lucas</forename> 
+                  <surname>Van Rompay</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0">Electronic Edition Draft Version 1.0</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Leroy, Jules</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Leroy-Jules</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/338</idno>
+                    <idno type="entry">329</idno>
+                    <milestone unit="pages" n="247-248"/>
+                    <idno type="althead" subtype="altorder">Jules Leroy</idno>
+                    <idno type="subject">http://syriaca.org/person/597</idno>
+                    <note type="type">person</note>
+                    <note type="abstract">French art historian and Syriac scholar.<note/>
+                    </note>
+                </ab>
+                <ab type="infobox">(1903–1979)</ab>
+                <div type="body">
+                    <p>French art historian and Syriac scholar. In 1920, Leroy entered the
+                        Benedictine order with the monks of Solesmes who, due to the anti-catholic
+                        legislation of the Third Republic, were in exile at the Isle of Wight (UK)
+                        since 1901 and returned to Solesmes (Sarthe) only in 1922. In 1930, he was
+                        sent to Rome, where he graduated in biblical studies from the Pontificio
+                        Istituto Biblico in 1933. For the next twenty years he lived as a priest in
+                        Paris and taught in various high schools. During his spare time he developed
+                        an interest in illuminated Syriac <abbr>mss.</abbr>, which he investigated first in the
+                        Bibliothèque Nationale and later in the other major European libraries. In
+                        the early fifties, he studied with André Grabar, the famous scholar of early
+                        Christian art, who then taught at the École Pratique des Hautes Études,
+                        where Leroy graduated in 1955 with a thesis on the illuminations of the
+                        Syriac <ref rend="bold" target="https://gedsh.bethmardutho.org/Rabbula-Gospels">Rabbula
+                            Gospels</ref>. Starting in 1954, as an employee of the French Centre
+                        National de la Recherche Scientifique, and stationed for several years at
+                        the Institut Français d’Archéologie in <ref rend="bold" target="https://gedsh.bethmardutho.org/Beirut">
+                            <placeName ref="http://syriaca.org/place/46">Beirut</placeName>
+                        </ref>, Leroy
+                        complemented his earlier work on illuminated Syriac <abbr>mss.</abbr> in Europe with
+                        research in all major collections of the Middle East. This led to his
+                        pioneering 1964 publication, <hi rend="italic">Les manuscrits syriaques à
+                            peintures</hi>, which includes the study of several <abbr>mss.</abbr> from <ref rend="bold" target="https://gedsh.bethmardutho.org/Tur-Abdin">
+                            <placeName ref="http://syriaca.org/place/221">Ṭur
+                            ʿAbdin</placeName>
+                        </ref>, Iraq, and Syria. In the same period he also wrote his
+                        ‘Moines et monastères du Proche-Orient’ (1958), which was subsequently
+                        translated into English (1963; <abbr>repr.</abbr> 2004). It covers Egypt, Palestine,
+                        Lebanon, Syria, Turkey, and Iraq.</p>
+                    <p>In the mid-sixties Leroy, together with Serge Sauneron (d. 1976), launched an
+                        ambitious project that aimed at the documentation of Coptic wall paintings.
+                        The first volume of ‘La peinture murale chez les Coptes’ appeared in 1975.
+                        The second volume, which appeared posthumously (1982), included the first
+                        detailed description of the wall paintings of <ref rend="bold" target="https://gedsh.bethmardutho.org/al-Suryan-Dayr">
+                            <placeName ref="http://syriaca.org/place/360">Dayr
+                            al-Suryān</placeName>
+                        </ref> known at that time. To this monastery, situated at the
+                        intersection of the Coptic and Syriac worlds, he devoted additional
+                        publications, studying its condition in the 16th <abbr>cent.</abbr> (1967), the
+                        decoration of the church (including the two 10th-cent. inscriptions on the
+                        wooden doors) (1974), and a flabellum with Syriac inscription dated 1202/3
+                        (1974–75). His contribution to the first Symposium Syriacum (1972) was on
+                        the famous 10th-cent. abbot of Dayr al-Suryān, <ref rend="bold" target="https://gedsh.bethmardutho.org/Mushe-of-Nisibis">
+                            <persName ref="http://syriaca.org/person/647">Mushe of
+                            Nisibis</persName>
+                        </ref> (published 1974). Leroy was the first western art
+                        historian with a lifelong commitment to the study of the art of the Syriac
+                        and other eastern Christian traditions. Along with his pioneering Syriac
+                        publications, which remain authoritative today, he published extensively on
+                        Coptic, Copto-Arabic, Ethiopian, and Armenian art. In spite of his focused
+                        iconographical approach, he always was aware of the larger historical,
+                        literary, and cultural contexts and paid due attention to the links between
+                        eastern Christian art and late ancient, Byzantine, and Islamic art.</p>
+                </div>
+                <div type="bibl">
+                    <listBibl>
+                        <head>Select publications by Leroy</head>
+                        <bibl>
+                            <title rend="italic">Moines et monastères du Proche-Orient</title>
+                            (1958). (<abbr>ET</abbr> as <title rend="italic">Monks and monasteries of the Near
+                                East</title> [1963; <abbr>repr.</abbr> 2004])</bibl>
+                        <bibl>
+                            <title rend="italic">Les manuscrits syriaques à peintures conservés dans
+                                les bibliothèques d’Europe et d’Orient. Contribution à l’étude de
+                                l’iconographie des églises de langue syriaque</title> (2 vols.;
+                            1964).</bibl>
+                        <bibl>‘Un témoignage inédit sur l’état du Monastère des Syriens au Wadi ’n
+                            Natrun au début du XVIe siècle’, <title rend="italic">Bulletin de
+                                l’Institut français d’archéologie orientale</title> 65 (1967),
+                            1–23.</bibl>
+                        <bibl>‘Moïse de Nisibe’, in <abbr>
+                                <title rend="italic">SymSyr</title> I</abbr>,
+                            457–70.</bibl>
+                        <bibl>‘Le décor de l’église du Couvent des Syriens au Ouady Natroun
+                            (Égypte)’, <title rend="italic">
+                                <abbr>CahArch</abbr>
+                            </title> 23 (1974),
+                            151–67.</bibl>
+                        <bibl>‘Un flabellum syriaque daté du Deir Souriani (Egypte)’, <title rend="italic">Cahiers de Mariemont</title> 5–6 (1974–75),
+                            31–9.</bibl>
+                        <bibl>
+                            <title rend="italic">Les peintures des couvents du Ouadi Natroun</title>
+                            (La peinture murale chez les Coptes II; 1982).</bibl>
+                    </listBibl>
+                    <listBibl>
+                        <head>Secondary Sources</head>
+                        <bibl>R.-G.  Coquin, ‘L’abbé Jules Leroy (1903–1979)’, <title rend="italic">Bulletin de l’Institut Français d’Archéologie Orientale</title> 80
+                            (1980), v–xv.</bibl>
+                        <bibl>M.  Daniels, ‘Leroy, Jules’, <title rend="italic">Dictionary of Art
+                                Historians</title>
+                            (<ref type="url" target="http://www.dictionaryofarthistorians.org/">http://www.dictionaryofarthistorians.org/</ref>).</bibl>
+                        <bibl>P. van Moorsel and K. Innemée, ‘Brève histoire de la “Mission des
+                            peintures coptes” ’, <title rend="italic">Dossiers d’Archéologie</title>
+                            226 (Sept. 1997), 68–75. (<abbr>repr.</abbr> in P. P. V.  van Moorsel, <title rend="italic">Called to Egypt. Collected Studies on painting in
+                                Christian Egypt</title> [2000], 15–29)</bibl>
+                        <bibl>A. N.  Palmer and J. van Ginkel, ‘Leroy, Jules’, <title rend="italic">Dictionary of Art</title> 19 (1996), 231–2.</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Lucas</forename> 
+                  <surname>Van Rompay</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

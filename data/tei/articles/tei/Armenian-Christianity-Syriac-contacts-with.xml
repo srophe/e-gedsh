@@ -1,0 +1,605 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Armenian Christianity, Syriac contacts with</title>
+            <author>
+               <persName>
+                  <forename>Lucas</forename> 
+                  <surname>Van Rompay</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0">Electronic Edition Draft Version 1.0</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Armenian Christianity, Syriac contacts with</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Armenian-Christianity-Syriac-contacts-with</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/58</idno>
+                    <idno type="entry">49</idno>
+                    <milestone unit="pages" n="33-37"/>
+                    <idno type="althead" subtype="altorder">Syriac contacts with Armenian
+                        Christianity</idno>
+                    <note type="type">subject</note>
+                    <note type="abstract">Armenia, the geographical area of Armenian Christianity
+                        and culture, borders the homeland of Syr. Christianity, and extensive contacts between the two communities existed.<note/>
+                    </note>
+                </ab>
+                <div type="body">
+                    <p>Armenia, the geographical area of Armenian Christianity and culture, borders
+                        the homeland of Syr. Christianity. For centuries, <ref rend="bold" target="https://gedsh.bethmardutho.org/Arameans">Arameans</ref> and
+                        Armenians lived together in parts of northern Mesopotamia and northern
+                        Syria. The main cities of Syr. Christianity, <ref rend="bold" target="https://gedsh.bethmardutho.org/Edessa">
+                            <placeName ref="http://syriaca.org/place/78">Edessa</placeName>
+                        </ref> (Armenian <hi rend="italic">Uṙhay</hi>) and <ref rend="bold" target="https://gedsh.bethmardutho.org/Nisibis">
+                            <placeName ref="http://syriaca.org/place/142">Nisibis</placeName>
+                        </ref> (Armenian
+                            <hi rend="italic">Mcbin</hi>) had a mixed population, which included
+                        Syrians and Armenians. Within the Sasanian Empire, the lines of demarcation
+                        between the <abbr>Ch. of E.</abbr> and the Armenian Church were very porous. The E.-Syr.
+                        ecclesiastical province of <ref rend="bold" target="https://gedsh.bethmardutho.org/Beth-Arbaye">
+                            <placeName ref="http://syriaca.org/place/31">Beth ʿArbaye</placeName>
+                        </ref>,
+                        which since the synod of <ref rend="bold" target="https://gedsh.bethmardutho.org/Ishaq">
+                            <persName ref="http://syriaca.org/person/549">Isḥaq</persName>
+                        </ref> (410) had
+                        Nisibis as its metropolitan see, included the dioceses of Arzun, Qardu, Beth
+                        Zabdai, Beth Rahimai, and Beth Moksaye, which all had large Armenian
+                        populations and which occasionally show up as dioceses of the Armenian
+                        Church. In these and in other borderlands, there must have been a
+                        significant amount of bilingualism, reflecting a ‘veritable
+                        interpenetration’ between the two groups (Garsoïan 1992, 63).</p>
+                    <p>In the 1st <abbr>cent.</abbr> BC, the western part of Armenia was incorporated into the
+                        Roman Empire, while the larger part (‘Great Armenia’) remained within the
+                        Iranian sphere of influence, at times enjoying independence, at times ruled
+                        by Parthian and later Sasanian monarchs. Around 387 the Roman and Sasanian
+                        Empires agreed on a formal partition of Armenia (even though the frontier
+                        subsequently shifted). Despite the fact that in its formative period
+                        Armenian Christianity, not unlike Syr. Christianity, was divided over two
+                        empires, this did not lead — as in the case of the Syrians — to doctrinal
+                        division. This is often attributed to a stronger sense of ethnic and
+                        cultural identity among the Armenians than among the Syrians. In the Islamic
+                        period Armenians occasionally had their own kingdom, such as under the
+                        Bagratid dynasty, from the end of the 9th to the middle of the 11th <abbr>cent.</abbr>
+                        From the late 12th <abbr>cent.</abbr> to 1375, an independent Armenian kingdom existed in
+                        Cilicia (‘Little Armenia’), where many Armenians had settled. Cilician
+                        Armenia accepted union with Rome at the Council of Sis in 1307, but this
+                        union, which failed to receive support outside Cilicia, came to an end with
+                        the demise of the Cilician kingdom. In the Ottoman Empire, Armenians at
+                        first flourished. The patriarchate of Constantinople (Istanbul) was created
+                        to represent Armenian interests (and often other Christians’ interests as
+                        well) at the capital. Armenians also lived in parts of Persia and Russia,
+                        and there were diaspora communities as far as Lemberg (Galicia, present-day
+                        Lwow in Poland). Significant emigration to Europe and North America started
+                        in the middle of the 19th  cent. The early 20th <abbr>cent.</abbr> saw the Armenian
+                        genocide, which largely coincided with the <ref rend="bold" target="https://gedsh.bethmardutho.org/Sayfo">Sayfo</ref>, and which was
+                        followed by further dispersion. The short-lived independent Armenian
+                        Republic (1918– 1920) became part of the Soviet Union in 1920, to regain its
+                        independence only in September 1991.</p>
+                    <p>Christianity came to Armenia no later than the 3rd <abbr>cent.</abbr> and the Armenian
+                        Church was first organized by Gregory the Illuminator in the early 4th <abbr>cent.</abbr>
+                        An important factor in the development of Armenian Christianity was the
+                        invention of the Armenian script by Maštoc‘ (Mesrop), traditionally dated in
+                        or around 407, and preceded by Maštoc‘’s travels through Syria and Edessa.
+                        This was followed by a period of intense translation activity, from both
+                        Greek and Syriac. Prior to the invention of their own script, Armenians used
+                        Greek and Syriac as their literary and liturgical languages.</p>
+                    <p>Among the translations of the earliest period (first half of the 5th <abbr>cent.</abbr>)
+                        are several Syriac texts, such as the Demonstrations of <ref rend="bold" target="https://gedsh.bethmardutho.org/Aphrahat">
+                            <persName ref="http://syriaca.org/person/10">Aphrahaṭ</persName>
+                        </ref>,
+                        transmitted in Armenian under the name of <ref rend="bold" target="https://gedsh.bethmardutho.org/Yaqub-of-Nisibis">
+                            <persName ref="http://syriaca.org/person/811">Yaʿqub of
+                            Nisibis</persName>
+                        </ref> (<abbr>ed.</abbr> Lafontaine), several works by <ref rend="bold" target="https://gedsh.bethmardutho.org/Ephrem">
+                            <persName ref="http://syriaca.org/person/13">Ephrem</persName>
+                        </ref> (Armenian:
+                        Ephrem Asori ‘the Assyrian’ or ‘Syrian’), and a short treatise attributed to
+                        <abbr>
+                            <choice>
+                                <sic>bp.</sic>
+                                <corr>Bp.</corr>
+                            </choice>
+                        </abbr>
+                        <ref rend="bold" target="https://gedsh.bethmardutho.org/Aitalaha">
+                            <persName ref="http://syriaca.org/person/326"> Aitalaha</persName>
+                        </ref> of Edessa, which is not preserved in Syriac. Ephrem’s
+                        Armenian works include the undoubtedly genuine ‘Hymns on Nicomedia’, which
+                        were written shortly after 358, and of which only a few Syriac fragments
+                        exist (<abbr>ed.</abbr> Renoux), and the Commentary on the <ref rend="bold" target="https://gedsh.bethmardutho.org/Diatessaron">Diatessaron</ref>
+                        (<abbr>ed.</abbr> Leloir). While for these two works (as well as for Aphrahaṭ) we are
+                        dealing with quite faithful translations of Syriac originals, the
+                        relationship to the Syriac original is more problematic for other works
+                        attributed to Ephrem, such as a collection of hymns (<abbr>ed.</abbr> Mariès and
+                        Mercier), which seem to contain Syriac materials, but may represent later
+                        rewritings, and an anti-Marcionite exposition of the Gospel (<abbr>ed.</abbr> Egan),
+                        which is probably not by Ephrem (see Bundy, against the view of the editor),
+                        even though a 4th-cent. Syriac original is very likely. In addition to the
+                        translations of originally Syriac works, some Greek patristic works were
+                        translated into Armenian not from Greek, but from an earlier Syriac
+                        translation. The two most well-known examples are <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Eusebius-of-Caesarea">
+                            <persName ref="http://syriaca.org/person/480">Eusebius of
+                            Caesarea</persName>
+                        </ref>’s Ecclesiastical History and <ref rend="bold" target="https://gedsh.bethmardutho.org/Basil-of-Caesarea">
+                            <persName ref="http://syriaca.org/person/376">Basil of
+                            Caesarea</persName>
+                        </ref>’s Homilies on the Hexaemeron. In the earliest layers of
+                        Armenian biblical and liturgical texts as well, the mark of Armenia’s early
+                        contacts with the Syriac world is clearly visible. Among indigenous Armenian
+                        authors who are well informed about Syriac Christianity and write about it
+                        or borrow themes or interpretations from it are Eznik of Kołb (author of a
+                        work known as either ‘Against the sects’ or ‘On God’), Koriwn (author of
+                        ‘The Life of Maštoc‘’), the author of the ‘Teaching of Gregory’
+                        (incorporated into the ‘History of Agathangelos’), and the author of the
+                        ‘Epic histories’ (formerly known as Faustus of Byzantium).</p>
+                    <p>In the aftermath of the Council of Ephesus (431) and the Council’s
+                        condemnation of Antiochene theology, Armenian Christianity moved away from
+                        the Syriac sphere of influence and increasingly turned to the Greek imperial
+                        church. The Council of Chalcedon (451) at first did not have an impact on
+                        the Armenians, who at the same time were involved in the Battle of Avarayr
+                        (the outcome of which led to full Sasanian rule over Armenia). It is only in
+                        the course of the 6th <abbr>cent.</abbr> that church leaders and councils determined
+                        Armenia’s own theological position, partly in response to missionary
+                        activity carried out by representatives of the emerging Syr. Miaphysite
+                        Church and of the Dyophysite E.-Syr. Church. Even though the Armenians
+                        repeatedly took a position against dyophysitism, associated with <ref rend="bold" target="https://gedsh.bethmardutho.org/Nestorius">
+                            <persName ref="http://syriaca.org/person/655">Nestorius</persName>
+                        </ref> as well as with the <abbr>Ch. of E.</abbr>, a straightforward
+                        rejection of the Council of Chalcedon only took place at the Council of Dvin
+                        in 607. From the 6th-cent. documents of the Armenian church (preserved in
+                        the ‘Book of Letters’) it appears that, in contrast with the <abbr>Syr. Orth.</abbr> and
+                        Coptic Miaphysite churches, the works of <ref rend="bold" target="https://gedsh.bethmardutho.org/Severus-of-Antioch">
+                            <persName ref="http://syriaca.org/person/51">Severus of
+                            Antioch</persName>
+                        </ref> did not obtain normative status in Armenia, but rather
+                        that a form of aphthartodocetism gradually became the official doctrine
+                        (regarding the body of Christ as inherently incorruptible). The question of
+                        whether this was associated with <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Julian-of-Halicarnassus">
+                            <persName ref="http://syriaca.org/person/579">Julian of
+                            Halicarnassus</persName>
+                        </ref> (whose works seem not to have been translated into
+                        Armenian), Severus’s opponent, or whether this had different roots and was
+                        nourished perhaps by the writings of <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Philoxenos-of-Mabbug">
+                            <persName ref="http://syriaca.org/person/44">Philoxenos
+                            of Mabbug</persName>
+                        </ref>, some of which were translated into Armenian (see
+                        Ter-Minassiantz, 147–51, and more recently Cowe), has not yet been fully
+                        settled. Due to this different orientation within the Miaphysite tradition,
+                        there was always some distance between the Armenian Orth. and the <abbr>Syr. Orth.</abbr>
+                        Church, and occasionally some tension (Ter-Minassiantz). A list of
+                        historical complaints of the Syrians against the Armenians is found in
+                        treatises by <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Yuhanon-X-Isho-bar-Shushan">
+                            <persName ref="http://syriaca.org/person/193">Yuḥanon X bar Shushan</persName>
+                        </ref> and <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Dionysios-bar-Salibi">
+                            <persName ref="http://syriaca.org/person/212">Dionysios bar Ṣalibi</persName>
+                        </ref>.</p>
+                    <p>In spite of the theological complexities in their relationship, contacts and
+                        exchanges between Syr. and Armenian Christians continued throughout the
+                        centuries. In the early Islamic period, both the <abbr>Ch. of E.</abbr> and the Syr.
+                        Orth. Church had a presence in parts of the Armenian lands. Since the 8th
+                        <abbr>cent.</abbr>, there was in Khilat (or Akhlat), on the western shore of Lake Van, an
+                        E.-Syr. metropolitan <abbr>bp.</abbr> as well as a <abbr>Syr. Orth.</abbr>
+                        <abbr> bp.</abbr> (Fiey 2003, 1427),
+                        while an E.-Syr. <abbr>bp.</abbr> also is attested for Bardaʿa (Armenian Partaw), on the
+                        Terter River (Van Lantschoot 1932). The E.-Syr. metropolitan see of Khilat
+                        was later given up as an independent see and added to Nisibis, whose
+                        metropolitan <abbr>bp.</abbr> in the 13th <abbr>cent.</abbr> had ‘Nisibis and Armenia’ in his title
+                        (Fiey, <hi rend="italic">Nisibe</hi>, 106). Translation activity from Syriac
+                        into Armenian went on. For example, some of <ref rend="bold" target="https://gedsh.bethmardutho.org/Yaqub-of-Edessa">
+                            <persName ref="http://syriaca.org/person/113">Yaʿqub of
+                            Edessa</persName>
+                        </ref>’s exegetical work found its way into an Armenian commentary
+                        attributed to Ephrem (<abbr>ed.</abbr> Mathews), and the 9th-cent. Commentary on the
+                        Gospel of John by <ref rend="bold" target="https://gedsh.bethmardutho.org/Nonos-of-Nisibis">
+                            <persName ref="http://syriaca.org/person/156">Nonos of
+                            Nisibis</persName>
+                        </ref> is preserved only in Armenian.</p>
+                    <p>Intense contacts on all levels took place in the period of the Armenian
+                        Kingdom of Cilicia. Many Syrians must have settled in the relative safety of
+                        Cilicia, where the <abbr>Syr. Orth.</abbr> had <abbr>bp.</abbr> sees in Adana, Anazarba (ʿAyn Zarba),
+                        Sis (patriarchal residence between 1292 and the early 15th <abbr>cent.</abbr>), and
+                        Tarsus. There were <abbr>Syr. Orth.</abbr> monasteries in Cilicia as well, in particular
+                        those of Gawikat (or Kawikhat) and Paksimeṭ (or Baksimeṭ). <ref rend="bold" target="https://gedsh.bethmardutho.org/Michael-I-Rabo">
+                            <persName ref="http://syriaca.org/person/217">Michael Rabo</persName>
+                        </ref>, in his Chronicle, provides a wealth of information
+                        on Armenian history; in addition, one of the appendices to the Chronicle
+                        (no. 5) explicitly deals with the Armenians. Of Michael’s Chronicle two
+                        different translations were produced, one in 1246, by the Armenian author
+                        Vardan Arewelc‘i in collaboration with the Edessene monk Yeshuʿ (of Ḥeṣno
+                        d-Kifo, see Barsoum), the other in 1248 by Vardan alone (possibly after
+                        Yeshuʿ’s death). The translation was made from Michael’s autograph, which
+                        along with other <abbr>mss.</abbr> had been transferred from the <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Barsawmo-Dayro-d-Mor">
+                            <placeName ref="http://syriaca.org/place/224">Dayro d-Mor
+                            Barṣawmo</placeName>
+                        </ref> to Hṙomklay (Qalʿa Rumayta), where the Syr. Orth <abbr>Patr.</abbr>
+                        Ignatius Dawid resided for some time and where a <abbr>Syr. Orth.</abbr> church had been
+                        built. Both translations present a periphrastic and much shortened version
+                        of Michael’s Chronicle (Schmidt 1996). Other translations from Syriac made
+                        in Cilician Armenia include the ‘Syro-Roman Lawbook’ and the ‘Sententiae
+                        Syriacae’ (see <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Juridical-literature">Juridical
+                            literature</ref>); homilies by <ref rend="bold" target="https://gedsh.bethmardutho.org/Yaqub-of-Serugh">
+                            <persName ref="http://syriaca.org/person/42">Yaʿqub of
+                            Serugh</persName>
+                        </ref> (Weitenberg, 349 and 350); the Psalm Commentary by <ref rend="bold" target="https://gedsh.bethmardutho.org/Daniel-of-Salah">
+                            <persName ref="http://syriaca.org/person/59">Daniel of Ṣalaḥ</persName>
+                        </ref>; and several works of medical content. A unique
+                        work on horse-medicine (written <abbr>ca.</abbr> 1300) was translated from Arabic, but
+                        the author explicitly identifies himself as a veterinary of Syrian descent
+                        and creed. Translations typically resulted from the collaboration of an
+                        Armenian and a Syriac native speaker (Weitenberg, with further references).
+                        While all the examples quoted here concern Syriac writings translated into
+                        Armenian, an interesting case of a Syrian author’s interest in Armenian may
+                        be seen in <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Bar-Ebroyo-Grigorios">
+                            <persName ref="http://syriaca.org/person/239">Bar ʿEbroyo</persName>
+                        </ref>’s biblical commentaries, which
+                        in particular in the commentary on Psalms contain about 160 quotations of,
+                        or references to, the Armenian Bible (Göttsberger). The fall of the Cilician
+                        kingdom (1375) brought the close contacts between the Armenian and Syr.
+                        Orth. intellectual elite to an end, even though for the subsequent centuries
+                        further evidence exists of the ongoing interaction between Syriac and
+                        Armenian Christians (see, e.g., Kaufhold).</p>
+                    <p>Among the cities in which Armenians and Syrians lived together for many
+                        centuries, Edessa assumes a special position. The Armenian presence there
+                        can be traced back to a very early period and some sources (including Yaʿqub
+                        of Edessa, in his Chronicle) present king Abgar and the original population
+                        of Edessa as Armenian. The story of Abgar’s conversion to Christianity
+                        became widely popular in Armenian, whereby an increasing Armenization took
+                        place, from its first attestation in Eusebius’s Ecclesiastical History and
+                        the 5th-cent. work attributed to Labubna, or Łerubna (the Edessene king’s
+                        scribe who is also mentioned in the Syr. <ref rend="bold" target="https://gedsh.bethmardutho.org/Addai-Teaching-of">Teaching of
+                            Addai</ref>) to the rewritten versions in Moses Xorenac‘i’s ‘History of
+                        the Armenians’ (probably 9th <abbr>cent.</abbr>) and the 10th-cent. historians Thomas
+                        Arcruni and Uxtanes. When the short-lived Crusade principality of Edessa
+                        fell to the Seljuks in 1144, the Armenians were bewildered as much as the
+                        Syr. Christians were (see Dionysios bar Ṣalibi), as is shown by the lament
+                        written by Nerses Shnorhali (<abbr>ET</abbr> van Lint), the later <abbr>Cath.</abbr> of all Armenians
+                        (1166–99), who is known for his friendly relationship with Michael Rabo.</p>
+                    <p>The contacts between Armenian and Syr. Christians are also reflected in art,
+                        as is illustrated in the 9th-cent. illuminated Gospel <abbr>ms.</abbr> of Queen Mlke
+                        (Venice, San Lazzaro 1144), which has been connected with the Syriac <ref rend="bold" target="https://gedsh.bethmardutho.org/Rabbula-Gospels">Rabbula Gospels</ref> (Stone <abbr>et al.</abbr>).</p>
+                    <p>For the more recent period (16th–18th <abbr>cent.</abbr>) a number of Syriac-Armenian
+                        lexica are attested, reflecting language contact and bilingualism. Both
+                        within these lexica and outside of them, interesting examples of boundary
+                        crossing between the two langauges are found in Armenian texts written in
+                        Syriac script and in (at least) one Syriac text written in Armenian script
+                        (Van Lantschoot 1964, Brock, Schmidt 2007, Takahashi and Weitenberg
+                        [forthcoming]).</p>
+                    <p>See <ref target="https://gedsh.bethmardutho.org/fig/7">Fig. 7</ref> and <ref target="https://gedsh.bethmardutho.org/fig/8">8</ref>.</p>
+                </div>
+                <div type="bibl">
+                    <listBibl>
+                        <listBibl>
+                            <head>Primary Sources</head>
+                            <bibl>G. E.  Egan, <title rend="italic">Saint Ephrem. An exposition to
+                                    the Gospel</title> (<abbr>CSCO</abbr> 291–2; 1968).</bibl>
+                            <bibl>N. G.  Garsoïan, <title rend="italic">The Epic Histories
+                                    attributed to P‘awstos Buzand</title> (Buzandaran Patmutʽiwnk ̔)
+                                (1989). (<abbr>ET</abbr>)</bibl>
+                            <bibl>G.  Lafontaine, <title rend="italic">La version arménienne des
+                                    œuvres d’Aphraate le Syrien</title> (3 vols; <abbr>CSCO</abbr> 382–3, 405–6,
+                                and 423–4; 1977–80).</bibl>
+                            <bibl>L.  Leloir, <title rend="italic">Saint Ephrem. Commentaire de
+                                    l’Évangile concordant</title> (<abbr>CSCO</abbr> 137 and 145; 1953 and
+                                1964).</bibl>
+                            <bibl>Th. van Lint, ‘Seeking meaning in catastrophe. Nersēs Šnorhali’s
+                                Lament on Edessa’, in <title rend="italic">East and West in the
+                                    Crusader States. Context — contacts — confrontations</title>,
+                                vol. II, <abbr>ed.</abbr> K. Ciggaar and H. Teule (<abbr>OLA</abbr> 92; 1999), 29–105.</bibl>
+                            <bibl>L.  Mariès and Ch. Mercier, <title rend="italic">Hymnes de Saint
+                                    Ephrem conservées en version arménienne</title> (<abbr>PO</abbr> 30.1;
+                                1961).</bibl>
+                            <bibl>E. G.  Mathews, Jr., <title rend="italic">The Armenian Commentary
+                                    on Genesis attributed to Ephrem the Syrian</title> (<abbr>CSCO</abbr> 572–3;
+                                1998).</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>E. G.  Mathews, Jr.</reg>
+                           <orig>idem</orig>
+                        </choice>, <title rend="italic">The Armenian Commentary on
+                                    Exodus-Deuteronomy attributed to Ephrem the Syrian</title> (<abbr>CSCO</abbr>
+                                587–8; 2001).</bibl>
+                            <bibl>A.  Mingana, <title rend="italic">The work of Dionysius Barṣalībī
+                                    against the Armenians</title> (Woodbrooke Studies 4; 1931; <abbr>repr.</abbr>
+                                2010).</bibl>
+                            <bibl>Ch. Renoux, <title rend="italic">Memre sur Nicomédie</title> (<abbr>PO</abbr>
+                                37.2–3; 1975).</bibl>
+                        </listBibl>
+                        <listBibl>
+                            <head>Secondary Sources</head>
+                            <bibl>Barsoum, <title rend="italic">Scattered pearls</title>, 446 and
+                                458–9.</bibl>
+                            <bibl>S. P.  Brock, ‘Armenian in Syriac script’, in <title rend="italic">Armenian Studies. Etudes arméniennes. In memoriam
+                                    H.</title>  
+                        <title rend="italic">Berbérian</title>, <abbr>ed.</abbr>
+                                D.  Kouymjian (1986), 75–80.</bibl>
+                            <bibl>D.  Bundy, ‘The Anti-Marcionite Commentary on the Lucan Parables
+                                (Pseudo-Ephrem A): Images in tension’, <title rend="italic">
+                                    <abbr>LM</abbr>
+                                </title> 103 (1990), 111–23.</bibl>
+                            <bibl>S. P.  Cowe, ‘Philoxenus of Mabbog and the Synod of Manazkert’,
+                                    <title rend="italic">ARAM</title> 5 (1993), 15–29.</bibl>
+                            <bibl>A.  Drost-Abgarjan, ‘Zur Rezeption der Abgar-Legende in Armenien’,
+                                in <title rend="italic">Edessa in hellenistisch-römischer Zeit.
+                                    Religion, Kultur und Politik zwischen Ost und West</title>, <abbr>ed.</abbr>
+                                L. Greisiger <abbr>et al.</abbr> (<abbr>BTS</abbr> 116; 2009), 69–74.</bibl>
+                            <bibl>Fiey, <title rend="italic">Nisibe<choice>
+                                        <sic/>
+                                        <corr>,</corr>
+                                    </choice> métropole syriaque
+                                    orientale</title>.</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>Fiey</reg>
+                           <orig>idem</orig>
+                        </choice>, <title rend="italic">Pour un Oriens christianus
+                                    novus</title>, 47–8, 58–9, 158, 166, 169, 269.</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>Fiey</reg>
+                           <orig>idem</orig>
+                        </choice>, ‘Khilat’, in <title rend="italic">
+                                    <abbr>DHGE</abbr>
+                                </title>, vol. 28
+                                (2003), 1427.</bibl>
+                            <bibl>N. G.  Garsoïan, ‘Quelques précisions préliminaires sur le schisme
+                                entre les églises byzantine et arménienne au sujet du Concile de
+                                Chalcédoine. III. Les évêchés méridionaux limi-trophes de la
+                                Mésopotamie’, <title rend="italic">
+                                    <abbr>REArm</abbr>
+                                </title> 23 (1992),
+                                39–40.</bibl>
+                            <bibl>eadem, <title rend="italic">L’église arménienne et le grand
+                                    schisme d’Orient</title> (<abbr>CSCO</abbr> 574; 1999).</bibl>
+                            <bibl>J.  Göttsberger, ‘Die syro-armenischen Bibelzitate des
+                                Barhebraeus’, <title rend="italic">
+                                    <abbr>ZAW</abbr>
+                                </title> 21 (1901),
+                                101–27.</bibl>
+                            <bibl>H.  Kaufhold, ‘Notizen zur späten Geschichte des
+                                Barṣaumô-Klosters’, <title rend="italic">
+                                    <abbr>Hugoye</abbr>
+                                </title> 3.2
+                                (2002).</bibl>
+                            <bibl>P.  Kawerau, <title rend="italic">Die jakobitische Kirche im
+                                    Zeitalter der syrischen Renaissance. Idee und
+                                    Wirklichkeit</title> (1955), 68–70.</bibl>
+                            <bibl>E. G.  Mathews, Jr., ‘Armenian hymn IX, On marriage, by Saint
+                                Ephrem the Syrian’, <title rend="italic">Journal of the Society for
+                                    Armenian Studies</title> 9 (1996–7), 55–63.</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>E. G.  Mathews, Jr.</reg>
+                           <orig>idem</orig>
+                        </choice>, ‘Saint Ephrem the Syrian. Armenian dispute hymns between
+                                Virginity and Chastity’, <title rend="italic">
+                                    <abbr>REArm</abbr>
+                                </title> 28
+                                (2001–2), 143–69.</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>E. G.  Mathews, Jr.</reg>
+                           <orig>idem</orig>
+                        </choice>, ‘Early Armenian and Syrian Contact: Reflections on Koriwn’s
+                                Life of Maštoc‘’, <title rend="italic">St. Nersess Theological
+                                    Review</title> 7 (2002), 5–27.</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>E. G.  Mathews, Jr.</reg>
+                           <orig>idem</orig>
+                        </choice>, ‘The Early Armenian Hermit: Further reflections on the
+                                Syriac sources’, <title rend="italic">St. Nersess Theological
+                                    Review</title> 10 (2005) [= Festschrift <choice>
+                                    <sic>In</sic>
+                                    <corr>in</corr>
+                                </choice> Honor of Professor
+                                Nina G. Garsoïan], 141–67.</bibl>
+                            <bibl>R.  Murray, ‘A marriage for all eternity: The consecration of a
+                                Syrian bride for Christ’, <title rend="italic">
+                                    <abbr>Sobornost /
+                                    ECR</abbr>
+                                </title> 11 (1989), 65–9.</bibl>
+                            <bibl>A. B.  Schmidt, ‘Die zweifache armenische Rezension der syrischen
+                                Chronik Michaels des Grossen’, <title rend="italic">
+                                    <abbr>LM</abbr>
+                                </title> 109
+                                (1996), 299–319.</bibl>
+                            <bibl>A. B.  Schmidt, ‘Die armenisch-syrischen Beziehungen im Spiegel
+                                der kilikischen Übersetzungsliteratur’, in <title rend="italic">Armenologie in Deutschland. Beiträge zum ersten deutschen
+                                    Armenologen-Tag</title>, <abbr>ed.</abbr> A. Drost-Abgarjan and H. Goltz (<abbr>SOK</abbr>
+                                35; 2005), 119–26.</bibl>
+                            <bibl>eadem, ‘Arménien et syriaque’, in <title rend="italic">Arménie. La
+                                    magie de l’écrit</title>, <abbr>ed.</abbr> C. Mutafian (Exhibition catalogue
+                                Marseille, 2007), 345–48.</bibl>
+                            <bibl>M. E.  Stone, D.  Kouymjian, and H.  Lehmann, <title rend="italic">Album of Armenian Paleography</title> (2002), 118–21. (on Mlke
+                                Gospels)</bibl>
+                            <bibl>H.  Takahashi and J. J. S. Weitenberg, ‘On the shorter
+                                Syriac-Armenian word list in <abbr>ms.</abbr> Yale Syriac 9’, <title rend="italic">
+                                    <abbr>JCSSS</abbr>
+                                </title> 10 (2010), 68–83. (along with other
+                                papers in the same issue dealing with Syro-Armenian contacts)</bibl>
+                            <bibl>E.  Ter-Minassiantz, <title rend="italic">Die armenische Kirche in
+                                    ihren Beziehungen zu den syrischen Kirchen bis zum Ende des 13.
+                                    Jahrhunderts</title> (<abbr>TU</abbr> N.F. 11.4; 1904).</bibl>
+                            <bibl>R.  Thomson, <title rend="italic">A bibliography of classical
+                                    Armenian literature to 1500 AD</title> (<abbr>CC</abbr>; 1995), esp. 29–88.
+                                (‘Translations into Armenian’)</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>R.  Thomson</reg>
+                           <orig>idem</orig>
+                        </choice>, ‘Syrian Christianity and the Conversion of Armenia’, in
+                                    <title rend="italic">Die Christianisierung des Kaukasus/The
+                                    Christianization of Caucasus (Armenia, Georgia,
+                                Albania)</title>, <abbr>ed.</abbr> W.  Seibt (Österreichische Akademie der
+                                Wissenschaften. Philosophisch-historische Klasse. Denkschriften 296.
+                                Veröffentlichungen der Kommission für Byzantinistik 9; 2002),
+                                159–69.</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>R.  Thomson</reg>
+                           <orig>idem</orig>
+                        </choice>, ‘Supplement to <title rend="italic">A bibliography of
+                                    classical Armenian literature to 1500 AD</title>: Publications
+                                1993–2005’, <title rend="italic">
+                                    <abbr>LM</abbr>
+                                </title> 120 (2007), 163–223, esp.
+                                169–79. (‘Armenian translations of foreign authors’)</bibl>
+                            <bibl>A.  Van Lantschoot, ‘Bardaa’, in <title rend="italic">
+                                    <abbr>DHGE</abbr>
+                                </title>, vol. 6 (1932), 758–9.</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>A.  Van Lantschoot</reg>
+                           <orig>idem</orig>
+                        </choice>, ‘Un texte arménien en lettres syriaques’, in <title rend="italic">Mélanges E. Tisserant</title>, vol. 3 (<abbr>SeT</abbr> 233;
+                                1964), 419–28.</bibl>
+                            <bibl>J. J. S.  Weitenberg, ‘Armeno-Syrian cultural relations in the
+                                Cilician period (12th–14th c.)’, in <title rend="italic">The Syriac
+                                    Renaissance</title>, <abbr>ed.</abbr> H. Teule <abbr>et al.</abbr> (<abbr>ECS</abbr> 9; 2010),
+                                341–352.</bibl>
+                            <bibl>G. Winkler, ‘An obscure chapter in Armenian church history’,
+                                    <title rend="italic">
+                                    <abbr>REArm</abbr>
+                                </title> (1985), 85–180.</bibl>
+                        </listBibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Lucas</forename> 
+                  <surname>Van Rompay</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Amyūn</title>
+            <author>
+               <persName>
+                  <forename>Erica Cruikshank</forename> 
+                  <surname>Dodd</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0">Electronic Edition Draft Version 1.0</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Amyūn</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Amyun</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/43</idno>
+                    <idno type="entry">34</idno>
+                    <milestone unit="pages" n="20-21"/>
+                    <idno type="althead">Amioun</idno>
+                    <idno type="subject">http://syriaca.org/place/269</idno>
+                    <note type="type">place</note>
+                    <note type="abstract">Town situated 20 km. south of <placeName ref="http://syriaca.org/place/203">Tripoli</placeName> (Northern
+                            <placeName type="state">Lebanon</placeName>), on
+                        the road between <placeName>Chekka</placeName> and
+                        <placeName>Kousba</placeName>, built on a high,
+                        rocky cliff rising above the plains of olives and fruit orchards watered by
+                        the <placeName>Qadisha river</placeName>.<note/>
+                    </note>
+                </ab>
+                <ab type="infobox">Amioun</ab>
+                <div type="body">
+                    <p>The town of Amyūn is situated 20 km. south of Tripoli (Northern Lebanon), on the road between Chekka and Kousba, built on a
+                        high, rocky cliff rising above the plains of olives and fruit orchards
+                        watered by the Qadisha river. This citadel has a long history. Early
+                        neolithic burial graves are still visible in the rock walls towering over
+                        the lower town, and fragments of classical carving are built into the walls
+                        of the houses along narrow, medieval streets. During the period of the <ref rend="bold" target="https://gedsh.bethmardutho.org/Crusades">Crusades</ref>, the town belonged to the Seigneury of Besmedin, a
+                        branch of the Seigneury of Giblet (Jbeil or Byblos). Several medieval
+                        churches still function in the town.</p>
+                    <p>The Church of Mar Phocas, which is nowadays Greek Orthodox, has a simple
+                        barrel-vaulted nave, a deeply recessed apse and two side-aisles, separated
+                        by heavy stone piers with pointed arches. Like many of the medieval Lebanese
+                        churches, it was built over the foundations of a classical temple. Only a
+                        few fragments of fresco decoration survive, and these are mostly from
+                        different periods and differing styles indicating different hands.</p>
+                    <p>In the apse are the scant remains of an Anastasis painting. Parts of Christ’s
+                        flying cloak are visible as he pulls Adam out of the grave. Behind Adam is
+                        Eve, and behind her is Abel. On the other side are David and Solomon, and
+                        the remains of a scroll once held by John the Baptist. Above the head of
+                        Christ is a little flying angel.</p>
+                    <p>Below the apse, in the lower zone, are eight apostles on either side of Sts.
+                        Peter and Paul. Most of these saints are too damaged to be identified.</p>
+                    <p>On the northern wall, near the apse, is a large portrait of St. Philip, with
+                        the small figure of a donor at his side, also called Philip. On the same
+                        wall, toward the west, are the remains of <ref rend="bold" target="https://gedsh.bethmardutho.org/Shemun-the-Stylite">
+                            <persName ref="http://syriaca.org/person/744">Shemʿun the
+                            Stylite</persName>
+                        </ref> between two standing saints and two flying angels. The
+                        large piers of the church are decorated on all four sides with remains of
+                        paint, showing several saints, a portrait of St. Simeon the Younger
+                        Thaumaturgos, a portrait of the standing St. Phocas, Christ Pantocrator, and
+                        an equestrian St. Theodore spearing a dragon.</p>
+                    <p>These wall paintings are all inscribed in Greek. Some attempt has been made
+                        to write in Syriac over a long inscription in the lower zone of the apse,
+                        with the unfortunate result that neither the original Greek, nor the later
+                        Syriac is legible. Stylistically, the apse painting and the tall portrait of
+                        St. Philip closely resemble contemporary wall paintings in 12th-cent.
+                        Cyprus. The wall paintings on the piers show at least two layers of paint,
+                        and whereas the bottom layer is most likely 12th <abbr>cent.</abbr>, the top layers
+                        belong to the 13th.</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>P.  Coupel, ‘Trois petites églises du Comté de Tripoli’, <title rend="italic">Bulletin du Musée de Beyrouth</title> 5 (1941),
+                            46–52.</bibl>
+                        <bibl>E.  Cruikshank Dodd, <title rend="italic">Medieval painting in the
+                                Lebanon</title> (2004), 158–63.</bibl>
+                        <bibl>M.  Immerzeel, ‘Medieval wall paintings in Lebanon. Donors and
+                            artists’, <title rend="italic">Chronos. Revue d’Histoire de l’Université
+                                de Balamand</title> 10 (2004), 7–47.</bibl>
+                        <bibl>L. Nordiguian and J.-C. Voisin, <title rend="italic">Châteaux et
+                                églises du Moyen Orient au Liban</title> (1999), 363–64.</bibl>
+                        <bibl>Y.  Sader, <title rend="italic">
+                                <choice>
+                                    <sic>Painted Churches and Rock-Cut Chapels
+                            of Lebanon</sic>
+                                    <corr>Painted churches and rock-cut chapels
+                                of Lebanon</corr>
+                                </choice>
+                            </title> (1997), 165–77.</bibl>
+                        <bibl>M.  Tallon, ‘Peintures byzantines au Liban. Inventaire’, <title rend="italic">
+                                <abbr>MUSJ</abbr>
+                            </title> 38 (1962), 290.</bibl>
+                        <bibl>S. Westphalen, ‘Wandmalereien in syrischen und libanesischen Kirchen.
+                            Aspekte christlicher Kunst im Orient vom 11.–13. Jahrhundert’, <title rend="italic">Antike Welt </title>31.5 (2000), 491–3, figs.
+                            7–12.</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Erica Cruikshank</forename> 
+                  <surname>Dodd</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

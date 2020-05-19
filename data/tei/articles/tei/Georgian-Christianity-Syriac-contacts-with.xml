@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Georgian Christianity, Syriac contacts with</title>
+            <author>
+               <persName>
+                  <forename>Sebastian P.</forename> 
+                  <surname>Brock</surname>
+               </persName>
+               <persName>
+                  <forename>Jeff W.</forename> 
+                  <surname>Childers</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0">Electronic Edition Draft Version 1.0</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Georgian Christianity, Syriac contacts with</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Georgian-Christianity-Syriac-contacts-with</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/232</idno>
+                    <idno type="entry">223</idno>
+                    <milestone unit="pages" n="173-175"/>
+                    <idno type="althead" subtype="altorder">Syriac contacts with Georgian
+                        Christianity</idno>
+                    <note type="type">subject</note>
+                    <note type="abstract">There are a number of disparate connections between Syriac and Georgian
+                        Christianity, some direct, others indirect.
+                    </note>
+                </ab>
+                <div type="body">
+                    <p>The modern state of Georgia covers two distinct regions in antiquity, Lazika
+                        to the west, and Iberia (Kartli) to the east, with its capital at Mtskheta.
+                        Archaeological evidence indicates that there were Christians living in
+                        Mtskheta by the 3rd <abbr>cent.</abbr>, but not until the first half of the 4th <abbr>cent.</abbr> did
+                        Christianity have a significant presence in Iberia. According to tradition
+                        the Christianization of Iberia was due to the influence of St. Nino, a
+                        captive slave woman who converted King Mirian III in the 330s (related, but
+                        without any names, also in <ref rend="bold" target="https://gedsh.bethmardutho.org/Michael-I-Rabo">
+                            <persName ref="http://syriaca.org/person/217">Michael Rabo</persName>
+                        </ref>, Chronicle
+                        VII.3). By the 5th <abbr>cent.</abbr> Christianity was the dominant faith in Iberia. The
+                        most primitive Georgian literary strata display the influence of Syriac
+                        roots, mediated largely through <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Armenian-Christianity-Syriac-contacts-with">Armenian</ref> channels.
+                        Prior to the 7th <abbr>cent.</abbr> the Georgian Church was miaphysite. The geographical
+                        proximity and doctrinal affinities with miaphysite Syriac and Armenian
+                        communities ensured that those Churches would have a great impact on early
+                        Georgian literature, theology, religious practices, and ecclesiastical
+                        politics. In the early 7th <abbr>cent.</abbr> the Georgian Church broke with the Armenian
+                        Church and became Chalcedonian, thereby aligning itself with Byzantium. From
+                        that time Greek influence became more prominent in Georgian literary culture
+                        and religious practices. The spread of monasticism in Georgia is largely
+                        traced back to the arrival in the 6th <abbr>cent.</abbr> of the
+                        ‘Thirteen Syrian Fathers’, one of whom, Iovane (John), is said to have been
+                        from ‘the the borders of <ref rend="bold" target="https://gedsh.bethmardutho.org/Antioch">
+                            <placeName ref="http://syriaca.org/place/10">Antioch</placeName>
+                        </ref> in the land
+                        of Mesopotamia’. None of them can be identified with otherwise known
+                        figures, though one (Abibos) does have a Syriac name, but with a Greek
+                        ending; it seems likely that they were miaphysite. The biographies connected
+                        with these Syrian saints underwent development over the course of time
+                        (Martin-Hisard), and now an older recension has recently turned up among the
+                        ‘New Finds’ of Georgian <abbr>mss.</abbr> at <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Catherine-Monastery-of-St">
+                            <placeName ref="http://syriaca.org/place/368">Monastery of St.
+                            Catherine</placeName>
+                        </ref>, Sinai (Aleksidze).</p>
+                    <p>There are a number of disparate connections between Syriac and Georgian
+                        Christianity, some direct, others indirect.</p>
+                    <p>1. The indirect influence (via Armenian) of early Syriac versions and/or the
+                            <ref rend="bold" target="https://gedsh.bethmardutho.org/Diatessaron">Diatessaron</ref> on some early <abbr>mss.</abbr> of the Georgian Gospels and Acts
+                        has been claimed by some scholars, but this is a topic where great caution
+                        needs to be exercised before firm conclusions can be drawn, especially
+                        regarding the proposed influence of the Diatessaron (Birdsall).</p>
+                    <p>2. The prince <ref rend="bold" target="https://gedsh.bethmardutho.org/Peter-the-Iberian">
+                            <persName ref="http://syriaca.org/person/680">Peter the
+                            Iberian</persName>
+                        </ref>, who had been a political hostage in Constantinople,
+                        eventually became a prominent miaphysite monk in Palestine in the late 5th
+                        <abbr>cent.</abbr> and was known to <ref rend="bold" target="https://gedsh.bethmardutho.org/Severus-of-Antioch">
+                            <persName ref="http://syriaca.org/person/51">Severus</persName>
+                        </ref>. Of the two Greek
+                        biographies of him, one (perhaps by <ref rend="bold" target="https://gedsh.bethmardutho.org/John-Rufus">
+                            <persName ref="http://syriaca.org/person/39">John Rufus</persName>
+                        </ref>)
+                        survives in Syriac translation, while the other, by <ref rend="bold" target="https://gedsh.bethmardutho.org/Zacharias-Rhetor">
+                            <persName ref="http://syriaca.org/person/58">Zacharias
+                            Rhetor</persName>
+                        </ref>, is lost apart from a minute Syriac fragment. The
+                        relationship of these to the Georgian Life, where Peter has become
+                        Chalcedonian, is not entirely clear. The theory that Peter is the author
+                        behind the writings of <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Dionysius-the-Areopagite-Pseudo-">
+                            <choice>
+                                <sic>Pseodo</sic>
+                                <corr>Pseudo</corr>
+                            </choice>-Dionysius the Areopagite</ref> has only found limited
+                        acceptance.</p>
+                    <p>3. Georgian and Syriac speakers came into contact with one another in several
+                        different localities:</p>
+                    <p>A. From the 10th–13th <abbr>cent.</abbr> the Black Mountain, to the northwest of Antioch,
+                        was home to monasteries of many different Churches, including both Syriac
+                        (Melkite) and Georgian; a number of extant 11th-cent. <abbr>mss.</abbr> were written
+                        there (see Djobadze, 108–11 for Georgian, and Brock 1990 for Syriac).
+                        Although it was there that several Georgian translations of Syriac writers
+                        were made, these were not direct from Syriac, but by way of Greek.</p>
+                    <p>B. <ref rend="bold" target="https://gedsh.bethmardutho.org/Jerusalem">
+                            <placeName ref="http://syriaca.org/place/104">Jerusalem</placeName>
+                        </ref> and the monasteries of the Judaean desert. The Georgian
+                        presence in Jerusalem goes back to the 5th <abbr>cent.</abbr>, and early Georgian
+                        liturgical <abbr>mss.</abbr>, along with some Armenian and <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Christian-Palestinian-Aramaic">Christian Palestinian Aramaic</ref> 
+                  <abbr> mss.</abbr>, constitute an important
+                        witness to the early form of the Jerusalem liturgy. In the Middle Ages the
+                        Monastery of the Holy Cross (now Greek) was in Georgian hands. The presence
+                        of both Syriac and Georgian monks at various monasteries, notably Mar Saba,
+                        is attested especially for the 9th–10th <abbr>cent.</abbr>
+                    </p>
+                    <p>C. Sinai. From at least the 9th–13th <abbr>cent.</abbr> Syriac- and Georgian-speaking
+                        monks must have lived side by side on Sinai, and many <abbr>mss.</abbr> in these
+                        languages were copied there (table of early dated <abbr>mss.</abbr> in Brock 2003, 112–3;
+                        this can now be supplemented from the ‘New Finds’). Especially in the late
+                        10th <abbr>cent.</abbr> there were close connections between Mar Saba Monastery and St.
+                        Catherine’s Monastery. The Georgian monk Iovane Zosime (active between 949
+                        and 987; Tarchnishvili, 109–14) moved from Mar Saba to St. Catherine’s some
+                        time before 973. For some of his manuscripts this famous scribe re-used
+                        older Christian Palestinian Aramaic manuscripts; one of these is the ‘Codex
+                        Zosimi Rescriptus’ of 979, now in the Schøyen Collection (formerly Sinai,
+                        Georgian <abbr>ms.</abbr> 81); the undertext, containing a variety of different works,
+                        has been reconstructed in Desreumaux 1997. Other <abbr>mss.</abbr> copied by Iovane with
+                        Christian Palestinian Aramaic undertexts are Sinai New Finds, Georgian <abbr>mss.</abbr>
+                        19 (dated 980) and 20 (dated 986), the latter being part of <abbr>ms.</abbr> 93+92 of the
+                        Old Collection (now divided between Princeton, Birmingham, and Göttingen).
+                        It was probably in the 10th <abbr>cent.</abbr> that some quire numbers in Georgian were
+                        added to Sinai Syr. 30 (see <ref rend="bold" target="https://gedsh.bethmardutho.org/Old-Syriac-Version">Old Syriac
+                            Version</ref>).</p>
+                    <p>4. Georgian translations of Syriac authors may be either made from Syriac, or
+                        through the intermediary of Greek, Armenian, or Arabic. Translations by way
+                        of Armenian or directly from Syriac will be the earliest; amongst those that
+                        have been published are: <ref rend="bold" target="https://gedsh.bethmardutho.org/Aphrahat">
+                            <persName ref="http://syriaca.org/person/10">Aphrahaṭ</persName>
+                        </ref>, ‘Discourse’ 6
+                        (under the name of <ref rend="bold" target="https://gedsh.bethmardutho.org/Hippolytus-of-Rome">
+                            <persName ref="http://syriaca.org/person/537">Hippolytus</persName>
+                        </ref>; <abbr>ed.</abbr> with
+                        <abbr>LT</abbr>, G. Garitte, in <title rend="italic">
+                            <abbr>LM</abbr>
+                        </title> 77 [1964], 301–66), the <ref rend="bold" target="https://gedsh.bethmardutho.org/Ephrem-Life-of">Life
+                            of Ephrem</ref> and the Life of <ref rend="bold" target="https://gedsh.bethmardutho.org/Shemun-the-Stylite">
+                            <persName ref="http://syriaca.org/person/744">Shemʿun the
+                            Stylite</persName>
+                        </ref> (<abbr>ed.</abbr> with <abbr>LT</abbr> G. Garitte, in <abbr>CSCO</abbr> 171–2, 1957); the <ref rend="bold" target="https://gedsh.bethmardutho.org/Cave-of-Treasures">Cave of Treasures</ref> (<abbr>ed.</abbr> with <abbr>FT</abbr>, J.-P. Mahé, in <abbr>CSCO</abbr> 526–7,
+                        1992–3), and <ref rend="bold" target="https://gedsh.bethmardutho.org/Sahdona-Martyrius">
+                            <persName ref="http://syriaca.org/person/711">Sahdona</persName>
+                        </ref>, ‘Book of Perfection’, II, 7–12
+                        (<abbr>ed.</abbr> with <abbr>LT</abbr>, G. Garitte, in <title rend="italic">
+                            <abbr>LM</abbr>
+                        </title> 69 [1956], 243–312).
+                        The homily on the Nativity attributed to <ref rend="bold" target="https://gedsh.bethmardutho.org/Yaqub-of-Serugh">
+                            <persName ref="http://syriaca.org/person/42">Yaʿqub of
+                            Serugh</persName>
+                        </ref> which features in a late 10th-cent. early Homiliary (Van
+                        Esbroeck, 193–94) appears not to correspond with any of his published works.
+                        Translations were made by way of Greek of a number of works attributed to
+                            <ref rend="bold" target="https://gedsh.bethmardutho.org/Ephrem">
+                            <persName ref="http://syriaca.org/person/13">Ephrem</persName>
+                        </ref> (few if any are genuine Ephrem apart from the ‘Repentance
+                        of Nineveh’, <abbr>ed.</abbr> with <abbr>LT</abbr>, Garitte, in <title rend="italic">
+                            <abbr>LM</abbr>
+                        </title> 80 [1967],
+                        75–119) and of Discourses from the First Part of the works by <ref rend="bold" target="https://gedsh.bethmardutho.org/Ishaq-of-Nineveh">
+                            <persName ref="http://syriaca.org/person/550">Isḥaq of Nineveh</persName>
+                        </ref>. These were the work of the prolific translator
+                        Euthymius of the Holy Mountain (d. 1028; Tarchnishvili, 126–54), according
+                        to his Life (<abbr>ET</abbr> by T. Grdzelidze, <hi rend="italic">Georgian Monks on Mount
+                            Athos</hi> [2009], 69–70), though a few texts under Ephrem’s name already
+                        feature in a Homiliary dated 925 (Garitte, <hi rend="italic">Catalogue,</hi>
+                        no. 36). Further works from the Greek Ephrem corpus were translated by
+                        another famous translator, Epʿrem Mtsire (‘the Less’), working on the Black
+                        Mountain in the late 11th <abbr>cent.</abbr> (Tarchnishvili, 182–98, esp.189). A few
+                        hagiographical texts are said to have been translated directly from Syriac,
+                        such as that on the martyrs Aqebshma, Yausep, and Aitalaha (Tarchnishvili,
+                        467); the Life of Porphyry of Gaza came into Georgian by way of a lost
+                        Syriac translation from the Greek (Childers). In the case of others, such as
+                        the Life of Abraham and his niece Mary, the precise source, Greek, Syriac,
+                        or Arabic, remains to be determined. It is noticeable that most of the
+                        Syriac saints commemorated in the 10th-cent. Calendar of Palestinian
+                        provenance (<abbr>ed.</abbr> Garitte, <hi rend="italic">Le calendrier
+                            palestino-géorgien</hi>, 1958) are martyrs of the Persian Empire.</p>
+                    <p>5. Some more general influences in the form of theological phraseology
+                        (Winkler) and of historical ideology (Rapp, 125–9) have also been
+                        discerned.</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>Z. Aleksidze (tr. J.-P. Mahé), <title rend="italic">Le nouveau
+                                manuscrit géorgien sinaïtique NSin 50. Édition en
+                            fac-similé</title> (<abbr>CSCO</abbr> 586; 2001).</bibl>
+                        <bibl>J. N.  Birdsall, ‘The Old Syriac Gospels and the Georgian version’, in
+                                <abbr>
+                                <title rend="italic">SymSyr</title> VI</abbr>, 43–50.</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>J. N.  Birdsall</reg>
+                        <orig>idem</orig>
+                     </choice>, ‘The Georgian version of the New Testament’, in <title rend="italic">The text of the New Testament in contemporary
+                                research</title>, <abbr>ed.</abbr> B. D. Ehrman and M. W. Holmes (1995), 173–87.
+                            (incl. further references; a new edition of the vol., with an updated
+                            chapter by J. W. Childers, is forthcoming)</bibl>
+                        <bibl>S. P.  Brock, ‘Syriac manuscripts copied on the Black Mountain, near
+                            Antioch’, in <title rend="italic">Lingua Restituta Orientalis. Festgabe
+                                für J. Assfalg</title> (1990), 59–67.</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>S. P.  Brock</reg>
+                        <orig>idem</orig>
+                     </choice>, ‘Syriac on Sinai: The main connections’, in <title rend="italic">Eukosmia. Studi miscellanei per il 75o di Vincenzo Poggi
+                                S.J.</title>, <abbr>ed.</abbr> V. Ruggieri and L. Pieralli (2003), 103–17.</bibl>
+                        <bibl>J. W.  Childers, ‘The Life of Porphyry: clarifying the relationship of
+                            the Greek and Georgian versions through the study of the New Testament
+                            quotations’, in <title rend="italic">Transmission and reception: New
+                                Testament text-critical and exegetical studies</title>, <abbr>ed.</abbr> J. W.
+                            Childers and D. C. Parker (2006), 154–78.</bibl>
+                        <bibl>A.  Desreumaux, <title rend="italic">Codex sinaiticus Zosimi
+                                rescriptus</title> (1997).</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>A.  Desreumaux</reg>
+                        <orig>idem</orig>
+                     </choice>, ‘L’apport des palimpsestes araméens christo-palestiniens: Le cas
+                            du Codex Sinaiticus Rescriptus et du Codex Climaci Rescriptus’, in
+                                <title rend="italic">Palimpsestes et éditions de textes: Les textes
+                                littéraires</title>, <abbr>ed.</abbr> V. Somers (2009), 201–11.</bibl>
+                        <bibl>W.  Djobadze, <title rend="italic">Materials for the study of Georgian
+                                monasteries in the western environs of Antioch</title> (<abbr>CSCO</abbr> 372<choice>
+                                <sic>,</sic>
+                                <corr>;</corr>
+                            </choice>
+                            1976), 86–111.</bibl>
+                        <bibl>G.  Garitte, <title rend="italic">Catalogue des manuscrits géorgiens
+                                littéraires du mont Sinaï</title> (<abbr>CSCO</abbr> 165; 1956).</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>G.  Garitte</reg>
+                        <orig>idem</orig>
+                     </choice>, ‘Géorgienne (littérature spirituelle)’, in <title rend="italic">
+                                <abbr>DSpir</abbr>
+                            </title>, vol. 6 (1967), 244–56.</bibl>
+                        <bibl>E.  Honigmann, <title rend="italic">Pierre l’Ibérien et les écrits du
+                                Pseudo-Denys l’Aréopagite</title> (1952).</bibl>
+                        <bibl>C. B.  Horn, <title rend="italic">Asceticism and Christological
+                                controversy in fifth-century Palestine: The career of Peter the
+                                Iberian</title> (2006).</bibl>
+                        <bibl>D.  Lang, <title rend="italic">Lives and legends of the Georgian
+                                Saints</title> (1956). (<abbr>ET</abbr> of Life of Peter, 57–80; of David of
+                            Garedja, one of the ‘Syrian Fathers’, 81–93)</bibl>
+                        <bibl>O. Lordkipanidze and H. Brakmann, ‘Iberia II’, in <title rend="italic">
+                                <abbr>RAC</abbr>
+                            </title> 17 (1996), 12–106. (incl. further references)</bibl>
+                        <bibl>B.  Martin-Hisard, ‘Les “Treize saints pères”. Formation et évolution
+                            d’une tradition hagiographique’, <title rend="italic">Revue des études
+                                géorgiennes et caucasiennes</title> 1 (1985), 141–68; 2 (1986),
+                            75–111. (with <abbr>FT</abbr> of the oldest forms of the Lives)</bibl>
+                        <bibl>T.  Mgaloblishvili (<abbr>ed.</abbr>), <title rend="italic">Georgians in the Holy
+                                Land</title> (<choice>
+                                <sic>Forthcoming</sic>
+                                <corr>forthcoming</corr>
+                            </choice>).</bibl>
+                        <bibl>B.  Outtier, ‘Martius, Barsus, Tarnus ou Martyrius? Nouveaux fragments
+                            arabes et géorgiens de Sahdona’, <title rend="italic">Revue des études
+                                géorgiennes et caucasiennes</title> 1 (1985), 225–26.</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>B.  Outtier</reg>
+                        <orig>idem</orig>
+                     </choice>, ‘Langue et littérature géorgiennes’, in <title rend="italic">Christianismes orientaux. Introduction à l’étude des langues et
+                                littératures</title>, <abbr>ed.</abbr> M. Albert <abbr>et al.</abbr> (1993), 263–96.</bibl>
+                        <bibl>S. H.  Rapp, <title rend="italic">Studies in medieval Georgian
+                                historiography</title> (<abbr>CSCO</abbr> 601; 2003).</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>S. H.  Rapp</reg>
+                        <orig>idem</orig>
+                     </choice>, ‘Georgian Christianity’, in <title rend="italic">The Blackwell
+                                companion to Eastern Christianity</title>, <abbr>ed.</abbr> K. Parry (2007),
+                            137–55.</bibl>
+                        <bibl>M.  Tarchnishvili, <title rend="italic">Le grand lectionnaire de
+                                l’église de Jérusalem (V<hi rend="superscript">e</hi>–VIII<hi rend="superscript">e</hi> siècle)</title> (<abbr>CSCO</abbr> 188–9, 204–5;
+                            1959–60).</bibl>
+                        <bibl>M.  Tarchnishvili with J.  Assfalg, <title rend="italic">Geschichte
+                                der kirchlichen georgischen Literatur</title> (<abbr>SeT</abbr> 185;
+                            1955).</bibl>
+                        <bibl>M. Van Esbroeck, <title rend="italic">Les plus anciens homéliaires
+                                géorgiens</title> (1975).</bibl>
+                        <bibl>G. Winkler, ‘Das theologische Formelgut über den Schöpfer, das
+                            Homoousios, die Inkarnation und Menschwerdung in den georgischen
+                            Troparien des Iadgari im Spiegel der christlich-orientalischen Quellen’,
+                                <title rend="italic">
+                                <abbr>OC</abbr>
+                            </title> 84 (2000), 117–177.</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Sebastian P.</forename> 
+                  <surname>Brock</surname>
+               </persName> and <persName>
+                  <forename>Jeff W.</forename> 
+                  <surname>Childers</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

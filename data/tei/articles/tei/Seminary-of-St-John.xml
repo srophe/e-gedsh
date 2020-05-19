@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Seminary of St. John</title>
+            <author>
+               <persName>
+                  <forename>Amir</forename> 
+                  <surname>Harrak</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0">Electronic Edition Draft Version 1.0</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Seminary of St. John</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Seminary-of-St-John</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/493</idno>
+                    <idno type="entry">484</idno>
+                    <milestone unit="pages" n="365-366"/>
+                    <idno type="althead">Séminaire Syro-Chaldéen St. Jean</idno>
+                    <idno type="althead">Maʿhad Mār Yūḥannā al-Ḥabīb</idno>
+                    <idno type="subject">http://syriaca.org/place/477</idno>
+                    <note type="type">place</note>
+                    <note type="abstract">A prestigious Roman Catholic theological seminary in
+                            <placeName ref="http://syriaca.org/place/139">Mosul</placeName>,
+                        <placeName>Iraq</placeName>, called Séminaire
+                        Syro-Chaldéen St. Jean in French.<note/>
+                    </note>
+                </ab>
+                <ab type="infobox">Séminaire Syro-Chaldéen St. Jean, Maʿhad Mār Yūḥannā
+                    al-Ḥabīb</ab>
+                <p>A prestigious Roman Catholic theological seminary in <ref rend="bold" target="https://gedsh.bethmardutho.org/Mosul">
+                        <placeName ref="http://syriaca.org/place/139">Mosul</placeName>
+                    </ref>, Iraq, called
+                    Séminaire Syro-Chaldéen St. Jean in French. It was founded by the French
+                    Dominican Fathers in 1878, and though it was closed between the beginning of the
+                    First World War and 1923, it continued to serve the <abbr>Chald.</abbr> and Syr. Catholic
+                    churches until 1973, when it was shut down by the Iraqi authorities. It was
+                    divided into two main parts: Le Petit Séminaire, a junior and senior high school
+                    which consisted of six years of studies after elementary school, where the study
+                    of French, Syriac, and Arabic language and literature was essential, and Le
+                    Grand Séminaire, which consisted of two years of Philosophy and four years of
+                    Theology, including Biblical Studies. Throughout its history, the instruction in
+                    both parts of the Seminary was entirely in French, and its strength remained in
+                    the study of language and literature. Eminent scholars graduated from this
+                    institution, including 1. <ref rend="bold" target="https://gedsh.bethmardutho.org/Manna-Yaqob-Awgen">
+                        <persName ref="http://syriaca.org/person/609">Awgen Manna</persName>
+                    </ref> (1866–1928) who
+                    published <hi rend="italic">Dalīl al-rāghibīn fī lughat al-ārāmiyyīn</hi> [Guide
+                    for the Students of the Aramaic Language] (Mosul, 1900), an excellent
+                    Syriac-Arabic dictionary; 2. the well-known <ref rend="bold" target="https://gedsh.bethmardutho.org/Mingana-Alphonse">
+                        <persName ref="http://syriaca.org/person/639">Alphonse
+                        Mingana</persName>
+                    </ref> (1878–1937) who published among other things the Chronicle of
+                        <ref rend="bold" target="https://gedsh.bethmardutho.org/Arbela">
+                        <placeName ref="http://syriaca.org/place/13">Arbela</placeName>
+                    </ref>
+                    (Mosul, 1907) and <hi rend="italic">Clef de la langue araméenne</hi> (Mosul,
+                    1905), a valuable Syriac grammar; and 3. <ref rend="bold" target="https://gedsh.bethmardutho.org/Scher-Addai">
+                        <persName ref="http://syriaca.org/person/723">Addai Scher</persName>
+                    </ref>
+                    (martyred in Turkey in 1915), a prolific writer who published the <hi rend="italic">Histoire nestorienne inédite (Chronique de <choice>
+                            <sic>Seert</sic>
+                            <corr>Séert</corr>
+                        </choice>)</hi>. Most
+                    of the professors were French Dominicans, including the great Syriacist Fr. <ref rend="bold" target="https://gedsh.bethmardutho.org/Fiey-Jean-Maurice">
+                        <persName ref="http://syriaca.org/person/488">Jean-Maurice Fiey</persName>
+                    </ref> (1914–95), who was the Director of the Seminary for
+                    a short period before he was forced to leave Iraq in 1973. A few Seminary
+                    <choice>
+                        <sic>Graduates</sic>
+                        <corr>graduates</corr>
+                    </choice> became professors there, as in the case of Mingana in the 1900s, and
+                    in the 1950s and 1960s Fr. Albert Abūnā, professor of Syriac, who published
+                    among other things the French translation of the second part of the <ref rend="bold" target="https://gedsh.bethmardutho.org/Chronicle-of-1234">Chronicle of 1234</ref> (1974). Hundreds of Iraqi priests graduated from
+                    this Seminary, many becoming bishops and at least one, the Syr. Catholic <ref rend="bold" target="https://gedsh.bethmardutho.org/Tappuni-Gabriel">
+                        <persName ref="http://syriaca.org/person/770">Gabriel
+                        Tappuni</persName>
+                    </ref> (1879–1968), becoming <abbr>
+                        <choice>
+                            <sic>Patr.</sic>
+                            <corr>patr.</corr>
+                        </choice>
+                    </abbr> The Seminary published several
+                    internal journals, but the now rare <hi rend="italic">Bulletin du Séminaire
+                        Syro-Chaldéen</hi> (1940s and 1950s) included scholarly papers on Syriac. In
+                    the more recent history of the Seminary, Fr. Joseph Omez (1902–74) was its
+                    director, and it was thanks to him that this institution was modernized and some
+                    84 highly educated and multi-lingual priests graduated, some still serving the
+                    church of Iraq and elsewhere.</p>
+                <p>See <ref target="https://gedsh.bethmardutho.org/fig/51">Fig. 51</ref> and <ref target="https://gedsh.bethmardutho.org/fig/109">109</ref>.</p>
+                <byline>
+                    <persName>
+                  <forename>Amir</forename> 
+                  <surname>Harrak</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Polykarpos</title>
+            <author>
+               <persName>
+                  <forename>Andreas</forename> 
+                  <surname>Juckel</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0">Electronic Edition Draft Version 1.0</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Polykarpos</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Polykarpos</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/441</idno>
+                    <idno type="entry">432</idno>
+                    <milestone unit="pages" n="336-337"/>
+                    <idno type="subject">http://syriaca.org/person/35</idno>
+                    <note type="type">person</note>
+                    <note type="abstract">Chorepiscopus of the diocese of Mabbug, who was
+                        commissioned with the translation of the <abbr>NT</abbr> (and parts of the <abbr>OT</abbr>) by
+                        Philoxenos of Mabbug (the so-called Philoxenian version).<note/>
+                    </note>
+                </ab>
+                <ab type="infobox">(<abbr>ca.</abbr> 500) [<abbr>Syr. Orth.</abbr>]</ab>
+                <div type="body">
+                    <p>Chorepiscopus of the diocese of Mabbug, who was commissioned with the
+                        translation of the <abbr>NT</abbr> (and parts of the <abbr>OT</abbr>) by <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Philoxenos-of-Mabbug">
+                            <persName ref="http://syriaca.org/person/44">Philoxenos
+                            of Mabbug</persName>
+                        </ref> (the so-called Philoxenian version). The only
+                        information about Polykarpos derives from his contemporary <ref rend="bold" target="https://gedsh.bethmardutho.org/Mushe-of-Aggel">
+                            <persName ref="http://syriaca.org/person/64">Mushe of
+                            Aggel</persName>
+                        </ref>. In the introductory letter to Paphnutius, prefixed to his
+                        own Syriac translation of <ref rend="bold" target="https://gedsh.bethmardutho.org/Cyril-of-Alexandria">
+                            <persName ref="http://syriaca.org/person/430">Cyril</persName>
+                        </ref>’s explanation of the
+                        Pentateuch (‘Glaphyra’), Mushe refers to the ‘edition of the <abbr>NT</abbr> and of David
+                        (<choice>
+                            <sic>i.e. </sic>
+                            <corr>i.e., </corr>
+                        </choice>Psalms) that the deceased Chorepiscopus made for Philoxenos of Mabbug
+                        in Syriac’ (Assemani, <hi rend="italic">BibOr</hi>, vol. 2, 82–3; Guidi,
+                        404, 410–12). This piece of information is unsuspicious, as later references
+                        to this version link it directly with Philoxenos without mentioning
+                        Polykarpos (<ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Bar-Ebroyo-Grigorios">
+                            <persName ref="http://syriaca.org/person/239">Bar ʿEbroyo</persName>
+                        </ref>, Ecclesiastical History, <abbr>ed.</abbr>
+                        Abbeloos and Lamy, I, 50 = vol. 1, col. 267; II, 22 = vol. 3, col. 89;
+                        proem to the <hi rend="italic">Awṣar Roze</hi>; <ref rend="bold" target="https://gedsh.bethmardutho.org/Michael-I-Rabo">
+                            <persName ref="http://syriaca.org/person/217">Michael
+                            Rabo</persName>
+                        </ref>, Chronicle, X, 25 = vol. 4, 391). Scholars also prefer the
+                        commissioner’s prominent name (‘Philoxenian’) to that of the otherwise
+                        unknown translator. The instigation and intention of the version actually
+                        derive from Philoxenos. It was designed for serving the miaphysite cause by
+                        providing a Syriac <abbr>NT</abbr> version, sufficiently close to the Greek, in order to
+                        defend miaphysite Christology and doctrine. In his ‘Commentary on the
+                        Prologue of John’ (<abbr>ed.</abbr> A. de Halleux, <abbr>CSCO</abbr> 380, 1977) Philoxenos points to
+                        several imprecise translations in the <ref rend="bold" target="https://gedsh.bethmardutho.org/Peshitta">Peshitta</ref>, which
+                        was to be replaced by an entirely new translation.</p>
+                    <p>While Bar ʿEbroyo and Michael provide an approximate date for Polykarpos’s
+                        version by linking it with Philoxenos, the subscriptions of the <ref rend="bold" target="https://gedsh.bethmardutho.org/Harqlean-Version">Ḥarqlean Version</ref> (615/16) give the exact date ‘819 of Alexander
+                        of Macedonia’ (= AD 507/08). These subscriptions provide additional
+                        information: first, that the Greek model was associated with Caesarea in
+                        Palestine and with the famous library directed by Pamphilus; second, that
+                        this version for the first time included the Minor Catholic Epistles and
+                        Revelation, neither of which was part of the Peshitta canon.</p>
+                    <p>Unfortunately no <abbr>ms.</abbr> of the original version survives. Our knowledge of the
+                        version’s text derives from four sources: 1. from quotations in the later
+                        writings of Philoxenos (collected in part by B. Aland); 2. from quotations
+                        in the margins of the <ref rend="bold" target="https://gedsh.bethmardutho.org/Masora">Masora</ref> 
+                  <abbr>mss.</abbr> (<abbr>ed.</abbr> N.
+                        Wiseman 1828); 3. from quotations preserved in the Euthalian prologue to the
+                        Pauline epistles (<abbr>ed.</abbr> S. P. Brock 1979); and 4. from a 6th-cent. translation of
+                        the Minor Catholic Epistles and Revelation (<abbr>ed.</abbr> J. Gwynn 1909, 1897), extant
+                        almost exclusively in <abbr>mss.</abbr> of the second millennium (an Arabic translation
+                        of the epistles exists in <abbr>ms.</abbr> Sin. Arab. 154, <abbr>ed.</abbr> M. Dunlop Gibson 1899).
+                        This translation can only be identified with Polykarpos’s version by
+                        internal evidence (Gwynn 1909, introduction). All these remnants reveal the
+                        version’s intermediary position between the Peshitta and the Ḥarqlean
+                        regarding the refinement of translation technique; it is closer to the Greek
+                        than the Peshitta, but is not a ‘mirror translation’ of the Greek like the
+                        Ḥarqlean (in general, see <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Greek-Syriac-translations-from">Greek, Syriac translations from</ref>).</p>
+                    <p>Polykarpos’s version received a thorough revisional update, which resulted in
+                        the Ḥarqlean Version (615/16). This might be the reason for the almost
+                        complete disappearance of Polykarpos’s version, which was outdated by the
+                        new. Fortunately essential information on Polykarpos’s version was included
+                        and thus preserved in the Ḥarqlean subscriptions. Nevertheless, the
+                        revisional relationship between Polykarpos’s original version and the update
+                        prepared by <ref rend="bold" target="https://gedsh.bethmardutho.org/Tumo-of-Harqel">
+                            <persName ref="http://syriaca.org/person/87">Tumo of
+                            Ḥarqel</persName>
+                        </ref> remained unclear so long as genuine Philoxenian texts for
+                        comparison were not available. The ‘Philoxenian-Ḥarqlean problem’ centered
+                        around the question of whether Tumo simply re-issued Polykarpos’s version
+                        adding material to the text and margins or whether he produced a new
+                        independent version. This problem derives not only from the ambiguity of the
+                        Ḥarqlean subscriptions, but also from the ‘Mohl <abbr>ms.</abbr>’ (now Cambridge, Univ.
+                        Libr. Add. 1700; without Ḥarqlean annotations). The heading (<hi rend="italic">inscriptio</hi>) to Acts in this <abbr>ms.</abbr> reads: ‘The Acts of
+                        the Twelve Holy Apostles according to the tradition of the holy Mor Aksnoyo
+                            (<hi rend="italic">ayk mašlmonutho d-qaddišo Mor Aksnoyo</hi> [<choice>
+                            <sic>i.e.</sic>
+                            <corr>i.e.,</corr>
+                        </choice>
+                        Philoxenos])’. However, the subscriptions prove that the <abbr>ms.</abbr> is surely
+                        Ḥarqlean. The view that the Ḥarqlean is a new (though not totally
+                        independent) version turned out to be substantially correct. In addition to
+                        the attached textual material, Tumo introduced a refinement of translation
+                        technique that turned Polykarpos’s original version into a ‘mirror
+                        translation’. Polykarpos’s version was an attractive starting point for
+                        Tumo’s own version due to its already close adherence to the Greek and the
+                        connection of its underlying Greek text with Pamphilus’s famous library in
+                        Caesarea. It was this underlying Greek text that Tumo wished to preserve and
+                        to mirror in his own version, and he was not interested in preserving
+                        Polykarpos’s version for its own sake.</p>
+                    <p>The ‘Philoxenian-Ḥarqlean problem’ arose with the <hi rend="italic">editio
+                            princeps</hi> of the Ḥarqlean in 1778–1803, which the editor J. White
+                        considered to be the annotated re-issue of Polykarpos’s version and so
+                        entitled it <hi rend="italic">Sacrorum Evangeliorum versio syriaca
+                            philoxeniana</hi>. Those who argued for an independent new version tried
+                        to identify <abbr>mss.</abbr> of Polykarpos’s original version. J. G. Ch. Adler claimed
+                        that <abbr>ms.</abbr> Florence, Bibl. Laurenziana Plut. I,40 was the earlier version; G.
+                        Bernstein favored <abbr>ms.</abbr> Rome, Bibl. Angelica 74. The choice of these scholars
+                        was directed by the absence of annotations from these codices. They are,
+                        however, nothing other than Ḥarqlean <abbr>mss.</abbr> that lost their annotations in the
+                        course of transmission (a common feature of Ḥarqlean <abbr>mss.</abbr>).</p>
+                    <p>There is reason to assume that Polykarpos also translated some of the <abbr>OT</abbr>
+                        since Mushe of Aggel mentions the Psalms alongside the <abbr>NT</abbr> (see above).
+                        Moreover, a quotation of Is. 9:6 in the Milan <ref rend="bold" target="https://gedsh.bethmardutho.org/Syro-Hexapla">Syro-Hexapla</ref>
+                        is attributed to the version, ‘which was translated through the care of the
+                        holy Philoxenos’. Ceriani edited and identified as possibly ‘Philoxenian’ a
+                        fragmentary version of Isaiah (preserved in <abbr>ms.</abbr> Brit. Libr. Add. 17,106),
+                        which is translated from Greek, but agrees with neither the Syro-Hexapla nor
+                        the version of <ref rend="bold" target="https://gedsh.bethmardutho.org/Yaqub-of-Edessa">
+                            <persName ref="http://syriaca.org/person/113">Yaʿqub of
+                            Edessa</persName>
+                        </ref>. The extensive study of R. G. Jenkins supplies evidence for
+                        at least Gen., Ex., and Isa. (not for Ps.!) that ‘Philoxenos came under the
+                        influence of a Greek form of certain Old Testament books’. As this influence
+                        can only be traced in writings from the later period of Philoxenos’s life
+                        (corresponding to his use of Polykarpos’s <abbr>NT</abbr> version), it is very likely
+                        that Polykarpos also produced a translation of individual <abbr>OT</abbr> books.</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>B.  Aland, ‘Die philoxenianisch-harklensische
+                            Übersetzungstradition’, <title rend="italic">
+                                <abbr>LM</abbr>
+                            </title> 94 (1981),
+                            321–83.</bibl>
+                        <bibl>B.  Aland and A.  Juckel (<abbr>ed.</abbr>), <title rend="italic">Das Neue
+                                Testament in syrischer Überlieferung</title>, I (1986); II, 1–3
+                            (1991, 1995, 2002).</bibl>
+                        <bibl>S. P.  Brock, ‘The Syriac Euthalian material and the Philoxenian
+                            version of the New Testament’, <title rend="italic">
+                                <abbr>ZNW</abbr>
+                            </title> 70
+                            (1979), 120–30.</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>S. P.  Brock</reg>
+                        <orig>idem</orig>
+                     </choice>, ‘The resolution of the Philoxenian/Harclean problem’, in <title rend="italic">New Testament textual criticism. Its Significance for
+                                exegesis. Essays in honour of Bruce M. Metzger</title>, <abbr>ed.</abbr> E. J.
+                            Epp and G. D. Fee (1981), 325–43.</bibl>
+                        <bibl>A. M.  Ceriani, <title rend="italic">Monumenta sacra et
+                                profana</title>, vol. 5.1 (1868).</bibl>
+                        <bibl>I.  Guidi, ‘Mose di Aghel e Simeone Abbate’, <title rend="italic">Rendiconti della R. Accademia dei Lincei</title> (1886),
+                            397–416.</bibl>
+                        <bibl>J. Gwynn, ‘Polycarpus’, in <title rend="italic">
+                                <abbr>DCB</abbr>
+                            </title>, vol. 4,
+                            431–4.</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>J. Gwynn</reg>
+                        <orig>idem</orig>
+                     </choice>, <title rend="italic">The Apocalypse of St. John in a Syriac
+                                version hitherto unknown</title> (1897; <abbr>repr.</abbr> 2005).</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>J. Gwynn</reg>
+                        <orig>idem</orig>
+                     </choice>, <title rend="italic">Remnants of the later Syriac versions of
+                                the Bible</title> (1909; <abbr>repr.</abbr> 2005).</bibl>
+                        <bibl>R. G.  Jenkins, <title rend="italic">The Old Testament quotations of
+                                Philoxenus of Mabbug</title> (<abbr>CSCO</abbr> 514; 1989).</bibl>
+                        <bibl>A. de Halleux, <title rend="italic">Philoxène de Mabbog</title>
+                            (1963), 117–25.</bibl>
+                        <bibl>G. Zuntz, <title rend="italic">The ancestry of the Harklean New
+                                Testament</title> (1945).</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Andreas</forename> 
+                  <surname>Juckel</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

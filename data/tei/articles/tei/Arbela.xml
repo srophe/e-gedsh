@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Arbela</title>
+            <author>
+               <persName>
+                  <forename>Edward G.</forename> 
+                  <surname>Mathews</surname>, <genName>Jr.</genName>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0">Electronic Edition Draft Version 1.0</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Arbela</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Arbela</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/54</idno>
+                    <idno type="entry">45</idno>
+                    <milestone unit="pages" n="31"/>
+                    <idno type="althead">Erbil</idno>
+                    <idno type="subject">http://syriaca.org/place/13</idno>
+                    <note type="type">place</note>
+                    <note type="abstract">Capital of modern Kurdistan, in eastern <placeName>Iraq</placeName>.<note/>
+                    </note>
+                </ab>
+                <ab type="infobox">Erbil</ab>
+                <div type="body">
+                    <p>Capital of modern Kurdistan, in eastern Iraq. It was already inhabited in the
+                        4th millennium BC; in the oldest cuneiform texts it is called <hi rend="italic">Urbilum</hi> (Assyrian <hi rend="italic">Arbaʾilu</hi>).
+                        One of the stations along the royal road between Sardes and Persepolis, it
+                        was a cultic center, with a temple devoted to the fertility goddess Ishtar,
+                        as well as a center of commerce and a main point on the caravan routes. It
+                        was held successively by the Babylonians, Persians, and Greeks, and it was
+                        very near Arbela that Darius III was defeated by Alexander the Great (331
+                        BC). It was during Alexander’s rule that the country surrounding Arbela
+                        became known as <ref rend="bold" target="https://gedsh.bethmardutho.org/Adiabene">
+                            <placeName ref="http://syriaca.org/place/993">Adiabene</placeName>
+                        </ref> (Syr. <hi rend="italic">Ḥadyāb</hi>), which later became part of the Parthian
+                        Empire, and eventually a governor’s seat during the Sasanian period. In the
+                        1st <abbr>cent.</abbr> AD, Adiabene became an independent kingdom, subject to the
+                        Parthian king, but it remained on the periphery of the battle zone between
+                        Rome and Parthia. It was in Adiabene, according to <ref rend="bold" target="https://gedsh.bethmardutho.org/Josephus">
+                            <persName ref="http://syriaca.org/person/577">Josephus</persName>
+                        </ref>, that the
+                        royal family converted to Judaism in the 1st <abbr>cent.</abbr> AD.</p>
+                    <p>Arbela was christianized at a very early date and its inhabitants quickly
+                        became the victims of persecution by the local governor. The history of its
+                        Christian beginnings is recounted in the Chronicle of Arbela, a late and
+                        dubious mélange of biographical sketches of the twenty early bishops of
+                        Arbela (<abbr>ca.</abbr> 104–511). According to this Chronicle, Pekhida, a disciple of
+                        Addai, became the first <abbr>bp.</abbr>; during the tenure of Isḥaq, the third <abbr>bp.</abbr>, the
+                        first church in Arbela was built. The Chronicle also bears testimony — and
+                        this may be the most historical witness of this text — that many of Arbela’s
+                        bishops and faithful suffered martyrdom at the hands of the Persians. The
+                            <ref rend="bold" target="https://gedsh.bethmardutho.org/Mari-Acts-of">Acts of Mari</ref>, a seemingly more reliable source, claims rather
+                        that Aggai and Mari, missionaries from <ref rend="bold" target="https://gedsh.bethmardutho.org/Edessa">
+                            <placeName ref="http://syriaca.org/place/78">Edessa</placeName>
+                        </ref>, were the
+                        first evangelists of Adiabene, and its first bps. Arbela was for some time
+                        the metropolitan seat of the region of Adiabene, and boasted of several
+                        important figures as bishops — of whom three later became patriarchs  — who
+                        appear in the signatory lists of the synods of the <abbr>Ch. of E.</abbr> A Christian
+                        school located in Arbela also produced a number of important monastic
+                        figures and bps. In 1295, a second Mongol invasion destroyed the Christian
+                        churches, killed many Christians, and drove the surviving Christians into
+                        other regions. Subsequent persecutions were sufficiently harsh that, by the
+                        end of the 17th <abbr>cent.</abbr>, there were no remaining Christians in Arbela; small
+                        groups had begun to re-immigrate in the early part of the 20th <abbr>cent.</abbr>
+                    </p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>Fiey, <title rend="italic">Assyrie chrétienne</title>, vol. 1,
+                            39–97.</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>Fiey</reg>
+                        <orig>idem</orig>
+                     </choice>, <title rend="italic">Pour un Oriens christianus novus</title>,
+                            78–80.</bibl>
+                        <bibl>A.  Harrak, <title rend="italic">The Acts of Mār Mārī the
+                                Apostle</title> (2005). (Syr. with <abbr>ET</abbr>)</bibl>
+                        <bibl>C. Jullien and F. Jullien, <title rend="italic">Les Actes de Mar
+                                Mari</title> (<abbr>CSCO</abbr> 602–3; 2003). (Syr. with <abbr>FT</abbr>)</bibl>
+                        <bibl>C. Jullien and F. Jullien, <title rend="italic">Aux origines de
+                                l’Église de Perse: Les Actes de Mar Mari</title> (<abbr>CSCO</abbr> 604;
+                            2003).</bibl>
+                        <bibl>P. Kawerau, <title rend="italic">Die Chronik von Arbela</title> (<abbr>CSCO</abbr>
+                            199–200; 1985).<choice>
+                                <sic/>
+                                <corr> (Syr. with GT)</corr>
+                            </choice>
+                        </bibl>
+                        <bibl>P.  Peeters, ‘Le passionnaire d’Adiabène’, <title rend="italic">
+                                <abbr>AB</abbr>
+                            </title> 43 (1925), 261–304.</bibl>
+                        <bibl>D. Sourdel, ‘Irbil’, in <title rend="italic">EI</title>
+                            <hi rend="superscript">2</hi>, vol. 4, 76–7.</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Edward G.</forename> 
+                  <surname>Mathews</surname>, <genName>Jr.</genName>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

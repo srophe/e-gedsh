@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Testament of our Lord Jesus Christ</title>
+            <author>
+               <persName>
+                  <forename>Sebastian P.</forename> 
+                  <surname>Brock</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0">Electronic Edition Draft Version 1.0</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Testament of our Lord Jesus Christ</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Testament-of-our-Lord-Jesus-Christ</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/548</idno>
+                    <idno type="entry">539</idno>
+                    <milestone unit="pages" n="399"/>
+                    <idno type="althead">Testamentum Domini nostri Jesu Christi</idno>
+                    <note type="type">work</note>
+                    <note type="abstract">A collection in two books of church regulations claiming
+                        to be from the mouth of Christ and written down by Clement of Rome.<note/>
+                    </note>
+                </ab>
+                <ab type="infobox">Testamentum Domini nostri Jesu Christi</ab>
+                <div type="body">
+                    <p>A collection in two books of church regulations claiming to be from the mouth
+                        of Christ and written down by <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Clement-of-Rome-and-Pseudo-Clementine-literature">Clement of Rome</ref>. The
+                        work (<hi rend="italic">
+                            <abbr>CPG</abbr>
+                        </hi> 1743) was originally written in Greek (of
+                        this only parts survive); Cappadocia, Syria, and Palestine (thus Kohlbacher)
+                        have all been suggested as its place of origin; Rahmani dated it to the 2nd
+                        <abbr>cent.</abbr> but more recently the late 4th (White) and the late 5th <abbr>cent.</abbr>
+                        (Kohlbacher) have both been suggested. The translation into Syriac was made
+                        in 686/7 by ‘the poor Yaʿqub’ who is usually identified as <ref rend="bold" target="https://gedsh.bethmardutho.org/Yaqub-of-Edessa">
+                            <persName ref="http://syriaca.org/person/113">Yaʿqub of
+                            Edessa</persName>
+                        </ref>. The work contains three different elements: a short
+                        apocalypse at the beginning; material going back to the ‘Apostolic
+                        Tradition’ attributed to <ref rend="bold" target="https://gedsh.bethmardutho.org/Hippolytus-of-Rome">
+                            <persName ref="http://syriaca.org/person/537">Hippolytus</persName>
+                        </ref>; and descriptions
+                        of liturgical usage (including a complete initiation rite [II.5–10], as well
+                        as a number of prayers for different occasions). The third element may
+                        portray an ideal rather than any local reality. The apocalypse was perhaps
+                        added and composed by the translator (thus Drijvers). The Testament was
+                        taken over in an abbreviated form in the <abbr>Syr. Orth.</abbr> ‘Synodicon’ in <abbr>ms.</abbr>
+                        Damascus <abbr>Patr.</abbr> 8/11. In Arabic and Ethiopic it forms part of the ‘Octateuch
+                        of Clement’.</p>
+                </div>
+                <div type="bibl">
+                    <listBibl>
+                        <listBibl>
+                            <head>Primary Sources</head>
+                            <bibl>R.  Beylot, <title rend="italic">Le Testamentum Domini
+                                    éthiopien</title> (1984).</bibl>
+                            <bibl>J.  Cooper and A. J.  McLean, <title rend="italic">The Testament
+                                    of the Lord</title> (1902). (<abbr>ET</abbr>)</bibl>
+                            <bibl>F.  Nau (<abbr>ed.</abbr> P.  Ciprotti), <title rend="italic">La version
+                                    syriaque de l’Octateuque de Clément</title> (1967). (<abbr>FT</abbr>)</bibl>
+                            <bibl>I. E.  Rahmani<title rend="italic">, Testamentum Domini nostri
+                                    Jesu Christi</title> (1899). (with <abbr>LT</abbr>)</bibl>
+                            <bibl>G.  Sperry-White, <title rend="italic">The Testamentum Domini. A
+                                    text for students</title> (1991). (<abbr>ET</abbr> of selections)</bibl>
+                            <bibl>A.  Vööbus, <title rend="italic">The Synodicon in the West Syrian
+                                    Tradition</title>, vol.  I (<abbr>CSCO</abbr> 367–8; 1975), 1–49 (Syr.),
+                                27–64 (<abbr>ET</abbr>).</bibl>
+                        </listBibl>
+                        <listBibl>
+                            <head>Secondary Sources</head>
+                            <bibl>R.-G.  Coquin, ‘Le Testamentum Domini: Problèmes de tradition
+                                textuelle’, <title rend="italic">
+                                    <abbr>ParOr</abbr>
+                                </title> 5 (1974),
+                                165–88.</bibl>
+                            <bibl>H. J. W.  Drijvers, ‘The Testament of our Lord. Jacob of Edessa’s
+                                response to Islam’, <title rend="italic">ARAM</title> 6 (1994),
+                                104–14.</bibl>
+                            <bibl>F. X. Funk, <title rend="italic">Das Testament unseres Herrn und
+                                    die verwandten Schriften</title> (1901).</bibl>
+                            <bibl>B.  Gain, ‘Fragments grecs inédits du Testamentum Domini attribués
+                                à saint Basile’, <title rend="italic">Augustinianum</title> 32
+                                (1992), 261–77.</bibl>
+                            <bibl>M.  Kohlbacher, ‘Wessen Kirche ordnete das Testamentum Domini
+                                nostri Jesu Christi?’, in <title rend="italic">Zu Geschichte,
+                                    Theologie, Liturgie und Gegenwartslage der syrischen
+                                    Kirchen</title>, <abbr>ed.</abbr> M. Tamcke and A. Heinz (<abbr>SOK</abbr> 9; 2000),
+                                55–137. (with further references)</bibl>
+                            <bibl>P. Post, ‘La liturgie en tant qu’architecture? Remarques sur la
+                                relation entre le “Testamentum Domini Jesu Christi” et
+                                l’architecture des églises dans l’Illyricum oriental’, <title rend="italic">Bijdragen</title> 42 (1981), 392–420.</bibl>
+                            <bibl>G. White, <title rend="italic">Daily prayer and its ascetic
+                                    content in the Syriac and Ethiopic Testamentum Domini</title>
+                                (Joensu, 2002).</bibl>
+                            <bibl>G.  Winkler, ‘Über das christliche Erbe Henochs und einige
+                                Probleme des Testamentum Domini’, <title rend="italic">
+                                    <abbr>OC</abbr>
+                                </title> (forthcoming).</bibl>
+                        </listBibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Sebastian P.</forename> 
+                  <surname>Brock</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

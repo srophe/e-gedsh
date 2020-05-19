@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Marutha of Maypherqaṭ</title>
+            <author>
+               <persName>
+                  <forename>Sebastian P.</forename> 
+                  <surname>Brock</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0">Electronic Edition Draft Version 1.0</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Marutha of Maypherqaṭ</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Marutha-of-Maypherqat</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/367</idno>
+                    <idno type="entry">358</idno>
+                    <milestone unit="pages" n="273"/>
+                    <idno type="subject">http://syriaca.org/person/25</idno>
+                    <note type="type">person</note>
+                    <note type="abstract">
+                        <abbr>Bp.</abbr>, doctor, and co-convenor of the Synod of
+                        Seleucia-Ctesiphon (410).<note/>
+                    </note>
+                </ab>
+                <ab type="infobox">(4th/5th <abbr>cent.</abbr>)</ab>
+                <div type="body">
+                    <p>
+                        <abbr>Bp.</abbr>, doctor, and co-convenor of the Synod of <ref rend="bold" target="https://gedsh.bethmardutho.org/Seleucia-Ctesiphon">
+                            <placeName ref="http://syriaca.org/place/182">Seleucia-Ctesiphon</placeName>
+                        </ref> (410). There are several late sources for his
+                        life in Armenian (<abbr>ed.</abbr> Marcus), Greek (<abbr>ed.</abbr> J. Noret, in <hi rend="italic">
+                            <abbr>AB</abbr>
+                        </hi> 91 [1973], 77–103), and Arabic (Chronicle of <ref rend="bold" target="https://gedsh.bethmardutho.org/Siirt">
+                            <placeName ref="http://syriaca.org/place/188">Siirt</placeName>
+                        </ref>, chap. 66;
+                        Yaqut, under ‘Mayyafariqin’; Ibn al-Azraq); probably all go back to lost
+                        Syriac sources. Son of a local governor, he evidently trained as a doctor
+                        before becoming <abbr>bp.</abbr> of Maypherqaṭ (Greek Martyropolis, modern Silvan). His
+                        medical skill won him the favour of Yazdgard I (399–420), and when he was
+                        sent by the Roman emperor as a legate to Persia in 410, he and <ref rend="bold" target="https://gedsh.bethmardutho.org/Ishaq">
+                            <persName ref="http://syriaca.org/person/549">Isḥaq</persName>
+                        </ref>,
+                        the <abbr>bp.</abbr> of Seleucia-Ctesiphon, were able to get the Shah’s permission to
+                        convene a synod there, at which the Council of Nicaea was officially
+                        accepted by the Persian bishops; the part played by him at this Synod of 410
+                        is described in the account of that Synod in the <ref rend="bold" target="https://gedsh.bethmardutho.org/Synodicon-Orientale">Synodicon
+                            Orientale</ref> (<abbr>ed.</abbr> J.-B.  Chabot [1902]). Marutha is said to have
+                        translated the Canons of Nicaea into Syriac, but as this statement is
+                        attached, not to the 20 genuine Canons (some of which also feature in the
+                        Canons of the Synod of 410), but to the 173 ‘Pseudo-Apostolic’ Canons, this
+                        remains doubtful. A number of Syriac texts concerning the Council of Nicaea
+                        are attributed to him, edited (along with other, unrelated, documents) by A.
+                        Vööbus (<abbr>CSCO</abbr> 439–40; 1982); his authorship of these is very uncertain. It
+                        was probably on his visit in 410, or on an earlier (399), that Marutha
+                        gained knowledge of some of the Acts of the Persian martyrs under Shapur II,
+                        a collection of whose bones he brought back as relics (hence his see gained
+                        the name Martyropolis). It is also possible that the list of names of these
+                        Persian martyrs at the end of the earliest dated Syriac <abbr>ms.</abbr>, written in <ref rend="bold" target="https://gedsh.bethmardutho.org/Edessa">
+                            <placeName ref="http://syriaca.org/place/78">Edessa</placeName>
+                        </ref>
+                        in November 411 (<abbr>ed.</abbr> F. Nau, in <abbr>PO</abbr> 10.1, 7–26), was provided by him on his
+                        return home; he may likewise have arranged for the collection and
+                        translation of some of these Acts into Greek (<abbr>ed.</abbr> H. Delehaye, in <abbr>PO</abbr> 2). A
+                        homily on New Sunday is thought by its editor (M. Kmosko, in <title rend="italic">
+                            <abbr>OC</abbr>
+                        </title> 3 [1903], 384–415) to be by this Marutha.
+                        According to one calendar (<abbr>PO</abbr> 10.1, 63) he was commemorated on 3 Oct.</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>J.-M.  Fiey, ‘Maruta de Martyropolis d’après Ibn al-Azraq
+                            (d.1181)’, <title rend="italic">
+                                <abbr>AB</abbr>
+                            </title> 94 (1976), 35–45.</bibl>
+                        <bibl>R.  Marcus, ‘The Armenian Life of Marutha of Maipherqat’, <title rend="italic">
+                                <abbr>HTR</abbr>
+                            </title> 25 (1932), 47–73.</bibl>
+                        <bibl>Ortiz de Urbina, <title rend="italic">Patrologia Syriaca</title>,
+                            51–54.</bibl>
+                        <bibl>J.-M. Sauget, in <title rend="italic">Bibliotheca Sanctorum</title> 8
+                            (1966), 1305–9.</bibl>
+                        <bibl>L. Ter-Petrossian, ‘L’attribution du recueil des passions perses à
+                            Maroutha de Maypherqat’, <title rend="italic">
+                                <abbr>AB</abbr>
+                            </title> 97 (1979),
+                            129–30.</bibl>
+                        <bibl>E. Tisserant, in <title rend="italic">
+                                <abbr>DTC</abbr>
+                            </title>, vol.10 (1928),
+                            142–49.</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Sebastian P.</forename> 
+                  <surname>Brock</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

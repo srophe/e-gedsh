@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Denḥa</title>
+            <author>
+               <persName>
+                  <forename>Stephen D.</forename> 
+                  <surname>Ryan</surname>, <roleName>O.P.</roleName>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0">Electronic Edition Draft Version 1.0</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Denḥa</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Denha</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/170</idno>
+                    <idno type="entry">161</idno>
+                    <milestone unit="pages" n="118"/>
+                    <idno type="subject">http://syriaca.org/person/97</idno>
+                    <note type="type">person</note>
+                    <note type="abstract">Author of a commentary on the Psalms.<note/>
+                    </note>
+                </ab>
+                <ab type="infobox">(9th <abbr>cent.</abbr>?) [Ch. of E.]</ab>
+                <div type="body">
+                    <p>Author of a commentary on the Psalms. On the basis of remarks by <ref rend="bold" target="https://gedsh.bethmardutho.org/Yohannan-bar-Zobi">
+                            <persName ref="http://syriaca.org/person/823">Yoḥannan bar Zoʿbi</persName>
+                        </ref>, Wright and Baumstark identify Denḥa as a
+                        disciple of <ref rend="bold" target="https://gedsh.bethmardutho.org/Isho-bar-Nun">
+                            <persName ref="http://syriaca.org/person/552">Ishoʿ bar Nun</persName>
+                        </ref>,
+                        placing him in the first half of the 9th <abbr>cent.</abbr> His only extant work is a
+                        commentary on the Psalms, which along with the commentary by <ref rend="bold" target="https://gedsh.bethmardutho.org/Ishodad-of-Merv">
+                            <persName ref="http://syriaca.org/person/555">Ishoʿdad of Merv</persName>
+                        </ref> is an important witness to E.-Syr.
+                        interpretation of the Psalms. The earliest <abbr>ms.</abbr> of the commentary, Paris Bib.
+                        Nat. Syr. 367 (dated 1252; formerly Siirt 29), identifies two authors:
+                        ‘Rabban Denḥa, but others say Rabban Grigor, monk of Gamre.’ This double
+                        attribution, found in all the extant <abbr>mss.</abbr>, seems to refer to a new edition
+                        of Denḥa’s commentary by the monk Grigor of Gamre, who is otherwise unknown,
+                        with the additions having been made in red ink. Van Rompay has shown that
+                        the Denḥa-Grigor commentary is in fact an expanded form of the anonymous
+                        Psalm commentary found in <abbr>ms.</abbr> Sachau 215 (dated 1882), both commentaries
+                        preserving elements of the exegesis of the Psalms by <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Theodore-of-Mopsuestia">
+                            <persName ref="http://syriaca.org/person/780">Theodore
+                            of Mopsuestia</persName>
+                        </ref>. The Denḥa-Grigor commentary was supplemented by
+                        material ascribed to <ref rend="bold" target="https://gedsh.bethmardutho.org/Ahob-Qatraya">
+                            <persName ref="http://syriaca.org/person/324">Aḥob Qaṭraya</persName>
+                        </ref>
+                        and has been preserved in <abbr>mss.</abbr> that incorporate, in whole or in part, other
+                        works on the Psalms, notably a Book on the Cause of the Psalms of Mar Aḥob
+                        Qaṭraya, an introduction to the Psalms by <ref rend="bold" target="https://gedsh.bethmardutho.org/Nathniel-of-Sirzor">
+                            <persName ref="http://syriaca.org/person/651">Nathniel of
+                            Sirzor</persName>
+                        </ref> (<abbr>ca.</abbr> 600), and one of Ishoʿ bar Nun’s ‘Selected Questions’
+                        (dealing with Ps. 119). The commentary appears to have been popular in the
+                        E.-Syr. tradition and is found in a number of 19th-cent. <abbr>mss.</abbr> (e.g., <abbr>ms.</abbr>
+                        Mingana Syr. 58 and <abbr>ms.</abbr> Cambridge Univ. Libr. Or. 1318). Echoes of the
+                        Denḥa-Grigor commentary are found in W.-Syr. commentaries on the Psalms by
+                            <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Dionysios-bar-Salibi">
+                            <persName ref="http://syriaca.org/person/212">Dionysios
+                                bar Ṣalibi</persName>
+                        </ref> (factual commentary) and <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Bar-Ebroyo-Grigorios">
+                            <persName ref="http://syriaca.org/person/239">Bar
+                            ʿEbroyo</persName>
+                        </ref>. A  few extracts of the Denḥa-Grigor commentary dealing
+                        with messianism have been published by Vandenhoff.</p>
+                </div>
+                <div type="bibl">
+                    <listBibl>
+                        <listBibl>
+                            <head>Primary Sources</head>
+                            <bibl>B.  Vandenhoff, <title rend="italic">Exegesis Psalmorum, imprimis
+                                    messianicorum, apud Syros Nestorianos</title> (1899), 19–63
+                                (Syr.), 30–60 (<abbr>LT</abbr>).</bibl>
+                        </listBibl>
+                        <listBibl>
+                            <head>Secondary Sources</head>
+                            <bibl>Baumstark, <title rend="italic">Literatur</title>, 220.</bibl>
+                            <bibl>W.  Bloemendaal, <title rend="italic">The headings of the Psalms
+                                    in the East Syrian Church</title> (1960), 16.</bibl>
+                            <bibl>F.  Briquel-Chatonnet, <title rend="italic">Manuscrits syriaques
+                                    de la Bibliothèque nationale de France</title> (1997),
+                                38–9.</bibl>
+                            <bibl>C.  Leonhard, <title rend="italic">Ishodad of Merw’s exegesis of
+                                    the Psalms 119 and 139–147. A study of his interpretation in the
+                                    light of the Syriac translation of Theodore of Mopsuestia’s
+                                    Commentary</title> (<abbr>CSCO</abbr> 585; 2001).</bibl>
+                            <bibl>C.  Van  den  Eynde, <title rend="italic">Commentaire d’Išoʿdad de
+                                    Merv sur l’Ancien Testament</title>. VI. <title rend="italic">Psaumes</title> (<abbr>CSCO</abbr> 434; 1981), xxxiii–xxxvii.</bibl>
+                            <bibl>L.  Van  Rompay, <title rend="italic">Théodore de Mopsueste.
+                                    Fragments syriaques du Commentaire des Psaumes (Psaumes 118 et
+                                    Psaumes 138–148)</title> (<abbr>CSCO</abbr> 436; 1982), v–xiv.</bibl>
+                            <bibl>L.  Van  Rompay, ‘Development of biblical interpretation in the
+                                Syrian Churches of the Middle Ages’, in <title rend="italic">Hebrew
+                                    Bible / Old Testament: The History of its
+                                Interpretation</title>, <abbr>ed.</abbr> M. Sæbø <abbr>et al.</abbr>, I.2 (2000), 572.</bibl>
+                            <bibl>Wright, <title rend="italic">Short History of Syriac
+                                    Literature</title>, 218–9.</bibl>
+                        </listBibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Stephen D.</forename> 
+                  <surname>Ryan</surname>, <roleName>O.P.</roleName>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

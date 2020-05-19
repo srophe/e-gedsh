@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Sayfo</title>
+            <author>
+               <persName>
+                  <forename>Sebastian P.</forename> 
+                  <surname>Brock</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0">Electronic Edition Draft Version 1.0</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Sayfo</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Sayfo</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/485</idno>
+                    <idno type="entry">476</idno>
+                    <milestone unit="pages" n="361"/>
+                    <idno type="althead">Firman</idno>
+                    <idno type="althead">Seferberlik</idno>
+                    <idno type="althead">Seyfo</idno>
+                    <note type="type">subject</note>
+                    <note type="abstract">‘Sayfo’, or ‘the sword’, is the term now commonly used for
+                        the large-scale massacres of the Syriac (as well as the Armenian)
+                        inhabitants of eastern <placeName ref="http://syriaca.org/place/648">Turkey</placeName> in 1915 and following years.<note/>
+                    </note>
+                </ab>
+                <ab type="infobox">Firman, Seferberlik, Seyfo</ab>
+                <div type="body">
+                    <p>‘Sayfo’, or ‘the sword’, is the term now commonly used for the large-scale
+                        massacres of the Syriac (as well as the Armenian) inhabitants of eastern
+                        Turkey in 1915 and following years, in the course of World War I and its
+                        aftermath (another term also used is ‘Firman’, denoting the order to kill
+                        the Christian population; also ‘Seferberlik’ denoting mass deportations).
+                        Serious massacres had occurred at intervals in the 19th <abbr>cent.</abbr>, notably in
+                        1843 (<ref rend="bold" target="https://gedsh.bethmardutho.org/Hakkari">
+                            <placeName ref="http://syriaca.org/place/90">Hakkari</placeName>
+                        </ref>), 1860 (<ref rend="bold" target="https://gedsh.bethmardutho.org/Damascus">
+                            <placeName ref="http://syriaca.org/place/66">Damascus</placeName>
+                        </ref> and
+                        Lebanon), and 1895–6 (eastern Turkey), but those of 1915 were evidently
+                        orchestrated by high Ottoman officials, in particular the Minister of the
+                        Interior, Talaat Pasha. In the area between Urfa (<ref rend="bold" target="https://gedsh.bethmardutho.org/Edessa">
+                            <placeName ref="http://syriaca.org/place/78">Edessa</placeName>
+                        </ref>) and Cizre
+                        the massacres and deportations primarily affected the <abbr>Syr. Orth.</abbr>, <abbr>Syr. Cath.</abbr>
+                        and Chaldeans. The Assyrians, to the east of Cizre, in the Hakkari region,
+                        having sided with the Russians in 1916, were abandoned after the Russian
+                        Revolution (1917), and were driven out by the Ottoman army, escaping to the
+                            <ref rend="bold" target="https://gedsh.bethmardutho.org/Urmia">
+                            <placeName ref="http://syriaca.org/place/206">Urmia</placeName>
+                        </ref> region (northwest Iran). Subsequently, when Urmia fell,
+                        large numbers were massacred.</p>
+                    <p>The losses to all the Syriac-speaking communities were enormous. Eight out of
+                        twenty <abbr>Syr. Orth.</abbr> dioceses were completely or largely wiped out, and whole
+                        areas that had formerly had a considerable Syriac presence, notably
+                        Bsheriyyeh (<abbr>Syr. Orth.</abbr> and Chaldean) and Hakkari (Ch. of E.), were totally
+                        depleted of their Christian population. Reliable figures for those killed or
+                        who died in the course of deportations are difficult to attain (see Gaunt,
+                        300–303), but in any case for all the Syriac Churches in eastern Turkey, the
+                        losses of their people formerly living in that region were well over 50%,
+                        and in some cases as much as 90%.</p>
+                    <p> Those who escaped the massacres fled south to Syria, Palestine, or Iraq, and
+                        in the case of the Assyrians, also Iran or north towards the Caucasus.
+                        Although the emigration of Middle Eastern Christians to the Americas had
+                        begun in the 19th <abbr>cent.</abbr>, especially after the massacres of 1895/6, it was
+                        Sayfo that gave a huge impetus to the creation of a massive <ref rend="bold" target="https://gedsh.bethmardutho.org/Diaspora">diaspora</ref> that today accounts for a large proportion of all Syriac
+                        Christians.</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>A. al-Khoury, <title rend="italic">Ṣulpoto qašyoto d-ʿal
+                                suryoye</title> (1998).</bibl>
+                        <bibl>[I. Armalah], <title rend="italic">al-Quṣārā fī nakabāt
+                                al-naṣārā</title> (1919).</bibl>
+                        <bibl>J. Beit-Sawoce, <title rend="italic">Sayfo b-Tur ʿAbdin
+                                1914–1915</title> (2006).</bibl>
+                        <bibl>Brock and Taylor, <title rend="italic">Hidden Pearl</title>, vol. 3,
+                            66–9.</bibl>
+                        <bibl>S.  de Courtois, <title rend="italic">The forgotten genocide. Eastern
+                                Christians, the last Aramaeans</title> (2004). (translation from
+                            French <abbr>ed.</abbr> 2002).</bibl>
+                        <bibl>D.  Gaunt, <title rend="italic">Massacres, Resistance, Protectors:
+                                Muslim-Christian Relations in Eastern Anatolia during World War
+                                I</title> (2006). (with further references)</bibl>
+                        <bibl>S.  Henno, <title rend="italic">Die Verfolgung und Vernichtung der
+                            Syro-Aramäer im Tur <choice>
+                                    <sic>‘Abdin</sic>
+                                    <corr>ʿAbdin</corr>
+                                </choice> 1915</title> (2005). (translation from
+                            Syriac <abbr>ed.</abbr> 1987; Swedish tr., 1998).</bibl>
+                        <bibl>T.  Hofmann (<abbr>ed.</abbr>), <title rend="italic">Verfolgung, Vertreibung und
+                                Vernichtung der Christen im Osmanischen <choice>
+                                    <sic>Reiche</sic>
+                                    <corr>Reich</corr>
+                                </choice> 1912–1922</title>
+                            (2004).</bibl>
+                        <bibl>P. V. M., ‘Documents sur les événements de Mardine 1915–1920’, <title rend="italic">Studia Orientalia Christiana, Collectanea</title>
+                            29/30 (1996/7), 5–220; 35/36 (2002/3), 33–87.</bibl>
+                        <bibl>J.  Rhétoré and J. Alichoran, <title rend="italic">Les chrétiens aux
+                                bêtes. Souvenirs de la guerre sainte proclamée par les Turcs contre
+                                les chrétiens en 1915</title> (2005).</bibl>
+                        <bibl>ʿA. N.  Qarabashi, <title rend="italic">Vergossenes Blut</title>
+                            (2002). (translation from Syriac <abbr>ed.</abbr> 1997).</bibl>
+                        <bibl>Y.  Shahbaz, <title rend="italic">The Rage of Islam. An account of the
+                                massacres of Christians by the Turks in Persia</title> (2006).</bibl>
+                        <bibl>G. Yonan, <title rend="italic">Ein Vergessener Holocaust. Die
+                                Vernichtung der christlichen Assyrer in der
+                            Türkei</title> (1989).</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Sebastian P.</forename> 
+                  <surname>Brock</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

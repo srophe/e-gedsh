@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Gabriel bar Bokhtishoʿ</title>
+            <author>
+               <persName>
+                  <forename>Aaron M.</forename> 
+                  <surname>Butts</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0">Electronic Edition Draft Version 1.0</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Gabriel bar Bokhtishoʿ</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Gabriel-bar-Bokhtisho</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/224</idno>
+                    <idno type="entry">215</idno>
+                    <milestone unit="pages" n="169-170"/>
+                    <idno type="althead">Jibrāʾīl</idno>
+                    <idno type="althead">Jibrīl</idno>
+                    <idno type="subject">http://syriaca.org/person/492</idno>
+                    <note type="type">person</note>
+                    <note type="abstract">Physician; member of the Bokhtishoʿ family that produced a number of famous physicians in
+                        Gondeshapur (Beth Lapaṭ) and Baghdad.<note/>
+                    </note>
+                </ab>
+                <ab type="infobox">Jibrāʾīl, Jibrīl (d. 827/8) [Ch. of E.]</ab>
+                <div type="body">
+                    <p>Physician. Gabriel was a member of the Bokhtishoʿ (Arabic Bakhtishūʿ) family,
+                        which produced a number of famous physicians first in Gondeshapur (<ref rend="bold" target="https://gedsh.bethmardutho.org/Beth-Lapat">
+                            <placeName ref="http://syriaca.org/place/35">Beth
+                            Lapaṭ</placeName>
+                        </ref>) and then in <ref rend="bold" target="https://gedsh.bethmardutho.org/Baghdad">
+                            <placeName ref="http://syriaca.org/place/41">Baghdad</placeName>
+                        </ref> (see D.
+                        Sourdel, in <title rend="italic">EI</title>
+                        <hi rend="superscript">2</hi>, vol. 1, 1298; L. Richter-Bernburg, in <hi rend="italic">
+                            <abbr>EIr</abbr>
+                        </hi>,
+                        vol.4 [1990], 333–6). Gabriel himself was the personal physician of Caliph
+                        Hārūn al-Rashīd and later also of al-Amīn and al-Maʾmūn. He is said to have
+                        composed (in Arabic) a number of works in the field of medicine, little of
+                        which survives (a list is provided in F. Sezgin, <hi rend="italic">Geschichte des arabischen Schrifttums</hi>[1967–2007], vol. 3, 226–7).
+                        For his research, Gabriel commissioned Arabic translations of Greek authors,
+                        especially <ref rend="bold" target="https://gedsh.bethmardutho.org/Galen">
+                            <persName ref="http://syriaca.org/person/496">Galen</persName>
+                        </ref>, from <ref rend="bold" target="https://gedsh.bethmardutho.org/Iyob-of-Edessa">
+                            <persName ref="http://syriaca.org/person/568">Iyob of
+                            Edessa</persName>
+                        </ref> (d. <abbr>ca.</abbr> 835?) and <ref rend="bold" target="https://gedsh.bethmardutho.org/Hunayn-b-Ishaq">
+                            <persName ref="http://syriaca.org/person/542">Ḥunayn <abbr>b.</abbr>
+                            Isḥāq</persName>
+                        </ref> (d. 873) (see G. Bergsträsser, <hi rend="italic">Ḥunain Ibn
+                            Isḥāq. Über die syrischen und arabischen Galen-Übersetzungen</hi>
+                        [1925], <hi rend="italic">passim</hi> [see the index on p. 44]).</p>
+                    <p>Gabriel appears several times in the letters of <abbr>Cath.</abbr> 
+                  <ref rend="bold" target="https://gedsh.bethmardutho.org/Timotheos-I">
+                            <persName ref="http://syriaca.org/person/790">Timotheos I</persName>
+                        </ref> (d.
+                        823). Letter 47, for instance, mentions Gabriel’s involvement with Timotheos
+                        in procuring copies of the <ref rend="bold" target="https://gedsh.bethmardutho.org/Syro-Hexapla">Syro-Hexapla</ref>
+                        (<abbr>ed.</abbr> O. Braun, ‘Ein Brief des Katholikos Timotheos I über biblische Studien
+                        des 9. Jahrhunderts’, <title rend="italic">
+                            <abbr>OC</abbr>
+                        </title> 1 [1901], 299–313; <abbr>ET</abbr> in
+                        S. P. Brock, <hi rend="italic">A brief outline of Syriac literature</hi> [2nd
+                        <abbr>ed.</abbr> 2009], 240–5), while Letter 21 refers to Gabriel’s intercession with the
+                        Caliph on behalf of Timotheos (O. Braun, <hi rend="italic">Timothei
+                            patriarchae I epistolae</hi> [<abbr>CSCO</abbr> 74–5; 1914–15], 133.12–5 [Syr.],
+                        89.22–4 [<abbr>LT</abbr>]). Notwithstanding the seemingly amicable relationship between
+                        these two men, it is reported that Timotheos condemned Gabriel for his
+                        philandering, but that Gabriel eventually repented (see H. Gismondi, <hi rend="italic">Maris<choice>
+                                <sic/>
+                                <corr>,</corr>
+                            </choice> Amri et Slibae. De patriarchis nestorianorum
+                            commentaria</hi> [1896–99], vol. 1, 74 [<hi rend="italic">Maris textus
+                            arabicus</hi>], vol. 1, 65 [<hi rend="italic">Maris versio
+                        latina</hi>]).</p>
+                    <p>Gabriel is cited a number of times in the Lexicon of <ref rend="bold" target="https://gedsh.bethmardutho.org/Bar-Bahlul-Hasan">
+                            <persName ref="http://syriaca.org/person/365">Ḥasan bar
+                            Bahlul</persName>
+                        </ref> (see R. Duval, <hi rend="italic">Lexicon Syriacum auctore
+                            Hassano bar Bahlule</hi> [3 vols.; 1888–1901, <abbr>repr.</abbr> 1970], xvi-xvii). He
+                        is also mentioned in the ‘Catalogue’ of  <ref rend="bold" target="https://gedsh.bethmardutho.org/Abdisho-bar-Brikha">
+                            <persName ref="http://syriaca.org/person/310">ʿAbdishoʿ</persName>
+                        </ref>
+                        (Assemani, <hi rend="italic">BibOr</hi>, vol. 3, 257–8) where he is grouped
+                        together with Ḥasan bar Bahlul, <ref rend="bold" target="https://gedsh.bethmardutho.org/Bar-Ali-Isho">
+                            <persName ref="http://syriaca.org/person/364">Ishoʿ bar ʿAli</persName>
+                        </ref>, and a
+                        certain ‘Maruzaya’ (probably either <ref rend="bold" target="https://gedsh.bethmardutho.org/Isho-of-Merv">
+                            <persName ref="http://syriaca.org/person/553">Ishoʿ of
+                        Merv</persName>
+                        </ref> or Zekarya of Merv, assuming that they are two distinct
+                        individuals). This passage is, however, ambiguous as to whether Gabriel was
+                        the author of a Lexicon (so Assemani and Baumstark) or was only one of the
+                        principal sources of the Lexicon of Bar Bahlul (so Duval).</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>Baumstark, <title rend="italic">
+                                <choice>
+                                    <sic>Geschicthe</sic>
+                                    <corr>Literatur</corr>
+                                </choice>
+                            </title>, 227.</bibl>
+                        <bibl>W. Gesenius, <title rend="italic">De Bar Alio et Bar Bahlulo,
+                                lexicographis Syro-Arabicis ineditis, commentatio litteraria
+                                philologica</title>, vol. 1 (1834), 7–8.</bibl>
+                        <bibl>Duval, <title rend="italic">La littérature syriaque</title>, 271–2 and
+                            297.</bibl>
+                        <bibl>Graf, <title rend="italic">GCAL</title>, vol. 2, 110.</bibl>
+                        <bibl>H.  Putman, <title rend="italic">L’Eglise et l’Islam sous Timothée I
+                                (780–823)</title> (1975), 35, 98–101, passim.</bibl>
+                        <bibl>M. Ullmann, <title rend="italic">Die Medizin im Islam</title> (1970),
+                            109.</bibl>
+                        <bibl>Wright, <title rend="italic">Short history of Syriac
+                                literature</title>, 214–5.</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Aaron M.</forename> 
+                  <surname>Butts</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

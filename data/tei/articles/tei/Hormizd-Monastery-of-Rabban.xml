@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Hormizd, Monastery of Rabban</title>
+            <author>
+               <persName>
+                  <forename>Heleen L.</forename> 
+                  <surname>Murre-van den Berg</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0">Electronic Edition Draft Version 1.0</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Hormizd, Monastery of Rabban</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Hormizd-Monastery-of-Rabban</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/273</idno>
+                    <idno type="entry">264</idno>
+                    <milestone unit="pages" n="203-205"/>
+                    <idno type="althead" subtype="altorder">Monastery of Rabban Hormizd</idno>
+                    <idno type="subject">http://syriaca.org/place/168</idno>
+                    <note type="type">place</note>
+                    <note type="abstract">The Chaldean monastery of Rabban Hormizd, built upon a
+                        mountain ridge northeast of Alqosh in northern <placeName>Iraq</placeName>, is famous not only for its magnificent location and
+                        impressive buildings, but also for its central role in the history of the
+                        transmission of E.-Syr. literature and its importance in the struggles
+                        between the <abbr>Chald.</abbr> Church and the <abbr>Ch. of E.</abbr>, to which the monastery
+                        originally belonged.<note/>
+                    </note>
+                </ab>
+                <ab type="infobox">[Chald.]</ab>
+                <div type="body">
+                    <p>The Chaldean monastery of Rabban Hormizd, built upon a mountain ridge
+                        northeast of <ref rend="bold" target="https://gedsh.bethmardutho.org/Alqosh">
+                            <placeName ref="http://syriaca.org/place/19">Alqosh</placeName>
+                        </ref> in northern Iraq, is famous not only for its magnificent
+                        location and impressive buildings, but also for its central role in the
+                        history of the transmission of E.-Syr. literature and its importance in the
+                        struggles between the <abbr>Chald.</abbr> Church and the <abbr>Ch. of E.</abbr>, to which the
+                        monastery originally belonged. Similar struggles, between the <abbr>Syr. Orth.</abbr> and
+                        the <abbr>Ch. of E.</abbr>, formed the context of the monastery’s early beginnings in the
+                        7th <abbr>cent.</abbr>, when, according to Rabban Shemʿon, the author of the ‘History of
+                        Rabban Hormizd the Persian’, it was founded by Rabban Hormizd of <ref rend="bold" target="https://gedsh.bethmardutho.org/Beth-Lapat">
+                            <placeName ref="http://syriaca.org/place/35">Beth
+                            Lapaṭ</placeName>
+                        </ref>, a former monk of the Monastery of Rabban <ref rend="bold" target="https://gedsh.bethmardutho.org/Bar-Edta-Rabban">
+                            <persName ref="http://syriaca.org/person/366">Bar ʿEdta</persName>
+                        </ref>.
+                        Whereas a few 12th-cent. <abbr>mss.</abbr> indicate its importance in earlier centuries,
+                        the monastery’s most important achievements date from the late 15th to early
+                        20th <abbr>cent.</abbr> Following the turbulent 14th <abbr>cent.</abbr>, its monks contributed to the
+                        revival of E.-Syr. <abbr>ms.</abbr> writing in the 15th and first half of the 16th <abbr>cent.</abbr>
+                        Among the earliest authors of that period is the monk <ref rend="bold" target="https://gedsh.bethmardutho.org/Sargis-bar-Wahle">
+                            <persName ref="http://syriaca.org/person/717">Sargis bar
+                            Waḥle</persName>
+                        </ref> (<abbr>ca.</abbr> 1500), who wrote a <hi rend="italic">Memronā</hi> (a
+                        metrical homily) on Rabban Hormizd. In the 17th and early 18th <abbr>cent.</abbr>, after
+                        the number of monks declined considerably, a few clerical families from
+                        nearby Alqosh took the lead in <abbr>ms.</abbr> production. Among these was the Abuna
+                        family, who also provided the patriarchs for one of the patriarchal lines of
+                        the <abbr>Ch. of E.</abbr> These patriarchs of the Eliya line had their official
+                        residence in the monastery, where most of them were also buried, their grave
+                        stones spanning the centuries between 1497 and 1804. In Rabban Hormizd, also
+                        the first schism with the Chaldean church originated, when in 1552 its abbot
+                            <ref rend="bold" target="https://gedsh.bethmardutho.org/Yohannan-Sullaqa">
+                            <persName ref="http://syriaca.org/person/829">Yoḥannan Sullaqa</persName>
+                        </ref> was elected as a counter-patriarch after part of
+                        the <abbr>Ch. of E.</abbr> disagreed with the choice of a new potential successor (<hi rend="italic">naṭar kursi</hi>) from the Abuna family. Despite Sullaqa’s
+                        relative success in acquiring papal consecration and establishing a new
+                        Catholic line, the monastery remained in the hands of the traditional party
+                        and was a seat of opposition to the Catholic hierarchies until the late 18th
+                        <abbr>cent.</abbr>, even though some of the Eliya patriarchs attempted to establish their
+                        own connections with Rome. After the monastery was practically deserted in
+                        the late 18th <abbr>cent.</abbr>, a new era started when the Chaldean monk Gabriel Dambo
+                        (alternatively written as Danbo) appropriated it as the location of a new
+                        monastic community. After initial opposition, his order was recognized in
+                        1830, by which time the <abbr>patr.</abbr> of the Eliya line, Yoḥannan Hormizd, had also
+                        converted to Catholicism. Gabriel Dambo succeeded in attracting a group of
+                        enthusiastic monks, who after some training were sent into the villages of
+                        northern Iraq to assist the Dominican missionaries in their work in the
+                        countryside. Some of the monks later became bishops, while <abbr>ms.</abbr> writing was
+                        taken up again as well. One of the more serious problems of the monastery
+                        was its isolated location making it vulnerable to pillage and raids by local
+                        Kurds and passing armies; documented attacks include Murād Bey’s attack in
+                        1508, Kurdish threats in 1706 and 1717, pillaging by the Persian armies of
+                        Nādir Shāh in 1743, and again Kurdish raids in 1842 and 1850. In 1858,
+                        therefore, the decision was made to build a new Chaldean monastery, ‘Our
+                        Lady of the Seeds’ (‘Notre Dame des Semences’), closer to Alqosh, safer and
+                        more comfortable in the cold winter months. It was here that the scribal
+                        tradition of Rabban Hormizd was again taken up and carried into the early
+                        20th <abbr>cent.</abbr>
+                    </p>
+                    <p>See <ref target="https://gedsh.bethmardutho.org/fig/3c">Fig. 3c</ref>, <ref target="https://gedsh.bethmardutho.org/fig/56c">56c</ref>, and <ref target="https://gedsh.bethmardutho.org/fig/57">57</ref>.</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>M.  Brière, ‘Histoire du couvent de Rabban Hormizd de 1808 à
+                            1832’, <title rend="italic">ROC</title> 15 (1910), 410–26; 16 (1911),
+                            113–27, 249–254, 346–55.</bibl>
+                        <bibl>S. P.  Brock, ‘Monasticism in Iraq: The cultural contribution’, in <title rend="italic">The Christian Heritage of Iraq: Collected Papers from
+                                the Christianity of Iraq I–V Seminar Days</title>, <abbr>ed.</abbr> E. C. D.
+                            Hunter (Gorgias Eastern Christian Studies 13; 2009), 64–80.</bibl>
+                        <bibl>E. A. W.  Budge, <title rend="italic">The life of Rabban Hôrmîzd and
+                                the foundation of his Monastery at Al-Ḳôsh. A metrical discourse by
+                                Waḥlê, surnamed Sergius of Âdhôrbâîjân</title> (Semitistische
+                            Studien. Ergänzungshefte zur <abbr>ZA</abbr> 2.3; 1894). (Syr.)</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>E. A. W.  Budge</reg>
+                        <orig>idem</orig>
+                     </choice>, <title rend="italic">The histories of Rabban Hôrmîzd the Persian
+                                and Rabban Bar-ʿIdtâ</title> (2 vols; 1902, <abbr>repr.</abbr> 1976), vol. I,
+                            1–109 (Shemʿon’s text; Syr.); vol. II.1, 1–160 (Shemʿon’s text; <abbr>ET</abbr>);
+                            vol. II.2, 306–514 (<abbr>ET</abbr> of Sargis’s metrical hom.).</bibl>
+                        <bibl>Fiey, <title rend="italic">Assyrie chrétienne</title>.</bibl>
+                        <bibl>A.  Harrak, ‘Patriarchal funerary inscriptions in the Monastery of
+                            Rabban Hormizd: Types, literary origins, and purpose’, <title rend="italic">
+                                <abbr>Hugoye</abbr>
+                            </title> 6.2 (2003).</bibl>
+                        <bibl>H. L.  Murre-van den Berg, ‘The Patriarchs of the Church of the East
+                            from the fifteenth to eighteenth centuries’, <title rend="italic">
+                                <abbr>Hugoye</abbr>
+                            </title> 2.2 (1999).</bibl>
+                        <bibl>J.-M.  Vosté, ‘Les inscriptions de Rabban Hormizd et de Notre Dame des
+                            Semences près d’Alqosh (Iraq)’, <title rend="italic">
+                                <abbr>LM</abbr>
+                            </title> 43
+                            (1930), 263–316.</bibl>
+                        <bibl>Wilmshurst, <title rend="italic">Ecclesiastical
+                            organisation</title>.</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Heleen L.</forename> 
+                  <surname>Murre-van den Berg</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

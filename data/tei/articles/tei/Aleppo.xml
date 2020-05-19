@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Aleppo</title>
+            <author>
+               <persName>
+                  <forename>Hidemi</forename> 
+                  <surname>Takahashi</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0">Electronic Edition Draft Version 1.0</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Aleppo</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Aleppo</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/37</idno>
+                    <idno type="entry">28</idno>
+                    <milestone unit="pages" n="14-16"/>
+                    <idno type="subject">http://syriaca.org/place/18</idno>
+                    <note type="type">place</note>
+                    <note type="abstract">City in northern <placeName type="state">Syria</placeName> and an important center of Christianity
+                        in the Middle East today as the seat of a total of nine bishoprics (Syr.
+                        Orth., Syr. Catholic, <abbr>Chald.</abbr>, <abbr>Maron.</abbr>, <abbr>Melk.</abbr> Orth., <abbr>Melk.</abbr> Catholic, Armenian
+                        Orth., Armenian Catholic, Latin).<note/>
+                    </note>
+                </ab>
+                <div type="body">
+                    <p>City in northern Syria and an important center of Christianity in the Middle
+                        East today as the seat of a total of nine bishoprics (<abbr>Syr. Orth.</abbr>, Syr.
+                        Catholic, <abbr>Chald.</abbr>, <abbr>Maron.</abbr>, <abbr>Melk.</abbr> Orth., <abbr>Melk.</abbr> Catholic, Armenian Orth.,
+                        Armenian Catholic, Latin). Aleppo, nicknamed ‘Grey Aleppo’ (<hi rend="italic">Ḥalab al-šahbāʾ</hi>) in Arabic, owes its military and
+                        commercial importance to its imposing citadel and its favorable position on
+                        the trade route linking the nearby Mediterranean coast with Mesopotamia and
+                        areas beyond. Aleppo’s history goes back at least to the second millenium
+                        BC. The earliest known names of Aleppo are cognates of the modern name
+                        ‘Ḥalab’, but Seleucus Nicator (d.  281  BC) who founded a Greek colony here
+                        named it after ‘Beroea’ in Macedonia, and it is by that name that Aleppo is
+                        normally known in older Syriac literature. Aleppo came under Roman rule in
+                        64 BC. After the Arab conquest in 636, Aleppo first rose to prominence under
+                        the Ḥamdānid Sayf al-Dawla (945–67). Aleppo later became the seat of lines
+                        of Zangids (1129–83) and Ayyūbids (1183–1260). Aleppo was taken by the
+                        Mongols in 1260 and a little later by the Mamlukes. Under the Ottomans
+                        (1516–1918), Aleppo became the capital of a province covering much of
+                        today’s northern Syria and a significant part of Turkey (including <ref rend="bold" target="https://gedsh.bethmardutho.org/Antioch">
+                            <placeName ref="http://syriaca.org/place/10">Antioch</placeName>
+                        </ref>, Alexandretta/Iskenderun, and ʿAintab/Gaziantep). For much of
+                        that period, it was the third largest city in the Ottoman Empire after
+                        Istanbul and Cairo, and the Christians, including Syr. Christians, as well
+                        as a larger number of Melkites and later an increasing number of Armenians,
+                        then played an important role in the life of the city, one noteworthy member
+                        of the Aleppine Syr. Catholic community from the period being the
+                        world-famous chess player Philip Stamma (<abbr>ca.</abbr> 1705–55). Aleppo is today the
+                        largest city in Syria with a population of <abbr>ca.</abbr> 1.7 million (2.85 million in
+                        the larger conurbation, in 2008).</p>
+                    <p>The first known <abbr>bp.</abbr> of Aleppo is Eustathius, who became <abbr>
+                            <choice>
+                                <sic>Patr.</sic>
+                                <corr>patr.</corr>
+                            </choice>
+                        </abbr> of Antioch and
+                        attended the Council of Nicaea in that capacity. <abbr>Bp.</abbr> Peter of Aleppo was a
+                        supporter of <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Philoxenos-of-Mabbug">
+                            <persName ref="http://syriaca.org/person/44">Philoxenos
+                            of Mabbug</persName>
+                        </ref> at the Synod of Sidon in 511, while <abbr>Bp.</abbr> Antoninus was
+                        among the Miaphysite bishops exiled with <ref rend="bold" target="https://gedsh.bethmardutho.org/Severus-of-Antioch">
+                            <persName ref="http://syriaca.org/person/51">Severus of
+                            Antioch</persName>
+                        </ref> under Emperor Justin.</p>
+                    <p>The first known <abbr>Syr. Orth.</abbr>
+                        <abbr> bp.</abbr> after the reorganization of the church in the
+                        mid-6th <abbr>cent.</abbr> is Matthew (644–669). Among his successors was <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Bar-Ebroyo-Grigorios">
+                            <persName ref="http://syriaca.org/person/239">Bar ʿEbroyo</persName>
+                        </ref> (<abbr>ca.</abbr> 1253–64), who was the <abbr>bp.</abbr> there when
+                        the city fell to the Mongols in 1260. Little is known about the <abbr>Syr. Orth.</abbr>
+                        community in the subsequent period until the beginning of the 16th <abbr>cent.</abbr>,
+                        when we first hear of a <abbr>Syr. Orth.</abbr> (later Syr. Catholic) church of the
+                        Mother of God in the Christian quarter of Judayda (Jdeideh), and we find
+                        Aleppo included, along with <ref rend="bold" target="https://gedsh.bethmardutho.org/Damascus">
+                            <placeName ref="http://syriaca.org/place/66">Damascus</placeName>
+                        </ref> and Ḥama,
+                        in the title of <abbr>Metr. </abbr>
+                        <ref rend="bold" target="https://gedsh.bethmardutho.org/Grigorios-Yawseph">
+                            <persName ref="http://syriaca.org/person/281">Grigorios
+                            Yawseph the Iberian</persName>
+                        </ref> of <ref rend="bold" target="https://gedsh.bethmardutho.org/Jerusalem">
+                            <placeName ref="http://syriaca.org/place/104">Jerusalem</placeName>
+                        </ref> (<abbr>metr.</abbr>
+                        1515–37). From the second half of the 16th <abbr>cent.</abbr> onwards, we frequently hear
+                        of visits to Aleppo by <abbr>Syr. Orth.</abbr> patriarchs, including Ignatius Pilatus I
+                        (<abbr>
+                            <choice>
+                                <sic>Patr.</sic>
+                                <corr>patr.</corr>
+                            </choice>
+                        </abbr> 1591–97) who died and was buried in Aleppo. The <abbr>Syr. Orth.</abbr> community
+                        in Aleppo, reduced to a small number through large-scale conversions to the
+                        Syr. Catholic Church since the latter half of the 18th <abbr>cent.</abbr>, was reinforced
+                        in the 20th <abbr>cent.</abbr> by refugees fleeing the atrocities in areas now in the
+                        Republic of Turkey. These refugees included a group from <ref rend="bold" target="https://gedsh.bethmardutho.org/Edessa">
+                            <placeName ref="http://syriaca.org/place/78">Edessa</placeName>
+                        </ref>, who migrated
+                        to Aleppo en masse in 1924, as well as those from the area around <ref rend="bold" target="https://gedsh.bethmardutho.org/Mardin">
+                            <placeName ref="http://syriaca.org/place/130">Mardin</placeName>
+                        </ref>.</p>
+                    <p>As a center of Latin missionary activity since the beginning of the Ottoman
+                        era, with Capuchins, Jesuits and Carmelites present in the city by 1526,
+                        Aleppo played an important role in the formation of the <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Syriac-Catholic-Church">Syriac
+                            Catholic Church</ref>. Andrew Akhījān (<abbr>
+                            <choice>
+                                <sic>Patr.</sic>
+                                <corr>patr.</corr>
+                            </choice>
+                        </abbr> 1662–78) worked and was
+                        elected <abbr>
+                            <choice>
+                                <sic>Patr.</sic>
+                                <corr>patr.</corr>
+                            </choice>
+                        </abbr> in Aleppo, while Michael Jarweh (<abbr>
+                            <choice>
+                                <sic>Patr.</sic>
+                                <corr>patr.</corr>
+                            </choice>
+                        </abbr> 1782–1800) was born in
+                        Aleppo and was <abbr>Metr.</abbr> of Aleppo prior to his elevation to the patriarchate.
+                        The central role Aleppo continued to play in the life of the <abbr>Syr. Cath.</abbr>
+                        Church is reflected in the fact that five out of the thirteen successors of
+                        Michael Jarweh have been natives of Aleppo (Michael Ḍāhir, Peter Jarweh,
+                        George Chelhot, Antony Ḥayek, Peter ʿAbd al-Aḥad), while two others were
+                        <abbr>Metr.</abbr> of Aleppo before ascending to the patriarchate (<ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Rahmani-Ignatius-Ephrem-II">
+                            <persName ref="http://syriaca.org/person/701">Ignatius Ephrem Raḥmani</persName>
+                        </ref>, <ref rend="bold" target="https://gedsh.bethmardutho.org/Tappuni-Gabriel">
+                            <persName ref="http://syriaca.org/person/770">Gabriel
+                            Tappuni</persName>
+                        </ref>).</p>
+                    <p>The E.-Syr. see of Aleppo is attested in the 11th <abbr>cent.</abbr> and is also mentioned
+                        as a suffragan of Damascus in a list of bishoprics appended, in a 13th-cent.
+                        <abbr>ms.</abbr>, to the canonical works of Elias of Damascus (<abbr>ca.</abbr> 900), but it was
+                        probably extinct by the 13th <abbr>cent.</abbr> Nothing is then heard of the E.-Syr.
+                        presence in Aleppo until the 17th <abbr>cent.</abbr> The <abbr>Chald.</abbr> diocese of Aleppo,
+                        founded as a patriarchal vicariate in 1901 and raised to the status of an
+                        eparchy in 1957, today covers the whole of Syria.</p>
+                    <p>The presence of an early Maronite community in Aleppo in 727 is recorded in
+                        the Chronicle of <ref rend="bold" target="https://gedsh.bethmardutho.org/Michael-I-Rabo">
+                            <persName ref="http://syriaca.org/person/217">Michael Rabo</persName>
+                        </ref>. Significant presence
+                        of Maronites in the modern period dates from the 17th <abbr>cent.</abbr>, with Maronite
+                        bishops regularly resident in the city since 1686. Aleppo played an
+                        important role in the life of the Maronite Church as one of her few urban
+                        centers, and the Maronite school there produced such men as the three
+                        founders of the Maronite Aleppine Order (later Mariamites) and the
+                        scholar-bishop Germanus Farḥāt (<abbr>bp.</abbr> of Aleppo 1725–32). The Maronite woman
+                        mystic Hindiyya al-ʿUjaymī was born in Aleppo in 1720.</p>
+                    <p>In the first decade of the 20th <abbr>cent.</abbr>, there were reported to be
+                        approximately 35,000–40,000 Christians in the city, making up about one
+                        third of the total population and including: 3,500 Syr. Catholics (4,000 in
+                        the diocese), 50 <abbr>Syr. Orth.</abbr> (500 in the diocese), 250 <abbr>Chald.</abbr> and 3,600
+                        <abbr>Maron.</abbr> (Karalevsky); as well as 1,200 <abbr>Melk.</abbr> Orth., 10,000 <abbr>Melk.</abbr> Catholics,
+                        15,000 Armenian Orth., 5,500–7,000 Armenian Catholics, 1,100 Latins and
+                        1,500 Protestants (Tournebize). The numbers reported today for the Syriac
+                        dioceses of Aleppo are: <abbr>Syr. Orth.</abbr> 15,000 (in 2003, Zinda Magazine); Syr.
+                        Catholic 8,000 (in 2006, <hi rend="italic">Annuario pontificio</hi>); <abbr>Chald.</abbr>
+                        15,000 (in 2006, <hi rend="italic">Annuario pontificio</hi>, for whole of
+                        Syria); <abbr>Maron.</abbr> 4,000 (in 2006, <hi rend="italic">Annuario pontificio</hi>).
+                        The actual numbers (esp. for the Chaldeans) will have been increased
+                        significantly by those fleeing insecurity in Iraq since 2003.</p>
+                    <p>Little is known about the sites of the medieval Syriac churches in Aleppo.
+                        The churches dating from the Ottoman period are found in the traditional
+                        Christian quarter in Judayda just north of the medieval city. These include
+                        the Melkite and Armenian churches concentrated in the Ṣalībat al-Judayda
+                        Quarter, as well as the Syr. Catholic Church of Mār Āsyā al-Ḥakīm (formerly
+                        Mother of God) a little to the east, and the Maronite Cathedral of Mar Eliya
+                        to the north. A  number of newer churches, including the Syr. Catholic
+                        Cathedral (Umm al-Intiqāl/Assumption, 1970), are found in the ʿAzīziyya
+                        District to the north of Judayda. The Chaldean Cathedral and the <abbr>Syr. Orth.</abbr>
+                        Cathedral of Mar Ephrem lie further north in Sulaymāniyya. Further churches
+                        belonging to the Syriac communities are found in the ‘Old Syriac Quarter’
+                        (Ḥayy al-Suryān al-Qadīm) just behind the railway station to the northwest
+                        of the city center, a quarter established by migrants from Edessa (Mār
+                        Jirjis, <abbr>Syr. Orth.</abbr>; Mār Afrām, Syr. Catholic), and in the ‘New Syriac
+                        Quarter’ (Ḥayy al-Suryān al-Jadīd) further northwest (Sayyidat al-Suryān
+                        ‘Our Lady of the Syriacs’, <abbr>Syr. Orth.</abbr>).</p>
+                    <p>Important collections of Christian Arabic and Syriac <abbr>mss.</abbr> are found in Aleppo
+                        at the <abbr>Maron.</abbr> Archiepiscopal Residence (over 1640 <abbr>mss.</abbr>), Fondation Georges
+                        et Mathilde Salem (most of Sbath Collection, no. 777–1321, and some
+                        additional <abbr>mss.</abbr>), Syr. Catholic Archiepiscopal Residence (<abbr>ca.</abbr> 500 <abbr>mss.</abbr>) and
+                        <abbr>Syr. Orth.</abbr> Archiepiscopal Residence and Church of Mar Jirjis (including the
+                        collection transferred from Edessa, <abbr>ca.</abbr> 225 <abbr>mss.</abbr>), as well as at the <abbr>Melk.</abbr>
+                        Catholic Archiepiscopal Residence (<abbr>ca.</abbr> 1,100 <abbr>mss.</abbr>).</p>
+                    <p>A large number of ruined Byzantine churches are found in the so-called ‘Dead
+                        Cities’ in the hills to the west of Aleppo, including the ruins of the huge
+                        basilica built around <ref rend="bold" target="https://gedsh.bethmardutho.org/Shemun-the-Stylite">
+                            <persName ref="http://syriaca.org/person/744">Shemʿun the
+                            Stylite</persName>
+                        </ref>’s pillar at Qalʿāt Simʿān (approx. 30 km. west-northwest
+                        of Aleppo).</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>Fiey, <title rend="italic">Pour un Oriens christianus
+                                novus</title>, 48, 159–61.</bibl>
+                        <bibl>A. Hadjar (tr. P. J. Amash), <title rend="italic">The Church of St.
+                                Simeon the Stylite and other archaeological sites in the mountains
+                                of Simeon and Halaqa</title> (Damascus, sine anno [1990s]).</bibl>
+                        <bibl>B.  Heyberger, ‘Alep, capitale chrétienne (XVII<hi rend="superscript">e</hi>–XIX<hi rend="superscript">e</hi>  siècle)’, in <title rend="italic">Chrétiens du monde arabe</title>, <abbr>ed.</abbr> B.  Heyberger
+                            (2003), 49–67.</bibl>
+                        <bibl>Hill Museum and Monastic Library, ‘Ongoing Preservation Work’,
+                            www.hmml.org/preservation/projects.htm</bibl>
+                        <bibl>C.  Karalevsky and Fr. Tournebize, in <title rend="italic">
+                                <abbr>DHGE</abbr>
+                            </title>, vol. 1, 101–28.</bibl>
+                        <bibl>H. Kaufhold, ‘Aleppo’, in <title rend="italic">
+                                <abbr>KLCO</abbr>
+                            </title>,
+                            10–11.</bibl>
+                        <bibl>T. Noujaim, in <title rend="italic">Encyclopédie Maronite</title>,
+                            vol. 1, 307–9.</bibl>
+                        <bibl>A.  Palmer, ‘The Mardin Orthodox Press, Aleppo: a review’, <title rend="italic">
+                                <abbr>Hugoye</abbr>
+                            </title> 1.1 (Jan. 1998).</bibl>
+                        <bibl>F. del Río Sánchez, <title rend="italic">Catalogue des manuscrits
+                                de la Fondation Georges et Mathilde Salem (Alep, Syrie)</title>
+                            (2008).</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>F. del Río Sánchez</reg>
+                        <orig>idem</orig>
+                     </choice>, <title rend="italic">Manuscrits syriaques conservés dans la
+                                bibliothèque des Maronites d’Alep (Syrie)</title> (2008).</bibl>
+                        <bibl>J. Sauvaget, in  <title rend="italic">EI</title>
+                            <hi rend="superscript">2</hi>, vol. 3, 85–90. (s.v. ‘Ḥalab’)</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Hidemi</forename> 
+                  <surname>Takahashi</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

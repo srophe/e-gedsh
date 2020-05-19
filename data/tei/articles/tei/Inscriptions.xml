@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Inscriptions</title>
+            <author>
+               <persName>
+                  <forename>Lucas</forename> 
+                  <surname>Van Rompay</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0">Electronic Edition Draft Version 1.0</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Inscriptions</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Inscriptions</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/280</idno>
+                    <idno type="entry">271</idno>
+                    <milestone unit="pages" n="208-211"/>
+                    <note type="type">subject</note>
+                    <note type="abstract">Inscriptions in a broad sense include texts written on any
+                        substrate other than <abbr>ms.</abbr> (which itself may be of parchment, papyrus, or
+                        paper) such as stone, pottery, plaster, mosaic, wood, metal, coins,
+                        liturgical objects and vestments, and paintings.<note/>
+                    </note>
+                </ab>
+                <div type="body">
+                    <p>Inscriptions in a broad sense include texts written on any substrate other
+                        than <abbr>ms.</abbr> (which itself may be of parchment, <ref rend="bold" target="https://gedsh.bethmardutho.org/Papyri-Syriac">papyrus</ref>,
+                        or paper) such as stone, pottery, plaster, mosaic, wood, metal, coins,
+                        liturgical objects and vestments, and paintings. The writing technique may
+                        also vary widely: from carving or punching into metal, chiseling in stone,
+                        to incising, embroidering, and painting, or simple writing. Similar to
+                        archeological artifacts, inscriptions reach us directly rather than at the
+                        end of a process of transmission.</p>
+                    <p>The earliest, ‘Old Syriac’, inscriptions predate Syr. Christianity and
+                        reflect the pagan Aramaic civilization of <ref rend="bold" target="https://gedsh.bethmardutho.org/Edessa">
+                            <placeName ref="http://syriaca.org/place/78">Edessa</placeName>
+                        </ref> and Osrhoene
+                        between the early 1st and the middle of the 3rd <abbr>cent.</abbr> (the earliest dated
+                        inscription is from <choice>
+                            <sic>6</sic>
+                            <corr>6 AD</corr>
+                        </choice>). The inscriptions are on stone, mosaic, pottery, and
+                        coins. Many have a funerary context. The <ref rend="bold" target="https://gedsh.bethmardutho.org/Script-Syriac">script</ref> is
+                        close to the later Syriac Esṭrangela, with some evidence, especially in the
+                        mosaics, of a more cursive script. The inscriptions reflect an archaic and
+                        less standardized form of the <ref rend="bold" target="https://gedsh.bethmardutho.org/Syriac-Language"> Syriac language</ref>. An
+                        important morphological feature appears in the 3rd pers. masc. sing of the
+                        imperfect form of the verb, for which early inscriptions have a preformative
+                            <hi rend="italic">yodh</hi> rather than <hi rend="italic">nun</hi>, the
+                        latter being one of the hallmarks of later Syriac (there also is evidence
+                        that <hi rend="italic">yodh</hi> and <hi rend="italic">nun</hi> coexisted
+                        for some time). The recent collection by Drijvers and Healey (1999) contains
+                        <abbr>ca.</abbr> 100 items. A few new ones have been published in recent years (see esp.
+                        Healey 2006, dated 194). Three mid-3rd-cent. legal documents, written on
+                        parchment and discovered in or around <ref rend="bold" target="https://gedsh.bethmardutho.org/Dura-Europos">
+                            <placeName ref="http://syriaca.org/place/77">Dura-Europos</placeName>
+                        </ref>,
+                        reflect the same cultural milieu prior to, and outside of, Syr.
+                        Christianity, and are, therefore, often studied in conjunction with the
+                        Edessene inscriptions (see <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Old-Syriac-documents">Old Syriac
+                            documents</ref>).</p>
+                    <p>There is a hiatus between the pagan and the earliest Christian Syriac
+                        inscriptions. The earliest Christian inscriptions from the Syriac-speaking
+                        area are in Greek, for example the Greek inscription in the baptistery of
+                            <ref rend="bold" target="https://gedsh.bethmardutho.org/Nisibis">
+                            <placeName ref="http://syriaca.org/place/142">Nisibis</placeName>
+                        </ref> (dated 359/60), which <ref rend="bold" target="https://gedsh.bethmardutho.org/Ephrem">
+                            <persName ref="http://syriaca.org/person/13">Ephrem</persName>
+                        </ref> must have
+                        known. There is also a geographical shift. Whereas the ‘Old Syriac’
+                        inscriptions are only found to the east of the Euphrates, Christian Syriac
+                        inscriptions appear west of the Euphrates from the late 4th <abbr>cent.</abbr> onwards.
+                        Among the earliest dated Christian Syriac inscriptions is a bilingual
+                        Greek-Syriac inscription from Babisqa, to the southwest of <ref rend="bold" target="https://gedsh.bethmardutho.org/Aleppo">
+                            <placeName ref="http://syriaca.org/place/18">Aleppo</placeName>
+                        </ref>, dated
+                        389.</p>
+                    <p>Christian Syriac inscriptions become more numerous in the 5th <abbr>cent.</abbr> and
+                        continue to the present day. Many have been unearthed starting in the 19th
+                        <abbr>cent.</abbr> Although some remained <hi rend="italic">in situ</hi>, others were
+                        transferred to museums worldwide or ended up in private collections. For
+                        many inscriptions, in particular those that came to light outside regular
+                        excavations, the provenance and archeological context are not known. The
+                        main geographical areas will be briefly surveyed here, with special
+                        reference to the most recent publications (for basic references, see Briquel
+                        Chatonnet <abbr>et al.</abbr> 2004).</p>
+                    <label type="subsubsection">Syria</label>
+                    <p>Many inscriptions are known from the hinterland of <ref rend="bold" target="https://gedsh.bethmardutho.org/Antioch">
+                            <placeName ref="http://syriaca.org/place/10">Antioch</placeName>
+                        </ref>, from the
+                            <ref rend="bold" target="https://gedsh.bethmardutho.org/Apamea">
+                            <placeName ref="http://syriaca.org/place/11">Apamea</placeName>
+                        </ref> and Aleppo region, and further east, from the Middle
+                        Euphrates. They include monumental inscriptions on stone and mosaic, which
+                        often refer to building activities and contain dates and names of bishops or
+                        other historical figures. Important examples of recently published mosaic
+                        inscriptions are: an inscription from Huweija Halawa, on the Euphrates, 471
+                        (Donceel-Voûte 1988, 148–9); an inscription of unknown provenance, now in
+                        New Jersey, 504 (Steiner 1990); an inscription from Tall Biʿa, near
+                        Kallinikos, 509, mentioning <abbr>
+                            <choice>
+                                <sic>bp.</sic>
+                                <corr>Bp.</corr>
+                            </choice>
+                        </abbr>
+                        <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Pawlos-of-Kallinikos">
+                            <persName ref="http://syriaca.org/person/47"> Pawlos of
+                            Kallinikos</persName>
+                        </ref> (Krebernik 1991); and an inscription from Maʿar Zayta,
+                        514/15, mentioning <abbr>
+                            <choice>
+                                <sic>bp.</sic>
+                                <corr>Bp.</corr>
+                            </choice>
+                        </abbr> Peter of Apamea (Harrak 1995). From the northeast of
+                        the country, inscriptions from Tell Tuneinir (Fuller 1998) and Qasrok (Talay
+                        2003) have been published in recent years.</p>
+                    <label type="subsubsection">Ṭur ʿAbdin</label>
+                    <p>The inscriptions from this region have been conveniently brought together by
+                        Palmer (1987). This publication includes improved editions of previously
+                        known inscriptions as well as a number of new ones. The earliest dated
+                        inscription is from the <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Gabriel-Monastery-of-Mor">
+                            <placeName ref="http://syriaca.org/place/226">Monastery of Mor Gabriel</placeName>
+                        </ref>, 534. A significant number of
+                        inscriptions are dated or datable to the 8th <abbr>cent.</abbr> In addition to building
+                        inscriptions, there are a number of funerary texts, often written in a
+                        literary, semi-formulaic language.</p>
+                    <label type="subsubsection">Iraq</label>
+                    <p>An edition by A. Harrak appeared in 2010. Although the earliest dated
+                        inscription is from 709/10, some undated inscriptions may be earlier. For
+                        the early period, inscriptions from <ref rend="bold" target="https://gedsh.bethmardutho.org/Tagrit">
+                            <placeName ref="http://syriaca.org/place/193">Tagrit</placeName>
+                        </ref> help to
+                        reconstruct the Christian history of that important city. An ostracon from
+                        the <ref rend="bold" target="https://gedsh.bethmardutho.org/Hirta">
+                            <placeName ref="http://syriaca.org/place/219">Ḥirta</placeName>
+                        </ref> region, which came to light in the 1980s, contains
+                        quotations from the E.-Syr. <hi rend="italic">Ḥudrā</hi> for the season of
+                        Epiphany (Brock 2004). The funerary inscriptions from the <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Hormizd-Monastery-of-Rabban">
+                            <placeName ref="http://syriaca.org/place/168">Monastery of Rabban Hormizd</placeName>
+                        </ref> near <ref rend="bold" target="https://gedsh.bethmardutho.org/Alqosh">
+                            <placeName ref="http://syriaca.org/place/19">Alqosh</placeName>
+                        </ref> belong to the
+                        modern period (15th–19th <abbr>cent.</abbr>) (Harrak 2003).</p>
+                    <label type="subsubsection">Central Mesopotamia</label>
+                    <p>In Central Mesopotamia, in the pre-Islamic and early-Islamic period a number
+                        of magical texts were written in Syriac (while similar texts from the same
+                        region exist in Jewish Babylonian Aramaic and Mandaic). There are charms for
+                        the love-sick and prayers against illness or other misfortune. Many bowls
+                        have been unearthed on which the text is written in spiral fashion around
+                        the inside, while other texts are written on sheets of leather or metal.
+                        Syriac texts are written either in Esṭrangela or in a script that has been
+                        called ‘Proto-Manichean’. Moriggi (2004) recently studied the language of
+                        the bowls; three leather amulets were published by Gignoux (1987).</p>
+                    <label type="subsubsection">Egypt</label>
+                    <p>Syr. monks left traces of their presence in several of the early Egyptian
+                        monasteries. The most important collection of Syriac inscriptions is from
+                            <ref rend="bold" target="https://gedsh.bethmardutho.org/al-Suryan-Dayr">
+                            <placeName ref="http://syriaca.org/place/360">Dayr al-Suryān</placeName>
+                        </ref>, where painted inscriptions start appearing on the
+                        walls of the main church <abbr>ca.</abbr> 800. In addition to independent painted
+                        inscriptions recording building activities, visits, the passing away of
+                        monks, or other significant events, there are Syriac names and captions on
+                        wall paintings. Important inscriptions on the wooden doors of the church are
+                        from the period of abbot <ref rend="bold" target="https://gedsh.bethmardutho.org/Mushe-of-Nisibis">
+                            <persName ref="http://syriaca.org/person/647">Mushe of
+                            Nisibis</persName>
+                        </ref> in the first half of the 10th <abbr>cent.</abbr>, while a liturgical
+                        fan in bronze carries a beautiful inscription dated 1202/3.</p>
+                    <label type="subsubsection">Central and East Asia</label>
+                    <p>Along the Silk Road Syriac inscriptions are an important testimony to the
+                        mission work of the <abbr>Ch. of E.</abbr> in Central and East Asia. Many Syriac graffiti
+                        have come to light in Urgut, Uzbekistan, and numerous tombstones, inscribed
+                        with Syriac and dated or datable between the mid<choice>
+                            <sic>–</sic>
+                            <corr>-</corr>
+                        </choice>13th and mid<choice>
+                            <sic>–</sic>
+                            <corr>-</corr>
+                        </choice>14th <abbr>cent.</abbr>
+                        have been found in Kyrgyzstan, where the capital Bishkek must have had a
+                        sizable community. Further east, in <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/China-Syriac-Christianity-in">China</ref>, the stele
+                        of Si-ngan-fou (in <ref rend="bold" target="https://gedsh.bethmardutho.org/Xian">
+                            <placeName ref="http://syriaca.org/place/479">Xi’an</placeName>
+                        </ref>), dated 781, is
+                        among the most well-known Syriac inscriptions. In addition to its long
+                        Chinese text, it has a Syriac list of bishops, monks, and other
+                        ecclesiastics. Many Syriac inscriptions from the 13th and 14th <abbr>cent.</abbr>, mostly
+                        of funerary content, have been found near the city of Huocheng (in Xinjiang)
+                        as well as in inner Mongolia, near Beijing, and in the harbor towns of
+                        Yangzhou and Quanzhou. For preliminary assessments of these texts, see the
+                        publications by Klein (2001), Niu Ruji (2004, 2005), and Borbone (2005).</p>
+                    <label type="subsubsection">Elsewhere</label>
+                    <p>A smaller number of Syriac inscriptions exist in Iran. Many are from the
+                        region around <ref rend="bold" target="https://gedsh.bethmardutho.org/Urmia">
+                            <placeName ref="http://syriaca.org/place/206">Urmia</placeName>
+                        </ref> and mostly belong to the modern period. The Syriac
+                        inscriptions in Kerala, India, are dated between the 16th <abbr>cent.</abbr> and the
+                        present day; a volume by F. Briquel Chatonnet, A. Desreumaux, and J.
+                        Thekeparampil has recently appeared. In Lebanon the situation is more
+                        complex. The earliest inscription, on a lintel, is dated 547/8; several
+                        8th-cent. inscriptions of Kamid al-Loz reflect the presence of an E.-Syr.
+                        community; and many inscriptions are found on wall paintings in medieval and
+                        modern Maronite and Greek-Orthodox churches. Pilgrims and visitors from the
+                        Syriac homelands left Syriac inscriptions on the Sinai Peninsula, in Cyprus,
+                        and in Palestine/Israel. The Syriac inscriptions at the entrance of the
+                        Church of the Holy Sepulcher in <ref rend="bold" target="https://gedsh.bethmardutho.org/Jerusalem">
+                            <placeName ref="http://syriaca.org/place/104">Jerusalem</placeName>
+                        </ref> were
+                        recently published and studied by Brock, Goldfus, and Kofsky
+                        (2006–2007).</p>
+                    <label type="subsection">Conclusion</label>
+                    <p>Syriac inscriptions reflect the linguistic and cultural complexities of the
+                        worlds in which Syriac Christians lived. Whereas in the earliest period
+                        Syriac inscriptions often show the coexistence of Syriac and Greek (and of
+                        Syriac, Greek, and Arabic in the famous inscription of Zebed, to the
+                        southeast of Aleppo, dated 511/2), many of the later inscriptions include,
+                        or are accompanied by, texts in Coptic, Arabic, Chinese, Uigur, Turkic, and
+                        Malayalam, or show interesting cases of <ref rend="bold" target="https://gedsh.bethmardutho.org/Garshuni">Garshuni</ref>, <choice>
+                            <sic>i.e. </sic>
+                            <corr>i.e., </corr>
+                        </choice>the
+                        use of the Syriac script to write non-Syriac languages. A similar complexity
+                        is found in the use of different eras. Although in the early period local
+                        eras are occasionally used (esp. the ones of Antioch and Apamea), and the
+                        dating by ‘indiction’ (Syr. <hi rend="italic">hndqṭywnʾ</hi>) is
+                        exceptionally found, the most common dating system throughout the centuries
+                        is the era of the Seleucids (known as ‘of Alexander’, ‘of the Macedonians’,
+                        or ‘of the Greeks’). The Hijra dating is found as early as the 8th <abbr>cent.</abbr>,
+                        and for the later period many local eras are used as well as the common
+                        Christian era. Finally, it should be noted that inscriptions have
+                        contributed to our understanding of the writing direction in Syriac, as
+                        distinct from the reading direction. Most Syriac inscriptions are written
+                        vertically, inscribed downwards (Voigt 1997).</p>
+                    <p>See <ref target="https://gedsh.bethmardutho.org/fig/10">Fig. 10</ref>, <ref target="https://gedsh.bethmardutho.org/fig/11">11</ref>, <ref target="https://gedsh.bethmardutho.org/fig/14">14</ref>, <ref target="https://gedsh.bethmardutho.org/fig/20">20</ref>, <ref target="https://gedsh.bethmardutho.org/fig/23">23</ref>, <ref target="https://gedsh.bethmardutho.org/fig/28">28</ref>, <ref target="https://gedsh.bethmardutho.org/fig/38">38</ref>, <choice>
+                            <sic>58–60</sic>
+                            <corr>
+                                <ref target="https://gedsh.bethmardutho.org/fig/58">58</ref>, <ref target="https://gedsh.bethmardutho.org/fig/59">59</ref>, <ref target="https://gedsh.bethmardutho.org/fig/60">60</ref>
+                            </corr>
+                        </choice>, <ref target="https://gedsh.bethmardutho.org/fig/62">62</ref>, <ref target="https://gedsh.bethmardutho.org/fig/83">83</ref>, <ref target="https://gedsh.bethmardutho.org/fig/87">87</ref>, <ref target="https://gedsh.bethmardutho.org/fig/89">89</ref>, <ref target="https://gedsh.bethmardutho.org/fig/97">97</ref>, <ref target="https://gedsh.bethmardutho.org/fig/101">101</ref>, <ref target="https://gedsh.bethmardutho.org/fig/104c">104c</ref>, <ref target="https://gedsh.bethmardutho.org/fig/105">105</ref>, <ref target="https://gedsh.bethmardutho.org/fig/115">115</ref>, <ref target="https://gedsh.bethmardutho.org/fig/123c">123c</ref>, and <ref target="https://gedsh.bethmardutho.org/fig/127">127</ref>.</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>J. L.  Ball, ‘A sixteenth-century Batrashil in the Metropolitan
+                            Museum of Art’, <title rend="italic">
+                                <abbr>Hugoye</abbr>
+                            </title> 9.1 (2006).</bibl>
+                        <bibl>P. G.  Borbone, ‘Some aspects of Turco-Mongol Christianity in the
+                            light of literary and epigraphic Syriac sources’, <title rend="italic">
+                                <abbr>JAAS</abbr>
+                            </title> 19.2 (2005), 5–20.</bibl>
+                        <bibl>F.  Briquel Chatonnet, M.  Debié, and A.  Desreumaux, <title rend="italic">Les inscriptions syriaques</title> (<abbr>ÉtSyr</abbr> 1; 2004).
+                            (includes essays by various authors on: Turkey and Syria, Lebanon,
+                            visitors and migrants, Egypt, Iraq, magic bowls, Iran, Central Asia,
+                            China, Kerala)</bibl>
+                        <bibl>F.  Briquel Chatonnet, A.  Desreumaux, and J.  Thekeparampil, <title rend="italic">Recueil des inscriptions syriaques</title>, vol. 1.
+                                <title rend="italic">Kérala</title> (2008).</bibl>
+                        <bibl>S. P.  Brock, ‘Syriac inscriptions: A preliminary <choice>
+                        <sic>check list</sic>
+                        <corr>checklist</corr>
+                     </choice> of European
+                            publications’, <title rend="italic">
+                                <abbr>AION</abbr>
+                            </title> 38 (1978),
+                            255–71.</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>S. P.  Brock</reg>
+                        <orig>idem</orig>
+                     </choice>, ‘Some early witnesses to the East Syriac liturgical tradition’,
+                                <title rend="italic">
+                                <abbr>JAAS</abbr>
+                            </title> 18:1 (2004), esp. 11–3.</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>S. P.  Brock</reg>
+                        <orig>idem</orig>
+                     </choice>, ‘Edessene Syriac inscriptions in Late Antique Syria’, in <title rend="italic">From Hellenism to Islam. Cultural and linguistic
+                                change in the Roman Near East</title>, <abbr>ed.</abbr> H. Cotton <abbr>et al.</abbr> (2009),
+                            289–302.</bibl>
+                        <bibl>S. P.  Brock, H. Goldfus, and A.  Kofsky, ‘The Syriac inscriptions at the
+                            entrance to the Holy Sepulchre, Jerusalem’, <title rend="italic">ARAM</title> 18–19 (2006–7), 415–38.</bibl>
+                        <bibl>Brock and Taylor, <title rend="italic">Hidden Pearl</title>, vol. 2,
+                            31–6.</bibl>
+                        <bibl>A.  Desreumaux, ‘Pour une bibliographie de l’épigraphie syriaque’,
+                                <title rend="italic">
+                                <abbr>AION</abbr>
+                            </title> 40 (1980), 704–8.</bibl>
+                        <bibl>P. Donceel-Voûte, <title rend="italic">Les pavements des églises
+                                byzantines de Syrie et du Liban. Décor, archéologie et
+                                liturgie</title> (2 vols.; 1988).</bibl>
+                        <bibl>Drijvers and Healey, <title rend="italic">The Old Syriac
+                                inscriptions</title>.</bibl>
+                        <bibl>M.  Fuller and N.  Fuller, ‘Archaeological discoveries at Tell
+                            Tuneinir, Syria’, <title rend="italic">
+                                <abbr>JAAS</abbr>
+                            </title> 12.2 (1998),
+                            69–82.</bibl>
+                        <bibl>Ph. Gignoux, <title rend="italic">Incantations magiques
+                                syriaques</title> (1987).</bibl>
+                        <bibl>A. Harrak, ‘Notes on Syriac inscriptions, I. The inscription of
+                            Maʿar-zayta (Syria)’, <title rend="italic">Orientalia</title> 64 (1995),
+                            110–9, with pl.  I.</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>A. Harrak</reg>
+                        <orig>idem</orig>
+                     </choice>, ‘Patriarchal funerary inscriptions in the Monastery of Rabban
+                            Hormizd: Types, literary origins, and purpose’, <title rend="italic">
+                                <abbr>Hugoye</abbr>
+                            </title> 6.2 (2003).</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>A. Harrak</reg>
+                        <orig>idem</orig>
+                     </choice>  
+                     <title rend="italic">Syriac and Garshuni inscriptions of
+                                Iraq</title> (2010).</bibl>
+                        <bibl>J. F.  Healey, ‘A new Syriac mosaic inscription’, <title rend="italic">
+                                <abbr>JSS</abbr>
+                            </title> 51 (2006), 313–27.</bibl>
+                        <bibl>W.  Klein, ‘A Christian heritage on the northern Silk Road:
+                            Archaeological and epigraphic evidence of Christianity in Kyrgyzstan’,
+                                <title rend="italic">
+                                <abbr>JCSSS</abbr>
+                            </title> 1 (2001), 85–97.</bibl>
+                        <bibl>M.  Krebernik, ‘Schriftfunde aus Tall Biʿa 1990, I. Funde aus dem
+                            byzantinischen Kloster’, <title rend="italic">Mitteilungen der Deutschen
+                                Orient-Gesellschaft zu Berlin</title> 123 (1991), 41–57.</bibl>
+                        <bibl>M.  Moriggi, <title rend="italic">La lingua delle coppe magiche
+                                siriache</title> (Quaderni di Semitistica 21; 2004).</bibl>
+                        <bibl>A.  Palmer, ‘A corpus of inscriptions from Ṭūr ʿAbdīn and environs’,
+                                <title rend="italic">
+                                <abbr>OC</abbr>
+                            </title> 71 (1987), 53–139.</bibl>
+                        <bibl>N. Ruji, ‘Nestorian grave inscriptions from Quanzhou (Zaitun), China’,
+                                <title rend="italic">
+                                <abbr>JCSSS</abbr>
+                            </title> 5 (2005), 51–67.</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>N. Ruji</reg>
+                        <orig>idem</orig>
+                     </choice>, ‘A new Syriac-Uighur inscription from China (Quanzhou, Hujian
+                            province)’, <title rend="italic">
+                                <abbr>JCSSS</abbr>
+                            </title> 4 (2004), 61–65.</bibl>
+                        <bibl>R.  Steiner, ‘A Syriac church inscription from 504 CE’, <title rend="italic">
+                                <abbr>JSS</abbr>
+                            </title> 35 (1990), 99–108.</bibl>
+                        <bibl>Sh.  Talay, ‘Neue syrische Grabinschriften aus Qasrōk (Nordostsyrien)
+                            au dem Jahre 327–330 H’, <title rend="italic">
+                                <abbr>OC</abbr>
+                            </title> 87 (2003),
+                            80–99.</bibl>
+                        <bibl>R.  Voigt, ‘Das Vokalsystem des Syrischen nach Barhebraeus’, <title rend="italic">
+                                <abbr>OC</abbr>
+                            </title> 81 (1997), 36–72. (61–9: ‘Die
+                            Schreibrichtung in syrischen Inschriften’)</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Lucas</forename> 
+                  <surname>Van Rompay</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Aḥiqar</title>
+            <author>
+               <persName>
+                  <forename>Sebastian P.</forename> 
+                  <surname>Brock</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0">Electronic Edition Draft Version 1.0</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Aḥiqar</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Ahiqar</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/31</idno>
+                    <idno type="entry">22</idno>
+                    <milestone unit="pages" n="11-12"/>
+                    <idno type="subject">http://syriaca.org/person/323</idno>
+                    <note type="type">person</note>
+                    <note type="abstract">Aḥiqar, ‘the Aramean Sage’ who is mentioned in an Akkadian
+                        text, is the hero of a narrative set in the Assyrian court.<note/>
+                    </note>
+                </ab>
+                <div type="body">
+                    <p>Aḥiqar, ‘the Aramean Sage’ who is mentioned in an Akkadian text, is the hero
+                        of a narrative set in the Assyrian Court: as the Minister of Sennacherib
+                        (705–681 BC) and Esarhaddon (680–69 BC), he instructs his nephew Nadan by
+                        means of wise sayings, so that in due course he might succeed him; Nadan,
+                        however, is impatient and plots to have the Assyrian king put Aḥiqar to
+                        death, but a friend hides the Sage and only reveals that he is still alive
+                        when the Assyrian king is put to a challenge by the Egyptian Pharaoh. Aḥiqar
+                        is produced and solves the riddling challenge; he then proceeds to give
+                        Nadan a second set of instructions, this time admonitory in character.</p>
+                    <p>A collection of sayings by Aḥiqar, and a narrative concerning him, is already
+                        known in Imperial <ref rend="bold" target="https://gedsh.bethmardutho.org/Aramaic">Aramaic</ref> in
+                        fragmentary form from a papyrus from Elephantine (south Egypt) dated to the
+                        5th <abbr>cent.</abbr> BC (the recent identification of the erased under-text as a
+                        customs document concerning shipping cargos, dated 475 BC, provides a <hi rend="italic">terminus post quem</hi>); here the king is Esarhaddon.
+                        Very probably the sayings and the narrative once circulated independently in
+                        slightly different dialects, but in their combined form they have proved
+                        very influential over the course of time in many different languages, and
+                        they have continued to be read up to the present day. In the Hellenistic
+                        period Aḥiqar is mentioned by name in the book of Tobit (1:21–2; 2:10;
+                        11:19; 14:10, 15), and traces of the work have been found in Egyptian
+                        Demotic. It must also have been translated into Greek, since ‘Akikharos’ is
+                        mentioned by several Greek authors, and much of the narrative has been
+                        reused in the Greek Life of <ref rend="bold" target="https://gedsh.bethmardutho.org/Aesop">
+                            <persName ref="http://syriaca.org/person/322">Aesop</persName>
+                        </ref> (probably 1st
+                        <abbr>cent.</abbr>); furthermore, a lost Greek translation must lie behind the subsequent
+                        translations into Old Slavonic and Romanian.</p>
+                    <p>Five recensions of the Syriac form of the Story are preserved, and these
+                        evidently go back to a lost older Syriac text which will have been the basis
+                        for the Armenian version (which in turn was the source for the Georgian and
+                        Old Turkish translations), and for the Arabic adaptations (sometimes under
+                        the name of Luqman). The Ethiopic translation derives from Arabic, and the
+                        Modern Syriac versions, though based on Classical Syriac, also show some
+                        influence from Arabic forms of the Story.</p>
+                </div>
+                <div type="bibl">
+                    <listBibl>
+                        <listBibl>
+                            <head>Primary Sources</head>
+                            <listBibl>
+                                <head>Aramaic</head>
+                                <bibl>Mor Gregorios Paulos Behnam, <title rend="italic">Aḥīqar
+                                        al-ḥakīm</title> (Baghdad, 1976), 71–93. (the Aramaic text
+                                    is given in Syriac script, with <abbr>AT</abbr>)</bibl>
+                                <bibl>B. Porten and A. Yardeni, <title rend="italic">Textbook of
+                                        Aramaic documents from Ancient Egypt</title>, vol. 3 (1993),
+                                    24–53. (Aramaic with <abbr>ET</abbr>)</bibl>
+                                <bibl>J. M. Lindenberger, in <title rend="italic">The Old Testament
+                                        Pseudepigrapha</title>, <abbr>ed.</abbr> J. H. Charlesworth, vol. 2
+                                    (1985), 479–507. (<abbr>ET</abbr>)</bibl>
+                            </listBibl>
+                            <listBibl>
+                                <head>Syriac</head>
+                                <bibl>Mor Gregorios Paulos Behnam, <title rend="italic">Aḥīqar
+                                        al-ḥakīm</title> (Baghdad, 1976), 110–35. (<abbr>AT</abbr>)</bibl>
+                                <bibl>F. C. Conybeare, J. R. Harris, and A. S. Lewis, <title rend="italic">The Story of Ahikar</title> (1898; 2nd <abbr>ed.</abbr>
+                                    1913). (with <abbr>ET</abbr>)</bibl>
+                                <bibl>Philoxenos Yuḥanon Dolabani [Dolapönü], <title rend="italic">Aḥiqar sofro w-ḥakimo</title> (Mardin, 1962; <abbr>repr.</abbr>
+                                    Monastery of St. Ephrem, 1981).</bibl>
+                                <bibl>J. Ferrer and J. P. Monferrer, <title rend="italic">Historia y
+                                        enseñanzas de Ahiqar o la antigua sabiduria oriental</title>
+                                    (Studia Semitica, Series Minor, 2006). (with <abbr>ST</abbr>)</bibl>
+                                <bibl>F. Nau, <title rend="italic">Histoire et sagesse d’Ahikar
+                                        l’Assyrien</title> (1909). (<abbr>FT</abbr>)</bibl>
+                                <bibl>
+                           <choice>
+                              <reg>F. Nau</reg>
+                              <orig>idem</orig>
+                           </choice>, <title rend="italic">Documents relatifs à Ahikar</title>
+                                    (1920).</bibl>
+                                <bibl>Th. Nöldeke, <title rend="italic">Untersuchungen zum
+                                        Achikarroman</title> (1913), 35–51. (<abbr>GT</abbr>)</bibl>
+                                <bibl>F. Pennacchietti, in <title rend="italic">Apocrifi dell’Antico
+                                        Testamento</title>, <abbr>ed.</abbr> P. Sacchi (1981), 51–95. (<abbr>IT</abbr>)</bibl>
+                            </listBibl>
+                            <listBibl>
+                                <head>Modern Syriac</head>
+                                <bibl>M. Lidzbarski, <title rend="italic">Die neu-aramäischen
+                                        Handschriften der Königlichen Bibliothek zu Berlin</title>,
+                                    vol. 1 (1896), 1–77.</bibl>
+                                <bibl>S. Talay, ‘Die Geschichte und die Sprüche des Ahiqar im
+                                    neuaramäischen Dialekt von Mlahso’, in <title rend="italic">‘Sprich doch mit deinen Knechten aramäisch, wir verstehen
+                                        es!’<choice>
+                                            <sic>.</sic>
+                                            <corr/>
+                                        </choice> 60 Beiträge zur Semitistik. Festschrift für Otto
+                                        Jastrow zum 60. Geburtstag</title>, <abbr>ed.</abbr> W. Arnold and H.
+                                    Bobzin (2002), 695–712.</bibl>
+                            </listBibl>
+                        </listBibl>
+                        <listBibl>
+                            <head>Secondary Sources</head>
+                            <bibl>R. Contini and C. Grottanelli, <title rend="italic">Il saggio
+                                    Ahiqar</title> (Studi biblici 148; 2005).</bibl>
+                            <bibl>A.-M. Denis, <title rend="italic">Introduction à la littérature
+                                    religieuse judéo-hellénistique</title>, vol. 2 (2000), 993–1037.
+                                (incl. further references)</bibl>
+                            <bibl>J. Greenfield, ‘The Wisdom of Ahiqar’, in <title rend="italic">Wisdom in Ancient Israel</title>, <abbr>ed.</abbr> J. Day, R. P. Gordon, and
+                                H. G. M. Williamson (1995), 43–52.</bibl>
+                            <bibl>J.-C. Haelewyck, <title rend="italic">Clavis Apocryphorum Veteris
+                                    Testamenti</title> (1998), 148–55.</bibl>
+                        </listBibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Sebastian P.</forename> 
+                  <surname>Brock</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

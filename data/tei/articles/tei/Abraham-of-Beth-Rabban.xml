@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Abraham of Beth Rabban</title>
+            <author>
+               <persName>
+                  <forename>Lucas</forename> 
+                  <surname>Van Rompay</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0">Electronic Edition Draft Version 1.0</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Abraham of Beth Rabban</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Abraham-of-Beth-Rabban</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/23</idno>
+                    <idno type="entry">14</idno>
+                    <milestone unit="pages" n="8"/>
+                    <idno type="subject">http://syriaca.org/person/319</idno>
+                    <note type="type">person</note>
+                    <note type="abstract">Teacher of biblical interpretation and director of the
+                            <orgName>School of <placeName ref="http://syriaca.org/place/142">Nisibis</placeName>
+                        </orgName>.<note/>
+                    </note>
+                </ab>
+                <ab type="infobox">(6th <abbr>cent.</abbr>) [Ch. of E.]</ab>
+                <div type="body">
+                    <p>Teacher of biblical interpretation and director of the <ref rend="bold" target="https://gedsh.bethmardutho.org/Nisibis-School-of">School of
+                            Nisibis</ref>. Our main sources for Abraham’s life are the two works
+                        attributed to <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Barhadbshabba-Arbaya">
+                            <persName ref="http://syriaca.org/person/367">Barḥadbshabba</persName>
+                        </ref> and the Chronicle of <ref rend="bold" target="https://gedsh.bethmardutho.org/Siirt">
+                            <placeName ref="http://syriaca.org/place/188"> Siirt</placeName>
+                        </ref>.
+                        The second part of Abraham’s name, ‘from the house of our master’ (<hi rend="italic">d-Beth Rabban</hi>), is generally understood to refer to
+                            <ref rend="bold" target="https://gedsh.bethmardutho.org/Narsai">
+                            <persName ref="http://syriaca.org/person/650">Narsai</persName>
+                        </ref>, the first director of the School of Nisibis, who may have
+                        been Abraham’s relative. Barḥadbshabba the historian presents Abraham as
+                        Narsai’s immediate successor and in charge of the school for 20 years (502/3
+                        – <abbr>ca.</abbr> 522). According to Barḥadbeshabba, Abraham was then temporarily
+                        replaced by <ref rend="bold" target="https://gedsh.bethmardutho.org/Elisha-bar-Quzbaye">
+                            <persName ref="http://syriaca.org/person/467">Elishaʿ bar
+                            Quzbaye</persName>
+                        </ref> but he returned to his office a few years later and held
+                        it until his death, probably in 569. Other sources present Elishaʿ bar
+                        Quzbaye as Narsai’s immediate successor and put the beginning of Abraham’s
+                        tenure <abbr>ca.</abbr> 510. For some time during his directorship Abraham may have been
+                        assisted by his relative <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Yohannan-of-Beth-Rabban">
+                            <persName ref="http://syriaca.org/person/824">Yoḥannan
+                            of Beth Rabban</persName>
+                        </ref>. During Abraham’s directorship the School
+                        flourished and had its greatest expansion, despite Abraham often being the
+                        target of attacks both from within and from outside the E.-Syr.
+                        community.</p>
+                    <p>Barḥadbshabba the historian credits Abraham with building activities in the
+                        School, including a hospice (<hi rend="italic">xenodochion</hi>) for the
+                        sick and cells and baths for the students. As an instructor in biblical
+                        interpretation he may have played an important role in the transmission of
+                        the commentaries of <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Theodore-of-Mopsuestia">
+                            <persName ref="http://syriaca.org/person/780">Theodore
+                            of Mopsuestia.</persName>
+                        </ref> Barḥadbshabba reports that ‘he edited and explained’
+                            (<hi rend="italic">ktab w-paššeq</hi>) Theodore’s commentaries, because
+                        they were too difficult for the students. In this process he is said to have
+                        followed ‘the tradition that he had received from his teacher’ (<choice>
+                            <sic>
+                                <choice>
+                                    <sic>i.e. </sic>
+                                    <corr>i.e., </corr>
+                                </choice>
+                            </sic>
+                            <corr>i.e., </corr>
+                        </choice>
+                        Narsai). Unfortunately, none of Abraham’s works have survived. He is,
+                        however, often quoted in later E.-Syr. commentaries on several <abbr>OT</abbr> books.</p>
+                </div>
+                <div type="bibl">
+                    <listBibl>
+                        <listBibl>
+                            <head>Primary Sources</head>
+                            <bibl>F. Nau, <title rend="italic">La seconde partie de l’Histoire de
+                                    Barḥadbešabba ʿArbaïa</title> (<abbr>PO</abbr> 9; 1913), 616–31.</bibl>
+                            <bibl>A. Scher, <title rend="italic">Mar Barḥadbšabba ʿArbaya, évêque de
+                                    Ḥalwan (VIe  siècle). Cause de la fondation des écoles</title>
+                                (<abbr>PO</abbr> 4; 1908), 387–8.</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>A. Scher</reg>
+                           <orig>idem</orig>
+                        </choice>, <title rend="italic">Histoire nestorienne inédite (Chronique
+                                    de Séert)</title>, vol. 2.1 (<abbr>PO</abbr> 7; 1909), 115–6.</bibl>
+                        </listBibl>
+                        <listBibl>
+                            <head>Secondary Sources</head>
+                            <bibl>Baumstark, <title rend="italic">Literatur</title>, 115.</bibl>
+                            <bibl>Becker, <title rend="italic">Fear of God</title>, 79–81.</bibl>
+                            <bibl>Vööbus, <title rend="italic">History of the School of
+                                    Nisibis</title>, 134–210.</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>Vööbus</reg>
+                           <orig>idem</orig>
+                        </choice>, ‘Abraham de-Bet Rabban and his role in the hermeneutic
+                                traditions of the School of Nisibis’, <title rend="italic">
+                                    <abbr>HTR</abbr>
+                                </title> 58 (1965), 203–14.</bibl>
+                        </listBibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Lucas</forename> 
+                  <surname>Van Rompay</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

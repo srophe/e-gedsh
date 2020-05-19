@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Sahdona (Martyrius)</title>
+            <author>
+               <persName>
+                  <forename>Sebastian P.</forename> 
+                  <surname>Brock</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0">Electronic Edition Draft Version 1.0</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Sahdona (Martyrius)</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Sahdona-Martyrius</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/472</idno>
+                    <idno type="entry">463</idno>
+                    <milestone unit="pages" n="356"/>
+                    <idno type="subject">http://syriaca.org/person/711</idno>
+                    <note type="type">person</note>
+                    <note type="abstract">Monastic author of ‘Book of Perfection’.<note>brief</note>
+                    </note>
+                </ab>
+                <ab type="infobox">(early 7th <abbr>cent.</abbr>) [Ch. of E.]</ab>
+                <div type="body">
+                    <p>Monastic author. He was born in Halmon (<ref rend="bold" target="https://gedsh.bethmardutho.org/Beth-Nuhadra">
+                            <placeName ref="http://syriaca.org/place/36">Beth Nuhadra</placeName>
+                        </ref>)
+                        and took up a monastic vocation under the influence of his mother and a
+                        saintly woman, Shirin. He lived as a monk of the <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Beth-Abe-Monastery-of">
+                            <placeName ref="http://syriaca.org/place/223">Monastery
+                            of Beth ʿAbe</placeName>
+                        </ref> until some time between 635 and 640, when he was made
+                        <abbr>bp.</abbr> of <ref rend="bold" target="https://gedsh.bethmardutho.org/Beth-Garmai">
+                            <placeName ref="http://syriaca.org/place/33">Beth Garmai</placeName>
+                        </ref>. His views on christology were seen to be too
+                        Chalcedonian, and he was deposed at a synod. For a while he was re-instated,
+                        but then was again deposed. His fine ‘Book of Perfection’ is preserved, not
+                        quite complete, in a <abbr>ms.</abbr> copied in <ref rend="bold" target="https://gedsh.bethmardutho.org/Edessa">
+                            <placeName ref="http://syriaca.org/place/78">Edessa</placeName>
+                        </ref> in 837. The
+                        work is in two parts; the first begins with the dogmatic foundations of the
+                        moral life of Christians (only parts of this are preserved), and then goes
+                        on to provide an introduction to the life of perfection, both coenobitic and
+                        solitary. The second part is devoted to discussion of the different virtues.
+                        A remarkable feature of the work is the very large number of biblical
+                        quotations and allusions (and very few references to non-biblical
+                        literature). Five Letters and a set of maxims on Wisdom also survive.</p>
+                </div>
+                <div type="bibl">
+                    <listBibl>
+                        <listBibl>
+                            <head>Primary Sources</head>
+                            <bibl>S. P.  Brock, ‘A further fragment of the Sinai Sahdona
+                                manuscript’, <title rend="italic">
+                                    <abbr>LM</abbr>
+                                </title> 81 (1968),
+                                139–54.</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>S. P.  Brock</reg>
+                           <orig>idem</orig>
+                        </choice>, <title rend="italic">The Syriac Fathers on Prayer</title>,
+                                198–239. (<abbr>ET</abbr> of selections)</bibl>
+                            <bibl>S.  Chialà, <title rend="italic">Martyrios (Sahdona). Sull’ amore
+                                    perfetto per Dio e per gli altri</title> (Bose, 1993). (<abbr>IT</abbr> of
+                                selections)</bibl>
+                            <bibl>A.  de Halleux, <title rend="italic">Martyrius (Sahdona). Oeuvres
+                                    spirituelles</title>, vol. 1–3. <title rend="italic">Livre de la
+                                    Perfection</title>; vol. 4. <title rend="italic">Lettres à des
+                                    amis solitaires; Maximes sapientiales</title> (<abbr>CSCO</abbr> 200–1,
+                                214–5, 252–5; 1961, 1965).</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>A.  de Halleux</reg>
+                           <orig>idem</orig>
+                        </choice>, ‘Un chapitre retrouvé du Livre de la Perfection de
+                                Martyrius’, <title rend="italic">
+                                    <abbr>LM</abbr>
+                                </title> 88 (1975), 253–95.</bibl>
+                        </listBibl>
+                        <listBibl>
+                            <head>Secondary Sources</head>
+                            <bibl>S. P. Brock, ‘New fragments of Sahdona’s Book of Perfection at St
+                                Catherine’s Monastery, Mount Sinai’, <title rend="italic">
+                                    <abbr>OCP</abbr>
+                                </title> 75 (2009), 175–8.</bibl>
+                            <bibl>A.  de Halleux, ‘La christologie de Martyrios-Sahdona dans
+                                l’évolution du nestorianisme’, <title rend="italic">
+                                    <abbr>OCP</abbr>
+                                </title> 23
+                                (1957), 5–32.</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>A.  de Halleux</reg>
+                           <orig>idem</orig>
+                        </choice>, ‘Martyrios-Sahdona. La vie mouvementée d’un ‘hérétique’ de
+                                l’Église nestorienne’, <title rend="italic">
+                                    <abbr>OCP</abbr>
+                                </title> 24 (1958),
+                                93–128.</bibl>
+                            <bibl>L.  Wehbé, ‘Textes bibliques dans les écrits de
+                                Martyrius-Sahdona’, <title rend="italic">Melto</title> 5 (1969),
+                                61–113.</bibl>
+                        </listBibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Sebastian P.</forename> 
+                  <surname>Brock</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

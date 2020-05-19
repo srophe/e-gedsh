@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Michael Badoqa</title>
+            <author>
+               <persName>
+                  <forename>Emanuel A.</forename> 
+                  <surname>Fiano</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0">Electronic Edition Draft Version 1.0</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Michael Badoqa</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Michael-Badoqa</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/384</idno>
+                    <idno type="entry">375</idno>
+                    <milestone unit="pages" n="290-291"/>
+                    <idno type="subject">http://syriaca.org/person/637</idno>
+                    <note type="type">person</note>
+                    <note type="abstract">Syriac author and exegete; teacher at
+                        the <orgName>School of <placeName ref="http://syriaca.org/place/142">Nisibis</placeName>
+                        </orgName> in the late 6th or early 7th century.<note/>
+                    </note>
+                </ab>
+                <ab type="infobox">(6th–7th <abbr>cent.</abbr>)</ab>
+                <div type="body">
+                    <p>Syriac author and exegete; <hi rend="italic">bādoqā</hi> (‘scholar’) and <hi rend="italic">mallpānā</hi> (‘teacher’) at the <ref rend="bold" target="https://gedsh.bethmardutho.org/Nisibis-School-of">School of
+                            Nisibis</ref> during <ref rend="bold" target="https://gedsh.bethmardutho.org/Henana">
+                            <persName ref="http://syriaca.org/person/530">Ḥenana</persName>
+                        </ref>’s tenure as
+                        its head (572–610). During the time of growing opposition to Ḥenana,
+                        Michael, along with many other scholars, left the School. Little is known
+                        about his life and his works. Among the writings attributed to him, the
+                        following are deemed authentic:</p>
+                    <p>1. A <hi rend="italic">drāšā</hi> (‘dispute’) of Christological content,
+                        partly preserved, in which Michael, employing a pithy and syllogistic style,
+                        condemns the term <hi rend="italic">theotokos</hi> and attacks Cyrillians,
+                        Severians, and Julianists (<abbr>ed.</abbr> Abramowski and Goodman).</p>
+                    <p>2. A ‘Book of Questions’ (<hi rend="italic">Ktābā d-šuʾʾāle</hi>), of which
+                        an excerpt is preserved in <ref rend="bold" target="https://gedsh.bethmardutho.org/Shlemon-of-Basra">
+                            <persName ref="http://syriaca.org/person/745">Shlemon of
+                            Baṣra</persName>
+                        </ref>’s ‘Book of the Bee’. In this fragment Michael argues against
+                        the idea that the world will pass away before the resurrection of the dead.
+                        It has generally been assumed that this ‘Book of Questions’ is identical
+                        with the ‘Questions on the Text of Scripture’ in three volumes, the only
+                        work that <ref rend="bold" target="https://gedsh.bethmardutho.org/Abdisho-bar-Brikha">
+                            <persName ref="http://syriaca.org/person/310">ʿAbdishoʿ bar
+                            Brikha</persName>
+                        </ref> attributes to Michael. If this identification is correct, it
+                        is in all likelihood this book that was known to later exegetes, who quote a
+                        number of passages under Michael’s name (esp. the author of the Diyarbakır
+                        Commentary, <ref rend="bold" target="https://gedsh.bethmardutho.org/Ishodad-of-Merv">
+                            <persName ref="http://syriaca.org/person/555">Ishoʿdad of
+                            Merv</persName>
+                        </ref>, and the author of the <ref rend="bold" target="https://gedsh.bethmardutho.org/Gannat-Bussame">Gannat
+                            Bussāme).</ref>
+                    </p>
+                    <p>3. A different ‘Book of Questions’, from which only one question, on the
+                        theme of ‘Man as microcosm’, is still extant (unpublished; see Reinink
+                        2007). It appears that this second ‘Book of Questions’ should not be
+                        identified with the previous one, since it specifically focuses on ‘the
+                        refutation of heresies and cults’ (Reinink 2007, 2008).</p>
+                    <p>In addition, a ‘Book of Definitions’ (<abbr>ed.</abbr> Furlani) is attributed to Michael,
+                        but its spuriousness has been proven (see now Abramowski 1999). A text ‘On
+                        Dreams’, which has been transmitted as a separate work of Michael’s, turns
+                        out to be taken from this ‘Book of Definitions’, and therefore should no
+                        longer be regarded as his. Finally, an aetiological writing (<hi rend="italic">ʿelltā</hi>) on the ‘Commemoration of the Blessed Lady
+                        Mary, the Bearer of Christ’ (unpublished), assigned in the <abbr>mss.</abbr> to ‘one of
+                        the brethren <hi rend="italic">badoqe</hi> of the School of Nisibis’, has
+                        sometimes been considered Michael’s (already by <ref rend="bold" target="https://gedsh.bethmardutho.org/Ishaq-Shbadnaya">
+                            <persName ref="http://syriaca.org/person/551">Isḥaq
+                            Qardaḥe Shbadnaya</persName>
+                        </ref>). This attribution cannot, however, be
+                        substantiated (see Vööbus, Reinink 2008).</p>
+                </div>
+                <div type="bibl">
+                    <listBibl>
+                        <listBibl>
+                            <head>Primary Sources</head>
+                            <bibl>L.  Abramowski and A. E.  Goodman, <title rend="italic">A
+                                    Nestorian collection of Christological texts. Cambridge
+                                    University Library <abbr>ms.</abbr> Oriental 1319</title> (2 vols.; 1972),
+                                vol. I, 105–13 (Syr.); vol. II, 61–5 (<abbr>ET</abbr>).</bibl>
+                            <bibl>E. A. W.  Budge, <title rend="italic">The Book of the Bee</title>
+                                (1886), 154–5.</bibl>
+                            <bibl>G.  Furlani, ‘“Il libro delle definizioni e divisioni” di Michele
+                                l’interprete’, <title rend="italic">Atti della Reale Accademia
+                                    Nazionale dei Lincei</title>, Serie 6, 2 (1926), 5–194.</bibl>
+                        </listBibl>
+                        <listBibl>
+                            <head>Secondary Sources</head>
+                            <bibl>L.  Abramowski, ‘Zu den Schriften des Michael Malpana / Badoqa’,
+                                in <title rend="italic">After Bardaisan</title>, <abbr>ed.</abbr> Reinink and
+                                Klugkist, 1–10.</bibl>
+                            <bibl>Assemani, <title rend="italic">BibOr</title>, vol. 3, 147.</bibl>
+                            <bibl>Baumstark, <title rend="italic">Literatur</title>,129.</bibl>
+                            <bibl>E. G.  Clarke, <title rend="italic">The Selected Questions of Ishō
+                                    Bar Nūn on the Pentateuch: Edited and translated from Ms
+                                    Cambridge Add. 2017, with a study of the relationship of
+                                    Ishō<choice>
+                              <sic>‘</sic>
+                              <corr>ʿ</corr>
+                           </choice>dādh of Merv, Theodore Bar Kōnī and Ishō Bar Nūn on
+                                    Genesis</title> (Studia post-Biblica 5; 1962), 10–11.</bibl>
+                            <bibl>Ortiz de Urbina, <title rend="italic">Patrologia Syriaca</title>,
+                                134–35.</bibl>
+                            <bibl>G. J.  Reinink, ‘Man as Microcosm: A Syriac didactic poem and its
+                                prose background’, in <title rend="italic">Calliope’s Classroom.
+                                    Studies in Didactic Poetry from Antiquity to the
+                                    Renaissance</title>, <abbr>ed.</abbr> A. Harder and A. A.  MacDonald (2007),
+                                123–52.</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>G. J.  Reinink</reg>
+                           <orig>idem</orig>
+                        </choice>, ‘The Cause of the commemoration of Mary: Author, date, and
+                                Christology’, in <title rend="italic">Malphono w-Rabo
+                                    d-Malphone</title>, <abbr>ed.</abbr> G.  Kiraz, 517–34.</bibl>
+                            <bibl>L.  Van Rompay, <title rend="italic">Le commentaire sur
+                                    Genèse-Exode 9,32 du manuscrit (<choice>
+                              <reg>
+                                 <hi rend="italic">olim</hi>
+                              </reg>
+                              <orig>olim</orig>
+                           </choice>) Diyarbakır 22</title>
+                                (<abbr>CSCO</abbr> 484; 1986), xxvi–xxvii.</bibl>
+                            <bibl>Vööbus, <title rend="italic">History of the School of
+                                    Nisibis</title>, 278–79.</bibl>
+                        </listBibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Emanuel A.</forename> 
+                  <surname>Fiano</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

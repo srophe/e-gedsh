@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Dionysios bar Ṣalibi</title>
+            <author>
+               <persName>
+                  <forename>Sebastian P.</forename> 
+                  <surname>Brock</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0">Electronic Edition Draft Version 1.0</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Dionysios bar Ṣalibi</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Dionysios-bar-Salibi</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/178</idno>
+                    <idno type="entry">169</idno>
+                    <milestone unit="pages" n="126-127"/>
+                    <idno type="subject">http://syriaca.org/person/212</idno>
+                    <note type="type">person</note>
+                    <note type="abstract">Metropolitan of Amid, and prolific <abbr>Syr. Orth.</abbr>
+                        author.<note/>
+                    </note>
+                </ab>
+                <ab type="infobox">(d. 1171) [<abbr>Syr. Orth.</abbr>]</ab>
+                <div type="body">
+                    <p>Metropolitan of <ref rend="bold" target="https://gedsh.bethmardutho.org/Amid">
+                            <placeName ref="http://syriaca.org/place/8">Amid</placeName>
+                        </ref>, and prolific <abbr>Syr. Orth.</abbr> author. A biography, by <abbr>Patr.</abbr> 
+                  <ref rend="bold" target="https://gedsh.bethmardutho.org/Michael-I-Rabo">
+                            <persName ref="http://syriaca.org/person/217">Michael Rabo</persName>
+                        </ref>, is unfortunately lost. He was probably
+                        born in <ref rend="bold" target="https://gedsh.bethmardutho.org/Melitene">
+                            <placeName ref="http://syriaca.org/place/136">Melitene</placeName>
+                        </ref>, which was an important meeting point for Syriac and
+                        Greek cultures in the 12th <abbr>cent.</abbr> His baptismal name was Yaʿqub. His earliest
+                        work was a refutation of a book written by <ref rend="bold" target="https://gedsh.bethmardutho.org/Yuhanon-of-Mardin">
+                            <persName ref="http://syriaca.org/person/209">Yuḥanon of
+                            Mardin</persName>
+                        </ref>, who had claimed that the fall of <ref rend="bold" target="https://gedsh.bethmardutho.org/Edessa">
+                            <placeName ref="http://syriaca.org/place/78">Edessa</placeName>
+                        </ref> to the
+                        Seljuks in 1144 took place against God’s will. At Yuḥanon’s request, the
+                        <abbr>
+                            <choice>
+                                <sic>Patr.</sic>
+                                <corr>patr.</corr>
+                            </choice>
+                        </abbr> put Yaʿqub (still a deacon) under an interdict, but later, once he had
+                        read Yaʿqub’s work, lifted this and appointed him <abbr>bp.</abbr> of Marʿash
+                        (Germanikia), with the episcopal name Dionysios (1148). After the capture of
+                        Marʿash by the Armenians in 1156 he returned to Melitene. In 1164/5, he was
+                        offered the see of Amid but declined it, though was later persuaded to
+                        accept, after Michael had become <abbr>patr.</abbr> (Oct. 1166). At Amid Dionysios
+                        restored the church of the Yoldat Aloho.</p>
+                    <p>Dionysios died in November 1171, and was buried on the south side of the
+                        church of the Yoldat Aloho in Amid, alongside two patriarchs (Michael,
+                        Chronicle, III, 344–5). He must have been at least 50 years old, and perhaps
+                        considerably more. He was succeeded as <abbr>bp.</abbr> by his synkellos Abraham who,
+                        however, died shortly afterwards (Michael, Chronicle, III, 354).</p>
+                    <p>Two slightly conflicting lists of his works survive, one in Michael’s
+                        Chronicle (III, 344–5), the other separately (printed in Assemani, <hi rend="italic">BibOr</hi>, vol. 2, 210–11). Many of the works named in
+                        these lists do not survive, while those that do survive have so far only
+                        partly been published.</p>
+                    <p>Main extant works:</p>
+                    <p>1. Commentaries on the Old Testament. Dionysios was the first <abbr>Syr. Orth.</abbr>
+                        writer to provide a commentary on the entire Bible. He draws on a great
+                        variety of earlier commentators, both Greek (in Syriac translation) and
+                        Syriac, including commentators from the <abbr>Ch. of E.</abbr> Much of the commentary on
+                        the <abbr>OT</abbr> was arranged in two parts, ‘material’ (<hi rend="italic">suʿronoʾit</hi>) and ‘spiritual’ (<hi rend="italic">ruḥonoʾit</hi>). Of
+                        the <abbr>OT</abbr> commentaries only those on Psalms 73–82 (<abbr>ed.</abbr> S. D. Ryan, <hi rend="italic">Dionysius bar Salibi’s Factual and Spiritual Commentary on
+                            Psalms 73–82</hi> [Cahiers de la Revue Biblique 57; 2004]) and the
+                        ‘spiritual’ commentary on Qohelet (based on the <ref rend="bold" target="https://gedsh.bethmardutho.org/Syro-Hexapla">Syro-Hexapla</ref>,
+                        rather than the <ref rend="bold" target="https://gedsh.bethmardutho.org/Peshitta">Peshitta</ref>) have so
+                        far been published (W. Strothmann, <abbr>GOFS</abbr> 31, 1988). The commentaries on other
+                        <abbr>OT</abbr> books remain unpublished, though some have been studied in dissertations.
+                        The oldest <abbr>ms.</abbr> was copied in 1189, only 18 years after his death (for <abbr>mss.</abbr>,
+                        see A. Vööbus, in <title rend="italic">
+                            <abbr>ZAW</abbr>
+                        </title> 84 [1972], 246–9).</p>
+                    <p>2. Commentaries on the New Testament. The Commentaries on Matt., Mark, Luke,
+                        Acts, Catholic Epistles, and Apocalypse have been published by I. Sedlacek,
+                        J.-B. Chabot, and A. Vaschalde, with <abbr>LT</abbr>: Gospels, I.1 (<abbr>CSCO</abbr> 15–16; 1906);
+                        I.2 (<abbr>CSCO</abbr> 77, 85; 1915, 1922); II.1 (<abbr>CSCO</abbr> 95, 98; 1931, 1933); II.2 (<abbr>CSCO</abbr>
+                        113–4; 1939, 1940); Acts, Catholic Epistles, and Apocalypse (<abbr>CSCO</abbr> 53, 60;
+                        1909, 1910). The Comm. on John was later published (without tr.) by R.
+                        Lejoly (1975). That on the Pauline Epistles remains unpublished (for <abbr>mss.</abbr>,
+                        see A. Vööbus in <hi rend="italic">Abr Nahrain</hi> 9 [1969/70], 39–42). The
+                        commentary on the Apocalypse preserves some quotations from the otherwise
+                        lost treatise of <ref rend="bold" target="https://gedsh.bethmardutho.org/Hippolytus-of-Rome">
+                            <persName ref="http://syriaca.org/person/537">Hippolytus</persName>
+                        </ref> against Gaius.</p>
+                    <p>3. Commentary on the Liturgy, <abbr>ed.</abbr> with <abbr>LT</abbr> by H. Labourt (<abbr>CSCO</abbr> 13–14; 1903).
+                        There is an <abbr>ET</abbr> by B. Varghese, <hi rend="italic">Dionysius Bar Salibi.
+                            Commentary on the Eucharist</hi> (Kottayam, 1998). Besides the
+                        commentary on the Eucharistic liturgy just mentioned, Dionysios also
+                        commented on the baptismal service and the Myron (<abbr>ed.</abbr> with <abbr>ET</abbr> by B.
+                        Varghese, <hi rend="italic">Dionysius Bar Salibi. Commentary on Myron and
+                            Baptism</hi> [Moran Etho 29; 2006]).</p>
+                    <p>4. Commentary on <ref rend="bold" target="https://gedsh.bethmardutho.org/Evagrius-of-Pontus">
+                            <persName ref="http://syriaca.org/person/483">Evagrius</persName>
+                        </ref>’s Centuries. The Syriac text
+                        (from a Berlin <abbr>ms.</abbr>) has been edited by Mor Julius Çiçek (Glane/Losser;
+                        1991).</p>
+                    <p>5. Commentary on <ref rend="bold" target="https://gedsh.bethmardutho.org/Aristotle">
+                            <persName ref="http://syriaca.org/person/342">Aristotle</persName>
+                        </ref>’s
+                        logical works (Organon). This commentary covers <ref rend="bold" target="https://gedsh.bethmardutho.org/Porphyry">
+                            <persName ref="http://syriaca.org/person/684">Porphyry</persName>
+                        </ref>’s
+                        Eisagoge (‘Introduction’) and the first three books of the corpus of
+                        Aristotle’s logical works, namely, Categories, Interpretation, and Analytics
+                        I–II. The work was completed in 1148, shortly after Dionysios had become <abbr>bp.</abbr>
+                        of Marʿash. Dionysios states that his purpose was to provide an abbreviation
+                        of previous commentators. At the end of the work he complains about the
+                        barbarity and ignorance shown by the Syriac translator of Analytics  II. The
+                        work survives, not quite complete, in <abbr>ms.</abbr> Cambridge Gg. 2.14
+                        (unpublished).</p>
+                    <p>6. Polemical Works. Of his polemical works only the treatises against the
+                        Armenians (<abbr>ed.</abbr> A. Mingana, in <hi rend="italic">Woodbrooke Studies</hi> 4
+                        [1931], with <abbr>ET</abbr>), the Melkites (<abbr>ed.</abbr> Mingana, in <hi rend="italic">Woodbrooke
+                            Studies</hi> 1 [1927], with <abbr>ET</abbr>), the Jews (<abbr>ed.</abbr> de Zwaan, 1906; text
+                        only), and the Muslims (J. P. Amar, <abbr>CSCO</abbr> 614–5; 2005) have been published.
+                        There are important studies of the last by A. Mingana (<hi rend="italic">
+                            <abbr>BJRL</abbr>
+                        </hi>9 [1925], 188–240, on Qurʾān quotations) and S. H. Griffith
+                            (<abbr>
+                            <title rend="italic">SymSyr</title> IV</abbr>, 353–65). An analysis of the treatise
+                        against the Nestorians was given by F. Nau in <title rend="italic">ROC</title>
+                        II.4 (1909), 298–320.</p>
+                    <p>7. Anaphoras. Three anaphoras attributed to Dionysios are known, but only the
+                        first (which is also sometimes attributed to <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Dionysius-the-Areopagite-Pseudo-">Dionysius the
+                            Areopagite</ref>) has been published (<choice>
+                            <sic>e.g.</sic>
+                            <corr>e.g., </corr>
+                        </choice>Pampakuda editions of 1976,
+                        1986; <abbr>ed.</abbr> Çiçek, 1985; <abbr>LT</abbr> in E. Renaudot, <hi rend="italic">Liturgiarum
+                            Orientalium Collectio</hi> [1847], vol. 2, 448–52).</p>
+                    <p>8. Canons. The penitential canons associated with Dionysios’s name survive in
+                        many different forms, whose interrelationships are studied by A. Vööbus in
+                            <hi rend="italic">Kanonessammlungen</hi>, vol. IB (<abbr>CSCO</abbr> 317; 1970),
+                        405–39; for other canons attributed to Dionysios see <hi rend="italic">Kanonessammlungen</hi>, vol. IA, 240–53.</p>
+                    <p>Lost works:</p>
+                    <p>1. Commentaries on the doctrinal works of <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Gregory-of-Nazianzus">
+                            <persName ref="http://syriaca.org/person/511">Gregory of
+                            Nazianzus</persName>
+                        </ref>, <ref rend="bold" target="https://gedsh.bethmardutho.org/Gregory-of-Nyssa">
+                            <persName ref="http://syriaca.org/person/512">Gregory of
+                                Nyssa</persName>
+                        </ref>, <ref rend="bold" target="https://gedsh.bethmardutho.org/Basil-of-Caesarea">
+                            <persName ref="http://syriaca.org/person/376">Basil</persName>
+                        </ref>, Dionysius the Areopagite,
+                            <ref rend="bold" target="https://gedsh.bethmardutho.org/Severus-of-Antioch">
+                            <persName ref="http://syriaca.org/person/51">Severus</persName>
+                        </ref>, <ref rend="bold" target="https://gedsh.bethmardutho.org/Peter-of-Kallinikos">
+                            <persName ref="http://syriaca.org/person/75">Peter of
+                            Kallinikos</persName>
+                        </ref>.</p>
+                    <p>2. On Providence: written in response to Yuḥanon of Mardin’s work, after the
+                        fall of Edessa in 1144.</p>
+                    <p>3. Chronicle: The preface for this is preserved by Michael (Chronicle, III,
+                        257). Though he had intended to write a world chronicle, he only had time to
+                        deal with contemporary history.</p>
+                    <p>4. Two <choice>
+                            <sic>12 syllable</sic>
+                            <corr>12-syllable</corr>
+                        </choice>
+                        <hi rend="italic"> memre</hi> on the two captures of
+                        Edessa, mentioned by Michael (Chronicle, III, 267).</p>
+                    <p>5. Three discourses on the destruction of Marʿash by the Armenians
+                        (Chronicle, III, 314).</p>
+                    <p>6. Two <hi rend="italic">memre</hi> on an episode where a Maphrian was
+                        imprisoned for his judgement over the betrothal of a Christian daughter of a
+                        Christian who had converted to Islam (the episode is related by <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Bar-Ebroyo-Grigorios">
+                            <persName ref="http://syriaca.org/person/239">Bar ʿEbroyo</persName>
+                        </ref>, Eccl. Hist., II, 347–51).</p>
+                    <p>7. A Book of Theology.</p>
+                    <p>8. Letters.</p>
+                    <p>9. Collection of chants.</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>Baumstark, <title rend="italic">Literatur</title>, 295–7.</bibl>
+                        <bibl>Assemani, <title rend="italic">BibOr</title>, vol. 2, 156–211.</bibl>
+                        <bibl>G.  Blum, in <title rend="italic">
+                                <abbr>TRE</abbr>
+                            </title>, vol.9 (1982),
+                            6–9.</bibl>
+                        <bibl>R.  Ebied, ‘Dionysius bar Salibi’s polemical treatises’, <title rend="italic">
+                                <abbr>Harp</abbr>
+                            </title> 20 (2006), 73–86.</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Sebastian P.</forename> 
+                  <surname>Brock</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

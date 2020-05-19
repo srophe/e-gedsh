@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Pawlos of Tella</title>
+            <author>
+               <persName>
+                  <forename>Lucas</forename> 
+                  <surname>Van Rompay</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0">Electronic Edition Draft Version 1.0</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Pawlos of Tella</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Pawlos-of-Tella</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/430</idno>
+                    <idno type="entry">421</idno>
+                    <milestone unit="pages" n="325-326"/>
+                    <idno type="subject">http://syriaca.org/person/82</idno>
+                    <note type="type">person</note>
+                    <note type="abstract">
+                        <abbr>Bp.</abbr> and translator.<note>brief</note>
+                    </note>
+                </ab>
+                <ab type="infobox">(first half of 7th <abbr>cent.</abbr>) [<abbr>Syr. Orth.</abbr>]</ab>
+                <div type="body">
+                    <p>
+                        <abbr>Bp.</abbr> and translator. During the Persian invasion of Syria in the first decades
+                        of the 7th <abbr>cent.</abbr>, Pawlos found refuge in Egypt. In the <ref rend="bold" target="https://gedsh.bethmardutho.org/The-Enaton">
+                            <placeName ref="http://syriaca.org/place/473">Enaton</placeName>
+                        </ref> Monastery, near Alexandria, a team of scholars from Syria
+                        embarked on a major translation project. This included <ref rend="bold" target="https://gedsh.bethmardutho.org/Tumo-of-Harqel">
+                            <persName ref="http://syriaca.org/person/87">Tumo of
+                            Ḥarqel</persName>
+                        </ref>, whose name is connected with the <ref rend="bold" target="https://gedsh.bethmardutho.org/Harqlean-Version">Ḥarqlean</ref> version of the <abbr>NT</abbr>, and Pawlos of Tella who was
+                        responsible for the (probably first full) Syriac translation of the
+                        Septuagint (‘<ref rend="bold" target="https://gedsh.bethmardutho.org/Syro-Hexapla">Syro-Hexapla</ref>’). According to the subscriptions of the Syro-Hexapla,
+                        the work was carried out between 613 and 617 (for these dates, see W. Baars,
+                            <hi rend="italic">New Syro-Hexaplaric Texts</hi> [1968], 1).</p>
+                    <p>The possibility cannot be ruled out that Pawlos came to Egypt much earlier,
+                        but the evidence is rather thin. According to Honigmann, Pawlos was in the
+                        company of Tumo of Ḥarqel ‘and other bishops’ who in 599 were expelled from
+                        their sees during the persecution of Dometianus, the nephew of Emperor
+                        Maurice. Even though the name of Pawlos is not mentioned in the sources
+                        (<choice>
+                            <sic>e.g.</sic>
+                            <corr>e.g., </corr>
+                        </choice>
+                        <ref rend="bold" target="https://gedsh.bethmardutho.org/Michael-I-Rabo">
+                            <persName ref="http://syriaca.org/person/217">Michael Rabo</persName>
+                        </ref> X.25 = vol. 4, 391; <abbr>FT</abbr> 381), a <abbr>bp.</abbr>
+                        of Tella is mentioned among those who returned after the persecution (ibid.,
+                        vol. 4, 390; <abbr>FT</abbr> 380). If this anonymous <abbr>bp.</abbr> indeed would be Pawlos, he must
+                        have traveled back to Egypt a few years later for the second time.</p>
+                    <p>In addition to the Syro-Hexapla, Pawlos is mentioned as the translator of a
+                        baptismal order attributed to <ref rend="bold" target="https://gedsh.bethmardutho.org/Severus-of-Antioch">
+                            <persName ref="http://syriaca.org/person/51">Severus of
+                            Antioch</persName>
+                        </ref>, which is preserved in <abbr>mss.</abbr> Brit. Libr. Add. 14,495 (f.
+                        68v; Wright, <hi rend="italic">Catalogue</hi>, vol. I, 228) and 14,499 (f.
+                        65r; <hi rend="italic">Catalogue</hi>, vol. I, 229b–30a). An original Syriac
+                            <hi rend="italic">sedro</hi> composed by Pawlos exists in <abbr>ms.</abbr> Paris,
+                        Bibl. Nat. Syr. 75 (f. 134v; Zotenberg, <hi rend="italic">Catalogues</hi>,
+                        47a). The Syriac translation of the pericope John 7:50–8:12 (absent from the
+                            <ref rend="bold" target="https://gedsh.bethmardutho.org/Peshitta">Peshitta</ref> and Ḥarqlean), which is sometimes attributed to Pawlos of
+                        Tella, probably does not belong to him, but to <ref rend="bold" target="https://gedsh.bethmardutho.org/Pawla-of-Edessa">
+                            <persName ref="http://syriaca.org/person/84">Pawla of
+                            Edessa</persName>
+                        </ref>. Pawlos’s translation work, just as Tumo’s, is
+                        characterized by an attempt to imitate the morphology, syntax, and word
+                        order of the Greek original (in general, see <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Greek-Syriac-translations-from">Greek, Syriac translations from</ref>).</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>Barsoum, <title rend="italic">Scattered <choice>
+                                    <sic>Pearls</sic>
+                                    <corr>pearls</corr>
+                                </choice>
+                            </title>,
+                            313–5.</bibl>
+                        <bibl>Baumstark, <title rend="italic">Literatur</title>, 186–8 and 351
+                            (note).</bibl>
+                        <bibl>E.  Honigmann, ‘Two metropolitans, relatives of the Emperor Maurice:
+                            Dometianus of Melitene (about <choice>
+                                <sic>580 — January</sic>
+                                <corr>580 – January</corr>
+                            </choice> 12, 602) and Athenogenes of
+                            Petra’, in his <title rend="italic">Patristic Studies</title> (<abbr>SeT</abbr> 173;
+                            1953), 217–25, esp. 222–3.</bibl>
+                        <bibl>T. S.  Rørdam, ‘De regulis grammaticis, quas secutus est Paulus
+                            Tellensis in Veteri Testamento ex Graeco Syriace vertendo’, included in
+                            his <title rend="italic">Libri Judicum et Ruth secundum versionem
+                                Syriaco-Hexaplarem</title> (1859)<choice>
+                                <sic>,</sic>
+                                <corr>.</corr>
+                            </choice>
+                        </bibl>
+                        <bibl>A.  Vööbus, <title rend="italic">The Pentateuch in the version of the
+                                Syro-Hexapla</title> (<abbr>CSCO</abbr> 369; 1975), 7–10.</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Lucas</forename> 
+                  <surname>Van Rompay</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Shemʿon d-Ṭaybutheh</title>
+            <author>
+               <persName>
+                  <forename>Grigory</forename> 
+                  <surname>Kessel</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0">Electronic Edition Draft Version 1.0</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Shemʿon d-Ṭaybutheh</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Shemon-d-Taybutheh</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/511</idno>
+                    <idno type="entry">502</idno>
+                    <milestone unit="pages" n="375"/>
+                    <idno type="subject">http://syriaca.org/person/742</idno>
+                    <note type="type">person</note>
+                    <note type="abstract">Famous mystic.<note/>
+                    </note>
+                </ab>
+                <ab type="infobox">(late 7th <abbr>cent.</abbr>) [Ch. of E.]</ab>
+                <div type="body">
+                    <p>One of the bright representatives of E.-Syr. mysticism. Nothing is known of
+                        his life, except that he was a renowned physician at the time of <abbr>Cath.</abbr> 
+                  <ref rend="bold" target="https://gedsh.bethmardutho.org/Henanisho-I">
+                            <persName ref="http://syriaca.org/person/531">Ḥenanishoʿ I</persName>
+                        </ref> (685/6–692/3); he was also known as Luqa, while in
+                        the <abbr>ms.</abbr> tradition he is referred to as ‘a disciple of Rabban Shabur’ (middle
+                        of the 7th <abbr>cent.</abbr>), which implies either that he was his direct disciple or
+                        that he resided in the monastery of Rabban Shabur (modern southwest Iran).
+                            <ref rend="bold" target="https://gedsh.bethmardutho.org/Abdisho-bar-Brikha">
+                            <persName ref="http://syriaca.org/person/310">ʿAbdishoʿ bar
+                            Brikha</persName>
+                        </ref> attributes to him three books: on the monastic life; on
+                        medicine; and on the interpretation of the mysteries of the cell. Whereas
+                        the first and the third title seem to correspond to the extant ‘Book of
+                        Grace’ (attributed in the W.-Syr. <abbr>ms.</abbr> tradition to <ref rend="bold" target="https://gedsh.bethmardutho.org/Ishaq-of-Nineveh">
+                            <persName ref="http://syriaca.org/person/550">Isḥaq of
+                            Nineveh</persName>
+                        </ref>; for the list of <abbr>mss.</abbr>, see Vööbus) and the <hi rend="italic">memrā</hi> ‘On the consecration of the cell’ (<abbr>ms.</abbr> olim
+                        Alqosh, Notre-Dame des Semences; Vosté 237 and its later copies),
+                        respectively, his medical work is known only from the quotations in the
+                        Lexicon of <ref rend="bold" target="https://gedsh.bethmardutho.org/Bar-Bahlul-Hasan">
+                            <persName ref="http://syriaca.org/person/365">Bar
+                        Bahlul</persName>
+                        </ref>. ʿAbdishoʿ’s list is to be supplemented by a group of short
+                        fragments of unidentified provenance preserved in the aforementioned Alqosh
+                        <abbr>ms.</abbr> as well as by sentences of mystical content (<abbr>ms.</abbr> Sharfeh, Rahmani 80,
+                        and the lost <abbr>ms.</abbr> 
+                  <ref rend="bold" target="https://gedsh.bethmardutho.org/Siirt">
+                            <placeName ref="http://syriaca.org/place/188">Siirt</placeName>
+                        </ref> 109). Moreover,
+                            <ref rend="bold" target="https://gedsh.bethmardutho.org/Ishodnah">
+                            <persName ref="http://syriaca.org/person/556">Ishoʿdnaḥ</persName>
+                        </ref> attributes to him a life of Mar Gani, which seems to be
+                        lost. His mystical works were used both by E.-Syr. (<choice>
+                            <sic>e.g.</sic>
+                            <corr>e.g., </corr>
+                        </choice>
+                        <ref rend="bold" target="https://gedsh.bethmardutho.org/Yawsep-Hazzaya">
+                            <persName ref="http://syriaca.org/person/816">Yawsep
+                            Ḥazzaya</persName>
+                        </ref>) and W.-Syr. authors (<choice>
+                            <sic>e.g.</sic>
+                            <corr>e.g., </corr>
+                        </choice>
+                        <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Bar-Ebroyo-Grigorios">
+                            <persName ref="http://syriaca.org/person/239">Bar
+                            ʿEbroyo</persName>
+                        </ref>).</p>
+                    <p>The probable explanation of the name of Shemʿon d-Ṭaybutheh (lit. ‘of his
+                        grace’) is that it derives from the title of his book, viz. the ‘Book of
+                        Grace’. The history of scholarship on this text and its authenticity
+                        proceeded from the acceptance of the authorship of Isḥaq based predominantly
+                        on the data provided by <abbr>mss.</abbr> (Vööbus, Bunge) to the critical investigation
+                        of a wider scope which resulted in the plausibility of the attribution to
+                        Shemʿon with acknowledgment of strong influence of Isḥaq’s writings upon
+                        Shemʿon (Miller, Bettiolo). The comparative study of the ‘Book of Grace’ in
+                        the context of the extant works of Isḥaq and Shemʿon as well as of the
+                        interrelationship of the <abbr>ms.</abbr> tradition of their works still remains a
+                        desideratum.</p>
+                    <p>Although Shemʿon evidently draws on the authoritative writings of <ref rend="bold" target="https://gedsh.bethmardutho.org/Evagrius-of-Pontus">
+                            <persName ref="http://syriaca.org/person/483">Evagrius of Pontus</persName>
+                        </ref>, <ref rend="bold" target="https://gedsh.bethmardutho.org/Mark-the-Monk">
+                            <persName ref="http://syriaca.org/person/619">Mark the
+                        Monk</persName>
+                        </ref>, <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Dionysius-the-Areopagite-Pseudo-">Pseudo-Dionysius the Areopagite</ref>,
+                        Makarios, etc., it is not yet clear how he interpreted the tradition, while
+                        developing original doctrine with emphasis on the role of the divine grace
+                        in the life of the monk and special attention to the issue of
+                        interdependence between the body and the spiritual life.</p>
+                </div>
+                <div type="bibl">
+                    <listBibl>
+                        <listBibl>
+                            <head>Primary Sources</head>
+                            <bibl>A critical edition of the ‘Book of Grace’ as well as a study on
+                                the literary heritage of Shemʿon is in preparation by
+                                G. Kessel.</bibl>
+                            <bibl>P.  Bettiolo, <title rend="italic">Violenza e grazia. La coltura
+                                    del cuore, traduzione, introduzione e note</title> (Collana di
+                                testi patristici; 102; 1992). (<abbr>IT</abbr>)</bibl>
+                            <bibl>(D. Miller), <title rend="italic">The ascetical homilies of Saint
+                                    Isaac the Syrian, translated by the Holy Transfiguration
+                                    Monastery</title> (1984), 397–426. (selected <abbr>ET</abbr> of the ‘Book of
+                                Grace’).</bibl>
+                            <bibl>A.  Louf, ‘Syméon de Taibuteh. Discours sur la cellule’, <title rend="italic">Collectanea Cisterciensia</title> 64 (2002),
+                                34–55. (<abbr>FT</abbr>)</bibl>
+                            <bibl>A.  Mingana, <title rend="italic">Early christian mystics</title>
+                                (Woodbrooke Studies 7; 1934), 1–69 (<abbr>ET</abbr> of short fragments), 281–320
+                                (Syr.).</bibl>
+                        </listBibl>
+                        <listBibl>
+                            <head>Secondary Sources</head>
+                            <bibl>P.  Bettiolo, ‘Povertà e conoscenza. Appunti sulle Centurie
+                                gnostiche della tradizione evagriana in Siria’, <title rend="italic">
+                                    <abbr>ParOr</abbr>
+                                </title> 15 (1988–1989), 107–25.</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>P.  Bettiolo</reg>
+                           <orig>idem</orig>
+                        </choice>, ‘Consiglio dei padri e visita dello spirito. La
+                                testimonianza di alcuni monaci siro-orientali tra VII e VIII
+                                secolo’, in <title rend="italic">Maestro e discepolo. Temi e
+                                    problemi della direzione spirituale tra VI secolo a. C. e VII
+                                    secolo d. C.</title>, <abbr>ed.</abbr> G.  Filoramo (2002), 331–43.</bibl>
+                            <bibl>G.  Bunge, ‘Mar Isaak von Nineveh und sein “Buch der Gnade”’,
+                                    <title rend="italic">
+                                    <abbr>OKS</abbr>
+                                </title> 34 (1985), 3–22.</bibl>
+                            <bibl>G.  Kessel, ‘The activity of grace in the “Book of Grace.” Some
+                                preliminary observations’, in <title rend="italic">Christliche
+                                    Gotteslehre im Orient seit dem Aufkommen des Islams bis zur
+                                    Gegenwart</title>, <abbr>ed.</abbr> M. Tamcke (<abbr>BTS</abbr> 126; 2008), 57–68.</bibl>
+                            <bibl>A.  Vööbus, ‘Eine neue Schrift von Isḥaq von Ninive’, <title rend="italic">
+                                    <abbr>OKS</abbr> 
+                        </title>21 (1972), 309–12.</bibl>
+                        </listBibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Grigory</forename> 
+                  <surname>Kessel</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

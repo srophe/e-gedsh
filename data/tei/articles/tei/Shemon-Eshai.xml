@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Shemʿon, Eshai</title>
+            <author>
+               <persName>
+                  <forename>James F.</forename> 
+                  <surname>Coakley</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0">Electronic Edition Draft Version 1.0</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Shemʿon, Eshai</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Shemon-Eshai</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/507</idno>
+                    <idno type="entry">498</idno>
+                    <milestone unit="pages" n="372-373"/>
+                    <idno type="althead" subtype="altorder">Eshai Shemʿon</idno>
+                    <idno type="subject">http://syriaca.org/person/739</idno>
+                    <note type="type">person</note>
+                    <note type="abstract">
+                        <abbr>Patr.</abbr> who came to the United States and favored a ‘temporal power’ of the patriarch.
+                    </note>
+                </ab>
+                <ab type="infobox">(1909–75) [Ch. of E.]</ab>
+                <div type="body">
+                    <p>
+                        <abbr>Patr.</abbr> Eshai was consecrated as a boy of eleven after the death of his uncle
+                        Mar Shemʿon Pawlos. The consecration took place on 20 June 1920 at the
+                        Baʿqūba refugee camp near <ref rend="bold" target="https://gedsh.bethmardutho.org/Baghdad">
+                            <placeName ref="http://syriaca.org/place/41">Baghdad</placeName>
+                        </ref>. (In recent
+                        Church sources his birthday is usually given as 26 Feb. 1908, making him
+                        twelve at the time of his consecration.) After some schooling in England
+                        (1924–7) Mar Shemʿon returned to <ref rend="bold" target="https://gedsh.bethmardutho.org/Mosul">
+                            <placeName ref="http://syriaca.org/place/139">Mosul</placeName>
+                        </ref> and assumed the
+                        role of the <abbr>
+                            <choice>
+                                <sic>Patr.</sic>
+                                <corr>patr.</corr>
+                            </choice>
+                        </abbr> as civil head of his people. He demanded that the League
+                        of Nations make special arrangements for the <ref rend="bold" target="https://gedsh.bethmardutho.org/Assyrians">Assyrians</ref> after
+                        the end of the British Mandate in Iraq in 1932, but this demand failed, and
+                        after confrontation with the new government he was deported with his family
+                        to Cyprus in 1933. In 1940 he went to the USA, settling first in <ref rend="bold" target="https://gedsh.bethmardutho.org/Chicago">
+                            <placeName ref="http://syriaca.org/place/471">Chicago</placeName>
+                        </ref>
+                        and later (1954) in San Francisco. In 1948 he at last let go of the idea of
+                        the ‘temporal power’ of the <abbr>
+                            <choice>
+                                <sic>Patr.</sic>
+                                <corr>patr.</corr>
+                            </choice>
+                        </abbr> and began a policy of rebuilding the
+                        church in all the countries where its members were now dispersed. In 1964 he
+                        and Metropolitan Mar Yosip Ḥenanishoʿ issued a ‘synodical letter’ dictating,
+                        among other reforms, the adoption of the Gregorian calendar. This was
+                        resented especially by some in Iraq, and in 1968 a schism ensued under Mar
+                            <ref rend="bold" target="https://gedsh.bethmardutho.org/Darmo-Toma">
+                            <persName ref="http://syriaca.org/person/441">Toma
+                            Darmo</persName>
+                        </ref>. In 1973 Mar Shemʿon married, an action which, though not
+                        strictly uncanonical, threw the church into confusion. Before his status
+                        could be settled, he was murdered in Nov. 1975 by a disaffected nationalist.
+                        Eshai (Mar Shemʿon XXIII; but XXI in sources before 1940) was the last of
+                        the hereditary patriarchs of the <abbr>Ch. of E.</abbr>
+                    </p>
+                </div>
+                <div type="bibl">
+                    <listBibl>
+                        <listBibl>
+                            <head>Select Writings and Speeches of Mar Shemʿon</head>
+                            <bibl>
+                                <title rend="italic">Assyrian Church Trumpet</title> (Trichur) 1: 3–4
+                                (1952). (broadcast on the occasion of the consecration of Mar Thoma
+                                Darmo)</bibl>
+                            <bibl>‘Assyrians in the Middle East’, <title rend="italic">Journal of
+                                    the Royal Central Asian Society</title> 40 (1953),
+                                151–60.</bibl>
+                            <bibl>Synodical letter of 1964 in <title rend="italic">
+                                    <abbr>POC</abbr>
+                                </title> 14
+                                (1964), 234–8.</bibl>
+                            <bibl>Introduction to <title rend="italic">The book of Marganitha ... by
+                                    Mar Odisho Metropolitan</title> (Trichur, India 1965).</bibl>
+                            <bibl>Sermon on the occasion of the consecration of Mar Narsai de Baz as
+                                bishop of Lebanon in <title rend="italic">
+                                    <abbr>POC</abbr>
+                                </title> 18 (1968),
+                                341–52.</bibl>
+                        </listBibl>
+                        <listBibl>
+                            <head>Secondary Sources</head>
+                            <bibl>
+                                <title rend="italic">Light from the East</title> (magazine of the
+                                Patriarchal Church Council, Chicago), 1–7 (1949–54).</bibl>
+                            <bibl>J. F.  Coakley, ‘The Church of the East since 1914’, <title rend="italic">
+                                    <abbr>BJRL</abbr> 
+                        </title>78 (1996), 181–2, 185–95.</bibl>
+                            <bibl>Website of the Mar Shimun Memorial Foundation: <ref type="url" target="http://marshimun.com/mar-eshai-2">
+                                    <choice>
+                                        <sic>http://www.marshimun.com/Eshai.shtml</sic>
+                                        <corr>http://marshimun.com/mar-eshai-2</corr>
+                                    </choice>.</ref>
+                            </bibl>
+                        </listBibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>James F.</forename> 
+                  <surname>Coakley</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

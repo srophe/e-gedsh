@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Julian Romance</title>
+            <author>
+               <persName>
+                  <forename>Aaron M.</forename> 
+                  <surname>Butts</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0">Electronic Edition Draft Version 1.0</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Julian Romance</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Julian-Romance</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/320</idno>
+                    <idno type="entry">311</idno>
+                    <milestone unit="pages" n="236-238"/>
+                    <note type="type">work</note>
+                    <note type="abstract">The so-called Julian Romance is a Syriac polemical work
+                        against the Roman emperor Julian.<note/>
+                    </note>
+                </ab>
+                <div type="body">
+                    <p>The so-called Julian Romance is a Syriac polemical work against the Roman
+                        emperor Julian. The principal witness to this text is <abbr>ms.</abbr> London, Brit.
+                        Libr. Add. 14,641, which can be dated paleographically to the 6th <abbr>cent.</abbr>
+                        (with the exception of 23 folios that are from the 10th–12th  cent.).
+                        Approximately twelve folios are missing from the beginning of this <abbr>ms.</abbr> The
+                        initial section of the narrative is, however, partially preserved as the
+                        lower writing in the palimpsest <abbr>ms.</abbr> Paris, Bibl. Nat. Syr. 378. An abridged
+                        Arabic translation is also found in <abbr>ms.</abbr> Arabic 516 at the <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Catherine-Monastery-of-St">
+                            <placeName ref="http://syriaca.org/place/368">Monastery of St. Catherine</placeName>
+                        </ref> with two additional leaves in the
+                        Mingana collection. In 1880, Hoffmann published the Syriac text of the
+                        Julian Romance according to the British Library <abbr>ms.</abbr> Excerpts were also
+                        published by Bedjan (independent of Hoffmann) and Gottheil (dependent on
+                        Hoffmann). The only complete translation of the text is the rather
+                        infelicitous one by Gollancz into English, of which an abridgment into
+                        French was made by Richer.</p>
+                    <p>The Julian Romance consists of three parts. The first, which is incomplete,
+                        recounts Julian’s accession to the throne after Constantine and the
+                        resulting persecution of the Christians. The second is a narrative about
+                        Eusebius, the <abbr>bp.</abbr> of Rome, who facing persecution opposed Julian. The third
+                        and longest section is framed as a letter by Aploris to Abdil that describes
+                        the reign of Jovian (Syriac <hi rend="italic">ywbnynws</hi> ‘Jovinian’). In
+                        1874, Nöldeke argued that all three parts of the Julian Romance were
+                        composed by the same unknown author. He also contended that the Romance was
+                        an original Syriac composition written in <ref rend="bold" target="https://gedsh.bethmardutho.org/Edessa">
+                            <placeName ref="http://syriaca.org/place/78">Edessa</placeName>
+                        </ref> between
+                        502<choice>
+                            <sic>–</sic>
+                            <corr> and </corr>
+                        </choice>532. Nöldeke’s position was adopted in the standard handbooks, such as
+                        Baumstark’s <hi rend="italic">Geschichte der syrischen Literatur</hi> and
+                        Ortiz de Urbina’s <hi rend="italic">Patrologia Syriaca</hi>, and continues
+                        to be favored by some scholars today, such as Papoutsakis. There are,
+                        however, several other views. Van Esbroeck proposed that the Romance was
+                        originally written in Greek sometime after 363 and was then translated into
+                        Syriac at the beginning of the 6th <abbr>cent.</abbr> H. J. W. Drijvers, on the other
+                        hand, argued that the Romance is a propaganda tract originally written in
+                        Syriac in Edessa shortly after 379. Finally, both Brock and Contini have
+                        more recently suggested that the Romance was written in Edessa, but in the
+                        5th <abbr>cent.</abbr>, not the 6th.</p>
+                    <p>The Julian Romance draws significantly on the ideas and phraseology of <ref rend="bold" target="https://gedsh.bethmardutho.org/Ephrem">
+                            <persName ref="http://syriaca.org/person/13">Ephrem</persName>
+                        </ref>
+                        and also shares stylistic similarities with the writings of <ref rend="bold" target="https://gedsh.bethmardutho.org/Yaqub-of-Serugh">
+                            <persName ref="http://syriaca.org/person/42">Yaʿqub of
+                            Serugh</persName>
+                        </ref>. Despite the fact that it is primarily known from a single
+                        Syriac <abbr>ms.</abbr>, it has influenced a number of later writings. In the Syriac
+                        tradition, for instance, the Romance was a source for apocalyptic
+                        literature, such as the <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Methodius-Apocalypse-of-Pseudo-">Apocalypse of
+                            Pseudo-Methodius</ref>. Furthermore, the Julian Romance in its Arabic
+                        manifestation informed accounts of Julian by Arabic historians, such as
+                        al-Ṭabarī. It also exerted some influence on both Greek and Georgian
+                        literature.</p>
+                    <p>Finally, mention should be made of a ‘second’ Julian Romance that is
+                        preserved in <abbr>ms.</abbr> London, Brit. Libr. <choice>
+                            <sic>Rich</sic>
+                            <corr>Rich.</corr>
+                        </choice> Add. 7192, which can be dated
+                        paleographically to the 7th or 8th <abbr>cent.</abbr> This text was also published by
+                        Hoffmann (1880, 242–50) and was translated into German by Nöldeke (1874,
+                        660–74) and into English by Gollancz (1928, 256–64), the latter of which was
+                        abridged by Richer (1978, 263–8). This ‘second’ Julian Romance, which is
+                        much shorter than the ‘first’, describes the apostasy of Julian and his
+                        magic practices. Based on stylistic differences with the ‘first’ Julian
+                        Romance, Nöldeke argued that the ‘second’ Julian Romance was most likely
+                        written by a different author later in the 6th <abbr>cent.</abbr> More recently, Muraviev
+                        has argued that it is actually part of the original Julian Romance belonging
+                        to the missing initial section.</p>
+                </div>
+                <div type="bibl">
+                    <listBibl>
+                        <listBibl>
+                            <head>Primary Sources</head>
+                            <bibl>P. Bedjan, <title rend="italic">Acta Martyrum et Sanctorum</title>
+                                (1890–97), vol. 6, 218–297. (Syr.)</bibl>
+                            <bibl>S. P. Brock and A. Muraviev, ‘The fragments of the Syriac Julian
+                                Romance from the manuscript <title rend="italic">Paris Syr
+                                    378</title>’, <title rend="italic">Khristianskij Vostok</title>
+                                2 (2001), 14–34. (Syr. with <abbr>ET</abbr>)</bibl>
+                            <bibl>H.  Gollancz, <title rend="italic">Julian the Apostate. Now
+                                    translated for the first time from the Syriac original</title>
+                                (1928). (<abbr>ET</abbr>)</bibl>
+                            <bibl>R. J. H. Gottheil, <title rend="italic">A Selection from the
+                                    Syriac Julian Romance</title> (1906). (Syr.)</bibl>
+                            <bibl>J. G. E.  Hoffmann, <title rend="italic">Iulianos der Abtruennige.
+                                    Syrische Erzaehlungen</title> (1880). (Syr.)</bibl>
+                            <bibl>Th. Nöldeke, ‘Ein zweiter syrischer Julianusroman’, <title rend="italic">
+                                    <abbr>ZDMG</abbr>
+                                </title> 28 (1874), 660–74. (incl. <abbr>GT</abbr>)</bibl>
+                            <bibl>J. Richer, ‘Les romans syriaques des sixième et septième siècles’,
+                                in <title rend="italic">L’Empereur Julien. De l’histoire à la
+                                    légende (331–1715)</title>, <abbr>ed.</abbr> R. Braun and J. Richer (1978),
+                                233–68. (<abbr>FT</abbr>)</bibl>
+                        </listBibl>
+                        <listBibl>
+                            <head>Secondary Sources</head>
+                            <bibl>U.  Ben-Horin, ‘An Unknown Old Arabic Translation of the Syriac
+                                Romance of Julian the Apostate’, <title rend="italic">Studia
+                                    Hierosolymitana</title> 9 (1961), 1–10.</bibl>
+                            <bibl>R. Contini, ‘Giuliano Imperatore nella tradizione siriaca’, in
+                                    <title rend="italic">Da Constantino a Teodosio il Grande.
+                                    Cultura, società, diritto</title>, <abbr>ed.</abbr>
+                                <title rend="italic"/> U. Criscuolo (2003), 119–45, esp. 131–39.</bibl>
+                            <bibl>H. J. W. Drijvers, ‘The Syriac Romance of Julian: Its function,
+                                place of origin and original language’, in <abbr>
+                                    <title rend="italic">SymSyr</title> VI</abbr>, 201–14.</bibl>
+                            <bibl>J. W.  Drijvers, ‘The Syriac Julian Romance. Aspects of the
+                                Jewish-Christian Controversy in Late Antiquity’, in <title rend="italic">All those Nations … Cultural Encounters within and
+                                    with the Near East</title>, <abbr>ed.</abbr> H. L. J. Vanstiphout (1999),
+                                31–42.</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>J. W.  Drijvers</reg>
+                           <orig>idem</orig>
+                        </choice>, ‘Julian the Apostate and the City of Rome: Pagan-Christian
+                                Polemics in the Syriac <title rend="italic">Julian Romance</title>’,
+                                in <title rend="italic">Syriac Polemics. Studies in honour of G. J.
+                                    Reinink</title>, <abbr>ed.</abbr> W. J. van Bekkum <abbr>et al.</abbr> (<abbr>OLA</abbr> 170; 2007),
+                                1–20.</bibl>
+                            <bibl>A.  Muraviev, ‘The Syriac Julian Romance and its place in literary
+                                history’, <title rend="italic">Khristianskij Vostok</title> 1 (1999),
+                                194–206.</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>A.  Muraviev</reg>
+                           <orig>idem</orig>
+                        </choice>, ‘Les noms propres dans les résumés arabes du « Roman »
+                                syriaque sur Julien l’Apostat’, <title rend="italic">
+                                    <abbr>ParOr</abbr>
+                                </title> 24
+                                (1999), 359–65.</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>A.  Muraviev</reg>
+                           <orig>idem</orig>
+                        </choice>, ‘The Syriac Julian Romance as a source of the Life of St.
+                                Basil the Great’, in <title rend="italic">
+                                    <abbr>StPatr</abbr>
+                                </title>, vol. 37,
+                                <abbr>ed.</abbr> M. F. Wiles and E. J. Yarnold (2001), 240–49.</bibl>
+                            <bibl>Th. Nöldeke, ‘Ueber den syrischen Roman von Kaiser Julian’, <title rend="italic">
+                                    <abbr>ZDMG</abbr>
+                                </title> 28 (1874), 263–92.</bibl>
+                            <bibl>M. Papoutsakis, ‘The Making of a Syriac Fable: From Ephrem to
+                                Romanos’, <title rend="italic">
+                                    <abbr>LM</abbr>
+                                </title> 120 (2007), 29–75.</bibl>
+                            <bibl>G. J.  Reinink, ‘The Romance of Julian the Apostate as a source
+                                for seventh century Syriac Apocalypses’, in <title rend="italic">La
+                                    Syrie de Byzance à l’Islam</title>, <abbr>ed.</abbr> P.  Canivet and
+                                J.-P.  Rey-Coquais (1992), 75–86. (<abbr>repr.</abbr> in G. J.  Reinink, <title rend="italic">Syriac Christianity under Late Sasanian and Early
+                                    Islamic Rule </title>[2005], no. XI)</bibl>
+                            <bibl>M. van Esbroeck, ‘Le soi-disant roman de Julien l’Apostat’, in
+                                    <abbr>
+                                    <title rend="italic">SymSyr</title> IV</abbr>, 191–202.</bibl>
+                        </listBibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Aaron M.</forename> 
+                  <surname>Butts</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

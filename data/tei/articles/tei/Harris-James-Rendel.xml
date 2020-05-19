@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Harris, James Rendel</title>
+            <author>
+               <persName>
+                  <forename>Naomi</forename> 
+                  <surname>Koltun-Fromm</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0">Electronic Edition Draft Version 1.0</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Harris, James Rendel</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Harris-James-Rendel</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/260</idno>
+                    <idno type="entry">251</idno>
+                    <milestone unit="pages" n="192-193"/>
+                    <idno type="althead" subtype="altorder">James Rendel Harris</idno>
+                    <idno type="subject">http://syriaca.org/person/527</idno>
+                    <note type="type">person</note>
+                    <note type="abstract">British New Testmient scholar, Syriac scholar, textual
+                        critic, and paleographer, who was instrumental in creating the modern field
+                        of Syriac Studies.<note/>
+                    </note>
+                </ab>
+                <ab type="infobox">(1852–1941)</ab>
+                <div type="body">
+                    <p>British New Testament scholar, Syriac scholar, textual critic, and
+                        paleographer, who was instrumental in creating the modern field of Syriac
+                        Studies. Although he started his academic career at Cambridge as a
+                        mathematician, he soon discovered a <choice>
+                            <sic>life long</sic>
+                            <corr>lifelong</corr>
+                        </choice> interest in Christian origins
+                        and New Testament studies that eventually led to an appointment in
+                        paleography at Cambridge (UK), as well as positions in Biblical Languages
+                        and Ecclesiastical History at Haverford College (USA), New Testament at
+                        Johns Hopkins (USA), and as curator of <abbr>mss.</abbr> at the John Rylands Library in
+                        Manchester (UK). Before and after his time in Manchester, Rendel Harris
+                        served as director of the Woodbrooke Institute, Birmingham (UK), where he
+                        was able to combine his love for ancient textual studies and Quaker
+                        spirituality.</p>
+                    <p>Rendel Harris was an independent thinker and was often considered
+                        idiosyncratic in his scholarship. He did not allow prevailing trends in
+                        Early Christian Studies to necessarily guide his own research. For instance,
+                        he was a very early advocate of understanding the beginnings of Christianity
+                        to descend both from Second Temple and post-70 CE Judaism(s), all the while
+                        pursuing the ways and means that these early Christian writers then
+                        separated themselves from those same forms of Judaism. He willingly pursued
+                        the social history behind the variant textual traditions he studied.</p>
+                    <p>Rendel Harris’s abiding interest in collecting, editing and decoding ancient
+                        Christian manuscripts, Greek and Latin as well as Coptic, Syriac, Armenian,
+                        and Persian, led him on travels all over the Middle East including extensive
+                        stays in the libraries of the <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Catherine-Monastery-of-St">
+                            <placeName ref="http://syriaca.org/place/368">Monastery of St.
+                            Catherine</placeName>
+                        </ref> at Mt. Sinai, and the Library of the Church of the Holy
+                        Sepulcher in <ref rend="bold" target="https://gedsh.bethmardutho.org/Jerusalem">
+                            <placeName ref="http://syriaca.org/place/104">Jerusalem</placeName>
+                        </ref>. On one
+                        trip (1888–89), while on leave from Haverford College, he collected,
+                        imported, and then donated to that college several dozen manuscripts. Over
+                        the years he traveled, collected, and donated or sold many more manuscripts
+                        to the John Rylands Library as well as to Harvard and Birmingham (Mingana
+                        collection). Harris is probably most noted, among Syriac scholars, for his
+                        publication of the Syriac <ref rend="bold" target="https://gedsh.bethmardutho.org/Solomon-Odes-of">Odes of
+                            Solomon</ref>, which he discovered among some <abbr>mss.</abbr> from Mesopotamia (and
+                        subsequently republished, with a more extensive commentary and new
+                        translation, in collaboration with <ref rend="bold" target="https://gedsh.bethmardutho.org/Mingana-Alphonse">
+                            <persName ref="http://syriaca.org/person/639">A.
+                        Mingana</persName>
+                        </ref>). Among his other important work for Syriac studies was the
+                        collaborative work he conducted at St. Catherine’s Monastery on the Sinaitic
+                        Syriac palimpsest, which the independent scholarly sisters, Agnes S. Lewis
+                        and Margaret D. Gibson (see <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Smith-Agnes-and-Margaret">
+                            <persName ref="http://syriaca.org/person/751&#xA;                        http://syriaca.org/person/752">Smith,
+                            A. and M.</persName>
+                        </ref>), discovered there. Together with R. L. Bensly and <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Burkitt-Francis-Crawford">
+                            <persName ref="http://syriaca.org/person/405">F. C. Burkitt</persName>
+                        </ref>, Rendel Harris, Lewis and Gibson,
+                        transcribed, collated, annotated, and eventually published this earliest
+                        extant Syriac New Testament <abbr>ms.</abbr> It was also at St Catherine’s that he
+                        discovered the Syriac translation of the Apology of <ref rend="bold" target="https://gedsh.bethmardutho.org/Aristides-of-Athens">
+                            <persName ref="http://syriaca.org/person/341">Aristides</persName>
+                        </ref>, lost in Greek<choice>
+                            <sic/>
+                            <corr>.</corr>
+                        </choice>
+                    </p>
+                </div>
+                <div type="bibl">
+                    <listBibl>
+                        <listBibl>
+                            <head>Select publications by Harris</head>
+                            <bibl>
+                                <title rend="italic">The Apology of Aristides on behalf of the
+                                    Christians. From a Syriac manuscript preserved on Mount
+                                    Sinai</title> (1891).</bibl>
+                            <bibl>‘Introductions’ in M. D. Gibson, <title rend="italic">The
+                                    Commentaries of Ishoʿdad of Merv, Bishop of Ḥadatha (c. 850
+                                    A.D.) in Syriac and English</title> (5 vols.; Horae Semiticae 5–7
+                                and 10–11; 1911–16; <abbr>repr.</abbr> 2005).</bibl>
+                            <bibl>(with F. C. Burkitt and R. L. Bensly), <title rend="italic">The
+                                    Four Gospels in Syriac transcribed from the Sinaitic
+                                    palimpsest</title> (1894).</bibl>
+                            <bibl>
+                                <title rend="italic">The Odes and Psalms of Solomon. Now first
+                                    published from the Syriac version</title> (1909).</bibl>
+                            <bibl>(with A. Mingana), <title rend="italic">The Odes and Psalms of
+                                    Solomon</title> (2 vols.; 1916, 1920).</bibl>
+                        </listBibl>
+                        <listBibl>
+                            <head>Secondary Sources</head>
+                            <bibl>J. F.  Coakley, ‘A Catalogue of the Syriac manuscripts in the John
+                                Rylands Library’, <title rend="italic">
+                                    <abbr>BJRL</abbr>
+                                </title> 75 (1993),
+                                105–207, esp. 106–15.</bibl>
+                            <bibl>A.  Falcetta (<abbr>ed.</abbr>), <title rend="italic">J. R.  Harris. New
+                                    Testament autographs and other essays</title> (New Testament
+                                Monographs 7; 2006).</bibl>
+                            <bibl>M. H.  Goshen-Gottstein, <title rend="italic">Syriac manuscripts
+                                    in the Harvard College Library. A catalogue</title> (1979), esp.
+                                16–9.</bibl>
+                            <bibl>K.  Haines-Eitzen, ‘Ancient Judaism imagined through the lens of
+                                early Christianity: The work of James Rendel Harris, 1852–1941’, in
+                                    <title rend="italic">Jews, Antiquity and the nineteenth-century
+                                    imagination</title>, <abbr>ed.</abbr> H. Lapin and D. B. Martin (Studies and
+                                texts in Jewish history and culture 12; 2003), 109–124.</bibl>
+                        </listBibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Naomi</forename> 
+                  <surname>Koltun-Fromm</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Addai, Teaching of</title>
+            <author>
+               <persName>
+                  <forename>Timothy Scott</forename> 
+                  <surname>Wardle</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0">Electronic Edition Draft Version 1.0</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Addai, Teaching of</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Addai-Teaching-of</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/28</idno>
+                    <idno type="entry">19</idno>
+                    <milestone unit="pages" n="9-10"/>
+                    <idno type="althead" subtype="altorder">Teaching of Addai</idno>
+                    <note type="type">work</note>
+                    <note type="abstract">Syriac writing containing the legendary correspondence
+                        between Jesus and King Abgar of <placeName ref="http://syriaca.org/place/78">Edessa</placeName>.<note/>
+                    </note>
+                </ab>
+                <ab type="infobox">(<abbr>ca.</abbr> 420)</ab>
+                <div type="body">
+                    <p>Syriac writing containing the legendary correspondence between Jesus and King
+                        Abgar of <ref rend="bold" target="https://gedsh.bethmardutho.org/Edessa">
+                            <placeName ref="http://syriaca.org/place/78">Edessa</placeName>
+                        </ref>, the report of the apostle Addai’s mission to Edessa and
+                        of the city’s christianization, and the story of the finding of the Cross by
+                        Protonike, the wife of emperor Claudius. Towards the end, the text claims to
+                        have been written by Labubna, the king’s scribe, and to have been deposited
+                        in the royal archives at Edessa.</p>
+                    <p>An earlier and shorter version of part of this story exists in the first book
+                        (I,13) of the Greek Ecclesiastical History of <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Eusebius-of-Caesarea">
+                            <persName ref="http://syriaca.org/person/480">Eusebius of
+                            Caesarea</persName>
+                        </ref> (written in the late 3rd and early 4th <abbr>cent.</abbr>), who
+                        mentions a Syriac document from the archives of Edessa as his source. In
+                        Eusebius’s text Addai is known by the name Thaddaios (Thaddeus), and some of
+                        the details of the later story, such as the portrait of Jesus, are missing.
+                        Eusebius’s account ends after Abgar is healed and Thaddaios is asked to
+                        speak to the people of Edessa, a prelude to the city’s conversion. The
+                        Ecclesiastical History was translated into Syriac around 400. The exact
+                        relationship between Eusebius’s text and the early 5th-cent. Teaching remains somewhat unclear, and several
+                        expansions of the Teaching obviously belong to the
+                        4th and 5th <abbr>cent.</abbr>
+                    </p>
+                    <p>Eusebius’s claim of a written source appears plausible, which implies that
+                        the kernel of the story was composed, at the latest, towards the end of the
+                        3rd <abbr>cent.</abbr> What is remarkable, however, is the paucity of outside
+                        corroboration for this story. In the approximately 100 years between
+                        Eusebius’s work and the Teaching, no mention is made of this story in Syriac
+                        sources. The complete silence of <ref rend="bold" target="https://gedsh.bethmardutho.org/Ephrem">
+                            <persName ref="http://syriaca.org/person/13">Ephrem</persName>
+                        </ref>, who spent
+                        the last ten years of his life in Edessa, as well as of the <ref rend="bold" target="https://gedsh.bethmardutho.org/Chronicle-of-Edessa">Chronicle of
+                            Edessa</ref>, a mid-6th-cent. composition that includes important
+                        information on 4th-cent. Edessa, is particularly striking. The earliest
+                        affirmation of the story is by Egeria, who mentions it in her Latin
+                        travelogue (383–84). It is only after the 
+                        Teaching begins to circulate that Syriac sources begin to reference the
+                        story.</p>
+                    <p>The origins of the story are difficult to discern. The most plausible theory
+                        takes into account the heterogeneous nature of the earliest Christianity in
+                        Edessa. In the 2nd and 3rd <abbr>cent.</abbr> Edessa was home to many competing groups,
+                        as the followers of <ref rend="bold" target="https://gedsh.bethmardutho.org/Marcion">
+                            <persName ref="http://syriaca.org/person/616">Marcion</persName>
+                        </ref>, <ref rend="bold" target="https://gedsh.bethmardutho.org/Bardaisan">
+                            <persName ref="http://syriaca.org/person/3">Bardaiṣan</persName>
+                        </ref>, <ref rend="bold" target="https://gedsh.bethmardutho.org/Mani">
+                            <persName ref="http://syriaca.org/person/608">Mani</persName>
+                        </ref>, a
+                        ‘proto-orthodox’ group, and others all vied for authority. The story most
+                        likely originated inside one of these groups fighting for both supremacy and
+                        authenticity. Whatever is the case, the group that later became dominant and
+                        represented orthodox Christianity perpetuated the story in order to
+                        substantiate its claim as the true faith.</p>
+                    <p>The story’s popularity reveals its importance for later Syriac Christianity.
+                        Accordingly, Syriac Christianity could trace its roots all the way back to
+                        the apostles and to Jesus himself. Also significant is the connection that
+                        the story establishes between Edessa, <ref rend="bold" target="https://gedsh.bethmardutho.org/Antioch">
+                            <placeName ref="http://syriaca.org/place/10">Antioch</placeName>
+                        </ref>, and Rome,
+                        thus linking the nascent Edessene church to Christianity in the Roman
+                        Empire.</p>
+                    <p>An interesting subplot surrounds the portrait of Christ in the Teaching. While this portrait does not occur in
+                        Eusebius, and is only briefly mentioned in the <choice>
+                            <sic>
+                                <hi rend="italic">Teaching</hi>
+                            </sic>
+                            <corr>Teaching</corr>
+                        </choice> as a portrait painted by Ḥannan, the tabularius, it later
+                        became famous in Byzantine Christianity. From the late 6th <abbr>cent.</abbr> onwards,
+                        the portrait was said to have been ‘made not by human hands’. In 944, the
+                        portrait was taken to Constantinople and became an icon of great importance.
+                        There is no trace of it after the sack of Constantinople by the Crusaders in
+                        1204.</p>
+                    <p>The full Syriac text of the Teaching is preserved in one early <abbr>ms.</abbr>, which was
+                        written probably in Edessa around 500 (nowadays in the library of St.
+                        Petersburg), while extracts exist in a few other <abbr>mss.</abbr> In the 5th <abbr>cent.</abbr>, the
+                        Syriac text was translated into Armenian; in the ensuing centuries the
+                        legend became fully part of Armenian historiography. There are also
+                        translations into Arabic. From Arabic it found its way into Ethiopic, where
+                        it enjoyed great popularity.</p>
+                    <p>See <ref target="https://gedsh.bethmardutho.org/fig/2">Fig. 2</ref>.</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>S. P. Brock, ‘Eusebius and Syriac Christianity’, <choice>
+                                <sic/>
+                                <corr>in</corr>
+                            </choice> 
+                     <title rend="italic"> Eusebius, Christianity, and Judaism</title>, <abbr>ed.</abbr> H. W.
+                            Attridge and G. Hata (1992), 212–34.</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>S. P. Brock</reg>
+                        <orig>idem</orig>
+                     </choice>, ‘Transformations of the Edessa portrait of Christ’, <title rend="italic">
+                                <abbr>JAAS</abbr>
+                            </title> 18 (2004), 46–56.</bibl>
+                        <bibl>A. Desreumaux, <title rend="italic">Histoire du roi Abgar et de
+                                Jésus</title> (1993).</bibl>
+                        <bibl>H. J. W. Drijvers, ‘The Image of Edessa in the Syriac Tradition’, in
+                                <title rend="italic">The Holy Face and the Paradox of
+                                Representation</title>, <abbr>ed.</abbr> H. L. Kessler and G. Wolf (Villa Spelman
+                            Colloquia 6; 1998), 13–31.</bibl>
+                        <bibl>S. H. Griffith, ‘The Doctrina Addai as a paradigm of Christian thought
+                            in Edessa in the fifth century’, <title rend="italic">
+                                <abbr>Hugoye</abbr>
+                            </title> 6.2
+                            (2003).</bibl>
+                        <bibl>G. Howard, <title rend="italic">The Teaching of Addai</title>
+                            (1981). <choice>
+                                <sic/>
+                                <corr>(Syr. with ET)</corr>
+                            </choice>
+                        </bibl>
+                              
+                        <bibl>M. Illert, <title rend="italic">Doctrina Addai<choice>
+                                    <sic/>
+                                    <corr>,</corr>
+                                </choice> de <choice>
+                                    <sic>Imagine</sic>
+                                    <corr>imagine</corr>
+                                </choice>
+                                Edessena</title> (2007). (<abbr>GT</abbr>)</bibl>
+                        <bibl>E. N. Meshcherskaya<title rend="italic">, Legenda ob Avgare</title>
+                            (1984). (includes a facsimile edition of the St. Petersburg <abbr>ms.</abbr>)</bibl>
+                        <bibl>G. Phillips, <title rend="italic">The Doctrine of Addai, the
+                            apostle</title> (1876). <choice>
+                                <sic/>
+                                <corr>(Syr. with ET)</corr>
+                            </choice>
+                        </bibl>
+                        <bibl>I. Ramelli, ‘Possible historical traces in the Doctrina Addai’, <title rend="italic">
+                                <abbr>Hugoye</abbr>
+                            </title> 9.1 (2006).</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Timothy Scott</forename> 
+                  <surname>Wardle</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Computing, Syriac</title>
+            <author>
+               <persName>
+                  <forename>George A.</forename> 
+                  <surname>Kiraz</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0">Electronic Edition Draft Version 1.0</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Computing, Syriac</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Computing-Syriac</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/147</idno>
+                    <idno type="entry">138</idno>
+                    <milestone unit="pages" n="102-103"/>
+                    <idno type="althead" subtype="altorder">Syriac Computing</idno>
+                    <note type="type">subject</note>
+                    <note type="abstract">The term “Syriac Computing” was coined in 1992 with the
+                        establishment of the Syriac Computing Institute, the forerunner of Beth
+                        Mardutho: The Syriac Institute, and took shape in 1995 when the First
+                        International Forum on Syriac Computing was held in conjunction with the
+                        Second Syriac Symposium in Washington, DC (see Syriac Conferences).<note/>
+                    </note>
+                </ab>
+                <div type="body">
+                    <p>The term ‘Syriac Computing’ was coined in 1992 with the establishment of the
+                        Syriac Computing Institute, the forerunner of Beth Mardutho: The Syriac
+                        Institute, and took shape in 1995 when the First International Forum on
+                        Syriac Computing was held in conjunction with the Second Syriac Symposium in
+                        Washington, DC (see<ref rend="bold" target="https://gedsh.bethmardutho.org/Syriac-Conferences"> Syriac
+                            Conferences</ref>). The term applies to computer-related activities and
+                        projects which support Syriac studies. Previous activities covered the
+                        following domains:</p>
+                    <p>1. Lexicography and concordance generation. The main focus of projects in the
+                        past has been on computational lexicography. The first computational
+                        project, which was done at UCLA probably around the 1960s, encoded
+                        Brockelmann’s <hi rend="italic">Lexicon Syriacum</hi> on a mainframe, but
+                        nothing more is known about it. In the 1970s, the Göttingen-based Göttinger
+                        Syrische Konkordanz project produced <abbr>OT</abbr> text concordances under the
+                        direction of Werner Strothmann, and The Way International produced a
+                        morphologically tagged database for the text of the <abbr>NT</abbr>. In the 1980s, the
+                        Peshitta Institute in Leiden developed further systems for the creation of
+                        <abbr>OT</abbr> concordances. Also in the 1980s, G. Kiraz developed the SEDRA database
+                        for the text of the <abbr>NT</abbr>. In the 1990s, Brigham Young University commissioned
+                        G.  Kiraz to develop the Bar Bahlul lexical database. The Comprehensive
+                        Aramaic Lexicon project, under the direction of Stephen Kaufman, collects
+                        texts and lexical resources, taggs them morphologically, and makes them
+                        available online, and has produced a concordance of the<ref rend="bold" target="https://gedsh.bethmardutho.org/Old-Syriac-Version"> Old Syriac
+                            Version</ref> of the Gospels. More involved linguistic analysis of Syriac
+                        texts is part of the CALAP and Turgama projects of the Peshitta Institute
+                        where the aim is to analyze texts at the word, phrase, clause, and text
+                        levels.</p>
+                    <p>2. Word processing and desktop publishing. The first publications that
+                        employed computer technology for the production of Syriac text, viz. the
+                        concordances of the Göttingen project, used plotter technology. With the
+                        rise of personal computers in the early 1980s, a number of non-commercial
+                        Macintosh-based outline fonts were available. Users of the DOS platform
+                        primarily used the bitmap fonts made by Alaph Beth Computer System for a
+                        program called Multi-Lingual Scholar (Gamma Productions, Inc.) from 1986
+                        onward. When Windows became ubiquitous in the 1990s, a few TrueType outline
+                        fonts became available, but texts had to be typed either backward or on the
+                        Arabic version of Windows. The development of the bi-directional Windows
+                        2000 and XP operating systems provided native bi-directional editing for the
+                        first time at the operating system level. At the same time, OpenType font
+                        technology allowed for encoding language-specific features of a script
+                        (e.g., shapes of letters, joining rules, ligatures, etc.) inside the font
+                        itself. The primary fonts that made use of these technologies are Meltho
+                        fonts by S. Hasso, G. Kiraz, and P. Nelson. Numerous other fonts have become
+                        available recently. Yannis Haralambous designed a system called Sabra for
+                        the TeX typesetting system, which was used in a few publications.</p>
+                    <p>3. Standards. In February 1998, a proposal was presented to the Unicode
+                        Consortium to add Syriac to Unicode, an encoding system for scripts. Syriac
+                        became officially part of Unicode 3.0 in 2000. Six Syriac letters for use in
+                        Sogdian and Persian were incorporated into Unicode 5.0 in 2007. Syriac
+                        letters used for Malayalam Garshuni have not yet been proposed. The name of
+                        the Syriac language is also part of ISO 639 where it is designated by ‘Sy’
+                        in the two-letter codes and ‘Syr’ in the three-letter codes.</p>
+                    <p>4. Digitization of <abbr>mss.</abbr> and books. The Hill Museum and Manuscript Library
+                        (HMML) digitized a few Syriac manuscripts from European libraries in the
+                        1970s as part of a larger digitization project that did not primarily
+                        involve Syriac. In 2000 and 2002 Brigham Young University digitized 33 <abbr>mss.</abbr>
+                        from the Biblioteca Apostolica Vaticana and published them on a CD ROM. From
+                        2003, HMML began a systematic effort to digitize Syriac collections in the
+                        Middle East including the libraries of Balamand, Kaslik (started by BYU),
+                        and the monasteries and churches of the Lebanese Maronite Order (<abbr>ca.</abbr> 1,000
+                        mss), the Bibliothèque Orientale, Université Saint-Joseph (also started by
+                        BYU), <ref rend="bold" target="https://gedsh.bethmardutho.org/Mardin">
+                            <placeName ref="http://syriaca.org/place/130">Mardin</placeName>
+                        </ref> (both the Church of the Forty Martyrs and <ref rend="bold" target="https://gedsh.bethmardutho.org/al-Zafaran-Dayr">
+                            <placeName ref="http://syriaca.org/place/69">Dayr
+                            al-Zaʿfarān</placeName>
+                        </ref>, <abbr>ca.</abbr> 1100 mss), <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Gabriel-Monastery-of-Mor">
+                            <placeName ref="http://syriaca.org/place/226">Monastery of Mor Gabriel</placeName>
+                        </ref> (<abbr>ca.</abbr> 450 mss), <ref rend="bold" target="https://gedsh.bethmardutho.org/Aleppo">
+                            <placeName ref="http://syriaca.org/place/18">Aleppo</placeName>
+                        </ref> (<abbr>Syr. Orth.</abbr>
+                        and <abbr>Syr. Cath.</abbr>, <abbr>ca.</abbr> 775 mss), and the Missionaires Libanais in Jounieh (<abbr>ca.</abbr>
+                        1000 mss). Work is underway in <ref rend="bold" target="https://gedsh.bethmardutho.org/Hims">
+                            <placeName ref="http://syriaca.org/place/215">Ḥimṣ</placeName>
+                        </ref> and Kerala (where
+                        Istvan Perzcel initiated a digitization project). Beth Mardutho: The Syriac
+                        Institute initiated a digitization project of printed books. The main
+                        digitization took place at the ICOR Library of the Catholic University of
+                        America in 2004 with BYU as a partner. Beth Mardutho’s collection of <abbr>ca.</abbr> 700
+                        books was deposited with HMML. BYU digitized <abbr>ca.</abbr> 400 books. Mass
+                        digitization projects by Google, Microsoft, and others incidentally contain
+                        digital versions of books on Syriac studies.</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>J. D. Allen <abbr>et al.</abbr> (<choice>
+                                <sic>eds</sic>
+                                <corr>eds.</corr>
+                            </choice>), <title rend="italic">The Unicode
+                                Standard, Version 5.0</title> (2007).</bibl>
+                        <bibl>P. Borbone, ‘Un programma per l’elaborazione di testi siriaci e un
+                            progetto di redazione di concordanze della Peshitta’, in <abbr>
+                                <title rend="italic">SymSyr</title> V</abbr> 439–50.</bibl>
+                        <bibl>K.  Heal, ‘Vatican Syriac Manuscripts: Volume 1’, <title rend="italic">
+                                <abbr>Hugoye</abbr>
+                            </title> 8.1 (2005).</bibl>
+                        <bibl>G. A.  Kiraz, ‘Forty Years of Syriac Computing’, <title rend="italic">
+                                <abbr>Hugoye</abbr>
+                            </title> 10.1 (2007), 33–52.</bibl>
+                        <bibl>G. A. Kiraz (<abbr>ed.</abbr>), <title rend="italic">SyrCOM–95, Proceedings of the
+                                First International Forum on Syriac Computing</title> (1995).</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>G. A. Kiraz</reg>
+                        <orig>idem</orig>
+                     </choice>, <title rend="italic">SyrCOM–96, Proceedings of the Second
+                                International Forum on Syriac Computing</title> (1996).</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>G. A. Kiraz</reg>
+                        <orig>idem</orig>
+                     </choice>, <title rend="italic">SyrCOM–99, Proceedings of the Third
+                                International Forum on Syriac Computing</title> (1999).</bibl>
+                        <bibl>M.  Zumpe, <title rend="italic">Technische Aspekte der <choice>
+                                    <sic>Göttingen</sic>
+                                    <corr>Göttinger</corr>
+                                </choice>
+                                Syrischen Konkordanz</title> (Deutsche Arbeitsgemeinschaft Vorderer
+                            Orient, September 2001).</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>George A.</forename> 
+                  <surname>Kiraz</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

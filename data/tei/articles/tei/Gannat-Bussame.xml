@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">
+                    <hi rend="italic">Gannat Bussāme</hi>
+                </title>
+            <author>
+               <persName>
+                  <forename>Gerrit J.</forename> 
+                  <surname>Reinink</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0">Electronic Edition Draft Version 1.0</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>
+                    <hi rend="italic">Gannat Bussāme</hi>
+                </head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Gannat-Bussame</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/229</idno>
+                    <idno type="entry">220</idno>
+                    <milestone unit="pages" n="171-172"/>
+                    <note type="type">work</note>
+                    <note type="abstract">The <title rend="italic" xml:lang="en-x-gedsh">Gannat
+                            Bussāme</title> ‘Garden of Delights’ is an extensive commentary on the
+                        E.-Syr. lectionary.<note/>
+                    </note>
+                </ab>
+                <ab type="infobox">(between the 10th and beginning of the 13th <abbr>cent.</abbr>) [Ch. of
+                    E.]</ab>
+                <div type="body">
+                    <p>The <hi rend="italic">Gannat Bussāme</hi> ‘Garden of Delights’ is an
+                        extensive commentary on the E.-Syr. lectionary. Tradition ascribes the work
+                        to an otherwise unknown ‘Interpreter of the Turks’. The date and place of
+                        the composition are uncertain. Although some modern scholars hold to the
+                        13th <abbr>cent.</abbr> as the date of its composition, there may be some arguments for
+                        the assumption that the <hi rend="italic">Gannat Bussāme</hi> was composed
+                        in the 10th <abbr>cent.</abbr> in the city of <ref rend="bold" target="https://gedsh.bethmardutho.org/Beth-Lapat">
+                            <placeName ref="http://syriaca.org/place/35">Beth
+                        Lapaṭ</placeName>
+                        </ref> (Gondeshapur). The text tradition shows two lines of
+                        transmission: one going back to a lost ‘Vorlage’ of the old <abbr>ms.</abbr> (<choice>
+                     <reg>
+                        <hi rend="italic">olim</hi>
+                     </reg>
+                     <orig>olim</orig>
+                  </choice>) Urmi
+                        180, the other to a lost <abbr>ms.</abbr> from the monastery of Abraham (the Upper
+                        Monastery in <ref rend="bold" target="https://gedsh.bethmardutho.org/Mosul">
+                            <placeName ref="http://syriaca.org/place/139">Mosul</placeName>
+                        </ref>). The latter represents a revision of the lectionary
+                        allowing the work’s adaptation to the practice of the Upper Monastery in
+                        Mosul. The original lectionary of the <hi rend="italic">Gannat Bussāme</hi>,
+                        however, shows correspondences both with the monastic usage and with the
+                        practice in the Cathedral Church of Kokhe in <ref rend="bold" target="https://gedsh.bethmardutho.org/Seleucia-Ctesiphon">
+                            <placeName ref="http://syriaca.org/place/182">Seleucia-Ctesiphon</placeName>
+                        </ref>, but it also has lessons found in neither. It
+                        is, therefore, likely that the <hi rend="italic">Gannat Bussāme</hi> was
+                        originally based on a lectionary system that reflected a specific local
+                        usage. The <hi rend="italic">Gannat Bussāme</hi> is a very important source
+                        for the E.-Syr. exegetical tradition, since its commentary, apart from its
+                        use of the commentaries of <ref rend="bold" target="https://gedsh.bethmardutho.org/Ishodad-of-Merv">
+                            <persName ref="http://syriaca.org/person/555">Ishoʿdad of
+                            Merv</persName>
+                        </ref>, is based on sources and the works of authors that are lost
+                        or inaccessible today. In particular two authors should be mentioned here.
+                        Firstly, the exegetical prose homilies written by <ref rend="bold" target="https://gedsh.bethmardutho.org/Aba-II-of-Kashkar">
+                            <persName ref="http://syriaca.org/person/307">Aba II of
+                            Kashkar</persName>
+                        </ref> (7th–8th <abbr>cent.</abbr>), of which many fragments and extracts have
+                        been preserved in the <hi rend="italic">Gannat Bussāme</hi>, containing the
+                        exegesis of passages from Gen., Num., Isa., and the four Gospels. Secondly,
+                        the commentaries of Ṣliba Zkha <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Sharbokht-bar-Msargis">
+                            <persName ref="http://syriaca.org/person/736">Ṣharbokht
+                            bar Msargis</persName>
+                        </ref>, an author who is not known in the Syriac tradition
+                        outside of the <hi rend="italic">Gannat Bussāme</hi>. It is, however, very
+                        likely that we may identify Ṣharbokht with Ṣahārbukht <abbr>b.</abbr> Māsarjīs, known
+                        from the Arabic-Islamic tradition as a medical author from Beth Lapaṭ, who
+                        lived in the 9th <abbr>cent.</abbr> The excerpts from Ṣharbokht in the <hi rend="italic">Gannat Bussāme</hi> concern the exegesis of pericopes from the four
+                        Gospels, Acts, and Rom. It appears from these excerpts that Ṣharbokht’s
+                        commentaries are typical representatives of exegetical compilation works
+                        (comparable, for example, with the genre of Ishoʿdad of Merv’s commentaries
+                        on the <abbr>OT</abbr> and <abbr>NT</abbr>). Unique is the way in which Ṣharbokht incorporates
+                        theoretical medical knowledge in his exegesis. It is possible that he as a
+                        teacher was connected with both the Theological School and the Medical
+                        School in Beth Lapaṭ.</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>W. F.  Macomber, ‘The Chaldean Lectionary System of the
+                            Cathedral Church of Kokhe’, <title rend="italic">
+                                <abbr>OCP</abbr>
+                            </title> 33 (1967),
+                            483–516.</bibl>
+                        <bibl>G. J.  Reinink, ‘Die Textüberlieferung der Gannat Bussame’, <title rend="italic">
+                                <abbr>LM</abbr> 
+                     </title> 90 (1977), 103–75.</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>G. J.  Reinink</reg>
+                        <orig>idem</orig>
+                     </choice>, <title rend="italic">Studien zur Quellen- und
+                                Traditionsgeschichte des Evangelienkommentars der Gannat
+                                Bussame</title> (<abbr>CSCO</abbr> 414; 1979).</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>G. J.  Reinink</reg>
+                        <orig>idem</orig>
+                     </choice>, <title rend="italic">Gannat Bussame</title>, vol. 1. <title rend="italic">Die <choice>
+                                    <sic>Adventssontage</sic>
+                                    <corr>Adventssonntage</corr>
+                                </choice>
+                            </title> (<abbr>CSCO</abbr> 501, 502;
+                            1988).</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>G. J.  Reinink</reg>
+                        <orig>idem</orig>
+                     </choice>, ‘Theology and Medicine in Jundishapur. Cultural Change in the
+                            Nestorian School Tradition’, in <title rend="italic">Learned Antiquity.
+                                Scholarship and Society in the Near-East, the Greco-Roman <choice>
+                                    <sic>world</sic>
+                                    <corr>World</corr>
+                                </choice>, and
+                                the Early Medieval West</title>, <abbr>ed.</abbr> A. A. MacDonald, M. W. Twomey,
+                            and G. J. Reinink (Groningen Studies in Cultural Change 5; 2003),
+                            163–74.</bibl>
+                        <bibl>J.-M.  Vosté, ‘Le Gannat Bussame’, <title rend="italic">
+                                <abbr>RB</abbr>
+                            </title> 37
+                            (1928), 221–32, 386–419.</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>J.-M.  Vosté</reg>
+                        <orig>idem</orig>
+                     </choice>, ‘À propos de la date du Gannat Bussame’, <title rend="italic">
+                                <abbr>RB</abbr>
+                            </title> 42 (1933), 82.</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Gerrit J.</forename> 
+                  <surname>Reinink</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

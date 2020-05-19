@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Ishoʿbokht of Rev Ardashir</title>
+            <author>
+               <persName>
+                  <forename>Lucas</forename> 
+                  <surname>Van Rompay</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0">Electronic Edition Draft Version 1.0</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Ishoʿbokht of Rev Ardashir</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Ishobokht-of-Rev-Ardashir</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/291</idno>
+                    <idno type="entry">282</idno>
+                    <milestone unit="pages" n="216"/>
+                    <idno type="subject">http://syriaca.org/person/554</idno>
+                    <note type="type">person</note>
+                    <note type="abstract">Author of a treatise on secular law; metropolitan <abbr>bp.</abbr> of
+                        Fars.<note/>
+                    </note>
+                </ab>
+                <ab type="infobox">(late 8th <abbr>cent.</abbr>?) [Ch. of E.]</ab>
+                <div type="body">
+                    <p>Author of a treatise on secular law; metropolitan <abbr>bp.</abbr> of <ref rend="bold" target="https://gedsh.bethmardutho.org/Fars">
+                            <placeName ref="http://syriaca.org/place/84">Fars</placeName>
+                        </ref>. Ishoʿbokht was
+                        consecrated by <abbr>Cath.</abbr> Ḥenanishoʿ, most likely <ref rend="bold" target="https://gedsh.bethmardutho.org/Henanisho-II">
+                            <persName ref="http://syriaca.org/person/532">Ḥenanishoʿ II</persName>
+                        </ref>
+                        (d. 779/80). He wrote his law book in Persian, from which language it was
+                        translated into Syriac at the instigation of <abbr>Cath. </abbr>
+                        <ref rend="bold" target="https://gedsh.bethmardutho.org/Timotheos-I">
+                            <persName ref="http://syriaca.org/person/790">Timotheos I</persName>
+                        </ref>,
+                        probably after Ishoʿbokht’s death. It is divided into six books. The first
+                        is of a general and theoretical nature. Books 2 and 3 deal with matrimonial
+                        law. Book 4 is devoted to inheritance law; book 5 to donations, testaments,
+                        and obligations. Book 6 deals with the right of appeal. Ishoʿbokht brings
+                        his knowledge of biblical law, Roman law, Persian law (and to some extent
+                        even Islamic law) together and aims at creating a unified system that would
+                        transcend local differences existing among Christians. Ishoʿbokht is
+                        familiar with traditions that are incorporated in the Persian ‘Book of
+                        thousand judgments’ (<hi rend="italic">Mādīgān ī hazār dādestān</hi>) and
+                        his work has been used by scholars of Persian-Sasanian law (Macuch).
+                        Ishoʿbokht’s engagement with Zoroastrian law and customs was used by Sachau
+                        as an argument for dating him earlier than <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Shemon-of-Rev-Ardashir">
+                            <persName ref="http://syriaca.org/person/740">Shemʿon</persName>
+                        </ref>,
+                        from whose law book Zoroastrian doctrines and practices are largely absent
+                        (see under Shemʿon). Dauvillier regards Ishoʿbokht as a powerful and
+                        original mind, and perhaps the best jurist of the <abbr>Ch. of E.</abbr> (340). Preserved
+                        in the important <abbr>ms.</abbr> Alqosh Syr. 169, the primary source for the <ref rend="bold" target="https://gedsh.bethmardutho.org/Synodicon-Orientale">Synodicon Orientale</ref>, this law book served as a source for later
+                        jurists. It also exists in an Arabic translation (see Sachau, xvi–xvii).</p>
+                    <p>Ishoʿbokht’s knowledge and interest in philosophy seem to be reflected in
+                        some other works, extracts of which have been preserved: a commentary on the
+                        Ten Categories (<choice>
+                            <sic>e.g.</sic>
+                            <corr>e.g., </corr>
+                        </choice>in <abbr>ms.</abbr> Cambridge, Univ. Libr. Add. 2812,vii and in <abbr>ms.</abbr>
+                        Alqosh 65.5) and a note on ‘possibilities’ (<hi rend="italic">meṭṭol meddem
+                            d-metmaṣyānwātā ennen</hi>: <abbr>ms.</abbr> Berlin 88.32). There is also an extract
+                        from a work that may have been dealing with the Hexaemeron (<abbr>ms.</abbr> Alqosh
+                        45.3). None of these fragments have been edited or studied. It cannot be
+                        ascertained whether they all belong to the same author and whether they were
+                        originally written in Syriac.</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>Baumstark, <title rend="italic">Literatur</title>, 215–6.</bibl>
+                        <bibl>J. Dauvillier, ‘Chaldéen (Droit)’, <title rend="italic">Dictionnaire
+                                de droit canonique</title>, vol. 3 (1942), 340–3.</bibl>
+                        <bibl>M.  Macuch, <title rend="italic">Das sasanidische
+                            Rechtsbuch</title> Mātakdān i Hazār Dātistān <title rend="italic">(Teil
+                                II)</title> (Abhandlungen für die Kunde des Morgenlandes 45.1;
+                            1981).</bibl>
+                        <bibl>eadem, ‘Ein mittelpersischer terminus technicus im syrischen
+                            Rechtskodex des Īšōʿbōht und im sasanidischen Rechtsbuch’, in <title rend="italic">Studia Semitica necnon Iranica R. Macuch
+                                dedicata</title>, <abbr>ed.</abbr> M. Macuch <abbr>et al.</abbr> (1989), 149–60.</bibl>
+                        <bibl>E.  Sachau, <title rend="italic">Syrische Rechtsbücher</title>, vol. 3
+                            (1914), viii–xvii , 1–201 (Syr. and <abbr>GT</abbr>), and 289–344 (notes).</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Lucas</forename> 
+                  <surname>Van Rompay</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

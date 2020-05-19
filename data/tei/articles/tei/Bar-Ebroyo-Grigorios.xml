@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Bar ʿEbroyo, Grigorios</title>
+            <author>
+               <persName>
+                  <forename>Hidemi</forename> 
+                  <surname>Takahashi</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0">Electronic Edition Draft Version 1.0</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Bar ʿEbroyo, Grigorios</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Bar-Ebroyo-Grigorios</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/83</idno>
+                    <idno type="entry">74</idno>
+                    <milestone unit="pages" n="54-56"/>
+                    <idno type="althead" subtype="altorder">Grigorios Bar ʿEbroyo</idno>
+                    <idno type="althead">Abū al-Faraj</idno>
+                    <idno type="althead">Barhebraeus</idno>
+                    <idno type="subject">http://syriaca.org/person/239</idno>
+                    <note type="type">person</note>
+                    <note type="abstract">Maph. (since 1264) and polymath; foremost representative of the Syriac Renaissance of the 12th–13th cent.<note/>
+                    </note>
+                </ab>
+                <ab type="infobox">Grigorios Abū al-Faraj, Barhebraeus (1225/6–1286) [Syr.
+                    Orth.]</ab>
+                <div type="body">
+                    <p>Maph. (since 1264) and polymath. Foremost representative of the <ref rend="bold" target="https://gedsh.bethmardutho.org/Renaissance-Syriac">Syriac Renaissance</ref> of the 12th–13th <abbr>cent.</abbr> Bar ʿEbroyo was born as
+                        a son of the physician Ahrun in <ref rend="bold" target="https://gedsh.bethmardutho.org/Melitene">
+                            <placeName ref="http://syriaca.org/place/136">Melitene</placeName>
+                        </ref>. The view
+                        that links his name to a Jewish ancestry is best rejected in favor of one
+                        associating it with the village of ʿEbro on the Euphrates downstream of
+                        Melitene. After periods of study in <ref rend="bold" target="https://gedsh.bethmardutho.org/Antioch">
+                            <placeName ref="http://syriaca.org/place/10">Antioch</placeName>
+                        </ref>, Tripoli
+                        (both then still in the hands of the Crusaders) and, possibly, <ref rend="bold" target="https://gedsh.bethmardutho.org/Damascus">
+                            <placeName ref="http://syriaca.org/place/66">Damascus</placeName>
+                        </ref>, Bar ʿEbroyo was made <abbr>bp.</abbr> in 1246 of Gubos and a little
+                        later of Laqabin (both sees in the vicinity of Melitene) by <abbr>Patr.</abbr> Ignatius
+                        III Dawid (Maphr. 1215–22, <abbr>
+                            <choice>
+                                <sic>Patr.</sic>
+                                <corr>patr.</corr>
+                            </choice>
+                        </abbr> 1222–52). In the schism
+                        that followed the death of Ignatius III, Bar ʿEbroyo sided at first with
+                        Dionysios ʿAngur (<abbr>
+                            <choice>
+                                <sic>Patr.</sic>
+                                <corr>patr.</corr>
+                            </choice>
+                        </abbr> 1252–61) and was appointed by him
+                        in <abbr>ca.</abbr> 1253 to the see of <ref rend="bold" target="https://gedsh.bethmardutho.org/Aleppo">
+                            <placeName ref="http://syriaca.org/place/18">Aleppo</placeName>
+                        </ref>, where he was
+                        to witness the fall of the city to the Mongols in 1260. The synod held in
+                        Cilicia following the death of <abbr>Patr.</abbr> 
+                  <ref rend="bold" target="https://gedsh.bethmardutho.org/Yuhanon-bar-Madani">
+                            <persName ref="http://syriaca.org/person/236">Yuḥanon bar
+                            Maʿdani</persName>
+                        </ref> in 1264 saw the double election of Ignatius IV Yeshuʿ
+                        (<abbr>
+                            <choice>
+                                <sic>Patr.</sic>
+                                <corr>patr.</corr>
+                            </choice>
+                        </abbr> 1264–82) to the patriarchate and of Bar ʿEbroyo to the maphrianate.
+                        Bar ʿEbroyo’s normal place of residence as maph. was <ref rend="bold" target="https://gedsh.bethmardutho.org/Mosul">
+                            <placeName ref="http://syriaca.org/place/139">Mosul</placeName>
+                        </ref> and the nearby
+                            <ref rend="bold" target="https://gedsh.bethmardutho.org/Matay-Dayro-d-Mor">
+                            <persName ref="http://syriaca.org/person/227">Dayro d-Mor
+                            Matay</persName>
+                        </ref>, but a significant part of his maphrianate was spent in
+                        Maragha and Tabriz, the new centers of power and learning under the Mongol
+                        Īl-Khāns, where Bar ʿEbroyo befriended the leading Muslim scholars of the
+                        day. During his maphrianate Bar ʿEbroyo ordained a total of twelve bishops,
+                        including his biographer <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Diosqoros-of-Gozarto">
+                            <persName ref="http://syriaca.org/person/243">Diosqoros of
+                            Gozarto</persName>
+                        </ref>, and saw his erstwhile disciple Philoxenos Nemrod (<abbr>
+                            <choice>
+                                <sic>Patr.</sic>
+                                <corr>patr.</corr>
+                            </choice>
+                        </abbr> 1283–92) elected to the patriarchate in 1283. He
+                        also entertained a friendly relationship with his <abbr>Ch. of E.</abbr> counterparts
+                        Denḥa I (<abbr>
+                            <choice>
+                                <sic>Cath.</sic>
+                                <corr>cath.</corr>
+                            </choice>
+                        </abbr> 1265–81) and <ref rend="bold" target="https://gedsh.bethmardutho.org/Yahbalaha-III">
+                            <persName ref="http://syriaca.org/person/810">Yahbalaha
+                        III</persName>
+                        </ref>. Bar ʿEbroyo died in Maragha on 29/30 July 1286. His remains were
+                        later transferred to Dayro d-Mor Matay, where they rest to this day together
+                        with those of his younger brother and successor in the maphrianate, <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Barsawmo-Safi-Grigorios">
+                            <persName ref="http://syriaca.org/person/245">Grigorios
+                            Barṣawmo Ṣafī</persName>
+                        </ref>.</p>
+                    <p>Bar ʿEbroyo composed over forty works covering a wide range of subjects,
+                        mostly in Syriac, but occasionally also in Arabic. Taken as a whole, Bar
+                        ʿEbroyo’s literary output may be seen as an attempt at a revival of learning
+                        in Syriac through the use of the latest scholarly literature which was
+                        available in his day mostly in Arabic. Bar ʿEbroyo frequently modelled his
+                        works on works of Arabic and Persian authors (<choice>
+                            <sic>e.g.</sic>
+                            <corr>e.g., </corr>
+                        </choice>Ibn Sīnā, Ghazālī, Naṣīr
+                        al-Dīn al-Ṭūsī) and incorporated into the framework provided by these models
+                        materials taken from both Arabo-Persian and Syriac sources, thus making a
+                        new synthesis out of the older Syriac and more recent Arabo-Persian
+                        literature. Bar ʿEbroyo has often been characterised as a skillful but
+                        unoriginal compiler of earlier works. This is a characterization that
+                        overlooks the originality to be found in his choice of sources and in his
+                        openness to the knowledge found in the works of Islamic scholars and those
+                        of other Christian denominations. His works were to remain for a long time
+                        the standard texts in many fields not only among the Christians of the
+                        W.-Syr. tradition but also among those of the E.-Syr. and <abbr>Maron.</abbr> traditions.
+                        Many of his works were later translated into Arabic, most notably by <ref rend="bold" target="https://gedsh.bethmardutho.org/Daniel-of-Mardin">
+                            <persName ref="http://syriaca.org/person/256">Daniel of Mardin</persName>
+                        </ref> (1326/7 – after 1382) and Grigorios Yūḥannā <abbr>b.</abbr>
+                        al-Ghurayr al-Zurbābī (<abbr>
+                            <choice>
+                                <sic>Bp.</sic>
+                                <corr>bp.</corr>
+                            </choice>
+                        </abbr> of Damascus 1668–84).</p>
+                    <p>His literary works include:</p>
+                    <p>1.   Exegesis: ‘Storehouse of mysteries’ (<hi rend="italic">Awṣar
+                        roze</hi>).</p>
+                    <p>2.   Dogmatic theology: ‘Candelabrum of the sanctuary’ (<hi rend="italic">Mnorat qudše</hi>), ‘Book of rays’ (<hi rend="italic">K. d-zalge</hi>),
+                        ‘Profession of faith’.</p>
+                    <p>3.   Moral theology/mysticism: ‘Ethicon’, ‘Book of the dove’ (<hi rend="italic">K. d-yawno</hi>), ‘Childhood of the mind’ (<hi rend="italic">Ṭalyut hawno</hi>, unfinished), abridgement of/commentary
+                        on the Book of Hierotheos (unpublished; see <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Stephanos-bar-Sudayli">
+                            <persName ref="http://syriaca.org/person/36">Sṭephanos
+                            bar Ṣudayli</persName>
+                        </ref>).</p>
+                    <p>4.   Jurisprudence: ‘Book of directions’ (<hi rend="italic">K. d-hudoye,
+                            Nomocanon</hi>).</p>
+                    <p>5.   Philosophy: ‘Cream of wisdom’ (<hi rend="italic">Ḥewat ḥekmto</hi>, only
+                        partially published), ‘Treatise of treatises’ (<hi rend="italic">Tegrat
+                            tegroto</hi>, unpublished), ‘Conversation of wisdom’ (<hi rend="italic">Swod sufiya</hi>), ‘Book of the pupils of the eye’ (<hi rend="italic">K. d-boboto</hi>, on logic); translation of Ibn Sīnā’s ‘Remarks and
+                        admonitions’ <hi rend="italic">al-Išārāt wa-al-tanbīhāt</hi> (<hi rend="italic">Remze wa-mʿironwoto</hi>, unpublished), translation of
+                        Athīr al-Dīn al-Abharī’s ‘Cream of secrets’ (<hi rend="italic">Zubdat
+                            al-asrār</hi>, lost); also two Arabic treatises on psychology.</p>
+                    <p>6.   Historiography: ‘Chronicle’ (<hi rend="italic">Maktbonut zabne</hi>, in
+                        two parts, usually referred to as ‘Chronicon’ and ‘Chronicon
+                        ecclesiasticum’), ‘Epitome of the history of the dynasties’ (<hi rend="italic">Mukhtaṣar taʾrīkh al-duwal</hi>, in Arabic).</p>
+                    <p>7.   Belles lettres: ‘Book of poems’ (<hi rend="italic">Mušḥoto</hi>),
+                        ‘Laughable stories’ (<hi rend="italic">K. d-tunoye mgaḥkone</hi>).</p>
+                    <p>8.   Grammar/Lexicography: ‘Book of splendors’ (<hi rend="italic">K.
+                            d-ṣemḥe</hi>), ‘Book of grammar in the meter of Mor Ephrem’ (also called
+                        ‘Book of introduction [to grammar]’, in verse), ‘On equilitteral words’ (<hi rend="italic">ʿal domyoyoto</hi>; usually appended to ‘Book of
+                        grammar’), Book of the spark (lost).</p>
+                    <p>9.   Epistolary work: Letter to <abbr>Cath.</abbr> Denḥa I.</p>
+                    <p>10.   Exact sciences: ‘Ascent of the mind’ (<hi rend="italic">Suloqo
+                            hawnonoyo</hi>), Astronomical tables (<hi rend="italic">zīj</hi>) for
+                        beginners (lost).</p>
+                    <p>11.   Oneiromancy: Book of interpretation of dreams (lost).</p>
+                    <p>12.   Medicine/Pharmacology: Book of Dioscorides (lost), abridgement of
+                        Ghāfiqī’s ‘Book of simple drugs’ (<hi rend="italic">Muntakhab kitāb jāmiʿ
+                            al-mufradāt</hi>, in Arabic, partially published), commentary on
+                        Hippocrates’ ‘Aphorisms’ (<abbr>ms.</abbr>
+                        <abbr> Syr. Orth.</abbr>
+                        <abbr> Patr.</abbr> Libr. 6.17, in Arabic),
+                        commentary on Hippocrates’s Prognosticon [?] (<abbr>ms.</abbr>
+                        <abbr> Syr. Orth.</abbr>
+                        <abbr> Patr.</abbr> Libr
+                        6.17), abridgement of <ref rend="bold" target="https://gedsh.bethmardutho.org/Hunayn-b-Ishaq">
+                            <persName ref="http://syriaca.org/person/542">Ḥunayn <abbr>b.</abbr>
+                            Isḥāq</persName>
+                        </ref>’s ‘Medical questions’ (<abbr>ms.</abbr>
+                        <abbr> Syr. Orth.</abbr>
+                        <abbr> Patr.</abbr> Libr 6.17; <abbr>ms.</abbr>
+                        Dublin, Chester Beatty Arab. 4925, in Arabic), Book of the uses of limbs
+                        (probably related to <ref rend="bold" target="https://gedsh.bethmardutho.org/Galen">
+                            <persName ref="http://syriaca.org/person/496">Galen</persName>
+                        </ref>’s ‘De usu
+                        partium’, lost), Book of the great Canon of Abū ʿAlī (<choice>
+                            <sic>i.e. </sic>
+                            <corr>i.e., </corr>
+                        </choice>a work on Ibn
+                        Sīnā’s ‘Canon of medicine’, lost), Book in which he gathered the opinions of
+                        physicians (lost), commentary on Ḥunayn’s ‘Medical questions’ (lost).</p>
+                    <p>13.   Liturgical works: revision (abridgement) of the Anaphora of St. James,
+                        revision of the rite of baptism, commentary on/revision of the rite of
+                        blessing of water; further sermons and prayers attributed with varying
+                        degrees of certainty to Bar ʿEbroyo.</p>
+                    <p>See <ref target="https://gedsh.bethmardutho.org/fig/18">Fig. 18</ref> and <ref target="https://gedsh.bethmardutho.org/fig/20">20</ref>.</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>Abūna, <title rend="italic">Adab</title>, 493–508.</bibl>
+                        <bibl>Actes du Colloque ‘Barhebraeus et la renaissance syriaque’ (9
+                            articles), in <title rend="italic">
+                                <abbr>ParOr</abbr>
+                            </title> 33 (2008),
+                            17–198.</bibl>
+                        <bibl>Barsoum, <title rend="italic">Scattered pearls</title>, 463–81.</bibl>
+                        <bibl>Baumstark, <title rend="italic">Literatur</title>, 312–20.</bibl>
+                        <bibl>J.-M.  Fiey, ‘Esquisse d’une bibliographie de Bar Hébraeus (†1286)’,
+                            <title rend="italic">
+                                <abbr>ParOr</abbr>
+                            </title> 13 (1986), 279–312.</bibl>
+                        <bibl>Graf, <title rend="italic">GCAL</title>, vol. 2, 275–81.</bibl>
+                        <bibl>H. Takahashi, <title rend="italic">Barhebraeus: A
+                                bio-bibliography</title> (2005). (incl. further references)</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Hidemi</forename> 
+                  <surname>Takahashi</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

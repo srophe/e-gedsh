@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Seleucia-Ctesiphon</title>
+            <author>
+               <persName>
+                  <forename>Marica C.</forename> 
+                  <surname>Cassis</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0">Electronic Edition Draft Version 1.0</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Seleucia-Ctesiphon</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Seleucia-Ctesiphon</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/492</idno>
+                    <idno type="entry">483</idno>
+                    <milestone unit="pages" n="365"/>
+                    <idno type="subject">http://syriaca.org/place/182</idno>
+                    <note type="type">place</note>
+                    <note type="abstract">City south of modern
+                            <placeName ref="http://syriaca.org/place/41">Baghdad</placeName>; administrative capital of the Sasanians and home of the Catholicos of the Church of the East.<note/>
+                    </note>
+                </ab>
+                <div type="body">
+                    <p>Also known as al-Madāʾin. Located on the Tigris, south of modern <ref rend="bold" target="https://gedsh.bethmardutho.org/Baghdad">
+                            <placeName ref="http://syriaca.org/place/41">Baghdad</placeName>
+                        </ref>. The original Seleucia on the Tigris was established on the
+                        west side of the river at the end of the 4th <abbr>cent.</abbr> BC as a Hellenistic
+                        center by Seleucus I Nicator. Seleucia was largely abandoned for a new
+                        center at Ctesiphon during the Parthian period, possibly due to a shift in
+                        the course of the Tigris. Although some occupation remained in this area,
+                        excavations by an American team indicate that the occupation was primarily
+                        industrial. Although the Parthians established Ctesiphon as their capital,
+                        its exact location remains uncertain. Based on archaeological material, most
+                        scholars locate it on the east side of the Tigris, north of <ref rend="bold" target="https://gedsh.bethmardutho.org/Kokhe">
+                            <placeName ref="http://syriaca.org/place/475">Kokhe</placeName>
+                        </ref>. Sasanian and
+                        Syriac references to Seleucia-Ctesiphon almost certainly refer not to Old
+                        Seleucia, but to the city established by the Sasanians on the right bank of
+                        the Tigris as their administrative capital, which was known as New Seleucia,
+                        Kokhe, or Veh-Ardashir. Seleucia-Ctesiphon was home to the <abbr>Cath.</abbr> of the Ch.
+                        of E. from at least the early 5th <abbr>cent.</abbr> This is known from the <ref rend="bold" target="https://gedsh.bethmardutho.org/Synodicon-Orientale">Synodicon Orientale</ref>, which indicates that the synod of <ref rend="bold" target="https://gedsh.bethmardutho.org/Ishaq">
+                            <persName ref="http://syriaca.org/person/549">Isḥaq</persName>
+                        </ref>,
+                        the first synod, was held in the see of Seleucia-Ctesiphon in 410.</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>M.  Cassis, ‘Kokhe, Cradle of the Church of the East’, <title rend="italic">
+                                <abbr>JCSSS</abbr>
+                            </title> 2 (2002), 62–78. (incl. further
+                            references)</bibl>
+                        <bibl>M.  Cavallero and M. Ponzi, ‘The Excavations at Coche’, <title rend="italic">Mesopotamia</title> 1 (1966), 63–88.</bibl>
+                        <bibl>J.-M. Fiey, ‘Topography of al-<choice>
+                        <reg>Madaʾin</reg>
+                        <orig>Mada’in</orig>
+                     </choice>’, <title rend="italic">Sumer</title> 23 1967), 3–38.</bibl>
+                        <bibl>G. Gullini, ‘Problems of an Excavation in Northern Babylonia’, <title rend="italic">Mesopotamia</title> 1 (1966), 7–38.</bibl>
+                        <bibl>C.  Hopkins (<abbr>ed.</abbr>), <title rend="italic">Topography and Architecture of
+                                Seleucia on the Tigris</title> (1972).</bibl>
+                        <bibl>A.  Invernizzi, ‘Ten Years’ Research in the al-<choice>
+                                <sic>Madaʾin</sic>
+                                <corr/>
+                            </choice> Area, Seleucia
+                            and Ctesiphon’, <title rend="italic">Sumer</title> 32 (1976),
+                            167–74.</bibl>
+                        <bibl>J.  Kröger, <title rend="italic">Sasanidischer Stuckdekor</title>
+                            (1982). (incl. further references)</bibl>
+                        <bibl>E.  Kühnel, <title rend="italic">Die Ausgrabungen der Zweiten
+                                Ktesiphon-Expedition 1931/2</title> (1933).</bibl>
+                        <bibl>O. Reuther, ‘The German Excavations at Ctesiphon’, <title rend="italic">Antiquity</title> 3 (1929), 434–51.</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>O. Reuther</reg>
+                        <orig>idem</orig>
+                     </choice>, <title rend="italic">Die Ausgrabungen der Deutschen
+                                Ktesiphon-Expedition im Winter 1928/29</title> (1930).</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Marica C.</forename> 
+                  <surname>Cassis</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

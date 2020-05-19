@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Brockelmann, Carl</title>
+            <author>
+               <persName>
+                  <forename>Hubert</forename> 
+                  <surname>Kaufhold</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0">Electronic Edition Draft Version 1.0</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Brockelmann, Carl</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Brockelmann-Carl</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/124</idno>
+                    <idno type="entry">115</idno>
+                    <milestone unit="pages" n="87-88"/>
+                    <idno type="althead" subtype="altorder">Carl Brockelmann</idno>
+                    <idno type="subject">http://syriaca.org/person/402</idno>
+                    <note type="type">person</note>
+                    <note type="abstract">German Semitist.<note>brief</note>
+                    </note>
+                </ab>
+                <ab type="infobox">(1868–1956)</ab>
+                <div type="body">
+                    <p>German Semitist. Brockelmann began the study of oriental languages as well as
+                        classical languages and history, first in Rostock and later in Breslau and
+                        Strasbourg. After earning his Ph.D. in Strasbourg in 1890 with a
+                        dissertation in Arabic studies, he became an assistant teacher at a
+                        gymnasium in the same city (1890–92). He earned his habilitation (an
+                        advanced university degree) at the University of Breslau in 1893 and became
+                        a privatdozent (lecturer) at the same institution (1893–1900). In 1895–96,
+                        he traveled to London and Constantinople to copy Arabic <abbr>mss.</abbr> which he
+                        intended to publish. He was appointed instructor of Arabic at the Seminar
+                        for Oriental Languages in Berlin (1900) and later professor at the
+                        universities of Breslau (1900–03), Königsberg (1903–10), Halle an der Saale
+                        (1910–22; Rector of the University in 1918/19), and Berlin (1922–23). In
+                        1923 he returned to Breslau, where he was Rector of the University in
+                        1932/33 and from where he retired in 1935. He returned to Halle in 1937 and
+                        continued his scholarly work with much intensity. After World War II, he
+                        accepted a position as librarian in Halle due to financial problems. In
+                        1947, he was appointed professor of Turkish studies at Halle, a position
+                        that he held until his retirement in 1953.</p>
+                    <p>While a gymnasium student, Brockelmann already began to occupy himself with
+                        Hebrew, Biblical Aramaic, and Syriac. His first publications, however, were
+                        devoted to Arabic. At an early date he started collecting data for his first
+                        significant publication, his <hi rend="italic">Lexicon Syriacum</hi>, which
+                        appeared in 1895 and was distinguished from other lexica of Syriac due to
+                        its textual references, etymological data, and Latin-Syriac index. A
+                        considerably expanded second edition appeared between 1923 and 1928. The
+                        first two volumes of Brockelmann’s foundational and monumental <hi rend="italic">Geschichte der arabischen Literatur</hi> (History of
+                        Arabic literature) appeared in 1898 and 1902, respectively. They covered all
+                        of Islamic Arabic literature (and so excluded the confessional literature of
+                        Jews and Christians in Arabic). Three substantial supplementary volumes
+                        appeared between 1937 and 1942, followed in 1943 and 1949 by the second
+                        edition of the first two volumes, to which references to the supplementary
+                        volumes were added. This masterly handbook remains indispensable up to the
+                        present day.</p>
+                    <p>The year 1899 saw the first publication of Brockelmann’s <hi rend="italic">Syrische Grammatik</hi> (Syriac grammar). It included a chrestomathy
+                        and was enhanced by substantial historical linguistic explanations. It is
+                        often reprinted. Likewise, his <hi rend="italic">Arabische Grammatik</hi>
+                        (Arabic grammar), based on a work by Albert Socin, was often reprinted.
+                        Brockelmann not only provided the impetus for the publication of the <hi rend="italic">Geschichte der christlichen Literaturen des Orients</hi>
+                        (History of the Christian literatures of the East) in 1907, but also
+                        contributed to it a survey of Syriac literature (p. 1–66) and brief
+                        summaries of Christian Palestinian Aramaic (p. 66) and Christian Arabic
+                        literature (p. 67–74). In 1903 and 1908, Brockelmann published descriptions
+                        of oriental <abbr>mss.</abbr> (including Syriac <abbr>mss.</abbr>) in Breslau and Hamburg.</p>
+                    <p>Brockelmann’s second major work, his two-volume <hi rend="italic">Grundriss
+                            der vergleichenden Grammatik der semitischen Sprachen</hi> (Outline of
+                        the comparative grammar of the Semitic languages) originated during his time
+                        in Königsberg and Halle (1908 and 1913). In its 1400 pages, Brockelmann
+                        discussed all of the Semitic languages known in his day. This work has also
+                        not yet been replaced. In 1939, he published his <hi rend="italic">Geschichte der islamischen Völker and Staaten</hi> (History of the
+                        Islamic peoples and nations), which was translated into many languages. To
+                        the ‘Semitics’ volume of the <hi rend="italic">Handbook of Oriental
+                            Studies</hi>, Brockelmann contributed, among other things, the section
+                        on Syriac.</p>
+                    <p>In addition to the Semitic languages, Brockelmann also occupied himself with
+                        the research and teaching of Turkish, Armenian, Georgian, and Coptic. His
+                        unpublished scholarly writings are kept in the Library of the Deutsche
+                        Morgenländische Gesellschaft in Halle an der Saale.</p>
+                    <p>Brockelmann’s work is characterized by an admirable versatility. He exhibited
+                        a combination of ‘an excellent memory, a distinct sense of order, a quick
+                        understanding, and the ability to correctly assess the scope of a project,
+                        along with an unbending will and an exceptional manpower’ (J. Fück).</p>
+                    <p>Brockelmann’s main publications are <hi rend="italic">Lexicon Syriacum</hi>
+                        (1895; 2nd <abbr>ed.</abbr> 1928; most recent <abbr>repr.</abbr> 1995); <hi rend="italic">Geschichte
+                            der arabischen Literatur</hi> (2 vols.; 1898–1902; 2nd <abbr>ed.</abbr> 1943, 1949;
+                        <abbr>repr.</abbr> 1996); 3 supplement volumes (1937, 1938, 1943; <abbr>repr.</abbr> 1996); <hi rend="italic">Syrische Grammatik mit Paradigmen, Literatur,
+                            Chrestomathie und Glossar</hi> (1899, 13th <abbr>ed.</abbr> 1981); ‘Die syrische und
+                        die christlich-arabische Litteratur’, in <hi rend="italic">Geschichte der
+                            christlichen Litteraturen des Orients</hi>, <abbr>ed.</abbr> C. Brockelmann <abbr>et al.</abbr>
+                        (1907), 1–74 (2nd <abbr>ed.</abbr> 1909; <abbr>repr.</abbr> 1972); <hi rend="italic">Grundriss der
+                            vergleichenden Grammatik der semitischen Sprachen, I. Laut- und
+                            Formenlehre</hi> (1908), II. <hi rend="italic">Syntax</hi> (1913; both
+                        volumes <abbr>repr.</abbr> 1999); <hi rend="italic">Geschichte der islamischen Völker und
+                            Staaten</hi> (1939); <hi rend="italic">Arabische Grammatik. Paradigmen,
+                            Literatur, Übungsstücke und Glossar</hi> (6th <abbr>ed.</abbr> 1909, 25th <abbr>ed.</abbr> 1997);
+                        and several contributions in Handbuch der Orientalistik, I,3. <hi rend="italic">Semitistik</hi> (1954; <abbr>repr.</abbr> 1964), esp. ‘Das Aramäische,
+                        einschliesslich des Syrischen’, 135–62.</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>‘Autobiographische Aufzeichnungen und Erinnerungen von C. B.,
+                            als Manuskript hrsg. von Rudolf Sellheim’, <title rend="italic">Oriens</title> 27–28 (1981), 1–65. (with photograph)</bibl>
+                        <bibl>
+                            <title rend="italic">Deutsches Biographisches Archiv</title>, fiche II
+                            180, 119–22; III 118, 78–9.</bibl>
+                        <bibl>J.  Fück, ‘Verzeichnis der Schriften C. B.s’, <title rend="italic">Wissenschaftliche Zeitschrift der Martin-Luther-Universität
+                                Halle-Wittenberg, Gesellschafts- und sprachwissenschaftliche
+                                Reihe</title>, VII, 4 (Halle 1958), 863–76. (bibliography with 554
+                            items)</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>J.  Fück</reg>
+                        <orig>idem</orig>
+                     </choice>, ‘C. B. (1868–1956)’, <title rend="italic">
+                                <abbr>ZDMG</abbr>
+                            </title> 108
+                            (1958), 1–13. (also published as ‘C. B. als Orientalist’, <title rend="italic">Wissenschaftliche Zeitschrift der
+                                Martin-Luther-Universität Halle-Wittenberg, Gesellschafts- und
+                                sprachwissenschaftliche Reihe</title>, VII, 4 [Halle 1958], 857–63,
+                            with photograph)</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Hubert</forename> 
+                  <surname>Kaufhold</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

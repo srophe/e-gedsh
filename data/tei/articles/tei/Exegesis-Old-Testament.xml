@@ -1,0 +1,694 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Exegesis, Old Testament</title>
+            <author>
+               <persName>
+                  <forename>Bas</forename> 
+                  <surname>ter Haar Romeny</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0">Electronic Edition Draft Version 1.0</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Exegesis, Old Testament</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Exegesis-Old-Testament</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/215</idno>
+                    <idno type="entry">206</idno>
+                    <milestone unit="pages" n="156-160"/>
+                    <idno type="althead" subtype="altorder">Old Testament Exegesis</idno>
+                    <note type="type">subject</note>
+                    <note type="abstract">The Bible and its interpretation have always played a
+                        major world-view of Syriac-speaking Christians.<note/>
+                    </note>
+                </ab>
+                <div type="body">
+                    <p>The Bible and its interpretation have always played a major role in the
+                        world-view of Syriac-speaking Christians. A great number of texts are
+                        preserved in which the Bible is retold or explained. Biblical interpretation
+                        is found not only in commentaries, but also in many other genres.</p>
+                    <label type="subsection">The Earliest Syriac Literature</label>
+                    <p>The <abbr>OT</abbr> was translated into Syriac at a very early stage, probably even before
+                        the New Testament: though the Book of the Laws of Countries (see under <ref rend="bold" target="https://gedsh.bethmardutho.org/Bardaisan">
+                            <persName ref="http://syriaca.org/person/3">Bardaiṣan</persName>
+                        </ref>) quotes Gen. 9:6 in a form that stands closer to Targum
+                        Onqelos, the <ref rend="bold" target="https://gedsh.bethmardutho.org/Peshitta">Peshitta</ref>
+                        <abbr> OT</abbr> is
+                        already cited in <ref rend="bold" target="https://gedsh.bethmardutho.org/Tatian">
+                            <persName ref="http://syriaca.org/person/771">Tatian</persName>
+                        </ref>’s <ref rend="bold" target="https://gedsh.bethmardutho.org/Diatessaron">Diatessaron</ref> (written in the 170s; Joosten). Neither these works,
+                        nor any of the other texts written before the 4th <abbr>cent.</abbr> that have come down
+                        to us, is dedicated to the exegesis of the <abbr>OT</abbr>, though such compositions as
+                        the <ref rend="bold" target="https://gedsh.bethmardutho.org/Solomon-Odes-of">Odes of Solomon</ref> and the Hymn of the Pearl (see <ref rend="bold" target="https://gedsh.bethmardutho.org/Thomas-Acts-of">Acts of
+                            Thomas</ref>) may certainly have been influenced by it, for instance in
+                        the way they describe Paradise.</p>
+                    <label type="subsection">Fourth- and Early Fifth-Cent. Exegesis</label>
+                    <p>
+                        <ref rend="bold" target="https://gedsh.bethmardutho.org/Aphrahat">
+                            <persName ref="http://syriaca.org/person/10">Aphrahaṭ</persName>
+                        </ref>’s twenty-three Demonstrations (between 337 and 345) are
+                        treatises based to a large extent on biblical quotations. Aphrahaṭ discusses
+                        issues that must have been important to his community, which lived in the
+                        Persian Empire. In addition to subjects such as faith, love, fasting,
+                        prayer, wars, conversion, humility, and death, he also wrote on themes which
+                        suggest that his community had to defend its position vis-à-vis Jewish
+                        groups or rather Judaizing tendencies within Christianity. Thus he
+                        discusses, among others, circumcision, Pesach, Sabbath, food laws,
+                        virginity, and sanctity. Although he wrote against the Jews, especially in
+                        his historical interpretation he used Jewish traditions. His spiritual
+                        interpretation is mainly typological.</p>
+                    <p>
+                        <ref rend="bold" target="https://gedsh.bethmardutho.org/Ephrem">
+                            <persName ref="http://syriaca.org/person/13">Ephrem</persName>
+                        </ref>
+                        (d. 373) wrote a Commentary on Genesis and an Explanation of Exodus (he may
+                        have written commentaries on other books of the <abbr>OT</abbr> as well, as the monk <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Severos-Commentary-of-the-monk">Severos</ref> and <ref rend="bold" target="https://gedsh.bethmardutho.org/Abdisho-bar-Brikha">
+                            <persName ref="http://syriaca.org/person/310">ʿAbdishoʿ bar
+                            Brikha</persName>
+                        </ref> claim, but this can no longer be ascertained). He retells
+                        the biblical narrative, while filling the gaps and trying to establish what
+                        happened and why. Method and content show a clear affinity with Jewish
+                        biblical interpretation; still, no Jewish sources known today are quoted.
+                        Although he himself would call most of his exegesis in these commentaries
+                        ‘factual’, he did aim at a refutation of Manichean and Marcionite
+                        interpretations. He seems less interested here in spiritual exegesis, though
+                        there are a number of passing references to Christ. By way of exception, he
+                        adds a spiritual interpretation to his factual (historical) exegesis of Gen.
+                        49. In marked contrast to these commentaries, his <hi rend="italic">memre</hi> (homilies, mostly in verse) and <hi rend="italic">madrāše</hi> (often translated as ‘hymns’) show a wealth of symbols. In
+                        the Hymns on Paradise (11.6–7) he explains that in addition to the factual
+                        meaning one should try to find the ‘hidden power’ of the plain terms, or
+                        ‘pale colors’, which God uses in order to communicate with human beings. In
+                        these hymns the horizon is not the end of the <abbr>OT</abbr> period, but the eschaton.
+                        Still, the commentaries and the poetic works remain connected through a
+                        common basis, formed by Ephrem’s factual interpretation as well as his
+                        theological interests.</p>
+                    <p>The particular genre of Ephrem’s commentaries (close to that of the
+                        ‘rewritten Bible’) was not commonly followed by later Syriac exegetes, but
+                        his poetry became a great source of inspiration. In the 5th and 6th <abbr>cent.</abbr>,
+                        and even later, many <hi rend="italic">memre</hi> and <hi rend="italic">madrāše</hi> were written (see <ref rend="bold" target="https://gedsh.bethmardutho.org/Poetry">Poetry</ref>), of which
+                        some were attributed to Ephrem. Most of these <hi rend="italic"> memre</hi> are sermons in verse, but some are rather narrative poems in
+                        which a biblical story is retold. A special form of <hi rend="italic">madrāšā</hi> is formed by the genre of the dialogue poem, in which two
+                        biblical characters speak in alternating verses. The oldest Syriac
+                        representatives of this ancient genre were indeed written by Ephrem himself,
+                        but many others are anonymous. In Greek numerous works survive under the
+                        name of Ephrem, but most of these are not authentic.</p>
+                    <p>Not long after Ephrem, the anonymous author of the <ref rend="bold" target="https://gedsh.bethmardutho.org/Book-of-Steps">Book of Steps</ref>
+                        uses biblical interpretation to teach about a perfect, ascetic way of life.
+                        The author has a number of ideas in common with Aphrahaṭ and Ephrem, but in
+                        contrast to them he does not incorporate Jewish traditions in his work. The
+                            <ref rend="bold" target="https://gedsh.bethmardutho.org/Cave-of-Treasures">Cave of
+                            Treasures</ref> recounts biblical history from the Creation to
+                        Pentecost. Its use of apocryphal traditions (<choice>
+                            <sic>e.g.</sic>
+                            <corr>e.g., </corr>
+                        </choice>on Adam and Eve) has led
+                        some scholars to assume an early date for this composition, but in its
+                        present state it certainly does not antedate the 5th <abbr>cent.</abbr> (Leonhard 2004).
+                        Though the author clearly used Jewish traditions, his reconstruction of
+                        history omits parts which are important for Judaism, such as the time of
+                        Moses.</p>
+                    <p>Commentaries on Qohelet and Job are attributed to <ref rend="bold" target="https://gedsh.bethmardutho.org/Yohannan-Ihidaya">
+                            <persName ref="http://syriaca.org/person/827">Yoḥannan
+                            Iḥidaya</persName>
+                        </ref>. The latter is, however, a text translated from Greek (Van
+                        Rompay 2006b). The Qohelet commentary, however, which was quoted by both
+                        East and West Syrians, could have well been written by Yoḥannan Iḥidaya in
+                        the first half of the 5th <abbr>cent.</abbr> He paraphrases the text and discusses its
+                        historical setting and purpose; at the same time, he does not shun
+                        allegorical interpretation.</p>
+                    <label type="subsection">Parting of the Ways: From the Middle of the Fifth <abbr>Cent.</abbr>
+                        until the Advent of Islam</label>
+                    <p>The <ref rend="bold" target="https://gedsh.bethmardutho.org/Edessa-School-of">School of Edessa</ref> played a pivotal role in the further development
+                        of the Syr. exegetical tradition. It was probably here that the works of
+                            <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Theodore-of-Mopsuestia">
+                            <persName ref="http://syriaca.org/person/780">Theodore
+                            of Mopsuestia</persName>
+                        </ref> (d. 428) were translated into Syriac. This Greek
+                        Antiochene theologian and exegete was one of the main sources of inspiration
+                        for the Dyophysites. Even during his lifetime his works were already studied
+                        in the School and his hermeneutic principles and terminology were taken
+                        over, together with his Christology and his view on history as a
+                        manifestation of God’s pedagogic interaction with humankind. A loyal
+                        follower of Theodore was <ref rend="bold" target="https://gedsh.bethmardutho.org/Narsai">
+                            <persName ref="http://syriaca.org/person/650">Narsai</persName>
+                        </ref> (d. <abbr>ca.</abbr> 500),
+                        the author of many <hi rend="italic">memre</hi> discussing <abbr>OT</abbr> passages. He
+                        was head of the School of Edessa until he had to flee to <ref rend="bold" target="https://gedsh.bethmardutho.org/Nisibis">
+                            <placeName ref="http://syriaca.org/place/142">Nisibis</placeName>
+                        </ref>, probably
+                        around 471, where he became head of the newly founded <ref rend="bold" target="https://gedsh.bethmardutho.org/Nisibis-School-of">School of
+                            Nisibis</ref>. Narsai knew Theodore’s works very well, and almost
+                        totally and exclusively adhered to his views. Theodore was considered the
+                        Interpreter <hi rend="italic">par excellence</hi> by him as well as in the
+                        later E.-Syr. tradition.</p>
+                    <p>The adoption of Theodore’s Christology and anthropology also met with
+                        resistance, however. The early miaphysite exegete and poet <ref rend="bold" target="https://gedsh.bethmardutho.org/Yaqub-of-Serugh">
+                            <persName ref="http://syriaca.org/person/42">Yaʿqub of Serugh
+                        </persName>
+                        </ref> (d. 521), for example, felt more at home with Ephrem’s views and those
+                        of moderate Alexandrians. Like Narsai, he mainly wrote <hi rend="italic">memre</hi>, many of which interpret the <abbr>OT</abbr>. Yet Yaʿqub and Narsai had
+                        more in common. First of all, they shared a common Edessene tradition. In
+                        addition, it seems that the miaphysite opposition to Theodore did not
+                        necessarily lead to the acceptance of the radical allegorizing trend of some
+                        Alexandrians, who were ready to abandon the plain sense of Scripture
+                        altogether. Though Yaʿqub and other Miaphysites protested against certain
+                        parts of Theodore’s thought, through their connections with the School of
+                        Edessa they were influenced by his exegetical method and sought to achieve a
+                        balance between the Antiochene ‘historical’ approach and spiritual exegesis.
+                        Early translations of the Antiochene exegete <ref rend="bold" target="https://gedsh.bethmardutho.org/John-Chrysostom">
+                            <persName ref="http://syriaca.org/person/573">John
+                            Chrysostom</persName>
+                        </ref> were also widely read by Miaphysites and Dyophysites
+                        alike.</p>
+                    <p>From the 6th- and 7th-cent. E.-Syr. tradition we know names such as <ref rend="bold" target="https://gedsh.bethmardutho.org/Ahob-Qatraya">
+                            <persName ref="http://syriaca.org/person/324">Aḥob
+                            Qaṭraya</persName>
+                        </ref>, <ref rend="bold" target="https://gedsh.bethmardutho.org/Nathniel-of-Sirzor">
+                            <persName ref="http://syriaca.org/person/651">Nathniel of
+                                Sirzor</persName>
+                        </ref>, and <ref rend="bold" target="https://gedsh.bethmardutho.org/Henana">
+                            <persName ref="http://syriaca.org/person/530">Ḥenana of Adiabene</persName>
+                        </ref>, but we have
+                        no more than fragments of their exegesis. We do know that there was a crisis
+                        connected to the latter, who directed the School of Nisibis from 572 to 610.
+                        Much of the background to this crisis is no longer clear to us. His
+                        Christological views were condemned at a meeting of bps. in 612. His views
+                        may also have been more accommodating toward allegorical interpretations of
+                        the <abbr>OT</abbr>. However, as Reinink (2010) has indicated, the popular statement that
+                        Ḥenana rejected Theodore’s exegesis in favor of that of John Chrysostom is
+                        an oversimplification. The main problem seems to have been that Ḥenana
+                        showed some openness toward sources other than Theodore of Mopsuestia.</p>
+                    <p>The mid-6th-cent. Commentary on the Psalms by <ref rend="bold" target="https://gedsh.bethmardutho.org/Daniel-of-Salah">
+                            <persName ref="http://syriaca.org/person/59">Daniel of Ṣalaḥ
+                        </persName>
+                        </ref> gives us insight into the developing miaphysite tradition. Its
+                        interest in the historical setting and purpose of each Psalm reminds one of
+                        the Antiochene approach of Theodore of Mopsuestia. On the other hand, his
+                        exegesis often leads to an allegorical interpretation, which becomes quite
+                        prominent in his commentary. As the Psalms were read daily in the
+                        monasteries, it was important to control their interpretation. Daniel
+                        supplied the miaphysite leadership with a commentary in the form of 150
+                        coherent, self-contained homilies, which were ideally suited to this
+                        purpose. They helped shape his community’s doctrine but also addressed
+                        larger political issues. It is here that we find the first serious attacks
+                        on the position of the emperor (Taylor 2010).</p>
+                    <p>As an alternative to the dyophysite use of Theodore of Mopsuestia, the
+                        Miaphysites used a wider selection of Greek Fathers. Long and short versions
+                        of commentaries by authors such as <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Athanasius-of-Alexandria">
+                            <persName ref="http://syriaca.org/person/354">Athanasius</persName>
+                        </ref>, <ref rend="bold" target="https://gedsh.bethmardutho.org/Cyril-of-Alexandria">
+                            <persName ref="http://syriaca.org/person/430">Cyril of Alexandria</persName>
+                        </ref>, and <ref rend="bold" target="https://gedsh.bethmardutho.org/Gregory-of-Nyssa">
+                            <persName ref="http://syriaca.org/person/512">Gregory of
+                            Nyssa</persName>
+                        </ref> have come down to us. It appears that the shorter ones
+                        constitute abbreviations of the longer ones, which date back to the 5th and
+                        6th <abbr>cent.</abbr> 
+                  <hi rend="italic">Terminus ad quem</hi> for the abbreviated
+                        versions of the three authors just mentioned is the so-called London
+                        Collection (<abbr>ms.</abbr> Brit. Libr. Add. 12,168), which was composed probably in the
+                        second quarter of the 7th  cent. The London Collection consists of extracts
+                        from various, primarily Greek, authors in Syriac translation, forming a
+                        commentary on most of the <abbr>OT</abbr> and <abbr>NT</abbr>. It is a work of encyclopedic scope. It
+                        would seem that the compiler is offering miaphysite readers a digest of
+                        Greek material in a form that is meant to replace earlier Syriac material.
+                        He often quotes Athanasius, Cyril, <ref rend="bold" target="https://gedsh.bethmardutho.org/Severus-of-Antioch">
+                            <persName ref="http://syriaca.org/person/51">Severus of
+                            Antioch</persName>
+                        </ref>, <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Gregory-of-Nazianzus">
+                            <persName ref="http://syriaca.org/person/511">Gregory of
+                            Nazianzus</persName>
+                        </ref>, <ref rend="bold" target="https://gedsh.bethmardutho.org/Basil-of-Caesarea">
+                            <persName ref="http://syriaca.org/person/376">Basil the
+                            Great</persName>
+                        </ref>, Gregory of Nyssa, and John Chrysostom; Ephrem and <ref rend="bold" target="https://gedsh.bethmardutho.org/John-bar-Aphtonia">
+                            <persName ref="http://syriaca.org/person/52">John bar Aphtonia</persName>
+                        </ref> are the only Syriac authors mentioned. The
+                        compiler took as the basis for his commentary the Syriac translation of the
+                        Greek biblical text of his sources as well as the <ref rend="bold" target="https://gedsh.bethmardutho.org/Syro-Hexapla">Syro-Hexapla</ref>.</p>
+                    <label type="subsection">The Later E.-Syr. Exegetical Tradition</label>
+                    <p>Even though Theodore of Mopsuestia was known as <hi rend="italic">the</hi>
+                        Interpreter among the East Syrians, only fragments of the original 5th-cent.
+                        translations have come down to us. It seems that he was soon deemed too
+                        difficult to read. The simplification, explication, and defense of Theodore
+                        of Mopsuestia therefore formed a large part of the E.-Syr. exegetical
+                        efforts in the 8th and 9th <abbr>cent.</abbr> The witnesses to this process of
+                        simplification include some unedited question-and-answer collections
+                        attributed to Theodore himself, the Psalter commentaries of <ref rend="bold" target="https://gedsh.bethmardutho.org/Denha">
+                            <persName ref="http://syriaca.org/person/97">Denḥa</persName>
+                        </ref>-Grigor and of
+                        <abbr>ms.</abbr> Sachau 215, and the works to be discussed presently.</p>
+                    <p>
+                        <ref rend="bold" target="https://gedsh.bethmardutho.org/Theodoros-bar-Koni">
+                            <persName ref="http://syriaca.org/person/783">Theodoros bar Koni</persName>
+                        </ref>’s Book of the Scholion (<hi rend="italic">Ktābā d-eskoliyon</hi>), written <abbr>ca.</abbr> 792, explains problems in the form
+                        of questions and answers. It is in fact a systematic introduction to the
+                        entire E.-Syr. intellectual tradition. The author presents his work as an
+                        aid to understanding the commentaries of the Blessed Interpreter for those
+                        who have only just embarked on the study of his works. Theodoros bar Koni
+                        was indeed a very loyal follower of Theodore of Mopsuestia. One of his main
+                        sources must have been a collection of traditional material representing the
+                        common stock of E.-Syr. exegesis, in which problems in Theodore’s exegesis
+                        were dealt with, as well as objections against him.</p>
+                    <p>Around the same time as Bar Koni, <ref rend="bold" target="https://gedsh.bethmardutho.org/Isho-bar-Nun">
+                            <persName ref="http://syriaca.org/person/552">Ishoʿ bar Nun</persName>
+                        </ref>
+                        wrote his Selected Questions on the entire Bible. This collection follows
+                        the biblical text without adding the kind of non-exegetical material that
+                        Bar Koni supplies. If these two authors used the same or a comparable
+                        collection of traditional exegesis at all, we must conclude that Ishoʿ bar
+                        Nun reworked this collection more thoroughly than Bar Koni did. The number
+                        of literal agreements between the two authors is very small. Another
+                        characteristic that sets Ishoʿ bar Nun apart from Bar Koni and Theodore of
+                        Mopsuestia is the use of the concept of <hi rend="italic">theoria</hi> in a
+                        way that most Antiochenes would denounce as allegory.</p>
+                    <p>Perhaps the closest we can get to the exegetical collection that may have
+                        been used at least by Bar Koni is the anonymous Commentary on Genesis–Exodus
+                        9:32 of the <abbr>ms.</abbr> (<choice>
+                     <reg>
+                        <hi rend="italic">olim</hi>
+                     </reg>
+                     <orig>olim</orig>
+                  </choice>) Diyarbakır 22. Like Ishoʿ bar Nun’s Selected
+                        Questions, this work does not have the encyclopedic character of the
+                        commentaries by Bar Koni and Ishoʿdad. It presents itself as an independent,
+                        original commentary, though it is clear that its core goes back to Theodore
+                        of Mopsuestia. As the Diyarbakır Commentary is not reworked in the form of
+                        questions and answers, we are often — but not always — closer to the
+                        original words of Theodore.</p>
+                    <p>In its present form the Diyarbakır Commentary covers only a very small part
+                        of the Bible (Gen.–Ex. 9:32), but Van Rompay (1977) has been able to show
+                        that this work formed the core of <ref rend="bold" target="https://gedsh.bethmardutho.org/Ishodad-of-Merv">
+                            <persName ref="http://syriaca.org/person/555">Ishoʿdad of
+                            Merv</persName>
+                        </ref>’s commentaries on these parts of the Bible (9th-cent.).
+                        Ishoʿdad added other material to this and also used Ishoʿ bar Nun. Even
+                        though Ishoʿdad may occasionally have had access to the original Syriac
+                        translations of Theodore of Mopsuestia’s works, his knowledge of the
+                        Interpreter was often mediated by the Diyarbakır Commentary and other
+                        sources. A unique feature of Ishoʿdad’s work is its use of authors that did
+                        not commonly belong to the E.-Syr. tradition, among whom are even the
+                        Miaphysites Severus of Antioch and Cyril of Alexandria.</p>
+                    <p>The Diyarbakır Commentary also formed the basis of the so-called Anonymous
+                        Commentary on the Pentateuch. In <abbr>ms.</abbr> (<choice>
+                     <reg>
+                        <hi rend="italic">olim</hi>
+                     </reg>
+                     <orig>olim</orig>
+                  </choice>) Diyarbakır 22 we find a version
+                        of the latter work which includes the rest of the <abbr>OT</abbr> as well. For the
+                        sections where the Diyarbakır Commentary is extant, the Anonymous Commentary
+                        summarizes Diyarbakır while adding a limited amount of material from other
+                        sources, including Ishoʿdad. One source almost identical to the Diyarbakır
+                        Commentary and another close to Ishoʿdad and the Anonymous Commentary were
+                        employed in the <abbr>OT</abbr> sections of the <ref rend="bold" target="https://gedsh.bethmardutho.org/Gannat-Bussame">Gannat
+                            Bussāme</ref> (‘Garden of Delights’), together with fragments of the
+                        exegetical <hi rend="italic">memre</hi> of <ref rend="bold" target="https://gedsh.bethmardutho.org/Aba-II-of-Kashkar">
+                            <persName ref="http://syriaca.org/person/307">Aba II of
+                            Kashkar</persName>
+                        </ref> (d. 751). The <hi rend="italic">Gannat Bussāme</hi> is
+                        probably a 10th-cent. commentary on the pericopes read in the liturgy,
+                        arranged according to the liturgical year.</p>
+                    <p>Ishoʿdad was probably also the main source for the Paradise of Christianity
+                        by <ref rend="bold" target="https://gedsh.bethmardutho.org/Ibn-al-Tayyib">
+                            <persName ref="http://syriaca.org/person/543">Ibn
+                            al-Ṭayyib</persName>
+                        </ref> (d. 1043), a commentary on a large part of the Bible.
+                        This E.-Syr. author wrote in Arabic and became the intermediary of the
+                        Theodorian tradition not only to other Christian-Arabic authors, but also to
+                        <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Ethiopic-Christianity-Syriac-contacts-with">Ethiopic Christianity</ref>. A different voice is heard
+                        in <ref rend="bold" target="https://gedsh.bethmardutho.org/Eliya-of-al-Anbar">
+                            <persName ref="http://syriaca.org/person/471">Eliya of al-Anbār</persName>
+                        </ref>’s Book of Instruction (<hi rend="italic">Ktābā
+                            d-durrāšā</hi>; 10th <abbr>cent.</abbr>), in which a number of <abbr>OT</abbr> passages receive
+                        allegorical interpretations. In contrast to him, his contemporary <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Emmanuel-bar-Shahhare">
+                            <persName ref="http://syriaca.org/person/473">Emmanuel bar Shahhare</persName>
+                        </ref>’s Hexaemeron is inspired by Narsai, even in
+                        the form of the work, which consists of 28 <hi rend="italic">memre</hi>.</p>
+                    <p>The last two E.-Syr. works to be mentioned, <ref rend="bold" target="https://gedsh.bethmardutho.org/Shlemon-of-Basra">
+                            <persName ref="http://syriaca.org/person/745">Shlemon of
+                            Baṣra</persName>
+                        </ref>’s Book of the Bee (13th <abbr>cent.</abbr>) and <ref rend="bold" target="https://gedsh.bethmardutho.org/Ishaq-Shbadnaya">
+                            <persName ref="http://syriaca.org/person/551">Isḥaq
+                            Shbadnaya</persName>
+                        </ref>’s Poem on the Divine Economy (15th <abbr>cent.</abbr>), discuss the
+                        entire history of salvation in prose. These works contain much exegetical
+                        material, while the latter author also adds a prose commentary with
+                        quotations from the earlier exegetical tradition.</p>
+                    <label type="subsection">The Later W.-Syr. Exegetical Tradition</label>
+                    <p>As we have seen above, in the 7th <abbr>cent.</abbr> W.-Syr. exegesis was very much
+                        dominated by a number of Greek authors who were read in Syriac translation.
+                        The great polymath <ref rend="bold" target="https://gedsh.bethmardutho.org/Yaqub-of-Edessa">
+                            <persName ref="http://syriaca.org/person/113">Yaʿqub of Edessa</persName>
+                        </ref> (d. 708) and his
+                        followers adopted many of their interpretations. He is not only the author
+                        of a revision of the Peshitta, but he also wrote a Commentary in short on
+                        the Octateuch (Kruisheer), a large number of Scholia, a Commentary on the
+                        Hexaemeron, and a number of letters of exegetical content. The works of
+                        Athanasius, Cyril, and Gregory of Nyssa were thus ‘Syriacized’ in three
+                        stages: after the full translation, an abbreviated version was produced;
+                        finally later Syriac authors such as Yaʿqub wrote their own
+                        commentaries using either the shorter or the full version, and appropriating
+                        interpretations often without indicating their sources. Though the 7th <abbr>cent.</abbr>
+                        was the heyday of the very precise and literal mirror translations, at the
+                        same time a movement began that aimed to make the main exegetical texts more
+                        accessible and especially more compact.</p>
+                    <p>The <abbr>OT</abbr> part of the Commentary by the monk Severos (written in 861) likewise
+                        represents the movement just mentioned. Severos’s work consists, as he
+                        himself states, of a commentary on difficult words of the <abbr>OT</abbr>, based mainly
+                        on Ephrem and Yaʿqub of Edessa, and a commentary on the <abbr>NT</abbr>, based mainly on
+                        John Chrysostom. There are a number of longer additions in this text, and in
+                        addition Shemʿun, the scribe of <abbr>ms.</abbr> Vat. Syr. 103, added a number of
+                        marginal comments. The biblical text quoted is that of the Peshitta, and for
+                        the <abbr>OT</abbr>, the number of explicit references to Greek exegetes (most of which
+                        were added by Shemʿun rather than Severos) is low. All in all, the work
+                        seems to be the opposite of the London Collection: this is the best of
+                        Syriac exegesis on the authentic Syriac Bible, with rather limited use of
+                        Greek sources. This fits very well with the atmosphere among the <abbr>Syr. Orth.</abbr>
+                        in the 8th and 9th <abbr>cent.</abbr>, when Greek learning had become less popular and
+                        even suspect.</p>
+                    <p>From the period of Severos, one should also mention the work of <ref rend="bold" target="https://gedsh.bethmardutho.org/Mushe-bar-Kipho">
+                            <persName ref="http://syriaca.org/person/173">Mushe
+                            bar Kipho</persName>
+                        </ref> (d. 903), which also builds on predecessors, including
+                        Yaʿqub of Edessa. He must have written a commentary on most of the Bible,
+                        but on the <abbr>OT</abbr> mainly a Commentary on the Hexaemeron and a Commentary on
+                        Psalms have survived. Interestingly, he also quotes ‘Theodore the
+                        Nestorian’.</p>
+                    <p>The 10th and 11th <abbr>cent.</abbr> show little activity in the field of W.-Syr.
+                        exegesis. It was not until the period of the <ref rend="bold" target="https://gedsh.bethmardutho.org/Renaissance-Syriac">Syriac
+                            Renaissance</ref> in the 12th and 13th <abbr>cent.</abbr> that <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Dionysios-bar-Salibi">
+                            <persName ref="http://syriaca.org/person/212">Dionysios
+                            bar Ṣalibi</persName>
+                        </ref> and <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Bar-Ebroyo-Grigorios">
+                            <persName ref="http://syriaca.org/person/239">Bar ʿEbroyo</persName>
+                        </ref> compiled new
+                        exegetical collections. These works lean on earlier collections, but also
+                        show evidence of further ‘cultivation’ and ‘pruning’ of the tradition. A
+                        notable feature, for instance, is Bar ʿEbroyo’s openness toward the E.-Syr.
+                        tradition. After the 13th <abbr>cent.</abbr>, hardly any new material was added to the
+                        W.-Syr. exegetical tradition.</p>
+                    <label type="subsection">Conclusion</label>
+                    <p>Syriac biblical interpretation shows a unique richness of metaphors and depth
+                        of spirituality. At the same time, its typological and symbolic
+                        interpretations are usually based on an explanation of the plain sense,
+                        answering the simple questions of what happened and why. Based on a long
+                        literary tradition Syriac-speaking Christians developed their own genres,
+                        both in prose and poetry. Yet from its very beginning Syriac exegesis has
+                        also shown openness to other traditions. Ephrem already knew about different
+                        versions of the biblical text, and the use of alternative readings would
+                        remain a feature of many later Syriac commentaries. He and his
+                        contemporaries also used Jewish exegetical traditions. In the 5th <abbr>cent.</abbr>
+                        Greek interpretations were taken over that may have appeared more precise
+                        and systematic than the earlier Syriac tradition, but they were actually
+                        quite similar in terms of their general approach to the biblical text. Greek
+                        sources became so popular that the exegetes of the 6th and 7th <abbr>cent.</abbr> even
+                        seem to have lost sight of the earlier Syriac tradition.</p>
+                    <p>The balance was redressed, however, after the 7th  cent., paradoxically when
+                        Arab rule gradually began to weaken the position of the Syr. Churches. In
+                        this period, their members started editing anthologies and summaries of
+                        earlier exegetical literature. In the process of sifting, selecting, and
+                        summarizing, choices were made and new elements were added. Thus they built
+                        authoritative interpretative traditions that helped to give answers to
+                        questions posed by the political and religious circumstances of the period.
+                        Though the translation of Greek texts in the 5th <abbr>cent.</abbr> can be associated
+                        with the split between the Syr. Churches, later exegetes would also
+                        recognize the common ground formed by the teaching of Ephrem and the
+                        Cappadocians, by the Antiochene interpretation and method of John
+                        Chrysostom, and by philological comments, even if they originated with their
+                        doctrinal opponents. Some of the existing collections have assumed canonical
+                        status themselves, and are fostered and studied to the present day.</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>Becker, <title rend="italic">Fear of God</title>.</bibl>
+                        <bibl>S. P.  Brock, <title rend="italic">The Bible in the Syriac
+                                tradition</title> (Gorgias Handbooks 7; 2006).</bibl>
+                        <bibl>J.  Joosten, ‘The Old Testament in the New: The Syriac versions of the
+                            New Testament as a witness to the text of the Old Testament Peshitta’,
+                            in <title rend="italic">The Peshitta. Its use in literature and liturgy.
+                                Papers read at the Third Peshitta Symposium</title>, <abbr>ed.</abbr> R. B.  ter
+                            Haar Romeny (<abbr>MPIL</abbr> 15; 2006), 99–106.</bibl>
+                        <bibl>D.  Kruisheer, ‘Ephrem, Jacob of Edessa, and the Monk Severus. An
+                            analysis of <abbr>Ms.</abbr> Vat. Syr. 103, ff. 1–72’, in <abbr>
+                                <title rend="italic">SymSyr</title> VII</abbr>, 599–605.</bibl>
+                        <bibl>C.  Leonhard, <title rend="italic">Ishodad of Merw’s exegesis of the
+                                Psalms 119 and 139–147. A study of his interpretation in the light
+                                of the Syriac translation of Theodore of Mopsuestia’s
+                                Commentary</title> (<abbr>CSCO</abbr> 585, Subs. 107; 2001).</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>C.  Leonhard</reg>
+                        <orig>idem</orig>
+                     </choice>, ‘Die Beschneidung Christi in der syrischen Schatzhöhle.
+                            Beobachtungen zu Datierung und Überlieferung des Werks’, in <title rend="italic">Syriaca II. Beiträge zum 3. deutschen
+                                Syrologen-Symposium</title>, <abbr>ed.</abbr> M. Tamcke (<abbr>SOK</abbr> 33; 2004),
+                            11–28.</bibl>
+                        <bibl>G. J.  Reinink, ‘Tradition and the formation of the “Nestorian”
+                            identity in sixth- to seventh-century Iraq’, in <title rend="italic">Religious origins of nations? The Christian communities of the
+                                Middle East</title>, <abbr>ed.</abbr> R. B. ter Haar Romeny (2010),
+                            217–50.</bibl>
+                        <bibl>R. B.  ter  Haar  Romeny, ‘Question-and-answer collections in Syriac
+                            literature’, in <title rend="italic">Erotapokriseis: Early Christian
+                                Question-and-Answer literature in context</title>, <abbr>ed.</abbr> A.  Volgers
+                            and C.  Zamagni (2004), 145–63.</bibl>
+                        <bibl>R. B.  ter  Haar  Romeny, ‘The Greek vs. the Peshitta in a West Syrian
+                            exegetical collection (BL Add. 12168)’, in <title rend="italic">The
+                                Peshitta. Its use in literature and liturgy. Papers read at the
+                                Third Peshitta Symposium</title>, <abbr>ed.</abbr> R. B. ter Haar Romeny (<abbr>MPIL</abbr>
+                            15; 2006), 297–310.</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>R. B.  ter  Haar  Romeny</reg>
+                        <orig>idem</orig>
+                     </choice>, ‘Greek or Syriac? Chapters in the establishment of a Syrian
+                            Orthodox exegetical tradition’, in <title rend="italic">
+                                <abbr>StPatr</abbr>
+                            </title>,
+                            vol. 41, <abbr>ed.</abbr> F. Young <abbr>et al.</abbr> (2006), 89–95.</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>R. B.  ter  Haar  Romeny</reg>
+                        <orig>idem</orig>
+                     </choice>, ‘Les Pères grecs dans les florilèges exégétiques syriaques’, in
+                                <title rend="italic">Les Pères grecs dans la tradition
+                                syriaque</title>, <abbr>ed.</abbr> A. Schmidt and D. Gonnet, SJ (<abbr>ÉtSyr</abbr> 4; 2007),
+                            63–76.</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>R. B.  ter  Haar  Romeny</reg>
+                        <orig>idem</orig>
+                     </choice>, ‘Ephrem and Jacob of Edessa in the Commentary of the Monk
+                            Severus’, in <title rend="italic">Malphono w-Rabo d-Malphone</title>,
+                            <abbr>ed.</abbr> Kiraz, 535–57.</bibl>
+                        <bibl>S. D.  Ryan, <title rend="italic">Dionysius bar Salibi’s factual and
+                                spiritual Commentary on Psalms 73–82</title> (Cahiers de la Revue
+                            Biblique 57; 2004).</bibl>
+                        <bibl>D. G. K.  Taylor, ‘The manuscript tradition of Daniel of Ṣalaḥ’s Psalm
+                            Commentary’, in <abbr>
+                                <title rend="italic">SymSyr</title> VII</abbr>, 61–9.</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>D. G. K.  Taylor</reg>
+                        <orig>idem</orig>
+                     </choice>, ‘The Psalm Commentary of Daniel of Salah and the formation of
+                            sixth-century Syrian Orthodox identity’, in <title rend="italic">Religious origins of nations? The Christian communities of the
+                                Middle East</title>, <abbr>ed.</abbr> R. B. ter Haar Romeny (2010), 65–92.</bibl>
+                        <bibl>L.  Van Rompay, ‘Išoʿ bar Nun and Išoʿdad of Merv. New data for the
+                            study of the interdependence of their exegetical works’, <title rend="italic">
+                                <abbr>OLP</abbr>
+                            </title> 8 (1977), 229–49.</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>L.  Van Rompay</reg>
+                        <orig>idem</orig>
+                     </choice>, ‘La littérature exégètique syriaque et le rapprochement des
+                            traditions syrienne-orientale et syrienne-occidentale’, <title rend="italic">
+                                <abbr>ParOr</abbr>
+                            </title> 20 (1995), 221–35.</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>L.  Van Rompay</reg>
+                        <orig>idem</orig>
+                     </choice>, ‘The Christian Syriac tradition of interpretation’, in <title rend="italic">Hebrew Bible / Old Testament: The history of its
+                                interpretation</title>, <abbr>ed.</abbr> M. Sæbø <abbr>et al.</abbr>, I.1 (1996),
+                            612–41.</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>L.  Van Rompay</reg>
+                        <orig>idem</orig>
+                     </choice>, ‘Development of Biblical interpretation in the Syrian Churches
+                            of the Middle Ages’, in <title rend="italic">Hebrew Bible / Old
+                                Testament: The history of its interpretation</title>, <abbr>ed.</abbr> M. Sæbø et
+                            al., I.2 (2000), 559–77.</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>L.  Van Rompay</reg>
+                        <orig>idem</orig>
+                     </choice>, ‘Past and present perceptions of Syriac literary tradition’,
+                                <title rend="italic">
+                                <abbr>Hugoye</abbr>
+                            </title> 3.1 (2000).</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>L.  Van Rompay</reg>
+                        <orig>idem</orig>
+                     </choice>, ‘Between the school and the monk’s cell: The Syriac Old
+                            Testament commentary tradition’, in <title rend="italic">The Peshitta.
+                                Its use in literature and liturgy. Papers read at the Third Peshitta
+                                Symposium</title>, <abbr>ed.</abbr> R. B. ter Haar Romeny (<abbr>MPIL</abbr> 15; 2006),
+                            27–51.</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>L.  Van Rompay</reg>
+                        <orig>idem</orig>
+                     </choice>, ‘An ascetic reading of the Book of Job. Fragments from a Syriac
+                            commentary attributed to John the Solitary (<abbr>Ms.</abbr> London, British Library,
+                            Add. 18814, f. 91r–95r)’, <title rend="italic">
+                                <abbr>LM</abbr>
+                            </title> 119 (2006),
+                            1–24.</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Bas</forename> 
+                  <surname>ter Haar Romeny</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

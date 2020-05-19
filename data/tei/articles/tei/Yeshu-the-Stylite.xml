@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Yeshuʿ the Stylite</title>
+            <author>
+               <persName>
+                  <forename>John W.</forename> 
+                  <surname>Watt</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0">Electronic Edition Draft Version 1.0</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Yeshuʿ the Stylite</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Yeshu-the-Stylite</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/602</idno>
+                    <idno type="entry">593</idno>
+                    <milestone unit="pages" n="438-439"/>
+                    <idno type="althead">Joshua the Stylite</idno>
+                    <idno type="subject">http://syriaca.org/person/40</idno>
+                    <note type="type">person</note>
+                    <note type="abstract">Author, possibly pseudonymous, of an important
+                        historical text.
+                    </note>
+                </ab>
+                <ab type="infobox">Joshua the Stylite (after 506) [<abbr>W. Syr.</abbr>]</ab>
+                <div type="body">
+                    <p>Author, possibly pseudonymous, of an important anonymous historical text
+                        bearing the title ‘A historical narrative of the period of distress which
+                        occurred in <ref rend="bold" target="https://gedsh.bethmardutho.org/Edessa">
+                            <placeName ref="http://syriaca.org/place/78">Edessa</placeName>
+                        </ref>, <ref rend="bold" target="https://gedsh.bethmardutho.org/Amid">
+                            <placeName ref="http://syriaca.org/place/8">Amid</placeName>
+                        </ref>, and all
+                        Mesopotamia’. The period in question is the years 494–506, during which
+                        Edessa suffered famine and plague (494–502) and the region experienced a
+                        Persian invasion and a Roman-Persian war (502–506). The work was almost
+                        certainly written, in Edessa, shortly after the end of this war. A single
+                        sentence before the epilogue alludes to the last years of the emperor
+                        Anastasius (d. 518), but this is generally thought to be a later scribal
+                        insertion.</p>
+                    <p>The manner of the text’s transmission is responsible for the uncertainty
+                        regarding the author’s identity. It is not preserved by itself in any <abbr>ms.</abbr>,
+                        but only as a section of the much larger <ref rend="bold" target="https://gedsh.bethmardutho.org/Zuqnin-Chronicle-of">Chronicle of
+                            Zuqnin</ref>, also known as the Chronicle of (Pseudo-) Dionysios of Tel
+                        Maḥre, itself preserved in a single <abbr>ms.</abbr> (Vat. Syr. 162). One folio in this
+                        section of the <abbr>ms.</abbr> is from a later scribe, who identified himself as
+                        Elishaʿ, from the monastery of Zuqnin, and requested God’s mercy not only
+                        for himself, but also for ‘the priest Mar Yeshuʿ the stylite, from the
+                        convent of Zuqnin, who wrote <hi rend="italic">ktobo hono d-ʿuhdono
+                            hono</hi> of the bad times which have passed and of the calamities and
+                        troubles which that tyrant inflicted among men’. From this scribal note,
+                        which has been translated and understood in several different ways, Yeshuʿ
+                        has been variously interpreted as the scribe of the <abbr>ms.</abbr>, the author of the
+                        entire Chronicle of Zuqnin (or both scribe and author), or the author (or an
+                        early scribe) of the discreet section devoted to the period 494–506. If the
+                        Yeshuʿ referred to here is in reality the author or scribe of the whole
+                        Chronicle of Zuqnin, he must have lived sometime after 775 (the date at
+                        which it ends); in that case ‘the calamities and troubles which that tyrant
+                        inflicted among men’ cannot refer to the Persian king Kawad who invaded
+                        Roman territory in 502, but must be related to events in the 8th <abbr>cent.</abbr>
+                        Irrespective of the resolution of this problem, however, references to
+                        ‘Yeshuʿ the stylite’ in scholarly literature are invariably directed to the
+                        narrative of 494–506, although for this reason such references are sometimes
+                        given as ‘Pseudo-Yeshuʿ’.</p>
+                    <p>The narrative of 494–506 is the earliest extant work of Syriac <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Historiography-Syriac">historiography</ref>. Usually designated ‘The Chronicle of (Pseudo-)
+                        Yeshuʿ the stylite’, it falls into different sections, and to some extent
+                        different genres. While the first main section is indeed a chronicle, giving
+                        a year-by-year account of the locust plague, famine and epidemic in Edessa
+                        in 494–502, the other main section, a narrative of the Roman-Persian war of
+                        502–6, is more akin to the genre of a political history, as is the account
+                        of Persian-Roman relations preceding the war, placed by the author in front
+                        of the chronicle of plague in Edessa. There is a highly rhetorical prologue
+                        and epilogue addressed to a (real or fictitious) abbot named Sergios. The
+                        work is an astonishingly rich source for the historian of late antiquity.
+                        Conditions of life in Edessa, including economic conditions, are described
+                        in great detail, and it is the fullest and most accurate account in any
+                        language of the war with which it deals.</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>J. B.  Chabot, <title rend="italic">Incerti auctoris chronicon
+                                pseudo-Dionysianum vulgo dictum</title>, vol. 1 (<abbr>CSCO</abbr> 91, 121; 1927,
+                            1949).</bibl>
+                        <bibl>A.  Harrak, <title rend="italic">The chronicle of Zuqnin parts III and
+                                IV, A.D. 488–775</title> (Mediaeval Sources in Translation 36;
+                            1999).</bibl>
+                        <bibl>A.  Luther, <title rend="italic">Die syrische Chronik des Josua
+                                Stylites</title> (Untersuchungen zur antiken Literatur und
+                            Geschichte 49; 1997).</bibl>
+                        <bibl>A. N.  Palmer, ‘Who wrote the chronicle of Joshua the stylite?’, in
+                                <title rend="italic">Lingua restituta orientalis. Festgabe für
+                                Julius Assfalg</title> (Ägypten und Altes Testament 20; 1990),
+                            272–84.</bibl>
+                        <bibl>E. Riad, <title rend="italic">Studies in the Syriac preface</title>
+                            (Acta Universitatis Upsaliensis, Studia Semitica Upsaliensia 11;
+                            1988).</bibl>
+                        <bibl>F. R.  Trombley and J. W.  Watt, <title rend="italic">The chronicle of
+                                pseudo-Joshua the stylite</title> (<abbr>TTH</abbr> 32; 2000).</bibl>
+                        <bibl>J. W.  Watt, ‘Greek historiography and the “Chronicle of Joshua the
+                            stylite” ’, in <title rend="italic">After Bardaisan</title>, <abbr>ed.</abbr> Reinink
+                            and Klugkist, 317–27.</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>J. W.  Watt</reg>
+                        <orig>idem</orig>
+                     </choice>, ‘Two Syriac writers from the reign of Anastasius: Philoxenus of
+                            Mabbug and Joshua the Stylite’, <title rend="italic">
+                                <abbr>Harp</abbr>
+                            </title> 20
+                            (2006), 275–93.</bibl>
+                        <bibl>W.  Witakowski, <title rend="italic">Pseudo-Dionysius of Tel-Mahre.
+                                Chronicle (known also as the Chronicle of Zuqnin). Part III</title>
+                            (<abbr>TTH</abbr> 22; 1996).</bibl>
+                        <bibl>W.  Wright, <title rend="italic">The chronicle of Joshua the
+                                stylite</title> (1882; <abbr>repr.</abbr> Gorgias Historical Texts 8;
+                            2003).</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>John W.</forename> 
+                  <surname>Watt</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

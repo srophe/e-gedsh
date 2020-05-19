@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Abgarids of Edessa</title>
+            <author>
+               <persName>
+                  <forename>Timothy Scott</forename> 
+                  <surname>Wardle</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0">Electronic Edition Draft Version 1.0</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Abgarids of Edessa</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Abgarids-of-Edessa</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/20</idno>
+                    <idno type="entry">11</idno>
+                    <milestone unit="pages" n="5-7"/>
+                    <note type="type">org</note>
+                    <note type="abstract">Dynasty of kings who ruled in <placeName ref="http://syriaca.org/place/78">Edessa</placeName> from <abbr>ca.</abbr> 133 BC
+                        until the middle of the 3rd <abbr>cent.</abbr>
+                        <note/>
+                    </note>
+                </ab>
+                <div type="body">
+                    <p>Dynasty of kings who ruled in <ref rend="bold" target="https://gedsh.bethmardutho.org/Edessa">
+                            <placeName ref="http://syriaca.org/place/78">Edessa</placeName>
+                        </ref> from <abbr>ca.</abbr> 133
+                        BC until the middle of the 3rd <abbr>cent.</abbr> The most common names in this line of
+                        kings are Abgar and Maʿnu, both of which are of a North Arabian type. The
+                        disintegration of the Seleucid Empire in the 2nd <abbr>cent.</abbr> BC allowed the
+                        Abgarids to establish their power. With the appearance of the Romans in the
+                        Near East in the 1st <abbr>cent.</abbr> BC, the Abgarids were able to maintain Edessa and
+                        the surrounding area of Osrhoene as a more or less independent buffer state
+                        between the Roman and the Parthian empires. Our main source for the list of
+                        <abbr>ca.</abbr> 30 Edessene kings is the late 8th-cent. <ref rend="bold" target="https://gedsh.bethmardutho.org/Zuqnin-Chronicle-of">Chronicle of
+                            Zuqnin</ref>. Additional information is occasionally provided by other
+                        sources, Syriac and non-Syriac, as well as by coins. Of particular interest
+                        is the E.-Syr. Chronicle of <ref rend="bold" target="https://gedsh.bethmardutho.org/Eliya-of-Nisibis">
+                            <persName ref="http://syriaca.org/person/472">Eliya of
+                            Nisibis</persName>
+                        </ref> (d. 1046).</p>
+                    <p>Our knowledge of the earliest history is very limited. It becomes more
+                        substantial from the moment when Rome began to extend its reach into
+                        Mesopotamia, i.e., from Abgar VII (109–116) on through the end of the
+                        dynasty. In the 2nd and early 3rd <abbr>cent.</abbr> the relationship between Rome and
+                        Edessa intensified; it reached its climax under Abgar VIII, the Great
+                        (177–212). Rome finally imposed its power on Edessa when in 212/13 the
+                        short-lived reign of Abgar VIII’s successor was ended and the city declared
+                        a Roman <choice>
+                            <sic>colonia</sic>
+                            <corr>
+                                <hi rend="italic">colonia</hi>
+                            </corr>
+                        </choice>. The dynasty was briefly restored in 239, but by 242 Rome
+                        had once again taken full control. Whether this was the definitive end or
+                        whether the dynasty in one form or another continued to exist for some
+                        years, as <ref rend="bold" target="https://gedsh.bethmardutho.org/Yaqub-of-Edessa">
+                            <persName ref="http://syriaca.org/person/113">Yaʿqub of
+                            Edessa</persName>
+                        </ref> seems to suggest in his Chronicle, is unclear.</p>
+                    <p>It is under the Abgarid kings that the distinctive <ref rend="bold" target="https://gedsh.bethmardutho.org/Aramaic">Aramaic</ref> language
+                        form that later became known as ‘Syriac’ first started being used in <ref rend="bold" target="https://gedsh.bethmardutho.org/Inscriptions">inscriptions</ref>. The <ref rend="bold" target="https://gedsh.bethmardutho.org/Script-Syriac">script</ref> of the
+                        inscriptions is closely related to the <hi rend="italic">Esṭrangela</hi> of
+                        the earliest, 5th-cent. Syriac <abbr>mss.</abbr> (even though some of the mosaic
+                        inscriptions exhibit a slightly more cursive type). Mosaics, numismatic
+                        evidence, and a number of inscriptions, mostly funerary, provide glimpses
+                        into Edessa’s social and cultural life. In addition to its Aramaic
+                        background, these also reveal the impact of Roman as well as of Parthian
+                        culture. Several of the preserved mosaics can be dated to the reign of Abgar
+                        VIII or to the period when Edessa was under Roman rule.</p>
+                    <p>The two kings most closely associated with Syriac Christianity are Abgar V
+                        Ukkama (‘the Black’, 4  BC–AD 7 and 13–50) and Abgar VIII. The former was
+                        alleged to have corresponded with Jesus and, at the arrival of the apostle
+                        Addai, to have converted to Christianity, along with most of the city. This
+                        legend is first mentioned in <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Eusebius-of-Caesarea">
+                            <persName ref="http://syriaca.org/person/480">Eusebius of
+                            Caesarea</persName>
+                        </ref>’s Ecclesiastical History (early 4th <abbr>cent.</abbr>) and is further
+                        developed in the early 5th-cent. <ref rend="bold" target="https://gedsh.bethmardutho.org/Addai-Teaching-of">Teaching of
+                            Addai</ref>. Some scholars have suggested that the historical kernel
+                        relates to Abgar VIII and was retrojected into the reign of Abgar V.
+                        However, the few indications that Abgar VIII might have been a Christian
+                        each pose their problems. First, the addition in the <choice>
+                     <reg>‘</reg>
+                     <orig/>
+                  </choice>Book of the Laws of
+                        Countries<choice>
+                     <reg>’</reg>
+                     <orig/>
+                  </choice>, by <ref rend="bold" target="https://gedsh.bethmardutho.org/Bardaisan">
+                            <persName ref="http://syriaca.org/person/3">Bardaiṣan</persName>
+                        </ref>’s pupil
+                        Philippus (<abbr>ca.</abbr> 200), that Abgar VIII outlawed the practice of
+                        self-castration ‘when he came to faith’ (<hi rend="italic">kad haymen</hi>)
+                        may very well be a later interpolation, as it is lacking from the quotation
+                        of the relevant passage in Eusebius of Caesarea’s ‘Preparation for the Gospel’ (VI,10,44). Second, even though Sextus
+                        Julius Africanus describes Abgar VIII as a ‘holy man’ (as quoted from the
+                        ‘Kestoi’ in George Synkellos’s ‘Chronography’), this
+                        does not necessarily point to the Christian religion. As a matter of fact,
+                        the various renderings of this term include not only <hi rend="italic">hieros</hi> ‘holy’ (<choice>
+                            <sic>
+                                <hi rend="italic">Synkellos</hi>
+                            </sic>
+                            <corr>Synkellos</corr>
+                        </choice>), <hi rend="italic">sanctus</hi> ‘holy’ (Jerome’s Latin translation of Eusebius’s
+                        Chronicle), and <hi rend="italic">kāhnāyā</hi> ‘priestly’ (<choice>
+                            <sic>Yaʿqub of
+                            Edessa</sic>
+                            <corr>
+                                <ref rend="bold" target="https://gedsh.bethmardutho.org/Yaqub-of-Edessa">
+                                    <persName ref="http://syriaca.org/person/113">Yaʿqub of
+                            Edessa</persName>
+                                </ref>
+                            </corr>
+                        </choice>), but also terms that do not take on a religious connotation, such as
+                            <hi rend="italic">šappirā</hi> ‘excellent’ (Chronicle to the year 724)
+                        and <hi rend="italic">azniw</hi> ‘noble’ (Armenian version of Eusebius’s
+                        Chronicle). Also noteworthy is the fact that the coins and the mosaic
+                        portrait of Abgar VIII (published by Drijvers) do not reveal any Christian
+                        symbols or ideology. It is very unlikely, therefore, that Abgar VIII — or
+                        any other king of the Abgar dynasty — ever converted to Christianity.
+                        Christianity, however, did exist in Edessa under Abgar  VIII. According to
+                        Sextus Julius Africanus, the Christian author Bardaiṣan was an intimate of
+                        the royal court. In addition, a brief comment (seen by some as a later
+                        addition) in the account of the flood of Edessa in the year 201, as
+                        preserved in the 6th-cent. <ref rend="bold" target="https://gedsh.bethmardutho.org/Chronicle-of-Edessa">Chronicle of
+                            Edessa</ref>, reports that the ‘sanctuary of the church of the
+                        Christians’ (<hi rend="italic">hayklā d-ʿedtā da-kresṭyāne</hi>) had
+                        suffered damage.</p>
+                    <p>If none of the Edessene kings ever was Christian, it is all the more
+                        interesting that the Abgarid dynasty, decades after its disappearance, had a
+                        Christian afterlife and became an important element in the self-definition
+                        of Syriac Christians.</p>
+                    <p>See <ref target="https://gedsh.bethmardutho.org/fig/1">Fig. 1</ref>.</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>W. Adler, ‘Sextus Julius Africanus and the Roman Near East in
+                            the 3<hi rend="superscript">rd</hi> century’, <title rend="italic">
+                                <abbr>JTS</abbr>
+                            </title>
+                            <abbr> ns</abbr> 55 (2004), esp. 530–9.</bibl>
+                        <bibl>S. P. Brock, ‘Some new Syriac documents from the third century AD’,
+                                <title rend="italic">ARAM</title> 3 (1991), 259–67.</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>S. P. Brock</reg>
+                        <orig>idem</orig>
+                     </choice>, ‘Eusebius and Syriac Christianity’, in <title rend="italic">Eusebius, Christianity, and Judaism</title>, <abbr>ed.</abbr> H. W. Attridge and
+                            G.  Hata (1992), 212–234.</bibl>
+                        <bibl>H.  J.  W.  Drijvers, ‘A tomb for the life of a king. A recently
+                            discovered Edessene mosaic with a portrait of king Abgar the Great’,
+                                <title rend="italic">
+                                <abbr>LM</abbr>
+                            </title> 95 (1982), 167–89.</bibl>
+                        <bibl>Drijvers and Healey, <title rend="italic">The Old Syriac
+                                Inscriptions</title>.</bibl>
+                        <bibl>A. Camplani and T. Gnoli, ‘Edessa e Roma. A proposito di un libro
+                            recente’, <title rend="italic">Mediterraneo Antico</title> 4 (2001),
+                            41–68.</bibl>
+                        <bibl>A. Luther, ‘Elias von Nisibis und die Chronologie der edessenischen
+                            Könige’, <title rend="italic">Klio</title> 81 (1999), 180–198.</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>A. Luther</reg>
+                        <orig>idem</orig>
+                     </choice>, ‘Die ersten Könige von Osrhoene’, <title rend="italic">Klio</title> 81 (1999), 437–454.</bibl>
+                        <bibl>Millar, <title rend="italic">Roman Near East</title>, esp. 457–67,
+                            472–81.</bibl>
+                        <bibl>S. K. Ross, <title rend="italic">Roman Edessa. Politics and culture on
+                                the Eastern fringe of the Roman Empire, 114–224 CE</title>
+                            (2001).</bibl>
+                        <bibl>J. B. Segal, <title rend="italic">Edessa ‘The Blessed City’</title>
+                            (1970; <abbr>repr.</abbr> 2005).</bibl>
+                        <bibl>L. Van Rompay, ‘Jacob of Edessa and the early history of Edessa’, in
+                                <title rend="italic">After Bardaisan</title>, <abbr>ed.</abbr> Reinink and
+                            Klugkist, 269–85.</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Timothy Scott</forename> 
+                  <surname>Wardle</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

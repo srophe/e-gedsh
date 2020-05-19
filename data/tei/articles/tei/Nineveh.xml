@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Nineveh</title>
+            <author>
+               <persName>
+                  <forename>Joel T.</forename> 
+                  <surname>Walker</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0">Electronic Edition Draft Version 1.0</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Nineveh</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Nineveh</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/408</idno>
+                    <idno type="entry">399</idno>
+                    <milestone unit="pages" n="308-310"/>
+                    <idno type="althead">Ninwe</idno>
+                    <idno type="subject">http://syriaca.org/place/144</idno>
+                    <note type="type">place</note>
+                    <note type="abstract">Ancient city in northern <placeName>Iraq</placeName> located on the eastern side of the
+                            <placeName ref="http://syriaca.org/place/202">Tigris River</placeName>,
+                        directly across from the medieval and modern city of <placeName ref="http://syriaca.org/place/139">Mosul</placeName>.<note/>
+                    </note>
+                </ab>
+                <ab type="infobox">Ninwe</ab>
+                <div type="body">
+                    <p>A very ancient city in northern Iraq located on the eastern side of the
+                        Tigris River, directly across from the medieval and modern city of <ref rend="bold" target="https://gedsh.bethmardutho.org/Mosul">
+                            <placeName ref="http://syriaca.org/place/139">Mosul</placeName>
+                        </ref>.
+                        The site owed its earliest development, from <abbr>ca.</abbr> 6000 BC, to its position
+                        beside a crossable portion of the Tigris (Oates 1968, 52). Nineveh reached
+                        its apex in the 7th <abbr>cent.</abbr> BC, when it served as the capital of the
+                        Neo-Assyrian Empire under Kings Sennacherib (<abbr>r.</abbr> 705–681 BC), Esarhaddon (<abbr>r.</abbr>
+                        681–69 BC), and Ashurbanipal (<abbr>r.</abbr> 668–27 BC). The rediscovery of its royal
+                        palaces played a central role in the development of modern Assyriology. In
+                        1847, a thirty-year old Englishman named Austen Henry Layard began
+                        excavations at the site and almost immediately uncovered the remains of
+                        Sennacherib’s palace beneath the modern tell called Kuyunjik. Six years
+                        later, in 1853, Layard’s former assistant, Hormuzd Rassam, a Chaldean
+                        Christian from Mosul, excavated the palace of Ashurbanipal. Recent
+                        scholarship has finally given Rassam due credit for this discovery, an
+                        accomplishment obscured at the time by British Museum officials, who
+                        attacked Rassam as an ‘Oriental’ unqualified to run the excavation
+                        (Larsen 1994, esp. 317–32). British archaeologists continued to conduct
+                        intermittent excavations at Nineveh over the next century, followed by the
+                        Iraqis from the second half of the 1960s. American excavations (1987–1990)
+                        found dramatic evidence for Nineveh’s destruction in 612 BC, when a combined
+                        force of Medes, Elamites, and Babylonians burned and pillaged the city
+                        (Stronach and Lumsden 1992).</p>
+                    <p>In both ancient and modern culture, Nineveh’s destruction has often served as
+                        an evocative paradigm for the sudden collapse of a mighty empire. But as
+                        stories about the destruction of Assyrian Nineveh percolated in Classical
+                        and Near Eastern folklore, the city itself experienced a long, slow
+                        recovery, eventually re-emerging as a significant urban center and then
+                        bishopric. Under the Seleucids, the city was re-founded as a <hi rend="italic">polis</hi> and received ‘at least the superficial forms of
+                        Hellenistic city organization’ (Oates 1968, 61). Greek inscriptions and
+                        sculptural fragments attest to the strength of the city’s Hellenistic
+                        culture as late as the 2nd <abbr>cent.</abbr> AD (Reade 1998). Not surprisingly,
+                        Hellenistic and indigenous traditions often intertwined or merged (Reade
+                        2001, 198).</p>
+                    <p>By the early 3rd <abbr>cent.</abbr> AD, Christianity had established a significant
+                        presence in the surrounding territory of <ref rend="bold" target="https://gedsh.bethmardutho.org/Adiabene">
+                            <placeName ref="http://syriaca.org/place/993">Adiabene</placeName>
+                        </ref>, which
+                        operated as a semi-autonomous kingdom, with its capital at <ref rend="bold" target="https://gedsh.bethmardutho.org/Arbela">
+                            <placeName ref="http://syriaca.org/place/13">Arbela</placeName>
+                        </ref> (modern
+                        Erbil), until the Sasanian conquests of the 220s. When and how Christianity
+                        arrived in Nineveh remains unclear. Local tradition among the modern
+                        Christians of Mosul holds that a monastery dedicated to the Prophet Jonah
+                        was built on the tell of Nabī Yūnus during the 4th <abbr>cent.</abbr> (Fiey 1965, vol. 2,
+                        497–8). But there is no indisputable textual or archaeological evidence for
+                        Christianity at the site until the mid-6th <abbr>cent.</abbr>, when <ref rend="bold" target="https://gedsh.bethmardutho.org/Ahudemmeh">
+                            <persName ref="http://syriaca.org/person/325">Aḥudemmeh</persName>
+                        </ref>, <abbr>bp.</abbr> of
+                        Nineveh, participated in the E.-Syr. synod of 554. Later bishops of the city
+                        included the future <abbr>Patr. </abbr>
+                        <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Ishoyahb-III-of-Adiabene">
+                            <persName ref="http://syriaca.org/person/561">Ishoʿyahb III</persName>
+                        </ref> (d.  659) and, briefly, the renowned 7th-cent.
+                        mystic <ref rend="bold" target="https://gedsh.bethmardutho.org/Ishaq-of-Nineveh">
+                            <persName ref="http://syriaca.org/person/550">Isḥaq of
+                            Nineveh</persName>
+                        </ref> (Fiey 1993, 115–16). At some stage before the mid-9th
+                        <abbr>cent.</abbr>, the bishopric was merged with that of Mosul, which appears to have
+                        grown rapidly following its foundation as an Arab camp (<hi rend="italic">miṣr</hi>) in the 640s.</p>
+                    <p>Nineveh also served as the base for a <abbr>Syr. Orth.</abbr> bishopric, closely
+                        associated with the nearby <ref rend="bold" target="https://gedsh.bethmardutho.org/Matay-Dayro-d-Mor">
+                            <persName ref="http://syriaca.org/person/227">Dayro d-Mor
+                            Matay</persName>
+                        </ref> (Fiey 1965, 349–53; idem 1993, 239–40). One of the first
+                        holders of the bishopric, Mar Zakkay (593–605), distinguished himself as an
+                        intrepid polemicist against the ‘Nestorians’ (Fiey 1965, vol. 2, 783; idem
+                        2004, 197–98). After the victory of the Emperor Heraclius at the Battle of
+                        Nineveh in 626, the <abbr>Syr. Orth.</abbr> expanded their presence throughout the entire
+                        region. A <abbr>Syr. Orth.</abbr> school established at Nineveh in the early 7th <abbr>cent.</abbr>
+                        had more than 300 students at its height in the <choice>
+                            <sic>mid–9th</sic>
+                            <corr>mid-9th</corr>
+                        </choice> 
+                  <abbr>cent.</abbr> (Fiey 1965,
+                        vol. 2, 499).</p>
+                    <p>Local Christians recognized Nineveh as the former capital of the Neo-Assyrian
+                        Empire, but their understanding of this past was fragmentary, distorted, and
+                        sometimes fantastic. Stories about imperial Nineveh included the aphorisms
+                        of the Assyrian sage <ref rend="bold" target="https://gedsh.bethmardutho.org/Ahiqar">
+                            <persName ref="http://syriaca.org/person/323">Aḥiqar</persName>
+                        </ref> and the
+                        Biblical books of Tobit and Jonah. Syr. Christians had long been fascinated
+                        by the story of the Ninevites’ repentance (Jonah 3:1–10), an episode that
+                        inspired a popular <hi rend="italic">memrā</hi> by the poet <ref rend="bold" target="https://gedsh.bethmardutho.org/Ephrem">
+                            <persName ref="http://syriaca.org/person/13">Ephrem</persName>
+                        </ref> (d. 373).
+                        Sometime between the late 560s and the mid-7th <abbr>cent.</abbr>, the Rogation of the
+                        Ninevites was adopted as a formal festival of the <abbr>Ch. of E.</abbr> to celebrate the
+                        passing of the plague (Fiey 1965, 498, esp. n. 5, on the problem of the
+                        dating). The Rogation, also known as the Fast of the Ninevites, continues to
+                        be celebrated with great intensity and three-day fasts in some E.-Syr.
+                        communities today.
+                    </p>
+                    <p>The archaeology of Christianity at Nineveh has only recently begun to receive
+                        close attention (Simpson 2005). Christian objects found during the British
+                        excavations include fragments of a painted stucco cross and a small brass
+                        lamp with a cross-shaped lid. Unfortunately, the famous monastery of Jonah,
+                        which stood atop the modern tell of Nabī Yūnus, is known only from textual
+                        sources. In 701, the ill-fated E.-Syr. <abbr>Patr. </abbr>
+                        <ref rend="bold" target="https://gedsh.bethmardutho.org/Henanisho-I">
+                            <persName ref="http://syriaca.org/person/531">Ḥenanishoʿ</persName>
+                        </ref> was buried in the monastery, and its chapel was
+                        restored by the <abbr>Patr.</abbr> Sargis (860–72). By this time, the monastery had also
+                        become a favorite haunt for the revelries of Islamic visitors, who penned
+                        enthusiastic verses about its wine (Fiey 1965, 2, 500). At some point in the
+                        10th <abbr>cent.</abbr>, if not before, the monastery was transformed into an Islamic
+                        shrine (<hi rend="italic">masjad</hi>) dedicated to the prophet Jonah (Nabī
+                        Yūnus). This mosque remains to this day a much-venerated shrine visited by
+                        members of all the religious communities of the region.</p>
+                    <p>Gradually, beginning in late antiquity, the countryside surrounding Nineveh
+                        filled with a mixture of villages belonging to either the <abbr>Ch. of E.</abbr> or the
+                        <abbr>Syr. Orth.</abbr> Church, often living in close proximity to local Muslims, Jews,
+                        and Yazidis. Many of these villages developed strong local traditions of
+                        Christian architecture and scribal activity (Fiey 1965, vol. 2, 354–491).
+                        Even in the modern Diaspora, the distinct identity of many of these
+                        Christian villages, such as <ref rend="bold" target="https://gedsh.bethmardutho.org/Telkepe">
+                            <placeName ref="http://syriaca.org/place/197">Telkepe</placeName>
+                        </ref> and <ref rend="bold" target="https://gedsh.bethmardutho.org/Qaraqosh">
+                            <placeName ref="http://syriaca.org/place/262">Qaraqosh</placeName>
+                        </ref>, has not been forgotten.</p>
+                    <p>See <ref target="https://gedsh.bethmardutho.org/fig/91">Fig. 91</ref>.</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>Fiey, <title rend="italic">Assyrie chrétienne</title>, vol. 2
+                            (1965), 321–674.</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>Fiey</reg>
+                        <orig>idem</orig>
+                     </choice>, <title rend="italic">Pour un Oriens christianus
+                            novus</title> (1993), 115–16.</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>Fiey</reg>
+                        <orig>idem</orig>
+                     </choice>, <title rend="italic">Saints syriaques</title> (2004).</bibl>
+                        <bibl>M. T.  Larsen, <title rend="italic">The conquest of Assyria:
+                                Excavations in an antique land</title> (1994).</bibl>
+                        <bibl>D. Oates, <title rend="italic">Studies in the ancient history of
+                                Northern Iraq</title> (1968).</bibl>
+                        <bibl>J. Reade, ‘Greco-Parthian Nineveh’, <title rend="italic">Iraq</title>
+                            60 (1998), 65–83.</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>J. Reade</reg>
+                        <orig>idem</orig>
+                     </choice>, ‘More about Adiabene’, <title rend="italic">Iraq</title> 63
+                            (2001), 187–99.</bibl>
+                        <bibl>S. J. Simpson, ‘Christians at Nineveh in late antiquity’, <title rend="italic">Iraq</title> 67 (2005), 285–94.</bibl>
+                        <bibl>D.  Stronach and S.  Lumsden, ‘UC Berkeley’s Excavations at Nineveh’,
+                                <title rend="italic">Biblical Archaeologist</title> (Dec. 1992),
+                            227–33.</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Joel T.</forename> 
+                  <surname>Walker</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

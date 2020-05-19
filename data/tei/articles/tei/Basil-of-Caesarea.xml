@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Basil of Caesarea</title>
+            <author>
+               <persName>
+                  <forename>Sebastian P.</forename> 
+                  <surname>Brock</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0">Electronic Edition Draft Version 1.0</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Basil of Caesarea</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Basil-of-Caesarea</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/96</idno>
+                    <idno type="entry">87</idno>
+                    <milestone unit="pages" n="64"/>
+                    <idno type="subject">http://syriaca.org/person/376</idno>
+                    <note type="type">person</note>
+                    <note type="abstract">
+                        <abbr>Bp.</abbr> of Caesarea and Greek author.<note/>
+                    </note>
+                </ab>
+                <ab type="infobox">(<abbr>ca.</abbr> 330–379)</ab>
+                <div type="body">
+                    <p>
+                        <abbr>Bp.</abbr> of Caesarea and Greek author. Basil was one of the three great
+                        Cappadocian Fathers, and the brother of Gregory of Nyssa and Macrina. He was
+                        appointed <abbr>bp.</abbr> of Caesarea in Cappadocia in 370, and according to the
+                        6th-cent. ‘Life of Ephrem’ he was visited by <ref rend="bold" target="https://gedsh.bethmardutho.org/Ephrem">
+                            <persName ref="http://syriaca.org/person/13">Ephrem</persName>
+                        </ref>; the episode,
+                        however, is legendary and is based on a misidentification of an anonymous
+                        ‘Syrian’ in Basil’s writings (the Syrian is now known to have been <ref rend="bold" target="https://gedsh.bethmardutho.org/Eusebius-of-Emesa">
+                            <persName ref="http://syriaca.org/person/481">Eusebius of Emesa</persName>
+                        </ref>, who was born in <ref rend="bold" target="https://gedsh.bethmardutho.org/Edessa">
+                            <placeName ref="http://syriaca.org/place/78">Edessa</placeName>
+                        </ref>). Many of
+                        Basil’s writings (in Greek) were translated into Syriac (sometimes twice,
+                        first in the 5th, and then again in the 6th/7th <abbr>cent.</abbr>: the earlier
+                        translations were often very free, whereas the later ones keep much closer
+                        to the Greek originals).</p>
+                    <p>The following are the more important works translated into Syriac:</p>
+                    <p>1. ‘Homilies on the Hexaemeron’ (<hi rend="italic">
+                            <abbr>CPG</abbr>
+                        </hi> 2835): <abbr>ed.</abbr> with
+                        <abbr>ET</abbr>, R. W. Thomson (<abbr>CSCO</abbr> 550–1; 1995). This early (and rather free)
+                        translation was in turn translated into Armenian.</p>
+                    <p>2. ‘Treatise on the Holy Spirit’ (<hi rend="italic">
+                            <abbr>CPG</abbr>
+                        </hi> 2839): <abbr>ed.</abbr> with
+                        <abbr>ET</abbr>, D. G. K. Taylor (<abbr>CSCO</abbr> 576–7; 1999). Only the older version is preserved
+                        complete, in three very old <abbr>mss.</abbr>; of the later version there are only
+                        quotations.</p>
+                    <p>3. Homilies (<hi rend="italic">
+                            <abbr>CPG</abbr>
+                        </hi> 2845–69): these are mostly preserved
+                        in both an early and a later translation; they remain unpublished. Some of
+                        these homilies were incorporated into the liturgical Homiliaries.</p>
+                    <p>4. Small Asceticon (<hi rend="italic">
+                            <abbr>CPG</abbr>
+                        </hi> 2876): the Syriac version,
+                        which is entitled ‘Questions to the Brethren’, is a particularly important
+                        witness to this work, since the only other witness is the Latin translation
+                        by Rufinus (d. <abbr>ca.</abbr> 401), the Greek original having been lost (only the Great
+                        Asceticon survives in Greek). The early Syriac translation, preserved in a
+                        number of early <abbr>mss.</abbr>, has not yet been published apart from excerpts (by J.
+                        Gribomont).
+                    </p>
+                    <p>5. Letters (<hi rend="italic">
+                            <abbr>CPG</abbr>
+                        </hi> 2900). 18 Letters from Basil’s very
+                        large correspondence survive in Syriac translation. Letter 2, addressed to
+                            <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Gregory-of-Nazianzus">
+                            <persName ref="http://syriaca.org/person/511">Gregory of
+                            Nazianzus</persName>
+                        </ref>, on the monastic life, was much read, to judge by the
+                        number of <abbr>mss.</abbr> preserving it (some <abbr>mss.</abbr> identify the addressee as Gregory of
+                        Nyssa, and in others a further text of unknown origin has been added to it).
+                        Only two of the Letters have so far been published: Letter 38 (in fact
+                        probably not by Basil but by his brother Gregory of Nyssa, <hi rend="italic">
+                            <abbr>CPG</abbr>
+                        </hi> 3196), by M. Parmentier, in <hi rend="italic">Studien zu
+                            Gregor von Nyssa</hi>, <abbr>ed.</abbr> H.  Drobner and C. Klock (1990), 17–55<choice>
+                            <sic>.</sic>
+                            <corr>,</corr>
+                        </choice> and
+                        (independently) M. Albert, in <hi rend="italic">ARAM</hi> 5 (1993), 33–64;
+                        and Letter 160, by A. Vööbus, in <hi rend="italic">The Synodicon in the West
+                            Syrian Tradition</hi> (<abbr>CSCO</abbr> 367–8; 1975), 189–94 (Syr.), 178–82 (<abbr>ET</abbr>).
+                        (An edition of Letter 2 is in preparation).</p>
+                    <p>6. A few texts attributed to Basil in Syriac are unknown in Greek. This
+                        applies to: a. A homily against the Anomoeans (<hi rend="italic">
+                            <abbr>CPG</abbr>
+                        </hi>
+                        2988.14 Suppl.), <abbr>ed.</abbr> with <abbr>LT</abbr> by A. Van Roey, in <title rend="italic">
+                            <abbr>OLP</abbr>
+                        </title>
+                        28 (1997), 179–91. b. 6 letters, one of which, addressed to the <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Tell-Ada-Monastery-of">
+                            <placeName ref="http://syriaca.org/place/233">Monastery of Tell ʿAda</placeName>
+                        </ref>, has been edited by M. Albert, in <hi rend="italic">After Bardaisan</hi>, <abbr>ed.</abbr> Reinink and Klugkist (<abbr>OLA</abbr> 89),
+                        11–22. c. A narrative poem, clearly composed in Syriac, on the biblical
+                        patriarch Joseph and his brothers; this has been published in two parts, by
+                        M. Weinberg (1893) and S. W. Link (1895). <abbr>ET</abbr> by K. Heal in preparation;
+                        there are Arabic and Ethiopic translations.</p>
+                    <p>7. Various liturgical texts are ascribed to Basil in Syriac: a. A translation
+                        of the Greek Anaphora of Basil, found in Rum Orthodox liturgical <abbr>mss.</abbr>; b. A
+                        (different) Syr. <choice>
+                            <sic>Orth</sic>
+                            <corr>Orth.</corr>
+                        </choice>, and <abbr>Maron.</abbr> Anaphora; c. The Melkite (Rum Orthodox)
+                        baptismal rite; d. A short Maronite baptismal rite.</p>
+                    <p>Besides works by Basil, Syriac also preserves some hagiographical texts
+                        concerning Basil.</p>
+                    <p>He is commemorated on 1 Jan.</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>
+                            <title rend="italic">
+                                <abbr>CPG</abbr>
+                            </title> 2835–3008.</bibl>
+                        <bibl>S. P.  Brock, ‘Traduzioni siriache degli scritti di Basilio’, in
+                                <title rend="italic">Basilio tra Oriente e Occidente</title>, <abbr>ed.</abbr> E.
+                            Baudry <abbr>et al.</abbr> (2001), 165–80. (contains detailed list of works
+                            translated)</bibl>
+                        <bibl>J.  Gribomont, <title rend="italic">Histoire du texte des Ascétiques
+                                de s. Basile</title> (1953).</bibl>
+                        <bibl>A.  Muraviev, ‘La partie syriaque du dossier hagiographique de s.
+                            Basile le Grand’, in <abbr>
+                                <title rend="italic">SymSyr</title> VII</abbr>,
+                            203–10.</bibl>
+                        <bibl>P.  Rousseau, <title rend="italic">Basil of Caesarea</title> (1994).
+                            (for the wider background)</bibl>
+                        <bibl>D. G. K.  Taylor, ‘Basil of Caesarea’s contacts with Syriac-speaking
+                            Christians’, <title rend="italic">
+                                <abbr>StPatr</abbr>
+                            </title>, vol. 32 (1997),
+                            213–9.</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Sebastian P.</forename> 
+                  <surname>Brock</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

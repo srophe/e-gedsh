@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Yawsep Ḥazzaya</title>
+            <author>
+               <persName>
+                  <forename>Robert A.</forename> 
+                  <surname>Kitchen</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0">Electronic Edition Draft Version 1.0</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Yawsep Ḥazzaya</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Yawsep-Hazzaya</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/598</idno>
+                    <idno type="entry">589</idno>
+                    <milestone unit="pages" n="437"/>
+                    <idno type="althead">Joseph ‘The Seer’</idno>
+                    <idno type="althead">Joseph ‘The Visionary’</idno>
+                    <idno type="subject">http://syriaca.org/person/816</idno>
+                    <note type="type">person</note>
+                    <note type="abstract">Theologian, abbot, and solitary of the <abbr>Ch. of E.</abbr>; author of spiritual works.<note/>
+                    </note>
+                </ab>
+                <ab type="infobox">Joseph ‘The Seer’ or ‘The Visionary’ (8th <abbr>cent.</abbr>) [Ch. of E.]</ab>
+                <div type="body">
+                    <p>Theologian, abbot, and solitary of the <abbr>Ch. of E.</abbr>, who has been viewed as the
+                        systematizer of the mystical and ascetic life for the Syriac-speaking
+                        churches. The primary source for Yawsep’s life is ‘The Book of Chastity’ by
+                            <ref rend="bold" target="https://gedsh.bethmardutho.org/Ishodnah">
+                            <persName ref="http://syriaca.org/person/556">Ishoʿdnaḥ</persName>
+                        </ref> of Baṣra (<abbr>ca.</abbr> 868–70). Yawsep was born to Persian
+                        Zoroastrian parents in the village of Nimrud early in the 8th <abbr>cent.</abbr> (<abbr>ca.</abbr>
+                        710?). After the village rebelled against Caliph ʿUmar <abbr>b.</abbr> ʿAbd al-ʿAzīz (<abbr>r.</abbr>
+                        717–20), the latter retaliated, and soldiers captured the seven-year-old
+                        Yawsep, eventually selling him as a slave to an Arab, then later to a
+                        Christian of Qardu in present-day northern Iraq. Impressed by the life of
+                        the monks of the nearby monastery of Yoḥannan of Kamul, Yawsep asked to be
+                        baptized and was allowed to enter at a young age into the monastery of Abba
+                        Ṣliba in <ref rend="bold" target="https://gedsh.bethmardutho.org/Beth-Nuhadra">
+                            <placeName ref="http://syriaca.org/place/36">Beth Nuhadra</placeName>
+                        </ref>
+                        in northern Iraq. After the obligatory novitiate in the cenobitic community,
+                        Yawsep established himself as a hermit in Qardu for a number of years. Later
+                        he was made the head of the monastery of Mar Bassima, also in Qardu, but
+                        eventually he returned to the eremitic life in the mountain of Zinai in <ref rend="bold" target="https://gedsh.bethmardutho.org/Adiabene">
+                            <placeName ref="http://syriaca.org/place/993">Adiabene</placeName>
+                        </ref> of northeast Iraq. In the neighborhood of his hermitage
+                        was another monastery, that of Rabban Bakhtishoʿ, and before long Yawsep was
+                        persuaded to become their abbot, remaining until his death. <ref rend="bold" target="https://gedsh.bethmardutho.org/Abdisho-bar-Brikha">
+                            <persName ref="http://syriaca.org/person/310">ʿAbdishoʿ bar
+                            Brikha</persName>
+                        </ref> (d. 1318) said that Yawsep had written an incredible number
+                        of works, 1900 in total, but only ten were extant by ʿAbdishoʿ’s time. His
+                        most systematic work, ‘A letter on the three stages of the monastic life’,
+                        was not positively identified as his work until the last thirty years. In
+                        the <abbr>ms.</abbr> tradition it was attributed to <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Philoxenos-of-Mabbug">
+                            <persName ref="http://syriaca.org/person/44">Philoxenos
+                            of Mabbug</persName>
+                        </ref>, but a number of items in and about the text had raised
+                        questions about its authorship for quite some time. A synod called in
+                        786–787 by the <abbr>
+                            <choice>
+                                <sic>Patr.</sic>
+                                <corr>patr.</corr>
+                            </choice>
+                        </abbr> of the <abbr>Ch. of E.</abbr> 
+                  <ref rend="bold" target="https://gedsh.bethmardutho.org/Timotheos-I">
+                            <persName ref="http://syriaca.org/person/790">Timotheos I</persName>
+                        </ref>
+                        condemned a trio of writers — <ref rend="bold" target="https://gedsh.bethmardutho.org/Yohannan-Ihidaya">
+                            <persName ref="http://syriaca.org/person/827">Yoḥannan
+                            Iḥidaya</persName>
+                        </ref>, <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Yohannan-of-Dalyatha">
+                            <persName ref="http://syriaca.org/person/826">Yoḥannan of
+                            Dalyatha</persName>
+                        </ref>, and Yawsep Ḥazzaya — for some of their theological
+                        ideas. Yawsep was accused of messalianist tendencies, supposedly claiming
+                        that it is necessary to reject prayer and the office in order to receive the
+                        gifts of the Spirit. Allied to this is the alleged doctrine that the <hi rend="italic">gmirā</hi> (the perfect or mature person) no longer has
+                        any need of active prayer, the offices, reading, or manual labor. Neither
+                        charge has any substantive foundation in the known writings of Yawsep. The
+                        synod denied the possibility of perfection for human nature, except for that
+                        of Christ.</p>
+                </div>
+                <div type="bibl">
+                    <listBibl>
+                        <listBibl>
+                            <head>Primary Souces</head>
+                            <bibl>Brock, <title rend="italic">The Syriac Fathers on Prayer</title>,
+                                314–25. (<abbr>ET</abbr> of ‘On spiritual prayer’, and ‘On the stirrings of the
+                                mind during prayer’)</bibl>
+                            <bibl>G.  Bunge, <title rend="italic">Rabban Jauseph Hazzaya. Briefe
+                                    über das geistliche Leben und verwandte Schriften. Ostsyrische
+                                    Mystik des 8. Jahrhunderts</title> (1982). (<abbr>GT</abbr>)</bibl>
+                            <bibl>P.  Harb and F. Graffin, <title rend="italic">Lettre sur les trois
+                                    étapes de la vie monastique</title> (<abbr>PO</abbr> 45.2; 1992). (Syr. and
+                                <abbr>FT</abbr>)</bibl>
+                            <bibl>A.  Mingana, <title rend="italic">Early Christian Mystics</title>
+                                (Woodbrooke Studies7; 1934), 145–84, 262–81. (<abbr>ET</abbr> of ‘Treatise on the
+                                Workings of the Grace of God’, under the name of his brother
+                                ʿAbdishoʿ)</bibl>
+                        </listBibl>
+                        <listBibl>
+                            <head>Secondary Sources</head>
+                            <bibl>R.  Beulay, ‘Joseph Hazzaya’, <title rend="italic">
+                                    <abbr>DSpir</abbr>
+                                </title>,
+                                vol. 8 (1974), 1341–9.</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>R.  Beulay</reg>
+                           <orig>idem</orig>
+                        </choice>, ‘Des centuries de Joseph Hazzaya retrouvées?’<choice>
+                                    <sic>,</sic>
+                                    <corr/>
+                                </choice> 
+                        <title rend="italic">
+                                    <abbr>ParOr</abbr>
+                                </title> 3 (1972), 5–44.</bibl>
+                            <bibl>P.  Harb, ‘Faut-il restituer à Joseph Hazzaya la Lettre sur les
+                                trois degrés de la vie monastique attribuée à Philoxène de Mabboug?’
+                                    <title rend="italic">Melto</title> 4 (1968), 13–36.</bibl>
+                            <bibl>T.  Olickal, <title rend="italic">The three stages of spiritual
+                                    realization according to Joseph Hazzaya</title> (2000).</bibl>
+                            <bibl>E. J.  Sherry, ‘The life and works of Joseph Hazzaya’, in <title rend="italic">The seed of wisdom: Essays in honour of T. J.
+                                    Meek</title>, <abbr>ed.</abbr> W. Stewart McCullough (1964), 78–91.</bibl>
+                        </listBibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Robert A.</forename> 
+                  <surname>Kitchen</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

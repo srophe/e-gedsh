@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Gabriel, Monastery of Mor</title>
+            <author>
+               <persName>
+                  <forename>Andrew N.</forename> 
+                  <surname>Palmer</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0">Electronic Edition Draft Version 1.0</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Gabriel, Monastery of Mor</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Gabriel-Monastery-of-Mor</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/223</idno>
+                    <idno type="entry">214</idno>
+                    <milestone unit="pages" n="167-169"/>
+                    <idno type="althead" subtype="altorder">Monastery of Mor Gabriel</idno>
+                    <idno type="althead">Monastery of Qarṭmin</idno>
+                    <idno type="subject">http://syriaca.org/place/226</idno>
+                    <note type="type">place</note>
+                    <note type="abstract">Famous monastery in Tur Abdin, founded in the late fourth century.<note>not a summary</note>
+                    </note>
+                </ab>
+                <ab type="infobox">Monastery of Qarṭmin</ab>
+                <div type="body">
+                    <p>The Monastery of Qarṭmin began long before its official foundation date of
+                        397. The founders were Shmuel (Samuel) of Eshtin and his disciple Shemʿun
+                        (Simeon) of Qarṭmin. In the village of Qarṭmin (Yayvantepe) there is a
+                        church of the martyred <abbr>bp.</abbr> Karpos, Shmuel’s spiritual father. Karpos was
+                        killed, according to the Life of Shmuel, by Persian raiders on the southern
+                        escarpment of <ref rend="bold" target="https://gedsh.bethmardutho.org/Tur-Abdin">
+                            <placeName ref="http://syriaca.org/place/221">Ṭur ʿAbdin</placeName>
+                        </ref>, which
+                        rises from the Plain of <ref rend="bold" target="https://gedsh.bethmardutho.org/Nisibis">
+                            <placeName ref="http://syriaca.org/place/142">Nisibis</placeName>
+                        </ref>. The most
+                        likely context is 350, when Nisibis, then a Roman city, was besieged. Shmuel
+                        fled north from the raiders, into the hills, and so came to the village of
+                        Qarṭmin, where he acquired a disciple, Shemʿun. Together they lived in a
+                        ruined temple now called ‘The Arches of Mor Gabriel’. Then the boy Shemʿun
+                        had a dream in which he was commanded by an angel to build a Beth Ṣlutho
+                        (open-air enclosure for prayer) further to the west. Perhaps Shemʿun was
+                        still alive when, more than forty years later, the Roman Emperor established
+                        the institution officially by his benefaction in 397.</p>
+                    <p>The answer to the question of how the <choice>
+                            <sic>Emperor</sic>
+                            <corr>emperor</corr>
+                        </choice> in Constantinople came to hear
+                        of this remote monastery and to consider it worthy of his attention must be
+                        connected with the Roman frontier-garrison in the Castle of Tur ʿAbdin built
+                        after the Persian raid of 350. The Christian soldiers in the castle honoured
+                        the holy men of Qarṭmin and attributed the security of the frontier partly
+                        to their prayers. It may well be that the Emperor also believed in the
+                        efficacy of the holy men’s prayers and that the first large benefactions to
+                        Qarṭmin (gold to build buildings, valuable communion vessels, and vestments
+                        for the liturgy) were intended not only to raise morale, but also to
+                        propitiate the God of Victories. The gesture of Honorius and Arcadius was
+                        repeated even more generously by the following administration, that of
+                        Theodosius II.</p>
+                    <p>Theodosius’s death nearly coincided with the Council of Chalcedon (451), for
+                        which the new Emperor, Marcian, was personally responsible. Considering the
+                        later reputation of Qarṭmin as a focus of opposition to Chalcedon, it seems
+                        likely that, by disagreeing with that council, the monks forfeited a
+                        benefaction from this emperor. For the rest of the century confusion
+                        reigned. Some emperors, like Zeno and Anastasius, tried to compromise on the
+                        apparently insoluble issue of Chalcedon. But in 512, Anastasius, changing
+                        his policy, sided with the opponents of the Council. In the same year,
+                        according to the record preserved at Qarṭmin, he caused a church with a
+                        splendid prayer hall to be built there. This is still in use as the main
+                        church of the monastery. It seems likely that he also built the so-called
+                        ‘Dome of Theodora’, an octagon of identical height and building materials,
+                        and that this was originally used as a baptistery. Later, when there were no
+                        longer large numbers of adult converts to Christianity who came to the
+                        monastery to be baptized after making a penitential pilgrimage, the dome was
+                        used as a kitchen. The great slab in the main church was made in the 8th
+                        <abbr>cent.</abbr> for the purpose of making bread dough; for many centuries it stood
+                        under the dome.</p>
+                    <p>After Anastasius, no emperor declared himself an opponent of Chalcedon, and
+                        no emperor made a benefaction to Qarṭmin. There is a story that the Empress
+                        <ref rend="bold" target="https://gedsh.bethmardutho.org/Theodora-Empress">
+                            <persName ref="http://syriaca.org/person/779">Theodora</persName>
+                        </ref>, consort of Justinian I, who was
+                        undoubtedly a great friend of monks and especially of those opposed to the
+                        Council of Chalcedon, visited Qarṭmin and gave it the dome which is named
+                        after her. This report is unworthy of credence.</p>
+                    <p>The monastery became the residence of a <abbr>bp.</abbr> when the Persian Conquest created
+                        vacancies on four sees in the area; the abbot of Qarṭmin was asked to fill
+                        them all until suitable men could be found for those outside Ṭur ʿAbdin. By
+                        the time of the Arab Conquest, in 639/40, the abbot of Qarṭmin, now Gabriel
+                        of Beth Qustan (Bequsyone), was managing two dioceses from his monastery:
+                        that of Ṭur ʿAbdin and that of Dara. No doubt the success with which he
+                        negotiated a treaty with the Arab conquerors, protecting the rights of the
+                        Christians in his region, made him great in the eyes of later generations.
+                        When his Life came to be written, little was remembered about him, which
+                        shows that it took time for him to acquire the reputation of a saint. He had
+                        certainly acquired it by the year 774, in which the plague raged in Ṭur
+                        ʿAbdin, killing 94 monks at Qarṭmin and all the prominent people at <ref rend="bold" target="https://gedsh.bethmardutho.org/al-Salib-Dayr">
+                            <placeName ref="http://syriaca.org/place/68">Dayr
+                            al-Ṣalīb</placeName>
+                        </ref>. After 30 Qarṭmin monks had died in a single night, the
+                        corpse of Gabriel was exhumed and fixed upright in the church to pray for an
+                        end to the plague. After this, the right arm was detached and taken to Ḥaḥ,
+                        near Dayr al-Ṣalīb, to bring an end to the plague there also.</p>
+                    <p>The loss of 94 monks did not bring to an end the prosperity of Qarṭmin, which
+                        was now sometimes called Dayro d-ʿUmro (Arabic <hi rend="italic">Dayr
+                            al-ʿUmr</hi>), though it did perhaps make people begin to call it ‘The
+                        Monastery of Gabriel’. The miracle performed by Mor Gabriel may also have
+                        created a need for a written history of the monastery including the Lives of
+                        Shmuel and Shemʿun and a Life of Gabriel (‘The Qarṭmin Trilogy’).</p>
+                    <p>Mor Shemʿun d-Zayte, ‘Simeon of the Olive-Trees’ (d. 734), a monk of Qarṭmin,
+                        became <abbr>bp.</abbr> of <ref rend="bold" target="https://gedsh.bethmardutho.org/Harran">
+                            <placeName ref="http://syriaca.org/place/216">Ḥarran</placeName>
+                        </ref> and used his influence to build in and around Nisibis,
+                        whose Christian community (existing alongside Zoroastrians) was largely Ch.
+                        of E., profit-making installations, such as olive-presses, water-mills,
+                        bath-houses, and inns, which would add to the income of the Monastery of
+                        Qarṭmin. Qarṭmin remained buoyant into the late 8th <abbr>cent.</abbr>; but after about
+                        800 a decline set in. The 9th <abbr>cent.</abbr> seems to have been a period of low ebb.
+                        ‘Mor Gabriel’s Monastery’ settled down into a cosy relationship with the
+                        neighbouring villages, particularly Beth Sbirino (Bsorino) to the east. It
+                        was a man from that village, <abbr>
+                            <choice>
+                                <sic>bp.</sic>
+                                <corr>Bp.</corr>
+                            </choice>
+                        </abbr> Yuḥanon, who revived, in the 11th <abbr>cent.</abbr>
+                        (after it had been extinct for a <abbr>cent.</abbr>), the ancient Edessene script for use
+                        in making new parchment copies of the Gospels. He called it <hi rend="italic">sreṭ ewangeliyon</hi> ‘Gospel script’ (one of the possible
+                        etymologies of the name esṭrangelo). One ms. written out and illustrated by
+                        his nephews, Emmanuel and Niho, monks of Qarṭmin, is extant in Berlin. <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Bar-Ebroyo-Grigorios">
+                            <persName ref="http://syriaca.org/person/239">Bar ʿEbroyo</persName>
+                        </ref> speaks of a total of seventy such volumes
+                        by these calligraphists in the library of Qarṭmin. This ‘renaissance’ was
+                        ultimately the consequence of the Byzantine reconquest of <ref rend="bold" target="https://gedsh.bethmardutho.org/Melitene">
+                            <placeName ref="http://syriaca.org/place/136">Melitene</placeName>
+                        </ref> in
+                        934.</p>
+                    <p>The Monastery of Mor Gabriel is today the residence of the <abbr>bp.</abbr> of Ṭur ʿAbdin
+                        and gives the appearance of great prosperity, though the villages all around
+                        are becoming depopulated.</p>
+                    <p>See <ref target="https://gedsh.bethmardutho.org/fig/52">Fig. 52</ref> and <ref target="https://gedsh.bethmardutho.org/fig/53">53</ref>.</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <p>(For further details and literature, see <ref rend="bold" target="https://gedsh.bethmardutho.org/Tur-Abdin">Ṭur ʿAbdin</ref>)</p>
+                    <listBibl>
+                        <bibl>E.  Aydin, <title rend="italic">Das Leben des heiligen Gabriel. The
+                                Life of Saint Gabriel. Tašʿito d-qadišo Mor
+                            Gabriʾel</title> (2009).</bibl>
+                        <bibl>F.  Briquel-Chatonnet, ‘Note sur l’histoire du monastère de
+                            Saint-Gabriel de Qartamin’, <title rend="italic">
+                                <abbr>LM</abbr>
+                            </title> 98 (1985),
+                            95–102.</bibl>
+                        <bibl>S. P.  Brock, ‘The Fenqitho of the Monastery of Mor Gabriel in Tur
+                            ʿAbdin’, <title rend="italic">
+                                <abbr>OKS</abbr>
+                            </title> 28 (1979), 168–82.</bibl>
+                        <bibl>P. Y.  Dolapönü, <title rend="italic">Maktab zabne d- ʿumro qadišo
+                                d-Qarṭmin</title> (Mardin, 1959). (in Syriac; Turkish edition in
+                                <title rend="italic">Mor Gabriel. Dayrul-umur tarihi</title>
+                            [Istanbul, 1971])</bibl>
+                        <bibl>Fiey, <title rend="italic">Pour un Oriens christianus novus</title>,
+                            254–6.</bibl>
+                        <bibl>E. J. W.  Hawkins and M. C.  Mundell, ‘The mosaics of the monastery of
+                            Mar Samuel, Mar Simeon and Mar Gabriel near Kartmin’, <title rend="italic">
+                                <abbr>DOP</abbr>
+                            </title> (1973), 279–96.</bibl>
+                        <bibl>J. Leroy, ‘Deux baptistères paléochrétiens d’Orient méconnus’, <title rend="italic">
+                                <abbr>CahArch</abbr>
+                            </title> 25 (1976), 1–6.</bibl>
+                        <bibl>A. N. Palmer, <title rend="italic">Sources for the history of the
+                                Abbey of Qartmin in Tur ʿAbdin</title> (Ph.D. Diss., Oxford;
+                            1982).</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>A. N. Palmer</reg>
+                        <orig>idem</orig>
+                     </choice>, <title rend="italic">Tašʿyoto d-qadiše mor(y) šmuʾel w-mor(y)
+                                šemʿun w-mor(y) gabriʾel d-Qarṭmin</title> [The Lives of Saint
+                            Shmuel, Saint Shemʿun and Saint Gabriel of Qarṭmin] (Glane/Losser,
+                            1983).</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>A. N. Palmer</reg>
+                        <orig>idem</orig>
+                     </choice>, <title rend="italic">Monk and mason on the Tigris frontier: the
+                                early history of Ṭur ʿAbdin</title> (University of Cambridge
+                            Oriental Publications 39; 1990).</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>A. N. Palmer</reg>
+                        <orig>idem</orig>
+                     </choice>, ‘The Life of Gabriel of Qartmīn’, in <title rend="italic">Christian-Muslim relations</title>, <abbr>ed.</abbr> Thomas and Roggema,
+                            892–7.</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Andrew N.</forename> 
+                  <surname>Palmer</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

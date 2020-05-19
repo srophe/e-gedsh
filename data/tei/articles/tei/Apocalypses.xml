@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Apocalypses</title>
+            <author>
+               <persName>
+                  <forename>Sebastian P.</forename> 
+                  <surname>Brock</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0">Electronic Edition Draft Version 1.0</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Apocalypses</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Apocalypses</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/49</idno>
+                    <idno type="entry">40</idno>
+                    <milestone unit="pages" n="25-27"/>
+                    <note type="type">subject</note>
+                    <note type="abstract">Apocalypses, or Revelations, aim to disclose
+                        eschatological events and in order to enhance their authority they are often
+                        attributed to past authorities; sometimes it is an angel who makes the
+                        disclosure. Several such apocalypses exist in Syriac.<note/>
+                    </note>
+                </ab>
+                <div type="body">
+                    <p>Apocalypses, or Revelations, aim to disclose eschatological events and in
+                        order to enhance their authority they are often attributed to past
+                        authorities; sometimes it is an angel who makes the disclosure. Such works
+                        tend to be produced at times of crises in society.</p>
+                    <p>Two Apocalypses are transmitted in the great Milan <abbr>ms.</abbr> of the <ref rend="bold" target="https://gedsh.bethmardutho.org/Peshitta">Peshitta</ref> 
+                  <abbr>OT</abbr> (7a1), the ‘Revelation of Baruch’ and ‘The Book of
+                        Ezra the Scribe who is called Shelathiel’ (usually referred to as IV
+                        Esdras); both are edited (by S. Dedering and R. Bidawid) in <hi rend="italic">Vetus Testamentum Syriace</hi> IV.3 (1973). Lections from
+                        both works are sometimes found, indicating their quasi-canonical authority.
+                        Both Apocalypses are of Jewish origin and are usually dated <abbr>ca.</abbr> AD 100;
+                        their original language was probably Hebrew. The Revelation of Baruch
+                        survives complete only in Syriac and an Arabic translation (<abbr>ed.</abbr> F. Leemhuis,
+                        A. F. J. Klijn, G. J. H. van Gelder, 1986) made from Syriac (a few fragments
+                        only are known in Greek); by contrast, IV  Esdras (confusingly also called
+                        II Esdras in modern translations of the Apocrypha/Deuterocanonical books) is
+                        also known in Latin, Armenian, Coptic (a fragment), Ethiopic, and Georgian;
+                        the intermediary Greek, however, is lost.</p>
+                    <p>The <abbr>NT</abbr> Apocalypse of John is not part of the Peshitta canon, but two later
+                        W.-Syr. translations were subsequently made, one in the 6th <abbr>cent.</abbr> (<abbr>ed.</abbr> J.
+                        Gwynn, 1897, <abbr>repr.</abbr> 2005), the other <abbr>ca.</abbr> 615, by <ref rend="bold" target="https://gedsh.bethmardutho.org/Tumo-of-Harqel">
+                            <persName ref="http://syriaca.org/person/87">Ṭumo of
+                            Ḥarqel</persName>
+                        </ref> (photographic <abbr>ed.</abbr>, A. Vööbus, <abbr>CSCO</abbr> 400, 1978). Older
+                        printed editions of the Peshitta <abbr>NT</abbr> include the Ḥarqlean version, while more
+                        recent ones give the 6th-cent. version. The book only occasionally received
+                        a commentary (notably by <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Dionysios-bar-Salibi">
+                            <persName ref="http://syriaca.org/person/212">Dionysios
+                            bar Ṣalibi</persName>
+                        </ref>).</p>
+                    <p>The Apocalypse of Paul purports to describe what Paul saw when he was raised
+                        to the ‘third heaven’ (2 Cor 12:2), and how he was given a tour of both
+                        paradise and the place of punishment. The work, which was originally written
+                        in Greek (<abbr>ed.</abbr> K. Tischendorff, <hi rend="italic">Apocalypses Apocryphae</hi>
+                        [1866, <abbr>repr.</abbr> 1966], 34–69), proved to be immensely popular, and was
+                        translated into many languages, including Syriac (<abbr>ed.</abbr> G. Ricciotti, in <hi rend="italic">Orientalia</hi> 2 [1933], 1–25, 120–49; <abbr>ET</abbr> by J. Perkins,
+                            <title rend="italic">
+                            <abbr>JAOS</abbr>
+                        </title> 8 [1866], 183–212). It has usually been
+                        thought that the earliest form of the Apocalypse goes back to the 3rd <abbr>cent.</abbr>,
+                        and that a ‘second edition’ was later issued, claiming that it had been
+                        discovered in a house in Tarsus in 388 (or possibly 420). More recently it
+                        has been proposed that the supposed ‘second edition’ was in fact the
+                        original form of the Apocalypse. The Syriac translation places the Tarsus
+                        narrative at the end, and has a preface by the translator at the beginning.
+                        The edition of a variant Syriac version is being prepared by A. Desreumaux.
+                        The Coptic Apocalypse of Paul, found at Nag Hammadi<choice>
+                            <sic/>
+                            <corr>,</corr>
+                        </choice> is a different work (<abbr>ed.</abbr>
+                        with <abbr>FT</abbr>, J.-M. Rosenthiel, 2005).</p>
+                    <p>The turbulent political events of the 7th <abbr>cent.</abbr> gave rise to a number of
+                        texts of an apocalyptic nature, this time all composed in Syriac. The
+                        Persian invasion of the eastern provinces of the Byzantine Empire, capturing
+                            <ref rend="bold" target="https://gedsh.bethmardutho.org/Jerusalem">
+                            <placeName ref="http://syriaca.org/place/104">Jerusalem</placeName>
+                        </ref> in 614 and the relic of the Cross, followed eventually
+                        by Heraclius’s successful compaigns and recovery of the Cross (630),
+                        probably provide the scenario for a poem (transmitted in three different
+                        forms) on Alexander the Great ‘and the Gates of the North’, attributed to
+                            <ref rend="bold" target="https://gedsh.bethmardutho.org/Yaqub-of-Serugh">
+                            <persName ref="http://syriaca.org/person/42">Yaʿqub of Serugh</persName>
+                        </ref>, but evidently composed between 630 and 636 (<abbr>ed.</abbr>
+                        with <abbr>GT</abbr>, G. J. Reinink, <abbr>CSCO</abbr> 454–5, 1983; <abbr>ET</abbr> in E. A. W. Budge, <hi rend="italic">The History of Alexander the Great</hi> [1889, <abbr>repr.</abbr> 1976],
+                        163–200). This draws on a christianized form of the <ref rend="bold" target="https://gedsh.bethmardutho.org/Alexander-Cycle">Alexander</ref> legend from not long before 630 which proved very
+                        influential (Budge, <hi rend="italic">History of Alexander</hi>, 144–58 [<abbr>ET</abbr>], 255–75 [Syr.]).</p>
+                    <p>Another Apocalypse making use of the theme of the ‘Gates of the North’ is the
+                        Syriac Apocalypse of Daniel (<abbr>ed.</abbr> with <abbr>ET</abbr>, M. Henze, 2001; <abbr>ed.</abbr> with Esperanto
+                        tr., M. Slabczyk, 2000). This work is completely different from the Greek
+                        Apocalypses of Daniel; Syriac is clearly its original language and parts of
+                        it are parallel with another Syriac apocryphon, the ‘Young Daniel,
+                        concerning the End’ (<abbr>ed.</abbr> H. Schmold, Ph. D. Diss., Hamburg; 1972). The lack
+                        of any indication of contemporary events, prior to ‘the End’, make it
+                        difficult to date these works, but the first half of the 7th <abbr>cent.</abbr> seems
+                        likely.</p>
+                    <p>A <hi rend="italic">memrā</hi> ‘On the End’, wrongly attributed to <ref rend="bold" target="https://gedsh.bethmardutho.org/Ephrem">
+                            <persName ref="http://syriaca.org/person/13">Ephrem</persName>
+                        </ref>
+                            (<hi rend="italic">Sermo</hi> III.5; <abbr>ed.</abbr> E. Beck, <abbr>CSCO</abbr> 320–1, 1972),
+                        which also makes use of the christianized Alexander legend, has been dated
+                        to <abbr>ca.</abbr> 640, soon after the Arab conquests, though it could alternatively
+                        come from a few decades later in the 7th <abbr>cent.</abbr> The unrelated Latin sermon
+                        ‘on the End’, also attributed to Ephrem, is probably later than the
+                        Apocalypse of Pseudo-Methodius.</p>
+                    <p>The Second Civil War (683–92) and the plague of 686–7 gave rise to the
+                        inclusion of a number of apocalyptic features in the final book 15 of <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Yohannan-bar-Penkaye">
+                            <persName ref="http://syriaca.org/person/821">Yoḥannan bar Penkaye</persName>
+                        </ref>’s ‘Book of the Main Points’, written <abbr>ca.</abbr> 687
+                        in north Mesopotamia. The apocalyptic preface to the <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Testament-of-our-Lord-Jesus-Christ">Testament of our Lord</ref>, translated by Yaʿqub (probably, of <ref rend="bold" target="https://gedsh.bethmardutho.org/Yaqub-of-Edessa">
+                            <persName ref="http://syriaca.org/person/113">Edessa</persName>
+                        </ref>)
+                        in 686/7 will also date from that time if the preface was indeed the work of
+                        the translator.</p>
+                    <p>The immensely influential <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Methodius-Apocalypse-of-Pseudo-">Apocalypse of
+                            Pseudo-Methodius</ref>, attributed to the <abbr>bp.</abbr> of that name who was
+                        martyred in 312<choice>
+                            <sic/>
+                            <corr>,</corr>
+                        </choice> very probably dates from 691/2, the time of ʿAbd al-Malik’s
+                        tax reforms and the building of the Dome of the Rock (<abbr>ed.</abbr> with <abbr>GT</abbr> G. J.
+                        Reinink, <abbr>CSCO</abbr> 540–1, 1993; <abbr>ET</abbr> in P. J. Alexander, <hi rend="italic">The
+                            Byzantine Apocalyptic Tradition</hi> [1985], 36–51; partial <abbr>ET</abbr> in A.
+                        Palmer, <hi rend="italic">The seventh century in the West-Syriac chronicles
+                        </hi>[1993], 230–42). This draws on themes found in the <ref rend="bold" target="https://gedsh.bethmardutho.org/Cave-of-Treasures">Cave of
+                            Treasures</ref>, the <ref rend="bold" target="https://gedsh.bethmardutho.org/Julian-Romance">Julian
+                            Romance</ref>, and the Alexander legend, and foretells, in
+                        eschatological terms, the end of Arab rule. Related to Pseudo-Methodius, but
+                        from slightly later, is the ‘Edessene Fragment’ (<abbr>ed.</abbr> F. Nau, in <title rend="italic">
+                            <abbr>JA</abbr>
+                        </title> 11.9 [1917], 415–71; <abbr>ET</abbr> in Palmer, <hi rend="italic">The seventh century</hi>, 243–50); following the example
+                        of Pseudo-Methodius, it draws further on the Julian Romance, and also on the
+                        legend of Queen Helena and Judas Quryaqos, for its portrayal of the Last
+                        World Emperor on Golgotha. The apocalyptic section in the <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Gospel-of-the-Twelve-Apostles">Gospel of the Twelve Apostles</ref> attributed to John ‘the Little’, is
+                        thought to date from much the same time.</p>
+                    <p>The extended apocalyptic section in the legend of Bḥira (see <ref rend="bold" target="https://gedsh.bethmardutho.org/Sargis-Bhira">
+                            <persName ref="http://syriaca.org/person/718">Sargis Bḥira</persName>
+                        </ref>)
+                        probably dates from about the mid-9th <abbr>cent.</abbr> in its present form, but its
+                        roots may go back to the end of the reign of Maʾmūn (813–33).</p>
+                    <p>‘The Question asked by Ezra in the desert with his disciple Carpus concerning
+                        the end of the times of the Ishmaelites’ (<abbr>ed.</abbr> with <abbr>GT</abbr>, F. Baethgen, in <title rend="italic">
+                            <abbr>ZAW</abbr>
+                        </title> 6 [1886], 193–211; <abbr>ed.</abbr> with <abbr>FT</abbr>, J.-B. Chabot, in
+                            <hi rend="italic">Revue sémitique</hi> 2 [1894], 242–50, 333–46) has
+                        been ascribed to many different dates, ranging from the 7th to 11th/12th
+                        <abbr>cent.</abbr> An Ethiopic version (unpublished) is also known.</p>
+                    <p>The composition of pseudepigraphical apocalypses could also be for the
+                        purpose of personal ambition, as is indicated by a passage in <ref rend="bold" target="https://gedsh.bethmardutho.org/Michael-I-Rabo">
+                            <persName ref="http://syriaca.org/person/217">Michael Rabo</persName>
+                        </ref>’s Chronicle (XI.22) where he tells how
+                        Quryaqos <abbr>bp.</abbr> of Segestan and Bar Salta of <ref rend="bold" target="https://gedsh.bethmardutho.org/Reshayna">
+                            <placeName ref="http://syriaca.org/place/172">Reshʿayna</placeName>
+                        </ref> composed
+                        an ‘Apocalypse of Enoch’, foretelling the reign of Marwān (II) and his son,
+                        which they presented to Marwān in order to win his support in church
+                        affairs.</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>C.  Balzaretti, ‘L’apocalisse del <choice>
+                                <sic>Giovanne Daniel</sic>
+                                <corr>giovane Daniele</corr>
+                            </choice>’, <title rend="italic">Rivista di Storia e Letteratura Religiosa</title> 42
+                            (2006), 109–29.</bibl>
+                        <bibl>S. P.  Brock, ‘Two editions of a new Syriac Apocalypse of Daniel’,
+                                <title rend="italic">
+                                <abbr>JAC</abbr>
+                            </title> 48/49 (2005/6), 7–18.</bibl>
+                        <bibl>J. H.  Charlesworth (<abbr>ed.</abbr>), <title rend="italic">The Old Testament
+                                Pseudepigrapha, </title>I (1983), 517–59 (IV Esdras, by B.M.
+                            Metzger), 615–52 (Apoc. Baruch, by A.F.J. Klijn).</bibl>
+                        <bibl>M.  Debié, ‘Les apocalypses apocryphes syriaques’, in <title rend="italic">Les apocryphes syriaques</title> (<abbr>ÉtSyr</abbr> 2; 2005),
+                            111–46. (with further references)</bibl>
+                        <bibl>A. M.  Denis, <title rend="italic">Introduction à la littérature
+                                religieuse judéo-hellénistique,</title> I (2000), 719–47 (Apoc.
+                            Baruch), 815–53 (IV Esdras). (with further references)</bibl>
+                        <bibl>A.  Desreumaux, ‘La préface à l’Apocalypse de Paul’, <title rend="italic">Apocrypha</title> 4 (1993), 65–82.</bibl>
+                        <bibl>M. Geerard, <title rend="italic">Clavis Apocryphorum Novi
+                                Testamenti</title> (1992).</bibl>
+                        <bibl>J.-C. Haelewyck, <title rend="italic">Clavis Apocryphorum Veteris
+                                Testamenti</title> (1998).</bibl>
+                        <bibl>Hoyland, <title rend="italic">Seeing Islam</title>. (a very useful
+                            guide to 7th-cent. sources)</bibl>
+                        <bibl>L.  Leloir, ‘Interdépendance et “interindépendance” des littératures
+                            syriaque, arménienne et géorgienne’, in <abbr>
+                                <title rend="italic">SymSyr</title> III</abbr>, 119–34. (on Apocalypse of Paul).</bibl>
+                        <bibl>F. J.  Martinez, <title rend="italic">Eastern Christian Apocalyptic in
+                                the Early Muslim Period</title> (Ph. D. Diss., Catholic University of
+                            America; 1985).</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>F.J. Martinez</reg>
+                        <orig>idem</orig>
+                     </choice>, ‘The apocalyptic genre in Syriac’, in <abbr>
+                                <title rend="italic">SymSyr</title> IV</abbr>, 337–52.</bibl>
+                        <bibl>P.  Piovannelli, ‘The miraculous discovery of the hidden manuscript,
+                            or the paratextual function of the Prologue to the Apocalypse of Paul’,
+                            in <title rend="italic">The Visio Pauli and the Gnostic Apocalypse of
+                                Paul,</title> ed. J. N. Bremmer and I.  Czachesz (2007), 23–49.
+                            (bibliography for the Apoc. of Paul, 211–36)</bibl>
+                        <bibl>G. J.  Reinink, <title rend="italic">Syriac Christianity under Late
+                                Sasanian and Early Islamic Rule</title> (2005) (nine chapters concern
+                            the 7th-cent. apocalyptic texts)</bibl>
+                        <bibl>G.  Ricciotti, <title rend="italic">L’Apocalisse di Paolo
+                                siriaca</title> (2 vols.; 1932).</bibl>
+                        <bibl>H.  Suermann, <title rend="italic">Die geschichtstheologische Reaktion
+                                auf die einfallenden Muslime in der edessenischen Apokalyptik des 7.
+                                Jahrhunderts</title> (1985).</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Sebastian P.</forename> 
+                  <surname>Brock</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Nau, François</title>
+            <author>
+               <persName> 
+                  <forename>Françoise</forename> 
+                  <surname>Briquel-Chatonnet</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0">Electronic Edition Draft Version 1.0</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Nau, François</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Nau-Francois</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/401</idno>
+                    <idno type="entry">392</idno>
+                    <milestone unit="pages" n="305"/>
+                    <idno type="althead" subtype="altorder">François Nau</idno>
+                    <idno type="subject">http://syriaca.org/person/652</idno>
+                    <note type="type">person</note>
+                    <note type="abstract">Influential and prolific Syriac scholar, co-founder of the Patrologia
+                        Orientalis.<note/>
+                    </note>
+                </ab>
+                <ab type="infobox">(1864–1931)</ab>
+                <div type="body">
+                    <p>Syriac scholar, co-founder of the Patrologia Orientalis. Born in Lorraine, he
+                        studied theology at the Seminary of Saint-Sulpice in Paris and was ordained
+                        a priest in 1887. He then continued his studies in natural sciences at the
+                        Institut catholique in Paris from 1887 to 1894. He obtained a <hi rend="italic">licence</hi> in mathematics, another one in physics, and
+                        received the doctor’s degree in mathematics in 1897. Throughout his life he
+                        taught mathematics at the Institut catholique, as well as in different
+                        schools in Paris. It was for a distraction that he began to study Syriac
+                        under <ref rend="bold" target="https://gedsh.bethmardutho.org/Graffin-Rene">
+                            <persName ref="http://syriaca.org/person/509">René Graffin</persName>
+                        </ref>. On this occasion, he discovered the richness of
+                        scientific literature in Syriac. He earned the diploma of the École Pratique
+                        des Hautes Études in 1895 with the edition and French translation of the
+                        Syriac text of <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Bar-Ebroyo-Grigorios">
+                            <persName ref="http://syriaca.org/person/239">Bar ʿEbroyo</persName>
+                        </ref>’s treatise on the ‘Ascent
+                        of the mind’ (<hi rend="italic">Suloqo hawnonoyo</hi>), which was published
+                        in 1899. This was the beginning of a steady stream of publications in all
+                        fields of Syriac and Near Eastern studies, not only on sciences and
+                        cosmography but also on Apocrypha, canonical literature, hagiography,
+                        history, etc. His Syriac bibliography includes 240 books and articles,
+                        without counting the many entries that he wrote for the <hi rend="italic">Dictionnaire de la Bible</hi>, <hi rend="italic">Dictionnaire de
+                            théologie catholique</hi>, <hi rend="italic">Dictionnaire d’histoire et
+                            de géographie ecclésiastiques</hi>, <hi rend="italic">Dictionnaire
+                            apologétique de la foi catholique</hi>, and the many reviews published
+                        in the <hi rend="italic">Revue de l’Orient Chrétien</hi>, <hi rend="italic">Journal asiatique</hi>, and other periodicals. A large number of Nau’s
+                        publications contain the edition or study and translation of previously
+                        unknown texts, many of which he himself discovered in <abbr>mss.</abbr>, mostly in the
+                        Bibliothèque Nationale in Paris, but also in the British Museum, or in
+                        private collections. Of special interest are his supplement (1911) and his
+                        additions and corrections (1915) to the catalogue of Syriac <abbr>mss.</abbr> in Paris as
+                        well as his monographs on several of these <abbr>mss.</abbr> He published Syriac text
+                        editions and French translations of many narrative texts, including, among
+                        other texts, the ‘Book of the Laws of Countries’ associated with the school
+                        of <ref rend="bold" target="https://gedsh.bethmardutho.org/Bardaisan">
+                            <persName ref="http://syriaca.org/person/3">Bardaiṣan</persName>
+                        </ref>, lives of saints, ascetics, and ecclesiastical
+                        dignitaries (<choice>
+                            <sic>e.g.</sic>
+                            <corr>e.g., </corr>
+                        </choice>
+                        <ref rend="bold" target="https://gedsh.bethmardutho.org/Marutha-of-Tagrit">
+                            <persName ref="http://syriaca.org/person/93">Marutha</persName>
+                        </ref> and <ref rend="bold" target="https://gedsh.bethmardutho.org/Ahudemmeh">
+                            <persName ref="http://syriaca.org/person/325">Aḥudemmeh</persName>
+                        </ref>),
+                        letters of <ref rend="bold" target="https://gedsh.bethmardutho.org/Yaqub-of-Edessa">
+                            <persName ref="http://syriaca.org/person/113">Yaʿqub of
+                            Edessa</persName>
+                        </ref>, chronicles, texts of the <abbr>Maron.</abbr> and E.-Syr. traditions,
+                        and different versions of the history of <ref rend="bold" target="https://gedsh.bethmardutho.org/Ahiqar">
+                            <persName ref="http://syriaca.org/person/323">Aḥiqar</persName>
+                        </ref> in Syriac.
+                        Several studies deal with natural sciences, <choice>
+                            <sic>i.e. </sic>
+                            <corr>i.e., </corr>
+                        </choice>cosmography and astronomy
+                        (including the publication of the ‘Treatise on the astrolabe’ and the
+                        ‘Treatise on Constellations’ by <ref rend="bold" target="https://gedsh.bethmardutho.org/Severos-Sebokht">
+                            <persName ref="http://syriaca.org/person/99">Severos
+                            Sebokht</persName>
+                        </ref>), with maps, with canonical literature (<ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Didascalia-Apostolorum">Didascalia
+                            Apostolorum</ref>, canonical resolutions), with calendars, synaxaries,
+                        menologies, and martyrologies. He also studied the documents of Central
+                        Asia, in particular the tomb stones of Kyrgyzstan. His editorial leadership
+                        is also essential. Together with <ref rend="bold" target="https://gedsh.bethmardutho.org/Graffin-Rene">
+                            <persName ref="http://syriaca.org/person/509">René Graffin</persName>
+                        </ref>,
+                        he founded the Patrologia Orientalis. He also was the secretary and later
+                        the director of the <hi rend="italic">Revue de l’Orient Chrétien</hi>. He
+                        contributed to both with numerous important publications.</p>
+                </div>
+                <div type="bibl">
+                    <listBibl>
+                        <listBibl>
+                            <head>Select publications by Nau</head>
+                            <bibl>
+                                <title rend="italic">Le livre de l’ascension de l’esprit sur la
+                                    forme du ciel et de la terre. Cours d’astronomie rédigé en 1279
+                                    par Grégoire Aboulfarag, dit Bar-Hebraeus</title> (2 vols.;
+                                1899).</bibl>
+                            <bibl>
+                                <title rend="italic">Bardesane l’astrologue. Le livre des lois des
+                                    pays</title> (1899). (Syr. with <abbr>FT</abbr>)</bibl>
+                            <bibl>
+                                <title rend="italic">Bardesanes. Liber legum regionum</title> (<abbr>PS</abbr>
+                                1.2; 1907). (Syr. with <abbr>LT</abbr>)</bibl>
+                            <bibl>
+                                <title rend="italic">Histoire et sagesse d’Aḥikar l’Assyrien</title>
+                                (1909). (<abbr>FT</abbr>)</bibl>
+                            <bibl>
+                                <title rend="italic">Nestorius. Le livre d’Héraclide de
+                                    Damas</title> (1910). (<abbr>FT</abbr>)</bibl>
+                            <bibl>‘Notice des manuscrits syriaques, éthiopiens et mandéens, entrés à
+                                la Bibliothèque Nationale de Paris depuis l’édition des cataloques’,
+                                    <title rend="italic">ROC</title> 2.6 (1911), 271–310. (Syr. <abbr>mss.</abbr>
+                                nos. 289–356)</bibl>
+                            <bibl>‘La cosmographie au VII<hi rend="superscript">e</hi> siècle chez
+                                les Syriens’, <title rend="italic">ROC</title> 15 (1910), 225–54.
+                                (on Severos Sebokht)</bibl>
+                            <bibl>‘Corrections et additions au catalogue des manuscrits syriaques de
+                                Paris’, <title rend="italic">
+                                    <abbr>JA</abbr>
+                                </title> 11.5 (1915), 487–537.</bibl>
+                            <bibl>
+                                <title rend="italic">Documents relatifs à Ahikar. Textes syriaques
+                                    édités et traduits</title> (1920).</bibl>
+                        </listBibl>
+                        <listBibl>
+                            <head>Secondary Sources</head>
+                            <bibl>M.  Brière, ‘L’abbé François Nau’, <title rend="italic">
+                                    <abbr>JA</abbr>
+                                </title>
+                                223 (1933), 149–80. (includes complete bibliography)</bibl>
+                            <bibl>W. Schwaigert, ‘Nau, François-Nicolas’, in <title rend="italic">
+                                    <abbr>BBK</abbr>
+                                </title>, vol. 6 (1993), 497–500.</bibl>
+                        </listBibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName> 
+                  <forename>Françoise</forename> 
+                  <surname>Briquel-Chatonnet</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

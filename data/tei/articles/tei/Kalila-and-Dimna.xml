@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Kalila and Dimna</title>
+            <author>
+               <persName>
+                  <forename>Sebastian P.</forename> 
+                  <surname>Brock</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0">Electronic Edition Draft Version 1.0</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Kalila and Dimna</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Kalila-and-Dimna</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/323</idno>
+                    <idno type="entry">314</idno>
+                    <milestone unit="pages" n="241-242"/>
+                    <note type="type">work</note>
+                    <note type="abstract">Collection of animal and other stories, named after the two protagonists.<note/>
+                    </note>
+                </ab>
+                <div type="body">
+                    <p>The collection of animal and other stories, generally known under this title
+                        (the names of the two protagonists), has enjoyed enormous popularity in the
+                        Middle East and subsequently in Western Europe, translated into many
+                        different languages. The tales are of Indian origin, and some, derived from
+                        a lost Sanskrit original, are to be found in the Pancatantra. In the 6th
+                        <abbr>cent.</abbr> a translation into Middle Persian was made by Burzoy (Barzaway), a
+                        physician at the court of Khusrau I (531–79); this no longer survives, but
+                        it was soon translated into Syriac by Bodh, whose translation (edited first
+                        by G. Bickell, 1876) is the earliest witness to the cycle of stories in the
+                        Middle East. Later on, in the first half of the 9th <abbr>cent.</abbr> the Middle Persian
+                        text was translated into Arabic by Ibn al-Muqaffaʿ; this too is lost in its
+                        original form, but it was the ancestor of all the subsequent forms of the
+                        collection, whether in Arabic or in later translations into Syriac, Persian,
+                        Greek, Hebrew, and Spanish; from these, yet further translations were made
+                        into Western European languages (sometimes under the name ‘Bidpay’ or
+                        ‘Pilpay’), as well as into Turkish. Ibn al-Muqaffaʿ’s translation included
+                        an autobiography by Burzoy, and an account of his journey to India, sent by
+                        Khusrau I. The autobiography is absent from the 6th-cent. Syriac
+                        translation, but is to be found at the end of the later Syriac version, made
+                        from Arabic; this was perhaps produced in the 10th or 11th <abbr>cent.</abbr>, by which
+                        time the text had been considerably expanded: whereas the older Syriac text
+                        contains 10 stories, the later one has 14. A second Syriac translation based
+                        on the Arabic was made in the 19th century by the great scholar <ref rend="bold" target="https://gedsh.bethmardutho.org/Audo-Toma">
+                            <persName ref="http://syriaca.org/person/355">Toma
+                            Audo</persName>
+                        </ref>; this has 15 stories, and lacks the narrative of Burzoy.</p>
+                </div>
+                <div type="bibl">
+                    <listBibl>
+                        <listBibl>
+                            <head>Primary Sources</head>
+                            <bibl>T.  Audo, <title rend="italic">Ktaba d-Kalila w-Dimna</title>
+                                (1895; <abbr>repr.</abbr> Glane/Losser, 1989). (Second translation from
+                                Arabic)</bibl>
+                            <bibl>I. G. N.  Keith-Falconer, <title rend="italic">Kalilah and Dimnah,
+                                    or the Fables of Bidpai</title> (1885). (<abbr>ET</abbr> of Wright)</bibl>
+                            <bibl>F. Schulthess, <title rend="italic">Kalila und Dimna. Syrisch und
+                                    Deutsch</title> (2 vols.; 1911). (Translation from Middle
+                                Persian)</bibl>
+                            <bibl>W. Wright, <title rend="italic">The Book of Kalilah and Dimnah
+                                    translated from Arabic into Syriac</title> (1884). (Translation
+                                from Arabic)</bibl>
+                        </listBibl>
+                        <listBibl>
+                            <head>Secondary Sources</head>
+                            <bibl>C. Brockelmann, in <title rend="italic">EI</title>
+                                <hi rend="superscript">2</hi>, vol. 4 (1978), 503–6.</bibl>
+                            <bibl>F. de Blois, <title rend="italic">Burzoy’s Voyage to India and the
+                                    origin of the Book of Kalilah wa-Dimnah</title> (1990).</bibl>
+                            <bibl>F. Rundgren, ‘From Pancatantra to Stephanites and Ichnelates: some
+                                notes on the Old Syriac translation of Kalila wa-Dimna’, in <title rend="italic">Leimon. Studies presented to L. Rydén</title>, <abbr>ed.</abbr>
+                                J. O.  Rosenqvist (1996), 167–80.</bibl>
+                        </listBibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Sebastian P.</forename> 
+                  <surname>Brock</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

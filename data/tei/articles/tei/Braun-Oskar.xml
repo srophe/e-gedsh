@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Braun, Oskar</title>
+            <author>
+               <persName>
+                  <forename>Lucas</forename> 
+                  <surname>Van Rompay</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0">Electronic Edition Draft Version 1.0</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Braun, Oskar</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Braun-Oskar</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/122</idno>
+                    <idno type="entry">113</idno>
+                    <milestone unit="pages" n="86-87"/>
+                    <idno type="althead" subtype="altorder">Oskar Braun</idno>
+                    <idno type="subject">http://syriaca.org/person/400</idno>
+                    <note type="type">person</note>
+                    <note type="abstract">Syriac scholar, professor at the University of Würzburg,
+                        Germany.<note/>
+                    </note>
+                </ab>
+                <ab type="infobox">(1862–1931)</ab>
+                <div type="body">
+                    <p>Syriac scholar, professor at the University of Würzburg, Germany. Born in
+                        Dillingen on the Donau, in Bavaria, Braun studied theology in Munich and was
+                        ordained a catholic priest in 1885. Following his ordination, he worked as a
+                        chaplain in the German Church of Santa Maria dell’Anima in Rome. During this
+                        time, he studied Syriac, Armenian, Arabic, and Ethiopic with <ref rend="bold" target="https://gedsh.bethmardutho.org/Guidi-Ignazio">
+                            <persName ref="http://syriaca.org/person/517">Ignazio
+                            Guidi</persName>
+                        </ref> and laid the ground work for his doctoral dissertation on
+                            <ref rend="bold" target="https://gedsh.bethmardutho.org/Mushe-bar-Kipho">
+                            <persName ref="http://syriaca.org/person/173">Mushe bar Kipho</persName>
+                        </ref>’s ‘Book of the Soul’, a German translation of
+                        which he published in 1891. After obtaining his doctor’s degree from the
+                        University of Munich in 1890, he returned to Rome. In 1894 the University of
+                        Würzburg created for him a position as extra-ordinarius professor in Semitic
+                        languages and literature. In 1907 he became full professor in Patristics at
+                        the same university, from which he retired in 1929.</p>
+                    <p>Much of Braun’s scholarly work focuses on a Syriac <abbr>ms.</abbr> (in two volumes) to
+                        which Guidi drew his attention in Rome and which contains a collection of
+                        authoritative juridical texts of the <abbr>Ch. of E.</abbr>, <choice>
+                            <sic>i.e. </sic>
+                            <corr>i.e., </corr>
+                        </choice>
+                        <abbr>ms.</abbr> Museo Borgiano K.
+                        VI, 4 and 3 (later incorporated into the Vatican Library as Borg. Syr. 82
+                        and 81), a 19th-cent. copy of a 13th- or 14th-cent. <abbr>ms.</abbr> from <ref rend="bold" target="https://gedsh.bethmardutho.org/Alqosh">
+                            <placeName ref="http://syriaca.org/place/19">Alqosh</placeName>
+                        </ref>
+                        (see <ref rend="bold" target="https://gedsh.bethmardutho.org/Synodicon-Orientale">Synodicon
+                            Orientale</ref>). Braun’s work on this <abbr>ms.</abbr> led to a number of individual
+                        studies, <choice>
+                            <sic>e.g.</sic>
+                            <corr>e.g., </corr>
+                        </choice>on <ref rend="bold" target="https://gedsh.bethmardutho.org/Papa-bar-Aggai">
+                            <persName ref="http://syriaca.org/person/669">Papa</persName>
+                        </ref>, <ref rend="bold" target="https://gedsh.bethmardutho.org/Barsawma-of-Nisibis">
+                            <persName ref="http://syriaca.org/person/369">Barṣawma of
+                            Nisibis</persName>
+                        </ref>, and <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Marutha-of-Maypherqat">
+                            <persName ref="http://syriaca.org/person/25">Marutha of
+                            Maypherqaṭ</persName>
+                        </ref>, as well as to his annotated <abbr>GT</abbr> of the Acts of the
+                        E.-Syr. councils (<hi rend="italic">Das Buch der Synhados</hi> [1900]). The
+                        French scholar <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Chabot-Jean-Baptiste">
+                            <persName ref="http://syriaca.org/person/411">J. B.
+                            Chabot</persName>
+                        </ref> studied the same texts and published the Syriac along with
+                        a French translation in his <hi rend="italic">Synodicon Orientale</hi>
+                        (1902). Chabot primarily based his work on the same Roman <abbr>mss.</abbr> as Braun, but
+                        was able to obtain a second late 19th-cent. copy of the Alqosh <abbr>ms.</abbr> Even in
+                        the light of Chabot’s more comprehensive edition, Braun’s work retains its
+                        value, since the two scholars worked independently of one other.</p>
+                    <p>Another major achievement is Braun’s edition and Latin translation of the
+                        letters of the E.-<abbr>Syr. Cath.</abbr> 
+                  <ref rend="bold" target="https://gedsh.bethmardutho.org/Timotheos-I">
+                            <persName ref="http://syriaca.org/person/790">Timotheos I</persName>
+                        </ref>
+                        (1914–15), again primarily based on <abbr>ms.</abbr> Borg. Syr. 81. Only the first volume
+                        (39 letters) appeared; the second volume, which would have contained about
+                        20 additional letters, remained unpublished, although some of these letters
+                        were published separately by Braun or others. Finally, Braun’s German
+                        translation of select Persian martyr acts (1915), based on <ref rend="bold" target="https://gedsh.bethmardutho.org/Bedjan-Paul">
+                            <persName ref="http://syriaca.org/person/379">P. Bedjan</persName>
+                        </ref>’s edition<choice>
+                            <sic/>
+                            <corr>,</corr>
+                        </choice> should be singled out as another of his works
+                        that even after nearly a century has not been replaced and continues to be
+                        extremely useful.</p>
+                </div>
+                <div type="bibl">
+                    <listBibl>
+                        <listBibl>
+                            <head>Select publications by Braun</head>
+                            <bibl>
+                                <title rend="italic">Moses bar Kepha und sein Buch von der
+                                    Seele</title> (1891).</bibl>
+                            <bibl>
+                                <title rend="italic">Das Buch der Synhados oder Synodicon
+                                    Orientale</title> (1900; <abbr>repr.</abbr> 1975).</bibl>
+                            <bibl>‘Der Katholikos Timotheos I. und seine Briefe’, <title rend="italic">
+                                    <abbr>OC</abbr>
+                                </title> 1 (1901), 138–52.</bibl>
+                            <bibl>
+                                <title rend="italic">Ausgewählte Akten persischer Märtyrer. Mit
+                                    einem Anhang: Ostsyrisches Mönchsleben</title> (Bibliothek der
+                                Kirchenväter 22; 1915).</bibl>
+                            <bibl>
+                                <title rend="italic">Timothei Patriarchae I Epistulae</title>, vol.
+                                1 (<abbr>CSCO</abbr> 74–75; 1914–15).</bibl>
+                        </listBibl>
+                        <listBibl>
+                            <head>Secondary Sources</head>
+                            <bibl>A.  Bigelmair, ‘Oskar Braun†’, <title rend="italic">Literarische
+                                    Beilage der Augsburger Postzeitung</title>, No. 34 (26 Aug.
+                                1931). (biography)</bibl>
+                        </listBibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Lucas</forename> 
+                  <surname>Van Rompay</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

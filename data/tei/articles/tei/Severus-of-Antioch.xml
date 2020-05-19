@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Severus of Antioch</title>
+            <author>
+               <persName>
+                  <forename>Sebastian P.</forename> 
+                  <surname>Brock</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0">Electronic Edition Draft Version 1.0</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Severus of Antioch</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Severus-of-Antioch</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/498</idno>
+                    <idno type="entry">489</idno>
+                    <milestone unit="pages" n="368-369"/>
+                    <idno type="subject">http://syriaca.org/person/51</idno>
+                    <note type="type">person</note>
+                    <note type="abstract">
+                        <abbr>Patr.</abbr> of <placeName type="diocese" subtype="Miaphysite">Antioch</placeName>, theologian, and prolific Greek author; leader of the miaphysite movement.<note/>
+                    </note>
+                </ab>
+                <ab type="infobox">(d. 538) [<abbr>Syr. Orth.</abbr>]</ab>
+                <div type="body">
+                    <p>
+                        <abbr>Patr.</abbr> of <ref rend="bold" target="https://gedsh.bethmardutho.org/Antioch">
+                            <placeName ref="http://syriaca.org/place/10">Antioch</placeName>
+                        </ref>, theologian, and prolific Greek author. Severus is
+                        generally recognized as the most important Greek theologian of the 6th
+                        <abbr>cent.</abbr>, and he remains, along with <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Philoxenos-of-Mabbug">
+                            <persName ref="http://syriaca.org/person/44">Philoxenos</persName>
+                        </ref>, the
+                        main authority on christology for the <abbr>Syr. Orth.</abbr> tradition. He originated
+                        from Sozopolis in Pisidia and came from a pagan family (the claim in the
+                        Life by <ref rend="bold" target="https://gedsh.bethmardutho.org/John-bar-Aphtonia">
+                            <persName ref="http://syriaca.org/person/52">John bar
+                            Aphtonia</persName>
+                        </ref> that his grandfather was a <abbr>bp.</abbr> is unfounded). He studied
+                        first in Alexandria and then at the Law school in <ref rend="bold" target="https://gedsh.bethmardutho.org/Beirut">
+                            <placeName ref="http://syriaca.org/place/46">Beirut</placeName>
+                        </ref>. During his
+                        time in Beirut he was converted to Christianity and was baptised in the
+                        shrine of St. Leontius in Tripoli (488). He then adopted a monastic life
+                        near Gaza, but from 508–11 he was in Constantinople, in support of the
+                        anti-Chalcedonian cause. When Flavian was deposed from the patriarchal see
+                        of Antioch in 512, Severus was elected as his successor. After the death of
+                        the emperor Anastasius (518), and with the new pro-Chalcedonian
+                        ecclesiastical policy of Justin I, he escaped to Egypt where he spent the
+                        rest of his life, apart from a brief visit to Constantinople in 536,
+                        summoned by Justinian. Back in Egypt, he died two years later (8 Feb. 538).
+                        On his return to Egypt in 536 the emperor had his writings (in Greek)
+                        condemned, with the result that most of them survive only in Syriac
+                        translations. The most important of these are the 125 ‘Cathedral’ Homilies,
+                        preached during his time on the patriarchal throne: these come down (not
+                        quite complete) in two forms, the earlier perhaps translated by <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Pawlos-of-Kallinikos">
+                            <persName ref="http://syriaca.org/person/47">Pawlos of Kallinikos</persName>
+                        </ref>, and the later one as a careful revision,
+                        made by <ref rend="bold" target="https://gedsh.bethmardutho.org/Yaqub-of-Edessa">
+                            <persName ref="http://syriaca.org/person/113">Yaʿqub of
+                            Edessa</persName>
+                        </ref> over a century later. Only Homily 77 survives in the Greek
+                        original, thanks to its re-attribution to <ref rend="bold" target="https://gedsh.bethmardutho.org/Gregory-of-Nyssa">
+                            <persName ref="http://syriaca.org/person/512">Gregory of
+                            Nyssa</persName>
+                        </ref> or to Hesychius of Jerusalem.</p>
+                    <p>Most of his other works are theological treatises refuting either
+                        Chalcedonian polemic (thus the Against the Grammarian [= John of Caesarea],
+                        the Discourses addressed to Nephalius, and the Philalethes), or the more
+                        extreme anti-Chalcedonians (thus the Correspondence with Sergios). There is
+                        also an extensive polemical work against <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Julian-of-Halicarnassus">
+                            <persName ref="http://syriaca.org/person/579">Julian of
+                            Halicarnassus</persName>
+                        </ref>, with whose views on incorruptibility of the flesh
+                        of Christ he disagreed. Severus was also a tireless letter writer, but only
+                        a very small proportion of his vast correspondence survives in Syriac
+                        translation. A collection of hymns (<hi rend="italic">maʿnyoto</hi>), often
+                        misleadingly referred to as the Oktoechos, includes several by him. Quite a
+                        number of excerpts on exegetical matters are preserved in Greek in certain
+                        of the Catenae collections.</p>
+                    <p>A number of biographies of Severus survive; of these the two most important
+                        are those by John, abbot of the monastery of Beth Aphtonia (John bar
+                        Aphtonia), and <ref rend="bold" target="https://gedsh.bethmardutho.org/Zacharias-Rhetor">
+                            <persName ref="http://syriaca.org/person/58">Zacharias
+                            Rhetor</persName>
+                        </ref> (his fellow student at Beirut). The latter (covering only
+                        up to 512) is a response to a pamphlet that had been put out claiming that
+                        Severus had taken part as a student in pagan rites.</p>
+                    <p>See <ref target="https://gedsh.bethmardutho.org/fig/110">Fig. 110</ref>.</p>
+                </div>
+                <div type="bibl">
+                    <listBibl>
+                        <listBibl>
+                            <head>Primary Sources</head>
+                            <bibl>
+                                <title rend="italic">
+                                    <abbr>CPG</abbr>
+                                </title> 7022–7081.</bibl>
+                            <bibl>Homilies: <abbr>ed.</abbr> M. Brière, F. Graffin, and others: 1–17 (<abbr>PO</abbr> 38.2);
+                                18–25 (<abbr>PO</abbr> 37.1); 26–31 (<abbr>PO</abbr> 26.4); 32–9 (<abbr>PO</abbr> 36.3); 40–5 (<abbr>PO</abbr> 36.1);
+                                46–51 (<abbr>PO</abbr> 35.3), 52–7 (<abbr>PO</abbr> 4.1), 58–69 (<abbr>PO</abbr> 8.2); 70–6 (<abbr>PO</abbr> 12.1); 77
+                                (<abbr>PO</abbr> 16.5; both versions and Greek); 78–83 (<abbr>PO</abbr> 20.2); 84–90 (<abbr>PO</abbr>
+                                23.1); 91–8 (<abbr>PO</abbr> 25.1); 99–103 (<abbr>PO</abbr> 22.2); 104–12 (<abbr>PO</abbr> 25.4); 113–9 (<abbr>PO</abbr>
+                                26.3); 120–25 (<abbr>PO</abbr> 29.1; with general introduction).</bibl>
+                            <bibl>Theological works: ‘Against the Grammarian’, <abbr>ed.</abbr> J. Lebon, (<abbr>CSCO</abbr>
+                                93–4, 101–2, 111–12; 1929–38); ‘To Nephalius and to Sergius’, <abbr>ed.</abbr> J.
+                                Lebon (<abbr>CSCO</abbr> 119–20; 1949); ‘Philalethes’, <abbr>ed.</abbr> R. Hespel (<abbr>CSCO</abbr> 133–4;
+                                1952); ‘Against Julian’, <abbr>ed.</abbr> R. Hespel (<abbr>CSCO</abbr> 244–5, 295–6, 301–2,
+                                318–9; 1964–71).</bibl>
+                            <bibl>Letters: E. W.  Brooks, <title rend="italic">Sixth Book of Select
+                                    Letters</title> (2 vols.; 1902–1904); further letters, <abbr>ed.</abbr>
+                                Brooks in <abbr>PO</abbr> 12 and 14 (1919–1920).</bibl>
+                            <bibl>Hymns: <abbr>ed.</abbr> Brooks, <abbr>PO</abbr> 6–7 (1911).</bibl>
+                            <bibl>Catena fragments: F. Petit, with L. Van Rompay, <title rend="italic">La chaîne grecque sur l’Exode</title>, vol. 1.
+                                    <title rend="italic">Fragments de Sévère d’Antioche</title> (<abbr>TEG</abbr>
+                                9; 1999); and <title rend="italic">Sévère d’Antioche. Fragments
+                                    grecs tirés des chaînes sur les derniers livres de l’Octateuque
+                                    et sur les Règnes</title> (<abbr>TEG</abbr> 14; 2006).</bibl>
+                            <bibl>Biographies: by Zacharias and by John of Beth Aphthonia, <abbr>ed.</abbr>
+                                M. A.  Kugener in <abbr>PO</abbr> 2 (1907), with <abbr>FT</abbr>
+                                <choice>
+                                    <sic>.</sic>
+                                    <corr/>
+                                </choice>; <abbr>ET</abbr> of that by Zacharias by
+                                L. Ambjörn (2008). Biography by Giwargi, <abbr>bp.</abbr> of the Arabs, <abbr>ed.</abbr>
+                                K. E.  McVey, in <abbr>CSCO</abbr> 530–1 (1993). A further life, by Athanasius,
+                                survives in Arabic (<abbr>ed.</abbr> Y. N. Yousef, <abbr>PO</abbr> 49.4; 2004).</bibl>
+                        </listBibl>
+                        <listBibl>
+                            <head>Secondary Sources</head>
+                            <bibl>P.  Allen and C. T. R. Hayward, <title rend="italic">Severus of
+                                    Antioch</title> (2004). (for the wider background, with
+                                selection in translation)</bibl>
+                            <bibl>F. Alpi, <title rend="italic">La route royale. Sévère d’Antioche
+                                    et les Églises d’Orient (512–518)</title> (2 vols., 2009).</bibl>
+                            <bibl>R.  Draguet, <title rend="italic">Julien d’Halicarnasse et sa
+                                    controverse avec Sévère d’Antioche sur l’incorruptibilité du
+                                    corps du Christ</title> (1924).</bibl>
+                            <bibl>F. Graffin, in <title rend="italic">
+                                    <abbr>DSpir</abbr>
+                                </title>, vol. 14 (1990),
+                                748–51.</bibl>
+                            <bibl>A.  Grillmeier, <title rend="italic">Jesus der Christus im Glauben
+                                    der Kirche</title>, vol. 2/2 (1989), 20–185. (= Engl. <abbr>ed.</abbr>,
+                                21–173).</bibl>
+                            <bibl>J. Lebon, <title rend="italic">Le monophysisme sévérien</title>
+                                (1909).</bibl>
+                            <bibl>I. R.  Torrance, <title rend="italic">Christology after Chalcedon.
+                                    Severus of Antioch and Sergius the Monophysite</title>
+                                (1988).</bibl>
+                            <bibl>L.  Van Rompay, ‘Severus, Patriarch of Antioch (512–538), in the
+                                Greek, Syriac and Coptic traditions’, <title rend="italic">
+                                    <abbr>JCSSS</abbr>
+                                </title> 8 (2008), 3–22.</bibl>
+                        </listBibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Sebastian P.</forename> 
+                  <surname>Brock</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

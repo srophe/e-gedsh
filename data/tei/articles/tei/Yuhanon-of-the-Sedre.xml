@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Yuḥanon of the Sedre</title>
+            <author>
+               <persName>
+                  <forename>Herman G. B.</forename> 
+                  <surname>Teule</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0">Electronic Edition Draft Version 1.0</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Yuḥanon of the Sedre</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Yuhanon-of-the-Sedre</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/624</idno>
+                    <idno type="entry">615</idno>
+                    <milestone unit="pages" n="447"/>
+                    <idno type="subject">http://syriaca.org/person/92</idno>
+                    <note type="type">person</note>
+                    <note type="abstract">Patriarch who is said to have disputed with a Muslim emir.
+                    </note>
+                </ab>
+                <ab type="infobox">(d. 648) [<abbr>Syr. Orth.</abbr>]</ab>
+                <div type="body">
+                    <p>Former monk of the Monastery of Eusebona, he became the <hi rend="italic">synkellos</hi> (secretary) of <abbr>Patr.</abbr> 
+                  <ref rend="bold" target="https://gedsh.bethmardutho.org/Athanasios-I-Gamolo">
+                            <persName ref="http://syriaca.org/person/88">Athanasios I
+                            Gamolo</persName>
+                        </ref>, whom he succeeded in 630/1. As <abbr>
+                            <choice>
+                                <sic>Patr.</sic>
+                                <corr>patr.</corr>
+                            </choice>
+                        </abbr> he is especially
+                        known for his conversations with a Muslim Emir, probably ʿUmayr <abbr>b.</abbr> Saʿd <abbr>b.</abbr>
+                        ʿUbayd, which took place in 644. The Syriac report of this encounter by his
+                        secretary is preserved in a single <abbr>ms.</abbr> written in 874. There are a number of
+                        elements in the text, especially a discussion on inheritance law, which
+                        suggest that the original report was reworked by later redactors, possibly
+                        in the 8th or even the 9th <abbr>cent.</abbr>
+                    </p>
+                    <p>According to the Chronicle of <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Dionysios-of-Tel-Mahre">
+                            <persName ref="http://syriaca.org/person/155">Dionysios
+                            of Tel Maḥre</persName>
+                        </ref>, preserved in the work of <ref rend="bold" target="https://gedsh.bethmardutho.org/Michael-I-Rabo">
+                            <persName ref="http://syriaca.org/person/217">Michael
+                            Rabo</persName>
+                        </ref>, Yuḥanon  III (Yuḥanon I, if one does not follow the W.-Syr.
+                        computation of the patriarchal lists) would have been responsible for the
+                        supervision of the translation of the Gospel from Syriac into Arabic (not
+                        preserved). He composed a letter to Marutha on the persecution of the
+                        Miaphisite Christians in Persia by <ref rend="bold" target="https://gedsh.bethmardutho.org/Barsawma-of-Nisibis">
+                            <persName ref="http://syriaca.org/person/369">Barṣawma of
+                            Nisibis</persName>
+                        </ref> (preserved in Michael’s Chronicle). His other writings
+                        comprise: a <hi rend="italic">pleropuryā</hi> (apologetic treatise) on the
+                        <choice>
+                            <sic>aphtartodocetic</sic>
+                            <corr>aphthartodocetic</corr>
+                        </choice> doctrines of <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Julian-of-Halicarnassus">
+                            <persName ref="http://syriaca.org/person/579">Julian of
+                            Halicarnassus</persName>
+                        </ref>; another on Christology with <choice>
+                            <sic>strong</sic>
+                            <corr>strongly</corr>
+                        </choice> worded
+                        condemnations of the ‘Nestorians’ and the Chalcedonians; a homily on the
+                        consecration of the Holy Myron (and, according to the Chronicle of <ref rend="bold" target="https://gedsh.bethmardutho.org/Siirt">
+                            <placeName ref="http://syriaca.org/place/188">Siirt</placeName>
+                        </ref>,
+                        ch. 110 [<abbr>PO</abbr> 13.4, 634]; the text itself of the consecration of the Myron as
+                        well as of the Blessing of the Water at Epiphany); a number of <hi rend="italic">sedre</hi>, prayers of intercession arranged in a specific
+                        order (<hi rend="italic">sedrā</hi>)  — which gave him his name <hi rend="italic">d-sedre</hi> ‘of the sedre’  — for different occasions;
+                        and possibly an Anaphora.</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>Baumstark, <title rend="italic">Literatur</title>, 243–5.</bibl>
+                        <bibl>J.  Martikainen, <title rend="italic">Johannes I. Sedra. Einleitung<choice>
+                                    <sic/>
+                                    <corr>,</corr>
+                                </choice>
+                                <choice>
+                                    <sic> Syrische</sic>
+                                    <corr> syrische</corr>
+                                </choice> Texte, Übersetzung und vollständiges
+                                Wörterverzeichnis</title> (<abbr>GOFS</abbr> 34; 1991).</bibl>
+                        <bibl>F.  Nau, ‘Un colloque du patriarche Jean avec l’émir des Agaréens et
+                            faits divers des années 712 à 716’, <title rend="italic">
+                                <abbr>JA</abbr>
+                            </title> 11.5
+                            (1915), 225–79.</bibl>
+                        <bibl>M.  Penn, ‘John and the Emir. A new introduction, edition, and
+                            translation’, <title rend="italic">
+                                <abbr>LM</abbr>
+                            </title> 121 (2008), 65–91.</bibl>
+                        <bibl>G. J.  Reinink, ‘The beginnings of Syriac apologetic literature in
+                            response to Islam’, <title rend="italic">
+                                <abbr>OC</abbr>
+                            </title> 77 (1993),
+                            165–87.</bibl>
+                        <bibl>B.  Roggema, ‘The Debate between Patriarch John and an emir of the
+                            Mhaggrāyē: A Reconsideration of the earliest Christian-Muslim Debate’,
+                            in <title rend="italic">Christlich-muslimische Gespräche im
+                                mittelalterlichen Orient</title>, <abbr>ed.</abbr> M. Tamcke (<abbr>BTS</abbr> 117; 2007),
+                            21–39.</bibl>
+                        <bibl>eadem, ‘The Disputation of John and the Emir’, in <title rend="italic">Christian-Muslim relations</title>, <abbr>ed.</abbr> Thomas and Roggema,
+                            782–5.</bibl>
+                        <bibl>A. M.  Saadi, ‘The letter of John of Sedreh. A new perspective on
+                            nascent Islam’, <title rend="italic">
+                                <abbr>JAAS</abbr>
+                            </title> 11 (1997),
+                            68–84.</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Herman G. B.</forename> 
+                  <surname>Teule</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

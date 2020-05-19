@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Proba</title>
+            <author>
+               <persName>
+                  <forename>Sebastian P.</forename> 
+                  <surname>Brock</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0">Electronic Edition Draft Version 1.0</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Proba</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Proba</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/444</idno>
+                    <idno type="entry">435</idno>
+                    <milestone unit="pages" n="339-340"/>
+                    <idno type="althead">Probus</idno>
+                    <idno type="subject">http://syriaca.org/person/686</idno>
+                    <note type="type">person</note>
+                    <note type="abstract">Syriac commentator on Aristotle’s writings on
+                        logic.<note/>
+                    </note>
+                </ab>
+                <ab type="infobox">Probus (probably 6th <abbr>cent.</abbr>)</ab>
+                <div type="body">
+                    <p>Syriac commentator on <ref rend="bold" target="https://gedsh.bethmardutho.org/Aristotle">
+                            <persName ref="http://syriaca.org/person/342">Aristotle</persName>
+                        </ref>’s
+                        writings on logic. The juxtaposition of Proba with <ref rend="bold" target="https://gedsh.bethmardutho.org/Hiba">
+                            <persName ref="http://syriaca.org/person/534">Hiba</persName>
+                        </ref> and Komi in the
+                        ‘Catalogue’ of  <ref rend="bold" target="https://gedsh.bethmardutho.org/Abdisho-bar-Brikha">
+                            <persName ref="http://syriaca.org/person/310">ʿAbdishoʿ</persName>
+                        </ref> has led to the view that he
+                        was associated with the <ref rend="bold" target="https://gedsh.bethmardutho.org/Edessa-School-of">School of
+                            Edessa</ref> and belonged to the first half of the 5th <abbr>cent.</abbr> On internal
+                        evidence, however, this is impossible, since he is clearly writing at a
+                        later date than the Neoplatonist Proclus (died 485), whom he even mentions
+                        by name (<abbr>ms.</abbr> Brit. Libr. Add. 14,660, f. 23rv); on the other hand, a date
+                        close to that of <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Giwargi-bp-of-the-Arab-tribes">
+                            <persName ref="http://syriaca.org/person/122">Giwargi <abbr>bp.</abbr> of the Arab tribes</persName>
+                        </ref> (thus
+                        Suermann) is likely to be too late, and a 6th-cent. date seems most likely.
+                        In two <abbr>mss.</abbr> (Berlin, Sachau 226, and Mingana Syr. 606) he is described as
+                        ‘priest, archdeacon and <hi rend="italic">archiatros</hi> (chief doctor) of
+                            <ref rend="bold" target="https://gedsh.bethmardutho.org/Antioch">
+                            <placeName ref="http://syriaca.org/place/10">Antioch</placeName>
+                        </ref>’.</p>
+                    <p>Three works by Proba are extant:</p>
+                    <p>1. A commentary on <ref rend="bold" target="https://gedsh.bethmardutho.org/Porphyry">
+                            <persName ref="http://syriaca.org/person/684">Porphyry</persName>
+                        </ref>’s
+                        ‘Introduction’ (to Aristotle’s logical works). Of this an extract was
+                        published by Baumstark (4*–12* [Syr.], 148–56 [<abbr>GT</abbr>]), corresponding to f.
+                        23r–28v in a longer (but acephalous) text in Mingana Syr. 606, f. 1–28v.
+                        There are also fragments of a 9th-cent. <abbr>ms.</abbr> preserved in Brit. Libr. Add.
+                        17,215, f. 7–8 and Dayr al-Suryān Syr. Fragment 88. According to Suermann
+                        (1994) this work, unlike the others, can be dated to a time between Hiba and
+                            <ref rend="bold" target="https://gedsh.bethmardutho.org/Sergios-of-Reshayna">
+                            <persName ref="http://syriaca.org/person/49">Sergios of
+                            Reshʿayna</persName>
+                        </ref>, but this is very problematic.</p>
+                    <p>2. A commentary on Aristotle’s ‘On Interpretation’, <abbr>ed.</abbr> Hoffmann, 62–89; an
+                        earlier <abbr>ms.</abbr>, Brit. Libr. Add. 14,660, f. 1–46 (9th/10th <abbr>cent.</abbr>) contains a
+                        much longer but acephalous text (f. 1r–6r corresponds to Hoffmann 79–89).
+                        According to Mingana Syr. 606, f. 140v, the Syriac translation of the ‘On
+                        Interpretation’ (<abbr>ed.</abbr> Hoffmann, 23–55) was by Proba, as well, but in the
+                        other <abbr>mss.</abbr> it is anonymous.</p>
+                    <p>3. A commentary on Aristotle’s Prior Analytics, <abbr>ed.</abbr> van Hoonacker.</p>
+                    <p>Possibly also by him is a proposal ‘by Proba the philosopher’ for an improved
+                        numbering system in Syriac, still using the letters of the alphabet (Berlin,
+                        Sachau 153; excerpt in Sachau, <hi rend="italic">Verzeichnis</hi>,
+                        33–4).</p>
+                    <p>It is just possible that this Proba is the same person as the <ref rend="bold" target="https://gedsh.bethmardutho.org/Proba">
+                            <persName ref="http://syriaca.org/person/686">Proba</persName>
+                        </ref> who
+                        accompanied <abbr>Patr.</abbr> 
+                  <ref rend="bold" target="https://gedsh.bethmardutho.org/Peter-of-Kallinikos">
+                            <persName ref="http://syriaca.org/person/75">Peter of
+                            Kallinikos</persName>
+                        </ref> to Alexandria <abbr>ca.</abbr> 581, who ended up as Chalcedonian
+                        metropolitan of Chalcedon.</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>A.  Baumstark, <title rend="italic">Aristoteles bei den Syrern
+                                vom 5. bis 8. Jahrhundert</title> (1900).</bibl>
+                        <bibl>J. G. E.  Hoffmann, <title rend="italic">De hermeneuticis apud Syros
+                                aristoteleis</title> (1869).</bibl>
+                        <bibl>H.  Hugonnard-Roche, ‘La théorie de la proposition selon Proba: un
+                            témoin syriaque de la tradition grecque (VI<hi rend="superscript">e</hi>  siècle)’, in his <title rend="italic">La logique d’Aristote du
+                                grec au syriaque</title> (2004), 275–91.</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>H.  Hugonnard-Roche</reg>
+                        <orig>idem</orig>
+                     </choice>, ‘Probus (Proba)’, in <title rend="italic">Dictionnaire des
+                                philosophes antiques</title>, <abbr>ed.</abbr> R.  Goulet (forthcoming).</bibl>
+                        <bibl>H.  Suermann, ‘Die Übersetzungen des Probus und eine Theorie zur
+                            Geschichte der syrischen Übersetzungen griechischer Texte’, <title rend="italic">
+                                <abbr>OC</abbr>
+                            </title> 74 (1990), 103–14.</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>H.  Suermann</reg>
+                        <orig>idem</orig>
+                     </choice>, ‘Anmerkungen zur Sprache der Übersetzungen und Kommentare von
+                            Aristoteles und Porphyrios bei Probus’, in <abbr>
+                                <title rend="italic">SymSyr</title> VI</abbr>, 393–400.</bibl>
+                        <bibl>A.  van Hoonacker, ‘Le traité du philosophe syrien Probus sur les
+                            Premiers Analytiques d’Aristote’, <title rend="italic">
+                                <abbr>JA</abbr>
+                            </title> IX.16
+                            (1900), 70–166.</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Sebastian P.</forename> 
+                  <surname>Brock</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

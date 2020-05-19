@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Yawsep I of Seleucia-Ctesiphon</title>
+            <author>
+               <persName>
+                  <forename>Lucas</forename> 
+                  <surname>Van Rompay</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0">Electronic Edition Draft Version 1.0</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Yawsep I of Seleucia-Ctesiphon</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Yawsep-I-of-Seleucia-Ctesiphon</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/594</idno>
+                    <idno type="entry">585</idno>
+                    <milestone unit="pages" n="435"/>
+                    <idno type="subject">http://syriaca.org/person/812</idno>
+                    <note type="type">person</note>
+                    <note type="abstract">
+                        <abbr>Cath.</abbr> (552-67), successor of Mar Aba I, in a period of
+                        tension between the Church and the Persian authorities.<note/>
+                    </note>
+                </ab>
+                <ab type="infobox">(d. 570) [Ch. of E.]</ab>
+                <div type="body">
+                    <p>
+                        <abbr>Cath.</abbr> (552–67), successor of Mar <ref rend="bold" target="https://gedsh.bethmardutho.org/Aba-I">
+                            <persName ref="http://syriaca.org/person/306">Aba I</persName>
+                        </ref>, in a period of
+                        tension between the Church and the Persian authorities. Yawsep is primarily
+                        known as the convener of the Synod of 554, a report of which is preserved in
+                        the <ref rend="bold" target="https://gedsh.bethmardutho.org/Synodicon-Orientale">Synodicon
+                            Orientale</ref>. Following an introductory narrative (in which Yawsep
+                        speaks in the 1st pers. sing., and refers to the internal and external
+                        problems faced by the Church) and a brief profession of faith (<abbr>ET</abbr> in Brock),
+                        the report contains 23 canons aiming at restoring order and discipline in
+                        the hierarchy of the church and warning against possible abuses by the
+                        <abbr>cath.</abbr>, the bishops, the priests, and the laypeople. Even though the report
+                        reflects the difficult circumstances of Yawsep’s first years, there is no
+                        evidence of controversies surrounding the person of the <abbr>
+                            <choice>
+                                <sic>Cath.</sic>
+                                <corr>cath.</corr>
+                            </choice>
+                        </abbr> As a matter of
+                        fact, the E.-Syr. sources agree that during the first three years of his
+                        tenure Yawsep ruled with dignity. After three years, however, he is said to
+                        have become arrogant and to have given himself over to all sorts of
+                        misbehavior as well as to simony. This eventually led the metropolitans and
+                        bps. to depose Yawsep, with the consent of Emperor Khusrau, whose favor
+                        Yawsep had at first enjoyed. It is unclear whether Yawsep’s successor, <ref rend="bold" target="https://gedsh.bethmardutho.org/Hazqiel-I">
+                            <persName ref="http://syriaca.org/person/529">Ḥazqiel</persName>
+                        </ref>, was appointed immediately after his deposal
+                        (567), or only three years later, after Yawsep’s death.</p>
+                    <p>
+                        <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Bar-Ebroyo-Grigorios">
+                            <persName ref="http://syriaca.org/person/239">Bar ʿEbroyo</persName>
+                        </ref>, who appears to be well-informed about
+                        this episode, reports that ‘according to some’ Yawsep, upon his deposal,
+                        composed apocryphal letters under the names of <ref rend="bold" target="https://gedsh.bethmardutho.org/Yaqub-of-Nisibis">
+                            <persName ref="http://syriaca.org/person/811">Yaʿqub of
+                            Nisibis</persName>
+                        </ref> and <ref rend="bold" target="https://gedsh.bethmardutho.org/Ephrem">
+                            <persName ref="http://syriaca.org/person/13">Ephrem</persName>
+                        </ref>, written in
+                        support of <ref rend="bold" target="https://gedsh.bethmardutho.org/Papa-bar-Aggai">
+                            <persName ref="http://syriaca.org/person/669">Papa bar
+                            ʿAggai</persName>
+                        </ref> who, in the early 4th <abbr>cent.</abbr> had been deposed for reasons of
+                        abuse of power. Yawsep would thus have retrojected his own experience into
+                        that of Papa, claiming with the help of the forged letters that he, just
+                        like Papa, was innocent. It should be noted, however, that Yawsep cannot
+                        possibly have been the author of the entire dossier of the Papa letters,
+                        since some of them already existed, and were read, at the synod of <ref rend="bold" target="https://gedsh.bethmardutho.org/Dadisho-I">
+                            <persName ref="http://syriaca.org/person/433">Dadishoʿ</persName>
+                        </ref> (424).</p>
+                    <p>A more positive note is appended to the lengthy discussion on Yawsep in the
+                        Chronicle of <ref rend="bold" target="https://gedsh.bethmardutho.org/Siirt">
+                            <placeName ref="http://syriaca.org/place/188">Siirt</placeName>
+                        </ref> (185–86). The author quotes the historian Bar Sahde (<abbr>ca.</abbr>
+                        600?) for noticing that when the plague struck, Yawsep devoted himself to
+                        burying the dead who were lying in the streets, adding Bar Sahde’s comment
+                        that this was Yawsep’s only meritorious deed. Finally, in a brief fragment,
+                        of uncertain origin, published by Mingana under the name of <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Barhadbshabba-Arbaya">
+                            <persName ref="http://syriaca.org/person/367">Barḥadbshabba</persName>
+                        </ref> (<abbr>ET</abbr> in Becker), Yawsep is portrayed as a strong
+                        opponent of the <ref rend="bold" target="https://gedsh.bethmardutho.org/Nisibis-School-of">School of
+                            Nisibis</ref>, ‘which he hated’.</p>
+                </div>
+                <div type="bibl">
+                    <listBibl>
+                        <listBibl>
+                            <head>Primary Sources</head>
+                            <bibl>A.  Becker, <title rend="italic">Sources for the history of the
+                                    School of Nisibis</title> (<abbr>TTH</abbr> 50; 2008), 161–2. (<abbr>ET</abbr> of
+                                Barḥadbshabba fragment on Yawsep; discussion on p. 165–71)</bibl>
+                            <bibl>Braun, <title rend="italic">Synodicon Orientale</title>,
+                                145–63.</bibl>
+                            <bibl>Brock, ‘The christology of the Church of the East’, 127 and 134–5.
+                                (<abbr>ET</abbr> of the profession of faith)</bibl>
+                            <bibl>Chabot, <title rend="italic">Synodicon Orientale</title>, 95–110
+                                (Syr.), 352–67 (<abbr>FT</abbr>).</bibl>
+                            <bibl>A.  Mingana, <title rend="italic">Narsai Doctoris Syri Homiliae et
+                                    Carmina</title>, vol. 1 (1905; <abbr>repr.</abbr> 2008), 38–9. (Barḥadbshabba
+                                fragment on Yawsep)</bibl>
+                            <bibl>A.  Scher, <title rend="italic">Histoire nestorienne inédite
+                                    (Chronique de Séert)</title>, vol. 2.1 (<abbr>PO</abbr> 7; 1909),
+                                176–88.</bibl>
+                        </listBibl>
+                        <listBibl>
+                            <head>Secondary Sources</head>
+                            <bibl>O. Braun, ‘Der Briefwechsel des Katholikos Papa von Seleucia’,
+                                    <title rend="italic">Zeitschrift für katholische
+                                    Theologie</title> 18 (1894), 163–82, 546–565.</bibl>
+                            <bibl>J.  Dauvillier, in <title rend="italic">Dictionnaire de droit
+                                    canonique</title>, vol. 3 (1942), 317–320. (art. ‘Chaldéen
+                                [Droit]’)</bibl>
+                            <bibl>Fiey, <title rend="italic">Nisibe, métropole syriaque
+                                    orientale</title>, 48, 51–3, 65.</bibl>
+                            <bibl>Labourt, <title rend="italic">Le christianisme dans l’empire
+                                    perse</title>, 192–7.</bibl>
+                            <bibl>L. Van Rompay, in <title rend="italic">
+                                    <abbr>DHGE</abbr>
+                                </title>, vol. 28
+                                (2003), 174b–177a. (with further references)</bibl>
+                            <bibl>Vööbus, <title rend="italic">History of the School of
+                                    Nisibis</title>, 159–60.</bibl>
+                        </listBibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Lucas</forename> 
+                  <surname>Van Rompay</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

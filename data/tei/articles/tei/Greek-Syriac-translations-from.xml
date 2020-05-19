@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Greek, Syriac translations from</title>
+            <author>
+               <persName>
+                  <forename>Sebastian P.</forename> 
+                  <surname>Brock</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0">Electronic Edition Draft Version 1.0</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Greek, Syriac translations from</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Greek-Syriac-translations-from</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/243</idno>
+                    <idno type="entry">234</idno>
+                    <milestone unit="pages" n="180-181"/>
+                    <idno type="althead" subtype="altorder">Syriac translations from Greek</idno>
+                    <note type="type">subject</note>
+                    <note type="abstract">Over the course of some 500 years, from the late 4th to
+                        the late 9th <abbr>cent.</abbr> an enormous number of Greek texts were translated into
+                        Syriac.<note/>
+                    </note>
+                </ab>
+                <div type="body">
+                    <p>Over the course of some 500 years, from the late 4th to the late 9th <abbr>cent.</abbr> an
+                        enormous number of Greek texts were translated into Syriac. These
+                        translations fall into three main categories: biblical texts in Greek;
+                        patristic texts (by far the largest surviving category); secular texts
+                        (medicine, philosophy, uplifting literature). With the exception of an
+                        8th-cent. translation of Homer’s ‘Iliad’ (surviving only in some short
+                        excerpts), no Classical Greek poetry was ever translated, an indication that
+                        the motivation for undertaking translations was essentially utilitarian in
+                        character. Syriac scholars played a significant role in the ‘translation
+                        movement’ of the late 8th and 9th  centuries under Abbasid patronage, which
+                        provided the Arabic-speaking world with the Greek intellectual heritage of
+                        Late Antiquity; their contribution was especially important during the
+                        earlier years of this movement, seeing that there was a long tradition of
+                        translation from Greek into Syriac, but none yet from Greek into Arabic; for
+                        this reason many translators (including the most famous of them all, <ref rend="bold" target="https://gedsh.bethmardutho.org/Hunayn-b-Ishaq">
+                            <persName ref="http://syriaca.org/person/542">Ḥunayn
+                            <abbr>b.</abbr> Isḥāq</persName>
+                        </ref>) first translated from Greek into Syriac, and then from
+                        Syriac into Arabic.</p>
+                    <p>In quite a number of cases, the Greek original of a work has been lost, and
+                        only the Syriac translation survives. This applies above all to patristic
+                        authors whose works were subsequently suppressed in the Greek Church, such
+                        as those of <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Theodore-of-Mopsuestia">
+                            <persName ref="http://syriaca.org/person/780">Theodore
+                            of Mopsuestia</persName>
+                        </ref>, <ref rend="bold" target="https://gedsh.bethmardutho.org/Evagrius-of-Pontus">
+                            <persName ref="http://syriaca.org/person/483">Evagrius of
+                            Pontus</persName>
+                        </ref>, and <ref rend="bold" target="https://gedsh.bethmardutho.org/Severus-of-Antioch">
+                            <persName ref="http://syriaca.org/person/51">Severus of
+                            Antioch</persName>
+                        </ref>. But even with prestigious Greek authors, Syriac may
+                        preserve a work lost in Greek; examples of this include <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Eusebius-of-Caesarea">
+                            <persName ref="http://syriaca.org/person/480">Eusebius of
+                            Caesarea</persName>
+                        </ref>’s ‘Theophania’ and <ref rend="bold" target="https://gedsh.bethmardutho.org/Cyril-of-Alexandria">
+                            <persName ref="http://syriaca.org/person/430">Cyril of
+                            Alexandria</persName>
+                        </ref>’s ‘Homilies on Luke’. A number of secular writings
+                        whose Greek original is lost are preserved in Syriac translation, such as
+                        Themistius’s ‘On Virtue’ and Alexander of Aphrodisias’s ‘On the Universe
+                            (<hi rend="italic">kosmos</hi>)’. Even where the Greek original survives
+                        the Syriac translation may often be of considerable importance for editors
+                        of the Greek, since the Syriac translations were not only made at a date
+                        much earlier than that of the earliest Greek <abbr>mss.</abbr>, but also they are not
+                        infrequently preserved in <abbr>mss.</abbr> that date from the 6th and even
+                        5th centuries. On the other hand, sometimes the earliest Syriac translations
+                        are so free that they are difficult to use for text-critical purposes,
+                        whereas it is the later translations, of the 6th and 7th centuries, which
+                        are the most useful, in view of their much more literal character.</p>
+                    <p>During this half millennium of translation activity a marked shift in
+                        translation style can be observed, moving away from free and reader-oriented
+                        translations to literal and text-oriented ones; the culmination of this
+                        process occurred in the 7th <abbr>cent.</abbr>, whereas during the ‘translation movement’
+                        there was a return to a more reader-oriented approach. These changes in
+                        translation fashion led to many revisions being made of earlier
+                        translations.</p>
+                    <p>1. Biblical: The earliest biblical translations from Greek were of <ref rend="bold" target="https://gedsh.bethmardutho.org/Tatian">
+                            <persName ref="http://syriaca.org/person/771">Tatian</persName>
+                        </ref>’s
+                            <ref rend="bold" target="https://gedsh.bethmardutho.org/Diatessaron">Diatessaron</ref> (unless this was originally written in Syriac) and
+                        the <ref rend="bold" target="https://gedsh.bethmardutho.org/Old-Syriac-Version">Old Syriac
+                            Version</ref> (3rd <abbr>cent.</abbr>?). A revision of the Old Syriac, incorporating
+                        the rest of the Syriac canon of the New Testament, was made <abbr>ca.</abbr> 400, and
+                        this became the standard text of the Syriac Churches, eventually known as
+                        the <ref rend="bold" target="https://gedsh.bethmardutho.org/Peshitta">Peshitta</ref>. Subsequent revisions, confined to the <abbr>Syr. Orth.</abbr>
+                        tradition, were made in 508 (the lost ‘Philoxenian’, commissioned by <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Philoxenos-of-Mabbug">
+                            <persName ref="http://syriaca.org/person/44">Philoxenos of Mabbug</persName>
+                        </ref>), and <abbr>ca.</abbr> 615 (the <ref rend="bold" target="https://gedsh.bethmardutho.org/Harqlean-Version">Ḥarqlean</ref>, made by <ref rend="bold" target="https://gedsh.bethmardutho.org/Tumo-of-Harqel">
+                            <persName ref="http://syriaca.org/person/87">Tumo of
+                            Ḥarqel</persName>
+                        </ref>); this last provided a mirror rendering of the Greek
+                        original.</p>
+                    <p>Translations from the Greek Old Testament are confined to the <abbr>Syr. Orth.</abbr>
+                        tradition. Philoxenos may also have commissioned a translation of certain
+                        books of the Septuagint (fragments survive), but much more important is the
+                            <ref rend="bold" target="https://gedsh.bethmardutho.org/Syro-Hexapla">Syro-Hexapla</ref>, made by <ref rend="bold" target="https://gedsh.bethmardutho.org/Pawlos-of-Tella">
+                            <persName ref="http://syriaca.org/person/82">Pawlos of
+                            Tella</persName>
+                        </ref>
+                        <abbr> ca.</abbr> 615, from Origen’s revised Septuagint text. This covered
+                        the whole of the Septuagint, but does not survive complete. In the early 8th
+                        <abbr> cent.</abbr>
+                        <ref rend="bold" target="https://gedsh.bethmardutho.org/Yaqub-of-Edessa">
+                            <persName ref="http://syriaca.org/person/113"> Yaʿqub of
+                            Edessa</persName>
+                        </ref> produced his own version of certain books, combining the
+                        Peshitta (made from Hebrew) with materials he had himself translated from
+                        Greek <abbr>mss.</abbr> of the Septuagint.</p>
+                    <p>2. Patristic: The vast majority of surviving Syriac translations are of
+                        post-Nicene Greek Fathers, especially those of the 4th to 6th centuries. The
+                        Cappadocians, <ref rend="bold" target="https://gedsh.bethmardutho.org/Basil-of-Caesarea">
+                            <persName ref="http://syriaca.org/person/376">Basil</persName>
+                        </ref>, <ref rend="bold" target="https://gedsh.bethmardutho.org/Gregory-of-Nyssa">
+                            <persName ref="http://syriaca.org/person/512">Gregory of
+                            Nyssa</persName>
+                        </ref>, and <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Gregory-of-Nazianzus">
+                            <persName ref="http://syriaca.org/person/511">Gregory of
+                            Nazianzus</persName>
+                        </ref>, are especially well represented, and even Gregory of
+                        Nazianzus’s poems got translated. In the <abbr>Ch. of E.</abbr> Theodore of Mopsuestia
+                        was regarded as the ‘Exegete’ par excellence, while among the <abbr>Syr. Orth.</abbr> it
+                        was Cyril of Alexandria and Severus who were held in particular honor. Since
+                        most 5th-cent. translations were free in character (and are sometimes
+                        paraphrases, rather than translations), a need was felt in the 6th and 7th
+                        <abbr>cent.</abbr> for either a revision of the earlier translation, or an entirely new
+                        one, keeping much closer to the Greek original. Thus the Homily collections
+                        of both Gregory of Nazianzus and Severus underwent thorough revisions in the
+                        7th <abbr>cent.</abbr>, the former undertaken by <ref rend="bold" target="https://gedsh.bethmardutho.org/Pawla-of-Edessa">
+                            <persName ref="http://syriaca.org/person/84">Pawla of
+                            Edessa</persName>
+                        </ref>
+                        <abbr> ca.</abbr> 624, and the latter by Yaʿqub of Edessa towards the end
+                        of the century. The motivation for these revisions was sometimes the need
+                        for greater exactitude in the rendering of key theological terms, something
+                        which often resulted in the creation of neologisms in Syriac (an aspect
+                        commented upon by Yaʿqub of Edessa himself in his ‘Letter on
+                        Orthography’).</p>
+                    <p>3. Secular: The earliest Syriac translations of Greek secular literature were
+                        in the area of popular philosophy with an ethical content, and were mostly
+                        made in the 5th <abbr>cent.</abbr> Surviving texts include works by Plutarch, Lucian, and
+                        Themistius. <ref rend="bold" target="https://gedsh.bethmardutho.org/Porphyry">
+                            <persName ref="http://syriaca.org/person/684">Porphyry</persName>
+                        </ref>’s influential ‘Eisagoge’, or Introduction to <ref rend="bold" target="https://gedsh.bethmardutho.org/Aristotle">
+                            <persName ref="http://syriaca.org/person/342">Aristotle</persName>
+                        </ref>’s logical works, known as the Organon, or
+                        ‘(intellectual) Tool’, along with much of the Organon itself, and several of
+                            <ref rend="bold" target="https://gedsh.bethmardutho.org/Galen">
+                            <persName ref="http://syriaca.org/person/496">Galen</persName>
+                        </ref>’s medical writings were first translated in the early 6th
+                        <abbr>cent.</abbr>; in this connection an important figure was the Archiatros <ref rend="bold" target="https://gedsh.bethmardutho.org/Sergios-of-Reshayna">
+                            <persName ref="http://syriaca.org/person/49">Sergios of Reshʿayna</persName>
+                        </ref>, the translator of the Dionysian <choice>
+                            <sic>Corpus</sic>
+                            <corr>corpus</corr>
+                        </choice>. By
+                        the end of the 6th <abbr>cent.</abbr> many of these translations had also become known to
+                        scholars of the <abbr>Ch. of E.</abbr> in the Persian Empire. The 7th <abbr>cent.</abbr> witnessed
+                        further translations in these fields, as well as revisions of 6th-cent.
+                        translations; these were mostly the work of <abbr>Syr. Orth.</abbr> scholars such as <ref rend="bold" target="https://gedsh.bethmardutho.org/Severos-Sebokht">
+                            <persName ref="http://syriaca.org/person/99">Severos Sebokht</persName>
+                        </ref>, the Patriarch <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Athanasios-II-of-Balad">
+                            <persName ref="http://syriaca.org/person/109">Athanasios  II</persName>
+                        </ref>, Yaʿqub of Edessa, and (in the early 8th <abbr>cent.</abbr>)
+                        <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Giwargi-bp-of-the-Arab-tribes">
+                            <persName ref="http://syriaca.org/person/122">Giwargi <abbr>bp.</abbr> of the Arab tribes</persName>
+                        </ref>.</p>
+                    <p>The program of translating Greek philosophical, scientific, and medical
+                        literature, sponsored by the Abbasid Caliphs in <ref rend="bold" target="https://gedsh.bethmardutho.org/Baghdad">
+                            <placeName ref="http://syriaca.org/place/41">Baghdad</placeName>
+                        </ref> in the late
+                        8th and the 9th cent., involved scholars from all the Syr. Churches.
+                        Unfortunately, apart from that of Hippocrates’s Aphorisms, very little of
+                        these Syriac translations survives, though quotations from them can be found
+                        in subsequent Syriac encyclopedic literature (notably <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Bar-Ebroyo-Grigorios">
+                            <persName ref="http://syriaca.org/person/239">Bar
+                            ʿEbroyo</persName>
+                        </ref>) and in Arabic sources. Several of <abbr>Patr. </abbr>
+                        <ref rend="bold" target="https://gedsh.bethmardutho.org/Timotheos-I">
+                            <persName ref="http://syriaca.org/person/790">Timotheos I</persName>
+                        </ref>’s
+                        Letters include references to these translations. Although works by
+                        Aristotle feature prominently amongst those translated into Syriac, Plato’s
+                        writings are conspicuously absent.</p>
+                    <p>In the course of the 9th–11th <abbr>cent.</abbr>, when the Melkite Church replaced the
+                        Antiochian rite by the Constantinopolitan, a large number of liturgical (and
+                        a few hagiographical) texts were translated; amongst these, several poetic
+                        texts were subsequently taken over by the <abbr>Syr. Orth.</abbr>
+                    </p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>S. P.  Brock, <title rend="italic">From Ephrem to Romanos.
+                                Interactions between Syriac and Greek in Late Antiquity</title>
+                            (1999). (with several articles of relevance)</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>S. P.  Brock</reg>
+                        <orig>idem</orig>
+                     </choice>, ‘Syriac translations of Greek popular philosophy’, in <title rend="italic">Von Athen nach Bagdad</title>, <abbr>ed.</abbr> P. Bruns (2003),
+                            9–28.</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>S. P.  Brock</reg>
+                        <orig>idem</orig>
+                     </choice>, ‘Changing fashions in Syriac translation technique: the
+                            background to Syriac translations under the Abbasids’, <title rend="italic">
+                                <abbr>JCSSS</abbr>
+                            </title> 4 (2004), 3–14.</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>S. P.  Brock</reg>
+                        <orig>idem</orig>
+                     </choice>, ‘Translation, Greek and Syriac’, in <title rend="italic">A
+                                History of the Greek Language</title>, <abbr>ed.</abbr> A.-F. Christidis (2007),
+                            935–46, 957–59 (bibliography); also 873–76, 947–50. (for translation in
+                            Antiquity in general)</bibl>
+                        <bibl>H.  Hugonnard-Roche, <title rend="italic">La logique d’Aristote du
+                                grec au syriaque</title> (2004).</bibl>
+                        <bibl>A.  Schmidt and D. Gonnet (<abbr>ed.</abbr>), <title rend="italic">Les Pères grecs
+                                dans la tradition syriaque</title> (<abbr>ÉtSyr</abbr> 4; 2007).</bibl>
+                        <bibl>
+                            <title rend="italic">Les Syriaques: transmetteurs des
+                                civilisations</title> (Patrimoine syriaque, Actes du Colloque IX;
+                            2005).</bibl>
+                        <bibl>E. I.  Yousif, <title rend="italic">Les philosophes et les traducteurs
+                                syriaques</title> (1997).</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Sebastian P.</forename> 
+                  <surname>Brock</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

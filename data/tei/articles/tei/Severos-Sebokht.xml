@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Severos Sebokht</title>
+            <author>
+               <persName>
+                  <forename>Gerrit J.</forename> 
+                  <surname>Reinink</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0">Electronic Edition Draft Version 1.0</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Severos Sebokht</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Severos-Sebokht</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/497</idno>
+                    <idno type="entry">488</idno>
+                    <milestone unit="pages" n="368"/>
+                    <idno type="subject">http://syriaca.org/person/99</idno>
+                    <note type="type">person</note>
+                    <note type="abstract">Scholar, astronomer, philosopher, mathematician, <abbr>bp.</abbr> of
+                        Qenneshre (city south of Aleppo); or <abbr>bp.</abbr> of the Monastery of Qenneshre on
+                        the east bank of the <placeName ref="http://syriaca.org/place/82">Euphrates</placeName>.<note/>
+                    </note>
+                </ab>
+                <ab type="infobox">(d. 666/7) [<abbr>Syr. Orth.</abbr>]</ab>
+                <div type="body">
+                    <p>Scholar, astronomer, philosopher, mathematician, <abbr>
+                            <choice>
+                                <sic>Bp.</sic>
+                                <corr>bp.</corr>
+                            </choice>
+                        </abbr> of Qenneshre (city south
+                        of <ref rend="bold" target="https://gedsh.bethmardutho.org/Aleppo">
+                            <placeName ref="http://syriaca.org/place/18">Aleppo</placeName>
+                        </ref>); or <abbr>
+                            <choice>
+                                <sic>Bp.</sic>
+                                <corr>bp.</corr>
+                            </choice>
+                        </abbr> of the <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Qenneshre-Monastery-of">
+                            <placeName ref="http://syriaca.org/place/230">Monastery
+                            of Qenneshre</placeName>
+                        </ref> on the east bank of the Euphrates. We do not know
+                        much of Severos’s life. Some scholars assume that Severos was born at <ref rend="bold" target="https://gedsh.bethmardutho.org/Nisibis">
+                            <placeName ref="http://syriaca.org/place/142">Nisibis</placeName>
+                        </ref>. He became a monk and student in the Monastery of Qenneshre,
+                        the famous center of Greek learning founded by <ref rend="bold" target="https://gedsh.bethmardutho.org/John-bar-Aphtonia">
+                            <persName ref="http://syriaca.org/person/52">John bar
+                            Aphtonia</persName>
+                        </ref>. According to the <abbr>Maron.</abbr> Chronicle Severos in his
+                        capacity as <abbr>
+                            <choice>
+                                <sic>Bp.</sic>
+                                <corr>bp.</corr>
+                            </choice>
+                        </abbr> came in June 659 to <ref rend="bold" target="https://gedsh.bethmardutho.org/Damascus">
+                            <placeName ref="http://syriaca.org/place/66">Damascus</placeName>
+                        </ref> together
+                        with <abbr>Bp.</abbr> Theodore to hold a debate on religious matters with the Maronites
+                        in the presence of Muʿāwiyya. Several parts of his works survive, although
+                        only few have been published to date. Some of Severos’s astronomical works
+                        were (partially) published by F. Nau and E. Sachau. The most notable of
+                        these are: the ‘Treatise on the Astrolabe’ and the ‘Treatise on the
+                        Constellations’. Severos wrote several works concerning the logic of <ref rend="bold" target="https://gedsh.bethmardutho.org/Aristotle">
+                            <persName ref="http://syriaca.org/person/342">Aristotle</persName>
+                        </ref>, among which are his ‘Treatise on Syllogisms’ (written
+                        in 638) and his Letters to <abbr>Bp.</abbr> Aitalaha of Nineveh and the periodeutes
+                        Yawnan. According to the <abbr>ms.</abbr> tradition Severos translated from Middle
+                        Persian into Syriac a short exposition of Aristotle’s ‘De interpretatione’,
+                        which was composed by <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Pawlos-the-Philosopher">
+                            <persName ref="http://syriaca.org/person/675">Pawlos the
+                            Philosopher</persName>
+                        </ref> (6th <abbr>cent.</abbr>; also known as Pawlos the Persian). Some
+                        scholars suggested that Severos translated from Middle Persian into Syriac
+                        Pawlos’s compendium on the logic of Aristotle, which was addressed to the
+                        Persian shah Khusrau I (for the question of the language in which Pawlos
+                        wrote, see Pawlos the Philosopher).</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>Barsoum, <title rend="italic">Scattered pearls</title>,
+                            325–8.</bibl>
+                        <bibl>Baumstark, <title rend="italic">Literatur</title>, 246–7.</bibl>
+                        <bibl>S. P.  Brock, ‘The Syriac Commentary Tradition’, in <title rend="italic">Glosses and Commentaries on Aristotelian Logical
+                                Texts</title>, <abbr>ed.</abbr> C.  Burnett (Warburg Institute Surveys and Texts
+                            23; 1993), 3–18. (<abbr>repr.</abbr> in <title rend="italic">From Ephrem to
+                                Romanos</title> [1999], ch. XIII)</bibl>
+                        <bibl>H.  Hugonnard-Roche, <title rend="italic">La logique d’Aristote du
+                                grec au syriaque: Études sur la transmission des textes de l’Organon
+                                et leur interprétation philosophique</title> (2004).</bibl>
+                        <bibl>F.  Nau, ‘Le traité sur l’astrolabe plan de Sévère Sébokt’, <title rend="italic">
+                                <abbr>JA</abbr> 
+                     </title>9.13 (1899), 56–101, 238–303.</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>F.  Nau</reg>
+                        <orig>idem</orig>
+                     </choice>, ‘La cosmographie au VIIe siècle chez les Syriens’, <title rend="italic">ROC</title> 5 (18) (1910), 225–54.</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>F.  Nau</reg>
+                        <orig>idem</orig>
+                     </choice>, ‘Le traité sur les ‘Constellations’ écrit, en 661, par Sévère
+                            Sébokt, évêque de Qennesrin’, <title rend="italic">ROC</title> 7 (27)
+                            (1929), 327–410; 8 (28) (1932), 85–100.</bibl>
+                        <bibl>G. J.  Reinink, ‘Severus Sebokts Brief an den Periodeutes Jonan.
+                            Einige Fragen zur aristotelischen Logik’, in <abbr>
+                                <title rend="italic">SymSyr</title> III</abbr>, 97–107.</bibl>
+                        <bibl>E.  Sachau, <title rend="italic">Inedita Syriaca. Eine Sammlung
+                                syrischer Übersetzungen von Schriften griechischer
+                                Profanliteratur</title> (1870; <abbr>repr.</abbr> 1968), 127–34.</bibl>
+                        <bibl>J.  Teixidor, <title rend="italic">Aristote en syriaque. Paul le
+                                Perse, logicien du VIe siècle</title> (2003).</bibl>
+                        <bibl>J. W.  Watt, ‘A Portrait of John Bar Aphtonia, Founder of the
+                            Monastery of Qenneshre’, in <title rend="italic">Portraits of Spiritual
+                                Authority. Religious Power in Early Christianity, Byzantium and the
+                                Christian Orient</title>, <abbr>ed.</abbr> J. W. Drijvers and J. W. Watt
+                            (Religions in the Graeco-Roman World 137; 1999), 155–169.</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Gerrit J.</forename> 
+                  <surname>Reinink</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

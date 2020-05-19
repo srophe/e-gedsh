@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Quryaqos</title>
+            <author>
+               <persName>
+                  <forename>Witold</forename> 
+                  <surname>Witakowski</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0">Electronic Edition Draft Version 1.0</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Quryaqos</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Quryaqos</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/458</idno>
+                    <idno type="entry">449</idno>
+                    <milestone unit="pages" n="347-348"/>
+                    <idno type="althead">Kyriakos</idno>
+                    <idno type="subject">http://syriaca.org/person/145</idno>
+                    <note type="type">person</note>
+                    <note type="abstract">
+                        <abbr>Patr.</abbr> of <placeName ref="http://syriaca.org/place/2546">Antioch</placeName>.<note/>
+                    </note>
+                </ab>
+                <ab type="infobox">Kyriakos (d. 817) [<abbr>Syr. Orth.</abbr>]</ab>
+                <div type="body">
+                    <p>
+                        <abbr>Patr.</abbr> of <ref rend="bold" target="https://gedsh.bethmardutho.org/Antioch">
+                            <placeName ref="http://syriaca.org/place/10">Antioch</placeName>
+                        </ref>, ordained on 17 Aug. 793 in <ref rend="bold" target="https://gedsh.bethmardutho.org/Harran">
+                            <placeName ref="http://syriaca.org/place/216">Ḥarran</placeName>
+                        </ref>, died in June
+                        or August 817 in <ref rend="bold" target="https://gedsh.bethmardutho.org/Mosul">
+                            <placeName ref="http://syriaca.org/place/139">Mosul</placeName>
+                        </ref> (the sources
+                        are not unanimous); he came from <ref rend="bold" target="https://gedsh.bethmardutho.org/Tagrit">
+                            <placeName ref="http://syriaca.org/place/193">Tagrit</placeName>
+                        </ref>; before
+                        becoming <abbr>
+                            <choice>
+                                <sic>Patr.</sic>
+                                <corr>patr.</corr>
+                            </choice>
+                        </abbr> he had been a monk in the Monastery of Esṭona near
+                        Kallinikos.</p>
+                    <p>At a synod in the Monastery of Naphshatha on 7 Sept. 797, by a christological
+                        formula acceptable for both parts, he managed to achieve a church union with
+                        the Julianist Patriarch Gabriel, to the effect that if the latter survived
+                        Quryaqos, he would become <abbr>
+                            <choice>
+                                <sic>Patr.</sic>
+                                <corr>patr.</corr>
+                            </choice>
+                        </abbr> for the united <abbr>Syr. Orth.</abbr> Church (‘Chronicle
+                        to the year 813’; <hi rend="italic">Chronica minora</hi> 252/191). The
+                        planned union did not come into being as some of the Severian bishops would
+                        not accept it and even accused the <abbr>patr.</abbr> of becoming a Julianist
+                        heretic.</p>
+                    <p>Quryaqos tried to take decisive steps against the eucharistic formula (said
+                        to be of Nestorian tendency) ‘Panem caelestem frangimus’, which for a long
+                        time had been causing much dissension in the Church, but because of the
+                        danger of a schism was tolerated by the previous patriarchs. Quryaqos’s
+                        solution (at a synod in Beth Bathin in 795) did not bring the controversy to
+                        its end. On the contrary it brought about an open schism, as all other
+                        dissidents united with the party of the followers of the formula. The center
+                        of the opposition was the monastery of Gubba Barraya and the diocese of
+                        Cyrrhus, the <abbr>bp.</abbr> of which had been deposed by Quryaqos. At the synod
+                        summoned in 807/8 in Gubrin the dissenting bishops were deposed. Then they
+                        elected a monk of Qarṭmin, Abraham, an anti-patriarch. He sought recognition
+                        by the Coptic <abbr>Patr.</abbr> Markos, but due to Quryaqos’s intervention was
+                        excommunicated by Markos. This, however, did not put an end to the schism
+                        and it existed over the whole period of Quryaqos’s pontificate. One of the
+                        results of the machinations of the dissidents was that Caliph Hārūn
+                        al-Rashīd gave orders to destroy churches in the region of Tagra.</p>
+                    <p>In some cases Quryaqos seems to have supported hierarchs who were disliked by
+                        their congregations. Such was the case with Shemʿon, the metropolitan of
+                        Tagrit (only the death of whom brought peace to the diocese) and with
+                        Basilios, his successor. The latter soon fell into a conflict with the
+                        people of Mosul, as he opposed their choice of Daniel, of the powerful <ref rend="bold" target="https://gedsh.bethmardutho.org/Matay-Dayro-d-Mor">
+                            <persName ref="http://syriaca.org/person/227">Dayro d-Mor Matay</persName>
+                        </ref>, as their <abbr>bp.</abbr> Quryaqos who supported the
+                        authority of Basilios (as the metropolitan of Tagrit, the position later
+                        known as maphrianate), formally had precedence over other metropolitans of
+                        the ‘East’ (<choice>
+                            <sic>i.e. </sic>
+                            <corr>i.e., </corr>
+                        </choice>the part of the <abbr>Syr. Orth.</abbr> Church on the former territory
+                        of the Persian [Sasanian] state). Quryaqos tried to solve the conflict by a
+                        conciliatory decree (<ref rend="bold" target="https://gedsh.bethmardutho.org/Michael-I-Rabo">
+                            <persName ref="http://syriaca.org/person/217">Michael Rabo</persName>
+                        </ref>, Chronicle,
+                        495f/IIIb,33–35).
+                    </p>
+                    <p>In the atmosphere of conflicts within the church’s hierarchy the discipline
+                        among the priests and monks diminished. Quryaqos tried to improve that by
+                        instituting canons at two synods: in Beth Bathin near Ḥarran in November 794
+                        (46 canons) and in Ḥarran in 812/13 (26 can.).</p>
+                    <p>His literary works include responsa, a liturgy (anaphora), a collection of
+                            <hi rend="italic">memre</hi> on theological themes (incomplete), a
+                        biography of <ref rend="bold" target="https://gedsh.bethmardutho.org/Severus-of-Antioch">
+                            <persName ref="http://syriaca.org/person/51">Severus of
+                            Antioch</persName>
+                        </ref> (discovered by A. Vööbus), letters (three of which are
+                        quoted by Michael Rabo) and a synodal letter to the Coptic Patriarch Markos
+                        being a profession of faith (preserved in Arabic translation).</p>
+                    <p>See <ref target="https://gedsh.bethmardutho.org/fig/58">Fig. 58</ref>.</p>
+                </div>
+                <div type="bibl">
+                    <listBibl>
+                        <listBibl>
+                            <head>Primary Sources</head>
+                            <bibl>Abbeloos and Lamy, <title rend="italic">Gregorii Barhebraei
+                                    chronicon ecclesiasticum</title>, vol. I, <choice>
+                                    <sic>cols</sic>
+                                    <corr>cols.</corr>
+                                </choice> 332–44.</bibl>
+                            <bibl>Chabot, <title rend="italic">Chronique de Michel le
+                                Syrien</title>, XII.3–12.</bibl>
+                            <bibl>Guidi <abbr>et al.</abbr>, <title rend="italic">Chronica minora</title>, vol. 3
+                                (<abbr>CSCO</abbr> 5), 243–60.</bibl>
+                            <bibl>K.  Kaiser, ‘Die syrische “Liturgie” des Kyriakos von Antiocheia’,
+                                    <title rend="italic">
+                                    <abbr>OC</abbr>
+                                </title> 5 (1905), 174–97. (Syr. with
+                                <abbr>LT</abbr>)</bibl>
+                            <bibl>F.  Nau, <title rend="italic">Les canons et les résolutions
+                                    canoniques de Rabboula, Jean de Tella, Cyriaque d’Amid, Jacques
+                                    d’Édesse, Georges des Arabes, Cyriaque d’Antioche, Jean III,
+                                    Théodose d’Antioche et des Perses</title> (Ancienne littérature
+                                canonique syriaque 2; 1906). (<abbr>FT</abbr>)</bibl>
+                            <bibl>H.  Teule, ‘La lettre synodale de Cyriaque, patriarche monophysite
+                                d’Antioche (793–817)’, <title rend="italic">
+                                    <abbr>OLP</abbr>
+                                </title> 9 (1978),
+                                121–140. (Arabic with <abbr>FT</abbr>)</bibl>
+                            <bibl>A.  Vööbus, <title rend="italic">Syrische Kanonessammlungen: ein
+                                    Beitrag zur Quellenkunde</title>, vol. 1. <title rend="italic">Westsyrische Originalurkunden</title>, 1A–B (<abbr>CSCO</abbr> 307, 317;
+                                1970), 13–35 (can.); <choice>
+                                    <sic>298f</sic>
+                                    <corr>298f.</corr>
+                                </choice> (responsa).</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>A.  Vööbus</reg>
+                           <orig>idem</orig>
+                        </choice>, <title rend="italic">The Synodicon in the West Syrian
+                                    tradition</title> (<abbr>CSCO</abbr> 367–8, 375–6; 1975–76), vol. 2.1–2, 6–24
+                                (Syr.), 7–27 (<abbr>ET</abbr>).
+                            </bibl>
+                        </listBibl>
+                        <listBibl>
+                            <head>Secondary Sources</head>
+                            <bibl>Baumstark, <title rend="italic">Literatur</title>, 270–1.</bibl>
+                            <bibl>R.  Draguet, ‘Le Pacte d’union de 797 entre les Jacobites et les
+                                Julianistes d’Antioche’, <title rend="italic">
+                                    <abbr>LM</abbr>
+                                </title> 54 (1941),
+                                91–106.</bibl>
+                            <bibl>W.  Hage, <title rend="italic">Die syrisch-jakobitische Kirche in
+                                    frühislamischer Zeit nach orientalischen Quellen</title>
+                                (1966).</bibl>
+                            <bibl>I.  Nabe-von  Schönberg, <title rend="italic">Die westsyrische
+                                    Kirche im Mittelalter (<choice>
+                                        <sic>600</sic>
+                                        <corr>800</corr>
+                                    </choice>–1150)</title> (1977), 89–92.</bibl>
+                            <bibl>Palmer, <title rend="italic">Monk and mason</title>,
+                                179–81.</bibl>
+                            <bibl>A.  Rücker, ‘Das dritte Buch der Mēmrē des Kyriakos von
+                                Antiochien’, <title rend="italic">
+                                    <abbr>OC</abbr>
+                                </title> 31 (1934),
+                                107–15.</bibl>
+                            <bibl>A.  Vööbus, ‘Die Entdeckung der Memre des Qyriaqos von
+                                Antiochien’, <title rend="italic">
+                                    <abbr>OKS</abbr>
+                                </title> 25 (1976), 193–5<title rend="italic">.</title>
+                            </bibl>
+                            <bibl>
+                        <choice>
+                           <reg>A.  Vööbus</reg>
+                           <orig>idem</orig>
+                        </choice>, ‘Discovery of the biography of Severus of Antioch by
+                                Qyriaqos of Tagrit’, <title rend="italic">Rivista di Studi Bizantini
+                                    e Neoellenici</title> 12–13 (1975–76), 117–24.</bibl>
+                        </listBibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Witold</forename> 
+                  <surname>Witakowski</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

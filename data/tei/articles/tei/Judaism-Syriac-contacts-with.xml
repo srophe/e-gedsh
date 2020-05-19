@@ -1,0 +1,605 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Judaism, Syriac contacts with</title>
+            <author>
+               <persName>
+                  <forename>Lucas</forename> 
+                  <surname>Van Rompay</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0">Electronic Edition Draft Version 1.0</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Judaism, Syriac contacts with</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Judaism-Syriac-contacts-with</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/318</idno>
+                    <idno type="entry">309</idno>
+                    <milestone unit="pages" n="232-236"/>
+                    <idno type="althead" subtype="altorder">Syriac contacts with Judaism</idno>
+                    <note type="type">subject</note>
+                    <note type="abstract">
+                        <note/>
+                    </note>
+                </ab>
+                <div type="body">
+                    <p>Syriac Christianity originated and developed in areas in which communities of
+                        Diaspora Judaism existed. Throughout their history Syr. Christians lived in
+                        proximity to Jews, both in the cities of Syria and in North and Central
+                        Mesopotamia, and they shared with Jews their language and much of their
+                        religious worldview. The interactions between Syr. Christians and Jews can
+                        be studied on three different levels: 1. the common religious and cultural
+                        heritage, and the influx of ideas from Judaism into Syr. Christianity, in
+                        particular in the early period; 2. the literary representations of Judaism
+                        within Syr. Christian literature, which are often of a polemical nature; 3.
+                        the more occasional and incidental comments on contacts and exchanges
+                        between Syr. Christians and Jews in daily life. While Jews and Judaism are
+                        frequently mentioned and discussed in Syr. sources, explicit references to
+                        Syr. Christians are almost completely lacking from Jewish sources. Whether
+                        and to what extent certain passages in Rabbinic literature were written in
+                        response to arguments brought forward by Syr. Christians remains a question
+                        of scholarly debate. Evidence of Jewish interest in Syr. Christianity is
+                        occasionally found in the Middle Ages, e.g., when R. Hai Gaon (939–1038)
+                        expresses interest in knowing the E.-<abbr>Syr. Cath.</abbr>’s view on an obscure phrase
+                        in Psalms, or when a Jewish redactor rewrites the <ref rend="bold" target="https://gedsh.bethmardutho.org/Peshitta">Peshitta</ref> of
+                        Proverbs into a Targum (Sokoloff, 404–5; Weitzman, 109–11). A more
+                        considered interest was found in the period of Humanism and Enlightenment,
+                        e.g., with <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/De-Rossi-Azariah-Buonaiuto">
+                            <persName ref="http://syriaca.org/person/443">A. de’
+                            Rossi</persName>
+                        </ref> and, more sporadically, with B. de Spinoza (d. 1677).</p>
+                    <p>The eastward spread of Christianity from Palestine must have affected the
+                        Jewish communities and the Semitic, largely Aramaic speaking, populations of
+                        Syria and Mesopotamia. Some of the earliest Christian preaching must have
+                        been done in Aramaic, even though there is very little evidence. At the same
+                        time, by the beginning of the Christian era, Hellenism and Greco-Roman
+                        culture had a strong presence throughout the Near East, and Greek soon
+                        became the primary language of Christianity. Not surprisingly, therefore,
+                        there has been an ongoing discussion among scholars as to whether the Jewish
+                        stream of ideas or the Greco-Roman one was more decisive in the birth and
+                        early development of Syr. Christianity. There is reason, however, to assume
+                        that Judaism was a determining factor in the origin and early development of
+                        Syr. Christianity, based on the fact (1) that Syr. Christians, probably in
+                        the late 2nd <abbr>cent.</abbr>, received the <abbr>OT</abbr> Peshitta from Judaism (regardless of
+                        whether the translation from Hebrew was made prior to its being adopted as
+                        the Syr. Christian Bible, or was made by Syr. Christians with a Jewish
+                        background); (2) that early Syr. literature occasionally reflects
+                        non-biblical phraseology of the Jewish Targumim (e.g., Brock 1995); (3) and
+                        that early Syr. liturgy exhibits features of Jewish origin (Rouwhorst).</p>
+                    <p>Somewhat related to this is the question of Syr. Christianity’s relationship
+                        to so-called Jewish Christianity, i.e., forms of Christianity represented by
+                        people who, mostly of Jewish origin themselves, continued to identify as
+                        Jews and remained faithful to Jewish customs and rituals (such as
+                        circumcision and food laws). As evidence for the existence of Jewish
+                        Christians in Syria, one may point to the <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Didascalia-Apostolorum">Didascalia
+                            Apostolorum</ref> (3rd <abbr>cent.</abbr>), which most likely was written in Syria
+                        and which in some sections clearly reflects a Christian community that was
+                        composed of both Gentiles and Jews (who had to be discouraged from
+                        identifying too closely with non-Christian Judaism). This text, however, was
+                        written in Greek and may not be representative of the situation in the
+                        heartlands of Syr. Christianity; on the other hand, the text’s reception and
+                        popularity in Syriac, most likely from the 5th <abbr>cent.</abbr> onwards, indicates that
+                        its content was seen as relevant to Syr. Christianity. The Pseudo-Clementine
+                        writings (see <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Clement-of-Rome-and-Pseudo-Clementine-literature">Clement of Rome</ref>) also reflect Jewish
+                        understandings of Christianity (see most recently Reed). Written in Greek,
+                        probably in the 3rd <abbr>cent.</abbr>, these texts were translated into Syriac and parts
+                        were included in the earliest dated Syr. <abbr>ms.</abbr> (Brit. Libr. Add. 12,150, dated
+                        411).</p>
+                    <p>Recent scholarship has pointed out that in the early Christian period the
+                        boundaries between Jewish and Christian communities were far from watertight
+                        and allowed for a rather fluid pattern of religious identification. This
+                        situation of porous borders may have lasted longer in Aramaic-speaking areas
+                        than in the Greco-Roman world; it also may have had a longer history in the
+                        Sasanian Empire, where the 4th-cent. Christianization of the Roman Empire
+                        had little immediate effect (Becker 2003). In such a situation the
+                        interrelationship between Jews and Christians may have been more complex
+                        than it was in the Christianized Roman Empire.</p>
+                    <p>Regardless of how strong a presence Jewish Christianity had in the early
+                        period, Syr. Christianity from the 4th <abbr>cent.</abbr> onwards saw itself as breaking
+                        away from Judaism. The two main 4th-cent. authors, <ref rend="bold" target="https://gedsh.bethmardutho.org/Aphrahat">
+                            <persName ref="http://syriaca.org/person/10">Aphrahaṭ</persName>
+                        </ref> and <ref rend="bold" target="https://gedsh.bethmardutho.org/Ephrem">
+                            <persName ref="http://syriaca.org/person/13">Ephrem</persName>
+                        </ref>,
+                        convey mixed messages. On the one hand, a number of themes and ideas of
+                        Jewish origin are found in their works and suppose an audience that, at
+                        least in part, was well acquainted with Judaism. On the other hand, this
+                        common ground with Judaism did not prevent these authors from expressing
+                        distance from and rejection of Judaism, including contemporary Judaism. Just
+                        as in Greek Christian literature, Judaism was defined increasingly as the
+                        opposite of Christianity. The writings of Aphrahaṭ and Ephrem may be read
+                        perhaps as reflecting a situation which was still characterized by ongoing
+                        communality between Jews and Christians, but in which these very authors
+                        were intent on drawing clearer boundaries and creating separation.
+                        Anti-Jewish sentiment, which had been largely absent from early Syr.
+                        literature, became a factor in the process of Christian self-identification.
+                        It may also be telling that it is mainly Aphrahaṭ’s second series of
+                        Demonstrations (nos.  11–22), dated to 344, that contains anti-Jewish
+                        polemic, while the earlier series (Dem. 1–10, dated to 337) is relatively
+                        free from it. In 344, well into the Roman-Persian war and the predicament of
+                        persecution, Christians may have needed a more powerful warning that they
+                        should not choose the easy solution of retreating to the relative safety of
+                        Judaism.</p>
+                    <p>Aphrahaṭ and Ephrem, writing in the Persian-Sasanian Empire and in the Roman
+                        Empire respectively, share a number of themes and arguments in their
+                        dealings with Judaism, but their tone is very different. To account for
+                        Ephrem’s harsh language about Jews (which may have targeted Judaizing
+                        Christians rather than Jews themselves), scholars have pointed to Ephrem’s
+                        and his community’s own profound Jewishness (Cassingena: ‘«judéité»
+                        fondatrice’), which would have contributed to Ephrem’s particular
+                        sensitivity. But the general profile of Aphrahaṭ’s community cannot have
+                        been much different, and yet his approach is so much milder. Should we
+                        ascribe the difference between Aphrahaṭ and Ephrem to ‘personal temperament
+                        and inclination’ (Hayman 1985, 427)? Or should the social and political
+                        context be taken into consideration? In the Persian-Sasanian Empire, in
+                        which Aphrahaṭ wrote, both Judaism and Christianity were minorities in the
+                        Zoroastrian society. In the Roman Empire, however, Syr. Christianity soon
+                        became part of the emerging imperial orthodoxy, which in Ephrem’s day was in
+                        the process of asserting itself, although it still was fragile (as the short
+                        reign of Emperor Julian showed) and weakened by internal division. Might
+                        this difference have contributed to setting a different tone for Aphrahaṭ,
+                        on the one hand, and for Ephrem, on the other? But even within the corpus of
+                        Ephrem’s writings the degree of anti-Jewish polemic differs widely: the
+                        Commentary on Genesis (a work with many ‘Jewish’ features) and the Prose
+                        Refutations (dealing with different ‘heretical’ doctrines) have very little
+                        anti-Jewish polemic; the anti-Judaism of the Commentary on the Diatessaron
+                        reflects the language of theological debate (Morrison); and some of the
+                        Hymns are passionately anti-Jewish.</p>
+                    <p>Anti-Jewish literature continued in Syr. Christianity, without ever becoming
+                        as prominent as it was in Greek or Latin Christianity. And again, marked
+                        differences are found, such as between <ref rend="bold" target="https://gedsh.bethmardutho.org/Yaqub-of-Serugh">
+                            <persName ref="http://syriaca.org/person/42">Yaʿqub of
+                            Serugh</persName>
+                        </ref>’s harshness and his contemporary <ref rend="bold" target="https://gedsh.bethmardutho.org/Narsai">
+                            <persName ref="http://syriaca.org/person/650">Narsai</persName>
+                        </ref>’s mildness
+                        (Frishman). Here again, one author is writing within the Roman Empire and
+                        the other as a member of a minority group in the Persian-Sasanian Empire. In
+                        addition, these authors belong to different theological traditions, which
+                        may have had a different impact on their approach to Judaism. As dyophysite
+                        Christology and Antiochene biblical interpretation were often portrayed by
+                        opponents as being (nearly) identical to Judaism, the use of anti-Jewish
+                        argument may have become, for those of the Antiochene tradition, less
+                        attractive.</p>
+                    <p>From the mid-8th <abbr>cent.</abbr>, when both Jews and Syr. Christians had become
+                        minority groups under the dominance of Islam, a report is preserved of a
+                        disputation that was held in the region of <ref rend="bold" target="https://gedsh.bethmardutho.org/Hims">
+                            <placeName ref="http://syriaca.org/place/215">Ḥimṣ</placeName>
+                        </ref> between <ref rend="bold" target="https://gedsh.bethmardutho.org/Sargis-the-Stylite">
+                            <persName ref="http://syriaca.org/person/81">Sargis the Stylite</persName>
+                        </ref> (it is unclear whether he was a Miaphysite or
+                        a Chalcedonian) and a Jew (<abbr>ed.</abbr> Hayman). While the text contains a number of
+                        stock arguments of anti-Jewish polemic, there also is a remarkable passage
+                        in which the Jewish interlocutor mentions those Christians ‘who associate
+                        with us in the synagogue, and who bring offerings and alms and oil, and at
+                        the time of the Passover send unleavened bread …’ (22.1, <abbr>ed.</abbr> Hayman, 72;
+                        transl. 73–74). Sargis is unable to challenge this description, but portrays
+                        these people as ‘sick and weak’, not able to walk on the king’s highway.
+                        Once again we seem to be confronted with porous borders, which allow for
+                        multiple religious identifications.</p>
+                    <p>In addition to occasionally targeting the Jews in their theological polemic,
+                        Syr. Christians also had a genuine interest in Judaism. Their main source
+                        for post-biblical Jewish history was <ref rend="bold" target="https://gedsh.bethmardutho.org/Josephus">
+                            <persName ref="http://syriaca.org/person/577">Josephus</persName>
+                        </ref>’s ‘Jewish
+                        War’. While a Syr. translation is preserved only of the Sixth Book,
+                        quotations from other books in Sargis the Stylite’s ‘Disputation’ and
+                        elsewhere (in a Miaphysite florilegium, possibly of the 6th <abbr>cent.</abbr>, preserved
+                        in <abbr>ms.</abbr> Dayr al-Suryān 28, and in <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Dionysios-bar-Salibi">
+                            <persName ref="http://syriaca.org/person/212">Dionysios
+                            bar Ṣalibi</persName>
+                        </ref>’s Treatise against the Jews) suggest that a full
+                        translation once existed. This work was used for purposes well beyond that
+                        of polemic. <ref rend="bold" target="https://gedsh.bethmardutho.org/Yaqub-of-Edessa">
+                            <persName ref="http://syriaca.org/person/113">Yaʿqub of
+                            Edessa</persName>
+                        </ref> had a keen interest in Jewish writings, such as the ‘Book
+                        of Enoch’ and ‘Jewish Histories’ (<hi rend="italic">tašʿyātā yudāyātā</hi>,
+                        a work related to ‘Jubilees’), whose authenticity and usefulness he
+                        defended, even against more negative views in the earlier tradition (Adler).
+                        He was also familiar with certain Jewish traditions, such as the
+                        pronunciation and writing of the Tetragrammaton, and he was aware of the
+                        importance of the Hebrew language, of which he had some, albeit rather
+                        limited knowledge (see Salvesen). <abbr>Cath. </abbr>
+                        <ref rend="bold" target="https://gedsh.bethmardutho.org/Timotheos-I">
+                            <persName ref="http://syriaca.org/person/790">Timotheos I</persName>
+                        </ref> as
+                        well relied on Jews, who in some cases were converts, for information about
+                        the Bible. A common practice in biblical commentaries is the quotation of
+                        alternative readings from the ‘Hebrew (Bible)’ (along with those from the
+                        Septuagint), which either agree with the Masoretic text or, more often,
+                        reflect later Jewish interpretations (see, e.g., Ter Haar Romeny 2001).
+                        Interest in Jewish sects is found in several Syr. authors, the latest of
+                        whom is Dionysios bar Ṣalibi (Brock 1977). In his ‘Treatise against the
+                        Jews’, probably the last such work to be written in Syriac, he included an
+                        overview of Jewish sects, largely based on <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Epiphanius-of-Salamis">
+                            <persName ref="http://syriaca.org/person/477">Epiphanius
+                            of Salamis</persName>
+                        </ref>’s <hi rend="italic">Anakephalaiosis</hi>, expanded with
+                        information taken from Josephus’ ‘Jewish War’ (Book II,160–6). <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Bar-Ebroyo-Grigorios">
+                            <persName ref="http://syriaca.org/person/239">Bar ʿEbroyo</persName>
+                        </ref>’s attitude towards Judaism is largely
+                        irenic. While until recently it was assumed that he was of Jewish descent
+                        (‘Son of the Hebrew’, his father being the physician Ahrun), most scholars
+                        have now abandoned this view, linking his name instead to the village of
+                        ʿEbro, on the Euphrates. There is very little evidence of conversion from
+                        Judaism to Syr. Christianity in the Islamic period and, more generally,
+                        contacts between Jews and Christians are very poorly documented. Canonical
+                        collections include rules urging Christians to work on the Jewish Sabbath,
+                        prohibiting bishops and clergy from celebrating Jewish festivals, and
+                        warning Christians not to accept unleavened bread from Jews (Kawerau 94).
+                        Here again we may be dealing with attempts by the church leadership to
+                        create a separation that did not always exist in daily life.</p>
+                    <p>For the later period, we have an interesting example of the co-existence of
+                        Jews and E.-Syr. Christians in Iraqi Kurdistan. From the early 17th <abbr>cent.</abbr>
+                        onwards, benefitting from improved living conditions, both Jews and
+                        Christians started writing down their vernacular Neo-Aramaic languages,
+                        which were closely related and mutually understandable. Borrowing the script
+                        from their respective authoritative traditions (Hebrew and Jewish Aramaic
+                        for the Jews and Syriac for the Christians), they proceeded in very similar
+                        ways, turning in the first place to liturgical or para-liturgical texts.
+                        This ‘areal phenomenon’, involving both Jewish and Christian communities (A.
+                        Mengozzi, <hi rend="italic">Israel of Alqosh and Joseph of Telkepe</hi>
+                        [<abbr>CSCO</abbr> 590; 2002], 16), seems to presuppose a rather unproblematic
+                        relationship between the two religious communities. As a matter of fact,
+                        Aramaic-speaking Jews and Christians lived together peacefully in Iraqi
+                        Kurdistan until around 1950, and in Iran even later. Among the villages and
+                        towns in which Jews and Christians lived in close proximity to each other,
+                        the following deserve to be singled out: <ref rend="bold" target="https://gedsh.bethmardutho.org/Alqosh">
+                            <placeName ref="http://syriaca.org/place/19">Alqosh</placeName>
+                        </ref>, where Jews
+                        and Christians went on pilgrimage to the tomb of the prophet Nahum (Fiey,
+                            <hi rend="italic">Assyrie chrétienne</hi>, vol. 2, 396–400); Zakho (see
+                        most recently A. Sabar, <hi rend="italic">My father’s paradise</hi> [2009]);
+                        and Shosh (ancient Bashosh; see Fiey, <hi rend="italic">Assyrie
+                            chrétienne</hi>, vol. 1, 259). An E.-Syr. <abbr>ms.</abbr>, Brit. Libr. Add. 25,875,
+                        dated 1709/10 (Wright, <hi rend="italic">Catalogue</hi>, vol. 3, 1064–69)
+                        contains a Hebrew alphabet and some additional writing in Hebrew, including
+                        a part of Ps. 22 in Hebrew script, even though the text is Syriac. In the
+                        20th <abbr>cent.</abbr>, however, the political situation in the Middle East added a new
+                        layer of tension to the relationship between Jews and Syr. Christians.</p>
+                </div>
+                <div type="bibl">
+                    <listBibl>
+                        <listBibl>
+                            <head>Primary Sources (selection)</head>
+                            <bibl>M.  Albert, <title rend="italic">Jacques de Saroug. Homélies
+                                    contre les Juifs</title> (<abbr>PO</abbr> 38.1; 1976).</bibl>
+                            <bibl>A. H.  Becker, ‘The Discourse on the Priesthood (BL Add. 18295,
+                                ff. 137b–140b): An anti-Jewish text on the abrogation of the
+                                Israelite priesthood’, <title rend="italic">
+                                    <abbr>JSS</abbr>
+                                </title> 51 (2006),
+                                85–115. (with an important ‘Note’ on this text by G. Herman, in
+                                    <title rend="italic">
+                                    <abbr>JSS</abbr>
+                                </title> 54 [2009], 389–91)</bibl>
+                            <bibl>A. P.  Hayman, <title rend="italic">The disputation of Sergius the
+                                    Stylite against a Jew</title> (<abbr>CSCO</abbr> 338–339; 1973).</bibl>
+                            <bibl>J.  de Zwaan, <title rend="italic">The treatise of Dionysius bar
+                                    Ṣalibhi against the Jews</title> (1906).</bibl>
+                        </listBibl>
+                        <listBibl>
+                            <head>Secondary Sources</head>
+                            <bibl>W. Adler, ‘Jewish Pseudepigrapha in Jacob of Edessa’s Letters and
+                                historical writings’, in <title rend="italic">Jacob of Edessa and
+                                    the Syriac culture of his day</title>, <abbr>ed.</abbr> B. ter Haar Romeny
+                                (<abbr>MPIL</abbr> 18; 2008), 49–65.</bibl>
+                            <bibl>A. H.  Becker, ‘Anti-Judaism and care for the poor in Aphrahat’s
+                                    <title rend="italic">Demonstration</title> 20’, <title rend="italic">
+                                    <abbr>JECS</abbr>
+                                </title> 10 (2002), 305–27.</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>A. H.  Becker</reg>
+                           <orig>idem</orig>
+                        </choice>, ‘Beyond the spatial and temporal <title rend="italic">Limes</title>: Questioning the “Parting of the ways” outside
+                                the Roman Empire’, in <title rend="italic">The ways that never
+                                    parted. Jews and Christians in Late Antiquity and the Middle
+                                    Ages</title>, <abbr>ed.</abbr> A. H. Becker and A. Y. Reed (2003; <abbr>repr.</abbr>
+                                2007), 373–92.</bibl>
+                            <bibl>S. P. Brock, ‘Some Syriac accounts of the Jewish sects’, in <title rend="italic">A Tribute to Arthur Vööbus</title>, <abbr>ed.</abbr> R. H.
+                                Fischer, 265–76.</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>S. P.  Brock</reg>
+                           <orig>idem</orig>
+                        </choice>, ‘Jewish traditions in Syriac sources’, <title rend="italic">
+                                    <abbr>JJS</abbr>
+                                </title> 30 (1979), 212–232.</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>S. P.  Brock</reg>
+                           <orig>idem</orig>
+                        </choice>, ‘A Palestinian Targum feature in Syriac’, <title rend="italic">
+                                    <abbr>JJS</abbr>
+                                </title> 46 (1995), 271–82.</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>S. P.  Brock</reg>
+                           <orig>idem</orig>
+                        </choice>, ‘The Peshitta Old Testament. Between Judaism and
+                                Christianity’, <title rend="italic">Cristianesimo nella
+                                    Storia</title> 19 (1998), 483–502.</bibl>
+                            <bibl>F.  Cassingena-Trévedy, ‘Éphrem le Syrien et le judaïsme:
+                                renversement d’une problématique’, in <title rend="italic">Études
+                                    bibliques et Proche-Orient ancien. Mélanges offerts au Père P.
+                                    Féghali</title>, <abbr>ed.</abbr> A. Chehwan and A. Kassis (2002), 343–52.
+                                (also in <title rend="italic">Lettre de Ligugé</title> 295 [2001],
+                                112–17)</bibl>
+                            <bibl>H. J. W. Drijvers, ‘Edessa und das jüdische Christentum’, <title rend="italic">
+                                    <abbr>VC</abbr>
+                                </title> 24 (1970), 3–33.</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>H. J. W. Drijvers</reg>
+                           <orig>idem</orig>
+                        </choice>, ‘Jews and Christians at Edessa’, <title rend="italic">
+                                    <abbr>JJS</abbr>
+                                </title> 36 (1985), 88–102.</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>H. J. W. Drijvers</reg>
+                           <orig>idem</orig>
+                        </choice>, ‘Syrian Christianity and Judaism’, in <title rend="italic">The Jews among pagans and Christians in the Roman
+                                    Empire</title>, ed J. Lieu <abbr>et al.</abbr> (1992), 124–46.</bibl>
+                            <bibl>C. Fonrobert, ‘The Didascalia apostolorum: a Mishnah for the
+                                disciples of Jesus’, <title rend="italic">
+                                    <abbr>JECS</abbr>
+                                </title> 9 (2001),
+                                483–509.</bibl>
+                            <bibl>J. Frishman, ‘Narsai’s homily for the Palm Festival — Against the
+                                Jews: For the Palm Festival or Against the Jews?’<choice>
+                                    <sic/>
+                                    <corr/>
+                                </choice> in <abbr>
+                                    <title rend="italic">SymSyr</title> IV</abbr>, 217–29.</bibl>
+                            <bibl>eadem, ‘And Abraham had faith: But in what? Ephrem and the Rabbis
+                                on Abraham and God’s Blessings’, in <title rend="italic">The
+                                    Exegetical Encounter between Jews and Christians in Late
+                                    Antiquity. The Book of Genesis</title>, <abbr>ed.</abbr> H.  Spurling and
+                                E.  Grypeou (Jewish and Christian Perspectives Series 18; 2009),
+                                163–79.</bibl>
+                            <bibl>R. B.  ter  Haar  Romeny, ‘The Hebrew and the Greek as
+                                alternatives to the Syriac version in Išoʿdad’s Commentary on the
+                                Psalms’, in <title rend="italic">Biblical Hebrew, Biblical texts.
+                                    Essays in memory of Michael P. Weitzman</title>, <abbr>ed.</abbr>
+                                A.  Rapoport-Albert and G. Greenberg (<abbr>JSOT</abbr> Supplement Series 333;
+                                2001), 431–56.</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>R. B.  ter  Haar  Romeny</reg>
+                           <orig>idem</orig>
+                        </choice>  ‘Hypotheses on the development of Judaism and Christianity
+                                in Syria in the period after 70 c.e.’, in <title rend="italic">Matthew and the Didache: Two Documents from the Same
+                                    Jewish-Christian Milieu?</title>, <abbr>ed.</abbr> H. van de Sandt (2005),
+                                13–33.</bibl>
+                            <bibl>A. P. Hayman, ‘The image of the Jew in the Syriac anti-Jewish
+                                polemical literature,’ in <title rend="italic">“To see ourselves as
+                                    others see us”. Christians, Jews, “Others” in Late
+                                    Antiquity</title>, <abbr>ed.</abbr> J. Neusner and E. S. Frerichs (1985),
+                                423–41.</bibl>
+                            <bibl>S. Hidal, ‘Evidence for Jewish believers in the Syriac Fathers’,
+                                in <title rend="italic">Jewish believers in Jesus</title>, <abbr>ed.</abbr> O.
+                                Skarsaune and R. Hvalvik (2007), 568–80.</bibl>
+                            <bibl>J. Joosten, ‘La tradition syriaque des évangiles et la question du
+                                «substrat araméen»’, <title rend="italic">Revue d’histoire et de
+                                    philosophie religieuses</title> 77 (1997), 257–72.</bibl>
+                            <bibl>P.  Kawerau, <title rend="italic">Die jakobitische Kirche im
+                                    Zeitalter der syrischen Renaissance</title> (1955).</bibl>
+                            <bibl>S.  Kazan, ‘Isaac of Antioch’s Homily against the Jews’, <title rend="italic">
+                                    <abbr>OC</abbr>
+                                </title> 45 (1961), 30–53; 46 (1962), 87–98; 47
+                                (1963), 88–97; 49 (1965), 57–78.</bibl>
+                            <bibl>N. Koltun-Fromm, ‘A Jewish-Christian conversation in
+                                fourth-century Persian Mesopotamia’, <title rend="italic">
+                                    <abbr>JJS</abbr>
+                                </title> 47 (1996), 45–63.</bibl>
+                            <bibl>eadem, ‘Aphrahat and the Rabbis on Noah’s righteousness in light
+                                of the Jewish-Christian polemic’, in <title rend="italic">The book
+                                    of Genesis in Jewish and Oriental Christian interpretation. A
+                                    collection of essays</title>, <abbr>ed.</abbr> J. Frishman and L. Van Rompay
+                                (<abbr>TEG</abbr> 5; 1997), 57–71.</bibl>
+                            <bibl>eadem, ‘Zipporah’s complaint. Moses is not conscientious in the
+                                deed! Exegetical traditions of Moses’ celibacy’, in <title rend="italic">The ways that never parted. Jews and Christians in
+                                    Late Antiquity and the Middle Ages</title>, <abbr>ed.</abbr> A. H. Becker and
+                                A. Y. Reed (2003; <abbr>repr.</abbr> 2007), 283–306.</bibl>
+                            <bibl>eadem, <title rend="italic">Hermeneutics of Holiness. Ancient
+                                    Jewish and Christian Notions of Sexuality and Religious
+                                    Community</title> (2010).</bibl>
+                            <bibl>T.  Kronholm, <title rend="italic">Motifs from Genesis 1–11 in the
+                                    genuine hymns of Ephrem the Syrian, with particular reference to
+                                    the influence of Jewish exegetical tradition</title>
+                                (Coniectanea Biblica. Old Testament Series 11; 1978).</bibl>
+                            <bibl>K. McVey, ‘The anti-Judaic polemic of Ephrem Syrus’ Hymns on the
+                                Nativity’, in <title rend="italic">Of scribes and <choice>
+                                        <sic>scholars</sic>
+                                        <corr>scrolls</corr>
+                                    </choice>: Studies
+                                    on the Hebrew Bible, intertestamental Judaism, and Christian
+                                    origins presented to J. Strugnell</title>, <abbr>ed.</abbr> H. W. Attridge et
+                                al. (1990), 229–40.</bibl>
+                            <bibl>S. C.  Mimouni, ‘Le judéo-christianisme syriaque: mythe littéraire
+                                ou réalité historique?’<choice>
+                                    <sic>,</sic>
+                                    <corr/>
+                                </choice> in <abbr>
+                                    <title rend="italic">SymSyr</title> VI</abbr>,
+                                269–79.</bibl>
+                            <bibl>C. E.  Morrison, ‘The Jews in Ephrem’s Commentary on the
+                                Diatessaron’, <title rend="italic">
+                                    <abbr>JCSSS</abbr>
+                                </title> 8 (2008),
+                                23–43.</bibl>
+                            <bibl>J.  Neusner, <title rend="italic">Aphrahat and Judaism. The
+                                    Christian-Jewish argument in fourth-century Iran</title> (Studia
+                                Post-Biblica 19; 1971; <abbr>repr.</abbr> 1999).</bibl>
+                            <bibl>A. Y.  Reed, ‘ “Jewish Christianity” as counter-history? The
+                                apostolic past in Eusebius’ <title rend="italic">Ecclesiastical
+                                    History</title> and the Pseudo-Clementine Homilies’, in <title rend="italic">Antiquity in Antiquity. Jewish and Christian pasts
+                                    in the Greco-Roman world</title>, <abbr>ed.</abbr> G.  Gardner and
+                                K. L.  Osterloh (Texts and Studies in Ancient Judaism 123; 2008),
+                                173–216.</bibl>
+                            <bibl>G.  Rouwhorst, ‘Jewish liturgical traditions in early Syriac
+                                Christianity’, <title rend="italic">
+                                    <abbr>VC</abbr>
+                                </title> 51 (1997),
+                                72–93.</bibl>
+                            <bibl>A.  Salvesen, ‘Did Jacob of Edessa know Hebrew?’<choice>
+                                    <sic>,</sic>
+                                    <corr/>
+                                </choice> in <title rend="italic">Biblical Hebrew, Biblical texts. Essays in memory
+                                    of Michael P. Weitzman</title>, <abbr>ed.</abbr> A. Rapoport-Albert and G.
+                                Greenberg (<abbr>JSOT</abbr> Supplement Series 333; 2001), 457–67.</bibl>
+                            <bibl>C.  Shepardson, <title rend="italic">Anti-Judaism and Christian
+                                    orthodoxy. Ephrem’s Hymns in fourth-century Syria</title> (North
+                                American Patristics Society. Monograph Series 20; 2008).</bibl>
+                            <bibl>M.  Sokoloff, ‘Jewish Babylonian Aramaic and Syriac: Mutual
+                                elucidation’, in <abbr>
+                                    <title rend="italic">SymSyr</title> VI</abbr>,
+                                401–8.</bibl>
+                            <bibl>M. P.  Weitzman, <title rend="italic">The Syriac Version of the
+                                    Old Testament: An Introduction</title> (University of Cambridge
+                                Oriental Publications 56; 1999).</bibl>
+                        </listBibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Lucas</forename> 
+                  <surname>Van Rompay</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Hippolytus of Rome</title>
+            <author>
+               <persName>
+                  <forename>Sebastian P.</forename> 
+                  <surname>Brock</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0">Electronic Edition Draft Version 1.0</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Hippolytus of Rome</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Hippolytus-of-Rome</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/270</idno>
+                    <idno type="entry">261</idno>
+                    <milestone unit="pages" n="198"/>
+                    <idno type="subject">http://syriaca.org/person/537</idno>
+                    <note type="type">person</note>
+                    <note type="abstract">Author writing in Greek of problematic identity.<note/>
+                    </note>
+                </ab>
+                <ab type="infobox">(late 2nd/early 3rd <abbr>cent.</abbr>)</ab>
+                <div type="body">
+                    <p>Author writing in Greek of problematic identity. His Chronicle (<abbr>
+                            <choice>
+                                <sic>CPG</sic>
+                                <corr>
+                                    <hi rend="italic">CPG</hi>
+                                </corr>
+                            </choice>
+                        </abbr> 1896),
+                        which included the ‘Division of the earth’ (<hi rend="italic">Diamerismos</hi>) based on Gen. 10, was a source used by several Syriac
+                        chroniclers (see <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Historiography-Syriac">Historiography, Syriac</ref>) and may once have existed in Syriac
+                        translation, though it could also have reached them through intermediary
+                        channels. A  Syriac translation of the beginning of his Commentary on Daniel
+                            (<hi rend="italic">
+                            <abbr>CPG</abbr>
+                        </hi> 1873), on Susanna, is preserved at the end
+                        of <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Dionysios-bar-Salibi">
+                            <persName ref="http://syriaca.org/person/212">Dionysios
+                            bar Ṣalibi</persName>
+                        </ref>’s Commentary on Daniel. Dionysios’s Commentary on the
+                        Apocalypse also has quotations from Hippolytus’s work on Antichrist (<hi rend="italic">
+                            <abbr>CPG</abbr>
+                        </hi> 1872) and against Caius (<hi rend="italic">
+                            <abbr>CPG</abbr>
+                        </hi> 1891); two excerpts with the Syriac translation of the former
+                        (with ch. 7–14, 60–1) are transmitted independently, while fragments of the
+                        Syriac translation of the latter are preserved in Sinai (New Finds) Syr.
+                        M53N and Fragment 23, of the 6th <abbr>cent.</abbr> There are also Syriac translations of
+                        two works wrongly attributed to Hippolytus, a Homily on Epiphany (<hi rend="italic">
+                            <abbr>CPG</abbr>
+                        </hi> 1917), and a commentary on Exodus 16 (<hi rend="italic">
+                            <abbr>CPG</abbr>
+                        </hi> 1924, not known in Greek). Excerpts from some
+                        further works by Hippolytus (<hi rend="italic">
+                            <abbr>CPG</abbr>
+                        </hi> 1871, 1882, 1886,
+                        1900) have been collected by J. P. P. Martin in Pitra’s <hi rend="italic">Analecta</hi> (some of these were earlier published by P. de Lagarde,
+                            <hi rend="italic">Analecta Syriaca</hi> [1858], 79–91).</p>
+                </div>
+                <div type="bibl">
+                    <listBibl>
+                        <listBibl>
+                            <head>Primary Sources</head>
+                            <bibl>
+                                <title rend="italic">
+                                    <abbr>CPG</abbr>
+                                </title> 1870–1925.</bibl>
+                            <bibl>S. P.  Brock, ‘Some new Syriac texts attributed to Hippolytus’,
+                                    <title rend="italic">
+                                    <abbr>LM</abbr>
+                                </title> 94 (1981), 177–200. (Hom. on
+                                Epiphany, On Antichrist, On Exodus 16).</bibl>
+                            <bibl>A. de Halleux, ‘Une version syriaque révisée du Commentaire
+                                d’Hippolyte sur Suzanne’, <title rend="italic">
+                                    <abbr>LM</abbr>
+                                </title> 101 (1988),
+                                297–341.</bibl>
+                            <bibl>J. B.  Pitra, <title rend="italic">Analecta Sacra Spicilegio
+                                    Solesmensi</title>, vol. 4 (1883), 36–64, 306–31.</bibl>
+                        </listBibl>
+                        <listBibl>
+                            <head>Secondary Sources</head>
+                            <bibl>A. de Halleux, ‘Hippolyte en version syriaque’, <title rend="italic">
+                                    <abbr>LM</abbr>
+                                </title> 102 (1989), 19–42.</bibl>
+                            <bibl>W. Witakowski, ‘The division of the earth between the descendants
+                                of Noah in Syriac tradition’, <title rend="italic">ARAM</title> 5
+                                (1993), 635–56, esp. 649–53.</bibl>
+                        </listBibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Sebastian P.</forename> 
+                  <surname>Brock</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

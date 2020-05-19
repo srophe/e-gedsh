@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Bible (General)</title>
+            <author>
+               <persName>
+                  <forename>Bas</forename> 
+                  <surname>ter Haar Romeny</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0">Electronic Edition Draft Version 1.0</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Bible (General)</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Bible-General</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/113</idno>
+                    <idno type="entry">104</idno>
+                    <milestone unit="pages" n="74-76"/>
+                    <note type="type">subject</note>
+                    <note type="abstract">
+                        <note/>
+                    </note>
+                </ab>
+                <div type="body">
+                    <p>Ever since the 2nd <abbr>cent.</abbr>, when the first Syriac Bible translations were
+                        produced, the Bible has played an important role in Syriac Christianity. It
+                        is not just that many terms specific to the spirituality of the Syriac
+                        Churches have their origin in these versions, they have also contributed to
+                        the spread of the dialect of <ref rend="bold" target="https://gedsh.bethmardutho.org/Edessa">
+                            <placeName ref="http://syriaca.org/place/78">Edessa</placeName>
+                        </ref> as a standard
+                        language for a large group of Christians. For today’s Syriac churches, they
+                        remain important, either in the original tongue or in translations into
+                        English or Malayalam. They have, however, also attracted the interest of
+                        scholars outside the Syriac communities. This has to do with the fact that
+                        the Syriac versions are very ancient and have also come down to us in
+                        relatively ancient <abbr>mss.</abbr> (see <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Bible-Old-Testament-manuscripts">Bible, <abbr>OT</abbr> manuscripts</ref> and <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Bible-New-Testament-manuscripts">Bible, <abbr>NT</abbr>
+                            manuscripts</ref>). They give us a picture of the original Hebrew and
+                        Greek texts at the moment the translations into Syriac were made.</p>
+                    <label type="subsection">Syriac Translations of the Old Testament</label>
+                    <p>The first Syriac version of the <abbr>OT</abbr> must have been made in the second half of
+                        the 2nd <abbr>cent.</abbr> At least since the 9th <abbr>cent.</abbr>, it has been known under the name
+                            <ref rend="bold" target="https://gedsh.bethmardutho.org/Peshitta">Peshitta</ref>. In contrast to other early Christian translations of
+                        the <abbr>OT</abbr>, it was based on the Hebrew Bible rather than the Greek Septuagint.
+                        This fact gives it a special place among the witnesses to the Hebrew Bible,
+                        the pronunciation of which was codified only from the 7th <abbr>cent.</abbr> onwards.</p>
+                    <p>When Greek <abbr>OT</abbr> commentaries started to be translated into Syriac in the 4th
+                        and 5th <abbr>cent.</abbr>, their translators used the Peshitta for the biblical
+                        quotations. Soon they found out that this text did not always agree with the
+                        Greek text of the commentaries, which sometimes made it hard to understand
+                        what the exegete in question was referring to. For this reason, E.-Syr.
+                        translators started to add <hi rend="italic">ad hoc</hi> translations of the
+                        biblical text as quoted in the Greek commentary to the verse taken from the
+                        Peshitta. They would mark these <hi rend="italic">ad hoc</hi> renderings
+                        specifically as ‘the Greek’. At least since <ref rend="bold" target="https://gedsh.bethmardutho.org/Mushe-of-Aggel">
+                            <persName ref="http://syriaca.org/person/64">Mushe of
+                            Aggel</persName>
+                        </ref> early in the 6th <abbr>cent.</abbr>, W.-Syr. translators started simply
+                        to render the biblical text of the commentary, no longer referring to the
+                        Peshitta. Such <hi rend="italic">ad hoc</hi> renderings have often been
+                        mistaken for quotations from a version made by the chorepiscopus <ref rend="bold" target="https://gedsh.bethmardutho.org/Polykarpos">
+                            <persName ref="http://syriaca.org/person/35">Polykarpos</persName>
+                        </ref> in 507/508, which may have extended to the <abbr>OT</abbr>: there
+                        is evidence at least for Genesis, Exodus, and Isaiah (the so-called
+                        Syro-Lucianic fragments edited by Ceriani may belong to it). This version is
+                        indicative of the high status accorded to the Greek language and Greek Bible
+                        by the person who commissioned it, <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Philoxenos-of-Mabbug">
+                            <persName ref="http://syriaca.org/person/44">Philoxenos
+                            of Mabbug</persName>
+                        </ref>. Philoxenos was afraid that loose renderings might give
+                        rise to Dyophysite interpretations.</p>
+                    <p>A century later, in 613–17, the status of Greek among the <abbr>W. Syr.</abbr> was such
+                        that <ref rend="bold" target="https://gedsh.bethmardutho.org/Pawlos-of-Tella">
+                            <persName ref="http://syriaca.org/person/82">Pawlos of Tella</persName>
+                        </ref> felt the need to make an extremely literal
+                        ‘mirror translation’ of the Septuagint, known as the <ref rend="bold" target="https://gedsh.bethmardutho.org/Syro-Hexapla">Syro-Hexapla</ref>.
+                        Here the unit of translation is the single word or even part of it. The name
+                        refers to Origen’s Hexapla, as it claims to be based on a version of the
+                        fifth, Septuagint, column supplied with text-critical signs indicating where
+                        material has been added or omitted, as well as notes referring to the three
+                        revisions: Aquila, Symmachus, and Theodotion.</p>
+                    <p>At a time when the Greek language was losing its status, <ref rend="bold" target="https://gedsh.bethmardutho.org/Yaqub-of-Edessa">
+                            <persName ref="http://syriaca.org/person/113">Yaʿqub of
+                            Edessa</persName>
+                        </ref> produced his revision of the Peshitta with the help of one
+                        or more Greek <abbr>mss.</abbr>; there is no evidence that he used the Syro-Hexapla, as
+                        has been assumed by some. It may be seen as a last effort to make the Greek
+                        Bible acceptable to Syriac readers. Yaʿqub’s version was a compromise
+                        between the two positions defended in Syriac Christianity: the position of
+                        Philoxenos, who would have liked to replace the Peshitta with a very literal
+                        rendering of the Septuagint, and that of <ref rend="bold" target="https://gedsh.bethmardutho.org/Eusebius-of-Emesa">
+                            <persName ref="http://syriaca.org/person/481">Eusebius of
+                            Emesa</persName>
+                        </ref>, who thought that the Peshitta was reliable because the
+                        Syriac language was related to the Hebrew. In addition, Yaʿqub wanted to
+                        clarify the text to his readers.</p>
+                    <p>Syriac exegetes of the <abbr>OT</abbr> (see <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Exegesis-Old-Testament">Exegesis,
+                            Old Testament</ref>) were well aware of the existence of alternative
+                        readings. In his ‘Commentary on Genesis’ <ref rend="bold" target="https://gedsh.bethmardutho.org/Ephrem">
+                            <persName ref="http://syriaca.org/person/13">Ephrem</persName>
+                        </ref> already
+                        quotes two different renderings, without mentioning the source (ad Gen.
+                        49:10 and 49:23). These alternative readings happen to agree with Targum
+                        Onqelos. In the 5th <abbr>cent.</abbr>, translations of Antiochene commentaries of such
+                        authors as Eusebius of Emesa, <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Theodore-of-Mopsuestia">
+                            <persName ref="http://syriaca.org/person/780">Theodore
+                            of Mopsuestia</persName>
+                        </ref>, and <ref rend="bold" target="https://gedsh.bethmardutho.org/John-Chrysostom">
+                            <persName ref="http://syriaca.org/person/573">John
+                            Chrysostom</persName>
+                        </ref> showed to Syriac exegetes the practice of quoting ‘the
+                        Hebrew’ as well as the revisions of Aquila, Symmachus, and Theodotion.
+                        Eusebius and Theodore were read by the <abbr>E. Syr.</abbr>; John Chrysostom was studied
+                        by <abbr>W. Syr.</abbr> as well. The latter of course also became familiar with this
+                        practice through the notes in the margins of the Syro-Hexapla.</p>
+                    <p>Even though the <abbr>E. Syr.</abbr> adopted Theodore of Mopsuestia, who was rather
+                        negative about the authority of the Peshitta, as their exegete <hi rend="italic">par excellence</hi>, and even though the W.-Syr. tradition
+                        was influenced by the opinion of Philoxenos that favored the Greek text, the
+                        Peshitta remained the standard version for all: ‘it is in the hands of the
+                        Syrians everywhere’ as <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Bar-Ebroyo-Grigorios">
+                            <persName ref="http://syriaca.org/person/239">Bar ʿEbroyo</persName>
+                        </ref> had to conclude in
+                        the introduction to his scholia on the Bible, the <hi rend="italic">Awṣar
+                            roze</hi>. Only occasionally passages from the Syro-Hexapla found their
+                        way into W.-Syr. lectionary <abbr>mss.</abbr> used in the liturgy.</p>
+                    <p>Problems of orthography and pronunciation in the Syriac language were dealt
+                        with in the <abbr>mss.</abbr> of the ‘<ref rend="bold" target="https://gedsh.bethmardutho.org/Masora">Masora</ref>’, which
+                        flourished in the two centuries after Yaʿqub of Edessa. The W.-Syr.
+                        ‘Masora’, which is associated with the <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Qarqaphto-Monastery-of">
+                            <placeName ref="http://syriaca.org/place/229">Monastery
+                            of Qarqaphto</placeName>
+                        </ref>, gives samples from the <abbr>OT</abbr> and <abbr>NT</abbr> (Peshitta and <ref rend="bold" target="https://gedsh.bethmardutho.org/Harqlean-Version">Ḥarqlean</ref>), as well as patristic sources, in order to
+                        illustrate the correct use of the language in writing and reading; the
+                        E.-Syr. ‘Masora’ is exclusively biblical.</p>
+                    <label type="subsection">Syriac Translations of the New Testament</label>
+                    <p>The Syriac versions of the <abbr>NT</abbr> are all based on Greek texts. Though they are
+                        the oldest translations in a Semitic language, there is no reason to assume
+                        any direct connection between these Syriac (<choice>
+                            <sic>i.e. </sic>
+                            <corr>i.e., </corr>
+                        </choice>Eastern Aramaic) texts and
+                        Jesus’ original words in Western Aramaic. Some unusual forms of vocabulary
+                        and grammar found in the so-called Old Syriac translation can easily be
+                        explained as archaic forms of the Syriac language. They should not
+                        necessarily be seen as Western, Palestinian Aramaic forms. For biblical
+                        scholars, the importance of the Syriac versions lies primarily in the fact
+                        that they are essential witnesses to the text history of the Greek <abbr>NT</abbr>, as
+                        they contain demonstrably archaic variants. Many of these must have
+                        originated in Greek <abbr>mss.</abbr> that are no longer available to us, but even where
+                        this is not the case, they may still give us insight into the theology and
+                        mindset of early Christians.</p>
+                    <p>The oldest Syriac version of the Gospels is the <ref rend="bold" target="https://gedsh.bethmardutho.org/Diatessaron">Diatessaron</ref>
+                        (also <hi rend="italic">ewangeliyon da-mḥallṭe</hi> ‘Gospel of the mixed’),
+                        written in the early 170s. This version, probably produced by <ref rend="bold" target="https://gedsh.bethmardutho.org/Tatian">
+                            <persName ref="http://syriaca.org/person/771">Tatian</persName>
+                        </ref>
+                        and probably in Syriac rather than Greek, was quoted by such authors as <ref rend="bold" target="https://gedsh.bethmardutho.org/Aphrahat">
+                            <persName ref="http://syriaca.org/person/10">Aphrahaṭ</persName>
+                        </ref> and Ephrem; the latter even composed a commentary on it.
+                        It remained in liturgical use until at least the early 5th <abbr>cent.</abbr>, when it
+                        lost its canonical status and was replaced by the four separate Gospels (<hi rend="italic">ewangeliyon da-mparrše</hi> ‘Gospel of the separated’).
+                        Although it was suppressed by force to such an extent that we are left only
+                        with quotations, there are reasons to believe that it influenced all later
+                        versions. Quotations in Ephrem indicate that the Acts and Epistles had also
+                        been translated by the 4th <abbr>cent.</abbr> It has been tentatively suggested that
+                        these translations, or forerunners of them, might also go back to Tatian’s
+                        efforts (Petersen).</p>
+                    <p>The Vetus Syra or <ref rend="bold" target="https://gedsh.bethmardutho.org/Old-Syriac-Version">Old Syriac
+                            Version</ref> is the oldest version of the four separate Gospels. The
+                        two surviving <abbr>mss.</abbr>, the Curetonianus and the Sinaiticus, both date back to
+                        the 5th <abbr>cent.</abbr>, but they may be seen as two representatives of a translation
+                        probably made in the middle of the 3rd <abbr>cent.</abbr> The <abbr>NT</abbr> Peshitta is the result
+                        of a thorough revision of Old Syriac material, using slightly different
+                        Greek <abbr>mss.</abbr> The differences between the Old Syriac and the Peshitta can be
+                        explained on the basis of the different Greek texts used and the development
+                        in the ideas on translation technique: the Peshitta is more literal. In the
+                        time of <ref rend="bold" target="https://gedsh.bethmardutho.org/Rabbula-of-Edessa">
+                            <persName ref="http://syriaca.org/person/26">Rabbula</persName>
+                        </ref> this version quickly gained currency
+                        as the standard version of the Syriac <abbr>NT</abbr>, replacing the Diatessaron and
+                        other early translations. The <abbr>NT</abbr> Peshitta also covers the Acts and Epistles,
+                        apart from 2 Peter, 2–3 John, and Jude; it also omitted Revelation.</p>
+                    <p>As stated above, for theological reasons Philoxenos of Mabbug preferred a
+                        more precise rendering of the Greek, which Polykarpos made for him in 507/8.
+                        This Philoxenian Version was a revision of the Peshitta. There has been
+                        considerable confusion between this version and the <choice>
+                            <sic>Ḥarqlean <ref rend="bold" target="https://gedsh.bethmardutho.org/Harqlean-Version">Version</ref>
+                            </sic>
+                            <corr>
+                                <ref rend="bold" target="https://gedsh.bethmardutho.org/Harqlean-Version">Ḥarqlean version</ref>
+                            </corr>
+                        </choice>, made in 615/16 by <ref rend="bold" target="https://gedsh.bethmardutho.org/Tumo-of-Harqel">
+                            <persName ref="http://syriaca.org/person/87">Tumo of Ḥarqel</persName>
+                        </ref>. On the basis of
+                        Philoxenos’s Gospel commentaries, Brock has demonstrated that the
+                        Philoxenian is lost, apart from Philoxenos’s own quotations and perhaps a
+                        6th-cent. translation of the Minor Catholic Epistles and Revelation. The
+                        Ḥarqlean, which covers all 27 <abbr>NT</abbr> books, shares many characteristics with the
+                        Syro-Hexapla, which was made in the same place, the <ref rend="bold" target="https://gedsh.bethmardutho.org/The-Enaton">
+                            <placeName ref="http://syriaca.org/place/473">Enaton</placeName>
+                        </ref> outside Alexandria, and at the same time: it is a revision
+                        of the Philoxenian with the aim of producing a mirror translation of the
+                        Greek. Tuma strove to achieve a formal equivalence between Greek and Syriac
+                        which extended sometimes even below word level.</p>
+                    <label type="subsection">The Syriac Canon</label>
+                    <p>Syriac biblical <abbr>mss.</abbr> usually contain no more than one book or a small group
+                        of books, for instance the Pentateuch, the ‘Book of the Women’ (Ruth,
+                        Susanna, Esther, and Judith), or the <hi rend="italic">Beth Mawtbe</hi> ‘the
+                        Book of Sessions’ (Joshua, Judges, Samuel, Kings, Proverbs, Qohelet, Ruth,
+                        Song of Songs, Bar Sira, and Job; especially in the E.-Syr. tradition).
+                        Differences between the very few early <hi rend="italic">pandects</hi>
+                        containing the whole <abbr>OT</abbr> show that neither the Syriac canon of the <abbr>OT</abbr> nor the
+                        order of books had been defined in the first millenium. Though there are
+                        reasons to believe that Chronicles, Ezra-Nehemiah, Esther, Job, and Song of
+                        Songs did not form part of the canon in earlier centuries (Haelewyck), the
+                        books of the Hebrew Bible are all present in these <hi rend="italic">pandects</hi>. The situation with regard to the so-called Apocrypha or
+                        Deuterocanonical works, on the other hand, still differs from <hi rend="italic">pandect</hi> to <hi rend="italic">pandect</hi>. The Milan
+                        <abbr>ms.</abbr> (7a1) even contains part of Flavius <ref rend="bold" target="https://gedsh.bethmardutho.org/Josephus">
+                            <persName ref="http://syriaca.org/person/577">Josephus</persName>
+                        </ref>’s ‘Jewish
+                        War’. The order of books is often chronological, in which Job, identified
+                        with Jobab of Gen. 10:29, is placed directly after the Pentateuch.</p>
+                    <p>With regard to the <abbr>NT</abbr>, the <ref rend="bold" target="https://gedsh.bethmardutho.org/Addai-Teaching-of">Teaching of
+                            Addai</ref> states that members of the church are to read the Gospel,
+                        the Epistles of Paul, and the Book of Acts. During the first centuries, ‘the
+                        Gospel’ referred to the Diatessaron. As stated above, Ephrem already knew
+                        the four separate Gospels in the Old Syriac Version; he referred to them as
+                        ‘the Greek’. Only in the time of Rabbula the Peshitta with its four-Gospel
+                        canon replaced the Diatessaron. It contained a total of 22 books, as it did
+                        not include 2 Peter, 2–3 John, Jude, and Revelation (cf. also <ref rend="bold" target="https://gedsh.bethmardutho.org/Apocalypses">Apocalypses</ref>). This canon, also known from Antiochene authors, no
+                        longer included the additional (3rd) epistle to the Corinthians which is
+                        quoted in Ephrem’s Commentary on the Pauline Epistles (Armenian). It may
+                        also have ‘promoted’ 1 Peter and 1 John, which were known to Ephrem but
+                        probably not considered canonical by him. 2 Peter, 2–3 John, Jude, and
+                        Revelation were translated for the first time in the 6th <abbr>cent.</abbr> (possibly as
+                        part of the version made by Polykarpos for Philoxenos) and are also present
+                        in the Ḥarqlean Version.</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <p>See the literature quoted in the articles on the various Syriac
+                        versions, as well as:</p>
+                    <listBibl>
+                        <bibl>F.  Briquel Chatonnet and Ph. Le Moigne (<abbr>ed.</abbr>), <title rend="italic">L’Ancien Testament en syriaque</title> (<abbr>ÉtSyr</abbr> 5; 2008).</bibl>
+                        <bibl>S. P.  Brock, <title rend="italic">The Bible in the Syriac
+                                tradition</title> (Gorgias Handbooks 7; 2006).</bibl>
+                        <bibl>W. L.  Petersen, ‘Problems in the Syriac New Testament and how Syriac
+                            exegetes solved them’, in <title rend="italic">The Peshitta: Its use in
+                                literature and liturgy</title>, <abbr>ed.</abbr> R. B. ter Haar Romeny (<abbr>MPIL</abbr> 15;
+                            2006), 53–74.</bibl>
+                        <bibl>R. B.  ter Haar Romeny, ‘The Peshitta and its rivals. On the
+                            assessment of the Peshitta and other versions of the Old Testament in
+                            Syriac exegetical literature’, <title rend="italic">
+                                <abbr>Harp</abbr>
+                            </title> 11–12
+                            (1998–99), 21–31.</bibl>
+                        <bibl>On the <abbr>OT</abbr> canon: J.-C. Haelewyck, ‘Le canon de l’Ancien Testament dans
+                            la tradition syriaque (manuscrits bibliques, listes canoniques,
+                            auteurs)’, in <title rend="italic">L’Ancien Testament en
+                                syriaque</title>, <abbr>ed.</abbr> Briquel Chatonnet and Le Moigne (<abbr>ÉtSyr</abbr> 5;
+                            2008), 141–71.</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Bas</forename> 
+                  <surname>ter Haar Romeny</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

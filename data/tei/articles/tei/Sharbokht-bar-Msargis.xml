@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Ṣharbokht bar Msargis</title>
+            <author>
+               <persName>
+                  <forename>Gerrit J.</forename> 
+                  <surname>Reinink</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0">Electronic Edition Draft Version 1.0</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Ṣharbokht bar Msargis</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Sharbokht-bar-Msargis</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/504</idno>
+                    <idno type="entry">495</idno>
+                    <milestone unit="pages" n="371"/>
+                    <idno type="subject">http://syriaca.org/person/736</idno>
+                    <note type="type">person</note>
+                    <note type="abstract">Scholar, probably active as a teacher in the theological
+                        school and perhaps also in the Christian medical teaching institute of
+                        Beth Lapaṭ (Gondeshapur) in Khuzistan.<note/>
+                    </note>
+                </ab>
+                <ab type="infobox">(9th <abbr>cent.</abbr>) [Ch. of E.]</ab>
+                <div type="body">
+                    <p>Scholar, probably active as a teacher in the theological school and perhaps
+                        also in the Christian medical teaching institute (<hi rend="italic">beth
+                            mardutā</hi>) of <ref rend="bold" target="https://gedsh.bethmardutho.org/Beth-Lapat">
+                            <placeName ref="http://syriaca.org/place/35">Beth Lapaṭ</placeName>
+                        </ref>
+                        (Gondeshapur) in Khuzistan. In the Syriac tradition Ṣharbokht is known
+                        through the <ref rend="bold" target="https://gedsh.bethmardutho.org/Gannat-Bussame">Gannat
+                            Bussāme</ref>, an extensive commentary on the E.-Syr. lectionary. In
+                        this commentary Ṣharbokht is adduced more than 150 times in the exegesis of
+                        pericopes from the four Gospels, Acts, and Rom. However, the influence of
+                        Ṣharbokht’s exegesis in the <hi rend="italic">Gannat Bussāme</hi> many times
+                        exceeds these quotations, since the author of the <hi rend="italic">Gannat
+                            Bussāme</hi> borrowed many long excerpts from Ṣharbokht’s commentaries
+                        without mentioning him by name. In the first quotation of Ṣharbokht in the
+                            <hi rend="italic">Gannat Bussāme</hi> he is introduced with his Christian
+                        name and the name of his father as ‘Ṣliba Zkha (‘the cross has overcome’),
+                        who is the priest and teacher Ṣharbokht, the son of Msargis’. The name of
+                        his father and some significant details of his exegesis make it very likely
+                        that Ṣharbokht bar Msargis may be identified with Ṣahārbūkht <abbr>b.</abbr> Māsarjīs,
+                        who according to the Arabic-Islamic tradition was the author of a commentary
+                        on the <hi rend="italic">Kunnāš</hi> (a medical handbook) written by a
+                        certain Jūrjīs (George). From the Arabic-Islamic tradition it can be
+                        inferred that Ṣahārbūkht <abbr>b.</abbr> Māsarjīs belonged to a family of physicians from
+                        Beth Lapaṭ (9th <abbr>cent.</abbr>). His son <choice>
+                            <sic>‘Īsā</sic>
+                            <corr>ʿĪsā</corr>
+                        </choice> is reported to have translated
+                        Hippocratic works from Syriac into Arabic. The important role which Greek
+                        medical knowledge — in particular Hippocratic and Galenic tradition — plays
+                        in Ṣharbokht’s exegesis seems to corroborate the assumption that Ṣharbokht
+                        bar Msargis and Ṣahārbūkht <abbr>b.</abbr> Māsarjīs are, in fact, one and the same
+                        person. Ṣharbokht’s biblical commentaries are typical representatives of
+                        exegetical compilations comparable to the biblical commentaries written by
+                        other scholars of the <abbr>Ch. of E.</abbr> in the 9th <abbr>cent.</abbr>, <choice>
+                            <sic>e.g.</sic>
+                            <corr>e.g., </corr>
+                        </choice>
+                        <ref rend="bold" target="https://gedsh.bethmardutho.org/Ishodad-of-Merv">
+                            <persName ref="http://syriaca.org/person/555">Ishoʿdad of
+                            Merv</persName>
+                        </ref>. Ṣharbokht’s commentaries are a rich mine of information for
+                        older exegetical traditions which are no longer accessible today in the
+                        (lost) original works or in the other E.-Syr. exegetical compilations. The
+                        most remarkable and distinguishing characteristic of Ṣharbokht’s
+                        commentaries is the strong influence of medical knowledge. Theoretical <ref rend="bold" target="https://gedsh.bethmardutho.org/Medicine">medicine</ref> has become in Ṣharbokht’s exegesis a
+                        veritable ancillary science for the explanation of the Scriptures. In this
+                        respect Ṣharbokht represents a unique example of the mutual influence of
+                        theological and profane learning in the 9th-cent. Christian milieu in Beth
+                        Lapaṭ, when E.-Syr. scholars from this city played a fundamental role in the
+                        transmission of among other things Greek medical knowledge to the Arabs in
+                            <ref rend="bold" target="https://gedsh.bethmardutho.org/Baghdad">
+                            <placeName ref="http://syriaca.org/place/41">Baghdad</placeName>
+                        </ref>.</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>G. J.  Reinink, ‘Seharbokt, ein nestorianischer Lehrer der
+                            islamischen Zeit’, in <abbr>
+                                <title rend="italic">SymSyr</title> II</abbr>,
+                            73–98.</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>G. J.  Reinink</reg>
+                        <orig>idem</orig>
+                     </choice>, <title rend="italic">Studien zur Quellen- und
+                                Traditionsgeschichte</title>, 113–32.</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>G. J.  Reinink</reg>
+                        <orig>idem</orig>
+                     </choice>, ‘De invloed van de antieke geneeskunde op de Bijbelexegese van
+                            Seharbokt bar Mesargis’, in <title rend="italic">Dwergen op de schouders
+                                van reuzen. Studies over de receptie van de Oudheid in de
+                                Middeleeuwen</title>, <abbr>ed.</abbr> H. van Dijk and E. R. Smits (1990),
+                            31–42.</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>G. J.  Reinink</reg>
+                        <orig>idem</orig>
+                     </choice>, ‘Theology and Medicine in Jundishapur. Cultural Change in the
+                            Nestorian School Tradition’, in <title rend="italic">Learned Antiquity.
+                                Scholarship and Society in the Near-East, the Greco-Roman world, and
+                                the Early Medieval West</title>, <abbr>ed.</abbr> A. A. MacDonald, M. W. Twomey,
+                            and G. J. Reinink (Groningen Studies in Cultural Change 5; 2003),
+                            163–74.</bibl>
+                        <bibl>W.  Schwaigert, ‘Die Theologenschule von Bēṯ Lāpāṭ-Ğundaisābūr. Ein
+                            Beitrag zur nestorianischen Schulgeschichte’, <title rend="italic">
+                                <abbr>ZDMG</abbr>
+                            </title>, Suppl. 4. <title rend="italic">XX. Deutscher
+                                Orientalistentag 1977 in Erlangen</title> (1980), 185–87.</bibl>
+                        <bibl>F.  Sezgin, <title rend="italic">Geschichte des arabischen
+                                Schrifttums</title>, vol. 3 (1970), 242–243.</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Gerrit J.</forename> 
+                  <surname>Reinink</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

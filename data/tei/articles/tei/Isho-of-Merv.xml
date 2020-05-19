@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Ishoʿ of Merv</title>
+            <author>
+               <persName>
+                  <forename>Aaron M.</forename> 
+                  <surname>Butts</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0">Electronic Edition Draft Version 1.0</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Ishoʿ of Merv</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Isho-of-Merv</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/290</idno>
+                    <idno type="entry">281</idno>
+                    <milestone unit="pages" n="215-216"/>
+                    <idno type="althead">Ishoʿ Maruzaya</idno>
+                    <idno type="althead">ʿĪsā al-Marwazī</idno>
+                    <idno type="subject">http://syriaca.org/person/553</idno>
+                    <note type="type">person</note>
+                    <note type="abstract">Author of a Syriac lexicon.<note/>
+                    </note>
+                </ab>
+                <ab type="infobox">Ishoʿ Maruzaya, ʿĪsā al-Marwazī (9th <abbr>cent.</abbr>) [Ch. of E.]</ab>
+                <div type="body">
+                    <p>Author of a Syriac Lexicon. From his <hi rend="italic">nisba</hi> it is known
+                        that he was from Merv, an important city in the Abbasid period located on
+                        the lower course of the Murghab river in the northeast fringes of Persia.
+                        That he is the author of a Lexicon can be established from the preface to
+                        the Lexicon of <ref rend="bold" target="https://gedsh.bethmardutho.org/Bar-Ali-Isho">
+                            <persName ref="http://syriaca.org/person/364">Ishoʿ bar ʿAli</persName>
+                        </ref> (second half of the 9th
+                        <abbr>cent.</abbr>). According to Bar ʿAli’s patron, Abraham, the Lexicon of Ishoʿ of
+                        Merv was ‘composed irregularly and without order’ (<hi rend="italic">lā
+                            mṭakksāʾit wa-lbar men sedrā ʿbid</hi>). The definitions given by Ishoʿ
+                        of Merv are also said to differ at times from those in the Lexicon of <ref rend="bold" target="https://gedsh.bethmardutho.org/Hunayn-b-Ishaq">
+                            <persName ref="http://syriaca.org/person/542">Ḥunayn
+                            <abbr>b.</abbr> Isḥāq</persName>
+                        </ref>(d. 873). Despite this somewhat negative evaluation, Bar
+                        ʿAli made use of the Lexicon of Ishoʿ of Merv, along with that of Ḥunayn,
+                        when compiling his own Lexicon.</p>
+                    <p>According to R. Duval, Ishoʿ of Merv is to be identified with Zekarya of
+                        Merv, who is often cited in the Lexicon of <ref rend="bold" target="https://gedsh.bethmardutho.org/Bar-Bahlul-Hasan">
+                            <persName ref="http://syriaca.org/person/365">Ḥasan Bar
+                            Bahlul</persName>
+                        </ref> (mid-10th <abbr>cent.</abbr>). Bar Bahlul, however, never explicitly
+                        identifies Zekarya of Merv with Ishoʿ of Merv. In addition, in one instance,
+                        Bar Bahlul cites Ishoʿ of Merv by name (Duval, 835.14). Thus, without
+                        further evidence, it seems best to assume that Ishoʿ of Merv and Zekarya of
+                        Merv are two distinct individuals (so also Baumstark).</p>
+                    <p>A lexicographer from Merv is also mentioned in the ‘Catalogue’ of <ref rend="bold" target="https://gedsh.bethmardutho.org/Abdisho-bar-Brikha">
+                            <persName ref="http://syriaca.org/person/310">ʿAbdishoʿ</persName>
+                        </ref> (Assemani, <hi rend="italic">BibOr</hi>,
+                        vol. 3, 257–58), but it is unclear whether this person is to be identified
+                        with Ishoʿ of Merv or Zekarya of Merv.</p>
+                </div>
+                <div type="bibl">
+                    <listBibl>
+                        <listBibl>
+                            <head>Primary Sources</head>
+                            <bibl>R.  Duval, <title rend="italic">Lexicon Syriacum auctore Hassano
+                                    bar Bahlule</title> (3 vols.; 1888–1901, <abbr>repr.</abbr> 1970).</bibl>
+                            <bibl>G.  Hoffmann, <title rend="italic">Syrisch-Arabische Glossen.
+                                    Autographie einer gothaischen Handschrift enthaltend Bar Ali’s
+                                    Lexikon von Alaf bis Mim</title> (1874), 1–5. (contains the Syr.
+                                text of the Preface of Ishoʿ Bar ʿAli’s Lexicon in which Ishoʿ of
+                                Merv is mentioned)</bibl>
+                        </listBibl>
+                        <listBibl>
+                            <head>Secondary Sources</head>
+                            <bibl>Baumstark, <title rend="italic">Literatur</title>, 241–2.</bibl>
+                            <bibl>Duval, <title rend="italic">La littérature syriaque</title>,
+                                297.</bibl>
+                            <bibl>W. Gesenius, <title rend="italic">De Bar Alio et Bar Bahlulo,
+                                    lexicographis Syro-Arabicis ineditis, commentatio litteraria
+                                    philologica</title>, vol. 1 (1834), 8–9.</bibl>
+                            <bibl>Wright, <title rend="italic">Short History of Syriac
+                                    Literature</title>, 215.</bibl>
+                        </listBibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Aaron M.</forename> 
+                  <surname>Butts</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">ʿAbdullāh II Saṭṭūf</title>
+            <author>
+               <persName>
+                  <forename>George A.</forename> 
+                  <surname>Kiraz</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0">Electronic Edition Draft Version 1.0</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>ʿAbdullāh II Saṭṭūf</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Abdullah-II-Sattuf</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/17</idno>
+                    <idno type="entry">8</idno>
+                    <milestone unit="pages" n="4-5"/>
+                    <idno type="subject">http://syriaca.org/person/313</idno>
+                    <note type="type">person</note>
+                    <note type="abstract">
+                        <abbr>Bp.</abbr> of <placeName ref="http://syriaca.org/place/2321">Jerusalem</placeName> (1872-4) and <abbr>
+                            <choice>
+                                <sic>Patr.</sic>
+                                <corr>patr.</corr>
+                            </choice>
+                        </abbr> (1906-15).<note/>
+                    </note>
+                </ab>
+                <ab type="infobox">(1834–1915) [<abbr>Syr. Orth.</abbr>]</ab>
+                <div type="body">
+                    <p>
+                        <abbr>Bp.</abbr> of <ref rend="bold" target="https://gedsh.bethmardutho.org/Jerusalem">
+                            <placeName ref="http://syriaca.org/place/104">Jersualem</placeName>
+                        </ref> (1872–4) and <abbr>
+                            <choice>
+                                <sic>Patr.</sic>
+                                <corr>patr.</corr>
+                            </choice>
+                        </abbr> (1906–15). Born in Ṣadad of deacon
+                        Jirjis <abbr>b.</abbr> ʿAbdullāh Saṭṭūf and Nasra <abbr>b.</abbr> Ḥanna al-Tawīl. He joined <ref rend="bold" target="https://gedsh.bethmardutho.org/al-Zafaran-Dayr">
+                            <placeName ref="http://syriaca.org/place/69">Dayr
+                            al-Zaʿfarān</placeName>
+                        </ref> in 1857, and later taught at <ref rend="bold" target="https://gedsh.bethmardutho.org/Edessa">
+                            <placeName ref="http://syriaca.org/place/78">Edessa</placeName>
+                        </ref> for six years
+                        where he was consecrated a deacon. In 1866, he became the secretary of <abbr>Patr.</abbr>
+                        Yaʿqub II in <ref rend="bold" target="https://gedsh.bethmardutho.org/Amid">
+                            <placeName ref="http://syriaca.org/place/8">Amid</placeName>
+                        </ref> who, on 19 Feb. 1867, tonsured him, then ordained him to the
+                        priesthood after two weeks. In 1870, he toured the area of <ref rend="bold" target="https://gedsh.bethmardutho.org/Tur-Abdin">
+                            <placeName ref="http://syriaca.org/place/221">Ṭur ʿAbdin</placeName>
+                        </ref> and
+                        recorded the names of villages, monasteries, churches, clergy, and the
+                        families living in the area (<abbr>ed.</abbr> Bcheiry). He was consecrated <abbr>bp.</abbr> of
+                        Jerusalem on 3 Sept. 1872 by <abbr>Patr.</abbr> Peṭros IV and was named Gregorius.
+                        ʿAbdullāh accompanied the <abbr>
+                            <choice>
+                                <sic>Patr.</sic>
+                                <corr>patr.</corr>
+                            </choice>
+                        </abbr> to England and India from 1874 to 1877.
+                        After the return of the <abbr>
+                            <choice>
+                                <sic>Patr.</sic>
+                                <corr>patr.</corr>
+                            </choice>
+                        </abbr> from India, ʿAbdullāh stayed for two more
+                        years before going back to London where he secured a printing press for Dayr
+                        al-Zaʿfarān. After his return, ʿAbdullāh served as the <abbr>bp.</abbr> of Syria from
+                        1880 to 1886.</p>
+                    <p>ʿAbdullāh paid a second visit to London, during which he attended sessions of
+                        the 1888 Lambeth Conference, and secured a second printing press. In 1890 he
+                        became the <abbr>bp.</abbr> of Amid. In 1895 or 1896, the Armenians persuaded ʿAbdullāh
+                        to sign a petition which, according to Shahīn, ‘went against the wishes of
+                        the Ottoman government’. The government issued an order for his exile, but
+                        ʿAbdullāh took refuge with the French consul where he joined the <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Syriac-Catholic-Church">Syriac
+                            Catholic Church</ref>. In the Syriac Catholic Synod of 1898 in <ref rend="bold" target="https://gedsh.bethmardutho.org/Mardin">
+                            <placeName ref="http://syriaca.org/place/130">Mardin</placeName>
+                        </ref>,
+                        ʿAbdullāh was appointed Syriac Catholic <abbr>bp.</abbr> of <ref rend="bold" target="https://gedsh.bethmardutho.org/Hims">
+                            <placeName ref="http://syriaca.org/place/215">Ḥimṣ</placeName>
+                        </ref> and Ḥama, and on
+                        9  Oct. 1898 he participated in the election of <abbr>Patr.</abbr>
+                        <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Rahmani-Ignatius-Ephrem-II">
+                            <persName ref="http://syriaca.org/person/701"> Ignatius Ephrem Raḥmani</persName>
+                        </ref>, and accompanied him in 1902 to Rome,
+                        France, and Constantinople. After the deposition of the <abbr>Syr. Orth.</abbr>
+                        <abbr> Patr.</abbr> 
+                  <ref rend="bold" target="https://gedsh.bethmardutho.org/Abdulmasih-II">
+                            <persName ref="http://syriaca.org/person/314">ʿAbdulmasīḥ  II</persName>
+                        </ref> on 10 Nov. 1903, ʿAbdullāh was elected and then
+                        consecrated <abbr>Syr. Orth.</abbr>
+                        <abbr> 
+                     <choice>
+                                <sic>Patr.</sic>
+                                <corr>patr.</corr>
+                            </choice>
+                        </abbr> on 5 Aug. 1906. Shortly after, he visited
+                        London for the third time <hi rend="italic">en route</hi> to India in
+                        1908–12. In London, he met King Edward VII twice. In India, he established
+                        the Knaʿanaya diocese. After his return from India in 1912, he stayed at the
+                            <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Mark-Monastery-of-St">
+                            <placeName ref="http://syriaca.org/place/388">Monastery of
+                            St. Mark</placeName>
+                        </ref> until his death in 1915 and was buried there. ʿAbdullāh
+                        received a medal from King Edward VII, and two Ottoman medals from the
+                        Ottoman sultan. In 1910 he reopened the seminary at Dayr al-Zaʿfarān. He
+                        established al-Ḥikma Magazine in 1913. That same year he established for the
+                        first time a council that consisted of six clergy and six laymen. The
+                        council held its first session from 20 Feb. until 17 March 1914 but was
+                        short<choice>
+                            <sic> </sic>
+                            <corr>-</corr>
+                        </choice>lived due to World War I.</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>I.  Bcheiry, <title rend="italic">Syriac Orthodox patriarchal
+                                register of dues of 1870</title> (2009).</bibl>
+                        <bibl>Dolabani, <title rend="italic">Patriarchen</title>, 282–3.</bibl>
+                        <bibl>Y.  Ibrahim, <title rend="italic">Dolabani the Ascetic Metropolitan of
+                                Mardin</title> (Aleppo, 1999), 15. (in Arabic)</bibl>
+                        <bibl>F.  M.  Sattuf, ‘Ḥayāt al-baṭriyark ʿAbdallāh Saṭṭūf wa-aʿmālih’,
+                                <title rend="italic">PatMag</title> 261–3 (2007), 57–64.</bibl>
+                        <bibl>G.  J.  Shahīn, <title rend="italic">Kašf al-anqiba ʿan wujūh
+                                al-muʾallifīn wal-muʾarrikhīn al-kadhaba</title> (1911),
+                            66–68.</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>G.  J.  Shahīn</reg>
+                        <orig>idem</orig>
+                     </choice>, <title rend="italic">Nahj wasīm fī taʾrīkh al-ʾumma
+                                al-suryāniyya al-qawīm</title>, vol. 1 (1911), 56.</bibl>
+                        <bibl>Ph.  de Tarrazi, <title rend="italic">al-Salāsil
+                                al-taʾrikhiyya</title> (1910), 302.</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>George A.</forename> 
+                  <surname>Kiraz</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

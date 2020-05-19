@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">ʿAbdishoʿ bar Brikha</title>
+            <author>
+               <persName>
+                  <forename>Jeff W.</forename> 
+                  <surname>Childers</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0">Electronic Edition Draft Version 1.0</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>ʿAbdishoʿ bar Brikha</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Abdisho-bar-Brikha</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/14</idno>
+                    <idno type="entry">5</idno>
+                    <milestone unit="pages" n="3-4"/>
+                    <idno type="althead">Ebedjesus</idno>
+                    <idno type="subject">http://syriaca.org/person/310</idno>
+                    <note type="type">person</note>
+                    <note type="abstract">
+                        <abbr>Bp.</abbr> and scholar.<note>brief</note>
+                    </note>
+                </ab>
+                <ab type="infobox">Ebedjesus (d. 1318) [Ch. of E.]</ab>
+                <div type="body">
+                    <p>
+                        <abbr>Bp.</abbr> and scholar. ʿAbdishoʿ was <abbr>bp.</abbr> of Sinjar and <ref rend="bold" target="https://gedsh.bethmardutho.org/Beth-Arbaye">
+                            <placeName ref="http://syriaca.org/place/31">Beth ʿArbaye</placeName>
+                        </ref>,
+                        before becoming metropolitan <abbr>bp.</abbr> of <ref rend="bold" target="https://gedsh.bethmardutho.org/Nisibis">
+                            <placeName ref="http://syriaca.org/place/142">Nisibis</placeName>
+                        </ref> (Ṣoba) and
+                        Armenia (<abbr>ca.</abbr> 1291). He wrote in Syriac and in Arabic. Although in many ways
+                        his writings crowned the achievements of a highly productive era in E.-Syr.
+                        scholarship, many of them do not survive, <choice>
+                            <sic>e.g.</sic>
+                            <corr>e.g., </corr>
+                        </choice>a commentary on <abbr>OT</abbr> and <abbr>NT</abbr>,
+                        along with other works treating doctrine, canon law, philosophy, and
+                        science. His surviving works include: <hi rend="italic">Margānitā</hi> ‘The
+                        Pearl’, an influential systematic explanation of E.-Syr. theology; the <hi rend="italic">Nomocanon</hi>, a compilation of synodal decrees
+                        containing the most complete collection of E.-Syr. canon law, still
+                        authoritative in the <abbr>Ch. of E.</abbr>; a ‘Treatise on the Rule of Ecclesiastical
+                        Judgements’, for use as an ecclesiastical court manual; and a collection of
+                        theological poetry entitled ‘Paradise of Eden’ (also known as the <hi rend="italic">Maqāmāt</hi>). His metrical ‘Catalogue of Books’ is an
+                        invaluable repository of information about the authors and works of the
+                        Syriac literary heritage, including many that are no longer extant.
+                        Published with a Latin translation by J.-S. Assemani in Rome in 1725, the
+                        ‘Catalogue’ helped clarify for western scholarship the breadth and basic
+                        contours of Syriac literature, providing stimulus and some direction for the
+                        nascent study of Syriac literary history in the West.</p>
+                </div>
+                <div type="bibl">
+                    <listBibl>
+                        <listBibl>
+                            <head>Primary Sources</head>
+                            <listBibl>
+                                <head>Nomocanon (<hi rend="italic">Kunnāšā d-qānone
+                                        sunhādiqāye</hi>)</head>
+                                <bibl>A.  Mai, in <title rend="italic">Scriptorum Veterum Nova
+                                        Collectio</title>, vol.10.1 (1838), 191–331 (Syr., vocalized
+                                    serṭo), 23–168 (<abbr>LT</abbr>).</bibl>
+                                <bibl>J.  de Kelayta, <title rend="italic">The Nomocanon, or
+                                        Collection of Synodical Canons of Mar Abdisho bar Brikha,
+                                        Metropolitan of Nisibis and Armenia</title> (1918).</bibl>
+                                <bibl>I.  Perczel, <title rend="italic">The Nomocanon of
+                                        Metropolitan Abdisho of Nisibis. A  facsimile edition of ms
+                                        64 from the collection of the Church of the East in
+                                        Trissur</title> (2005), with Introduction by
+                                    H.  Kaufhold.</bibl>
+                            </listBibl>
+                            <listBibl>
+                                <head>Regulation of Ecclesiastical Judgements (<hi rend="italic">Ṭukkās dine ʿedtānāye</hi>)</head>
+                                <bibl>Chabot, in <title rend="italic">Synodicon
+                                    Orientale</title> (1902), 609–611. (Book I, chapter 2)</bibl>
+                                <bibl>J.-M.  Vosté, <title rend="italic">Ordo Iudiciorum
+                                        Ecclesiasticorum, collectus, dispositus, ordinatus a Mar
+                                        Abdisho Metropolita Nisibis et Armeniae</title>
+                                    (S. Congregazione per la Chiesa Orientale, Fonti, Serie II,
+                                    fasc. xv; 1940). (<abbr>LT</abbr>)</bibl>
+                            </listBibl>
+                            <listBibl>
+                                <head>Explanation of the Liturgical Services (= Book I, ch. 3 of <hi rend="italic">Ṭukkās dine ʿedtānāye</hi>)</head>
+                                <bibl>J.  Isaac, in <title rend="italic">Bayn al-Nahrayn</title>
+                                    (2004–5), 125–32. (with <abbr>AT</abbr>)</bibl>
+                            </listBibl>
+                            <listBibl>
+                                <head>Paradise of Eden</head>
+                                <bibl>G. Cardahi, <title rend="italic">Pardaysa da-ʿden seu
+                                        Paradisus Eden</title> (1889).</bibl>
+                                <bibl>J. de Kelayta, <title rend="italic">Pardaysa
+                                    da-ʿden</title> (1916; 3rd <abbr>ed.</abbr> 1988).</bibl>
+                            </listBibl>
+                            <listBibl>
+                                <head>The Pearl (<hi rend="italic">Margānitā</hi>)</head>
+                                <bibl>A. Mai, in <title rend="italic">Scriptorum Veterum Nova
+                                        Collectio</title>10.2 (1838), 317–66. (with <abbr>LT</abbr>)</bibl>
+                                <bibl>J. de Kelayta, <title rend="italic">Marganita</title> (1924;
+                                    3rd <abbr>ed.</abbr> 1989).</bibl>
+                                <bibl>G. P.  Badger, <title rend="italic">The Nestorians and their
+                                        rituals</title>, vol. 2 (1852), 380–422. (<abbr>ET</abbr>)</bibl>
+                                <bibl>Eshai Shimun XXIII, <title rend="italic">The Book of
+                                        Marganitho (The Pearl)</title> (1965; <abbr>repr.</abbr> 1988).
+                                    (<abbr>ET</abbr>)</bibl>
+                            </listBibl>
+                            <listBibl>
+                                <head>Catalogue of Authors</head>
+                                <bibl>Assemani, <title rend="italic">BibOr</title>, vol. III.1,
+                                    3–362.</bibl>
+                                <bibl>J. Habbi, <title rend="italic">Catalogus Auctorum: ʿAbdishoʿ
+                                        Sob.</title> (1986).</bibl>
+                                <bibl>G.  P.  Badger, <title rend="italic">The Nestorians and their
+                                        rituals</title>, vol. 2 (1852), 361–379. (<abbr>ET</abbr>)</bibl>
+                            </listBibl>
+                        </listBibl>
+                        <listBibl>
+                            <head>Secondary Sources</head>
+                            <bibl>Mar Aprem, ‘Codification of the Canon Law by Mar Abdisho’, in
+                                    <abbr>
+                                    <title rend="italic">SymSyr</title> IV</abbr>, 371–9.</bibl>
+                            <bibl>J.  Dauvillier, in <title rend="italic">
+                                    <abbr>DTC</abbr>
+                                </title>, vol.3 (1942),
+                                361–63; 5 (1942), 91–134.</bibl>
+                            <bibl>C.  Gallagher, <title rend="italic">Church Law and Church Order in
+                                    Rome and Byzantium</title> (2002), 207–26.</bibl>
+                            <bibl>Graf, <title rend="italic">GCAL</title>, vol.2, 214–6. (for Arabic
+                                translations)</bibl>
+                            <bibl>N.  Katsumata, ‘The style of the Maqamat: Arabic, Persian, Hebrew,
+                                Syriac’, <title rend="italic">Middle Eastern Literatures</title> 5
+                                (2002), 117–137.</bibl>
+                            <bibl>S. Khoury, ‘L’évangéliaire rimé de Abdišu de Nisibe et son
+                                importance cultuelle et culturelle’, <title rend="italic">
+                                    <abbr>ParOr</abbr>
+                                </title> 22 (1997), 381–90.</bibl>
+                            <bibl>P.  K.  Varghese, ‘Mar Oudisho metropolitan of Suwa and his
+                                literary works’, <title rend="italic">
+                                    <abbr>Harp</abbr>
+                                </title> 8/9 (1995/6),
+                                355–63.</bibl>
+                            <bibl>H.  Younansardaroud, ‘A list of known manuscripts of the Syriac
+                                    <title rend="italic">Maqamat</title> of ʿAbdishoʿ bar Brika’,
+                                    <title rend="italic">
+                                    <abbr>JAAS</abbr>
+                                </title> 20 (2006), 28–42. (incl.
+                                further references)</bibl>
+                        </listBibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Jeff W.</forename> 
+                  <surname>Childers</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

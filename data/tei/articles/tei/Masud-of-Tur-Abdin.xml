@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Masʿūd of Ṭur ʿAbdin</title>
+            <author>
+               <persName>
+                  <forename>Herman G. B.</forename> 
+                  <surname>Teule</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0">Electronic Edition Draft Version 1.0</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Masʿūd of Ṭur ʿAbdin</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Masud-of-Tur-Abdin</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/372</idno>
+                    <idno type="entry">363</idno>
+                    <milestone unit="pages" n="279-280"/>
+                    <idno type="subject">http://syriaca.org/person/279</idno>
+                    <note type="type">person</note>
+                    <note type="abstract">Author, monk, and solitary, abbot of the Monastery of the
+                        Cross (Dayr al-Ṣalīb) near Ḥaḥ (<abbr>ca.</abbr> 1462/3–1480/1), <abbr>bp.</abbr> for the Monastery of
+                        Mor Quryaqos in Hezza near Zargel and Ḥesno d-Kifo (1480/1) with the name
+                        Basil. <note/>
+                    </note>
+                </ab>
+                <ab type="infobox">(<abbr>ca.</abbr> 1430/1–1509?) [ <abbr>Syr. Orth.</abbr>]</ab>
+                <div type="body">
+                    <p>Author, monk, and solitary, abbot of the Monastery of the Cross (<ref rend="bold" target="https://gedsh.bethmardutho.org/al-Salib-Dayr">
+                            <placeName ref="http://syriaca.org/place/68">Dayr
+                            al-Ṣalīb</placeName>
+                        </ref>) near Ḥaḥ (<abbr>ca.</abbr> 1462/3–1480/1), <abbr>bp.</abbr> for the Monastery of
+                        Mor Quryaqos in Hezza near Zargel and Ḥesno d-Kifo (1480/1) with the name
+                        Basil. Afram Barsoum identifies him with the <abbr>Patr.</abbr> Masʿūd of <ref rend="bold" target="https://gedsh.bethmardutho.org/Tur-Abdin">
+                            <placeName ref="http://syriaca.org/place/221">Ṭur
+                            ʿAbdin</placeName>
+                        </ref> (d. 1509). Masʿūd was a vigorous promotor of monastic life
+                        in Ṭur ʿAbdin. He is the author of the <hi rend="italic">elpo
+                        ruḥonoyto</hi> ‘the Spiritual Boat’, a work intended to guide monks and
+                        solitaries to the ‘haven of impassibility’. Written in the dodecasyllable
+                        meter, it is essentially an ascetical and mystical treatise. It is divided
+                        into three parts, on trinity, on christology and on the divine gifts and
+                        virtues distributed by Christ to the Angels and human beings. The third part
+                        is based indirectly on the Celestial Hierarchy of <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Dionysius-the-Areopagite-Pseudo-">Pseudo-Dionysius the Areopagite</ref>. As a <abbr>
+                            <choice>
+                                <sic>Patr.</sic>
+                                <corr>patr.</corr>
+                            </choice>
+                        </abbr> he appointed a maphr.
+                        and twelve bishops for Ṭur ʿAbdin, which caused much confusion. According to
+                        Barsoum, some senior bishops denounced him to the <abbr>
+                            <choice>
+                                <sic>Patr.</sic>
+                                <corr>patr.</corr>
+                            </choice>
+                        </abbr> of <ref rend="bold" target="https://gedsh.bethmardutho.org/Antioch">
+                            <placeName ref="http://syriaca.org/place/10">Antioch</placeName>
+                        </ref>. Masʿūd had
+                        to step back for some time, but was again in function by the end of his
+                        life. According to the continuator of <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Bar-Ebroyo-Grigorios">
+                            <persName ref="http://syriaca.org/person/239">Bar ʿEbroyo</persName>
+                        </ref>’s
+                        Ecclesiastical History, these senior bishops denounced him however to the
+                        Emir of Ḥesno d-Kifo, who confined him to a monastery. As a result he
+                        abdicated and ordered his followers not to appoint a new <abbr>
+                            <choice>
+                                <sic>Patr.</sic>
+                                <corr>patr.</corr>
+                            </choice>
+                        </abbr> of Ṭur
+                        ʿAbdin.</p>
+                    <p>The main source of Masʿūd’s life till his episcopal ordination is a short
+                        note written by his disciple ʿAziz which is preserved in the oldest <abbr>ms.</abbr> of
+                        the Spiritual Boat, now kept in <ref rend="bold" target="https://gedsh.bethmardutho.org/Baghdad">
+                            <placeName ref="http://syriaca.org/place/41">Baghdad</placeName>
+                        </ref>. According
+                        to this note Masʿūd composed some other writings, which do not seem to have
+                        been preserved.</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>Abbeloos and Lamy, <title rend="italic">Gregorii Barhebraei
+                                chronicon ecclesiasticum</title>, vol. 2, 845; vol. 3, 555–9.</bibl>
+                        <bibl>Barsoum, <title rend="italic">Scattered pearls</title>, 509–11.</bibl>
+                        <bibl>B.  Haddad and J.  Isaac, <title rend="italic">al-Makhtūtāt
+                                al-suryāniyya wal-ʿarabiyya fī khazānat al-rahbāniyyat al-kaldāniyya
+                                fī Baghdād</title>, vol. 1 (1988), 338.</bibl>
+                        <bibl>Macuch, <title rend="italic">Geschichte</title>, 16. (incorrect
+                            information)</bibl>
+                        <bibl>B.  Van Helmond, <title rend="italic">Masʿoud du Tour ʿAbdin. Un
+                                mystique syrien du XVe siècle. Etude et texte</title> (Bibliothèque
+                            du Muséon 14; 1942).</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Herman G. B.</forename> 
+                  <surname>Teule</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

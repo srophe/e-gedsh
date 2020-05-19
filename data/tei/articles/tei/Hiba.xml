@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Hiba</title>
+            <author>
+               <persName>
+                  <forename>Lucas</forename> 
+                  <surname>Van Rompay</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0">Electronic Edition Draft Version 1.0</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Hiba</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Hiba</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/267</idno>
+                    <idno type="entry">258</idno>
+                    <milestone unit="pages" n="195-196"/>
+                    <idno type="althead">Ibas</idno>
+                    <idno type="subject">http://syriaca.org/person/534</idno>
+                    <note type="type">person</note>
+                    <note type="abstract">
+                        <abbr>Bp.</abbr> of <placeName>Edessa</placeName> who was active at the School of Edessa and initiated the translation of Theodore of Mopsuestia into Syriac;
+                        involved in christological debates of the time.
+                    </note>
+                </ab>
+                <ab type="infobox">Ibas (d. 457)</ab>
+                <div type="body">
+                    <p>
+                        <abbr>Bp.</abbr> of <ref rend="bold" target="https://gedsh.bethmardutho.org/Edessa">
+                            <placeName ref="http://syriaca.org/place/78">Edessa</placeName>
+                        </ref>. Hiba must have been active in the <ref rend="bold" target="https://gedsh.bethmardutho.org/Edessa-School-of">School of
+                            Edessa</ref> from the second or third decade of the 5th <abbr>cent.</abbr> Both the
+                        E.- and W.-Syr. traditions see him as one of the driving forces behind the
+                        translation of <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Theodore-of-Mopsuestia">
+                            <persName ref="http://syriaca.org/person/780">Theodore
+                            of Mopsuestia</persName>
+                        </ref>’s works from Greek into Syriac, which was carried
+                        out at the School and may have begun during Theodore’s lifetime (d.
+                        428).</p>
+                    <p>Around the time of the Nestorian controversy (428–31), Hiba parted ways with
+                        <abbr>
+                            <choice>
+                                <sic>bp.</sic>
+                                <corr>Bp.</corr>
+                            </choice>
+                        </abbr>
+                        <ref rend="bold" target="https://gedsh.bethmardutho.org/Rabbula-of-Edessa">
+                            <persName ref="http://syriaca.org/person/26"> Rabbula of
+                            Edessa</persName>
+                        </ref>. The latter became a staunch defender of <ref rend="bold" target="https://gedsh.bethmardutho.org/Cyril-of-Alexandria">
+                            <persName ref="http://syriaca.org/person/430">Cyril of
+                            Alexandria</persName>
+                        </ref>, the main authority for the Syr. Miaphysites, while
+                        Hiba represented the Antiochene dyophysite tradition. In 433 Hiba wrote a
+                        famous letter to a certain Mari, ‘the Persian’, in which he bitterly
+                        complained about Rabbula’s actions against the writings of Theodore, who
+                        increasingly was seen as the teacher of <ref rend="bold" target="https://gedsh.bethmardutho.org/Nestorius">
+                            <persName ref="http://syriaca.org/person/655">Nestorius</persName>
+                        </ref>. In the
+                        mid<choice>
+                            <sic>–</sic>
+                            <corr>-</corr>
+                        </choice>430s Edessa must have been evenly divided between Miaphysites (followers
+                        of Cyril) and Dyophysites (standing in Theodore’s tradition), for after
+                        Rabbula’s death (436), Hiba was elected as the latter’s successor. Even
+                        though the campaign against Theodore continued in Constantinople, Syria, and
+                        Armenia, the situation in Edessa under Hiba’s tenure was relatively quiet.
+                        As <abbr>bp.</abbr>, Hiba is credited with building activities. In 448, however, Hiba
+                        became one of the main targets of the strict Miaphysites, who in the synod
+                        of Ephesus in 449 (later known as the ‘Robber Synod’) succeeded in deposing
+                        him, mainly on the grounds of making too strict a distinction between the
+                        divinity and humanity in Christ. Two years later, Hiba’s letter to Mari was
+                        officially read at the Council of Chalcedon (451), and Hiba was
+                        rehabilitated as <abbr>bp.</abbr> of Edessa, a position he was able to hold until his
+                        death.</p>
+                    <p>Nearly a century after his death, Hiba’s name returned to the center of the
+                        Christological discussions. In an attempt to win Miaphysite acceptance of
+                        the Council of Chalcedon, the emperor Justinian in an edict of 543/4
+                        condemned Hiba’s letter to Mari. Since the letter was seen as sympathetic to
+                        Theodore and Nestorius, it was considered a stumbling block for the
+                        anti-Chalcedonians. Justinian’s condemnation of Hiba’s Letter, as one of the
+                        ‘Three Chapters’, subsequently was taken over and affirmed by the Council of
+                        Constantinople (553). This did not, however, lead to the reconciliation
+                        between Chalcedonians and Miaphysites.</p>
+                    <p>Except for Hiba’s letter to Mari, which exists in Greek (in all likelihood
+                        translated from the Syriac original), no other works by Hiba have been
+                        preserved.</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>
+                            <title rend="italic">
+                                <abbr>CPG</abbr>
+                            </title> 6500–6501.</bibl>
+                        <bibl>G. G.  Blum, <title rend="italic">Rabbula von Edessa. Der Christ, der
+                                Bischof, der Theologe</title> (<abbr>CSCO </abbr>
+                            <choice>
+                                <sic>3000</sic>
+                                <corr>300</corr>
+                            </choice>; 1969), 196–203.</bibl>
+                        <bibl>R.  Doran, <title rend="italic">Stewards of the poor: The Man of God,
+                                Rabbula, and Hiba in <choice>
+                                    <sic>fifth century</sic>
+                                    <corr>fifth-century</corr>
+                                </choice> Edessa</title> (2006).</bibl>
+                        <bibl>M.  van Esbroeck, ‘Who is Mari, the addressee of Ibas’ letter?’,
+                                <title rend="italic">
+                                <abbr>JTS</abbr>
+                            </title>
+                            <abbr> ns</abbr> 38 (1987), 129–35.</bibl>
+                        <bibl>N.  Garsoïan, <title rend="italic">L’église arménienne et le grand
+                                schisme d’Orient</title> (<abbr>CSCO</abbr> 574; 1999), 108–10 and passim.</bibl>
+                        <bibl>R.  Price, <title rend="italic">The Acts of the Council of
+                                Chalcedon</title>, vol. 2 (2005), 258–309. (Sessions 9–10,
+                            concerning Hiba; <abbr>ET</abbr>, including his Letter)</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>R.  Price</reg>
+                        <orig>idem</orig>
+                     </choice>, <title rend="italic">The Acts of the Council of Constantinople
+                                of 553</title>, vol. 1 (2009), 88–98. (On the Letter of Ibas to Mari
+                            the Persian)</bibl>
+                        <bibl>C.  Rammelt, <title rend="italic">Ibas von Edessa. Rekonstruktion
+                                einer Biographie und dogmatischen Position zwischen den
+                                Fronten</title> (2008).</bibl>
+                        <bibl>E.  Schwartz, <title rend="italic">Acta Conciliorum
+                                Oecumenicorum</title>, II.1.3 (1935), 32–35. (Letter to Mari)</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Lucas</forename> 
+                  <surname>Van Rompay</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Alqosh</title>
+            <author>
+               <persName>
+                  <forename>Alessandro</forename> 
+                  <surname>Mengozzi</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0">Electronic Edition Draft Version 1.0</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Alqosh</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Alqosh</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/39</idno>
+                    <idno type="entry">30</idno>
+                    <milestone unit="pages" n="17"/>
+                    <idno type="subject">http://syriaca.org/place/19</idno>
+                    <note type="type">place</note>
+                    <note type="abstract">Town 40 km. north of <placeName ref="http://syriaca.org/place/139">Mosul</placeName> in <placeName>Iraq</placeName>. Seat of a <abbr>Chald.</abbr> bishopric.<note/>
+                    </note>
+                </ab>
+                <div type="body">
+                    <p>Town 40 km. north of <ref rend="bold" target="https://gedsh.bethmardutho.org/Mosul">
+                            <placeName ref="http://syriaca.org/place/139">Mosul</placeName>
+                        </ref> in Iraq. Seat
+                        of a <abbr>Chald.</abbr> bishopric. It now numbers around 5,000 inhabitants. Many
+                        families and individuals migrated from Alqosh to larger Iraqi cities (Mosul,
+                            <ref rend="bold" target="https://gedsh.bethmardutho.org/Baghdad">
+                            <placeName ref="http://syriaca.org/place/41">Baghdad</placeName>
+                        </ref>, etc.) or abroad, especially to the USA and UK. The
+                        town’s economy is based on agriculture (wheat, barley, chickpeas, lentils,
+                        beans, cucumbers, gourds, melons, grapes, and figs) and animal husbandry
+                        (sheep and goats). Traditional trades included weaving and dying cloth.
+                        Alqosh is a major spiritual center. Jews used to go on pilgrimage to the
+                        tomb believed to be that of the prophet Nahum, who, according to an
+                        interpretation of Nah 1.1, may have come from Alqosh. Two important E.-Syr.
+                        monasteries lie close to Alqosh: the <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Hormizd-Monastery-of-Rabban">
+                            <placeName ref="http://syriaca.org/place/168">Monastery of Rabban Hormizd</placeName>
+                        </ref>, founded in the 7th   cent., used to
+                        be one of the patriarchal residences of the <abbr>Ch. of E.</abbr>, later moved to Mosul,
+                        then Baghdad, and the more recent Monastery of the Virgin, also known as
+                        ‘the Lower Monastery’ or ‘of Our Lady of the Seeds’. From the 16th <abbr>cent.</abbr> the
+                        cultural life of the village flourished thanks to the so-called <ref rend="bold" target="https://gedsh.bethmardutho.org/Alqosh-School-of">School of Alqosh</ref>. Alqosh was pillaged several times, by Murād Bey
+                        (Bar Yak) in 1508, the Pasha of ʿAmadiyya in 1740, the Persians in 1743.
+                        People sought refuge on the mountain, in the Monastery of Rabban Hormizd,
+                        but there were rapes and casualties. Around the mid-16th <abbr>cent.</abbr> some of the
+                        population supported <ref rend="bold" target="https://gedsh.bethmardutho.org/Yohannan-Sullaqa">
+                            <persName ref="http://syriaca.org/person/829">Yoḥannan
+                            Sullaqa</persName>
+                        </ref>, the first <abbr>Chald.</abbr>
+                        <abbr> 
+                     <choice>
+                                <sic>Patr.</sic>
+                                <corr>patr.</corr>
+                            </choice>
+                        </abbr> elected with official approval of
+                        Rome. In 1767, around 100 of the 500 families were Catholic. Literary
+                        sources and annotations made by European travelers record recurrent cases of
+                        pestilence and famine, caused by draught or locusts, which devastated the
+                        region during the 19th <abbr>cent.</abbr> In 1832 and 1842 the village was attacked and
+                        pillaged by Kurds.</p>
+                    <p>See <ref target="https://gedsh.bethmardutho.org/fig/3c">Fig. 3c</ref>, <ref target="https://gedsh.bethmardutho.org/fig/4">4</ref>, <ref target="https://gedsh.bethmardutho.org/fig/56c">56c</ref>, and <ref target="https://gedsh.bethmardutho.org/fig/57">57</ref>.</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>E.  Coghill, <title rend="italic">The Neo-Aramaic Dialect of
+                                Alqosh</title> (Ph.D. Diss., University of Cambridge; 2004).</bibl>
+                        <bibl>Fiey, <title rend="italic">Assyrie chrétienne</title>, vol. 2,
+                            387–400.</bibl>
+                        <bibl>Wilmshurst, <title rend="italic">Ecclesiastical organisation</title>,
+                            241–58. (incl. further references)</bibl>
+                        <bibl>Pictures of Alqosh and surroundings available at <ref target="www.alqosh.net">www.alqosh.net</ref>.</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Alessandro</forename> 
+                  <surname>Mengozzi</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

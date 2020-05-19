@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Turfan, Syriac texts from</title>
+            <author>
+               <persName>
+                  <forename>Sebastian P.</forename> 
+                  <surname>Brock</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0">Electronic Edition Draft Version 1.0</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Turfan, Syriac texts from</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Turfan-Syriac-texts-from</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/575</idno>
+                    <idno type="entry">566</idno>
+                    <milestone unit="pages" n="420-421"/>
+                    <idno type="althead" subtype="altorder">Syriac texts from Turfan</idno>
+                    <note type="type">subject</note>
+                    <note type="abstract">German excavations (1904–7), conducted near Bulayıq, north
+                        of Turfan, brought to light numerous fragmentary <abbr>mss.</abbr> evidently from the
+                        library of an E.-Syr. monastery.<note/>
+                    </note>
+                </ab>
+                <div type="body">
+                    <p>German excavations (1904–7), conducted near Bulayıq, north of Turfan, brought
+                        to light numerous fragmentary <abbr>mss.</abbr> evidently from the library of an E.-Syr.
+                        monastery. These texts are in several different languages and are often
+                        bilingual. At present there is no published catalogue of them all, though a
+                        project based in the School of Oriental and African Studies, London, plans
+                        to produce one.</p>
+                    <p>There are said to be 400–500 small fragments in Syriac (Gillman and Klimkeit
+                        1999, 251), very few of which have yet been published. They probably range
+                        in date from 9th to 12th/13th <abbr>cent.</abbr> Besides some biblical fragments, there
+                        are many liturgical ones; these include some of the earliest witnesses to
+                        the <hi rend="italic">Ḥudrā</hi> (<abbr>ET</abbr>, from Sachau’s edition of 1905, in
+                        P. Y. Saeki, <hi rend="italic">The Nestorian Documents and Relics in
+                            China</hi> [1951], 337–47). Hagiographical texts include the Acts of St.
+                        George, and the Life of Barshabba, first <abbr>bp.</abbr> of Merv. Otherwise unknown
+                        texts include a dialogue between a Jew and a Christian, and a historical
+                        narrative concerning <ref rend="bold" target="https://gedsh.bethmardutho.org/Nisibis">
+                            <placeName ref="http://syriaca.org/place/142">Nisibis</placeName>
+                        </ref>. Two
+                        non-literary texts have been published (by Maroth), both in Serṭo and dating
+                        from <abbr>ca.</abbr> 10th <abbr>cent.</abbr>: one contains recipes for medical concoctions (one is
+                        against loss of hair), while the other is a draft of a letter, evidently to
+                        a high Byzantine official, written in very florid language.</p>
+                    <p>Bilingual texts are liturgical (mostly <abbr>NT</abbr> lectionary texts and Psalms). The
+                        majority are Syriac and <ref rend="bold" target="https://gedsh.bethmardutho.org/Sogdian">Sogdian</ref> (in
+                        alternating sentences, or with opening Syriac words only), but there is also
+                        one Syriac and New Persian (Psalms), several Syriac and Uighur-Turkish, and
+                        (surprisingly) one Greek and Sogdian, suggesting the presence of Melkites,
+                        too.</p>
+                    <p>The great majority of the Christian texts are in Sogdian, and all are
+                        evidently translations from Syriac. Among the biblical (almost all, <abbr>NT</abbr>
+                        lectionaries) and liturgical texts are the Nicene Creed (in a Psalms <abbr>ms.</abbr>,
+                        anticipating later usage), the <hi rend="italic">Gloria in excelsis</hi>, an
+                        early form of a commentary on Baptism and the Eucharist, known in both E.-
+                        and W.- Syr. tradition, and a verse text by <ref rend="bold" target="https://gedsh.bethmardutho.org/Babai-of-Nisibis">
+                            <persName ref="http://syriaca.org/person/360">Babai of
+                            Nisibis</persName>
+                        </ref> (‘On the final evil hour’, not extant in Syriac).
+                        Hagiography is well represented, with fragments of the following: Barshabba,
+                        Cyriacus and Julitta, Eugenius, Eustathius, Finding of the Cross, <ref rend="bold" target="https://gedsh.bethmardutho.org/Yohannan-of-Dailam">
+                            <persName ref="http://syriaca.org/person/825">Yoḥannan of Dailam</persName>
+                        </ref>, Acts of Peter, Pethion, Sarapion, Sergius and
+                        Bacchus, four martyrdoms under Shapur II (Shahdost, Tarbo, 120 martyrs, and
+                        Barbaʿshmin), and the <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Sleepers-of-Ephesus-Legend-of-the">Sleepers of Ephesus</ref>. Also
+                        prominent are monastic texts, which include <ref rend="bold" target="https://gedsh.bethmardutho.org/Evagrius-of-Pontus">
+                            <persName ref="http://syriaca.org/person/483">Evagrius</persName>
+                        </ref>’s <hi rend="italic">Antirrheticus</hi>, <ref rend="bold" target="https://gedsh.bethmardutho.org/Dadisho-Qatraya">
+                            <persName ref="http://syriaca.org/person/434">Dadishoʿ</persName>
+                        </ref>’s Commentaries on <ref rend="bold" target="https://gedsh.bethmardutho.org/Isaiah-of-Scetis">
+                            <persName ref="http://syriaca.org/person/548">Isaiah of
+                            Scetis</persName>
+                        </ref> and the Paradise of the Fathers, some Sayings of the
+                        Fathers, and some unidentified texts, including parts of a homily on the
+                        three periods of the solitary life.</p>
+                    <p>In Middle Persian there is one fragment of a Psalter, and some forty or more
+                        in Uighur Turkish; these include a fragment on St. George (<abbr>ed.</abbr> W. Bang, in
+                            <title rend="italic">
+                            <abbr>LM</abbr>
+                        </title> 39 [1926]).</p>
+                    <p>In contrast to the <abbr>ms.</abbr> finds from the Turfan area, Syriac is barely
+                        represented at all at Dunhuang, further east: only two fragments have so far
+                        come to light, one of a Pauline Lectionary (W. Klein and J. Tubach, in <title rend="italic">
+                            <abbr>ZDMG</abbr>
+                        </title> 144 [1994], 1–3; cf. H. Kaufhold, in <title rend="italic">
+                            <abbr>ZDMG</abbr>
+                        </title> 146 [1996], 49–60), and the other of a Psalter
+                        (D. Qing, in <title rend="italic">
+                            <abbr>OC</abbr>
+                        </title> 87 [2001], 84–93). Two Syriac
+                        fragments of liturgical texts were also found at Kara Khoto, a center of the
+                        Tangut (N. Pigulevskaya, in <title rend="italic">ROC</title> 30 [1938], 3–46).</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>J. P.  Asmussen, ‘The Sogdian and Uighur-Turkish Christian
+                            literature in Central Asia’, in <title rend="italic">Indological and
+                                Buddhist Studies. Volume in Honor of Prof. J. W. de Jong</title>
+                            (1982), 11–29.</bibl>
+                        <bibl>C. Baumer, <title rend="italic">The Church of the East. An illustrated
+                                history of Assyrian Christianity</title> (2006), ch. 8. (for
+                            background)</bibl>
+                        <bibl>M.  Dickens, ‘The Syriac Bible in Central Asia’, in <title rend="italic">The Christian Heritage of Iraq,</title>ed.
+                            E. C. D.  Hunter (2009), 92–120.</bibl>
+                        <bibl>I.  Gillman and H.-J.  Klimkeit, <title rend="italic">Christianity in
+                                Asia Before 1500</title> (1999), ch. 9. (for background)</bibl>
+                        <bibl>M.  Maroth, ‘Die syrischen Handschriften in der Turfan-Sammlung’, in
+                                <title rend="italic">Ägypten, Vorderasien, Turfan</title>, <abbr>ed.</abbr> H.
+                            Klengel and W. Sundermann (1991), 126–8.</bibl>
+                        <bibl>N.  Sims-Williams, <title rend="italic">The Christian Sogdian
+                                Manuscript C2</title> (Berliner Turfantexte XII, 1985).</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>N.  Sims-Williams</reg>
+                        <orig>idem</orig>
+                     </choice>, ‘Die christlich-sogdischen Handschriften von Bulayiq’ in <title rend="italic">Ägypten, Vorderasien, Turfan</title>, <abbr>ed.</abbr> H.  Klengel
+                            and W.  Sundermann (1991), 119–25. (partly the same in English: ‘Sogdian
+                            and Turkish Christians in the Turfan and Tun-Huang manuscripts’, in
+                                <title rend="italic">Turfan and Tun-Huang. The Texts</title>, <abbr>ed.</abbr> A.
+                            Cadonna [1992], 43–61)</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>N.  Sims-Williams</reg>
+                        <orig>idem</orig>
+                     </choice>, [Christianity] ‘In Central Asia and Chinese Turkestan’, <title rend="italic">
+                                <abbr>EIr</abbr>
+                            </title>, vol. 5 (1992), 530–7.</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>N.  Sims-Williams</reg>
+                        <orig>idem</orig>
+                     </choice>, ‘Christian Sogdian texts from the Nachlass of O. Hansen’, <title rend="italic">
+                                <abbr>BSOAS</abbr>
+                            </title> 58 (1995), 50–8, 288–302.</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Sebastian P.</forename> 
+                  <surname>Brock</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

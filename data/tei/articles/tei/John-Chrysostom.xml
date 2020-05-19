@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">John Chrysostom</title>
+            <author>
+               <persName>
+                  <forename>Jeff W.</forename> 
+                  <surname>Childers</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0">Electronic Edition Draft Version 1.0</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>John Chrysostom</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/John-Chrysostom</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/312</idno>
+                    <idno type="entry">303</idno>
+                    <milestone unit="pages" n="229-230"/>
+                    <idno type="subject">http://syriaca.org/person/573</idno>
+                    <note type="type">person</note>
+                    <note type="abstract">
+                        <abbr>Bp.</abbr> of Constantinople (398-404).<note>brief</note>
+                    </note>
+                </ab>
+                <ab type="infobox">(<abbr>ca.</abbr> 347–407)</ab>
+                <div type="body">
+                    <p>
+                        <abbr>Bp.</abbr> of Constantinople (398–404). Born in <ref rend="bold" target="https://gedsh.bethmardutho.org/Antioch">
+                            <placeName ref="http://syriaca.org/place/10">Antioch</placeName>
+                        </ref> in an
+                        affluent family, John studied under the renowned pagan rhetorician Libanius
+                        and was headed for a distinguished career in law or civil service until he
+                        fell under the influence of <abbr>
+                            <choice>
+                                <sic>bp.</sic>
+                                <corr>Bp.</corr>
+                            </choice>
+                        </abbr> Meletius. John was baptized in 368 and spent
+                        several years as part of an informal ascetic brotherhood that included <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Theodore-of-Mopsuestia">
+                            <persName ref="http://syriaca.org/person/780">Theodore</persName>
+                        </ref>, later <abbr>bp.</abbr> of Mopsuestia, who had been John’s
+                        fellow student under Libanius. In 381 Meletius ordained John as a deacon and
+                        in 386 <abbr>Bp.</abbr> Flavian made him a presbyter, at which time he became famous in
+                        Antioch for his skillful and plain-spoken preaching. Though Greek-speaking,
+                        from the pulpit he praised the unpretentious faith of the indigenous
+                        Aramaic-speaking Christians who lived in the countryside around the
+                        sophisticated Greco-Roman city. In 398 he was called to fill the vacant see
+                        of Constantinople. Once in the imperial capital, John’s moralistic preaching
+                        and strong character won him powerful enemies. <abbr>Bp.</abbr> Theophilus of Alexandria,
+                        who had consecrated John, resented the rejection of his own candidate and
+                        was jealous of Constantinople’s growing prestige. Many of the city’s clergy
+                        opposed John’s rigorous reforms. Theodosius’s empress Eudoxia was incensed
+                        at John’s relentless critique of the wealthy, and of her in particular. At
+                        the Synod of the Oak (403), Theophilus had John deposed, but popular support
+                        for John made it necessary to recall him. Nevertheless, he was deposed again
+                        in 404 and exiled to Cucusus in Armenia. He died on 14 Sept. in 407, while
+                        en route to the even more remote Pithyus on the Black Sea. In 438 his body
+                        was translated in great honor to Constantinople.</p>
+                    <p>Though the connection between John and the Orthodox eucharistic liturgy
+                        bearing his name is disputable, he left behind a great many homilies,
+                        letters, treatises, and extensive cycles of exegetical homilies on
+                        scripture. His reputation and writings made him immensely popular. His
+                        eloquence earned him the posthumous surname ‘Chrysostom’ (‘Golden-mouth’);
+                        his tendency towards literal interpretation and his moralizing (rather than
+                        dogmatic) applications ensured that his works would be translated from Greek
+                        into various languages and circulated widely across confessional boundaries.
+                        John was being translated into Syriac by the late 5th <abbr>cent.</abbr> A  number of
+                        very early extant Syriac <abbr>mss.</abbr> contain portions of his works, primarily of
+                        W.-Syr. provenance, many of them earlier than extant Greek <abbr>mss.</abbr> Excerpts
+                        from his works appear in numerous W.-Syr. homiliaries, catenae, and other
+                        anthologies. His influence on the E.-Syr. tradition is obvious from the
+                        references in  <ref rend="bold" target="https://gedsh.bethmardutho.org/Abdisho-bar-Brikha">
+                            <persName ref="http://syriaca.org/person/310">ʿAbdishoʿ</persName>
+                        </ref>’s ‘Catalogue’ (16; Assemani,
+                            <hi rend="italic">BibOr</hi>, 3.1.24–7) and the Chronicle of <ref rend="bold" target="https://gedsh.bethmardutho.org/Siirt">
+                            <placeName ref="http://syriaca.org/place/188">Siirt</placeName>
+                        </ref>
+                        (1.67), and is also evident in the quotations occurring in the commentaries
+                        of <ref rend="bold" target="https://gedsh.bethmardutho.org/Ishodad-of-Merv">
+                            <persName ref="http://syriaca.org/person/555">Ishoʿdad of Merv</persName>
+                        </ref>, the writings of <ref rend="bold" target="https://gedsh.bethmardutho.org/Dadisho-Qatraya">
+                            <persName ref="http://syriaca.org/person/434">Dadishoʿ
+                            Qaṭraya</persName>
+                        </ref>, and the vast exegetical compilation, <ref rend="bold" target="https://gedsh.bethmardutho.org/Gannat-Bussame">
+                            <hi rend="italic">Gannat
+                            Bussāme</hi>
+                        </ref>. The oft-repeated assertion that <ref rend="bold" target="https://gedsh.bethmardutho.org/Henana">
+                            <persName ref="http://syriaca.org/person/530">Ḥenana</persName>
+                        </ref> was
+                        responsible for bringing John into prominence in the E.-Syr. church as an
+                        allegorizing competitor to Theodore of Mopsuestia is probably unfounded.
+                        Whatever Ḥenana’s influence may have been, John Chrysostom was a respected
+                        resource in the E.-Syr. tradition alongside his friend Theodore by the late
+                        6th <abbr>cent.</abbr>
+                    </p>
+                    <p>Feast day 13 Nov. (13 Sept. in Rom. Catholic; or 27 Jan., to commemorate the
+                        translation of his body).</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>
+                            <title rend="italic">
+                                <abbr>CPG</abbr>
+                            </title> 4305–5197.</bibl>
+                        <bibl>P.  Bruns,  ‘Johannes Chrysostomus und die Kirche des Perserreiches’,
+                            in <title rend="italic">Giovanni Crisostomo. Oriente e Occidente tra IV
+                                e V secolo</title> (Studia Ephemeridis Augustinianum 93/2, 2005),
+                            733–44.</bibl>
+                        <bibl>J.  Childers, ‘Chrysostom’s Exegetical Homilies on the New Testament
+                            in Syriac translation’, in <title rend="italic">
+                                <abbr>StPatr</abbr>
+                            </title>, vol. 33,
+                            <abbr>ed.</abbr> E. Livingstone (1997), 509–16.</bibl>
+                        <bibl>J.  Childers, ‘Patristic citations and versional evidence: The Syriac
+                            version(s) of Chrysostom’s Homilies on Matthew and the Old Syriac text’,
+                                <title rend="italic">
+                                <abbr>LM</abbr>
+                            </title> 115 (2002), 129–56.</bibl>
+                        <bibl>J. N. D.  Kelly, <title rend="italic">The Story of John
+                                Chrysostom</title> (1995).</bibl>
+                        <bibl>C.  Molenberg, ‘The silence of the sources: The sixth-century and
+                            East-Syrian ‘Antiochene’ Exegesis’, in <title rend="italic">Sixth
+                                century — End or beginning?</title>
+                            <choice>
+                                <sic>,</sic>
+                            </choice>
+                            <abbr> ed.</abbr> P. Allen and E. M. Jeffreys
+                            (Byzantina Australiensia 10; 1996), 145–62.</bibl>
+                        <bibl>K.  Pinggéra, ‘John Chrysostom in East Syrian Theology of the Late
+                            Sixth Century’, <title rend="italic">
+                                <abbr>Harp</abbr>
+                            </title> 18 (2005),
+                            193–201.</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>K.  Pinggéra</reg>
+                        <orig>idem</orig>
+                     </choice>, ‘Das Bild des Johannes Chrysostomos in der ostsyrischen Kirche’,
+                            in <title rend="italic">Chrysostomosbilder in 1600 Jahren</title>, <abbr>ed.</abbr>
+                            M. Wallraff and R. Brändle (2008), 193–211.</bibl>
+                        <bibl>A. B.  Shippee, ‘The known Syriac witnesses to John Chrysostom’s
+                            Catecheses and new manuscript sources’, <title rend="italic">
+                                <abbr>LM</abbr>
+                            </title> 109 (1996), 87–111.</bibl>
+                        <bibl>Vööbus, <title rend="italic">History of the School of Nisibis</title>,
+                            242–47.</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Jeff W.</forename> 
+                  <surname>Childers</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

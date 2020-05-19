@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Sṭephanos bar Ṣudayli</title>
+            <author>
+               <persName>
+                  <forename>Lucas</forename> 
+                  <surname>Van Rompay</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0">Electronic Edition Draft Version 1.0</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Sṭephanos bar Ṣudayli</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Stephanos-bar-Sudayli</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/529</idno>
+                    <idno type="entry">520</idno>
+                    <milestone unit="pages" n="384-385"/>
+                    <idno type="subject">http://syriaca.org/person/36</idno>
+                    <note type="type">person</note>
+                    <note type="abstract">Monk in the early 6th <abbr>cent.</abbr> to whom pantheist ideas were
+                        attributed; likely author of the ‘Book of the holy Hierotheos’.<note/>
+                    </note>
+                </ab>
+                <ab type="infobox">(6th <abbr>cent.</abbr>)</ab>
+                <div type="body">
+                    <p>Monk in the early 6th <abbr>cent.</abbr> to whom pantheist ideas were attributed; likely
+                        author of the ‘Book of the holy Hierotheos’. Our earliest evidence on
+                        Sṭephanos is a letter written to him by <ref rend="bold" target="https://gedsh.bethmardutho.org/Yaqub-of-Serugh">
+                            <persName ref="http://syriaca.org/person/42">Yaʿqub of
+                            Serugh</persName>
+                        </ref>. Albeit on a friendly tone, Yaʿqub cautions against dreams
+                        and nightly visions and refutes the idea that punishment in the hereafter
+                        would not be eternal. Much harsher is <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Philoxenos-of-Mabbug">
+                            <persName ref="http://syriaca.org/person/44">Philoxenos</persName>
+                        </ref>, <abbr>bp.</abbr>
+                        of Mabbug, who between 512 and 518 wrote about Sṭephanos to two priests in
+                            <ref rend="bold" target="https://gedsh.bethmardutho.org/Edessa">
+                            <placeName ref="http://syriaca.org/place/78">Edessa</placeName>
+                        </ref>, Abraham and Orestes, who had been in touch with
+                        Sṭephanos. They are strongly warned against Sṭephanos’s evil influence.
+                        Philoxenos portrays Stephanos as a heretic, who equates the creation with
+                        God: adopting the allegedly Jewish idea of a thousand-year rest (symbolized
+                        by the Sabbath, which comes after the sixth day, symbol of this world), he
+                        assumes that everything will come to one consummation and will be of one
+                        nature with God on the first (<choice>
+                            <sic>i.e. </sic>
+                            <corr>i.e., </corr>
+                        </choice>the eighth) day. Philoxenos also notes
+                        that Sṭephanos, who left Edessa to live near <ref rend="bold" target="https://gedsh.bethmardutho.org/Jerusalem">
+                            <placeName ref="http://syriaca.org/place/104">Jerusalem</placeName>
+                        </ref>, had
+                        once been a follower of ‘John the Egyptian’ (whose identity cannot be
+                        established) and that he had borrowed the concept of ‘motion’ (<hi rend="italic">mettziʿānutā</hi>), applied to the sixth day, from the
+                        ‘monk Evagrius’, <choice>
+                            <sic>i.e. </sic>
+                            <corr>i.e., </corr>
+                        </choice>
+                        <ref rend="bold" target="https://gedsh.bethmardutho.org/Evagrius-of-Pontus">
+                            <persName ref="http://syriaca.org/person/483">Evagrius of
+                            Pontus</persName>
+                        </ref>. A few further details on Sṭephanos and on Philoxenos’s
+                        actions against him are provided in the Chronicle of <ref rend="bold" target="https://gedsh.bethmardutho.org/Michael-I-Rabo">
+                            <persName ref="http://syriaca.org/person/217">Michael Rabo</persName>
+                        </ref>, in the <ref rend="bold" target="https://gedsh.bethmardutho.org/Chronicle-of-1234">Chronicle of
+                            1234</ref>, and in <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Bar-Ebroyo-Grigorios">
+                            <persName ref="http://syriaca.org/person/239">Bar ʿEbroyo</persName>
+                        </ref>’s Chronicle.</p>
+                    <p>That Sṭephanos is the author of the pseudepigraphic ‘Book of the holy
+                        Hierotheos’ is explicitly stated by the <abbr>Syr. Orth.</abbr>
+                        <abbr> Patr.</abbr> 
+                  <ref rend="bold" target="https://gedsh.bethmardutho.org/Quryaqos">
+                            <persName ref="http://syriaca.org/person/145">Quryaqos</persName>
+                        </ref>
+                        (793–817). The ‘Book’, originally written in Syriac, indeed reflects several
+                        of the ideas that Philoxenos attributed to Sṭephanos. It deals with the
+                        ascent of the mind towards God and with the final process of unification,
+                        whereby everything becomes one being. The author’s revelations are presented
+                        as being secret, and accessible only to the initiated.</p>
+                    <p>While some ideas in the ‘Book’ ultimately go back to Origen, scholars have
+                        demonstrated the ‘Book’s’ dependence on the writings of Evagrius of Pontus,
+                        whose ideas, as expressed in the ‘Kephalaia Gnostica’, were interpreted in
+                        the direction of a radical pantheism. In addition, the attribution to
+                        Hierotheos links the ‘Book’ to the corpus attributed to <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Dionysius-the-Areopagite-Pseudo-">Dionysius the Areopagite</ref>, who is said to have been a student of
+                        Hierotheos. This twofold orientation has led some scholars to assume two
+                        layers in the redaction history of the ‘Book’: a first layer, which is
+                        Evagrian, and a slightly later one, which responds and makes additions to
+                        the Pseudo-Dionysian writings. While Sṭephanos in all likelihood is the
+                        author of the first layer (not yet attributed to Hierotheos), the second
+                        layer may be the work of his pupils, who used the popularity of the
+                        Pseudo-Dionysian writings to promote their master’s teachings.</p>
+                    <p>In spite of the controversy about its authorship, the ‘Book’ enjoyed
+                        popularity in the <abbr>Syr. Orth.</abbr> Church. Commentaries on it were written by
+                        <abbr>Patr.</abbr> 
+                  <ref rend="bold" target="https://gedsh.bethmardutho.org/Theodosios-patr">
+                            <persName ref="http://syriaca.org/person/169">Theodosios</persName>
+                        </ref> (887–896) and later by Bar ʿEbroyo;
+                        they were intended to reinterpret the work in accordance with the teachings
+                        of the Church. Mostly combined with either one of the commentaries, or with
+                        both, and thus domesticated, the ‘Book’ exists in more than 20 <abbr>mss.</abbr> Read
+                        through the lens of the two later commentaries or from the vantage point of
+                        two of its main sources of inspiration, the ‘Book’ may not yet have received
+                        sufficient attention as an authentic expression of early 6th-cent. Syr.
+                        Christian spirituality in its own right.</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>A. L.  Frothingham, <title rend="italic">Stephen bar Sudaili the
+                                Syrian mystic and the Book of Hierotheos</title> (1886).</bibl>
+                        <bibl>A.  Guillaumont, <title rend="italic">Les ‘Kephalaia Gnostica’
+                                d’Évagre le Pontique et l’histoire de l’origénisme chez les Grecs et
+                                chez les Syriens</title> (Patristica Sorboniensia 5; 1962), esp.
+                            302–32.</bibl>
+                        <bibl>T.  Jansma, ‘Philoxenus’ Letter to Abraham and Orestes concerning
+                            Stephen bar Sudaili. Some proposals with regard to the correction of the
+                            Syriac text and the English translation’<choice>
+                                <sic>
+                                    <title rend="italic">,
+                                <abbr>LM</abbr>
+                                    </title>
+                                </sic>
+                                <corr>, <title rend="italic">
+                                    <abbr>LM</abbr>
+                                    </title>
+                                </corr>
+                            </choice> 87 (1974), 79–86.</bibl>
+                        <bibl>F. S.  Marsh, <title rend="italic">The book which is called the Book
+                                of the holy Hierotheos with extracts from the prolegomena and
+                                commentary of Theodosius of Antioch and from ‘The book of excerpts’
+                                and other works of Gregory Barhebraeus</title> (1927).</bibl>
+                        <bibl>K.  Pinggéra, <title rend="italic">All-Erlösung und All-Einheit.
+                                Studien zum ‘Buch des heiligen Hierotheos’ und seiner Rezeption in
+                                der syrisch-orthodoxen Theologie</title> (<abbr>SKCO</abbr> 10; 2002).</bibl>
+                        <bibl>W.  Witakowski, ‘The Idea of Septimana mundi and the millenarian
+                            typology of the creation week in Syriac tradition’, in <abbr>
+                                <title rend="italic">SymSyr</title> V</abbr>, esp. 103.</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Lucas</forename> 
+                  <surname>Van Rompay</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

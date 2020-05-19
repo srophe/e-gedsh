@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Michael II the Younger</title>
+            <author>
+               <persName>
+                  <forename>Witold</forename> 
+                  <surname>Witakowski</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0">Electronic Edition Draft Version 1.0</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Michael II the Younger</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Michael-II-the-Younger</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/383</idno>
+                    <idno type="entry">374</idno>
+                    <milestone unit="pages" n="290"/>
+                    <idno type="subject">http://syriaca.org/person/223</idno>
+                    <note type="type">person</note>
+                    <note type="abstract">
+                        <abbr>Patr.</abbr> of the <abbr>Syr. Orth.</abbr> Church
+                            (1199–1215) and nephew of Michael Rabo.
+                    </note>
+                </ab>
+                <ab type="infobox">(d. 1215) [<abbr>Syr. Orth.</abbr>]</ab>
+                <div type="body">
+                    <p>
+                        <abbr>Patr.</abbr> of the <abbr>Syr. Orth.</abbr> Church (1199–1215). Michael was called Younger (<hi rend="italic">Zʿuro</hi>) by <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Bar-Ebroyo-Grigorios">
+                            <persName ref="http://syriaca.org/person/239">Bar ʿEbroyo</persName>
+                        </ref> in the
+                        latter’s Ecclesiastical History, in order to differentiate him from his
+                        namesake and uncle <ref rend="bold" target="https://gedsh.bethmardutho.org/Michael-I-Rabo">
+                            <persName ref="http://syriaca.org/person/217">
+                            Michael Rabo</persName>
+                        </ref> (<choice>
+                            <sic>i.e. </sic>
+                            <corr>i.e., </corr>
+                        </choice>the Elder),
+                        <abbr>
+                            <choice>
+                                <sic>Patr.</sic>
+                                <corr>patr.</corr>
+                            </choice>
+                        </abbr> 1166–1199. Michael’s name before the accession was Yeshuʿ
+                        Sephtono.</p>
+                    <p>Michael came from a family of <ref rend="bold" target="https://gedsh.bethmardutho.org/Melitene">
+                            <placeName ref="http://syriaca.org/place/136">Melitene</placeName>
+                        </ref> which was
+                        very influential in ecclesiastical politics. His other uncle, Ṣliba, was
+                        archbishop of <ref rend="bold" target="https://gedsh.bethmardutho.org/Mardin">
+                            <placeName ref="http://syriaca.org/place/130">Mardin</placeName>
+                        </ref> (1177), and later of <ref rend="bold" target="https://gedsh.bethmardutho.org/Jerusalem">
+                            <placeName ref="http://syriaca.org/place/104">Jerusalem</placeName>
+                        </ref> (1184),
+                        ordained for both dioceses by Michael the <abbr>
+                            <choice>
+                                <sic>Patr.</sic>
+                                <corr>patr.</corr>
+                            </choice>
+                        </abbr> The name of Michael’s father
+                        was Abraham (<ref rend="bold" target="https://gedsh.bethmardutho.org/Chronicle-of-1234">Chronicle of
+                            1234</ref>, 339/252), whose other son, <choice>
+                            <sic>i.e. </sic>
+                            <corr>i.e., </corr>
+                        </choice>Michael’s brother Yaʿqub,
+                        was ordained, again by his uncle the <abbr>patr.</abbr>, the <ref rend="bold" target="https://gedsh.bethmardutho.org/Maphrian">maphrian</ref> 1189–1214; at the accession also he changed his name to
+                        Grigorios I.</p>
+                    <p>Michael was a monk in <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Barsawmo-Dayro-d-Mor">
+                            <placeName ref="http://syriaca.org/place/224">Dayro d-Mor
+                            Barṣawmo</placeName>
+                        </ref>. He wanted to become <abbr>
+                            <choice>
+                                <sic>Patr.</sic>
+                                <corr>patr.</corr>
+                            </choice>
+                        </abbr> directly after his uncle’s
+                        death, and in order to play a more active role in the process of election he
+                        left his monastery, while the abbot followed him and tried to bring him back
+                        to the monastery. However due to Michael’s machinations the abbot was
+                        arrested by the governor of Gargar, and released under the condition that he
+                        would not disturb Michael any longer (Bar ʿEbroyo, Ecclesiastical History,
+                        607).</p>
+                    <p>Michael received his patriarchal ordination at the hand of his brother, the
+                        maphrian, in the Monastery of Mar Ḥenanya. It was on that occasion that he
+                        changed his name to ‘Michael’ so that something of his uncle’s luck would be
+                        bestowed on him (Bar ʿEbroyo, Ecclesiastical History, 611). He quickly
+                        ordained three bishops thus creating his own supporters. The inhabitants of
+                        Mardin paid a bribe to the governor of the city that he might expel him,
+                        together with his brother (Bar ʿEbroyo, Ecclesiastical History, 611). He
+                        left the city and after some attempts to find a city to exercise his
+                        authority he withdrew to his parents’ house in Melitene. For all the time of
+                        his pontificate (as an antipatriarch) Michael was in opposition to <abbr>Patr.</abbr>
+                        Athanasios IX (1199–1207).</p>
+                    <p>According to the anonymous author of the ‘<ref rend="bold" target="https://gedsh.bethmardutho.org/Chronicle-of-1234">Chronicle of
+                            1234</ref>’ (253, 260), who, however, regarded Athanasios as
+                        illegitimate (‘Chronicle of 1234’, 340/254), by January 1204 (‘Chronicle
+                        of 1234’, 340/253) Athanasios was recognized in Syria, the Sultanate of Rum,
+                        and <ref rend="bold" target="https://gedsh.bethmardutho.org/Tur-Abdin">
+                            <placeName ref="http://syriaca.org/place/221">Ṭur
+                            ʿAbdin</placeName>
+                        </ref>, whereas Michael was recognized in the East in the dioceses
+                        of <ref rend="bold" target="https://gedsh.bethmardutho.org/Tagrit">
+                            <placeName ref="http://syriaca.org/place/193">Tagrit</placeName>
+                        </ref>, <ref rend="bold" target="https://gedsh.bethmardutho.org/Mosul">
+                            <placeName ref="http://syriaca.org/place/139">Mosul</placeName>
+                        </ref>, <ref rend="bold" target="https://gedsh.bethmardutho.org/Nisibis">
+                            <placeName ref="http://syriaca.org/place/142">Nisibis</placeName>
+                        </ref>, Khabur, and Mardin. Both patriarchs used money and gifts for
+                        governors as means of promoting their cause.</p>
+                    <p>After Athanasios’ death in 1207, the new patriarch became Yuḥanon XIV
+                        (1208–20), and Michael’s schism continued now against Yuḥanon. According to
+                        Bar ʿEbroyo Michael does not seem to have ever gained much popularity among
+                        the laity either and was criticised even by the members of his own
+                        family.</p>
+                    <p>Michael died in 1215, 40 days after his brother, the maphrian Grigorios I,
+                        who had always supported him (Bar ʿEbroyo, Ecclesiastical History, 633).</p>
+                </div>
+                <div type="bibl">
+                    <listBibl>
+                        <listBibl>
+                            <head>Primary Sources</head>
+                            <bibl>Abbeloos and Lamy, <title rend="italic">Gregorii Barhebraei
+                                    chronicon ecclesiasticum</title>, vol. 2 (1874).</bibl>
+                            <bibl>A.  Abouna and J.-M.  Fiey, <title rend="italic">Anonymi auctoris
+                                    Chronicon ad A.C. 1234 pertinens</title>, II (<abbr>CSCO</abbr> 354; 1974).
+                                (<abbr>FT</abbr> of Chabot 1916)</bibl>
+                            <bibl>J.-B.  Chabot, <title rend="italic">Anonymi auctoris Chronicon ad
+                                    annum Christi 1234 pertinens</title>, II (<abbr>CSCO</abbr> 82; 1916).
+                                (Syr.)</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>J.-B.  Chabot</reg>
+                           <orig>idem</orig>
+                        </choice>, <title rend="italic">Chronicon ad A.C. 1234
+                                    pertinens</title>, I (<abbr>CSCO</abbr> 81; 1920). (Syr.)</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>J.-B.  Chabot</reg>
+                           <orig>idem</orig>
+                        </choice>, <title rend="italic">Anonymi auctoris Chronicon ad A.C. 1234
+                                    pertinens</title>, I (<abbr>CSCO</abbr> 109; 1937). (<abbr>FT</abbr> of Chabot
+                                1920)</bibl>
+                        </listBibl>
+                        <listBibl>
+                            <head>Secondary Sources</head>
+                            <bibl>P.  Kawerau, <title rend="italic">Die <choice>
+                                        <sic>Jakobitische</sic>
+                                        <corr>jakobitische</corr>
+                                    </choice> Kirche im
+                                    Zeitalter der syrischen Renaissance: Idee und
+                                    Wirklichkeit</title> (1955).</bibl>
+                        </listBibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Witold</forename> 
+                  <surname>Witakowski</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

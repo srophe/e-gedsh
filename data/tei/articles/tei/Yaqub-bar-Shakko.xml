@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Yaʿqub bar Shakko</title>
+            <author>
+               <persName>
+                  <forename>Sebastian P.</forename> 
+                  <surname>Brock</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0">Electronic Edition Draft Version 1.0</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Yaʿqub bar Shakko</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Yaqub-bar-Shakko</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/589</idno>
+                    <idno type="entry">580</idno>
+                    <milestone unit="pages" n="430-431"/>
+                    <idno type="althead">Severos bar Shakko</idno>
+                    <idno type="subject">http://syriaca.org/person/231</idno>
+                    <note type="type">person</note>
+                    <note type="abstract">
+                        <abbr>Bp.</abbr> of Dayro d-Mor Matay and learned author.<note/>
+                    </note>
+                </ab>
+                <ab type="infobox">Severos bar Shakko (d. 1241) [<abbr>Syr. Orth.</abbr>]</ab>
+                <div type="body">
+                    <p>
+                        <abbr>Bp.</abbr> of <ref rend="bold" target="https://gedsh.bethmardutho.org/Matay-Dayro-d-Mor">
+                            <persName ref="http://syriaca.org/person/227">Dayro d-Mor
+                            Matay</persName>
+                        </ref> and learned author. Born in <ref rend="bold" target="https://gedsh.bethmardutho.org/Bartelle">
+                            <placeName ref="http://syriaca.org/place/260">Barṭelle</placeName>
+                        </ref>, his
+                        baptismal name was probably Yaʿqub. He studied grammar under <ref rend="bold" target="https://gedsh.bethmardutho.org/Yohannan-bar-Zobi">
+                            <persName ref="http://syriaca.org/person/823">Yoḥannan bar Zoʿbi</persName>
+                        </ref> in the famous E.-Syr. monastery of Beth Qoqe
+                        (in <ref rend="bold" target="https://gedsh.bethmardutho.org/Adiabene">
+                            <placeName ref="http://syriaca.org/place/993">Adiabene</placeName>
+                        </ref>), and philosophy under Kāmāl al-Dīn Mūsā <abbr>b.</abbr> Yūnus at
+                            <ref rend="bold" target="https://gedsh.bethmardutho.org/Mosul">
+                            <placeName ref="http://syriaca.org/place/139">Mosul</placeName>
+                        </ref>. He was first a monk and subsequently abbot and <abbr>bp.</abbr> of the
+                        Dayro d-Mor Matay, with the episcopal name Severos (according to Schrier,
+                        however, Severos was his baptismal name and Yaʿqub his episcopal one, but
+                        this would seem surprising). His surviving writings consist of 1. ‘The Book
+                        of Treasures’, a theological compendium in four parts, composed in 1231;
+                        this covers the Trinity, the Incarnation, Divine Providence, and the
+                        Creation; 2. ‘The Book of Dialogues’, in two Books, the first of which
+                        covers grammar, rhetoric, poetry, and eloquence (on the richness of the
+                        Syriac language), while the second deals with philosophical topics, divided
+                        into two parts, the first covering logic and syllogisms, the second with
+                        sections on definitions, ethics, physics and physiology, mathematics and
+                        music, and metaphysics; 3. two verse letters addressed to physicians; and
+                        perhaps 4. a symbol of faith. He also wrote some other works, now lost;
+                        these included a commentary on the liturgical services.</p>
+                </div>
+                <div type="bibl">
+                    <listBibl>
+                        <listBibl>
+                            <head>Primary Sources</head>
+                            <bibl>G.  Furlani, ‘La Logica nei Dialoghi di Severos bar Shakko’, <title rend="italic">Atti del Reale Istituto Veneto di Scienze, Lettere
+                                    ed Arti</title> 86.2 (1927), 289–348. (<abbr>IT</abbr> of Book of Dialogues,
+                                Book II, Part 1).</bibl>
+                            <bibl>J. P. P.  Martin, <title rend="italic">De la métrique chez les
+                                    Syriens</title> (Deutsche Morgenländische Gesellschaft,
+                                Abhandlungen 7:2; 1879). (Book of Dialogues, Book I, On
+                                poetry)</bibl>
+                            <bibl>A.  Merx, <title rend="italic">Historia artis grammaticae apud
+                                    Syros</title> (1889), 2*–48*. (Book of Dialogues, Book I, On
+                                grammar)</bibl>
+                            <bibl>J.  Ruska, <title rend="italic">Das Quadrivium aus Severus Bar
+                                    Shakku’s Dialoge</title> (Ph.D. diss, Leipzig; 1896). (Book of
+                                Dialogues, Book II, Part 2)</bibl>
+                            <bibl>M.  Sprengling, ‘Severus bar Shakko’s Poetics, Part II’, <title rend="italic">
+                                    <abbr>AJSLL</abbr> 
+                        </title>32 (1915/6), 293–308. (Book of
+                                Dialogues, Book I, On poetry)</bibl>
+                        </listBibl>
+                        <listBibl>
+                            <head>Secondary Sources</head>
+                            <bibl>C. A.  Havard, ‘Jacob bar Shakko, on the faculties of the soul’,
+                                in <abbr>
+                                    <title rend="italic">SymSyr</title> VI</abbr>, 259–68.</bibl>
+                            <bibl>A.  Merx, <title rend="italic">Historia artis grammaticae apud
+                                    Syros</title> (1889), 209–29.</bibl>
+                            <bibl>F.  Nau, ‘Notice sur le Livre des Trésors de Jacques de Bartela’,
+                                    <title rend="italic">
+                                    <abbr>JA</abbr>
+                                </title> 9.7 (1896), 286–331. (resumé of
+                                Part 4).</bibl>
+                            <bibl>J.  Ruska, ‘Studien zu Severus bar Shakku’s “Buch der Dialoge”’,
+                                    <title rend="italic">
+                                    <abbr>ZA</abbr>
+                                </title> 12 (1897), 8–41, 145–61.</bibl>
+                            <bibl>O.  Schrier, ‘The name and function of Jacob bar Shakko’, in
+                                    <abbr>
+                                    <title rend="italic">SymSyr</title> V</abbr>, 215–28.</bibl>
+                            <bibl>H.  Teule, ‘Jacob bar Shakko, the Book of Treasures, and the
+                                Syrian Renaissance’, in <title rend="italic">Eastern Crossroads.
+                                    Essays on Medieval Christian <choice>
+                                        <sic>Heritage</sic>
+                                        <corr>legacy</corr>
+                                    </choice>, </title>ed. J. P.
+                                Montferrar Sala (2007), 143–54.</bibl>
+                        </listBibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Sebastian P.</forename> 
+                  <surname>Brock</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Syriac Lexicography</title>
+            <author>
+               <persName>
+                  <forename>David G. K.</forename> 
+                  <surname>Taylor</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0">Electronic Edition Draft Version 1.0</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Syriac Lexicography</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Syriac-Lexicography</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/538</idno>
+                    <idno type="entry">529</idno>
+                    <milestone unit="pages" n="391-393"/>
+                    <note type="type">subject</note>
+                    <note type="abstract">Despite widespread translation activity and the use of
+                        Syr. in Late Antiquity by numerous non-native speakers, there are no
+                        surviving Syr. lexical materials from this early period, with the exception
+                        of two 4th-cent. Manichaean Syr.-Coptic glossaries written on wooden boards,
+                        found in the kitchen of an abandoned house at Kellis in the Dakhla Oasis of
+                        Egypt (Frnazmann and Gardner).<note>not a summary</note>
+                    </note>
+                </ab>
+                <div type="body">
+                    <p>Despite widespread translation activity and the use of Syr. in Late Antiquity
+                        by numerous non-native speakers, there are no surviving Syr. lexical
+                        materials from this early period, with the exception of two 4th-cent.
+                        Manichaean Syr.-Coptic glossaries written on wooden boards, found in the
+                        kitchen of an abandoned house at Kellis in the Dakhla Oasis of Egypt
+                        (Franzmann and Gardner). These were produced by the translator of a Syr.
+                        text into Coptic, and so the order of the Syr. words is determined by their
+                        occurrence in the source text. It is likely that similar glossaries will
+                        have been produced by other Syr. translators, and particularly in the 7th
+                        <abbr>cent.</abbr> when formal one-to-one Greek to Syr. correspondences were common, but
+                        these have not survived.</p>
+                    <p>Lexical works of a different kind were produced by the Syr. scribal schools,
+                        whose careful transmission of biblical and patristic texts led to the
+                        production of a ‘masoretic’ literature that is comparable in many respects
+                        to that of contemporary Jewish scribes (see <ref rend="bold" target="https://gedsh.bethmardutho.org/Masora">Masora</ref>). Some texts
+                        preserve the correct pronunciation of rare words or foreign names, others
+                        provide lists of homographs. These lists are often included within
+                        grammatical texts, mainly of <abbr>Ch. of E.</abbr> origin, and are associated with such
+                        figures as <ref rend="bold" target="https://gedsh.bethmardutho.org/Yawsep-Huzaya">
+                            <persName ref="http://syriaca.org/person/817">Yawsep Huzaya</persName>
+                        </ref>
+                        (6th <abbr>cent.</abbr>), <ref rend="bold" target="https://gedsh.bethmardutho.org/Enanisho">
+                            <persName ref="http://syriaca.org/person/474">ʿEnanishoʿ</persName>
+                        </ref>
+                        (<choice>
+                            <sic>mid–7th</sic>
+                            <corr>mid-7th</corr>
+                        </choice> 
+                  <abbr>cent.</abbr>; see Hoffmann 1880 with Gottheil 1887, 61*–67*; 1889), <ref rend="bold" target="https://gedsh.bethmardutho.org/Isho-bar-Nun">
+                            <persName ref="http://syriaca.org/person/552">Ishoʿ
+                            bar Nun</persName>
+                        </ref> (d. 828), <ref rend="bold" target="https://gedsh.bethmardutho.org/Hunayn-b-Ishaq">
+                            <persName ref="http://syriaca.org/person/542">Ḥunayn <abbr>b.</abbr>
+                            Isḥāq</persName>
+                        </ref> (809–73; see Hoffmann 1880 with Gottheil 1887, 61*–67*;
+                        1889), Abdochus (12th <abbr>cent.</abbr>), <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Bar-Ebroyo-Grigorios">
+                            <persName ref="http://syriaca.org/person/239">Bar ʿEbroyo</persName>
+                        </ref> (1225–86;
+                        see Martin), and <ref rend="bold" target="https://gedsh.bethmardutho.org/Abdisho-bar-Brikha">
+                            <persName ref="http://syriaca.org/person/310">ʿAbdishoʿ bar
+                            Brikha</persName>
+                        </ref> (d. 1318).</p>
+                    <p>The first real Syr. lexica, containing alphabetic lists of words and their
+                        glosses, were produced in 9th-cent. Abbasid <ref rend="bold" target="https://gedsh.bethmardutho.org/Baghdad">
+                            <placeName ref="http://syriaca.org/place/41">Baghdad</placeName>
+                        </ref> by
+                        professional translators of Greek scientific texts into Syr. and Arabic,
+                        rather than monastic scribes, and were often focused on explaining Greek
+                        technical loan-words in Syr., and other rare vocabulary, rather than listing
+                        all Syr. lexemes. One of the first of these was Ḥunayn <abbr>b.</abbr> Isḥāq’s <hi rend="italic">Puššāq šmāhe yawnāye b-suryāye</hi> ‘The interpretation of
+                        Greek words with Syriac’. In addition to his work on Greek words and his
+                        work on Syriac homographs, Ḥunayn is said to have written a ‘Compendious
+                        Lexicon’ (Assemani, <hi rend="italic">BibOr</hi>, vol. 3.1, 165). Hunayn’s
+                        lexicographical works were augmented by <ref rend="bold" target="https://gedsh.bethmardutho.org/Isho-of-Merv">
+                            <persName ref="http://syriaca.org/person/553">Ishoʿ of Merv</persName>
+                        </ref>
+                        (who may or may not be the same person as Zekarya of Merv), and this was in
+                        turn re-edited by one of Ḥunayn’s students, <ref rend="bold" target="https://gedsh.bethmardutho.org/Bar-Ali-Isho">
+                            <persName ref="http://syriaca.org/person/364">Ishoʿ bar
+                            ʿAli</persName>
+                        </ref>, and in this Syr.-Arabic form it still survives (Hoffmann
+                        1874; Gottheil 1910, 1928).</p>
+                    <p>The largest of all these early Syr.-Arabic lexica (often more like an
+                        encyclopedia than a dictionary), and the most useful for scholars today, is
+                        that of <ref rend="bold" target="https://gedsh.bethmardutho.org/Bar-Bahlul-Hasan">
+                            <persName ref="http://syriaca.org/person/365"> Ḥaṣan Bar
+                            Bahlul</persName>
+                        </ref>, who lived in Baghdad in the mid-10th <abbr>cent.</abbr> (Duval
+                        1888–1901). He cites many earlier lexical sources, one of the most important
+                        of which was <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Henanisho-bar-Seroshway">
+                            <persName ref="http://syriaca.org/person/533">Ḥenanishoʿ bar Seroshway</persName>
+                        </ref>, <abbr>bp.</abbr> of <ref rend="bold" target="https://gedsh.bethmardutho.org/Hirta">
+                            <placeName ref="http://syriaca.org/place/219">Ḥirta</placeName>
+                        </ref> 
+                  <abbr>ca.</abbr> 900. This
+                        lexicon was widely copied by both E.-Syr. and W.-Syr. scribes until the 20th
+                        <abbr>cent.</abbr>, and they continued to add entries and citations and to edit older
+                        entries in line with their own theology and christology. One adaptation of
+                        Bar Bahlul and Bar ʿAli even has the Arabic replaced with Armenian in Syriac
+                            <ref rend="bold" target="https://gedsh.bethmardutho.org/Script-Syriac">script</ref>, possibly for the <abbr>Syr. Orth.</abbr> of <ref rend="bold" target="https://gedsh.bethmardutho.org/Edessa">
+                            <placeName ref="http://syriaca.org/place/78">Edessa</placeName>
+                        </ref>
+                        who spoke an Armenian dialect (Margoliouth 1898; see also <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Armenian-Christianity-Syriac-contacts-with">Armenian Christianity, Syriac contacts with</ref>). Duval’s great
+                        edition of this work is not a critical edition of the earliest form of the
+                        work (probably irretrievable) but is largely based on W.-Syr. manuscripts
+                        containing the fullest form of the lexicon, and so includes, for example,
+                        references to the 13th-cent. Bar ʿEbroyo.</p>
+                    <p>An alternative type of medieval Syr.-Arabic lexicon is ‘The Book of the
+                        Interpreter’ of <ref rend="bold" target="https://gedsh.bethmardutho.org/Eliya-of-Nisibis">
+                            <persName ref="http://syriaca.org/person/472">Eliya of
+                            Nisibis</persName>
+                        </ref> (975  –  ca. 1050), which is divided into 30 lessons, in
+                        which Syr. vocabulary is listed according to subject categories, such as
+                        names of God, human attributes, parts of the body, trades and professions,
+                        minerals, colors (de Lagarde 1879).</p>
+                    <p>With the beginning of Syriac printing in Europe in the 16th <abbr>cent.</abbr>, there was
+                        a growing demand for Syr.- Latin lexica. The first of these was the <hi rend="italic">Syrorum peculium</hi> of <ref rend="bold" target="https://gedsh.bethmardutho.org/Masius-Andreas">
+                            <persName ref="http://syriaca.org/person/625">Andreas
+                            Masius</persName>
+                        </ref> (1571), included in the sixth volume of the Antwerp
+                        Polyglot Bible, which like many early European Syr. lexica mostly contained
+                        Syr. vocabulary from the <abbr>NT</abbr>, with some <abbr>OT</abbr> additions. More widely used than
+                        Masius’ work was the frequently reprinted <hi rend="italic">Lexicon
+                            pentaglotton</hi> of Valentino Schindler (1612) and the <abbr>NT</abbr> lexica of
+                        Johann Buxtorf the younger (1622), Martin Trost (1623), Aegidius Gutbier
+                        (1667), and Carl Schaaf (1708). Castell’s <hi rend="italic">Lexicon
+                            Heptaglotton</hi> (1669), which was printed to accompany Walton’s London
+                        Polyglot Bible, was the first to incorporate all the Syr. of the <abbr>OT</abbr> as well
+                        as to make systematic use of the medieval Syr.-Arabic lexica. Michaelis
+                        extracted the Syr. vocabulary from Castell and republished it in 1788, and
+                        this became the standard Syr. lexicon in the early-19th <abbr>cent.</abbr>, although much
+                        criticised.</p>
+                    <p>The late-19th <abbr>cent.</abbr> saw the production of numerous major Syr. lexica which
+                        remain key reference works today (although they pre-date most critical
+                        editions of Syr. texts). The largest was the <hi rend="italic">Thesaurus
+                            syriacus</hi> (1868–1901) of <ref rend="bold" target="https://gedsh.bethmardutho.org/Payne-Smith-Robert">
+                            <persName ref="http://syriaca.org/person/677">Robert Payne
+                            Smith</persName>
+                        </ref>, which built upon the unpublished lexical <abbr>mss.</abbr> of numerous
+                        European colleagues, especially Quatremère and Bernstein, and middle-eastern
+                        lexica, both the medieval texts mentioned above and the 1619 lexicon of the
+                        Maronite George Karmsedinoyo, and contains numerous citations, as well as
+                        proper names. Smith was assisted by his daughter <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Payne-Smith-Mrs-Margoliouth-Jessie">
+                            <persName ref="http://syriaca.org/person/676">Jessie
+                            Payne Smith</persName>
+                        </ref>, who also compiled a supplement and the standard
+                        Syr.-English dictionary (published 1896–1903). <ref rend="bold" target="https://gedsh.bethmardutho.org/Brockelmann-Carl">
+                            <persName ref="http://syriaca.org/person/402">Carl
+                            Brockelmann</persName>
+                        </ref>, a student of <ref rend="bold" target="https://gedsh.bethmardutho.org/Noldeke-Theodor">
+                            <persName ref="http://syriaca.org/person/661">Theodor
+                            Nöldeke</persName>
+                        </ref>, published an excellent Syr.-Latin hand-lexicon (1894–5;
+                        2nd <abbr>ed.</abbr> 1923–28) which includes some rare vocabulary not found in the work
+                        of the Smiths, and has now been translated into English and expanded by
+                        Sokoloff. Very important Syr. lexica printed in the middle-east include that
+                        of <ref rend="bold" target="https://gedsh.bethmardutho.org/Audo-Toma">
+                            <persName ref="http://syriaca.org/person/355">Toma
+                            Audo</persName>
+                        </ref> (1897, 1901) which contains a very great number of old Syr.
+                        forms not found in the European lexica, and so to a lesser extent the
+                        Syr.-Arabic lexicon of <ref rend="bold" target="https://gedsh.bethmardutho.org/Manna-Yaqob-Awgen">
+                            <persName ref="http://syriaca.org/person/609">Yaʿqob Awgen
+                            Manna</persName>
+                        </ref> (1900). Notable 20th-cent. lexica include the
+                        Syr.-Arabic-French hand-lexicon (1963) of <ref rend="bold" target="https://gedsh.bethmardutho.org/Costaz-Louis">
+                            <persName ref="http://syriaca.org/person/427">Louis Costaz</persName>
+                        </ref>,
+                        and the Syr.-English-Malayalam lexicon of Emmanuel Thelly (1999), which
+                        makes good use of Audo.</p>
+                    <p>The world-wide <ref rend="bold" target="https://gedsh.bethmardutho.org/Diaspora">diaspora</ref> of Syr.-using Christians, and
+                        the arrival of Syr. word-processing software, has produced an explosion of
+                        Syr. lexica in recent decades. These are notable for including Classical
+                        Syr. neologisms for modern ideological and technological terminology, and
+                        some particularly useful examples were published by Hanna and Bulut (2000),
+                        Khoshaba and Youkhana (2000), and Afram (2005).</p>
+                    <p>Although Christian Neo-Aramaic was included in Payne Smith’s <hi rend="italic">Thesaurus</hi>, the first dedicated dictionary was the
+                        Assyrian-Russian work of Kalashev (1894), soon followed by the important
+                        Assyrian-English dictionary of Maclean (1901). Large lexica of the Christian
+                        NENA dialects were later published by David (1924), Sarmas (1969, 1980), and
+                        Sargizi (2002), and less comprehensive lexica of <ref rend="bold" target="https://gedsh.bethmardutho.org/Turoyo">Ṭuroyo</ref> by Ritter
+                        (1979), Jacob and Asmar (1985), and Ishaq (1988).</p>
+                    <p>See <ref target="https://gedsh.bethmardutho.org/fig/8">Fig. 8</ref>.</p>
+                </div>
+                <div type="bibl">
+                    <listBibl>
+                        <listBibl>
+                            <head>Primary Sources</head>
+                            <bibl>G. Afram, <title rend="italic">Svensk-Assyrisk Ordbok</title>
+                                (2005).</bibl>
+                            <bibl>T. Audo, <title rend="italic">Simtā d-lišānā suryāyā: Dictionnaire
+                                    de la langue chaldéenne</title> (1897, 1901). (Syr.-Syr.)</bibl>
+                            <bibl>C. Brockelmann, <title rend="italic">Lexicon Syriacum</title>
+                                (1894–5; 2nd <abbr>ed.</abbr> 1923–8).</bibl>
+                            <bibl>J. Buxtorf, <title rend="italic">Lexicon Chaldaicum et
+                                    Syriacum</title> (1622).</bibl>
+                            <bibl>E. Castell, <title rend="italic">Lexicon heptaglotton: Hebraicum,
+                                    Chaldaicum, Syriacum, Samaritanum, Æthiopicum, Arabicum,
+                                    conjunctim; et Persicum, separatim</title> (1669).</bibl>
+                            <bibl>L.  Costaz, <title rend="italic">Dictionnaire syriaque-français,
+                                    Syriac-English Dictionary, Qāmūs suryānī-ʽarabī</title>
+                                (1963).</bibl>
+                            <bibl>S. David, <title rend="italic">The First English-Chaldean
+                                    Dictionary [with] The Chaldean-English Dictionary</title>
+                                (1924).</bibl>
+                            <bibl>R.  Duval, <title rend="italic">Lexicon Syriacum auctore Hassano
+                                    bar Bahlule</title> (3 vols.; 1888–1901; <abbr>repr.</abbr> 1970).</bibl>
+                            <bibl>M.  Franzmann and I.  Gardner, ‘The Syriac Texts’, in <title rend="italic">Kellis Literary Texts</title>, vol.  1, <abbr>ed.</abbr>
+                                I.  Gardner (Dakhleh Oasis Project 4; 1997), 101–30.</bibl>
+                            <bibl>R. J. H.  Gottheil, <title rend="italic">A Treatise on Syriac
+                                    Grammar by Mâr(i) Eliâ of Sôb<hi rend="superscript">h</hi>â</title> (1887).</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>R. J. H.  Gottheil</reg>
+                           <orig>idem</orig>
+                        </choice>, ‘A Syriac lexicographical tract’, <title rend="italic">Hebraica</title> 5 (1889), 215–229.</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>R. J. H.  Gottheil</reg>
+                           <orig>idem</orig>
+                        </choice>, <title rend="italic">Bar ʿAli (Ishoʿ). The Syriac-Arabic
+                                    Glosses</title>. (1910, 1928).</bibl>
+                            <bibl>A.  Gutbier, <title rend="italic">Lexicon Syriacum, continens
+                                    omnes N.T. Syriaci dictiones et particulas</title>
+                                (1667).</bibl>
+                            <bibl>S. Hanna and A. Bulut, <title rend="italic">Wörterbuch
+                                    Deutsch-Aramäisch, Aramäisch-Deutsch</title> (2000).</bibl>
+                            <bibl>G.  Hoffmann, <title rend="italic">Syrisch-Arabische Glossen.
+                                    Autographie einer gothaischen Handschrift enthaltend Bar Ali’s
+                                    Lexikon von Alaf bis Mim</title> (1874)</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>G.  Hoffmann</reg>
+                           <orig>idem</orig>
+                        </choice>, <title rend="italic">Opuscula Nestoriana</title>
+                                (1880).</bibl>
+                            <bibl>K.  Jacob and A.  El-Khoury, <title rend="italic">The Guide. The
+                                    First Literary-Colloquial Syriac Dictionary</title>
+                                (1985).</bibl>
+                            <bibl>A. Kalashev, <title rend="italic">Russko-Ajsorskij i
+                                    Ajsorsko-Russkij Slovar</title> (1894). (in Russian)</bibl>
+                            <bibl>S. E.  Khoshaba and E. B.  Youkhana, <title rend="italic">Zahreera, Arabic-Syriac Dictionary</title> (2000).</bibl>
+                            <bibl>P. A. de Lagarde, <title rend="italic">Praetermissorum libri
+                                    duo</title> (1879), 1–89. (Eliya of Nisibis, ‘Book of the
+                                Interpreter’)</bibl>
+                            <bibl>A. J. Maclean, <title rend="italic">A Dictionary of the Dialects
+                                    of Vernacular Syriac as spoken by the Eastern Syrians of
+                                    Kurdistan, North-west Persia, and the Plain of Mosul</title>
+                                (1901).</bibl>
+                            <bibl>J. E.  Manna, <title rend="italic">Vocabulaire
+                                    chaldéen-arabe</title> (1900; <abbr>repr.</abbr> with supplement
+                                1975).</bibl>
+                            <bibl>J. P.  Margoliouth, <title rend="italic">Supplement to the
+                                    Thesaurus syriacus of R. Payne Smith</title> (1927).</bibl>
+                            <bibl>J. P. P. Martin, <choice>
+                                    <sic>
+                                        <title rend="italic">Œuvres grammaticales
+                                d’Abou’lfaradj dit Bar Hebreus,</title>
+                                    </sic>
+                                    <corr>
+                                        <title rend="italic">Œuvres grammaticales
+                                    d’Abou’lfaradj dit Bar Hebreus</title>,</corr>
+                                </choice> vol. 2. <title rend="italic">La Petite Grammaire en vers de sept syllabes et le
+                                    traité ‘De Vocibus Aequivocis’</title> (1871).</bibl>
+                            <bibl>A.  Masius, <title rend="italic">Syrorum peculium, hoc est
+                                    vocabula apud syros scriptores passim usurpata</title>
+                                (1572).</bibl>
+                            <bibl>J. D.  Michaelis, <title rend="italic">Edmundi Castelli Lexicon
+                                    syriacum ex eius Lexico heptaglotto</title> (1788).</bibl>
+                            <bibl>J. Payne Smith, <title rend="italic">A Compendious Syriac
+                                    Dictionary</title> (1896–1903).</bibl>
+                            <bibl>R. Payne Smith, <title rend="italic">Thesaurus
+                                syriacus</title> (1868–1901).</bibl>
+                            <bibl>H.  Ritter, <title rend="italic">Ṭūrōyo. Die Volkssprache der
+                                    syrischen Christen des Ṭūr Abdîn.</title> B: <title rend="italic">Wörterbuch</title> (1979). (does not include
+                                verbs)</bibl>
+                            <bibl>S. Sargizi, <title rend="italic">A Simple Assyrian-Persian
+                                    Dictionary</title> (2002).</bibl>
+                            <bibl>W. Sarmas, <title rend="italic">Puššāq melle
+                                    parsāyā-aturāyā</title> (1969, 1980).</bibl>
+                            <bibl>C. Schaaf, <title rend="italic">Lexicon Syriacum
+                                    concordantiale</title> (1708).</bibl>
+                            <bibl>V. Schindler, <title rend="italic">Lexicon pentaglotton,
+                                    Hebraicum, Chaldaicum, Syriacum, Talmudico-Rabbinicum, et
+                                    Arabicum</title> (1612).</bibl>
+                            <bibl>M.  Sokoloff, <title rend="italic">A Syriac Lexicon. A translation
+                                    from the Latin, correction, expansion, and update of C.
+                                    Brockelmann’s Lexicon Syriacum</title> (2009).</bibl>
+                            <bibl>E.  Thelly, <title rend="italic">Syriac-English-Malayalam
+                                    Lexicon</title> (1999).</bibl>
+                            <bibl>M.  Trost, <title rend="italic">Lexicon Syriacum ex inductione
+                                    omnium exemplorum Novi Testamenti Syriaci adornatum</title>
+                                (1623).</bibl>
+                            <bibl>I.  Yusuf, <title rend="italic">Svensk-Turabdinskt Lexikon</title>
+                                (1988).</bibl>
+                        </listBibl>
+                        <listBibl>
+                            <head>Secondary Sources</head>
+                            <bibl>S. P.  Brock, ‘Some observations on the use of Classical Syriac in
+                                the late twentieth century’, <title rend="italic">
+                                    <abbr>JSS</abbr>
+                                </title> 34
+                                (1989), 363–75.</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>S. P.  Brock</reg>
+                           <orig>idem</orig>
+                        </choice>, ‘Syriac lexicography: Reflections on resources and sources’,
+                                    <title rend="italic">AS</title> 1.2 (2003), 165–78.</bibl>
+                            <bibl>Duval, <title rend="italic">La litterature syriaque</title>,
+                                294–99.</bibl>
+                            <bibl>H.  Hyvernat, ‘An ancient Syriac lexicographer’, <title rend="italic">Catholic University Bulletin</title> 8 (1902),
+                                58–74. (on Bar Bahlul)</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>H.  Hyvernat</reg>
+                           <orig>idem</orig>
+                        </choice>, ‘Duval’s edition of Bar Bahlul’, <title rend="italic">Catholic University Bulletin</title> 8 (1902), 488–93.</bibl>
+                            <bibl>J. A.  Loopstra, <title rend="italic">Patristic selections in the
+                                    “Masoretic” handbooks of the Qarqaptā tradition</title> (Ph.D.
+                                Diss., The Catholic University of America; 2009).</bibl>
+                            <bibl>D. S.  Margoliouth, ‘The Syro-Armenian dialect’, <title rend="italic">
+                                    <abbr>JRAS</abbr>
+                                </title> 1898, 839–61. (now <abbr>ms.</abbr> Harvard Syr.
+                                54)</bibl>
+                            <bibl>D. G. K.  Taylor, <title rend="italic">An annotated bibliography
+                                    of printed Syriac lexica</title> (1571–2009)
+                                (forthcoming).</bibl>
+                            <bibl>S.  Weninger, ‘Das “Übersetzerbuch” des Elias von Nisibis
+                                (10./<choice>
+                                    <sic>11.Jh.</sic>
+                                    <corr>11. Jh.</corr>
+                                </choice>) im Zusammenhang der syrischen und arabischen
+                                Lexikographie’, in <title rend="italic">The World in a List of
+                                    Words</title>, <abbr>ed.</abbr> W. Hüllen (1994), 55−66.</bibl>
+                        </listBibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>David G. K.</forename> 
+                  <surname>Taylor</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>
