@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Romanos the Melodist</title>
+            <author>
+               <persName>
+                  <forename>William L.</forename> 
+                  <surname>Petersen</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.5">Electronic Edition Version 1.5</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Romanos the Melodist</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Romanos-the-Melodist</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/467</idno>
+                    <idno type="entry">458</idno>
+                    <milestone unit="pages" n="353-354"/>
+                    <idno type="subject">http://syriaca.org/person/706</idno>
+                    <note type="type">person</note>
+                    <note type="abstract">Byzantine hymnographer and deacon.<note/>
+                    </note>
+                </ab>
+                <ab type="infobox">(<abbr>ca.</abbr> 485 – <abbr>ca.</abbr> 560)</ab>
+                <div type="body">
+                    <p>Byzantine hymnographer and deacon. Born in <ref rend="bold" target="https://gedsh.bethmardutho.org/Hims">
+                            <placeName ref="http://syriaca.org/place/215">Ḥimṣ</placeName>
+                        </ref> (Emesa), Romanos
+                        earned the surname ‘the Melodist’ by composing hymns in Greek which, for the
+                        last 1,500 years, have been regarded as masterpieces. Although he is
+                        sometimes credited with developing a new Greek poetic form, the <hi rend="italic">kontakion</hi>, it is more accurate to call him the
+                        perfector of this genre: his hymns are the most perfect examples of this
+                        form, whose invention antedates him. The <hi rend="italic">kontakion</hi> is
+                        credited with introducing the ‘accent’ (or ‘Byzantine’) metric into Greek
+                        poetry (contrasted with the earlier ‘quantitative’ or ‘Hellenic’ metric).
+                        Romanos’s <hi rend="italic">kontakia</hi> have also been singled out as the
+                        first examples of chancel drama, and the predecessor of the medieval mystery
+                        and passion plays. Romanos’s hymns are rhetorically elegant, theologically
+                        sophisticated, aesthetically sublime, and psychologically profound; Karl
+                        Krumbacher termed him ‘the greatest Church poet of all time’.</p>
+                    <p>Little is known of Romanos’s life. The liturgical ‘Menaia’ and ‘Synaxaria’ of
+                        the Byzantine Orthodox Church are our sole sources. They state that he was
+                        born in Emesa and was ‘of the Hebrew race’. He became a deacon in <ref rend="bold" target="https://gedsh.bethmardutho.org/Beirut">
+                            <placeName ref="http://syriaca.org/place/46">Beirut</placeName>
+                        </ref>,
+                        and then moved to Constantinople during the reign of Anastasius I (<abbr>r.</abbr>
+                        491–518). There he lived in the ‘temple’ of the Theotokos in the Kuros. It
+                        is reported that in his sleep the night before the Feast of the Nativity,
+                        Mary appeared to him in a vision and gave him a scroll to eat. He then
+                        awoke, ascended into the pulpit, and began to sing one of his most beautiful
+                        and subsequently well-known <hi rend="italic">kontakia</hi>: ‘Today the
+                        Virgin gives birth to the super-essential one’. Famed during his own life
+                        for his popular hymns, he is reported to have composed about a thousand <hi rend="italic">kontakia</hi>, although only 59 have been preserved.
+                        (Another 29 <hi rend="italic">kontakia</hi> have been attributed to Romanos,
+                        but Maas and Trypanis correctly reject them. The <hi rend="italic">Akathistos</hi> hymn of the Orthodox Church has sometimes been
+                        attributed to him, although without convincing evidence.) Because Romanos
+                        references the destruction of Constantinople by earthquakes and subsequent
+                        fires, his death must be placed after 552 or possibly 555, for in those
+                        years earthquakes devastated Constantinople.</p>
+                    <p>From an historical and textual standpoint, Romanos’s hymns are significant
+                        for four reasons. 1. They are a window into the layperson’s mind at the time
+                        of Justinian, for Romanos was writing for the common person. The hymns are
+                        not the high theology argued between bishops, vying for political advantage.
+                        Rather, the hymns are pastoral works, addressing the concerns of the average
+                        person and communicating the mysteries of the faith in a form understandable
+                        to the laity. 2. Romanos’s hymns provide strong evidence for a link between
+                        Syr. Christian culture and the Greek, Byzantine world. Romanos’s dependence
+                        — both literary and structural  — upon the Syriac <ref rend="bold" target="https://gedsh.bethmardutho.org/Ephrem">
+                            <persName ref="http://syriaca.org/person/13">Ephrem</persName>
+                        </ref> is
+                        demonstrable. Both his literary corpus and the account of his childhood in
+                        Syria suggest that Romanos was bilingual: his scansions often require that
+                        Semitic names be scanned as in Hebrew or Syriac. Romanos’s hymns often
+                        address the same themes as Ephrem’s, and sometimes both share the same
+                        illustration, metaphor, or even turn of phrase. Indeed, the form of the
+                        Syriac <hi rend="italic">madrāšā</hi> (stanzas, a refrain, an acrostic, with
+                        rhyme) closely parallels that of the <hi rend="italic">kontakion</hi>. Other
+                        forms used by Ephrem’s Syriac hymns and sermons (the <hi rend="italic">memrā</hi>, which is a metrical sermon, and the <hi rend="italic">soghithā</hi>, which has a dramatic, epic element, and which often uses
+                        dialogue in a free recreation of a biblical episode) find their distinctive
+                        characteristics transplanted into the Greek world in the <hi rend="italic">kontakia</hi> of Romanos. As a literary form, the <hi rend="italic">kontakion</hi> was clearly derived from Semitic (specifically, Syriac)
+                        poetic forms. And the Syriac corpus of Ephrem was clearly Romanos’s model
+                        for his Greek hymns. 3. Romanos’s Greek hymns furthermore betray his
+                        dependence on Syriac literary sources. His appropriation of Ephrem has been
+                        discussed; but he also used Syriac biblical texts, sometimes verbatim. He
+                        often quotes the Gospels in the form of <ref rend="bold" target="https://gedsh.bethmardutho.org/Tatian">
+                            <persName ref="http://syriaca.org/person/771">Tatian</persName>
+                        </ref>’s <ref rend="bold" target="https://gedsh.bethmardutho.org/Diatessaron">Diatessaron</ref>, or in forms found only in Syriac sources (<choice>
+                            <sic>e.g.</sic>
+                            <corr>e.g., </corr>
+                        </choice>in
+                        the <ref rend="bold" target="https://gedsh.bethmardutho.org/Old-Syriac-Version">Old Syriac
+                            Version</ref> of the <abbr>NT</abbr>). This further underscores his dependence on
+                        Syriac sources. 4. Romanos’s hymns occasionally contain ancient
+                        Judaeo-Christian traditions from what later became ‘extra-canonical’
+                        Gospels. An example is the ‘light’ (or ‘fire’) in the Jordan River at
+                        Jesus’s baptism (also in the ‘Gospel according to the Hebrews’); another is
+                        that, on the night Jesus was arrested, Peter weeps at the door of the High
+                        Priest’s house <hi rend="italic">before</hi> denying Jesus (when Peter hears
+                        the cock crow and then weeps, that is his <hi rend="italic">second</hi>
+                        episode of weeping) (so also the ‘Gospel of the Nazoraeans’).</p>
+                    <p>[Bibliography updated by M. Doerfler]</p>
+                </div>
+                <div type="bibl">
+                    <listBibl>
+                        <listBibl>
+                            <head>Primary Sources</head>
+                            <bibl>M.  Carpenter, <title rend="italic">Kontakia of Romanos, Byzantine
+                                    melodist</title> (2 vols.; 1970–3). (<abbr>ET</abbr>)</bibl>
+                            <bibl>J.  Grosdidier de Matons, <title rend="italic">Romanos le Mélode.
+                                    Hymnes</title> (5 vols.; SC 99, 110, 114, 128, 283; 1964–1981).
+                                (Greek with <abbr>FT</abbr>)</bibl>
+                            <bibl>J.  Koder, <title rend="italic">Romanos Melodos. Die
+                                    Hymnen</title> (2 vols; 2005–6). (<abbr>GT</abbr>)</bibl>
+                            <bibl>P. Maas and C. A. Trypanis, <title rend="italic">Sancti Romani
+                                    Melodi Cantica. Cantica Genuina</title> (1963). (Greek)</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>P. Maas and C. A. Trypanis</reg>
+                           <orig>idem</orig>
+                        </choice>, <title rend="italic">Sancti Romani Melodi Cantica. Cantica
+                                    Dubia</title> (1970). (Greek)</bibl>
+                        </listBibl>
+                        <listBibl>
+                            <head>Secondary Sources</head>
+                            <bibl>J. H.  Barkhuizen, ‘Romanos Melodos: Kontakion 8 “On the Three
+                                Children”’, <title rend="italic">Acta Patristica et
+                                    Byzantina</title> 16 (2005), 1–28.</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>J. H.  Barkhuizen</reg>
+                           <orig>idem</orig>
+                        </choice>, ‘Romanos the Melodist: “On Adam and Eve and the Nativity”.
+                                Introduction with annotated translation’, <title rend="italic">Acta
+                                    Patristica et Byzantina</title> 19 (2008), 1–22.</bibl>
+                            <bibl>S. P. Brock, ‘From Ephrem to Romanos’, in <title rend="italic">
+                                    <abbr>StPatr</abbr>
+                                </title>, vol. 20, <abbr>ed.</abbr> E. A. Livingstone (1989), 139–51.
+                                (<abbr>repr.</abbr> in Brock’s <title rend="italic">From Ephrem to
+                                    Romanos</title> [1999]).</bibl>
+                            <bibl>G.  Frank, ‘Romanos and the night vigil in the sixth century’, in
+                                    <title rend="italic">Byzantine Christianity</title>, <abbr>ed.</abbr> D.
+                                Krueger (A People’s History of Christianity; 2006), 59–78,
+                                225–6.</bibl>
+                            <bibl>eadem, ‘Dialogue and deliberation: The making of the sensory self
+                                in the Hymns of Romanos the Melodist’, in <title rend="italic">Religion and the Self in Antiquity</title>, <abbr>ed.</abbr> D. Brakke et
+                                al. (2005), 163–179.</bibl>
+                            <bibl>J.  Grosdidier de Matons, <title rend="italic">Romanos le Mélode
+                                    et les origines de la poésie religieuse à Byzance</title>
+                                (1977). (incl. further references)</bibl>
+                            <bibl>A.  de  Halleux, ‘Hellénisme et Romanité de Romanos le Mélode’,
+                                    <title rend="italic">
+                                    <abbr>RHE</abbr>
+                                </title> 73 (1978), 632–41.</bibl>
+                            <bibl>A. C.  Mahr, <title rend="italic">Relations of passion plays to
+                                    St. Ephrem the Syrian</title> (1942).</bibl>
+                            <bibl>M. Papoutsakis, ‘The making of a Syriac fable: From Ephrem to
+                                Romanos’, <title rend="italic">
+                                    <abbr>LM</abbr>
+                                </title> 120 (2007), 29–75. (with
+                                discussion of Romanos’s possible dependence on Yaʿqub of
+                                Serugh)</bibl>
+                            <bibl>W. L.  Petersen, <title rend="italic">The Diatessaron and Ephrem
+                                    Syrus as sources of Romanos the Melodist</title> (<abbr>CSCO</abbr> 475;
+                                1985). (incl. further references)</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>W. L.  Petersen</reg>
+                           <orig>idem</orig>
+                        </choice>, ‘A new testimonium to a Judaic-Christian Gospel fragment
+                                from a hymn of Romanos the Melodist’, <title rend="italic">
+                                    <abbr>VC</abbr>
+                                </title> 50 (1996), 105–16.</bibl>
+                            <bibl>L.  Van Rompay, ‘Romanos le Mélode: Un poète syrien à
+                                Constantinople’, in <title rend="italic">Early Christian Poetry. A
+                                    Collection of Essays</title>, <abbr>ed.</abbr> J. den Boeft and A.  Hilhorst
+                                (Supplements to <abbr>VC</abbr> 22; 1993), 283–96. (with further
+                                references).</bibl>
+                        </listBibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>William L.</forename> 
+                  <surname>Petersen</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

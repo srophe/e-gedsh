@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Julian of Halicarnassus</title>
+            <author>
+               <persName>
+                  <forename>Michael Philip</forename> 
+                  <surname>Penn</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.5">Electronic Edition Version 1.5</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Julian of Halicarnassus</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Julian-of-Halicarnassus</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/319</idno>
+                    <idno type="entry">310</idno>
+                    <milestone unit="pages" n="236"/>
+                    <idno type="subject">http://syriaca.org/person/579</idno>
+                    <note type="type">person</note>
+                    <note type="abstract">
+                        <abbr>Bp.</abbr>, theologian, controversialist.<note>brief</note>
+                    </note>
+                </ab>
+                <ab type="infobox">(<abbr>fl.</abbr>
+                    <abbr> ca.</abbr> 520) [<abbr>Syr. Orth.</abbr>]</ab>
+                <div type="body">
+                    <p>
+                        <abbr>Bp.</abbr>, theologian, controversialist. In 511 Julian, <abbr>bp.</abbr> of Halicarnassus, sided
+                        with <ref rend="bold" target="https://gedsh.bethmardutho.org/Severus-of-Antioch">
+                            <persName ref="http://syriaca.org/person/51">Severus</persName>
+                        </ref>, future <abbr>bp.</abbr> of <ref rend="bold" target="https://gedsh.bethmardutho.org/Antioch">
+                            <placeName ref="http://syriaca.org/place/10">Antioch</placeName>
+                        </ref>, to
+                        successfully depose <abbr>Patr.</abbr> Macedonius of Constantinople. Seven years later,
+                        due to the anti-Miaphysite policies of the emperor Justinian, Julian and
+                        Severus were both exiles in Egypt. Here Julian offended Severus by claiming
+                        that his belief in the incorruptibility of Christ’s body was inspired by
+                        Severus’s own work, the Philalethes. The resulting epistolary exchange
+                        between these former allies soon escalated into multiple polemical tractates
+                        and finally a significant schism among the Miaphysites that lasted for
+                        centuries.</p>
+                    <p>Julian’s three letters to Severus as well as nearly all of Severus’s
+                        anti-Julian writings are extant in a Syriac translation that <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Pawlos-of-Kallinikos">
+                            <persName ref="http://syriaca.org/person/47">Pawlos of Kallinikos</persName>
+                        </ref> made in 528. We also possess 154 fragments
+                        attributed to Julian, also preserved mostly in Syriac. Although these works
+                        shed little light on Julian’s life, they do allow us to reconstruct much of
+                        his theology.</p>
+                    <p>Central to Julian and Severus’s dispute was the question of how to properly
+                        characterize Christ’s body. Although both agreed that after the resurrection
+                        Christ’s body was incorruptible, Julian declared Christ’s pre-resurrection
+                        body to be uncorrupted (<hi rend="italic">aphthartos</hi>) as well.
+                        According to Julian, unlike the post-lapsian human body, Christ’s body would
+                        not naturally undergo changes such as sleep or death. It was only through
+                        Christ’s will that he voluntarily subjected himself to human suffering. For
+                        Julian this both reinforced Christ’s single nature and, by distinguishing
+                        Christ’s body from human bodies, assured that Christ was immune from the
+                        transmission of sin. Severus argued that if Christ had not participated
+                        fully in human nature, he could not have saved humanity. Severus thus saw
+                        Julian’s theology as a direct challenge to Christ’s role in salvation, and
+                        he characterized Julian as a follower of <ref rend="bold" target="https://gedsh.bethmardutho.org/Eutyches">
+                            <persName ref="http://syriaca.org/person/482">Eutyches</persName>
+                        </ref>, Mani,
+                        and the early docetists, calling his theology ‘aphthartodocetism’.</p>
+                    <p>By the end of the 520s Julian and Severus no longer wrote treatises against
+                        each other, but by this time there already was a substantial Miaphysite rift
+                        between pro- and anti-Julianists. The Alexandrian <abbr>Patr.</abbr> Timothy  IV seems to
+                        have had pro-Julianist leanings, and after his death the pro-Julianist
+                        Gaianus was <abbr>
+                            <choice>
+                                <sic>Patr.</sic>
+                                <corr>patr.</corr>
+                            </choice>
+                        </abbr> for three months. Although Justinian soon replaced him
+                        with the Severian <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Theodosius-of-Alexandria">
+                            <persName ref="http://syriaca.org/person/784">Theodosius</persName>
+                        </ref>, Gaianus continued to
+                        enjoy popular support. Throughout much of 6th-cent. Egypt there were
+                        competing Severian and Julianist/Gaianite hierarchies and occasionally dual
+                        Patrs. The controversy soon spread outside of Egypt into Syria and Asia
+                        Minor and in 564 or 565 Justinian himself wrote an edict on the
+                        incorruptibility of Christ’s body. 7th- and 8th-cent. sources continue to
+                        attest to Julianists throughout the East. Of particular note is the
+                        aphrthartodocetic leanings of <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Armenian-Christianity-Syriac-contacts-with">Armenian Christianity</ref>.
+                        A case for Julian’s influence on Armenian christology is difficult to
+                        substantiate, however, as none of Julian’s works are extant in Armenian.
+                        Unfortunately, most of the later anti-Julianist writings remain unedited and
+                        there has been relatively little work done on the development of this
+                        movement and its eventual demise.</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>
+                            <title rend="italic">
+                                <abbr>CPG</abbr>
+                            </title> 7125–7127.</bibl>
+                        <bibl>P. Allen and C. T. R. Hayward, <title rend="italic">Severus of
+                                Antioch</title> (2004).</bibl>
+                        <bibl>L. Draguet, <title rend="italic">Julien d’Halicarnasse</title>
+                            (1924).</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>L. Draguet</reg>
+                        <orig>idem</orig>
+                     </choice>, ‘Le Pacte d’union de 797 entre les Jacobites et les Julianistes
+                            d’Antioche’, <title rend="italic">
+                                <abbr>LM</abbr>
+                            </title> 54 (1941), 91–106.</bibl>
+                        <bibl>Grillmeier and Hainthaler (<abbr>ed.</abbr>), <title rend="italic">Jesus der
+                                Christus</title>, vol. 2/2 (1989), 82–116. (79–111 in <abbr>ET</abbr>)</bibl>
+                        <bibl>R.  Hespel, <title rend="italic">La polémique
+                            antijulianiste</title> (<abbr>CSCO</abbr> 104–5, 124–7; 1964–71).</bibl>
+                        <bibl>L. Van Rompay, ‘Society and Community in the Christian East’, in
+                                <title rend="italic">The Cambridge Companion to the Age of
+                                Justinian</title>, <abbr>ed.</abbr> M. Maas (2005), 239–66.</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Michael Philip</forename> 
+                  <surname>Penn</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

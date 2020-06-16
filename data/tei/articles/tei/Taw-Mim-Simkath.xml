@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Taw Mim Simkath</title>
+            <author>
+               <persName>
+                  <forename>George A.</forename> 
+                  <surname>Kiraz</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.5">Electronic Edition Version 1.5</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Taw Mim Simkath</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Taw-Mim-Simkath</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/544</idno>
+                    <idno type="entry">535</idno>
+                    <milestone unit="pages" n="397"/>
+                    <note type="type">org</note>
+                    <note type="abstract">An organization for the support and welfare of <abbr>Syr. Orth.</abbr>
+                        orphanages and schools, popularly known by the Syriac acronym Taw Mim
+                        Simkath (English T.M.S.), located first in Adana (Turkey), later in Beirut.<note/>
+                    </note>
+                </ab>
+                <div type="body">
+                    <p>An organization for the support and welfare of <abbr>Syr. Orth.</abbr> orphanages and
+                        schools, popularly known by the Syriac acronym Taw Mim Simkath (English
+                        T.M.S.) which originally referred to Ottoman Turkish <hi rend="italic">Terakkiyât-ı Mekteb-i Süryânî</hi> (perhaps influenced by the Ottoman
+                            <hi rend="italic">İttihâd ve Terraki Cemiyeti</hi> ‘Committee of Union
+                        and Progress’), and later Arabic <hi rend="italic">taraqqī al-madāris
+                            al-suryāniyya</hi> ‘Progress of Syriac Schools’ (much later the somewhat
+                        awkward Syriac <hi rend="italic">tdareg madršotho suryoyotho</hi> was
+                        coined). It was charted under the English name <hi rend="italic">Assyrian
+                            National School Association of America, Inc.</hi>, and sometime between
+                        1949 and 1968 was renamed <hi rend="italic">The Assyrian Orphanage and
+                            School Association of America, Inc.</hi>, its current official name, but
+                        it remains popularly known by <hi rend="italic">Taw Mim Simkath</hi>. Its
+                        inception was on 8 Oct. 1889 when eleven individuals, originally from
+                        Diyarbakır (<ref rend="bold" target="https://gedsh.bethmardutho.org/Amid">
+                            <placeName ref="http://syriaca.org/place/8">Amid</placeName>
+                        </ref>), met in Sterling, New Jersey. They each agreed on an
+                        initiation fee of $1 (= $26.78 in 2008) and a weekly pledge of five cents
+                        (= $1.34 in 2008), but did not have a specific purpose or name. On 25 March
+                        1900, a meeting was held where new members joined, one of whom was Gabriel
+                        Boyajy, a new arrival from Diyarbakır. He suggested a name and purpose:
+                        opening a school in Diyarbakır when finances permitted. It was around this
+                        time that an initial Constitution and By-laws were drawn up. By 1908, the
+                        organization had grown with several branches at College Point (Long Island,
+                        New York), Paterson, and Sterling, resulting in a need for an executive
+                        Board of Trustees, which then incorporated the organization in the State of
+                        New Jersey, with a Constitution drafted by Gabriel Boyajy. In the aftermath
+                        of the 1915 <ref rend="bold" target="https://gedsh.bethmardutho.org/Sayfo">Sayfo</ref> massacres, the members changed their focus from supporting
+                        education just in Diyarbakır to general education support. In 1919, an
+                        orphanage was established in Adana, Turkey, in cooperation with the French
+                        High Commissioner. There <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Dolabani-Philoxenos-Yuhanon">
+                            <persName ref="http://syriaca.org/person/454">Dolabani</persName>
+                        </ref> taught Syriac to
+                        what would become a new generation of modern writers. After a short period
+                        of three years, the French High Commissioner withdrew support and planned to
+                        move the orphans to Paris. Instead, T.M.S., in cooperation with the
+                        community in <ref rend="bold" target="https://gedsh.bethmardutho.org/Beirut">
+                            <placeName ref="http://syriaca.org/place/46">Beirut</placeName>
+                        </ref> Lebanon, moved the children to Beirut in 1923 and then
+                        built a small complex in Khandaq al-Ghamīq and transferred the orphanage
+                        there in 1926. In 1973, the school was moved to Burj Ḥammūd where it
+                        remains. By T.M.S.’s Golden Jubilee in 1949, about 160 students had
+                        graduated from the orphanage, some of whom became luminaries in modern
+                        Syriac literature including <ref rend="bold" target="https://gedsh.bethmardutho.org/Gabriel-Fawlos">
+                            <persName ref="http://syriaca.org/person/490">Fawlos
+                            Gabriel</persName>
+                        </ref>, <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Elias-Ghattas-Danho-Maqdisi">
+                            <persName ref="http://syriaca.org/person/466">Ghaṭṭās Maqdisī Elias</persName>
+                        </ref>, <ref rend="bold" target="https://gedsh.bethmardutho.org/Danhash-George">
+                            <persName ref="http://syriaca.org/person/437">George
+                            Danhash</persName>
+                        </ref>, and <ref rend="bold" target="https://gedsh.bethmardutho.org/Salman-Hanna">
+                            <persName ref="http://syriaca.org/person/714">Ḥanna Salmān</persName>
+                        </ref>.
+                        Currently, the school has 312 students and 20 teachers. T.M.S. purchased
+                        Syriac metal types in 1921, and a <ref rend="bold" target="https://gedsh.bethmardutho.org/Printing">printing</ref> press in
+                        1923 to support the publication of the periodical <hi rend="italic">Beth
+                            Nahrin</hi>. T.M.S. continues to hold an annual event to support the
+                        school in Lebanon as well as other schools and orphanages. It is based in
+                        Paramus, New Jersey.</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl> ‘A Brief History of the Assyrian National School Association of
+                            America, Inc.’ in <title rend="italic">Assyrian National School
+                                Association of America Golden Jubilee</title> (1949), no
+                            pagination.</bibl>
+                        <bibl>
+                            <title rend="italic">The Assyrian National School Association of America
+                                Presents the Twenty-Fifth Anniversary…</title> (1948).</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>George A.</forename> 
+                  <surname>Kiraz</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

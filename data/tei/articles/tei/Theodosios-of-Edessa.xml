@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Theodosios of Edessa</title>
+            <author>
+               <persName>
+                  <forename>Lucas</forename> 
+                  <surname>Van Rompay</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.5">Electronic Edition Version 1.5</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Theodosios of Edessa</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Theodosios-of-Edessa</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/558</idno>
+                    <idno type="entry">549</idno>
+                    <milestone unit="pages" n="407"/>
+                    <idno type="subject">http://syriaca.org/person/150</idno>
+                    <note type="type">person</note>
+                    <note type="abstract">Metropolitan <abbr>bp.</abbr> of <placeName>Edessa</placeName>, author of a historical work (not extant but used in later chronicles).<note/>
+                    </note>
+                </ab>
+                <ab type="infobox">(late 8th – early 9th <abbr>cent.</abbr>) [<abbr>Syr. Orth.</abbr>]</ab>
+                <div type="body">
+                    <p>Metropolitan <abbr>bp.</abbr> of <ref rend="bold" target="https://gedsh.bethmardutho.org/Edessa">
+                            <placeName ref="http://syriaca.org/place/78">Edessa</placeName>
+                        </ref>, author, and
+                        translator. He was the older brother of <abbr>Patr.</abbr> 
+                  <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Dionysios-of-Tel-Mahre">
+                            <persName ref="http://syriaca.org/person/155">Dionysios
+                            of Tel Maḥre</persName>
+                        </ref> and, like his brother, had been a monk at <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Qenneshre-Monastery-of">
+                            <placeName ref="http://syriaca.org/place/230">Qenneshre</placeName>
+                        </ref>. His consecration as <abbr>bp.</abbr> took place under
+                        <abbr>Patr.</abbr> 
+                  <ref rend="bold" target="https://gedsh.bethmardutho.org/Quryaqos">
+                            <persName ref="http://syriaca.org/person/145">Quryaqos</persName>
+                        </ref> (d. 817) and was followed by some agitation among the
+                        Edessenians, which Quryaqos, however, was able to lay to rest (<ref rend="bold" target="https://gedsh.bethmardutho.org/Michael-I-Rabo">
+                            <persName ref="http://syriaca.org/person/217">Michael Rabo</persName>
+                        </ref>, XII.7; Syr. 493; <abbr>FT</abbr> 3.28). Theodosios
+                        accompanied his brother on a trip to Egypt in 824/5. According to Barsoum,
+                        he died in 832.</p>
+                    <p>Theodosios is the author of a historical work. This is not preserved, but it
+                        was referred to and used by his brother Dionysios, and through him it was
+                        known to Michael Rabo. In addition, <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Bar-Ebroyo-Grigorios">
+                            <persName ref="http://syriaca.org/person/239">Bar ʿEbroyo</persName>
+                        </ref>
+                        (Ecclesiastical History, <abbr>ed.</abbr> Abbeloos and Lamy, vol. 1, 361–64) attributes
+                        to him a Syriac translation of the poems (<hi rend="italic">mušḥoto</hi>) of
+                            <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Gregory-of-Nazianzus">
+                            <persName ref="http://syriaca.org/person/511">Gregory of
+                            Nazianzus</persName>
+                        </ref>. One poem, transmitted in <abbr>ms.</abbr> Vat. Syr. 96 (no. 20; S.
+                        E. and J. S. Assemani, <hi rend="italic">Bibliothecae Apostolicae Vaticanae
+                            … Catalogus</hi>, I.2 [1758], 521) specifically attributes the
+                        translation to Theodosios, while he was priest in Edessa, and dates the
+                        translation to the year 802 (A. Gr. 1113, June to A. Gr. 1114, Dec.). This
+                        translation seems to be identical to the one preserved in <abbr>ms.</abbr> Vat. Syr. 105
+                        (which was misdated by the Assemanis and belongs to the 9th <abbr>cent.</abbr>). Since
+                        these poems have been translated on three different occasions (see Gregory
+                        of Nazianzus), it is not always possible to distinguish between the work of
+                        each translator.</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>Barsoum, <title rend="italic">Scattered <choice>
+                                    <sic>Pearls</sic>
+                                    <corr>pearls</corr>
+                                </choice>
+                            </title>,
+                            381–2.</bibl>
+                        <bibl>Baumstark, <title rend="italic">Literatur</title>, 276.</bibl>
+                        <bibl>J.  Bollig and H.  Gismondi, <title rend="italic">S.</title>  
+                     <title rend="italic">Gregorii Theologi liber carminum iambicorum. Versio
+                                syriaca antiquissima</title>, 2 vol. (1895–96). (the first vol.
+                            contains the text of <abbr>ms.</abbr> Vat. Syr. 105)</bibl>
+                        <bibl>C.  Crimi, ‘Fra tradizione diretta et tradizione indiretta: Note alla
+                            versione siriaca dei «Carmi» di Gregorio Nazianzeno’, in <title rend="italic">La diffusione dell’eredità classica nell’età
+                                tardoantica e medievale</title>, vol. 1, <abbr>ed.</abbr> A. Valvo (1997), 83–93.
+                            (with further references)</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Lucas</forename> 
+                  <surname>Van Rompay</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Eliya (mid-6th <abbr>cent.</abbr>)</title>
+            <author>
+               <persName>
+                  <forename>Lucas</forename> 
+                  <surname>Van Rompay</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.5">Electronic Edition Version 1.5</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Eliya (mid-6th <abbr>cent.</abbr>)</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Eliya-mid-6th-cent</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/199</idno>
+                    <idno type="entry">190</idno>
+                    <milestone unit="pages" n="142"/>
+                    <idno type="subject">http://syriaca.org/person/63</idno>
+                    <note type="type">person</note>
+                    <note type="abstract">Author of the Life of Yuḥanon of Tella.<note/>
+                    </note>
+                </ab>
+                <ab type="infobox">[<abbr>Syr. Orth.</abbr>]</ab>
+                <div type="body">
+                    <p>Author of a Life of <ref rend="bold" target="https://gedsh.bethmardutho.org/Yuhanon-of-Tella">
+                            <persName ref="http://syriaca.org/person/50">Yuḥanon of
+                            Tella</persName>
+                        </ref>. No information about Eliya is available outside the Life
+                        itself. Eliya claims to have lived with Yuḥanon and, in addition, to have
+                        received information from Yuḥanon’s mother. He may, therefore, have been a
+                        monk from Kallinikos, like Yuḥanon himself. The Persian capture of the city
+                        in 542, to which the author refers as the ‘rod of the Assyrian’ (cf. Is.
+                        10:5), serves as the <hi rend="italic">terminus post quem</hi> for the
+                        composition of the Life.</p>
+                    <p>The Life has been called ‘a masterpiece of Syriac literature, with a prose of
+                        elegant simplicity’ (Harvey, 34). In Europe it exists in three W.-Syr. <abbr>mss.</abbr>:
+                        Berlin Syr. 26 (Sachau 321, 8th <abbr>cent.</abbr>), Brit. Libr. Add. 14,622 (9th  cent.,
+                        incomplete), and Brit. Libr. Add. 12,174 (dated 1197, written for <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Barsawmo-Dayro-d-Mor">
+                            <placeName ref="http://syriaca.org/place/224">Dayro d-Mor Barṣawmo</placeName>
+                        </ref>). It was first edited by H. G. Kleyn in
+                        1882, on the basis of the two Brit. Libr. <abbr>mss.</abbr> (with <abbr>DT</abbr>) and again by
+                        E. W.  Brooks in 1907, using all three European <abbr>mss.</abbr> (with <abbr>LT</abbr>). A   fourth
+                        witness has been identified by Palmer in <abbr>ms.</abbr> 12/18 of the <abbr>Syr. Orth.</abbr>
+                        Patriarchate in Damascus (late 12th  cent.).</p>
+                    <p>Kleyn’s suggestion that Eliya might be identical with Eliya of Dara, whose
+                        life was written by <ref rend="bold" target="https://gedsh.bethmardutho.org/Yuhanon-of-Ephesus">
+                            <persName ref="http://syriaca.org/person/74">Yuḥanon of
+                            Ephesus</persName>
+                        </ref> (but survives only very imperfectly), was rejected by
+                        Brooks for lack of evidence. Yuḥanon of Ephesus, in his ‘Lives of the
+                        Eastern Saints’, wrote a (much shorter) Life of Yuḥanon of Tella (<abbr>ed.</abbr> E. W.
+                        Brooks, in <abbr>PO</abbr> 18, 513–26), but this is quite different from Eliya’s; whether
+                        Yuḥanon of Ephesus knew and used Eliya’s work remains uncertain.</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>E. W.  Brooks, <title rend="italic">Vitae virorum apud
+                                Monophysitas celeberrimorum</title> (<abbr>CSCO</abbr> 7–8; 1907), 29–95 (Syr.)
+                            and 21–60 (<abbr>LT</abbr>).</bibl>
+                        <bibl>J. R.  Ghanem, <title rend="italic">The biography of John of Tella (d.
+                                A.D. 537) by Elias</title> (<choice>
+                                <sic>Ph. D.</sic>
+                                <corr>Ph.D.</corr>
+                            </choice> Diss., University of Wisconsin,
+                            Madison; 1970). (<abbr>ET</abbr> of Life)</bibl>
+                        <bibl>Harvey, <title rend="italic">Asceticism and society in crisis</title>,
+                            34 and 41.</bibl>
+                        <bibl>H. G. Kleyn, <title rend="italic">Het leven van Johannes van Tella
+                                door Elias</title> (1882).</bibl>
+                        <bibl>A.  Palmer, ‘Saints’ lives with a difference. Elijah on John of Tella
+                            (d. 538) and Joseph on Theodotos of Amida (d. 698)’, in <abbr>
+                                <title rend="italic">SymSyr</title> IV</abbr>, 203–16.</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Lucas</forename> 
+                  <surname>Van Rompay</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

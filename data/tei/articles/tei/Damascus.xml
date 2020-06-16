@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Damascus</title>
+            <author>
+               <persName>
+                  <forename>Hidemi</forename> 
+                  <surname>Takahashi</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.5">Electronic Edition Version 1.5</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Damascus</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Damascus</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/157</idno>
+                    <idno type="entry">148</idno>
+                    <milestone unit="pages" n="111-113"/>
+                    <idno type="subject">http://syriaca.org/place/66</idno>
+                    <note type="type">place</note>
+                    <note type="abstract">City in <placeName>Syria</placeName> and the seat at present of the Syr.
+                        Orth. Patriarchate.<note/>
+                    </note>
+                </ab>
+                <div type="body">
+                    <p>Syriac Darmsuq and Arabic Dimashq. City in Syria and the seat at present of
+                        the <abbr>Syr. Orth.</abbr> Patriarchate. Damascus, situated at the eastern edge of the
+                        Syrian Desert at the foot of Mt. Qāsiyūn and watered by the Baradā, has been
+                        continuously inhabited at least since the 4th millennium BC and was in
+                        13th–8th centuries BC the seat of an Aramean kingdom. Damascus came under
+                        Roman control in 64 BC. Taken by the Arabs in 635, Damascus became the
+                        capital of the new empire under the Umayyads. In later periods, Damascus was
+                        the most important city in the Bilād al-Shām, an area covering what is today
+                        the southern part of Syria, as well as Lebanon, Palestine, and Jordan. Under
+                        Ottoman rule (1516–1918), Damascus was the capital of the province of
+                        al-Shām. Damascus is today the capital of the Syrian Arab Republic, with a
+                        population of <abbr>ca.</abbr> 1.6 million (2.7 million in the conurbation, in 2008).</p>
+                    <p>Damascus already had followers of Christ at the time of the conversion of St.
+                        Paul. Early Miaphysite bishops of Damascus were Mammianus (512–518) and
+                        Thomas, the latter exiled under Emperor Justin I in 519. The Maronite
+                        chronicle of 664 tells us of two <abbr>Syr. Orth.</abbr> bishops Theodoros and Sebokht
+                        (<choice>
+                            <sic>i.e. </sic>
+                            <corr>i.e., </corr>
+                        </choice>
+                        <ref rend="bold" target="https://gedsh.bethmardutho.org/Severos-Sebokht">
+                            <persName ref="http://syriaca.org/person/99">Severos
+                            Sebokht</persName>
+                        </ref>) losing in a disputation with the Maronites before the
+                        first Umayyad caliph Muʿāwiyya I in Damascus in 659. <abbr>Bp.</abbr> Ḥenanyo of Damascus was present at the <abbr>Syr. Orth.</abbr> Synod of <ref rend="bold" target="https://gedsh.bethmardutho.org/Reshayna">
+                            <placeName ref="http://syriaca.org/place/172">Reshʿayna</placeName>
+                        </ref> in 684. We know the names of a more or less continuous
+                        series of <abbr>Syr. Orth.</abbr> bishops of Damascus from the beginning of the 9th <abbr>cent.</abbr>
+                        In 1211, we hear of <abbr>Bp.</abbr> Yuḥanon of Damascus serving as an envoy from <abbr>Patr.</abbr>
+                        Yuḥanon XI (1207/15–20) to the Coptic Pope John VI (1189–1216). In the
+                        middle of the 15th <abbr>cent.</abbr>, the <abbr>Syr. Orth.</abbr> see of Damascus is found united
+                        with that of <ref rend="bold" target="https://gedsh.bethmardutho.org/Jerusalem">
+                            <placeName ref="http://syriaca.org/place/104">Jerusalem</placeName>
+                        </ref>.
+                        Gregory (Cyril) ʿAṭāʾ Allāh, whose activities in India triggered the Coonan
+                        Cross Oath of 1653 (see <ref rend="bold" target="https://gedsh.bethmardutho.org/Thomas-Christians">Thomas
+                            Christians</ref>), was <abbr>Syr. Orth.</abbr>
+                        <abbr> Metr.</abbr> of Damascus and <ref rend="bold" target="https://gedsh.bethmardutho.org/Hims">
+                            <placeName ref="http://syriaca.org/place/215">Ḥimṣ</placeName>
+                        </ref> before his
+                        conversion to Catholicism in 1631. In the latter half of the 17th <abbr>cent.</abbr>
+                        Damascus was the scene of some lively scribal activity centerd around the
+                        school of <abbr>
+                            <choice>
+                                <sic>bp.</sic>
+                                <corr>Bp.</corr>
+                            </choice>
+                        </abbr> Grigorios Yūḥannā <abbr>b.</abbr> al-Ghurayr al-Zurbābī (<abbr>bp.</abbr> 1668–84),
+                        himself copyist and translator into Arabic of <ref rend="bold" target="https://gedsh.bethmardutho.org/Daniel-of-Salah">
+                            <persName ref="http://syriaca.org/person/59">Daniel of
+                            Ṣalaḥ</persName>
+                        </ref>’s commentary on the Psalms and, together with his son
+                        Sergios, of several works of <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Bar-Ebroyo-Grigorios">
+                            <persName ref="http://syriaca.org/person/239">Bar ʿEbroyo</persName>
+                        </ref>. Among the
+                        <abbr>Syr. Orth.</abbr> bishops of Damascus in the next century was Grigorios Yūḥannā
+                        Niʿmat Allāh al-Ṣadadī (1754–82), the translator of the Chronicle of <ref rend="bold" target="https://gedsh.bethmardutho.org/Michael-I-Rabo">
+                            <persName ref="http://syriaca.org/person/217">Michael I Rabo</persName>
+                        </ref> into Arabic in 1759.</p>
+                    <p>The <abbr>Syr. Orth.</abbr> patriarchate was transferred from Ḥimṣ to Damascus in 1959
+                        under <abbr>Patr.</abbr> 
+                  <ref rend="bold" target="https://gedsh.bethmardutho.org/Ignatius-Yaqub-III">
+                            <persName ref="http://syriaca.org/person/545">Ignatius
+                            Yaʿqub  III</persName>
+                        </ref> (1957–80), who had previously been <abbr>metr.</abbr> of <ref rend="bold" target="https://gedsh.bethmardutho.org/Beirut">
+                            <placeName ref="http://syriaca.org/place/46">Beirut</placeName>
+                        </ref>
+                        and Damascus since 1950. The Monastery of St. Ephrem in Maʿarrat Ṣaydnāyā
+                        (approx. 35 km. north of Damascus), where the Patriarch now usually resides,
+                        was opened in 1996.</p>
+                    <p>The Syr. Catholic community in Damascus, which began to gain in numbers
+                        towards the end of the 18th <abbr>cent.</abbr>, has had the future patriarch Shemʿun Zora
+                        (<abbr>
+                            <choice>
+                                <sic>Patr.</sic>
+                                <corr>patr.</corr>
+                            </choice>
+                        </abbr> 1814–18) and the scholar <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/David-Clemens-Joseph">
+                            <persName ref="http://syriaca.org/person/442">Clemens
+                            Joseph David</persName>
+                        </ref> (<abbr>Metr.</abbr> 1879–90) among its bishops.</p>
+                    <p>The E.-Syr. see of Damascus was erected as a diaspora see in 630. It was made
+                        a metropolitan see by <ref rend="bold" target="https://gedsh.bethmardutho.org/Timotheos-I">
+                            <persName ref="http://syriaca.org/person/790">Timotheos I</persName>
+                        </ref> at
+                        the end of the 8th <abbr>cent.</abbr> and is reported to have had <ref rend="bold" target="https://gedsh.bethmardutho.org/Aleppo">
+                            <placeName ref="http://syriaca.org/place/18">Aleppo</placeName>
+                        </ref>, Jerusalem,
+                        and Egypt as its suffragans in 1007/8. It is last heard of at the end of the
+                        11th <abbr>cent.</abbr>
+                    </p>
+                    <p>Fifteen churches were left to the Christians in Damascus after the Arab
+                        conquest, among them a ‘Jacobite church’ and a ‘church of the ʿIbād’, <choice>
+                            <sic>i.e.</sic>
+                            <corr>i.e.,</corr>
+                        </choice>
+                        <abbr> E. Syr.</abbr> By the time Ibn ʿAsākir (d. 1175) wrote his ‘History of Damascus’,
+                        the original ‘Jacobite’ church, located in the southwestern part of the
+                        city, was in ruins, the two churches of the ʿIbād that he knew of, both to
+                        the east of the Umayyad Mosque, had been converted into mosques, and only
+                        two churches were in use, that of St. Mary (<hi rend="italic">Maryamiyya</hi>, present Rum Orth. cathedral) and that being used by
+                        the <abbr>Syr. Orth.</abbr>, located to the west of Bāb Tūmā. At the latest from the 17th
+                        <abbr>cent.</abbr> onwards, Mar Behnam is mentioned as the patron of the
+                        <abbr>W. Syr.</abbr> church in Damascus.</p>
+                    <p>Damascus is today the residence of <abbr>Syr. Orth.</abbr>, <abbr>Melk.</abbr> Orth. and <abbr>Melk.</abbr> Catholic
+                        patriarchs, as well as of Syr. Catholic and <abbr>Maron.</abbr> archbishops and an
+                        Armenian Catholic patriarchal vicar. The <abbr>Melk.</abbr> Orthodox constitute the
+                        largest Christian group in Damascus, followed by the <abbr>Melk.</abbr> Catholics. For
+                        the Syriacs, the reported numbers of the faithful in the respective dioceses
+                        for Damascus are: <abbr>Syr. Orth.</abbr> 25,000 (in 2003), Syr. Catholic 8,000 (in
+                        2006), <abbr>Maron.</abbr> 12,000 (in 2006). The area around Bāb Tūmā in the northeastern
+                        part of the old city has been the traditional Christian Quarter of Damascus.
+                        The <abbr>Syr. Orth.</abbr> Patriarchate, with the cathedral church of St. George, is
+                        located on the southern part of Bāb Tūmā Street. (There is an older Syr.
+                        Orth. chapel of St. George further east, on the north-south street leading
+                        to the ‘House of Ananias’). The <abbr>Maron.</abbr> cathedral (‘Assumption’ <hi rend="italic">Sayyidat al-intiqāl</hi>, also St. Antony) is found just
+                        to the north of the <abbr>Syr. Orth.</abbr> Patriarchate, while the Syr. Catholic
+                        cathedral (St. Paul) lies further south, next to the <abbr>Melk.</abbr> Catholic
+                        Patriarchate, near Bāb Sharqī.</p>
+                    <p>See <ref target="https://gedsh.bethmardutho.org/fig/39">Fig. 39</ref> and <ref target="https://gedsh.bethmardutho.org/fig/114">114</ref>.</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>A.  Desreumaux, <title rend="italic">Répertoire des
+                                bibliothèques et des catalogues de manuscrits syriaques</title>
+                            (1991), 124–28.</bibl>
+                        <bibl>N.  Elisséeff, in  <title rend="italic">EI</title>
+                            <hi rend="superscript">2</hi>, vol. 2 (1991), 277–91.</bibl>
+                        <bibl>J.-M.  Fiey, ‘Les insaisissables nestoriens de Damas’, in <title rend="italic">After Chalcedon</title>, <abbr>ed.</abbr> Laga <abbr>et al.</abbr>(<abbr>OLA</abbr> 18),
+                            167–80.</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>J.-M.  Fiey</reg>
+                        <orig>idem</orig>
+                     </choice>, <title rend="italic">Pour un Oriens christianus novus</title>,
+                            72, 187–9.</bibl>
+                        <bibl>M.  Haji-Athanasiou and K. Shihabi, <title rend="italic">Monasteries
+                                and Churches of Damascus and Countryside</title> (Damascus, 2005).
+                            (in Arabic)</bibl>
+                        <bibl>R.  Janin, in <title rend="italic">
+                                <abbr>DHGE</abbr>
+                            </title>, vol. 14, 41–7.</bibl>
+                        <bibl>D. Müller, ‘Damaskus’, in <title rend="italic">
+                                <abbr>KLCO</abbr>
+                            </title> (2007),
+                            140–1.</bibl>
+                        <bibl>J. Nasrallah, ‘Damas et la Damascène: leurs églises à l’époque
+                            Byzantine’, <title rend="italic">
+                                <abbr>POC</abbr>
+                            </title> 35 (1985), 37–58,
+                            264–76.</bibl>
+                        <bibl>M.  Rajji, ‘Jean al-Chami al-Zorbabi Ibn al-Ghoraîr, évêque syrien de
+                            Damas (XVIIe s.), traducteur-copiste’, in <title rend="italic">Mélanges
+                                Eugène Tisserant</title>, vol. 3 (<abbr>SeT</abbr> 233; 1964), 223–44.</bibl>
+                        <bibl>Wilmshurst, <title rend="italic">Ecclesiastical organisation</title>,
+                            62–65.</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Hidemi</forename> 
+                  <surname>Takahashi</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

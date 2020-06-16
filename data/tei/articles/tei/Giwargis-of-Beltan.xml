@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Giwargis of Bʿeltan</title>
+            <author>
+               <persName>
+                  <forename>Witold</forename> 
+                  <surname>Witakowski</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.5">Electronic Edition Version 1.5</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Giwargis of Bʿeltan</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Giwargis-of-Beltan</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/239</idno>
+                    <idno type="entry">230</idno>
+                    <milestone unit="pages" n="178-179"/>
+                    <idno type="subject">http://syriaca.org/person/139</idno>
+                    <note type="type">person</note>
+                    <note type="abstract">
+                        <abbr>Syr. Orth.</abbr>
+                        <abbr> 
+                     <choice>
+                                <sic>Patr.</sic>
+                                <corr>patr.</corr>
+                            </choice>
+                        </abbr> (758-89).<note/>
+                    </note>
+                </ab>
+                <ab type="infobox">(<abbr>Patr.</abbr> 758–789) [<abbr>Syr. Orth.</abbr>]</ab>
+                <div type="body">
+                    <p>
+                        <abbr>Syr. Orth.</abbr>
+                        <abbr> 
+                     <choice>
+                                <sic>Patr.</sic>
+                                <corr>patr.</corr>
+                            </choice>
+                        </abbr> (758–89). Giwargis was born in Bʿeltan, near <ref rend="bold" target="https://gedsh.bethmardutho.org/Hims">
+                            <placeName ref="http://syriaca.org/place/215">Ḥimṣ</placeName>
+                        </ref>
+                        (Emesa), perhaps in a <abbr>Melk.</abbr> family (according to a non-Syriac source [see
+                        Evetts, 413]), but apparently at a young age he turned <abbr>Syr. Orth.</abbr> He was
+                        educated in Syriac and Greek learning in the <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Qenneshre-Monastery-of">
+                            <placeName ref="http://syriaca.org/place/230">Monastery
+                            of Qenneshre</placeName>
+                        </ref>.</p>
+                    <p>After the death of <abbr>Patr.</abbr> Athanasios IV <choice>
+                            <sic>Sandaloyo</sic>
+                            <corr>Sandloyo</corr>
+                        </choice>, at the electoral synod at
+                        Mabbug in December 758, though still only a deacon, he was chosen <abbr>
+                            <choice>
+                                <sic>Patr.</sic>
+                                <corr>patr.</corr>
+                            </choice>
+                        </abbr>
+                        Mesopotamian bishops opposed his elevation and somewhat later chose Yuḥanon
+                        of the <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Qarqaphto-Monastery-of">
+                            <placeName ref="http://syriaca.org/place/229">Monastery
+                            of Qarqaphto</placeName>
+                        </ref>, <abbr>bp.</abbr> of Kallinikos/Raqqaʿ, as an anti-patriarch. The
+                        schism could have ended in 762, when Yuḥanon of Kallinikos died, but at the
+                        synod at Serugh in 764/5 the Mesopotamian bishops accepted Dawid <abbr>bp.</abbr> of Dara
+                        as the successor to the deceased anti-patriarch.</p>
+                    <p>Dawid accused Giwargis of tax irregularities, and Caliph Abū Jaʿfar ʿAbdullāh
+                        al-Manṣūr (754–75) put him in prison for nine years (767–75). After this
+                        Caliph’s death his son and successor, al-Mahdī, upon his accession in 775
+                        released Giwargis, on the condition that he was not to exercise his office
+                        or title. Eventually, in 777, he was confirmed in his office by the Muslim
+                        authorities.</p>
+                    <p>On 22 May 785 he presided over the synod in Kfar-Nabu in the region of Serugh
+                        at which 22 canons, mostly of a disciplinary nature, were passed.</p>
+                    <p>During one of his pastoral journeys, in the region of Qlaudia, he fell sick
+                        and not long thereafter he died in the year 789/790 in <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Barsawmo-Dayro-d-Mor">
+                            <placeName ref="http://syriaca.org/place/224">Dayro d-Mor
+                            Barṣawmo</placeName>
+                        </ref> near <ref rend="bold" target="https://gedsh.bethmardutho.org/Melitene">
+                            <placeName ref="http://syriaca.org/place/136">Melitene</placeName>
+                        </ref>, where he
+                        was also buried.</p>
+                    <p>During his imprisonment he is reported to have written numerous discourses
+                        and metrical homilies (<hi rend="italic">memre</hi>), not preserved, as well
+                        as an exegetical work, the ‘Commentary on the Gospel of Matthew’, which
+                        displays his knowledge of <ref rend="bold" target="https://gedsh.bethmardutho.org/John-Chrysostom">
+                            <persName ref="http://syriaca.org/person/573">John
+                            Chrysostom</persName>
+                        </ref>, the Cappadocian fathers, and <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Philoxenos-of-Mabbug">
+                            <persName ref="http://syriaca.org/person/44">Philoxenos
+                            of Mabbug</persName>
+                        </ref> (<abbr>ms.</abbr> Vat. Syr. 154, not published). He wrote also
+                        synodal letters and a letter to a deacon Guria of <ref rend="bold" target="https://gedsh.bethmardutho.org/Edessa">
+                            <placeName ref="http://syriaca.org/place/78">Edessa</placeName>
+                        </ref> (quoted by
+                            <ref rend="bold" target="https://gedsh.bethmardutho.org/Michael-I-Rabo">
+                            <persName ref="http://syriaca.org/person/217">Michael Rabo</persName>
+                        </ref>, Chronicle, vol. 3, 5–8) on the
+                        formula ‘We break the heavenly bread’, the use of which later became the
+                        subject of a long controversy.</p>
+                </div>
+                <div type="bibl">
+                    <listBibl>
+                        <listBibl>
+                            <head>Primary Sources</head>
+                            <bibl>Abbeloos and Lamy, <title rend="italic">Gregorii Barhebraei
+                                    chronicon ecclesiasticum</title>, vol. 1, col. 319–28.</bibl>
+                            <bibl>Chabot, <title rend="italic">Chronique de Michel le
+                                Syrien</title>, vol. 2, 525–9; vol. 3, 3–10.</bibl>
+                            <bibl>B.  Evetts, <title rend="italic">History of the Patriarchs of the
+                                    Coptic Church of Alexandria</title>, vol. 3. <title rend="italic">Agathon to Mikhael I (766)</title> (<abbr>PO</abbr> 5.1; 1910),
+                                255–469.</bibl>
+                            <bibl>A.  Harrak, <title rend="italic">The Chronicle of Zuqnīn, Parts
+                                    III and IV, A.D. 488–775</title> (Medieval Sources in
+                                Translation 36; 1999).</bibl>
+                            <bibl>R.  Hespel, <title rend="italic">Chronicon anonymum
+                                    pseudo-Dionysianum vulgo dictum</title> (<abbr>CSCO</abbr> 507; 1989),
+                                164–67, 176f, 190–96.</bibl>
+                            <bibl>A. Vööbus, <title rend="italic">The Synodicon in the West Syrian
+                                    Tradition</title> (<abbr>CSCO</abbr> 376; 1976), 2–7.</bibl>
+                        </listBibl>
+                        <listBibl>
+                            <head>Secondary Sources</head>
+                            <bibl>A.  Baumstark, ‘Die Evangelienexegese der syrischen Monophysiten’,
+                                    <title rend="italic">
+                                    <abbr>OC</abbr>
+                                </title> 2 (1902), 360–9.</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>A.  Baumstark</reg>
+                           <orig>idem</orig>
+                        </choice>, <title rend="italic">Literatur</title>, 269–70.</bibl>
+                            <bibl>D.  Bundy, ‘Georges de Beʿeltân’, in <title rend="italic">
+                                    <abbr>DHGE</abbr>
+                                </title>, vol. 20 (1984), col. 595–9.</bibl>
+                            <bibl>W.  Hage, <title rend="italic">Die syrisch-jakobitische Kirche in
+                                    frühislamischer Zeit</title> (1966).</bibl>
+                        </listBibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Witold</forename> 
+                  <surname>Witakowski</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Amid</title>
+            <author>
+               <persName>
+                  <forename>Hidemi</forename> 
+                  <surname>Takahashi</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.5">Electronic Edition Version 1.5</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Amid</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Amid</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/41</idno>
+                    <idno type="entry">32</idno>
+                    <milestone unit="pages" n="18-20"/>
+                    <idno type="althead">Amida</idno>
+                    <idno type="althead">Diyarbakir</idno>
+                    <idno type="althead">Omid</idno>
+                    <idno type="subject">http://syriaca.org/place/8</idno>
+                    <note type="type">place</note>
+                    <note type="abstract">City in upper <placeName ref="http://syriaca.org/place/1452">Mesopotamia</placeName>.<note/>
+                    </note>
+                </ab>
+                <ab type="infobox">Amida, Diyarbakır, Omid</ab>
+                <div type="body">
+                    <p>City in upper Mesopotamia. Situated on high ground on the right bank of the
+                        Tigris and surrounded by massive black basalt walls, which later gave it the
+                        nickname ‘Black (<hi rend="italic">kara</hi>) Amid’, Amid was by the 4th
+                        <abbr>cent.</abbr> a key point in Rome’s defence of her eastern frontiers and became the
+                        most important city in the Roman province of Mesopotamia after the cession
+                        of <ref rend="bold" target="https://gedsh.bethmardutho.org/Nisibis">
+                            <placeName ref="http://syriaca.org/place/142">Nisibis</placeName>
+                        </ref> to the Persians in 363. It was taken by the Persians in
+                        359, 503, and 606/7. After the Arab conquest in 639, it was ruled by a
+                        series of dynasties including the Kurdish Marwānids (984–1085), and the
+                        Turkmen Īnālids (1097–1183), Ḥisn Kayfā Artuqids (1183–1230) and Aq Qoyunlu
+                        (1401–1507), dynasties which at one point or another made Amid their chief
+                        seat. After being taken by the Ottomans in 1515, Amid became the
+                        administrative center of a province that covered most of northern
+                        Mesopotamia from Manzikert in the north to Sinjar in the south. It is today
+                        a provincial capital and the largest city in the Turkish part of Mesopotamia
+                        with a population of over half a million. The name Diyarbakır (Arabic <hi rend="italic">Diyār Bakr</hi>), which originally referred to the region
+                        around Amid, came to be used for the city in Ottoman times and was
+                        officially adopted in 1937, replacing the older name which goes back to
+                        Assyrian ‘Amedi’.</p>
+                    <p>Amid was evangelised at an early date, no doubt from <ref rend="bold" target="https://gedsh.bethmardutho.org/Edessa">
+                            <placeName ref="http://syriaca.org/place/78">Edessa</placeName>
+                        </ref>. The first
+                        known <abbr>bp.</abbr> of Amid, Simeon, is said in a late source to have attended the
+                        Council of Nicaea. His successors include Acacius,
+                        celebrated for his ransoming of Roman soldiers taken captive by the Persians
+                        in 423/4, as well as Asterios and Shemʿon, the only bishops from the
+                        province of Mesopotamia to attend the councils, respectively, of Ephesus and
+                        Chalcedon. The area around Amid was an important center of monasticism with
+                        five monasteries within the city by 525 (<ref rend="bold" target="https://gedsh.bethmardutho.org/Zacharias-Pseudo-">Pseudo-Zacharias</ref>, Ecclesiastical History, VIII.5). Well-known
+                        monasteries in the immediate vicinity include those of 1. the Edessenes (4th
+                        <abbr>cent.</abbr>, probably on a site just south of the city wall); 2. Yoḥannan Urṭaya
+                        (4th <abbr>cent.</abbr>, north of the city wall), where <ref rend="bold" target="https://gedsh.bethmardutho.org/Yuhanon-of-Ephesus">
+                            <persName ref="http://syriaca.org/person/74">Yuḥanon of
+                            Ephesus</persName>
+                        </ref> spent his youth; and 3. Zuqnin, the home of the <ref rend="bold" target="https://gedsh.bethmardutho.org/Zuqnin-Chronicle-of">Zuqnin Chronicle</ref>. Of importance at a later date was
+                        the Monastery of Prophet Elijah near the village of Qanqart, <abbr>ca.</abbr> 8 km.
+                        southwest of Amid (attested 11th–19th <abbr>cent.</abbr>).</p>
+                    <p>In the period after the Council of Chalcedon, Amid was a Miaphysite
+                        stronghold, and <abbr>Bp.</abbr> Mara of Amid was one of those bps. expelled from their
+                        sees under Emperor Justin I. After a period of persecution for the
+                        Miaphysites under the Chalcedonian <abbr>Bp.</abbr> Abraham bar Kaili, a line of
+                        Miaphysite bishops was reestablished with the consecration of Eunomius in
+                        <abbr>ca.</abbr> 546. Among the later occupants of the see was <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Dionysios-bar-Salibi">
+                            <persName ref="http://syriaca.org/person/212">Dionysios
+                            bar Ṣalibi</persName>
+                        </ref>. Amid has been the seat of the <abbr>Syr. Orth.</abbr> patriarchs on
+                        several occasions, including a period in the 11th <abbr>cent.</abbr> after Dionysios IV
+                        (1032–42) took refuge in the then Marwānid city to escape persecution in
+                        Byzantine <ref rend="bold" target="https://gedsh.bethmardutho.org/Melitene">
+                            <placeName ref="http://syriaca.org/place/136">Melitene</placeName>
+                        </ref>, during the tenure of Ignatius <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Abdullah-I-bar-Stephanos">
+                            <persName ref="http://syriaca.org/person/312">ʿAbdullāh I bar Sṭephanos</persName>
+                        </ref> (1521– 1557), and in 1862–71 when
+                        Ignatius Yaʿqub II (1847–1871) took up residence in the Yoldat Aloho Church
+                        in the wake of disturbances in <ref rend="bold" target="https://gedsh.bethmardutho.org/Mardin">
+                            <placeName ref="http://syriaca.org/place/130">Mardin</placeName>
+                        </ref>. The Syr.
+                        Orth. see of Amid lapsed with the demise of <abbr>Metr.</abbr> Dionysios ʿAbd al-Nūr
+                        Aslan in 1933.</p>
+                    <p>The presence of E.-Syr. Christians in Amid is suggested by the inclusion of
+                        ‘Amid’ in the titles of bishops of Maypherqaṭ from the 12th <abbr>cent.</abbr> onwards.
+                        The first <abbr>Chald.</abbr> patriarch, <ref rend="bold" target="https://gedsh.bethmardutho.org/Yohannan-Sullaqa">
+                            <persName ref="http://syriaca.org/person/829">Yoḥannan
+                            Sullaqa</persName>
+                        </ref>, resided in Amid after his return from Rome in 1553.
+                        Later, Amid became the residence of a new line of <abbr>Chald.</abbr> patriarchs from
+                        Yawsep I (1681–96) to Yawsep V (Augustin Hindi, 1781–1828). The <abbr>Chald.</abbr> see
+                        of Diyarbakır, vacant after 1923, was revived in name in 1966, with
+                        residence, however, in Istanbul and jurisdiction over the whole of Turkey
+                        (vacant since 2005 as of going to press).</p>
+                    <p>Syriac Christians originally constituted the majority of the Christian
+                        population, but came to be outnumbered by the Armenians under Ottoman rule.
+                        The Melkite community, which had been Syriac-speaking in pre-Islamic times,
+                        dwindled after the Arab conquest, but was reinforced by migrants from <ref rend="bold" target="https://gedsh.bethmardutho.org/Aleppo">
+                            <placeName ref="http://syriaca.org/place/18">Aleppo</placeName>
+                        </ref>
+                        in the 17th <abbr>cent.</abbr> According to a census conducted in 1870, the city had a
+                        population of 21,372, with 9,814 Muslims, 6,853 Armenian Orth., 831 Armenian
+                        Catholics, 1,434 <abbr>Syr. Orth.</abbr>, 174 Syr. Catholics, 976 <abbr>Chald.</abbr>, 305 <abbr>Melk.</abbr>
+                        Orth., 55 <abbr>Melk.</abbr> Catholics, 650 Protestants and 280 Jews. In 1908, <ref rend="bold" target="https://gedsh.bethmardutho.org/Faiq-Naum">
+                            <persName ref="http://syriaca.org/person/304">Naʿʿūm
+                            Fāʾiq</persName>
+                        </ref> published there the first number of his journal <hi rend="italic">Kawkbo d-madnḥo</hi>. In 1914, the Syriac population of
+                        the city is reported to have stood at 8,000, and that of the thirty or so
+                        nearby villages (including Kaʿbiya, Sharukhiya, Qarabash, Quṭurbul, ʿAyn
+                        Tannūr/Ali Pınar) at 6,450. Though greatly diminished by the massacres
+                        during the First World War, a sizeable Christian community remained until
+                        relatively recently, with the <abbr>Syr. Orth.</abbr> community still numbering nearly
+                        1,000 individuals in the early <choice>
+                            <sic>1960’s</sic>
+                            <corr>1960s</corr>
+                        </choice>. In 2005, the city had one resident
+                        <abbr>Syr. Orth.</abbr> priest and 7 <abbr>Syr. Orth.</abbr>, 2 <abbr>Chald.</abbr>, and 2 Armenian families.</p>
+                    <p>Of the older churches in the city, two, both of them former patriarchal
+                        residences, remain in regular use: 1. Yoldat Aloho (<abbr>Syr. Orth.</abbr>, in Lāle Bey
+                        Quarter, in the southwest section of the old city, 3rd/6th <abbr>cent.</abbr>?), with the
+                        main church of Yoldat Aloho and that of Mor Yaʿqub adjoining it to the north
+                        and housing the relics of <ref rend="bold" target="https://gedsh.bethmardutho.org/Yaqub-of-Serugh">
+                            <persName ref="http://syriaca.org/person/42">Yaʿqub of
+                            Serugh</persName>
+                        </ref>; 2. Mar Petion (Chald., in Özdemir Quarter, east of main
+                        crossroads). (An Evangelical church opened opposite Yoldat Aloho in 2003).
+                        Still in situ are: St. George’s (in the citadel, 4th <abbr>cent.</abbr>?), Latin
+                        (Capuchin, in northeast section of old city, 17th <abbr>cent.</abbr>), Protestant
+                        (southeast) and Armenian Catholic (southeast) churches, as well as the
+                        Armenian Orth. churches of Surp Giragos (adjoining Mar Petion to the east,
+                        16th <abbr>cent.</abbr>) and Surp Sarkis (southwest, 16th <abbr>cent.</abbr>) and chapel of Surp
+                        Hagop. Two churches were demolished in the 20th <abbr>cent.</abbr>: 1. Cosmas and Damian
+                        (east of Yoldat Aloho, 4th <abbr>cent.</abbr>?, <abbr>Melk.</abbr> in modern period); 2. the Syr.
+                        <abbr>Cath.</abbr> Church (northeast, 7th <abbr>cent.</abbr>?). Among the churches mentioned in
+                        historical records, the one built by Emperor Heraclius in 628/9 was probably
+                        a <abbr>Syr. Orth.</abbr> Church, which is to be distinguished from the <abbr>Melk.</abbr> church
+                        (called St. Thomas?) occupying the site of the present Great Mosque (see
+                        Palmer). Other known churches (some of them possibly identical with those
+                        already mentioned) include: St. John the Baptist (place of burial, in
+                        649/50, of <abbr>Bp.</abbr> Yuḥanon of the Arabs), St. Stephen (converted to fire temple
+                        in 503), Mor Zʿuro (near Urfa Gate, before 503; burial place, in 649/50, of
+                        <abbr>Patr. </abbr>
+                        <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Yuhanon-of-the-Sedre">
+                            <persName ref="http://syriaca.org/person/92">Yuḥanon of
+                            the Sedre</persName>
+                        </ref> and Shemʿun of Edessa), Mor Shilo (built by <abbr>Bp.</abbr> Mara <abbr>ca.</abbr>
+                        520), St. Theodore (northeast, Armenian in 16th <abbr>cent.</abbr>) and Mor Ḥananyo
+                        (southeast?). Kırklar Dağı ‘Hill of the Forty’, to the south of the city, is
+                        probably the site of the Church of the Forty Martyrs built by Yuḥanon Soʿuro
+                        of Qarṭmin (<abbr>bp.</abbr> of Amid 483/4–502), who was responsible also for the
+                        construction of the nearby Tigris bridge.</p>
+                    <p>See <ref target="https://gedsh.bethmardutho.org/fig/5">Fig. 5</ref>.</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>G.  Akyüz, <title rend="italic">Diyarbakır’daki Meryem Ana
+                                Kilisesi’nin tarihçesi</title> (Mardin, 1999).</bibl>
+                        <bibl>G.  Bell (and M. M.  Mango), <title rend="italic">The churches and
+                                monasteries of the Ṭur ʿAbdin</title> (1982), 23–6, 66–9, 105–9, pl.
+                            9–30.</bibl>
+                        <bibl>Desreumaux, <title rend="italic">Répertoire des bibliothèques</title>,
+                            128–31.</bibl>
+                        <bibl>M.  Canard <abbr>et al.</abbr>, in <title rend="italic">EI</title>
+                            <hi rend="superscript">2</hi>, vol. 2, 343–47. (s.v. ‘Diyār Bakr’)</bibl>
+                        <bibl>Fiey, <title rend="italic">Pour un Oriens christianus novus</title>,
+                            49–50, 162–4.</bibl>
+                        <bibl>D. Gaunt, <title rend="italic">Massacres, resistance, protectors:
+                                Muslim-Christian relations in Eastern Anatolia during World War
+                                I</title> (2006).</bibl>
+                        <bibl>A.  Günel, <title rend="italic">Türk Süryaniler tarihi</title>
+                            (Diyarbakır, 1970).</bibl>
+                        <bibl>B. Ḥ.  Īliyā, <title rend="italic">Āmid. Madīnat al-fakhr</title>
+                            (Aleppo, 2008).</bibl>
+                        <bibl>C.  Karalewsky and Fr.  Tournebidze, in <title rend="italic">
+                                <abbr>DHGE</abbr>
+                            </title>, vol. 2, 1237–1249.</bibl>
+                        <bibl>H.  Kaufhold, ‘Amid’, in <title rend="italic">
+                                <abbr>KLCO</abbr>
+                            </title>, 18.</bibl>
+                        <bibl>A.  Palmer, ‘Āmīd in the seventh-century Syriac Life of Theodūṭē’, in
+                                <title rend="italic">The encounter of early Christianity with
+                                Islam</title>, <abbr>ed.</abbr> E. Grypeou <abbr>et al.</abbr> (2006), 111–38.</bibl>
+                        <bibl>M. Şimşek, <title rend="italic">Süryaniler ve Diyarbakır</title>
+                            (Istanbul, 2003).</bibl>
+                        <bibl>T. A.  Sinclair, <title rend="italic">Eastern Turkey: an architectural
+                                and archaeological survey</title>, vol. 3 (1989–90), 164–95, esp.
+                            184–6, 189–90.</bibl>
+                        <bibl>O. C.  Tuncer, <title rend="italic">Diyarbakır kiliseleri</title>
+                            (Diyarbakır, 2002).</bibl>
+                        <bibl>Wilmshurst, <title rend="italic">Ecclesiastical organisation</title>,
+                            49–60.</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Hidemi</forename> 
+                  <surname>Takahashi</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

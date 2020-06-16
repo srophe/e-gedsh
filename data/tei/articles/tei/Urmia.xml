@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Urmia</title>
+            <author>
+               <persName>
+                  <forename>Heleen L.</forename> 
+                  <surname>Murre-van den Berg</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.5">Electronic Edition Version 1.5</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Urmia</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Urmia</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/577</idno>
+                    <idno type="entry">568</idno>
+                    <milestone unit="pages" n="422"/>
+                    <idno type="subject">http://syriaca.org/place/206</idno>
+                    <note type="type">place</note>
+                    <note type="abstract">A city in northwest Iran, west
+                        of Lake Urmia; center of western missionary activity from the 19th century.
+                    </note>
+                </ab>
+                <div type="body">
+                    <p>Urmia (Urūmiyya, Rīzāya), a city in northwest Iran, west of Lake Urmia, is
+                        first mentioned in E.-Syr. sources in 1111, whereas the mentioning of
+                        bishops in Azerbaijan (Hoshaʿ of Ganzak in 486, Ḥenanishoʿ in 605), testify
+                        to earlier presence of the <abbr>Ch. of E.</abbr> in this region. In 1284, the <abbr>Ch. of E.</abbr>
+                        <abbr>Patr.</abbr>, Mar <ref rend="bold" target="https://gedsh.bethmardutho.org/Yahbalaha-III">
+                            <persName ref="http://syriaca.org/person/810">Yahbalaha
+                        III</persName>
+                        </ref>, reportedly visited the Church of Mart Maryam in Urmia and dreamt
+                        about the imminent death of Khan Ahmad. From the 16th <abbr>cent.</abbr> onwards, bishops
+                        of Urmia are attested regularly in both western and eastern sources. In the
+                        19th <abbr>cent.</abbr>, the town became the center of western missionary activities in
+                        the region: Presbyterian missionaries of the American Board (1835), Roman
+                        Catholic Lazarist missionaries (1841), Lutherans (1881), Anglicans (1886),
+                        and Russian Orthodox (1897). Their activities contributed to the growth of
+                        Catholicism and the birth of an Assyrian Protestant (Evangelical) Church in
+                        the region, as well as to the strengthening of both the <abbr>Ch. of E.</abbr>’s and the
+                        new churches’ educational and clerical programs. In addition, the American
+                        mission press initiated the publication of both Classical Syriac and
+                        Neo-Aramaic texts, among which the first vernacular Bible translations in
+                        1846 (<abbr>NT</abbr>) and 1852 (<abbr>OT</abbr>) and the first magazine, <hi rend="italic">Zahrire
+                            d-Bahrā</hi> (‘Rays of Light’), in 1849. Towards the end of the
+                        19th  cent., Urmia witnessed the birth of <ref rend="bold" target="https://gedsh.bethmardutho.org/Assyrians">Assyrian</ref>
+                        nationalism. During the First World War, when the region’s Christians were
+                        under attack from Kurds and Turks, many found refuge in the missionary
+                        compounds. In 1918, however, the massive flight from Urmia towards the
+                        English in northern Iraq, cost many lives. After the war, Assyrian
+                        Christians returned to Urmia, and whereas most of the villages in the region
+                        were lost to the Christian population, the town itself remained an important
+                        center of Assyrian Christians of all denominations in Iran.</p>
+                    <p>See <ref target="https://gedsh.bethmardutho.org/fig/99">Fig. 99</ref>, <ref target="https://gedsh.bethmardutho.org/fig/125">125</ref>, and <ref target="https://gedsh.bethmardutho.org/fig/126">126</ref>.</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>J. F.  Coakley, <title rend="italic">The Church of the East and
+                                the Church of England</title> (1992).</bibl>
+                        <bibl>Fiey, <title rend="italic">Pour un Oriens christianus novus</title>,
+                            141–42 and 279.</bibl>
+                        <bibl>H. L.  Murre-van den Berg, <title rend="italic">From a spoken to a
+                                written language. The introduction and development of Literary Urmia
+                                Aramaic in the nineteenth century</title> (De Goeje Fund 28,
+                            1999).</bibl>
+                        <bibl>Wilmshurst, <title rend="italic">Ecclesiastical
+                            organisation</title>.</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Heleen L.</forename> 
+                  <surname>Murre-van den Berg</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

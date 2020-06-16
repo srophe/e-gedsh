@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Athanasios I Gamolo</title>
+            <author>
+               <persName>
+                  <forename>Jack B.</forename> 
+                  <surname>Tannous</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.5">Electronic Edition Version 1.5</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Athanasios I Gamolo</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Athanasios-I-Gamolo</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/67</idno>
+                    <idno type="entry">58</idno>
+                    <milestone unit="pages" n="45-46"/>
+                    <idno type="subject">http://syriaca.org/person/88</idno>
+                    <note type="type">person</note>
+                    <note type="abstract">Long-serving <abbr>
+                            <choice>
+                                <sic>Patr.</sic>
+                                <corr>patr.</corr>
+                            </choice>
+                        </abbr> of the <abbr>Syr. Orth.</abbr> Church in the late
+                        6th and early 7th <abbr>cent.</abbr>
+                        <note/>
+                    </note>
+                </ab>
+                <ab type="infobox">(d. 631) [<abbr>Syr. Orth.</abbr>]</ab>
+                <div type="body">
+                    <p>Long-serving <abbr>
+                            <choice>
+                                <sic>Patr.</sic>
+                                <corr>patr.</corr>
+                            </choice>
+                        </abbr> of the <abbr>Syr. Orth.</abbr> Church in the late 6th and early 7th
+                        <abbr>cent.</abbr> His consecration is commonly dated to 594 or 595, but there is
+                        confusion in the sources as to the exact date: medieval and modern authors
+                        have also suggested 587, 597, and 603 as possibilities. All sources agree
+                        that Athanasios died in 631 and one gives 28 July as the precise day (<hi rend="italic">Chronica Minora</hi>, vol. 2, <abbr>ed.</abbr> E. W. Brooks, p.
+                        144).</p>
+                    <p>Athanasios was ordained <abbr>
+                            <choice>
+                                <sic>Patr.</sic>
+                                <corr>patr.</corr>
+                            </choice>
+                        </abbr> against his will. Afterwards, his bishops
+                        agreed to allow him to return to his monastery for a year to complete the
+                        task which had been assigned him there: tending camels. When the bishops
+                        came to collect Athanasios a year later, they found him working in a mud
+                        pit, helping to patch up a camel stable. This association with camels earned
+                        him the epithet <hi rend="italic">Gamolo</hi> ‘Camel Driver.’</p>
+                    <p>Athanasios’s patriarchate spanned a tumultuous period in the history of the
+                        Near East: the Byzantine-Persian wars of the early 7th <abbr>cent.</abbr> Most of
+                        Athanasios’s actions recorded in historical sources relate to his
+                        confronting the implications for the church of changing political orders; in
+                        the course of his service he dealt either directly or indirectly with both
+                        Byzantine and Persian rulers.</p>
+                    <p>Athanasios is credited with reorganizing the structure of the <abbr>Syr. Orth.</abbr>
+                        Church in the Persian Empire. He appointed bishops there and gave <ref rend="bold" target="https://gedsh.bethmardutho.org/Matay-Dayro-d-Mor">
+                            <persName ref="http://syriaca.org/person/227">Dayro d-Mor Matay</persName>
+                        </ref> primacy over all other monasteries in the
+                        Persian Empire.</p>
+                    <p>In perhaps 629–30, Athanasios, along with twelve bishops, met with the
+                        Emperor Heraclius for twelve days in Mabbug and held theological
+                        discussions. When they ultimately refused to accept the Council of
+                        Chalcedon, Heraclius became enraged and unleashed a persecution on
+                        Miaphysites throughout the Empire.</p>
+                    <p>In either 610 or 616, Athanasios and Anastasius, the Miaphysite <abbr>
+                            <choice>
+                                <sic>Patr.</sic>
+                                <corr>patr.</corr>
+                            </choice>
+                        </abbr> of
+                        Alexandria, ended the Tritheist <choice>
+                            <sic>Schism</sic>
+                            <corr>schism</corr>
+                        </choice> which had divided the two churches
+                        since the late 6th-cent. dispute between Damian and <ref rend="bold" target="https://gedsh.bethmardutho.org/Peter-of-Kallinikos">
+                            <persName ref="http://syriaca.org/person/75">Peter of
+                            Kallinikos</persName>
+                        </ref>.</p>
+                    <p>The ‘Conflict of Severus’ (<abbr>PO</abbr> 4 and <abbr>PO</abbr> 49.4), which exists in Coptic
+                        fragments as well as in Arabic and Ethiopic, is the only stand-alone work of
+                        Athanasios which survives. His other extant works are all to be found
+                        embedded in the Chronicle of <ref rend="bold" target="https://gedsh.bethmardutho.org/Michael-I-Rabo">
+                            <persName ref="http://syriaca.org/person/217">Michael Rabo</persName>
+                        </ref>. They
+                        include: a letter of Athanasios to Quryaqos of <ref rend="bold" target="https://gedsh.bethmardutho.org/Amid">
+                            <placeName ref="http://syriaca.org/place/8">Amid</placeName>
+                        </ref> (vol. 2, 381–94;
+                        vol. 4, 392–9); the synodicon established by Athanasios and Anastasios,
+                        <abbr>
+                            <choice>
+                                <sic>Patr.</sic>
+                                <corr>patr.</corr>
+                            </choice>
+                        </abbr> of Alexandria, ending the Tritheist schism (vol.  2, 381–93; vol. 4,
+                        392–9); an encyclical of Athanasios to the bps. of the East (vol.  2, 394–9;
+                        vol. 4, 400–2); a <hi rend="italic">libellus</hi> of Athanasios to Heraclius
+                        (vol. 2, 405–8; vol. 4, 404–8); and a letter to the <choice>
+                            <sic>Monks</sic>
+                            <corr>monks</corr>
+                        </choice> of Mor Matay (vol.
+                        2, 414–7; vol.  4, 411–3).</p>
+                    <p>After his death in 631, Athanasios was succeeded as <abbr>
+                            <choice>
+                                <sic>Patr.</sic>
+                                <corr>patr.</corr>
+                            </choice>
+                        </abbr> by his synkellos,
+                            <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Yuhanon-of-the-Sedre">
+                            <persName ref="http://syriaca.org/person/92">Yuḥanon of
+                            the Sedre</persName>
+                        </ref>.</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>Abbeloos and Lamy, <title rend="italic">Gregorii Barhebraei
+                                chronicon ecclesiasticum</title>, vol. 1, cols. 262–75.</bibl>
+                        <bibl>Chabot, <title rend="italic">Chronique de Michel le Syrien</title>,
+                            vol. 2/4, 379–81/389–92; 375–7/387–9; 399/402; 401–3/403–4;
+                            411–4/408–10; 419/14.</bibl>
+                        <bibl>B. Flusin, ‘Église monophysite et église chalcédonienne en Syrie à
+                            l’arrivée des Arabes’, in <title rend="italic">Cristianità d’Occidente e
+                                Cristianità d’Oriente (Secoli VI–XI)</title>, vol. 1 (2004),
+                            667–705.</bibl>
+                        <bibl>E. J. Goodspeed and W. E. Crum, <title rend="italic">The Conflict of
+                                Severus, patriarch of Antioch, by Athanasius</title> (<abbr>PO</abbr> 4.6; 1909).
+                            (Ethiopic and Coptic with <abbr>ET</abbr>)</bibl>
+                        <bibl>A.  Scher, <title rend="italic">Histoire nestorienne inédite
+                                (Chronique de Séert)</title>, part 2 (<abbr>PO</abbr> 13; 1919), 542–5,
+                            634.</bibl>
+                        <bibl>Y. N. Youssef, <title rend="italic">The Arabic Life of Severus of
+                                Antioch attributed to Athanasius of Antioch</title> (<abbr>PO</abbr> 49.4; 2004)
+                            (Arabic with <abbr>ET</abbr>).</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Jack B.</forename> 
+                  <surname>Tannous</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

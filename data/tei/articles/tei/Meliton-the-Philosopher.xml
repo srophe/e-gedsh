@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Meliton the Philosopher</title>
+            <author>
+               <persName>
+                  <forename>Lucas</forename> 
+                  <surname>Van Rompay</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.5">Electronic Edition Version 1.5</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Meliton the Philosopher</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Meliton-the-Philosopher</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/377</idno>
+                    <idno type="entry">368</idno>
+                    <milestone unit="pages" n="284-285"/>
+                    <idno type="subject">http://syriaca.org/person/631</idno>
+                    <note type="type">person</note>
+                    <note type="abstract">Presumed author of a short ‘Oration
+                            (<foreign rend="italic" xml:lang="en-x-gedsh">memrā</foreign>) before
+                        Antoninus Caesar’, preserved in <abbr>ms.</abbr> Brit. Libr. Add 14,658, the same <abbr>ms.</abbr>
+                        which also is our sole witness for the ‘Book of the laws of the countries’
+                        associated with Bardaiṣan and for the ‘Letter of Mara bar Serapion’. <note/>
+                    </note>
+                </ab>
+                <ab type="infobox">(2nd or 3rd <abbr>cent.</abbr>)</ab>
+                <div type="body">
+                    <p>Meliton is the presumed author of a short ‘Oration (<hi rend="italic">memrā</hi>) before Antoninus Caesar’, preserved in <abbr>ms.</abbr> Brit. Libr. Add
+                        14,658, the same <abbr>ms.</abbr> which also is our sole witness for the ‘Book of the
+                        laws of the countries’ associated with <ref rend="bold" target="https://gedsh.bethmardutho.org/Bardaisan">
+                            <persName ref="http://syriaca.org/person/3">Bardaiṣan</persName>
+                        </ref> and for
+                        the ‘Letter of <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Mara-bar-Serapion-Letter-of">Mara bar Serapion</ref>’. Whether this
+                        Meliton is the 2nd-cent. <abbr>bp.</abbr> Meliton of Sardis (Asia Minor), to whom <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Eusebius-of-Caesarea">
+                            <persName ref="http://syriaca.org/person/480">Eusebius of Caesarea</persName>
+                        </ref> (Ecclesiastical History, IV, 26, 3 and 5–11)
+                        attributes, among other works, an apology addressed to the emperor Marcus
+                        Aurelius (<abbr>r.</abbr> 161–80) remains uncertain. Eusebius’s quotations from the
+                        apology do not match the Syriac work. We may, therefore, be dealing with a
+                        different work by the same author, or with a different Meliton, or the
+                        author may have used a pseudonym.</p>
+                    <p>The author strongly argues in favor of monotheism and rejects polytheism,
+                        which he sees as an outgrowth of the veneration of heroic men. Freewill
+                        enables man to discover the truth of the one God and to acquire eternal
+                        life. Once enlightened himself, the emperor is expected to lead his people
+                        out of error. At the end of time there will be a ‘flood of fire’ (<hi rend="italic">māmolā d-nurā</hi>) from which, just as from the earlier
+                        ‘flood of water’, only the righteous will be saved. In spite of a few
+                        biblical references, the religious message is that of monotheism, without
+                        any mention being made of Christianity or Judaism.</p>
+                    <p>If the work indeed was an oration, the addressee may have been either Marcus
+                        Aurelius or Caracalla (<abbr>r.</abbr>  198–217), both named ‘Antoninus’, and the
+                        existence of a Greek original must then be assumed. However, the author may
+                        have adopted the genre of the apologetic oration. The work may then belong
+                        to a slightly later period and possibly have been written in Syriac,
+                        originating from Syria or Mesopotamia, perhaps from the city of Mabbug,
+                        about whose early pagan cults the author seems to have been well
+                        informed.</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>W.  Cureton, <title rend="italic">Spicilegium Syriacum</title>
+                            (1855), 22–31 (Syr.), 41–51 (<abbr>ET</abbr>), 85–95 (notes).</bibl>
+                        <bibl>H. J. W.  Drijvers, <title rend="italic">Cults and beliefs at
+                                Edessa</title> (1980), 35–6.</bibl>
+                        <bibl>Millar, <title rend="italic">Roman Near East</title>, 477–78.</bibl>
+                        <bibl>I. Ramelli, ‘L’apologia siriaca di Melitone ad «Antonino Cesare»:
+                            osservazioni e traduzione’, <title rend="italic">
+                                <abbr>VetChr</abbr>
+                            </title> 36
+                            (1999), 259–86.</bibl>
+                        <bibl>J.  Vermander, ‘La parution de l’ouvrage de Celse et la datation de
+                            quelques apologies’, <title rend="italic">Revue des études
+                                augustiniennes</title> 18 (1972), 27–42, esp. 33–6.</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Lucas</forename> 
+                  <surname>Van Rompay</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

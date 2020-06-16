@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Papyri, Syriac</title>
+            <author>
+               <persName>
+                  <forename>Aaron M.</forename> 
+                  <surname>Butts</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.5">Electronic Edition Version 1.5</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Papyri, Syriac</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Papyri-Syriac</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/422</idno>
+                    <idno type="entry">413</idno>
+                    <milestone unit="pages" n="320-322"/>
+                    <idno type="althead" subtype="altorder">Syriac Papyri</idno>
+                    <note type="type">subject</note>
+                    <note type="abstract">Throughout its long history, the Syriac language has been written on a variety of different
+                        mediums, including (though rarely) papyrus.
+                    </note>
+                </ab>
+                <div type="body">
+                    <p>Throughout its long history (more than two millennia), the <ref rend="bold" target="https://gedsh.bethmardutho.org/Syriac-Language">Syriac language</ref> has been written on a variety of different
+                        mediums. The two most common are parchment for the early period and paper
+                        for the later period (see <ref rend="bold" target="https://gedsh.bethmardutho.org/Manuscripts">Manuscripts</ref>).
+                        Syriac has, however, also been set in tile mosaic, inked onto stoneware, and
+                        incised into stone, wood, and metal. In addition, Syriac has occasionally
+                        been written on papyrus.</p>
+                    <p>The earliest surviving example of Syriac written on papyrus is associated
+                        with the three 3rd-cent. Syriac parchments (see <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Old-Syriac-documents">Old Syriac
+                            documents</ref>). While all three of these documents are parchments, the
+                        two from the Middle Euphrates region were found with a cache of Greek texts,
+                        some of which are papyri. On two of these papyri (viz. P. Euphrates 3 and
+                        4), the following writing in Syriac occurs after the Greek text of the
+                        petition: <hi rend="italic">ʾwrls ʿbšwṭʾ ktbt</hi> ‘I, PN, sign’ (<abbr>ed.</abbr> Feissel
+                        and Gascou, 94–107).</p>
+                    <p>The only Syriac documentary text written on papyrus that has yet been edited
+                        is a partially-preserved letter possibly from the 7th <abbr>cent.</abbr> (P. Berol. Inv.
+                        8285; <abbr>ed.</abbr> Brashear 96–100 with pl. XIII; important corrections in Brock
+                        1999). Though the context of the text is not entirely clear due to its state
+                        of preservation, the writer of the letter seems to be a person in authority
+                        who is addressing an inferior. The text is written in a cursive <ref rend="bold" target="https://gedsh.bethmardutho.org/Script-Syriac">script</ref> similar to Serṭo.</p>
+                    <p>In addition to documentary texts, literary texts were also written in Syriac
+                        on papyrus. In 1985, J.-M. Sauget published a single folio of a papyrus
+                        fragment conserved in Florence (PSI Inv. 3020). This fragment, which he
+                        dated to the 9th <abbr>cent.</abbr>, contains a section of the <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Didascalia-Apostolorum">Didascalia
+                            Apostolorum</ref>. In 1995, S. P. Brock identified an additional papyrus
+                        folio of the same text in the Schøyen collection (no. 1644/1; <abbr>ed.</abbr> Brock
+                        1995, 9–14). At one time, these two folios, which follow one another
+                        sequentially, must have belonged to a single papyrus <abbr>ms.</abbr> In addition to the
+                        Didascalia Apostolorum, the Schøyen fragment also contains a text by a
+                        certain Mar Yoʾanis, who may possibly be <ref rend="bold" target="https://gedsh.bethmardutho.org/John-Chrysostom">
+                            <persName ref="http://syriaca.org/person/573">John
+                            Chrysostom</persName>
+                        </ref>.</p>
+                    <p>An additional fragmentary Syriac papyrus is found among the holdings of the
+                        Schøyen collection (no. 1644/2; <abbr>ed.</abbr> Brock 1995, 18–22). This fragment, which
+                        again may date from the 9th <abbr>cent.</abbr>, contains the <ref rend="bold" target="https://gedsh.bethmardutho.org/Peshitta">Peshitta</ref> version
+                        of Acts 8:40–9:14 (recto) and Acts 9:16–9:27 (verso).</p>
+                    <p>Among the many textual finds from Kellis in the Dakhla Oasis are several
+                        Manichaean Syriac papyri, now labeled P. KellisSyr. 1, which almost
+                        certainly consists of three distinct papyri (<abbr>ed.</abbr> in Gardner, vol. 1, 127–8
+                        with pl. 19), and P. KellisSyr. 2 (<abbr>ed.</abbr> in Gardner, vol. 2, 136–137 with pl.
+                        38). According to the editors, these papyri are probably literary, but their
+                        current fragmentary state mitigates any further description or
+                        identification. In addition to these monolingual Syriac papyri, a personal
+                        name is written in Syriac on the verso of a Greek letter on papyrus from
+                        Kellis (P. KellisGr. 67; see Gardner 2007). Along with the Syriac-Coptic
+                        glossaries on wood boards, these Syriac papyri — and the Syriac address on a
+                        Greek papyrus — point to the use of Syriac in the Manichaean community at
+                        Kellis.</p>
+                    <p>In addition to these texts, which have been edited, a number of other Syriac
+                        papyri are known to exist. In 1975, <abbr>ca.</abbr> 50 Syriac papyrus fragments were
+                        found at the <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Catherine-Monastery-of-St">
+                            <placeName ref="http://syriaca.org/place/368">Monastery of St. Catherine</placeName>
+                        </ref> (see
+                        Digbassanis). Most of the papyri are said to date from the 5th–7th <abbr>cent.</abbr>,
+                        and at least two contain sections of the <abbr>OT</abbr>. In 1998, a number of Syriac
+                        papyrus fragments were found at <ref rend="bold" target="https://gedsh.bethmardutho.org/al-Suryan-Dayr">
+                            <placeName ref="http://syriaca.org/place/360">Dayr
+                            al-Suryān</placeName>
+                        </ref> in Egypt, a monastery which is well-known for having
+                        provided a large number of early Syriac <abbr>mss.</abbr> According to Bigoul el-Souriany
+                        and Van Rompay, the Dayr al-Suryān papyrus fragments most likely come from a
+                        codex that contained an as of yet unidentified ascetical text. Based on
+                        paleography, a <choice>
+                            <sic>9th </sic>
+                            <corr>9th-</corr>
+                        </choice>
+                        <abbr>cent.</abbr> date has been tentatively suggested, though a
+                        (slightly) earlier date cannot be ruled out. Alongside these two larger
+                        caches, a few Syriac papyri are also said to be found in collections in
+                        Oxford (Bodleian Library), Vienna, Heidelberg, and Cheltenham (for full
+                        references, see Brashear, 91 n. 24).</p>
+                    <p>While their number pales in comparison to the thousands of Syriac texts on
+                        parchment and paper, the Syriac papyri add yet a further dimension to Syriac
+                        language and writing. The Syriac papyri also speak directly to Syriac’s
+                        continuity with the earlier <ref rend="bold" target="https://gedsh.bethmardutho.org/Aramaic">Aramaic</ref> heritage.
+                        Aramaic papyri survive from as early as the mid-6th cent. BC. The Syriac
+                        papyri then represent the last stage of a long tradition of writing Aramaic
+                        on papyrus.</p>
+                    <p>See <ref target="https://gedsh.bethmardutho.org/fig/96">Fig. 96</ref>.</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>W. M.  Brashear, ‘Syriaca’, <title rend="italic">Archiv für
+                                Papyrusforschung</title> 44 (1998), 86–127 with pl. XIII.</bibl>
+                        <bibl>S. P.  Brock, ‘Two Syriac papyrus fragments from the Schøyen
+                            Collection’, <title rend="italic">
+                                <abbr>OC</abbr>
+                            </title> 79 (1995), 9–22.</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>S. P.  Brock</reg>
+                        <orig>idem</orig>
+                     </choice>, ‘A Syriac Letter on Papyrus: P.Berol.Inv.8285,’ <title rend="italic">
+                                <abbr>Hugoye</abbr>
+                            </title> 2.2 (1999).</bibl>
+                        <bibl>D.  Digbassanis, ‘The Sinai Papyri’, in <title rend="italic">Proceedings of the XVIII  International Congress of Papyrology.
+                                Athens, 25–31 May 1986</title> (1988), vol. 1, 71–90.</bibl>
+                        <bibl>D. Feissel and J. Gascou, ‘Documents d’archives romains inédits du
+                            Moyen Euphrate (III<hi rend="superscript">e</hi> s. après J.-C.). I. Les
+                            pétitions (P. Euphr. 1 à 5)’, <title rend="italic">Journal des
+                                Savants</title> 1995, 65–119.</bibl>
+                        <bibl>I.  Gardner, <title rend="italic">Kellis Literary Texts</title>, 1–2
+                            (Dakhleh Oasis Project 4, 15; 1996, 2007).</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>I.  Gardner</reg>
+                        <orig>idem</orig>
+                     </choice>, ‘P. Kellis I 67 revisited’, <title rend="italic">
+                                <abbr>ZPE</abbr>
+                            </title> 159
+                            (2007), 223–8. (includes plate)</bibl>
+                        <bibl>J.-M.  Sauget, ‘Le fragment de papyrus syriaque conservé à Florence’,
+                                <title rend="italic">
+                                <abbr>AION</abbr>
+                            </title> 45 (1985), 1–16 with 2
+                            plates.</bibl>
+                        <bibl>Bigoul el-Souriany and L. Van Rompay, ‘Syriac papyrus fragments
+                            recently discovered in Deir al-Surian (Egypt)’, <title rend="italic">
+                                <abbr>Hugoye</abbr>
+                            </title> 4.1 (2001). (includes several images)</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Aaron M.</forename> 
+                  <surname>Butts</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Behnam, Dayro d-Mor</title>
+            <author>
+               <persName>
+                  <forename>Bas</forename> 
+                  <surname>Snelders</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.5">Electronic Edition Version 1.5</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Behnam, Dayro d-Mor</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Behnam-Dayro-d-Mor</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/100</idno>
+                    <idno type="entry">91</idno>
+                    <milestone unit="pages" n="66-68"/>
+                    <idno type="althead" subtype="altorder">Dayro d-Mor Behnam</idno>
+                    <idno type="subject">http://syriaca.org/place/225</idno>
+                    <note type="type">place</note>
+                    <note type="abstract">Monastery situated <abbr>ca.</abbr> 36 km. southeast of <placeName ref="http://syriaca.org/place/139">Mosul</placeName>.<note/>
+                    </note>
+                </ab>
+                <ab type="infobox">Monastery of St. Behnam [formerly <abbr>Syr. Orth.</abbr>, now <abbr>Syr.
+                    Cath.</abbr>]</ab>
+                <div type="body">
+                    <p>Situated <abbr>ca.</abbr> 36 km. southeast of <ref rend="bold" target="https://gedsh.bethmardutho.org/Mosul">
+                            <placeName ref="http://syriaca.org/place/139">Mosul</placeName>
+                        </ref>, Dayro d-Mor
+                        Behnam contains the only full program of medieval church decoration that
+                        survives to this day in Iraq. The monastery consists of a fortress-like
+                        complex, the main buildings of which are the monastic church and a separate
+                        octagonal mausoleum housing the relics of Mor Behnam, which is commonly
+                        referred to as either the ‘Pit’ or the ‘Outside Martyrion’. The entire
+                        complex is known in Syriac as <hi rend="italic">Beth Gubbā</hi>, and in
+                        Arabic as <hi rend="italic">Dayr al-Jubb</hi>, ‘Monastery of the Pit’.
+                        According to the legend of Mor Behnam (<abbr>ed.</abbr> P. Bedjan, <hi rend="italic">AMS</hi>, vol. II, 397–441), the monastery was built in the 4th <abbr>cent.</abbr>
+                        on the site of the graves of the martyrs Behnam and his sister Sarah. The
+                        first secure evidence for its existence is encountered in the 12th <abbr>cent.</abbr>, in
+                        the first place in a dedicatory inscription which states that the ‘altar’
+                        (probably meaning the entire altar room) was reconstructed in 1164, which
+                        suggests that the church existed well before this date. These reconstruction
+                        activities may have occasioned the writing down of the legend of Mor Behnam.
+                        The oldest written account is preserved in a <abbr>Syr. Orth.</abbr>
+                        <abbr> ms.</abbr> (London, Brit.
+                        Libr. Add. 12,174), which was copied in 1197 for <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Barsawmo-Dayro-d-Mor">
+                            <placeName ref="http://syriaca.org/place/224">Dayro d-Mor
+                            Barṣawmo</placeName>
+                        </ref> near <ref rend="bold" target="https://gedsh.bethmardutho.org/Melitene">
+                            <placeName ref="http://syriaca.org/place/136">Melitene</placeName>
+                        </ref>, and
+                        contains a note by <abbr>Patr.</abbr> 
+                  <ref rend="bold" target="https://gedsh.bethmardutho.org/Michael-I-Rabo">
+                            <persName ref="http://syriaca.org/person/217">Michael I
+                            Rabo</persName>
+                        </ref>.</p>
+                    <p>Whatever the exact nature of the restoration work executed at Dayro d-Mor
+                        Behnam in 1164, less than a century later the monastery was the site of
+                        large-scale refurbishment activities, probably through the involvement of
+                        monks from <ref rend="bold" target="https://gedsh.bethmardutho.org/Matay-Dayro-d-Mor">
+                            <persName ref="http://syriaca.org/person/227">Dayro d-Mor
+                            Matay</persName>
+                        </ref>, with which the monastery appears to have maintained close
+                        administrative and economic ties. Most of the monastic church’s extensive
+                        sculptural decoration and architectural features closely resemble those
+                        encountered in monuments dating from the reign of Badr al-Dīn Luʾluʾ, the
+                        Atabeg ruler of Mosul, and may therefore be dated between <abbr>ca.</abbr> 1233 and 1259.
+                        Obviously benefiting from the economic and cultural boom in the Mosul area
+                        during this period, the interior and exterior of the church were both
+                        provided with new stone carving. Three domes with interior stucco decoration
+                        probably also date from this period of artistic activity. In addition to
+                        motifs familiar from contemporary Islamic contexts, such as lions and
+                        dragons, the decoration program conveys distinctively Christian themes,
+                        including equestrian saints, martyrs, and monks, as well as two scenes based
+                        on the life of Mor Behnam.</p>
+                    <p>Along with the extensive figural decoration, the numerous <ref rend="bold" target="https://gedsh.bethmardutho.org/Inscriptions">inscriptions</ref> situated on the walls of the monastic church and the
+                        mausoleum, which date from the 12th through the 20th <abbr>cent.</abbr>
+                        <choice>
+                            <sic/>
+                            <corr>,</corr>
+                        </choice> are of particular
+                        importance to the study of Syriac Christianity. Mainly written in Syriac,
+                        but also in Arabic, Armenian, and Uighur, these inscriptions not only
+                        include liturgical texts and biblical verses, but also historical
+                        information, as well as names of artists and patrons. According to one of
+                        these inscriptions, the monastery was looted in 1295 by the invading Mongol
+                        army of Khan Baidu. The abbot of the monastery was subsequently able to
+                        persuade Baidu not only to return all the stolen objects, but even to make a
+                        donation, which was apparently used for the construction of a new grave for
+                        the relics of Mor Behnam, built in the mausoleum in 1300. In the 15th and
+                        16th <abbr>cent.</abbr>, several Maphrians chose Dayro d-Mor Behnam as their seat,
+                        including Diosqoros Behnam II (1415–17), whose grave is still found in the
+                        monastery’s burial room. In 1579/80, Maphr. Basilius Pilatus (1576–91) wrote
+                        a letter from the monastery to Pope Gregory XIII (1572–85) in which he
+                        expressed interest in establishing a formal union with the Church of
+                        Rome.</p>
+                    <p>Having suffered a long period of decline, the monastery was finally brought
+                        under the jurisdiction of the <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Syriac-Catholic-Church">Syriac
+                            Catholic Church</ref> in 1839, but continued to lead a poor existence
+                        until 1936, when Ephrem Abdal established a new community of monks there. In
+                        addition to revitalizing Dayro d-Mor Behnam’s library, superior Abdal
+                        (1936–66) initiated the first of a series of large-scale restorations, which
+                        were continued by his successors, in particular during the 1980s and 1990s.
+                        Today, the monastery is one of the most flourishing Christian sites in the
+                        Mosul area.</p>
+                    <p>See <ref target="https://gedsh.bethmardutho.org/fig/7">Fig. 7</ref>, <ref target="https://gedsh.bethmardutho.org/fig/12c">12c</ref>, <choice>
+                            <sic>25–28</sic>
+                            <corr>
+                                <ref target="https://gedsh.bethmardutho.org/fig/25">25</ref>, <ref target="https://gedsh.bethmardutho.org/fig/26">26</ref>, <ref target="https://gedsh.bethmardutho.org/fig/27">27</ref>, <ref target="https://gedsh.bethmardutho.org/fig/28">28</ref>
+                            </corr>
+                        </choice>, and <ref target="https://gedsh.bethmardutho.org/fig/80">80</ref>.</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>Brock and Taylor, <title rend="italic">Hidden Pearl</title>,
+                            vol. 2, 215–6.</bibl>
+                        <bibl>Fiey, <title rend="italic">Assyrie chrétienne</title>, vol. 2,
+                            565–613.</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>Fiey</reg>
+                        <orig>idem</orig>
+                     </choice>, <title rend="italic">Mar Behnam</title> (Touristic and
+                            Archaeological Series 2; 1970).</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>Fiey</reg>
+                        <orig>idem</orig>
+                     </choice>, <title rend="italic">Saints syriaques</title>, 54–5.</bibl>
+                        <bibl>Harrak, <title rend="italic">Syriac and Garshuni Inscriptions of
+                                Iraq</title>.</bibl>
+                        <bibl>A.  Harrak and Niu Ruji, ‘The Uighur inscription in the Mausoleum of
+                            Mār Behnam’, <title rend="italic">
+                                <abbr>JCSSS</abbr>
+                            </title> 4 (2004), 66–72.</bibl>
+                        <bibl>M.  Novák and H.  Younansardaroud, ‘Mar Behnam, Sohn des Sanherib von
+                            Nimrud. Tradition und Rezeption einer assyrischen Gestalt im iraqischen
+                            Christentum und die Frage nach dem Fortleben der Assyrer’, <title rend="italic">Altorientalische Forschungen</title> 29 (2002),
+                            166–94.</bibl>
+                        <bibl>B. Snelders, <title rend="italic">Identity and Christian-Muslim
+                                Interaction. Medieval Art of the Syrian Orthodox from the Mosul
+                                Area</title> (<abbr>OLA</abbr> 198, 2010).</bibl>
+                        <bibl>B. Snelders and A. Jeudy, ‘Guarding the Entrances: Equestrian Saints
+                            in Egypt and North Mesopotamia’, <title rend="italic">
+                                <abbr>ECA</abbr>
+                            </title> 3
+                            (2006), 126–35.</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Bas</forename> 
+                  <surname>Snelders</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

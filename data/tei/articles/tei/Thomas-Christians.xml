@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Thomas Christians</title>
+            <author>
+               <persName>
+                  <forename>Sebastian P.</forename> 
+                  <surname>Brock</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.5">Electronic Edition Version 1.5</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Thomas Christians</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Thomas-Christians</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/564</idno>
+                    <idno type="entry">555</idno>
+                    <milestone unit="pages" n="410-414"/>
+                    <note type="type">org</note>
+                    <note type="abstract">Thomas Christians is the term often used for Christians in
+                        south-west India (Malabar) belonging to Churches of Syr. tradition, since
+                        they trace their origins back to St. Thomas who, according to tradition,
+                        arrived in South India in 52.<note/>
+                    </note>
+                </ab>
+                <div type="body">
+                    <p>Thomas Christians is the term often used for Christians in south-west India
+                        (Malabar) belonging to Churches of Syr. tradition, since they trace their
+                        origins back to St. Thomas who, according to tradition, arrived in South
+                        India in 52. The early name given to them locally was ‘Nazrani’, which
+                        corresponds to <hi rend="italic">nāṣrāye</hi>, which was used by the
+                        Sasanian authorities for Christians (subsequently taken over in Arabic).
+                        Prior to the arrival of Europeans in the 16th <abbr>cent.</abbr> the Thomas Christians
+                        were all part of the <abbr>Ch. of E.</abbr> Since the late 16th <abbr>cent.</abbr>, however,
+                        successive divisions have taken place, with the result that today in Kerala
+                        there are seven different Churches of Syriac tradition: those of the
+                        original E.-Syr. liturgical tradition are: the <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Malabar-Catholic-Church">Malabar
+                            Catholic Church</ref> and the <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Chaldean-Syrian-Church">Chaldean
+                            Syrian Church</ref> (the latter belonging to the <abbr>Ch. of E.</abbr>, and not the
+                        Chaldean Catholic Church); and of W.-Syr. liturgical tradition: the <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Malankara-Syriac-Orthodox-Church">Malankara Syriac Orthodox Church</ref>, under the Patriarchate of <ref rend="bold" target="https://gedsh.bethmardutho.org/Antioch">
+                            <placeName ref="http://syriaca.org/place/10">Antioch</placeName>
+                        </ref>; the independent <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Malankara-Orthodox-Syrian-Church">Malankara Orthodox Syrian Church</ref>; the <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Malankara-Catholic-Church">Malankara Catholic Church</ref>; the small <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Malabar-Independent-Syrian-Church">Malabar Independent Syrian Church</ref>, and the reformed <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Mar-Thoma-Syrian-Church-Malankara">Mar Thoma Syrian Church</ref>.</p>
+                    <p>Written and archaeological sources for the pre-Portuguese period are minimal,
+                        local written ones having been destroyed at the <ref rend="bold" target="https://gedsh.bethmardutho.org/Diamper-Synod-of">Synod of
+                            Diamper</ref> (Udayamperur, 1599). Sea trade between the Red Sea and the
+                        south Indian port of Muziris (usually identified as Kodungalur/ Cranganore)
+                        was well developed by the 1st <abbr>cent.</abbr> AD, and there is nothing impossible in
+                        the strong local oral and written traditions that St. Thomas came to south
+                        India (although the Syriac <ref rend="bold" target="https://gedsh.bethmardutho.org/Thomas-Acts-of">Acts of
+                            Thomas</ref>, of perhaps the 3rd <abbr>cent.</abbr>, seem to bring him to the north).
+                        Several 3rd-cent. Greek sources, however, link him with Parthia. <ref rend="bold" target="https://gedsh.bethmardutho.org/Ephrem">
+                            <persName ref="http://syriaca.org/person/13">Ephrem</persName>
+                        </ref>
+                        refers to Thomas being killed in India, and states that a merchant had
+                        brought some of his bones to <ref rend="bold" target="https://gedsh.bethmardutho.org/Edessa">
+                            <placeName ref="http://syriaca.org/place/78">Edessa</placeName>
+                        </ref> (<hi rend="italic">madrāše</hi> of Nisibis 42.1–2). Mylapore as the site of
+                        Thomas’s martyrdom is not attested until the Middle Ages, in accounts by
+                        Western travellers (<ref rend="bold" target="https://gedsh.bethmardutho.org/Shlemon-of-Basra">
+                            <persName ref="http://syriaca.org/person/745">Shlemon of
+                            Baṣra</persName>
+                        </ref>, ‘Book of the Bee’, <abbr>ed.</abbr> Budge, 119 [tr. 105], knew a
+                        tradition that ‘he was buried at Maḥluph in the region of the Indians’).
+                        Much confusion has been caused, especially in Greek and Latin sources, by
+                        the ambiguity of the term ‘India’, which often clearly refers to Ethiopia or
+                        South Arabia.</p>
+                    <p>It is unclear when the link with the <abbr>Ch. of E.</abbr>, in the Persian Empire, was
+                        established. According to the Chronicle of <ref rend="bold" target="https://gedsh.bethmardutho.org/Siirt">
+                            <placeName ref="http://syriaca.org/place/188">Siirt</placeName>
+                        </ref> ( [<abbr>PO</abbr> 26],
+                        I.8), Dodi, <abbr>bp.</abbr> of Baṣra (evidently 3rd/4th <abbr>cent.</abbr>) left his see to go to
+                        India where he converted many people; later (<abbr>PO</abbr> [117], II.9;) Maʿne,
+                        metropolitan of <ref rend="bold" target="https://gedsh.bethmardutho.org/Fars">
+                            <placeName ref="http://syriaca.org/place/84">Fars</placeName>
+                        </ref> (late 5th <abbr>cent.</abbr>), is said to have composed <hi rend="italic">madrāše</hi>, <hi rend="italic">memre</hi>, and <hi rend="italic">ʿenyāne</hi> in (Middle) Persian for liturgical use and sent these
+                        books ‘to the islands of the sea and to India’. In the early 6th <abbr>cent.</abbr>
+                        Cosmas Indicopleustes, a friend of the Catholicos Mar <ref rend="bold" target="https://gedsh.bethmardutho.org/Aba">
+                            <persName ref="http://syriaca.org/person/308">Aba</persName>
+                        </ref>, speaks of a church
+                        at Male (Malabar) and a <abbr>bp.</abbr> ‘appointed from Persia’ at Kalliana (identified
+                        either as Kalyan, Mumbai-Pune area, or as Quilon; ‘Topography’, III.15), and
+                        in the mid-7th <abbr>cent.</abbr> one of <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Ishoyahb-III-of-Adiabene">
+                            <persName ref="http://syriaca.org/person/561">Ishoʿyahb III</persName>
+                        </ref>’s Letters (<abbr>ed.</abbr> Duval, p.252) implies that India’s
+                        line of bishops was dependent on the metropolitan see of Rev Ardashir (in
+                        Fars, on the Persian Gulf). The link with Fars helps explain why Pahlavi,
+                        rather than Syriac, features on the various 9th-cent.(?) stone crosses (an
+                        improved reading for one of these is given by Ph. Gignoux, <hi rend="italic">Studies in Honor of J. C.  Greenfield</hi>, <abbr>ed.</abbr> Z. Zevit <abbr>et al.</abbr> [1995],
+                        411–22). One of <abbr>Patr.</abbr> 
+                  <ref rend="bold" target="https://gedsh.bethmardutho.org/Timotheos-I">
+                            <persName ref="http://syriaca.org/person/790">Timotheos I</persName>
+                        </ref>’s
+                        lost letters was to the Indian Christians concerning the election of a <abbr>bp.</abbr>,
+                        and elsewhere he speaks of monks regularly travelling to and from India.</p>
+                    <p>Although India was supplied with bishops (and from Timotheos’s time,
+                        metropolitans) from the Middle East, the effective control lay in the hands
+                        of the indigenous Archdeacon.</p>
+                    <p>References to two early migrations from the Middle East to Kerala are first
+                        recorded by 16th-cent. western writers, based on local oral accounts. The
+                        first migration is linked to Knai Thoman, represented in western sources as
+                        Thomas of Cana, the Canaanite (thus also in one Syriac text, Mingana 1926,
+                        481, 513), who is said to have come with a group of Christians including a
+                        <abbr>bp.</abbr> Yawsep (sometimes, of Edessa) in 345. Numerous inconclusive attempts to
+                        explain the name Knai have been made. The tradition is especially important
+                        for the endogamous Knanaya (or ‘Southists’) who trace back their origins to
+                        this Thomas. A later group said to have come from the Middle East was led by
+                        two bishops, Mar Shabur and Mar Prot (Phrahat, or Peroz?), together with
+                        ‘the resplendent’ Sabrishoʿ; an exact date, 823, is even given in one Syriac
+                        source (<abbr>ed.</abbr> Land, <hi rend="italic">Anecdota Syriaca</hi>, vol. 1, 27, tr.
+                        125). This Sabrishoʿ is often identified with ‘Marovan Sapir Iso’, the
+                        builder of the Tharisa church in Quilon which was granted certain privileges
+                        in a set of copper plates in Old Tamil, dated 849.</p>
+                    <p>The only pre-Portuguese Syriac document from India is a Lectionary of the
+                        Pauline Epistles, copied in Shengala (Cranganore) in June 1301, in the time
+                        of ‘the Turkish Catholicos Patriarch <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Ishoyahb-III-of-Adiabene">
+                            <persName ref="http://syriaca.org/person/561">Yahbalaha</persName>
+                        </ref> V [!,
+                        in fact  III] and Metropolitan Mar Jacob, governor of the holy throne of Mar
+                        Thomas the Apostle’ (<abbr>ms.</abbr> Vat. Syr. 22); the scribe identifies himself as
+                        deacon Zkarya, aged 14.</p>
+                    <p>A very important Syriac source from shortly after the arrival of the first
+                        Portuguese is a letter of 1504, with a historical introduction (<abbr>ed.</abbr>
+                        Assemani, <hi rend="italic">BibOr</hi>, III.ii, 589–99; tr. in Mingana 1926,
+                        468–73). This tells how in 1490 two Indians travelled to Gazarta (modern
+                        Cizre) to ask the <abbr>
+                            <choice>
+                                <sic>Cath.</sic>
+                                <corr>cath.</corr>
+                            </choice>
+                        </abbr> for bishops; two bishops were consecrated and sent
+                        to India, and then in 1501 the next Catholicos sent three further ones, who
+                        in 1504 dispatched back the letter in question, describing the situation of
+                        the Thomas Christians (‘some 30,000 households’). One of the two Indians in
+                        1490 was ‘Joseph the Indian’ who later provided the account of Malabar that
+                        formed Book VI of Fracanzano da Montalboddo’s immensely popular <hi rend="italic">Paesi novamente retrovati</hi> (1507). And one of the
+                        bishops consecrated in 1501 was Mar Yaʿqub who was to play a prominent and
+                        difficult role in dealing with the Portuguese; he died some time before
+                        1554. A slightly later Syr. <abbr>bp.</abbr> was Mar Yawsep, consecrated for Malabar by
+                        the <abbr>Chald.</abbr>
+                        <abbr> 
+                     <choice>
+                                <sic>Patr.</sic>
+                                <corr>patr.</corr>
+                            </choice>
+                        </abbr> in 1558 (five years after the separate <abbr>Chald.</abbr> Catholic line
+                        had come into being). Western missionaries in Bassein, however, were
+                        successful in preventing him from reaching his destined flock. While in
+                        Bassein, and even during his long sea voyages, he diligently copied Syriac
+                        <abbr>mss.</abbr>, several of which survive (van der Ploeg 1983).</p>
+                    <p>Although the Thomas Christians had at first welcomed the arrival of fellow
+                        Christians from Europe, by the end of the 16th <abbr>cent.</abbr> the situation had
+                        changed. The last Indian <abbr>bp.</abbr>, Mar Abraham, died in 1597, and in 1599 the
+                        metropolitan see of Angamali was demoted to a bishopric under the archbishop
+                        of Goa. The next year the Malabar Church was put under the Portuguese Royal
+                        Patronage (Padroado). The destruction of all Syriac books considered
+                        heretical at the Synod of Diamper (1599) and the Romanization of the rite
+                        (though Syriac was still allowed) witness to the domineering character of
+                        the European hierarchy in India. Any attempts to contact bishops — even
+                        <abbr>Chald.</abbr> Catholic ones — in the Middle East were foiled. In the end, (false)
+                        rumors of the drowning of a <abbr>bp.</abbr> from the Middle East, Mar Atallah, led to
+                        open revolt in 1653, with the ‘Oath of the Coonan Cross’ (Mattancherry),
+                        when the Archdeacon Thomas was ‘ordained’ as <abbr>bp.</abbr> by 12 priests, claiming to
+                        have a letter from Mar Atallah legitimizing this. This effectively split the
+                        Thomas Christians into two nearly equal halves, those who remained under the
+                        control of Rome, and those who were in due course to come under the
+                        jurisdiction of the Patriarchate of Antioch.</p>
+                    <p>Contact in due course was made by the adherents of Thomas with a <abbr>Syr. Orth.</abbr>
+                        <abbr>bp.</abbr>, Mar Gregorios, in 1665, and links with the <abbr>Syr. Orth.</abbr> Church were
+                        further strengthened in 1685, when Maphrian Baselios Yaldo and Mar Ivanios
+                        were sent to India by <abbr>Patr.</abbr> ʿAbdulmasīḥ I; although Mar Baselios died
+                        shortly afterwards, he left a great impression (thus at Kothamangalam a long
+                        inscription in his honor was put up in 1874). In this way the W.-Syr.
+                        liturgical tradition (and script) was gradually introduced into Malabar, and
+                        seems to have been fully effected by the end of the first quarter of the
+                        19th <abbr>cent.</abbr> (van der Ploeg 1983, 39). Prior to this, in 1772, a quarrel had
+                        led to schism and the establishment of the separate small Malabar
+                        Independent Syrian Church, based in Thozhiyur.</p>
+                    <p>Further divisions came in the 19th <abbr>cent.</abbr>, when a reform movement among the
+                        <abbr>Syr. Orth.</abbr>, led by Abraham malpan and supported by Anglican missionaries,
+                        led to the emergence of the Mar Thoma Church, which formally came into being
+                        in 1888. The second half of the 19th <abbr>cent.</abbr> also witnessed the renewal, after
+                        a break of some 400 years, of the ancient link with<choice>
+                            <sic/>
+                            <corr> the</corr>
+                        </choice> 
+                  <abbr>Ch. of E.</abbr>, with the
+                        emergence of the Chaldean Syrian Church.</p>
+                    <p>Towards the end of the 19th <abbr>cent.</abbr> requests began to be made by the <abbr>Syr. Orth.</abbr>
+                        to the <abbr>
+                            <choice>
+                                <sic>Patr.</sic>
+                                <corr>patr.</corr>
+                            </choice>
+                        </abbr> of Antioch that a <abbr>
+                            <choice>
+                                <sic>Cath.</sic>
+                                <corr>cath.</corr>
+                            </choice>
+                        </abbr> (corresponding in rank to that of the
+                        earlier <ref rend="bold" target="https://gedsh.bethmardutho.org/Maphrian">Maphrian</ref>) be appointed for India. <abbr>Patr.</abbr> Peṭros IV (III) agreed to
+                        consider the matter, but nothing was done until the deposed <abbr>Patr. </abbr>
+                        <ref rend="bold" target="https://gedsh.bethmardutho.org/Abdulmasih-II">
+                            <persName ref="http://syriaca.org/person/314">ʿAbdulmasīḥ II</persName>
+                        </ref> visited India in 1912 and consecrated Pawlos
+                        Mar Ivanios as <abbr>
+                            <choice>
+                                <sic>Cath.</sic>
+                                <corr>cath.</corr>
+                            </choice>
+                        </abbr>, an action which effected a schism with the party loyal
+                        to <abbr>Patr. </abbr>
+                        <ref rend="bold" target="https://gedsh.bethmardutho.org/Abdullah-II-Sattuf">
+                            <persName ref="http://syriaca.org/person/313">
+                            ʿAbdullāh II</persName>
+                        </ref>. Though a re-unification of the two sides was
+                        achieved in 1964, the break was renewed in 1975. Drawn-out and expensive
+                        litigation over property remains a running scandal.</p>
+                    <p>A different division within the W.-Syr. tradition took place in 1930, when
+                        Mar Ivanios, together with a sizable group of <abbr>Syr. Orth.</abbr>, entered into
+                        communion with Rome, thus marking the beginnings of the Malankara Catholic
+                        Church. In the E.-Syr. tradition one further division took place in 1968,
+                        just within the Chaldean Syrian Church, when loyalties became divided
+                        between the two Patriarchs, Mar <ref rend="bold" target="https://gedsh.bethmardutho.org/Shemon-Eshai">
+                            <persName ref="http://syriaca.org/person/739">Shemʿon</persName>
+                        </ref> (New
+                        Calendarists) and Mar <ref rend="bold" target="https://gedsh.bethmardutho.org/Darmo-Toma">
+                            <persName ref="http://syriaca.org/person/441">Darmo</persName>
+                        </ref> (Old
+                        Calendarists), leading to the establishment, from 1971, of two rival
+                        metropolitans in Kerala. This schism, however, was successfully healed in
+                        1995, when the entire Chaldean Syrian Church was united with <abbr>Patr.</abbr> Mar Denḥa
+                        IV (New Calendarists).</p>
+                    <p>Syriac remained the language of the liturgy until well into the 20th <abbr>cent.</abbr> in
+                        most of the Churches of Syriac tradition; today, however, it has almost
+                        entirely been replaced by Malayalam, even among the <abbr>Syr. Orth.</abbr> where it has
+                        held out longest. A large number of Syriac <abbr>mss.</abbr> have been copied in Kerala
+                        (van der Ploeg). Less frequent has been the use of Syriac for <ref rend="bold" target="https://gedsh.bethmardutho.org/Inscriptions">inscriptions</ref>, the earliest being dated 1575
+                        (Mulanthuruthy); in more recent times it has principally been the <abbr>Syr. Orth.</abbr>
+                        who have retained Syriac for funerary and commemorative inscriptions; an
+                        impetus to this practice seems to have been given by Mar Kurillos Yuyaqim,
+                        from Ḥbob in <ref rend="bold" target="https://gedsh.bethmardutho.org/Tur-Abdin">
+                            <placeName ref="http://syriaca.org/place/221">Ṭur ʿAbdin</placeName>
+                        </ref>, who
+                        came to Malabar in 1846, where he died in 1875. A Corpus of Syriac
+                        inscriptions in Kerala, by F. Briquel Chatonnet, A. Desreumaux, and J.
+                        Thekeparampil, has recently been published. During the second half of the
+                        19th and well into the 20th <abbr>cent.</abbr> a number of Syriac <ref rend="bold" target="https://gedsh.bethmardutho.org/Printing">printing</ref> presses were functioning; particularly important ones
+                        were the St. Joseph Press, Mannanam (for <abbr>E. Syr.</abbr>), and the Mar Julius Press,
+                        Pampakuda (for <abbr>W. Syr.</abbr>).</p>
+                    <p>See <choice>
+                            <sic>Fig. 64–66 and 116–119</sic>
+                            <corr>
+                                <ref target="https://gedsh.bethmardutho.org/fig/64">Fig. 64</ref>,
+                                    <ref target="https://gedsh.bethmardutho.org/fig/65">65</ref>,
+                                    <ref target="https://gedsh.bethmardutho.org/fig/66">66</ref>,
+                                    <ref target="https://gedsh.bethmardutho.org/fig/116">116</ref>,
+                                    <ref target="https://gedsh.bethmardutho.org/fig/117">117</ref>,
+                                    <ref target="https://gedsh.bethmardutho.org/fig/118">118</ref>,
+                                and <ref target="https://gedsh.bethmardutho.org/fig/119">119</ref>
+                            </corr>
+                        </choice>.</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>C.  Baumer, <title rend="italic">The Church of the East. An
+                                illustrated History of Assyrian Christianity</title> (2006), ch.
+                            X.</bibl>
+                        <bibl>L. W.  Brown, <title rend="italic">The Indian Christians of St
+                                Thomas</title> (2nd <abbr>ed.</abbr> 1982).</bibl>
+                        <bibl>F.  Briquel Chatonnet, A. Desreumaux, and J. Thekeparampil, <title rend="italic">Recueil des inscriptions syriaques</title>, vol. 1.
+                                <title rend="italic">Kérala</title> (2008).</bibl>
+                        <bibl>E. R.  Hambye (<abbr>ed.</abbr>), <title rend="italic">History of Christianity in
+                                India</title>, vol. 3. <title rend="italic">The Eighteenth
+                                Century</title> (1997), ch. 1–4.</bibl>
+                        <bibl>J.  Kollamparampil, <title rend="italic">The Archdeacon of all
+                                India</title> (1972).</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>J.  Kollamparampil</reg>
+                        <orig>idem</orig>
+                     </choice>, <title rend="italic">The St Thomas Christians’ Revolution of
+                                1653</title> (1985).</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>J.  Kollamparampil</reg>
+                        <orig>idem</orig>
+                     </choice>, <title rend="italic">The Babylonian Origin of the Southists
+                                among the St Thomas Christians</title> (1992).</bibl>
+                        <bibl>G.  Menanchery (<abbr>ed.</abbr>), <title rend="italic">The St Thomas Christian
+                                Encyclopedia of India</title>, vol. 1 (1973); vol. 2 (1982).</bibl>
+                        <bibl>A.  Mingana, ‘The early spread of Christianity in India’, <title rend="italic">
+                                <abbr>BJRL</abbr>
+                            </title> 10 (1926), 435–514.</bibl>
+                        <bibl>A. M.  Mundadan, <title rend="italic">History of Christianity in
+                                India</title>, vol. 1. <title rend="italic">From the Beginning up to
+                                the Middle of the Sixteenth Century</title> (1984). (the fullest
+                            critical study)</bibl>
+                        <bibl>G. Nedungatt (<abbr>ed.</abbr>), <title rend="italic">The Synod of Diamper
+                                Revisited</title> (2001).</bibl>
+                        <bibl>G.  Nedungatt, <title rend="italic">Quest for the Historical Thomas,
+                                Apostle of India: A re-reading of the evidence</title>
+                            (2008).</bibl>
+                        <bibl>S.  Neill (<abbr>ed.</abbr>), <title rend="italic">A History of Christianity in
+                                India</title>, vol. 1. <title rend="italic">The Beginnings to AD
+                                1707</title> (1984), ch. 2, 9, 13; vol. 2. <title rend="italic">1707–1858</title> (1985), ch. 3, 11.</bibl>
+                        <bibl>J. P. M.  van der Ploeg, <title rend="italic">The Syriac Manuscripts
+                                of <choice>
+                                    <sic>St</sic>
+                                    <corr>St.</corr>
+                                </choice> Thomas Christians</title> (1983).</bibl>
+                        <bibl>P. J.  Podipara, <title rend="italic">The Thomas Christians</title>
+                            (1970).</bibl>
+                        <bibl>B.  Puthur (<abbr>ed.</abbr>), <choice>
+                                <sic>The <title rend="italic">Life and Nature of the <choice>
+                                            <sic>St</sic>
+                                            <corr>St.</corr>
+                              </choice>
+                            Thomas Christian Church in the pre-Diamper Period</title>
+                                </sic>
+                                <corr>
+                                    <title rend="italic">The Life and Nature of the <choice>
+                                            <sic>St</sic>
+                                            <corr>St.</corr>
+                              </choice>
+                                Thomas Christian Church in the pre-Diamper Period</title>
+                                </corr>
+                            </choice>&gt;
+                            (2000).</bibl>
+                        <bibl>J. Thekkedath, <title rend="italic">History of Christianity in
+                                India</title>, vol. 2. <title rend="italic">1452–1700</title>
+                            (1982), ch. 1–7.</bibl>
+                        <bibl>E.  Tisserant (<abbr>ed.</abbr> E. R.  Hambye), <title rend="italic">Eastern
+                                Christianity in India</title> (1957).</bibl>
+                        <bibl>A.  Vallavanthara, <title rend="italic">India in 1500 AD. The
+                                Narratives of Joseph the Indian</title> (1984; <abbr>repr.</abbr> 2001).</bibl>
+                        <bibl>P.  Verghese (<abbr>ed.</abbr>), <title rend="italic">Die <choice>
+                                    <sic>Syrischen</sic>
+                                    <corr>syrischen</corr>
+                                </choice> Kirchen in
+                                Indien</title> (1974).</bibl>
+                        <bibl>S.  Visvanathan, <title rend="italic">The Christians of Kerala.
+                                History, Belief and Ritual among the Yakoba</title> (1993).</bibl>
+                        <bibl>B.  Varghese, ‘A brief history of the Syriac study centers in Kerala’,
+                                <title rend="italic">
+                                <abbr>Harp</abbr>
+                            </title> 10.1–2 (1997), 65–70.</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Sebastian P.</forename> 
+                  <surname>Brock</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Aphrahaṭ</title>
+            <author>
+               <persName>
+                  <forename>Sebastian P.</forename> 
+                  <surname>Brock</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.5">Electronic Edition Version 1.5</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Aphrahaṭ</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Aphrahat</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/48</idno>
+                    <idno type="entry">39</idno>
+                    <milestone unit="pages" n="24-25"/>
+                    <idno type="subject">http://syriaca.org/person/10</idno>
+                    <note type="type">person</note>
+                    <note type="abstract">Syriac author of 23 ‘Demonstrations’, known as ‘the
+                        Persian Sage’.<note/>
+                    </note>
+                </ab>
+                <ab type="infobox">(<abbr>fl.</abbr> first half of 4th <abbr>cent.</abbr>)</ab>
+                <div type="body">
+                    <p>Syriac author of 23 ‘Demonstrations’, known as ‘the Persian Sage’. The name
+                        Aphrahaṭ, by which he is known today, is first found in <ref rend="bold" target="https://gedsh.bethmardutho.org/Isho-bar-Nun">
+                            <persName ref="http://syriaca.org/person/552">Ishoʿ bar Nun</persName>
+                        </ref>
+                        (d. 828). In the early 8th <abbr>cent. </abbr>
+                        <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Giwargi-bp-of-the-Arab-tribes">
+                            <persName ref="http://syriaca.org/person/122">Giwargi, <abbr>bp.</abbr> of the Arab tribes</persName>
+                        </ref> only knew of him as ‘the Persian
+                        Sage’ (V. Ryssel, <hi rend="italic">Georgs des Araberbischofs Gedichte und
+                            Briefe</hi> [1891], 44–54), though the oldest <abbr>ms.</abbr> of his works (<abbr>ms.</abbr>
+                        London, Brit. Libr. Add. 17,182, dated 474) names the author ‘Yaʿqub, the
+                        Sage of Persia’. Confirmation of Yaʿqub as his name comes from the early
+                        Armenian translation and from the Latin author Gennadius (<abbr>ca.</abbr> 500), though
+                        both have mistakenly taken him to be <abbr>
+                            <choice>
+                                <sic>bp.</sic>
+                                <corr>Bp.</corr>
+                            </choice>
+                        </abbr>
+                        <ref rend="bold" target="https://gedsh.bethmardutho.org/Yaqub-of-Nisibis">
+                            <persName ref="http://syriaca.org/person/811"> Yaʿqub of
+                            Nisibis</persName>
+                        </ref> (d. 338), which is impossible, since the Demonstrations
+                        are provided with exact dates: 1–10 are dated to 336/7, 11–22 to 343/4, and
+                        23 to August 345. They were clearly written in the Persian Empire, and by a
+                        person in some sort of authority (the late identification of him as a <abbr>bp.</abbr> of
+                            <ref rend="bold" target="https://gedsh.bethmardutho.org/Matay-Dayro-d-Mor">
+                            <persName ref="http://syriaca.org/person/227">Dayro d-Mor
+                            Matay</persName>
+                        </ref> is baseless). The first group deals largely with ascetic
+                        topics, and Dem. 6–7 are particularly important witnesses to the role of the
+                        <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Bnay-Qyama-Bnat-Qyama">
+                            <hi rend="italic">bnay qyāmā</hi>
+                        </ref> and <ref rend="bold" target="https://gedsh.bethmardutho.org/Ihidaya">
+                            <hi rend="italic">iḥidāye</hi>
+                        </ref> in the
+                        Syriac proto-monastic tradition. Many of the second group concern Judaism
+                        and are aimed to combat Judaising tendencies among Christians. The long Dem.
+                        14 stands apart, being described as a letter addressed to the bishops,
+                        priests, and people in <ref rend="bold" target="https://gedsh.bethmardutho.org/Seleucia-Ctesiphon">
+                            <placeName ref="http://syriaca.org/place/182">Seleucia-Ctesiphon</placeName>
+                        </ref>. Dem. 21 has as its background Shapur II’s
+                        persecution. The final Dem. 23 provides a reply to certain questions posed
+                        to the author concerning the ‘blessing hidden in the cluster of grapes’
+                        (Isaiah 65:8). The Demonstrations constitute the first major literary work
+                        in Syriac: the opening words of Dems. 1–22 provide an alphabetic acrostic,
+                        and several Demonstrations contain lengthy passages of carefully balanced
+                        artistic prose. Besides their literary interest, the Demonstrations are of
+                        great importance for the light they shed on many different topics, in
+                        particular: the character of Christianity in the Persian Empire and its
+                        ascetic developments, relations with Judaism, the early stages of Shapur’s
+                        persecution, and the history of the Syriac biblical text, together with its
+                        exegesis and Christology.</p>
+                    <p>The Demonstrations are preserved in four <abbr>mss.</abbr>, three of which date from the
+                        5th and 6th <abbr>cent.</abbr> The 5th-cent. Armenian translation (1–19, attributed to
+                        Yaʿqub of Nisibis), was first published in 1756, over a century before the
+                        Syriac became known. There are translations of individual Demonstrations
+                        into Arabic (parts of 2–4, 6, 9; attributed to <ref rend="bold" target="https://gedsh.bethmardutho.org/Ephrem">
+                            <persName ref="http://syriaca.org/person/13">Ephrem</persName>
+                        </ref>), Ethiopic
+                        (5, 8; attributed to Yaʿqub of Nisibis), and Georgian (6; attributed to <ref rend="bold" target="https://gedsh.bethmardutho.org/Hippolytus-of-Rome">
+                            <persName ref="http://syriaca.org/person/537">Hippolytus</persName>
+                        </ref>).</p>
+                </div>
+                <div type="bibl">
+                    <listBibl>
+                        <listBibl>
+                            <head>Primary Sources</head>
+                            <bibl>P. Bruns, <title rend="italic">Aphrahat. Demonstrationes /
+                                    Unterweisungen</title> (2 vols.; <abbr>FC</abbr> 5:1–2; 1991–2). (<abbr>GT</abbr>)</bibl>
+                            <bibl>G. Lafontaine, <title rend="italic">La version arménienne des
+                                    œuvres d’Aphraate le Syrien</title> (3 vols.; <abbr>CSCO</abbr> 382–3, 405–6,
+                                423–4; 1977, 1979, 1980).</bibl>
+                            <bibl>A. Lehto, <title rend="italic">The Demonstrations of Aphrahat, the Persian sage</title> (2010). (<abbr>ET</abbr>)</bibl>
+                            <bibl>J.  Parisot, <title rend="italic">Aphraatis Sapientis Persae
+                                    Demonstrationes</title> (<abbr>PS</abbr> I.1–2; 1894, 1907). (Syr. with
+                                <abbr>LT</abbr>)</bibl>
+                            <bibl>M.-J. Pierre, <title rend="italic">Aphraate, le sage persan. Les
+                                    Exposés</title> (2 vols.; SC 349, 359; 1988–9). (<abbr>FT</abbr> with
+                                extensive bibliography)</bibl>
+                            <bibl>K.  Valavanolickal, <title rend="italic">Aphrahat,
+                                    Demonstrations</title> (2 vols.; Moran Etho 23–4; 2005).
+                                (<abbr>ET</abbr>)</bibl>
+                            <bibl>W.  Wright, <title rend="italic">The Homilies of Aphraates, the
+                                    Persian Sage</title> (1869). (Syr.; the section numbers do not
+                                fully correspond in the editions of Wright and Parisot)</bibl>
+                        </listBibl>
+                        <listBibl>
+                            <head>Secondary Sources</head>
+                            <bibl>T. Baarda, <title rend="italic">The Gospel quotations of Aphrahat
+                                    the Persian Sage</title>, vol. 1. <title rend="italic">Aphrahat’s text of the fourth Gospel</title> (1975).</bibl>
+                            <bibl>P. Bruns, <title rend="italic">Das Christusbild Aphrahats des
+                                    Persischen Weisen</title> (1990).</bibl>
+                            <bibl>E. J.  Duncan, <title rend="italic">Baptism in Aphrahat</title>
+                                (1945).</bibl>
+                            <bibl>S. H.  Griffith, ‘Monks, “Singles,” and the “Sons of the
+                                Covenant.” Reflections on Syriac Ascetic Terminology’, in <title rend="italic">Eulogema. Studies in Honor of R. Taft<choice>
+                                        <sic/>
+                                        <corr>, </corr>
+                                    </choice>
+                                S.J.</title>, <abbr>ed.</abbr> E. Carr <abbr>et al.</abbr> (Studia Anselmiana 110; 1993),
+                                141–60.</bibl>
+                            <bibl>D. Juhl, <title rend="italic">Die Askese im Liber Graduum und bei
+                                    Afrahat</title> (1996).</bibl>
+                            <bibl>R. Murray, ‘The exhortation to candidates for ascetical vows at
+                                baptism in the ancient Syrian Church’, <title rend="italic">
+                                    <abbr>NTS</abbr>
+                                </title> 21 (1974), 59–80.</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>R. Murray</reg>
+                           <orig>idem</orig>
+                        </choice>, ‘Hellenistic-Jewish rhetoric in Aphrahat’, in <abbr>
+                                    <title rend="italic">SymSyr</title> III</abbr>, 87–96.</bibl>
+                            <bibl>J. Neusner, <title rend="italic">Aphrahat and Judaism. The
+                                    Christian-Jewish argument in fourth-century Iran</title>
+                                (1971).</bibl>
+                            <bibl>R. J. Owens, <title rend="italic">The Genesis and Exodus citations
+                                    of Aphrahat</title> (<abbr>MPIL</abbr> 3; 1983).</bibl>
+                            <bibl>M.-J. Pierre, ‘Un synode contestataire à l’époque d’Aphraate le
+                                Sage persan’, in <title rend="italic">La controverse religieuse et
+                                    ses formes</title>, <abbr>ed.</abbr> A. Le Boulluec (1995), 243–79. (on Dem.
+                                14)</bibl>
+                            <bibl>K.  Valavanolickal, <title rend="italic">The use of the Gospel
+                                    Parables in the writings of Aphrahat and Ephrem</title>
+                                (1996).</bibl>
+                        </listBibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Sebastian P.</forename> 
+                  <surname>Brock</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

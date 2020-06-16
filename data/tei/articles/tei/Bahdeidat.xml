@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Bahdeidat</title>
+            <author>
+               <persName>
+                  <forename>Erica Cruikshank</forename> 
+                  <surname>Dodd</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.5">Electronic Edition Version 1.5</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Bahdeidat</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Bahdeidat</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/78</idno>
+                    <idno type="entry">69</idno>
+                    <milestone unit="pages" n="51-52"/>
+                    <idno type="subject">http://syriaca.org/place/263</idno>
+                    <note type="type">place</note>
+                    <note type="abstract">Village located 12 km. northeast of Jbeil (Giblet or Byblos),
+                        47 km. from Beirut; site of famous church of Mar Tadros.<note/>
+                    </note>
+                </ab>
+                <div type="body">
+                    <p>Bahdeidat is 12 km. northeast of Jbeil (Giblet or Byblos), 47 km. from <ref rend="bold" target="https://gedsh.bethmardutho.org/Beirut">
+                            <placeName ref="http://syriaca.org/place/46">Beirut</placeName>
+                        </ref>,
+                        550 m. above sea level. The small church of Mar Tadros, which is nowadays
+                        Maronite, is built as a single barrel-vaulted nave with a wide, protruding
+                        porch open at the west end. It measures <abbr>ca.</abbr> 13x8 m. without the porch.</p>
+                    <p>The east end is covered with a coherent program of wall paintings spilling
+                        over to the northern and southern walls of the nave. In the semi-dome is the
+                        Enthroned Christ in Majesty, with the Cherubim and Seraphim on either side,
+                        waving standards that give the words of the Trisagion. Behind the throne are
+                        the four beasts of the Apocalypse, the man (Matthew), the lion (Mark), the
+                        bull (Luke) and the eagle (John). Behind these are the standing figures of
+                        Mary and John the Baptist, their hands held out in supplication. The twelve
+                        apostles stand below this Vision, with the prophet Daniel at the northern
+                        end of the row and St. Stephen on the south.</p>
+                    <p>The triumphal arch shows the Christ Emmanuel, between the Sacrifice of Isaac
+                        on the north and Moses Receiving the Tablets of the Law on the south. Below
+                        them are Mary and Gabriel of the Annunciation.</p>
+                    <p>On the nave walls, on either side of the apse, is the equestrian knight St.
+                        Theodore spearing a dragon and the riding St. George, bearing the small
+                        water-carrier behind him. Both the equestrian knights are shown with donor
+                        portraits beneath the horses.</p>
+                    <p>All the wall paintings are inscribed in a mixture of Serṭo and
+                        Esṭrangela.</p>
+                    <p>These wall paintings represent the only comprehensive series of paintings
+                        executed by one workshop to have survived in Lebanon. In style they closely
+                        resemble the paintings of a church in the nearby village of <ref rend="bold" target="https://gedsh.bethmardutho.org/Maad">
+                            <placeName ref="http://syriaca.org/place/264">Maʿad</placeName>
+                        </ref>. According to a
+                        <abbr>ms.</abbr> in Dayr al-Shife, not far from Bahdeidat, a <abbr>Syr. Orth.</abbr> priest called
+                        Naʿman was ordained in Bahdeidat in 1256. This 13th-cent. date accords with
+                        the style of the paintings in both Bahdeidat and Maʿad and they belong to
+                        the <abbr>Syr. Orth.</abbr> tradition of painting, like the paintings of <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Musa-al-Habashi-Dayr-Mar">
+                            <placeName ref="http://syriaca.org/place/228">Dayr Mār
+                            Mūsā al-Ḥabashī</placeName>
+                        </ref>. At some point after the 13th <abbr>cent.</abbr> the church
+                        would have passed from the <abbr>Syr. Orth.</abbr> to the Maronites.</p>
+                    <p>See <ref target="https://gedsh.bethmardutho.org/fig/16">Fig. 16</ref> and <ref target="https://gedsh.bethmardutho.org/fig/17">17</ref>.</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>E.  Cruikshank Dodd, <title rend="italic">Medieval Painting in
+                                the Lebanon</title> (2004), 338–60.</bibl>
+                        <bibl>N.  Helou, <title rend="italic">La fresque (I) dans les anciennes
+                                églises du Liban. Régions de Jbeil et Batroun</title> (2007).</bibl>
+                        <bibl>eadem, ‘La répresentation de la Déisis-Vision dans deux églises du
+                            Liban’, <title rend="italic">
+                                <abbr>ParOr</abbr>
+                            </title> 23 (1998), 35–59.</bibl>
+                        <bibl>M.  Immerzeel, ‘Divine cavalry. Mounted saints in Middle Eastern
+                            Christian art’, in <title rend="italic">East and West in the Crusader
+                                States. Context — contacts — confrontations,</title>vol. 3, <abbr>ed.</abbr>
+                            K.  Ciggaar and H. Teule (<abbr>OLA</abbr> 125; 2003), 265–86.</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>M.  Immerzeel</reg>
+                        <orig>idem</orig>
+                     </choice>, ‘Holy horsemen and crusader banners. Equestrian saints in wall
+                            paintings in Lebanon and Syria’, <title rend="italic">
+                                <abbr>ECA</abbr>
+                            </title> 1
+                            (2004), 29–60.</bibl>
+                        <bibl>J.  Lauffray, ‘Forums et monuments de Béryte, II: Le niveau médiéval’,
+                                <title rend="italic">Bulletin du Musée de Beyrouth</title> 7
+                            (1946–48), 1–16.</bibl>
+                        <bibl>L. Nordiguian and J.-C. Voisin, <title rend="italic">Châteaux et
+                                églises du moyen âge au Liban</title> (1999), 367–8.</bibl>
+                        <bibl>Y.  Sader, <title rend="italic">Painted Churches and Rock-Cut Chapels
+                                of Lebanon</title> (1997), 65–100.</bibl>
+                        <bibl>M.  Tallon, ‘Une église à peintures célèbre au Liban, Mar Tadros de
+                            Bahdeidat’, <title rend="italic">Annales d’histoire et
+                                d’archéologie</title> 7 (1996), 45–67.</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Erica Cruikshank</forename> 
+                  <surname>Dodd</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

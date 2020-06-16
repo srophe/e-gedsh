@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Grigorios Yawseph</title>
+            <author>
+               <persName>
+                  <forename>George A.</forename> 
+                  <surname>Kiraz</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.5">Electronic Edition Version 1.5</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Grigorios Yawseph</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Grigorios-Yawseph</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/249</idno>
+                    <idno type="entry">240</idno>
+                    <milestone unit="pages" n="183-184"/>
+                    <idno type="althead">Gregory Joseph IV the Iberian</idno>
+                    <idno type="subject">http://syriaca.org/person/281</idno>
+                    <note type="type">person</note>
+                    <note type="abstract">Minor author, scribe and <abbr>bp.</abbr> of <placeName ref="http://syriaca.org/place/2321">Jerusalem</placeName>
+                        (1510/12-1537).<note/>
+                    </note>
+                </ab>
+                <ab type="infobox">Gregory Joseph IV the Iberian (d. 1537) [<abbr>Syr. Orth.</abbr>]</ab>
+                <div type="body">
+                    <p>Minor author, scribe and <abbr>bp.</abbr> of <ref rend="bold" target="https://gedsh.bethmardutho.org/Jerusalem">
+                            <placeName ref="http://syriaca.org/place/104">Jerusalem</placeName>
+                        </ref>
+                        (1510/12–1537). He was born as Yawseph in <ref rend="bold" target="https://gedsh.bethmardutho.org/Aleppo">
+                            <placeName ref="http://syriaca.org/place/18">Aleppo</placeName>
+                        </ref> of an Iberian
+                        ancestry. Yawseph may have lost his parents at an early age, after which he
+                        was sent to <ref rend="bold" target="https://gedsh.bethmardutho.org/al-Zafaran-Dayr">
+                            <placeName ref="http://syriaca.org/place/69">Dayr
+                            al-Zaʿfarān</placeName>
+                        </ref> where he was cared for by <abbr>Patr.</abbr> Yuḥanon bar Shayullāh
+                        and the <abbr>
+                            <choice>
+                                <sic>Patr.</sic>
+                                <corr>patr.</corr>
+                            </choice>
+                        </abbr>’s mother Mariam. Yawseph became a monk in 1490 and was
+                        ordained priest in 1495. He spent some time in Dayro d-ʿAzrael, then moved
+                        between Ḥesno d-Kifo, <ref rend="bold" target="https://gedsh.bethmardutho.org/Tur-Abdin">
+                            <placeName ref="http://syriaca.org/place/221">Ṭur ʿAbdin</placeName>
+                        </ref>, and
+                            <ref rend="bold" target="https://gedsh.bethmardutho.org/Amid">
+                            <placeName ref="http://syriaca.org/place/8">Amid</placeName>
+                        </ref>.
+                        Impressed by his learning and zeal, <abbr>bp.</abbr> Yaʿqub of Amid called him ‘the pride
+                        of the church’.</p>
+                    <p>In 1510/12, Yawseph was consecrated <abbr>bp.</abbr> of Jerusalem and environs, then
+                        including <ref rend="bold" target="https://gedsh.bethmardutho.org/Damascus">
+                            <placeName ref="http://syriaca.org/place/66">Damascus</placeName>
+                        </ref>, Aleppo, Ḥama, Tripoli, and parts of Ṣadad (with other
+                        parts being under the <abbr>bp.</abbr> of Nabk). As a <abbr>bp.</abbr>, he took the name Grigorios. He
+                        managed to secure back <abbr>mss.</abbr> belonging to <choice>
+                            <sic/>
+                            <corr>the </corr>
+                        </choice>
+                        <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Mark-Monastery-of-St">
+                            <placeName ref="http://syriaca.org/place/388">Monastery of
+                            St. Mark</placeName>
+                        </ref> which his predecessor, <abbr>
+                            <choice>
+                                <sic>bp.</sic>
+                                <corr>Bp.</corr>
+                            </choice>
+                        </abbr> Diosqoros Yaʿqub al-Yabrudī,
+                        had pawned. Grigorios visited the monasteries of Scetis (Egypt), including
+                            <ref rend="bold" target="https://gedsh.bethmardutho.org/al-Suryan-Dayr">
+                            <placeName ref="http://syriaca.org/place/360">Dayr al-Suryān</placeName>
+                        </ref> in 1516. On that occasion he compiled a list of
+                        the recent acquisitions of Syriac liturgical <abbr>mss.</abbr> in Dayr al-Suryān (see
+                        Leroy). He also visited Ṣadad in 1527, Amid in 1529–30, Aleppo in 1534, and
+                        Ṭur ʿAbdin in 1535. Earlier, a matrimonial case in Ṣadad caused a friction
+                        between him and Diosqoros ʿĪsā <abbr>b.</abbr> Ḥuriyya, <abbr>bp.</abbr> of Nabk and <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Musa-al-Habashi-Dayr-Mar">
+                            <placeName ref="http://syriaca.org/place/228">Dayr Mār
+                            Mūsā al-Ḥabashī</placeName>
+                        </ref>.</p>
+                    <p>At a general meeting of all the Christians of Jerusalem in 1527, Grigorios
+                        was chosen to represent Jerusalem’s Christian communities in talks with the
+                        governor of Damascus, Lutfi Pasha. Shortly after, Grigorios obtained from
+                        the Pasha an edict to protect the civil rights of the <abbr>Syr. Orth.</abbr>, Greek,
+                        Coptic, Armenian, <abbr>Maron.</abbr>, and E.-Syr. Christians. During his bishopric,
+                        Grigorios obtained <abbr>ca.</abbr> ten governmental edicts from various officials,
+                        ensuring the rights of the <abbr>Syr. Orth.</abbr> in the Holy Places, the civil rights
+                        of all Christians in Palestine, and some in support of his ecclesiastical
+                        domain over the <abbr>Syr. Orth.</abbr> and their ‘Maronite and Nestorian followers’
+                        (sic).</p>
+                    <p>In 1532, Grigorios purchased a property from a Muslim named Yūsef <abbr>b.</abbr> Marʿī
+                        near Damascus Gate, Jerusalem, and established there a monastery which he
+                        called ‘The Gregorian Patriarchal Monastery of Jerusalem’ (a.k.a. Dayr
+                        al-ʿAdas). Grigorios died in Aleppo in 1537 and was buried at the Church of
+                        the Virgin.</p>
+                    <p>Grigorios was a renowned scribe. He produced the patriarchal bull of a Synod
+                        that took place in Dayr al-Zaʿfarān on 28 Jan. 1532.</p>
+                    <p>His literary works include: 1. Three <hi rend="italic">ḥusoye</hi> (Barsoum
+                        reported a <abbr>ms.</abbr> in Ḥesno d-Kifo’s Church); 2. Brief biographies of
+                        contemporary patriarchs and bishops; 3. An introduction to <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Bar-Ebroyo-Grigorios">
+                            <persName ref="http://syriaca.org/person/239">Bar ʿEbroyo</persName>
+                        </ref>’s <hi rend="italic">Ḥewat ḥekmto</hi> ‘Cream of
+                        Wisdom’; 4. A few <hi rend="italic">mimre</hi>; 5. a revision of the order
+                        of assuming the monastic leather <hi rend="italic">eskimo</hi>,based on a
+                        comparison with Coptic and Ethiopic <abbr>mss.</abbr> (<abbr>ms.</abbr>
+                        <abbr> Syr. Orth.</abbr>
+                        <abbr> Patr.</abbr> Libr.).</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>Barsoum, in <title rend="italic">PatMag</title> 2 (1934),
+                            145–52.</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>Barsoum</reg>
+                        <orig>idem</orig>
+                     </choice>, <title rend="italic">Scattered pearls</title>, 511–2.</bibl>
+                        <bibl>Kiraz, <title rend="italic">ʿIqd al-Jumān</title> (Glane/Losser,
+                            1988), 49–50.</bibl>
+                        <bibl>J. Leroy, ‘Un témoignage inédit sur l’état du Monastère des Syriens au
+                            Wadi ’n Natrun au début du XVI<hi rend="superscript">e</hi> siècle’,
+                                <title rend="italic">Bulletin de l’Institut français d’archéologie
+                                orientale</title> 65 (1967), 1–23 with plate. (Grigorios’s list of
+                            new <abbr>mss.</abbr> in Dayr al-Suryān)</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>George A.</forename> 
+                  <surname>Kiraz</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

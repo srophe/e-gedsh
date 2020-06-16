@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">
+                    <hi rend="italic">Iḥidāyā</hi>
+                </title>
+            <author>
+               <persName>
+                  <forename>Robert A.</forename> 
+                  <surname>Kitchen</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.5">Electronic Edition Version 1.5</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>
+                    <hi rend="italic">Iḥidāyā</hi>
+                </head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Ihidaya</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/279</idno>
+                    <idno type="entry">270</idno>
+                    <milestone unit="pages" n="208"/>
+                    <note type="type">subject</note>
+                    <note type="abstract">The Syriac term means ‘solitary (one)’ and designates individuals
+                        engaged in ascetic and monastic endeavors; it also is used for Christ.<note/>
+                    </note>
+                </ab>
+                <div type="body">
+                    <p>The ‘solitary (one)’, a Syriac term for individuals engaged in ascetic and
+                        monastic endeavors, and for the Second Person of the Trinity. The root is
+                            <hi rend="italic">yḥd</hi> ‘one’, used by <ref rend="bold" target="https://gedsh.bethmardutho.org/Aphrahat">
+                            <persName ref="http://syriaca.org/person/10">Aphrahaṭ</persName>
+                        </ref> and <ref rend="bold" target="https://gedsh.bethmardutho.org/Ephrem">
+                            <persName ref="http://syriaca.org/person/13">Ephrem</persName>
+                        </ref>
+                        to describe members of the consecrated elite of the Syr. church in the
+                        pre-monastic period. The ‘solitary one(s)’ or ‘single(s)’ had several
+                        connotations and contexts: 1. an individual who underwent ascetic
+                        disciplines removed from human society, often in isolated wilderness
+                        regions; 2. a person who was single, alone, unmarried, and celibate; 3. a
+                        person who was ‘single-minded’, not divided in heart and allegiance to God;
+                        and 4. a person who sought to emulate the Only Begotten One (Greek <hi rend="italic">monogenēs</hi>; Syr. <hi rend="italic">iḥidāyā</hi>) or
+                        Christ. In Aphrahaṭ, <hi rend="italic">iḥidāyā</hi> functions as an
+                        equivalent of <hi rend="italic">bar/ba(r)t qyāmā</hi> ‘son/daughter of the
+                        covenant’ (see <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Bnay-Qyama-Bnat-Qyama">
+                            <hi rend="italic">Bnay qyāmā</hi>
+                        </ref>, <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Bnay-Qyama-Bnat-Qyama">
+                            <hi rend="italic">Bnāt
+                            qyāmā</hi>
+                        </ref>), a more defined group of ascetics in the local church.
+                        ‘Solitary’ or ‘single’ in the sense of a person voluntarily isolated from
+                        contact with society did not apply here, for these individuals typically
+                        lived in small communities, so that the allusion to Christ the <hi rend="italic">iḥidāyā</hi> was primary. Griffith has suggested ‘singles
+                        in God’s service’ as a better understanding of the sense of the term.</p>
+                    <p>Some believe that the Greek term <hi rend="italic">monachos</hi> ‘monk’ was
+                        called into use to render Syr. <hi rend="italic">iḥidāyā</hi>, not the
+                        reverse as is usually assumed.</p>
+                    <p>By the late 5th to early 6th <abbr>cent.</abbr>, <hi rend="italic">iḥidāyā</hi> came to
+                        denote the general term for a monk living in community in a monastery. <ref rend="bold" target="https://gedsh.bethmardutho.org/Yaqub-of-Serugh">
+                            <persName ref="http://syriaca.org/person/42">Yaʿqub of Serugh</persName>
+                        </ref> (d. 521) wrote two <hi rend="italic">memre</hi>
+                        ‘On the <hi rend="italic">iḥidāye</hi>’ (nos. 137–8) (<abbr>ed.</abbr> P. Bedjan, <hi rend="italic">Homiliae Selectae Mar-Jacobi <choice>
+                                <sic>Sarugenesis</sic>
+                                <corr>Sarugensis</corr>
+                            </choice>
+                        </hi>, vol. 4,
+                        818–71) in which the <hi rend="italic">iḥidāye</hi> are clearly located in a
+                        monastery. In later usage <hi rend="italic">iḥidāyā</hi> means ‘hermit’,
+                        ‘solitary’ (though still attached loosely to a monastery).</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>Sh.  AbouZayd, <title rend="italic">Ihidayutha: A study of the
+                                life of singleness in the Syrian Orient. From Ignatius of Antioch to
+                                Chalcedon 451 A.D.</title> (1993).</bibl>
+                        <bibl>S. P.  Brock, <title rend="italic">The luminous eye: The spiritual
+                                world vision of Saint Ephrem the Syrian</title> (Cistercian Studies
+                            124; 1985), 131–141.</bibl>
+                        <bibl>S. H.  Griffith, ‘ “Singles” in God’s service: Thoughts on the Ihidaye
+                            from the works of Aphrahat and Ephraem the Syrian’, <title rend="italic">
+                                <abbr>Harp</abbr>
+                            </title> 4 (1991), 145–59.</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>S. H.  Griffith</reg>
+                        <orig>idem</orig>
+                     </choice>, ‘Monks, “singles,” and the “sons of the covenant.” Reflections
+                            on Syriac <choice>
+                                <sic>Ascetic</sic>
+                                <corr>ascetic</corr>
+                            </choice> terminology’, in <title rend="italic">Eulogema.
+                                Studies in Honor of R. Taft<choice>
+                                    <sic/>
+                                    <corr>,</corr>
+                                </choice> S.J.</title>, <abbr>ed.</abbr> E. Carr <abbr>et al.</abbr> (Studia
+                            Anselmiana 110; 1993), 141–60.</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Robert A.</forename> 
+                  <surname>Kitchen</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

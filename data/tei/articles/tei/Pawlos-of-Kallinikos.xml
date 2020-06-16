@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Pawlos of Kallinikos</title>
+            <author>
+               <persName>
+                  <forename>Lucas</forename> 
+                  <surname>Van Rompay</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.5">Electronic Edition Version 1.5</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Pawlos of Kallinikos</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Pawlos-of-Kallinikos</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/426</idno>
+                    <idno type="entry">417</idno>
+                    <milestone unit="pages" n="323-324"/>
+                    <idno type="subject">http://syriaca.org/person/47</idno>
+                    <note type="type">person</note>
+                    <note type="abstract">
+                        <abbr>Bp.</abbr> of Kallinikos; translator of works of Severus of
+                        Antioch.<note/>
+                    </note>
+                </ab>
+                <ab type="infobox">(first half of 6th <abbr>cent.</abbr>) [<abbr>Syr. Orth.</abbr>]</ab>
+                <div type="body">
+                    <p>
+                        <abbr>Bp.</abbr> of Kallinikos; translator of works of <ref rend="bold" target="https://gedsh.bethmardutho.org/Severus-of-Antioch">
+                            <persName ref="http://syriaca.org/person/51">Severus of
+                            Antioch</persName>
+                        </ref>. Pawlos must have become <abbr>bp.</abbr> no later than Aug. 509, at
+                        which time he is mentioned as <abbr>bp.</abbr> in an inscription on a mosaic floor in
+                        Tall Biʿa, near Kallinikos (Krebernik). His tenure as <abbr>bp.</abbr> came to an end in
+                        519, when he was among the 52 Miaphysite bps. who were expelled from their
+                        see following the implementation of a new Chalcedonian policy by Emperor
+                        Justin I.</p>
+                    <p>Pawlos is explicitly mentioned as the translator of Severus’s writings
+                        against <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Julian-of-Halicarnassus">
+                            <persName ref="http://syriaca.org/person/579">Julian
+                            Halicarnassus</persName>
+                        </ref> in a note at the end of <abbr>ms.</abbr> Vat. Syr. 140 (6th
+                        <abbr>cent.</abbr>), the main witness for these writings. That this <abbr>ms.</abbr> might be Pawlos’s
+                        autograph, as Baumstark speculated, is unlikely (Draguet, 13, note 6; and
+                        Hespel, in <abbr>CSCO</abbr> 295, iii); most scholars nowadays take the date of 528,
+                        provided in the note (which is in a different hand from that of the rest of
+                        the <abbr>ms.</abbr>), for the date of the completion of the original translation, rather
+                        than that of the <abbr>ms.</abbr> With Pawlos’s authorship of the Syriac version of the
+                        anti-Julianist dossier firmly established, several scholars have suggested
+                        that Pawlos may have translated other works by Severus as well. While King
+                        has made a strong case for attributing the Syriac translation of Severus’s
+                        Philalethes to Pawlos (King 2007 and 2008, 176–7), there is little evidence
+                        for seeing Pawlos as the translator of other works, such as the Cathedral
+                        Homilies (the 6th-cent. translation of which was later revised by <ref rend="bold" target="https://gedsh.bethmardutho.org/Yaqub-of-Edessa">
+                            <persName ref="http://syriaca.org/person/113">Yaʿqub of Edessa</persName>
+                        </ref>).</p>
+                    <p>Even if we are unable to determine Pawlos’s contribution with precision, he
+                        certainly belonged to the small circle of Miaphysite intellectuals who in
+                        the crucial period of the first quarter of the 6th <abbr>cent.</abbr> embarked on a major
+                        translation project, for which they applied standards that were more
+                        rigorous than those prevalent in the earlier period, without becoming ‘so
+                        obsessively calque-esque’ (King 2008, 385) as those that characterized the
+                        7th-cent. translations (in general, see <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Greek-Syriac-translations-from">Greek, Syriac translations from</ref>).</p>
+                    <p>See <ref target="https://gedsh.bethmardutho.org/fig/97">Fig. 97</ref>.</p>
+                </div>
+                <div type="bibl">
+                    <listBibl>
+                        <listBibl>
+                            <head>Primary Sources</head>
+                            <bibl>R.  Hespel, <title rend="italic">Sévère d’Antioche. La polémique
+                                    antijulianiste</title>, I, IIA, IIB, III (<abbr>CSCO</abbr> 244–5, 295–6,
+                                301–2, 318–9; 1964–71).</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>R.  Hespel</reg>
+                           <orig>idem</orig>
+                        </choice>, <title rend="italic">Sévère d’Antioche. Le
+                                    Philalèthe</title> (<abbr>CSCO</abbr> 133–4; 1952).</bibl>
+                        </listBibl>
+                        <listBibl>
+                            <head>Secondary Sources</head>
+                            <bibl>Baumstark, <title rend="italic">Literatur</title>, 160.</bibl>
+                            <bibl>R.  Draguet, <title rend="italic">Julien d’Halicarnasse et sa
+                                    controverse avec Sévère d’Antioche</title> (1924).</bibl>
+                            <bibl>Honigmann, <title rend="italic">Évêques et évêchés
+                                    monophysites</title>, 54, 127, 147.</bibl>
+                            <bibl>D. King, ‘Paul of Callinicum and his place in Syriac literature’,
+                                    <title rend="italic">
+                                    <abbr>LM</abbr>
+                                </title> 120 (2007), 327–49.</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>D. King</reg>
+                           <orig>idem</orig>
+                        </choice>, <title rend="italic">The Syriac versions of the writings of
+                                    Cyril of Alexandria. A study in translation technique</title>
+                                (<abbr>CSCO</abbr> 626; 2008), 175–7 and passim.</bibl>
+                            <bibl>M.  Krebernik, ‘Schriftfunde aus Tall Biʿa 1990, I. Funde aus dem
+                                byzantinischen Kloster’, <title rend="italic">Mitteilungen der
+                                    Deutschen Orient-Gesellschaft zu Berlin</title> 123 (1991),
+                                41–57.</bibl>
+                            <bibl>L.  Van  Rompay, ‘Jacob of Edessa and the sixth-century translator
+                                of Severus of Antioch’s Cathedral Homilies’, in <title rend="italic">Jacob of Edessa and the Syriac culture of his day</title>, <abbr>ed.</abbr>
+                                B. ter Haar Romeny (<abbr>MPIL</abbr> 18; 2008), 189–204. (with further
+                                references)</bibl>
+                        </listBibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Lucas</forename> 
+                  <surname>Van Rompay</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

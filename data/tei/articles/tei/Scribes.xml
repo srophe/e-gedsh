@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Scribes</title>
+            <author>
+               <persName>
+                  <forename>Sebastian P.</forename> 
+                  <surname>Brock</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.5">Electronic Edition Version 1.5</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Scribes</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Scribes</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/488</idno>
+                    <idno type="entry">479</idno>
+                    <milestone unit="pages" n="363"/>
+                    <note type="type">subject</note>
+                    <note type="abstract">
+                    </note>
+                </ab>
+                <div type="body">
+                    <p>In the Greek and Syriac legal documents from Osrhoene dating from the early
+                        240s, it is only in the three Syriac documents that the scribe identifies
+                        himself by name (see <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Old-Syriac-documents">Old Syriac Documents</ref>). This
+                        practice continues to be frequently found in the <ref rend="bold" target="https://gedsh.bethmardutho.org/Colophons">colophons</ref> to Syriac literary and liturgical manuscripts; there
+                        the scribe is normally a deacon, priest, or monk (women scribes are
+                        extremely rare: one example is a Maronite priest’s daughter [British
+                        Library, Sloane 3597, of 1701]). In a fairly small number of cases the
+                        scribe is also the author of the work he is copying; it has been suggested
+                        that this may be the case with the single <abbr>ms.</abbr> of the <ref rend="bold" target="https://gedsh.bethmardutho.org/Zuqnin-Chronicle-of">Chronicle of
+                            Zuqnin</ref>, and it may also be the case with the ‘Chronography’ of
+                            <ref rend="bold" target="https://gedsh.bethmardutho.org/Eliya-of-Nisibis">
+                            <persName ref="http://syriaca.org/person/472">Eliya of Nisibis</persName>
+                        </ref>; <ref rend="bold" target="https://gedsh.bethmardutho.org/Yaqub-of-Edessa">
+                            <persName ref="http://syriaca.org/person/113">Yaʿqub of
+                            Edessa</persName>
+                        </ref> may possibly have written the <abbr>ms.</abbr> containing his revision
+                        of the Hymns of Severus (Brit. Libr. Add. 17,134). In some other cases the
+                        scribe is a well-known person, such as <abbr>Patr.</abbr> 
+                  <ref rend="bold" target="https://gedsh.bethmardutho.org/Michael-I-Rabo">
+                            <persName ref="http://syriaca.org/person/217">Michael
+                            Rabo</persName>
+                        </ref>, from whom several autographs survive (Nau). Other
+                        patriarchal scribes are <ref rend="bold" target="https://gedsh.bethmardutho.org/Nuh-the-Lebanese">
+                            <persName ref="http://syriaca.org/person/277">Nuḥ the
+                            Lebanese</persName>
+                        </ref> (<abbr>ms.</abbr> Oxford, Marsh 437), Yawsep I (<abbr>ms.</abbr> Brit. Libr.
+                        Egerton 703), and <ref rend="bold" target="https://gedsh.bethmardutho.org/Yawsep-II">
+                            <persName ref="http://syriaca.org/person/813">Yawsep  II</persName>
+                        </ref> (3 <abbr>mss.</abbr>).</p>
+                    <p>Quite often, and especially in the last five centuries or so, the role of
+                        scribe passes from father to son, and sometimes entire family trees of such
+                        families can be constructed (Wilmshurst, 244, 249, 251, for scribal families
+                        of <ref rend="bold" target="https://gedsh.bethmardutho.org/Alqosh">
+                            <placeName ref="http://syriaca.org/place/19">Alqosh</placeName>
+                        </ref>). Several writings of much earlier Syriac authors are only
+                        preserved thanks to a number of scribes active around the turn of the 19th
+                        and 20th <abbr>cent.</abbr>; one of these was the deacon Mattai bar Pawlos of <ref rend="bold" target="https://gedsh.bethmardutho.org/Mosul">
+                            <placeName ref="http://syriaca.org/place/139">Mosul</placeName>
+                        </ref>,
+                        working between 1872 and 1934, over 40 of whose <abbr>mss.</abbr> are now in the Mingana
+                        Collection (Birmingham).</p>
+                    <p>See also <ref rend="bold" target="https://gedsh.bethmardutho.org/Manuscripts">Manuscripts</ref>.</p>
+                    <p>See <ref target="https://gedsh.bethmardutho.org/fig/18">Fig. 18</ref>, <ref target="https://gedsh.bethmardutho.org/fig/75">75</ref>, and <ref target="https://gedsh.bethmardutho.org/fig/94">94</ref>.</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>Barsoum, <title rend="italic">Scattered <choice>
+                                    <sic>Pearls</sic>
+                                    <corr>pearls</corr>
+                                </choice>
+                            </title>, 539–50.
+                            (‘famous calligraphers’)</bibl>
+                        <bibl>S. P.  Brock, ‘The art of the scribe’, in Brock and Taylor, <title rend="italic">Hidden Pearl</title>, vol. 2, 243–62.</bibl>
+                        <bibl>H.  Kaufhold, ‘Kirchliche Gemeinschaft und Schisma im Spiegel
+                            syrischer Schreibervermerke’, <title rend="italic">
+                                <abbr>OC</abbr>
+                            </title> 85 (2001),
+                            94–118.</bibl>
+                        <bibl>M.  Mundell Mango, ‘Patrons and scribes indicated in Syriac
+                            manuscripts, 411–800 AD’, <title rend="italic">Jahrbuch der
+                                österreichischen Byzantinischen Gesellschaft</title> 32.4 (1982),
+                            3–12.</bibl>
+                        <bibl>H.  Murre-van den Berg, ‘ “I, the weak scribe”. Scribes in the Church
+                            of the East in the Ottoman period’, <title rend="italic">
+                                <abbr>JEastCS</abbr>
+                            </title>
+                            58 (2006), 9–26.</bibl>
+                        <bibl>F. Nau, ‘Sur quelques autographes de Michel le Syrien’, <title rend="italic">ROC </title>2.9 (1914), 378–97.</bibl>
+                        <bibl>Wilmshurst, <title rend="italic">Ecclesiastical organisation</title>,
+                            382–732. (scribes in dated E.-Syr. <abbr>mss.</abbr>)</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Sebastian P.</forename> 
+                  <surname>Brock</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

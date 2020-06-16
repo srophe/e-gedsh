@@ -1,0 +1,571 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Liturgy</title>
+            <author>
+               <persName>
+                  <forename>Sebastian P.</forename> 
+                  <surname>Brock</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.5">Electronic Edition Version 1.5</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Liturgy</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Liturgy</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/340</idno>
+                    <idno type="entry">331</idno>
+                    <milestone unit="pages" n="248-251"/>
+                    <note type="type">subject</note>
+                    <note type="abstract">Overview of main liturgical rites of Syriac-speaking churches.<note/>
+                    </note>
+                </ab>
+                <div type="body">
+                    <p>The Christian liturgical rites can be grouped into families, the eastern ones
+                        being associated above all with Constantinople, <ref rend="bold" target="https://gedsh.bethmardutho.org/Antioch">
+                            <placeName ref="http://syriaca.org/place/10">Antioch</placeName>
+                        </ref>, <ref rend="bold" target="https://gedsh.bethmardutho.org/Jerusalem">
+                            <placeName ref="http://syriaca.org/place/104">Jerusalem</placeName>
+                        </ref>, and Alexandria. The various Syriac rites fall under
+                        the general heading of ‘Antiochene’, subdivided as E.- and W.-Syr., the
+                        latter again further subdivided into <abbr>Syr. Orth.</abbr>/Catholic, <abbr>Maron.</abbr>, and (until
+                        the early second millennium) <abbr>Melk.</abbr>
+                        <choice>
+                            <sic>.</sic>
+                            <corr/>
+                        </choice> ‘Antiochene’ is in fact not very
+                        appropriate for the E.-Syr. (Ch. of E./Chald.) traditions, whose roots were
+                        more connected with <ref rend="bold" target="https://gedsh.bethmardutho.org/Edessa">
+                            <placeName ref="http://syriaca.org/place/78">Edessa</placeName>
+                        </ref>, rather than
+                        Antioch.</p>
+                    <label type="subsection">General developments</label>
+                    <p>Liturgical texts develop considerably over time, and in their present forms
+                        they are many-layered, with archaic and much more recent elements side by
+                        side: the oldest elements go back to before the E.-/W.-Syr. ecclesiastical
+                        divide (5th/6th <abbr>cent.</abbr>), and so the two share certain texts (especially in
+                            <ref rend="bold" target="https://gedsh.bethmardutho.org/Poetry">poetry</ref>); approximately the 7th to 9th <abbr>cent.</abbr> saw
+                        the emergence of many rites in the forms known today: traditionally,
+                        large-scale liturgical reforms are attributed to <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Ishoyahb-III-of-Adiabene">
+                            <persName ref="http://syriaca.org/person/561">Ishoʿyahb III</persName>
+                        </ref> (d. 659) in the E.-Syr. tradition, and <ref rend="bold" target="https://gedsh.bethmardutho.org/Yaqub-of-Edessa">
+                            <persName ref="http://syriaca.org/person/113">Yaʿqub of Edessa</persName>
+                        </ref> (d. 708) in the W.-Syr.<choice>
+                            <sic>.</sic>
+                            <corr/>
+                        </choice> The earliest long
+                        theological prayers known as <hi rend="italic">sedre</hi> (or <hi rend="italic">ḥusoye</hi>) in the W.-Syr. tradition belong to this
+                        period, as do their counterparts, by <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Shallita-of-Reshayna">
+                            <persName ref="http://syriaca.org/person/734">Shalliṭa</persName>
+                        </ref> and others, in the E.-Syr. The majority of the earliest
+                        surviving liturgical <abbr>mss.</abbr> belong to the <abbr>ca.</abbr> 9th/10th <abbr>cent.</abbr> for the W.-Syr.
+                        tradition, whereas E.-Syr. ones only rarely survive before about <choice>
+                            <sic/>
+                            <corr>the </corr>
+                        </choice>12th
+                        <abbr>cent.</abbr>
+                    </p>
+                    <p>It must have been from about the 7th <abbr>cent.</abbr> that the <abbr>Maron.</abbr> and <abbr>Syr. Orth.</abbr>
+                        liturgical traditions began to separate, with the former often retaining
+                        archaic elements lost in the latter (<choice>
+                            <sic>e.g.</sic>
+                            <corr>e.g., </corr>
+                        </choice>in the baptismal texts and Weekday
+                        Office). This may explain surprisingly close parallels between the <abbr>Maron.</abbr>
+                        and E.-Syr. traditions: the <abbr>Maron.</abbr> Anaphora known as the ‘Sharrar’ (or Peter
+                        III) has many prayers in common with the Anaphora of Addai and Mari, and the
+                        Maronite Weekday Office includes several <hi rend="italic">sugyotho</hi> of
+                        E.-Syr. origin where they have named authors of the 6th and 7th <abbr>cent.</abbr> (see
+                        Brock 2004).</p>
+                    <p>In the <abbr>Melk.</abbr> tradition the 10th and 11th <abbr>cent.</abbr> witnessed the remarkable
+                        transition from an Antiochene to a Constantinopolitan rite (roughly
+                        co-terminous with the Byzantine reconquest of parts of north Syria,
+                        969–1084); this involved a massive undertaking of translations from Greek
+                        into Syriac (and subsequently into Arabic). Several of the poetic texts,
+                        including ones by <ref rend="bold" target="https://gedsh.bethmardutho.org/John-of-Damascus">
+                            <persName ref="http://syriaca.org/person/575">John of
+                            Damascus</persName>
+                        </ref>, were subsequently taken over also into the <abbr>Syr. Orth.</abbr>
+                        tradition, probably in the 11th and 12th <abbr>cent.</abbr>
+                    </p>
+                    <p>Although the W.-Syr. liturgical tradition had always included many texts
+                        translated from Greek, this new influx of materials of Greek origin led to
+                        the emergence of two slightly different <abbr>Syr. Orth.</abbr> traditions, that of
+                        Antioch, incorporating these new elements, and that of <ref rend="bold" target="https://gedsh.bethmardutho.org/Tagrit">
+                            <placeName ref="http://syriaca.org/place/193">Tagrit</placeName>
+                        </ref>, which did
+                        not. It was essentially the Tagrit rite that was introduced into S. India in
+                        the 18th and 19th <abbr>cent.</abbr>
+                    </p>
+                    <p>In the E.-Syr. tradition, many rites are traditionally associated with the
+                        reforms of <abbr>Patr.</abbr> Ishoʿyahb III, and/or with the usage of ‘the Upper
+                        Monastery’ (of Mar Gabriel and Mar Abraham, <ref rend="bold" target="https://gedsh.bethmardutho.org/Mosul">
+                            <placeName ref="http://syriaca.org/place/139">Mosul</placeName>
+                        </ref>). Many new
+                        texts were incorporated during the early centuries of the 2nd millennium, in
+                        particular prose texts by Eliya III Abū Ḥalīm (d. 1190), verse texts by <ref rend="bold" target="https://gedsh.bethmardutho.org/Gewargis-Warda">
+                            <persName ref="http://syriaca.org/person/504">Gewargis Warda</persName>
+                        </ref>, and <hi rend="italic">ʿonyāthā</hi> by <ref rend="bold" target="https://gedsh.bethmardutho.org/Khamis-bar-Qardahe">
+                            <persName ref="http://syriaca.org/person/587">Khamis bar Qardaḥe</persName>
+                        </ref> (both 13th <abbr>cent.</abbr>?).</p>
+                    <label type="subsection">The Main Liturgical Books</label>
+                    <p>
+                        <label type="subsubsection">Ch. of E.</label>
+                    </p>
+                    <p>Three Anaphoras are in use, the archaic Anaphora of the Apostles Addai and
+                        Mari, and Anaphoras attributed to <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Theodore-of-Mopsuestia">
+                            <persName ref="http://syriaca.org/person/780">Theodore</persName>
+                        </ref> and to
+                            <ref rend="bold" target="https://gedsh.bethmardutho.org/Nestorius">
+                            <persName ref="http://syriaca.org/person/655">Nestorius</persName>
+                        </ref>. For the most part only the former was taken over in
+                        the <abbr>Chald.</abbr> and Syro-Malabar Churches, and in both cases provided (in
+                        different places) with Institution Narratives, which the original lacked (a
+                        feature officially recognized, however, by the Vatican in 2001 as
+                        legitimate). The other two Anaphoras, when taken over, were simply called
+                        the ‘second’ and ‘third’ Anaphoras (thus the Mosul <abbr>ed.</abbr> 1901). In <abbr>mss.</abbr> the
+                        Anaphoras are usually combined with the Baptismal service, with Marriage and
+                        Burial services transmitted separately. In the Syro-Malabar Church, whose
+                        liturgy had been much adapted to the Roman rite in the 17th <abbr>cent.</abbr>, there has
+                        been considerable discussion over the appropriate form of a ‘restored’
+                        (de-Romanized) Qurbana (on this, see G. Thadikkatt, <hi rend="italic">Liturgical Identity of the Mar Toma Nazrani Church</hi> [2004]).</p>
+                    <p>The Weekday Offices are contained in the <ref rend="bold" target="https://gedsh.bethmardutho.org/Qdam-w-Bathar">
+                            <choice>
+                                <sic>Qdām w-Bāthar</sic>
+                            <corr>
+                                    <hi rend="italic">Qdām w-Bāthar</hi>
+                                </corr>
+                            </choice>
+                        </ref>
+                        (‘Before and After’, the weeks being so designated, according to which of
+                        two choirs commences); for this there is an <abbr>ET</abbr> by A. J. Maclean, <hi rend="italic">East Syrian Daily Offices</hi> (1894) and a recent reprint
+                        of the Syriac (<abbr>ed.</abbr> D.  Benjamin, 2004; based on de Qelayta’s edition of
+                        1923). Those parts of the services proper to Sundays and Feasts are
+                        contained in the <hi rend="italic">Ḥudrā</hi>, for which there is an edition
+                        by T. Darmo (3 vols.; Trichur, 1960–62); better known, however, is the
+                        earlier <abbr>Chald.</abbr> edition by P. Bedjan (3 vols.; 1886–7; <abbr>repr.</abbr> 1938; 1 vol.
+                        <abbr>ed.</abbr>, <abbr>ed.</abbr> P.  Yousif, 2002); a concordance between Darmo and Bedjan is given
+                        in <title rend="italic">
+                            <abbr>The Harp</abbr>
+                        </title> 19 (2006), 117–36. English translations
+                        and studies of particular seasons have been made by V. Pathikulangara
+                        (Resurrection, 1982; Holy Week, 1990), J. Moolan (<hi rend="italic">Subbara</hi>, or Annunciation to Nativity, 1985), and P.
+                        Kuruthukulangara (Nativity, 1989).</p>
+                    <p>Another <abbr>ms.</abbr> collection, with hymns and anthems for festivals, is known as the
+                            <hi rend="italic">Gazza</hi>; this has never been printed, but materials
+                        from it are included in the editions of the <hi rend="italic">Ḥudrā</hi> by
+                        Darmo and Bedjan.</p>
+                    <label type="subsubsection">
+                        <abbr>Syr. Orth.</abbr>
+                    </label>
+                    <p>This tradition stands out from all others in its number of available
+                        Anaphoras, said to be nearly 80, though only a dozen or so are in current
+                        use, and a large number have not yet been published. Some are translated
+                        from Greek, while others were composed in Syriac, the latest belonging to
+                        about the middle of the 2nd millennium. Both <abbr>mss.</abbr> and printed editions vary
+                        greatly in the number and selection of Anaphoras they provide, though that
+                        of St. James is normally present; this Anaphora, whose origins are connected
+                        with Jerusalem, provided the structural model for many of the other
+                        Anaphoras. The largest printed collection, with nineteen, is that of
+                        Pampakuda, 1931, though the critical edition (<hi rend="italic">Anaphorae
+                            Syriacae</hi>, 1939–81), now discontinued, covers 22 anaphoras over the
+                        course of its 7 fascicles (tables indicating the contents of main printed
+                        editions can be found in <hi rend="italic">Ephemerides Liturgicae</hi> 102
+                        [1988], 440–45).</p>
+                    <p>Originally there seem to have been at least three different baptismal rites,
+                        but only that attributed to <ref rend="bold" target="https://gedsh.bethmardutho.org/Severus-of-Antioch">
+                            <persName ref="http://syriaca.org/person/51">Severus</persName>
+                        </ref> remains in use.
+                        The Betrothal and Marriage rites were once separated in time, but in modern
+                        editions they are combined as a single rite. There are separate funeral
+                        services for clergy and laity, and within each of these, for different
+                        categories, <choice>
+                            <sic>e.g.</sic>
+                            <corr>e.g., </corr>
+                        </choice>bishops, priests, monks, nuns; men, women, children.
+                        Besides the bilingual editions mentioned in the Bibliography, the Syriac
+                        texts for Baptism, Marriage, and (Lay) Funerals were published in India by
+                        the Mar Julius Press (Pampakuda) in 1979.</p>
+                    <p>The Weekday Office is contained in the <hi rend="italic">Šḥimo</hi>, for
+                        which there are several printed editions, notably Jerusalem 1936; Pampakuda
+                        (4th <abbr>ed.</abbr> 1977), St. Ephrem Monastery, Holland, 1981 (and subsequent
+                        editions). A  bilingual form of the Pampakuda edition was published by SEERI
+                        (Kottayam) in 2006. Also arranged for the days of the week is a collection
+                        of prayers of monastic origin, known as the <hi rend="italic">Šbito</hi>
+                        (printed <abbr>ed.</abbr> Monastery of St. Ephrem, 1993).</p>
+                    <p>Liturgical texts for Sundays and Feasts are provided in the <hi rend="italic">Fenqito</hi>, of which there are two printed editions (Mosul, 1886–96,
+                        in 7 vols., and Pampakuda, 1962–3, in 3 vols.), although in many churches
+                        <abbr>mss.</abbr> are still used. The contents of the two editions, and of individual
+                        <abbr>mss.</abbr>, vary considerably; one noticeable difference between the two editions
+                        is that the Mosul edition (Syr. Catholic) includes the prose <hi rend="italic">Sedre</hi> (which are usually transmitted separately in
+                        <abbr>mss.</abbr>, and so are absent from the Pampakuda edition). An abbreviated and
+                        adapted English version of the Mosul edition was made by Fr. Francis Acharya
+                        (d. 2002), <hi rend="italic">Crown of the Year</hi> (3 vols.; Kurisumala
+                        Ashram, 1982–86).</p>
+                    <p>The liturgical texts of the reformed Mar Thoma Church in South India are for
+                        the most part fairly close to their <abbr>Syr. Orth.</abbr> antecedents.</p>
+                    <label type="subsubsection">
+                        <abbr>Maron.</abbr>
+                    </label>
+                    <p>The learned <abbr>Patr. </abbr>
+                        <ref rend="bold" target="https://gedsh.bethmardutho.org/al-Duwayhi-Istifan">
+                            <persName ref="http://syriaca.org/person/460">Istịfān al-Duwayhi</persName>
+                        </ref> (d. 1704) listed
+                        27 Anaphoras in use by the Maronites, but printed editions give many less,
+                        and some later ones give prominence to the Roman rite; a return to the true
+                        Antiochene tradition was the aim of reforms initiated in 1971, and mandated
+                        in 1991. Most of the <abbr>Maron.</abbr> Anaphoras are shared with the <abbr>Syr. Orth.</abbr>, though
+                        a few are confined to the <abbr>Maron.</abbr> tradition, notably the archaic ‘Sharrar’.
+                        Although <abbr>Maron.</abbr> liturgical <abbr>mss.</abbr> earlier than the 16th <abbr>cent.</abbr> are only rarely
+                        preserved, many liturgical books preserve early features lost in the rest of
+                        the Antiochene liturgical tradition. This applies in particular to the
+                        Baptismal rite and to the Weekday Office (<hi rend="italic">Šḥimto</hi>). An
+                        <abbr>ET</abbr> of the Divine Office throughout the year, providing texts for <hi rend="italic">Ramšo</hi> and <hi rend="italic">Ṣapro</hi> for Sundays
+                        and Feasts, was published by the Diocese of St. Maron (USA) in 3 vols. (<hi rend="italic">Prayer of the Faithful</hi>, 1982–5); this goes back (via
+                        French) to a simplified edition in Arabic, made by the liturgical scholar
+                        (now <abbr>
+                            <choice>
+                                <sic>Bp.</sic>
+                                <corr>bp.</corr>
+                            </choice>
+                        </abbr>) B. Gemayel.</p>
+                    <label type="subsubsection">
+                        <abbr>Melk.</abbr>
+                    </label>
+                    <p>Only the very oldest Melkite liturgical <abbr>mss.</abbr> preserve the original Antiochene
+                        rite, whereas all the rest represent the Constantinopolitan rite (itself
+                        ultimately of Antiochene origin), and so the range of different liturgical
+                        books is basically the same as in the Greek Orthodox tradition. The oldest
+                        texts often have materials in common with the <abbr>Syr. Orth.</abbr> and/or <abbr>Maron.</abbr>
+                        traditions. In the case of an archaic short baptismal rite, there is still
+                        no post-baptismal anointing (this had been first introduced in the
+                        Antiochene area <abbr>ca.</abbr> 400). The multilingual character of the <abbr>Melk.</abbr> liturgical
+                        tradition is brought out by the existence of bilingual texts, especially
+                        Syriac-Arabic, although occasionally Syriac-Greek, or Greek in Syriac
+                        characters. Syriac remained in use as one of the liturgical languages until
+                        at least the 17th <abbr>cent.</abbr>
+                    </p>
+                </div>
+                <div type="bibl">
+                    <listBibl>
+                        <listBibl>
+                            <head>Bibliographic Sources</head>
+                            <bibl>J.-M.  Sauget, <title rend="italic">Bibliographie des liturgies
+                                    orientales (1900–1960)</title> (1962).</bibl>
+                            <bibl>P. Yousif, <title rend="italic">A classified bibliography on the
+                                    East Syrian liturgy</title> (1990).</bibl>
+                            <bibl>More recent bibliography can be found under ‘Liturgy’ in the
+                                Classified Bibliographies in <title rend="italic">
+                                    <abbr>ParOr</abbr>
+                                </title> 23
+                                (1998), 29 (2004), and 33 (2008).</bibl>
+                        </listBibl>
+                        <listBibl>
+                            <head>Primary Sources</head>
+                            <listBibl>
+                                <head>Eucharist</head>
+                                <bibl>W. Macomber, ‘The oldest known text of the Anaphora of the
+                                    Apostles Addai and Mari’, <title rend="italic">
+                                        <abbr>OCP</abbr>
+                                    </title> 32
+                                    (1966), 335–71.</bibl>
+                                <bibl>K. A.  Paul and G.  Mooken [Mar Aprem], <title rend="italic">The Liturgy of the Holy Apostles Adai and Mari together
+                                        with the Liturgies of Mar Theodorus and Mar Nestorius and
+                                        the Order of Baptism</title> (Trichur, 1967). (<abbr>ET</abbr> of
+                                    E.-Syr., including Baptism)</bibl>
+                                <bibl>A. Raes, <title rend="italic">Anaphorae Syriacae</title>,
+                                    I.1–3, II.1–3, III.1 (1939–81).</bibl>
+                                <bibl>Mar Athanasius Samuel, <title rend="italic">Anaphoras</title>
+                                    (1991). (Bilingual edition, Syriac-English, with 13 <abbr>Syr. Orth.</abbr>
+                                    anaphoras)</bibl>
+                                <bibl>J.  Vadakel, <title rend="italic">The East Syrian Anaphora of
+                                        Mar Theodore of Mopsuestia</title> (1989).</bibl>
+                            </listBibl>
+                            <listBibl>
+                                <head>Commentaries on the Liturgy</head>
+                                <bibl>S. P.  Brock, ‘Gabriel of Qatar’s Commentary on the Liturgy’,
+                                        <title rend="italic">
+                                        <abbr>Hugoye</abbr>
+                                    </title> 6.2 (2003).</bibl>
+                                <bibl>
+                           <choice>
+                              <reg>S. P.  Brock</reg>
+                              <orig>idem</orig>
+                           </choice>, ‘An early Syriac Comm. on the Liturgy’, in <title rend="italic">Fire from Heaven</title> (2006), ch. XVI.
+                                    (with ch. XV, on Baptism)</bibl>
+                                <bibl>R. H. Connolly, <title rend="italic">The Liturgical Homilies
+                                        of Narsai</title> (1909).</bibl>
+                                <bibl>R. H. Connolly (<abbr>ed.</abbr> R. Matheus), <title rend="italic">A
+                                        Commentary on the Mass by the Nestorian George [Ps.George of
+                                        Arbela]</title> (2000).</bibl>
+                                <bibl>R. H. Connolly and H. W. Codrington, <title rend="italic">Two
+                                        Commentaries on the Jacobite Liturgy</title> (1913).</bibl>
+                                <bibl>A.  Mingana, <title rend="italic">Commentary of Theodore of
+                                        Mopsuestia on the Lord’s Prayer and the Eucharist</title>
+                                    (Woodbrooke Studies 6, 1933).</bibl>
+                                <bibl>B.  Varghese, <title rend="italic">Dionysius bar Salibi:
+                                        Commentary on the Eucharist</title> (1998).</bibl>
+                                <bibl>
+                           <choice>
+                              <reg>B.  Varghese</reg>
+                              <orig>idem</orig>
+                           </choice>, <title rend="italic">John of Dara: Commentary on the
+                                        Eucharist</title> (1999).</bibl>
+                            </listBibl>
+                            <listBibl>
+                                <head>Baptism</head>
+                                <bibl>Ch. of E.: see under Eucharist.</bibl>
+                                <bibl>Mar.: A. Mouhanna, <title rend="italic">Les rites de
+                                        l’initiation dans l’Église Maronite</title> (<abbr>OCA</abbr> 212,
+                                    1980).</bibl>
+                                <bibl>
+                                    <abbr>Melk.</abbr>: S. P. Brock, ‘A short Melkite baptismal service in
+                                    Syriac’, <title rend="italic">
+                                        <abbr>ParOr</abbr>
+                                    </title> 3 (1972),
+                                    119–30.</bibl>
+                                <bibl>
+                                    <abbr>Syr. Orth.</abbr>: 1. rites no longer used: S. P. Brock, ‘A new
+                                    Syriac baptismal ordo attributed to Timothy of Alexandria’, <title rend="italic">
+                                        <abbr>LM</abbr>
+                                    </title> 83 (1970), 367–431; <choice>
+                              <reg>S. P. Brock</reg>
+                              <orig>idem</orig>
+                           </choice>, ‘The
+                                    anonymous Syriac baptismal ordo in Add. 14,518’, <title rend="italic">
+                                        <abbr>ParOr</abbr>
+                                    </title> 8 (1977/8), 311–46; 2. current
+                                    rite, attributed to Severus: A. Y. Samuel (<abbr>ed.</abbr>), <title rend="italic">The Sacrament of Holy Baptism according to the
+                                        Ancient Rite of the Syrian Orthodox Church of
+                                        Antioch</title> (1974). (Syr. with <abbr>ET</abbr>).</bibl>
+                                <bibl>The texts of all the rites, with <abbr>LT</abbr>, are given in J. A.
+                                    Assemani, <title rend="italic">Codex Liturgicus Ecclesiae
+                                        Universae</title>, I–III (1750; <abbr>repr.</abbr> 1968).</bibl>
+                                <bibl>Commentaries: S. P. Brock, ‘Some early Syriac baptismal
+                                    commentaries’, <title rend="italic">
+                                        <abbr>OCP</abbr>
+                                    </title> 46 (1980),
+                                    20–61. (Syr. with <abbr>ET</abbr>; <abbr>repr.</abbr> in <title rend="italic">Fire from
+                                        Heaven</title> [2006], ch. XV); B. Varghese, <title rend="italic">Dionysius bar Salibi. Commentaries on Myron
+                                        and Baptism</title> (2006) (Syr. with <abbr>ET</abbr>).</bibl>
+                            </listBibl>
+                            <listBibl>
+                                <head>Marriage, Funeral, etc.</head>
+                                <bibl>Bilingual (Syr. with <abbr>ET</abbr>) editions (W.-Syr.): Marriage (1974);
+                                    Funeral (1974); <title rend="italic">Maʿdeʿdono</title>
+                                    (Festivals; 1984); <title rend="italic">Šḥimo</title> (2006). <abbr>ET</abbr>
+                                    of many E.-Syr. rites in G. P. Badger, <title rend="italic">The
+                                        Nestorians and their Rituals</title>, II (1852 and
+                                    reprints).</bibl>
+                            </listBibl>
+                        </listBibl>
+                        <listBibl>
+                            <head>Secondary Sources</head>
+                            <bibl>A. Baumstark, <title rend="italic">Festbrevier und Kirchenjahr der
+                                    syrischen Jakobiten</title> (1910; <abbr>repr.</abbr> 1967).</bibl>
+                            <bibl>A.  Baumstark (<abbr>ed.</abbr> B.  Botte), <title rend="italic">Comparative
+                                    Liturgy</title> (1958). (with ‘Bibliographical Appendix’, for
+                                main printed liturgical editions)</bibl>
+                            <bibl>S. P.  Brock, ‘Studies in the early history of the Syrian Orthodox
+                                baptismal liturgy’, <title rend="italic">
+                                    <abbr>JTS</abbr>
+                                </title>
+                                <abbr> ns</abbr> 23 (1972),
+                                16–64.</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>S. P.  Brock</reg>
+                           <orig>idem</orig>
+                        </choice>, <title rend="italic">The Holy Spirit in the Syrian Baptismal
+                                    Tradition</title> (1979; <abbr>repr.</abbr> 1998; new <abbr>ed.</abbr> 2008).</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>S. P.  Brock</reg>
+                           <orig>idem</orig>
+                        </choice>, ‘Some early witnesses of the East Syriac liturgical
+                                tradition’, <title rend="italic">
+                                    <abbr>JAAS</abbr>
+                                </title> 18 (2004),
+                                9–45.</bibl>
+                            <bibl>F.  Cassingena-Trevédy and I. Jurasz (<abbr>ed.</abbr>), <title rend="italic">Les liturgies syriaques</title> (<abbr>ÉtSyr</abbr> 3; 2006).</bibl>
+                            <bibl>A.  Gelston, <title rend="italic">The Eucharistic Prayer of Addai
+                                    and Mari</title> (1992).</bibl>
+                            <bibl>P.  Gemayel, <title rend="italic">L’Avant Messe Maronite</title>
+                                (<abbr>OCA</abbr> 174; 1965).</bibl>
+                            <bibl>B.  ter Haar Romeny (<abbr>ed.</abbr>), <title rend="italic">The Peshitta: Its
+                                    use in literature and liturgy</title> (<abbr>MPIL</abbr> 15; 2006).</bibl>
+                            <bibl>M.  Hayek, <title rend="italic">Liturgie Maronite, histoire et
+                                    textes eucharistiques</title> (1963).</bibl>
+                            <bibl>W. Macomber, ‘A theory of the origins of the Syrian, Maronite and
+                                Chaldean rites’, <title rend="italic">
+                                    <abbr>OCP</abbr>
+                                </title> 39 (1973),
+                                235–42.</bibl>
+                            <bibl>J. Mateos, <title rend="italic">Lelya-Sapra. Essai
+                                    d’interprétation des matines chaldéennes</title> (<abbr>OCA</abbr> 156;
+                                1959).</bibl>
+                            <bibl>J. Tabet, <title rend="italic">L’Office Commun Maronite</title>
+                                (1972).</bibl>
+                            <bibl>R. Taft, <title rend="italic">The Liturgy of the Hours in East and
+                                    West</title> (1986).</bibl>
+                            <bibl>B.  Varghese, <title rend="italic">Les onctions baptismales dans
+                                    la tradition syrienne</title> (<abbr>CSCO</abbr> 512; 1989).</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>B.  Varghese</reg>
+                           <orig>idem</orig>
+                        </choice>, <title rend="italic">The Syriac version of the Liturgy of St
+                                    James. A brief history for students</title> (2001).</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>B.  Varghese</reg>
+                           <orig>idem</orig>
+                        </choice>, <title rend="italic">West Syrian liturgical theology</title>
+                                (2004).</bibl>
+                            <bibl>W.  de  Vries, <title rend="italic">Sakramententheologie bei den
+                                    syrischen Monophysiten</title> (<abbr>OCA</abbr> 125; 1940).</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>W.  de  Vries</reg>
+                           <orig>idem</orig>
+                        </choice>, <title rend="italic">Sakramententheologie bei den
+                                    Nestorianern</title> (<abbr>OCA</abbr> 133; 1947).</bibl>
+                        </listBibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Sebastian P.</forename> 
+                  <surname>Brock</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

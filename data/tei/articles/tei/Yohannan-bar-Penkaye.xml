@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Yoḥannan bar Penkaye</title>
+            <author>
+               <persName>
+                  <forename>Sebastian P.</forename> 
+                  <surname>Brock</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.5">Electronic Edition Version 1.5</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Yoḥannan bar Penkaye</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Yohannan-bar-Penkaye</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/605</idno>
+                    <idno type="entry">596</idno>
+                    <milestone unit="pages" n="440"/>
+                    <idno type="subject">http://syriaca.org/person/821</idno>
+                    <note type="type">person</note>
+                    <note type="abstract">Author of a history of the world.<note/>
+                    </note>
+                </ab>
+                <ab type="infobox">(late 7th <abbr>cent.</abbr>) [Ch. of E.]</ab>
+                <div type="body">
+                    <p>Author of a summary history of the world. Evidently from Penek in Beth
+                        Zabdai, he became a monk of the Monastery of Yoḥannan of Kamul, and later, a
+                        solitary attached to that of Mar Bassima. His main work is the <hi rend="italic">Ktābā d-reš melle </hi>‘Book of the main events’, a
+                        history of the world in 15 Books, ending up with his own time. A verse
+                        treatise on monastic life by him is also preserved, as well as two
+                        ‘Centuries’ which evidently belong to a work entitled ‘The (spiritual)
+                        Merchant’, mentioned by  <ref rend="bold" target="https://gedsh.bethmardutho.org/Abdisho-bar-Brikha">
+                            <persName ref="http://syriaca.org/person/310">ʿAbdishoʿ</persName>
+                        </ref> in his ‘Catalogue’
+                        (he also lists some other works which have disappeared). In the <abbr>ms.</abbr>
+                        tradition he is sometimes confused with <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Yohannan-of-Dalyatha">
+                            <persName ref="http://syriaca.org/person/826">Yoḥannan of
+                            Dalyatha</persName>
+                        </ref>.</p>
+                </div>
+                <div type="bibl">
+                    <listBibl>
+                        <listBibl>
+                            <head>Primary Sources</head>
+                            <bibl>M.  Albert, ‘Une Centurie de Mar Jean bar Penkaye’, in <title rend="italic">Mélanges A. Guillaumont</title> (Cahiers
+                                d’Orientalisme 20; 1988), 143–151. (<abbr>FT</abbr> of the first of the two
+                                Centuries)</bibl>
+                            <bibl>S. P.  Brock, in <title rend="italic">Jerusalem Studies in Arabic
+                                    and Islam</title> 9 (1987), 51–75. (<abbr>ET</abbr> of World history, Book
+                                15<choice>
+                                    <sic>:</sic>
+                                    <corr/>
+                                </choice>, <abbr>repr.</abbr> in <title rend="italic">Studies in Syriac
+                                    Christianity</title> [1992], ch. 2)</bibl>
+                            <bibl>A.  Mingana, <title rend="italic">Sources syriaques</title>, vol.
+                                I (1907), 1–171. (Syr. text of World history, Books 10–15 with <abbr>FT</abbr> of
+                                Book 15)</bibl>
+                        </listBibl>
+                        <listBibl>
+                            <head>Secondary Sources</head>
+                            <bibl>P.  Bruns, ‘Von Eva und Adam bis Mohammed. Beobachtungen zur
+                                syrischen Chronik des Johannes bar Penkaye’, <title rend="italic">
+                                    <abbr>OC</abbr>
+                                </title> 87 (2003), 47–64.</bibl>
+                            <bibl>L.  Greisiger, ‘John bar Penkāyē’, in <title rend="italic">Christian-Muslim relations</title>, <abbr>ed.</abbr> Thomas and Roggema,
+                                176–81.</bibl>
+                            <bibl>T.  Jansma, ‘Projet d’édition du <title rend="italic">Ktaba d-Resh
+                                    Melle</title> de Jean bar Penkaye’, <title rend="italic">
+                                    <abbr>OS</abbr>
+                                </title> 8 (1963), 87–106.</bibl>
+                            <bibl>H.  Kaufhold, ‘Anmerkungen zur Textüberlieferung der Chronik des
+                                Iohannes bar Penkaye’, <title rend="italic">
+                                    <abbr>OC</abbr>
+                                </title> 87 (2003),
+                                65–79.</bibl>
+                            <bibl>K.  Pinggéra, ‘Nestorianische Weltchronistik. Johannes bar Penkaye
+                                und Elias von Nisibis’, in <title rend="italic">Julius Africanus und
+                                    die christliche Weltchronik</title>, <abbr>ed.</abbr> M. Wallraff (<abbr>TU</abbr> 157;
+                                2006), 263–83.</bibl>
+                            <bibl>G. J.  Reinink, ‘Paideia. God’s design in world history according
+                                to the East Syrian monk John bar Penkaye’, in <title rend="italic">The Medieval Chronicle</title>, <abbr>ed.</abbr> K. Cooper, vol. 2 (2002),
+                                190–98.</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>G. J.  Reinink</reg>
+                           <orig>idem</orig>
+                        </choice>, ‘East Syrian historiography in response to the rise of
+                                Islam: the case of John bar Penkaye’s <title rend="italic">Ktaba
+                                    d-Resh Melle</title>’, in <title rend="italic">Redefining
+                                    Christian Identity</title>, <abbr>ed.</abbr> J. J. van Ginkel, H. L.
+                                Murre-van den Berg, and T. M. van Lint (<abbr>OCA</abbr> 134; 2005),
+                                77–89.</bibl>
+                            <bibl>H.  Suermann, ‘Das arabische Reich in der Weltgeschichte des
+                                Johannan bar Penkaye’, in <title rend="italic">Nubia et Oriens
+                                    Christianus</title>, <abbr>ed.</abbr> P. O. Scholz and R. Stempiel (1987),
+                                59–71.</bibl>
+                        </listBibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Sebastian P.</forename> 
+                  <surname>Brock</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

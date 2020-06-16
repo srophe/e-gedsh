@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Eliya of al-Anbār</title>
+            <author>
+               <persName>
+                  <forename>Andreas</forename> 
+                  <surname>Juckel</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.5">Electronic Edition Version 1.5</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Eliya of al-Anbār</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Eliya-of-al-Anbar</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/201</idno>
+                    <idno type="entry">192</idno>
+                    <milestone unit="pages" n="142"/>
+                    <idno type="subject">http://syriaca.org/person/471</idno>
+                    <note type="type">person</note>
+                    <note type="abstract">
+                        <abbr>Bp.</abbr> of al-Anbār and composer of didactic poetry in the
+                        first half of the 10th <abbr>cent.</abbr>
+                        <note/>
+                    </note>
+                </ab>
+                <ab type="infobox">(first half of the 10th <abbr>cent.</abbr>) [Ch. of E.]</ab>
+                <div type="body">
+                    <p>
+                        <abbr>Bp.</abbr> of <ref rend="bold" target="https://gedsh.bethmardutho.org/al-Anbar">
+                            <placeName ref="http://syriaca.org/place/211">al-Anbār</placeName>
+                        </ref> and composer of didactic poetry in the first half of the
+                        10th <abbr>cent.</abbr> There are three sources about his life and writings: 1. The
+                        ‘Chronology’ of <ref rend="bold" target="https://gedsh.bethmardutho.org/Eliya-of-Nisibis">
+                            <persName ref="http://syriaca.org/person/472">Eliya of
+                            Nisibis</persName>
+                        </ref> (d. 1046) notes that Eliya was in (probably dogmatic)
+                        conflict with the <abbr>Cath.</abbr> Abraham III al-Abrāzā (906–37) in the year 1233 of
+                        the Greeks (= AD 921–22); 2. According to the ‘Book of the Tower’ (<hi rend="italic">Kitāb al-Majdal</hi>, <abbr>ed.</abbr> H. Gismondi) Eliya was ‘unique
+                        in his time by knowledge and virtue’ and elected <abbr>
+                            <choice>
+                                <sic>Cath.</sic>
+                                <corr>cath.</corr>
+                            </choice>
+                        </abbr> in 938. But the
+                        Caliph’s approval was withdrawn after his secretary was offended by Eliya
+                        shortly before the inthronisation; 3. <ref rend="bold" target="https://gedsh.bethmardutho.org/Abdisho-bar-Brikha">
+                            <persName ref="http://syriaca.org/person/310">ʿAbdishoʿ bar
+                            Brikha</persName>
+                        </ref> (d. 1318) in his ‘Catalogue’ of Syriac writers attributes
+                        to Eliya metrical discourses in three volumes, homilies, letters, and an
+                        apology. Moreover, Eliya of Nisibis claims that his ‘Chronology’ is a
+                        continuation of the one by Eliya, which he cites twice (286 and 287
+                        A.H.).</p>
+                    <p>Only the discourses survived, a voluminous collection of didactic
+                        (heptasyllabic) poetry known as <hi rend="italic">Ktābā d-Durrāšā</hi> ‘Book
+                        of Exercise’ or by its popular name <hi rend="italic">Ktābā d-Maʾwātā</hi>
+                        ‘Book of Centuries’. The book is divided into three parts with a total of
+                        ten <hi rend="italic">memre</hi> and 3,000 stanzas, organized in 30
+                        centuries. It is a manual of ‘theoria’ based on scripture (typology),
+                        tradition (doctrine, heresies), and nature (profane knowledge), directing
+                        the reader to the Trinity, the world to come, and salvation history by
+                        unfolding symbols (<hi rend="italic">rāze</hi>, <hi rend="italic">ṭupse</hi>) and their explanations (<hi rend="italic">theoriai</hi>). The
+                        elaborate structure of the book reflects the celestial hierarchy of <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Dionysius-the-Areopagite-Pseudo-">Dionysius the Areopagite</ref>, enlarged by a tenth rank of
+                        the human beings. Purification, illumination, and perfection by
+                        participating in the knowledge of the angelic ranks is the mystical idea
+                        behind this symbolism.</p>
+                    <p>There was a second E.-Syr. <abbr>bp.</abbr> of al-Anbār by the name of Eliya during the
+                        reign of <abbr>Patr.</abbr> Mari bar Ṭobi (987–99).</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>Baumstark, <title rend="italic">Literatur</title>, 237–8.</bibl>
+                        <bibl>A.  Juckel, <title rend="italic">Der Ktābā d-Durrāšā (Ktābā d-Maʾwātā)
+                                des Elijā von Anbār. Mēmrā</title>, I–III (<abbr>CSCO</abbr> 559–60; 1996).</bibl>
+                        <bibl>H.  Gismondi, <title rend="italic">Maris, Amri et Slibae De
+                                Patriarchis Nestorianorum Commentaria, pars altera</title>
+                            (1896/1897), 85.</bibl>
+                        <bibl>Wright, <title rend="italic">Short History of Syriac
+                                Literature</title>, 230.</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Andreas</forename> 
+                  <surname>Juckel</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

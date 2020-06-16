@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Ishoʿdad of Merv</title>
+            <author>
+               <persName>
+                  <forename>Lucas</forename> 
+                  <surname>Van Rompay</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.5">Electronic Edition Version 1.5</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Ishoʿdad of Merv</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Ishodad-of-Merv</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/292</idno>
+                    <idno type="entry">283</idno>
+                    <milestone unit="pages" n="216-217"/>
+                    <idno type="subject">http://syriaca.org/person/555</idno>
+                    <note type="type">person</note>
+                    <note type="abstract">
+                        <abbr>Bp.</abbr> of Ḥdatta, author of commentaries on both the <abbr>OT</abbr> and
+                        <abbr>NT</abbr>.<note/>
+                    </note>
+                </ab>
+                <ab type="infobox">(<abbr>fl.</abbr>
+                    <abbr> ca.</abbr> 850) [Ch. of E.]</ab>
+                <div type="body">
+                    <p>
+                        <abbr>Bp.</abbr> of Ḥdatta, author of commentaries on both the <abbr>OT</abbr> and <abbr>NT</abbr>. Little is known
+                        of Ishoʿdad’s biography. A native of the city of Maru or Merv, in
+                        present-day Turkmenistan, he became <abbr>bp.</abbr> of Ḥdatta (al-Ḥadītha), to the
+                        southeast of <ref rend="bold" target="https://gedsh.bethmardutho.org/Mosul">
+                            <placeName ref="http://syriaca.org/place/139">Mosul</placeName>
+                        </ref>, <abbr>ca.</abbr> 837. In 852, he was a candidate for the patriarchal
+                        throne, but he failed to be elected.</p>
+                    <p>Ishoʿdad’s commentaries present the most expansive form of E.-Syr. biblical
+                        interpretation. They are preserved in a good number of <abbr>mss.</abbr> and they served
+                        as sources not only for subsequent E.-Syr. commentators, but also for
+                        W.-Syr. authors, such as <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Dionysios-bar-Salibi">
+                            <persName ref="http://syriaca.org/person/212">Dionysios
+                            bar Ṣalibi</persName>
+                        </ref>.</p>
+                    <p>Both the theological concepts and the exegetical principles of the
+                        commentaries largely reflect the ideas of <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Theodore-of-Mopsuestia">
+                            <persName ref="http://syriaca.org/person/780">Theodore
+                            of Mopsuestia</persName>
+                        </ref> as they had developed and were transmitted in the
+                        later E.-Syr. schools. Works of other authors, however, were also part of
+                        the E.-Syr. exegetical tradition, especially those of <ref rend="bold" target="https://gedsh.bethmardutho.org/Ephrem">
+                            <persName ref="http://syriaca.org/person/13">Ephrem</persName>
+                        </ref>, <ref rend="bold" target="https://gedsh.bethmardutho.org/Basil-of-Caesarea">
+                            <persName ref="http://syriaca.org/person/376">Basil of Caesarea</persName>
+                        </ref>, the Cappadocians, and <ref rend="bold" target="https://gedsh.bethmardutho.org/John-Chrysostom">
+                            <persName ref="http://syriaca.org/person/573">John
+                            Chrysostom</persName>
+                        </ref>, as well as exegetical writings by various authors of
+                        the Schools of <ref rend="bold" target="https://gedsh.bethmardutho.org/Nisibis">
+                            <placeName ref="http://syriaca.org/place/142">Nisibis</placeName>
+                        </ref> and <ref rend="bold" target="https://gedsh.bethmardutho.org/Seleucia-Ctesiphon">
+                            <placeName ref="http://syriaca.org/place/182">Seleucia</placeName>
+                        </ref>, among them <ref rend="bold" target="https://gedsh.bethmardutho.org/Narsai">
+                            <persName ref="http://syriaca.org/person/650">Narsai</persName>
+                        </ref>, <abbr>Cath.</abbr> Mar
+                            <ref rend="bold" target="https://gedsh.bethmardutho.org/Aba">
+                            <persName ref="http://syriaca.org/person/308">Aba</persName>
+                        </ref>,
+                        and <ref rend="bold" target="https://gedsh.bethmardutho.org/Henana">
+                            <persName ref="http://syriaca.org/person/530">Ḥenana</persName>
+                        </ref> of <ref rend="bold" target="https://gedsh.bethmardutho.org/Adiabene">
+                            <placeName ref="http://syriaca.org/place/993">Adiabene</placeName>
+                        </ref>. The use
+                        of such a variety of sources sometimes led Ishoʿdad to distance himself from
+                        the interpretations of Theodore of Mopsuestia. A notable example is the
+                        commentary on the Song of Songs, for which Ishoʿdad juxtaposed the opinion
+                        of Theodore, who had expressed reservations as to the inspired character of
+                        the biblical book and its usefulness for the Christian reader, and the
+                        straightforward allegorical interpretations of authors such as <ref rend="bold" target="https://gedsh.bethmardutho.org/Gregory-of-Nyssa">
+                            <persName ref="http://syriaca.org/person/512">Gregory of Nyssa</persName>
+                        </ref>, John Chrysostom, and others.</p>
+                    <p>Some of the works that Ishoʿdad used had remained outside the scope of
+                        interest of his E.-Syr. predecessors. One example is the biblical
+                        commentaries of <ref rend="bold" target="https://gedsh.bethmardutho.org/Eusebius-of-Emesa">
+                            <persName ref="http://syriaca.org/person/481">Eusebius of
+                            Emesa</persName>
+                        </ref>, excerpts of which Ishoʿdad incorporated in his work.
+                        Another example is the <ref rend="bold" target="https://gedsh.bethmardutho.org/Syro-Hexapla">Syro-Hexapla</ref>,
+                        the work of the <abbr>Syr. Orth.</abbr>
+                        <abbr> bp. </abbr>
+                        <ref rend="bold" target="https://gedsh.bethmardutho.org/Pawlos-of-Tella">
+                            <persName ref="http://syriaca.org/person/82">Pawlos of
+                            Tella</persName>
+                        </ref>, which was introduced in the <abbr>Ch. of E.</abbr> around 800 and from
+                        which Ishoʿdad was the first to draw biblical quotations of either the
+                        Septuagint or the later Greek versions (Aquila, Symmachus, and
+                        Theodotion).</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>M. D.  Gibson, <title rend="italic">The commentaries of Ishoʿdad
+                                of Merv, bishop of Hadatha (c. 850 A.D.) in Syriac and
+                                English</title> (5 vols.; 1911–1916; <abbr>repr.</abbr> 2005).</bibl>
+                        <bibl>C.  Leonhard, <title rend="italic">Ishodad of Merw’s Exegesis of the
+                                Psalms 119 and 139–147</title> (<abbr>CSCO</abbr> 585; 2001).</bibl>
+                        <bibl>A.  Salvesen, ‘Hexaplaric readings in Išoʿdad of Merv’s Commentary on
+                            Genesis’, in <title rend="italic">The Book of Genesis in Jewish and
+                                Oriental Christian Interpretation</title>, <abbr>ed.</abbr> J. Frishman and L.
+                            Van Rompay (<abbr>TEG</abbr> 5; 1997), 229–52.</bibl>
+                        <bibl>C.  Van  den  Eynde, <title rend="italic">Išoʿdad de Merv. Commentaire
+                                de l’Ancien Testament</title>, I, II–VI (<abbr>CSCO</abbr> 156, 176, 179, 229–30,
+                            303–4, 328–9, 433–4; 1950–81).</bibl>
+                        <bibl>J.-M. Vosté and C.  Van den Eynde, <title rend="italic">Išoʿdad de
+                                Merv. Commentaire de l’Ancien Testament</title>, I (<abbr>CSCO</abbr> 126;
+                            1950).</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Lucas</forename> 
+                  <surname>Van Rompay</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Ṭur ʿAbdin</title>
+            <author>
+               <persName>
+                  <forename>Andrew N.</forename> 
+                  <surname>Palmer</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.5">Electronic Edition Version 1.5</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Ṭur ʿAbdin</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Tur-Abdin</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/574</idno>
+                    <idno type="entry">565</idno>
+                    <milestone unit="pages" n="418-420"/>
+                    <idno type="subject">http://syriaca.org/place/221</idno>
+                    <note type="type">place</note>
+                    <note type="abstract">Limestone plateau in the eastern part of Turkey; center of monastic life.
+                        <note/>
+                    </note>
+                </ab>
+                <div type="body">
+                    <p>Properly speaking, Ṭur ʿAbdin (‘Mountain of the servants’) does not include
+                        the whole province of <ref rend="bold" target="https://gedsh.bethmardutho.org/Mardin">
+                            <placeName ref="http://syriaca.org/place/130">Mardin</placeName>
+                        </ref> in Turkey,
+                        but only the limestone plateau in the eastern part of it, between the river
+                        Tigris and <ref rend="bold" target="https://gedsh.bethmardutho.org/Nisibis">
+                            <placeName ref="http://syriaca.org/place/142">Nisibis</placeName>
+                        </ref>. The first <abbr>bp.</abbr> of Ṭur ʿAbdin resided at Ḥaḥ, a town in
+                        the north-east of Ṭur ʿAbdin, far from the center of the diocese. Ḥaḥ used
+                        to be much bigger than it is today, as the surrounding ruins and the
+                        ancient, relatively large basilica testify. Perhaps, its prosperity derived
+                        from trade across the Tigris in the period when Rome had provinces east of
+                        that river. If so, its decline may have begun with the loss of those
+                        provinces in 363. The <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Gabriel-Monastery-of-Mor">
+                            <placeName ref="http://syriaca.org/place/226">Monastery of Mor Gabriel</placeName>
+                        </ref> later took over from Ḥaḥ as the center
+                        of the diocese. In 613 Daniel ʿUzoyo became <abbr>bp.</abbr> of the united dioceses of
+                        Dara and Ṭur ʿAbdin, to which, for a while, were added those of Tella and
+                            <ref rend="bold" target="https://gedsh.bethmardutho.org/Reshayna">
+                            <placeName ref="http://syriaca.org/place/172">Reshʿayna</placeName>
+                        </ref>. This must have been a direct consequence of the
+                        Persian reconquest of Syria and Egypt. Thirty-five years after burning the
+                        Monastery of Qarṭmin in 570, the Persians took the Castle of ṬurʿAbdin
+                        (Qalʿat al-Haytam) in 605. The first idea of the conquerors seems to have
+                        been to bring in bishops from the Persian <abbr>Ch. of E.</abbr>, but the <abbr>bp.</abbr> they placed
+                        in <ref rend="bold" target="https://gedsh.bethmardutho.org/Edessa">
+                            <placeName ref="http://syriaca.org/place/78">Edessa</placeName>
+                        </ref> was rejected as a ‘Nestorian’ heretic; so they gave power
+                        instead to the <abbr>Syr. Orth.</abbr>, a sect persecuted by the Roman Emperors in the
+                        6th <abbr>cent.</abbr>, who could therefore be relied on not to help Byzantium. As far as
+                        the Christian population was concerned, the situation remained unchanged
+                        under the Arabs and subsequent Muslim rulers.</p>
+                    <p>Daniel (615–24) was given four dioceses, which probably means that the Syr.
+                        Orth. were much depleted by persecution at the time, especially in the
+                        cities, where imperial policing had been easier. He was abbot of Qarṭmin and
+                        that monastery now became the center of the diocese of Ṭur ʿAbdin.
+                        Monasteries had been the centers of resistance to the Council of Chalcedon
+                        (451).</p>
+                    <p>In 1088/9 the diocese of Ṭur ʿAbdin was divided. After 450 years in abeyance,
+                        Ḥaḥ again became the episcopal see; but the bishops of Ṭur ʿAbdin now
+                        resided at <ref rend="bold" target="https://gedsh.bethmardutho.org/al-Salib-Dayr">
+                            <placeName ref="http://syriaca.org/place/68">Dayr
+                        al-Ṣalīb</placeName>
+                        </ref>. A memorial inscribed shortly after this date at Qarṭmin has
+                        been read as an attempt to prevent the new <abbr>bp.</abbr> in the north-east of Ṭur
+                        ʿAbdin from claiming all the bishops of the region as his predecessors. If
+                        that is right, then the Monastery of Qarṭmin must have felt the division as
+                        a heavy blow to its prestige.</p>
+                    <p>On 6 Aug. 1364, with the support of the other bishops of Ṭur ʿAbdin, the <abbr>bp.</abbr>
+                        of Ṣalaḥ, who resided in the Monastery of Mor Yaʿqub, outside that village,
+                        received a diploma from the Ayyubid ruler of Ḥesno d-Kifo, recognizing him
+                        as <abbr>
+                            <choice>
+                                <sic>Patr.</sic>
+                                <corr>patr.</corr>
+                            </choice>
+                        </abbr> of Ṭur ʿAbdin. He had been excommunicated by Ishmaʿil, the <abbr>
+                            <choice>
+                                <sic>Patr.</sic>
+                                <corr>patr.</corr>
+                            </choice>
+                        </abbr> of
+                            <ref rend="bold" target="https://gedsh.bethmardutho.org/Antioch">
+                            <placeName ref="http://syriaca.org/place/10">Antioch</placeName>
+                        </ref>, who resided near Mardin. During the 475 years which
+                        followed, there were five reconciliations between the two patriarchates,
+                        ending with that of 1839. In this time the custom arose of appointing a <ref rend="bold" target="https://gedsh.bethmardutho.org/Maphrian">Maphrian</ref> (or Catholicos) for the eastern part of Ṭur ʿAbdin. The
+                        most famous of these Maphrians was <ref rend="bold" target="https://gedsh.bethmardutho.org/Shemun-II-Basileios">
+                            <persName ref="http://syriaca.org/person/291">Shemʿun II</persName>
+                        </ref> of Beth
+                        Manʿem, a prolific writer in Syriac and Kurdish, whose works are still
+                        copied in Ṭur ʿAbdin.</p>
+                    <p>With the exception of <ref rend="bold" target="https://gedsh.bethmardutho.org/Masud-of-Tur-Abdin">
+                            <persName ref="http://syriaca.org/person/279">Masʿūd</persName>
+                        </ref>,
+                        a 15th-cent. mystical writer who lived in Ṭur ʿAbdin, the later history of
+                        the region is one long list of raids, wars, droughts, famines, plagues, and
+                        persecutions. For example, in 1200 the <abbr>bp.</abbr> of Qarṭmin was suffocated in the
+                        cave of Bar Siqay by the Mongol Hunnish raiders, together with thirty-two
+                        monks and 330 ordinary people; in 1405 and 1413 there were devastating
+                        epidemics in Ṭur ʿAbdin; and in the 1490s all the monasteries of Ṭur ʿAbdin
+                        were laid waste by a confederation of Kurdish tribes. This is a small part
+                        of all that the people of Ṭur ʿAbdin have suffered and survived. From the
+                        13th <abbr>cent.</abbr> until the 20th they had Yezidis from Iraq as their neighbours and
+                        companions in persecution. In 1895, when the Ottoman Sultan ordered an
+                        attack on the Armenians, Ṭur ʿAbdin was spared. The region was not so
+                        fortunate in 1915, when it suffered a similar blow, from which the Christian
+                        villages never recovered. This year is remembered as <ref rend="bold" target="https://gedsh.bethmardutho.org/Sayfo">Sayfo</ref> (‘the Sword’).
+                        They suffered again for their involvement in the Kurdish uprising of 1926,
+                        particularly in the diocese of Beth Rishe, where the Monastery of Mor Malke
+                        was destroyed. It was restored in 1955 and is still functioning, as are the
+                        monasteries of Ṣalaḥ (Mor Yaʿqub) and Qarṭmin (Mor Gabriel).</p>
+                    <p>Whether or not the Christian remnant in Ṭur ʿAbdin proves to be sustainable,
+                        the churches and monasteries, if they are not neglected by the authorities,
+                        will survive as evidence of the importance of the region in the late Roman
+                        period. <abbr>Bp.</abbr> Shemʿun of <ref rend="bold" target="https://gedsh.bethmardutho.org/Harran">
+                            <placeName ref="http://syriaca.org/place/216">Ḥarran</placeName>
+                        </ref> (died 734),
+                        who was from the village of Habsenas, made his native Ṭur ʿAbdin prosperous
+                        once more with investments in the busy city of Nisibis; some of the
+                        surviving churches (including the church of the Monastery of Mor Yaʿqub at
+                        Ṣalaḥ, as may be inferred from the original position of the building
+                        inscription discovered by S. R. Palmer) were renovated from the foundations
+                        in the early Islamic period, circumventing the ban on new church
+                        buildings.</p>
+                    <p>See <ref target="https://gedsh.bethmardutho.org/fig/52">Fig. 52</ref>, 
+                        <ref target="https://gedsh.bethmardutho.org/fig/53">53</ref>, <ref target="https://gedsh.bethmardutho.org/fig/81">81</ref>, <ref target="https://gedsh.bethmardutho.org/fig/107">107</ref>, 
+                        <ref target="https://gedsh.bethmardutho.org/fig/120c">120c</ref>, 
+                        <ref target="https://gedsh.bethmardutho.org/fig/121">121</ref>, <ref target="https://gedsh.bethmardutho.org/fig/122c">122c</ref>, <ref target="https://gedsh.bethmardutho.org/fig/123c">123c</ref>, and <ref target="https://gedsh.bethmardutho.org/fig/124">124</ref>.</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>H.  Anschütz, <title rend="italic">Die syrischen Christen vom
+                                Tur ʿAbdin</title> (1985).</bibl>
+                        <bibl>H.  Aydin, <title rend="italic">Das Mönchtum im Tur-Abdin</title>
+                            (1988).</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>H.  Aydin</reg>
+                        <orig>idem</orig>
+                     </choice>, <title rend="italic">Die Vita des Reklusen Mor Jakob von
+                                Salah</title> (forthcoming).</bibl>
+                        <bibl>A.  Barsoum, <title rend="italic">Maktbonuto d ʿal atro d-ṭur
+                                ʿabdin</title> (Beirut, 1964). (in Syr. and Ar.; <abbr>ET</abbr> M. Moosa,
+                            2008)</bibl>
+                        <bibl>G. M. L.  Bell (<abbr>ed.</abbr> M. M.  Mango), <title rend="italic">The Churches
+                                and monasteries of the Tur ʿAbdin</title> (1982). (with review by A.
+                            Palmer in <title rend="italic">
+                                <abbr>OC</abbr>
+                            </title> 70 [1986], 202–4)</bibl>
+                        <bibl>Fiey, <title rend="italic">Pour un Oriens christianus novus</title>,
+                            275–8.</bibl>
+                        <bibl>W. P.  Heinrichs <abbr>et al.</abbr>, ‘Ṭūr ʿAbdīn’, in <title rend="italic">EI</title>
+                            <hi rend="superscript">2</hi>, vol. 10, 665.</bibl>
+                        <bibl>B. L.  van Helmond, <title rend="italic">Masʿoud du Tour ʿAbdin. Un
+                                mystique syrien du XV<hi rend="superscript">e</hi> siècle</title>
+                            (1942).</bibl>
+                        <bibl>H.  Hollerweger and A.  Palmer, <title rend="italic">Turabdin: Living
+                                cultural heritage</title> (2nd <abbr>ed.</abbr> 2000). (also in German and
+                            Turkish)</bibl>
+                        <bibl>P.  Krüger, Das <title rend="italic">syrisch-monophysitische Mönchtum
+                                im Tur ʿAbdin</title>, vol. 1 (1937); vol. 2, in <title rend="italic">
+                                <abbr>OCP</abbr>
+                            </title> 4 (1938), 5–46.</bibl>
+                        <bibl>J.  Leroy, ‘L’état présent des monuments chrétiens du sud-est de la
+                            Turquie (Tur ʿAbdin et environs)’, <title rend="italic">
+                                <abbr>CRAIBL</abbr>
+                            </title> 1968, 478–93.</bibl>
+                        <bibl>A.  Palmer, ‘A corpus of inscriptions from Tur ʿAbdin and environs’,
+                                <title rend="italic">
+                                <abbr>OC</abbr>
+                            </title> 71 (1987), 53–139.</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>A.  Palmer</reg>
+                        <orig>idem</orig>
+                     </choice>, <title rend="italic">Monk and Mason on the Tigris Frontier: The
+                                Early History of Tur ʿAbdin</title> (1990).</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>A.  Palmer</reg>
+                        <orig>idem</orig>
+                     </choice>, ‘La géographie monastique du Tour ʿAbdin’, in <title rend="italic">Le monachisme syriaque</title>, <abbr>ed.</abbr> F. Jullien (<abbr>ÉtSyr</abbr>
+                            7; 2010), 169–260.</bibl>
+                        <bibl>P.  Peeters, ‘Le martyrologe de Rabban Sliba’, <title rend="italic">
+                                <abbr>AB</abbr>
+                            </title> 27 (1908), 129–200.</bibl>
+                        <bibl>M. Streck, ‘Ṭūr ʿAbdīn’, in <title rend="italic">
+                                <abbr>EI</abbr>
+                            </title>, vol. 4,
+                            870–6.</bibl>
+                        <bibl>G.  Wiessner, <title rend="italic">Christliche Kultbauten im Tur
+                                ʿAbdin</title> (2 vols.; 1980, 1983).</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Andrew N.</forename> 
+                  <surname>Palmer</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

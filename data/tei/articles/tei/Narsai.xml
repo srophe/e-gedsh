@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Narsai</title>
+            <author>
+               <persName>
+                  <forename>Lucas</forename> 
+                  <surname>Van Rompay</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.5">Electronic Edition Version 1.5</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Narsai</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Narsai</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/399</idno>
+                    <idno type="entry">390</idno>
+                    <milestone unit="pages" n="303-304"/>
+                    <idno type="subject">http://syriaca.org/person/650</idno>
+                    <note type="type">person</note>
+                    <note type="abstract">Poet and exegete at the <orgName>School of <placeName ref="http://syriaca.org/place/78">Edessa</placeName>
+                        </orgName> and at the <orgName>School of <placeName ref="http://syriaca.org/place/142">Nisibis</placeName>
+                        </orgName>; author of popular verse homilies (<foreign rend="italic" xml:lang="en-x-gedsh">memre</foreign>).<note/>
+                    </note>
+                </ab>
+                <ab type="infobox">(d. <abbr>ca.</abbr> 500) [Ch. of E.]</ab>
+                <div type="body">
+                    <p>Poet and teacher of exegesis at the <ref rend="bold" target="https://gedsh.bethmardutho.org/Edessa-School-of">School of
+                            Edessa</ref> and at the <ref rend="bold" target="https://gedsh.bethmardutho.org/Nisibis-School-of">School of
+                            Nisibis</ref>; author of popular verse homilies (<hi rend="italic">memre</hi>). The main sources for our knowledge of Narsai’s life are
+                        the two works attributed to <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Barhadbshabba-Arbaya">
+                            <persName ref="http://syriaca.org/person/367">Barḥadbshabba</persName>
+                        </ref> (the
+                        Ecclesiastical History and the ‘Cause of the foundation of the schools’)
+                        which, however, differ from each other at several points and are not always
+                        reliable.</p>
+                    <p>Born in ʿAyn Dulba, near Maʿalta in northern Mesopotamia (within Persian
+                        territory), Narsai was orphaned at the age of sixteen and educated by his
+                        uncle, the abbot of the Monastery of Kfar Mari, west of the Tigris. At an
+                        unknown date he went to study in the School of Edessa, where he spent many
+                        years, first as a student and later as a teacher and director (‘Rabban’).
+                        His directorship, which probably did not begin before <abbr>ca.</abbr> 450, is said to
+                        have lasted twenty years, and came to an end with his expulsion. The date of
+                        this expulsion is uncertain; it may have taken place at any time between the
+                        death of the Dyophysite <abbr>bp. </abbr>
+                        <ref rend="bold" target="https://gedsh.bethmardutho.org/Hiba">
+                            <persName ref="http://syriaca.org/person/534">Hiba</persName>
+                        </ref> of <ref rend="bold" target="https://gedsh.bethmardutho.org/Edessa">
+                            <placeName ref="http://syriaca.org/place/78">Edessa</placeName>
+                        </ref>,
+                        in 457, and the official closure of the School in 489. Vööbus (46) suggests
+                        a date some time after 471. Following his expulsion, Narsai was well
+                        received in <ref rend="bold" target="https://gedsh.bethmardutho.org/Nisibis">
+                            <placeName ref="http://syriaca.org/place/142">Nisibis</placeName>
+                        </ref> by <abbr>
+                            <choice>
+                                <sic>bp. </sic>
+                                <corr>Bp. </corr>
+                            </choice>
+                        </abbr>
+                        <ref rend="bold" target="https://gedsh.bethmardutho.org/Barsawma-of-Nisibis">
+                            <persName ref="http://syriaca.org/person/369">Barṣawma</persName>
+                        </ref>, who persuaded him
+                        to found a new school in this city. Even though there was a <choice>
+                            <sic>fall out</sic>
+                            <corr>falling out</corr>
+                        </choice> between
+                        Narsai and Barṣawma, which the sources blame on the <abbr>bp.</abbr>’s wife, Mamai, and
+                        which resulted in Narsai’s temporary absence from Nisibis, he remained the
+                        head of the new School until his death (<abbr>ca.</abbr> 500). The statutes of the
+                        School, dated 496, contain Narsai’s name.</p>
+                    <p>During his years in Edessa, Narsai was exposed to the theology and the
+                        biblical interpretation of <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Theodore-of-Mopsuestia">
+                            <persName ref="http://syriaca.org/person/780">Theodore
+                            of Mopsuestia</persName>
+                        </ref> (d. 428), whose works were translated into Syriac in
+                        and around the School of Edessa in the first half of the 5th <abbr>cent.</abbr> and had a
+                        lasting impact on Narsai. In the Ecclesiastical History attributed to
+                        Barḥadbshabba, <ref rend="bold" target="https://gedsh.bethmardutho.org/Yaqub-of-Serugh">
+                            <persName ref="http://syriaca.org/person/42">Yaʿqub of
+                            Serugh</persName>
+                        </ref> (portrayed here in negative terms) is explicitly mentioned
+                        as the one who preceded Narsai in composing <hi rend="italic">memre</hi> and
+                        triggered Narsai’s response with compositions in this same genre (<abbr>ed.</abbr> F. Nau
+                        [<abbr>PO</abbr> 9.5], 612; <abbr>ET</abbr> in Becker 2008, 69). Narsai and Yaʿqub (who also spent
+                        some time in Edessa, probably in the 460s) are representative of the two
+                        different approaches to Theodore’s legacy: while for Narsai and the later
+                        E.-Syr. (Dyophysite) tradition Theodore became the most authoritative
+                        theologian and exegete, Yaʿqub and the later (Miaphysite) W.-Syr. tradition
+                        rejected him and instead remained closer to <ref rend="bold" target="https://gedsh.bethmardutho.org/Ephrem">
+                            <persName ref="http://syriaca.org/person/13">Ephrem</persName>
+                        </ref>’s writings
+                        (which inspired the E. Syrians as well) and found their main theological
+                        authority in <ref rend="bold" target="https://gedsh.bethmardutho.org/Cyril-of-Alexandria">
+                            <persName ref="http://syriaca.org/person/430">Cyril of
+                            Alexandria</persName>
+                        </ref> (who sometimes is the explicit target of attack in
+                        Narsai’s <hi rend="italic">memre</hi>). Even though it is unknown whether
+                        Narsai and Yaʿqub ever met in person in Edessa, they share a number of
+                        themes, motifs, and approaches, which must reflect their common Edessene
+                        background.</p>
+                    <p>Narsai’s <hi rend="italic">memre</hi> focus on salvation history as an
+                        ongoing learning process for humanity, in which Christ’s incarnation, with
+                        his two natures (God and man) preserved intact, is the key moment. Many <hi rend="italic">memre</hi> deal with biblical interpretation, either <abbr>OT</abbr> or
+                        <abbr>NT</abbr>; others are devoted to specific liturgical feasts or address topics of
+                        theological or moral significance. One <hi rend="italic">memrā</hi> (no. 11
+                        in Mingana’s list; <abbr>ed.</abbr> F. Martin) is a defense of the three Antiochene
+                        teachers, <ref rend="bold" target="https://gedsh.bethmardutho.org/Diodore-of-Tarsus">
+                            <persName ref="http://syriaca.org/person/451">Diodore of
+                            Tarsus</persName>
+                        </ref>, Theodore of Mopsuestia, and <ref rend="bold" target="https://gedsh.bethmardutho.org/Nestorius">
+                            <persName ref="http://syriaca.org/person/655">Nestorius</persName>
+                        </ref>.
+                        Narsai’s <hi rend="italic">memre</hi> represent an important phase in the
+                        formation of E.-Syr. theological and exegetical tradition, which depended
+                        heavily on the thought of Theodore, but also was shaped by the E.-Syrians’
+                        ‘agency and creativity in this process of reception’ (Becker, 125). The <hi rend="italic">memre</hi> were widely read and used in the later
+                        tradition, e.g., by <abbr>Cath. </abbr>
+                        <ref rend="bold" target="https://gedsh.bethmardutho.org/Timotheos-I">
+                            <persName ref="http://syriaca.org/person/790">Timotheos I</persName>
+                        </ref>,
+                        who mentions and quotes them in his letters, by <ref rend="bold" target="https://gedsh.bethmardutho.org/Ishodad-of-Merv">
+                            <persName ref="http://syriaca.org/person/555">Ishoʿdad of
+                            Merv</persName>
+                        </ref>, who often relies on them in his own commentaries, and by
+                            <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Emmanuel-bar-Shahhare">
+                            <persName ref="http://syriaca.org/person/473">Emmanuel
+                            bar Shahhare</persName>
+                        </ref>, for whom Narsai served as a model (and in whose
+                        collection of <hi rend="italic">memre</hi> one of Narsai’s <hi rend="italic">memre</hi> [no. 81] became entangled).</p>
+                    <p>At present, 81 <hi rend="italic">memre</hi> by Narsai are known to exist in
+                        <abbr>mss.</abbr>, gathered together in collections intended for liturgical use. The
+                        majority are in the dodecasyllabic meter, while the rest are heptasyllabic.
+                        A. Mingana, who provided the first list of all existing <hi rend="italic">memre</hi>, edited 47 of them in his 1905 publication. Several <hi rend="italic">memre</hi> were edited separately, in particular by Ph.
+                        Gignoux (1968), F. G.  McLeod (1979), E. P.  Siman (1984), and J.  Frishman
+                        (1992). A 1970 facsimile edition of a recent <abbr>ms.</abbr> includes 72  <hi rend="italic">memre</hi> (several of them not published elsewhere).
+                        While W. F. Macomber in 1973 provided an inventory of all then known <abbr>mss.</abbr>
+                        containing Narsai’s <hi rend="italic">memre</hi>, S. P. Brock’s 2009 ‘Guide
+                        to Narsai’s homilies’ gives a convenient synopsis of all existing editions
+                        and translations, taking the Mingana list of 81 <hi rend="italic">memre</hi>
+                        (which was also adopted by Macomber) as its starting point.</p>
+                    <p>Apart from the <hi rend="italic">memre</hi>, a number of <hi rend="italic">sugyoto</hi> carry Narsai’s name (ten are included in Mingana’s
+                        edition, vol.  2, 366–411), but most of these are very likely not his. In
+                        addition, a collection of four <hi rend="italic">memre</hi> on Joseph (Gen.
+                        37–48) has been attributed to Narsai and published under his name. This
+                        attribution cannot be substantiated (see the most recent and thorough
+                        analysis in K. S. Heal, <hi rend="italic">Tradition and transformation:
+                            Genesis 37 and 39 in early Syriac sources</hi> [Ph. D. dissertation,
+                        Birmingham; 2008], 33–68, with further references).</p>
+                </div>
+                <div type="bibl">
+                    <listBibl>
+                        <listBibl>
+                            <head>Primary Sources</head>
+                            <bibl>A.  Becker, <title rend="italic">Sources for the study of the
+                                    School of Nisibis</title> (Translated Texts for Historians 50;
+                                2008), 47–72 (<abbr>ET</abbr> of Barḥadbshabba, ‘Eccl. Hist.’, on Narsai) and
+                                150–2 (<abbr>ET</abbr> of Barḥadbshabba, ‘Cause’, on Narsai).</bibl>
+                            <bibl>J.  Frishman, <title rend="italic">The ways and means of the
+                                    divine economy. An edition, translation and study of six
+                                    biblical homilies by Narsai</title> (Ph.D. Diss., Leiden; 1992).
+                                (Syr. and <abbr>ET</abbr>)</bibl>
+                            <bibl>Ph.  Gignoux, <title rend="italic">Homélies de Narsaï sur la
+                                    création</title> (<abbr>PO</abbr> 34.3–4; 1968). (Syr. and <abbr>FT</abbr>)</bibl>
+                            <bibl>
+                                <title rend="italic">Homilies of Mar Narsai.</title> Published by the
+                                Patriarchal Press (2 vols.; San Francisco, 1970). (Syr.)</bibl>
+                            <bibl>F.  Martin, ‘Homélie de Narses sur les trois docteurs nestoriens’,
+                                    <title rend="italic">
+                                    <abbr>JA</abbr>
+                                </title> 9.14 (1899), 446–93 (Syr.); 9.15
+                                (1900), 469–525 (<abbr>FT</abbr>).</bibl>
+                            <bibl>F.  McLeod, <title rend="italic">Narsai’s metrical homilies on the
+                                    Nativity, Epiphany, Passion, Resurrection and Ascension</title>
+                                (<abbr>PO</abbr> 40.1; 1979). (Syr. and <abbr>ET</abbr>)</bibl>
+                            <bibl>A.  Mingana, <title rend="italic">Narsai doctoris Syri homiliae et
+                                    carmina</title>, I–II (1905). (Syr.; <abbr>repr.</abbr> as <title rend="italic">Selected works of Narsai</title> [2008])</bibl>
+                            <bibl>E.  Pataq Siman, <title rend="italic">Narsaï. Cinq homélies sur
+                                    les paraboles évangéliques</title> (1984). (Syr. and <abbr>FT</abbr>).</bibl>
+                        </listBibl>
+                        <listBibl>
+                            <head>Secondary Sources</head>
+                            <bibl>L.  Abramowski, ‘Narsai, Ephräm und Kyrill über Jesu
+                                Verlassenheitsruf, Mt. 27,46’, in <title rend="italic">Crossroad of
+                                    cultures. Studies in liturgy and patristics in honor of G.
+                                    Winkler</title>, <abbr>ed.</abbr> H.-J. Feulner <abbr>et al.</abbr> (<abbr>OCA</abbr> 260; 2000),
+                                43–67.</bibl>
+                            <bibl>Becker, <title rend="italic">Fear of God</title>.</bibl>
+                            <bibl>S. P. Brock, ‘A guide to Narsai’s homilies’, <title rend="italic">
+                                    <abbr>Hugoye</abbr>
+                                </title> 12.1 (2009).</bibl>
+                            <bibl>J.  Frishman, ‘Narsai’s Christology according to his homily “On
+                                the Word became flesh” ’, <title rend="italic">
+                                    <abbr>Harp</abbr>
+                                </title> 8/9
+                                (1995/96), 289–303. (= on Hom. no. 81)</bibl>
+                            <bibl>W. F.  Macomber, ‘The manuscripts of the metrical homilies of
+                                Narsai’, <title rend="italic">
+                                    <abbr>OCP</abbr>
+                                </title> 39 (1973), 275–306.</bibl>
+                            <bibl>F. McLeod, ‘Narsai’s dependence on Theodore of Mopsuestia’, <title rend="italic">
+                                    <abbr>JCSSS</abbr>
+                                </title> 7 (2007), 18–38.</bibl>
+                            <bibl>K.  McVey, ‘The Memra of Narsai on the three Nestorian doctors as
+                                an example of forensic rhetoric’, in <abbr>
+                                    <title rend="italic">SymSyr</title> III</abbr>, 87–96. (= on Hom. no. 11)</bibl>
+                            <bibl>K. Pinggéra, ‘Das Bild Narsais des Grossen bei Barḥadbšabbā
+                                ʿArbāyā. Zum theologischen Profil der „Geschichte der heiligen
+                                Väter“ ’, in <title rend="italic">Inkulturation des Christentums im
+                                    Sasa-nidenreich</title>, <abbr>ed.</abbr> A. Mustafa and J. Tubach (2007),
+                                245–59.</bibl>
+                            <bibl>Vööbus, <title rend="italic">History of the School of
+                                    Nisibis</title>, 57–121.</bibl>
+                        </listBibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Lucas</forename> 
+                  <surname>Van Rompay</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

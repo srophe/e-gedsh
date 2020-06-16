@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Alexander Cycle</title>
+            <author>
+               <persName>
+                  <forename>Sebastian P.</forename> 
+                  <surname>Brock</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.5">Electronic Edition Version 1.5</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Alexander Cycle</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Alexander-Cycle</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/38</idno>
+                    <idno type="entry">29</idno>
+                    <milestone unit="pages" n="16"/>
+                    <note type="type">work</note>
+                    <note type="abstract">The exploits of Alexander the Great (356-23 BC) gave rise
+                        to a very large number of works, in many different languages. Three main works in Syriac and several shorter texts.<note/>
+                    </note>
+                </ab>
+                <div type="body">
+                    <p>The exploits of Alexander the Great (356–23 BC) gave rise to a very large
+                        number of works, in many different languages. The three main works
+                        concerning him in Syriac are:</p>
+                    <p>1. A translation of Pseudo-Callisthenes<choice>
+                            <sic>,</sic>
+                            <corr/>
+                        </choice> (based on the Greek recension <hi rend="italic">delta</hi>), preserved in a number of late E.-Syr. <abbr>mss.</abbr>
+                        (<abbr>ed.</abbr> with <abbr>ET</abbr> by Budge). According to Nöldeke, this was not translated
+                        directly from Greek, but by way of a lost Middle Persian version; this view
+                        has, however, been recently challenged by Ciancaglini, who points to strong
+                        evidence that it was made directly from Greek. The Syriac version includes a
+                        visit by Alexander to <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/China-Syriac-Christianity-in">China</ref>, which is an episode
+                        absent from all other texts. There is also a Modern Syriac version.</p>
+                    <p>2. A narrative poem on Alexander attributed to <ref rend="bold" target="https://gedsh.bethmardutho.org/Yaqub-of-Serugh">
+                            <persName ref="http://syriaca.org/person/42">Yaʿqub of
+                            Serugh</persName>
+                        </ref>, but dating almost certainly from soon after the emperor
+                        Heraclius’s victory over the Persians (629/30). The different recensions are
+                        edited by Reinink (<abbr>ET</abbr> in Budge, 163–200).</p>
+                    <p>3. A christianized legend of Alexander entitled ‘The exploits of Alexander’.
+                        This is found in the <abbr>mss.</abbr> of the Syriac version of Pseudo-Callisthenes (and
+                        is included in Budge’s edition) and, in a somewhat different, but related,
+                        form, in the <ref rend="bold" target="https://gedsh.bethmardutho.org/Zuqnin-Chronicle-of">Zuqnin Chronicle</ref>. This too is thought to
+                        date from shortly after 629/30. According to van Bladel (2008), this
+                        provided the source for the section on Alexander in the Qurʾān.</p>
+                    <p>Other Syriac texts relating to Alexander are:</p>
+                    <p>4. A short life, preserved in a single <abbr>ms.</abbr> of the 8th/9th <abbr>cent.</abbr> (<abbr>ET</abbr> in Budge,
+                        159–61).</p>
+                    <p>5. Sayings attributed to Alexander, preserved in various sources, including
+                        <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Bar-Ebroyo-Grigorios">
+                            <persName ref="http://syriaca.org/person/239">Bar ʿEbroyo</persName>
+                        </ref>’s Amusing Stories.</p>
+                    <p>6. A set of short laments over Alexander, said to have been uttered by
+                        various philosophers. These are also found in Arabic, in the Annals of
+                        Eutychius (<abbr>ca.</abbr> 935).</p>
+                    <p>7. An account of Alexander’s encounter with the Brahmin Dandamis (an excerpt
+                        from <ref rend="bold" target="https://gedsh.bethmardutho.org/Palladius">
+                            <persName ref="http://syriaca.org/person/668">Palladius</persName>
+                        </ref>’s ‘On the Peoples of India and on the Brahmins’).</p>
+                    <p>8. Various notices in Chronicles.</p>
+                    <p>9. <abbr>Ms.</abbr> Vat. Syr. 555 (W.-Syr., dated 1501) contains an astronomical ‘Book of
+                        Alexander’.</p>
+                </div>
+                <div type="bibl">
+                    <listBibl>
+                        <listBibl>
+                            <head>Primary Sources</head>
+                            <bibl>S. P. Brock, ‘The Laments of the Philosophers over Alexander in
+                                Syriac’, <title rend="italic">
+                                    <abbr>JSS</abbr>
+                                </title> 15 (1970), 205–18. (an
+                                appendix gives details of other Syriac texts on Alexander; <abbr>repr.</abbr> in
+                                    <title rend="italic">Studies in Syriac Christianity</title>
+                                [1992], ch. VIII)</bibl>
+                            <bibl>E. A. W. Budge, <title rend="italic">The History of Alexander the
+                                    Great</title> (1889; <abbr>repr.</abbr> 2003).</bibl>
+                            <bibl>G. J.  Reinink, <title rend="italic">Das syrische Alexanderlied.
+                                    Die drei Rezensionen</title> (<abbr>CSCO</abbr> 454–5; 1983).</bibl>
+                        </listBibl>
+                        <listBibl>
+                            <head>Secondary Sources</head>
+                            <bibl>S. P. Brock, ‘Stomathalassa, Dandamis and Secundus in a Syriac
+                                monastic anthology’, in <title rend="italic">After
+                                Bardaisan</title>, <abbr>ed.</abbr> Reinink and Klugkist, 35–50, esp.
+                                40–46.</bibl>
+                            <bibl>C. A.  Ciancaglini, ‘The Syriac version of the Alexander Romance’,
+                                    <title rend="italic">
+                                    <abbr>LM</abbr>
+                                </title> 114 (2001), 121–40.</bibl>
+                            <bibl>S. Gero, ‘The Legend of Alexander the Great in the Christian
+                                Orient’, <title rend="italic">
+                                    <abbr>BJRL</abbr>
+                                </title> 75 (1993), 3–9.</bibl>
+                            <bibl>G. J. Reinink, ‘Die Entstehung der syrischen Alexanderlegende als
+                                politisch-religiöse Propagandaschrift für Herakleios’
+                                Kirchenpolitik’, in <title rend="italic">After Chalcedon</title>,
+                                <abbr>ed.</abbr> Laga <abbr>et al.</abbr>, 263–81.</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>G. J. Reinink</reg>
+                           <orig>idem</orig>
+                        </choice>, ‘Alexandre et le dernier empereur du monde: les
+                                dévéloppements du concept de la royauté chrétienne dans les sources
+                                syriaques du septième siècle’, in <title rend="italic">Alexandre le
+                                    Grand dans les littératures occidentales et
+                                    proche-orientales</title> (1999), 149–59.</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>G. J. Reinink</reg>
+                           <orig>idem</orig>
+                        </choice>, ‘Alexander the Great in the seventh-century “Apocalyptic”
+                                texts’, <title rend="italic">Vizantorussica</title> 2 (2003),
+                                150–78.</bibl>
+                            <bibl>K. van  Bladel, ‘The Syriac sources of the early Arabic
+                                narratives of Alexander’, in <title rend="italic">Memory as History.
+                                    The Legacy of Alexander in Asia</title>, <abbr>ed.</abbr> H. P. Ray and D. T.
+                                Potts (2007), 54–75.</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>K. van Bladel</reg>
+                           <orig>idem</orig>
+                        </choice>, ‘The Alexander Legend in the Qurʾan 18:83–102’, in <title rend="italic">The Qurʾan in its Historical Context</title>, <abbr>ed.</abbr>
+                                G. S. Reynolds (2008), 175–203.</bibl>
+                        </listBibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Sebastian P.</forename> 
+                  <surname>Brock</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

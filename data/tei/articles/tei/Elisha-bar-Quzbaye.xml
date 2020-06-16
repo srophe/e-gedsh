@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Elishaʿ bar Quzbaye</title>
+            <author>
+               <persName>
+                  <forename>Lucas</forename> 
+                  <surname>Van Rompay</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.5">Electronic Edition Version 1.5</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Elishaʿ bar Quzbaye</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Elisha-bar-Quzbaye</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/196</idno>
+                    <idno type="entry">187</idno>
+                    <milestone unit="pages" n="141"/>
+                    <idno type="subject">http://syriaca.org/person/467</idno>
+                    <note type="type">person</note>
+                    <note type="abstract">Teacher of biblical interpretation and director of the
+                            <orgName>School of <placeName ref="http://syriaca.org/place/142">Nisibis</placeName>
+                        </orgName> in the 1st or 3rd decade of 6th <abbr>cent.</abbr>
+                        <note/>
+                    </note>
+                </ab>
+                <ab type="infobox">(early 6th <abbr>cent.</abbr>) [Ch. of E.]</ab>
+                <div type="body">
+                    <p>Teacher of biblical interpretation and director of the <ref rend="bold" target="https://gedsh.bethmardutho.org/Nisibis-School-of">School of
+                            Nisibis</ref> in the 1st or 3rd decade of 6th <abbr>cent.</abbr> The last part of
+                        Elishaʿ’s name has not yet been satisfactorily explained. <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Barhadbshabba-Arbaya">
+                            <persName ref="http://syriaca.org/person/367">Barḥadbshabba ʿArbaya</persName>
+                        </ref> calls him ‘Elishaʿ ʿArbaya bar Quzbane (<hi rend="italic">sic</hi>)’ (<abbr>ed.</abbr> F. Nau). The Chronicle of <ref rend="bold" target="https://gedsh.bethmardutho.org/Siirt">
+                            <placeName ref="http://syriaca.org/place/188">Siirt</placeName>
+                        </ref> introduces him
+                        as a fellow student of <ref rend="bold" target="https://gedsh.bethmardutho.org/Narsai">
+                            <persName ref="http://syriaca.org/person/650">Narsai</persName>
+                        </ref> at the <ref rend="bold" target="https://gedsh.bethmardutho.org/Edessa-School-of">School of Edessa</ref>. He is said to have been the director at the
+                        School of Nisibis, but the sources are divided as to whether he was the
+                        immediate successor of Narsai (d 502/3) or whether he served as director
+                        twenty years later, when <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Abraham-of-Beth-Rabban">
+                            <persName ref="http://syriaca.org/person/319">Abraham of
+                            Beth Rabban</persName>
+                        </ref> was temporarily removed from that position.
+                        Regardless, he was an old man when he became director, and his tenure was
+                        relatively short, 4 or 7 years.</p>
+                    <p>Barḥadbshabba ʿArbaya ascribes to Elishaʿ an apologetic work written in
+                        response to criticism (<hi rend="italic">zeṭeme</hi>) by the Magi. This may
+                        be the same work which, according to the Chronicle of Siirt, Elishaʿ
+                        composed on the Christian religion and which <abbr>Cath.</abbr> 
+                  <ref rend="bold" target="https://gedsh.bethmardutho.org/Aqaq">
+                            <persName ref="http://syriaca.org/person/338">Aqaq</persName>
+                        </ref> translated into
+                        Persian before submitting it to the Persian emperor Qawad. The sources also
+                        mention didactic writings and biblical commentaries. The Chronicle of Siirt
+                        singles out commentaries on the Pauline letters, Job, Joshua, Judges, and
+                        Samuel (for which book Elishaʿ is said to have completed the commentary of
+                            <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Theodore-of-Mopsuestia">
+                            <persName ref="http://syriaca.org/person/780">Theodore
+                            of Mopsuestia</persName>
+                        </ref>). None of Elishaʿ’s complete works survive, but two
+                        brief comments on Job are quoted by <ref rend="bold" target="https://gedsh.bethmardutho.org/Ishodad-of-Merv">
+                            <persName ref="http://syriaca.org/person/555">Ishoʿdad of
+                            Merv</persName>
+                        </ref>, under the simple name Elishaʿ. The Chronicle of Siirt also
+                        ascribes to him a book on ‘the cause of the setting of the <hi rend="italic">mawtbā</hi> (Arab. <hi rend="italic">al-mawtib</hi>; perhaps “academic
+                        session”) in the school’, a title that links the work to a well-known work
+                        by the author who is known as Barḥadbshabba of Ḥalwan (published by A.
+                        Scher).</p>
+                </div>
+                <div type="bibl">
+                    <listBibl>
+                        <listBibl>
+                            <head>Primary Sources</head>
+                            <bibl>F. Nau, <title rend="italic">La seconde partie de l’Histoire de
+                                    Barḥadbešabba ʿArbaïa</title> (<abbr>PO</abbr> 9; 1913), 620.</bibl>
+                            <bibl>A.  Scher, <title rend="italic">Mar Barḥadbšabba ʿArbaya, évêque
+                                    de Ḥalwan (VIe siècle). Cause de la fondation des écoles</title>
+                                (<abbr>PO</abbr> 4; 1908), 387–88.</bibl>
+                            <bibl>C.  Van den Eynde, <title rend="italic">Commentaire d’Išoʿdad de
+                                    Merv sur l’Ancien Testament</title>, vol. 3. <title rend="italic">Livre des Sessions</title> (<abbr>CSCO</abbr> 229–230; 1963),
+                                262.9–10, 264.16–7 (Syr.); 311.7–8, 315.6–8 (<abbr>FT</abbr>).</bibl>
+                        </listBibl>
+                        <listBibl>
+                            <head>Secondary Sources</head>
+                            <bibl>Baumstark, <title rend="italic">Literatur</title>, 114–5.</bibl>
+                            <bibl>Becker, <title rend="italic">Fear of God</title>, 105.</bibl>
+                            <bibl>Reinink, ‘Edessa grew dim and Nisibis shone forth’, 81–3.</bibl>
+                            <bibl>Vööbus, <title rend="italic">History of the School of
+                                    Nisibis</title>, 122–33.</bibl>
+                        </listBibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Lucas</forename> 
+                  <surname>Van Rompay</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

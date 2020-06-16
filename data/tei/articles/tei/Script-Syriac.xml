@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Script, Syriac</title>
+            <author>
+               <persName>
+                  <forename>John F.</forename> 
+                  <surname>Healey</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.5">Electronic Edition Version 1.5</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Script, Syriac</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Script-Syriac</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/489</idno>
+                    <idno type="entry">480</idno>
+                    <milestone unit="pages" n="363-364"/>
+                    <idno type="althead" subtype="altorder">Syriac Script</idno>
+                    <note type="type">subject</note>
+                    <note type="abstract">The Syriac script owes its origin to the Aramaic script of
+                        the Achaemenid Persian period; several types of Syriac script developed.
+                    </note>
+                </ab>
+                <div type="body">
+                    <p>The Syriac script owes its origin to the Aramaic script of the Achaemenid
+                        Persian period (539–330 BC) attested to in many documents, especially from
+                        Egypt and Palestine (Elephantine, Samaria, etc.). Adopted originally from
+                        the <ref rend="bold" target="https://gedsh.bethmardutho.org/Arameans">Arameans</ref> of Syria (who borrowed it from the Phoenicians), the
+                        script became the vehicle for writing Aramaic as a lingua franca used
+                        throughout the Persian Empire.</p>
+                    <p>After the fall of the Persian Empire, local variants of the script began to
+                        develop, in centers such as <ref rend="bold" target="https://gedsh.bethmardutho.org/Jerusalem">
+                            <placeName ref="http://syriaca.org/place/104">Jerusalem</placeName>
+                        </ref>, Petra
+                        and Palmyra. One such center was <ref rend="bold" target="https://gedsh.bethmardutho.org/Edessa">
+                            <placeName ref="http://syriaca.org/place/78">Edessa</placeName>
+                        </ref> (modern Urfa)
+                        in northern Mesopotamia. Its local kings, whose dynastic line appears to go
+                        back to about 130 BC (see <ref rend="bold" target="https://gedsh.bethmardutho.org/Abgarids-of-Edessa">Abgarids of
+                            Edessa</ref>), used a version of the script which by the 1st <abbr>cent.</abbr> had
+                        developed its own characteristics. The first dated inscription in this local
+                        script, now called ‘Syriac’, dates to <choice>
+                            <sic>6</sic>
+                            <corr>6 AD</corr>
+                        </choice> and comes from Birecik west of
+                        Edessa (Syriac <hi rend="italic">Birtā</hi>, Greek <hi rend="italic">Makedonopolis</hi>). From the 1st <abbr>cent.</abbr>, and then increasingly in the
+                        2nd and 3rd, there have survived pre-Christian Syriac <ref rend="bold" target="https://gedsh.bethmardutho.org/Inscriptions">inscriptions</ref> in stone and mosaic, many from tombs, in Urfa and
+                        its region. From the 3rd <abbr>cent.</abbr>, we also have legal texts written on
+                        parchment (see <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Old-Syriac-documents">Old Syriac Documents</ref>). There were at
+                        least two forms of the early Syriac script, a monumental script used for
+                        public inscriptions and a cursive script used for everyday purposes such as
+                        the writing of legal texts on soft materials.</p>
+                    <p>From the monumental form of the script there developed in the early Christian
+                        period an elegant ‘book-hand’ used especially in the copying of biblical and
+                        theological texts. The first dated literary <abbr>ms.</abbr> of this kind is dated 411,
+                        but this <abbr>ms.</abbr> shows a maturity and elegance which suggests that the scribal
+                        tradition was already well established. This formal script came to be known
+                        as <hi rend="italic">Esṭrangela</hi>, a word probably of Greek origin (<hi rend="italic">strongulos</hi>) meaning ‘rounded’.</p>
+                    <p>Alongside this, there existed a cursive script, which is rarely attested, but
+                        is found occasionally in <ref rend="bold" target="https://gedsh.bethmardutho.org/Papyri-Syriac">papyri</ref> and in
+                            <ref rend="bold" target="https://gedsh.bethmardutho.org/Colophons">colophons</ref> of <abbr>mss.</abbr> This cursive script continued
+                        the cursive script tradition found in the early legal parchments. Later it
+                        came to be used more widely and appears to be the basis of one of the later
+                        variants of the Syriac script, the one called <hi rend="italic">Serṭo</hi>
+                        ‘script’. This form of script was used for literary texts from the 8th <abbr>cent.</abbr>
+                        and is especially associated with the W.-Syr. tradition.</p>
+                    <p>A third variant of the Syriac script developed in the East. It is an angular
+                        version of Esṭrangela and, because of its association with the <abbr>Ch. of E.</abbr>, is
+                        often called ‘Nestorian’. It is known from about 600, but became very
+                        distinctive much later (13th <abbr>cent.</abbr>).</p>
+                    <p>Throughout the early history of the Syriac script, vowels were not fully
+                        represented in writing, though some diacritical dots were used to
+                        distinguish words otherwise identical in consonantal form. Eventually Syriac
+                        (like Hebrew and Arabic) developed vowel signs which were placed above and
+                        below the consonants. Two systems emerged, probably in the 8th <abbr>cent.</abbr>, a
+                        western system based on adaptations of Greek vowels and, apparently a little
+                        later, an eastern system consisting of dots.
+                    </p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>Drijvers and Healey, <title rend="italic">The Old Syriac
+                                inscriptions</title>.</bibl>
+                        <bibl>W. H. P.  Hatch, <title rend="italic">An album of dated Syriac
+                                manuscripts</title> (1946; <abbr>repr.</abbr> 2002).</bibl>
+                        <bibl>J. F.  Healey, ‘The early history of the Syriac script: a
+                            reassessment’, <title rend="italic">
+                                <abbr>JSS</abbr>
+                            </title> 45 (2000), 55–67.</bibl>
+                        <bibl>A.  Kaplan, <title rend="italic">Paléographie syriaque. Développemment
+                                d’une méthode d’expertise sur base des <choice>
+                                    <sic>mannuscrits</sic>
+                                    <corr>manuscrits</corr>
+                                </choice> syriaques de la
+                                British Library (V<hi rend="superscript">e</hi>–X<hi rend="superscript">e</hi> siècles)</title> (Ph.D. Diss.,
+                            Louvain-la-Neuve; 2008).</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>John F.</forename> 
+                  <surname>Healey</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

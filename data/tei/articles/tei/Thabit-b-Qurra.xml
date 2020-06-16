@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Thābit <abbr>b.</abbr> Qurra</title>
+            <author>
+               <persName>
+                  <forename>Hidemi</forename> 
+                  <surname>Takahashi</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.5">Electronic Edition Version 1.5</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Thābit <abbr>b.</abbr> Qurra</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Thabit-b-Qurra</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/549</idno>
+                    <idno type="entry">540</idno>
+                    <milestone unit="pages" n="399-400"/>
+                    <idno type="subject">http://syriaca.org/person/777</idno>
+                    <note type="type">person</note>
+                    <note type="abstract">A famous ‘Ṣābian’ scholar from the Abbasid period, one of
+                        the few non-Christian authors known by name who composed works in
+                        Syriac.<note/>
+                    </note>
+                </ab>
+                <ab type="infobox">(826?–901)</ab>
+                <div type="body">
+                    <p>Abū al-Ḥasan Thābit <abbr>b.</abbr> Qurra <abbr>b.</abbr> Marwān al-Ṣābī al-Ḥarrānī, the most famous of
+                        the ‘Ṣābian’ scholars from the Abbasid period, is one of the few
+                        non-Christian authors known by name who composed works in Syriac. Thābit was
+                        born in <ref rend="bold" target="https://gedsh.bethmardutho.org/Harran">
+                            <placeName ref="http://syriaca.org/place/216">Ḥarran</placeName>
+                        </ref>, where he is said in some accounts to have worked as a
+                        money changer, but spent most of his active life in <ref rend="bold" target="https://gedsh.bethmardutho.org/Baghdad">
+                            <placeName ref="http://syriaca.org/place/41">Baghdad</placeName>
+                        </ref>, where he
+                        studied under Muḥammad <abbr>b.</abbr> Mūsā <abbr>b.</abbr> Shākir and his brothers, the Banū Mūsā,
+                        and went on to succeed them as the head of their school. Trilingual in
+                        Greek, Syriac and Arabic, Thābit distinguished himself both as a translator
+                        of Greek scientific and philosophical works into Arabic and as an original
+                        scholar, especially in mathematics and astronomy.</p>
+                    <p>Thābit wrote most of his works in Arabic, but also composed a number of
+                        works, apparently mostly on religious subjects, in Syriac. In al-Zawzanī’s
+                        epitome of <hi rend="italic">Taʾrīkh al-hukamāʾ</hi>, the Arabic
+                        biographical work by al-Qifṭī (<abbr>ca.</abbr> 1172–1248), we are given a list of seven
+                        treatises on religious subjects which Thābit composed in Syriac, and are
+                        told in addition that there were further Syriac works by Thābit, including
+                        those on music and geometry (<abbr>ed.</abbr> Lippert, 120.14–21). Similarly, <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Bar-Ebroyo-Grigorios">
+                            <persName ref="http://syriaca.org/person/239">Bar ʿEbroyo</persName>
+                        </ref>, after telling us that Thābit wrote some
+                        150 works on ‘logic, mathematics, astrology, and medicine’ in Arabic, gives
+                        us a list of sixteen works composed by Thābit in Syriac, and informs us
+                        furthermore that he himself had access to a majority (<hi rend="italic">suggā</hi>) of them (Chronicle, <abbr>ed.</abbr> Bedjan, 168.11–23). The titles
+                        given by Bar <choice>
+                            <sic>‘Ebroyo</sic>
+                            <corr>ʿEbroyo</corr>
+                        </choice> are: ‘(1) book concerning the laws and canons of the
+                        pagans (<hi rend="italic">ḥanpe</hi>); (2) book concerning the interment of
+                        the dead; (3) book concerning the confirmation of the confession of the
+                        pagans; (4) book on purity and defilement; (5) book on animals which are fit
+                        to be sacrificed; (6) book on times of prayers; (7) book on readings that
+                        are suitable for each of the seven stars in prayers; (8) book on repentance
+                        and supplication; (9) book of music; (10) book of the chronicle of the
+                        ancient Syrian kings, who are Chaldeans; (11) book on the confession of the
+                        Ṣābians; (12) book on the allotment of the days of the week to the seven
+                        stars; (13) book on the renown of his race and his forefathers, from whom
+                        they descend; (14) book of the laws of Hermes and his prayers with which the
+                        pagans pray; (15) book on the fact that two straight lines meet each other
+                        when they are made to go out at less than two right angles; (16) another
+                        book on the same subject’ (on the Arabic version of nos. 15 and 16, see
+                        Sabra). Bar ʿEbroyo goes on to quote from a work of Thābit (perhaps no. 13)
+                        what may be called a <hi rend="italic">plaidoyer</hi> for paganism and pagan
+                        learning (<abbr>ed.</abbr> Bedjan, 168.25–169.10). One quotation in Bar ʿEbroyo’s
+                        grammatical work, the ‘Book of splendors’, which is stated to be from the
+                        ‘book of the pagans’ (<abbr>ed.</abbr> Moberg, 39.6f.), may be taken from a work of
+                        Thābit. Further information on Ṣābian religious practices gleaned from
+                        Thābit’s works is given by Bar ʿEbroyo in his ‘Epitome of the history of the
+                        dynasties’ (<hi rend="italic">Mukhtaṣar taʾrīkh al-duwal</hi>, <abbr>ed.</abbr> Beirut
+                        1958, 153).</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>P.  Bedjan, <title rend="italic">Gregorii Barhebræi Chronicon
+                                syriacum</title> (1890), 168–9. (<abbr>ET</abbr> of an excerpt in Brock and
+                            Taylor, <title rend="italic">Hidden Pearl</title>, vol.  2, 102)</bibl>
+                        <bibl>D. Chwolsohn, <title rend="italic">Die Ssabier und der
+                                Ssabismus</title> (1856), vol. 1, 546–67; vol. 2, i-iii.</bibl>
+                        <bibl>J. Lippert, <title rend="italic">Ibn al-Qiftī’s Taʾrīkh
+                                al-hukamāʾ</title> (1903), 115–22.</bibl>
+                        <bibl>R.  Morelon and R.  Rashed, ‘Ṯẖābit <abbr>b.</abbr> Ḳurra’, in <title rend="italic">
+                                <abbr>EI</abbr>
+                            </title>
+                            <hi rend="superscript">2</hi>, vol. 10 (2000), 428–29.</bibl>
+                        <bibl>J. Palmeri, ‘Thābit ibn Qurra’, in <title rend="italic">The
+                                Biographical Encyclopedia of Astronomers</title>, <abbr>ed.</abbr> T. Hockey et
+                            al. (2007), 1129–30.</bibl>
+                        <bibl>D.  Pingree, ‘Ṣābians of Ḥarrān and the Classical Tradition’, <title rend="italic">International Journal of the Classical
+                                Tradition</title> 9 (2002), 8–35, esp. 30, 34–5.</bibl>
+                        <bibl>R.  Rashed, <title rend="italic">Thabit ibn Qurra: Science and
+                                Philosophy in Ninth-Century Baghdad</title> (2009).</bibl>
+                        <bibl>A. I.  Sabra, ‘Thābit ibn Qurra on Euclid’s Parallels Postulate’,
+                                <title rend="italic">Journal of the Warburg and Courtauld
+                                Institutes</title> 31 (1968), 12–32.</bibl>
+                        <bibl>F. Sezgin, <title rend="italic">Geschichte des arabischen
+                                Schrifttums</title>, vol. 3 (1970), 260–263, 377; vol. 5 (1974),
+                            264–72; vol. 6 (1978), 163–70; vol. 7 (1979), 151–2, 269–70, 329.</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Hidemi</forename> 
+                  <surname>Takahashi</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

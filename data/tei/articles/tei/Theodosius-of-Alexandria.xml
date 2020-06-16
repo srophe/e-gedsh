@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Theodosius of Alexandria</title>
+            <author>
+               <persName>
+                  <forename>Lucas</forename> 
+                  <surname>Van Rompay</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.5">Electronic Edition Version 1.5</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Theodosius of Alexandria</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Theodosius-of-Alexandria</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/559</idno>
+                    <idno type="entry">550</idno>
+                    <milestone unit="pages" n="407-408"/>
+                    <idno type="subject">http://syriaca.org/person/784</idno>
+                    <note type="type">person</note>
+                    <note type="abstract">
+                        <abbr>Patr.</abbr> of <placeName type="diocese" subtype="general">Alexandria</placeName>; leader of the Egyptian and
+                        Syrian anti-Chalcedonians.<note/>
+                    </note>
+                </ab>
+                <ab type="infobox">(d. 566)</ab>
+                <div type="body">
+                    <p>
+                        <abbr>Patr.</abbr> of Alexandria; leader of the Egyptian and Syrian anti-Chalcedonians.
+                        After the death of the Alexandrian <abbr>patr.</abbr> Timothy IV (Feb. 535), Gaianus
+                        first gained access to the patriarchal throne (who stood in the tradition of
+                            <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Julian-of-Halicarnassus">
+                            <persName ref="http://syriaca.org/person/579">Julian of
+                            Halicarnassus</persName>
+                        </ref>), but he was removed by the emperor Justinian after
+                        only three months and replaced with Theodosius, who stood in the
+                        Severian-Miaphysite tradition. The imperial policy had been much more
+                        lenient in Egypt than in Syria (where Miaphysite bps. were no longer to be
+                        found since the middle of the 520s). But even in Egypt, Chalcedonian
+                        pressure increased and led to the deposal of Theodosius, in 536 or 537
+                        (there is no agreement in the sources) and his replacement with a committed
+                        Chalcedonian in the person of Paul of Tabennisi. Theodosius found refuge in
+                        the large community of Miaphysite exiles in Constantinople, protected and
+                        apparently somewhat supported by the empress <ref rend="bold" target="https://gedsh.bethmardutho.org/Theodora-Empress">
+                            <persName ref="http://syriaca.org/person/779">Theodora</persName>
+                        </ref>. Following the death of <ref rend="bold" target="https://gedsh.bethmardutho.org/Severus-of-Antioch">
+                            <persName ref="http://syriaca.org/person/51">Severus of
+                            Antioch</persName>
+                        </ref> (d. 538, after having lived as an exile in Egypt for
+                        twenty years), the Syr. Miaphysites turned to Theodosius for leadership.
+                        Only in the mid 550s did they consider electing their own <abbr>patr.</abbr>, first
+                        Sergius and a few years later <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Pawlos-of-Beth-Ukome">
+                            <persName ref="http://syriaca.org/person/72">Pawlos of
+                            Beth Ukome</persName>
+                        </ref>.</p>
+                    <p>In his place of exile, Theodosius carried out, with imperial permission, the
+                        consecration of <abbr>bp.</abbr> 
+                  <ref rend="bold" target="https://gedsh.bethmardutho.org/Yaqub-Burdoyo">
+                            <persName ref="http://syriaca.org/person/69">Yaʿqub
+                            Burdʿoyo</persName>
+                        </ref>, and together with Yaʿqub he was instrumental in setting
+                        up a new Syr. Miaphysite episcopal hierarchy in the 550s.</p>
+                    <p>Of Theodosius’s literary <hi rend="italic">oeuvre</hi>, which must have been
+                        written originally in Greek, only small fragments exist in Greek, while a
+                        number of texts exist in Coptic and Arabic. It is, however, Syriac
+                        literature that has preserved by far the largest number and the most
+                        significant of his writings.</p>
+                    <p>The ‘Documenta ad origines Monophysitarum illustrandas’ (a collection of
+                        official and semi-official documents of the <abbr>Syr. Orth.</abbr> Church in the 6th
+                        <abbr>cent.</abbr>, preserved in <abbr>ms.</abbr> Brit. Libr. Add. 14,602 of the late 6th or early 7th
+                        <abbr>cent.</abbr>) contain several of Theodosius’s letters dealing with church
+                        administration and show him at the center of the network of Miaphysite bps.
+                        and church leaders (<abbr>ed.</abbr> Chabot; useful overview in Van Roey and Allen,
+                        265–303). Two letters by Theodosius (one to Severus of Antioch, and the
+                        other to Anthimus of Constantinople) are preserved in <ref rend="bold" target="https://gedsh.bethmardutho.org/Zacharias-Pseudo-">Pseudo-Zacharias</ref> (<abbr>ed.</abbr> E. W.  Brooks, in <abbr>CSCO</abbr> 84, 158–63 and
+                        168–73; <abbr>FT</abbr> in <abbr>CSCO</abbr> 88, 107–11 and 114–7) and in <ref rend="bold" target="https://gedsh.bethmardutho.org/Michael-I-Rabo">
+                            <persName ref="http://syriaca.org/person/217">Michael
+                            Rabo</persName>
+                        </ref> (<abbr>ed.</abbr> Chabot, Syr. 290–94 and 294–5; <abbr>FT</abbr> in vol. 2, 211–7 and
+                        217–9).</p>
+                    <p>As a theologian Theodosius was forced to take a stance against the Agnoetai
+                        (a group of theologians, followers of an Alexandrian deacon, Themistius,
+                        attributing a certain form of ‘not-knowing’ to the human soul of Christ).
+                        Theodosius’s major works in this regard are the ‘Tome to Theodora’ (Van Roey
+                        and Allen, 16–56 [Syr. and <abbr>LT</abbr>]) and the ‘Letter to the Armenians’ (ibid.,
+                        57–59). Another theological discussion in which he became involved concerned
+                        ‘Tritheism’ (which focused on the distinctness of the three persons of the
+                        Trinity and was represented, among others, by <ref rend="bold" target="https://gedsh.bethmardutho.org/John-Philoponos">
+                            <persName ref="http://syriaca.org/person/576">John
+                            Philoponos</persName>
+                        </ref>). This issue was dealt with in the ‘Theological
+                        discourse’ and some related documents (Van Roey and Allen, 103–263).</p>
+                    <p>Theodosius’s high standing in the eyes of the Syrian Miaphysites is reflected
+                        in <ref rend="bold" target="https://gedsh.bethmardutho.org/Yuhanon-of-Ephesus">
+                            <persName ref="http://syriaca.org/person/74">Yuḥanon of
+                            Ephesus</persName>
+                        </ref>’s chapter on the ‘Lives of five patriarchs’ (<abbr>ed.</abbr> E. W.
+                        Brooks, in <abbr>PO</abbr> 18.4, 684–90).</p>
+                </div>
+                <div type="bibl">
+                    <listBibl>
+                        <listBibl>
+                            <head>Primary Sources</head>
+                            <bibl>
+                                <title rend="italic">
+                                    <abbr>CPG</abbr>
+                                </title> 7130–7159.</bibl>
+                            <bibl>I.-B.  Chabot, <title rend="italic">Documenta ad origines
+                                    Monophysitarum illustrandas</title> (<abbr>CSCO</abbr> 17 and 103; 1908 and
+                                1933).</bibl>
+                            <bibl>A.  Van Roey and P. Allen, <title rend="italic">Monophysite texts
+                                    of the sixth century</title> (<abbr>OLA</abbr> 56; 1994), 265–303.</bibl>
+                        </listBibl>
+                        <listBibl>
+                            <head>Secondary Sources</head>
+                            <bibl>Grillmeier and Hainthaler, <title rend="italic">Jesus der
+                                    Christus</title>, vol. 2/4, 53–9.</bibl>
+                            <bibl>A.  Van  Roey, ‘Théodose d’Alexandrie dans les manuscrits
+                                syriaques de la British Library’, in <title rend="italic">Studia P.
+                                    Naster oblata</title>, vol. 2. <title rend="italic">Orientalia
+                                    antiqua</title>, <abbr>ed.</abbr> J. Quaegebeur (<abbr>OLA</abbr> 13; 1982),
+                                287–99.</bibl>
+                            <bibl>L. Van Rompay, ‘Society and community in the Christian East’, in
+                                    <title rend="italic">The Cambridge companion to the age of
+                                    Justinian</title>, <abbr>ed.</abbr> M. Maas (2005), 239–66. (for the wider
+                                context)</bibl>
+                            <bibl>D. W.  Winkler, ‘Theodosios von Alexandrien (535–566).
+                                Ökumenischer Patriarch der Miaphysiten’, <title rend="italic">Zeitschrift für katholische Theologie</title> 121 (1999),
+                                396–412.</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>D. W.  Winkler</reg>
+                           <orig>idem</orig>
+                        </choice>, ‘Theodosius of Alexandria and some theological trends of his
+                                time (535–566)’, <title rend="italic">
+                                    <abbr>Harp</abbr>
+                                </title> 17 (2004),
+                                161–76.</bibl>
+                        </listBibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Lucas</forename> 
+                  <surname>Van Rompay</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

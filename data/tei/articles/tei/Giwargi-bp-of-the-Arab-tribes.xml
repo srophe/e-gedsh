@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Giwargi, <abbr>bp.</abbr> of the Arab tribes</title>
+            <author>
+               <persName>
+                  <forename>Sebastian P.</forename> 
+                  <surname>Brock</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.5">Electronic Edition Version 1.5</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Giwargi, <abbr>bp.</abbr> of the Arab tribes</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Giwargi-bp-of-the-Arab-tribes</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/237</idno>
+                    <idno type="entry">228</idno>
+                    <milestone unit="pages" n="177-178"/>
+                    <idno type="subject">http://syriaca.org/person/122</idno>
+                    <note type="type">person</note>
+                    <note type="abstract">
+                        <abbr>Bp.</abbr> and learned author.<note>brief</note>
+                    </note>
+                </ab>
+                <ab type="infobox">(d. 724) [<abbr>Syr. Orth.</abbr>]</ab>
+                <div type="body">
+                    <p>
+                        <abbr>Bp.</abbr> and learned author. Shortly before his death <abbr>Patr.</abbr>
+                        <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Athanasios-II-of-Balad">
+                            <persName ref="http://syriaca.org/person/109"> Athanasios
+                            II</persName>
+                        </ref> asked <abbr>
+                            <choice>
+                                <sic>bp.</sic>
+                                <corr>Bp.</corr>
+                            </choice>
+                        </abbr> Sargis Zakunoyo to ordain Giwargi bishop of the Arab
+                        tribes, which he did in Nov. 686. As a protegé of Athanasios II and a friend
+                        of <ref rend="bold" target="https://gedsh.bethmardutho.org/Yaqub-of-Edessa">
+                            <persName ref="http://syriaca.org/person/113">Yaʿqub of Edessa</persName>
+                        </ref>, he belonged to a line of learned scholars
+                        associated with the <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Qenneshre-Monastery-of">
+                            <placeName ref="http://syriaca.org/place/230">Monastery
+                            of Qenneshre</placeName>
+                        </ref>. On Yaʿqub’s death in 708 Giwargi completed the final
+                        book 7 of his commentary on the Six Days of Creation. Several of his works
+                        concern Greek philosophy, and he revised earlier translations of <ref rend="bold" target="https://gedsh.bethmardutho.org/Aristotle">
+                            <persName ref="http://syriaca.org/person/342">Aristotle</persName>
+                        </ref>’s ‘Categories’, ‘On <choice>
+                            <sic>Interpetation</sic>
+                            <corr>Interpretation</corr>
+                        </choice>’, and ‘Prior
+                        Analytics’ (<abbr>ed.</abbr> G. Furlani); this is preserved in the 8th/9th-cent. <abbr>ms.</abbr>
+                        Brit. Libr. Add. 14,659, together with introductions and glosses. A number
+                        of verse texts are attributed to him: on the <abbr>Patr.</abbr>
+                        <ref rend="bold" target="https://gedsh.bethmardutho.org/Severus-of-Antioch">
+                            <persName ref="http://syriaca.org/person/51"> Severus</persName>
+                        </ref>, the monastic life, the Myron (sometimes attributed to
+                        <ref rend="bold" target="https://gedsh.bethmardutho.org/Yaqub-of-Serugh">
+                            <persName ref="http://syriaca.org/person/42">Yaʿqub of Serug</persName>
+                        </ref>), Palm Sunday, the Forty Martyrs,
+                        and the Burial of Bishops (the last two remain unpublished). His 11 letters
+                        cover a wide range of topics, including philosophy, astronomy, theology, and
+                        literary criticism; he also wrote a short commentary on baptism and
+                        eucharist.</p>
+                </div>
+                <div type="bibl">
+                    <listBibl>
+                        <listBibl>
+                            <head>Primary Sources</head>
+                            <bibl>R. H.  Connolly and H. W.  Codrington, <title rend="italic">Two
+                                    Commentaries on the Jacobite Liturgy</title> (1913), 11–23,
+                                3*–15*.</bibl>
+                            <bibl>G.  Furlani (for his editions and various studies of Giwargi’s
+                                work on Aristotle’s Organon, see S. P.  Brock, ‘The Syriac
+                                Commentary tradition’, in his <title rend="italic">From Ephrem to
+                                    Romanos</title>[1999], chap. XIII, or Tannous [2008], 678, n.
+                                32)</bibl>
+                            <bibl>A.  Heinz, <title rend="italic">Die Eucharistiefeier in der
+                                    Deutung syrischer Liturgieerklärer</title> (2000). (<abbr>GT</abbr>,
+                                including Giwargi)</bibl>
+                            <bibl>K.  McVey, <title rend="italic">George, Bishop of the Arabs. A
+                                    Homily on the Blessed Mar Severus</title> (<abbr>CSCO</abbr> 530–1;
+                                1993).</bibl>
+                            <bibl>F.  Rilliet, ‘Une homélie sur la fête des hosannas attribuée à
+                                Georges, évêque des Arabes’, <title rend="italic">
+                                    <abbr>OC</abbr>
+                                </title> 74
+                                (1990), 72–102.</bibl>
+                            <bibl>V.  Ryssel, <title rend="italic">Georgs des Araberbischofs
+                                    Gedichte und Briefe</title> (1891). (<abbr>GT</abbr>)</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>V.  Ryssel</reg>
+                           <orig>idem</orig>
+                        </choice>, ‘Poemi siriaci di Giorgio, vescovo degli Arabi’, <title rend="italic">Atti della Reale Accademia dei Lincei, Ser. 4,
+                                    Classe di scienze morali, storiche e filologiche,</title> 9
+                                (1892), 46–93. (On the Myron and on monastic life).</bibl>
+                            <bibl>B. Varghese, ‘George, bishop of the Arabs (†724), Homily on the
+                                consecration of Myron’, <title rend="italic">
+                                    <choice>
+                                        <sic>
+                                            <abbr>The Harp</abbr>
+                                        </sic>
+                                        <corr>
+                                            <abbr>Harp</abbr>
+                                        </corr>
+                                    </choice>
+                                </title> 19
+                                (2006), 255–80. (<abbr>ET</abbr> of poem <abbr>ed.</abbr> Ryssel).</bibl>
+                            <bibl>A complete edition of the Letters, a few of which have been
+                                published earlier, is in preparation by J. Tannous.</bibl>
+                        </listBibl>
+                        <listBibl>
+                            <head>Secondary Sources</head>
+                            <bibl>D.  Miller, ‘George, bishop of the Arabs, on the true philosophy’,
+                                    <title rend="italic">ARAM</title> 5 (1993), 303–20.</bibl>
+                            <bibl>J.  Tannous, ‘Between christology and <title rend="italic">kalam</title>? The Life and Letters of George, bishop of the
+                                Arab tribes’, in <title rend="italic">Malphono w-Rabo
+                                    d-Malphone</title>, <abbr>ed.</abbr> G. A. Kiraz, 671–716. (with further
+                                references)</bibl>
+                            <bibl>A.  Vööbus, ‘The discovery of new important <title rend="italic">memre</title> by Giwargi, the bishop of the Arabs’, <title rend="italic">
+                                    <abbr>JSS</abbr>
+                                </title> 18 (1973), 235–7.</bibl>
+                        </listBibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Sebastian P.</forename> 
+                  <surname>Brock</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

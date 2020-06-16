@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Nicolaus of Damascus</title>
+            <author>
+               <persName>
+                  <forename>Hidemi</forename> 
+                  <surname>Takahashi</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.5">Electronic Edition Version 1.5</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Nicolaus of Damascus</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Nicolaus-of-Damascus</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/405</idno>
+                    <idno type="entry">396</idno>
+                    <milestone unit="pages" n="307"/>
+                    <idno type="subject">http://syriaca.org/person/656</idno>
+                    <note type="type">person</note>
+                    <note type="abstract">Historian and peripatetic philosopher, who served as
+                        adviser to Herod the Great (74-4 BC). Excerpts from the Syriac version of
+                        his compendium covering Aristotle’s works on natural philosophy and
+                        metaphysics are preserved.<note/>
+                    </note>
+                </ab>
+                <ab type="infobox">(<abbr>ca.</abbr> 64 – after 4 BC)</ab>
+                <div type="body">
+                    <p>Historian and peripatetic philosopher, who served as adviser to Herod the
+                        Great (74–4 BC). Excerpts from the Syriac version of his compendium covering
+                            <ref rend="bold" target="https://gedsh.bethmardutho.org/Aristotle">
+                            <persName ref="http://syriaca.org/person/342">Aristotle</persName>
+                        </ref>’s works on natural philosophy and metaphysics (‘On the
+                        philosophy of Aristotle’) are preserved in <abbr>ms.</abbr> Cambridge, Gg. 2.14 (copied
+                        in 15/16th <abbr>cent.</abbr>?). These excerpts include a passage of his ‘On plants’.
+                        Whether this work, which in its Latin version and Greek retroversion made
+                        from the Latin was later ascribed to Aristotle, originally constituted a
+                        separate work or was a part of the compendium is difficult to determine.
+                        Passages in the section of the compendium dealing with meteorology are
+                        accompanied by a large number of scholia which are often based on the
+                        commentary on Aristotle’s ‘Meteorologica’ by Olympiodorus (6th <abbr>cent.</abbr>). Two
+                        of these scholia are found explicitly attributed to <ref rend="bold" target="https://gedsh.bethmardutho.org/Hunayn-b-Ishaq">
+                            <persName ref="http://syriaca.org/person/542">Ḥunayn <abbr>b.</abbr>
+                            Isḥāq</persName>
+                        </ref> in another <abbr>ms.</abbr> (Paris, Bibl. Nat. Syr. 346, dated 1309),
+                        while <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Bar-Ebroyo-Grigorios">
+                            <persName ref="http://syriaca.org/person/239">Bar ʿEbroyo</persName>
+                        </ref> attributes the translation of the
+                        compendium as a whole to Ḥunayn (<hi rend="italic">Mukhtaṣar taʾrīkh
+                            al-duwal</hi>, <abbr>ed.</abbr> Beirut 1958, 82.15f.). It remains uncertain at the
+                        present state of research whether the scholia alone or both the scholia and
+                        the translation should be attributed to Ḥunayn. The Syriac version of the
+                        compendium was used extensively as a source by Bar ʿEbroyo in his
+                        ‘Candelabrum of the sanctuary’ and ‘Cream of wisdom’.</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>H. J.  Drossaart Lulofs, <title rend="italic">Nicolaus
+                                Damascenus on the Philosophy of Aristotle. Fragments of the first
+                                five books translated from the Syriac with an introduction and
+                                commentary</title> (1965).</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>H. J.  Drossaart Lulofs</reg>
+                        <orig>idem</orig>
+                     </choice>, ‘Nīḳūlāʾūs’, in <title rend="italic">EI</title>
+                            <hi rend="superscript">2</hi>, vol. 8 (1995), 36–7.</bibl>
+                        <bibl>H. J.  Drossaart Lulofs and E. L. J.  Poortmann, <title rend="italic">Nicolaus Damascenus. De plantis. Five translations</title> (1989),
+                            17–40, 50–113.</bibl>
+                        <bibl>H. Hugonnard-Roche, ‘Pseudo-Aristote, De plantis’, in <title rend="italic">Dictionnaire des philosophes antiques,
+                                supplément</title> (2003), 499–505.</bibl>
+                        <bibl>K. Mei[ster], ‘Nikolaos, [3] N. von Damaskos’, in <title rend="italic">Der neue Pauly</title>, vol. 8 (2000), 920–1.</bibl>
+                        <bibl>J.-P.  Schneider, ‘Nicolas de Damas’, in <title rend="italic">Dictionnaire des philosophes antiques</title>, vol. 4 (2005),
+                            669–79.</bibl>
+                        <bibl>H.  Takahashi, ‘Syriac Fragments of Theophrastean Meteorology and
+                            Mineralogy. Fragments in the Syriac version of Nicolaus Damascenus,
+                            Compendium of Aristotelian Philosophy, and accompanying scholia’, in
+                                <title rend="italic">On the Opuscula of Theophrastus</title>, <abbr>ed.</abbr>
+                            W.  Fortenbaugh and G. Wöhrle (2002), 189–224.</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>H.  Takahashi</reg>
+                        <orig>idem</orig>
+                     </choice>, <title rend="italic">Aristotelian Meteorology in Syriac.
+                                Barhebraeus, Butyrum sapientiae, Books on Mineralogy and
+                                Meteorology</title> (2004), passim (see index, 706–8).</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>H.  Takahashi</reg>
+                        <orig>idem</orig>
+                     </choice>, ‘Syriac Version by Ḥunain (?) of Nicolaus Damascenus’ Compendium
+                            of Aristotelian Philosophy and Accompanying Scholia’, <title rend="italic">
+                                <abbr>JCSSS</abbr>
+                            </title> 5 (2005), 18–34.</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Hidemi</forename> 
+                  <surname>Takahashi</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

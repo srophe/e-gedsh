@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Peter of Kallinikos</title>
+            <author>
+               <persName>
+                  <forename>Lionel R.</forename> 
+                  <surname>Wickham</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.5">Electronic Edition Version 1.5</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Peter of Kallinikos</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Peter-of-Kallinikos</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/436</idno>
+                    <idno type="entry">427</idno>
+                    <milestone unit="pages" n="332"/>
+                    <idno type="subject">http://syriaca.org/person/75</idno>
+                    <note type="type">person</note>
+                    <note type="abstract">
+                        <abbr>Syr. Orth.</abbr>
+                        <abbr> 
+                     <choice>
+                                <sic>Patr.</sic>
+                                <corr>patr.</corr>
+                            </choice>
+                        </abbr> of <placeName ref="http://syriaca.org/place/2546">Antioch</placeName>, theologian, and
+                        liturgist.<note/>
+                    </note>
+                </ab>
+                <ab type="infobox">(2nd half of 6th <abbr>cent.</abbr>) [<abbr>Syr. Orth.</abbr>]</ab>
+                <div type="body">
+                    <p>
+                        <abbr>Syr. Orth.</abbr>
+                        <abbr> 
+                     <choice>
+                                <sic>Patr.</sic>
+                                <corr>patr.</corr>
+                            </choice>
+                        </abbr> of <ref rend="bold" target="https://gedsh.bethmardutho.org/Antioch">
+                            <placeName ref="http://syriaca.org/place/10">Antioch</placeName>
+                        </ref>,
+                        theologian, and liturgist, date of birth unknown but said to be a ‘young
+                        man’ (= under 40) at the time of his consecration in 580/1 and hence born
+                        <abbr>ca.</abbr> 
+                  <choice>
+                            <sic>550(?)</sic>
+                            <corr>550 (?)</corr>
+                        </choice>, d. 22 April 591. A native of Kallinikos (Latin <hi rend="italic">Callinicum</hi>; Arabic <hi rend="italic">al-Raqqa</hi>ʿ) he had
+                        probably been a monk (plausibly at the nearby monastery of Mar Ḥanino where
+                        he was consecrated) before election to a see troubled by problems of
+                        succession and with more than one claimant to canonical occupancy of the
+                        throne. Twice he refused the office even though pressed by <ref rend="bold" target="https://gedsh.bethmardutho.org/Yaqub-Burdoyo">
+                            <persName ref="http://syriaca.org/person/69">Yaʿqub
+                            Burdʿoyo</persName>
+                        </ref> but yielded, probably unwillingly, to pressure. Certainly
+                        his first official act was to visit his fellow-Syrian and co-religionist
+                        Damian, Pope of Alexandria (577/8–606/7) avowedly to offer his resignation
+                        if that would unite the quarrelling parties; for Damian, a vigorous and
+                        effective reformer, was the acknowledged leader in the partnership of Syrian
+                        and Egyptian Churches. The offer, if made, was refused and the death of one
+                        of the claimants resolved a difficulty. The visit to Alexandria
+                        unintentionally occasioned the conversion to the ‘synodite’, <choice>
+                            <sic>i.e.</sic>
+                            <corr>i.e.,</corr>
+                        </choice>
+                        Chalcedonian cause of two accompanying expert theologians, <ref rend="bold" target="https://gedsh.bethmardutho.org/Proba">
+                            <persName ref="http://syriaca.org/person/686">Proba</persName>
+                        </ref> and <ref rend="bold" target="https://gedsh.bethmardutho.org/Yuhanon-Barbur">
+                            <persName ref="http://syriaca.org/person/831">Yuḥanon Barbur</persName>
+                        </ref>, who were to be duly condemned by a synod
+                        (584/585) at Peter’s probable residence (he was banned from entry into
+                        Antioch) of the monastery of Gubba Barraya. Peter wrote against them, but
+                        the work has not survived. Relations between Pope and Patriarch, at the
+                        outset warm apparently, became strained following the publication by Damian
+                        in <abbr>ca.</abbr> 585 of a defence of the unity of God in Trinity against the teaching
+                        of <ref rend="bold" target="https://gedsh.bethmardutho.org/John-Philoponos">
+                            <persName ref="http://syriaca.org/person/576">John Philoponus</persName>
+                        </ref> and others; they finally broke down and a schism
+                        between the Churches of Syria and Egypt was mended only in 616 after the
+                        death of both disputants. Peter’s extant literary legacy consists of: 1. an
+                        Anaphora in Syriac (<abbr>ed.</abbr> R. Y.  Ebied and L. R.  Wickham, in <hi rend="italic">
+                            <abbr>Harp</abbr>
+                        </hi> 23 [2008], 309–43); 2. A <hi rend="italic">mimro</hi> ‘On the Crucifixion’; 3. parts of seven Letters (see R. Y.
+                        Ebied, A. Van Roey and L. R. Wickham, in <hi rend="italic">
+                            <abbr>OLA</abbr>
+                        </hi> 10
+                        [1981]); and 4. works in connexion with the tritheist controversy: a.
+                        Rebuttal of those charged with Sabellianism (= Pope Damian and the
+                        ‘Damianites’) and who therefore spread the libellous report about us of
+                        holding the heathen dogmas of the Tritheists; <abbr>b.</abbr> a treatise originally in
+                        three books of which the second survives in part and the third complete;
+                        unnamed in the <abbr>mss.</abbr> it has been given the title Against Damian by its recent
+                        editors. Quite probably (a) is in fact the remains of the lost first book of
+                        the treatise. The genuineness of 3 and 4 (all in early and excellent Syriac
+                        translation from the Greek) is guaranteed by the general witness of <ref rend="bold" target="Michael-I-Rabo">Michael Rabo</ref>; there is no reason to doubt Peter’s
+                        direct authorship of 2 and at least indirect of 1. The big treatise was
+                        valued for its extensive quotations from the Greek Fathers, extant
+                        florilegia being compiled from it and attesting the continuity and vigour of
+                        the Greek/W.-Syr. theological heritage.</p>
+                </div>
+                <div type="bibl">
+                    <listBibl>
+                        <listBibl>
+                            <head>Primary Sources</head>
+                            <bibl>
+                                <title rend="italic">
+                                    <abbr>CPG</abbr>
+                                </title> 7250–7255.</bibl>
+                            <bibl>R. Y. Ebied and L. R.  Wickham, ‘The Discourse of Mar Peter
+                                Callinicus on the Crucifixion’, <title rend="italic">
+                                    <abbr>JTS</abbr>
+                                </title> ns
+                                26 (1975), 23–37. (‘On the Crucifixion’)</bibl>
+                            <bibl>R. Y. Ebied, A. Van Roey, and L. R. Wickham, <title rend="italic">Peter of Callinicum. Anti-Tritheist Dossier</title> (<abbr>OLA</abbr> 10;
+                                1981). (Syr. with <abbr>ET</abbr>)</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>R. Y. Ebied, A. Van Roey, and L. R. Wickham</reg>
+                           <orig>idem</orig>
+                        </choice>, <title rend="italic">Petri Callinicensis Tractatus Contra
+                                    Damianum</title> (<abbr>CCSG</abbr> 29, 32, 35, 54; 1994, 1996, 1998, 2003).
+                                (Syr. with <abbr>ET</abbr>; vol. 54 [2003] with the assistance of J.
+                                Noret)</bibl>
+                        </listBibl>
+                        <listBibl>
+                            <head>Secondary Sources</head>
+                            <bibl>R. Y.  Ebied, ‘Peter of Antioch and Damian of Alexandria: the end
+                                of a friendship’, in <title rend="italic">A Tribute to Arthur
+                                    Vööbus</title>, <abbr>ed.</abbr> Fischer, 277–82.</bibl>
+                            <bibl>Ph.  Blaudeau, ‘Le voyage de Damien d’Alexandrie vers Antioche
+                                puis Constantinople (579–580)’, <title rend="italic">
+                                    <abbr>OCP</abbr>
+                                </title> 63
+                                (1997), 333–61.</bibl>
+                            <bibl>L.  Wickham ‘Schism and reconciliation in a sixth-century
+                                Trinitarian dispute: Damian of Alexandria and Peter of Callinicus on
+                                “properties, rôles and relations”’, <title rend="italic">International Journal for the Study of the Christian
+                                    Church</title> 8 (2008), 3–15.</bibl>
+                        </listBibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Lionel R.</forename> 
+                  <surname>Wickham</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Ishoʿyahb bar Malkon</title>
+            <author>
+               <persName>
+                  <forename>Lucas</forename> 
+                  <surname>Van Rompay</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.5">Electronic Edition Version 1.5</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Ishoʿyahb bar Malkon</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Ishoyahb-bar-Malkon</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/300</idno>
+                    <idno type="entry">291</idno>
+                    <milestone unit="pages" n="219"/>
+                    <idno type="althead">Īshūʿyāb</idno>
+                    <idno type="althead">Yashūʿyā b. Malkūn</idno>
+                    <idno type="subject">http://syriaca.org/person/563</idno>
+                    <note type="type">person</note>
+                    <note type="abstract">
+                        <abbr>Bp.</abbr> of Mardin; metropolitan <abbr>bp.</abbr> of Nisibis; author, mostly
+                        writing in Arabic.<note/>
+                    </note>
+                </ab>
+                <ab type="infobox">Īshūʿyāb, Yashūʿyāb <abbr>b.</abbr> Malkūn (late 12th – early 13th <abbr>cent.</abbr>) [Ch.
+                    of E.]</ab>
+                <div type="body">
+                    <p>
+                        <abbr>Bp.</abbr> of <ref rend="bold" target="https://gedsh.bethmardutho.org/Mardin">
+                            <placeName ref="http://syriaca.org/place/130">Mardin</placeName>
+                        </ref>; metropolitan <abbr>bp.</abbr> of <ref rend="bold" target="https://gedsh.bethmardutho.org/Nisibis">
+                            <placeName ref="http://syriaca.org/place/142">Nisibis</placeName>
+                        </ref>; author,
+                        mostly writing in Arabic. He originated from the Nisibis region. He first
+                        became <abbr>bp.</abbr> of Mardin under the name Yawsep, and took the name Ishoʿyahb when
+                        he became ‘metropolitan <abbr>bp.</abbr> of Nisibis and Armenia’ (after the E.-Syr.
+                        metropolitan see of Khilat had been given up and added to Nisibis). Wright
+                        assumes that he became <abbr>bp.</abbr> of Nisibis in 1190; as <abbr>bp.</abbr> of Nisibis he is
+                        attested under <abbr>Cath.</abbr> Sabrishoʿ IV (1222–25); he must have died before 1233
+                        (Teule 2006, 246).</p>
+                    <p>While still <abbr>bp.</abbr> of Mardin, he wrote a metrical tract on points, ‘Net of
+                        points’ (<hi rend="italic">Mṣidtā d-nuqze</hi>), divided in eight sections,
+                        which in <abbr>mss.</abbr> is often transmitted alongside the grammatical works of <ref rend="bold" target="https://gedsh.bethmardutho.org/Eliya-of-Nisibis">
+                            <persName ref="http://syriaca.org/person/472">Eliya of Nisibis</persName>
+                        </ref> and <ref rend="bold" target="https://gedsh.bethmardutho.org/Yohannan-bar-Zobi">
+                            <persName ref="http://syriaca.org/person/823">Yoḥannan bar
+                            Zoʿbi</persName>
+                        </ref> (e.g., <abbr>ms.</abbr> Brit. Libr. Add. 25,876: Wright, <hi rend="italic">Catalogue</hi>, vol. 3, 1175a–1179a). A further
+                        grammatical work on Syriac, ‘Elucidation in Syriac grammar’ (<hi rend="italic">Manhrānuthā ba-grammaṭiqi suryāytā</hi>) is in two
+                        columns, Syr. and Arabic (e.g., <abbr>ms.</abbr> Paris, 370: Briquel Chatonnet, <hi rend="italic">Manuscrits syriaques</hi>, 43–4; and Tübingen, <abbr>Ms.</abbr> or.
+                        Quart. 1050: Assfalg, <hi rend="italic">Syrische Handschriften</hi>, 106–8).
+                        His other works, mostly of theological or polemical content, as well as his
+                        letters are in Arabic, often with introductory formulas in Syriac. Some of
+                        his Arabic works exhibit knowledge of Arabic philosophy (Teule 2006).</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>Baumstark, <title rend="italic">Literatur</title>,
+                            309–10.</bibl>
+                        <bibl>Graf, <title rend="italic">GCAL</title>,vol. 1, 164–5; vol. 2,
+                            208–10.</bibl>
+                        <bibl>Fiey, <title rend="italic">Nisibe, métropole syriaque
+                                orientale</title>, 105–7.</bibl>
+                        <bibl>H.  Teule, ‘A theological treatise by Išoʿyahb bar Malkon preserved in
+                            the theological compendium Asfār al-Asrār’, <title rend="italic">
+                                <abbr>JEastCS</abbr>
+                            </title> 58 (2006), 235–52, esp. 245–52.</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>H.  Teule</reg>
+                        <orig>idem</orig>
+                     </choice>, ‘Išoʿyahb bar Malkon’s treatise on the veneration of the holy
+                            icons’, in <title rend="italic">Christians and Muslims in Dialogue in
+                                the Islamic Orient of the Middle Ages</title>, <abbr>ed.</abbr> M. Tamcke (<abbr>BTS</abbr>
+                            117; 2007), 157–69.</bibl>
+                        <bibl>Wright, <title rend="italic">A short history of Syriac
+                                literature</title>, 256–57.</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Lucas</forename> 
+                  <surname>Van Rompay</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

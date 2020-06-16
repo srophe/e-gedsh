@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">
+                    <hi rend="italic">Dorekthā</hi>
+                </title>
+            <author>
+               <persName>
+                  <forename>Alessandro</forename> 
+                  <surname>Mengozzi</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.5">Electronic Edition Version 1.5</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>
+                    <hi rend="italic">Dorekthā</hi>
+                </head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Dorektha</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/184</idno>
+                    <idno type="entry">175</idno>
+                    <milestone unit="pages" n="130-131"/>
+                    <note type="type">subject</note>
+                    <note type="abstract">Sureth poetic genre.</note>
+                </ab>
+                <div type="body">
+                    <p>
+                        <ref rend="bold" target="https://gedsh.bethmardutho.org/Sureth">Sureth</ref>
+                        poetic genre. Probably deriving from the Semitic root *<hi rend="italic">drk</hi> ‘to tread, step on’, the term seems to be related to the
+                        Mesopotamian Aramaic word &lt;<hi rend="italic">ʾdrktʾ</hi>&gt; ‘song,
+                        hymn’. The spelling <hi rend="italic">dureg</hi> (from Classical Syriac *<hi rend="italic">drg</hi> ‘to step forward’) is common in Urmi Neo-Aramaic.
+                        Kurdish etymologies have also been proposed: <hi rend="italic">du-</hi>
+                        ‘two’ + <hi rend="italic">rêk</hi> ‘in good order’ &gt; ‘couplet’; Arabic
+                            *<hi rend="italic">dwr</hi> ‘be circular’ + Kurdish -<hi rend="italic">ek</hi> (see the Dehok Jewish Neo-Aramaic equivalent, meaning ‘round
+                        bread’) &gt; ‘cyclic poem’. In the <abbr>mss.</abbr>, <hi rend="italic">dorekthā</hi>
+                        (pl. <hi rend="italic">dorekyāthā</hi>) is used as an equivalent of
+                        Classical Syriac <hi rend="italic">memrā</hi>, <hi rend="italic">soghithā</hi>, or <hi rend="italic">ʿonithā</hi>. Although the first
+                        authors (<ref rend="bold" target="https://gedsh.bethmardutho.org/Israel-of-Alqosh">
+                            <persName ref="http://syriaca.org/person/566">Israel of
+                            Alqosh</persName>
+                        </ref> and <ref rend="bold" target="https://gedsh.bethmardutho.org/Yawsep-of-Telkepe">
+                            <persName ref="http://syriaca.org/person/818">Yawsep of
+                            Telkepe</persName>
+                        </ref>) were not Catholic, <abbr>ms.</abbr> collections of <hi rend="italic">dorekyāthā</hi> have been preserved by the <abbr>Chald.</abbr> communities of
+                        Northern Iraq and from the 19th <abbr>cent.</abbr> onwards the genre has been cultivated
+                        predominantly by <abbr>Chald.</abbr> poets. The 19th-cent. <hi rend="italic">dorekthā</hi> On the Virgin Mary (1st line <hi rend="italic">B-šemmā
+                            d-bābā u-bronā</hi> ‘In the name of the Father and of the Son’),
+                        attributed to the Sureth poet David Kora or to the French <choice>
+                            <sic>Dominicain</sic>
+                            <corr>Dominican</corr>
+                        </choice>
+                        <ref rend="bold" target="https://gedsh.bethmardutho.org/Rhetore-Jacques">
+                            <persName ref="http://syriaca.org/person/704"> J.  Rhétoré</persName>
+                        </ref>, has become a kind of national hymn for the Chaldeans
+                        of the plain of <ref rend="bold" target="https://gedsh.bethmardutho.org/Mosul">
+                            <placeName ref="http://syriaca.org/place/139">Mosul</placeName>
+                        </ref>. The <hi rend="italic">dorekyāthā</hi> are usually structured in stanzas of 3, 4,
+                        or 6 lines, and their form suits the requirements of an oral transmission
+                        perfectly. Melodies are sometimes mentioned at the beginning of the text.
+                        Rhythmical repetition creates rather lengthy texts which are, however, easy
+                        to memorize and listener-friendly. Contents range from paraenetic exegesis
+                        to hagiography. From the 18th <abbr>cent.</abbr> onwards, Sureth poets followed the path
+                        of late E.-Syr. masters such as <ref rend="bold" target="https://gedsh.bethmardutho.org/Gewargis-Warda">
+                            <persName ref="http://syriaca.org/person/504">Gewargis
+                            Warda</persName>
+                        </ref> in writing on disasters which befell Syrian communities:
+                        pestilences, famines, wars. For this reason the term <hi rend="italic">dorekthā</hi> has sometimes been translated as ‘complaint’.</p>
+                    <p>See <ref target="https://gedsh.bethmardutho.org/fig/44">Fig. 44</ref>.</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>A.  Mengozzi, ‘The Neo-Aramaic manuscripts of the British
+                            Library: Notes on the study of the Durekyāthā as a Neo-Syriac genre’,
+                                <title rend="italic">
+                                <abbr>LM</abbr>
+                            </title> 112 (1999), 459–94.</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>A.  Mengozzi</reg>
+                        <orig>idem</orig>
+                     </choice>, <title rend="italic">A Story in a Truthful Language</title>
+                            (<abbr>CSCO</abbr> 590; 2002), 67–9. (incl. further references)</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Alessandro</forename> 
+                  <surname>Mengozzi</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

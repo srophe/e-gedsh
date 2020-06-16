@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">The Enaton</title>
+            <author>
+               <persName>
+                  <forename>Andreas</forename> 
+                  <surname>Juckel</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.5">Electronic Edition Version 1.5</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>The Enaton</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/The-Enaton</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/205</idno>
+                    <idno type="entry">196</idno>
+                    <milestone unit="pages" n="144-145"/>
+                    <idno type="althead">Ennaton</idno>
+                    <idno type="subject">http://syriaca.org/place/473</idno>
+                    <note type="type">place</note>
+                    <note type="abstract">A monastic district southwest. of <placeName ref="http://syriaca.org/place/572">Alexandria</placeName> (Egypt) that flourished esp. from the 5th to 7th
+                        <abbr>cent.</abbr>
+                        <note/>
+                    </note>
+                </ab>
+                <ab type="infobox">Ennaton</ab>
+                <div type="body">
+                    <p>A monastic district southwest of Alexandria (Egypt) on the coastal road to
+                        Cyrene (Libya) which flourished esp. in the 5th to 7th <abbr>cent.</abbr> It was called
+                        ‘The Enaton’ (<choice>
+                            <sic>i.e. </sic>
+                            <corr>i.e., </corr>
+                        </choice>‘The Ninth’) after the ninth milestone from Alexandria
+                        (Greek <hi rend="italic">ennea</hi> ‘nine’). The Enaton served as a
+                        relay-post for travellers to and from Alexandria, to the monasteries of the
+                        Nitrian Desert, the Kellia, and the Scetis and shared in the permanent
+                        circulation of pilgrims, tourists, and merchants. A part of its own
+                        population was of international provenance. The district was a
+                        conglomeration of autonomous monasteries and cells of varying size and
+                        identifications of their own (e.g., the ‘Three Cells’ of Abba Zenon, the
+                        Monastery of ‘the Fathers’, of ‘Salomon’, of the ‘Antonines’). The ‘History
+                        of the Patriarchs’ (<abbr>ed.</abbr> B. Evetts [<abbr>PO</abbr> 1; 1948], 472) gives the number of six
+                        hundred monasteries, which might rather be true for the total of monasteries
+                        in the region of Alexandria. A sort of federal constitution is reflected by
+                        the election of a common <hi rend="italic">hegumenos</hi> (in the ‘Life’ of
+                        Longinus, <abbr>ed.</abbr> R. Basset [<abbr>PO</abbr> 11, 1916], 764–7).</p>
+                    <p>The origins of the Enaton are shrouded in darkness. When Longinus became <hi rend="italic">hegumenos</hi> in the mid–5th <abbr>cent.</abbr>, it had been in
+                        existence for a long time. His ‘Life’ presents him and the monks of the East
+                        as fervent opponents of the Council of Chalcedon (451), and this theological
+                        feature dominated in the time to follow (though <abbr>ca.</abbr> 542/3 there was a period
+                        when the monks of the Enaton followed the decisions of Chalcedon and
+                        received a theological tract from the Emperor Justinian  I). Miaphysitism
+                        was established in 453 when the monks of the monastery of <ref rend="bold" target="https://gedsh.bethmardutho.org/Peter-the-Iberian">
+                            <persName ref="http://syriaca.org/person/680">Peter the
+                            Iberian</persName>
+                        </ref> at Maïuma/Gaza in Palestine were expelled and took refuge
+                        in the Enaton. Notable Miaphysite refugees were <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Julian-of-Halicarnassus">
+                            <persName ref="http://syriaca.org/person/579">Julian of
+                            Halicarnassus</persName>
+                        </ref> and <ref rend="bold" target="https://gedsh.bethmardutho.org/Severus-of-Antioch">
+                            <persName ref="http://syriaca.org/person/51">Severus of
+                            Antioch</persName>
+                        </ref> after his deposition (518), who died in Egypt (538) and
+                        was buried in the Enaton; and <ref rend="bold" target="https://gedsh.bethmardutho.org/Tumo-of-Harqel">
+                            <persName ref="http://syriaca.org/person/87">Tumo of
+                            Ḥarqel</persName>
+                        </ref> (<abbr>
+                            <choice>
+                                <sic>Bp.</sic>
+                                <corr>bp.</corr>
+                            </choice>
+                        </abbr> of Mabbug) together with <ref rend="bold" target="https://gedsh.bethmardutho.org/Pawlos-of-Tella">
+                            <persName ref="http://syriaca.org/person/82">Pawlos of
+                            Tella</persName>
+                        </ref> after the expulsion from their sees in 599. As the Coptic
+                        Miaphysite patriarchs could not reside in the Melkite (Chalcedonian)
+                        Alexandria, the Enaton was the appropriate place for them to stay (Peter IV,
+                        Damian).</p>
+                    <p>The quasi-autonomous status of this monastic district in which the
+                        multi-national population intermingled with emigrants, expelled bishops, and
+                        fugitive patriarchs yielded a fertile milieu of theological controversy and
+                        negotiation. This milieu helped bring about a settlement, in 616, of the
+                        schism between the Coptic and Syriac Miaphysites (Maspero, ‘Histoire des
+                        Patriarches’, chap.  x), which dated from the time of Pope Damian (578–606)
+                        and the <abbr>Patr.</abbr> 
+                  <ref rend="bold" target="https://gedsh.bethmardutho.org/Peter-of-Kallinikos">
+                            <persName ref="http://syriaca.org/person/75">Peter of
+                            Kallinikos</persName>
+                        </ref> (581–91). The Enaton is not expressly mentioned, but no
+                        doubt this location brought together the leaders Anastasios (Apozygarios,
+                        607–619) and <ref rend="bold" target="https://gedsh.bethmardutho.org/Athanasios-I-Gamolo">
+                            <persName ref="http://syriaca.org/person/88">Athanasios I
+                            Gamolo</persName>
+                        </ref> of <ref rend="bold" target="https://gedsh.bethmardutho.org/Antioch">
+                            <placeName ref="http://syriaca.org/place/10">Antioch</placeName>
+                        </ref> (594–631)
+                        who both had no access to Alexandria. This reunion was based on extensive
+                        philological work on the Holy Scriptures, which took place in the Enaton in
+                        the monastery ‘of the Antonines’ (cf. Honigmann, <hi rend="italic">Évêques</hi>, 238) and was favored by the vicinity of Alexandria with
+                        its philological traditions and resources. Pawlos of Tella provided a
+                        translation of the Septuagint (‘<ref rend="bold" target="https://gedsh.bethmardutho.org/Syro-Hexapla">Syro-Hexapla</ref>’), and Tumo of Ḥarqel a translation of the <abbr>NT</abbr> (<ref rend="bold" target="https://gedsh.bethmardutho.org/Harqlean-Version">Ḥarqlean version</ref>). According to the subscriptions of
+                        the Ḥarqlean Gospels (Hatch, <hi rend="italic">The Subscription</hi>), Acts,
+                        and Pauline epistles this translation was executed ‘at the Enaton of (<choice>
+                            <sic>i.e.</sic>
+                            <corr>i.e.,</corr>
+                        </choice>
+                        near) Alexandria, the great city, in the holy Convent of the Antonines (…)
+                        in the year 927 of Alexander, in the fourth indiction’ (i. e., 615/16),
+                        while the subscriptions of the ‘Syro-Hexapla’ refer to the progress of the
+                        work between 615/17 (Vööbus, <hi rend="italic">The Hexapla</hi>, 36–44).
+                        Shortly after the completion of the translation work the Persians invaded
+                        Egypt and sacked the Enaton in 619. A visit of Alexandria is reported for
+                            <ref rend="bold" target="https://gedsh.bethmardutho.org/Yaqub-of-Edessa">
+                            <persName ref="http://syriaca.org/person/113">Yaʿqub of Edessa</persName>
+                        </ref>, who thoroughly revised the <abbr>OT</abbr>. The Enaton is
+                        not mentioned, but the location ‘Alexandria’ does not necessarily exclude
+                        this monastic district.</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>F.-M.  Abel, ‘To Ennaton’, <title rend="italic">
+                                <abbr>OC</abbr>
+                            </title>
+                            <abbr> ns</abbr> 1
+                            (1911), 77–82.</bibl>
+                        <bibl>R.  Basset, <title rend="italic">Le Synaxaire arabe jacobite
+                                (rédaction copte). Les mois de Ṭubeh et d’Amchir</title> (<abbr>PO</abbr> 11.5;
+                            1916), 764–7.</bibl>
+                        <bibl>P.  van Cauwenbergh, <title rend="italic">Étude sur les moines
+                                d’Égypte</title> (1914).</bibl>
+                        <bibl>J.  Gascou, ‘The Enaton’, in <title rend="italic">The Coptic
+                                Encyclopedia</title> 3 (1991), 954–8.</bibl>
+                        <bibl>W. H. P.  Hatch, ‘The Subscription in the Chester Beatty Manuscript of
+                            the Harclean Gospels’, <title rend="italic">
+                                <abbr>HTR</abbr>
+                            </title> 30 (1937),
+                            141–155.</bibl>
+                        <bibl>Honigmann, <title rend="italic">Évêques et évêchés
+                                monophysites</title>, 143–5, 238.</bibl>
+                        <bibl>C. B.  Horn and R. R.  Phenix, Jr., <title rend="italic">John Rufus:
+                                The </title>Lives <title rend="italic">of Peter the Iberian,
+                                Theodosius of Jerusalem, and the monk Romanus</title> (<abbr>SBL</abbr> Writings
+                            from the Greco-Roman World 24; 2008). (Syr. with <abbr>ET</abbr>)</bibl>
+                        <bibl>J. Maspero, <title rend="italic">Histoire des Patriarches
+                                d’Alexandrie</title> (1923), 158–59.</bibl>
+                        <bibl>R.  Raabe, <title rend="italic">Petrus der Iberer. Ein Charakterbild
+                                zur Kirchen- und Sittengeschichte des fünften Jahrhunderts. Syrische
+                                Übersetzung einer um das Jahr 500 verfassten griechischen
+                                Biographie</title> (1895).</bibl>
+                        <bibl>A.  Vööbus, <title rend="italic">The Hexapla and the
+                                Syro-Hexapla</title> (1971).</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Andreas</forename> 
+                  <surname>Juckel</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

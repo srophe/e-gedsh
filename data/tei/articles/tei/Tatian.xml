@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Tatian</title>
+            <author>
+               <persName>
+                  <forename>William L.</forename> 
+                  <surname>Petersen</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.5">Electronic Edition Version 1.5</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Tatian</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Tatian</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/543</idno>
+                    <idno type="entry">534</idno>
+                    <milestone unit="pages" n="396-397"/>
+                    <idno type="subject">http://syriaca.org/person/771</idno>
+                    <note type="type">person</note>
+                    <note type="abstract">Apologist, teacher, composer of the Diatessaron.<note/>
+                    </note>
+                </ab>
+                <ab type="infobox">(<abbr>ca.</abbr> 120 – <abbr>ca.</abbr> 185)</ab>
+                <div type="body">
+                    <p>Apologist, teacher, composer of the <ref rend="bold" target="https://gedsh.bethmardutho.org/Diatessaron">Diatessaron</ref>. A
+                        well-born pagan born in ‘Assyria’ (which might mean either Syria or
+                        Assyria), Tatian was interested in finding a ‘true’ philosophy. Passing
+                        through many schools, he eventually converted to Christianity and ended up
+                        in Rome, probably about 150. There he became a student of Justin Martyr and
+                        eventually had his own school. After Justin’s death (which occurred between
+                        163 and 167), Tatian was expelled from the primitive Roman community for
+                        heresy; <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Eusebius-of-Caesarea">
+                            <persName ref="http://syriaca.org/person/480">Eusebius</persName>
+                        </ref> dates this separation to 172.
+                        Irenaeus lists three reasons: Tatian 1. was arrogant in his role as a
+                        teacher; 2. became a follower of Valentinus’s gnostic teachings; and 3.
+                        espoused Encratism. <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Epiphanius-of-Salamis">
+                            <persName ref="http://syriaca.org/person/477">Epiphanius</persName>
+                        </ref> provides us with our
+                        last glimpse of Tatian, reporting that he returned to the East, founded a
+                        school in Mesopotamia, and had influence in Cilicia, Antioch on the Orontes,
+                        and Pisidia.</p>
+                    <p>In antiquity Tatian was famed as an apologist. Only one of his apologetic
+                        works survives, the ‘Oration to the Greeks’. Divided into two parts, the
+                        first is a vitriolic indictment of everything Greek; the second is a
+                        chronology whose purpose is to demonstrate that Moses antedated Homer. Both
+                        Clement of Alexandria and Eusebius praise the ‘Oration’ and its chronology.
+                        Today, however, Tatian is famed as the creator (or compiler) of the
+                        Diatessaron (Greek <hi rend="italic">dia-tessaron</hi> ‘through [the] four
+                        [Gospels]’), a gospel harmony widely used in the early Eastern — especially
+                        Syr. — Church. Although based on sources written in Greek, the Diatessaron
+                        appears to have been composed in Syriac. It is regarded as the first Syriac
+                        translation of the Gospels. Known in the Syrian world by either its
+                        transliterated Greek name or as the <hi rend="italic">ewangeliyon
+                            da-mḥallṭe</hi> (‘the Gospel of the mixed’), it was apparently the
+                        standard gospel in the Syriac Church until at least the early 5th <abbr>cent.</abbr> This
+                        is apparent not only from explicit references to its liturgical use (in the
+                            <ref rend="bold" target="https://gedsh.bethmardutho.org/Addai-Teaching-of">Teaching of
+                            Addai</ref> and <abbr>Bp.</abbr> 
+                  <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Theodoret-of-Cyrrhus">
+                            <persName ref="http://syriaca.org/person/781">Theodoret of
+                            Cyrrhus</persName>
+                        </ref>’s ‘Compendium of heresies’, I.20), but also the insistence
+                        of <abbr>Bp.</abbr> 
+                  <ref rend="bold" target="https://gedsh.bethmardutho.org/Rabbula-of-Edessa">
+                            <persName ref="http://syriaca.org/person/26">Rabbula of
+                            Edessa</persName>
+                        </ref> (‘Canon’, 43) on the use of the <hi rend="italic">ewangeliyon da-mparrše</hi> (‘the Gospel of the separated’) in
+                        churches. Many of the harmonizations found in the <ref rend="bold" target="https://gedsh.bethmardutho.org/Old-Syriac-Version">Old Syriac
+                            Version</ref> (the Sinaitic Syriac and the Curetonian Syriac) and  — to
+                        a lesser degree — even in the <ref rend="bold" target="https://gedsh.bethmardutho.org/Peshitta">Peshitta</ref>, seem to
+                        originate in the Diatessaron. The preeminence of the Diatessaron in the
+                        early Syriac Church cannot be minimized: <ref rend="bold" target="https://gedsh.bethmardutho.org/Aphrahat">
+                            <persName ref="http://syriaca.org/person/10">Aphrahaṭ</persName>
+                        </ref> seems to
+                        quote it, and <ref rend="bold" target="https://gedsh.bethmardutho.org/Ephrem">
+                            <persName ref="http://syriaca.org/person/13">Ephrem</persName>
+                        </ref> composed a commentary on it. As late as the 9th <abbr>cent.</abbr>, <abbr>Bp.</abbr>
+                            <ref rend="bold" target="https://gedsh.bethmardutho.org/Ishodad-of-Merv">
+                            <persName ref="http://syriaca.org/person/555">Ishoʿdad of Merv</persName>
+                        </ref> cited its readings in his Gospel commentaries.
+                        Its importance for critical historical studies is also of the first order:
+                        it has long been used by scholars for reconstructing the oldest strata of
+                        gospel traditions and the shape of the canon in the 2nd <abbr>cent.</abbr>
+                    </p>
+                    <p>Probably because of the high esteem accorded the Diatessaron in the East,
+                        early Eastern reports concerning Tatian are positive. He is even accorded an
+                        almost mystical understanding of the divine intent behind the Gospels
+                        because of his skill in harmonizing parallel passages. Only after the time
+                        of <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Bar-Ebroyo-Grigorios">
+                            <persName ref="http://syriaca.org/person/239">Bar ʿEbroyo</persName>
+                        </ref> (<abbr>ca.</abbr> 1275) do we find Eastern sources
+                        unambiguously describing Tatian as a heretic, something the West had done
+                        since Irenaeus (<abbr>ca.</abbr> 185).</p>
+                    <p>Tatians’s known <hi rend="italic">oeuvre</hi> includes: 1. ‘Oration to the
+                        Greeks’ (<abbr>ed.</abbr> Markovich; <abbr>ed.</abbr> Whittaker; <abbr>ed.</abbr> Schwartz); 2. Diatessaron (for
+                        the numerous editions of the many witnesses in many languages, see
+                        Petersen); 3. ‘Problems’ lost.; 4. ‘On animals’ lost; 5. ‘On perfection
+                        according to the Savior’ lost; 6. ‘To those who have propounded ideas about
+                        God’ reported as a planned treatise; whether ever written is unknown.</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>M.  Elze, <title rend="italic">Tatian und seine
+                                Theologie</title> (Forschungen zur Kirchen- und Dogmengeschichte 9;
+                            1960).</bibl>
+                        <bibl>R. M.  Grant, ‘The Heresy of Tatian’, <title rend="italic">
+                                <abbr>JTS</abbr>
+                            </title>
+                            <abbr> ns</abbr> 5 (1954), 62–8.</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>R. M.  Grant</reg>
+                        <orig>idem</orig>
+                     </choice>, ‘The Date of Tatian’s Oration’, <title rend="italic">
+                                <abbr>HTR</abbr>
+                            </title>
+                            51 (1958), 123–134.</bibl>
+                        <bibl>N.  Koltun-Fromm, ‘Re-imagining Tatian. The damaging effects of
+                            polemical rhetoric’, <title rend="italic">
+                                <abbr>JECS</abbr>
+                            </title> 16 (2008),
+                            1–30.</bibl>
+                        <bibl>M. Markovich, <title rend="italic">Tatiani Oratio ad Graecos</title>
+                            (<abbr>PTS</abbr> 43; 1995).</bibl>
+                        <bibl>W.  Peroyan, <title rend="italic">Amoruta d-Tatyan qa
+                            Yawnaye</title> (Tehran, 2009). (Modern Syriac, Persian, and <abbr>ET</abbr> [by J. E.
+                            Ryland])</bibl>
+                        <bibl>W. L.  Petersen, <title rend="italic">Tatian’s Diatessaron. Its
+                                creation, dissemination, significance, and history in
+                                scholarship</title> (Supp. <abbr>VC</abbr> 25; 1994). (incl. further
+                            references).</bibl>
+                        <bibl>E. Schwartz, <title rend="italic">Oratio ad Graecos</title> (<abbr>TU</abbr> 4.1;
+                            1888).</bibl>
+                        <bibl>M. Whittaker, <title rend="italic">Tatian:</title> Oratio ad Graecos <title rend="italic">and fragments</title> (1982). (with <abbr>ET</abbr>)</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>William L.</forename> 
+                  <surname>Petersen</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Sargis Bḥira</title>
+            <author>
+               <persName>
+                  <forename>Barbara H.</forename> 
+                  <surname>Roggema</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.5">Electronic Edition Version 1.5</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Sargis Bḥira</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Sargis-Bhira</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/480</idno>
+                    <idno type="entry">471</idno>
+                    <milestone unit="pages" n="359-360"/>
+                    <idno type="althead">Sergios Baḥira</idno>
+                    <idno type="subject">http://syriaca.org/person/718</idno>
+                    <note type="type">person</note>
+                    <note type="abstract">Sargis Bḥira is the name of a Syriac monk who allegedly
+                        met the Prophet Muḥammad and inspired him to begin preaching to the
+                        Arabs.<note/>
+                    </note>
+                </ab>
+                <ab type="infobox">Sergios Baḥira</ab>
+                <div type="body">
+                    <p>Sargis Bḥira is the name of a Syriac monk who allegedly met the Prophet
+                        Muḥammad and inspired him to begin preaching to the Arabs. The earliest
+                        reference to this legendary figure is to be found in the E.-Syr.
+                        ‘Disputation of the Monk of Bet Ḥale with an Arab notable’, which is
+                        commonly dated to the early 8th  cent. In this religious dialogue the
+                        monk-protagonist asserts that the Qurʾānic teaching regarding the Word of
+                        God and his Spirit (cf. Qurʾān 4:171) is to be traced back to Sargis’s
+                        instruction of the Prophet. In the early 9th  cent., when the polemics
+                        between Muslims and Syriac-speaking Christians burgeoned, the rumors about
+                        this Christian tutor of the Prophet were spun out into the Syriac ‘Legend of
+                        Sargis’. This story relates how a monk received an apocalyptic vision on
+                        Mount Sinai about the imminent rise of Arab rule. In this vision, a sequence
+                        of theriomorphic appearances, interpreted by an angel, makes clear that the
+                        Umayyads fulfilled the prophecy of Gen 17:20 regarding the twelve princes of
+                        Ishmael, while the rule of the Abbasids is projected to end with Caliph
+                        al-Maʾmūn (<abbr>r.</abbr> 813–833). It is described how, after having received this
+                        apocalyptic vision, the monk begins to preach the veneration of one single
+                        cross, which leads to his persecution by local ecclesiastical authorities.
+                        Fleeing to the desert of Arabia, he meets Muḥammad and informs him that he
+                        is destined to become the leader of the Arabs. The monk also tells Muḥammad
+                        about his religion and instructs him in a simplified form of Christianity.
+                        He urges Muḥammad to convert the Arabs to the one true God and designs a
+                        number of religious rituals and precepts for them, which the monk eventually
+                        codifies in the Qurʾān. The legend ends with another prophecy about the
+                        political and social turmoil under the Abbasids, their final collapse, and
+                        the exclusive redemption of Christians at the end of time. This highly
+                        polemical tale, which claims that the Qurʾān was written by human hands, has
+                        strong apologetic overtones, inasmuch as it suggests that the historical
+                        Muḥammad was essentially supportive of Christianity and that he summoned
+                        Muslim leaders never to do harm to the Christian communities.</p>
+                    <p>The legend survives in two Syriac redactions (E.-Syr. and W.-Syr.). Arguments
+                        have been presented by modern scholars as to which Syriac community composed
+                        the first version, none of which can be regarded as decisive. There are also
+                        two Arabic versions, which go into more detail about the supposed Qurʾānic
+                        echoes of Christian teachings.</p>
+                    <p>In numerous Muslim biographies of the Prophet, including the early 9th-cent.
+                        redactions of <hi rend="italic">al-Sīra al-Nabawiyya</hi> by Ibn Isḥāq,
+                        there are references to a monk who recognized Muḥammad, prior to his first
+                        revelation, as the awaited new Prophet. In these stories the monk is called
+                        only Baḥira, in contradistinction to the ‘Sargis Bḥira’ of the Syriac
+                        accounts. Several modern scholars have tried to find a link between the
+                        legendary stories about Muḥammad’s alleged teacher and historical figures
+                        called Sergios found in Syriac sources. Taking into consideration, however,
+                        that the Syriac legend is most probably a polemical adaptation of the
+                        Islamic stories, <choice>
+                            <sic>i.e. </sic>
+                            <corr>i.e., </corr>
+                        </choice>presupposing the primacy of the latter, it is likely
+                        that Syriac speakers provided this monk with a supplementary name. They may
+                        have added the name Sergios, because Baḥira was not commonly known as a
+                        proper name in Syriac. It is an epithet for someone ‘tested and approved’ by
+                        God, (<choice>
+                            <sic>i.e. </sic>
+                            <corr>i.e., </corr>
+                        </choice>‘venerable’, or ‘eminent’).</p>
+                    <p>The idea that Muḥammad was taught by a monk lives on among Eastern
+                        Christians. It has been perpetuated in a vast array of accounts with
+                        remarkably diverse interpretations of the monk’s supposed intentions and his
+                        role in the genesis of Islam.</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>S. H.  Griffith, ‘Disputing with Islam in Syriac: The Case of
+                            the Monk of Bêt Hâlê and a Muslim Emir’, <title rend="italic">
+                                <abbr>Hugoye</abbr>
+                            </title> 3.1 (January 2000).</bibl>
+                        <bibl>B.  Roggema, <title rend="italic">The Legend of Sergius Baḥīrā.
+                                Eastern Christian apologetics and apocalyptic in response to
+                                Islam</title> (The History of Christian-Muslim Relations. Texts and
+                            Studies 9; 2008). (includes editions, translations, and further
+                            references)</bibl>
+                        <bibl>eadem, ‘The Legend of Sergius Baḥīrā’, in <title rend="italic">Christian-Muslim relations</title>, <abbr>ed.</abbr> Thomas and Roggema,
+                            600–3.</bibl>
+                        <bibl>K.  Szilágyi, ‘Muhammad and the Monk: The making of the Christian
+                            Baḥīrā Legend’, <title rend="italic">Jerusalem Studies in Arabic and
+                                Islam</title> 34 (2008), 169–214.</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Barbara H.</forename> 
+                  <surname>Roggema</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

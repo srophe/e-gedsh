@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Tagrit</title>
+            <author>
+               <persName>
+                  <forename>Amir</forename> 
+                  <surname>Harrak</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.5">Electronic Edition Version 1.5</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Tagrit</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Tagrit</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/541</idno>
+                    <idno type="entry">532</idno>
+                    <milestone unit="pages" n="395-396"/>
+                    <idno type="althead">Tikrit</idno>
+                    <idno type="althead">Takrit</idno>
+                    <idno type="subject">http://syriaca.org/place/193</idno>
+                    <note type="type">place</note>
+                    <note type="abstract">City located on the west bank of the
+                            <placeName ref="http://syriaca.org/place/202">Tigris</placeName>, almost
+                        mid-way between <placeName ref="http://syriaca.org/place/139">Mosul</placeName> and <placeName ref="http://syriaca.org/place/41">Baghdad</placeName>.<note/>
+                    </note>
+                </ab>
+                <ab type="infobox">Tikrit, Takrit</ab>
+                <div type="body">
+                    <p>Tagrit is a modern city located on the west bank of the Tigris, almost
+                        mid-way between <ref rend="bold" target="https://gedsh.bethmardutho.org/Mosul">
+                            <placeName ref="http://syriaca.org/place/139">Mosul</placeName>
+                        </ref> and <ref rend="bold" target="https://gedsh.bethmardutho.org/Baghdad">
+                            <placeName ref="http://syriaca.org/place/41">Baghdad</placeName>
+                        </ref>. While the early history of Christianity in this city and its
+                        region is shrouded in mystery, by the late 5th <abbr>cent.</abbr>, there is evidence of a
+                        local E.-Syr. community. By the mid-6th  cent., Tagrit had become a W.-Syr.
+                        stronghold headed by ‘metropolitans’ representing the <abbr>Syr. Orth.</abbr> patriarchs
+                        of <ref rend="bold" target="https://gedsh.bethmardutho.org/Antioch">
+                            <placeName ref="http://syriaca.org/place/10">Antioch</placeName>
+                        </ref> in Sasanian and Islamic Iraq and further east. Three such
+                        leaders left monumental churches on the citadel of Tagrit or outside of it:
+                            <ref rend="bold" target="https://gedsh.bethmardutho.org/Ahudemmeh">
+                            <persName ref="http://syriaca.org/person/325">Aḥudemmeh</persName>
+                        </ref>, the first Metropolitan (559–75), <ref rend="bold" target="https://gedsh.bethmardutho.org/Marutha-of-Tagrit">
+                            <persName ref="http://syriaca.org/person/93">Marutha</persName>
+                        </ref> the ‘Great Metropolitan’ (629–49), who not only built the
+                        Great Church of the citadel but is also said to have opened the city to the
+                        Arab invaders, and Metropolitan Bar Ishoʿ, who, between 669 and 683, built
+                        the Church of Sergius and Bacchus recently excavated by Iraqi
+                        archaeologists. Fortress-like monasteries were also known to Tagrit. The
+                        monumental one recently uncovered in the nearby site of <hi rend="italic">al-Kanīsa</hi> ‘The Church’, contained coins dated as late as 1225, and
+                        offered wall paintings, graves of abbots buried along with their crosses and
+                        staffs, and Syriac <ref rend="bold" target="https://gedsh.bethmardutho.org/Inscriptions">inscriptions</ref> and records of such
+                        metropolitans as Yuḥanon bar Kipho (d. 688), Yawsep I (d.  778), and
+                        Athanasios I (d. 903). The 9th–11th <abbr>cent.</abbr> period, the Golden Age of
+                        Christian Tagrit, witnessed the rise of such great authors as the theologian
+                        and apologist Ḥabīb <abbr>b.</abbr> Khidmā Abū Rāʾita (<abbr>fl.</abbr> 828), <ref rend="bold" target="https://gedsh.bethmardutho.org/Antun-of-Tagrit">
+                            <persName ref="http://syriaca.org/person/154">Anṭun of
+                            Tagrit</persName>
+                        </ref> (9th <abbr>cent.</abbr>), and the brilliant translator and
+                        ‘dialectician’ <ref rend="bold" target="https://gedsh.bethmardutho.org/Yahya-b-Adi">
+                            <persName ref="http://syriaca.org/person/180">Yaḥyā <abbr>b.</abbr> ʿAdī</persName>
+                        </ref>
+                        (d. 974). Trade was a major occupation of Tagritans, some of whom (it was
+                        later claimed) purchased in the early 9th <abbr>cent.</abbr> a Coptic monastery in the
+                        Scetis desert (Egypt), filling it with rare <abbr>mss.</abbr> and embellishing it with
+                        beautiful wall paintings. The monastery named after the Mother of God became
+                        known as the ‘The Monastery of the Syrians’ (<ref rend="bold" target="https://gedsh.bethmardutho.org/al-Suryan-Dayr">
+                            <placeName ref="http://syriaca.org/place/360">Dayr
+                            al-Suryān</placeName>
+                        </ref>). Pressure by the Muslim majority resulted in the shift
+                        of the metropolitan seat from Tagrit to Mosul in 1156, by which time its
+                        metropolitans were called maphrians. After the fall of Baghdad at the hands
+                        of the Mongols in 1258, Tagrit little by little lost its Christian
+                        population, and the latter deserted the city altogether by the 15th
+                        <abbr>cent.</abbr>
+                    </p>
+                    <p>See <ref target="https://gedsh.bethmardutho.org/fig/13">Fig. 13</ref> and <ref target="https://gedsh.bethmardutho.org/fig/115">115</ref>.</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>
+                     <choice>
+                        <sic>J. M.  Fiey</sic>
+                        <corr>J.-M.  Fiey</corr>
+                     </choice>, ‘Tagrît: Esquisse d’histoire chrétienne’, <title rend="italic">
+                                <abbr>OS</abbr> 
+                     </title>8 (1963), 289–342. (<abbr>repr.</abbr> in J.-M. Fiey,
+                                <title rend="italic">Communautés syriaques en Iran et Irak des
+                                origines à 1552</title> [1979], ch. X).</bibl>
+                        <bibl>A.  Harrak, ‘Recent archaeological excavations in Takrit and the
+                            discovery of Syriac inscriptions’, <title rend="italic">
+                                <abbr>JCSSS</abbr>
+                            </title> 1
+                            (2001), 11–40.</bibl>
+                        <bibl>L. Van Rompay and A. B. Schmidt, ‘Takritans in the Egyptian Desert:
+                            The Monastery of the Syrians in the Ninth Century’, <title rend="italic">
+                                <abbr>JCSSS</abbr>
+                            </title> 1 (2001), 41–60.</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Amir</forename> 
+                  <surname>Harrak</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

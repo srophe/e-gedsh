@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">al-Suryān, Dayr</title>
+            <author>
+               <persName>
+                  <forename>Lucas</forename> 
+                  <surname>Van Rompay</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.5">Electronic Edition Version 1.5</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>al-Suryān, Dayr</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/al-Suryan-Dayr</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/532</idno>
+                    <idno type="entry">523</idno>
+                    <milestone unit="pages" n="386-387"/>
+                    <idno type="althead" subtype="altorder">Dayr al-Suryān</idno>
+                    <idno type="althead">Monastery of the Syrians, Egypt</idno>
+                    <idno type="subject">http://syriaca.org/place/360</idno>
+                    <note type="type">place</note>
+                    <note type="abstract">Monastery situated halfway between Cairo and <placeName ref="http://syriaca.org/place/572">Alexandria</placeName> in the Wadi
+                        al-Natrun, ancient Scetis, Egypt.<note/>
+                    </note>
+                </ab>
+                <ab type="infobox">Monastery of the Syrians, Egypt [<abbr>Syr. Orth.</abbr>]</ab>
+                <div type="body">
+                    <p>Monastery situated halfway between Cairo and Alexandria in the Wadi
+                        al-Natrun, ancient Scetis, Egypt. Today one of the flourishing monasteries
+                        of the Coptic Church, it derives its name from the earlier presence of a
+                        <abbr>Syr. Orth.</abbr> community. Whereas its foundation as an Egyptian monastery
+                        probably goes back to the 6th <abbr>cent.</abbr>, the earliest evidence of the Syrian
+                        presence (in the first period mainly monks from <ref rend="bold" target="https://gedsh.bethmardutho.org/Tagrit">
+                            <placeName ref="http://syriaca.org/place/193">Tagrit</placeName>
+                        </ref>) is from <abbr>ca.</abbr>
+                        800. The Syrian presence came to an end, or lost its prominence, at the
+                        beginning of the 17th <abbr>cent.</abbr>; from then onwards the monastery has been
+                        entirely Coptic.</p>
+                    <p>The main significance of Dayr al-Suryān for Syriac studies lies in the fact
+                        that it has preserved hundreds of ancient Syriac <abbr>mss.</abbr> From the early 18th
+                        <abbr>cent.</abbr> these began to be transferred to European libraries. A  number of <abbr>mss.</abbr>
+                        came to the Vatican Library; the bulk reached the British Museum, London, in
+                        the 19th <abbr>cent.</abbr> and are now at the British Library. The Monastery still holds
+                        a small collection (a catalogue is in preparation). The Dayr al-Suryān <abbr>mss.</abbr>
+                        include the earliest dated Syriac <abbr>ms.</abbr> (411), a great majority of all
+                        preserved pre-10th-century <abbr>mss.</abbr>, and our main witnesses for the writings of
+                        important authors such as <ref rend="bold" target="https://gedsh.bethmardutho.org/Aphrahat">
+                            <persName ref="http://syriaca.org/person/10">Aphrahaṭ</persName>
+                        </ref>, <ref rend="bold" target="https://gedsh.bethmardutho.org/Ephrem">
+                            <persName ref="http://syriaca.org/person/13">Ephrem</persName>
+                        </ref>,
+                            <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Philoxenos-of-Mabbug">
+                            <persName ref="http://syriaca.org/person/44">Philoxenos
+                            of Mabbug</persName>
+                        </ref>, and <ref rend="bold" target="https://gedsh.bethmardutho.org/Severus-of-Antioch">
+                            <persName ref="http://syriaca.org/person/51">Severus of
+                            Antioch</persName>
+                        </ref>. No other place in the Middle East has yielded such a
+                        wealth of Syriac <abbr>mss.</abbr> The colophons of the <abbr>mss.</abbr> are the main source for our
+                        knowledge of the history of Dayr al-Suryān. Recent discoveries of murals,
+                        paintings as well as texts, in the Church of the Virgin provide additional
+                        information.</p>
+                    <p>In an attempt to explain and justify the presence of the Syrians, three late
+                        notes in <abbr>mss.</abbr> — two of which can be dated to the 16th and 17th <abbr>cent.</abbr> — claim
+                        that Dayr al-Suryān was purchased by Tagritans at an unknown date through
+                        the intermediary of a certain Marutha. It is very unlikely, however, that a
+                        formal purchase ever took place. A recently discovered inscription indicates
+                        that Syrians were involved in the rebuilding of the Monastery in 818/19,
+                        after it had suffered damage. It must have been on that occasion that they
+                        started settling in. Even though a few decades later, the Monastery began to
+                        be referred to as ‘Monastery of the Syrians’, there is evidence that
+                        throughout the centuries Coptic and Syriac monks lived together.</p>
+                    <p>A period of particular wealth was the first half of the 10th <abbr>cent.</abbr>, when <ref rend="bold" target="https://gedsh.bethmardutho.org/Mushe-of-Nisibis">
+                            <persName ref="http://syriaca.org/person/647">Mushe of Nisibis</persName>
+                        </ref> was abbot. Syriac inscriptions in the church
+                        bear witness to his building activities. To the collection of Syriac <abbr>mss.</abbr> he
+                        added 250 volumes, which he brought back from a journey to Mesopotamia
+                        (927–31/32). In addition to the <abbr>mss.</abbr> imported from the Syro-Mesopotamian
+                        homeland, Syriac <abbr>mss.</abbr> were also produced in the Monastery itself.</p>
+                    <p>The history of Dayr al-Suryān after the 10th <abbr>cent.</abbr> is less well known. There
+                        was a period of revival around 1200 and in the 13th <abbr>cent.</abbr>, when new <abbr>mss.</abbr>
+                        were acquired and new wall paintings were produced. This is also the period
+                        to which a number of Coptic and Christian-Arabic <abbr>mss.</abbr> in Dayr al-Suryān can
+                        be dated. Towards the end of the 15th <abbr>cent.</abbr>, an abbot of Lebanese origin,
+                        Quryaqos (Cyriacus, also known as Severos) gave a fresh impetus to the
+                        intellectual and cultural life in the Monastery. In 1516, 43 monks were
+                        living in Dayr al-Suryān, 18 Syrians and 25 Egyptians.</p>
+                    <p>In the 18th <abbr>cent.</abbr>, the Church of the Virgin was completely replastered,
+                        except for three semi-domes that continued to show their 13th-cent.
+                        paintings. It is only in 1995 that conservators and art historians began to
+                        remove parts of the plaster, thus allowing the earlier layers to reveal a
+                        wealth of paintings as well as texts in Greek, Coptic, Syriac, and
+                        Arabic.</p>
+                    <p>See <ref target="https://gedsh.bethmardutho.org/fig/14">Fig. 14</ref>, <ref target="https://gedsh.bethmardutho.org/fig/37">37</ref>, <ref target="https://gedsh.bethmardutho.org/fig/38">38</ref>, <ref target="https://gedsh.bethmardutho.org/fig/58">58</ref>, <ref target="https://gedsh.bethmardutho.org/fig/89">89</ref>, <ref target="https://gedsh.bethmardutho.org/fig/90">90</ref>, <ref target="https://gedsh.bethmardutho.org/fig/96">96</ref>, <ref target="https://gedsh.bethmardutho.org/fig/110">110</ref>, and <ref target="https://gedsh.bethmardutho.org/fig/113">113</ref>.</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>S. P.  Brock, ‘Without Mushē of Nisibis, where would we be? Some
+                            reflections on the transmission of Syriac culture’, in <abbr>
+                                <title rend="italic">SymSyr</title> VIII</abbr>, 15–24.</bibl>
+                        <bibl>J.  den Heijer, ‘Relations between Copts and Syrians in the light of
+                            recent discoveries at Dayr as-Suryān’, in <title rend="italic">Coptic
+                                Studies on the threshold of a new millennium</title>, <abbr>ed.</abbr> M.
+                            Immerzeel and J. van der Vliet (<abbr>OLA</abbr> 133; 2004), vol. 2, 923–38.</bibl>
+                        <bibl>K.  Innemée and L.  Van Rompay, ‘La présence des Syriens dans le Wadi
+                            al-Natrun (Égypte). À propos des découvertes récentes de peintures et de
+                            textes muraux dans l’Église de la Vierge du Couvent des Syriens’, <title rend="italic">
+                                <abbr>ParOr</abbr>
+                            </title> 23 (1998), 167–202.</bibl>
+                        <bibl>B.  Snelders, M.  Immerzeel, and L.  Van  Rompay, ‘The
+                            Thirteenth-Century Flabellum from Deir al-Surian in the Musée Royal de
+                            Mariemont (Morlanwelz, Belgium)’, <title rend="italic">
+                                <abbr>ECA</abbr>
+                            </title> 1
+                            (2004), 134–7.</bibl>
+                        <bibl>Fr. B. el-Suriany, ‘The manuscript collection of Deir al-Surian: Its
+                            survival into the third millennium’, in <title rend="italic">Coptic
+                                Studies on the threshold of a new millennium</title>, <abbr>ed.</abbr>
+                            M.  Immerzeel and J.  van der Vliet (<abbr>OLA</abbr> 133; 2004), vol. 1,
+                            281–94.</bibl>
+                        <bibl>L.  Van Rompay, ‘Les inscriptions syriaques du Couvent des Syriens
+                            (Wadi al-Natrun, Égypte)’, in <title rend="italic">Les inscriptions
+                                syriaques</title>, <abbr>ed.</abbr> F.  Briquel Chatonnet, M.  Debié, and
+                            A.  Desreumaux, (<abbr>ÉtSyr</abbr> 1; 2004), 55–73 with pl. III.</bibl>
+                        <bibl>L.  Van Rompay, ‘A precious gift to Deir al-Surian (AD 1211): <abbr>Ms.</abbr> Vat.
+                            Syr. 13’, in <title rend="italic">Malphono w-Rabo d-Malphone</title>,
+                            <abbr>ed.</abbr> G.  Kiraz, 735–50.</bibl>
+                        <bibl>L. Van Rompay and A. B. Schmidt, ‘Takritans in the Egyptian Desert:
+                            The Monastery of the Syrians in the Ninth Century’, <title rend="italic">
+                                <abbr>JCSSS</abbr>
+                            </title> 1 (2001), 41–60.</bibl>
+                        <bibl>H. G. E.  White, <title rend="italic">The Monasteries of the Wâdi ’n
+                                Natrûn</title>, vol. 2. <title rend="italic">The history of the
+                                monasteries of Nitria and of Scetis</title>; vol. 3. <title rend="italic">The architecture and archaeology</title>
+                            (1932–1933).</bibl>
+                        <bibl>Wright, <title rend="italic">Catalogue … British
+                            Museum</title>.</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Lucas</forename> 
+                  <surname>Van Rompay</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

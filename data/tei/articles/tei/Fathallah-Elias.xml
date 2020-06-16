@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Fatḥallāh, Elias</title>
+            <author>
+               <persName>
+                  <forename>Jean</forename> 
+                  <surname>Fathi</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.5">Electronic Edition Version 1.5</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Fatḥallāh, Elias</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Fathallah-Elias</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/219</idno>
+                    <idno type="entry">210</idno>
+                    <milestone unit="pages" n="164-165"/>
+                    <idno type="althead" subtype="altorder">Elias Fatḥallāh</idno>
+                    <idno type="althead">Fatalla</idno>
+                    <idno type="althead">Fathi</idno>
+                    <idno type="subject">http://syriaca.org/person/487</idno>
+                    <note type="type">person</note>
+                    <note type="abstract">
+                        <abbr>Syr. Orth.</abbr> priest from Amid who converted to Catholicism and became interpreter in the Vatican.<note/>
+                    </note>
+                </ab>
+                <ab type="infobox">Fatalla, Fathi (<abbr>fl.</abbr> 1770–1798) [<abbr>Syr. Orth.</abbr>, then <abbr>Syr. Cath.</abbr>]</ab>
+                <div type="body">
+                    <p>Elias Fatḥallāh was a <abbr>Syr. Orth.</abbr> priest from <ref rend="bold" target="https://gedsh.bethmardutho.org/Amid">
+                            <placeName ref="http://syriaca.org/place/8">Amid</placeName>
+                        </ref>. Following his
+                        conversion to Catholicism in 1770, he moved to the Vatican, where he worked
+                        as an interpreter for Pope Pius VI and published a second edition of the
+                        Syriac Breviary in 1787, based on the first 1696 edition of Athanasius Safar
+                        of <ref rend="bold" target="https://gedsh.bethmardutho.org/Mardin">
+                            <placeName ref="http://syriaca.org/place/130">Mardin</placeName>
+                        </ref>, to which he added the Sunday office. From 1793 to 1798,
+                        he held the chair of Syriac and Chaldaic at the Collegio de Propaganda Fide.
+                        Recruited there in 1798, he became Napoleon’s interpreter and a member of
+                        the Commission des Sciences et des Arts as the director of the Oriental
+                        section of the press during the Egyptian Campaign. He is referred to as ‘Don
+                        Elias Fatalla’ in Napoleon’s correspondence dated 16 Oct. 1798. He is also
+                        once mentioned as the interpreter of General Thomas-Alexandre Dumas, the
+                        father of the famed author of <hi rend="italic">The Three Musketeers</hi>.
+                        Western biographers of Bonaparte are not aware of his Syriac heritage, nor
+                        do Eastern biographers know of the Napoleonic episode. Among the former, he
+                        is sometimes confused with Elias Pharaon, a younger <abbr>Melk.</abbr> interpreter from
+                            <ref rend="bold" target="https://gedsh.bethmardutho.org/Damascus">
+                            <placeName ref="http://syriaca.org/place/66">Damascus</placeName>
+                        </ref>, called back to France at Napoleon’s request in 1802.
+                        Among the latter, Tarrazi confuses him with Elias Amīrkhān, another <abbr>Syr.
+                        Cath.</abbr> priest from Amid and the chorepiscopos of the Mar Behnam Syr. Church
+                        in Cairo, an erroneous account frequently repeated thereafter. Further
+                        inaccuracies, such as the report attributing his conversion to the
+                        exhortations of Michael Jarweh, the <abbr>bp.</abbr> of <ref rend="bold" target="https://gedsh.bethmardutho.org/Aleppo">
+                            <placeName ref="http://syriaca.org/place/18">Aleppo</placeName>
+                        </ref> and future
+                        <abbr>Syr. Cath.</abbr>
+                        <abbr> 
+                     <choice>
+                                <sic>Patr.</sic>
+                                <corr>patr.</corr>
+                            </choice>
+                        </abbr>, may be explained by the desire of early <abbr>Syr. Cath.</abbr>
+                        historiography to embellish the storyline of this patriarch, who
+                        reestablished in 1782 the Uniate patriarchal line started in 1662 and
+                        interrupted since 1702. As a matter of fact, Fatḥallāh became Catholic four
+                        years before Jarweh, and no reference is made to the <abbr>
+                            <choice>
+                                <sic>Patr.</sic>
+                                <corr>patr.</corr>
+                            </choice>
+                        </abbr> in the
+                        introduction to his breviary. Two Armenian-Turkish letters exposing the
+                        grievance of the Armenian widow Hripsime and addressed to the Doge of
+                        Venice, signed and sealed in attestation of content by, among others, his
+                        brothers Khawājas Isḥāq Niʿmatallāh and Maqd. Bishāra Fatḥī and the <abbr>Chald.</abbr>
+                        <abbr>Patr.</abbr> Yawsep IV in Amid in 1782, are now preserved in the private collection
+                        of the Fathi family (Aleppo). That his family was then leading the Catholic
+                        party in Amid may be inferred from a Garshuni epistle addressed by the Amid
+                        community to <abbr>Patr.</abbr> Jarweh in Mardin on 25 Feb. 1782, regarding the adoption
+                        of the Catholic mass, in which the names of his father, Khawāja Fatḥallāh
+                        son of the deacon Amīrchāh, also known as Fatḥī, and his two aforementioned
+                        brothers appear first among some <choice>
+                            <sic>seventy four</sic>
+                            <corr>seventy-four</corr>
+                        </choice> civilian signatories. This
+                        letter, today at the <ref rend="bold" target="https://gedsh.bethmardutho.org/Sharfeh">
+                            <placeName ref="http://syriaca.org/place/232">Sharfeh</placeName>
+                        </ref> Monastery,
+                        was also signed by eleven Syr. priests, reflecting the early inroad made by
+                        the <abbr>Syr. Cath.</abbr> movement in Amid, supported by the local presence of the
+                        <abbr>Chald.</abbr> patriarchate and Capuchin monks. Catholicism had much less success
+                        here, however, than in Aleppo or <ref rend="bold" target="https://gedsh.bethmardutho.org/Mosul">
+                            <placeName ref="http://syriaca.org/place/139">Mosul</placeName>
+                        </ref>, as resistance
+                        to it was fierce, since the city was the frequent residential abode of Syr.
+                        Orth. patriarchs. In 1810, Khawāja Mikhāyil Fatḥī Zadeh obtained a <hi rend="italic">firman</hi> establishing the Catholic <abbr>bp.</abbr> Behnam as <abbr>
+                            <choice>
+                                <sic>Patr.</sic>
+                                <corr>patr.</corr>
+                            </choice>
+                        </abbr>
+                        at <ref rend="bold" target="https://gedsh.bethmardutho.org/al-Zafaran-Dayr">
+                            <placeName ref="http://syriaca.org/place/69">Dayr al-Zaʿfarān</placeName>
+                        </ref>, in a last attempt to catholicize the entire
+                        Syr. church. This attempt was later aborted by the Orthodox party, and the
+                        split of the Syrians into two churches has persisted to the present day.</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>
+                            <title rend="italic">Breviarium feriale syriacum SS. Ephrem et Iacob
+                                syrorum iuxta ritum eiusdem nationis a feria II. usque ad sabbathum
+                                iuxta exemplum editum anno MDCXCVI Typis Sac. Congr. de Propaganda
+                                Fide. Nunc accedit Officium dominicale</title> (Rome, 1787).</bibl>
+                        <bibl>R.  G.  Canivet, ‘L’imprimerie de l’expédition d’Egypte. Les journaux
+                            et les procès-verbaux de l’Institut (1798–1801)’, <title rend="italic">Bulletin de l’Institut Egyptien</title> 5.3 (1909), 1–22.</bibl>
+                        <bibl>A. Naqqāsha, <title rend="italic">ʿInāyat al-raḥmān fī hidāyat
+                                al-suryān</title> (Beirut, 1910), 201.</bibl>
+                        <bibl>P. de Tarrazi, <title rend="italic">al-Salāsil al-taʾrīkhiyya fī
+                                asāqifat al-abrašiyyāt al-suryāniyya</title> (Beirut, 1910), 90,
+                            383–84.</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Jean</forename> 
+                  <surname>Fathi</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Maphrian</title>
+            <author>
+               <persName>
+                  <forename>George A.</forename> 
+                  <surname>Kiraz</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.5">Electronic Edition Version 1.5</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Maphrian</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Maphrian</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/354</idno>
+                    <idno type="entry">345</idno>
+                    <milestone unit="pages" n="264-265"/>
+                    <idno type="althead">Catholicos</idno>
+                    <note type="type">subject</note>
+                    <note type="abstract">High-ranking prelate in the Syr. Orth. church.<note/>
+                    </note>
+                </ab>
+                <ab type="infobox">Catholicos [<abbr>Syr. Orth.</abbr>]</ab>
+                <div type="body">
+                    <p>The Syriac word <hi rend="italic">maphryono</hi> (<hi rend="italic">mprynʾ</hi>) literally signifies ‘one who bears fruit’, metaphorically
+                        a ‘consecrator’. The Anglicized term Maphrian derives from the Arabic form
+                            <hi rend="italic">mafiryān</hi>. The term is synonymous with the term
+                        ‘Catholicos’. It is used to designate the prelate who holds the second rank
+                        after the <abbr>
+                            <choice>
+                                <sic>Patr.</sic>
+                                <corr>patr.</corr>
+                            </choice>
+                        </abbr> in the <abbr>Syr. Orth.</abbr> Church. Three Maphrianate lines are
+                        known:</p>
+                    <p>1. Maphrianate of <ref rend="bold" target="https://gedsh.bethmardutho.org/Tagrit">
+                            <placeName ref="http://syriaca.org/place/193">Tagrit</placeName>
+                        </ref>, also known
+                        as the Maphrianate of the East. It was established in the 7th <abbr>cent.</abbr> in order
+                        to give the Miaphysite <abbr>Syr. Orth.</abbr> a hierarchy
+                        structure in the Persian empire. The first Maphrian (though the title was
+                        fixed at an unknown date later) was <ref rend="bold" target="https://gedsh.bethmardutho.org/Marutha-of-Tagrit">
+                            <persName ref="http://syriaca.org/person/93">Marutha of
+                            Tagrit</persName>
+                        </ref>, from 628–49, who was consecrated by <abbr>Patr. </abbr>
+                        <ref rend="bold" target="https://gedsh.bethmardutho.org/Athanasios-I-Gamolo">
+                            <persName ref="http://syriaca.org/person/88">Athanasios Gamolo</persName>
+                        </ref>. The Maphrian, when consecrated by the <abbr>Patr.</abbr> of <ref rend="bold" target="https://gedsh.bethmardutho.org/Antioch">
+                            <placeName ref="http://syriaca.org/place/10">Antioch</placeName>
+                        </ref>, had autonomy and was the sole ruler
+                        of the <abbr>Syr. Orth.</abbr> churches in Persia. He had the right to consecrate and
+                        appoint bishops, and to consecrate the chrism, but
+                        had to refer to the Patriarch for moving a <abbr>bp.</abbr> from one diocese to another.
+                        This arrangement continued even after the fall of the Sasanian Empire soon
+                        after. In 869 and again during the patriarchate of <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Yuhanon-X-Isho-bar-Shushan">
+                            <persName ref="http://syriaca.org/person/193">Yuḥanon
+                            X bar Shushan</persName>
+                        </ref> it was decided that just as the patriarch
+                        consecrated the Maphrian so the Maphrian consecrates a new patriarch. For
+                        the first time in 1222, the incumbent Maphrian Ignatius
+                            Dawid became <abbr>
+                            <choice>
+                                <sic>Patr.</sic>
+                                <corr>patr.</corr>
+                            </choice>
+                        </abbr> Thirteen Maphrians later became patriarchs at
+                        various times. In 1074 <ref rend="bold" target="https://gedsh.bethmardutho.org/Nisibis">
+                            <placeName ref="http://syriaca.org/place/142">Nisibis</placeName>
+                        </ref> was added
+                        to the Maphrianate, and in 1089, after the destruction of Tagrit by the
+                        Muslims, the Maphrianate moved to <ref rend="bold" target="https://gedsh.bethmardutho.org/Mosul">
+                            <placeName ref="http://syriaca.org/place/139">Mosul</placeName>
+                        </ref> during the
+                        Maphrianate of Yuḥanon Ṣliba. His successor, Dionysios
+                            Mushe, managed to return to Tagrit until 1152 or
+                        1155, after which the Maphrians resided in <ref rend="bold" target="https://gedsh.bethmardutho.org/Matay-Dayro-d-Mor">
+                            <persName ref="http://syriaca.org/person/227">Dayro d-Mor
+                            Matay</persName>
+                        </ref>. Until the 11th <abbr>cent.</abbr>, the Maphrians were almost exclusively
+                        from the East, but later bishops from the West were consecrated and sent to
+                        the East. The last Maphrian of this line was Baselius Behnam IV (1839–59).
+                        After his death, the Maphrianate, by now titular only, was abolished.</p>
+                    <p>2. Maphrianate of <ref rend="bold" target="https://gedsh.bethmardutho.org/Tur-Abdin">
+                            <placeName ref="http://syriaca.org/place/221">Ṭur ʿAbdin</placeName>
+                        </ref>. This
+                        Maphrianate was under the jurisdiction of the Patriarchate
+                            of Ṭur ʿAbdin. The first Maphrian was Baselios
+                            Malki of <ref rend="bold" target="https://gedsh.bethmardutho.org/Midyat">
+                            <placeName ref="http://syriaca.org/place/137">Midyat</placeName>
+                        </ref> who was
+                        consecrated by <abbr>Patr.</abbr> Ignatius <ref rend="bold" target="https://gedsh.bethmardutho.org/Masud-of-Tur-Abdin">
+                            <persName ref="http://syriaca.org/person/279">Masʿūd II</persName>
+                        </ref> of Zaz in
+                        1495. It is not clear to what extent the Maphrian held jurisdiction within
+                        Ṭur ʿAbdin. The last of the Maphrians of this line was Baselios ʿAbd al-Aḥad of Anhil (1821–1844) who was killed by
+                        Kurds in March 1844.</p>
+                    <p>3. Maphrianate in India. The establishment of the Maphrianate in Malankara is intermingled with much controversy. The
+                            Malankara Metropolitan Dionesios Yawsep requested
+                        its formation from <abbr>Patr.</abbr> Peṭros IV in 1875–77, and repeated the request from
+                        his successor <abbr>Patr. </abbr>
+                        <ref rend="bold" target="https://gedsh.bethmardutho.org/Abdulmasih-II">
+                            <persName ref="http://syriaca.org/person/314">ʿAbdulmasīḥ
+                            II</persName>
+                        </ref> around 1902, but the latter strongly refused. After ʿAbdulmasīḥ
+                        II was deposed and replaced by <ref rend="bold" target="https://gedsh.bethmardutho.org/Abdullah-II-Sattuf">
+                            <persName ref="http://syriaca.org/person/313">ʿAbdullāh
+                            II</persName>
+                        </ref>, the request was made again by the next Malankara Metropolitan Dionysios Giwargis from ʿAbdullāh II. By
+                        this time, there existed in India two parties, a patriarchal faction which desired to remain under the
+                        jurisdiction of the <abbr>
+                            <choice>
+                                <sic>Patr.</sic>
+                                <corr>patr.</corr>
+                            </choice>
+                        </abbr>, and a metropolitan faction
+                        which called for an autonomous and sometimes autocephalous church. In 1912,
+                        the deposed ʿAbdulmasīḥ II consecrated Baselios Pawlos
+                            I of the metropolitan faction as Maphrian.
+                            Pawlos I was succeeded by other local Maphrians
+                        consecrated by bishops of the same faction. The Patriarch and his faction
+                        did not recognize the Maphrianate. In 1958, both parties came together and
+                        <abbr>Patr. </abbr>
+                        <ref rend="bold" target="https://gedsh.bethmardutho.org/Ignatius-Yaqub-III">
+                            <persName ref="http://syriaca.org/person/545">Ignatius
+                            Yaʿqub III</persName>
+                        </ref> recognized the incumbent Maphrian. In 1964, the <abbr>
+                            <choice>
+                                <sic>Patr.</sic>
+                                <corr>patr.</corr>
+                            </choice>
+                        </abbr>
+                        himself consecrated the next Maphrian, Baselios Augen
+                            I for both parties. The peace was <choice>
+                            <sic>short lived</sic>
+                            <corr>short-lived</corr>
+                        </choice>, and by 1975 the
+                        situation deteriorated. Yaʿqub III withdrew
+                        recognition of the Maphrian and consecrated in his stead Baselios Paulose II from the patriarchal
+                            faction. Since then, two lines of Maphrians exist in India.</p>
+                    <p>4. At least one Syr. Catholic Maphrian is known, Baselios Isḥaq Jbeir who
+                        became a Maphrian in 1693. A formal line of the Maphrianate, however, did
+                        not exist.</p>
+                </div>
+                <div type="bibl">
+                    <listBibl>
+                        <listBibl>
+                            <head>On the Maphrianate of Tagrit</head>
+                            <bibl>Assemani, <title rend="italic">BibOr</title>, vol. 1, 175; vol. 2,
+                                liv, 209, 214, 215.</bibl>
+                            <bibl>Abbeloos and Lamy, <title rend="italic">Gregorii Barhebraei
+                                    chronicon ecclesiasticum</title>, vol. 2, part i, pref., p.
+                                xviii; part iii, epilogue.</bibl>
+                            <bibl>J.-M. Fiey, ‘Les diocèses du “Maphrianat” syrien, <choice>
+                                    <sic>(629–1860)</sic>
+                                    <corr>629–1860</corr>
+                                </choice>’,
+                                    <title rend="italic">
+                                    <abbr>ParOr</abbr>
+                                </title> 5 (1974), 133–64, 331–93; 8
+                                (1977/8), 347–78.</bibl>
+                            <bibl>Labourt, <title rend="italic">Le christianisme dans l’empire
+                                    perse</title>.</bibl>
+                            <bibl>B.  Nasri, <title rend="italic">Kitāb Dhakhīrat al-Adhhān fī
+                                    Tawārīkh al-Mašāriqah wal-Maghariba al-Suryān</title> (1905),
+                                vol. 1, 323–9; vol. 2, 295.</bibl>
+                            <bibl>I. Saka, <title rend="italic">Kanīsatī al-Suryāniyya</title>
+                                (1985), 187–231.</bibl>
+                        </listBibl>
+                        <listBibl>
+                            <head>On the Maphrianate of Ṭur ʿAbdin</head>
+                            <bibl>I. A.  Barsoum, <title rend="italic">History of Tur Abdin</title>
+                                (1964; <abbr>repr.</abbr> 2008).</bibl>
+                            <bibl>I. Saka, <title rend="italic">Kanīsatī al-Suryāniyya</title>
+                                (1985), 232–3.</bibl>
+                        </listBibl>
+                        <listBibl>
+                            <head>On the Maphrianate of India</head>
+                            <bibl>D.  Daniel, <title rend="italic">The Orthodox Church of
+                                    India</title> (New Delhi, 1972; 2nd <abbr>ed.</abbr> 1986).</bibl>
+                            <bibl>C.  Kaniamparampil, <title rend="italic">The Syrian Orthodox
+                                    Church in India and its Apostolic Faith</title> (1989).</bibl>
+                            <bibl>I. Touma, <title rend="italic">Taʾrīkh al-kanīsa al-suryāniyya
+                                    al-hindiyya</title> (1951).</bibl>
+                        </listBibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>George A.</forename> 
+                  <surname>Kiraz</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

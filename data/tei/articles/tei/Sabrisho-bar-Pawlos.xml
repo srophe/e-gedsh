@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Sabrishoʿ bar Pawlos</title>
+            <author>
+               <persName>
+                  <forename>Lucas</forename> 
+                  <surname>Van Rompay</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.5">Electronic Edition Version 1.5</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Sabrishoʿ bar Pawlos</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Sabrisho-bar-Pawlos</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/470</idno>
+                    <idno type="entry">461</idno>
+                    <milestone unit="pages" n="355"/>
+                    <idno type="althead">Sabrishoʿ of Mosul</idno>
+                    <idno type="subject">http://syriaca.org/person/709</idno>
+                    <note type="type">person</note>
+                    <note type="abstract">Liturgical poet of whom one hymn has been preserved.<note/>
+                    </note>
+                </ab>
+                <ab type="infobox">Sabrishoʿ of Mosul (late 12th <abbr>cent.</abbr>) [Ch. of E.]</ab>
+                <div type="body">
+                    <p>Author of a hymn for Mid-Lent, preserved in the <hi rend="italic">Ktābā
+                            d-Wardā</hi> (see <ref rend="bold" target="https://gedsh.bethmardutho.org/Gewargis-Warda">
+                            <persName ref="http://syriaca.org/person/504">Gewargis
+                            Warda</persName>
+                        </ref>) and published by Cardahi. The author is called <hi rend="italic">Mawṣlāyā</hi> ‘from <ref rend="bold" target="https://gedsh.bethmardutho.org/Mosul">
+                            <placeName ref="http://syriaca.org/place/139">Mosul</placeName>
+                        </ref>’, and in the
+                        subscription of one <abbr>ms.</abbr> it is reported that he was a teacher in the
+                        Monastery of Mar Michael in Mosul in 1188/89. His significance as a
+                        liturgical poet may have extended far beyond the one hymn that is known, as
+                        the name of ‘Sabrishoʿ of Mosul’ is remembered in a 20th-cent. <ref rend="bold" target="https://gedsh.bethmardutho.org/Dorektha">
+                            <hi rend="italic">dorekthā</hi>
+                        </ref> by Thomas Hanna of <ref rend="bold" target="https://gedsh.bethmardutho.org/Karamlish">
+                            <placeName ref="http://syriaca.org/place/110">Karamlish</placeName>
+                        </ref> (<abbr>ed.</abbr> by
+                        E. Braida, forthcoming in A. Mengozzi, <hi rend="italic">Religious poetry in
+                            vernacular Syriac from Northern Iraq</hi>, <abbr>CSCO</abbr> 627–628).</p>
+                    <p>In addition, an author by the name of Sabrishoʿ d-Pawlos (‘of Pawlos’, or
+                        perhaps ‘who [is] Pawlos’, rather than ‘son of Pawlos’) is mentioned among
+                        ‘the orthodox teachers’ in a list that is found in some E.-Syr. <abbr>mss.</abbr> (see,
+                        e.g., Vandenhoff; comp. Van den Eynde, XXV, Document VIII). While it first
+                        seemed reasonable to assume that this is the same person, Reinink argued
+                        against their identity, because Sabrishoʿ d-Pawlos happens to be quoted in
+                        the <ref rend="bold" target="https://gedsh.bethmardutho.org/Gannat-Bussame">
+                            <hi rend="italic">Gannat Bussāme</hi>
+                        </ref> within a passage that is attributed to the
+                        9th-cent. author <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Sharbokht-bar-Msargis">
+                            <persName ref="http://syriaca.org/person/736">Ṣharbokht</persName>
+                        </ref>. This would require a significantly earlier date for
+                        this second Sabrishoʿ. Regardless of what his relationship to Sabrishoʿ bar
+                        Pawlos is, no further information on Sabrishoʿ d-Pawlos is available.</p>
+                    <p>Finally, Scher proposed, albeit only tentatively, that Sabrishoʿ bar Pawlos
+                        is to be identified as the author of an anonymous commentary on the Bible,
+                        preserved in <abbr>mss.</abbr> Mosul 1–3 (dated 1701), parts of which exist in several
+                        other <abbr>mss.</abbr> (Scher, 228). Although Baumstark gave some additional weight to
+                        this proposal, by reiterating it (without, however, explicitly endorsing
+                        it), no positive evidence in its support can be provided. At least some
+                        parts of this anonymous commentary must belong to an earlier period, and
+                        Sabrishoʿ’s authorship is highly unlikely.</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>Baumstark, <title rend="italic">Literatur</title>, 290.</bibl>
+                        <bibl>G. Cardahi, <title rend="italic">Liber thesauri de arte poetica
+                                Syrorum</title> (1875), 94–96. (Syr. text of hymn)</bibl>
+                        <bibl>Reinink, <title rend="italic">Studien zur Quellen- und
+                                Traditionsgeschichte</title>, 2–3 and 24–25.</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>Reinink</reg>
+                        <orig>idem</orig>
+                     </choice>, <title rend="italic">Gannat Bussame</title>, vol. 1. <title rend="italic">Die <choice>
+                                    <sic>Adventssontage</sic>
+                                    <corr>Adventssonntage</corr>
+                                </choice>
+                            </title> (<abbr>CSCO</abbr> 502; 1988),
+                            IX.</bibl>
+                        <bibl>A. Scher, ‘Notice sur les manuscrits syriaques conservés dans la
+                            bibliothèque du patriarcat chaldéen de Mossoul’, <title rend="italic">Revue des Bibliothèques</title> 17 (1907), 227–60.</bibl>
+                        <bibl>C. Van den Eynde, <title rend="italic">Commentaire d’Išoʿdad de Merv
+                                sur l’Ancien Testament</title>, vol. VI. <title rend="italic">Psaumes</title> (<abbr>CSCO</abbr> 434; 1981).</bibl>
+                        <bibl>B. Vandenhoff, <title rend="italic">Exegesis Psalmorum, imprimis
+                                messianicorum, apud Syros Nestorianos</title> (1899), 18 (Syr.) and
+                            29 (<abbr>LT</abbr>).</bibl>
+                        <bibl>L. Van Rompay, <title rend="italic">Le commentaire sur Genèse-Exode
+                                9,32 du manuscrit (<choice>
+                           <reg>
+                              <hi rend="italic">olim</hi>
+                           </reg>
+                           <orig>olim</orig>
+                        </choice>) Diyarbakır 22</title> (<abbr>CSCO</abbr> 484; 1986),
+                            XL–XLIV.</bibl>
+                        <bibl>W.  Wright and S. A.  Cook, <title rend="italic">A catalogue of Syriac
+                                manuscripts preserved in the Library of the University of
+                                Cambridge</title> (1901; <abbr>repr.</abbr> 2002), vol. 1, 226–27 (‘Warda’ <abbr>ms.</abbr>
+                            Add. 1982).</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Lucas</forename> 
+                  <surname>Van Rompay</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

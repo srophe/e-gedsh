@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Theodore of Mopsuestia</title>
+            <author>
+               <persName>
+                  <forename>Lucas</forename> 
+                  <surname>Van Rompay</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.5">Electronic Edition Version 1.5</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Theodore of Mopsuestia</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Theodore-of-Mopsuestia</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/552</idno>
+                    <idno type="entry">543</idno>
+                    <milestone unit="pages" n="401-402"/>
+                    <idno type="subject">http://syriaca.org/person/780</idno>
+                    <note type="type">person</note>
+                    <note type="abstract">
+                        <abbr>Bp.</abbr> of Mopsuestia, biblical commentator, author of
+                        theological works and homilies; very influential in the Church of the East.<note/>
+                    </note>
+                </ab>
+                <ab type="infobox">(<abbr>ca.</abbr> 350–428)</ab>
+                <div type="body">
+                    <p>
+                        <abbr>Bp.</abbr> of Mopsuestia, biblical commentator, author of theological works and
+                        homilies. Little is known of Theodore’s early years, except that he studied
+                        with the pagan rhetor Libanius in <ref rend="bold" target="https://gedsh.bethmardutho.org/Antioch">
+                            <placeName ref="http://syriaca.org/place/10">Antioch</placeName>
+                        </ref> and
+                        probably knew <ref rend="bold" target="https://gedsh.bethmardutho.org/Diodore-of-Tarsus">
+                            <persName ref="http://syriaca.org/person/451">Diodore of
+                            Tarsus</persName>
+                        </ref> and <ref rend="bold" target="https://gedsh.bethmardutho.org/John-Chrysostom">
+                            <persName ref="http://syriaca.org/person/573">John
+                            Chrysostom</persName>
+                        </ref>. That he wavered from his ascetic endeavors and needed
+                        to be rebuked by John Chrysostom rests entirely on the identification of
+                        Theodore with the addressee of John’s letter ‘To the fallen Theodore’, an
+                        identification Theodore’s later opponents were eager to make, but for which
+                        there is very little evidence. In 392 Theodore became <abbr>bp.</abbr> of Mopsuestia,
+                        north of Antioch, a position that he held until his death in 428. He died in
+                        peace with the Church.</p>
+                    <p>Following the deposition of <ref rend="bold" target="https://gedsh.bethmardutho.org/Nestorius">
+                            <persName ref="http://syriaca.org/person/655">Nestorius</persName>
+                        </ref> at the
+                        Council of Ephesus (431), Theodore began to be seen as the originator of
+                        Nestorianism. <ref rend="bold" target="https://gedsh.bethmardutho.org/Rabbula-of-Edessa">
+                            <persName ref="http://syriaca.org/person/26">Rabbula</persName>
+                        </ref>, <abbr>bp.</abbr> of <ref rend="bold" target="https://gedsh.bethmardutho.org/Edessa">
+                            <placeName ref="http://syriaca.org/place/78">Edessa</placeName>
+                        </ref> and follower
+                        of <ref rend="bold" target="https://gedsh.bethmardutho.org/Cyril-of-Alexandria">
+                            <persName ref="http://syriaca.org/person/430">Cyril of
+                            Alexandria</persName>
+                        </ref>, anathematized Theodore’s works in 432 and ordered them
+                        to be burned. Although Theodore was somewhat rehabilitated when at the
+                        Council of Chalcedon (451) <ref rend="bold" target="https://gedsh.bethmardutho.org/Hiba">
+                            <persName ref="http://syriaca.org/person/534">Hiba</persName>
+                        </ref>’s letter to Mari
+                        the Persian was read, which spoke about Theodore in positive terms, later he
+                        again was targeted for his allegedly Nestorian views, which eventually led
+                        to his condemnation at the Fifth Ecumenical Council at Constantinople
+                        (553).</p>
+                    <p>Theodore’s works started being translated into Syriac perhaps even during his
+                        life, or shortly after his death. They became very popular in Edessa, in
+                        particular at the <ref rend="bold" target="https://gedsh.bethmardutho.org/Edessa-School-of">School of
+                            Edessa</ref>, even though the followers of <abbr>
+                            <choice>
+                                <sic>bp.</sic>
+                                <corr>Bp.</corr>
+                            </choice>
+                        </abbr> Rabbula (d. 435) strongly
+                        rejected them. They had a decisive influence on those theologians who in the
+                        second half of the 5th <abbr>cent.</abbr> left Edessa and founded a new School in <ref rend="bold" target="https://gedsh.bethmardutho.org/Nisibis">
+                            <placeName ref="http://syriaca.org/place/142">Nisibis</placeName>
+                        </ref>, within the Persian Empire. The theology of the
+                        <choice>
+                            <sic>late–5th</sic>
+                            <corr>late-5th</corr>
+                        </choice>-cent. councils of the <abbr>Ch. of E.</abbr> primarily reflects the views of
+                        Theodore. He saw a clear distinction between the divine and human natures in
+                        Christ: the Word of God indwelt the assumed Man, whereby the two came
+                        together in one ‘person’ (Greek <hi rend="italic">prosōpon</hi>, Syr. <hi rend="italic">parṣopā</hi>), serving as one object of veneration. In his
+                        biblical interpretation Theodore, a major representative of the so-called
+                        School of Antioch, saw the biblical text primarily in its historical
+                        context. Only rarely, and under strict conditions, was he willing to admit
+                        <abbr>NT</abbr> references or Christological typologies within the <abbr>OT</abbr>. His main
+                        interpretative framework was God’s salvation plan, seen as a process of
+                        education throughout history, leading up to the <abbr>NT</abbr> realities and the
+                        hereafter, whereby each individual phase is respected in its own right.
+                        Theodore rejected the idea of double meanings in the biblical message, which
+                        he saw as the major shortcoming of allegorical interpretation, which he
+                        connected with Philo of Alexandria and Origen.</p>
+                    <p>While only small portions of Theodore’s works survive in Greek (with the
+                        exception of the commentary on the Twelve Prophets, which survives in its
+                        entirety), E.-Syr. tradition has preserved a collection of 16 catechetical
+                        homilies (<abbr>ed.</abbr> Tonneau and Devreesse), biblical commentaries dealing with
+                        both <abbr>OT</abbr> and <abbr>NT</abbr> (<abbr>ed.</abbr> Sachau, Vosté, Tonneau, Jansma, and Van Rompay), and a
+                        disputation with the followers of Macedonius (<abbr>ed.</abbr> Nau). One major
+                        theological work, on the Incarnation, existed in the library of Msgr. <ref rend="bold" target="https://gedsh.bethmardutho.org/Scher-Addai">
+                            <persName ref="http://syriaca.org/person/723">Addai
+                            Scher</persName>
+                        </ref> in <ref rend="bold" target="https://gedsh.bethmardutho.org/Siirt">
+                            <placeName ref="http://syriaca.org/place/188">Siirt</placeName>
+                        </ref>, Turkey, but it
+                        was lost during the First World War. Excerpts and quotations from many more
+                        of Theodore’s works can be found in a great number of E.-Syr. writings,
+                        while he is a much quoted authority in all E.-Syr. biblical commentaries,
+                        often introduced with the simple term <hi rend="italic">mpaššqānā</hi>,
+                        i.e., the Interpreter. One of the Eucharistic Anaphoras in use in the Ch. of
+                        E. is attributed to him.</p>
+                </div>
+                <div type="bibl">
+                    <listBibl>
+                        <listBibl>
+                            <head>Primary Sources</head>
+                            <bibl>
+                                <title rend="italic">
+                                    <abbr>CPG</abbr>
+                                </title> 3827–3873.</bibl>
+                            <bibl>P. Bruns, <title rend="italic">Theodor von Mopsuestia.
+                                    Katechetische Homilien</title> (2 vols.; <abbr>FC</abbr> 17; 1994–1995).
+                                (<abbr>GT</abbr>)</bibl>
+                            <bibl>T.  Jansma, ‘Théodore de Mopsueste. Interprétation du livre de la
+                                Genèse. Fragments de la version syriaque (B. M. Add. 17,189, fol.
+                                17–21)’, <title rend="italic">
+                                    <abbr>LM</abbr>
+                                </title> 75 (1962), 63–92. (Syr. and
+                                <abbr>FT</abbr>)</bibl>
+                            <bibl>F. Nau, <title rend="italic">Théodore de Mopsueste. Une
+                                    controverse avec les Macédoniens</title> (<abbr>PO</abbr> 9.5; 1913). (Syr.
+                                and <abbr>FT</abbr>)</bibl>
+                            <bibl>E. Sachau, <title rend="italic">Theodori Mopsuesteni fragmenta
+                                    syriaca</title> (1869). (Syr. and <abbr>LT</abbr>)</bibl>
+                            <bibl>W. Strothmann, <title rend="italic">Das syrische Fragment des
+                                    Ecclesiastes-Kommentar des Theodor <choice>
+                                        <sic>of</sic>
+                                        <corr>von</corr>
+                                    </choice> Mopsuestia</title> (<abbr>GOF</abbr>
+                                I.28; 1988).</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>W. Strothmann</reg>
+                           <orig>idem</orig>
+                        </choice>, <title rend="italic">Syrische Katenen aus dem
+                                    Ecclesiastes-Kommentar des Theodor von Mopsuestia</title> (<abbr>GOF</abbr>
+                                I.29; 1988).</bibl>
+                            <bibl>R. M.  Tonneau, ‘Théodore de Mopsueste. Interprétation (du livre)
+                                de la Genèse (Vat. Syr. 120, ff. I–V)’, <title rend="italic">
+                                    <abbr>LM</abbr>
+                                </title> 66 (1953), 45–63. (Syr. and <abbr>FT</abbr>)</bibl>
+                            <bibl>R.  Tonneau and R.  Devreesse, <title rend="italic">Les Homélies
+                                    catéchétiques de Théodore de Mopsueste</title> (<abbr>SeT</abbr> 145; 1949).
+                                (Syr. and <abbr>FT</abbr>)</bibl>
+                            <bibl>L. Van Rompay, <title rend="italic">Théodore de Mopsueste.
+                                    Fragments du Commentaire des Psaumes (Psaume 118 et Psaumes
+                                    138–148)</title> (<abbr>CSCO</abbr> 435–436; 1982). (Syr. and <abbr>FT</abbr>)</bibl>
+                            <bibl>J.-M.  Vosté, <title rend="italic">Theodori Mopsuesteni
+                                    Commentarius in Evangelium Iohannis Apostoli</title> (<abbr>CSCO</abbr>
+                                115–116; 1940). (Syr. and <abbr>LT</abbr>)</bibl>
+                        </listBibl>
+                        <listBibl>
+                            <head>Secondary Sources</head>
+                            <bibl>P. Bruns, <title rend="italic">Den Menschen mit dem Himmel
+                                    verbinden. Eine Studie zu den katechetischen Homilien des
+                                    Theodor von Mopsuestia</title> (<abbr>CSCO</abbr> 549, 1995).</bibl>
+                            <bibl>R. Devreesse, <title rend="italic">Essai sur Théodore de
+                                    Mopsueste</title> (<abbr>SeT</abbr> 141; 1948).</bibl>
+                            <bibl>R. A.  Greer, <title rend="italic">Theodore of Mopsuestia. Exegete
+                                    and Theologian</title> (1961).</bibl>
+                            <bibl>C.  Leonhard, <title rend="italic">Ishodad of Merw’s Exegesis of
+                                    the Psalms 119 and 139–147. A study of his interpretation in the
+                                    light of the Syriac translation of Theodore of Mopsuestia’s
+                                    Commentary</title> (<abbr>CSCO</abbr> 585; 2001).</bibl>
+                            <bibl>W. F.  Macomber, ‘The Christology of the Synod of
+                                Seleucia-Ctesiphon, A.D. 486’, <title rend="italic">
+                                    <abbr>OCP</abbr>
+                                </title> 24
+                                (1958), 142–54.</bibl>
+                            <bibl>J.  Vadakkel, <title rend="italic">The East Syrian Anaphora of Mar
+                                    Theodore of Mopsuestia</title> (Oriental Institute of Religious
+                                Studies India 129; 1989).</bibl>
+                            <bibl>L.  Van Rompay, ‘John Chrysostom’s “Ad Theodorum lapsum”. Some
+                                remarks on the oriental tradition’, <title rend="italic">
+                                    <abbr>OLP</abbr>
+                                </title>
+                                19 (1988), 91–106.</bibl>
+                        </listBibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Lucas</forename> 
+                  <surname>Van Rompay</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Ḥimyar</title>
+            <author>
+               <persName>
+                  <forename>Lucas</forename> 
+                  <surname>Van Rompay</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.5">Electronic Edition Version 1.5</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Ḥimyar</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Himyar</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/269</idno>
+                    <idno type="entry">260</idno>
+                    <milestone unit="pages" n="197-198"/>
+                    <idno type="subject">http://syriaca.org/place/474</idno>
+                    <note type="type">placeorg</note>
+                    <note type="abstract">Name of a geographical area in southwest
+                        Arabia with a strong Christian presence in late antiquity.<note/>
+                    </note>
+                </ab>
+                <div type="body">
+                    <p>Ḥimyar is the name of a geographical area in southwest Arabia as well as that
+                        of a tribal confederation in power from the 1st <abbr>cent.</abbr> BC to <abbr>ca.</abbr> AD 525. At
+                        times the Ḥimyarites ruled over large parts of S. Arabia, well into the
+                        Arabian desert. Their capital was Ẓafār, near present-day Yarīm (in Yemen).
+                        Inscriptions in Sabaic, an Old South Arabian language, were produced until
+                        the 6th <abbr>cent.</abbr> AD. Living from trade, the Ḥimyarites had to assert their
+                        power vis-à-vis the Ethiopians in the Horn of Africa, and vis-à-vis the
+                        Romans in the north. In the 4th <abbr>cent.</abbr> they came into contact with both
+                        Christianity and Judaism.</p>
+                    <p>The Ḥimyarites are occasionally mentioned in Syriac literature. In the Life
+                        of Bishop Paul of Qentos and Priest John of Edessa (which details events
+                        from the first half of the 5th <abbr>cent.</abbr>) it is reported that Paul and John, on
+                        their way from <ref rend="bold" target="https://gedsh.bethmardutho.org/Edessa">
+                            <placeName ref="http://syriaca.org/place/78">Edessa</placeName>
+                        </ref> to Mount
+                        Sinai, are captured by pagan, tree-worshipping Arabs and brought to a place
+                        named ‘of the Ḥimyarites’. The Ḥimyarites occupy a more prominent place in
+                        the literature concerning the war that broke out in the 2nd decade of the
+                        6th <abbr>cent.</abbr> and culminated in the persecution and killing of Christians by the
+                        king of the Ḥimyarites in the city of <ref rend="bold" target="https://gedsh.bethmardutho.org/Nagran">
+                            <placeName ref="http://syriaca.org/place/464">Nagran</placeName>
+                        </ref>. The date of
+                        the persecution is debated, either 518 or 523. The existence of a letter
+                        written by <ref rend="bold" target="https://gedsh.bethmardutho.org/Yaqub-of-Serugh">
+                            <persName ref="http://syriaca.org/person/42">Yaʿqub of
+                            Serugh</persName>
+                        </ref> to the persecuted Nagranites would point to the former
+                        date, while the majority of the other sources explicitly refer to the
+                        latter. The sources present the king of Ḥimyar, variously known as Yūsuf,
+                        Masrūq, or Dhū-Nuwās, as being Jewish, which adds to the dramatic power of
+                        the narratives. The persecution in Nagran was the prelude to a major
+                        intervention by the joint forces of the Roman emperor Justin I and the
+                        Ethiopian negus, which ended Ḥimyarite supremacy on the Arabian Peninsula
+                        and established an Ethiopian protectorate, which also had close contacts
+                        with the Byzantine Empire. The Persians conquered S. Arabia in 572, and this
+                        region came under Muslim rule in 628.</p>
+                    <p>One of the main sources providing information on the persecution and the
+                        martyrdom of Christians in Nagran is the Syriac ‘Book of the Ḥimyarites’
+                            (<hi rend="italic">Ktābā da-ḥmirāye</hi>), which is only fragmentarily
+                        known in a 10th-cent. <abbr>ms.</abbr> (<abbr>ed.</abbr> A. Moberg). The Book is anonymous, but I.
+                        Shahîd argued that its author was <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Shemun-of-Beth-Arsham">
+                            <persName ref="http://syriaca.org/person/53">Shemʿun of
+                            Beth Arsham</persName>
+                        </ref>, a well-known anti-Chalcedonian leader, who authored
+                        one and possibly two Syriac letters concerning the persecution. Not only the
+                        Book’s authorship, but also its relationship to the other sources is
+                        debated. The persecuted Christians of Nagran are portrayed in the Syriac
+                        sources as being of non-Chalcedonian allegiance. The Greek version of the
+                        ‘Martyrdom of Arethas’ (Ḥārith), however, a text that does not exist in
+                        Syriac, is written from a Chalcedonian viewpoint. The Greek texts concerning
+                        Gregentius <abbr>bp.</abbr> of Ẓafār, who lived in the 6th <abbr>cent.</abbr>, reflect a Chalcedonian
+                        milieu as well.</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>A.  Berger and G.  Fiaccadori, <title rend="italic">Life and
+                                works of Saint Gregentios, archbishop of Taphar</title>
+                            (2006).</bibl>
+                        <bibl>Th.  Hainthaler, <title rend="italic">Christliche Araber vor dem
+                                Islam</title> (<abbr>ECS</abbr> 7; 2007), 111–36.</bibl>
+                        <bibl>A.  Moberg, <title rend="italic">The Book of the Himyarites. Fragments
+                                of a hitherto unknown Syriac work</title> (1924).</bibl>
+                        <bibl>W. W.  Müller, ‘Himyar’, <title rend="italic">
+                                <abbr>RAC</abbr>
+                            </title> 15 (1991),
+                            303–31.</bibl>
+                        <bibl>G.  Olinder, <title rend="italic">Iacobi Sarugensis epistulae quotquot
+                                supersunt</title> (<abbr>CSCO</abbr> 110; 1937), 87–102.</bibl>
+                        <bibl>C. J.  Robin, ‘Himyar’, in <title rend="italic">Late Antiquity. A
+                                guide to the postclassical world</title>, <abbr>ed.</abbr> G. W. Bowersock, P.
+                            Brown, and O. Grabar (1999), 492–3.</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>C. J.  Robin</reg>
+                        <orig>idem</orig>
+                     </choice>, ‘Le judaïsme de Ḥimyar’, <title rend="italic">Arabia. Revue de
+                                sabéologie</title> 1 (2003), 97–172.</bibl>
+                        <bibl>J.  Ryckmans, ‘Les rapports de dépendance entre les récits
+                            hagiographiques relatifs à la persécution des Himyarites’, <title rend="italic">
+                                <abbr>LM</abbr>
+                            </title> 100 (1987), 297–305.</bibl>
+                        <bibl>I.  Shahîd, <title rend="italic">The martyrs of Najrân. New
+                                documents</title> (Subsidia Hagiographica 49; 1971).</bibl>
+                        <bibl>J. Tubach, ‘Die Anfänge des Christentums in Südarabien. Eine
+                            christliche Legende syrischer Herkunft in Ibn Hišām’, <title rend="italic">
+                                <abbr>ParOr</abbr>
+                            </title> 18 (1993), 101–11.</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Lucas</forename> 
+                  <surname>Van Rompay</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

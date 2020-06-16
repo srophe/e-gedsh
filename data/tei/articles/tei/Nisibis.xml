@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Nisibis</title>
+            <author>
+               <persName>
+                  <forename>Hidemi</forename> 
+                  <surname>Takahashi</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.5">Electronic Edition Version 1.5</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Nisibis</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Nisibis</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/409</idno>
+                    <idno type="entry">400</idno>
+                    <milestone unit="pages" n="310-311"/>
+                    <idno type="althead">Nṣibin</idno>
+                    <idno type="althead">Nusaybin</idno>
+                    <idno type="subject">http://syriaca.org/place/142</idno>
+                    <note type="type">place</note>
+                    <note type="abstract">City in <placeName ref="http://syriaca.org/place/1452">Mesopotamia</placeName> and important center of early Syriac
+                        Christianity.<note/>
+                    </note>
+                </ab>
+                <ab type="infobox">Nṣibin, Nusaybin</ab>
+                <div type="body">
+                    <p>City in Mesopotamia and important center of early Syriac Christianity.
+                        Birthplace, among others, of <ref rend="bold" target="https://gedsh.bethmardutho.org/Ephrem">
+                            <persName ref="http://syriaca.org/person/13">Ephrem</persName>
+                        </ref> and site of
+                        the <ref rend="bold" target="https://gedsh.bethmardutho.org/Nisibis-School-of">School of
+                            Nisibis</ref>. The Syriac name <hi rend="italic">Nṣibin</hi> can be
+                        traced back to Assyrian <hi rend="italic">Naṣibīna</hi>, while the name <hi rend="italic">Ṣobā</hi>, based on identification with biblical Ṣōbā (2
+                        Sam. 8.1), seems to be of relatively late origin. Nisibis is located on a
+                        main east-west route in an area watered by the Çağçağ river (ancient
+                        Mygdonius), a tributary of the Khabur, which emerges from Mount Izla, or the
+                        southern slopes of <ref rend="bold" target="https://gedsh.bethmardutho.org/Tur-Abdin">
+                            <placeName ref="http://syriaca.org/place/221">Ṭur ʿAbdin</placeName>
+                        </ref>, on to
+                        the Mesopotamian plain just north of Nisibis. A border town in Turkey today
+                        opposite Syrian Qamishli, Nisibis was a frontier town in ancient times in an
+                        area contested between the Roman and Persian empires. Along with the
+                        monasteries on Mount Izla, it was also in an area where the spheres of
+                        influence of the E.-Syr. and W.-Syr. churches met. E. Syriacs, predominant
+                        at first, were later outnumbered by W. Syriacs among the dwindling
+                        population of Christians in the town.</p>
+                    <p>Legends attribute the evangelisation of Nisibis to <ref rend="bold" target="https://gedsh.bethmardutho.org/Addai-Teaching-of">Addai</ref> or to his disciples Aggai and Mari. The first attested <abbr>bp.</abbr>
+                        of the city is <ref rend="bold" target="https://gedsh.bethmardutho.org/Yaqub-of-Nisibis">
+                            <persName ref="http://syriaca.org/person/811">Yaʿqub of
+                            Nisibis</persName>
+                        </ref> (308/9 – after 338) who attended the Council of Nicaea and
+                        is commemorated, along with his successors Babu and Vologeses (d. 361/2), by
+                        his pupil Ephrem in his <hi rend="italic">Carmina nisibena</hi>. After its
+                        cession by Jovian to Shapur II in 363, Nisibis remained more or less
+                        permanently in Sasanian hands until the Islamic conquest in 640.</p>
+                    <p>At the <abbr>Ch. of E.</abbr> synod of 410 Nisibis was made the metropolitan see of <ref rend="bold" target="https://gedsh.bethmardutho.org/Beth-Arbaye">
+                            <placeName ref="http://syriaca.org/place/31">Beth
+                            ʿArbaye</placeName>
+                        </ref> with Arzun, Qardu, Beth Zabdai, Beth Rahimai, and Beth
+                        Moksaye as suffragans. The episcopate of <ref rend="bold" target="https://gedsh.bethmardutho.org/Barsawma-of-Nisibis">
+                            <persName ref="http://syriaca.org/person/369">Barṣawma of
+                            Nisibis</persName>
+                        </ref> (<abbr>ca.</abbr> 450–91) saw the establishment of the School of
+                        Nisibis under the leadership of <ref rend="bold" target="https://gedsh.bethmardutho.org/Narsai">
+                            <persName ref="http://syriaca.org/person/650">Narsai</persName>
+                        </ref>. Under
+                        Islamic rule, with the disappearance of the Roman-Persian border, Nisibis
+                        gradually lost its strategic, as well as commercial, importance. Later
+                        occupants of the see include <ref rend="bold" target="https://gedsh.bethmardutho.org/Eliya-of-Nisibis">
+                            <persName ref="http://syriaca.org/person/472">Eliya of
+                            Nisibis</persName>
+                        </ref>, <ref rend="bold" target="https://gedsh.bethmardutho.org/Ishoyahb-bar-Malkon">
+                            <persName ref="http://syriaca.org/person/563">Ishoʿyahb bar
+                            Malkon</persName>
+                        </ref> (before 1222–47?), and <ref rend="bold" target="https://gedsh.bethmardutho.org/Abdisho-bar-Brikha">
+                            <persName ref="http://syriaca.org/person/310">ʿAbdishoʿ bar
+                            Brikha</persName>
+                        </ref>. When, between 1482 and 1489, <abbr>Syr. Orth.</abbr>
+                        <abbr> Patr.</abbr> Ignatius
+                        Sobo of Ṭur ʿAbdin attempted to gain control of the churches of St. Jacob
+                        and St. Domitius, the E. Syriacs were still numerous enough to resist this
+                        move. The <abbr>E. Syr.</abbr> see of Nisibis, <abbr>Chald.</abbr> by then, was finally suppressed in
+                        1616.</p>
+                    <p>The first appearance of a <abbr>Syr. Orth.</abbr> bishop of Nisibis (Abraham, 631) may be
+                        connected with the Roman advances made in the area under Emperor Heraclius.
+                        Bishops specifically for Nisibis are known from the end of the 8th <abbr>cent.</abbr>
+                        until the 11th <abbr>cent.</abbr>, but in the 12th <abbr>cent.</abbr> ‘Nisibis’ is found among the
+                        titles of the metropolitans of <ref rend="bold" target="https://gedsh.bethmardutho.org/Mardin">
+                            <placeName ref="http://syriaca.org/place/130">Mardin</placeName>
+                        </ref>. From then
+                        on, no resident <abbr>Syr. Orth.</abbr>
+                        <abbr> bp.</abbr> of Nisibis is attested until 1860.</p>
+                    <p>O. H. Parry found 300 Muslim, 150 Jewish, and 30 Syrian families in the town
+                        on a visit in 1892. The Christian community in the town, reported to number
+                        200 families in 1915, disappeared after the First World War, although the
+                        presence of three Christian families after the Second World War is mentioned
+                        by Anschütz.</p>
+                    <p>Little remains of the Christian past in Nisibis, but the Church of St. Jacob,
+                        incorporating the baptistery built in 359 and the crypt with the tomb of
+                        Yaʿqub of Nisibis, is still maintained as a church (<abbr>Syr. Orth.</abbr> since 1865).
+                        Excavations have been under way since 2000 in the area to the south of the
+                        church, the site of the original cathedral built by Yaʿqub of Nisibis in
+                        312–20. The church of St. Febronia (4th <abbr>cent.</abbr> martyr) is now the Mosque of
+                        Zayn al-ʿĀbidīn.</p>
+                    <p>See <ref target="https://gedsh.bethmardutho.org/fig/92">Fig. 92</ref>.</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>G.  Akyüz, <title rend="italic">Nusaybin’deki Mor Yakup Kilisesi
+                                ve Nusaybin Okulu</title> (Mardin, 1998).</bibl>
+                        <bibl>H.  Anschütz, <title rend="italic">Die syrischen Christen vom Tur
+                                ʿAbdin</title> (1984), 108–112.</bibl>
+                        <bibl>G.  Bell (and M. M.  Mango), <title rend="italic">The churches and
+                                monasteries of the Ṭur ʿAbdin</title> (1982), 142–5.</bibl>
+                        <bibl>W. Cramer, in <title rend="italic">
+                                <abbr>LThK</abbr>
+                            </title>
+                            <hi rend="superscript">3</hi>, vol. 7, 879–80.</bibl>
+                        <bibl>H. J. W.  Drijvers, in <title rend="italic">
+                                <abbr>TRE</abbr>
+                            </title>, vol. 24,
+                            573–6.</bibl>
+                        <bibl>J.-M.  Fiey, <title rend="italic">Nisibe, métropole syriaque orientale
+                                et ses suffragants des origines à nos jours</title> (<abbr>CSCO</abbr> 388;
+                            1977).</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>J.-M.  Fiey</reg>
+                        <orig>idem</orig>
+                     </choice>, <title rend="italic">Pour un Oriens christianus novus</title>,
+                            116–8, 249–50.</bibl>
+                        <bibl>E.  Honigmann, in <title rend="italic">
+                                <abbr>EI</abbr>
+                            </title>, vol. 6, 858–60.
+                            (s.v. Naṣībīn, more detailed on the pre-Islamic period than the
+                            successor article in <title rend="italic">EI</title>
+                            <hi rend="superscript">2</hi>, vol. 7, 983–4)</bibl>
+                        <bibl>P. S.  Russell, ‘Nisibis as the background to the life of Ephrem the
+                            Syrian’, <title rend="italic">
+                                <abbr>Hugoye</abbr>
+                            </title> 8.2 (July 2005).</bibl>
+                        <bibl>T. A.  Sinclair, <title rend="italic">Eastern Turkey: an architectural
+                                and archaeological survey</title>, vol. 3 (1989–90), 343–5,
+                            351.</bibl>
+                        <bibl>N.  Soyukaya and A.  Tanhan, <title rend="italic">Nusaybin Okulu ve
+                                Mar Yakup Kilisesi</title> (n. d. [after 2000]). (with report on
+                            recent excavations, accessible as pdf on Internet)</bibl>
+                        <bibl>J. Sturm, in <title rend="italic">
+                                <abbr>PRE</abbr>
+                            </title>, vol. 17.1,
+                            714–57.</bibl>
+                        <bibl>Wilmshurst, <title rend="italic">Ecclesiastical organisation</title>,
+                            40–5.</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Hidemi</forename> 
+                  <surname>Takahashi</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

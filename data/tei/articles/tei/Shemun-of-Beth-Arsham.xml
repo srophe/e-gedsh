@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Shemʿun of Beth Arsham</title>
+            <author>
+               <persName>
+                  <forename>Lucas</forename> 
+                  <surname>Van Rompay</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.5">Electronic Edition Version 1.5</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Shemʿun of Beth Arsham</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Shemun-of-Beth-Arsham</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/513</idno>
+                    <idno type="entry">504</idno>
+                    <milestone unit="pages" n="376"/>
+                    <idno type="subject">http://syriaca.org/person/53</idno>
+                    <note type="type">person</note>
+                    <note type="abstract">Polemical writer and <abbr>bp.</abbr>
+                        <note/>
+                    </note>
+                </ab>
+                <ab type="infobox">(d. before 548) [<abbr>Syr. Orth.</abbr>]</ab>
+                <div type="body">
+                    <p>Polemical writer and <abbr>bp.</abbr> The main source for Shemʿun’s life is a much
+                        romanticized and not very informative chapter in <ref rend="bold" target="https://gedsh.bethmardutho.org/Yuhanon-of-Ephesus">
+                            <persName ref="http://syriaca.org/person/74">Yuḥanon of
+                            Ephesus</persName>
+                        </ref>’s ‘Lives of the Eastern Saints’ (<abbr>ed.</abbr> Brooks; see Harvey,
+                        97–98). Shemʿun was of Persian origin. There is no evidence that he ever
+                        studied at the <ref rend="bold" target="https://gedsh.bethmardutho.org/Edessa-School-of">School of
+                            Edessa</ref>, even though the School is an important target in his
+                        invective. While Yuḥanon presents Shemʿun as <abbr>bp.</abbr> (and is followed in this by
+                        the later tradition), Beth Arsham, said to be near <ref rend="bold" target="https://gedsh.bethmardutho.org/Seleucia-Ctesiphon">
+                            <placeName ref="http://syriaca.org/place/182">Seleucia-Ctesiphon</placeName>
+                        </ref>, is not otherwise known as an episcopal see,
+                        which led Fiey to suggest that Shemʿun was an itinerant <abbr>bp.</abbr> and that Beth
+                        Arsham was his native town, rather than his diocese (Fiey, 126).</p>
+                    <p>From <abbr>ca.</abbr> 500 Shemʿun was active in opposing the spread of dyophysitism in
+                        Armenia (where he attended a synod in 505/06; see Garsoïan, 186), in Persia,
+                        and in the Byzantine Empire. As a ‘brave warrior on behalf of the true
+                        faith’ (Yuḥanon of Ephesus), he often engaged in public debates of high
+                        visibility, by which he gained the title ‘Persian debater’ (<hi rend="italic">dorušo parsoyo</hi>). At an old age he went to
+                        Constantinople, where he met with Yuḥanon of Ephesus and where Empress <ref rend="bold" target="https://gedsh.bethmardutho.org/Theodora-Empress">
+                            <persName ref="http://syriaca.org/person/779">Theodora</persName>
+                        </ref> (d. 548) paid homage to him, before he died
+                        there, probably in the early 540s.</p>
+                    <p>Among Shemʿun’s writings Yuḥanon of Ephesus mentions ‘refutations against
+                        heretics’ and ‘many letters on the faith, to many believers everywhere’. Two
+                        letters, perhaps three, are preserved. The first is ‘On <ref rend="bold" target="https://gedsh.bethmardutho.org/Barsawma-of-Nisibis">
+                            <persName ref="http://syriaca.org/person/369">Barṣawma</persName>
+                        </ref> 
+                  <abbr>bp.</abbr> of <ref rend="bold" target="https://gedsh.bethmardutho.org/Nisibis">
+                            <placeName ref="http://syriaca.org/place/142">Nisibis</placeName>
+                        </ref> and the
+                        heresy of the Nestorians’ (<abbr>ed.</abbr> Assemani with <abbr>LT</abbr>; <abbr>FT</abbr> in Garsoïan, 450–56; <abbr>ET</abbr>
+                        in Becker); its specific historical context and date are not known, but it
+                        most likely was written during the reign of the Roman Emperor Anastasius
+                        (491–518). After having traced the genealogy of (what he saw as)
+                        Nestorianism from the Jews in Jesus’ day to Paul of Samosata, <ref rend="bold" target="https://gedsh.bethmardutho.org/Diodore-of-Tarsus">
+                            <persName ref="http://syriaca.org/person/451">Diodore of Tarsus</persName>
+                        </ref>, <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Theodore-of-Mopsuestia">
+                            <persName ref="http://syriaca.org/person/780">Theodore
+                            of Mopsuestia</persName>
+                        </ref>, <ref rend="bold" target="https://gedsh.bethmardutho.org/Nestorius">
+                            <persName ref="http://syriaca.org/person/655">Nestorius</persName>
+                        </ref>, <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Theodoret-of-Cyrrhus">
+                            <persName ref="http://syriaca.org/person/781">Theodoret of Cyrrhus</persName>
+                        </ref>, <ref rend="bold" target="https://gedsh.bethmardutho.org/Hiba">
+                            <persName ref="http://syriaca.org/person/534">Hiba </persName>
+                        </ref> of <ref rend="bold" target="https://gedsh.bethmardutho.org/Edessa">
+                            <placeName ref="http://syriaca.org/place/78">Edessa</placeName>
+                        </ref>,
+                        and the School of the Persians, he forcefully denounces leaders and scholars
+                        of the School, in particular <ref rend="bold" target="https://gedsh.bethmardutho.org/Aqaq">
+                            <persName ref="http://syriaca.org/person/338">Aqaq</persName>
+                        </ref>, Barṣawma of
+                        Nisibis, and <ref rend="bold" target="https://gedsh.bethmardutho.org/Narsai">
+                            <persName ref="http://syriaca.org/person/650">Narsai</persName>
+                        </ref>. To these he opposes those who remained faithful to the
+                        true faith and rejected Nestorianism and any mention of ‘two Sons, one by
+                        nature and one by adoption’. The second letter deals with the persecution of
+                        Christians in the city of <ref rend="bold" target="https://gedsh.bethmardutho.org/Nagran">
+                            <placeName ref="http://syriaca.org/place/464">Nagran</placeName>
+                        </ref> (the date of
+                        which is disputed: either 518 or 523). Shemʿun’s letter was written from
+                            <ref rend="bold" target="https://gedsh.bethmardutho.org/Hirta">
+                            <placeName ref="http://syriaca.org/place/219">Ḥirta</placeName>
+                        </ref> in 524 (<abbr>ed.</abbr> Guidi). Although it focuses on the events of
+                        the persecution, it also contains polemical notes against both Nestorians
+                        and Chalcedonians. I. Shahîd, who discovered and edited a different letter
+                        on the same topic, argued for Shemʿun’s authorship of this new letter as
+                        well (which is anonymous). In addition, he suggested that Shemʿun is also
+                        the author of ‘Book of the Ḥimyarites’ (see <ref rend="bold" target="https://gedsh.bethmardutho.org/Himyar">
+                            <placeName ref="http://syriaca.org/place/474">Ḥimyar</placeName>
+                        </ref>), which is
+                        only fragmentarily known (<abbr>ed.</abbr> A. Moberg) and which deals with the same
+                        persecution. These two attributions, however, have not been widely
+                        accepted.</p>
+                </div>
+                <div type="bibl">
+                    <listBibl>
+                        <listBibl>
+                            <head>Primary Sources</head>
+                            <bibl>Assemani, <title rend="italic">BibOr</title>, I.346–58.</bibl>
+                            <bibl>A. H.  Becker, <title rend="italic">Sources for the study of the
+                                    School of Nisibis</title> (<abbr>TTH</abbr> 50; 2008), 21–39.</bibl>
+                            <bibl>E. W. Brooks, <title rend="italic">John of Ephesus. Lives of
+                                    Eastern Saints</title> (<abbr>PO</abbr> 17.1; 1923), 137–58. (Syr. and <abbr>ET</abbr> of
+                                Life of Shemʿun)</bibl>
+                            <bibl>N. G.  Garsoïan, <title rend="italic">L’église arménienne et le
+                                    grand schisme d’Orient</title> (<abbr>CSCO</abbr> 574; 1999), 438–50 and
+                                450–6.</bibl>
+                            <bibl>I.  Guidi, ‘La lettera di Simeone vescovo di Bêth-Aršâm sopra I
+                                martiri omeriti’, <title rend="italic">Reale Accademia dei Lincei.
+                                    Memorie della classe di scienze morali, storiche e
+                                    filologiche</title>, Ser. 3a, VII (1881), 501–15 (Syr.) and
+                                480–95 (<abbr>IT</abbr>).</bibl>
+                            <bibl>A.  Moberg, <title rend="italic">The Book of the Himyarites.
+                                    Fragments of a hitherto unknown Syriac work</title>
+                                (1924).</bibl>
+                            <bibl>I.  Shahîd, <title rend="italic">The martyrs of Najrân. New
+                                    documents</title> (Subsidia hagiographica 49; 1971).</bibl>
+                        </listBibl>
+                        <listBibl>
+                            <head>Secondary Sources</head>
+                            <bibl>Barsoum, <title rend="italic">Scattered pearls</title>,
+                                290–1.</bibl>
+                            <bibl>Fiey, <title rend="italic">Jalons</title>, 120–7.</bibl>
+                            <bibl>Grillmeier and Hainthaler, <title rend="italic">Jesus der
+                                    Christus</title>, vol. 2/3, 262–78.</bibl>
+                            <bibl>A. de Halleux, ‘Die Genealogie des Nestorianismus nach der
+                                frühmonophysitischen Theologie’, <title rend="italic">
+                                    <abbr>OC</abbr>
+                                </title> 66
+                                (1982), 1–14.</bibl>
+                            <bibl>Harvey, <title rend="italic">Asceticism and society in
+                                    crisis</title>.</bibl>
+                            <bibl>J.  Ryckmans, ‘Les rapports de dépendance entre les récits
+                                hagiographiques relatifs à la persécution des Himyarites’, <title rend="italic">
+                                    <abbr>LM</abbr>
+                                </title> 100 (1987), 297–305.</bibl>
+                            <bibl>J. T.  Walker, <title rend="italic">The legend of Mar Qardagh.
+                                    Narrative and Christian heroism in late antique Iraq</title>
+                                (2006), 175–7.</bibl>
+                        </listBibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Lucas</forename> 
+                  <surname>Van Rompay</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Melkite literature in Syriac</title>
+            <author>
+               <persName> 
+                  <forename>Sebastian P.</forename> 
+                  <surname>Brock</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.5">Electronic Edition Version 1.5</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Melkite literature in Syriac</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Melkite-literature-in-Syriac</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/379</idno>
+                    <idno type="entry">370</idno>
+                    <milestone unit="pages" n="285-286"/>
+                    <note type="type">subject</note>
+                    <note type="abstract"/>                   
+                </ab>
+                <div type="body">
+                    <p>Melkites ceased writing in <ref rend="bold" target="https://gedsh.bethmardutho.org/Syriac-Language"> Syriac</ref> around the 9th
+                        <abbr>cent.</abbr>, turning to Arabic instead, though translations into Syriac of Greek
+                        monastic literature, and especially of liturgical texts continued to be made
+                        for rather longer, and Syriac remained a liturgical language in certain
+                        areas of Syria until the 17th <abbr>cent.</abbr> when there was a sharp decline in its
+                        use, though in a few places it continued into the early 18th <abbr>cent.</abbr> Thus only
+                        a small amount of Melkite writing in Syriac survives, and most of this has
+                        been preserved in <abbr>mss.</abbr> of the <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Catherine-Monastery-of-St">
+                            <placeName ref="http://syriaca.org/place/368">Monastery of St.
+                            Catherine</placeName>
+                        </ref>, Sinai. The contents fall into several different
+                        categories:</p>
+                    <p>1. Theological and polemical literature from the 7th <abbr>cent.</abbr>, both dyothelete
+                        (<abbr>ed.</abbr> P. Bettiolo, <abbr>CSCO</abbr> 403–4, 1979) and monothelete (such as the Life of
+                            <ref rend="bold" target="https://gedsh.bethmardutho.org/Maximus">
+                            <persName ref="http://syriaca.org/person/628">Maximus</persName>
+                        </ref>). What survives is probably only a very small proportion
+                        of what once existed. Three 7th-/8th-cent. authors, George of Martyropolis,
+                        Constantine, and <ref rend="bold" target="https://gedsh.bethmardutho.org/Leon-of-Harran">
+                            <persName ref="http://syriaca.org/person/596">Leon of
+                            Ḥarran</persName>
+                        </ref>, are known from the Letter of <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Eliya-late-8thearly-9th-cent">Eliya</ref>,
+                        addressed to Leon; Constantine was also a translator and copyist (<abbr>ms.</abbr> Brit.
+                        Libr. Or. 8606, of 723). <ref rend="bold" target="https://gedsh.bethmardutho.org/Theodoros-Abu-Qurra">
+                            <persName ref="http://syriaca.org/person/782">Theodoros Abū
+                            Qurra</persName>
+                        </ref> (early 9th <abbr>cent.</abbr>), who normally wrote in Arabic, states that
+                        he also composed a work in Syriac (J. C. Lamoreaux, <hi rend="italic">Theodore Abu Qurrah</hi> [2005], 119).</p>
+                    <p>2. Translations of theological literature, including a letter of <ref rend="bold" target="https://gedsh.bethmardutho.org/Sophronius">
+                            <persName ref="http://syriaca.org/person/757">Sophronius</persName>
+                        </ref> (translated by Constantine in 721; <abbr>ed.</abbr> M. Albert, <abbr>PO</abbr>
+                        39.2, 1978), and several homilies by Pantoleon, Anastasius, and others; a
+                        few of these were subsequently taken over into <abbr>Syr. Orth.</abbr> homiliaries.</p>
+                    <p>3. Translations of Chalcedonian hagiography and monastic literature, notably
+                            <ref rend="bold" target="https://gedsh.bethmardutho.org/John-Climacus">
+                            <persName ref="http://syriaca.org/person/574">John Climacus</persName>
+                        </ref>’s Ladder and the XL Martyrs of Sinai; the ‘New
+                        Finds’ at St. Catherine’s Monastery, Sinai, have produced evidence of Syriac
+                        translations of Cyril of Scythopolis’s Lives of Sabas and Euthymios (Sinai
+                        Syr. M11 and 13N, Fragments no. 36), and of the Life of Symeon the Younger
+                        Stylite (M15=76N); the last was translated in <ref rend="bold" target="https://gedsh.bethmardutho.org/Antioch">
+                            <placeName ref="http://syriaca.org/place/10">Antioch</placeName>
+                        </ref> in 827/8.
+                        Two further Lives, by Leontios of Neapolis, of Symeon the Fool and John the
+                        Almoner, transmitted in <abbr>Syr. Orth.</abbr>
+                        <abbr> mss.</abbr>, must have originated in Melkite
+                        circles.</p>
+                    <p>4. A single short 7th-cent. Melkite Chronicle survives (<abbr>ed.</abbr> A. de Halleux, in
+                            <title rend="italic">
+                            <abbr>LM</abbr>
+                        </title> 91 [1978], 5–44); either it or its source was
+                        used by some later <abbr>Syr. Orth.</abbr> chronicles.</p>
+                    <p>5. A small number of monastic texts of <abbr>Syr. Orth.</abbr> or <abbr>Ch. of E.</abbr> provenance are
+                        transmitted in Melkite <abbr>mss.</abbr>; the unique <abbr>ms.</abbr> of <ref rend="bold" target="https://gedsh.bethmardutho.org/Sahdona-Martyrius">
+                            <persName ref="http://syriaca.org/person/711">Sahdona</persName>
+                        </ref>’s ‘Book of Perfection’ was copied in 837 specifically for
+                        St. Catherine’s Monastery. The monastic anthology in Sinai Syr. 14 (10th
+                        <abbr>cent.</abbr>) includes excerpts from a number of different E.-Syr. authors, in
+                        particular <ref rend="bold" target="https://gedsh.bethmardutho.org/Ishaq-of-Nineveh">
+                            <persName ref="http://syriaca.org/person/550">Isḥaq of
+                            Nineveh</persName>
+                        </ref> and <ref rend="bold" target="https://gedsh.bethmardutho.org/Shemon-d-Taybutheh">
+                            <persName ref="http://syriaca.org/person/742">Shemʿon
+                            d-Ṭaybutheh</persName>
+                        </ref>. A Syriac <abbr>ms.</abbr> of the ‘First Part’ of Isḥaq’s writings
+                        survives, copied in the very Monastery of St. Sabas where it was
+                        subsequently translated into Greek (Sinai Syr. 24, with parts in Milan and
+                        Paris).</p>
+                    <p>6. Liturgical texts; this constitutes by far the largest category. The oldest
+                        <abbr>mss.</abbr> sometimes still retain the original Antiochene rite, before it was
+                        altered to that of Constantinople, a process which probably took place over
+                        the 10th–11th <abbr>cent.</abbr> and during the period of the Byzantine reconquest of
+                        northwest Syria (968–1089). This change of rite involved the major
+                        undertaking of translating into Syriac (and Arabic) all the various Greek
+                        liturgical books that had developed by the end of the first millennium; the
+                        course of this massive enterprise still remains to be properly charted.
+                        Earlier, and perhaps already in the 8th <abbr>cent.</abbr> a considerable amount of
+                        Palestinian hymnography was translated, including canons by <ref rend="bold" target="https://gedsh.bethmardutho.org/John-of-Damascus">
+                            <persName ref="http://syriaca.org/person/575">John of
+                            Damascus</persName>
+                        </ref>, Cosmas of Jerusalem, and others. From about the 13th
+                        <abbr>cent.</abbr> onwards many of the Syriac liturgical <abbr>mss.</abbr> also contain a good deal of
+                        Arabic as well.</p>
+                    <p>7. For the small amount that survives of <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Christian-Palestinian-Aramaic">Christian Palestinian Aramaic</ref> literature, all Melkite, see that
+                        entry.</p>
+                    <p>Almost all Melkite literature in Syriac was produced in western Syria, and
+                        important centers for its transmission were monasteries on the Black
+                        Mountain, northwest of Antioch, the region of the Kalamun, in particular
+                            <ref rend="bold" target="https://gedsh.bethmardutho.org/Qara">
+                            <placeName ref="http://syriaca.org/place/161">Qara</placeName>
+                        </ref>,
+                        and Ṣaydnāyā. Melkite copyists at St. Catherine’s Monastery (particularly
+                        active in the 13th <abbr>cent.</abbr>) were mostly from these locations. By the 13th
+                        <abbr>cent.</abbr> a distinctive Melkite form of Syriac script had developed.</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>S. P.  Brock, ‘Syriac on Sinai: The main connections’, in <choice>
+                                <sic>
+                                    <title rend="italic">Eukosmia. Studi miscellanei per il 75o di Vincenzo
+                            Poggi S.J.,</title>
+                                </sic>
+                                <corr>
+                                    <title rend="italic">Eukosmia. Studi miscellanei per il 75o di Vincenzo
+                                Poggi S.J.</title>,</corr>
+                            </choice> ed. V. Ruggieri and L. Pieralli (2003),
+                            103–17.</bibl>
+                        <bibl>C. Charon (Korolevsky), <title rend="italic">History of the Melkite
+                                Patriarchates</title>, III.1 (<abbr>ET</abbr> of 1910 <abbr>ed.</abbr>, 2000), 29–58. (with
+                            list of 190 <abbr>mss.</abbr>)</bibl>
+                        <bibl>H.  Husmann, ‘Die <choice>
+                                <sic>syrische</sic>
+                                <corr>syrischen</corr>
+                            </choice> Handschriften des Sinai-Klosters, Herkunft
+                            und Schreiber’, <title rend="italic">Ostkirchliche Studien</title> 24
+                            (1975), 281–308.</bibl>
+                        <bibl>J. Nasrallah, <title rend="italic">Histoire du mouvement littéraire
+                                dans l’Église Melchite du V<hi rend="superscript">e</hi> au XX<hi rend="superscript">e</hi> siècle</title>, II.1 (1996), 161–72
+                            (Syriac writings); III.1 (1983), 359–86; III.2 (1981), 162–5, 167–71;
+                            IV.1 (1979), 261–6 (on liturgical <abbr>mss.</abbr>).</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName> 
+                  <forename>Sebastian P.</forename> 
+                  <surname>Brock</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

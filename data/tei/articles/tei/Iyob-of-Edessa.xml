@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Iyob of Edessa</title>
+            <author>
+               <persName>
+                  <forename>Barbara H.</forename> 
+                  <surname>Roggema</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.5">Electronic Edition Version 1.5</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Iyob of Edessa</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Iyob-of-Edessa</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/306</idno>
+                    <idno type="entry">297</idno>
+                    <milestone unit="pages" n="225-226"/>
+                    <idno type="althead">Job of Edessa</idno>
+                    <idno type="althead">Ayyūb al-Ruhāwī</idno>
+                    <idno type="subject">http://syriaca.org/person/568</idno>
+                    <note type="type">person</note>
+                    <note type="abstract">Natural philosopher, translator, and physician, active in
+                            <placeName ref="http://syriaca.org/place/98">Iraq</placeName> in the
+                        first Abbasid <abbr>cent.</abbr>
+                    </note>
+                </ab>
+                <ab type="infobox">Job of Edessa, Ayyūb al-Ruhāwī (2nd half of 8th <abbr>cent.</abbr> – <abbr>ca.</abbr> 835?)
+                    [Ch. of E. or <abbr>Syr. Orth.</abbr>]</ab>
+                <div type="body">
+                    <p>Natural philosopher, translator, and physician, active in Iraq in the first
+                        Abbasid <abbr>cent.</abbr>, nicknamed ‘al-Abrash’, or ‘the Spotted’. The exact dates of
+                        his life are not known, but scholars estimate that he lived between 760 and
+                        835. He was active in the time of the Abbasid caliph al-Maʾmūn (<abbr>r.</abbr> 813–33).
+                        Both Iyob and his son Ibrāhīm worked as physicians in the entourage of the
+                        Abbasid family. Iyob was sent by al-Maʾmūn to Khurasan to serve as ʿAbd
+                        Allāh <abbr>b.</abbr> Ṭāhir’s physician, when the latter became governor there in the
+                        early 830s. It seems unlikely that he would have been charged with such a
+                        task at the advanced age of 70; his estimated year of birth, probably based
+                        solely on <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Bar-Ebroyo-Grigorios">
+                            <persName ref="http://syriaca.org/person/239">Bar ʿEbroyo</persName>
+                        </ref>’s reference to Iyob (Abbeloos
+                        and Lamy, <hi rend="italic">Gregorii Barhebraei chronicon
+                            ecclesiasticum</hi>, vol. 2, 181) as someone living in the era of <abbr>Patr. </abbr>
+                           <ref rend="bold" target="https://gedsh.bethmardutho.org/Timotheos-I">
+                            <persName ref="http://syriaca.org/person/790">Timotheos I</persName>
+                        </ref>, is therefore probably too early. In the same
+                        passage, Bar ʿEbroyo calls Iyob a philosopher ‘who followed the doctrine of
+                        Nestorius’. Mingana interpreted this as Job having converted from the
+                        Melkite or <abbr>Syr. Orth.</abbr> to the <abbr>Ch. of E.</abbr>, probably on account of his Edessene
+                        origins. However, historical references to his conversion are lacking, and
+                        the possibility should be considered that Bar ʿEbroyo’s claim is based on
+                        conjecture. There are no earlier sources that refer to his ecclesiastical
+                        affiliation, and the only surviving <abbr>mss.</abbr> of his works were produced in a
+                        <abbr>Syr. Orth.</abbr> milieu.</p>
+                    <p>In his letter to ʿAlī <abbr>b.</abbr> Yaḥyā <abbr>b.</abbr> al-Munajjim about the translations of <ref rend="bold" target="https://gedsh.bethmardutho.org/Galen">
+                            <persName ref="http://syriaca.org/person/496">Galen</persName>
+                        </ref>’s
+                        work into Arabic, <ref rend="bold" target="https://gedsh.bethmardutho.org/Hunayn-b-Ishaq">
+                            <persName ref="http://syriaca.org/person/542">Ḥunayn <abbr>b.</abbr>
+                            Isḥāq</persName>
+                        </ref> (d. 873) mentions Iyob as a translator of 36 of Galen’s
+                        works, mostly from Greek into Syriac. He probably translated works by <ref rend="bold" target="https://gedsh.bethmardutho.org/Aristotle">
+                            <persName ref="http://syriaca.org/person/342">Aristotle</persName>
+                        </ref> and Ptolemy as well. Of his own works only two survive,
+                        the most important of which is the ‘Book of Treasures’ (<hi rend="italic">Ktābā d-simātā</hi>). It deals with a wide range of natural phenomena
+                        which Iyob analyzes according to his theory of the elements. It contains six
+                        discourses covering a <choice>
+                            <sic>wide-range</sic>
+                            <corr>wide range</corr>
+                        </choice> of disciplines, such as anatomy, zoology,
+                        psychology, chemistry, metallurgy, meteorology, and astronomy. Iyob presents
+                        explanations for countless aspects of the natural world, with a distinct
+                        etiological focus and style that resembles the genre of <hi rend="italic">problemata physica</hi>. He begins the work with his theory regarding
+                        the four simple and abstract essences, <choice>
+                            <sic>i.e. </sic>
+                            <corr>i.e., </corr>
+                        </choice>heat, cold, humidity and
+                        dryness, which, if found in individual compositions, constitute essences of
+                        a secondary kind. Iyob employs the fact that the primary essences are
+                        antagonistic as proof of the existence of God, whose act of creation
+                        consisted of bringing these elements together by force, as well as proof of
+                        the gradual disintegration of the world that leads to the end of times. The
+                        work contains a somewhat covert polemic against Islam, in that it culminates
+                        in a refutation of those who believe in an afterlife with physical
+                        pleasures. It also reveals Iyob’s acquaintance with contemporary Muʿtazilī
+                        thought. The work contains a strong resemblance to the pseudonymous Arabic
+                        work ‘The secret of creation’ (<hi rend="italic">Sirr al-khalīqa</hi> or <hi rend="italic">Kitāb al-ʿilal</hi>), attributed to Apollonius of Tyana
+                        (‘Balinus’), which was possibly written in the time of al-Maʾmūn as well,
+                        but the relationship between the two has not been thoroughly clarified.
+                        Aristotle, Hippocrates, and Galen are directly referenced in Iyob’s work. In
+                        addition, scholars claim to have found echoes of the Cappadocian Fathers,
+                        Theophrastus, Proclus, and Nemesius of Emesa. However, an in-depth study
+                        into Iyobs’s sources remains a desideratum.</p>
+                    <p>Besides the ‘Book of Treasures’, only Iyob’s ‘On Rabies’ survives. The two
+                        extant works contain references to titles of some of his works now lost: ‘On
+                        Urine’, ‘On the causes of fevers’, ‘On the soul’, ‘On the causes of the
+                        coming into existence of the universe from the elements’, ‘On the five
+                        senses’, ‘On essences’, ‘On Faith’, and ‘Ten syllogisms taken from the
+                        nature of things, which prove that Christ is both God and man’. His work
+                        (possibly: works) ‘On Urine’ was known by several Arabic scientists in the
+                        centuries to follow, suggesting that it existed in Arabic as well, but it
+                        remains impossible to determine whether Iyob authored works in that
+                        language. Ullmann (<hi rend="italic">Die Medizin im Islam</hi> [1970], 102)
+                        supposes that when Abū ʿAbd Allāh al-Khwārizmī, Abū Bakr al-Rāzī and
+                        Muṭahhar al-Maqdisī cite Iyob, they are making use of Arabic translations of
+                        his Syriac works, while for example Kraus, Mingana, and Ḥabbī assume that
+                        Iyob wrote some of his works in Arabic.</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>Y.  Ḥabbī, ‘Ayyūb al-Abraš al-Rahāwī (AD 9/H. 3)’, <title rend="italic">Majallat al-majmaʿ al-ʿilmī al-ʿIraqī</title> 34
+                            (1983), 124–42.</bibl>
+                        <bibl>P.  Kraus, <title rend="italic">Jābir ibn Ḥayyān</title> (2 vols.;
+                            1942–3), vol. 2, 121, 169, 174–5, 274–8.</bibl>
+                        <bibl>M. Levey, ‘Chemical notions of an early <choice>
+                                <sic>ninth century</sic>
+                                <corr>ninth-century</corr>
+                            </choice> Christian
+                            encyclopaedist’, <title rend="italic">Chymia</title> 11 (1966),
+                            29–36.</bibl>
+                        <bibl>B.  Lewin, ‘Job d’Edesse et son Livre des Trésors’, <title rend="italic">
+                                <abbr>OrSuec</abbr>
+                            </title> 6 (1957), 21–30.</bibl>
+                        <bibl>A.  Mingana, <title rend="italic">Encyclopædia of philosophical and
+                                natural sciences as taught in Baghdad about A.D. 817 or Book of
+                                treasures by Job of Edessa</title> (1935).</bibl>
+                        <bibl>G.  Panicker, ‘The Book of Treasures by Mar Job of Edessa’, <title rend="italic">
+                                <abbr>Harp</abbr>
+                            </title> 8/9 (1995–96), 151–9.</bibl>
+                        <bibl>G. J.  Reinink, ‘The “Book of Nature” and Syriac apologetics against
+                            Islam. The case of Job of Edessa’s <title rend="italic">Book of
+                                Treasures</title>’, in <title rend="italic">The Book of Nature in
+                                the Middle Ages</title>, <abbr>ed.</abbr> A. Vanderjagt and K. van Berkel
+                            (2005), 71–84.</bibl>
+                        <bibl>B.  Roggema, ‘Job of Edessa’, in <title rend="italic">Christian-Muslim
+                                relations</title>, <abbr>ed.</abbr> Thomas and Roggema, 502–9.</bibl>
+                        <bibl>J.  Teixidor, <title rend="italic">Hommage à Baghdad. Traducteurs et
+                                lettrés de l’époque ʿabbaside</title> (2007), 58–63.</bibl>
+                        <bibl>U.  Weisser, <title rend="italic">Das <choice>
+                                    <sic>Buch über das Geheimnis der
+                            Schöpfung</sic>
+                                    <corr>‘Buch über das Geheimnis der
+                                Schöpfung’</corr>
+                                </choice> von <choice>
+                                    <sic>Ps Apollonios</sic>
+                                    <corr>Pseudo-Apollonios</corr>
+                                </choice> von Tyana</title> (1980), 55–63.</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Barbara H.</forename> 
+                  <surname>Roggema</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

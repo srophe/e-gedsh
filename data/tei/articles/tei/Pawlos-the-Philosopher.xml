@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Pawlos the Philosopher</title>
+            <author>
+               <persName>
+                  <forename>Lucas</forename> 
+                  <surname>Van Rompay</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.5">Electronic Edition Version 1.5</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Pawlos the Philosopher</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Pawlos-the-Philosopher</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/429</idno>
+                    <idno type="entry">420</idno>
+                    <milestone unit="pages" n="325"/>
+                    <idno type="althead">Pawlos the Persian</idno>
+                    <idno type="subject">http://syriaca.org/person/675</idno>
+                    <note type="type">person</note>
+                    <note type="abstract">Author of philosophical works.<note/>
+                    </note>
+                </ab>
+                <ab type="infobox">Pawlos the Persian (mid-6th <abbr>cent.</abbr>) [Ch. of E.]</ab>
+                <div type="body">
+                    <p>Author of philosophical works. Little is known about Pawlos’s life. Two
+                        works, explicitly attributed to him are preserved in Syriac. The first,
+                        published and translated by Land and partly translated into French by
+                        Teixidor, is a treatise on logic. It is largely based on what the Syrians
+                        knew as <ref rend="bold" target="https://gedsh.bethmardutho.org/Aristotle">
+                            <persName ref="http://syriaca.org/person/342">Aristotle</persName>
+                        </ref>’s logical works, i.e., <ref rend="bold" target="https://gedsh.bethmardutho.org/Porphyry">
+                            <persName ref="http://syriaca.org/person/684">Porphyry</persName>
+                        </ref>’s
+                        ‘Eisagoge’, the ‘Categories’, ‘On interpretation’, and the first part of the
+                        ‘Prior Analytics’. The author dedicated the work to the Sasanian king
+                        Khusrau I Anushirwan (<abbr>r.</abbr> 531–78), who is known to have had a vivid interest
+                        in Greek philosophy. The second work, which remains unpublished, is a
+                        commentary on Aristotle’s ‘On Interpretation’. The Arab authors al-Fārābī
+                        (d. 950) and Miskawayh (d. 1030) knew yet another work by Pawlos which,
+                        according to Gutas, must have been a general introduction into Aristotle’s
+                        philosophy, after the example of the Alexandrian Prolegomena.</p>
+                    <p>It is uncertain in which language Pawlos wrote. A note that is preserved in
+                        two <abbr>mss.</abbr> of the commentary on ‘On interpretation’ states that Pawlos wrote
+                        the work in Persian and that <ref rend="bold" target="https://gedsh.bethmardutho.org/Severos-Sebokht">
+                            <persName ref="http://syriaca.org/person/99">Severos
+                            Sebokht</persName>
+                        </ref> (d. 666/7) translated it into Syriac. The treatise
+                        dedicated to Khusrau may also have been written originally in Persian. The
+                        question of whether Pawlos read the Aristotelian writings in Greek or in
+                        Syriac, and where he received his philosophical training cannot, in the
+                        present state of our knowledge, be answered. One further detail of Pawlos’s
+                        life, the veracity of which cannot be confirmed, is transmitted in <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Bar-Ebroyo-Grigorios">
+                            <persName ref="http://syriaca.org/person/239">Bar ʿEbroyo</persName>
+                        </ref>’s ‘Ecclesiastical Chronicle’ and in the
+                        ‘Chronicle of <ref rend="bold" target="https://gedsh.bethmardutho.org/Siirt">
+                            <placeName ref="http://syriaca.org/place/188">Siirt</placeName>
+                        </ref>’: after having been foiled in his attempt to become <abbr>bp.</abbr>,
+                        Pawlos converted to Zoroastrianism, the official religion of the Sasanian
+                        Empire.</p>
+                    <p>Clearly familiar with the tradition of Alexandrian neo-Platonism, Pawlos may
+                        have been an important transmitter of late-ancient philosophy to the
+                        Sasanian court, thus preparing the ground for the ambitious translation
+                        project of the Abbasid rulers in the Islamic period.</p>
+                    <p>See also <ref rend="bold" target="https://gedsh.bethmardutho.org/Pawlos-the-Persian">
+                            <persName ref="http://syriaca.org/person/674">Pawlos the
+                            Persian</persName>
+                        </ref>.</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>S. P.  Brock, ‘The Syriac commentary tradition’, in <title rend="italic">Glosses and commentaries on Aristotelian logical
+                                texts. The Syriac, Arabic, and medieval Latin traditions</title>,
+                            <abbr>ed.</abbr> C. Burnett (1993), 8, 11, 13. (<abbr>repr.</abbr> in <title rend="italic">From
+                                Ephrem to Romanos</title>, [1999], ch. XIII)</bibl>
+                        <bibl>D. Gutas, ‘Paul the Persian on the classification of the parts of
+                            Aristotle’s philosophy: a milestone between Alexandria and Baghdad’,
+                                <title rend="italic">Der Islam</title> 60 (1983), 231–67.</bibl>
+                        <bibl>Gutas, <title rend="italic">Greek thought, Arabic culture</title>,
+                            25–6.</bibl>
+                        <bibl>H. Hugonnard-Roche, ‘Le traité de logique de Paul le Perse: une
+                            interprétation tardo-antique de la logique aristotélicienne en
+                            syriaque’, <title rend="italic">Documenti e studi sulla tradizione
+                                filosofica medievale</title> 11 (2000), 59–82. (<abbr>repr.</abbr> in his <title rend="italic">La logique d’Aristote du grec au syriaque</title>
+                            [2004], 233–54)</bibl>
+                        <bibl>J. P. N.  Land, <title rend="italic">Anecdota Syriaca</title>, vol. 4
+                            (1875), 1–32 (Syr.), 1–30 (<abbr>LT</abbr>), 99–113 (notes).</bibl>
+                        <bibl>J.  Teixidor, ‘Les textes syriaques de logique de Paul le Perse’,
+                                <title rend="italic">Semitica</title> 47 (1991), 117–38.</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Lucas</forename> 
+                  <surname>Van Rompay</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

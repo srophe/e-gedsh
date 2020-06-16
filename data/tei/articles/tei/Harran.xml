@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Ḥarran</title>
+            <author>
+               <persName>
+                  <forename>Hidemi</forename> 
+                  <surname>Takahashi</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.5">Electronic Edition Version 1.5</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Ḥarran</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Harran</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/259</idno>
+                    <idno type="entry">250</idno>
+                    <milestone unit="pages" n="191-192"/>
+                    <idno type="subject">http://syriaca.org/place/216</idno>
+                    <note type="type">place</note>
+                    <note type="abstract">Ancient city in <placeName ref="http://syriaca.org/place/1452">Mesopotamia</placeName>, approximately 45 km south-southeast of
+                            <placeName ref="http://syriaca.org/place/78">Edessa</placeName>.<note/>
+                    </note>
+                </ab>
+                <div type="body">
+                    <p>Syr./Hebrew Ḥārān; Latin Carrhae; Arabic Ḥarran. Ancient city in Mesopotamia,
+                        approximately 45 km south-southeast of <ref rend="bold" target="https://gedsh.bethmardutho.org/Edessa">
+                            <placeName ref="http://syriaca.org/place/78">Edessa</placeName>
+                        </ref>. Residence,
+                        for brief periods in the 8th <abbr>cent.</abbr>, of <abbr>Syr. Orth.</abbr> patriarchs. The first city
+                        built after the Flood according to a tradition recorded by the Arab
+                        geographer Yāqūt in his <hi rend="italic">Muʿjam al-buldān</hi> and the
+                        place where Abraham and his family sojourned according to the Book of
+                        Genesis, Ḥarran had become known as a center for the cult of the moon god
+                        Sin by the 14th <abbr>cent.</abbr> BC. Because of its strategic importance as a frontier
+                        town, the Christian emperors usually refrained from interfering in the
+                        religious life of Ḥarran, which remained a stronghold of paganism. When the
+                        pilgrim Egeria visited Ḥarran in 383, the town had a Christian <abbr>bp.</abbr>, and the
+                        house of Abraham, which stood outside the city, had been turned into a
+                        church, but the population of the city, she tells us, probably with some
+                        exaggeration, was wholly pagan. The Greek Fathers refer to Ḥarran as
+                        Hellenopolis, ‘the city of the (pagan) Greeks’; the Syriac <ref rend="bold" target="https://gedsh.bethmardutho.org/Ephrem-Life-of">Life of
+                            Ephrem</ref> likewise calls it ‘the city of the pagans’ (<hi rend="italic">Ḥārān mdittā d-ḥanpe</hi>). Some have argued that it was
+                        in Ḥarran that Simplicius and his Neoplatonist companions settled upon their
+                        return from Persia where they had sought refuge after the closure of their
+                        school in Athens by Justinian in 529. Taken by the Arabs in 639/40, Ḥarran
+                        briefly became the seat of the caliphate under the last (eastern) Umayyad
+                        Marwān II (744–750). It was probably early on under Arab rule, before the
+                        8th <abbr>cent.</abbr>, that the Syriac work entitled the ‘Prophecies of the pagan
+                        philosophers in brief’ was written, inviting the pagans of Ḥarran to convert
+                        to Christianity. According to Ibn al-Nadīm, it was at the time of a visit by
+                        Caliph al-Maʾmūn in 830 that the people of the town identified themselves
+                        with the Sabians (Ṣābiʾ) mentioned in the Qurʾān, so as to escape
+                        persecution by claiming to be a ‘people of the book’. Ḥarran was considered
+                        a center of pagan Greek learning under the Abbasids, especially for the
+                        mathematical sciences. The Ḥarranians were probably the last group of
+                        non-Christians who continued to use <ref rend="bold" target="https://gedsh.bethmardutho.org/Syriac-Language"> Syriac</ref>. In his
+                        Lexicon, <ref rend="bold" target="https://gedsh.bethmardutho.org/Bar-Bahlul-Hasan">
+                            <persName ref="http://syriaca.org/person/365">Bar Bahlul
+                        </persName>
+                        </ref> refers to the Syriac dialect specific to Ḥarran. <ref rend="bold" target="https://gedsh.bethmardutho.org/Thabit-b-Qurra">
+                            <persName ref="http://syriaca.org/person/777">Thābit <abbr>b.</abbr>
+                            Qurra</persName>
+                        </ref> (836–901), the most famous of the ‘Sabian’ scholars, still
+                        wrote some of his works in Syriac, which were known to and were quoted by
+                            <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Bar-Ebroyo-Grigorios">
+                            <persName ref="http://syriaca.org/person/239">Bar ʿEbroyo</persName>
+                        </ref>. Ḥarran became the principal seat of
+                        the Numayrids in the 11th <abbr>cent.</abbr> and remained an important city under the
+                        Artuqids, Zangids, and Ayyubids, but more or less disappears from history
+                        after it was taken by the Mongols in 1260 and was evacuated by them in
+                        1271.</p>
+                    <p>The first known <abbr>bp.</abbr> of the city is Barses, who was made metropolitan of
+                        Edessa in 361. His successors include Vitus, who attended the Council of
+                        Constantinople in 381, Daniel, a cousin of <ref rend="bold" target="https://gedsh.bethmardutho.org/Hiba">
+                            <persName ref="http://syriaca.org/person/534">Hiba</persName>
+                        </ref> of Edessa
+                        (attested 444, 449), and John, who was at the Council of Chalcedon (451). At
+                        least three of their Chalcedonian successors would engage in writing against
+                        the Miaphysites, namely Constantine and Leon in the 8th <abbr>cent.</abbr> — who received
+                        replies in Syriac from a Miaphysite <abbr>bp.</abbr> called <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Eliya-late-8th-early-9th-cent">
+                            <persName ref="http://syriaca.org/person/945">Eliya</persName>
+                        </ref>
+                        — and, more famously, <ref rend="bold" target="https://gedsh.bethmardutho.org/Theodoros-Abu-Qurra">
+                            <persName ref="http://syriaca.org/person/782">Theodoros Abū
+                            Qurra</persName>
+                        </ref> (<abbr>ca.</abbr> 755 – <abbr>ca.</abbr> 830).</p>
+                    <p>As Miaphysite bishops of Ḥarran before the Arab conquest, we know of Yuḥanon
+                        (mentioned in 502/3, banished by Emperor Justin in 519), Sergius bar Karyo
+                        (<abbr>ca.</abbr> 557 – <abbr>ca.</abbr> 578, translator of <ref rend="bold" target="https://gedsh.bethmardutho.org/John-bar-Aphtonia">
+                            <persName ref="http://syriaca.org/person/52">John bar
+                            Aphtonia</persName>
+                        </ref>’s biography of <ref rend="bold" target="https://gedsh.bethmardutho.org/Severus-of-Antioch">
+                            <persName ref="http://syriaca.org/person/51">Severus of
+                            Antioch</persName>
+                        </ref> into Syriac), and Shemʿun (in 617/8). Before the Arab
+                        conquest, the main <abbr>Syr. Orth.</abbr> church in Ḥarran was confiscated and given to
+                        the Melkites by Emperor Maurice (582–602). Later, we hear of a new Syr.
+                        Orth. cathedral being completed just before 700. <abbr>Bp.</abbr> Iwannis of Ḥarran (d.
+                        755) was elected <abbr>
+                            <choice>
+                                <sic>Patr.</sic>
+                                <corr>patr.</corr>
+                            </choice>
+                        </abbr> in 740 on the eve of the transfer of the caliphate to
+                        Ḥarran. Of his two successors as <abbr>patr.</abbr>, both later considered illegitimate,
+                        Isḥaq (755–56) had also been <abbr>bp.</abbr> of Ḥarran, and Athanasios <choice>
+                            <sic>Sandaloyo</sic>
+                            <corr>Sandloyo</corr>
+                        </choice>
+                        (756–58) was murdered in Ḥarran. <abbr>Bp.</abbr> Dawid of Ḥarran (attested 847, 874) may
+                        be the author of the Syriac Chronicle of 846 (Palmer, <hi rend="italic">The
+                            seventh century in the West-Syrian chronicles</hi>, 83). The last known
+                        <abbr>Syr. Orth.</abbr>
+                        <abbr> bp.</abbr> of Ḥarran is Ephrem, heard of when the Armenians asked for
+                        access to an altar in the <abbr>Syr. Orth.</abbr> church in Ḥarran in 1252.</p>
+                    <p>The E.-Syr. see of Ḥarran, attested between the 7th and 11th <abbr>cent.</abbr> and
+                        suffragan to <ref rend="bold" target="https://gedsh.bethmardutho.org/Nisibis">
+                            <placeName ref="http://syriaca.org/place/142">Nisibis</placeName>
+                        </ref>, counted among its occupants the canonist <ref rend="bold" target="https://gedsh.bethmardutho.org/Abdisho-bar-Bahriz">
+                            <persName ref="http://syriaca.org/person/309">ʿAbdishoʿ bar Bahrīz</persName>
+                        </ref> (early 9th  cent.) and the future <abbr>Cath.</abbr>
+                        Sabrishoʿ II (transferred from Ḥarran to Damascus before 823, then <abbr>
+                            <choice>
+                                <sic>Cath.</sic>
+                                <corr>cath.</corr>
+                            </choice>
+                        </abbr>
+                        831–835).</p>
+                    <p>Among the ruins of Ḥarran, dotted today with beehive-shaped adobe houses of
+                        the Bedouin Arabs who settled here in the 19th <abbr>cent.</abbr>, are those of a large
+                        basilica church located near the northeastern end of the oval-shaped
+                        medieval city.</p>
+                    <p>See <ref target="https://gedsh.bethmardutho.org/fig/55">Fig. 55</ref>.</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>R.  Aubert and <choice>
+                        <sic>J. M.  Fiey</sic>
+                        <corr>J.-M.  Fiey</corr>
+                     </choice>, ‘Harran’, in <title rend="italic">
+                                <abbr>DHGE</abbr>
+                            </title>, vol<title rend="italic">.</title>23 (1990),
+                            405–6.</bibl>
+                        <bibl>C. E.  Bosworth, ‘Ḥarrān’, in <title rend="italic">
+                                <abbr>EIr</abbr>
+                            </title>, vol.12
+                            (2004), 13–4.</bibl>
+                        <bibl>S. P.  Brock, ‘A Syriac collection of prophecies of pagan
+                            philosophers’, <title rend="italic">
+                                <abbr>OLP</abbr>
+                            </title> 14 (1983), 203–46.</bibl>
+                        <bibl>G.  Fehérvári, ‘Ḥarrān’, in <title rend="italic">EI</title>
+                            <hi rend="superscript">2</hi>, vol. 3 (1986), 227–30.</bibl>
+                        <bibl>Fiey, <title rend="italic">Pour un Oriens christianus novus</title>
+                            (1993), 88 and 207–8.</bibl>
+                        <bibl>T. M.  Green, <title rend="italic">The city of the Moon God. Religious
+                                traditions of Harran</title> (1992).</bibl>
+                        <bibl>I.  Hadot, ‘Dans quel lieu le néoplatonicien Simplicius a-t-il fondé
+                            son école de mathématiques, et où a pu avoir lieu son entretien avec un
+                            manichéen?’<choice>
+                                <sic>,</sic>
+                                <corr/>
+                            </choice>
+                            <title rend="italic"> International Journal of the Platonic
+                                Tradition</title> 1 (2007), 42–107. (incl. further
+                            references)</bibl>
+                        <bibl>R.  Janin, ‘Carrae’, in <title rend="italic">
+                                <abbr>DHGE</abbr>
+                            </title>, vol. 11
+                            (1949), 1123–4.</bibl>
+                        <bibl>A. Mez, <title rend="italic">Die Stadt Ḥarrân bis zum Einfall der
+                                Araber</title> (1892).</bibl>
+                        <bibl>D. Pingree, ‘The Ṣābians of Ḥarrān and the classical tradition’,
+                                <title rend="italic">International Journal of the Classical
+                                Tradition</title> 9 (2002), 8–35.</bibl>
+                        <bibl>U.  Possekel, ‘<choice>
+                                <sic>In the shadow of the Moon God: Early Christianity at
+                            Harran</sic>
+                                <corr>The transformation of Harran from a pagan cult center to a Christian pilgrimage site</corr>
+                        </choice>’, <choice>
+                                <sic>forthcoming in <abbr>
+                                        <title rend="italic">SymSyr</title> X</abbr>
+                                </sic>
+                            <corr>
+                                    <hi rend="italic">ParOr</hi> 36 (2011), 299–310</corr>
+                            </choice>.</bibl>
+                        <bibl>T. A.  Sinclair, <title rend="italic">Eastern Turkey: An architectural
+                                and archaeological survey</title>, vol. 4 (1990), 29–43.</bibl>
+                        <bibl>K. van Bladel, <title rend="italic">The Arabic Hermes</title> (2009),
+                            64–118.</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Hidemi</forename> 
+                  <surname>Takahashi</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

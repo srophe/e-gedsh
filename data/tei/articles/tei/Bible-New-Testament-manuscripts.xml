@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Bible, New Testament manuscripts</title>
+            <author>
+               <persName>
+                  <forename>Andreas</forename> 
+                  <surname>Juckel</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.5">Electronic Edition Version 1.5</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Bible, New Testament manuscripts</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Bible-New-Testament-manuscripts</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/115</idno>
+                    <idno type="entry">106</idno>
+                    <milestone unit="pages" n="77-81"/>
+                    <idno type="althead" subtype="altorder">New Testament Bible manuscripts</idno>
+                    <note type="type">subject</note>
+                    <note type="abstract">Most of the important biblical <abbr>mss.</abbr> extant today derive
+                        from three ancient collections in the Near East: From Dayr al-Suryān, from
+                        the Monastery of St. Catherine at Mount Sinai, and from Dayr al-Zaʿfaran
+                        near Mardin.<note/>
+                    </note>
+                </ab>
+                <div type="body">
+                    <p>Most of the important biblical <abbr>mss.</abbr> extant today derive from three ancient
+                        collections in the Near East: From <ref rend="bold" target="https://gedsh.bethmardutho.org/al-Suryan-Dayr">
+                            <placeName ref="http://syriaca.org/place/360">Dayr
+                            al-Suryān,</placeName>
+                        </ref> from the <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Catherine-Monastery-of-St">
+                            <placeName ref="http://syriaca.org/place/368">Monastery of St.
+                            Catherine</placeName>
+                        </ref> at Mount Sinai, and from <ref rend="bold" target="https://gedsh.bethmardutho.org/al-Zafaran-Dayr">
+                            <placeName ref="http://syriaca.org/place/69">Dayr
+                            al-Zaʿfarān</placeName>
+                        </ref> near <ref rend="bold" target="https://gedsh.bethmardutho.org/Mardin">
+                            <placeName ref="http://syriaca.org/place/130">Mardin</placeName>
+                        </ref>. A small part
+                        of the Nitrian collection (from Dayr al-Suryān) was acquired by the
+                        Biblioteca Apostolica Vaticana in the 18th <abbr>cent.</abbr>, its larger part came to
+                        the British Museum (Library) during the 19th <abbr>cent.</abbr> The Sinaitic collection
+                        remained unmoved from the 6th <abbr>cent.</abbr> (the time of Emperor Justinian) until
+                        today, the <abbr>mss.</abbr> of Dayr al-Zaʿfarān moved to Mardin, <ref rend="bold" target="https://gedsh.bethmardutho.org/Hims">
+                            <placeName ref="http://syriaca.org/place/215">Ḥimṣ</placeName>
+                        </ref>, and <ref rend="bold" target="https://gedsh.bethmardutho.org/Damascus">
+                            <placeName ref="http://syriaca.org/place/66">Damascus</placeName>
+                        </ref>.</p>
+                    <p>1. No Syriac copy of the <ref rend="bold" target="https://gedsh.bethmardutho.org/Diatessaron">Diatessaron</ref>
+                        survived; <ref rend="bold" target="https://gedsh.bethmardutho.org/Ephrem">
+                            <persName ref="http://syriaca.org/person/13">Ephrem</persName>
+                        </ref>’s commentary is the only Syriac witness extant today (<abbr>ms.</abbr>
+                        Dublin, Chester Beatty Library 709; 5th/6th  cent., from Dayr
+                        al-Suryān).</p>
+                    <p>2. Of the <ref rend="bold" target="https://gedsh.bethmardutho.org/Old-Syriac-Version">Old Syriac Version</ref> only two defective Gospel <abbr>mss.</abbr> survived: The 5th-cent.
+                        ‘Codex Curetonianus’ of the Nitrian <abbr>coll.</abbr> (now <abbr>ms.</abbr> London, Brit. Libr. Add.
+                        14,451), edited for the first time by <ref rend="bold" target="https://gedsh.bethmardutho.org/Cureton-William">
+                            <persName ref="http://syriaca.org/person/429">W. Cureton</persName>
+                        </ref>
+                        (1858) and again by <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Burkitt-Francis-Crawford">
+                            <persName ref="http://syriaca.org/person/405">F. C. Burkitt</persName>
+                        </ref> (1904); and the
+                        4th/5th-cent. ‘Sinaitic <abbr>Ms.</abbr>’ (<abbr>ms.</abbr> Sinai Syr. 30; Hatch, <hi rend="italic">Album</hi>
+                        <choice>
+                            <sic/>
+                            <corr>,</corr>
+                        </choice> plate xlvi), a palimpsest which is not entirely deciphered,
+                        discovered in 1892 by Agnes Smith Lewis and published by her in 1894/96 and
+                        1910.</p>
+                    <p>3. Most of the Syriac <abbr>NT</abbr>
+                        <abbr> mss.</abbr> in the large collections are <ref rend="bold" target="https://gedsh.bethmardutho.org/Peshitta">Peshitta</ref>
+                        <abbr> mss.</abbr>
+                        Among the <abbr>ca.</abbr> 100 of the British Library, <abbr>ca.</abbr> 60 are from the first
+                        millennium, and <abbr>ca.</abbr> 30 of them are 5th/7th-cent. <abbr>mss.</abbr> Thanks to the Nitrian
+                        collection of the British Library, we have a good knowledge of the early
+                        Peshitta, which originates from the beginning of the 5th <abbr>cent.</abbr> Though many
+                        <abbr>mss.</abbr> have lost their colophon, a considerable part of them can be assigned
+                        to the 5th/6th <abbr>cent.</abbr> on palaeographical grounds.</p>
+                    <p>Early Peshitta <abbr>mss.</abbr> of the whole <abbr>NT</abbr> (according to the Peshitta canon) are <abbr>ms.</abbr>
+                        London, Brit. Libr. Add. 14,470 (5th/6th, Wright, <hi rend="italic">Catalogue … British Museum</hi>, vol. 1, no. lxiii), Brit. Libr. Add.
+                        14,448 (700/01, no. lxiv), <abbr>ms.</abbr> Sinai Syr. 17 (9th) and 54 (8th), <abbr>ms.</abbr>
+                        Damascus, <abbr>Syr. Orth.</abbr>
+                        <abbr> Patr.</abbr> Libr. 12/1 (7th/8th?), and <abbr>ms.</abbr> Mingana Syr. 103
+                        (‘about AD 790’, according to Mingana, but rather 8th/9th <abbr>cent.</abbr>).</p>
+                    <p>The oldest dated Gospel <abbr>mss.</abbr> are from the 6th <abbr>cent.</abbr>: <abbr>ms.</abbr> Dayr al-Suryān 10
+                        (510); <abbr>ms.</abbr> London, Brit. Libr. Add. 14,459 fol. 67–169 (between 528/538,
+                        colophon damaged; no. ci; Hatch, <hi rend="italic">Album,</hi> plate xiii);
+                        <abbr>ms.</abbr> Vat. Syr. 12 (548, plate xx); <abbr>ms.</abbr> Florence, Bibl. Laurenziana Plut. I,56
+                        (586, plate xxxiv). Undated, but of the 5th/6th <abbr>cent.</abbr> are <abbr>ms.</abbr> Paris, Bibl.
+                        Nat. Syr. 296 fol. 1–38, Sinai Syr. 2, and nos. lxvi, lxvii, lxxiii,
+                        xc–xciv, xcvi, xcix, cx, cxiii in Wright, <hi rend="italic">Catalogue …
+                            British Museum</hi>, vol. 1. Of special interest is Cod. Phillipps 1388
+                        (5th/6th, Berlin). This Gospel codex is singled out by its archaic
+                        orthographical features; though doubtless a Peshitta codex, it preserved a
+                        considerable Old Syriac textual heritage.</p>
+                    <p>The earliest Peshitta <abbr>mss.</abbr> of Acts and the Catholic Epistles are <abbr>ms.</abbr> London,
+                        Brit. Libr. Add. 14,473 (no. cxxv), Add. 17,120 (no. cxxvi), Add. 17,121
+                        (no. cxxvii), Add. 14,472 (no. cxxviii, datable before 624), Add. 18,812
+                        (no. cxxix), all of the 6th/7th <abbr>cent.</abbr>
+                    </p>
+                    <p>The oldest Peshitta <abbr>mss.</abbr> of the Pauline Letters are <abbr>ms.</abbr> 3 of the Public
+                        Library in St. Petersburg (5th/6th), <abbr>ms.</abbr> Sinai Syr. 3 and 5 (both 5th/6th),
+                        Cod. Syr. 8 of the Bayerische Staatsbibliothek in Munich (6th/7th), and <abbr>ms.</abbr>
+                        London, Brit. Libr. Add. 14,476 (no. cxxxiii), Add. 14,480 (no. cxxxiv),
+                        both from the 5th/6th <abbr>cent.</abbr>; Add. 14,479 (dated 533/34, no. cxxxv), Add.
+                        14,475 (no. cxxxvi), Add. 17,122 (no. cxxxvii) from the 6th <abbr>cent.</abbr>; Add.
+                        14,477 (no. cxxxviii) and 14,481 (no. cxxxix) from the 7th <abbr>cent.</abbr>
+                    </p>
+                    <p>4. No early copy of the Philoxenian version (507/08) survived. Remnants
+                        (partly in Maronite tradition) ascribed to this version preserve the
+                        extra-Peshitta texts (2 Pet., 2–3 John, Jude, and Rev.) and were published
+                        by J. Gwynn 1897 (Rev., based on <abbr>ms.</abbr> Crawford Syr. 2, 12th/13th, now John
+                        Rylands Library, Manchester) and 1909. Among Gwynn’s 20 <abbr>mss.</abbr> the oldest
+                        dated (823) is <abbr>ms.</abbr> London, Brit. Libr. Add. 14,623 (Wright, <hi rend="italic">Catalogue … British Museum</hi>, vol. 2, no. dcclxxxi;
+                        Hatch, <hi rend="italic">Album,</hi> plate xcviii). Today at least ten more
+                        are availiable, all of the second millennium: <abbr>ms.</abbr> Damascus <abbr>Patr.</abbr> 1/2; <abbr>ms.</abbr>
+                        Mingana Syr. 480; <abbr>ms.</abbr> Bibl. Ambrosiana B20.2 inf. (Milan); <abbr>ms.</abbr> Vat. Syr.
+                        461; 475, 486, <abbr>ms.</abbr> Paris, Bibl. Nat. Syr. 429, <abbr>ms.</abbr> Berlin, Diez A. quart.
+                        105, <abbr>ms.</abbr> Mardin Orth. 36/2.</p>
+                    <p>5a. The <abbr>mss.</abbr> of the <ref rend="bold" target="https://gedsh.bethmardutho.org/Harqlean-Version">Ḥarqlean version</ref> (615/16) usually
+                        catch the eye by the numerous Greek and Syriac words quoted in the margins
+                        and by the critical signs (<hi rend="italic">asterisks</hi> and <hi rend="italic">obeloi</hi>) inserted into the text. But this typical
+                        feature of the Ḥarqlean version was already reduced by revisional
+                        development during the first millennium, and then completely omitted in <abbr>mss.</abbr>
+                        mainly of the second millennium. Nevertheless, the oldest dated Ḥarqlean <abbr>ms.</abbr>
+                        (Florence, Bibl. Laurenziana Plut. I,40, dated to 756) already omits all
+                        marginal annotations (although there are Greek notes), and one of the latest
+                        (<abbr>ms.</abbr> Oxford, New College 333, 12th/13th <abbr>cent.</abbr>, the whole <abbr>NT</abbr>, breaking off
+                        <choice>
+                            <sic>Heb</sic>
+                            <corr>Heb.</corr>
+                        </choice> 11,27) belongs to those with the fullest margin. The <hi rend="italic">editio princeps</hi> (1778–1803) of J. White is based on this late <abbr>ms.</abbr>,
+                        which in fact accumulates the marginalia of two different stages of
+                        development. The dominance of White’s Gospel text was recently balanced by
+                        <abbr>ms.</abbr> Vat. Syr. 268, published by G. A. Kiraz in 1996 (as the Ḥarqlean line in
+                        Kiraz, <hi rend="italic">CESG</hi>). This <abbr>ms.</abbr> from the Nitrian <abbr>coll.</abbr> in the
+                        British Library represents the most original text and margin of the Ḥarqlean
+                        Gospels by its unrevised non- and pre-Byzantine readings. Though the date
+                        ‘1170 A. Gr.’ (858/59) on the almost illegible fol. 172v is not the original
+                        date of the <abbr>ms.</abbr> as Hatch, <hi rend="italic">Album,</hi> plate lxix declares
+                        (for details see Kiraz, <hi rend="italic">CESG</hi>, vol. 1, xlvi– xlvii),
+                        it is assigned to the 8th/9th <abbr>cent.</abbr> on palaeographical grounds. Important
+                        Gospel <abbr>mss.</abbr> with marginal notes of the first revisional stage are <abbr>ms.</abbr> Vat.
+                        Syr. 267 (8th), <abbr>ms.</abbr> Harvard Syr. 16 (8th/9th), <abbr>ms.</abbr> London, Brit. Libr. Add.
+                        7163, and <abbr>ms.</abbr> Mingana Syr. 124 (both 9th/10th), <abbr>ms.</abbr>
+                        <abbr> Syr. Orth.</abbr>
+                        <abbr> Patr.</abbr> Libr.
+                        12/8 (1055, from Dayr al-Zaʿfarān), <abbr>ms.</abbr>
+                        <abbr> Syr. Orth.</abbr>
+                        <abbr> Patr.</abbr> Libr. 12/9
+                        (998/999; formerly <abbr>ms.</abbr> Jerusalem, St. Mark 25, Hatch, <hi rend="italic">Album,</hi> plate lxxvi), <abbr>ms.</abbr> Chester Beatty Syr. 3 (1177, copied from
+                        a model of 841; Hatch, <hi rend="italic">Album,</hi> plate lxxxiii). <abbr>Mss.</abbr> of
+                        the first millennium without marginal notes are <abbr>ms.</abbr> London, Brit. Libr. Add.
+                        14,469 (935/36), and <abbr>ms.</abbr> Cambridge, Univ. Library or. 227 (1061/62, with <hi rend="italic">asterisks</hi> and <hi rend="italic">obeloi</hi>).</p>
+                    <p>5b. The second revisional stage (traceable in the Gospels only) is ascribed
+                        to <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Dionysios-bar-Salibi">
+                            <persName ref="http://syriaca.org/person/212">Dionysios
+                            bar Ṣalibi</persName>
+                        </ref> according to a subscription in <abbr>ms.</abbr> Oxford, New Coll.
+                        334 (12th/13th) and <abbr>ms.</abbr> London, Brit. Libr. Add. 17,124 (1233/34), both with
+                        marginal notes (Wright, <hi rend="italic">Catalogue  … British Museum</hi>,
+                        vol. 1, 42). Connected with this unhomogeneous stage are some 15 late <abbr>mss.</abbr>
+                        of which <abbr>ms.</abbr> Baghdad, Chaldean Monastery no. 25 (12th/13th; Vosté no. 16),
+                        <abbr>ms.</abbr> Paris, Bibl. Nat. Syr. 53 (12th), and <abbr>ms.</abbr> Oxford, New Coll. 333
+                        (12th/13th) are furnished with marginal and asterisked annotations.</p>
+                    <p>5c. Only two <abbr>mss.</abbr> of Acts (of unkown revisional stage) are <choice>
+                            <sic>availiable</sic>
+                            <corr>available</corr>
+                        </choice> today:
+                        <abbr>ms.</abbr> Oxford, New Coll. 333 (12th/13th) and <abbr>ms.</abbr> Cambridge, Univ. Libr. Add.
+                        1700 (1169/70, Hatch, <hi rend="italic">Album</hi>
+                        <choice>
+                            <sic/>
+                            <corr>,</corr>
+                        </choice> plate cxxix). Both <abbr>mss.</abbr>
+                        provide all books of the <abbr>NT</abbr> (without Rev.), only the first offers the
+                        Ḥarqlean marginal annotations. Besides these two <abbr>mss.</abbr>
+                        <abbr> ms.</abbr> London, Brit.
+                        Libr. Add. 14,474 (9th) includes the Catholic Epistles (with annotations; 1
+                        Pet. Peshitta). The Cambridge <abbr>ms.</abbr> also includes the two letters to the
+                        Corinthians ascribed to <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Clement-of-Rome-and-Pseudo-Clementine-literature">Clement of Rome</ref>. <abbr>Ms.</abbr>
+                        Jerusalem, St. Mark 37 (9th, with annotations) is the only early witness for
+                        St. Paul’s Letters. Revelation is represented by <abbr>ca.</abbr> ten late <abbr>mss.</abbr>, <abbr>ms.</abbr>
+                        Mardin Orth. 36/2 (13th; <abbr>ed.</abbr> by A. Vööbus [as 35/2] in <abbr>CSCO</abbr> 400 with an
+                        informative introduction) is furnished with a subscription, and
+                        marginal/asterisked readings. The book of Rev. in the Ḥarqlean version is
+                        still waiting for a critical edition; I. R. Beacham has, however, provided a
+                        thorough investigation.</p>
+                    <p>A special category of biblical <abbr>mss.</abbr> are the <abbr>mss.</abbr> of the so-called <ref rend="bold" target="https://gedsh.bethmardutho.org/Masora">Masora</ref>.</p>
+                    <p>6. Dated and datable <abbr>mss.</abbr> of the Peshitta (first millennium): Complete <abbr>NT</abbr>:
+                        <abbr>ms.</abbr> London, Brit. Libr. Add. 14,448 (700/01), Add. 7157 (767/68); <abbr>ms.</abbr>
+                        Pierpont Morgan Library 236 (749/750), <abbr>ms.</abbr> Paris, Bibl. Nat. Syr. 342 (894);
+                        Gospels: <abbr>ms.</abbr> Dayr al-Suryān 10 (510); <abbr>ms.</abbr> London, Brit. Libr. Add. 14,459,
+                        fol. 67–169 (between 528/38), <abbr>ms.</abbr> Vat. Syr. 12 (548), <abbr>ms.</abbr> London, Brit.
+                        Libr. Add. 14,464 (before 583), <abbr>ms.</abbr> Florence, Bibl. Laurenziana Plut. I,56
+                        (586; the <ref rend="bold" target="https://gedsh.bethmardutho.org/Rabbula-Gospels">Rabbula
+                            Gospels</ref>), <abbr>ms.</abbr> London, Brit. Libr. Add. 14,460 (599/600), Add.
+                        14,471 (614/15); Acts/<abbr>Cath.</abbr> Epistles: <abbr>ms.</abbr> London, Brit. Libr. Add. 14,472
+                        (before 624); Pauline Epistles: <abbr>ms.</abbr> London, Brit. Libr. Add. 14,478 (ante
+                        621/22), Add. 14,479 (533/34).</p>
+                    <p>For two reasons Peshitta <abbr>mss.</abbr> offer good conditions for qualified dating.
+                        Firstly, the number of dated and datable <abbr>mss.</abbr> is considerable. There are at
+                        least 10 such <abbr>mss.</abbr> of the 5th–8th <abbr>cent.</abbr>; their palaeographical features and
+                        codicological data offer help for an approximate dating of undated codices.
+                        Secondly, the large number of Peshitta <abbr>mss.</abbr> allows for tracing the
+                        development of variant readings. Considering the place of the dated <abbr>mss.</abbr>
+                        within this development, it is mainly possible to assign an approximate date
+                        to undated <abbr>mss.</abbr> by knowledge of their variants; <choice>
+                            <sic>e.g.</sic>
+                            <corr>e.g., </corr>
+                        </choice>misdated <abbr>mss.</abbr> corrected
+                        this way are <abbr>ms.</abbr> Sinai Syr. 3 (5th/6th, not 7th <abbr>cent.</abbr>), <abbr>ms.</abbr> Vat. Syr. 266
+                        (10th/11th <abbr>cent.</abbr>, not 7th); <abbr>ms.</abbr> London, Brit. Libr. Add. 14,478 (5th/6th
+                        <abbr>cent.</abbr>, not 621/22, which is the date of the owner’s note).</p>
+                    <p>See <choice>
+                            <sic>Fig. 29–31</sic>
+                            <corr>
+                                <ref target="https://gedsh.bethmardutho.org/fig/29">Fig. 29</ref>,
+                                    <ref target="https://gedsh.bethmardutho.org/fig/30">30</ref>, and
+                                    <ref target="https://gedsh.bethmardutho.org/fig/31">31</ref>
+                            </corr>
+                        </choice>.</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>I. R.  Beacham, <title rend="italic">The Harklean Syriac Version
+                                of Revelation: Manuscripts, text and methodology of translation from
+                                Greek</title> (Ph. D. <choice>
+                                <sic>Diss</sic>
+                                <corr>Diss.</corr>
+                            </choice>, Birmingham; 1990).</bibl>
+                        <bibl>S. P.  Brock, ‘Without Mushe of Nisibis, where would we be?’<choice>
+                                <sic>,</sic>
+                                <corr/>
+                            </choice>
+                            <title rend="italic">
+                                <abbr> JEastCS</abbr>
+                            </title> 56 (2004), 15–24.</bibl>
+                        <bibl>S. P.  Brock, <title rend="italic">The Bible in Syriac Tradition</title>
+                            (2nd <abbr>ed.</abbr>
+                            <choice>
+                                <sic/>
+                                <corr>,</corr>
+                            </choice> 2006).</bibl>
+                        <bibl>J. T.  Clemons, ‘A checklist of Syriac manuscripts in the United
+                            States and Canada’, <title rend="italic">
+                                <abbr>OCP</abbr>
+                            </title> 32 (1966), 224–51;
+                            478–522.</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>J. T.  Clemons</reg>
+                        <orig>idem</orig>
+                     </choice>, <title rend="italic">An index of Syriac manuscripts containing
+                                the Epistles and the Apocalypse</title> (1968).</bibl>
+                        <bibl>J.-B.  Chabot, ‘Note sur la polyglotte de la Bibliothèque Ambrosienne
+                            de Milan’, <title rend="italic">
+                                <abbr>OCP</abbr>
+                            </title> 13 (1947), 451–3.</bibl>
+                        <bibl>A.  Desreumaux, <title rend="italic">Répertoire des bibliothèques et
+                                des catalogues de manuscrits syriaques</title> (1991). (supplemented
+                            by Cl. Détienne, in <title rend="italic">
+                                <abbr>LM</abbr>
+                            </title> 105 [1992],
+                            283–302)</bibl>
+                        <bibl>J.  Gwynn, <title rend="italic">Remnants of the later Syriac versions
+                                of the Bible</title> (1909).</bibl>
+                        <bibl>Hatch, <title rend="italic">Album</title>.</bibl>
+                        <bibl>Kiraz, <title rend="italic">CESG</title>.</bibl>
+                        <bibl>J.  J.  Leroy, <title rend="italic">Les manuscrits syriaques à
+                                peinture conservés dans les bibliothèques d’Europe et
+                                d’Orient</title> (1964).</bibl>
+                        <bibl>Ph.  Pusey and G. H.  Gwilliam, <title rend="italic">Tetraeuangelium
+                                Sanctum</title> (<abbr>repr.</abbr> of the 1901 <abbr>ed.</abbr> with a new introduction on
+                            the Gospel <abbr>mss.</abbr>
+                            <choice>
+                                <sic/>
+                                <corr>,</corr>
+                            </choice> 2003).</bibl>
+                        <bibl>J. D.  Thomas, ‘A List of Manuscripts Containing the Harclean Syriac
+                            Version of the <abbr>NT</abbr>’, <title rend="italic">Theological Review (of the Near
+                                East School of Theology)</title> 2 (1979), 26–32 .</bibl>
+                        <bibl>E.  Tisserant, <title rend="italic">Specimina codicum
+                                orientalium</title> (1914).</bibl>
+                        <bibl>A.  Vööbus, <title rend="italic">Studies in the History of the Gospel
+                                Text in Syriac</title> (2  vols.; 1951/1987).</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>A.  Vööbus</reg>
+                        <orig>idem</orig>
+                     </choice>, <title rend="italic">The Apocalypse in the Harklean
+                                version</title> (<abbr>CSCO</abbr> 400; 1978).</bibl>
+                        <bibl>Wright, <title rend="italic">Catalogue … British Museum</title>, vol.
+                            3, preface. (on the acquisition of the ‘Nitrian collection’).</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Andreas</forename> 
+                  <surname>Juckel</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

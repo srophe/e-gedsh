@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Mary</title>
+            <author>
+               <persName>
+                  <forename>Sebastian P.</forename> 
+                  <surname>Brock</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.5">Electronic Edition Version 1.5</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Mary</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Mary</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/369</idno>
+                    <idno type="entry">360</idno>
+                    <milestone unit="pages" n="274-275"/>
+                    <idno type="subject">http://syriaca.org/person/624</idno>
+                    <note type="type">person</note>
+                    <note type="abstract">Mary, mother of Jesus, features prominently in all the
+                        Syriac liturgical and literary traditions.<note/>
+                    </note>
+                </ab>
+                <div type="body">
+                    <p>Mary, mother of Jesus, features prominently in all the Syriac liturgical and
+                        literary traditions. A special commemoration, the ‘Praises of Mary’, devoted
+                        to her immediately following the Nativity, is found in both E. and <abbr>W. Syr.</abbr>
+                        tradition, on the 2nd Friday after the Nativity in the former, and on 26
+                        Dec. in the latter. Again in both E. and <abbr>W. Syr.</abbr> traditions, the
+                        Annunciation is primarily celebrated during the ‘Period of the Annunciation
+                        (Subbara/Suboro)’, covering the Sundays immediately before Christmas. A
+                        separate commemoration on 25 March was added in the <abbr>Syr. Orth.</abbr> tradition in
+                        the early Middle Ages, and in the <abbr>Chald.</abbr> tradition. Also distinctive to the
+                        Syriac Churches are the agricultural commemorations of Mary of the Seeds (15
+                        Jan.) and Mary of the Blades of Wheat (<hi rend="italic">šeble</hi>; 15
+                        May).</p>
+                    <p>The Gospel genealogies concern only Joseph, but in due course a number of
+                        traditions grew up concerning her lineage (Davidic and/or Levitical), and
+                        besides Joachim and Anna as the names of her parents, a few texts provide
+                        Zadoq and Dina as alternatives. The earliest elaborations of traditions
+                        concerning her life are to be found in the 2nd-cent. (Greek) Protogospel of
+                        James, translated into Syriac. She features obliquely in the <ref rend="bold" target="https://gedsh.bethmardutho.org/Solomon-Odes-of">Odes
+                            of Solomon</ref> (Ode 19), and very prominently in <ref rend="bold" target="https://gedsh.bethmardutho.org/Ephrem">
+                            <persName ref="http://syriaca.org/person/13">Ephrem</persName>
+                        </ref>’s <hi rend="italic">madrāše</hi> on the Nativity (some of which are written
+                        with her as the imagined speaker [<choice>
+                            <sic>e.g</sic>
+                            <corr>e.g.,</corr>
+                        </choice> no. 11]). She is also the subject of a
+                        group of early <hi rend="italic">madrāše</hi> attributed (wrongly) to
+                        Ephrem, as well as of a number of <hi rend="italic">memre</hi> by <ref rend="bold" target="https://gedsh.bethmardutho.org/Yaqub-of-Serugh">
+                            <persName ref="http://syriaca.org/person/42">Yaʿqub of Serugh</persName>
+                        </ref>. She features as the protagonist in several
+                        dialogue <hi rend="italic">soghyāthā</hi> (Mary and the Angel, Mary and
+                        Joseph, Mary and the Magi, Mary and the risen Jesus), and in a number of
+                        anonymous <hi rend="italic">memre</hi> (including a narrative poem on Mary
+                        and Joseph). Some of the earliest texts concerning the death, or
+                        ‘Departure’, of Mary are preserved in early Syriac <abbr>mss.</abbr>, and these play an
+                        important role in the study of the development of traditions concerning her
+                        Dormition/Assumption. Numerous liturgical texts commemorating her in both
+                        prose and poetry are to be found in all the Syriac liturgical traditions; in
+                        the <abbr>Melk.</abbr> tradition, in particular, there are many texts on Mary which are
+                        translated from Greek (including the ‘Akathistos’). In the verse texts
+                        especially, great use is made of typology, whose aim is to bring out
+                        different aspects of her miraculous birthgiving and the relationship between
+                        her and her Child; thus numerous prefigurations of her in the <abbr>OT</abbr> are
+                        identified, such as the ‘fleece’ of Judg. 6:36–7, ‘thirsty earth’ of Is.
+                        53:2, or ‘door’ of Ez. 44:2. Most of these ‘types’ are also to be found in
+                        Greek and Latin liturgical poetry, and this applies to the extensive
+                        contrasted Eve/Mary typology, which gave rise to the imagery of the divine
+                        Word being sown in Mary’s ear, thus providing a specific contrast with Eve’s
+                        listening to the serpent’s false promise. Some of the ‘types’, however, are
+                        distinctive to the Syriac tradition: thus Mary as a ‘tree’ is based
+                        ultimately on Ephrem’s Commentary on Gen. 22:13, where the ram ‘held’ in the
+                        tree (bush) is seen as a type of Christ, the Lamb, held in Mary’s womb.</p>
+                    <p>At the roots of the controversy over the use of the title ‘Bearer of God’
+                            (<hi rend="italic">yāldat alāhā</hi>) lie two different
+                        conceptualizations of how salvation for humanity is brought about by Christ.
+                        For the W.-Syr. tradition the Word of God descends and underpins, as it
+                        were, humanity at the incarnation, so that the title ‘Bearer of God’ simply
+                        expresses Mary’s role in salvation history. For the <abbr>Ch. of E.</abbr>, however,
+                        salvation is conceived as being effected for humanity through the raising of
+                        Christ’s body, representing our humanity, at the Ascension; accordingly, it
+                        is essential to distinguish mentally between Christ’s divinity and the
+                        humanity which he has assumed at his birth from Mary, otherwise salvation
+                        would not be ensured.</p>
+                    <p>See <ref target="https://gedsh.bethmardutho.org/fig/71c">Fig. 71c</ref>.</p>
+                </div>
+                <div type="bibl">
+                    <listBibl>
+                        <listBibl>
+                            <head>Primary Sources</head>
+                            <bibl>S. P. Brock, <title rend="italic">Bride of Light. Hymns on Mary
+                                    from the Syriac Churches</title> (Moran Etho 6; 1994, new <abbr>ed.</abbr>
+                                forthcoming). (<abbr>ET</abbr>)</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>S. P. Brock</reg>
+                           <orig>idem</orig>
+                        </choice>, ‘The genealogy of the Virgin Mary in Sinai Syr. 16’, <title rend="italic">Scrinium</title> 2 (2006), 58–71. (Syr.)</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>S. P. Brock</reg>
+                           <orig>idem</orig>
+                        </choice>, <title rend="italic">Mary and Joseph, and other
+                                    dialogues</title> (forthcoming). (Syr. with <abbr>ET</abbr>)</bibl>
+                            <bibl>E. A. W. Budge, <title rend="italic">History of the Blessed Virgin
+                                    Mary</title> (2 vols.; 1899). (Syr. with <abbr>ET</abbr>)</bibl>
+                            <bibl>J. Y.  Çiçek, <title rend="italic">Tašʿito d-Yoldat Aloho
+                                    Maryam</title> [Die Heilige Meryem] (Glane/Losser, 2001). (Syr.;
+                                in 6 Books; = <title rend="italic">Clavis Apocryphorum Novi
+                                    Testamenti</title> [1992], no. 95)</bibl>
+                            <bibl>G.  Gharib (<abbr>ed.</abbr>), <title rend="italic">Testi Mariani del primo
+                                    millennio</title>, vol. 4. <title rend="italic">Padri e altri
+                                    autori orientali</title> (1991). (includes many translations
+                                from Syriac).</bibl>
+                            <bibl>M.  Hansbury, <title rend="italic">Jacob of Serug, on the Mother
+                                    of God</title> (1998). (<abbr>ET</abbr>)</bibl>
+                            <bibl>T. J.  Lamy, <title rend="italic">Sancti Ephraem Syri Hymni et
+                                    Sermones</title>, vol. 2 (1886), 519–90. (Syr. of hymns on Mary
+                                attributed to Ephrem).</bibl>
+                            <bibl>A. S.  Lewis, <title rend="italic">Apocrypha Syriaca</title>
+                                (Studia Sinaitica 11; 1902). (Syr.)</bibl>
+                            <bibl>J. Madey, <title rend="italic">Marienlob aus dem Orient</title>
+                                (1982). (<abbr>GT</abbr> from <abbr>Syr. Orth. </abbr>
+                                <hi rend="italic">Šḥimo</hi>).</bibl>
+                            <bibl>V.  Pathikulangara, <title rend="italic">Mary Matha. The ‘Divine
+                                    Praises’ for the Feast Days of the Blessed Virgin Mary according
+                                    to the East Syriac or Chaldeo-Indian Liturgical Heritage</title>
+                                (Kottayam, 1998). (<abbr>ET</abbr>)</bibl>
+                            <bibl>C.  Vona, <title rend="italic">Omilie mariologiche di S. Giacomo
+                                    di Sarug</title> (1953). (<abbr>IT</abbr>)</bibl>
+                            <bibl>W.  Wright, <title rend="italic">Contributions to the Apocryphal
+                                    Literature of the New Testament</title> (1865). (Syr.)</bibl>
+                        </listBibl>
+                        <listBibl>
+                            <head>Secondary Sources</head>
+                            <bibl>S. P. Brock, ‘Mary in Syriac tradition’, in <title rend="italic">Mary’s Place in Christian Dialogue</title>, <abbr>ed.</abbr> A. Stacpoole
+                                (1982), 182–91.</bibl>
+                            <bibl>M.  van  Esbroeck, ‘Syrien II, Literaturgeschichte’, in <title rend="italic">Marienlexikon</title> 6 (1994), 344–9.</bibl>
+                            <bibl>R. Murray, ‘Mary, the Second Eve, in the early Syriac Fathers’,
+                                    <title rend="italic">
+                                    <abbr>ECR</abbr>
+                                </title> 3 (1971), 372–84.</bibl>
+                            <bibl>J.  Puthuparampil, <title rend="italic">Mariological Thought of
+                                    Mar Jacob of Serugh (451–521)</title> (Moran Etho 25;
+                                2005).</bibl>
+                            <bibl>S. J. Shoemaker, <title rend="italic">Ancient Traditions of the
+                                    Virgin Mary’s Dormition and Assumption</title> (2002).</bibl>
+                            <bibl>N.  Smelova, ‘Biblical allusions and citations in the Syriac
+                                Theotokia ...’, in <title rend="italic">The Bible in Arab
+                                    Christianity</title>, <abbr>ed.</abbr> D. Thomas (2007), 367–91.</bibl>
+                            <bibl>Mar Bawai Soro, <title rend="italic">Mary in the Catholic-Assyrian
+                                    Dialogue. An Assyrian Perspective</title> (Ecumenical Society of
+                                the Blessed Virgin, 1999).</bibl>
+                            <bibl>P.  Yousif, ‘La bellezza di Maria cantata da Efrem di Nisibi’,
+                                    <title rend="italic">Theotokos: Ricerche interdisciplinari di
+                                    Mariologia</title> 13 (2005), 147–94.</bibl>
+                        </listBibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Sebastian P.</forename> 
+                  <surname>Brock</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

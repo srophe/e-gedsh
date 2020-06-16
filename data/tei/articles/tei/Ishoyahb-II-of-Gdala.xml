@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Ishoʿyahb II of Gdala</title>
+            <author>
+               <persName>
+                  <forename>Sebastian P.</forename> 
+                  <surname>Brock</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.5">Electronic Edition Version 1.5</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Ishoʿyahb II of Gdala</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Ishoyahb-II-of-Gdala</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/297</idno>
+                    <idno type="entry">288</idno>
+                    <milestone unit="pages" n="218"/>
+                    <idno type="subject">http://syriaca.org/person/560</idno>
+                    <note type="type">person</note>
+                    <note type="abstract">
+                        <abbr>Cath.</abbr> (628-45) and author.<note/>
+                    </note>
+                </ab>
+                <ab type="infobox">(d. <abbr>ca.</abbr> 646) [Ch. of E.]</ab>
+                <div type="body">
+                    <p>
+                        <abbr>Cath.</abbr> (628–45) and author. Originating from Gdala (in <ref rend="bold" target="https://gedsh.bethmardutho.org/Beth-Arbaye">
+                            <placeName ref="http://syriaca.org/place/31">Beth ʿArbaye</placeName>
+                        </ref>),
+                        he evidently studied at the <ref rend="bold" target="https://gedsh.bethmardutho.org/Nisibis-School-of">School of
+                            Nisibis</ref>, and was one of the group who left the School <abbr>ca.</abbr> 597 in
+                        protest against the teaching of the director, <ref rend="bold" target="https://gedsh.bethmardutho.org/Henana">
+                            <persName ref="http://syriaca.org/person/530">Ḥenana</persName>
+                        </ref> of <ref rend="bold" target="https://gedsh.bethmardutho.org/Adiabene">
+                            <placeName ref="http://syriaca.org/place/993">
+                            Adiabene</placeName>
+                        </ref>. According to the Khuzistan Chronicle he had married ‘in
+                        his youth’, but nevertheless was appointed <abbr>bp.</abbr> of <ref rend="bold" target="https://gedsh.bethmardutho.org/Balad">
+                            <placeName ref="http://syriaca.org/place/42">Balad</placeName>
+                        </ref> (whether or not
+                        as a widower is unclear), before becoming <abbr>
+                            <choice>
+                                <sic>Cath.</sic>
+                                <corr>cath.</corr>
+                            </choice>
+                        </abbr> In 630 he was sent by Queen
+                        Boran on an embassy to Heraclius, together with the future <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Ishoyahb-III-of-Adiabene">
+                            <persName ref="http://syriaca.org/person/561">Ishoʿyahb III</persName>
+                        </ref> and <ref rend="bold" target="https://gedsh.bethmardutho.org/Sahdona-Martyrius">
+                            <persName ref="http://syriaca.org/person/711">Sahdona</persName>
+                        </ref>; the meeting
+                        with the Byzantine emperor took place in <ref rend="bold" target="https://gedsh.bethmardutho.org/Aleppo">
+                            <placeName ref="http://syriaca.org/place/18">Aleppo</placeName>
+                        </ref>. Although
+                        late sources claim he corresponded with Muḥammad and met ʿUmar, in fact he
+                        appears to have left <ref rend="bold" target="https://gedsh.bethmardutho.org/Seleucia-Ctesiphon">
+                            <placeName ref="http://syriaca.org/place/182">Seleucia-Ctesiphon</placeName>
+                        </ref> when the city was taken by the Arabs in 637/8
+                        and withdrawn to <ref rend="bold" target="https://gedsh.bethmardutho.org/Karka-d-Beth-Slokh">
+                            <placeName ref="http://syriaca.org/place/108">Karka</placeName>
+                        </ref> in
+                            <ref rend="bold" target="https://gedsh.bethmardutho.org/Beth-Garmai">
+                            <placeName ref="http://syriaca.org/place/33">Beth
+                            Garmai</placeName>
+                        </ref>. His only surviving writings are: a long letter to Rabban
+                        Abraham of Beth Madaye on christology (<abbr>ed.</abbr> Sako, with <abbr>FT</abbr>), a profession of
+                        faith (preserved only in Arabic; text and tr. in Sako, 59–60), and the <hi rend="italic">tešboḥtā</hi> ‘Our father in heaven, holy in his
+                        nature ...’, which is also attributed in some <abbr>mss.</abbr> to <ref rend="bold" target="https://gedsh.bethmardutho.org/Babai-the-Great">
+                            <persName ref="http://syriaca.org/person/359">Babai the
+                            Great</persName>
+                        </ref>. The Chronicle of <ref rend="bold" target="https://gedsh.bethmardutho.org/Siirt">
+                            <placeName ref="http://syriaca.org/place/188">Siirt</placeName>
+                        </ref> provides a
+                        Letter in reply to Barṣawma, <abbr>bp.</abbr> of Susa, who had accused Ishoʿyahb of
+                        compromising the christological position of the <abbr>Ch. of E.</abbr> when he met
+                        Heraclius; according to Sako, however, this is not genuine.</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>L. R. M.  Sako, <title rend="italic">Lettre christologique du
+                                patriarche syro-oriental Ishoʿyahb II de Gdala</title> (1983). (the
+                            introduction sets out and discusses all the sources for his life and
+                            writings)</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Sebastian P.</forename> 
+                  <surname>Brock</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

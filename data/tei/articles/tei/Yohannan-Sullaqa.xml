@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Yoḥannan Sullaqa</title>
+            <author>
+               <persName>
+                  <forename>Herman G. B.</forename> 
+                  <surname>Teule</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.5">Electronic Edition Version 1.5</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Yoḥannan Sullaqa</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Yohannan-Sullaqa</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/613</idno>
+                    <idno type="entry">604</idno>
+                    <milestone unit="pages" n="443"/>
+                    <idno type="subject">http://syriaca.org/person/829</idno>
+                    <note type="type">person</note>
+                    <note type="abstract">Catholicos.
+                    </note>
+                </ab>
+                <ab type="infobox">(<abbr>ca.</abbr> 1510–1555) [Ch. of E. and then <abbr>Chald.</abbr>]</ab>
+                <div type="body">
+                    <p>Born in <ref rend="bold" target="https://gedsh.bethmardutho.org/Mosul">
+                            <placeName ref="http://syriaca.org/place/139">Mosul</placeName>
+                        </ref>, he became monk and abbot of the <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Hormizd-Monastery-of-Rabban">
+                            <placeName ref="http://syriaca.org/place/168">Monastery of Rabban Hormizd</placeName>
+                        </ref> near <ref rend="bold" target="https://gedsh.bethmardutho.org/Alqosh">
+                            <placeName ref="http://syriaca.org/place/19">Alqosh</placeName>
+                        </ref>. In 1552, a
+                        synod of E.-Syr. bishops elected Yoḥannan <abbr>
+                            <choice>
+                                <sic>Patr.</sic>
+                                <corr>patr.</corr>
+                            </choice>
+                        </abbr> of the <abbr>Ch. of E.</abbr> in order to
+                        protest against the not canonical, but in this period institutionalized
+                        system of hereditary succession, where the dignity of <abbr>
+                            <choice>
+                                <sic>Patr.</sic>
+                                <corr>patr.</corr>
+                            </choice>
+                        </abbr> was mostly
+                        passed from uncle to nephew and thus remained within the same family. This
+                        synod was not recognized by the legitimate <abbr>Patr.</abbr> Shemʿon VII bar Mama and a
+                        part of the E.-Syr. bishops. In order to obtain recognition, at the
+                        initiative of Latin missionaries, Yoḥannan Sullaqa contacted Roman Catholic
+                        authorities and traveled to Rome by way of <ref rend="bold" target="https://gedsh.bethmardutho.org/Jerusalem">
+                            <placeName ref="http://syriaca.org/place/104">Jerusalem</placeName>
+                        </ref>, where
+                        his travel companions sent a letter to Pope Julius III requesting him to
+                        ordain Yoḥannan Sullaqa as their <choice>
+                            <sic>Catholicos</sic>
+                            <corr>catholicos</corr>
+                        </choice> 
+                  <abbr>
+                            <choice>
+                                <sic>Patr.</sic>
+                                <corr>patr.</corr>
+                            </choice>
+                        </abbr> On the basis of the later
+                        oral testimony of Yoḥannan Sullaqa in Rome, the Roman authorities
+                        incorrectly assumed that <abbr>Patr.</abbr> Shemʿon VII had died in 1551, which paved the
+                        way to ordain him a <abbr>bp.</abbr> and appoint him as ‘<abbr>Patr.</abbr> of Mosul’ (1553). After
+                        his ordination Yoḥannan Sullaqa took the name of Shemʿon VIII, returned to
+                        the Middle East, and, recognized by the Ottoman authorities, established
+                        himself in <ref rend="bold" target="https://gedsh.bethmardutho.org/Amid">
+                            <placeName ref="http://syriaca.org/place/8">Amid
+                        </placeName>
+                        </ref> (Diyarbakır), where he ordained a Metropolitan and several bishops in
+                        order to secure his succession as head of the new E.-Syr. Uniate Church. He
+                        died in 1555, probably assassinated at the instigation of Shemʿon VII (d.
+                        1558), as appears from a panegyric on Yoḥannan Sullaqa, composed by his
+                        successor <ref rend="bold" target="https://gedsh.bethmardutho.org/Abdisho-of-Gazarta">
+                            <persName ref="http://syriaca.org/person/311">ʿAbdishoʿ of
+                            Gazarta</persName>
+                        </ref>.</p>
+                    <p>Yoḥannan Sullaqa is the author of three different professions of faith
+                        (1553), originally composed in Syriac. Two of them (of Catholic inspiration)
+                        were translated into Latin by <ref rend="bold" target="https://gedsh.bethmardutho.org/Masius-Andreas">
+                            <persName ref="http://syriaca.org/person/625">Andreas
+                            Masius</persName>
+                        </ref>; the third is found in the panegyric of ʿAbdishoʿ and
+                        clearly belongs to the <abbr>Ch. of E.</abbr>
+                    </p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>J. Habbi, ‘Signification de l’union de Mar Sulaqa avec Rome en
+                            1553’, <title rend="italic">
+                                <abbr>OS</abbr>
+                            </title> 11 (1966), 99–132,
+                            199–230.</bibl>
+                        <bibl>J. Lampart, <title rend="italic">Ein Märtyrer der Union mit Rome<choice>
+                                    <sic/>
+                                    <corr>:</corr>
+                                </choice>
+                                Joseph I, 1681–1696, Patriarch der Chaldäer</title> (1966),
+                            49–58.</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Herman G. B.</forename> 
+                  <surname>Teule</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

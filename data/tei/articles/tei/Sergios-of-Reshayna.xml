@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Sergios of Reshʿayna</title>
+            <author>
+               <persName>
+                  <forename>Sebastian P.</forename> 
+                  <surname>Brock</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.5">Electronic Edition Version 1.5</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#dschwartz"
+             n="1.0"
+             when="2020-06-02-04:00">
+             At the request of Luk Van Romapy and George Kiraz, I fixed an error in a bibliographic reference (from E. Vergani to E. Fiori) and added Fiori to the bibliography.
+         </change>
+          <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Sergios of Reshʿayna</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Sergios-of-Reshayna</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/494</idno>
+                    <idno type="entry">485</idno>
+                    <milestone unit="pages" n="366"/>
+                    <idno type="subject">http://syriaca.org/person/49</idno>
+                    <note type="type">person</note>
+                    <note type="abstract">Translator of Greek medical, philosophical, and theological texts into
+                        Syriac.<note/>
+                    </note>
+                </ab>
+                <ab type="infobox">(d. 536) [<abbr>Syr. Orth.</abbr>?]</ab>
+                <div type="body">
+                    <p>Translator of Greek medical and philosophical texts into Syriac. Most of the
+                        little that is known of his life has to be gleaned from a paragraph in <ref rend="bold" target="https://gedsh.bethmardutho.org/Zacharias-Pseudo-">Pseudo-Zacharias</ref> (Ecclesiastical History, 9:19). He
+                        evidently received his education, which included <ref rend="bold" target="https://gedsh.bethmardutho.org/Medicine">medicine</ref>, in Alexandria, and he is regularly designated in the
+                        sources as ‘Archiatros (chief doctor) of <ref rend="bold" target="https://gedsh.bethmardutho.org/Reshayna">
+                            <placeName ref="http://syriaca.org/place/172">Reshʿayna</placeName>
+                        </ref>’.
+                        Towards the end of his life he was sent by Ephrem, <abbr>Patr.</abbr> of <ref rend="bold" target="https://gedsh.bethmardutho.org/Antioch">
+                            <placeName ref="http://syriaca.org/place/10">Antioch</placeName>
+                        </ref> (526/8–545)
+                        with a letter to Pope Agapetus; it was on the return from this journey that
+                        he died suddenly at Constantinople.</p>
+                    <p>Sergios’s considerable literary output combined both original works, and
+                        numerous translations from Greek (a detailed list is given by
+                        Hugonnard-Roche, <hi rend="italic">La logique</hi>, 125–32). The
+                        translations fall into three categories:</p>
+                    <p>1. Theological. The corpus of mystical writings attributed to <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Dionysius-the-Areopagite-Pseudo-">Dionysius the Areopagite</ref> (preserved in <abbr>ms.</abbr> Sinai Syr.
+                        52, not yet edited apart from extracts). On the basis of a passage in <ref rend="bold" target="https://gedsh.bethmardutho.org/Yawsep-Hazzaya">
+                            <persName ref="http://syriaca.org/person/816">Yawsep
+                            Ḥazzaya</persName>
+                        </ref>’s ‘Book of Questions’, Sergios seems also to have been the
+                        translator of the unexpurgated version of <ref rend="bold" target="https://gedsh.bethmardutho.org/Evagrius-of-Pontus">
+                            <persName ref="http://syriaca.org/person/483">Evagrius</persName>
+                        </ref>’s
+                        ‘Gnostic Chapters’ (<abbr>ed.</abbr> A. Guillaumont [<abbr>PO</abbr> 29.1; 1985]; see Guillaumont, <hi rend="italic">Les ‘Kephalaia Gnostica’ d’Évagre le Pontique</hi> [1962],
+                        215–27).</p>
+                    <p>2. Medicine and astronomy. A considerable number of medical treatises by <ref rend="bold" target="https://gedsh.bethmardutho.org/Galen">
+                            <persName ref="http://syriaca.org/person/496">Galen</persName>
+                        </ref> are
+                        enumerated in a famous letter by <ref rend="bold" target="https://gedsh.bethmardutho.org/Hunayn-b-Ishaq">
+                            <persName ref="http://syriaca.org/person/542">Ḥunayn <abbr>b.</abbr>
+                            Isḥāq</persName>
+                        </ref> (d. 873) as having been the work of Sergios, but only a few
+                        of these survive (<choice>
+                            <sic>e.g.</sic>
+                            <corr>e.g., </corr>
+                        </choice>
+                        <abbr>ed.</abbr> E. Sachau, <hi rend="italic">Inedita Syriaca</hi>
+                        [1870], 101–34; the second treatise there has recently been identified by G.
+                        Saliba, in <hi rend="italic">Byzantion</hi> 65 [1995], 443–4, as in fact
+                        being closely based on Paul of Alexandria).</p>
+                    <p>3. Philosophy. Notably among these are the Pseudo-Aristotelian work, ‘On the
+                        Universe’, addressed to Alexander the Great (<abbr>ed.</abbr> de Lagarde, <hi rend="italic">Analecta Syriaca</hi> [1858], 134–58), and a treatise ‘On
+                        the causes of the Universe’ (unpublished) which has only recently been
+                        identified by D. Miller (in <abbr>
+                            <title rend="italic">SymSyr</title> VI</abbr>, 221–33) as a
+                        work by Alexander of Aphrodisias that is lost in Greek, and preserved
+                        elsewhere only in Arabic (<abbr>ed.</abbr> C. Genequand 2001). In an influential
+                        monograph of 1852 E. Renan (followed by <ref rend="bold" target="https://gedsh.bethmardutho.org/Baumstark-Anton">
+                            <persName ref="http://syriaca.org/person/377">Baumstark</persName>
+                        </ref>),
+                        attributed a number of anonymous translations to Sergios, including those of
+                            <ref rend="bold" target="https://gedsh.bethmardutho.org/Porphyry">
+                            <persName ref="http://syriaca.org/person/684">Porphyry</persName>
+                        </ref>’s ‘Introduction’ to <ref rend="bold" target="https://gedsh.bethmardutho.org/Aristotle">
+                            <persName ref="http://syriaca.org/person/342">Aristotle</persName>
+                        </ref>’s
+                        logical works, and Aristotle’s ‘Categories’; these attributions, however,
+                        are now known to be definitely incorrect.</p>
+                    <p>Sergios’s original writings which survive include: 1. a Treatise on the
+                        Spiritual Life (<abbr>ed.</abbr> P. Sherwood in <hi rend="italic">L’Orient Syrien</hi> 5
+                        [1960], 433–59; 6 [1961], 95–115, 121–156, with <abbr>FT</abbr>; <abbr>IT</abbr> by E. <choice><sic>Vergani</sic><corr>Fiori</corr></choice>
+                        [2008]); this prefaces his translation of the Dionysian Corpus. It is
+                        already cited, though not by name, by <ref rend="bold" target="https://gedsh.bethmardutho.org/Gabriel-Qatraya">
+                            <persName ref="http://syriaca.org/person/495">Gabriel
+                            Qaṭraya</persName>
+                        </ref> in his ‘Commentary on the Liturgy’; 2. a Treatise
+                        addressed to Philotheos, on Aristotle’s ‘Categories’ (unpublished; study and
+                        partial <abbr>FT</abbr> in Hugonnard-Roche, chap. 7); 3. a Treatise addressed to
+                        Theodore, ‘On the aim of all Aristotle’s writings’ (unedited; study and <abbr>FT</abbr>
+                        of Prologue and Book I by Hugonnard-Roche, chap. 8–9); 4. various Scholia on
+                        philosophical terms.</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>A.  Baumstark, ‘De Sergio Resaïnensi librorum Graecorum
+                            interprete Syro’, in <title rend="italic">Lucubrationes
+                                Syro-Graecae</title> (Jahrbücher für classische Philologie, Suppl.
+                            21.5; 1894), 358–438.</bibl>
+                        <bibl>G. Bergsträsser, <title rend="italic">Ḥunayn ibn Isḥaq über die
+                                syrischen und arabischen Galen-Übersetzungen</title> (Abhandlungen
+                            für die Kunde des Morgenlandes 19:2; 1925).</bibl>
+                        <bibl>R. Degen, ‘Galen im Syrischen’, in <title rend="italic">Galen:
+                                Problems and Prospects</title>, <abbr>ed.</abbr> V. Nutton (1981), 131–66.</bibl>
+                        <bibl>E. Fiori, <title rend="italic">Sergio di Resh`ayna. Trattato sulla vita spirituale</title> (2008).</bibl>
+                        <bibl>H.  Hugonnard-Roche, <title rend="italic">La logique d’Aristote: du
+                                grec au syriaque</title> (2004), 123–230.</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Sebastian P.</forename> 
+                  <surname>Brock</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

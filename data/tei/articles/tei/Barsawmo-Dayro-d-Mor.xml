@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Barṣawmo, Dayro d-Mor</title>
+            <author>
+               <persName> 
+                  <forename>Hidemi</forename> 
+                  <surname>Takahashi</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.5">Electronic Edition Version 1.5</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Barṣawmo, Dayro d-Mor</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Barsawmo-Dayro-d-Mor</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/90</idno>
+                    <idno type="entry">81</idno>
+                    <milestone unit="pages" n="60-61"/>
+                    <idno type="althead" subtype="altorder">Dayro d-Mor Barṣawmo</idno>
+                    <idno type="subject">http://syriaca.org/place/224</idno>
+                    <note type="type">place</note>
+                    <note type="abstract">Monastery southeast
+                        of Melitene, named after the 5th-cent. ascetic Barṣawmo.<note/>
+                    </note>
+                </ab>
+                <ab type="infobox">[<abbr>Syr. Orth.</abbr>]</ab>
+                <div type="body">
+                    <p>The monastery, situated in the mountains to the southeast of <ref rend="bold" target="https://gedsh.bethmardutho.org/Melitene">
+                            <placeName ref="http://syriaca.org/place/136">Melitene </placeName>
+                        </ref> and named
+                        after the 5th-cent. ascetic <ref rend="bold" target="https://gedsh.bethmardutho.org/Barsawmo">
+                            <persName ref="http://syriaca.org/person/370">Barṣawmo</persName>
+                        </ref>, rose to
+                        prominence as the regular residence of <abbr>Syr. Orth.</abbr> Patriarchs in the
+                        11th–13th <abbr>cent.</abbr>, the period often referred to as the <ref rend="bold" target="https://gedsh.bethmardutho.org/Renaissance-Syriac">Syriac
+                            Renaissance</ref>. The ruins of the fortified monastery have been
+                        located around a peak 1600 m high at the south-western end of the Kaplı
+                        Dağı, above the village of Peraş (1300  m) in the upper valley of the Kâhta
+                        Çayı and approximately 20 km. to the northeast of Nemrut Dağı, the site of
+                        the ancient sanctuary built by Antiochus I of Commagene (70–38 BC), whence
+                        the materials may have been brought that were used in the construction of
+                        the vaults of the new church of the monastery in 1186 (Honigmann, 49).</p>
+                    <p>The original monastery founded by Mor Barṣawmo probably lay at the foot of
+                        the mountain near the Kâhta Çayı. The ‘upper’ monastery must have been built
+                        before 790 when <abbr>Patr.</abbr> 
+                  <ref rend="bold" target="https://gedsh.bethmardutho.org/Giwargis-of-Beltan">
+                            <persName ref="http://syriaca.org/person/139">Giwargis of
+                            Bʿeltan</persName>
+                        </ref> is said to have ascended there to die. After the
+                        large-scale movement of <abbr>Syr. Orth.</abbr> Christians into the area around Melitene
+                        in the 10th <abbr>cent.</abbr>, <abbr>Patr.</abbr> Yuḥanon da-Srigteh (965–986) and Athanasios Ṣalḥoyo
+                        (987–1003) normally resided at the Monastery of Barid, which was probably
+                        located near the River Giḥun (Ceyhan) some way to the west of Dayro d-Mor
+                        Barṣawmo, but Athanasios is recorded as having died in Dayro d-Mor Barṣawmo,
+                        and was succeeded by Yuḥanon bar ʿAbdun (1004–31), a monk of that monastery.
+                        <abbr>Patr.</abbr> Dionysios IV (1032–42) was forced to seek refuge in <ref rend="bold" target="https://gedsh.bethmardutho.org/Amid">
+                            <placeName ref="http://syriaca.org/place/8">Amid</placeName>
+                        </ref> because of
+                        persecution by Chalcedonians, and, with the exception of Athanasios  Ḥoye
+                        (1058–63), his immediate successors normally resided outside areas under
+                        Byzantine rule, but with the weakening of Byzantine control in the wake of
+                        the Battle of Manzikert (1071), Dayro d-Mor Barṣawmo and the surrounding
+                        region became once again the center stage of <abbr>Syr. Orth.</abbr> activities. Among
+                        the patriarchs from that period, Basilios III (1074–75) and Athanasios bar
+                        Kamore (1091–1129) were monks of Mor Barṣawmo. It is reported that measures
+                        were taken to strengthen the fortification of the monastery in 1101 and
+                        1164, measures which were necessitated by the attraction that the monastery
+                        with its relic of Barṣawmo and its wealth exerted not only on pilgrims but
+                        also on less welcome visitors, as well as by its precarious position on the
+                        border between Frankish and Armenian territory to the south and Turkish
+                        territory to the north. Among the events from the middle of the 12th <abbr>cent.</abbr>,
+                        mention may be made of the plunder of the monastery by Count Joscelin II of
+                            <ref rend="bold" target="https://gedsh.bethmardutho.org/Edessa">
+                            <placeName ref="http://syriaca.org/place/78">Edessa</placeName>
+                        </ref> in 1148 and the synod held there in 1155 under Athanasios
+                        VI bar Qeṭreh (1138/9–66). The monastery saw its heyday under <abbr>Patr.</abbr> 
+                  <ref rend="bold" target="https://gedsh.bethmardutho.org/Michael-I-Rabo">
+                            <persName ref="http://syriaca.org/person/217">Michael I Rabo</persName>
+                        </ref> (1166–99), who had been its abbot before his
+                        election as <abbr>patr.</abbr> The monastery, which became the regular venue for synods
+                        under Michael  I, suffered serious damage by fire in 1183. Michael I was
+                        succeeded as <abbr>patr.</abbr> by another abbot of Dayro d-Mor Barṣawmo, Rabban Ṣaliba,
+                        who as <abbr>patr.</abbr> took the name Athanasios (1199–1207), while his rival <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Michael-II-the-Younger">
+                            <persName ref="http://syriaca.org/person/223">Michael II
+                            the Younger</persName>
+                        </ref>, a nephew of Michael I, had also been educated in the
+                        monastery. Patriarchs begin to reside less frequently at Dayro d-Mor
+                        Barṣawmo in the following period. Ignatius III Dawid (1222–52), although
+                        originally a monk of the monastery, spent much of his patriarchate in
+                        Armenian and Frankish territory at Qalʿa Rumoyto (Hromklay, Rum Kale) and
+                            <ref rend="bold" target="https://gedsh.bethmardutho.org/Antioch">
+                            <placeName ref="http://syriaca.org/place/10">Antioch</placeName>
+                        </ref>. In the schism following his death Dionysios ʿAngur
+                        (1252–61) took up residence in the monastery and was joined there for a time
+                        by <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Bar-Ebroyo-Grigorios">
+                            <persName ref="http://syriaca.org/person/239">Bar ʿEbroyo</persName>
+                        </ref>, who was to revisit the monastery as
+                        maphrian on at least two occasions. <abbr>Patr.</abbr> Ignatius IV Yeshuʿ (1264–83) had
+                        to engage in a long dispute over the control of the monastery with its abbot
+                        Yaʿqub and his influential brother Shemʿun of Qalʿa Rumoyto. His successor
+                        Philoxenos Nemrod (1283–92), a nephew of Shemʿun and Yaʿqub, seems normally
+                        to have resided in Dayro d-Mor Barṣawmo, which was badly damaged by an
+                        earthquake in 1284/5, and it was there that <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Barsawmo-Safi-Grigorios">
+                            <persName ref="http://syriaca.org/person/245">Barṣawmo
+                            Ṣafī</persName>
+                        </ref>, the younger brother of Bar ʿEbroyo, was consecrated maphrian
+                        in 1288. The monastery seems to have been deserted not long after the murder
+                        in 1293 of Constantine, the Melitenian patriarchal claimant in the three-way
+                        schism that followed the death of Philoxenos, and, after the extinction also
+                        of the Cilician line of patriarchs, was replaced by <ref rend="bold" target="https://gedsh.bethmardutho.org/al-Zafaran-Dayr">
+                            <placeName ref="http://syriaca.org/place/69">Dayr
+                            al-Zaʿfarān</placeName>
+                        </ref> near <ref rend="bold" target="https://gedsh.bethmardutho.org/Mardin">
+                            <placeName ref="http://syriaca.org/place/130">Mardin</placeName>
+                        </ref> as the normal
+                        residence of <abbr>Syr. Orth.</abbr> Patriarchs.</p>
+                    <p>The 15th <abbr>cent.</abbr> saw a revival of <abbr>Syr. Orth.</abbr> activities in the area just to the
+                        east of Dayro d-Mor Barṣawmo, centred around the town of Gargar (modern
+                        Gerger) and the Monastery of Mor Abḥai. Dayro d-Mor Barṣawmo, too, was
+                        reoccupied at that time, as is indicated by a number of manuscripts dated
+                        between 1463 and 1675 that either mention or were copied in Dayro d-Mor
+                        Barṣawmo. There has been yet another revival of <abbr>Syr. Orth.</abbr> communities in
+                        the area in recent years, leading to the appointment of a metropolitan for
+                        Adıyaman (former Ḥisn Manṣūr) in 2006.</p>
+                    <p>Another <abbr>Syr. Orth.</abbr> monastery dedicated to Mor Barṣawmo was the ‘little
+                        monastery’ (<hi rend="italic">dayrunitho</hi>) of Mor Barṣawmo near Kfartuto
+                        to the southwest of Mardin, which is attested in 12th–13th <abbr>cent.</abbr> and was
+                        situated between the villages of Bagdashiyya (modern Bektaş) and Ḥashray
+                        (modern Dikmen) (Honigmann, 44–5; and colophons of <abbr>mss.</abbr> Vat. Syr. 147 and
+                        Yale, Syriac 10).</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>A.  Badwi and F.  Baroudy, ‘Le couvent de Barsauma: Redécouverte
+                            du site’, <title rend="italic">
+                                <abbr>ParOr</abbr>
+                            </title> 31 (2006), 243–56.</bibl>
+                        <bibl>E.  Honigmann, <title rend="italic">Le couvent de Barṣaumā et le
+                                patriarcat jacobite d’Antioche et de Syrie</title> (<abbr>CSCO</abbr> 146;
+                            1967).</bibl>
+                        <bibl>H.  Kaufhold, ‘Notizen zur späten Geschichte des Barṣaumô-Klosters’,
+                                <title rend="italic">
+                                <abbr>Hugoye</abbr>
+                            </title> 3.2 (2000).</bibl>
+                        <bibl>T. A.  Sinclair, <title rend="italic">Eastern Turkey. An architectural
+                                and archaeological survey</title>, vol. 3 (1989), 71, 76.</bibl>
+                        <bibl>D.  Weltecke, <title rend="italic">Die «Beschreibung der Zeiten» von
+                                Mōr Michael dem Grossen (1126–1199)</title> (<abbr>CSCO</abbr> 594; 2003), 74–82,
+                            et passim.</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName> 
+                  <forename>Hidemi</forename> 
+                  <surname>Takahashi</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

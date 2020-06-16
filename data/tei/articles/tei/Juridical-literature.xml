@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Juridical literature</title>
+            <author>
+               <persName>
+                  <forename>Lucas</forename> 
+                  <surname>Van Rompay</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.5">Electronic Edition Version 1.5</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Juridical literature</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Juridical-literature</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/321</idno>
+                    <idno type="entry">312</idno>
+                    <milestone unit="pages" n="238-239"/>
+                    <note type="type">subject</note>
+                    <note type="abstract">Juridical texts transmitted within the Syr. Christian
+                        traditions are of very diverse content and nature.<note/>
+                    </note>
+                </ab>
+                <div type="body">
+                    <p>Juridical texts transmitted within the Syr. Christian traditions are of very
+                        diverse content and nature. In addition to texts dealing with canon law,
+                        church administration, and discipline, a number of texts deal with private
+                        law and secular matters. The reason for the latter concern is that the
+                        churches in both the Zoroastrian and Islamic societies were in charge of
+                        private law, and, therefore, created handbooks and reference works,
+                        particularly in the fields of matrimonial and hereditary law. The earliest
+                        layer of juridical literature consists of translations from Greek;
+                        indigenous Syriac material was subsequently added to this in both the W.-
+                        and E.-Syr. traditions.</p>
+                    <label type="subsection">1. Late Roman Law in Syriac Tradition</label>
+                    <p>The Syro-Roman Lawbook (<abbr>ed.</abbr> Selb and Kaufhold) is a collection of
+                        interpretations of mostly 5th-cent. imperial constitutions dealing with
+                        civil law. It probably originated in a law school in Syria, even though the
+                        Lawbook’s relationship to the academic teaching of law in the schools of
+                            <ref rend="bold" target="https://gedsh.bethmardutho.org/Beirut">
+                            <placeName ref="http://syriaca.org/place/46">Beirut</placeName>
+                        </ref> and Constantinople has been questioned (Goria). We may be
+                        dealing with a 6th-cent. Syr. translation of a Greek Vorlage that no longer
+                        exists. The Syro-Roman Lawbook, therefore, is of crucial importance both for
+                        the study of late ancient Roman law and for its reception within the Syr.
+                        Christian milieu. The work underwent several revisions and found its way
+                        into W.-Syr. juridical collections from the 8th or 9th <abbr>cent.</abbr> onwards. It
+                        also became known in the Ch. of the E. no later than <abbr>ca.</abbr> 800 (<abbr>Cath. </abbr>
+                        <ref rend="bold" target="https://gedsh.bethmardutho.org/Timotheos-I">
+                            <persName ref="http://syriaca.org/person/790">Timotheos
+                            I</persName>
+                        </ref> being our earliest witness). Later Arabic and Armenian versions
+                        are based on the Syr.</p>
+                    <p>A much smaller collection, named by its editor (Selb) ‘Sententiae Syriacae’,
+                        reflects a similar late Roman imperial context and the practice of a law
+                        school. Here again the Greek Vorlage is no longer extant.</p>
+                    <label type="subsection">2. Civil Law</label>
+                    <p>Matrimonial law and hereditary law take an important place in a number of
+                        early E.-Syr. lawbooks, attributed to <abbr>
+                            <choice>
+                                <sic>cath.</sic>
+                                <corr>Cath.</corr>
+                            </choice>
+                        </abbr> Mar <ref rend="bold" target="https://gedsh.bethmardutho.org/Aba-I">
+                            <persName ref="http://syriaca.org/person/306">Aba I</persName>
+                        </ref> (d. 552), to
+                            <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Shemon-of-Rev-Ardashir">
+                            <persName ref="http://syriaca.org/person/740">Shemʿon of
+                            Rev Ardashir</persName>
+                        </ref> (probably 7th <abbr>cent.</abbr>), and to <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Ishobokht-of-Rev-Ardashir">
+                            <persName ref="http://syriaca.org/person/554">Ishoʿbokht of Rev Ardashir</persName>
+                        </ref> (late 8th <abbr>cent.</abbr>?). These lawbooks
+                        reflect a Persian Zoroastrian context; the latter two were originally
+                        written in Persian and subsequently translated into Syriac. E.-Syr. works
+                        from the early Islamic period include the juridical decisions of <abbr>
+                            <choice>
+                                <sic>cath.</sic>
+                                <corr>Cath.</corr>
+                            </choice>
+                        </abbr> 
+                  <ref rend="bold" target="https://gedsh.bethmardutho.org/Henanisho-I">
+                            <persName ref="http://syriaca.org/person/531">Ḥenanishoʿ I</persName>
+                        </ref> (late 7th <abbr>cent.</abbr>), and short lawbooks by <abbr>
+                            <choice>
+                                <sic>cath.</sic>
+                                <corr>Cath.</corr>
+                            </choice>
+                        </abbr> Timotheos I (d. 823), <ref rend="bold" target="https://gedsh.bethmardutho.org/Isho-bar-Nun">
+                            <persName ref="http://syriaca.org/person/552">Ishoʿ bar Nun</persName>
+                        </ref>
+                        (d. 828), <ref rend="bold" target="https://gedsh.bethmardutho.org/Abdisho-bar-Bahriz">
+                            <persName ref="http://syriaca.org/person/309">ʿAbdishoʿ bar
+                            Bahrīz</persName>
+                        </ref> (early 9th <abbr>cent.</abbr>), and <ref rend="bold" target="https://gedsh.bethmardutho.org/Gewargis-of-Arbela">
+                            <persName ref="http://syriaca.org/person/502">Gewargis of
+                            Arbela</persName>
+                        </ref> (late 10th <abbr>cent.</abbr>). Specifically aimed at collecting and
+                        preserving earlier materials are works attributed to <abbr>Cath. </abbr>
+                        <ref rend="bold" target="https://gedsh.bethmardutho.org/Eliya-I-of-Tirhan">
+                            <persName ref="http://syriaca.org/person/468">Eliya I</persName>
+                        </ref> (d. 1049) and to <ref rend="bold" target="https://gedsh.bethmardutho.org/Eliya-of-Nisibis">
+                            <persName ref="http://syriaca.org/person/472">Eliya of
+                            Nisibis</persName>
+                        </ref> (bar Shinaya, d. 1046). While the lawbooks of Aba  I,
+                        Shemʿon of Rev Ardashir, Ishoʿbokht, Ḥenanishoʿ I, Timotheos I, and Ishoʿ
+                        bar Nun are included in E. Sachau’s <hi rend="italic">Syrische
+                            Rechtsbücher</hi> (1907–14), and the one by ʿAbdishoʿ bar Bahrīz was
+                        edited by W. Selb (1970), the lawbooks of Gewargis of Arbela and <abbr>
+                            <choice>
+                                <sic>cath.</sic>
+                                <corr>Cath.</corr>
+                            </choice>
+                        </abbr> Eliya
+                        I, both contained in the large collection of <abbr>E. Syr.</abbr> juridical texts (see
+                            <ref rend="bold" target="https://gedsh.bethmardutho.org/Synodicon-Orientale">Synodicon
+                            Orientale</ref>), remain unpublished. Eliya of Nisibis’s lawbook only
+                        exists in Arabic. A remarkable juridical collection, known as ‘Syriac texts
+                        on Islamic Law’ (<abbr>ed.</abbr> Kaufhold 1971), fully incorporates Islamic law. It
+                        exists in the E. and W.-Syr. tradition as well as in an Arabic translation.
+                        While it is sometimes attributed to <abbr>
+                            <choice>
+                                <sic>cath. </sic>
+                                <corr>Cath. </corr>
+                            </choice>
+                        </abbr>
+                        <ref rend="bold" target="https://gedsh.bethmardutho.org/Yohannan-bar-Abgare">
+                            <persName ref="http://syriaca.org/person/820">Yoḥannan bar
+                            Abgare</persName>
+                        </ref> (<abbr>ca.</abbr> 900), its authorship remains uncertain.</p>
+                    <label type="subsection">3. Ecclesiastical Law</label>
+                    <p>The common foundation of the tradition of ecclesiastical law in all Syrian
+                        (and other Eastern Christian) churches has two major components, both
+                        originally written in Greek. The first is the ‘Corpus canonum’, i.e., a
+                        collection of canons of the 4th-cent. councils, including the ecumenical
+                        councils of Nicea (325) and Constantinople (381) along with a number of
+                        local synods (Ancyra, Neocaesarea, Gangra, <ref rend="bold" target="https://gedsh.bethmardutho.org/Antioch">
+                            <placeName ref="http://syriaca.org/place/10">Antioch</placeName>
+                        </ref>, and
+                        Laodicea). The second consists of several collections of canons attributed
+                        to the apostles or their immediate successors. This common foundation was
+                        expanded with other texts, some of Greek, others of Syriac origin.</p>
+                    <p>In the W.-Syr. tradition, the ‘Corpus canonum’ (the earliest Syr. translation
+                        of which was produced in Mabbug in 501/2) gradually underwent a number of
+                        expansions. These included: one or two of the 5th-cent. councils; some
+                        apostolic texts (such as the ‘Apostolic canons’, an extract from Book 8 of
+                        the ‘Apostolic constitutions’); some texts of Miaphysite origin (probably
+                        translated from Greek); and indigenous Syriac rules by such authors as <ref rend="bold" target="https://gedsh.bethmardutho.org/Rabbula-of-Edessa">
+                            <persName ref="http://syriaca.org/person/26">Rabbula of Edessa</persName>
+                        </ref> and <ref rend="bold" target="https://gedsh.bethmardutho.org/Yuhanon-of-Tella">
+                            <persName ref="http://syriaca.org/person/50">Yuḥanon of
+                            Tella</persName>
+                        </ref> (bar Qursos). This corpus was revised and further expanded by
+                            <ref rend="bold" target="https://gedsh.bethmardutho.org/Yaqub-of-Edessa">
+                            <persName ref="http://syriaca.org/person/113">Yaʿqub of Edessa</persName>
+                        </ref>. Around this period, in all likelihood, the
+                            ‘<ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Didascalia-Apostolorum">Didascalia
+                            Apostolorum</ref>’ began to appear in the juridical collections. One
+                        particular <abbr>ms.</abbr> (Dam. 8/11), belonging to a slightly later period (dated
+                        1204), incorporates a number of further additions, esp. the canons (mostly
+                        of disciplinary content) of seven <abbr>Syr. Orth.</abbr> synods held between 785 and 896
+                        (<abbr>ed.</abbr> of the entire <abbr>ms.</abbr> Vööbus 1975–76). This tradition of ecclesiastical law
+                        eventually merged with civil law in <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Bar-Ebroyo-Grigorios">
+                            <persName ref="http://syriaca.org/person/239">Bar ʿEbroyo</persName>
+                        </ref>’s
+                        ‘Nomocanon’ (see sub 4).</p>
+                    <p>In the E.-Syr. tradition, the acts and canons of synods between 410 and 776
+                        are preserved in the Synodicon Orientale (<abbr>ed.</abbr> Chabot). The canons of two
+                        additional synods (790 and 1318) are preserved as well. The canons of the
+                        4th-cent. Greek councils became known to the <abbr>E. Syr.</abbr> in the early 5th <abbr>cent.</abbr>,
+                        as is reflected in the Synodicon Orientale. The existing canons attributed
+                        to the Council of Nicea (325), however, appear to be a later collection of
+                        73 (pseudo-Nicene) canons (<abbr>ed.</abbr> Vööbus 1982; <abbr>GT</abbr> in Braun 1898). The
+                        ‘Apostolic canons’ are included in the E.-Syr. tradition as well. Our main
+                        source for the <abbr>E. Syr.</abbr> juridical tradition is a large collection of texts
+                        that probably was constituted in the 13th <abbr>cent.</abbr> (see Synodicon Orientale);
+                        not unlike Bar ʿEbroyo’s ‘Nomocanon’ this included both ecclesiastical law
+                        and civil law. But whereas Bar ʿEbroyo’s editorial work introduced an
+                        important unifying dimension to the work, no such deliberate policy of
+                        unification and classification seems to underlie the E.-Syr. collection
+                        (Kaufhold 2005, 231).</p>
+                    <label type="subsection">4. Systematic Collections</label>
+                    <p>Systematic collections in which civil law and ecclesiastical law are
+                        deliberately brought together can be traced back to a much earlier period
+                        than the 13th <abbr>cent.</abbr> Such works have sometimes been called ‘Nomocanones’
+                        (reflecting the title of somewhat similar Greek collections containing
+                        secular <hi rend="italic">nomoi</hi> ‘laws’ and ecclesiastical ‘canons’). The
+                        earliest collection of this comprehensive type is the one that is (partly)
+                        preserved under the name of <ref rend="bold" target="https://gedsh.bethmardutho.org/Gabriel-of-Basra">
+                            <persName ref="http://syriaca.org/person/493">Gabriel of Baṣra
+                        </persName>
+                        </ref> (late 9th <abbr>cent.</abbr>). In the E.-Syr. tradition two further systematic
+                        collections of this type are preserved, both by <ref rend="bold" target="https://gedsh.bethmardutho.org/Abdisho-bar-Brikha">
+                            <persName ref="http://syriaca.org/person/310">ʿAbdishoʿ bar
+                            Brikha</persName>
+                        </ref>: his ‘Nomocanon’ (<hi rend="italic">Kunnāšā d-qānone
+                            sunhādiqāye</hi>, <abbr>ed.</abbr> A. Mai) and his ‘Ordo iudiciorum’ (<hi rend="italic">Tukkās dine ʿedtānāye</hi>, <abbr>LT</abbr> by J. M. Vosté; for both
+                        works, see Kaufhold 2005, 231–5). In the W.-Syr. tradition, Bar ʿEbroyo’s
+                        ‘Nomocanon’ (<hi rend="italic">Kthobo d-hudoye</hi> ‘Book of directions’,
+                        <abbr>ed.</abbr> P. Bedjan) belongs to the same genre. Chapters 1–8 contain
+                        ecclesiastical law (also including matrimonial law); chapters 9–40 deal with
+                        civil law (Kaufhold 2005, 219–20). Syriac ‘Nomocanons’ are reflected in some
+                        of the Arabic collections, such as <ref rend="bold" target="https://gedsh.bethmardutho.org/Ibn-al-Tayyib">
+                            <persName ref="http://syriaca.org/person/543">Ibn
+                        al-Ṭayyib</persName>
+                        </ref>’s <hi rend="italic">Fiqh al-Naṣrāniyya</hi>.</p>
+                    <p>The large collections in which the E-. and W.-Syr. juridical traditions
+                        reached their fullest development, those of ʿAbdishoʿ bar Brikha and Bar
+                        ʿEbroyo, have remained authoritative to the present day, in the <abbr>Ch. of E.</abbr>
+                        and in the <abbr>Syr. Orth.</abbr> Church respectively (Kaufhold 2005, 220–21 and 235;
+                        2007, 242–3 and 247).</p>
+                </div>
+                <div type="bibl">
+                    <listBibl>
+                        <listBibl>
+                            <head>Primary Sources</head>
+                            <bibl>(For editions and translations of individual authors, see under
+                                the respective entries.)</bibl>
+                            <bibl>O. Braun, <title rend="italic">De sancta Nicaena Synodo. Syrische
+                                    Texte des Maruta von Maipherkat</title> (1898).</bibl>
+                            <bibl>E.  Sachau, <title rend="italic">Syrische Rechtsbücher</title> (3
+                                vols.; 1907–14).</bibl>
+                            <bibl>Sacra Congregazione per la Chiesa Orientale, <title rend="italic">Fonti</title>: Ser. II, fasc. 8–9 (Syro-Malankara), 15–7
+                                (Chaldean); 26–8 (<abbr>
+                                    <choice>
+                                        <sic>Syr.-Cath.</sic>
+                                        <corr>Syr. Cath.</corr>
+                                    </choice>
+                                </abbr>).</bibl>
+                            <bibl>F.  Schulthess, <title rend="italic">Die syrischen Kanones der
+                                    Synoden von Nicaea bis Chalcedon nebst einigen zugehörigen
+                                    Dokumenten</title> (Abhandlungen der Königlichen Gesellschaft
+                                der Wissenschaften zu Göttingen. Philologisch-historische Klasse.
+                                N.F. 10.2; 1908).</bibl>
+                            <bibl>W.  Selb, <title rend="italic">Sententiae Syriacae. Eingeleitet,
+                                    herausgegeben, deutsch übersetzt, mit einem syrischen und
+                                    griechischen Glossar versehen und
+                                kommentiert</title> (Österreichische Akademie der Wissenschaften,
+                                phil.-hist. Klasse, Sitzungsberichte 567; 1990).</bibl>
+                            <bibl>W.  Selb and H.  Kaufhold, <title rend="italic">Das
+                                    <choice>
+                                        <sic>Syrisch</sic>
+                                        <corr>syrisch</corr>
+                                    </choice>-römische Rechtsbuch</title> (3 vols.; Österreichische
+                                Akademie der Wissenschaften, phil.-hist. Klasse, Denkschriften 295;
+                                2002).</bibl>
+                            <bibl>A.  Vööbus, <title rend="italic">The Synodicon in the West Syrian
+                                    tradition</title> (<abbr>CSCO</abbr> 367–368, 375–6; 1975–76).</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>A.  Vööbus</reg>
+                           <orig>idem</orig>
+                        </choice>, <title rend="italic">The Canons ascribed to Maruta of
+                                    Maipherqat and related sources</title> (<abbr>CSCO</abbr> 439–40;
+                                1982).</bibl>
+                        </listBibl>
+                        <listBibl>
+                            <head>Secondary Sources</head>
+                            <bibl>J.  Dauvillier, ‘Chaldéen (Droit), in <title rend="italic">Dictionnaire de droit canonique</title> 3 (1942), col.
+                                292–383.</bibl>
+                            <bibl>F.  Goria, ‘Un’ipotesi sulla destinazione didattica del Libro
+                                siro-romano di diritto’, in <title rend="italic">Atti dell’Accademia
+                                    Romanistica Costantiniana. XVI Convegno internazionale in onore
+                                    de M. J.</title>  
+                        <title rend="italic">García Garrido</title>
+                                (Università degli studi de Perugia. Faccoltà di Giurisprudenza;
+                                2007), 153–66.</bibl>
+                            <bibl>H.  Kaufhold, ‘Die syrische Rechtsliteratur’, in <title rend="italic">Sources syriaques</title>, vol. 1. <title rend="italic">Nos sources: Arts et littératures
+                                    syriaques</title>, <abbr>ed.</abbr> M. Atallah <abbr>et al.</abbr> (2005), 211–35.</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>H.  Kaufhold</reg>
+                           <orig>idem</orig>
+                        </choice>, ‘Kirchenrecht, orientalisches’, in <title rend="italic">
+                                    <abbr>KLCO</abbr>
+                                </title> (2007), 238–52.</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>H.  Kaufhold</reg>
+                           <orig>idem</orig>
+                        </choice>, ‘Rechtsbücher’, in <title rend="italic">
+                                    <abbr>KLCO</abbr>
+                                </title> (2007),
+                                422–5.</bibl>
+                            <bibl>W.  Selb, <title rend="italic">Orientalisches
+                                Kirchenrecht</title>, vol. 1. <title rend="italic">Die Geschichte
+                                    des Kirchenrechts der Nestorianer (von den Anfängen bis zur
+                                    Mongolenzeit)</title>; vol. 2. <title rend="italic">Die
+                                    Geschichte des Kirchenrechts der Westsyrer (von den Anfängen bis
+                                    zur Mongolenzeit)</title> (Österreichische Akademie der
+                                Wissenschaften, phil.-hist. Klasse, Sitzungsberichte 388, 542;
+                                1981–89).</bibl>
+                            <bibl>A.  Thazhath, <title rend="italic">The juridical sources of the
+                                    Syro-Malabar Church</title> (1987).</bibl>
+                            <bibl>A.  Vööbus, <title rend="italic">Syrische Kanonessammlungen. Ein
+                                    Beitrag zur Quellenkunde</title>, vol. 1. <title rend="italic">Westsyrische Originalurkunden</title> (<abbr>CSCO</abbr> 307 and 317;
+                                1970).</bibl>
+                        </listBibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Lucas</forename> 
+                  <surname>Van Rompay</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Masora</title>
+            <author>
+               <persName>
+                  <forename>Andreas</forename> 
+                  <surname>Juckel</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.5">Electronic Edition Version 1.5</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Masora</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Masora</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/371</idno>
+                    <idno type="entry">362</idno>
+                    <milestone unit="pages" n="276-279"/>
+                    <note type="type">subject</note>
+                    <note type="abstract">Name given by modern scholars to an 8th/9th-cent.
+                        compilation in W.-Syr. as well as in E.-Syr. tradition, containing various
+                        philological and grammatical materials to serve as a tool for the
+                        standardization of orthography and pronunciation of the Syriac
+                        language.<note/>
+                    </note>
+                </ab>
+                <div type="body">
+                    <p>Name given by modern scholars to an 8th/9th-cent. compilation in W.-Syr. as
+                        well as in E.-Syr. tradition, containing various philological and
+                        grammatical materials to serve as a tool for the standardization of
+                        orthography and pronunciation of the Syriac language. The major part
+                        consists of sample texts drawn from the <abbr>OT</abbr>, the <abbr>NT</abbr>, and patristic texts in
+                        order to illustrate the correct use of the language in writing and
+                        reading.</p>
+                    <label type="subsection">1. Name</label>
+                    <p>The term ‘Masora’ (‘tradition’) was adopted from the well-known Hebrew
+                        Masora, which fixed the orthography and pronunciation of the Hebrew Bible
+                        (‘Masoretic text’). However, in contrast to the Hebrew Masora, the character
+                        of the Syr. ‘masoretic’ compilations is not normative but regulative: Based
+                        on sample texts they standardize the orthographic representation of the
+                        pronunciation; they are not fixing the text itself by introducing an
+                        exclusive orthography. In the Syriac <abbr>mss.</abbr>, the title of the compilation (at
+                        least of its first and largest part) is: ‘Booklet of (vocalized) words and
+                        readings of the <abbr>OT</abbr> and the <abbr>NT</abbr> according to the tradition of Qarqaphto’ (<hi rend="italic">Kurroso da-šmohe w-da-qroyotho d-ʿattiqto w-da-ḥdatto
+                            ʾa(y)k mašlmonutho qarqphoyto</hi>, <abbr>ms.</abbr> Vat. Syr. 152), or shorter:
+                        ‘Booklet of (vocalized) words of the Holy Scriptures’ (<hi rend="italic">Kurroso da-šmohe da-ktobhe qaddiše</hi>, <abbr>ms.</abbr> Brit. Libr. Add. 12,178).
+                        According to the longer title the compilation originated from the <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Qarqaphto-Monastery-of">
+                            <placeName ref="http://syriaca.org/place/229">Qarqaphto
+                            Monastery</placeName>
+                        </ref> near <ref rend="bold" target="https://gedsh.bethmardutho.org/Reshayna">
+                            <placeName ref="http://syriaca.org/place/172">Reshʿayna</placeName>
+                        </ref>, and <hi rend="italic">Mašlmonutho Qarqphoyto</hi> would, therefore, be the
+                        appropriate Syriac title. This Syriac title, however, did not succeed in
+                        replacing the convenient modern term ‘Masora’ and its derivation
+                        ‘Masoretic’, both of which should be used with quotation marks.</p>
+                    <label type="subsection">2. Historical Background</label>
+                    <p>The historical background of the ‘Masora’ is the fading away of Syriac as the
+                        colloquial language of Syr. Christians after the rise of Islam. This
+                        situation stimulated grammar and lexicography among the Syrians to
+                        consolidate the native language and cultural heritage in order to preserve
+                        the Syr. Christian identity. Some of the materials compiled in the ‘Masora’
+                        can be traced back to the 7th <abbr>cent.</abbr> and derive from <ref rend="bold" target="https://gedsh.bethmardutho.org/Yaqub-of-Edessa">
+                            <persName ref="http://syriaca.org/person/113">Yaʿqub of
+                            Edessa</persName>
+                        </ref> (<abbr>ca.</abbr> 633–708), who introduced the systematic study of
+                        grammar and orthography among the W. Syrians. He might be the initiator or
+                        instigator of the ‘Masora’, which started to flourish immediately after his
+                        death.</p>
+                    <label type="subsection">3. Manuscript Witnesses</label>
+                    <p>There are 15 <abbr>mss.</abbr> of the ‘Syriac Masora’ in W.-Syr. tradition: Brit. Libr.
+                        Add. 12,178 (9th/10th <abbr>cent.</abbr>, from the ‘Nitrian collection’ of the British
+                        Library); Brit. Libr. Add. 14,667, ff. 1–12 (10th, <abbr>OT</abbr> only); Brit. Libr.
+                        Add. 17,162, ff. 1–14 + Dayr al-Suryān Syr. 14 (10th/11th, <abbr>OT</abbr> only); Brit.
+                        Libr. Add. 14,482 (11th/12th, <abbr>OT</abbr> only); Brit. Libr. Add. 14,684 (12th/13th,
+                        <abbr>OT</abbr>, <abbr>NT</abbr>, and Greek Fathers); Vat. Syr. 152 (979/80); Barberini orient. 118
+                        (<abbr>ca.</abbr> 1000); <abbr>Syr. Orth.</abbr>
+                        <abbr> Patr.</abbr> Dam. 7/16 (Aug. 1004), and 12/22 (colophon
+                        lost; the date 666 AD given in <title rend="italic">
+                            <abbr>ParOr</abbr>
+                        </title> 19 [1994], 606,
+                        is not the date of the <abbr>ms.</abbr>); Borg. 117 (1868, a copy of Dam. 7/16); Harvard
+                        176 (according to M. H.  Goshen-Gottstein 1303 Sel. = 991/92 AD; Gospel of
+                        John); Brit. Libr. Add. 7183 (<abbr>ca.</abbr> 1031–1034); Lund 58 (1204/05); Paris,
+                        Bibl. Nat. Syr. 64 (1134/35); Jerusalem, St. Mark 1* (Baumstark)/42
+                        (Dolabani; 16th/17th). The single <abbr>ms.</abbr> of the ‘Masora’ in E.-Syr. tradition
+                        is Brit. Libr. Add. 12,138 (April 899). One <abbr>ms.</abbr> formerly in Chicago was a
+                        xerox-copy of <abbr>Syr. Orth.</abbr>
+                        <abbr> Patr.</abbr> Dam. 7/16.</p>
+                    <label type="subsection">4. W.-Syr. ‘Masora’</label>
+                    <p>In <abbr>mss.</abbr> of the W.-Syr. tradition, the compilation is divided into four
+                        distinctive sections. Within these sections, however, the arrangement and
+                        size of the materials may differ.</p>
+                    <p>a. The first and largest section (for title, see above) consists of extracts
+                        taken from all books of the <abbr>OT</abbr> and <abbr>NT </abbr>
+                        <ref rend="bold" target="https://gedsh.bethmardutho.org/Peshitta">Peshitta</ref>, and of
+                        the <ref rend="bold" target="https://gedsh.bethmardutho.org/Harqlean-Version">Ḥarqlean</ref> version of the <abbr>NT</abbr>. The extracts, which
+                        are usually confined to half-verses or even to single words, are fully
+                        vocalized and furnished with <hi rend="italic">quššoyo</hi> and <hi rend="italic">rukkokho</hi> (for <abbr>ms.</abbr> Vat. Syr. 152, see Hatch, <hi rend="italic">Album</hi>, plate LXXV). Marginal readings drawn from
+                        various biblical <abbr>mss.</abbr> (<choice>
+                            <sic>e.g.</sic>
+                            <corr>e.g., </corr>
+                        </choice>from the Philoxenian version) or from patristic
+                        authorities refer to different modes of spelling, reading, and punctuation.
+                        In some <abbr>mss.</abbr>, to this first section are appended ‘(vocalized) nouns and
+                        readings from the books of the holy teachers’ (<hi rend="italic">šmohe
+                            wa-qroyotho da-ktobhe d-mallphone qaddiše</hi>), drawn from the writings
+                        of various patristic authors that were held in high esteem in the <abbr>Syr. Orth.</abbr>
+                        tradition (see under 5).</p>
+                    <p>b. The second section of the compilation is devoted to writings of Yaʿqub of
+                        Edessa (even though there are appended materials not deriving from Yaʿqub).
+                        It contains: 1. Yaʿqub’s letter ‘On Syriac Orthography’ (<hi rend="italic">meṭṭul serṭo suryoyo</hi>) addressed to Giwargi, <abbr>bp.</abbr> of Serugh, ‘and
+                        through him to all the scribes who will encounter this book’ (<abbr>ed.</abbr> by P.
+                        Martin [1869] and G. Phillips [1869]). 2. Yaʿqub’s tract ‘On persons and
+                        tenses’ (<hi rend="italic">meṭṭul parṣupe w-zabhne</hi>), in most of the
+                        <abbr>mss.</abbr> entitled ‘On Points’ (<hi rend="italic">meṭṭul nuqze</hi>), as it deals
+                        with diacritical points to distinguish persons and tenses and with metrical
+                        points or accents (<abbr>ed.</abbr> by G. Phillips [1869]). 3. Only in <abbr>ms.</abbr> Brit. Libr.
+                        Add. 12,178 an anonymous tract on metrical points is appended; and 4. (in
+                        most of the <abbr>mss.</abbr>) a tract on the ‘Signs of punctuation’ (<hi rend="italic">šmohe d-nuqze</hi>) by ‘Thomas the deacon’ (identified by some scholars
+                        with <ref rend="bold" target="https://gedsh.bethmardutho.org/Tumo-of-Harqel">
+                            <persName ref="http://syriaca.org/person/87">Tumo of Ḥarqel</persName>
+                        </ref>).</p>
+                    <p>c) The main source of the third section are the writings of <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Epiphanius-of-Salamis">
+                            <persName ref="http://syriaca.org/person/477">Epiphanius
+                            of Salamis</persName>
+                        </ref> (d. 403), well-known for his anti-heretical writings.
+                        Its title is ‘Signs of punctuation of Epiphanius’ (<hi rend="italic">šmohe
+                            d-nuqze d-Epiphaniyus</hi>). The materials it contains are of
+                        lexicographical (‘on Greek accents and conjunctions’, ‘on weights’, ‘on
+                        measures’, ‘on variation of the person by points’), biographical (‘on
+                        prophecy’, ‘on the death of the prophets’, ‘on the Apostles’) and
+                        stichometric (<abbr>OT</abbr> and <abbr>NT</abbr>) character.</p>
+                    <p>d) The fourth section consists of heterogeneous materials and starts with an
+                        explanation (<hi rend="italic">puššoqo</hi>) of words from Hebrew and from
+                        other languages drawn from the Septuagint (<hi rend="italic">Mašlmonutho
+                            d-šabʿin</hi>) and the ‘correction’ (<hi rend="italic">Turroṣo</hi>) of
+                        Yaʿqub of Edessa. This is followed (in <abbr>ms.</abbr> Vat. Syr. 152) by a tract of a
+                        ‘Philosopher on the seven climates’ (probably by <ref rend="bold" target="https://gedsh.bethmardutho.org/Dawid-bar-Pawlos">
+                            <persName ref="http://syriaca.org/person/144">Dawid bar
+                            Pawlos</persName>
+                        </ref> d-Beth Rabban). A text attributed to <ref rend="bold" target="https://gedsh.bethmardutho.org/Ephrem">
+                            <persName ref="http://syriaca.org/person/13">Ephrem</persName>
+                        </ref> ‘on the
+                        composition of man’ and a tract ‘on the unity of Christ’s body’ by ‘some
+                        stranger’ (<hi rend="italic">ʾnoš ʾakhsnoyo</hi>) conclude the whole
+                        compilation.</p>
+                    <p>The differences of the sections in arrangement and size (and the total
+                        absence of several items from some <abbr>mss.</abbr>) suggest a textual development and
+                        history of the compilation. The original Western ‛Masora’ may be dated to
+                        the 7th <abbr>cent.</abbr> (<hi rend="italic">terminus post quem</hi> is the Ḥarqlean
+                        version of 615/16) and was probably devoted to the biblical materials only.
+                        Yaʿqub’s death 708 offers the early 8th <abbr>cent.</abbr> as <hi rend="italic">terminus
+                            a quo</hi> for the first development (the second section). The fully
+                        developed compilation may be dated to the 8th or 9th <abbr>cent.</abbr> Whether the
+                        development derives from the Qarqphoye monks is not clear. However, the
+                        materials compiled in the ‘Masora’ are of homogeneous character in that they
+                        reflect the main authorities of Miaphysite theology and philology (biblical
+                        and patristic texts, Yaʿqub of Edessa) and deal with orthography and
+                        pronunciation of Syriac.</p>
+                    <label type="subsection">5. The Patristic Selections in the W.-Syr.
+                        Manuscripts</label>
+                    <p>While Masoretic <abbr>mss.</abbr> so far have received attention mainly from biblical
+                        scholars, the patristic selections, which in most W.-Syr. <abbr>mss.</abbr> are an
+                        integral part of the collections, have recently been studied in great detail
+                        by J. Loopstra (2009). At least eleven <abbr>mss.</abbr> are known to contain patristic
+                        selections. They include the following texts: 1. the ‘Cathedral Homilies’of
+                            <ref rend="bold" target="https://gedsh.bethmardutho.org/Severus-of-Antioch">
+                            <persName ref="http://syriaca.org/person/51">Severus of
+                            Antioch</persName>
+                        </ref> (in the translation of Yaʿqub of Edessa), preceded by four
+                        letters exchanged between Severus, John of Alexandria, and the Synod of <ref rend="bold" target="https://gedsh.bethmardutho.org/Antioch">
+                            <placeName ref="http://syriaca.org/place/10">Antioch</placeName>
+                        </ref>; 2. the Homilies of <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Gregory-of-Nazianzus">
+                            <persName ref="http://syriaca.org/person/511">Gregory of
+                            Nazianzus</persName>
+                        </ref>, followed by the Pseudo-Nonnus mythological scholia,
+                        both in the revised translation of <ref rend="bold" target="https://gedsh.bethmardutho.org/Pawla-of-Edessa">
+                            <persName ref="http://syriaca.org/person/84">Pawla of
+                            Edessa</persName>
+                        </ref>; 3. <choice>
+                            <sic>Epistles <ref rend="bold" target="https://gedsh.bethmardutho.org/Basil-of-Caesarea">
+                                    <persName ref="http://syriaca.org/person/376">of Basil of
+                                Caesarea</persName>
+                                </ref>
+                            </sic>
+                            <corr>Epistles of <ref rend="bold" target="https://gedsh.bethmardutho.org/Basil-of-Caesarea">
+                                    <persName ref="http://syriaca.org/person/376">Basil of
+                                    Caesarea</persName>
+                                </ref>
+                            </corr>
+                        </choice> and Gregory of Nazianzus; 4. the Homilies of Basil; 5.
+                        the <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Dionysius-the-Areopagite-Pseudo-">Pseudo-Dionysian</ref> corpus (in the translation by
+                        Phocas of Edessa); 6. the Life of Severus of Antioch by <ref rend="bold" target="https://gedsh.bethmardutho.org/John-bar-Aphtonia">
+                            <persName ref="http://syriaca.org/person/52">John bar
+                            Aphtonia</persName>
+                        </ref> (found in one <abbr>ms.</abbr> only: Brit. Libr. Add. 7,183); 7. and
+                        the <hi rend="italic">Arbiter</hi> of <ref rend="bold" target="https://gedsh.bethmardutho.org/John-Philoponos">
+                            <persName ref="http://syriaca.org/person/576">John
+                            Philoponos</persName>
+                        </ref> (found in one <abbr>ms.</abbr> only: Brit. Libr. Add. 14,684). The
+                        patristic sections of the ‘Masoretic’ <abbr>mss.</abbr> clearly demonstrate the
+                        non-normative (but regulative) character of the ‘Masoretic’ standardisation
+                        (although patristic writings are scarcely attested in post-‘Masoretic’
+                        <abbr>mss.</abbr>). It is quite obvious that the standard does not refer to the spelling
+                        of Greek proper nouns and theological terms (which is not uniform in the
+                        ‘Masoretic’ <abbr>mss.</abbr> themselves) but to their proper phonetical representation
+                        (which may vary within the standard of grecization). In addition to that,
+                        the patristic sections of the ‘Masora’ provide unique insights into
+                        linguistic and lexical studies by Syrian scholars and scribes, as well as
+                        into an important branch of the educational system of the <abbr>Syr. Orth.</abbr>
+                        tradition.</p>
+                    <label type="subsection">6. E.-Syr. ‘Masora’</label>
+                    <p>The E.-Syr. ‘Masora’ (Wright, <hi rend="italic">Catalogue … British
+                            Museum</hi>, vol. 1, 101–08; studied by Th. Weiss, 1933) is more
+                        extensive than its W.-Syr. counterpart as it is of almost exclusive biblical
+                        character (<abbr>OT</abbr> and <abbr>NT</abbr>, Peshitta only). The biblical samples are extensively
+                        annotated in the margins. There are five sections: the first deals with the
+                        pronunciation (phonetic); the second with the use of the accents; the third
+                        is devoted to various letters of the alphabet and their specific
+                        combinations (the letters <hi rend="italic">b-d-w-l</hi>; the letters <hi rend="italic">b-g-d-k-p-t</hi>; <hi rend="italic">ʾ-m-n-t</hi> as
+                        marking tenses and persons; <hi rend="italic">ʾ-h-w-y-k-n-t</hi> when
+                        suffixed). The fourth section gives an explanation of certain critical marks
+                        attached to words in the biblical part of the <abbr>ms.</abbr> The fifth section (last
+                        page) gives ‘traditions of the masters of the schools.’</p>
+                    <label type="subsection">7. Bar ʿEbroyo’s Testimony</label>
+                    <p>According to <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Bar-Ebroyo-Grigorios">
+                            <persName ref="http://syriaca.org/person/239">Bar ʿEbroyo</persName>
+                        </ref>, ‘Book of Splendors’ (<abbr>ed.</abbr> and
+                        transl. by A. Moberg 1922/1907), §3 of the introduction, the <hi rend="italic">Qarqphoye </hi>monks introduced the five ‘Greek’ vowel
+                        signs to Syriac. This innovative ‘Masoretic’ feature follows (but
+                        simplifies) the model of Yaʿqub of Edessa, who invented seven vowel <hi rend="italic">letters</hi> for grammatical demonstration (see Segal, <hi rend="italic">Diacritical point</hi>, 40–7). The five ‘Greek’ vowel
+                        signs were not intended to be fully applied to Syriac texts but restricted
+                        to ‘grammatical’ specification of difficult or ambiguous words. Fully
+                        vocalized <abbr>mss.</abbr> do not antedate the 16th <abbr>cent.</abbr> and take into consideration
+                        the reader’s ignorance of the traditional pronunciation. The witnesses of
+                        the ‘Syriac Masora’ are the earliest <abbr>mss.</abbr> with vowel signs attached to the
+                        text by the original scribe.</p>
+                    <label type="subsection">8. ‘Pre-Masoretic’ and ‘Masoretic’</label>
+                    <p>Although the ‘Masoretic’ system of vocalisation was not designed to replace
+                        the use of the ‘pre-Masoretic’ diacritical point, which served to
+                        distinguish grammatical persons and tenses, the imperfection of the
+                        traditional system called for further specification. The ‘Masoretic’
+                        innovation was the adoption of the diacritical point and its explicit
+                        redefinition by vowel signs and <hi rend="italic">quššoyo/rukkokho</hi>. The
+                        coexistence of the old and new system of grammatical distinction is
+                        evidenced in the ‘Masoretic’ <abbr>mss.</abbr> themselves (esp. in <abbr>ms.</abbr> Vat. Syr. 152 and
+                        <abbr>ms.</abbr> Barberini orient. 118): <hi rend="italic">quššoyo</hi> and <hi rend="italic">rukkokho</hi> are marked with large red dots to
+                        distinguish them from the smaller black diacritical point. This explicit
+                        redefinition allowed the traditional diacritical point to maintain its
+                        position in the Syriac literature; by its redefinition the diacritical point
+                        introduced the new ‘Masoretic’ standard to the ‘pre-Masoretic’ Syriac
+                        literature.</p>
+                    <label type="subsection">9. The <hi rend="italic">Qarqphoyē</hi> Monks Ṭubhono
+                        and Sobho</label>
+                    <p>Two of the <hi rend="italic">Qarqphoye</hi> monks are known by name: Ṭubhono
+                        and Sobho, both of Reshʿayna, who are mentioned in the margins of the
+                        ‘Masoretic’ <abbr>mss.</abbr> and in an entry of <ref rend="bold" target="https://gedsh.bethmardutho.org/Bar-Bahlul-Hasan">
+                            <persName ref="http://syriaca.org/person/365">Bar
+                        Bahlul</persName>
+                        </ref>’s Lexicon (<abbr>ed.</abbr> R. Duval, col. 1363–1364). Sobho is probably the
+                        scribe of <abbr>mss.</abbr> Brit. Libr. Add. 14,428 (undated; Wright, <hi rend="italic">Catalogue … British Museum</hi>, vol.  1, 9–10), Add. 14,430 (724 AD;
+                        Wright, ibid., 15–6), and Add 12,135 (726 AD; Wright, ibid., 24–6). In his
+                        <abbr>OT</abbr> commentary (‘Storehouse of Secrets’ ) and once in his ‘Book of Splendors’
+                        (I.5, §4) Bar ʿEbroyo refers (occasionally with some distance) to the
+                        reading of the <hi rend="italic">Qarqphoye</hi> monks (in Psalms and
+                        Jeremiah; the texts are in P. Martin, ‘Tradition karkaphienne’, 261–8).</p>
+                    <label type="subsection">10. The ‘Masora’ in Recent Scholarship</label>
+                    <p>It was P. Martin who in his ‘Tradition karkaphienne’ (1869) identified the
+                        ‘Masoretic’ character of the compilation. Parts of the E.-Syr. ‘Masora’ were
+                        published in 1933 by Th. Weiss. Due to the complexity and heterogeneity of
+                        the W.-Syr. ‘Masora’ no (critical) edition has been undertaken so far. For
+                        editors of the Syriac <abbr>OT</abbr> and <abbr>NT</abbr>, the ‘Masoretic’ <abbr>mss.</abbr> seem to be of no great
+                        critical value on account of their abridged and selective way of quotation.
+                        Nevertheless, ‘Masoretic’ <abbr>mss.</abbr> have been extensively used in research on the
+                        <abbr>OT</abbr> Peshitta. Although excluded from the ‘Leiden Edition’ of the <abbr>OT</abbr>, the
+                        ‘Masora’ contributed to the research on the <abbr>ms.</abbr> tradition of single <abbr>OT</abbr> books
+                        (P. B. Dirksen, on Judges [1972]; M. Koster, on Exodus [1977]; and A.
+                        Gelston, on Twelve Prophets [1987]). The Peshitta Gospel edition prepared by
+                        Ph. E. Pusey and G. H. Gwilliam (1901) includes the E.-Syr. ‘Masora’ as well
+                        as three <abbr>mss.</abbr> of the W.-Syr. ‘Masora’ (<abbr>mss.</abbr> Brit. Libr. Add. 12,178; Add.
+                        7183; and Add. 14,648). This Gospel edition turns the ‘Masoretic’ sample
+                        texts into a complete edition by its systematic adoption of the Western
+                        pronunciation. It is fully vocalized with the five ‘Greek’ vowels and
+                        furnished with <hi rend="italic">quššoyo</hi> and <hi rend="italic">rukkokho</hi>. However, it does not give the ‘Masoretic’ orthography of
+                        the proper nouns and Greek (loan) words, but rather follows the orthography
+                        of the ‘pre-Masoretic’ <abbr>mss.</abbr> A ‘Masoretic’ edition of the Peshitta Acts and
+                        Epistles was published in 1920 by G. H. Gwilliam and J. Pinkerton (British
+                        and Foreign Bible Society).</p>
+                    <label type="subsection">Conclusion</label>
+                    <p>Bringing together the fields of grammar and lexicography, the ‘Masora’ is of
+                        general significance for the study of Syriac language and literature; it
+                        also contributes to our understanding of the history and culture of the
+                        Syrians. The ‘Masoretic’ perspective on Syriac literature allows for the
+                        distinction of a ‘pre-Masoretic’ (5th–7th <abbr>cent.</abbr>) and a ‘Masoretic’
+                        (8th–13th <abbr>cent.</abbr>) period, both with their own characteristic features. The
+                        earlier period was the formative period of Syriac culture, open to Greek
+                        influence, development and inculturation into the Greek Byzantine Oikumene;
+                        it roughly coincides with the pre-Islamic history of the Syrian Churches.
+                        The later period is marked by philology, standardization, and by the
+                        formation of ‘national’ E.-Syr. and W.-Syr. traditions. This conservative
+                        attitude towards their own heritage roughly coincides with the history of
+                        the Syriac Churches under Islam. Still today reading and writing of Syriac
+                        texts is directed by the ‘Syriac Masora’.</p>
+                    <p>See <ref target="https://gedsh.bethmardutho.org/fig/72">Fig. 72</ref>.</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>Baumstark, <title rend="italic">Literatur</title>,
+                            259–60.</bibl>
+                        <bibl>Duval, <title rend="italic">La littérature syriaque</title>,
+                            286–99.</bibl>
+                        <bibl>A.  Juckel, ‘The “Syriac Masora” and the New Testament Peshitta’, in
+                                <title rend="italic">The Peshitta: Its use in literature and
+                                liturgy</title>, <abbr>ed.</abbr> B.  ter Haar Romeny (<abbr>MPIL</abbr> 15; 2006),
+                            107–21.</bibl>
+                        <bibl>G. A.  Kiraz, <title rend="italic">Introduction to Syriac
+                                spirantization</title> (1995).</bibl>
+                        <bibl>J. A.  Loopstra, <title rend="italic">Patristic selections in the
+                                ‘Masoretic’ handbooks of the Qarqaptā tradition</title> (Ph. D.
+                            Diss., The Catholic University of America; 2009).</bibl>
+                        <bibl>P.  Martin, ‘Tradition karkaphienne, ou la massore chez les Syriens’,
+                                <title rend="italic">
+                                <abbr>JA</abbr>
+                            </title> 14 (6<hi rend="superscript">e</hi>
+                            série) (1869), 245–379.</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>P.  Martin</reg>
+                        <orig>idem</orig>
+                     </choice>, ‘Histoire de la ponctuation ou de la Massore chez les Syriens’,
+                                <title rend="italic">
+                                <abbr>JA</abbr>
+                            </title> 5 (7<hi rend="superscript">e</hi>
+                            série) (1875), 81–208.</bibl>
+                        <bibl>A.  Moberg, <title rend="italic">Eine syrische Masora-Handschrift in
+                                der Universitäts-Bibliothek zu Lund</title> (1928).</bibl>
+                        <bibl>J. B.  Segal, <title rend="italic">The diacritical point and the
+                                accents in Syriac</title> (1953).</bibl>
+                        <bibl>Th.  Weiss, <title rend="italic">Zur ostsyrischen Laut- und
+                                Akzentlehre</title> (1933).</bibl>
+                        <bibl>Wright, <title rend="italic">Catalogue … British Museum</title>, vol.
+                            1, 101–15.</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>Wright</reg>
+                        <orig>idem</orig>
+                     </choice>, <title rend="italic">Short history of Syriac literature</title>,
+                            20–5 and 150–1.</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Andreas</forename> 
+                  <surname>Juckel</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>
