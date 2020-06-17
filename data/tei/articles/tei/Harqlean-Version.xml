@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Ḥarqlean Version</title>
+            <author>
+               <persName>
+                  <forename>Andreas</forename> 
+                  <surname>Juckel</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.5">Electronic Edition Version 1.5</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Ḥarqlean Version</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Harqlean-Version</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/258</idno>
+                    <idno type="entry">249</idno>
+                    <milestone unit="pages" n="188-191"/>
+                    <note type="type">work</note>
+                    <note type="abstract">The last Syriac version of the <abbr>NT</abbr>, prepared by Tumo of
+                        Ḥarqel (<abbr>Syr. Orth.</abbr>) 615/16 in the Enaton near <placeName ref="http://syriaca.org/place/572">Alexandria</placeName>
+                        (Egypt).<note/>
+                    </note>
+                </ab>
+                <div type="body">
+                    <p>The last Syriac version of the <abbr>NT</abbr>, prepared by <ref rend="bold" target="https://gedsh.bethmardutho.org/Tumo-of-Harqel">
+                            <persName ref="http://syriaca.org/person/87">Tumo of
+                        Ḥarqel</persName>
+                        </ref> (<abbr>Syr. Orth.</abbr>) 615/16 in the <ref rend="bold" target="https://gedsh.bethmardutho.org/The-Enaton">
+                            <placeName ref="http://syriaca.org/place/473">Enaton</placeName>
+                        </ref>
+                        near Alexandria (Egypt). This version is a recension (<hi rend="italic">turroṣo</hi>) of the <abbr>NT</abbr>, with numerous Greek variant readings
+                        (translated into Syriac) quoted in the margins or with asterisks in the main
+                        text. The recensional method of the Ḥarqlean Version was inherited from
+                        Origen’s Hexaplaric Septuagint recension (the Syriac translation of which is
+                        the <ref rend="bold" target="https://gedsh.bethmardutho.org/Syro-Hexapla">Syro-Hexapla</ref>). The Syro-Hexapla therefore can contribute to the
+                        proper understanding of the Ḥarqlean version’s features and intention.
+                        Historically, both versions are parts of the same translation project the
+                        Syr. Miaphysites initiated in the second decade of the 7th <abbr>cent.</abbr> According
+                        to the subscriptions of the Ḥarqlean Gospels (Kiraz, <hi rend="italic">CESG</hi>, vol. 4, 369), Acts, and the Pauline epistles, the
+                        translation was executed ‘at the Enaton of (i.e., near) Alexandria, the
+                        great city, in the holy Convent of the Antonines … in the year 927 of
+                        Alexander, in the fourth indiction (i. e., 615/16)’. The Ḥarqlean Version is
+                        mentioned by <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Bar-Ebroyo-Grigorios">
+                            <persName ref="http://syriaca.org/person/239">Bar ʿEbroyo</persName>
+                        </ref> in his ‘Storehouse of
+                        Secrets’ (<hi rend="italic">Awṣar roze</hi>), proem, in his Ecclesiastical
+                        History (I,50 = vol. 1, col. 267), and by <ref rend="bold" target="https://gedsh.bethmardutho.org/Michael-I-Rabo">
+                            <persName ref="http://syriaca.org/person/217">Michael
+                            Rabo</persName>
+                        </ref>, Chronicle, X,25 = vol. IV 391.</p>
+                    <label type="subsection">The Characteristic Features</label>
+                    <p>The characteristic features of the Ḥarqlean version are the decisive turn
+                        towards the Greek (‘mirror translation’) and the introduction of the
+                        philological and thus ‘critical’ dimension into the history of the Syriac
+                        <abbr>NT</abbr>. The method of recension sketched in the subscriptions remains ambiguous
+                        (esp. the role of the Philoxenian); the result, however, is clear: Tumo
+                        prepared a <abbr>NT</abbr> text that did not exist before; <choice>
+                            <sic>i.e. </sic>
+                            <corr>i.e., </corr>
+                        </choice>he produced a recension
+                        of the <abbr>NT</abbr>. This recension was based on a translation of an existing Greek
+                        model and supplemented by textual material drawn from additional Greek <abbr>mss.</abbr>
+                        In the same way, the Syro-Hexapla is based on an existing Greek model (the
+                        Hexaplaric Septuagint recension) and supplemented by textual material drawn
+                        from Aquila, Symmachus, and Theodotion (and others). The new philological
+                        and ‘critical’ dimension is provided by the <hi rend="italic">distinctive</hi> presentation of the additional material. It is located
+                        in the margins or in the main text (marked with asterisks) in order not to
+                        mix the textual traditions put together in this recension. This <hi rend="italic">distinctive</hi> presentation allows the additional
+                        material to be read in context as variants of the <hi rend="italic">Graeca
+                            veritas</hi>. Additions to and omissions from Tumo’s Greek model could
+                        be presented in the main text; exchanges of words or passages had to be
+                        presented in the margin and connected to the corresponding word in the text
+                        by a graphic sign. The <hi rend="italic">obelos</hi> is used for the sake of
+                        translation technique to mark Syriac words which do not match the Greek <hi rend="italic">Vorlage</hi> but are necessary for an intelligible
+                        rendering of the Greek. By this way of quoting the additional material and
+                        using ‘critical’ signs, Tumo is a pupil of Origen; from a modern point of
+                        view, he attached a ‘critical’ apparatus to his version. Of course Tumo was
+                        not a modern critic, but he was aware of the non-uniformity of the Greek
+                        text. He knew about different textual traditions and that translating a
+                        single Greek <abbr>ms.</abbr> (like <ref rend="bold" target="https://gedsh.bethmardutho.org/Polykarpos">
+                            <persName ref="http://syriaca.org/person/35">Polykarpos</persName>
+                        </ref>, who
+                        prepared the Philoxenian) would provide only an imperfect knowledge of the
+                        Greek <abbr>NT</abbr> text.</p>
+                    <p>Besides the recensional features, a revisional relation between the Ḥarqlean
+                        Version and the Philoxenian is reported in the subscriptions of the Ḥarqlean
+                        Version. Although this report is not detailed enough, Tumo could have used
+                        the earlier version as the starting point of his own. An attractive feature
+                        of the earlier version was its relation to Caesarea in Palestine and to the
+                        famous library of Pamphilus, which is reported in the Ḥarqlean subscription
+                        to the Pauline letters. A revisional relation to the Philoxenian would have
+                        brought Tumo’s own version in line with the Caesarean origin of the
+                        Syro-Hexapla and would have supplied the whole Miaphysite translation
+                        project with one uniform authority.</p>
+                    <label type="subsection">The Historical Setting</label>
+                    <p>As J. Gwynn suggested (‘Paulus [48] Tellensis’, <hi rend="italic">
+                            <abbr>DCB</abbr>
+                        </hi> 4
+                        [1887], 266–71, at 267), the instigative historical setting of the laborious
+                        translation project could have been the reunion of the Syrian and Coptic
+                        Miaphysites after decades of schisma dating from the time of the Syrian
+                        <abbr>Patr.</abbr>
+                        <ref rend="bold" target="https://gedsh.bethmardutho.org/Peter-of-Kallinikos">
+                            <persName ref="http://syriaca.org/person/75"> Peter of
+                            Kallinikos</persName>
+                        </ref> (581–91) and the Coptic Patriarch Damian (578–606).
+                        Although no proof can be given, Gwynn’s suggestion is supported by the
+                        common date 616 for the reunion and the completion of the Ḥarqlean Version.
+                        This suggestion, however, puts a special linguistic perspective on the
+                        Ḥarqlean Version. The reunion had to be performed completely in Greek; and
+                        both parties had to determine the authoritative Greek text of the Scriptures
+                        for reunion. This text had to be of ‘ecumenical’, not of local currency. For
+                        the <abbr>OT</abbr>, Origen’s Hexaplaric Septuagint recension (handed down by Pamphilus
+                        and <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Eusebius-of-Caesarea">
+                            <persName ref="http://syriaca.org/person/480">Eusebius</persName>
+                        </ref>) could easily be accepted by both
+                        parties; for the <abbr>NT</abbr>, no such work of Origen existed, and the text had to be
+                        determined by the Miaphysites themselves. This text became the Greek model
+                        of the Ḥarqlean Version. According to this perspective, the Ḥarqlean Version
+                        came into being after the determination of the Greek model as the
+                        translation and inner-Syriac promulgation of the approved Greek <abbr>NT</abbr> text. The
+                        recensional as well as the revisional imprint on the Ḥarqlean version were
+                        added during or after translation, when comparison with additional Greek
+                        <abbr>mss.</abbr> (and with the Philoxenian) was made. Another possibility is that the
+                        Ḥarqlean margin was already an integral part of the Greek text established
+                        by the Syrian and Coptic Miaphysites in order to quote (<choice>
+                            <sic>i.e. </sic>
+                            <corr>i.e., </corr>
+                        </choice>to include into
+                        the reunion) different textual traditions of both parties.</p>
+                    <label type="subsection">The History of the Version Reflected by the
+                        <abbr>Mss.</abbr>
+                    </label>
+                    <p>After the rise of Islam, the version’s ‘ecumenical’ frame of reference was
+                        lost and the version itself was considered as the ‘Greek’ (Bar ʿEbroyo in
+                        his Scholia to the <abbr>NT</abbr>). The ‘ecumenical’ perspective of the Ḥarqlean Version
+                        was replaced by a scientific and philological attitude. Due to the
+                        complicated lay-out of the version, not all scribes were capable of
+                        transmitting the text properly; some of them omitted the marginal quotations
+                        and the <hi rend="italic">asterisks/obeloi</hi> completely, thus mixing the
+                        readings Tumo intended to keep separate. The philologists were not
+                        interested in preserving the original text but in updating it according to
+                        the current Greek text of the New Testament, which was the increasingly
+                        dominant Byzantine text. This development created ‘corrected’ models
+                        (hyparchetypes) and faded out the original non- and pre- Byzantine part of
+                        the version.</p>
+                    <p>Due to the large number of <abbr>mss.</abbr>, the revisional development can be traced
+                        best in the Gospel <abbr>mss.</abbr> The total is <abbr>ca.</abbr> 100 from the 8th to the 19th <abbr>cent.</abbr>,
+                        but only <abbr>ca.</abbr> 20 <abbr>mss.</abbr> are furnished with the marginal and asterisked
+                        additions. <abbr>Ms.</abbr> Vat. Syr. 268 (8th/9th <abbr>cent.</abbr>) is singled out by an
+                        undeveloped stage of text, which preserved a large number of non-Byzantine
+                        readings. The majority of the witnesses reflect the version’s development
+                        towards the Greek Byzantine text; unfortunately, the oldest dated <abbr>ms.</abbr> of the
+                        Gospels (<abbr>ms.</abbr> Florence, Bibl. Laurenziana Plut. I.40; 757) is of this type.
+                        This first revisional stage of the version is well represented in further
+                        <abbr>mss.</abbr> of the first millennium, <choice>
+                            <sic>e.g.</sic>
+                            <corr>e.g., </corr>
+                        </choice>by Vat. Syr. 267 (8th <abbr>cent.</abbr>), Harvard
+                        Syr.  16 (8th/9th <abbr>cent.</abbr>), Brit. Libr. Add. 7163 (9th/10th  cent.), Mingana
+                        Syr. 124 (9th/10th <abbr>cent.</abbr>), and Chester Beatty Syr. 3 (1177, copied from a
+                        model of 841).</p>
+                    <p>In the 12th <abbr>cent.</abbr> the revisional development entered a new stage with the
+                        activity of <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Dionysios-bar-Salibi">
+                            <persName ref="http://syriaca.org/person/212">Dionysios
+                            bar Ṣalibi</persName>
+                        </ref> (d. 1171). Again, Gospel <abbr>mss.</abbr> provide the information.
+                        The subscriptions, which report his revision (<abbr>ms.</abbr> Oxford, New Coll. 334;
+                        12th/13th <abbr>cent.</abbr> and London, Brit. Libr. Add. 17,124; 1233/34; see Wright,
+                            <hi rend="italic">Catalogue … British Museum</hi>, vol. 1, 42) do not
+                        mention Greek <abbr>mss.</abbr>; it probably relies on several ‘corrected’ models of the
+                        version itself. Essential features are the further reduction of the marginal
+                        readings and critical signs (though some completely new are added), the
+                        inversion of many text/margin readings, and the introduction of the Pericope
+                        on the Adulteress (Jn 7:53–8:11).</p>
+                    <p>The extreme rarity of <abbr>mss.</abbr> for Acts and the Epistles prevents us from tracing
+                        a revisional development in these parts of the <abbr>NT</abbr>. There are only two <abbr>mss.</abbr>
+                        from the first millennium, <abbr>ms.</abbr> Jerusalem, St. Mark 37 (Pauline epistles) and
+                        <abbr>ms.</abbr> London, Brit. Libr. Add. 14,474 (Catholic Epistles), which are of the
+                        9th <abbr>cent.</abbr> Two later <abbr>mss.</abbr> cover the entire <abbr>NT</abbr> with the exception of
+                        Revelation: <abbr>ms.</abbr> Cambridge, Add. 1700 (1069/70) and <abbr>ms.</abbr> Oxford, New Coll. 333
+                        (12th/13th <abbr>cent.</abbr>). Fortunately, all except the Cambridge <abbr>ms.</abbr> are furnished
+                        with marginal and asterisked variants. Revelation is represented by <abbr>ca.</abbr> ten
+                        late <abbr>mss.</abbr>, among which Mardin Orth. 36/2 (13th <abbr>cent.</abbr>, <abbr>ed.</abbr> by A. Vööbus as
+                        no. 35/2) is furnished with a subscription and with the full range of
+                        marginal and asterisked variants. Important steps in the version’s history
+                        are: 1.  the creation of a ‘Passiontide Harmony’ composed of literal
+                        segments of the single Gospels. It is from the 9th <abbr>cent.</abbr> and attributed to
+                        Daniel of Beth Baṭin (near <ref rend="bold" target="https://gedsh.bethmardutho.org/Harran">
+                            <placeName ref="http://syriaca.org/place/216">Ḥarran</placeName>
+                        </ref>); 2. the <hi rend="italic">liturgical</hi> use of the version, which entered the
+                        lectionaries. This gives color to the version’s appreciation among the
+                        Syrians as the ‘correct’ and ‘ecumenical’ text of the <abbr>NT</abbr>; 3. the adoption of
+                        the version by the <ref rend="bold" target="https://gedsh.bethmardutho.org/Masora">Masora</ref> (connected
+                        with the <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Qarqaphto-Monastery-of">
+                            <placeName ref="http://syriaca.org/place/229">Qarqaphto</placeName>
+                        </ref> monastery near <ref rend="bold" target="https://gedsh.bethmardutho.org/Reshayna">
+                            <placeName ref="http://syriaca.org/place/172">Reshʿayna</placeName>
+                        </ref>) in the
+                        8th/9th <abbr>cent.</abbr>; 4. the production of <hi rend="italic">bilingual</hi> codices
+                        in Syriac/Arabic <ref rend="bold" target="https://gedsh.bethmardutho.org/Garshuni">Garshuni</ref> (<choice>
+                            <sic>e.g.</sic>
+                            <corr>e.g.,</corr>
+                        </choice>
+                        Vat. Syr. 271 and Paris, Bibl. Nat. Syr. 57); and 5. the attachment of
+                        extensive exegetical scholia taken from patristic authorities (<choice>
+                            <sic>e.g.</sic>
+                            <corr>e.g., </corr>
+                        </choice>Mingana
+                        Syr. 105 and 480; Manchester, J. Rylands Univ. Library, no. 10).</p>
+                    <label type="subsection">The History of Research</label>
+                    <p>The history of research started with the <hi rend="italic">Editio
+                            princeps</hi> published by Joseph White 1778–1803; it was based mainly
+                        on one single <abbr>ms.</abbr> (New Coll. 333, with variants of <abbr>mss.</abbr> New Coll. 334 and
+                        Bodl. Or. 361). From the very beginning scholars were confronted with the
+                        question of the version’s identity (Philoxenian or Ḥarqlean). According to
+                        White’s interpretation of the subscriptions it was the Philoxenian version
+                        he published, which <ref rend="bold" target="https://gedsh.bethmardutho.org/Tumo-of-Harqel">
+                            <persName ref="http://syriaca.org/person/87">Tumo of
+                            Ḥarqel</persName>
+                        </ref> reissued by only attaching the marginal and asterisked
+                        readings. G. H. Bernstein in 1837 considered White’s text to be a separate
+                        version, though a thorough revision, of the Philoxenian. The question
+                        remained open until the publication of Philoxenos’s late writings, which
+                        provided genuine Philoxenian quotations of the <abbr>NT</abbr> (especially his commentary
+                        on the prologue of St. John’s Gospel, <abbr>ed.</abbr> by A. de Halleux [<abbr>CSCO</abbr> 380,
+                        1977]). Bernstein’s view turned out to be substantially correct; the <choice>
+                            <sic>
+                                <hi rend="bold">Philoxenian version</hi>
+                            </sic>
+                            <corr>
+                            Philoxenian version
+                        </corr>
+                        </choice> itself is considered lost.</p>
+                    <p>A new approach to the Greek background of the Ḥarqlean Version was launched
+                        by B. Aland, who successfully reconstructed the Greek <hi rend="italic">Vorlage</hi> of the Ḥarqlean major Catholic Epistles and the writings
+                        of Paul. The version’s Greek model can be traced to a group of
+                        10th–15th-cent. minuscule <abbr>mss.</abbr> (1611, 1505, 2138, 2495 according to Gregory
+                        and Aland), the ancestry of which is not a descendent of the Greek model
+                        itself but of a <abbr>ms.</abbr> akin to this model having a common 5th/6th-cent.
+                        ancestry (B. Aland 1986, introduction). The knowledge of the Greek model
+                        opened a new perspective on Tumo’s method of revison, with two principal
+                        issues: 1. Tumo is a <hi rend="italic">translator</hi>, who faithfully
+                        follows his Greek <hi rend="italic">Vorlage</hi>; the marginal and
+                        asterisked annotations derive from different Greek <abbr>mss.</abbr>, which supply the
+                        version with variant readings of the <hi rend="italic">Graeca veritas</hi>;
+                        2. the revisional relation to the Philoxenian (reported in the
+                        subscriptions) is rather on the Syriac than on the Greek level. There was a
+                        shift from a fairly exact rendering to a ‘mirror translation’; the Greek
+                        background of both versions largely remained the same. These results derive
+                        from a text-critical study and from a reedition of the Ḥarqlean Version,
+                        which is based on a new important <abbr>ms.</abbr> (Jerusalem, St. Mark 37; 9th <abbr>cent.</abbr>).
+                        G. Zuntz’s still dominant approach to the revisional relation between the
+                        Philoxenian and Ḥarqlean versions is solely based on an interpretation of
+                        the subscriptions and guided too much by the term ‘revision’ instead of
+                        ‘translation’.</p>
+                    <label type="subsection">Editions</label>
+                    <p>The complex structure of the Ḥarqlean Version, its liability to distortion,
+                        the revisional development, and the scanty attestation of the Praxapostolos
+                        confront editors with not a few problems. Not surprisingly, most of the
+                        Ḥarqlean editions are one-<abbr>ms.</abbr>-publications. A comprehensive critical edition
+                        of the Gospels, which sets out the revisional development of the version in
+                        some detail, is much to be desired. Ḥarqlean texts published so far are: L.
+                        de Dieu, <hi rend="italic">Apocalypsis Sancti Iohannis</hi> (Leiden, 1627)
+                        (<abbr>ms.</abbr> Hebr. Scal. 18); J. White, <hi rend="italic">Sacrorum Evangeliorum
+                            Versio Philoxeniana ...</hi>, vol. 1, 1–2 (Oxford, 1778) (Gospels); vol.
+                        2, 1–2 (Oxford, 1799/1803) (Acts and Letters) (<abbr>ms.</abbr> New Coll. 333, with
+                        variants of <abbr>mss.</abbr> New Coll. 334 and Bodl. Or. 361 [all Oxford]);
+                        G. H.  Bernstein, <hi rend="italic">Das heilige Evangelium des Iohannes.
+                            Syrisch in harklensischer Übersetzung  … </hi>(Leipzig, 1853) (<abbr>ms.</abbr> Vat.
+                        Syr. 271); R. L. Bensly, <hi rend="italic">The Harklean version of the
+                            Epistle to the Hebrews, chapter XI,28–XIII,25</hi> (Cambridge, 1889)
+                        (<abbr>ms.</abbr> Cambridge, Add. 1700); M. A. Weigelt, <hi rend="italic">Diatessaric
+                            Harmonies on the Passion Narrative in the Harclean Syriac Version</hi>
+                        (Ph.D. Diss.; 1969) (based on <abbr>mss.</abbr> Vat. Syr. 268; London, Brit. Libr. Add.
+                        18,714; Paris, Bibl. Nat. Syr. 31, 51 and 52; Cambridge, Add. 1700); A.
+                        Vööbus, <hi rend="italic">The Apocalypse in the Harklean version</hi> (<abbr>CSCO</abbr>
+                        400; 1978) (<abbr>ms.</abbr> Mardin Orth. 35/2 [<choice>
+                            <sic>i.e. </sic>
+                            <corr>i.e., </corr>
+                        </choice>36/2]); B. Aland and A. Juckel, <hi rend="italic">Das Neue Testament in syrischer Überlieferung</hi> I
+                        (1986) (James, 1 Peter, 1 John; according to <abbr>mss.</abbr> London, Brit. Libr. Add.
+                        14,474; Oxford, New Coll. 333; Cambridge, Add. 1700); B. Aland and A.
+                        Juckel, <hi rend="italic">Das Neue Testament in syrischer Überlieferung</hi>
+                        II,1–3 (1991, 1995, 2002) (the corpus of Pauline epistles; according to <abbr>mss.</abbr>
+                        Jerusalem, St. Mark Syr. 37; Oxford, New Coll. 333; Cambridge, Add. 1700);
+                        G. Kiraz, <hi rend="italic">Comparative Edition of the Syriac Gospels</hi> (4
+                        vols.; 1996) (<abbr>ms.</abbr> Vat. Syr. 268, supplemented by <abbr>ms.</abbr> Vat. Syr. 267 and
+                        Florence, Bibl. Laurenziana Plut. I,40); P. A. L. Hill, <hi rend="italic">The Harklean Version of St. Luke 1–11: A Critical Introduction and
+                            Edition</hi> (Ph.D. Diss., Melbourne; 2002) (based on 19 <abbr>mss.</abbr>).</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>I. R.  Beacham, <title rend="italic">The Harklean Syriac Version
+                                of Revelation: Manuscripts, Text and Methodology of Translation from
+                                Greek</title> (Ph.D. Diss., Birmingham; 1990).</bibl>
+                        <bibl>S. P.  Brock, ‘The resolution of the Philoxenian/Harclean problem’, in
+                                <title rend="italic">New Testament textual criticism. Its
+                                significance for exegesis. Essays in honour of Bruce M.
+                                Metzger</title>, <abbr>ed.</abbr> E. J. Epp and G. D. Fee (1981), 325–43.</bibl>
+                        <bibl>W. H. P.  Hatch, ‘The subscription in the Chester Beatty manuscript of
+                            the Harclean Gospels’, <title rend="italic">
+                                <abbr>HTR</abbr>
+                            </title> 30 (1937),
+                            141–155.</bibl>
+                        <bibl>A.  Juckel, ‘Die Bedeutung des Ms Vat. syr. 268 für die
+                            Evangelienüberlieferung der Harklensis’, <title rend="italic">
+                                <abbr>OC</abbr>
+                            </title>
+                            83 (1999), 22–45.</bibl>
+                        <bibl>A.  Juckel, ‘Towards an Analytical Concordance of the Harklean <abbr>NT</abbr>’, in
+                                <title rend="italic">Foundations for Syriac Lexicography</title>,
+                            vol. 2, <abbr>ed.</abbr> P. J.  Williams (2009), 99−154.</bibl>
+                        <bibl>Kiraz, <title rend="italic">CESG</title>.</bibl>
+                        <bibl>B. M.  Metzger, <title rend="italic">The early versions of the New
+                                Testament</title> (1977), 63–75, 83–98.</bibl>
+                        <bibl>J. D.  Thomas, ‘A List of Manuscripts Containing the Harclean Syriac
+                            Version of the <abbr>NT</abbr>’, <title rend="italic">Theological Review (of the Near
+                                East School of Theology)</title> 2 (1979), 26–32.</bibl>
+                        <bibl>G.  Zuntz, <title rend="italic">The Ancestry of the Harklean New
+                                Testament</title> (1945).</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Andreas</forename> 
+                  <surname>Juckel</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

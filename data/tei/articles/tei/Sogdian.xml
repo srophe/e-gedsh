@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Sogdian</title>
+            <author>
+               <persName>
+                  <forename>Ilya</forename> 
+                  <surname>Yakubovich</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.5">Electronic Edition Version 1.5</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Sogdian</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Sogdian</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/526</idno>
+                    <idno type="entry">517</idno>
+                    <milestone unit="pages" n="382-383"/>
+                    <note type="type">subject</note>
+                    <note type="abstract">A language belonging to the Eastern subgroup of
+                        the Iranian languages. Christian texts in Sogdian survive from the Turfan oasis. There are also Sogdian inscriptions.<note/>
+                    </note>
+                </ab>
+                <div type="body">
+                    <p>The Sogdian language belongs to the Eastern subgroup of the Iranian
+                        languages. Its core area was Central Asia, in the region surrounding
+                        Samarqand and Bukhara, where it was native to the bulk of the population
+                        throughout the first millennium AD. For many centuries, Sogdian merchants
+                        controlled the central part of the Silk Road and extended their influence
+                        far beyond the area of their original habitation. Numerous Buddhist,
+                        Manichean, and Christian texts in Sogdian illustrate the religious diversity
+                        in Central Asia and western <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/China-Syriac-Christianity-in">China</ref> in the period
+                        before the Islamization of the area.</p>
+                    <p>The absolute majority of all Christian texts known to us in Sogdian
+                        transmission stems from the ruins of a Christian monastery at Bulayıq in the
+                        Silk Road oasis of <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Turfan-Syriac-texts-from">Turfan</ref> (now in Xinjiang, China). Found <hi rend="italic">in
+                            situ</hi> by the Second German Turfan Expedition in 1905, they are now
+                        kept in Berlin as part of the German Turfan Collection. These texts are
+                        written in a variety of the Syriac Esṭrangela script, with the addition of
+                        three supplementary letters for the phonemes /f/, /χ/, and /ʒ/. This writing
+                        system was not used for recording Buddhist or Manichean texts, and therefore
+                        it is usually referred to as the Christian Sogdian script. Its orthography
+                        reflects quite faithfully the phonetic structure of Late Sogdian and does
+                        not display the archaizing features of other Sogdian scripts. The bulk of
+                        the available Christian Sogdian manuscripts appear to have been written in
+                        the 9th and 10th <abbr>cent.</abbr>, when Sogdian was likely the lingua franca of the
+                        Bulayıq Christian community.</p>
+                    <p>The content of the Bulayıq library indicates that Sogdian Christians belonged
+                        to the <abbr>Ch. of E.</abbr>, which is otherwise known for its missionary activity along
+                        the Silk Road. Besides non-denominational compositions, such as Gospel
+                        readings, psalms, and lives of early saints, one finds there numerous texts
+                        that are particular to Syriac Christianity, such as the life of <ref rend="bold" target="https://gedsh.bethmardutho.org/Yohannan-of-Dailam">
+                            <persName ref="http://syriaca.org/person/825">Yoḥannan of Dailam</persName>
+                        </ref>, a verse homily ‘On the final evil hour’ by
+                            <ref rend="bold" target="https://gedsh.bethmardutho.org/Babai-of-Nisibis">
+                            <persName ref="http://syriaca.org/person/360">Babai of Nisibis</persName>
+                        </ref>, or <ref rend="bold" target="https://gedsh.bethmardutho.org/Dadisho-Qatraya">
+                            <persName ref="http://syriaca.org/person/434">Dadishoʿ</persName>
+                        </ref>’s
+                        Commentaries on <ref rend="bold" target="https://gedsh.bethmardutho.org/Isaiah-of-Scetis">
+                            <persName ref="http://syriaca.org/person/548">Isaiah of
+                            Scetis</persName>
+                        </ref>. There is no evidence for indigenous Sogdian Christian
+                        literature, while all the identified texts of foreign origin appear, with
+                        one exception, to have been translated from Syriac. A large number of Syriac
+                        manuscripts have, in fact, been excavated at Bulayıq (see <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Turfan-Syriac-texts-from">Syriac
+                            texts from Turfan</ref>), among which are some Sogdian and Syriac
+                        bilinguals. In addition, the same site yielded a smaller number of Old
+                        Turkic manuscripts, presumably from its terminal phase, and isolated texts
+                        in Middle and New Persian. The preparation of the catalogue of texts found
+                        at Bulayıq constitutes the main objective of a current SOAS research project
+                            <hi rend="italic">The Christian Library from Turfan</hi>.</p>
+                    <p>There is no doubt that Bulayıq Sogdian was mutually intelligible with the
+                        other known varieties of the Sogdian language. Its peculiar feature,
+                        however, is a large number of technical terms of Syriac origin, <choice>
+                            <sic>e.g.</sic>
+                            <corr>e.g., </corr>
+                        </choice>
+                        <hi rend="italic">ksʾ</hi> ‘chalice’, <hi rend="italic">mdbḥʾ</hi> ‘altar’,
+                            <hi rend="italic">šmšʾ</hi> ‘deacon’. The Syriac nouns are normally
+                        borrowed in the emphatic state and then inflected as Sogdian <hi rend="italic">ā</hi>-stems. By contrast, Buddhist or Manichean Sogdian
+                        compositions do not contain any common nouns of undisputed Syriac
+                        origin.</p>
+                    <p>No Sogdian texts of Christian content are available from the Sogdian
+                        heartland, although Syriac inscriptions are found in the Sogdian
+                        archaeological contexts in Urgut (Uzbekistan) and Panjakent (Tajikistan).
+                        One Sogdian inscription with Syriac loanwords is found in Kyrgyzstan. The
+                        Sogdian finds from the ‘Caves of the Thousand Buddhas’ in the Silk Road
+                        Oasis of Dunhuang include a small fragment of a Christian oracle book and
+                        several secular texts mentioning local Christians.</p>
+                </div>
+                <div type="bibl">
+                    <listBibl>
+                        <listBibl>
+                            <head>Primary Sources</head>
+                            <bibl>O.  Hansen, <title rend="italic">Berliner sogdische Texte I:
+                                    Bruchstücke einer sogdischen Version der Georgpassion
+                                    (C1)</title> (1941).</bibl>
+                            <bibl>F. W. K.  <choice>
+                                    <sic>Muller</sic>
+                                    <corr>Müller</corr>
+                                </choice>, <title rend="italic">Soghdische Texte I</title>
+                                (1912). (<abbr>repr.</abbr> in <title rend="italic">Ergebnisse der Deutschen
+                                    Turfanforschung</title>, vol. 3 [1985], 199–309)</bibl>
+                            <bibl>F. W. K.  <choice>
+                                    <sic>Muller</sic>
+                                    <corr>Müller</corr>
+                                </choice> and W.  Lentz, ‘Soghdische Texte II’, <title rend="italic">Sitzungsberichte der Preussischen Akademie der
+                                    Wissenschaften</title> (1934), 504–607. (<abbr>repr.</abbr> in <title rend="italic">Ergebnisse der Deutschen Turfanforschung</title>,
+                                vol. 3 [1985], 310–413)</bibl>
+                            <bibl>N. Sims-Williams, <title rend="italic">The Christian Sogdian
+                                    Manuscript C2</title> (1985).</bibl>
+                            <bibl>N.  Sims-Williams and J.  Hamilton. <title rend="italic">Documents
+                                    turco-sogdiens du IX–X siècle de Touen-houang</title> (Corpus
+                                Inscriptionum Iranicarum 2.3.3; 1990).</bibl>
+                            <bibl>W.  Sundermann, ‘Nachlese zu F. W. K. Müllers Sogdischen Texten’,
+                                    <title rend="italic">Altorientalische Forschungen</title> 1
+                                (1974), 216–55; 3 (1976), 55–90; 8 (1981), 169–225.</bibl>
+                        </listBibl>
+                        <listBibl>
+                            <head>Secondary Sources</head>
+                            <bibl>Badr-uz-zaman Gharib, <title rend="italic">Sogdian
+                                    dictionary</title> (Tehran, 1995).</bibl>
+                            <bibl>M.  Nicolini-Zani, ‘Christiano-Sogdica: An updated bibliography on
+                                the relationship between Sogdians and Christianity throughout
+                                Central Asia and into China’, in <title rend="italic">Ēran ud
+                                    Anērān: Studies presented to Boris Ilich Marshak on the Occasion
+                                    of His 70th Birthday</title> (Webfestschrift), <abbr>ed.</abbr> M. Compareti
+                                <abbr>et al.</abbr> (2003). (Available at
+                                <ref type="url"
+                             target="http://www.transoxiana.org/Eran/Articles/nicolini-zani.html">http://www.transoxiana.org/Eran/Articles/nicolini-zani.html</ref>)</bibl>
+                            <bibl>C.  Reck, ‘A survey of the Christian Sogdian fragments in Sogdian
+                                script in the Berlin Turfan Collection’, in <title rend="italic">Controverses des chrétiens dans l’Iran sassanide</title>, <abbr>ed.</abbr>
+                                C. Jullien (2008), 191–205.</bibl>
+                            <bibl>N.  Sims-Williams, ‘Syro-Sogdica III: Syriac Elements in Sogdian’,
+                                in <title rend="italic">A Green Leaf: Papers in Honour of Professor
+                                    Jes P. Asmussen</title>, <abbr>ed.</abbr> W. Sundermann <abbr>et al.</abbr> (Acta Iranica
+                                28; 1988), 145–56.</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>N.  Sims-Williams</reg>
+                           <orig>idem</orig>
+                        </choice>, ‘Sogdian’, <title rend="italic">Compendium Linguarum
+                                    Iranicarum</title>, <abbr>ed.</abbr> R. Schmitt (1989), 173–92.</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>N.  Sims-Williams</reg>
+                           <orig>idem</orig>
+                        </choice>, ‘Sogdian and Turkish Christians in the Turfan and Tun-Huang
+                                Manuscripts’, in <title rend="italic">Turfan and Tun-Huang: The
+                                    Texts. Encounter of Civilization on the Silk Route</title>, <abbr>ed.</abbr>
+                                A. Cadonna (1992), 43–61.</bibl>
+                        </listBibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Ilya</forename> 
+                  <surname>Yakubovich</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

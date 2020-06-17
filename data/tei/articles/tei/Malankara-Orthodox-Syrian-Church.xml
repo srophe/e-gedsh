@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Malankara Orthodox Syrian Church</title>
+            <author>
+               <persName>
+                  <forename>Baby</forename> 
+                  <surname>Varghese</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.5">Electronic Edition Version 1.5</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Malankara Orthodox Syrian Church</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Malankara-Orthodox-Syrian-Church</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/348</idno>
+                    <idno type="entry">339</idno>
+                    <milestone unit="pages" n="256-258"/>
+                    <note type="type">org</note>
+                    <note type="abstract">The Malankara Orthodox Church claims to have
+                        been founded by St. Thomas, one of the twelve apostles of Christ.<note/>
+                    </note>
+                </ab>
+                <div type="body">
+                    <p>The Malankara Orthodox Church (MOC) proudly claims to have been founded by
+                        St. Thomas, one of the twelve apostles of Christ. From the early centuries
+                        of the Common Era, the St. Thomas Christians of Kerala had intermittent
+                        relationship with the Syriac communities in the ancient Persian Empire.
+                        Regular contacts were rather difficult, because of the Arab-Muslim control
+                        of the trade route in the Arabian Sea.</p>
+                    <p>In the 15th <abbr>cent.</abbr> the relationship with the E.-Syr. Church was apparently
+                        strong, but this was abruptly broken by the Portuguese presence in the
+                        Indian subcontinent. In the so-called <ref rend="bold" target="https://gedsh.bethmardutho.org/Diamper-Synod-of">Synod of
+                            Diamper</ref> (1599), Dom. Alexis Menezis, Archbishop of Goa, with the
+                        support of the king of Cochin, was able to bring the St. Thomas Christians
+                        under the authority of Rome. In 1653 the great majority rejected the forced
+                        union with Rome at the famous Coonan Cross. As they wanted to retain Syriac
+                        language and liturgy, and above all the ecclesiastical independence, they
+                        wrote letters to various Eastern patriarchates requesting to send them a <abbr>bp.</abbr>
+                        Thus in 1665, in a Dutch vessel Mar Gregorios, the <abbr>Syr. Orth.</abbr>
+                        <abbr> bp.</abbr> of
+                        ‘Jerusalem’ reached Kerala and consecrated Mar Thoma I, as the <abbr>bp.</abbr> of the
+                        St. Thomas Christians. In 1685, Mar Baselios Yaldo and Mar Ivanios
+                        Ḥidayatallah, two more Antiochian prelates, arrived. However, the <abbr>Syr. Orth.</abbr>
+                        liturgy and the Serṭo script were widely used only much later. E.-Syr.
+                        influence is evident from the fact <choice>
+                            <sic/>
+                            <corr>that </corr>
+                        </choice>the six bishops who headed the community
+                        between 1665 and 1765 took the title Mar Thoma I to VI.</p>
+                    <p>In 1751, the arrival of a <abbr>Syr. Orth.</abbr> delegation consisting of Baselios
+                        Shakrallah, Mar Gregorios, Ramban Yoḥannan, and a few deacons, marks the
+                        beginning of the introduction of the Serṭo script and the <abbr>Syr. Orth.</abbr> liturgy
+                        in the Malankara Orthodox Church. Mar Thoma VI (consecrated by his
+                        predecessor in 1765), the head of the Syrians, after much hesitation,
+                        consented to be re-consecrated by the Antiochian bishops under the name Mar
+                        Dionysios I (in 1770).</p>
+                    <p>Meanwhile in 1772, the Antiochian <abbr>bp.</abbr> Mar Gregorios consecrated a native <abbr>bp.</abbr>
+                        named Mar Koorilose. Mar Dionysios I (alias Mar Toma VI) used his political
+                        influence to expel the rival <abbr>bp.</abbr> to Thozhiyur, in the kingdom of Cochin.
+                        This marks the origin of the so-called <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Malabar-Independent-Syrian-Church">Malabar Independent Syrian Church</ref> (or ‘Thozhiyur Church’).</p>
+                    <p>In 1815 Pulikottil Joseph Mar Dionysios (consecrated by Mar Philoxenos, the
+                        second <abbr>bp.</abbr> of Thozhiyur) founded the Old Seminary (the present Orthodox
+                        Theological Seminary) with the generous support of the British Resident Col.
+                        Munro. Following the death of Mar Dionysios (in 1816), the English
+                        missionaries assumed the direction of the Old Seminary and modern education
+                        started in Kerala for the first time. The missionaries had the dream to
+                        train native clergy and to reform the liturgical practices of the Malankara
+                        Orthodox Church. The native clergy were opposed to it, and in 1836 the
+                        missionaries left the Seminary. However, they did convert a few Syrian
+                        Christians to the Anglican Church.</p>
+                    <p>Meanwhile, some of the Syrians favourable to the reforms, sent a deacon to
+                            <ref rend="bold" target="https://gedsh.bethmardutho.org/Mardin">
+                            <placeName ref="http://syriaca.org/place/130">Mardin</placeName>
+                        </ref> and in 1843, <abbr>Patr.</abbr> Mar Eliya II consecrated him under the
+                        name Mathews Mar Athanasios. He was the first Indian <abbr>bp.</abbr> consecrated by a
+                        <abbr>Syr. Orth.</abbr>
+                        <abbr> 
+                     <choice>
+                                <sic>Patr.</sic>
+                                <corr>patr.</corr>
+                            </choice>
+                        </abbr> On his return to India, he led the efforts for reforms with
+                        some success thanks to the support of the English missionaries and the local
+                        rulers. Cheppattu Mar Dionysios, the head of the Malankara Orthodox Church<choice>
+                            <sic> was</sic>
+                            <corr/>
+                        </choice> unwilling to fight against the reformers, abdicated in favour of a
+                        visiting Antiochian prelate named Yoyakim Mar Koorilose. Though he could not
+                        provide effective leadership for the community against the reformers, during
+                        his 20 years stay in Kerala, Mar Koorilose visited parishes and completed
+                        the introduction of Antiochian liturgical practices. In 1864, the Patriarch
+                        Yaʿqub II consecrated a native prelate named Joseph Mar Dionysios (<choice>
+                            <sic>d.1909</sic>
+                            <corr>d. 1909</corr>
+                        </choice>).
+                        Being unable to contain the progress of the reformers, he appealed to the
+                        <abbr>
+                            <choice>
+                                <sic>Patr.</sic>
+                                <corr>patr.</corr>
+                            </choice>
+                        </abbr> to visit India. Thus <abbr>Patr.</abbr> Peṭros III visited Malabar and during his
+                        <choice>
+                            <sic>two year</sic>
+                            <corr>two-year</corr>
+                        </choice> stay (1875–77), he brought the Malankara Orthodox Church under the
+                        <abbr>Syr. Orth.</abbr> Patriarchate of Antioch. In 1876, the <abbr>
+                            <choice>
+                                <sic>Patr.</sic>
+                                <corr>patr.</corr>
+                            </choice>
+                        </abbr> convened a synod in
+                        Mulanthuruthy (near Cochin) and established an administrative structure. The
+                        parishes over which the ‘Malankara Metropolitan’ had little or no control<choice>
+                            <sic>,</sic>
+                            <corr/>
+                        </choice>
+                        were organized under six dioceses, and six bishops were consecrated. Thus
+                        the system of a single metropolitan for the entire Church came to an
+                        end.</p>
+                    <p>A few years later, the royal court of Travancore made a verdict in favour of
+                        Mar Joseph Dionysios and the Malankara Orthodox Church. The reformed group
+                        established themselves as an independent church, known as ‘the Mar Thoma
+                        Syrian Church’.</p>
+                    <p>In the first decade of the 20th <abbr>cent.</abbr>, the relationship between the <abbr>Patr.</abbr> Mar <ref rend="bold" target="https://gedsh.bethmardutho.org/Abdullah-II-Sattuf">
+                            <persName ref="http://syriaca.org/person/313">ʿAbdullāh II</persName>
+                        </ref> and Mar Geevarghese Mar Dionysios became
+                        tense on the question of authority over properties of the Malankara Orthodox
+                        Church. This led to the excommunication of Mar Dionysios and the division of
+                        the Malankara Orthodox Church into two groups, one accepting the supreme
+                        authority of the patriarch and the other rejecting it. The group led by Mar
+                        Dionysios invited <abbr>Patr. </abbr>
+                        <ref rend="bold" target="https://gedsh.bethmardutho.org/Abdulmasih-II">
+                            <persName ref="http://syriaca.org/person/314">ʿAbdulmasīḥ II</persName>
+                        </ref>, who was
+                        
+                        deposed by the Turkish authorities. In 1912, he consecrated Baselios Pawlos
+                        I (d. 1914), the first <abbr>
+                            <choice>
+                                <sic>Cath.</sic>
+                                <corr>cath.</corr>
+                            </choice>
+                        </abbr> of the Malankara Orthodox Church. Thus began
+                        the major division and a series of litigations which lasted for four
+                        decades. In 1934, the General Assembly of the Malankara Orthodox Church
+                        adopted a Constitution and endorsed the claims of autocephaly. In 1958, the
+                        Supreme Court of India made a verdict in favour of the <abbr>
+                            <choice>
+                                <sic>Cath.</sic>
+                                <corr>cath.</corr>
+                            </choice>
+                        </abbr> Thanks to the
+                        initiatives of the Patriarch <ref rend="bold" target="https://gedsh.bethmardutho.org/Ignatius-Yaqub-III">
+                            <persName ref="http://syriaca.org/person/545">Ignatius
+                            Yaʿqub III</persName>
+                        </ref> and the Catholicos Geevarghese II (1929–64), the two
+                        groups were united. In 1964, Patriarch Yaʿqub III presided over the
+                        consecration of the Catholicos Augen I (d. 1975).</p>
+                    <p>Unfortunately the unity did not last for more than 12 years. The <abbr>
+                            <choice>
+                                <sic>Patr.</sic>
+                                <corr>patr.</corr>
+                            </choice>
+                        </abbr>
+                        consecrated bishops and finally in 1975, a <abbr>Cath.</abbr> (‘<ref rend="bold" target="https://gedsh.bethmardutho.org/Maphrian">Maphrian</ref>’) for the
+                        group which accepted his authority. Now the Malankara Orthodox Church
+                        remains divided under two Catholicoi and two synods.</p>
+                    <p>The Malankara Orthodox Church has a membership of about 1 million, 1100
+                        parishes, 1200 priests, and 18 bishops. There are several schools, Colleges,
+                        Engineering and Medical Faculties, hospitals and orphanages under its
+                        administration. The Malankara Orthodox Church follows the <abbr>Syr. Orth.</abbr> Liturgy
+                        (Mosul tradition). But the liturgical language is Malayalam. Hindi and
+                        English are, however, also used in North India or outside India.</p>
+                    <p>See <ref target="https://gedsh.bethmardutho.org/fig/66">Fig. 66</ref>.</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>C. Chaillot, <title rend="italic">The Malankara Orthodox
+                                Church</title> (1996).</bibl>
+                        <bibl>D. Daniel, <title rend="italic">The Orthodox Church of India. A
+                                History</title> (1972).</bibl>
+                        <bibl>M. K. Kuriakose (<abbr>ed.</abbr>), <title rend="italic">Orthodox Identity in
+                                India. Essays in Honour of V. C. Samuel</title> (1988).</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Baby</forename> 
+                  <surname>Varghese</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

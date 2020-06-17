@@ -1,0 +1,794 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Islam, Syriac interactions with</title>
+            <author>
+               <persName>
+                  <forename>Sidney H.</forename> 
+                  <surname>Griffith</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.5">Electronic Edition Version 1.5</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Islam, Syriac interactions with</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Islam-Syriac-contacts-with</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/302</idno>
+                    <idno type="entry">293</idno>
+                    <milestone unit="pages" n="219-224"/>
+                    <idno type="althead" subtype="altorder">Syriac contacts with Islam</idno>
+                    <note type="type">subject</note>
+                    <note type="abstract">
+                    </note>
+                </ab>
+                <div type="body">
+                    <p>Syriac-speaking Christians, along with Arabic-speaking Christians whose
+                        patristic and liturgical heritage was largely Syriac, were among those
+                        Christians most immediately present to Islam in its origins. Throughout
+                        early Islamic history, especially in the period stretching from the earliest
+                        Islamic conquests in the territories of the Oriental Patriarchates in the
+                        first half of the 7th <abbr>cent.</abbr>, up to the Mongol destruction of <ref rend="bold" target="https://gedsh.bethmardutho.org/Baghdad">
+                            <placeName ref="http://syriaca.org/place/41">Baghdad</placeName>
+                        </ref>
+                        in 1258 and beyond, interactions between Syriac Christians and Muslims were
+                        a regular feature of political, intellectual, and cultural life in the
+                        caliphate. Thereafter, and up to the present day, Syriac-speaking
+                        communities have continued to be a significant, cultural presence in the
+                        Islamic milieu, especially in the modern states of Turkey, Syria, Lebanon,
+                        Palestine, Iraq, and Iran, where so-called ‘Neo-Aramaic’ dialects (see <ref rend="bold" target="https://gedsh.bethmardutho.org/Aramaic">Aramaic</ref>; <ref rend="bold" target="https://gedsh.bethmardutho.org/Sureth">Sureth</ref>; <ref rend="bold" target="https://gedsh.bethmardutho.org/Turoyo">Ṭuroyo</ref>),
+                        with their roots in classical Syriac, are still spoken and the classical
+                        literature is still prized.</p>
+                    <p>By the middle of the 7th <abbr>cent.</abbr>, when Islamic rule was firmly established in
+                        the Levant, the main Christian, confessional communities among the
+                        Syriac-speaking peoples were already firmly established. In due course,
+                        Syriac- and Arabic-speaking Christians and Muslims alike came to refer to
+                        them as ‘Nestorians’, ‘Jacobites’, and ‘Melkites’, adopting the polemically
+                        inspired denominational labels devised by each community’s theological and
+                        Christological adversaries. Already in the 6th and early 7th <abbr>cent.</abbr>, these
+                        communities were well established in the peripheral regions of Arabia
+                        (Hainthaler), with well-known congregations along the Persian Gulf, in
+                        Ḥaḍramawt and <ref rend="bold" target="https://gedsh.bethmardutho.org/Nagran">
+                            <placeName ref="http://syriaca.org/place/464">Nagran</placeName>
+                        </ref> in south Arabia (Trimingham; Tardy), among the Lakhmids
+                        and Ghassanids on the north eastern and western fringes of the desert
+                        (Shahid), and the tribal groups Christianized by the monks of Palestine and
+                        the Sinai. From these peripheral locations among others, largely under
+                        Syriac and Aramaic influence, knowledge of Christian doctrine and practice,
+                        along with a considerable body of ecclesiastical lore, spread among the
+                        tribally organized, Arabic-speaking peoples of central Arabia and the Ḥijāz.
+                        By the time of the prophet Muḥammad (<abbr>ca.</abbr> 570–632), there was a significant
+                        level of awareness of Christianity in its Aramaic and Syriac expression, in
+                        the environs of Mecca and Yathrib/Medina, of its scriptures, traditions, and
+                        confessional formulae. The principal evidence for this relatively high
+                        quotient of awareness of Aramaic and Syriac Christianity in the
+                        Arabic-speaking milieu of <choice>
+                            <sic>7th </sic>
+                            <corr>7th-</corr>
+                        </choice>
+                        <abbr>cent.</abbr> Arabia is the Arabic Qurʾān itself.
+                        Scholars alternatively trace this awareness to the influence of a local
+                        ‘Jewish Christianity’ (De Blois; Gnilka), or to the actual presence of
+                        mainly ‘Jacobite’ and ‘Nestorian’ Christians in the Qurʾān’s audience, based
+                        on the text’s reflection of common eschatological and scriptural themes and
+                        its critiques of Christian doctrines and practices in their Syriac
+                        expression, as a growing body of scholarship in recent times is increasingly
+                        arguing (Andrae; Reynolds; Van der Velden; Griffith 2008).</p>
+                    <p>Syriac interaction with Islam thus had its beginnings in the very origins of
+                        Islam, manifesting itself principally in the Islamic scripture; according to
+                        one estimate, Syriac loan words in the Arabic Qurʾān account for about
+                        seventy percent of the foreign vocabulary in the text (Mingana). This state
+                        of affairs, along with other considerations, has prompted some recent
+                        scholars to propose a hitherto unsuspected level of influence of the Syriac
+                        language even on the grammar and lexicography of Qurʾānic Arabic
+                        (Luxenberg). Other scholars had already made use of other comparative data
+                        (Wansbrough) to propose a later, early 8th-cent., Syrian origin for
+                        Muḥammad, Islam, and the Qurʾān; some have gone so far as to postulate the
+                        development of Islam at this late date from a supposed heretical,
+                        pre-Nicene, Syriac Christianity, hitherto unrecognized by earlier Syriac
+                        scholars (Ohlig). While these latter hypotheses have gained little or no
+                        scholarly support for their specific conclusions, they nevertheless
+                        highlight the continuing importance of Syriac and Syriac studies for the
+                        scholarly investigation of Islamic origins in Late Antiquity.</p>
+                    <p>Syriac writers were among the earliest, non-Muslim witnesses to the Islamic
+                        conquest and to the appearance of Islam as a new religious tradition. The
+                        so-far earliest known Christian reference to Muḥammad by name occurs in a
+                        Syriac chronicle composed around the year 640; the text mentions ‘a battle
+                        between the Romans and the Arabs of Muḥammad in Palestine twelve miles east
+                        of Gaza’ in the year 634 (Hoyland, 120). The chroniclers continued to record
+                        the interactions between Muslims and Christians well up into the Middle
+                        Ages, including records of battles, raids, massacres, martyrdoms,
+                        impositions of taxes, and other matters, including even accounts of the
+                        reigns of the caliphs and other aspects of Islamic history. These accounts
+                        have proven invaluable to historians of the early Islamic period, as
+                        independent records of events that are only sparsely reported or not
+                        reported at all in Islamic, Arabic sources of the time (Borrut). The great
+                        medieval, Syriac chronicles, such as the Chronicle of <ref rend="bold" target="https://gedsh.bethmardutho.org/Michael-I-Rabo">
+                            <persName ref="http://syriaca.org/person/217">Michael Rabo</persName>
+                        </ref> (d. 1199) and the anonymous <ref rend="bold" target="https://gedsh.bethmardutho.org/Chronicle-of-1234">Chronicle of
+                            1234</ref>, incorporating the narratives of earlier chroniclers (<choice>
+                            <sic>e.g.</sic>
+                            <corr>e.g.,</corr>
+                        </choice>
+                            <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Dionysios-of-Tel-Mahre">
+                            <persName ref="http://syriaca.org/person/155">Dionysios
+                            of Tel Maḥre</persName>
+                        </ref>), include biographies of Muḥammad and accounts of
+                        Islamic religious thought, along with reports of the encounters between
+                        Muslims and Christians. These encounters were often unfriendly and sometimes
+                        resulted in mass conversions to Islam. For example, a chronicler from the
+                        late 8th <abbr>cent.</abbr> says of the Syriac-speaking Christians in his era, in the
+                        region of <ref rend="bold" target="https://gedsh.bethmardutho.org/Tur-Abdin">
+                            <placeName ref="http://syriaca.org/place/221">Ṭur ʿAbdin</placeName>
+                        </ref>, that ‘the gates were opened to them to [enter] Islam<choice>
+                            <sic>. . . . </sic>
+                            <corr>….</corr>
+                        </choice>Without blows or tortures they slipped towards apostasy in great
+                        precipitancy; they formed groups of ten or twenty or thirty or a hundred or
+                        two hundred or three hundred without any sort of compulsion<choice>
+                            <sic>. . . .</sic>
+                            <corr>…</corr>
+                        </choice>, going
+                        down to <ref rend="bold" target="https://gedsh.bethmardutho.org/Harran">
+                            <placeName ref="http://syriaca.org/place/216">Ḥarran</placeName>
+                        </ref> and becoming Muslims. A great crowd did so, from the
+                        districts of <ref rend="bold" target="https://gedsh.bethmardutho.org/Edessa">
+                            <placeName ref="http://syriaca.org/place/78">Edessa</placeName>
+                        </ref> and of Ḥarran and of <ref rend="bold" target="https://gedsh.bethmardutho.org/Reshayna">
+                            <placeName ref="http://syriaca.org/place/172">Reshʿayna</placeName>
+                        </ref>’
+                        (Harrak, 324).</p>
+                    <p>The earliest religious responses in Syriac to the challenge of Islam seem to
+                        have been in the apocalyptic genre. The most notable of these is the ‘<ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Methodius-Apocalypse-of-Pseudo-">Apocalypse of Pseudo-Methodius</ref>’, in all likelihood
+                        composed originally in Syriac by a <abbr>Syr. Orth.</abbr> writer in <abbr>ca.</abbr> 691 (Reinink
+                        1993). The author explains how the interlude of Arab domination in time to
+                        come, all immediate evidence to the contrary notwithstanding, will not
+                        really disrupt the unfolding sequence of the four kingdoms of the prophecies
+                        in the book of Daniel, destined to end with the kingdom of the Greeks.
+                        Rather, he says, the depredations of the Arabs are part of God’s plan for
+                        the era of punishment for sin that is destined to usher in the final days of
+                        world history (Reinink 1992). The Apocalypse was soon translated into Greek
+                        and from that language was many times translated into other languages of the
+                        Christian west (Alexander). A number of other apocalyptic texts in Syriac
+                        from the same era elaborated on the same theme (Drijvers; Suermann). The
+                        most important of them was the Syriac <ref rend="bold" target="https://gedsh.bethmardutho.org/Sargis-Bhira">
+                            <persName ref="http://syriaca.org/person/718">Sargis Bḥira</persName>
+                        </ref>
+                        legend, soon revised into Arabic, which incorporated many of these
+                        apocalyptic themes into the story of Muḥammad’s encounter, following Islamic
+                        sources, with a Christian monk who recognized the sign of prophecy on the
+                        youthful prophet’s body. The 9th-cent. Syriac author told of the monk’s
+                        interactions with Muḥammad, including their dialogue about the major topics
+                        of Christian/Muslim controversy (Roggema). This ingenious narrative, which
+                        was destined to exert an enormous influence within the Syriac- and
+                        Arabic-speaking Christian communities of the Near East for centuries to
+                        come, incorporated an already popular genre in Christian/Muslim relations in
+                        Syriac, a literary dialogue between a Christian, often a monk, and a Muslim
+                        notable, in this instance Muḥammad himself.</p>
+                    <p>The earliest of the Syriac, apologetic dialogue texts, like the apocalyptic
+                        narratives, also come from the early 8th <abbr>cent.</abbr> The earliest of them is a
+                        letter, written in the early 700s and preserved in a manuscript copied in
+                        874, in which a now unknown writer tells of the occasion when the <abbr>Syr. Orth. </abbr>
+                        <abbr>Patr. </abbr>
+                        <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Yuhanon-of-the-Sedre">
+                            <persName ref="http://syriaca.org/person/92">Yuḥanon of
+                            the Sedre</persName>
+                        </ref> (<abbr>r.</abbr> 631–648) was interrogated by a Muslim emir, ʿUmayr
+                        <abbr>b.</abbr> Saʿd al-Anṣārī, on Sunday, 9 May 644 (Nau, Penn) — even though this date
+                        has been questioned in recent research. They discuss the major doctrinal and
+                        practical issues between Christians and Muslims in such a way that the
+                        Christian dialogue partner successfully defends his faith, thereby offering
+                        the Christian Syriac reader of the text the confidence that Christians do
+                        have answers to the Islamic religious challenge and ways to show the truth
+                        of Christianity on the one hand and Islam’s shortfall on the other hand. Of
+                        the numerous compositions in this genre written in Syriac over the
+                        centuries, one might mention the most well known among them, works such as
+                        the account of the monk of Beth Ḥale with a Muslim emir (<abbr>ca.</abbr> 720) (Hoyland;
+                        Griffith 2000), the dialogue between a master and his disciple in Chapter 10
+                        of <ref rend="bold" target="https://gedsh.bethmardutho.org/Theodoros-bar-Koni">
+                            <persName ref="http://syriaca.org/person/783">Theodoros bar
+                            Koni</persName>
+                        </ref>’s (<abbr>ca.</abbr> 792) ‘Scholion’ (Griffith 1981), <abbr>Patr. </abbr>
+                        <ref rend="bold" target="https://gedsh.bethmardutho.org/Timotheos-I">
+                            <persName ref="http://syriaca.org/person/790">Timotheos
+                            I</persName>
+                        </ref>’s (d. 823) account of his dialogue with the caliph, al-Mahdī,
+                        and Muslim scholars in the caliph’s <hi rend="italic">majlis</hi> (Mingana;
+                        Putman; Heimgartner), <ref rend="bold" target="https://gedsh.bethmardutho.org/Nonos-of-Nisibis">
+                            <persName ref="http://syriaca.org/person/156">Nonos of
+                            Nisibis</persName>
+                        </ref>’s (d. after 861) apologetic treatise in Syriac (Van Roey),
+                        and <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Dionysios-bar-Salibi">
+                            <persName ref="http://syriaca.org/person/212">Dionysios
+                            bar Ṣalibi</persName>
+                        </ref>’s (d. 1171) long refutation of Islam in thirty
+                        chapters, distributed in three general discourses (Amar). Many anonymous
+                        texts of this sort are known in the <abbr>ms.</abbr> tradition, and a number of them,
+                        like <abbr>Patr.</abbr> Timotheos’s account of his dialogue with the caliph and his
+                        attendant scholars, were later translated into Arabic and enjoyed a wide
+                        circulation in the Christian communities in the Islamic world. As a matter
+                        of fact, many of the Christian Arabic writers of apologetic texts of this
+                        sort from the 9th <abbr>cent.</abbr> onward were Syriac-speaking Christians who had
+                        learned Arabic. The most well-known among the earliest of them were the
+                        ‘Melkite’ <ref rend="bold" target="https://gedsh.bethmardutho.org/Theodoros-Abu-Qurra">
+                            <persName ref="http://syriaca.org/person/782">Theodoros Abū
+                            Qurra</persName>
+                        </ref> (<abbr>ca.</abbr> 755-ca. 830), the ‘Jacobite’ Ḥabīb <abbr>b.</abbr> Khidma Abū Rāʾiṭa
+                        (d. <abbr>ca.</abbr> 851), and the ‘Nestorian’ ʿAmmār al-Baṣrī (<abbr>fl.</abbr>
+                        <abbr> ca.</abbr> 850), whose
+                        apologetic texts in Arabic had a long and wide circulation among Middle
+                        Eastern Christians (Griffith 2008).</p>
+                    <p>An interesting feature of these Christian apologetic texts in both Syriac and
+                        Arabic is that in them their authors developed an apologetic strategy for
+                        commending the reasonable credibility of the controversial Christian
+                        doctrines that took advantage of the modes of reasoning deployed by the
+                        contemporary Muslim theologians in the early development of an Islamic,
+                        systematic theology. In fact, it seems to have been the case that the
+                        Arabic-speaking, Muslim theologians developed their characteristic modes of
+                        reasoning in religious matters, the <hi rend="italic">ʿilm al-kalām</hi>,
+                        very much in the course of their interactions with Syriac-speaking,
+                        Christian theologians in such intellectual centers as Baṣra and Baghdad in
+                        the late 8th and early 9th <abbr>cent.</abbr> (Cook). One catches a glimpse of the
+                        process in the Syriac letters of <abbr>Patr.</abbr> Timotheos I, who moved his residence
+                        from <ref rend="bold" target="https://gedsh.bethmardutho.org/Seleucia-Ctesiphon">
+                            <placeName ref="http://syriaca.org/place/182">Seleucia-Ctesiphon</placeName>
+                        </ref> to Baghdad, where he not only participated in
+                        a well-known debate at the caliph’s court, but where he also engaged in
+                        conversations with Muslim scholars. He tells about his experiences and
+                        recounts his conversations in several of his Syriac letters, addressed to a
+                        number of Christian correspondents (Hurst). In these letters he tells not
+                        only of his own experiences in conversation with Muslims but in three
+                        letters addressed to Christians in the environs of Baṣra he offers advice
+                        about how to discuss Christology in a Muslim dominated milieu (Griffith
+                        2007). In these letters one acquires a glimpse into the circumstances of the
+                        origins not only of Muslim controversial theology, but of a Christian <hi rend="italic">kalām</hi> as well, such as that displayed in the
+                        generation after <abbr>Patr.</abbr> Timotheos, in the Arabic works of ʿAmmār al-Baṣrī, in
+                        his interactions with the thought of his fellow Baṣrian, the Muʿtazilī,
+                        Muslim <hi rend="italic">mutakallim</hi>, Abū Hudhayl al-ʿAllāf (d. <abbr>ca.</abbr>
+                        840).</p>
+                    <p>In Baghdad from the late 8th to the mid-11th <abbr>cent.</abbr> at least, Syriac-speaking,
+                        Christian intellectuals played a determining role in the multi-faceted
+                        intellectual undertaking known as the Graeco-Arabic translation movement in
+                        early Abbasid times (Gutas). Building on the earlier, intellectually
+                        important task of translating logical, philosophical, and other texts from
+                        Greek into Syriac in the context of the Christological controversies,
+                        especially by scholars in the <abbr>Syr. Orth.</abbr> community (Hugonnard-Roche), in the
+                        9th and 10th <abbr>cent.</abbr> scholars who were mostly alumni of the several important
+                        schools of the <abbr>Ch. of E.</abbr>, were engaged by mostly Muslim patrons to translate
+                        a whole range of texts from Greek into Arabic, embracing not only logical
+                        and philosophical texts from the Platonic and Aristotelian traditions, but
+                        medical, mathematical, and other scientific disciplines as well. Important
+                        participants in this undertaking were members of the Bokhtishoʿ family, with
+                        their connections with Gondeshapur (<ref rend="bold" target="https://gedsh.bethmardutho.org/Beth-Lapat">
+                            <placeName ref="http://syriaca.org/place/35">Beth Lapaṭ</placeName>
+                        </ref>), the
+                        famous <ref rend="bold" target="https://gedsh.bethmardutho.org/Hunayn-b-Ishaq">
+                            <persName ref="http://syriaca.org/person/542">Ḥunayn <abbr>b.</abbr>
+                            Isḥāq</persName>
+                        </ref> (808–73), with his family and associates from <ref rend="bold" target="https://gedsh.bethmardutho.org/Hirta">
+                            <placeName ref="http://syriaca.org/place/219">Ḥirta</placeName>
+                        </ref>,
+                        and Abū Bishr Mattā <abbr>b.</abbr> Yūnus (d. 940) from the monastery of Dayr Qunnā, the
+                        community from which many Christian officials at the caliphal court in the
+                        9th  cent. came originally (Massignon). It is important to see that these
+                        Syr. Christian intellectuals were not only translators for hire, but
+                        important scholars in their own right, who participated fully in the
+                        scholarly life of Baghdad in their time. Abū Bishr Mattā <abbr>b.</abbr> Yūnus is a case
+                        in point; not only was he one of the two Christian teachers of the Muslim
+                        philosopher Abū Naṣr al-Fārābī (<abbr>ca.</abbr> 870–950), the other one being Yuḥannā <abbr>b.</abbr>
+                        Ḥaylān (d. 910), Abū Bishr was also the champion of ‘Greek logic’ among the
+                        Christian and Muslim intellectuals of Baghdad. He defended the cause in a
+                        famous, if for him <choice>
+                            <sic>ill fated</sic>
+                            <corr>ill-fated</corr>
+                        </choice>, debate between himself and the champion of the
+                        Muslim <hi rend="italic">mutakallimūn</hi>, Abū Saʾīd al-Sīrāfī, who
+                        disdained ‘Greek logic’ in favor of the claims of theoretical Arabic grammar
+                        as a sufficient measure of the soundness of statements made in Arabic
+                        (Endress).</p>
+                    <p>The most prominent philosopher in the third quarter of the 10th <abbr>cent.</abbr> in
+                        Baghdad was the <abbr>Syr. Orth.</abbr> Christian <ref rend="bold" target="https://gedsh.bethmardutho.org/Yahya-b-Adi">
+                            <persName ref="http://syriaca.org/person/180">Yaḥyā <abbr>b.</abbr> ʿAdī</persName>
+                        </ref>
+                        (893–974), the student of al-Fārābī, and in turn the master of a circle of
+                        both Muslim and Christian disciples who became the mainstays of the Baghdad
+                        Aristotelians well into the 11th <abbr>cent.</abbr> Prominent among them was Yaḥyā’s Syr.
+                        Orth. disciple ʿĪsā <abbr>b.</abbr> Zurʿa (943–1008), who was a notable presence in the
+                        learned salons of the social elite of Baghdad in his time (Kraemer).</p>
+                    <p>An interesting feature of the interaction between Syr. Christian and Muslim
+                        scholars in the 10th and 11th  cent. is the response made by Christian
+                        writers to positions taken by prominent Muslims in popular books written in
+                        Arabic that enjoyed a wide circulation in their time. For example, the
+                        Muslim philosopher Yaʿqūb <abbr>b.</abbr> Isḥāq al-Kindī (<abbr>ca.</abbr> 800 – <abbr>ca.</abbr> 867), who had
+                        been a patron of Ḥunayn <abbr>b.</abbr> Isḥāq, wrote a widely read essay called ‘The Art
+                        of Dispelling Sorrows’ that offered consolation on solely philosophical
+                        grounds. At least three Christian writers wrote responses to this text in
+                        Arabic (Griffith 1996), prominent among them being the Ch.  of E. prelate
+                            <ref rend="bold" target="https://gedsh.bethmardutho.org/Eliya-of-Nisibis">
+                            <persName ref="http://syriaca.org/person/472">Eliya of Nisibis</persName>
+                        </ref> (975–1046), who became famous for his
+                        discussions about religion with the Muslim vizier Abū al-Qāsim al-Ḥusayn <abbr>b.</abbr>
+                        ʿAlī al-Maghribī (981–1027) (Samir). Similarly, the famous Muslim writer,
+                        Abū ʿUthmān ʿAmr <abbr>b.</abbr> Bahr al-Jāḥiẓ (777–868) had argued in his famous <hi rend="italic">Kitāb al-ḥayawān</hi> that lifelong sexual continence is
+                        impossible for humans. Both Yaḥyā <abbr>b.</abbr> ‘Adī and Eliya of Nisibis wrote
+                        treatises on sexual continence expressly to refute al-Jāḥiẓ’s claims and to
+                        commend the practice of sexual abstinence as an important virtue for one
+                        seeking moral perfection (Griffith 2006).</p>
+                    <p>These and many other instances of the interactions between Syr. Christians
+                        and Muslims in the heyday of the Abbasid caliphs show clearly that
+                        Christians of the Syriac-speaking communities played a major role in the
+                        growth and development of classical Islamic culture in its origins. Their
+                        interactions continued into much later times. A major case in point is
+                        evident in the life and work of the <abbr>Syr. Orth.</abbr> polymath <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Bar-Ebroyo-Grigorios">
+                            <persName ref="http://syriaca.org/person/239">Bar
+                            ʿEbroyo</persName>
+                        </ref> (1225–86). He composed important works in both Syriac and
+                        Arabic, and in his time he was well known not only among his
+                        co-religionists, but among Muslim intellectuals as well; he mentions the
+                        names and takes account of the positions of Muslim writers such as Fakhr
+                        al-Dīn al-Rāzī, al-Jāḥiẓ, and al-Ghazzālī in his own works. In Syriac, Bar
+                        ʿEbroyo often wrote in the style current among Arabic-speaking writers of
+                        his day. As a matter of course, he takes Islamic points of view seriously in
+                        his work and in many ways he came the closest of all Syriac writers to
+                        something like a real dialogue with Islam; in his work there is a concern
+                        for scholarly objectivity, shown in his quotations from Islamic texts, that
+                        sets him apart from the earlier writers of dispute texts (Takahashi).</p>
+                    <p>An important, but controversial area of interaction between Syriac
+                        Christianity and Islam is religious mysticism. Specifically, the question
+                        arises about the influence of Christian asceticism and mysticism in its Syr.
+                        expression, and especially in its E.-Syr. or <abbr>Ch. of E.</abbr> tradition, on Sufism
+                        in its early, especially Persian stages. Scholars have been divided in their
+                        opinions, with some pointing to the early development of Sufism in the very
+                        territories of the Syriac-speaking Christians and citing numerous parallels
+                        (<choice>
+                            <sic>e.g.</sic>
+                            <corr>e.g., </corr>
+                        </choice>Tor Andrae; Blum); others have emphasized the natural origins of
+                        Islamic mysticism in the Qurʾān and early Islamic tradition (Massignon).
+                        This is very much an area of Syriac interaction with Islam in which
+                        detailed, comparative study of texts has yet to be undertaken. Most scholars
+                        of Sufism simply ignore the Syr. ambience in which many of the early Sufi
+                        writers lived.</p>
+                    <p>Not long after the ‘Syriac <ref rend="bold" target="https://gedsh.bethmardutho.org/Renaissance-Syriac">Renaissance</ref>’ of the 12th and 13th centuries, when local languages
+                        gradually came to dominate both the intellectual and even the ecclesiastical
+                        and liturgical life of Syriac Christianity, at the expense of classical
+                        Syriac, interactions between Islam and Syriac Christianity nevertheless
+                        continued to be an important feature of life for the Christians living in
+                        Islamic polities. Syriac-speaking communities readily became fluent in the
+                        newly dominant languages of their homelands, be they Arabic, Turkish,
+                        Kurdish, or Persian, and in these and other languages, such as those of
+                        Central Asia, their interactions with Muslims have been continuous and their
+                        participation in public life in the Islamic milieu, especially in the
+                        Arabic-speaking world, has been significant especially in the cultural and
+                        political spheres. A notable instance of this interaction in modern times
+                        was the prominent place of Christian intellectuals in the promotion of Arab
+                        nationalism in the early to middle 20th cent (Hourani).</p>
+                </div>
+                <div type="bibl">
+                    <listBibl>
+                        <listBibl>
+                            <head>Primary Sources</head>
+                            <bibl>J. P.  Amar, <title rend="italic">Dionysius Bar Ṣalībī: A response
+                                    to the Arabs</title> (<abbr>CSCO</abbr> 614–5; 2005).</bibl>
+                            <bibl>O.  Braun, <title rend="italic">Timothei Patriarchae I
+                                    epistulae</title> (<abbr>CSCO</abbr> 74–5; 1914–5).</bibl>
+                            <bibl>I.-B.  Chabot, <title rend="italic">Chronique de Denys de
+                                    Tell-Mahré, quatrième partie</title> (1895).</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>I.-B.  Chabot</reg>
+                           <orig>idem</orig>
+                        </choice>, <title rend="italic">Chronique de Michel le Syrien,
+                                    patriarche jacobite d’Antioche (1166–99)</title> (4 vols.;
+                                1899–1910).</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>I.-B.  Chabot</reg>
+                           <orig>idem</orig>
+                        </choice>, <title rend="italic">Anonymi Auctoris Chronicon ad annum
+                                    Christi 1234 pertinens</title> (<abbr>CSCO</abbr> 81–2, 109, 354; 1916–20,
+                                1937, 1974).</bibl>
+                            <bibl>I.-B.  Chabot and R.  Hespel, <title rend="italic">Incerti
+                                    auctoris chronicon anonymum pseudo-Dionysianum vulgo dictum
+                                    II</title> (<abbr>CSCO</abbr> 104, 507; 1933, 1989).</bibl>
+                            <bibl>A.  Harrak, <title rend="italic">The chronicle of Zuqnīn: Parts
+                                    III and IV; A.D. 488–775</title> (1999).</bibl>
+                            <bibl>R.  Hespel, <title rend="italic">Théodore bar Koni. Livre des
+                                    scolies (recension d’Urmiah)</title> (<abbr>CSCO</abbr> 447–448;
+                                1983).</bibl>
+                            <bibl>A.  Mingana, ‘The apology of Timothy the Patriarch before the
+                                Caliph Mahdi’, <title rend="italic">
+                                    <abbr>BJRL</abbr>
+                                </title> 12 (1928), 137–298.
+                                (new <abbr>ed.</abbr> in preparation by M. Heimgartner).</bibl>
+                            <bibl>F.  Nau, ‘Un colloque du patriarche Jean avec l’émir des Agaréens
+                                et faits divers des années 712 à 716’, <title rend="italic">
+                                    <abbr>JA</abbr>
+                                </title> 11.5 (1915), 225–79.</bibl>
+                            <bibl>M. Penn, ‘John and the Emir. A new introduction, edition, and
+                                translation’, <title rend="italic">
+                                    <abbr>LM</abbr>
+                                </title> 121 (2008),
+                                65–91.</bibl>
+                            <bibl>H.  Putman, <title rend="italic">L’Eglise et l’Islam sous Timothée
+                                    I (780–823)</title> (1975).</bibl>
+                            <bibl>G. J.  Reinink, <title rend="italic">Die syrische Apokalypse des
+                                    Pseudo-Methodius</title> (<abbr>CSCO</abbr> 540–1; 1993).</bibl>
+                            <bibl>B.  Roggema, <title rend="italic">The legend of Sergius Baḥīrā:
+                                    Eastern <choice>
+                                        <sic>christian</sic>
+                                        <corr>Christian</corr>
+                                    </choice> apologetics and apocalyptic in response to
+                                    Islam</title> (2009).</bibl>
+                            <bibl>A.  Scher, <title rend="italic">Theodorus Bar Kōnī. Liber
+                                    scholiorum</title> (<abbr>CSCO</abbr> 69; 1912).</bibl>
+                            <bibl>A.  Van Roey, <title rend="italic">Nonnus de Nisibe. Traité
+                                    apologétique</title> (1948).</bibl>
+                            <bibl>W.  Witakowski, <title rend="italic">Pseudo-Dionysius of
+                                    Tel-Mahre: Chronicle (known also as the Chronicle of Zuqnin):
+                                    Part III</title> (1996).</bibl>
+                        </listBibl>
+                        <listBibl>
+                            <head>Secondary Sources</head>
+                            <bibl>P. J.  Alexander, <title rend="italic">The Byzantine Apocalyptic
+                                    Tradition</title> (1985).</bibl>
+                            <bibl>T.  Andrae (trans. J. Roche), <title rend="italic">Les origines de
+                                    l’islam et le christianisme</title> (1955).</bibl>
+                            <bibl>T.  Andrae, <title rend="italic">In the garden of the myrtles:
+                                    Studies in Early Islamic Mysticism</title> (1987).</bibl>
+                            <bibl>G. G.  Blum, <title rend="italic">Die Geschichte der Begegnung
+                                    christlich-orientalischer Mystik mit der Mystik des
+                                    Islams</title> (2009).</bibl>
+                            <bibl>A.  Borrut, ‘Entre tradition et histoire: genèse et diffusion de
+                                l’image de ‘Umar II’, <title rend="italic">
+                                    <abbr>MUSJ</abbr>
+                                </title> 58 (2005),
+                                329–78.</bibl>
+                            <bibl>M.  Cook, ‘The Origins of Kalam’, <title rend="italic">
+                                    <abbr>BSOAS</abbr>
+                                </title> 43 (1980), 32–43.</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>M.  Cook</reg>
+                           <orig>idem</orig>
+                        </choice>, <title rend="italic">Early Muslim dogma</title>
+                                (1981).</bibl>
+                            <bibl>P. Crone and M. Cook, <title rend="italic">Hagarism: The making of
+                                    the Islamic world</title> (1977).</bibl>
+                            <bibl>F. De Blois, ‘Naṣrānī (<choice>
+                                    <sic>Ναζωραιος</sic>
+                                    <corr>Ναζωραῖος</corr>
+                                </choice>) and ḥanīf (<choice>
+                                    <sic>εθνικος</sic>
+                                    <corr>ἐθνικός</corr>
+                                </choice>): Studies on
+                                the religious vocabulary of Christianity and Islam’, <title rend="italic">
+                                    <abbr>BSOAS</abbr>
+                                </title> 65 (2002), 1–30.</bibl>
+                            <bibl>H. J. W. Drijvers, ‘The Gospel of the Twelve Apostles: A Syriac
+                                Apocalypse from the early Islamic period’, in <title rend="italic">Byzantine and Early Islamic Near East</title>, vol.1<title rend="italic">. Problems in the literary source
+                                material</title>, <abbr>ed.</abbr> A. Cameron and L. Conrad (1992),
+                                189–213.</bibl>
+                            <bibl>G.  Endress, ‘Grammatik und Logik: Arabische Philologie und
+                                griechische Philosophie im Widerstreit’, in <title rend="italic">Sprachphilosophie in Antike und Mittelalter</title>, <abbr>ed.</abbr>
+                                B. Mojsisch (1986), 163–299.</bibl>
+                            <bibl>J. J.  van Ginkel <abbr>et al.</abbr> (<abbr>ed.</abbr>), <title rend="italic">Redefining
+                                    Christian identity. Cultural interaction in the Middle East
+                                    since the rise of Islam</title> (<abbr>OLA</abbr> 134; 2005).</bibl>
+                            <bibl>J.  Gnilka, <title rend="italic">Die Nazarener und der Koran: Eine
+                                    Spurensuche</title> (2007).</bibl>
+                            <bibl>S. H.  Griffith, ‘Chapter Ten of the Scholion: Theodore Bar Kônî’s
+                                apology for Christianity’, <title rend="italic">
+                                    <abbr>OCP</abbr>
+                                </title> 47
+                                (1981), 158–188.</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>S. H.  Griffith</reg>
+                           <orig>idem</orig>
+                        </choice>  ‘Disputes with Muslims in Syriac Christian texts: From
+                                Patriarch John (d. 648) to Bar Hebraeus (d. 1286)’, in <title rend="italic">Religionsgespräche im Mittelalter</title>, <abbr>ed.</abbr>
+                                B.  Lewis and F.  Niewöhner (1992), 251–73.</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>S. H.  Griffith</reg>
+                           <orig>idem</orig>
+                        </choice>, ‘The Muslim philosopher al-Kindī and his Christian readers:
+                                Three Arab Christian texts on “The Dissipation of Sorrows”’, <title rend="italic">
+                                    <abbr>BJRL</abbr>
+                                </title> 78 (1996), 111–27.</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>S. H.  Griffith</reg>
+                           <orig>idem</orig>
+                        </choice>, ‘Disputing with Islam in Syriac. The case of the Monk of Bêt
+                                Ḥālê and a Muslim emir’, <title rend="italic">
+                                    <abbr>Hugoye</abbr>
+                                </title> 3
+                                (2000).</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>S. H.  Griffith</reg>
+                           <orig>idem</orig>
+                        </choice>, ‘Yaḥyā ibn ʿAdī’s Colloquy on Sexual Abstinence and the
+                                Philosophical Life’, in <title rend="italic">Arabic theology, Arabic
+                                    philosophy: From the many to the one</title>, <abbr>ed.</abbr>
+                                J. E.  Montgomery (2006), 299–333.</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>S. H.  Griffith</reg>
+                           <orig>idem</orig>
+                        </choice>, ‘The Syriac letters of Patriarch Timothy I and the birth of
+                                Christian kalām in the Mu‛tazilite milieu of Baghdad and Baṣrah in
+                                Early Islamic times’, in <title rend="italic">Syriac polemics.
+                                    Studies in honour of G. J. Reinink</title>, <abbr>ed.</abbr> W. J. van Bekkum
+                                <abbr>et al.</abbr> (<abbr>OLA</abbr> 170; 2007), 103–32.</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>S. H.  Griffith</reg>
+                           <orig>idem</orig>
+                        </choice>, <title rend="italic">The Church in the shadow of the Mosque.
+                                    Christians and Muslims in the world of Islam</title>
+                                (2008).</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>S. H.  Griffith</reg>
+                           <orig>idem</orig>
+                        </choice>, ‘Christian Lore and the Arabic Qurʾān: the “Companions of
+                                the Cave” in <title rend="italic">Sūrat al-Kahf</title> and in
+                                Syriac Christian Tradition’, in Reynolds 2008, 109–138.</bibl>
+                            <bibl>D.  Gutas, <title rend="italic">Greek thought, Arabic culture: The
+                                    Graeco-Arabic translation movement in Baghdad and early ʿAbbasid
+                                    society</title> (1998).</bibl>
+                            <bibl>Th.  Hainthaler, <title rend="italic">Christliche Araber vor dem
+                                    Islam: Verbreitung und konfessionelle Zugehörigkeit; eine
+                                    Hinführung</title> (2007).</bibl>
+                            <bibl>A.  Hourani, <title rend="italic">Arabic thought in the Liberal
+                                    Age, 1798–1939</title> (1983).</bibl>
+                            <bibl>R. G.  Hoyland, <title rend="italic">
+                                    <choice>
+                                        <sic>Seeing Islam as others saw
+                                    it: A survey and evaluation of Christian, Jewish and Zoroastrian
+                                    writings on Early Islam (1997)</sic>
+                                        <corr>Seeing Islam</corr>
+                                    </choice>
+                                </title>.</bibl>
+                            <bibl>H.  Hugonnard-Roche, <title rend="italic">La logique d’Aristote du
+                                    grec au syriaque</title> (2004).</bibl>
+                            <bibl>A.  Jefferey, <title rend="italic">The foreign vocabulary of the
+                                    Qurʾān</title> (1938).</bibl>
+                            <bibl>J. L.  Kraemer, <title rend="italic">Humanism in the Renaissance
+                                    of Islam: The cultural revival during the Buyid age</title>
+                                (1986).</bibl>
+                            <bibl>B.  Landron, <title rend="italic">Chrétiens et musulmans en Irak:
+                                    Attitudes nestoriennes vis-à-vis de l’islam</title>
+                                (1994).</bibl>
+                            <bibl>C. Luxenberg, <title rend="italic">Die syro-aramäische Lesart des
+                                    Koran: Ein Beitrag zur Entschlüsselung der Koransprache</title>
+                                (2000; 2nd rev. <abbr>ed.</abbr> 2004). (<abbr>ET</abbr> by T. Müke as <title rend="italic">The Syro-Aramaic reading of the Koran: A contribution to the
+                                    decoding of the language of the Koran</title> [2007])</bibl>
+                            <bibl>L.  Massignon, ‘La politique islamo-chrétienne des scribes
+                                nestoriens de Deir Qunna à la cour de Bagdad au IXe siècle de notre
+                                ère’, <title rend="italic">Vivre et Penser</title> 2 (1942),
+                                7–14.</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>L.  Massignon</reg>
+                           <orig>idem</orig>
+                        </choice>, <title rend="italic">Essai sur les <choice>
+                                        <sic>origins</sic>
+                                        <corr>origines</corr>
+                                    </choice> du lexique
+                                    technique de la mystique musulmane</title> (rev. <abbr>ed.</abbr> 1968). (<abbr>ET</abbr>
+                                by B. Clark as <title rend="italic">Essay on the origins of the
+                                    technical language of Islamic mysticism</title> [1997])</bibl>
+                            <bibl>M. Metselaar, <title rend="italic">Die Nestorianer und der frühe
+                                    Islam</title> (2009).</bibl>
+                            <bibl>A.  Mingana, ‘Syriac Influence on the Style of the Ḳurʾān’,
+                                    <title rend="italic">
+                                    <abbr>BJRL</abbr>
+                                </title> 11 (1927), 77–98.</bibl>
+                            <bibl>K. H.  Ohlig, ‘Das syrische und arabische Christentum und der
+                                Koran’, in <title rend="italic">Die dunklen Anfänge: Neue
+                                    Forschungen zur Entstehung und frühen Geschichte des
+                                    Islam</title>, <abbr>ed.</abbr> K. H. Ohlig and G. R. Puin (2007),
+                                366–404.</bibl>
+                            <bibl>M.  Penn, ‘Syriac sources for the study of early Christian-Muslim
+                                relations’, <title rend="italic">Islamochristiana</title> 29 (2003),
+                                59–78.</bibl>
+                            <bibl>G. J.  Reinink, ‘Ps.-Methodius: A concept of history in response
+                                to the rise of Islam’, in <title rend="italic">The Byzantine and
+                                    Early Islamic Near East</title>, vol. 1, <title rend="italic">Problems in the Literary Source Material</title>, ed<title rend="italic">.</title> A. Cameron and L. I. Conrad (1992),
+                                149–87.</bibl>
+                            <bibl>G.  Reynolds (<abbr>ed.</abbr>), <title rend="italic">The Qur’ān in its
+                                    historical context</title> (2008).</bibl>
+                            <bibl>M.  Salama-Carr, <title rend="italic">La traduction à l’époque
+                                    abbaside: l’école de Ḥunayn ibn Isḥāq et son importance pour la
+                                    traduction</title> (1990).</bibl>
+                            <bibl>S. Kh.  Samir, <title rend="italic">Foi et culture en Irak au XIe
+                                    siècle: Elie de Nisibe et l’islam</title> (1996).</bibl>
+                            <bibl>I.  Shahid, <title rend="italic">Byzantium and the Arabs in the
+                                    fifth century</title> (1989).</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>I.  Shahid</reg>
+                           <orig>idem</orig>
+                        </choice>, <title rend="italic">Byzantium and the Arabs in the sixth
+                                    century</title> (1995).</bibl>
+                            <bibl>H.  Suermann, <title rend="italic">Die geschichtstheologische
+                                    Reaktion auf die einfallenden Muslime in der edessenischen
+                                    Apokalyptik des 7. Jahrhunderts</title> (1985).</bibl>
+                            <bibl>M.  Tamcke (<abbr>ed.</abbr>), <title rend="italic">Christians and Muslims in
+                                    dialogue in the Islamic Orient of the
+                                <choice>
+                                        <sic>Middle-Ages</sic>
+                                        <corr>Middle Ages</corr>
+                                    </choice>
+                                </title> (2007).</bibl>
+                            <bibl>R.  Tardy, <title rend="italic">Najrān: Chrétiens d’Arabie avant
+                                    l’islam</title> (1999).</bibl>
+                            <bibl>H.  Takahashi, <title rend="italic">Bar Hebraeus: A
+                                    bio-bibliography</title> (2005).</bibl>
+                            <bibl>D.  Thomas (<abbr>ed.</abbr>), <title rend="italic">Syrian Christians under
+                                    Isalm. The first thousand years</title> (2001).</bibl>
+                            <bibl>Thomas and Roggema (<abbr>ed.</abbr>), <title rend="italic">Christian-Muslim
+                                    relations</title>.</bibl>
+                            <bibl>J. Spencer Trimingham, <title rend="italic">Christianity among the
+                                    Arabs in pre-Islamic times</title> (1979).</bibl>
+                            <bibl>F.  van der Velden, ‘Konvergenztexte syrischer und arabischer
+                                Christologie: Stufen der Textentwicklung von Sure 3, 33–64’, <title rend="italic">
+                                    <abbr>OC</abbr>
+                                </title> 91 (2007), 164–203.</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>F.  van der Velden</reg>
+                           <orig>idem</orig>
+                        </choice>, ‘Kontexte in Konvergenzstrang — die Bedeutung textkritischer
+                                Varianten und christlicher Bezugstexte für die Redaktion von Sure 61
+                                und Sure 5, 110–119’, <title rend="italic">
+                                    <abbr>OC</abbr>
+                                </title> 92 (2008),
+                                181–224.</bibl>
+                            <bibl>J.  Wansbrough, <title rend="italic">The sectarian milieu: Content
+                                    and composition of Islamic salvation history</title>
+                                (1978).</bibl>
+                        </listBibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Sidney H.</forename> 
+                  <surname>Griffith</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Pawlos of Beth Ukome</title>
+            <author>
+               <persName>
+                  <forename>Lucas</forename> 
+                  <surname>Van Rompay</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.5">Electronic Edition Version 1.5</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Pawlos of Beth Ukome</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Pawlos-of-Beth-Ukome</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/425</idno>
+                    <idno type="entry">416</idno>
+                    <milestone unit="pages" n="322-323"/>
+                    <idno type="subject">http://syriaca.org/person/72</idno>
+                    <note type="type">person</note>
+                    <note type="abstract">Patriarch of Antioch and miaphysite leader; involved in a schism within the miaphysite community
+                    </note>
+                </ab>
+                <ab type="infobox">(d. 581) [<abbr>Syr. Orth.</abbr>]</ab>
+                <div type="body">
+                    <p>
+                        <abbr>Patr.</abbr> Pawlos’s name (‘of the house of the black ones’) was rendered in Greek
+                        as ‘of the black (ones)’ (<hi rend="italic">Melanos</hi>, sing., or <hi rend="italic">Melanōn</hi>, plur.). He was elected <abbr>patr.</abbr> of <ref rend="bold" target="https://gedsh.bethmardutho.org/Antioch">
+                            <placeName ref="http://syriaca.org/place/10">Antioch</placeName>
+                        </ref>
+                        in a period when the Miaphysites of Syria and Egypt were working closely
+                        together in their resistance to the Chalcedonian doctrine of the Imperial
+                        Church. After the death of <ref rend="bold" target="https://gedsh.bethmardutho.org/Severus-of-Antioch">
+                            <persName ref="http://syriaca.org/person/51">Severus of
+                            Antioch</persName>
+                        </ref> (d. 538), <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Theodosius-of-Alexandria">
+                            <persName ref="http://syriaca.org/person/784">Theodosius of Alexandria</persName>
+                        </ref> assumed the leadership of the
+                        Miaphysites, even while living as an exile in Constantinople. It was only in
+                        the late 550s that the Syr. Miaphysites proceeded with the election of their
+                        own leader, first Sergius, who had a short tenure (<abbr>ca.</abbr> 557–60), and then, a
+                        few years later, Pawlos (who was elected in 564, at the instigation of <abbr>Patr.</abbr>
+                        Theodosius). Pawlos, who had worked with Theodosius, was a native of
+                        Alexandria; prior to his election he may have spent some time in Syria as a
+                        monk (Honigmann, 196). Once elected he may have had the ambition of exerting
+                        leadership over both the Syrian and Egyptian Churches, as the follower of
+                        Theodosius (d. 566), but he found little support. In 571, in a time when the
+                        Miaphysites were oppressed by the Chalcedonians, Pawlos is said to have
+                        temporarily accepted communion with the Chalcedonians, an act which he later
+                        regretted and for which he had to accept a three-year penitence in order to
+                        be fully rehabilitated. In 575 he played a role in the election and formal
+                        recognition of a Syrian monk, Theodorus (who had lived for several years in
+                        Scetis) as <abbr>patr.</abbr> of Alexandria. The Alexandrians, however, rejected
+                        Theodorus, and a different candidate was elected to the see of Alexandria,
+                        Peter (IV, 575–77). For what he saw as Pawlos’s unlawful intervention in the
+                        election process, Peter issued the deposal of Pawlos, and a schism between
+                        the two patriarchates broke out. That this did not have nationalist
+                        undertones is clear from the fact that Peter had a Syrian secretary in
+                        Damian (who was from <ref rend="bold" target="https://gedsh.bethmardutho.org/Edessa">
+                            <placeName ref="http://syriaca.org/place/78">Edessa</placeName>
+                        </ref>, the city he
+                        visited in the fall of 579), who only two years later became Peter’s
+                        successor in Alexandria. Within the Syrian Miaphysite community, the schism
+                        created bitter opposition between Pawlos’s staunch supporters and those who,
+                        for a variety of reasons, withdrew their support from Pawlos. Among the
+                        latter was <ref rend="bold" target="https://gedsh.bethmardutho.org/Yaqub-Burdoyo">
+                            <persName ref="http://syriaca.org/person/69">Yaʿqub
+                            Burdʿoyo</persName>
+                        </ref>. The Syrian Miaphysite community thus became divided
+                        between ‘Paulists’ (or Paulianists, Greek <hi rend="italic">Paulianistai</hi>, Syriac <hi rend="italic">Beth Pawlo</hi>) and
+                        ‘Jacobites’. Pawlos himself withdrew to Constantinople, where he spent the
+                        last years of his life in relative isolation. When following the death of
+                        Pawlos (581), <ref rend="bold" target="https://gedsh.bethmardutho.org/Peter-of-Kallinikos">
+                            <persName ref="http://syriaca.org/person/75">Peter of
+                            Kallinikos</persName>
+                        </ref> was elected the new <abbr>patr.</abbr> of Antioch, the peace between
+                        the two patriarchates lasted for only a few years. For, starting in the
+                        mid-580s, Peter of Kallinikos and Damian became involved in a new conflict,
+                        in which this time the theological problem of ‘Tritheism’ was central and
+                        led to another schism. This would only be healed under <ref rend="bold" target="https://gedsh.bethmardutho.org/Athanasios-I-Gamolo">
+                            <persName ref="http://syriaca.org/person/88">Athanasios Gamolo</persName>
+                        </ref> in 616.</p>
+                    <p>Among Pawlos’s writings, some letters and official statements have been
+                        preserved: his synodical letter to Theodosius (Syr. in <abbr>CSCO</abbr> 17, 98–114; <abbr>LT</abbr>
+                        in <abbr>CSCO</abbr> 103, 68–79); a letter to Yaʿqub Burdʿoyo and to Theodorus (Syr. in
+                        <abbr>CSCO</abbr> 17, 177–9; <abbr>LT</abbr> in <abbr>CSCO</abbr> 103, 123–5); Pawlos’s synodical letter to <abbr>Patr.</abbr>
+                        Theodorus (Syr. in <abbr>CSCO</abbr> 17, 308–34; <abbr>LT</abbr> in <abbr>CSCO</abbr> 103, 215–33); as well as some
+                        additional fragments (see <hi rend="italic">
+                            <abbr>CPG</abbr>
+                        </hi> and Suppl.). A short
+                        document refuting the positions of the Paulists and defending the judgments
+                        and actions of Yaʿqub Burdʿoyo has recently been published by Lontie.
+                        Information on Pawlos and on the situation of the <abbr>Syr. Orth.</abbr> in the 2nd half
+                        of the 6th <abbr>cent.</abbr> is found in the main W.-Syr. historiographical works (among
+                        which the Ecclesiastical History of the contemporary witness <ref rend="bold" target="https://gedsh.bethmardutho.org/Yuhanon-of-Ephesus">
+                            <persName ref="http://syriaca.org/person/74">Yuḥanon of Ephesus</persName>
+                        </ref> stands out). Many official and semi-official
+                        documents of the Syr. Orth Church in the 6th <abbr>cent.</abbr> are preserved in a
+                        collection (<abbr>ms.</abbr> Brit. Libr. Add. 14,602, late 6th or early 7th <abbr>cent.</abbr>) that
+                        its editor, J.-B. Chabot named ‘Documenta ad origines Monophysitarum
+                        illustrandas’.</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>
+                            <title rend="italic">
+                                <abbr>CPG</abbr>
+                            </title> 7203–7214.</bibl>
+                        <bibl>Ph.  Blaudeau, ‘Le voyage de Damien d’Alexandrie vers Antioche puis
+                            Constantinople (579–580) — Motivations et objectifs’, <title rend="italic">
+                                <abbr>OCP</abbr>
+                            </title> 63 (1997), 333–61.</bibl>
+                        <bibl>I.-B.  Chabot, <title rend="italic">Documenta ad origines
+                                Monophysitarum illustrandas</title> (<abbr>CSCO</abbr> 17 and 103; 1908 and
+                            1933).</bibl>
+                        <bibl>Honigmann, <title rend="italic">Évêques et évêchés
+                                monophysites</title>, 195–205.</bibl>
+                        <bibl>L.  Lontie, ‘Un traité syriaque jacobite contre les partisans de Paul
+                            de Bēth Ukkāmē (564–581) (<abbr>ms.</abbr> British Library Add. 14.533, f. 172r<hi rend="superscript">o</hi>b–176v<hi rend="superscript">o</hi>b)’,
+                                <title rend="italic">
+                                <abbr>OCP</abbr>
+                            </title> 63 (1997), 5–51. (with further
+                            references)</bibl>
+                        <bibl>A.  Van Roey and P. Allen, <title rend="italic">Monophysite texts of
+                                the sixth century</title> (<abbr>OLA</abbr> 56; 1994), 265–303. (overview and
+                            analysis of the <title rend="italic">Documenta</title>).</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Lucas</forename> 
+                  <surname>Van Rompay</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

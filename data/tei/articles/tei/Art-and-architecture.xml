@@ -1,0 +1,661 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Art and architecture</title>
+            <author>
+               <persName>
+                  <forename>Lucas</forename> 
+                  <surname>Van Rompay</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.5">Electronic Edition Version 1.5</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Art and architecture</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Art-and-architecture</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/59</idno>
+                    <idno type="entry">50</idno>
+                    <milestone unit="pages" n="37-43"/>
+                    <note type="type">subject</note>
+                    <note type="abstract">A comprehensive study of Syr. Christian art and
+                        architecture is still missing, and only a few subfields are relatively well
+                        covered in overview monographs. This entry offers a survey of several key areas.<note/>
+                    </note>
+                </ab>
+                <div type="body">
+                    <p>A comprehensive study of Syr. Christian art and architecture is still
+                        missing, and only a few subfields are relatively well covered in overview
+                        monographs, such as the architecture of Syria west of the Euphrates (Butler;
+                        Lassus; Tchalenko), floor mosaics in churches of Syria and Lebanon
+                        (Donceel-Voûte), manuscript illumination (Leroy 1964), and wall paintings in
+                        Syria and Lebanon (Cruikshank Dodd; Immerzeel 2009). Given Syr.
+                        Christianity’s intertwinement, throughout its history, with other
+                        linguistic, cultural, and religious traditions, the definition of what
+                        constitutes ‘Syr. Christian’ art or architecture is somewhat elusive and
+                        should not be attempted here. In the early period much of Syr. Christianity
+                        was situated in the Roman Empire, in which there was a great deal of overlap
+                        between Syr. Christian and Greek Christian art and culture. In the Islamic
+                        period certain forms of art were shared between Syr. Christians and Muslims.
+                        In addition, the proximity of Byzantine Christianity or even Western
+                        Christianity (esp. in the period of the <ref rend="bold" target="https://gedsh.bethmardutho.org/Crusades">Crusades</ref>) had its
+                        impact on themes and forms of expressions. There is some evidence in the
+                        early Syr. tradition of the use of portable icons (the image of <ref rend="bold" target="https://gedsh.bethmardutho.org/Edessa">
+                            <placeName ref="http://syriaca.org/place/78">Edessa</placeName>
+                        </ref>,
+                        which was believed to be a portrait of Jesus, being the most famous of
+                        these), but it is only among the Christians of the Chalcedonian traditions
+                        (Melkite and Maronite) that the art of icon painting flourished and that
+                        local styles emerged, such as in the 13th <abbr>cent.</abbr> in Tripoli and in the 17th
+                        <abbr>cent.</abbr> in <ref rend="bold" target="https://gedsh.bethmardutho.org/Aleppo">
+                            <placeName ref="http://syriaca.org/place/18">Aleppo</placeName>
+                        </ref>. In the other Syr. traditions (<abbr>Syr. Orth.</abbr> and <abbr>Ch. of E.</abbr>)
+                        the cult of images in whatever form never became as prominent as it was in
+                        the Byzantine tradition, even though there is no evidence of any opposition
+                        to the use of figurative art, and suggestions that Syr. Christianity was
+                        somehow connected to the iconoclastic movement within the Byzantine
+                        tradition or to any other an-iconic tradition should be rejected (Brock
+                        2004; Teule). In general, the study of Syr. Christian art and architecture
+                        is seriously hampered by the fact that the surviving remains are fragmentary
+                        and mostly deprived of their original context. Accompanying <ref rend="bold" target="https://gedsh.bethmardutho.org/Inscriptions">inscriptions</ref>, occasionally containing dates and names, may
+                        provide crucial information. In the present overview only a few areas will
+                        be highlighted.</p>
+                    <label type="subsection">1. Pre-Christian Edessa</label>
+                    <p>The art of the semi-independent kingdom of Edessa is accessible to us in a
+                        number of funerary mosaics, dated or datable to the first three <abbr>cent.</abbr> AD
+                        (prior to the mid–3rd <abbr>cent.</abbr>). Some of these show portraits of the deceased,
+                        often with their family; others have topics or figures from Greco-Roman
+                        antiquity, such as the Phoenix or Orpheus playing the lyre. Reflecting the
+                        life of the urban aristocracy, the mosaics show the proximity of the
+                        Parthian world, in particular in the costumes (Leroy 1957). Most of the
+                        mosaics (some of which are dated in their inscriptions) are contemporaneous
+                        with the nascent Christian communities in Edessa, and with our earliest
+                        Christian authors, such as <ref rend="bold" target="https://gedsh.bethmardutho.org/Bardaisan">
+                            <persName ref="http://syriaca.org/person/3">Bardaiṣan</persName>
+                        </ref>, but
+                        none of them can be identified as specifically Christian (Drijvers and
+                        Healey; Healey; Segal).</p>
+                    <label type="subsection">2. Christian Architecture in Syria, Ṭur ʿAbdin, and
+                        Mesopotamia</label>
+                    <p>The earliest dated church in the Syr. Christian area is the church of <ref rend="bold" target="https://gedsh.bethmardutho.org/Yaqub-of-Nisibis">
+                            <persName ref="http://syriaca.org/person/811">Yaʿqub of Nisibis</persName>
+                        </ref> which in a baptistery inscription that survives
+                        to the present day is dated to 359, <choice>
+                            <sic>i.e. </sic>
+                            <corr>i.e., </corr>
+                        </choice>the time when <ref rend="bold" target="https://gedsh.bethmardutho.org/Ephrem">
+                            <persName ref="http://syriaca.org/person/13">Ephrem</persName>
+                        </ref> lived in the
+                        city. Even though we are in the easternmost corner of the Roman Empire and
+                        in the heartland of Syr. Christianity, the inscription is not in Syriac, but
+                        in Greek.
+                    </p>
+                    <p>Most of the evidence for churches between the 4th and 7th <abbr>cent.</abbr> is from the
+                        region between <ref rend="bold" target="https://gedsh.bethmardutho.org/Antioch">
+                            <placeName ref="http://syriaca.org/place/10">Antioch</placeName>
+                        </ref> and Aleppo.
+                        Known as the ‘Dead cities’, because they were abandoned in the early Islamic
+                        period due to shifting patterns of economy and trade (and are still largely
+                        deserted today), numerous sites show the secular and religious buildings of
+                        villages and medium-size communities. Several churches are impressive, and
+                        the architectural skeleton of some of them is well-preserved, having been
+                        exposed to the forces of nature only, not to re-use or destruction by
+                        humans. Some churches are very small (such as the single-aisled church of
+                        Qirqbize). Other churches derive their importance from their role as pilgrim
+                        destinations, such as the church of Qalbloze, and above all the magnificent
+                        church of <ref rend="bold" target="https://gedsh.bethmardutho.org/Shemun-the-Stylite">
+                            <persName ref="http://syriaca.org/person/744">Shemʿun the
+                            Stylite</persName>
+                        </ref>, which was built in the late 5th <abbr>cent.</abbr> and which consists
+                        of four three-aisled basilicas converging on the saint’s pillar. Even today
+                        the scattered ruins and the very refined capital sculptures evoke the
+                        church’s former majesty. Another popular pilgrim destination, which
+                        flourished in the 6th <abbr>cent.</abbr>, is the shrine of Mar Sargis (St. Sergius) in
+                        Resafa, more eastwards in the Syrian steppe (<abbr>ca.</abbr> 160  km. southeast of
+                        Aleppo).</p>
+                    <p>The region of <ref rend="bold" target="https://gedsh.bethmardutho.org/Tur-Abdin">
+                            <placeName ref="http://syriaca.org/place/221">Ṭur ʿAbdin</placeName>
+                        </ref> and
+                        the wider area around it also preserve some of the earliest churches of Syr.
+                        Christianity, some of which were expanded throughout the centuries and are
+                        still in use today. The well-preserved main church of <ref rend="bold" target="https://gedsh.bethmardutho.org/al-Zafaran-Dayr">
+                            <placeName ref="http://syriaca.org/place/69">Dayr
+                            al-Zaʿfarān</placeName>
+                        </ref> dates back to the 6th <abbr>cent.</abbr>, while some of the
+                        rebuilding and refurbishment of the church of the <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Gabriel-Monastery-of-Mor">
+                            <placeName ref="http://syriaca.org/place/226">Monastery of Mor Gabriel</placeName>
+                        </ref> can be dated to the reign of the
+                        Byzantine emperor Anastasius (<abbr>r.</abbr> 491–518). Several other churches in this
+                        area go back to the early Islamic period, such as the church of Ḥaḥ and the
+                        church of the Holy Cross, in the monastery of the same name (<ref rend="bold" target="https://gedsh.bethmardutho.org/al-Salib-Dayr">
+                            <placeName ref="http://syriaca.org/place/68">Dayr
+                            al-Ṣalīb</placeName>
+                        </ref>).</p>
+                    <p>A special architectural feature in some of the earliest churches is the bema.
+                        This is a raised platform, usually horseshoe-shaped and with low walls,
+                        which is located in the middle of the nave and on which the liturgy of the
+                        Word was performed. The above-mentioned churches of Qirqbize, Qalbloze, and
+                        Resafa provide interesting examples, while detached pieces of the bema
+                        construction have found their way to modern museums, such as the stone bema
+                        lectern of Bennawi, which is presently shown in the garden of the National
+                        Museum of <ref rend="bold" target="https://gedsh.bethmardutho.org/Damascus">
+                            <placeName ref="http://syriaca.org/place/66">Damascus</placeName>
+                        </ref> (Brock and Taylor, <hi rend="italic">Hidden Pearl</hi>,
+                        vol. 2, 43). In recent years the bema has received considerable attention,
+                        both from liturgists and archeologists (Cassis, Loosley, Renhart, and
+                        Taft).</p>
+                    <p>Several other detached pieces of church decoration, chancel panels, or door
+                        lintels, exhibiting ornamental motifs or iconographical themes, are found
+                        scattered all over the world. Two chancel panels in stone, uncovered at Rasm
+                        al-Qanafez (to the east of Salamiyya, Syria) and presently in the National
+                        Museum of Damascus, show Daniel among the lions and the three Magi
+                        approaching the Virgin with Child (<hi rend="italic">Syrie</hi>, 358–59;
+                        Peña, 84).</p>
+                    <p>Floor mosaics as well often have left their original location. Most of the
+                        mosaics belonging to churches in Syria and Lebanon have conveniently been
+                        brought together by P. Donceel-Voûte, with the ‘Adam mosaic’ in the
+                        Michaelion of Huarte (<abbr>ca.</abbr> 15 km. north-northeast of <ref rend="bold" target="https://gedsh.bethmardutho.org/Apamea">
+                            <placeName ref="http://syriaca.org/place/11">Apamea</placeName>
+                        </ref>) as one of
+                        the highlights (Donceel-Voûte, 105), to be compared with the royal Adam
+                        shown on a mosaic panel in the Museum of Ḥama, the latter with a Greek and
+                        Syriac caption (ibid., 113; also in Brock and Taylor, <hi rend="italic">Hidden Pearl</hi>, vol. 2, 41). More recently beautiful mosaics have
+                        been uncovered at Tall Biʿa, near Raqqaʿ/Kallinikos, in the church of a
+                        monastery that may have been the Monastery of Mar Zakkay, to which <ref rend="bold" target="https://gedsh.bethmardutho.org/Yuhanon-of-Tella">
+                            <persName ref="http://syriaca.org/person/50">Yuḥanon of Tella</persName>
+                        </ref> once belonged (Kalla, with further
+                        references).</p>
+                    <p>While by far the largest part of our evidence for the early period belongs to
+                        the W.-Syr. tradition (in particular <abbr>Syr. Orth.</abbr> and Melkite), there has been
+                        in recent years considerable and promising archeological activity in the
+                        geographical area of the <abbr>Ch. of E.</abbr> (Hauser; Kröger, with further
+                        references). The Christian monuments of Iraq (belonging to either the Ch. of
+                        E. or the <abbr>Syr. Orth.</abbr> tradition), a number of which go back to the first
+                        millennium, have been surveyed by Fiey in his three-volume publication <hi rend="italic">Assyrie chrétienne</hi>, while the same scholar devoted a
+                        separate volume to <ref rend="bold" target="https://gedsh.bethmardutho.org/Mosul">
+                            <placeName ref="http://syriaca.org/place/139">Mosul</placeName>
+                        </ref> (1959). Sites
+                        of particular significance are the city of <ref rend="bold" target="https://gedsh.bethmardutho.org/Tagrit">
+                            <placeName ref="http://syriaca.org/place/193">Tagrit</placeName>
+                        </ref> (Harrak
+                        2001), <ref rend="bold" target="https://gedsh.bethmardutho.org/Matay-Dayro-d-Mor">
+                            <persName ref="http://syriaca.org/person/227">Dayro d-Mor
+                            Matay</persName>
+                        </ref> and <ref rend="bold" target="https://gedsh.bethmardutho.org/Behnam-Dayro-d-Mor">
+                            <placeName ref="http://syriaca.org/place/225">Dayro d-Mor
+                            Behnam</placeName>
+                        </ref> (nowadays <abbr>Syr. Cath.</abbr>), with its exceptional 13th-cent.
+                        carvings on the main entrance door. There is also some evidence of building
+                        activity associated with the <abbr>Ch. of E.</abbr> in the Holy Land, in particular a
+                        hermitage near Jericho (Fiey 1983, and Brock and Taylor, <hi rend="italic">Hidden Pearl</hi>, vol. 2, 46) and possibly a monastic complex at Tel
+                        Masos, in the northern Negev (Fritz and Maiberger).</p>
+                    <label type="subsection">3. Manuscript Illumination</label>
+                    <p>An excellent survey of illuminated <abbr>mss.</abbr> kept in Western and Middle-Eastern
+                        libraries, with detailed analysis, is available in Leroy 1964. The most
+                        significant set of early illuminations is found in the opening quire of the
+                        6th-cent. <abbr>ms.</abbr> that contains the <ref rend="bold" target="https://gedsh.bethmardutho.org/Rabbula-Gospels">Rabbula
+                            Gospels</ref> (named after the scribe of the Gospel text), with its
+                        richly decorated canon tables and its full-page illuminations. Of the same
+                        period, or possibly slightly later, is the so-called ‘Syriac Bible from
+                        Paris’ (Paris, Bibl. Nat. Syr. 341), which contains mostly <abbr>OT</abbr> themes and
+                        figures (Sörries). The art of <abbr>ms.</abbr> illumination came to full fruition in the
+                        11th to 13th <abbr>cent.</abbr>: along with biblical <abbr>mss.</abbr>, such as the ‘Buchanan Bible’
+                        (<abbr>ms.</abbr> Cambridge, Univ. Libr. <choice>
+                     <reg>Oo. I.1,2</reg>
+                     <orig>Oo.I.1,2</orig>
+                  </choice>; on which, see Hunt), there are a
+                        number of lectionaries, most of them belonging to the <abbr>Syr. Orth.</abbr> tradition.
+                        The number of E.-Syr. illuminated <abbr>mss.</abbr> is very limited (for some 15th-cent.
+                        examples, see Leroy, 417–18 and 393–403; Brock and Taylor, <hi rend="italic">Hidden Pearl</hi>, vol. 2, 237–38). In the 16th <abbr>cent.</abbr> the tradition of
+                        <abbr>ms.</abbr> illumination was given new life among the Chaldeans (see e.g. <abbr>ms.</abbr> Borgia
+                        Syr. 169, Leroy, 404–8). For more recent studies, esp. on the <abbr>Syr. Orth.</abbr>
+                        <abbr>mss.</abbr> of the 11th–13th <abbr>cent.</abbr>, see e.g. Doumato. It should also be noted that
+                        <abbr>ms.</abbr> illumination is not limited to the <abbr>mss.</abbr> of the mainstream ecclesiastical
+                        traditions, but is also found, e.g., in magic <abbr>mss.</abbr> (Balicka-Witakowska
+                        2008).</p>
+                    <label type="subsection">4. Wall Paintings</label>
+                    <p>Most of the late antique churches must have contained painting, either of a
+                        purely ornamental nature or intended to provide instruction or to impart
+                        devotion. Remains of painting can be found on some of the ruins, but no full
+                        Christian wall paintings from the first millennium have survived. The <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Wall-paintings-in-Syria-and-Lebanon">wall paintings in Syria and Lebanon</ref> deserve separate attention,
+                        with those of <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Musa-al-Habashi-Dayr-Mar">
+                            <placeName ref="http://syriaca.org/place/228">Dayr Mār
+                            Mūsā al-Ḥabashī</placeName>
+                        </ref>, <ref rend="bold" target="https://gedsh.bethmardutho.org/Qara">
+                            <placeName ref="http://syriaca.org/place/161">Qara</placeName>
+                        </ref>, and the Lebanese
+                        Qadisha Valley as unmistakable highlights. Most of these belong to the
+                        period between the 11th and 13th century. To the same period in all
+                        likelihood belongs a newly discovered wall painting in the church of Mar
+                        Gewargis in <ref rend="bold" target="https://gedsh.bethmardutho.org/Qaraqosh">
+                            <placeName ref="http://syriaca.org/place/262">Qaraqosh</placeName>
+                        </ref>, near Mosul, representing the Baptism of Jesus (Snelders
+                        2007). The art of wall painting continued well into the modern area.
+                        Interesting 18th-cent. examples are found in the <abbr>Syr. Orth.</abbr> church of
+                        Sergius and Bacchus in Ṣadad, <abbr>ca.</abbr> 100 km. north east of Damascus (Brock and
+                        Taylor, <hi rend="italic">Hidden Pearl</hi>, vol. 2, 147–50).</p>
+                    <p>In addition to the heartlands of Syr. Christianity, wall paintings reflecting
+                        Syriac Christianity may be found in <ref rend="bold" target="https://gedsh.bethmardutho.org/al-Suryan-Dayr">
+                            <placeName ref="http://syriaca.org/place/360">Dayr
+                            al-Suryān</placeName>
+                        </ref> in Egypt, which from the early 9th <abbr>cent.</abbr> onwards had a
+                        mixed Coptic and Syriac monastic population. While the earliest paintings in
+                        the main Church of the monastery predate the arrival of Syr. monks, some of
+                        the later paintings must reflect the interests and taste of the Syr. monks.
+                        This may be the case for the probably 10th-cent. painting of the Three
+                        Patriarchs (Innemée 1998), and even more so for the very fragmentarily
+                        preserved paintings of Emperor Constantine and King Abgar (holding the <hi rend="italic">mandylion</hi>), both of which are accompanied by Syriac
+                        inscriptions and may also belong to the 10th  cent. (Innemée and Van
+                        Rompay). Fully preserved paintings in three half-domes of the church, with
+                        Syriac inscriptions, belong to the early 13th <abbr>cent.</abbr> (Leroy 1982).</p>
+                    <label type="subsection">5. Liturgical Vessels and Accessories</label>
+                    <p>A large number of 5th- or 6th-cent. liturgical objects from Syria have been
+                        uncovered in the course of the 20th <abbr>cent.</abbr>, in the area south-west of Aleppo
+                        (Mundell Mango). In some cases inscriptions provide information on the date
+                        and on the church to which the objects belonged: Kaper Koraon (the exact
+                        location of which is uncertain) and Beth Misona (three chalices and a paten,
+                        now in the Cleveland Museum of Art). While the link with Syriac Christianity
+                        seems to be obvious, the inscriptions are in Greek, not in Syriac. A rare
+                        Syriac inscribed silver dish from the 6th <abbr>cent.</abbr>, in the collection of the
+                        Hermitage Museum, St. Petersburg, has been made popular among Syr. scholars
+                        by R. Murray’s <hi rend="italic">Symbols of Church and Kingdom</hi> (1975
+                        and 2004). It represents the Ascension, the women at the tomb, and the
+                        Crucifixion, along with soldiers, Peter and the cock, and Daniel in the
+                        lions’ den.</p>
+                    <p>To a slightly later period, perhaps 8th or 9th <abbr>cent.</abbr>, belongs a very well
+                        preserved bronze incense burner uncovered in Takrit (now in the National
+                        Museum of Baghdad); it has nine scenes from the life of Jesus (Harrak 2006),
+                        but no inscriptions.</p>
+                    <p>From the early 13th-cent. a bronze liturgical fan is preserved (<hi rend="italic">marwḥā</hi> or <hi rend="italic">marwaḥtā</hi>,
+                        ‘flabellum’), now housed in the Belgian Museum of Mariemont. The Syr.
+                        inscription reports that it was made in 1202/3 for Dayr al-Suryān in Egypt;
+                        it may have been produced in a workshop in the Mosul area (Snelders and
+                        Immerzeel). To the same period belongs the church treasure of Resafa, which
+                        includes a skillfully decorated silver chalice and a paten, both bearing
+                        inscriptions in Syriac (even though the objects may have been of Western
+                        origin or inspiration). The paten was a gift to the church of St. Sergius at
+                        Resafa by Ḥasnon of Edessa. These objects had probably been buried in order
+                        to be saved from the Mongol invasions of 1259/60 (Ulbert; Brock and Taylor,
+                            <hi rend="italic">Hidden Pearl</hi>, vol. 2, 212).</p>
+                    <label type="subsection">6. Liturgical Vestments</label>
+                    <p>While some information on liturgical vestments may be extracted from literary
+                        sources and from depictions in <abbr>ms.</abbr> illuminations and wall paintings, a rare
+                        piece, presently housed in the New York Metropolitan Museum of Art, has
+                        recently been studied: a bishop’s stole (<hi rend="italic">batrashil</hi>),
+                            bearing inscriptions in Syriac and Arabic. It was made for
+                        <abbr>Bp.</abbr> Athanasius Abraham Yaghmur of Nabk in 1534–35 (Ball).</p>
+                    <label type="subsection">7. Syr. Christian Art in the 21st Century</label>
+                    <p>While the precious remains of ancient Syr. Christian art and architecture
+                        nowadays are receiving more attention from Syr. scholars and Syr. Christians
+                        alike, Syr. Christians at the same time are creating their own art forms,
+                        often inspired by the treasures of the past, to which they add new layers of
+                        interpretation and meaning according to their present-day situation.
+                        Churches are being renovated or new churches are being built in the Middle
+                        East, in India, and in the worldwide <ref rend="bold" target="https://gedsh.bethmardutho.org/Diaspora">
+                            <choice>
+                                <sic>Diaspora</sic>
+                                <corr>diaspora</corr>
+                            </choice>
+                        </ref>. In many
+                        of these churches the ancient art of wall painting is brought to new life,
+                        while present-day liturgical publications often reflect the illuminated
+                        manuscripts of the past (for the Maronite tradition, see e.g. Badwi).</p>
+                    <p>See <ref target="https://gedsh.bethmardutho.org/fig/1">Fig. 1</ref>, <choice>
+                            <sic>9–15</sic>
+                            <corr>
+                                <ref target="https://gedsh.bethmardutho.org/fig/9">9</ref>, <ref target="https://gedsh.bethmardutho.org/fig/10">10</ref>, <ref target="https://gedsh.bethmardutho.org/fig/11">11</ref>, <ref target="https://gedsh.bethmardutho.org/fig/12c">12c</ref>, <ref target="https://gedsh.bethmardutho.org/fig/13">13</ref>, <ref target="https://gedsh.bethmardutho.org/fig/14">14</ref>, <ref target="https://gedsh.bethmardutho.org/fig/15">15</ref>
+                            </corr>
+                        </choice>, <ref target="https://gedsh.bethmardutho.org/fig/62">62</ref>, <ref target="https://gedsh.bethmardutho.org/fig/63">63</ref>, <ref target="https://gedsh.bethmardutho.org/fig/64">64</ref>, <ref target="https://gedsh.bethmardutho.org/fig/65">65</ref>, <ref target="https://gedsh.bethmardutho.org/fig/71c">71c</ref>, <ref target="https://gedsh.bethmardutho.org/fig/77c">77c</ref>, <ref target="https://gedsh.bethmardutho.org/fig/80">80</ref>, <ref target="https://gedsh.bethmardutho.org/fig/86">86</ref>, <ref target="https://gedsh.bethmardutho.org/fig/88c">88c</ref>, <ref target="https://gedsh.bethmardutho.org/fig/101">101</ref>, <ref target="https://gedsh.bethmardutho.org/fig/104c">104c</ref>, <ref target="https://gedsh.bethmardutho.org/fig/112">112</ref>, <ref target="https://gedsh.bethmardutho.org/fig/115">115</ref>, <choice>
+                            <sic>and 116–118</sic>
+                            <corr>
+                                <ref target="https://gedsh.bethmardutho.org/fig/116">116</ref>,
+                                    <ref target="https://gedsh.bethmardutho.org/fig/117">117</ref>,
+                                and <ref target="https://gedsh.bethmardutho.org/fig/118">118</ref>
+                            </corr>
+                        </choice>.</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>A.  Badwi, <title rend="italic">The liturgical year iconography
+                                of the Syro-Maronite Church</title> (2006).</bibl>
+                        <bibl>E.  Balicka-Witakowska, ‘Illustrating charms: A Syriac manuscript with
+                            magic drawings in the collection of the British Library’, in <title rend="italic">Malphono w-Rabo d-Malphone</title>, <abbr>ed.</abbr> G. A. Kiraz,
+                            779–808.</bibl>
+                        <bibl>J. L.  Ball, ‘A sixteenth-century Batrashil in the Metropolitan Museum
+                            of Art’, <title rend="italic">
+                                <abbr>Hugoye</abbr>
+                            </title> 9.1 (2006).</bibl>
+                        <bibl>S.<choice>
+                        <reg>P.</reg>
+                        <orig/>
+                     </choice>  Brock, ‘Iconoclasm and the Monophysites’, in <title rend="italic">Iconoclasm. Papers given at the ninth Spring Symposium of Byzantine
+                                Studies</title>, <abbr>ed.</abbr> A. Bryer and J. Herrin (1977), 53–7.</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>S. P. Brock</reg>
+                        <orig>idem</orig>
+                     </choice>, ‘Transformations of the Edessa portrait of Christ’, <title rend="italic">
+                                <abbr>JAAS</abbr>
+                            </title> 18 (2004), 46–56.</bibl>
+                        <bibl>Brock and Taylor, <title rend="italic">Hidden Pearl</title>, vol. 2,
+                            esp. 209–41. (‘The arts: Architecture, wall painting and manuscript
+                            illumination’)</bibl>
+                        <bibl>H. C.  Butler, <title rend="italic">Early Churches in Syria</title>
+                            (1929).</bibl>
+                        <bibl>M.  Cassis, ‘The bema in the East Syriac church in light of new
+                            archaeological evidence’, <title rend="italic">
+                                <abbr>Hugoye</abbr>
+                            </title> 5.2
+                            (2002).</bibl>
+                        <bibl>E.  Cruikshank Dodd, <title rend="italic">Medieval Painting in the
+                                Lebanon</title> (2004).</bibl>
+                        <bibl>P.  Donceel-Voûte, <title rend="italic">Les pavements des églises
+                                byzantines de Syrie et du Liban. Décor, archéologie et
+                                liturgie</title> (Publications d’histoire de l’art et d’archéologie
+                            de l’Université catholique de Louvain 69; 1988).</bibl>
+                        <bibl>L.  Doumato, ‘Patriarch Michael the Great: iconoclast or art patron’,
+                                <title rend="italic">
+                                <abbr>CahArch</abbr>
+                            </title> 49 (2001), 29–38.</bibl>
+                        <bibl>L.  Doumato, ‘The illustrated pontifical of Patriarch Ignatius II:
+                            text, image and reader in the Syriac tradition’, <title rend="italic">Arte cristiana</title> 91 (2003), 423–36.</bibl>
+                        <bibl>Drijvers and Healey, <title rend="italic">The Old Syriac
+                                inscriptions</title>.</bibl>
+                        <bibl>Fiey, <title rend="italic">Assyrie chrétienne</title>.</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>L.  Doumato</reg>
+                        <orig>idem</orig>
+                     </choice>, <title rend="italic">Mossoul chrétienne. Essai sur l’histoire,
+                                l’archéologie et l’état actuel des monuments chrétiens de la ville
+                                de Mossoul</title> (Recherches publiées sous la direction de
+                            l’Institut de lettres orientales de Beyrouth 12; 1959).</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>L.  Doumato</reg>
+                        <orig>idem</orig>
+                     </choice>, ‘Rabban Bûya de Shaqlâwâ et de Jéricho’, <title rend="italic">
+                                <abbr>POC</abbr>
+                            </title> 33 (1983), 34–8.</bibl>
+                        <bibl>V.  Fritz and P.  Maiberger, ‘Das nestorianische Kloster’, in <title rend="italic">Ergebnisse der Ausgrabungen auf der Hirbet al-Msas
+                                (Tel Masos) 1972–1975</title>, <abbr>ed.</abbr> V. Fritz and A. Kempinski,
+                            (1983), 138–216.</bibl>
+                        <bibl>A.  Harrak, ‘Recent archaeological excavations in Takrit and the
+                            discovery of Syriac inscriptions’, <title rend="italic">
+                                <abbr>JCSSS</abbr>
+                            </title> 1
+                            (2001), 11–40.</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>A.  Harrak</reg>
+                        <orig>idem</orig>
+                     </choice>, ‘The incense burner of Takrit: An iconographical analysis’,
+                                <title rend="italic">
+                                <abbr>ECA</abbr>
+                            </title> 3 (2006), 47–52.</bibl>
+                        <bibl>S. R.  Hauser, ‘Christliche Archäologie im Sasanidenreich: Grundlagen
+                            der Interpretation und Bestandsaufnahme der Evidenz’, in <title rend="italic">Inkulturation des Christentums im
+                                Sasanidenreich</title>, <abbr>ed.</abbr> A.  Mustafa, J.  Tubach, and G. S.
+                            Vashalomidze (2007), 93–136.</bibl>
+                        <bibl>J. F.  Healey, ‘A new Syriac mosaic inscription’, <title rend="italic">
+                                <abbr>JSS</abbr>
+                            </title> 51 (2006), 313–27.</bibl>
+                        <bibl>N.  Hélou, ‘À propos d’une école syro-libanaise d’icônes au XIII<hi rend="superscript">e</hi> siècle’, <title rend="italic">
+                                <abbr>ECA</abbr>
+                            </title>
+                            3 (2006), 53–72.</bibl>
+                        <bibl>L.-A.  Hunt, ‘The Syriac Buchanan Bible in Cambridge: Book
+                            illumination in Syria, Cilicia and Jerusalem of the later twelfth
+                            century’, <title rend="italic">
+                                <abbr>OCP</abbr>
+                            </title> 57 (1991), 331–69.</bibl>
+                        <bibl>M.  Immerzeel, <title rend="italic">Identity puzzles. Medieval
+                                Christian art in Syria and Lebanon</title> (<abbr>OLA</abbr> 184; 2009).</bibl>
+                        <bibl>M. Immerzeel and N. Hélou, ‘Icon painting in the County of Tripoli of
+                            the thirteenth century’, in <title rend="italic">Interactions. Artistic
+                                interchange between the eastern and western worlds in the Medieval
+                                period</title> (The Index of Christian Art Occasional Papers 9;
+                            2007), 67–83.</bibl>
+                        <bibl>K. C.  Innemée, ‘Recent discoveries of wall-paintings in Deir
+                            al-Surian’, <title rend="italic">
+                                <abbr>Hugoye</abbr>
+                            </title> 1.2 (1998).</bibl>
+                        <bibl>K. C.  Innemée and L.  Van Rompay, ‘Deir al-Surian (Egypt): New
+                            discoveries of 2001–2002’, <title rend="italic">
+                                <abbr>Hugoye</abbr>
+                            </title> 5.2
+                            (2002).</bibl>
+                        <bibl>G. Kalla, ‘Christentum am oberen Euphrat. Das byzantinische Kloster
+                            von Tall Biʿa’, <title rend="italic">Antike Welt</title> 30 (1999),
+                            131–42.</bibl>
+                        <bibl>J. Kröger, ‘Die Kirche auf dem Hügel Qaṣr bint al-Qāḍī und weitere
+                            Zeugnisse christlichen Lebens im Bereich des sasanidischen Metropole
+                            Ktesiphon’, in <title rend="italic">Inkulturation des Christentums im
+                                Sasanidenreich</title>, <abbr>ed.</abbr> A. Mustafa, J. Tubach, and G. S.
+                            Vashalomidze (2007), 137–57.</bibl>
+                        <bibl>J. Lassus, <title rend="italic">Sanctuaires chrétiens de Syrie. Essai
+                                sur la genèse, la forme et l’usage liturgique des édifices du culte
+                                chrétien, en Syrie, du III<hi rend="superscript">e</hi> siècle à la
+                                conquête musulmane</title> (Institut français d’archéologie de
+                            Beyrouth. Bibliothèque archéologique et historique 42; 1947).</bibl>
+                        <bibl>J. Leroy, ‘Mosaïques funéraires d’Édesse’, <title rend="italic">Syria</title> 34 (1957), 306–342, with plates XXI–XXII.</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>J. Leroy</reg>
+                        <orig>idem</orig>
+                     </choice>, <title rend="italic">Les manuscrits syriaques à peintures
+                                conservés dans les bibliothèques d’Europe et d’Orient. Contribution
+                                à l’étude de l’iconographie des églises de langue syriaque</title>
+                            (Institut français d’archéologie de Beyrouth. Bibliothèque archéologique
+                            et historique 77; 1964) (with separate Album).</bibl>
+                        <bibl>J. Leroy, <title rend="italic">Les peintures des couvents du Ouadi
+                                Natroun</title> (= La peinture murale chez les Coptes 2; Mémoires
+                            publiés par les membres de l’Institut français d’archéologie orientale
+                            du Caire 101; 1982).</bibl>
+                        <bibl>E. Loosley, <title rend="italic">The architecture and liturgy of the
+                                bema in fourth- to sixth-century Syrian churches</title> (Patrimoine
+                            syriaque 2; 2003).</bibl>
+                        <bibl>M. Mundell Mango, <title rend="italic">Silver from early Byzantium.
+                                The Kaper Koraon and related treasures</title> (1986).</bibl>
+                        <bibl>I. Peña, <title rend="italic">The Christian art of Byzantine
+                                Syria</title> (1996).</bibl>
+                        <bibl>E.  Renhart, <title rend="italic">Das syrische Bema.
+                                Liturgisch-archäologische Untersuchungen</title> (Grazer Theologische
+                            Studien 20; 1995).</bibl>
+                        <bibl>J.  Rumscheid, ‘Familienbilder im Haus der Ewigkeit. Zu Grabmosaiken
+                            aus Edessa’, in <title rend="italic">Edessa in hellenistisch-römischer
+                                Zeit. Religion, Kultur und Politik zwischen Ost und West</title>,
+                            <abbr>ed.</abbr> L. Greisiger <abbr>et al.</abbr> (<abbr>BTS</abbr> 116; 2009), 255–65.</bibl>
+                        <bibl>E. M.  Ruprechtsberger (<abbr>ed.</abbr>), <title rend="italic">Syrien. Von den
+                                Aposteln zu den Khalifen</title> (Linzer archäologische Forschungen
+                            21; 1993).</bibl>
+                        <bibl>A. Schmidt and S. Westphalen (<abbr>ed.</abbr>), <title rend="italic">Christliche
+                                Wandmalereien in Syrien. Qara und das Kloster Mar Yakub</title>
+                            (<abbr>SKCO</abbr> 14; 2005).</bibl>
+                        <bibl>J. B. Segal, <title rend="italic">Edessa, the blessed city</title>
+                            (1970).</bibl>
+                        <bibl>B. Snelders, ‘A newly discovered wall painting in the Church of Mar
+                            Giworgis in Qaraqosh, Iraq’, <title rend="italic">
+                                <abbr>ECA</abbr>
+                            </title> 4 (2007),
+                            27–48.</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>B. Snelders</reg>
+                        <orig>idem</orig>
+                     </choice>, <title rend="italic">Identity and Christian-Muslim interaction.
+                                Medieval art from the Syrian Orthodox in the Mosul area</title> (<abbr>OLA</abbr>
+                            198; 2010).</bibl>
+                        <bibl>B.  Snelders and M.  Immerzeel, ‘The thirteenth-century flabellum from
+                            Deir al-Surian in the Musée Royal de Mariemont (Morlanwelz, Belgium).
+                            With an appendix on the Syriac inscriptions by L. Van Rompay’, <title rend="italic">
+                                <abbr>ECA</abbr>
+                            </title> 1 (2004), 113–39.</bibl>
+                        <bibl>R. Sörries, <title rend="italic">Die Syrische Bibel von Paris. Paris,
+                                Bibliothèque Nationale, syr. 341. Eine frühchristliche
+                                Bilderhandschrift aus dem 6. Jahrhundert</title> (1991).</bibl>
+                        <bibl>C.  Strube, <title rend="italic">Baudekoration im nordsyrischen
+                                Kalksteinmassiv</title> (Damaszener Forschungen 5; 1993).</bibl>
+                        <bibl>eadem, <title rend="italic">Die „Toten Städte“. Stadt und Land in
+                                Nordsyrien während der Spätantike</title> (1996).</bibl>
+                        <bibl>
+                            <title rend="italic">Syrie. Mémoire et civilisation</title> (Exhibition
+                            catalogue Institut du monde arabe, Paris; 1993).</bibl>
+                        <bibl>R.  Taft, ‘Some notes on the Bema in the East and West Syrian
+                            traditions’, <title rend="italic">
+                                <abbr>OCP</abbr>
+                            </title> 34 (1968), 326–59.</bibl>
+                        <bibl>G. Tchalenko, <title rend="italic">Villages antiques de la Syrie du
+                                Nord. Le massif du Bélus à l’époque romaine</title>, I–III (Institut
+                            français d’archéologie de Beyrouth. Bibliothèque archéologique et
+                            historique 50; 1953–8).</bibl>
+                        <bibl>H.  Teule, ‘The veneration of images in the East Syriac tradition’, in
+                                <title rend="italic">Die Welt der Götterbilder</title>, <abbr>ed.</abbr> B.
+                            Groneberg and H. Spieckermann (Beihefte zur <abbr>ZAW</abbr> 376; 2007),
+                            324–46.</bibl>
+                        <bibl>T. Ulbert, <title rend="italic">Der kreuzfahrerzeitliche Silberschatz
+                                aus Resafa-Sergiupolis</title> (Resafa 3; 1990).</bibl>
+                        <bibl>G. Wiessner, <title rend="italic">Christliche Kultbauten im Tur
+                                Abdin</title> (<abbr>GOF</abbr> II.4; 1982).</bibl>
+                        <bibl>E.  Zayat and M. Immerzeel (<abbr>ed.</abbr>), <title rend="italic">Documentation
+                                and conservation of art in Syria. Papers of the workshop held at
+                                Damascus University 16–19 September 1996</title> (2000). (in English
+                            and Arabic)</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Lucas</forename> 
+                  <surname>Van Rompay</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

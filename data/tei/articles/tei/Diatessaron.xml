@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Diatessaron</title>
+            <author>
+               <persName>
+                  <forename>William L.</forename> 
+                  <surname>Petersen</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.5">Electronic Edition Version 1.5</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Diatessaron</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Diatessaron</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/173</idno>
+                    <idno type="entry">164</idno>
+                    <milestone unit="pages" n="122-124"/>
+                    <note type="type">work</note>
+                    <note type="abstract">Title of a Gospel harmony composed in the 2nd <abbr>cent.</abbr>; the
+                        first known Gospel translation into Syriac.<note/>
+                    </note>
+                </ab>
+                <div type="body">
+                    <p>Title of a Gospel harmony composed in the 2nd <abbr>cent.</abbr>; the <choice>
+                            <sic>first-known</sic>
+                            <corr>first known</corr>
+                        </choice> Gospel
+                        translation into Syriac. The title is Greek, meaning ‘through [the] four
+                        [Gospels]’. In the Syriac world it was known either by its transliterated
+                        Greek name (<hi rend="italic">diyaṭessaron</hi>) or as the <hi rend="italic">ewangeliyon da-mḥallṭe</hi> (‘Gospel of the mixed’, as contrasted with
+                        the <hi rend="italic">ewangeliyon da-mparrše</hi>, ‘Gospel of the
+                        separated’). The Diatessaron occupied a preeminent position in the Syrian
+                        Church in the first four centuries. <ref rend="bold" target="https://gedsh.bethmardutho.org/Aphrahat">
+                            <persName ref="http://syriaca.org/person/10">Aphrahaṭ</persName>
+                        </ref> often
+                        appears to cite the Gospels in the form of the Diatessaron. <ref rend="bold" target="https://gedsh.bethmardutho.org/Ephrem">
+                            <persName ref="http://syriaca.org/person/13">Ephrem</persName>
+                        </ref> composed his
+                        Commentary on the Diatessaron. The Syrian-born hymnographer <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Romanos-the-Melodist">
+                            <persName ref="http://syriaca.org/person/706">Romanos the
+                            Melodist</persName>
+                        </ref> quotes its text in his Greek hymns. Later commentators
+                        and writers (e.g., <ref rend="bold" target="https://gedsh.bethmardutho.org/Theodoros-bar-Koni">
+                            <persName ref="http://syriaca.org/person/783">Theodoros bar
+                            Koni</persName>
+                        </ref>, <ref rend="bold" target="https://gedsh.bethmardutho.org/Ishodad-of-Merv">
+                            <persName ref="http://syriaca.org/person/555">Ishoʿdad of
+                            Merv</persName>
+                        </ref>, <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Dionysios-bar-Salibi">
+                            <persName ref="http://syriaca.org/person/212">Dionysios
+                            bar Ṣalibi</persName>
+                        </ref>, <ref rend="bold" target="https://gedsh.bethmardutho.org/Abdisho-bar-Brikha">
+                            <persName ref="http://syriaca.org/person/310">ʿAbdishoʿ bar
+                            Brikha</persName>
+                        </ref>) all speak of it with great respect. Bar Brikha even
+                        imputes to Tatian an almost mystical grasp of the ‘intention’ of the
+                        evangelists, enabling him to accurately harmonize the Gospels without
+                        loosing or distorting anything. The evidence of the <ref rend="bold" target="https://gedsh.bethmardutho.org/Addai-Teaching-of">Teaching of
+                            Addai</ref> and <abbr>
+                            <choice>
+                                <sic>bp.</sic>
+                                <corr>Bp.</corr>
+                            </choice>
+                        </abbr> 
+                  <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Theodoret-of-Cyrrhus">
+                            <persName ref="http://syriaca.org/person/781">Theodoret of
+                            Cyrrhus</persName>
+                        </ref> (‘Compendium of Heretical Fables’, I.20) are proof of the
+                        Diatessaron’s ecclesiastical, liturgical use into the early 5th <abbr>cent.</abbr>
+                        Theodoret reports he confiscated ‘more than 200 copies in reverential use in
+                        the churches of our diocese’, and replaced the Diatessaron with the four
+                        separate Gospels (<hi rend="italic">ewangeliyon da-mparrše</hi>). And it
+                        must be assumed that Canon 43 of <abbr>Bp.</abbr> 
+                  <ref rend="bold" target="https://gedsh.bethmardutho.org/Rabbula-of-Edessa">
+                            <persName ref="http://syriaca.org/person/26">Rabbula of
+                            Edessa</persName>
+                        </ref>, which requires the use of the <hi rend="italic">ewangeliyon da-mparrše</hi> in churches, is also directed against the
+                        Diatessaron. Eventually the Diatessaron was replaced by the <ref rend="bold" target="https://gedsh.bethmardutho.org/Old-Syriac-Version">Old Syriac
+                            Version</ref> of the separate Gospels and, eventually, the <ref rend="bold" target="https://gedsh.bethmardutho.org/Peshitta">Peshitta</ref>. Even in these, however, the Diatessaron’s influence is
+                        discernable in specific harmonizations and turns of phrase.</p>
+                    <p>Although the origin of the Diatessaron is enshrouded in darkness, it was most
+                        likely compiled by <ref rend="bold" target="https://gedsh.bethmardutho.org/Tatian">
+                            <persName ref="http://syriaca.org/person/771">Tatian</persName>
+                        </ref>, the author
+                        of an ‘Oration to the Greeks’ (preserved in Greek) who describes himself as
+                        an ‘Assyrian’ (the exact geographical meaning of which is debated: either
+                        Mesopotamia or Syria). After sampling many philosophies in the <choice>
+                            <sic>mid–2nd</sic>
+                            <corr>mid-2nd</corr>
+                        </choice>
+                        <abbr> cent.</abbr>, he converted to Christianity and ended up in Rome where he studied
+                        under Justin Martyr. It seems that Justin was already using a Gospel
+                        harmony, apparently based on the synoptic Gospels. After Justin’s death
+                        (between 163 and 167), Tatian ran afoul of the Roman congregation. <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Eusebius-of-Caesarea">
+                            <persName ref="http://syriaca.org/person/480">Eusebius</persName>
+                        </ref> says that he was expelled from the Roman
+                        congregation in 172. After that we have only a report of <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Epiphanius-of-Salamis">
+                            <persName ref="http://syriaca.org/person/477">Epiphanius</persName>
+                        </ref>, stating that he returned to the East, where he
+                        founded a school. Given this history, it seems unlikely that Tatian would
+                        have created the Diatessaron while Justin (with whom he seems to have had
+                        good relations) was alive. Similarly, since no Greek (‘Western’) source
+                        speaks of the Diatessaron prior to Eusebius (and Eusebius was an Easterner
+                        in practice, and wrote in the East), it seems unlikely that the Diatessaron
+                        was composed in Rome. Rather, it is more likely to have been composed on the
+                        way back to the East, or in the East, shortly after 172. Evidence suggests
+                        that the Diatessaron was composed in <ref rend="bold" target="https://gedsh.bethmardutho.org/Syriac-Language"> Syriac</ref> (see
+                        below). If correct, this too would favour composition in the East (but it
+                        should not be interpreted as precluding composition in the West, for Syriac
+                        was used in Rome in the 2nd <abbr>cent.</abbr>). While the use of the Diatessaron in
+                        early Syriac Christianity presupposes an early date for its composition,
+                        Tatian’s authorship is not explicitly mentioned in any of the early Syriac
+                        sources. Not surprisingly, therefore, his authorship has been questioned in
+                        recent research (Koltun-Fromm).</p>
+                    <p>A Gospel harmony is a complicated creation. It seeks, by acute literary
+                        skill, to conflate parallel accounts. Duplications are excised, conflicts
+                        are resolved, and nothing of importance is lost. Various reasons for
+                        Tatian’s efforts have been suggested; none, on its own, is convincing, and
+                        the reality probably lies in a combination of motives. First, in his only
+                        other surviving literary work, his ‘Oration to the Greeks’, Tatian
+                        emphasizes the unity of truth. Four canonical Gospels as well as numerous
+                        extra-canonical Gospels do not present a ‘unity’ which, for Tatian, was the
+                        hallmark of truth. Here, then, one can discern a motive for creating a
+                        single, harmonized account. Second, the contradictions and inconsistencies
+                        in the Gospels had led critics such as Celsus to ridicule Christianity. One
+                        way to resolve these problems was Marcion’s: to select one gospel and
+                        exclude all others. But the same problem may also be solved as Tatian did:
+                        create one Gospel — a harmony — out of the many. A third motive may simply
+                        have been the spirit of the times. Tatian’s teacher Justin used a harmony,
+                        and other harmonies circulated in the early Church. In other words, Tatian
+                        may simply have been doing what others were doing. Fourth, the 2nd-cent.
+                        view of the task of an historian was to sift through the sometimes
+                        contradictory individual accounts of an event and then, through the exercise
+                        of sound historical judgement, write the single definitive account.
+                        According to this view, Tatian saw himself as an historian; the Gospels were
+                        ‘raw material’ for an historian; the Diatessaron was therefore a scholarly
+                        work of a ‘professional’ historian.</p>
+                    <p>The Diatessaron is extremely important for recovering the oldest text of the
+                        Gospels. It is obvious that Tatian, when composing his harmony, had to use
+                        the Gospels in the form they had in the mid-2nd <abbr>cent.</abbr> He also, apparently,
+                        availed himself of Justin’s already-extant harmony of the synoptic Gospels,
+                        augmenting it with material from the Gospel of John and then recasting its
+                        sequence. Therefore, the Diatessaron preserves numerous ancient deviating
+                        readings — that is, readings which deviate from modern critical editions of
+                        the Gospels, but which agree with other <choice>
+                            <sic>2nd </sic>
+                            <corr>2nd-</corr>
+                        </choice>
+                        <abbr>cent.</abbr> sources (such as the
+                        Jewish-Christian Gospel fragments, the ‘Gospel of Thomas’, Justin, etc.).
+                        This means that when he composed the Diatessaron, Tatian either used
+                        (proto-) canonical Gospels whose text contained readings now found only in
+                        the Jewish-Christian Gospels, or that, in addition to the canonical Gospels,
+                        he also used extra-canonical sources, including one or more Jewish-Christian
+                        Gospels.</p>
+                    <p>Today no direct copies of the Diatessaron survive. Its text must be
+                        reconstructed through a painstaking collation and comparison of numerous
+                        ‘witnesses’ to the Diatessaron: an assortment of translations (into both
+                        Eastern and Western languages) and patristic quotations. These include
+                        translations (sometimes heavily revised) into Arabic, Latin, Old Italian,
+                        Old High German, Middle Dutch, Middle High German, Middle English, and other
+                        languages. A Persian harmony also exists, but its sequence is very different
+                        from that of the Diatessaron, even though in many individual variants it
+                        seems to agree with the Diatessaron. It should be noted that a gospel
+                        harmony has two distinctive features which can be used for identification:
+                        1. the sequence of harmonization, and 2. the individual variant readings
+                        within a verse.</p>
+                    <p>The Diatessaron’s influence was not limited to Syria, but extended to other
+                        areas, both Eastern and Western. It is thought that the Gospels first
+                        appeared in Armenian in the form of a translation of the Diatessaron, and it
+                        influenced the translation of the separate Gospels into Georgian. We even
+                        find its distinctive readings in the Manichaean texts written in Parthian
+                        and found at Turfan, in China. In the West, the oldest known translation of
+                        the Gospels into Middle Dutch is a Gospel harmony (known as ‘the Liège
+                        Harmony’) related to the Diatessaron; and while not the oldest Gospel
+                        translation into Old High German (that honour goes to a few fragments at a
+                        cloister in <choice>
+                            <sic>Monsee</sic>
+                            <corr>Mondsee</corr>
+                        </choice>, Austria), a Gospel harmony related to the Diatessaron,
+                        Codex Sangallensis, is the oldest <hi rend="italic">complete</hi> Gospel
+                        text in Old High German.</p>
+                    <p>It is on the basis of these Western witnesses to the Diatessaron that one can
+                        reach a judgement about its original language. The presence of Syriacisms or
+                        Semitisms in these ‘Western’ witnesses to the Diatessaron can only be
+                        explained by presuming that their archetype was a document composed in a
+                        Semitic language, not Greek or Latin.</p>
+                    <p>Because of the Diatessaron’s paramount importance for both the text and canon
+                        of the <abbr>NT</abbr>, much scholarly effort has gone into reconstructing its text.
+                        Equally important, however, is its position as the oldest of the versions, a
+                        translation and rearrangement of the Gospels that had world-wide impact,
+                        from England to China.</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>T.  Baarda, <title rend="italic">The Gospel quotations of
+                                Aphrahat the Persian Sage</title>, vol. 1. <title rend="italic">Aphrahat’s text of the fourth Gospel</title> (2 vols.; Ph.D. Diss.,
+                            Vrije Universiteit Amsterdam; 1975).</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>T.  Baarda</reg>
+                        <orig>idem</orig>
+                     </choice>, <title rend="italic">Essays on the Diatessaron</title>
+                            (Contributions to Biblical Exegesis and Theology 11; 1994)</bibl>
+                        <bibl>J. R.  Harris, <title rend="italic">The Diatessaron of Tatian. A
+                                preliminary study</title> (1890).</bibl>
+                        <bibl>J.  Joosten, ‘Tatian’s Diatessaron and the Old Testament Peshitta’,
+                                <title rend="italic">
+                                <abbr>JBL</abbr>
+                            </title> 120 (2001), 501–23.</bibl>
+                        <bibl>N.  Koltun-Fromm, ‘Re-imagining Tatian: The damaging effects of
+                            polemical rhetoric’, <title rend="italic">
+                                <abbr>JECS</abbr>
+                            </title> 16 (2008),
+                            1–30.</bibl>
+                        <bibl>L.  Leloir, ‘Le Diatessaron de Tatien’, <title rend="italic">
+                                <abbr>OS</abbr>
+                            </title> 1 (1956), 208–31, 313–34.</bibl>
+                        <bibl>L.  Leloir, <title rend="italic">Le témoignage d’Éphrem sur le
+                                Diatessaron</title> (<abbr>CSCO</abbr> 227; 1962).</bibl>
+                        <bibl>R.  Murray, ‘Reconstructing the Diatessaron’, <title rend="italic">Heythrop Journal</title> 10 (1969), 43–9. (on Ortiz de
+                            Urbina)</bibl>
+                        <bibl>I.  Ortiz de Urbina, <title rend="italic">Vetus Evangelium Syrorum et
+                                exinde excerptum Diatessaron Tatiani</title> (1967).</bibl>
+                        <bibl>C. Peters, <title rend="italic">Das Diatessaron Tatians</title> (<abbr>OCA</abbr>
+                            123; 1939, <abbr>repr.</abbr> 1962).</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>C. Peters</reg>
+                        <orig>idem</orig>
+                     </choice>, ‘Nachhall ausserkanonischer Evangelienüberlieferung in Tatians
+                            Diatessaron’, <title rend="italic">Acta Orientalia</title> 16 (1937),
+                            258–94.</bibl>
+                        <bibl>W. L.  Petersen, ‘New evidence for the question of the original
+                            language of the Diatessaron’, in <title rend="italic">Studien zum Text
+                                und zur Ethik des Neuen Testaments zum 80. Geburtstag<choice>
+                                    <sic/>
+                                    <corr> von</corr>
+                                </choice> Heinrich
+                                Greeven</title>, <abbr>ed.</abbr> W. Schrage (Beihefte zur <abbr>ZNW</abbr>; 1986),
+                            325–343.</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>W. L.  Petersen</reg>
+                        <orig>idem</orig>
+                     </choice>, <title rend="italic">Tatian’s Diatessaron. Its creation,
+                                dissemination, significance, and history in scholarship</title>
+                            (Supplements to <abbr>VC</abbr> 25; 1994). (incl. further references)</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>W. L.  Petersen</reg>
+                        <orig>idem</orig>
+                     </choice>, ‘The Diatessaron and the fourfold Gospel’, in <title rend="italic">The earliest Gospels</title>, <abbr>ed.</abbr> C. Horton (<abbr>JSNT</abbr>
+                            Suppl. 258; 2004), 50–68.</bibl>
+                        <bibl>D. Plooij, <title rend="italic">A primitive text of the
+                                Diatessaron</title> (1923).</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>D. Plooij</reg>
+                        <orig>idem</orig>
+                     </choice>, <title rend="italic">A further study of the Liège
+                                Diatessaron</title> (1925).</bibl>
+                        <bibl>H. J. Vogels, <title rend="italic">Beiträge zur Geschichte des
+                                Diatessaron im Abendland</title> (Neutestamentliche Abhandlungen
+                            8.1; 1919).</bibl>
+                        <bibl>Th.  Zahn, <title rend="italic">Tatians Diatessaron</title>
+                            (Forschungen zur Geschichte des neutestamentlichen Kanons 1;
+                            1881).</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>William L.</forename> 
+                  <surname>Petersen</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

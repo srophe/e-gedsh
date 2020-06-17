@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Theano</title>
+            <author>
+               <persName>
+                  <forename>Ute</forename> 
+                  <surname>Possekel</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.5">Electronic Edition Version 1.5</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Theano</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Theano</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/550</idno>
+                    <idno type="entry">541</idno>
+                    <milestone unit="pages" n="400-401"/>
+                    <idno type="subject">http://syriaca.org/person/778</idno>
+                    <note type="type">person</note>
+                    <note type="abstract">Pythagorean philosopher, usually considered to be either
+                        the wife or the daughter of Pythagoras (d. 497/6 BC).<note/>
+                    </note>
+                </ab>
+                <div type="body">
+                    <p>Pythagorean philosopher, usually considered to be either the wife or the
+                        daughter of Pythagoras (d. 497/6 BC). Several writings in Greek and Syriac
+                        are attributed to Theano. The Greek texts consist of nine sayings, seven
+                        letters, and a fragment from a work ‘On Piety’ (<hi rend="italic">Peri
+                            eusebeias</hi>). Their date is difficult to determine: the letters may
+                        be of a 2nd to 5th <abbr>cent.</abbr> date, whereas the sayings and the fragment may
+                        represent an earlier tradition. The Syriac texts consist of a collection of
+                        65 sayings, entitled ‘Advice of Theano’ (<abbr>ms.</abbr> London, Brit. Libr. Add.
+                        14,658), other isolated sayings, and a passage of Pseudo-Nonnus’s
+                        ‘Mythological Scholia on <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Gregory-of-Nazianzus">
+                            <persName ref="http://syriaca.org/person/511">Gregory of
+                            Nazianzus</persName>
+                        </ref>’ (<abbr>ed.</abbr> Brock). The Syriac texts focus on themes of
+                        general ethical advice, such as charity, friendship, avoidance of anger,
+                        inner freedom, and the pursuit of virtue rather than wealth. Unlike similar
+                            <choice>
+                            <sic>
+                                <hi rend="italic">gnomologia</hi>
+                            </sic>
+                            <corr>gnomologia</corr>
+                        </choice> (such as the ‘<ref rend="bold" target="https://gedsh.bethmardutho.org/Sextus-Sentences-of">Sentences of
+                            Sextus</ref>’), the ‘Advice of Theano’ has not undergone a Christian
+                        redaction. This collection may date from the 3rd <abbr>cent.</abbr> The Syriac texts are
+                        translations from the Greek, but their original is not among the extant
+                        Greek fragments. The content of the Syriac Theano tradition, however,
+                        resembles certain sections of the Greek tradition. Moreover, there are
+                        similarities between the Syriac sayings and other Pythagorean
+                        gnomologia.</p>
+                </div>
+                <div type="bibl">
+                    <listBibl>
+                        <listBibl>
+                            <head>Primary Sources</head>
+                            <listBibl>
+                                <head>Syriac</head>
+                                <bibl>S. P. Brock, <title rend="italic">The Syriac version of the
+                                        Pseudo-Nonnos mythological scholia</title> (1971),
+                                    218.</bibl>
+                                <bibl>E.  Sachau, <title rend="italic">Inedita Syriaca. Eine
+                                        Sammlung syrischer Übersetzungen von Schriften griechischer
+                                        Profanliteratur</title> (1870), IX, 70–5.</bibl>
+                            </listBibl>
+                            <listBibl>
+                                <head>Greek</head>
+                                <bibl>Sayings: Diogenes Laertius, <title rend="italic">Lives</title>
+                                    8.43 (<abbr>ed.</abbr> R. L.  Hicks; 2 vols.; 1925–1950). Clement of
+                                    Alexandria, <title rend="italic">Stromateis</title> 4.7.44;
+                                    4.19.121 (<abbr>ed.</abbr> O.  Stählin; <abbr>GCS</abbr> 15; 1906). Stobaeus, <title rend="italic">Eclogae</title> 1.10.13; 4.23.32,49,53,55 (<abbr>ed.</abbr>
+                                    C.  Wachsmuth and O.  Hense; 5 vols.; 1884–1923). Stobaeus,
+                                        <title rend="italic">Florilegium Monacense</title> 268–70
+                                    (<abbr>ed.</abbr> A.  Meineke, <title rend="italic">Ioannis Stobaei
+                                        Florilegium</title>, vol. 4; 1857).</bibl>
+                                <bibl>Letters: H. Thesleff, <title rend="italic">The Pythagorean
+                                        Texts of the Hellenistic Period</title> (Acta Academiae
+                                    Aboensis, Heft 30,1; 1968), 195–200. A.  Städele, <title rend="italic">Die Briefe des Pythagoras und der
+                                        Pythagoreer</title> (Beiträge zur klassischen Philologie
+                                    115; 1980), 166–85.</bibl>
+                            </listBibl>
+                        </listBibl>
+                        <listBibl>
+                            <head>Secondary Sources</head>
+                            <bibl>K. von Fritz, ‘Theano 5)’, in <title rend="italic">
+                                    <abbr>PRE</abbr>
+                                </title>,
+                                <choice>
+                                    <sic>vol. 2. <title rend="italic">Reihe</title>, 10. <title rend="italic">Halbband</title>
+                                    </sic>
+                                    <corr>2. Reihe, 10. Halbband</corr>
+                                </choice> (1934), 1379–81.</bibl>
+                            <bibl>M. Meunier, <title rend="italic">Femmes phythagoriciennes:
+                                    Fragments et lettres de Théano, Périctioné, Phintys, Mélissa et
+                                    Myia: Traduction nouvelle avec prolégomènes et notes</title>
+                                (1980).</bibl>
+                            <bibl>U.  Possekel, ‘Der “Rat der Theano”. Eine pythagoreische
+                                Spruchsammlung in syrischer Übersetzung’, <title rend="italic">
+                                    <abbr>LM</abbr>
+                                </title> 111 (1998), 7–36.</bibl>
+                            <bibl>E.  Renan, ‘Lettre à M. Reinaud, sur quelques manuscrits syriaques
+                                du Musée britannique, contenant des traductions d’auteurs grecs
+                                profanes et des traités philosophiques’, <title rend="italic">
+                                    <abbr>JA</abbr>
+                                </title> 4.19 (1852), 293–333, esp. 308–310.</bibl>
+                            <bibl>V.  Ryssel, ‘Neu aufgefundene graeco-syrische Philosophensprüche
+                                über die Seele’, <title rend="italic">Rheinisches Museum für
+                                    Philologie</title> 
+                        <choice>
+                                    <sic>n.f.</sic>
+                                    <corr>N.F.</corr>
+                                </choice> 51 (1896), 529–43.</bibl>
+                            <bibl>E.  Sachau, ‘Über die Reste der syrischen Übersetzungen
+                                classischgriechischer, nichtaristotelischer Litteratur unter den
+                                nitrischen Handschriften des Brittischen Museums’, <title rend="italic">Hermes</title> 4 (1870), 69–80.</bibl>
+                            <bibl>N.  Zeegers-Van der Vorst, ‘Une gnomologie d’auteurs grecs en
+                                traduction syriaque’, in <abbr>
+                                    <title rend="italic">SymSyr</title> II</abbr>,
+                                163–77.</bibl>
+                        </listBibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Ute</forename> 
+                  <surname>Possekel</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

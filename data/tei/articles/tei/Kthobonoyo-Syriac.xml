@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Kthobonoyo Syriac</title>
+            <author>
+               <persName>
+                  <forename>George A.</forename> 
+                  <surname>Kiraz</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.5">Electronic Edition Version 1.5</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Kthobonoyo Syriac</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Kthobonoyo-Syriac</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/332</idno>
+                    <idno type="entry">323</idno>
+                    <milestone unit="pages" n="244-245"/>
+                    <note type="type">subject</note>
+                    <note type="abstract">Kthobonoyo refers to the spoken (rather than the written)
+                        form of classical Syriac as it is used in recent times.<note/>
+                    </note>
+                </ab>
+                <div type="body">
+                    <p>Kthobonoyo refers to the spoken (rather than the written) form of classical
+                        Syriac as it is used in recent times. Demographically, it is primarily a
+                        W.-Syr. feature; its absence in E.-Syr. is probably due to the fact that
+                            <ref rend="bold" target="https://gedsh.bethmardutho.org/Sureth">Sureth</ref>, the colloquial, has raised itself to a literary language.
+                        The rise of Kthobonoyo is due to a rise in national identity, especially
+                        after the Ottoman constitutional reforms of 1908 which provided millet
+                        communities the opportunity to form secular organizations. Within the Syr.
+                        Orth. community, the <hi rend="italic">ʿirutho</hi> movement was formed with
+                        much enthusiasm by activists like <ref rend="bold" target="https://gedsh.bethmardutho.org/Faiq-Naum">
+                            <persName ref="http://syriaca.org/person/304">Naʿʿūm Fāʾiq</persName>
+                        </ref>, and
+                        called for the revival of the Syriac language. The first canon of the
+                        Patriarchal School of <ref rend="bold" target="https://gedsh.bethmardutho.org/al-Zafaran-Dayr">
+                            <placeName ref="http://syriaca.org/place/69">Dayr
+                            al-Zaʿfarān</placeName>
+                        </ref> (formed in 1912) stipulates ‘the conversational
+                        language in the school is Syriac’, which is repeated in the regulations of
+                        the Patriarchal Orphanage in 1920. Speakers of Kthobonoyo included educators
+                        such as <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Dolabani-Philoxenos-Yuhanon">
+                            <persName ref="http://syriaca.org/person/454">Yuḥanon Dolabani</persName>
+                        </ref> (1885–1969), and later
+                        Kthobonoyo was promoted by <ref rend="bold" target="https://gedsh.bethmardutho.org/Gabriel-Fawlos">
+                            <persName ref="http://syriaca.org/person/490">Fawlos
+                            Gabriel</persName>
+                        </ref> (1912–1971), <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Qarabashi-Abd-al-Masih-Numan">
+                            <persName ref="http://syriaca.org/person/691">ʿAbd
+                            al-Masīḥ Qarabashī</persName>
+                        </ref> (1903–1983), and <ref rend="bold" target="https://gedsh.bethmardutho.org/Nuro-Abrohom">
+                            <persName ref="http://syriaca.org/person/663">Abrohom Nuro</persName>
+                        </ref>
+                        (1923–2009) who was the first to apply it in a home setting. In the second
+                        half of the 20th <abbr>cent.</abbr>, the use of Kthobonoyo was enforced in the seminaries
+                        and some of the village schools in <ref rend="bold" target="https://gedsh.bethmardutho.org/Tur-Abdin">
+                            <placeName ref="http://syriaca.org/place/221">Ṭur ʿAbdin</placeName>
+                        </ref>, and
+                        became more popular after immigrations to Europe. Kthobonoyo is primarily a
+                        learned, non-native language that requires formal training (with a few known
+                        native exceptions in multilingual settings). The aptitude level of
+                        Kthobonoyo speakers varies tremendously, despite the fact that speakers tend
+                        to be clergymen and <hi rend="italic">malphone</hi> well versed in Classical
+                        Syriac. A sociolinguistic feature of Kthobonoyo is its male centricity, with
+                        very few female speakers. Code-switching is frequent, especially in less
+                        formal settings. Kthobonoyo is rich in neologisms and coined terms. While
+                        the phonology and morphology of Kthobonoyo are quite similar to Classical
+                        Syriac, Kthobonoyo syntax is a subset of that of Classical Syriac.</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>G. A.  Kiraz, ‘Kthobonoyo Syriac: Some Observations and
+                            Remarks’, <title rend="italic">
+                                <abbr>Hugoye</abbr>
+                            </title> 10.2 (2007).</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>George A.</forename> 
+                  <surname>Kiraz</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

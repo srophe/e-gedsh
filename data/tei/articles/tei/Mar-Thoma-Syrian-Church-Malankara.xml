@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Mar Thoma Syrian Church (Malankara)</title>
+            <author>
+               <persName>
+                  <forename>John R. K.</forename> 
+                  <surname>Fenwick</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.5">Electronic Edition Version 1.5</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Mar Thoma Syrian Church (Malankara)</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Mar-Thoma-Syrian-Church-Malankara</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/356</idno>
+                    <idno type="entry">347</idno>
+                    <milestone unit="pages" n="265-266"/>
+                    <note type="type">org</note>
+                    <note type="abstract">The Mar Thoma Church is that section of the non-Roman Saint
+                        Thomas Christians which has undertaken a degree of liturgical and doctrinal
+                        reform under the influence of Church of England missionaries in the 19th
+                        <abbr>cent.</abbr> 
+                  <note/>
+                    </note>
+                </ab>
+                <div type="body">
+                    <p>The Mar Thoma Church is that section of the non-Roman St. <ref rend="bold" target="https://gedsh.bethmardutho.org/Thomas-Christians">Thomas
+                            Christians</ref> which has undertaken a degree of liturgical and
+                        doctrinal reform under the influence of Church of England missionaries in
+                        the 19th <abbr>cent.</abbr>
+                    </p>
+                    <p>The arrival of British administrators and <choice>
+                            <sic>Churchmen</sic>
+                            <corr>churchmen</corr>
+                        </choice> in early 19th-cent.
+                        Kerala coincided with a desire for improved training for clergy. With the
+                        encouragement of the British Resident, Colonel Munro, a College was founded
+                        at Kottayam under Indian auspices, though it was soon dominated by
+                        missionaries of the Anglican Church Missionary Society who arrived in 1816.
+                        Under their influence Palakunnathu Abraham, a <hi rend="italic">Malpan</hi>
+                        from Maramon, agitated for the removal of some liturgical and cultural
+                        practices. Abraham was simultaneously genuinely committed to W.-Syr.
+                        identity, including the use of Serṭo script, which rapidly replaced E.-Syr.
+                        while he was teaching at the College.</p>
+                    <p>Various factions in the community appealed to the <abbr>Syr. Orth.</abbr>
+                        <abbr> Patr.</abbr> at <ref rend="bold" target="https://gedsh.bethmardutho.org/al-Zafaran-Dayr">
+                            <placeName ref="http://syriaca.org/place/69">Dayr
+                            al-Zaʿfarān</placeName>
+                        </ref>, who, in 1842, consecrated a nephew of Abraham Malpan
+                        as Mathews Mar Athanasios. His pursuit of reform was inconsistent. He
+                        continued as Malankara Metropolitan until his death in 1877, though in the
+                        preceding year <abbr>Patr.</abbr> Peṭros III had divided Kerala into seven Dioceses for
+                        those who wished to live under his jurisdiction. After a decade of
+                        litigation, a Court ruling in 1889 declared that Toma Mar Athanasios
+                        (successor to Mathews Mar Athanasios) was not Malankara Metropolitan as he
+                        had not been consecrated by a <abbr>
+                            <choice>
+                                <sic>Patr.</sic>
+                                <corr>patr.</corr>
+                            </choice>
+                        </abbr> of <ref rend="bold" target="https://gedsh.bethmardutho.org/Antioch">
+                            <placeName ref="http://syriaca.org/place/10">Antioch</placeName>
+                        </ref>. The
+                        ‘Reformers’ were required to leave the ancient Churches and erect new
+                        buildings. They took the name ‘Mar Thoma Syrian Church’.</p>
+                    <p>There was a crisis in 1893 when Toma Mar Athanasios died without having
+                        consecrated a successor. Recourse was had to the <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Malabar-Independent-Syrian-Church">Malabar Independent Syrian Church</ref>, whose bishops travelled to
+                        Kottayam in the face of many threats and consecrated a son of Abraham Malpan
+                        with the title Titus Mar Thoma. Since then, Thozhiyur bishops have actively
+                        participated at every Mar Thoma consecration, thus enabling that Church to
+                        remain sacramentally connected to its Oriental Orthodox heritage. On five
+                        occasions in the 20th <abbr>cent.</abbr> Mar Thoma Metropolitans have consecrated bishops
+                        for Thozhiyur.</p>
+                    <p>The ‘agenda’ of the reform was very much determined by the issues which had
+                        dominated the English Reformation in the 16th <abbr>cent.</abbr>: prayer and the
+                        departed, the invocation of saints, eucharistic Presence. The first two were
+                        deleted from liturgical practice. With regard to the third, the Mar Thoma
+                        anaphoral epiclesis still prays that the Holy Spirit will ‘sanctify this
+                        Bread that it may be the Body of our Lord Jesus Christ’ (with a parallel
+                        petition over the Cup), though prayer addressed to the Sacramental Christ is
+                        omitted. Phrases which Anglican influence suggested were capable of a
+                        ‘monophysite’ interpretation were also amended. Only the Councils of Nicaea,
+                        Constantinople, and Ephesus are commemorated in the Qurbānā.</p>
+                    <p>The form of the Church’s worship remains unmistakably <abbr>Syr. Orth.</abbr> The
+                        vestments, church furnishings, chanting, use of incense, and the general
+                        dynamics of worship mark it as a Church in the Oriental Orthodox tradition.
+                        Its bishops are celibates, distinguished by the monastic <hi rend="italic">schema</hi>. They are buried seated in their robes. Beards are optional
+                        for priests, but are worn by many (all bishops have them). The white cassock
+                        is universal. Most worship is now in Malayalam, though some Syriac formulae
+                        remain in use. English and other languages are increasingly used outside
+                        India.</p>
+                    <p>The Church has always had a strong commitment to fostering the spiritual life
+                        of its members. In the 1880s it inaugurated the world-famous Maramon
+                        Convention. Domestic prayer and Bible reading are encouraged. Ashrams and,
+                        more recently, a celibate order of priests have been instituted. The Church
+                        has several evangelistic missions throughout India, but has not yet applied
+                        its evangelistic zeal to any great extent in the Diaspora. There is a long
+                        tradition of close relations with the Church of South India and the Church
+                        of North India, though the Mar Thoma Church has said that it does not wish
+                        to abandon its eastern heritage by uniting with the two western-derived
+                        Churches. The Church is actively involved in the World Council of Churches
+                        and other ecumenical bodies.</p>
+                    <p>Theological training remains Western in form. Whereas the <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Malabar-Catholic-Church">Malabar
+                            Catholic Church</ref> has engaged in an active debate about freeing
+                        itself from colonially-imposed theological method and rediscovering its
+                        Eastern roots, the Mar Thoma Church has not yet ventured upon that
+                        process.</p>
+                    <p>The Church today has approximately 1 million members worldwide, under the
+                        oversight of ten bishops. The bishops constitute the episcopal synod,
+                        presided over by the most senior, who is Metropolitan. The supreme governing
+                        body is the <hi rend="italic">Sabha Mandalam</hi>, which has over a thousand
+                        clergy and lay representatives from all the congregations worldwide, and
+                        meets annually.</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>K. T.  Joy, <title rend="italic">The Mar Thoma Church: A Study
+                                of its Growth and Contribution</title> (published by the author;
+                            Kottayam, 1986).</bibl>
+                        <bibl>J. Mar Thoma, <title rend="italic">Christianity in India and a Brief
+                                History of the Mar Thoma Syrian Church</title> (1968).</bibl>
+                        <bibl>A.  Mar Thoma, <title rend="italic">The Mar Thoma Church: Heritage and
+                                Mission</title> (2nd <abbr>ed.</abbr> 1986).</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>John R. K.</forename> 
+                  <surname>Fenwick</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Yoḥannan of Beth Rabban</title>
+            <author>
+               <persName>
+                  <forename>Lucas</forename> 
+                  <surname>Van Rompay</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.5">Electronic Edition Version 1.5</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Yoḥannan of Beth Rabban</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Yohannan-of-Beth-Rabban</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/608</idno>
+                    <idno type="entry">599</idno>
+                    <milestone unit="pages" n="441"/>
+                    <idno type="subject">http://syriaca.org/person/824</idno>
+                    <note type="type">person</note>
+                    <note type="abstract">Teacher of biblical interpretation at the <orgName>School of <placeName ref="http://syriaca.org/place/142">Nisibis</placeName>
+                        </orgName>.<note/>
+                    </note>
+                </ab>
+                <ab type="infobox">(6th <abbr>cent.</abbr>) [Ch. of E.]</ab>
+                <div type="body">
+                    <p>Teacher of biblical interpretation at the <ref rend="bold" target="https://gedsh.bethmardutho.org/Nisibis-School-of">School of
+                            Nisibis</ref>. Yoḥannan was a relative of <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Abraham-of-Beth-Rabban">
+                            <persName ref="http://syriaca.org/person/319">Abraham of
+                            Beth Rabban</persName>
+                        </ref> and both he and Abraham were probably related to <ref rend="bold" target="https://gedsh.bethmardutho.org/Narsai">
+                            <persName ref="http://syriaca.org/person/650">Narsai</persName>
+                        </ref>,
+                        the first director of the School of Nisibis and the ‘master’ (<hi rend="italic">rabbān</hi>) who is referred to in the second part of both
+                        their names. Yoḥannan may have served as an assistant or a co-administrator
+                        to Abraham during the latter’s tenure as head of the School. It is
+                        noteworthy, however, that <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Barhadbshabba-Arbaya">
+                            <persName ref="http://syriaca.org/person/367">Barḥadbshabba</persName>
+                        </ref> the
+                        historian, our main source on Abraham, does not mention Yoḥannan’s name at
+                        all, while the other Barḥadbshabba, the author of the Cause, emphasizes
+                        Yoḥannan’s significance in the School.</p>
+                    <p>Like Abraham, Yoḥannan is credited with biblical commentaries, none of which
+                        have survived. He is regularly quoted, however, by later E.-Syr. biblical
+                        commentators. In one of his letters (no. 9), <abbr>Patr. </abbr>
+                        <ref rend="bold" target="https://gedsh.bethmardutho.org/Timotheos-I">
+                            <persName ref="http://syriaca.org/person/790">Timotheos I</persName>
+                        </ref> is probably referring to Yoḥannan’s commentary on
+                        Leviticus when he tries to dissuade his correspondent from understanding
+                        Yoḥannan’s interpretation of Lev. 18:18 as allowing a Christian to marry his
+                        wife’s sister after the death of his wife, a practice which Timotheos
+                        strongly opposed.</p>
+                    <p>Outside the field of biblical interpretation, Yoḥannan is said to have
+                        authored treatises against the Jews, and against the Eutychians
+                        (Barḥadbshabba) or the Magi (Chronicle of <ref rend="bold" target="https://gedsh.bethmardutho.org/Siirt">
+                            <placeName ref="http://syriaca.org/place/188">Siirt</placeName>
+                        </ref>), along with
+                        discourses, one of which dealt with the Persian emperor Khusrau (<abbr>r.</abbr> 531–78),
+                        either when he gained control over <ref rend="bold" target="https://gedsh.bethmardutho.org/Nagran">
+                            <placeName ref="http://syriaca.org/place/464">Nagran</placeName>
+                        </ref> (572) or at
+                        his death. Since, however, Barḥadbshabba situates Yoḥannan’s death during
+                        the plague which raged in Northern Mesopotamia in the first half of the
+                        560s, we are left with a chronological problem here, reminding us of how
+                        little is known about this intriguing figure.</p>
+                </div>
+                <div type="bibl">
+                    <listBibl>
+                        <listBibl>
+                            <head>Primary Sources</head>
+                            <bibl>O.  Braun, <title rend="italic">Timothei patriarchae I
+                                    Epistulae</title> (<abbr>CSCO</abbr> 74–75; 1914–1915), 95–6 (Syr.); 62
+                                (<abbr>FT</abbr>).</bibl>
+                            <bibl>A.  Scher, <title rend="italic">Mar Barḥadbšabba ʿArbaya, évêque
+                                    de Ḥalwan (VI<hi rend="superscript">e</hi> siècle). Cause de la
+                                    fondation des écoles</title> (<abbr>PO</abbr> 4; 1908), 387–88.</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>A.  Scher</reg>
+                           <orig>idem</orig>
+                        </choice>, <title rend="italic">Histoire nestorienne (Chronique de
+                                    Séert)</title>, II.1 (<abbr>PO</abbr> 7; 1909), 115–16.</bibl>
+                        </listBibl>
+                        <listBibl>
+                            <head>Secondary Sources</head>
+                            <bibl>Baumstark, <title rend="italic">Literatur</title>, 115–6.</bibl>
+                            <bibl>Vööbus, <title rend="italic">History of the School of
+                                    Nisibis</title>, 211–12.</bibl>
+                        </listBibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Lucas</forename> 
+                  <surname>Van Rompay</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

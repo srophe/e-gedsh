@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Eliya of Nisibis</title>
+            <author>
+               <persName>
+                  <forename>Herman G. B.</forename> 
+                  <surname>Teule</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.5">Electronic Edition Version 1.5</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Eliya of Nisibis</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Eliya-of-Nisibis</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/202</idno>
+                    <idno type="entry">193</idno>
+                    <milestone unit="pages" n="143"/>
+                    <idno type="althead">Eliya bar Shinaya</idno>
+                    <idno type="subject">http://syriaca.org/person/472</idno>
+                    <note type="type">person</note>
+                    <note type="abstract">Metropolitan of Nisibis and author.<note/>
+                    </note>
+                </ab>
+                <ab type="infobox">Eliya bar Shinaya (975–1046) [Ch. of E.]</ab>
+                <div type="body">
+                    <p>Metropolitan of <ref rend="bold" target="https://gedsh.bethmardutho.org/Nisibis">
+                            <placeName ref="http://syriaca.org/place/142">Nisibis</placeName>
+                        </ref> and author.
+                        Eliya d-Ṣoba or bar Shinaya was born in Shenna (North Iraq) and studied in
+                        the St. Michael’s monastery near <ref rend="bold" target="https://gedsh.bethmardutho.org/Mosul">
+                            <placeName ref="http://syriaca.org/place/139">Mosul</placeName>
+                        </ref>. In 1002, he
+                        was ordained <abbr>bp.</abbr> of <ref rend="bold" target="https://gedsh.bethmardutho.org/Beth-Nuhadra">
+                            <placeName ref="http://syriaca.org/place/36">Beth Nuhadra</placeName>
+                        </ref>
+                        and, in 1008, metropolitan of Nisibis. The majority of Eliya’s works were
+                        written in Arabic. His Chronography (<hi rend="italic">maktbānut zabne</hi>)
+                        is bilingual, Arabic and Syriac, and consists of two parts: Part I opens
+                        with lists of names of secular and ecclesiastical leaders, followed by a
+                        chronological series of mostly short entries on ecclesiastical and political
+                        events, covering the years AD 25–1018, with careful indication of Syriac
+                        (East and West) and Muslim-Arabic sources. Part II consists of conversion
+                        tables of feasts and years according to different eastern calendars.</p>
+                    <p>The report of his discussions with Abū al-Qāsim al-Maghribī, minister at the
+                        court of the Marwānids in Diyarbakır (see <ref rend="bold" target="https://gedsh.bethmardutho.org/Amid">
+                            <placeName ref="http://syriaca.org/place/8">Amid</placeName>
+                        </ref>), though written
+                        in Arabic, is important because of Eliya’s reflections on the <ref rend="bold" target="https://gedsh.bethmardutho.org/Syriac-Language"> Syriac language</ref> and culture. He tries to demonstrate
+                        the superiority of the Syriac language with a number of syntactical and
+                        lexicographical arguments as well as by referring to the fact that the
+                        Muslims have many scientific works translated from Syriac, whereas the
+                        Syrians do not have a single science borrowed from the Arabs. His
+                        argumentation is partly based on observations made by <ref rend="bold" target="https://gedsh.bethmardutho.org/Hunayn-b-Ishaq">
+                            <persName ref="http://syriaca.org/person/542">Ḥunayn <abbr>b.</abbr>
+                            Isḥāq</persName>
+                        </ref> in the 9th <abbr>cent.</abbr> and is no longer valid for his own period.
+                        His remark about the absence of translations of Arabic among the Syrians is
+                        contradicted by his chronicle which gives Syriac translations of fragments
+                        of Arabic historiographical works. He also argues that the Syriac <ref rend="bold" target="https://gedsh.bethmardutho.org/Script-Syriac">script</ref> is ‘more beautiful, accurate and useful’ than
+                        the Arabic script. We may have an example of his own Syriac handwriting in
+                        the only surviving <abbr>ms.</abbr> of his chronicle, <abbr>ms.</abbr> London, Brit. Libr. Add. 7197,
+                        written as early as 1019. His interest in Syriac grammar — and the relation
+                        between Syriac and Arabic — also appears from his Syriac-Arabic dictionary
+                        and Syriac grammar.</p>
+                    <p>Eliya of Nisibis was also active in the field of liturgical poetry, which
+                        became partly inserted into later liturgical compilations such as the ‘Abū
+                        Ḥalīm’ or the book of <ref rend="bold" target="https://gedsh.bethmardutho.org/Gewargis-Warda">
+                            <persName ref="http://syriaca.org/person/504">Gewargis
+                            Warda</persName>
+                        </ref>. According to <ref rend="bold" target="https://gedsh.bethmardutho.org/Abdisho-bar-Brikha">
+                            <persName ref="http://syriaca.org/person/310">ʿAbdishoʿ of Nisibis</persName>
+                        </ref>,
+                        Eliya is also the author of a no longer extant four-volume canonical
+                        collection in Syriac; the part on the law of inheritance is preserved in an
+                        Arabic translation by ʿUbaydallāh <abbr>b.</abbr> Bakhtishūʿ. His interest in canonical
+                        matters also appears from his Letter on the election of <abbr>Cath.</abbr> 
+                  <ref rend="bold" target="https://gedsh.bethmardutho.org/Ishoyahb-IV">
+                            <persName ref="http://syriaca.org/person/562">Ishoʿyahb
+                            IV</persName>
+                        </ref>. Other letters, in Syriac and Arabic, ascribed to him by
+                        ʿAbdishoʿ of Nisibis, are lost.</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>Baumstark, <title rend="italic">Literatur</title>, 287–8.</bibl>
+                        <bibl>E.  Brooks (Part I) and <choice>
+                                <sic>J. B.</sic>
+                                <corr>J.-B.</corr>
+                            </choice> Chabot (Part II), <title rend="italic">Eliae Metropolitae Nisibeni Opus Chronologicum</title> (<abbr>CSCO</abbr> 62–63;
+                            1909–10). (Syr. of the Chronicle with <abbr>LT</abbr>)</bibl>
+                        <bibl>B.  Haddad, <title rend="italic">Iliyya bar Shinaya. Turgmana —
+                                al-Tarjuman</title> (Nuhadra/Dehok, 2007).</bibl>
+                        <bibl>L. J.  Delaporte, <title rend="italic">La chronographie d’Élie bar
+                                Šinaya, métropolitain de Nisibe</title> (Bibliothèque de l’École des
+                            Hautes Études, Sciences historiques et philologiques 181; 1910). (<abbr>FT</abbr> of
+                            Chronicle)</bibl>
+                        <bibl>Graf, <title rend="italic">GCAL</title>, vol. 2 (1947), 177–89.</bibl>
+                        <bibl>P.  de  Lagarde, <title rend="italic">Praetermissorum libri
+                                duo</title> (1879), 1–96. (Dictionary)</bibl>
+                        <bibl>S. Kh.  Samir, <title rend="italic">Foi et culture en Iraq au XIe
+                                siècle. Elie de Nisibe et l’Islam</title> (Variorum Collected
+                            Studies Series <choice>
+                                <sic>CS544</sic>
+                                <corr>CS 544</corr>
+                            </choice>
+                            ; 1996).</bibl>
+                        <bibl>E.-I. Yousif, <title rend="italic">Les chroniqueurs
+                            syriaques</title> (2002), 345–76.</bibl>
+                        <bibl>B.  Vandenhoff, ‘Ein Brief des Elias bar Šināja über die Wahl des
+                            Katholikos <choice>
+                                <sic>Išoʾjahb</sic>
+                                <corr>Išoʿjahb</corr>
+                            </choice> IV’, <title rend="italic">
+                                <abbr>OC</abbr>
+                            </title> 11 (1913),
+                            58–81, 236–262.</bibl>
+                        <bibl>W.  Witakowski, ‘Elias BarShenaya’s Chronicle’, in <title rend="italic">Syriac polemics. Studies in honour of G. J.
+                                Reinink</title>, <abbr>ed.</abbr> W. J. van Bekkum <abbr>et al.</abbr> (<abbr>OLA</abbr> 170; 2007),
+                            219–37.</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Herman G. B.</forename> 
+                  <surname>Teule</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Barḥadbshabba ʿArbaya</title>
+            <author>
+               <persName>
+                  <forename>Adam H.</forename> 
+                  <surname>Becker</surname>
+               </persName>
+               <persName>
+                  <forename>Jeff W.</forename> 
+                  <surname>Childers</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.5">Electronic Edition Version 1.5</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Barḥadbshabba ʿArbaya</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Barhadbshabba-Arbaya</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/86</idno>
+                    <idno type="entry">77</idno>
+                    <milestone unit="pages" n="57-58"/>
+                    <idno type="subject">http://syriaca.org/person/367</idno>
+                    <note type="type">person</note>
+                    <note type="abstract">A member of the <orgName>School of
+                                <placeName ref="http://syriaca.org/place/142">Nisibis</placeName>
+                        </orgName> in the latter part of the 6th <abbr>cent.</abbr>, who may have composed two of
+                        the most important sources for this institution: the Ecclesiastical History
+                        and the so-called ‘Cause of the Foundation of the Schools’.<note/>
+                    </note>
+                </ab>
+                <ab type="infobox">(late 6th / early 7th  cent.) [Ch. of E.]</ab>
+                <div type="body">
+                    <p>A member of the <ref rend="bold" target="https://gedsh.bethmardutho.org/Nisibis-School-of">School of
+                            Nisibis</ref> in the latter part of the 6th <abbr>cent.</abbr>, who may have composed
+                        two of the most important sources for this institution: the Ecclesiastical
+                        History and the so-called ‘Cause of the Foundation of the Schools’. The
+                        former is a church history, composed not long after 569, focusing on the 4th
+                        and 5th <abbr>cent.</abbr> from an E.-Syr. perspective (but relying on Western Greek
+                        sources). In its concluding two chapters it traces the history of the <ref rend="bold" target="https://gedsh.bethmardutho.org/Edessa-School-of">School of Edessa</ref> and the School of Nisibis up to the death of
+                            <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Abraham-of-Beth-Rabban">
+                            <persName ref="http://syriaca.org/person/319">Abraham of
+                            Beth Rabban</persName>
+                        </ref>, head of the School of Nisibis (d. 569). Scholars have
+                        commonly equated this text, entitled in the one surviving <abbr>ms.</abbr> as ‘History of
+                        the Holy Fathers, persecuted on account of the truth’, with the
+                        Ecclesiastical History mentioned by  <ref rend="bold" target="https://gedsh.bethmardutho.org/Abdisho-bar-Brikha">
+                            <persName ref="http://syriaca.org/person/310">ʿAbdishoʿ</persName>
+                        </ref> (see
+                        below). The ‘Cause’ attributed to Barḥadbshabba, composed between 581 and
+                        <abbr>ca.</abbr> 610, begins with a treatment of epistemology and then provides a history
+                        of learning from the time of God’s creation of the world to the period of
+                        the text’s composition in the late 6th <abbr>cent.</abbr> It recasts patriarchal,
+                        Israelite, ‘pagan’, and Christian history as a long series of schools,
+                        concluding with the leadership of <ref rend="bold" target="https://gedsh.bethmardutho.org/Henana">
+                            <persName ref="http://syriaca.org/person/530">Ḥenana</persName>
+                        </ref> (<abbr>ca.</abbr> 572 –
+                        <abbr>ca.</abbr> 610), whom Barḥadbshabba views favorably.</p>
+                    <p>These two texts have both been attributed to a Barḥadbshabba, but scholars
+                        have not agreed about his identity and whether he is one and the same
+                        person. Two contemporary figures named Barḥadbshabba are attested in the
+                        sources: Barḥadbshabba ʿArbaya (<choice>
+                            <sic>i.e. </sic>
+                            <corr>i.e., </corr>
+                        </choice>from <ref rend="bold" target="https://gedsh.bethmardutho.org/Beth-Arbaye">
+                            <placeName ref="http://syriaca.org/place/31">Beth ʿArbaye</placeName>
+                        </ref>)
+                        and Barḥadbshabba of Ḥulwān (in the mountains northeast of <ref rend="bold" target="https://gedsh.bethmardutho.org/Seleucia-Ctesiphon">
+                            <placeName ref="http://syriaca.org/place/182">Seleucia-Ctesiphon)</placeName>
+                        </ref>. Their identification is supported by their
+                        contemporaneity, their mutual connection to <ref rend="bold" target="https://gedsh.bethmardutho.org/Nisibis">
+                            <placeName ref="http://syriaca.org/place/142">Nisibis</placeName>
+                        </ref> and Ḥenana,
+                        the common subject matter of their surviving works, and the lack of positive
+                        evidence to the contrary, though it is far from certain that they are one
+                        and the same person. It is possible that a Barḥadbshabba from the region of
+                        Beth ʿArbaye came to Nisibis and was eventually consecrated <abbr>
+                            <choice>
+                                <sic>Bp.</sic>
+                                <corr>bp.</corr>
+                            </choice>
+                        </abbr> of Ḥulwān,
+                        in which case the two are actually one and the same person, as some scholars
+                        believe. To the former ʿAbdishoʿ attributes: ‘a book of treasures in three
+                        parts, and disputes (<hi rend="italic">drāše</hi>) with all religions (<hi rend="italic">deḥlān</hi>) and their refutation, and an ecclesiastical
+                        (history), and a cause of the followers (Syr. <hi rend="italic">bet</hi>, or
+                        ‘school’) of Diodore, and a commentary (<hi rend="italic">mašlmānutā</hi>)
+                        on Mark the evangelist and (the psalms of) David’. A late <abbr>ms.</abbr> attributes a
+                        hymn to the same person (<abbr>ms.</abbr> Cambridge Or. Oo. 1. 22). Perhaps the
+                        commentary on Psalms mentioned by ʿAbdishoʿ is the source of the quotation
+                        attributed to a Barḥadbshabba in a later psalm commentary (<abbr>ms.</abbr> Mingana Syr.
+                        58). <ref rend="bold" target="https://gedsh.bethmardutho.org/Dadisho-Qatraya">
+                            <persName ref="http://syriaca.org/person/434">Dadishoʿ Qaṭraya</persName>
+                        </ref> cites a ‘Book of Treasures’, which he attributes
+                        to Barḥadbshabba the teacher (<hi rend="italic">mallpānā</hi>), probably the
+                        same person. The ‘Cause of the Followers of Diodore’ may be a recherché
+                        reference to the ‘Cause of the Foundation of the Schools’ (since there were
+                        never any formal group of followers of Diodore. Presumably this is <ref rend="bold" target="https://gedsh.bethmardutho.org/Diodore-of-Tarsus">
+                            <persName ref="http://syriaca.org/person/451">Diodore of Tarsus</persName>
+                        </ref>). The <abbr>ms.</abbr> tradition of the ‘Cause’ does not
+                        help us identify the author, since the more reliable <abbr>mss.</abbr> were lost in 1915.
+                        The text would have been written perhaps before the mid-590s if the author
+                        is identical with the Barḥadbshabba who participated in opposing Ḥenana at
+                        the Synod of 605 and left the School some time after, particularly since
+                        Ḥenana is highly praised in the ‘Cause’. The Khuzistan Chronicle refers to a
+                        person by the name of Barḥadbshabba of Ḥulwān, known for his compositions in
+                        the early 7th cent (Guidi <abbr>et al.</abbr>, <hi rend="italic">Chronica minora</hi>
+                        [<abbr>CSCO</abbr> 1], 22). The same person is also one of the signatories to the record
+                        for the Synod of <ref rend="bold" target="https://gedsh.bethmardutho.org/Grigor-I">
+                            <persName ref="http://syriaca.org/person/514">Grigor I</persName>
+                        </ref> of 605,
+                        at which the theological authority of <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Theodore-of-Mopsuestia">
+                            <persName ref="http://syriaca.org/person/780">Theodore
+                            of Mopsuestia</persName>
+                        </ref> was re-affirmed (Synodicon Orientale, 471–9). This
+                        has been taken by some scholars to be an implicit rejection of Ḥenana.The
+                        Chronicle of <ref rend="bold" target="https://gedsh.bethmardutho.org/Siirt">
+                            <placeName ref="http://syriaca.org/place/188">Siirt</placeName>
+                        </ref> suggests that these two figures are the same, but this may
+                        be a later conflation. Significantly, the text states that ‘Ḥadbshabba
+                        ʿArbaya who became metropolitan of Ḥulwān’ was one of the members who left
+                        the School of Nisibis due to the controversial theology of Ḥenana. Some
+                        later sources, such as the 9th-cent. biblical commentator <ref rend="bold" target="https://gedsh.bethmardutho.org/Ishodad-of-Merv">
+                            <persName ref="http://syriaca.org/person/555">Ishoʿdad of
+                            Merv</persName>
+                        </ref> and the later <ref rend="bold" target="https://gedsh.bethmardutho.org/Gannat-Bussame">
+                            <hi rend="italic">Gannat
+                            bussāme</hi>
+                        </ref> (‘Garden of Delights’, a commentary on the E.-Syr.
+                        lectionary) refer to a Barḥadbshabba without any appellation, and this may
+                        also be the same person.</p>
+                </div>
+                <div type="bibl">
+                    <listBibl>
+                        <listBibl>
+                            <head>Primary Sources</head>
+                            <bibl>Assemani, <title rend="italic">BibOr</title>, chap. 93.</bibl>
+                            <bibl>A. H.  Becker, <title rend="italic">Sources for the Study of the
+                                    School of Nisibis</title> (<abbr>TTH</abbr> 50; 2008).</bibl>
+                            <bibl>Chabot, <title rend="italic">Synodicon Orientale</title>,
+                                471–79.</bibl>
+                            <bibl>R.  Draguet, <title rend="italic">Commentaire du livre d’Abba
+                                    Isaïe par Dadišoʿ Qatraya (VII<hi rend="superscript">e</hi> siécle)</title> (<abbr>CSCO</abbr> 326; 1972), 263.22. (Discourse
+                                15.12)</bibl>
+                            <bibl>Guidi <abbr>et al.</abbr>, <title rend="italic">Chronica minora</title> (<abbr>CSCO</abbr>
+                                1), 22.25–26. (“Chronicum Anonymum” = Khuzistan Chronicle)</bibl>
+                            <bibl>A.  Mingana, <title rend="italic">Catalogue of the Mingana
+                                Collection of Manuscripts</title>
+                                <choice>
+                                    <sic/>
+                                    <corr>, 3 vols.</corr>
+                                </choice> (<choice>
+                                    <sic>1948</sic>
+                                    <corr>1933</corr>
+                                </choice>–1963),<choice>
+                                    <sic/>
+                                    <corr> vol. 1,</corr>
+                                </choice> col. 159.</bibl>
+                            <bibl>F.  Nau, <title rend="italic">La seconde partie de l’histoire de
+                                    Barhadbesabba ‘Arbaïa</title> (<abbr>PO</abbr> 9.5; 1913).</bibl>
+                            <bibl>A.  Scher, <title rend="italic">Cause de la fondation des
+                                    écoles</title> (<abbr>PO</abbr> 4.4; 1908).</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>A.  Scher</reg>
+                           <orig>idem</orig>
+                        </choice>, <title rend="italic">Histoire nestorienne inédite (Chronique
+                                    de Séert)</title>, 2.2 (<abbr>PO</abbr> 13.4; 1910), 511–12.</bibl>
+                            <bibl>J.-M.  Vosté and C. van den Eynde, <title rend="italic">Commentaire d’Išoʿdad de Merv sur l’Ancien Testament</title>,
+                                vol. 1. <title rend="italic">Genèse</title> (<abbr>CSCO</abbr> 126; 1950),
+                                81.</bibl>
+                            <bibl>W. Wright, <title rend="italic">Catalogue of Syriac manuscripts
+                                    preserved in the Library of the University of Cambridge</title>,
+                                vol. 2 (1901), 1083. (<abbr>ms.</abbr> Cambridge Or. Oo. 1. 22)</bibl>
+                        </listBibl>
+                        <listBibl>
+                            <head>Secondary Sources</head>
+                            <bibl>A. H.  Becker, <title rend="italic">Sources for the Study of the
+                                    School of Nisibis</title> (<abbr>TTH</abbr> 50; 2008), 11–16. (a discussion
+                                of the problem of identifying Barḥadbshabba ʿArbaya with
+                                Barḥadbshabba of Ḥulwān as well as the question of his authorship of
+                                the ‘Cause of the Foundation of the Schools’)</bibl>
+                            <bibl>Baumstark, <title rend="italic">Literatur</title>, 136. (n. 6 also
+                                refers to a citation of a Barḥadbshabba in an anonymous New
+                                Testament commentary)</bibl>
+                            <bibl>Reinink, ‘Edessa grew dim and Nisibis shone forth’.</bibl>
+                            <bibl>Vööbus, <title rend="italic">History of the School of
+                                    Nisibis</title>, 280–82, 294–96.</bibl>
+                        </listBibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Adam H.</forename> 
+                  <surname>Becker</surname>
+               </persName> and <persName>
+                  <forename>Jeff W.</forename> 
+                  <surname>Childers</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

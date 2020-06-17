@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Aba II of Kashkar</title>
+            <author>
+               <persName>
+                  <forename>Gerrit J.</forename> 
+                  <surname>Reinink</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.5">Electronic Edition Version 1.5</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Aba II of Kashkar</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Aba-II-of-Kashkar</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/11</idno>
+                    <idno type="entry">2</idno>
+                    <milestone unit="pages" n="1-2"/>
+                    <idno type="subject">http://syriaca.org/person/307</idno>
+                    <note type="type">person</note>
+                    <note type="abstract">Scholar, <abbr>
+                            <choice>
+                                <sic>Bp.</sic>
+                                <corr>bp.</corr>
+                            </choice>
+                        </abbr> of <placeName ref="http://syriaca.org/place/2323">Kashkar</placeName>, and <abbr>
+                            <choice>
+                                <sic>Cath.</sic>
+                                <corr>cath.</corr>
+                            </choice>
+                        </abbr>
+                        (741-751).<note/>
+                    </note>
+                </ab>
+                <ab type="infobox">(641–751) [Ch. of E.]</ab>
+                <div type="body">
+                    <p>Scholar, <abbr>
+                            <choice>
+                                <sic>Bp.</sic>
+                                <corr>bp.</corr>
+                            </choice>
+                        </abbr> of Kashkar, and <abbr>
+                            <choice>
+                                <sic>Cath.</sic>
+                                <corr>cath.</corr>
+                            </choice>
+                        </abbr> (741–751). Born in (the vicinity of)
+                        Kashkar in 641 as son of Brik Ṣebyaneh (‘Blessed be His Will’). He received
+                        his education in the School of <ref rend="bold" target="https://gedsh.bethmardutho.org/Seleucia-Ctesiphon">
+                            <placeName ref="http://syriaca.org/place/182">Seleucia-Ctesiphon</placeName>
+                        </ref> and was for a certain time <abbr>
+                            <choice>
+                                <sic>Bp.</sic>
+                                <corr>bp.</corr>
+                            </choice>
+                        </abbr> of Kashkar
+                        before his election as <abbr>
+                            <choice>
+                                <sic>Cath.</sic>
+                                <corr>cath.</corr>
+                            </choice>
+                        </abbr> in 741. In the sixth year of his Catholicate a
+                        conflict between Aba and the clergy of Seleucia-Ctesiphon arose; the latter
+                        accused the <abbr>
+                            <choice>
+                                <sic>Cath.</sic>
+                                <corr>cath.</corr>
+                            </choice>
+                        </abbr> of having illegally taken the possessions of the city’s
+                        School. According to a letter written by Aba to the director, the teachers,
+                        and the other ‘brothers’ of the School, these charges were brought against
+                        him while he stayed outside the patriarchal seat for some time (probably for
+                        reasons of health). According to some medieval sources the <abbr>
+                            <choice>
+                                <sic>Cath.</sic>
+                                <corr>cath.</corr>
+                            </choice>
+                        </abbr> retired in
+                        a monastery of al-Wāsiṭ for a year, but returned to Seleucia-Ctesiphon after
+                        the conflict was settled. Aba is known as the author of different works
+                        which, except for ‘the Letter to the leaders of the School’, are lost: the
+                        Book of the Governors (<hi rend="italic">Ktābā d-esṭraṭige</hi>), a
+                        Commentary on the Theologian (<ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Gregory-of-Nazianzus">
+                            <persName ref="http://syriaca.org/person/511">Gregory of
+                            Nazianzus</persName>
+                        </ref>), a Commentary on some works concerning dialectics
+                        (probably some books of the ‘Organon’ of <ref rend="bold" target="https://gedsh.bethmardutho.org/Aristotle">
+                            <persName ref="http://syriaca.org/person/342">Aristotle</persName>
+                        </ref>), a
+                        Homily on the Martyr Zakhe, and Exegetical Homilies (<hi rend="italic">Memre
+                            puššāqāye</hi>). From the latter many fragments and extracts have been
+                        preserved in the <ref rend="bold" target="https://gedsh.bethmardutho.org/Gannat-Bussame">Gannat
+                            Bussāme</ref>, containing the exegesis of passages from Gen., Num.,
+                        Isa., and the four Gospels. These fragments and extracts are of great
+                        importance for the cultural and intellectual history of the <abbr>Ch. of E.</abbr> for at
+                        least three reasons: 1.  they represent the genre of exegetical prose
+                        homilies in a style which shows a strong influence from and a very
+                        sophisticated use of Greek rhetoric; 2. they show a very dynamic and varied
+                        exegetical tradition, in which not only influences from the works of <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Theodore-of-Mopsuestia">
+                            <persName ref="http://syriaca.org/person/780">Theodore
+                            of Mopsuestia</persName>
+                        </ref> but also from the works of <ref rend="bold" target="https://gedsh.bethmardutho.org/John-Chrysostom">
+                            <persName ref="http://syriaca.org/person/573">John
+                            Chrysostom</persName>
+                        </ref> and from the ancient tradition of the <ref rend="bold" target="https://gedsh.bethmardutho.org/Edessa-School-of">School of
+                            Edessa</ref> become noticeable; 3. they present interesting early
+                        examples of apologetic and polemic dispute in response to Islamic criticism
+                        of Christian tenets such as the Trinity and the Divinity of Christ. Although
+                        Aba is reported to have maintained as <abbr>
+                            <choice>
+                                <sic>Cath.</sic>
+                                <corr>cath.</corr>
+                            </choice>
+                        </abbr> good relations with the Muslim
+                        governor of Iraq, Yūsuf <abbr>b.</abbr> ʿUmar al-Thaqafī, his homilies testify that he
+                        took a fierce polemical stand against the anti-Christian proclamations that
+                        the Arab authorities propagated in his days.</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>Baumstark, <title rend="italic">Literatur</title>, 214–5.</bibl>
+                        <bibl>J.-B.  Chabot, ‘La lettre du catholicos Mar-Aba II aux membres de
+                            l’école patriarcale de Séleucie’, <title rend="italic">Actes du onzième
+                                congrès international des orientalistes. Quatrième section</title>
+                            (1898), 295–335.</bibl>
+                        <bibl>Reinink, <title rend="italic">Studien zur Quellen- und
+                                Traditionsgeschichte</title>, 47–113.</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>Reinink</reg>
+                        <orig>idem</orig>
+                     </choice>, <title rend="italic">Gannat Bussame</title>, vol. 1. <title rend="italic">Die Adventssonntage</title> (<abbr>CSCO</abbr> 502; 1988),
+                            XXI–XXV.</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>Reinink</reg>
+                        <orig>idem</orig>
+                     </choice>, ‘Rhetorik in der Homilie zu Jes. 52,13–53,12 des Katholikos
+                            Mar Aba II. von Kaškar’, in <abbr>
+                                <title rend="italic">SymSyr</title> IV</abbr>,
+                            307–16.</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>Reinink</reg>
+                        <orig>idem</orig>
+                     </choice>, ‘An Early Syriac reference to Qurʾān 112?’, in <title rend="italic">All those nations…Cultural encounters within and with
+                                the Near East</title>, <abbr>ed.</abbr> H. L. J. Vanstiphout <abbr>et al.</abbr> (1999),
+                            123–30.</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Gerrit J.</forename> 
+                  <surname>Reinink</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

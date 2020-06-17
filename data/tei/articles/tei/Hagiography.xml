@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Hagiography</title>
+            <author>
+               <persName>
+                  <forename>Susan Ashbrook</forename> 
+                  <surname>Harvey</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.5">Electronic Edition Version 1.5</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Hagiography</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Hagiography</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/253</idno>
+                    <idno type="entry">244</idno>
+                    <milestone unit="pages" n="185-186"/>
+                    <note type="type">subject</note>
+                    <note type="abstract">Literature that tells the stories of saints.<note/>
+                    </note>
+                </ab>
+                <div type="body">
+                    <p>Literature that tells the stories of saints. Hagiography was not biography,
+                        even though often including such material. Rather, its purpose was to
+                        present its subjects in terms that made clear their holiness. Hence it
+                        employed literary conventions, motifs, and themes that identified its men or
+                        women with biblical models, and above all with gospel models of Christ. The
+                        saint was always presented as one who imitated Christ, whether by works of
+                        healing, teaching, or ministry in life, or by a holy death. It could be
+                        written about historical persons or legendary figures, but always it
+                        presented and conformed the holy person’s life and works to familiar models
+                        that emerged over the late antique period: the holy bishop, abbot, or monk;
+                        the holy nun, widow, or penitent harlot; the holy layman or laywoman who
+                        lived an exceptional life of good works and asceticism. Syriac hagiography
+                        emerged as a sophisticated literary genre during the 5th <abbr>cent.</abbr> and took
+                        various forms: individual lives (<hi rend="italic">vitae</hi>) of saints,
+                        resembling biographical narratives and deeply influenced by Greek
+                        biographical traditions, such as those about <ref rend="bold" target="https://gedsh.bethmardutho.org/Rabbula-of-Edessa">
+                            <persName ref="http://syriaca.org/person/26">Rabbula of
+                            Edessa</persName>
+                        </ref> or <ref rend="bold" target="https://gedsh.bethmardutho.org/Shemun-the-Stylite">
+                            <persName ref="http://syriaca.org/person/744">Shemʿun the
+                            Stylite</persName>
+                        </ref>; collections of saints’ stories, often short vignettes,
+                        including personal encounters, such as <ref rend="bold" target="https://gedsh.bethmardutho.org/Yuhanon-of-Ephesus">
+                            <persName ref="http://syriaca.org/person/74">Yuḥanon of
+                            Ephesus</persName>
+                        </ref>’s ‘Lives of the Eastern Saints’ (<abbr>W. Syr.</abbr>, written 560s) or
+                            <ref rend="bold" target="https://gedsh.bethmardutho.org/Toma-of-Marga">
+                            <persName ref="http://syriaca.org/person/796">Toma of Marga</persName>
+                        </ref>’s ‘Book of Governors’ (<abbr>E. Syr.</abbr>, 9th <abbr>cent.</abbr>);
+                        personal memoirs, such as <ref rend="bold" target="https://gedsh.bethmardutho.org/Sahdona-Martyrius">
+                            <persName ref="http://syriaca.org/person/711">Sahdona</persName>
+                        </ref>’s of the <choice>
+                            <sic>7th </sic>
+                            <corr>7th-</corr>
+                        </choice>
+                        <abbr>cent.</abbr>
+                        holy woman Shirin (<abbr>E. Syr.</abbr>). Saints’ stories traveled freely across
+                        linguistic, geographical, and political boundaries in the ancient Christian
+                        world. Thus hagiography appeared in literary forms that mutually interacted
+                        across languages. Hagiographical writings about Syr. saints were written in
+                        Greek (e.g., by <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Theodoret-of-Cyrrhus">
+                            <persName ref="http://syriaca.org/person/781">Theodoret of
+                            Cyrrhus</persName>
+                        </ref>) as well as Syriac, and both kinds might be translated
+                        into Latin and further into other languages. The Edessan Martyrs, Shemʿun
+                        the Stylite, St. Febronia of <ref rend="bold" target="https://gedsh.bethmardutho.org/Nisibis">
+                            <placeName ref="http://syriaca.org/place/142">Nisibis</placeName>
+                        </ref>, the
+                        anonymous <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Man-of-God-of-Edessa">
+                            <persName ref="http://syriaca.org/person/607">Man of God</persName>
+                        </ref> (later named Alexius), and St.
+                        Pelagia the harlot, are figures both historical and legendary whose stories,
+                        originating in Syriac, are found in every major calendar of Christian
+                        saints. In turn, there is a large body of hagiography translated into Syriac
+                        from other languages, already during the 5th and 6th <abbr>cent.</abbr>, beginning with
+                            <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Athanasius-of-Alexandria">
+                            <persName ref="http://syriaca.org/person/354">Athanasius</persName>
+                        </ref>’s ‘Life of Antony’, ‘the Sayings of
+                        the Desert Fathers’, and Theodoret of Cyrrhus’s ‘History of the Monks of
+                        Syria’.</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>P. Bedjan, <title rend="italic">Acta Martyrum et
+                                Sanctorum</title> (7 vols.; 1890–97).</bibl>
+                        <bibl>S. P.  Brock, ‘Saints in Syriac: A little-tapped resource,’ <title rend="italic">
+                                <abbr>JECS</abbr>
+                            </title> 16.2 (2008), 181–96.</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>S. P.  Brock</reg>
+                        <orig>idem</orig>
+                     </choice>, ‘Syriac hagiography’, in <title rend="italic">Companion to
+                                Byzantine hagiography</title>, <abbr>ed.</abbr> S. Efthymiadis
+                            (forthcoming).</bibl>
+                        <bibl>S. P.  Brock and S. A.  Harvey, <title rend="italic">Holy women of the
+                                Syrian Orient</title> (1987; new <abbr>ed.</abbr> 1998).</bibl>
+                        <bibl>R.  Doran, <title rend="italic">The Lives of Simeon Stylites</title>
+                            (1992).</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>S. P.  Brock and S. A.  Harvey</reg>
+                        <orig>idem</orig>
+                     </choice>, <title rend="italic">Stewards of the poor: The Man of God,
+                                Rabbula, and Hiba in fifth-century Edessa</title> (2006).</bibl>
+                        <bibl>Fiey, <title rend="italic">Saints syriaques</title> (2004).</bibl>
+                        <bibl>Harvey, <title rend="italic">Asceticism and society in
+                            crisis</title>.</bibl>
+                        <bibl>P.  Peeters, <title rend="italic">Bibliotheca Hagiographica
+                                Orientalis</title> (Subsidia hagiographica 10; 1910, 1954).</bibl>
+                        <bibl>J.  Walker, <title rend="italic">The Legend of Mar Qardagh: Narrative
+                                and Christian heroism in Late Antique Iraq</title> (2006). (incl.
+                            further references)</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Susan Ashbrook</forename> 
+                  <surname>Harvey</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

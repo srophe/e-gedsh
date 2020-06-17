@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Guidi, Ignazio</title>
+            <author>
+               <persName>
+                  <forename>Riccardo</forename> 
+                  <surname>Contini</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.5">Electronic Edition Version 1.5</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Guidi, Ignazio</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Guidi-Ignazio</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/250</idno>
+                    <idno type="entry">241</idno>
+                    <milestone unit="pages" n="184"/>
+                    <idno type="althead" subtype="altorder">Ignazio Guidi</idno>
+                    <idno type="subject">http://syriaca.org/person/517</idno>
+                    <note type="type">person</note>
+                    <note type="abstract">Italian Syriac scholar. One of the most eminent scholars
+                        in the philology of Semitic and Eastern Christian literatures, he taught at
+                        the University of Rome from 1876 to 1919.<note/>
+                    </note>
+                </ab>
+                <ab type="infobox">(1844–1935)</ab>
+                <div type="body">
+                    <p>Italian Syriac scholar. One of the most eminent scholars in the philology of
+                        Semitic and Eastern Christian literatures, he taught at the University of
+                        Rome from 1876 to 1919. Although since 1885 he devoted most of his energy to
+                        Ethiopian studies, he also offered important contributions to Syriac
+                        scholarship, particularly textual studies, such as his editions — mostly
+                        accompanied by annotated translations — of the first ‘Letter on the
+                        Ḥimyarite martyrs’ by <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Shemun-of-Beth-Arsham">
+                            <persName ref="http://syriaca.org/person/53">Shemʿun of
+                            Beth Arsham</persName>
+                        </ref> (1881); of <ref rend="bold" target="https://gedsh.bethmardutho.org/Yaqub-of-Serugh">
+                            <persName ref="http://syriaca.org/person/42">Yaʿqub of
+                            Serugh</persName>
+                        </ref>’s homily ‘on the Seven Sleepers of Ephesus’ (1884–85); of
+                            <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Philoxenos-of-Mabbug">
+                            <persName ref="http://syriaca.org/person/44">Philoxenos
+                            of Mabbug</persName>
+                        </ref>’s letter to the monks of Tell ʿAda (1886); of the
+                        Statutes of the <ref rend="bold" target="https://gedsh.bethmardutho.org/Nisibis-School-of">School of
+                            Nisibis</ref> (1891), reedited decades later by A. Vööbus; of two
+                        fundamental historiographical works, the <choice>
+                            <sic>6th </sic>
+                            <corr>6th-</corr>
+                        </choice>
+                        <abbr>cent.</abbr>
+                        <ref rend="bold" target="https://gedsh.bethmardutho.org/Chronicle-of-Edessa"> Chronicle of
+                            Edessa</ref> (1903) and the <choice>
+                            <sic>7th </sic>
+                            <corr>7th-</corr>
+                        </choice>
+                        <abbr>cent.</abbr> ‘Chronicle of Khuzistan’ (a.k.a.
+                        ‘Guidi’s Anonymous Chronicle’, 1892 and 1903); of the Syriac Acts of the
+                        martyr Judas Cyriacus (1904); of <ref rend="bold" target="https://gedsh.bethmardutho.org/Severus-of-Antioch">
+                            <persName ref="http://syriaca.org/person/51">Severus of
+                            Antioch</persName>
+                        </ref>’s Cathedral Homilies XCIX to CIII in <ref rend="bold" target="https://gedsh.bethmardutho.org/Yaqub-of-Edessa">
+                            <persName ref="http://syriaca.org/person/113">Yaʿqub of
+                            Edessa</persName>
+                        </ref>’s translation (<abbr>PO</abbr> 22.2, 1930). He is also to be credited
+                        with the discovery and first presentation of the E.-Syr. <ref rend="bold" target="https://gedsh.bethmardutho.org/Synodicon-Orientale">Synodicon</ref> (1889), subsequently edited and translated by <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Chabot-Jean-Baptiste">
+                            <persName ref="http://syriaca.org/person/411">J.-B. Chabot</persName>
+                        </ref> and <ref rend="bold" target="https://gedsh.bethmardutho.org/Braun-Oskar">
+                            <persName ref="http://syriaca.org/person/400">O. Braun</persName>
+                        </ref>, and
+                        with a series of critical remarks (1892) on, as well as the indispensable
+                        hagiographical index (1919) to, <ref rend="bold" target="https://gedsh.bethmardutho.org/Bedjan-Paul">
+                            <persName ref="http://syriaca.org/person/379">P. Bedjan</persName>
+                        </ref>’s
+                        seven-volume <hi rend="italic">Acta Martyrum et Sanctorum</hi>. Only the
+                        first two substantial items of this selection of his essays were reprinted
+                        in his <hi rend="italic">Raccolta di scritti</hi>, vol. 1. <hi rend="italic">Oriente cristiano I</hi>(Rome 1945, unfortunately interrupted after the
+                        first installment). Guidi also published brilliant essays on specific
+                        literary and historical themes connected with Syriac studies, such as his
+                        famous Paris lecture ‘L’historiographie chez les Sémites’ (1906), his Cairo
+                        lectures published as ‘L’Arabie anté-islamique’ (1921), and a steady stream
+                        of book reviews. In the course of a very busy life he formed relationships
+                        of friendly collaboration with several scholars belonging to the Syr.
+                        Churches staying in Rome for longer periods, such as the future Syr.
+                        Catholic <abbr>Patr.</abbr>
+                        <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Rahmani-Ignatius-Ephrem-II">
+                            <persName ref="http://syriaca.org/person/701"> Ignatius Ephrem Raḥmani</persName>
+                        </ref>, the <abbr>Maron.</abbr>
+                        priest <ref rend="bold" target="https://gedsh.bethmardutho.org/Cardahi-Gabriel">
+                            <persName ref="http://syriaca.org/person/406">Gabriel
+                            Cardahi</persName>
+                        </ref>, and his Chaldean informers on a North-Eastern Neo-Aramaic
+                        dialect of Iraq, of which he published in his youth a succint linguistic
+                        description and two short texts (1883). No full list of his writings is
+                        available: the one up to 1911 in <hi rend="italic">Rivista degli Studi
+                            Orientali</hi> 5 (1913), 77–89, was never completed and updated. The
+                        considerable library of Guidi combined with that of his Arabist son
+                        Michelangelo, which includes a rich collection of rare Syriac text editions,
+                        is now housed in the Department of Oriental Studies of the University of
+                        Rome ‘La Sapienza’.</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>G.  Levi Della Vida, ‘L’opera orientalistica di Ignazio Guidi’,
+                                <title rend="italic">Oriente Moderno</title> 15 (1935), 236–48.
+                            (incl. further references)</bibl>
+                        <bibl>L.  Ricci, ‘Guidi, Ignazio’, in <title rend="italic">
+                                <abbr>EAe</abbr>
+                            </title>, vol.
+                            2, 908–9.</bibl>
+                        <bibl>B. Soravia, ‘Guidi, Ignazio’, in <title rend="italic">Dizionario
+                                biografico degli Italiani</title>, vol. 61 (2003), 272–5.</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Riccardo</forename> 
+                  <surname>Contini</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

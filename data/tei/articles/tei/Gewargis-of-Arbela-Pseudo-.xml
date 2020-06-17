@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Gewargis of Arbela, Pseudo-</title>
+            <author>
+               <persName>
+                  <forename>Sebastian P.</forename> 
+                  <surname>Brock</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.5">Electronic Edition Version 1.5</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Gewargis of Arbela, Pseudo-</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Gewargis-of-Arbela-Pseudo-</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/235</idno>
+                    <idno type="entry">226</idno>
+                    <milestone unit="pages" n="176"/>
+                    <idno type="althead" subtype="altorder">Pseudo- Gewargis of Arbela</idno>
+                    <note type="type">pseudonym</note>
+                    <note type="abstract">Unknown author of an important Commentary on the
+                        Liturgical rites.<note/>
+                    </note>
+                </ab>
+                <ab type="infobox">(9th <abbr>cent.</abbr>?) [Ch. of E.]</ab>
+                <div type="body">
+                    <p>Unknown author of an important Commentary on the Liturgical rites. An
+                        extensive liturgical commentary in seven sections is preserved in a number
+                        of <abbr>mss.</abbr>; in his <hi rend="italic">Bibliotheca Orientalis</hi> Assemani
+                        attributed the work to <ref rend="bold" target="https://gedsh.bethmardutho.org/Gewargis-of-Arbela">
+                            <persName ref="http://syriaca.org/person/502">Gewargis of
+                            Arbela</persName>
+                        </ref> (9th <abbr>cent.</abbr>?), but without any good evidence; as a result
+                        the author is normally now referred to as ‘Pseudo-Gewargis of Arbela’
+                        (another wrong attribution is to <ref rend="bold" target="https://gedsh.bethmardutho.org/Abdisho-bar-Bahriz">
+                            <persName ref="http://syriaca.org/person/309">ʿAbdishoʿ bar
+                            Bahrīz</persName>
+                        </ref>). The chapters in each section provide answers to
+                        particular questions. The seven sections cover the following topics: 1. the
+                        liturgical year (24 questions); 2. <hi rend="italic">ramšā</hi> (21
+                        questions); 3. <hi rend="italic">lelyā</hi> and <hi rend="italic">ṣaprā</hi>
+                        (9 questions); 4. the Eucharistic Mysteries (30 questions); 5. Baptism (9
+                        questions); 6. Consecration of a church (8  questions); and 7. Burial, and
+                        Marriage (7 questions; the section on Marriage seems to be a secondary
+                        addition, though perhaps by the same author). Connolly’s edition also
+                        includes the short ‘Commentary on the (liturgical) Services’ by <ref rend="bold" target="https://gedsh.bethmardutho.org/Abraham-bar-Lipeh">
+                            <persName ref="http://syriaca.org/person/318">Abraham bar Lipeh</persName>
+                        </ref> of <ref rend="bold" target="https://gedsh.bethmardutho.org/Beth-Qatraye">
+                            <placeName ref="http://syriaca.org/place/37">Beth Qaṭraye</placeName>
+                        </ref>
+                        (II, 161–80); in many places this is simply an abbreviation of <ref rend="bold" target="https://gedsh.bethmardutho.org/Gabriel-Qatraya">
+                            <persName ref="http://syriaca.org/person/495">Gabriel Qaṭraya</persName>
+                        </ref>’s Commentary.</p>
+                </div>
+                <div type="bibl">
+                    <listBibl>
+                        <listBibl>
+                            <head>Primary Sources</head>
+                            <bibl>S. P.  Brock, in <title rend="italic">
+                                    <abbr>Hugoye</abbr>
+                                </title> 1.1 (1998).
+                                (<abbr>ET</abbr> of 5.5)</bibl>
+                            <bibl>R. H.  Connolly, <title rend="italic">Anonymi auctoris Expositio
+                                    Officiorum Ecclesiae Georgio Arbelensi vulgo adscripta</title>
+                                (<abbr>CSCO</abbr> 64, 71–2, 76; 1911–1915). (Syr. with <abbr>LT</abbr>)</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>R. H.  Connolly</reg>
+                           <orig>idem</orig>
+                        </choice>, in <title rend="italic">A Commentary on the Mass by the
+                                    Nestorian George, Bishop of Mosul and Arbela</title>, <abbr>ed.</abbr> R.
+                                Matheus (Kottayam, 2000). (<abbr>ET</abbr> of 4)</bibl>
+                            <bibl>I.  Emlek, <title rend="italic">Mysterienfeier der Ostsyrischen
+                                    Kirche im 9. Jahrhundert</title> (2004). (<abbr>GT</abbr> of 4)</bibl>
+                        </listBibl>
+                        <listBibl>
+                            <head>Secondary Sources</head>
+                            <bibl>C.  Leonhard, ‘Die Initiation nach der Expositio Officiorum
+                                Ecclesiae’, in <title rend="italic">Syriaca</title>, <abbr>ed.</abbr> M. Tamcke
+                                (2002), 321–54.</bibl>
+                        </listBibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Sebastian P.</forename> 
+                  <surname>Brock</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

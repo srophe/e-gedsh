@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Ishoʿ bar Nun</title>
+            <author>
+               <persName>
+                  <forename>Lucas</forename> 
+                  <surname>Van Rompay</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.5">Electronic Edition Version 1.5</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Ishoʿ bar Nun</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Isho-bar-Nun</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/289</idno>
+                    <idno type="entry">280</idno>
+                    <milestone unit="pages" n="215"/>
+                    <idno type="subject">http://syriaca.org/person/552</idno>
+                    <note type="type">person</note>
+                    <note type="abstract">
+                        <abbr>Cath.</abbr> (823–28), author of commentaries on the entire
+                        Bible.<note/>
+                    </note>
+                </ab>
+                <ab type="infobox">(d. 828) [Ch. of E.]</ab>
+                <div type="body">
+                    <p>
+                        <abbr>Cath.</abbr> (823–28), author of commentaries on the entire Bible. Ishoʿ bar Nun was
+                        born in the village of Beth Gabbare on the Tigris, near <ref rend="bold" target="https://gedsh.bethmardutho.org/Mosul">
+                            <placeName ref="http://syriaca.org/place/139">Mosul</placeName>
+                        </ref>, around 745. He
+                        studied with <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Abraham-bar-Dashandad">
+                            <persName ref="http://syriaca.org/person/317">Abraham bar
+                            Dashandad</persName>
+                        </ref> and, possibly after a short period of teaching at <ref rend="bold" target="https://gedsh.bethmardutho.org/Seleucia-Ctesiphon">
+                            <placeName ref="http://syriaca.org/place/182">Seleucia</placeName>
+                        </ref>, became a monk at the Great Monastery on Mt.
+                        Izla (founded by <ref rend="bold" target="https://gedsh.bethmardutho.org/Abraham-of-Kashkar">
+                            <persName ref="http://syriaca.org/person/320">Abraham of
+                            Kashkar</persName>
+                        </ref>), where he also taught. Ishoʿ bar Nun later moved to <ref rend="bold" target="https://gedsh.bethmardutho.org/Baghdad">
+                            <placeName ref="http://syriaca.org/place/41">Baghdad</placeName>
+                        </ref>
+                        and then to Mosul, where he lived in the Monastery of Elijah. The chronology
+                        of these successive stays is highly uncertain as the many different sources
+                        provide at times conflicting information. In 823, Ishoʿ bar Nun was elected
+                        <abbr>
+                            <choice>
+                                <sic>Cath.</sic>
+                                <corr>cath.</corr>
+                            </choice>
+                        </abbr> of the <abbr>Ch. of E.</abbr>, as the successor of <ref rend="bold" target="https://gedsh.bethmardutho.org/Timotheos-I">
+                            <persName ref="http://syriaca.org/person/790">Timotheos I</persName>
+                        </ref>,
+                        with whom he is said to have had a difficult relationship. He died in 828.
+                        Ishoʿ bar Nun should in all likelihood be distinguished from his namesake
+                        and contemporary who was <abbr>bp.</abbr> of Ram Hormizd in Beth Huzaye and who enjoyed
+                        the support of Timotheos, in whose letters he is occasionally mentioned.</p>
+                    <p>In his capacity as <abbr>cath.</abbr>, Ishoʿ bar Nun issued a number of canons, mainly
+                        dealing with matrimonial and hereditary law, which were incorporated in the
+                        collection of Syriac law books (<abbr>ed.</abbr> Sachau, with an addition by Sauget). In
+                        addition, Ishoʿ bar Nun is known as the author of a short treatise on
+                        homographs, which is extant in <abbr>mss.</abbr> in Iraq, but remains unpublished. His
+                        ‘Consolation Homilies’ and letters are only known in fragments. Ishoʿ bar
+                        Nun’s major work, which is preserved in its entirety (<abbr>ms.</abbr> Cambridge, Add.
+                        2017), is his collection of ‘Selected Questions’ (<hi rend="italic">Šuʾʾāle
+                            mgabbayyā</hi>) on the <abbr>OT</abbr> and <abbr>NT</abbr>. Presenting his work in the form of
+                        questions and answers, Ishoʿ bar Nun conveys much of the traditional
+                        exegesis of the <abbr>Ch. of E.</abbr> and respectfully quotes <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Theodore-of-Mopsuestia">
+                            <persName ref="http://syriaca.org/person/780">Theodore
+                            of Mopsuestia</persName>
+                        </ref>. Yet, he often goes his own way, creating more room
+                        for spiritual and even allegorizing exegesis. He may have found the
+                        inspiration for this new approach in his monastic background and in his
+                        familiarity with the works of <ref rend="bold" target="https://gedsh.bethmardutho.org/Evagrius-of-Pontus">
+                            <persName ref="http://syriaca.org/person/483">Evagrius of
+                            Pontus</persName>
+                        </ref>. Thus expanding the horizons of E.-Syr. biblical
+                        interpretation, he had a lasting impact on the later tradition, the more so
+                        since much of Ishoʿ bar Nun’s work was incorporated into the normative
+                        commentaries by <ref rend="bold" target="https://gedsh.bethmardutho.org/Ishodad-of-Merv">
+                            <persName ref="http://syriaca.org/person/555">Ishoʿdad of
+                            Merv</persName>
+                        </ref>. Unfortunately, only small parts of the ‘Selected Questions’
+                        have been published so far.</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>E. G.  Clarke, <title rend="italic">The Selected Questions of
+                                Ishōʿ bar Nūn on the Pentateuch</title> (Studia Post-Biblica 5;
+                            1962).</bibl>
+                        <bibl>J. D. Hofstra, ‘Ishoʿ bar Nun’s Questions and Answers on the Gospel of
+                            St. John and their relation to the Commentary of Isho‘dad of Merv and
+                            Theodore bar Koni’s Scholion’, in <abbr>
+                                <title rend="italic">SymSyr</title>
+                            VIII</abbr>, 69–93.</bibl>
+                        <bibl>C. Molenberg, ‘Išoʿ bar Nun and Išoʿdad of Merv on the Book of
+                            Genesis: A study of their interrelationship’, in <title rend="italic">The Book of Genesis in Jewish and Oriental Christian
+                                tradition</title>, <abbr>ed.</abbr> J.  Frishman and L. Van Rompay (<abbr>TEG</abbr> 5;
+                            1997), 197–228.</bibl>
+                        <bibl>eadem, ‘The consolation homilies of Rabban Mar Išoʿ bar Nun’, in
+                                <title rend="italic">
+                                <abbr>StPatr</abbr>
+                            </title>, vol. 18.4, <abbr>ed.</abbr> E. A.
+                            Livingstone (1990), 269–73.</bibl>
+                        <bibl>eadem, <title rend="italic">The Interpreter interpreted. Išoʿ bar
+                                Nun’s Selected Questions on the Old Testament</title> (Ph.D. Diss.,
+                            Groningen; 1990).</bibl>
+                        <bibl>E. Sachau, <title rend="italic">Syrische Rechtsbücher</title>, vol. 2
+                            (1908), 119–77.</bibl>
+                        <bibl>J. M. Sauget, ‘Décisions canoniques du patriarche Išoʿbarnūn’, <title rend="italic">Apollinaris</title> 35 (1962), 259–65.</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Lucas</forename> 
+                  <surname>Van Rompay</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

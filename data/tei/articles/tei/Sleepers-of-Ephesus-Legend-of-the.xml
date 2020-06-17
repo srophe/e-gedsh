@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Sleepers of Ephesus, Legend of the</title>
+            <author>
+               <persName>
+                  <forename>Witold</forename> 
+                  <surname>Witakowski</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.5">Electronic Edition Version 1.5</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Sleepers of Ephesus, Legend of the</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Sleepers-of-Ephesus-Legend-of-the</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/522</idno>
+                    <idno type="entry">513</idno>
+                    <milestone unit="pages" n="380-381"/>
+                    <idno type="althead" subtype="altorder">Legend of the Sleepers of Ephesus</idno>
+                    <note type="type">work</note>
+                    <note type="abstract">A legend about seven 
+                        young Christian men who during the period of the persecution of the
+                        Christians by the Roman emperor Decius (249–251) fled and fell asleep, and awoke in the fifth century.
+                        .<note/>
+                    </note>
+                </ab>
+                <div type="body">
+                    <p>The Legend tells about seven (in Syriac most often eight) young Christian men
+                        who during the period of the persecution of the Christians by the Roman
+                        emperor Decius (249–251) refused to offer sacrifice to pagan gods, and
+                        taking advantage of the emperor’s temporary absence from Ephesus, escaped to
+                        the mountains outside the city, where they hid in a cave and fell asleep.
+                        Having returned, the emperor gave orders to wall up the cave so that the
+                        young men would die buried alive. However, 195 years later, in the 38th year
+                        of the reign of the Christian emperor Theodosius II (401–450), <choice>
+                            <sic>i.e. </sic>
+                            <corr>i.e., </corr>
+                        </choice>445/6,
+                        they woke up, and since the wall had been removed they left the cave,
+                        convinced that they had slept just one night. When one of them, whom they
+                        had sent to the city, tried to pay for food with the coins from the epoch of
+                        Decius, the shopkeeper thought that they had found a hoard of old money. The
+                        <abbr>bp.</abbr> of the city, however, having investigated the matter, understood that a
+                        great miracle had happened. The young men then fell asleep again, this time
+                        for good. There is also the mention of the heresy, that became known in the
+                        same period, of Theodore <abbr>bp.</abbr> of Aegae, who denied the bodily resurrection of
+                        the dead. The Sleepers of Ephesus’s awakening ‘proved’ that Theodore was
+                        wrong, thus giving a clue to the function of the Legend.</p>
+                    <p>In Ephesus soon the cult of the Sleepers of Ephesus developed, and a church
+                        devoted to them, as a pilgrim’s narrative attests (Theodosius the
+                        Archdeacon, ‘De situ terrae sanctae’, between 518 and 530), was built there
+                        (it was discovered by the German archeological expedition in the 1930s).</p>
+                    <p>The Legend of the Sleepers of Ephesus develops the old topic of a long sleep,
+                        which can be found already in the ‘Rest of the Words of Jeremiah’, 5:1 (2nd
+                        <abbr>cent.</abbr> AD) where Abimelek the ‘Ethiopian’ (<choice>
+                            <sic>i.e. </sic>
+                            <corr>i.e., </corr>
+                        </choice>African) falls asleep for the
+                        period of the Babylonian exile of the Jews, a topic also known from the
+                        Babylonian Talmud (Taʿanit 23; 2nd <abbr>cent.</abbr> AD), where it is told that one Honi
+                        Ha-Meʿaggel slept for the same period.</p>
+                    <p>The Legend was originally, as it seems, composed in Greek. It soon became
+                        quite popular, and was translated into a number of languages: Latin (first
+                        attested by Gregory of Tours, 538–594) and from this into West European
+                        vernaculars, including French (poem by Chardri, 13th <abbr>cent.</abbr>), and in Eastern
+                        Christianity into Syriac, Armenian, Coptic, Arabic, Ethiopic, and <ref rend="bold" target="https://gedsh.bethmardutho.org/Sogdian">Sogdian</ref>. It is also known in the sphere of Islam, as it appears in
+                        the Qurʾān (18:8–30). Consequently there came into being several Muslim
+                        versions, including those in languages such as Persian, Kyrgyz, and Tatar.
+                        The existence of all these versions stimulated the popular cult of the
+                        Sleepers of Ephesus in several places in addition to Ephesus, both in the
+                        Latin West and in the Muslim East.</p>
+                    <p>In Syriac the Legend of the Sleepers of Ephesus is perhaps first attested by
+                        the <abbr>ms.</abbr> Saint-Petersburg no. 4 of the 5th <abbr>cent.</abbr>, if M. van Esbroeck’s dating
+                        is accepted, and then by <ref rend="bold" target="https://gedsh.bethmardutho.org/Yaqub-of-Serugh">
+                            <persName ref="http://syriaca.org/person/42">Yaʿqub of
+                            Serugh</persName>
+                        </ref>, who devoted to it a <hi rend="italic">memrā</hi>, written
+                        at the beginning of the 6th <abbr>cent.</abbr> (<abbr>ed.</abbr> Guidi, ‘Testi orientali’, two
+                        versions, 358–63, 363–9). This includes all the elements known from the
+                        later prose texts. Still in the 6th <abbr>cent.</abbr> it found its way into
+                        historiographic works such as the Ecclesiastical History of <ref rend="bold" target="https://gedsh.bethmardutho.org/Zacharias-Pseudo-">Pseudo-Zacharias</ref> of Mitylene (d. after 569), from whom <ref rend="bold" target="https://gedsh.bethmardutho.org/Michael-I-Rabo">
+                            <persName ref="http://syriaca.org/person/217">Michael Rabo</persName>
+                        </ref> has a fragment in his Chronicle (<abbr>ca.</abbr>
+                        1198), and <ref rend="bold" target="https://gedsh.bethmardutho.org/Yuhanon-of-Ephesus">
+                            <persName ref="http://syriaca.org/person/74">Yuḥanon of
+                            Ephesus</persName>
+                        </ref>’s Ecclesiastical History (not extant, but copied by
+                        Pseudo-Dionysios of Tel Maḥre, in the <ref rend="bold" target="https://gedsh.bethmardutho.org/Zuqnin-Chronicle-of">Chronicle of
+                            Zuqnin</ref>, <abbr>ca.</abbr> 775). There is, however, also an independent
+                        transmission, as for instance, in the <abbr>mss.</abbr> of London, Paris, and Berlin,
+                        edited by I. Guidi (1884) and A. Allgeier (1916–18). The earliest of them
+                        (if not Peterburgensis) would be London, Brit. Libr. Add. 14,650, of the
+                        6th–7th <abbr>cent.</abbr> There are some differences between the Syriac witnesses, one
+                        of them being the number of the young martyrs: seven in the oldest witnesses
+                        (Yaʿqub of Serugh and Pseudo-Zacharias) and in Michael Rabo, but eight in
+                        all the other texts.</p>
+                    <p>The original language of the text was the object of a discussion for several
+                        years. Some scholars (including Th. Nöldeke 1886, 453–54) believed that the
+                        original was composed in Syriac. This was also the opinion of Allgeier
+                        (1916–18). His claim was criticised by Paul Peeters (1923), who showed that
+                        the original must have been Greek.</p>
+                    <p>As mentioned above, the Legend of the Sleepers of Ephesus was also known in
+                        the West in the Middle Ages, appearing for the first time in Gregory of
+                        Tours’s <hi rend="italic">(Liber) In Gloria martyrum</hi>, ch. 38 (<abbr>ed.</abbr> B.
+                        Krusch [Monumenta Germaniae Historica, IV/A; 1885], 94), where he says that
+                        he had it from ‘a certain Syrian translator’ (<hi rend="italic">Syro quidam
+                            interpretante</hi>). Although the presence of the Syrians in Gaul in the
+                        epoch is documented, it is not certain that Gregory really heard the Legend
+                        from a Syrian, as the term <hi rend="italic">Syrus</hi> was applied in the
+                        epoch to all the foreigners of Levantine origin, including Greek-speaking
+                        ones, and therefore his version was most probably derived from a Greek text
+                        (Peeters, 141–2).</p>
+                    <p>The feast of the Sleepers of Ephesus is not fixed and according to various
+                        calendars of the <abbr>Syr. Orth.</abbr> Church it is celebrated on 21 April, 2 and 13
+                        August, and 23 or 24 October (<abbr>ed.</abbr> F. Nau, <hi rend="italic">Un martyrologe
+                            et douze ménologes syriaques</hi> [<abbr>PO</abbr> 10.1; 1915]; <abbr>ed.</abbr> [with <abbr>FT</abbr>] P.
+                        Peeters, ‘Le Martyrologe de Rabban Sliba’, <hi rend="italic">
+                            <abbr>AB</abbr>
+                        </hi> 27
+                        [1908], 166).</p>
+                </div>
+                <div type="bibl">
+                    <listBibl>
+                        <listBibl>
+                            <head>Primary Sources</head>
+                            <bibl>Theodosius Archidiacon, in <title rend="italic">Itineraria et alia
+                                    geographica</title> (<abbr>CCSL</abbr> 175; 1965), 113–25.</bibl>
+                            <bibl>A.  Allgeier, ‘Die älteste Gestalt der Siebenschläferlegende’,
+                                    <title rend="italic">
+                                    <abbr>OC</abbr>
+                                </title> 2.6 (1916), 1–43 (Syr. with <abbr>GT</abbr>);
+                                2.7–8 (1918), 33–87 (variants).</bibl>
+                            <bibl>P.  Bedjan, <title rend="italic">Acta Martyrum et Sanctorum
+                                    Syriace</title>, vol. 1 (1890), 301–25 (= Guidi’s text), 528–35
+                                (variants).</bibl>
+                            <bibl>E. W.  Brooks, <title rend="italic">Historia ecclesiastica
+                                    Zachariae Rhetori vulgo adscripta</title>, vol. 2. <title rend="italic">Accedit Fragmentum Historiae Ecclesiasticae
+                                    Dionysii Telmahrensis</title> (<abbr>CSCO</abbr> 38–9, 41–2; 1921–24), 106–22
+                                (Syr.); 74–85 (<abbr>LT</abbr>).</bibl>
+                            <bibl>I. B.  Chabot, <title rend="italic">Incerti auctoris Chronicon
+                                    Pseudo-Dionysianum vulgo dictum</title> (<abbr>CSCO</abbr> 41, 104, 121;
+                                1927–1949), 135–43, 195–207; 101–07, 145–54. (<abbr>LT</abbr>)</bibl>
+                            <bibl>I.  Guidi, ‘Testi orientali inediti sopra i Sette Dormienti di
+                                Efeso’, in <title rend="italic">Atti della Reale Accademia dei
+                                    Lincei, Memorie</title>, anno 281 ser. 3:12 (1883–84), 358–69;
+                                369–72. (<abbr>IT</abbr>)</bibl>
+                            <bibl>V.  Ryssel, ‘Syrische Quellen abendländischer Erzählungsstoffe’,
+                                    <title rend="italic">Archiv für das Studium der neueren Sprachen
+                                    und Litteraturen</title> 93 (1894), 241–80; 94 (1895), 369–88.
+                                (<abbr>GT</abbr>)</bibl>
+                            <bibl>The older text of Yaʿqub’s poem is reprinted in the additional
+                                vol. VI of the Gorgias Press reprint of Jacob of Sarug’s Homilies,
+                                324–30; <abbr>ET</abbr> in S. P. Brock, ‘Jacob of Serugh’s poem on the Sleepers
+                                of Ephesus’, in <title rend="italic">‘I sowed fruits into hearts’
+                                    (<choice>
+                                        <sic>Od.Sol.</sic>
+                                        <corr>Odes Sol.</corr>
+                                    </choice> 17:13). Festschrift for Michael Lattke</title>, <abbr>ed.</abbr> P.
+                                Allen, M. Franzmann, and R. Streelan (Early Christian Studies 12;
+                                2007), 13–30.</bibl>
+                        </listBibl>
+                        <listBibl>
+                            <head>Secondary Sources</head>
+                            <bibl>S. H.  Griffith, ‘Christian lore and the Arabic <choice>
+                                    <sic>Qur’an</sic>
+                                    <corr>Qurʾan</corr>
+                                </choice>: the
+                                “Companions of the Cave” in Surat al-Kahf and in Syriac tradition’,
+                                in <title rend="italic">The <choice>
+                                        <sic>Qur’an</sic>
+                                        <corr>Qurʾan</corr>
+                                    </choice> and its historical
+                                    context</title>, <abbr>ed.</abbr> G. S. Reynolds (2008), 109–37.</bibl>
+                            <bibl>E.  Honigmann, ‘Stephen of Ephesus (April 15, 448 <choice>
+                                    <sic>—</sic>
+                                    <corr>–</corr>
+                                </choice> Oct. 29, 451)
+                                and the Legend of the Seven Sleepers’, in <title rend="italic">Patristic Studies</title> (<abbr>SeT</abbr> 173; 1953), 125–68.</bibl>
+                            <bibl>M.  Huber, <title rend="italic">Die Wanderlegende von den
+                                    Siebenschläfern: eine literargeschichtliche
+                                Untersuchung</title> (1910).</bibl>
+                            <bibl>F.  Jourdan, <title rend="italic">La tradition des sept dormants:
+                                    une rencontre entre chrétiens et musulmans</title> (Les jardins
+                                secrets de la littérature arabe 2; 1983).</bibl>
+                            <bibl>Th.  Nöldeke, Review of Guidi, <title rend="italic">Testi
+                                    orientali</title> …, <title rend="italic">Göttingische Gelehrte
+                                    Anzeigen</title> 1886, 453–9.</bibl>
+                            <bibl>P. Peeters, ‘Le texte original de la Passion des Sept Dormants’,
+                                    <title rend="italic">
+                                    <abbr>AB</abbr>
+                                </title> 41 (1923), 369–85.</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>P. Peeters</reg>
+                           <orig>idem</orig>
+                        </choice>, <title rend="italic">Orient et Byzance: Le tréfonds oriental
+                                    de l’hagiographie byzantine</title> (Subsidia hagiographica 26;
+                                1950), 141–2.</bibl>
+                            <bibl>V. Saxer, ‘Sette Dormienti’, <title rend="italic">Bibliotheca
+                                    Sanctorum</title> 11 (1968), col. 900–7.</bibl>
+                            <bibl>M.  Van Esbroeck, ‘La Légende des Sept Dormants d’Éphèse selon le
+                                codex syriaque n.s. 4 de Saint-Pétersbourg’, in <abbr>
+                                    <title rend="italic">SymSyr</title> VI</abbr>, 189–200.</bibl>
+                        </listBibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Witold</forename> 
+                  <surname>Witakowski</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Ḥenanishoʿ bar Seroshway</title>
+            <author>
+               <persName>
+                  <forename>Lucas</forename> 
+                  <surname>Van Rompay</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.5">Electronic Edition Version 1.5</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Ḥenanishoʿ bar Seroshway</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Henanisho-bar-Seroshway</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/266</idno>
+                    <idno type="entry">257</idno>
+                    <milestone unit="pages" n="195"/>
+                    <idno type="subject">http://syriaca.org/person/533</idno>
+                    <note type="type">person</note>
+                    <note type="abstract">
+                        <abbr>Bp.</abbr> of Ḥirta; lexicographer and biblical
+                        interpreter.<note/>
+                    </note>
+                </ab>
+                <ab type="infobox">(probably 2nd half of 9th <abbr>cent.</abbr>) [Ch. of E.]</ab>
+                <div type="body">
+                    <p>
+                        <abbr>Bp.</abbr> of <ref rend="bold" target="https://gedsh.bethmardutho.org/Hirta">
+                            <placeName ref="http://syriaca.org/place/219">Ḥirta</placeName>
+                        </ref>; lexicographer and biblical interpreter. Ḥenanishoʿ’s
+                        lexicographical work is not preserved, but <ref rend="bold" target="https://gedsh.bethmardutho.org/Bar-Bahlul-Hasan">
+                            <persName ref="http://syriaca.org/person/365">Bar
+                        Bahlul</persName>
+                        </ref>, who quotes him frequently, explains in the preface to his
+                        Lexicon that Ḥenanishoʿ’s Lexicon was very accurate (<hi rend="italic">yattir ḥattit</hi>) and that it completed, or supplemented (<hi rend="italic">šamli</hi>), <ref rend="bold" target="https://gedsh.bethmardutho.org/Hunayn-b-Ishaq">
+                            <persName ref="http://syriaca.org/person/542">Ḥunayn</persName>
+                        </ref>’s
+                        work (another major source for Bar Bahlul).</p>
+                    <p>
+                        <ref rend="bold" target="https://gedsh.bethmardutho.org/Abdisho-bar-Brikha">
+                            <persName ref="http://syriaca.org/person/310">ʿAbdishoʿ bar Brikha</persName>
+                        </ref>, in his Catalogue, attributes to Ḥenanishoʿ
+                        ‘Questions on the text of Scripture’, which Assemani (<hi rend="italic">BibOr</hi>, vol. III.1, 261 [chapter 178]) wanted to identify with the
+                        anonymous ‘Questions on the Economy’ (<hi rend="italic">šuʾʾāle
+                            da-mdabbrānuthā</hi>), preserved in <abbr>ms.</abbr> Vat. Syr. 150, f. 107r–175r (the
+                        identification of the author as Ḥenanishoʿ in the margin of f. 107r is
+                        probably from Assemani’s hand). While Van den Eynde suggested that we might
+                        be dealing in <abbr>ms.</abbr> Vat. Syr. 150 with extracts from Ḥenanishoʿ’s work,
+                        Reinink found evidence that the ‘Questions on the Economy’ belong to a much
+                        later period (12th <abbr>cent.</abbr> or later), whereby the possibility of Ḥenanishoʿ’s
+                        authorship would be completely ruled out. Ḥenanishoʿ’s exegetical work must,
+                        therefore, be considered lost.</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>Baumstark, <title rend="italic">Literatur</title>, 232.</bibl>
+                        <bibl>Reinink, <title rend="italic">Studien zur Quellen- und
+                                Traditionsgeschichte</title>, 185, note 9.</bibl>
+                        <bibl>C.  Van  den  Eynde, <title rend="italic">Commentaire d’Išoʿdad de
+                                Merv sur l’Ancien Testament</title>, II. <title rend="italic">Exode<choice>
+                                    <sic>-</sic>
+                                    <corr>–</corr>
+                                </choice>Deutéronome</title> (<abbr>CSCO</abbr> 179; 1958), xxiii–xxiv.</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Lucas</forename> 
+                  <surname>Van Rompay</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Evagrius</title>
+            <author>
+               <persName>
+                  <forename>Sebastian P.</forename> 
+                  <surname>Brock</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.5">Electronic Edition Version 1.5</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Evagrius</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Evagrius-of-Pontus</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/214</idno>
+                    <idno type="entry">205</idno>
+                    <milestone unit="pages" n="156"/>
+                    <idno type="subject">http://syriaca.org/person/483</idno>
+                    <note type="type">person</note>
+                    <note type="abstract">Greek monastic author originating from Pontus.<note/>
+                    </note>
+                </ab>
+                <ab type="infobox">(345–399)</ab>
+                <div type="body">
+                    <p>Greek monastic author originating from Pontus. After a short career in
+                        Constantinople, where he was befriended by <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Gregory-of-Nazianzus">
+                            <persName ref="http://syriaca.org/person/511">Gregory of
+                            Nazianzus</persName>
+                        </ref>, he left for Palestine where he was converted to the
+                        ascetic life by Melania the Elder, and in 383 went on to Egypt where he
+                        spent the rest of his life as a monk. His extensive writings (<hi rend="italic">
+                            <abbr>CPG</abbr>
+                        </hi> 2430–2482) were condemned in Greek at the Council
+                        of Constantinople (553), due to his speculative theories on cosmology and
+                        the Fall, developed from those of Origen. Though some of his monastic texts
+                        survived in Greek under different names and so his ascetic teaching remained
+                        influential, it is only in Syriac and Armenian translation that extensive
+                        writings are preserved under his own name. Only part of those in Syriac have
+                        yet been edited, the most important being the ‘Chapters on Knowledge’ (<hi rend="italic">Kephalaia Gnostika</hi>), which survives in two forms, a
+                        widely read one in which the speculative elements had been modified, and (in
+                        a single <abbr>ms.</abbr>) an unexpurgated form. Several works are transmitted in two or
+                        even three translations, indicating their popularity.</p>
+                    <p>Evagrius’s writings were very much appreciated and often quoted by Syriac
+                        monastic authors; <ref rend="bold" target="https://gedsh.bethmardutho.org/Babai-the-Great">
+                            <persName ref="http://syriaca.org/person/359">Babai the
+                            Great</persName>
+                        </ref> wrote an extensive Commentary on the Chapters on Knowledge
+                        (in the adapted version; <abbr>ed.</abbr> Frankenberg). In the 8th <abbr>cent.</abbr> 
+                  <ref rend="bold" target="https://gedsh.bethmardutho.org/Yawsep-Hazzaya">
+                            <persName ref="http://syriaca.org/person/816">Yawsep
+                            Ḥazzaya</persName>
+                        </ref> had knowledge of both forms of the ‘Chapters on
+                        Knowledge’, but considered the unexpurgated version to be an adaptation by
+                        some heretical reader. Another Commentary on this work was made by <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Dionysios-bar-Salibi">
+                            <persName ref="http://syriaca.org/person/212">Dionysios bar Ṣalibi</persName>
+                        </ref> (<abbr>ed.</abbr> Çiçek).</p>
+                </div>
+                <div type="bibl">
+                    <listBibl>
+                        <listBibl>
+                            <head>Primary Sources</head>
+                            <bibl>
+                                <title rend="italic">
+                                    <abbr>CPG</abbr>
+                                </title> 2430–2482.</bibl>
+                            <bibl>G.  Bunge, <title rend="italic">Evagrios Pontikos. Briefe aus der
+                                    Wüste</title> (1986). (<abbr>GT</abbr> of Letters)</bibl>
+                            <bibl>J. Çiçek, <title rend="italic">Fušoqo d-meʾawoto d-qadišo mor(y)
+                                    Ewagris iḥidoyo</title> (1991).</bibl>
+                            <bibl>A.  Guillaumont, <title rend="italic">Les six centuries des
+                                    ‘Kephalaia Gnostica’ d’Évagre le Pontique</title> (<abbr>PO</abbr> 28.1;
+                                1959).</bibl>
+                            <bibl>W. Frankenberg, <title rend="italic">Evagrius Ponticus</title>
+                                (Abhandlungen, Göttinger Akademie der Wissenschaften, N.F. XIII,2;
+                                1912).</bibl>
+                            <bibl>J. Muyldermans, <title rend="italic">Evagriana Syriaca</title>
+                                (1952).</bibl>
+                            <bibl>R. E. Sinkewicz, <title rend="italic">Evagrius of Pontus. The
+                                    Greek Ascetic Corpus</title> (2003). (<abbr>ET</abbr> from Greek of many
+                                texts also found in Syriac)</bibl>
+                        </listBibl>
+                        <listBibl>
+                            <head>Secondary Sources</head>
+                            <bibl>P. Géhin, ‘Les versions syriaques et arabes des chapitres sur la
+                                prière d’Évagre le Pontique’, in <title rend="italic">Les Syriaques
+                                    transmetteurs de civilisations. L’expérience du Bilâd el-Shâm à
+                                    l’époque omeyyade</title> (Patrimoine Syriaque: Actes du Colloque
+                                IX; 2005), 179–197.</bibl>
+                            <bibl>A.  Guillaumont, <title rend="italic">Les ‘Kephalaia Gnostica’
+                                    d’Évagre le Pontique et l’histoire de l’origénisme chez les
+                                    Grecs et chez les Syriens</title> (1962).</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>A.  Guillaumont</reg>
+                           <orig>idem</orig>
+                        </choice>, ‘Les versions syriaques de l’oeuvre d’Évagre le Pontique et
+                                leur rôle dans la formation du vocabulaire ascétique syriaque’, in
+                                    <abbr>
+                                    <title rend="italic">SymSyr</title> III</abbr>, 35–41.</bibl>
+                            <bibl>J. W.  Watt, ‘Philoxenus and the Old Syriac version of Evagrius’
+                                Centuries’, <title rend="italic">
+                                    <abbr>OC</abbr>
+                                </title> 64 (1980), 65–81.</bibl>
+                        </listBibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Sebastian P.</forename> 
+                  <surname>Brock</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

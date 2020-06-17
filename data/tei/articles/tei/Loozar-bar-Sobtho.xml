@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Loʿozar bar Sobtho</title>
+            <author>
+               <persName>
+                  <forename>Lucas</forename> 
+                  <surname>Van Rompay</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.5">Electronic Edition Version 1.5</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Loʿozar bar Sobtho</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Loozar-bar-Sobtho</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/341</idno>
+                    <idno type="entry">332</idno>
+                    <milestone unit="pages" n="251-252"/>
+                    <idno type="althead">Lazarus</idno>
+                    <idno type="subject">http://syriaca.org/person/149</idno>
+                    <note type="type">person</note>
+                    <note type="abstract">
+                        <abbr>Bp.</abbr> of <placeName type="diocese" ana="Syrian Orthodox">Baghdad</placeName>; author of an Anaphora as well
+                        as of liturgical and theological works.<note/>
+                    </note>
+                </ab>
+                <ab type="infobox">Lazarus (early 9th <abbr>cent.</abbr>) [<abbr>Syr. Orth.</abbr>]</ab>
+                <div type="body">
+                    <p>
+                        <abbr>Bp.</abbr> of <ref rend="bold" target="https://gedsh.bethmardutho.org/Baghdad">
+                            <placeName ref="http://syriaca.org/place/41">Baghdad</placeName>
+                        </ref>; author of an Anaphora as well as of liturgical and
+                        theological works. Loʿozar served as <abbr>
+                            <choice>
+                                <sic>Bp.</sic>
+                                <corr>bp.</corr>
+                            </choice>
+                        </abbr> of Baghdad in the early 9th <abbr>cent.</abbr>,
+                        taking the name of Philoxenos. There are indications that he also was known
+                        as Basil. If that is correct, he probably should be identified with the
+                        ‘Basil, <abbr>
+                            <choice>
+                                <sic>Bp.</sic>
+                                <corr>bp.</corr>
+                            </choice>
+                        </abbr> of Baghdad’, who along with his two brothers and the son of
+                        their sister donated several books to the Monastery of Mor Yuḥanon of Qurdis
+                        in Dara (one of these books is the present <abbr>ms.</abbr> London, Brit. Libr. Add.
+                        12,151, which contains writings of <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Dionysius-the-Areopagite-Pseudo-">Pseudo-Dionysius the
+                            Areopagite</ref>).</p>
+                    <p>Loʿozar is the author of an Anaphora (inc.: ‘Oh God, who are the sea of peace
+                        …’), which is preserved in a number of <abbr>Syr. Orth.</abbr>
+                        <abbr> mss. </abbr>
+                        <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Bar-Ebroyo-Grigorios">
+                            <persName ref="http://syriaca.org/person/239">Bar
+                            ʿEbroyo</persName>
+                        </ref>, in his <hi rend="italic">Mnorat Qudše</hi> (‘Candelabrum
+                        of the sanctuary’), quotes passages from Loʿozar’s (otherwise unknown) work
+                        on the divine providence and human freewill, in which Loʿozar apparently
+                        tried to find a compromise between attributing absolute power to providence
+                        on the one hand or freewill on the other hand. Elsewhere in the same work,
+                        Bar ʿEbroyo quotes from one of Loʿozar’s letters, while in his ‘Ethicon’ the
+                        Maphryono states that Loʿozar wrote about the origins of Syriac liturgical
+                        chant and about the introduction in the Syriac churches of the ‘<hi rend="italic">qonune</hi>’ of <ref rend="bold" target="https://gedsh.bethmardutho.org/John-of-Damascus">
+                            <persName ref="http://syriaca.org/person/575">John of
+                            Damascus</persName>
+                        </ref>. We also know of a commentary on baptism, a <hi rend="italic">mimro</hi> on the consecration of the holy chrism, and a
+                        commentary on the words said in the Eucharist, ‘the heavenly bread we
+                        break’, which led to a controversy and to a schism in Loʿozar’s day.</p>
+                    <p>That in spite of Loʿozar’s obvious significance as a writer so little of his
+                        works is preserved may perhaps be due to the unfortunate end of his tenure
+                        as a <abbr>bp. </abbr>
+                        <ref rend="bold" target="https://gedsh.bethmardutho.org/Michael-I-Rabo">
+                            <persName ref="http://syriaca.org/person/217">Michael Rabo</persName>
+                        </ref>, the chronicler of the year
+                        1234, and Bar ʿEbroyo, in his ‘Ecclesiastical Chronicle’, report that
+                        Loʿozar was deposed as <abbr>bp.</abbr> by his <abbr>Patr.</abbr>, <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Dionysios-of-Tel-Mahre">
+                            <persName ref="http://syriaca.org/person/155">Dionysios
+                            of Tel Maḥre</persName>
+                        </ref>, in 829, due to accusations brought against him by
+                        some of his own faithful. No details on the nature of these accusations are
+                        provided.</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>P.-H.  Poirier, ‘Les discours sur la Providence de Lazare bar
+                            Sabta’, <title rend="italic">
+                                <abbr>JTS</abbr>
+                            </title> ns 38 (1987), 431–35.</bibl>
+                        <bibl>E.  Renaudot, <title rend="italic">Liturgiarum Orientalium
+                                Collectio</title>, vol. 2 (1847; <abbr>repr.</abbr> 1970), 399–408.</bibl>
+                        <bibl>A.  Vööbus, ‘Important discoveries for the early stage of the
+                            West-Syrian liturgo-historical genre. Laʿzar bar Sabeta’, <title rend="italic">Sacris Erudiri</title> 12 (1974–75), 289–93.</bibl>
+                        <bibl>Wright, <title rend="italic">Catalogue … British Museum</title>, vol.
+                            2, 496.</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Lucas</forename> 
+                  <surname>Van Rompay</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

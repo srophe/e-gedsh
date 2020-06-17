@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Shemʿon bar Ṣabbaʿe</title>
+            <author>
+               <persName>
+                  <forename>Lucas</forename> 
+                  <surname>Van Rompay</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.5">Electronic Edition Version 1.5</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Shemʿon bar Ṣabbaʿe</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Shemon-bar-Sabbae</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/508</idno>
+                    <idno type="entry">499</idno>
+                    <milestone unit="pages" n="373-374"/>
+                    <idno type="subject">http://syriaca.org/person/9</idno>
+                    <note type="type">person</note>
+                    <note type="abstract">
+                        <abbr>Bp.</abbr> of Seleucia-Ctesiphon and martyr.<note/>
+                    </note>
+                </ab>
+                <ab type="infobox">(d. 341 or 344) [Ch. of E.]</ab>
+                <div type="body">
+                    <p>
+                        <abbr>Bp.</abbr> of <ref rend="bold" target="https://gedsh.bethmardutho.org/Seleucia-Ctesiphon">
+                            <placeName ref="http://syriaca.org/place/182">Seleucia-Ctesiphon</placeName>
+                        </ref> and martyr. Shemʿon was probably the immediate
+                        successor of <ref rend="bold" target="https://gedsh.bethmardutho.org/Papa-bar-Aggai">
+                            <persName ref="http://syriaca.org/person/669">Papa bar
+                            ʿAggai</persName>
+                        </ref> (d. between 327 and 335), but nothing is known about his
+                        tenure as <abbr>bp.</abbr> prior to his arrest. His name ‘son of the dyers’ may refer to
+                        the profession of textile dying. Our main sources about Shemʿon are two
+                        interrelated Syriac texts: 1. the ‘Martyrdom of Shemʿon’ (first published by
+                        E. Assemani, <hi rend="italic">Acta sanctorum martyrum</hi> I [1748]); and
+                        2. the longer ‘History of Shemʿon’ (first published by P. Bedjan, <hi rend="italic">Acta martyrum et sanctorum</hi> II [1891]). Both texts
+                        were published by M. Kmosko in 1907, who called them MS1 ‘Recensio
+                        antiquior’ and MS2 ‘Recensio recentior’, respectively. Both texts are
+                        preserved in <abbr>mss.</abbr> that contain larger collections of E.-Syr. martyrdoms,
+                        which mostly are joined together with hagiographies and martyrdoms of the
+                        W.-Syr. tradition. One of the primary <abbr>mss.</abbr> for the ‘Martyrdom’, Vat. Syr.
+                        160, is of disputed date (some parts of the <abbr>ms.</abbr> are from the 6th <abbr>cent.</abbr>, but
+                        for this particular part Assemani proposed a 10th-cent. date, which seems
+                        too late); the other <abbr>mss.</abbr> are from the 9th <abbr>cent.</abbr> and later, belonging to
+                        either the E.-Syr. or the W.-Syr. tradition. <ref rend="bold" target="https://gedsh.bethmardutho.org/al-Suryan-Dayr">
+                            <placeName ref="http://syriaca.org/place/360">Dayr
+                            al-Suryān</placeName>
+                        </ref> played an important role in the transmission of the
+                        texts, as <abbr>mss.</abbr> Vat. Syr. 160 and 161 (the latter containing portions of both
+                        texts) were kept there, and <abbr>ms.</abbr> Brit. Libr. Add. 14,645 (which contains the
+                        ‘Martyrdom’) was written there in 932. <abbr>Ms.</abbr> Brit. Libr. Add. 12,174, an
+                        important witness of the ‘History’ was written in the time of <ref rend="bold" target="https://gedsh.bethmardutho.org/Michael-I-Rabo">
+                            <persName ref="http://syriaca.org/person/217">Michael Rabo</persName>
+                        </ref>, at the expense of a deacon from <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Barsawmo-Dayro-d-Mor">
+                            <placeName ref="http://syriaca.org/place/224">Dayro d-Mor Barṣawmo</placeName>
+                        </ref>. The ‘Martyrdom’, or a text closely related
+                        to it, was known to Sozomen, who incorporated some information on Shemʿon in
+                        his Ecclesiastical History (II.9–10), which was written <abbr>ca.</abbr> 445. Among the
+                        later sources, Shemʿon receives attention in the Arabic Chronicle of <ref rend="bold" target="https://gedsh.bethmardutho.org/Siirt">
+                            <placeName ref="http://syriaca.org/place/188">Siirt</placeName>
+                        </ref> and
+                        ‘Book of the Tower’, as well as in <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Bar-Ebroyo-Grigorios">
+                            <persName ref="http://syriaca.org/person/239">Bar ʿEbroyo</persName>
+                        </ref>’s
+                        Chronicle (see Wiessner, 79–94). The E.-Syr. Breviary attributes to Shemʿon
+                        some hymns (<abbr>ed.</abbr> with LT Kmosko, 1048–55).</p>
+                    <p>According to both Syriac texts, Shemʿon was arrested when he refused to
+                        comply with a royal order to raise a double tax from the Christian
+                        community. This happened probably in 340, when the Sasanian king Shapur II
+                        (309–379) was engaged in warfare with the Romans and the Persian Christians
+                        came under the suspicion of sympathizing with the Romans. In the
+                        introduction to the ‘Martyrdom’ the predicament of the Christians is
+                        compared with the oppression of the Jews in the time of the Maccabees, and
+                        the ‘two priests’, Judas (Maccabaeus) and Shemʿon, are portrayed as fighting
+                        for the same cause. Arrested in Seleucia, Shemʿon was transported to Karka
+                        d-Ledan, in Beth Huzaye, where he had several meetings with the king. A long
+                        subplot (in both Syr. texts and in Sozomen) concerns Shemʿon’s encounter
+                        with the defector Gushtazad, who upon seeing Shemʿon decided to return to
+                        his Christian faith and became a martyr even before Shemʿon. After having
+                        been given ample opportunity to rescind his position and to pay homage to
+                        the king and his gods, Shemʿon is executed. While the ‘History’, to a
+                        certain extent, expands on the ‘Martyrdom’, Wiessner has argued convincingly
+                        that the author of the ‘History’ had access to additional sources and in
+                        some cases deliberately updated the ‘Martyrdom’ theologically and
+                        ideologically. For both the ‘Martyrdom’ and the ‘History’ the question
+                        arises as to what extent they may be used as historical sources, a question
+                        that becomes even more pertinent if one takes into consideration that there
+                        were several decades between the events that are reported and the redaction
+                        of the texts. The final redaction probably took place in the early 5th
+                        <abbr>cent.</abbr>, or — in the case of the ‘History’ — well into the 5th <abbr>cent.</abbr>
+                    </p>
+                    <p>Several other martyr texts deal with the persecution under Shapur II. Among
+                        the texts that are most closely related to the Shemʿon texts are the
+                        Martyrdom of Tarbo, Shemʿon’s sister (<abbr>ed.</abbr> Bedjan, <hi rend="italic">AMS</hi>
+                        2, 254–60) and the Martyrdom of Pusay (or Pusayk) and Marta (ibid., 208–32
+                        and 233–41).</p>
+                    <p>See also <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Martyrs-and-persecutions">Martyrs
+                            and persecutions</ref>.</p>
+                </div>
+                <div type="bibl">
+                    <listBibl>
+                        <listBibl>
+                            <head>Primary Sources</head>
+                            <bibl>J. Bidez and G. C.  Hansen, <title rend="italic">Sozomenus.
+                                    Kirchengeschichte</title> (<abbr>GCS</abbr> 50; 1960), 61–65 (II.9–10).
+                                (Greek)</bibl>
+                            <bibl>J. Bidez, B. Grillet, and G. Sabbah, <title rend="italic">Sozomène. Histoire ecclésiastique. Livres I–II</title> (SC 306;
+                                1983), 266–77. (Greek and <abbr>FT</abbr>)</bibl>
+                            <bibl>M.  Kmosko, <title rend="italic">S. Simeon bar Sabbaʿe</title> (<abbr>PS</abbr> I.2; 1907), 715–78 (= MS1);
+                                759–960 (= MS2); 1048–55 (<title rend="italic">ʿonyāthā </title>and
+                                    <title rend="italic">qāle</title>). (Syr. with <abbr>LT</abbr>)</bibl>
+                            <bibl>Braun, <title rend="italic">Ausgewählte Akten persischer
+                                    Märtyrer</title>, 5–57. (partial <abbr>GT</abbr> of ‘History’)</bibl>
+                        </listBibl>
+                        <listBibl>
+                            <head>Secondary Sources</head>
+                            <bibl>S. P. Brock, <title rend="italic">The History of Mar Maʿin, with a
+                                    Guide to the Persian Martyr Acts</title> (2008), 78–79 and
+                                88.</bibl>
+                            <bibl>R. W. Burgess, ‘The dates of the martyrdom of Simeon bar Simeon
+                                bar Sabbaʿe and the “Great Massacre” ’, <title rend="italic">
+                                    <abbr>AB</abbr>
+                                </title> 117 (1999), 9–47.</bibl>
+                            <bibl>P. Devos, ‘Sozomène et les actes syriaques de S. Syméon bar
+                                Sabbāʿe’, <title rend="italic">
+                                    <abbr>AB</abbr>
+                                </title> 84 (1966), 443–56.</bibl>
+                            <bibl>Fiey, <title rend="italic">Saints syriaques</title>, 177–78 (no.
+                                421).</bibl>
+                            <bibl>Labourt, <title rend="italic">Le christianisme dans l’empire
+                                    perse</title>, 43–69.</bibl>
+                            <bibl>G.  Wiessner, <title rend="italic">Zur Märtyrerüberlieferung aus
+                                    der Christenverfolgung Schapurs II</title> (1967).</bibl>
+                        </listBibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Lucas</forename> 
+                  <surname>Van Rompay</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

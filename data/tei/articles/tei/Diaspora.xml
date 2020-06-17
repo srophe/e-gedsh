@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Diaspora</title>
+            <author>
+               <persName>
+                  <forename>Sebastian P.</forename> 
+                  <surname>Brock</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.5">Electronic Edition Version 1.5</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Diaspora</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Diaspora</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/172</idno>
+                    <idno type="entry">163</idno>
+                    <milestone unit="pages" n="119-122"/>
+                    <note type="type">subject</note>
+                    <note type="abstract">Prior to the 19th <abbr>cent.</abbr> There had been very little
+                        emigration from the Middle East, whereas today there are more Christians
+                        from the Syriac (and other Middle Eastern) Churches living in the Diaspora
+                        than remain in the homelands.<note/>
+                    </note>
+                </ab>
+                <div type="body">
+                    <p>Prior to the late 19th <abbr>cent.</abbr> there had been very little emigration from the
+                        Middle East, whereas today there are more Christians from the Syriac (and
+                        other Middle Eastern) Churches living in the Diaspora than remain in the
+                        homelands. The two main causes of this massive demographic change are 1. the
+                        massacres in Syria and Lebanon of 1860, and especially those in Eastern
+                        Turkey of 1895/6 and of 1915 (see <ref rend="bold" target="https://gedsh.bethmardutho.org/Sayfo">Sayfo</ref>) and following
+                        years; and 2. the continuing unsettled political situation, involving wars
+                        and civil strife, in many countries of the Middle East, where certain events
+                        in particular have given rise to renewed waves of emigration, notably in
+                        1933 after the end of the British Mandate in Iraq (1932), involving the
+                        Assyrians; the creation of the state of Israel in 1948 and the three
+                        subsequent wars (1956, 1967, 1973), involving the <abbr>Syr. Orth.</abbr> in Palestine;
+                        the Lebanese civil war (1975–1990), involving the Maronites and other Syr.
+                        communities in Lebanon; the Turkish-Kurdish conflict in Eastern Turkey,
+                        involving mainly the <abbr>Syr. Orth.</abbr>; the Iraqi-Kurdish conflict, followed by the
+                        Iraq-Iran war (1980–88), the Gulf war (1990–1), and the invasion of Iraq
+                        (2003), involving the Chaldeans, Assyrians, Syr. Catholic, and <abbr>Syr. Orth.</abbr> In
+                        all these upheavals displacement and emigration has also been to other
+                        countries within the Middle East (or even within the same country), as well
+                        as to countries outside it (with or without refugee status). A further cause
+                        of emigration has been the lack of educational or employment opportunities
+                        in the countries of origin; this had already led to the earliest immigration
+                        to the United States (<ref rend="bold" target="https://gedsh.bethmardutho.org/Chicago">
+                            <placeName ref="http://syriaca.org/place/471">Chicago</placeName>
+                        </ref>, New
+                        Britain, CT) from north-west Iran (<ref rend="bold" target="https://gedsh.bethmardutho.org/Urmia">
+                            <placeName ref="http://syriaca.org/place/206">Urmia</placeName>
+                        </ref> region) in the
+                        late 19th <abbr>cent.</abbr>
+                    </p>
+                    <p>The massacres of 1895/6 and 1915–18 led to large scale emigration, both
+                        within the Middle East (mainly to Syria, Lebanon, Palestine in the case of
+                        the <abbr>Syr. Orth.</abbr>; to Iraq, Iran, and the Caucasus [and thence, to Russia] in
+                        the case of the Chaldeans and Assyrians) and to the West, above all at this
+                        stage to the Americas, both North and South. The flight of Assyrians from
+                        Iraq in 1933 resulted in new settlements in eastern Syria, while others
+                        emigrated to Britain and especially the United States. The Americas were
+                        also the goal of most of those emigrating after the creation of Israel, and
+                        it has only been in the last 50 years that large numbers from all the Syr.
+                        Churches have emigrated to countries of western Europe, with a preponderance
+                        of <abbr>Syr. Orth.</abbr> settling in Germany (where the first priest was ordained in
+                        1977) and Sweden, and of Chaldeans and Maronites in France. An important
+                        development in the case of the <abbr>Syr. Orth.</abbr> was the founding of three
+                        monasteries by the late <abbr>bp.</abbr> 
+                  <ref rend="bold" target="https://gedsh.bethmardutho.org/Cicek-Julius-Yeshu">
+                            <persName ref="http://syriaca.org/person/422">Julius Çiçek</persName>
+                        </ref> (Mor Ephrem,
+                        Netherlands, 1984; Mor Augen, Switzerland, 1999; Mor Yaʿqub da-Srug,
+                        Germany, 2000). Smaller communities from the different Syr. Churches are
+                        also found in Russia, Denmark, the Netherlands, Belgium, Switzerland,
+                        Austria, Italy, Britain, and Greece. More recently emigration on a large
+                        scale has also been to Australia. A pattern followed in many cases has been
+                        for emigrés from a particular village to settle together in their new home.
+                        Since 2003 it has been Syria, Jordan, and Turkey that have been the
+                        immediate goals of those fleeing from the dangerous situation in Iraq.</p>
+                    <p>The increasing sizes of the Diaspora communities has led to the creation of
+                        new dioceses outside the Middle East, following on from the earlier
+                        establishment of church communities in the different countries. The main
+                        topic of the 16th Congress of Catholic Patriarchs of the Middle East in 2006
+                        was emigration. The following listing of Diaspora dioceses gives some idea
+                        of the geographical spread for each of the Syr. Churches; figures for
+                        numbers, where given, are inevitably only approximate (these can vary
+                        considerably from one source to another).</p>
+                    <p>
+                        <hi rend="italic">Ancient Church of the East</hi>: Germany (Mainz), Western
+                        USA (Modesto, California), and Australia and New Zealand.</p>
+                    <p>
+                        <hi rend="italic">Assyrian Church of the East</hi>: Europe (Norsborg,
+                        Sweden); Canada (Weston, Ontario); Eastern USA (Chicago; residence of the
+                        <abbr>
+                            <choice>
+                                <sic>Patr.</sic>
+                                <corr>patr.</corr>
+                            </choice>
+                        </abbr>), Western USA (Glendale, Arizona); Western California (San Jose);
+                        Australia and New Zealand (Sydney). With communities in several other
+                        countries, including Denmark, Germany, Great Britian, Greece, and Russia.
+                        Whereas some 150,000 now live in the Diaspora (<abbr>ca.</abbr> 90,000 in USA, and 10,000
+                        in Australia/New Zealand), only <abbr>ca.</abbr> 100,000 remain in the Middle East.</p>
+                    <p>
+                        <hi rend="italic">Chaldean Catholic Church</hi>: USA (Southfield, Michigan;
+                        San Diego [since 2002]), with <abbr>ca.</abbr> 170,000 faithful; Australia and New
+                        Zealand (since 2006), with <abbr>ca.</abbr> 15,000. There are sizeable communities in
+                        Canada (Montreal, Toronto, Windsor), and in Europe (especially France, with
+                        communities in Paris, Lyon, and Marseille; but also Sweden, Germany,
+                        Belgium, and smaller ones in Greece, Netherlands, Denmark, and Great
+                        Britain).</p>
+                    <p>
+                        <hi rend="italic">Maronite Church</hi>: USA (Brooklyn, Los Angeles); Canada
+                        (Montreal); Brazil (Sao Paolo); Argentina (Buenos Aires [since 1990]);
+                        Mexico (since 1995); Australia (Strathfield, NSW); and sizeable communities
+                        in Europe, especially France. Estimates ranging between one million and two
+                        and a half million are given for Maronites in the Diaspora (a high
+                        proportion are in South America), while little over half a million remain in
+                        the Middle East.</p>
+                    <p>
+                        <hi rend="italic">Syrian Catholic Church</hi>: USA (Newark NJ [since 1995])
+                        and Venezuela (since 2001); with communities <choice>
+                            <sic>in in </sic>
+                            <corr>in </corr>
+                        </choice>USA in Detroit, Los
+                        Angeles, San Diego, and Jacksonville (Florida). In Canada there are
+                        communities in Toronto and Montreal; in Europe, notably in Amsterdam,
+                        London, and Paris; in Australia, in Sydney. An estimated 50,000 (out of a
+                        total of <abbr>ca.</abbr> 100,000) live in the Diaspora.</p>
+                    <p>
+                        <hi rend="italic">Syrian Orthodox Church</hi>: Europe: Sweden and
+                        Scandinavia (Södertälje and Klockarvägen); Germany (Warburg); Netherlands
+                        (Glane); Belgium (Brussels); Great Britain (London); with further
+                        communities in France, Switzerland, Italy, and Austria; USA (Teaneck, New
+                        Jersey; Burbank, California); Canada (Saint Laurent, Québec); Australia and
+                        New Zealand (Lidcombe, NSW); Argentina (La Plata). Some 150,000 live in the
+                        Diaspora, while roughly the same number remain in the Middle East (by far
+                        the largest numbers are in India).</p>
+                    <p>The different Indian Churches of Syr. tradition also have considerable
+                        diasporas all over the world, and several now have a North American diocese
+                        (Syro-Malabar: Chicago, since 2001; Syro-Malankara: for America and Europe,
+                        since 2005; Syrian Orthodox: Cartaret, New Jersey; Orthodox Syrian: Alma,
+                        Michigan, and Belrose, New York). There are communities in several European
+                        countries from all the Syr. Churches in India (especially Great Britain,
+                        Ireland, Germany, Switzerland, and Austria). Many from Kerala go as
+                        temporary workers to the Gulf states, in some of which churches have been
+                        built.</p>
+                    <p>The above locations only cover countries where church communities have been
+                        established; for individuals from the Syr. Churches of the Middle East, the
+                        scatter is much wider, and includes countries of Africa and East Asia.</p>
+                    <p>The move to secular societies where ethnic and cultural, rather than
+                        religious, identity is paramount has caused much dispute in the search for
+                        appropriate names to use (Aramaean, Assyrian, Chaldean, Assyro-Chaldean,
+                        Syriac, <hi rend="italic">Suryoyo</hi>, etc.), and the issue has often
+                        proved sadly divisive, especially among the <abbr>Syr. Orth.</abbr> On the other hand,
+                        many new opportunities have been opened up, for the creation of cultural and
+                        other associations, and for new educational possibilities. In the 1930s when
+                        for a time it was Soviet policy to encourage minority languages, the written
+                        use of Modern Syriac (in Latin script) was encouraged; a more recent
+                        adaptation of the spoken language to western script has taken place with
+                            <ref rend="bold" target="https://gedsh.bethmardutho.org/Turoyo">Turoyo</ref> in Sweden. Especially important has been the freedom to
+                        publish in western countries. This has given rise to a great many cultural
+                        magazines, often multilingual (and including both Classical and Modern
+                        Syriac), as well as the creation of television channels (such as Suryoyo
+                        SAT, Suroyo TV, Assyrian TV); it has also made it possible to publish
+                        information about <choice>
+                            <sic/>
+                            <corr>the </corr>
+                        </choice>
+                        <hi rend="italic">Sayfo</hi>. Another notable development
+                        has been in the creation of music groups, both church-based and secular, the
+                        latter using lyrics in both Classical and Modern Syriac; though this
+                        development had its origins in the Middle East (<choice>
+                            <sic>e.g.</sic>
+                            <corr>e.g., </corr>
+                        </choice>Qamishli in the 1960s,
+                        and rather earlier in Iran), it has been greatly developed in the
+                        Diaspora.</p>
+                    <p>See <choice>
+                            <sic>Fig. 40–42</sic>
+                            <corr>
+                                <ref target="https://gedsh.bethmardutho.org/fig/40">Fig. 40</ref>,
+                                    <ref target="https://gedsh.bethmardutho.org/fig/41">41</ref>, and
+                                    <ref target="https://gedsh.bethmardutho.org/fig/42">42</ref>
+                            </corr>
+                        </choice>.</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>H.  Acar, <title rend="italic">Menschen zwischen Kulturen —
+                            aramäische Jugendliche in Deutschland</title> (1997).</bibl>
+                        <bibl>J.  Alichoran, ‘Assyro-Chaldeans in the 20th century: From genocide to
+                            diaspora’, <title rend="italic">
+                                <abbr>JAAS</abbr>
+                            </title> 8:2 (1994), 45–79.</bibl>
+                        <bibl>Y. Benjamin, ‘Assyrians in Middle America’, <title rend="italic">
+                                <abbr>JAAS</abbr>
+                            </title> 10:2 (1996), 18–45.</bibl>
+                        <bibl>J.-M. Billioud, <title rend="italic">Les chrétiens d’Orient en
+                                France</title> (1998).</bibl>
+                        <bibl>U. Björkland, <title rend="italic">North to another country. The
+                                formation of a Suryoyo community in Sweden</title> (1981).</bibl>
+                        <bibl>S. P. Brock, ‘The Syrian Orthodox Church in modern history’, in <title rend="italic">Christianity in the Middle East. Studies in Modern
+                                History, Theology and Politics</title>, <abbr>ed.</abbr> A. O’Mahony (2008),
+                            17–38.</bibl>
+                        <bibl>Brock and Taylor, <title rend="italic">Hidden Pearl</title>, vol. 3,
+                            65–153.</bibl>
+                        <bibl>J. Y.  Çiçek, ‘I cristiani siro-occidentali nella diaspora:
+                            L’emigrazione dei siro-aramaici’, in <title rend="italic">Le Chiese Sire
+                                tra IV e VI secolo</title>, <abbr>ed.</abbr> E.  Vergani and S.  Chialà (2005),
+                            41–8. (<abbr>ET</abbr> in <title rend="italic">
+                                <abbr>Sobornost/ECR</abbr>
+                            </title> 28:2 [2006],
+                            19–27)</bibl>
+                        <bibl>C.  Hélou, ‘La diaspora maronite en Europe’, <title rend="italic">
+                                <abbr>JEastCS</abbr>
+                            </title> 54 (2002), 51–63.</bibl>
+                        <bibl>A.  Ishaya, ‘Assyrian Americans: A study in ethnic reconstruction and
+                            dissolution in Diaspora’, <title rend="italic">
+                                <abbr>JAAS</abbr>
+                            </title> 17:2 (2003),
+                            19–38.</bibl>
+                        <bibl>eadem, ‘Settling into Diaspora: A history of Urmia Assyrians in the
+                            United States’, <title rend="italic">
+                                <abbr>JAAS</abbr>
+                            </title> 20 (2006),
+                            3–27.</bibl>
+                        <bibl>X.  Jacob and A. G.  Calonghi, <title rend="italic">Les Chrétiens du
+                                Proche Orient. Après deux millénaires</title> (2002). (for
+                            demography)</bibl>
+                        <bibl>J.  Jacoub, ‘La diaspora assyro-chaldéenne’, <title rend="italic">Istina</title> 40 (1995), 191–202.</bibl>
+                        <bibl>K.  Merten, <title rend="italic">Die syrisch-orthodoxen Christen in
+                                der Türkei und in Deutschland</title> (1997).</bibl>
+                        <bibl>H.  Murre-van den Berg, ‘Migration of Middle Eastern Christians to
+                            Western countries and Protestant missionary activities in the Middle
+                            East’, <title rend="italic">
+                                <abbr>JEastCS</abbr>
+                            </title> 54 (2002), 39–49.</bibl>
+                        <bibl>E. Naveau, ‘Les orthodoxes syriaques d’Indonésie’, <title rend="italic">Les Cahiers de l’Orient</title> 93 (2009),
+                            111–24.</bibl>
+                        <bibl>G.  Rabo, ‘Die <choice>
+                                <sic>Grundung</sic>
+                                <corr>Gründung</corr>
+                            </choice> der <choice>
+                                <sic>Syrisch-Orthodoxen</sic>
+                                <corr>syrisch-orthodoxen</corr>
+                            </choice> Kirchen in der
+                            Diaspora’, in <title rend="italic">Ego sum qui sum. Festschrift für J.
+                                Martikainen</title>, <abbr>ed.</abbr> T. Martikainen (2006), 89–105.</bibl>
+                        <bibl>M. al-Rasheed, <title rend="italic">Iraqi Assyrian Christians in
+                                London: The Construction of ethnicity</title> (1998).</bibl>
+                        <bibl>E. Safa, <title rend="italic">L’émigration libanaise</title>
+                            (1960).</bibl>
+                        <bibl>D. Sarkisov, ‘Assyrian settlements in Caucasia’, <title rend="italic">Nineveh</title> 22:1–2 (1999), 4–12.</bibl>
+                        <bibl>M. C.  Sengstock, <title rend="italic">Chaldeans in Chicago</title>
+                            (2005).</bibl>
+                        <bibl>Sh.  Talay, ‘Bericht über die Lage der Apostolischen Kirche des Ostens
+                            in Syrien’, in <title rend="italic">Zu Geschichte, Theologie, Liturgie
+                                und Gegenwartslage der syrischen Kirchen</title>, <abbr>ed.</abbr> M.  Tamcke and
+                            A.  Heinz (2000), 447–67.</bibl>
+                        <bibl>M. Tamcke, ‘Nach Russland, Deutschland ... Streitfluchter aus
+                            deutschen Akten zur ersten Migrationswelle der Ostsyrer
+                            (Assyrer/<choice>
+                                <sic>‘Nestorianer’</sic>
+                                <corr>“Nestorianer”</corr>
+                            </choice>)’, <title rend="italic">
+                                <abbr>JEastCS</abbr>
+                            </title> 54
+                            (2002), 25–38.</bibl>
+                        <bibl>H.  Teule, ‘Middle Eastern Christians and migrations, some
+                            reflections’, <title rend="italic">
+                                <abbr>JEastCS</abbr>
+                            </title> 54 (2002),
+                            1–23.</bibl>
+                        <bibl>A.  Thiry, <title rend="italic">Mechelen aan de Tigris</title>
+                            (2001).</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>A.  Thiry</reg>
+                        <orig>idem</orig>
+                     </choice>, ‘Mechelen on the Tigris. The renaissance of an Assyrian
+                            village’, <title rend="italic">
+                                <abbr>Harp</abbr>
+                            </title> 20:2 (2006), 23–57.</bibl>
+                        <bibl>J.-P. Valognes, <title rend="italic">Vie et mort des chrétiens
+                                d’Orient</title> (1994).</bibl>
+                        <bibl>D.  Wolk, ‘Church colony vs. congregation: A struggle for control of
+                            the Church of the East in Chicago during the 1940s’, <title rend="italic">
+                                <abbr>JAAS</abbr>
+                            </title> 22:1 (2008), 15–58.</bibl>
+                        <bibl>G. Yonan, <title rend="italic">Journalismus bei den Assyrern</title>
+                            (1985).</bibl>
+                        <bibl>A.  Zeitoune, <title rend="italic">Music Pearls of Beth Nahrin. An
+                                Assyrian/Syriac Discography</title> (2007).</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Sebastian P.</forename> 
+                  <surname>Brock</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

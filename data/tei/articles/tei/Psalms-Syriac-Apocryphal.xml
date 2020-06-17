@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Psalms, Syriac Apocryphal</title>
+            <author>
+               <persName>
+                  <forename>Aaron M.</forename> 
+                  <surname>Butts</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.5">Electronic Edition Version 1.5</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Psalms, Syriac Apocryphal</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Psalms-Syriac-Apocryphal</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/447</idno>
+                    <idno type="entry">438</idno>
+                    <milestone unit="pages" n="341-342"/>
+                    <idno type="althead" subtype="altorder">Syriac Apocryphal Psalms</idno>
+                    <note type="type">work</note>
+                    <note type="abstract">The Syriac Apocryphal Psalms are a group of five poetic
+                        compositions related to the book of Psalms.<note/>
+                    </note>
+                </ab>
+                <div type="body">
+                    <p>The Syriac Apocryphal Psalms are a group of five poetic compositions related
+                        to the book of Psalms (<abbr>ed.</abbr> Baars). The most important textual witness for
+                        the Syriac Apocryphal Psalms is <abbr>ms.</abbr> Baghdad (formerly Mosul), Library of the
+                        Chaldean Patriarchate 1113, which can be dated paleographically to the 12th
+                        <abbr>cent.</abbr> In this <abbr>ms.</abbr>, the Apocryphal Psalms follow directly upon the canonical
+                        Psalms and are numbered consecutively as 151–155. The margins of this <abbr>ms.</abbr>
+                        contain a number of alternative readings. The Syriac Apocryphal Psalms are
+                        also found as filler material in <abbr>mss.</abbr> of the <hi rend="italic">Ktābā
+                            d-Durrāšā</hi> ‘Book of Exercise’ by <ref rend="bold" target="https://gedsh.bethmardutho.org/Eliya-of-al-Anbar">
+                            <persName ref="http://syriaca.org/person/471">Eliya of
+                            al-Anbār</persName>
+                        </ref> (first half of the 10th <abbr>cent.</abbr>). The order of the
+                        Apocryphal Psalms in <abbr>mss.</abbr> of the <hi rend="italic">Ktābā d-Durrāšā</hi>
+                        differs from that in the Chaldean Patriarchate <abbr>ms.</abbr> (I = 151; II = 154; III =
+                        155; IV = 152; V = 153). In addition, the text of the Apocryphal Psalms in
+                        these <abbr>mss.</abbr> diverges from that in the Chaldean Patriarchate <abbr>ms.</abbr>, though it
+                        often agrees with that represented in the margins of this <abbr>ms.</abbr> A version of
+                        the Apocryphal Psalms similar to that in <abbr>mss.</abbr> of the <hi rend="italic">Ktābā
+                            d-Durrāšā</hi> is also found appended to <abbr>ms.</abbr> Berlin, Orient. Fol. 3122,
+                        which contains the prophetic books of the <abbr>OT</abbr>. Finally, Psalm 151 (= I) also
+                        exists in Syriac outside the collection of Apocryphal Psalms, both in the
+                            <ref rend="bold" target="https://gedsh.bethmardutho.org/Syro-Hexapla">Syro-Hexapla</ref> (and in liturgical <abbr>mss.</abbr> based on it) and in some
+                        <abbr>mss.</abbr> independent from, and in some cases earlier than, the Syro-Hexapla (see
+                        Baars, vii-ix; van Rooy 2000).</p>
+                    <p>Psalm 151 (= I) is a translation of the Septuagint Psalm 151. This Psalm is
+                        known in other Psalter traditions that are based on the Septuagint, e.g.
+                        Latin, Coptic, Arabic, Armenian, and Ethiopic. The Hebrew Vorlage of Psalm
+                        151 was discovered fragmentarily preserved in the Qumran Psalms Scroll
+                            (11QPs<hi rend="superscript">a</hi>) as two separate psalms designated
+                        151A and 151B (<abbr>ed.</abbr> Sanders 1963; 1965, 54–64). A Hebrew Vorlage for both
+                        Psalm 154 (= II) and Psalm 155 (= III) is also found in the Qumran Psalms
+                        Scroll (11QPs<hi rend="superscript">a</hi>; <abbr>ed.</abbr> Sanders 1964; 1965, 64–76).
+                        A Hebrew Vorlage has not, however, been discovered for either Psalm 152 (=
+                        IV) or Psalm 153 (= V). Some maintain that this is only an accident of
+                        survival and that these two Psalms were translated from a now lost Hebrew
+                        Vorlage (see, e.g., van Rooy, van der Woude). Others, however, argue that
+                        these two Psalms are original Syriac compositions (see, e.g., Skehan). In
+                        his Letter 47, <abbr>Cath.</abbr> 
+                  <ref rend="bold" target="https://gedsh.bethmardutho.org/Timotheos-I">
+                            <persName ref="http://syriaca.org/person/790">Timotheos I</persName>
+                        </ref> (d.
+                        823) mentions the discovery of Hebrew <abbr>mss.</abbr>, some of which contained
+                        additional ‘Psalms of David’, in the region of Jericho (<abbr>ed.</abbr> O. Braun, ‘Ein
+                        Brief des Katholikos Timotheos I über biblische Studien des 9.
+                        Jahrhunderts’, <title rend="italic">
+                            <abbr>OC</abbr>
+                        </title> 1 [1901], 299–313; <abbr>ET</abbr> in S. P.
+                        Brock, <hi rend="italic">A brief outline of Syriac literature</hi> [2nd <abbr>ed.</abbr>
+                        2009], 240–45). This not only anticipates the discovery of the Dead Sea
+                        Scrolls by more than a millennium, but also may help to explain the
+                        existence of Psalms 154–155 (and possibly also 152–153) in the Syriac
+                        tradition.</p>
+                </div>
+                <div type="bibl">
+                    <listBibl>
+                        <listBibl>
+                            <head>Primary Sources</head>
+                            <bibl>W. Baars, ‘Apocryphal Psalms’, in <title rend="italic">The Old
+                                    Testament in Syriac according to the Peshitta Version</title>,
+                                part IV, fas. 6 (1972).</bibl>
+                            <bibl>H. F. van Rooy, ‘Psalm 151 in three Syriac Psalm Commentaries’,
+                                    <title rend="italic">
+                                    <abbr>ZAW</abbr>
+                                </title> (2000), 612–23.</bibl>
+                            <bibl>J. A. Sanders, ‘Ps. 151 in 11QPSS’, <title rend="italic">
+                                    <abbr>ZAW</abbr>
+                                </title> 75 (1963), 73–85.</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>J. A. Sanders</reg>
+                           <orig>idem</orig>
+                        </choice>, ‘Two non-canonical Psalms in 11QPs<hi rend="superscript">a</hi>, <title rend="italic">
+                                    <abbr>ZAW</abbr>
+                                </title> 76 (1964), 57–75.</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>J. A. Sanders</reg>
+                           <orig>idem</orig>
+                        </choice>, <title rend="italic">The Psalms Scroll of Qumrân Cave 11
+                                        (11QPs<hi rend="superscript">a</hi>)</title> (Discoveries in
+                                the Judaean Desert 4; 1965), 53–76.</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>J. A. Sanders</reg>
+                           <orig>idem</orig>
+                        </choice>, <title rend="italic">The Dead Sea Psalms Scroll</title>
+                                (1967), esp. 93–112.</bibl>
+                        </listBibl>
+                        <listBibl>
+                            <head>Secondary Sources</head>
+                            <bibl>S. C.  Pigué, in <title rend="italic">
+                                    <abbr>ABD</abbr>
+                                </title>, vol. 5,
+                                536–7.</bibl>
+                            <bibl>H. F.  van  Rooy, <title rend="italic">Studies on the Syriac
+                                    Apocryphal Psalms</title> (1999). (incl. <abbr>ET</abbr>)</bibl>
+                            <bibl>P. W.  Skehan, ‘Again the Syriac Apocryphal Psalms’, <title rend="italic">Catholic Biblical Quarterly</title> 38 (1976),
+                                143–58.</bibl>
+                            <bibl>J.  Strugnell, ‘Notes on the text and transmission of the
+                                Apocryphal Psalms 151, 154 (= Syr. II) and 155 (= Syr. III)’,
+                                    <title rend="italic">
+                                    <abbr>HTR</abbr>
+                                </title> 59 (1966), 257–82.</bibl>
+                            <bibl>A. S. van der Woude. ‘Die fünf syrischen Psalmen (einschließlich
+                                Psalm 151)’, in <title rend="italic">Jüdische Schriften aus
+                                    hellenistisch-römischer Zeit</title>, Band IV, Lieferung 1, <abbr>ed.</abbr>
+                                W. G. Kümmel <abbr>et al.</abbr> (1974). (incl. <abbr>GT</abbr>)</bibl>
+                        </listBibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Aaron M.</forename> 
+                  <surname>Butts</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

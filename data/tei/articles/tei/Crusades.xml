@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Crusades</title>
+            <author>
+               <persName>
+                  <forename>Dorothea</forename> 
+                  <surname>Weltecke</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.5">Electronic Edition Version 1.5</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Crusades</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Crusades</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/150</idno>
+                    <idno type="entry">141</idno>
+                    <milestone unit="pages" n="107-109"/>
+                    <note type="type">subject</note>
+                    <note type="abstract">A specific form of Holy War initiated by
+                        the pope directed towards the conquest of Jerusalem and elsewhere, that resulted in temporary establishment of Latin rule in regions of the Levant.<note/>
+                    </note>
+                </ab>
+                <div type="body">
+                    <p>The Crusades were a specific form of Holy War initiated by the pope. The
+                        canonical legitimacy of the Crusades was constituted by the papal
+                        convocation, the papal indulgences, and the vows taken by the participating
+                        knights. For the Syr. Christians the Crusades at the time had simultaneously
+                        positive and negative effects. In the long term the Crusades enhanced
+                        religious polarization and undermined the position of Christians in Muslim
+                        countries.</p>
+                    <p>At the Council of Piacenza, in March 1095, the Byzantine Emperor Alexios I
+                        Komnenos (1081–1118) requested Latin military aid against the expanding
+                        Muslim forces. With a view of restoring the union of the church and claiming
+                        for himself universal ecclesiastical authority, Pope Urban II (1088–99)
+                        began to campaign for a war aimed at liberating the Holy Places. He appealed
+                        to already existing conceptions of Holy War and developed them into a theory
+                        of an armed pilgrimage. At the Council of Clermont-Ferrand, in Nov. 1095,
+                        his idea of fighting a war for God met with immense religious enthusiasm.
+                        When the knights set out for <ref rend="bold" target="https://gedsh.bethmardutho.org/Jerusalem">
+                            <placeName ref="http://syriaca.org/place/104">Jerusalem</placeName>
+                        </ref> in
+                        1096, they were joined by pilgrims and ardent non-combatants of different
+                        origins. Pope Urban had ignited a formidable movement, which was difficult
+                        to control and which resulted in fundamental political, cultural, and
+                        economical changes in Europe and the Middle East.</p>
+                    <p>Several vast military campaigns ensued, which were often led by the most
+                        powerful crowned heads of Europe. The Crusade of 1096 being the first, the
+                        next ones are traditionally counted as the Second Crusade (1145–1149), the
+                        Third Crusade (1187–92), the Fourth Crusade (1198–1204), the so-called
+                        Children’s Crusade of 1212, the Fifth Crusade (1217–1221), the Crusade of
+                        Frederick II (1228–1229) and the Crusades of King Louis  IX the Pious of
+                        France (1248–54, 1267–70). In addition, many more military campaigns with
+                        papal authorization were waged against Muslims between the 12th and the 15th
+                        <abbr>cent.</abbr> None of these, however, succeeded in bringing the expansion of the
+                        Turks to a halt, nor did they prevent the conquest of Constantinople in
+                        1453. In Europe Crusades were waged against pagan peoples, against heretical
+                        movements, as well as against political enemies of the pope. The Reconquista
+                        on the Iberian Peninsula also became part of the Crusade movement. Even
+                        though criticism flared up against individual wars, the concept of Crusades
+                        as well as the ideal of the virtuous knightly Crusader remained strong.</p>
+                    <p>Jerusalem was first captured in the year 1099. Against the wishes of the
+                        Byzantine emperor, who had expected the return of the re-conquered regions
+                        to his own rule, Latin Crusader States were established in the Levant as a
+                        result of the First Crusade (Kingdom of Jerusalem, County of Tripoli,
+                        Principality of Antioch, County of Edessa). The ruling French and Norman
+                        families by and large implemented the legal traditions of their homelands.
+                        Within the Crusader States all non-Latins were legally subordinated. On the
+                        local level traditional forms of autonomy and jurisdiction remained intact.
+                        The descendents of the first Crusaders developed a new Middle-Eastern
+                        identity and specific forms of relations to, as well as agreements with,
+                        Eastern Christians and Muslims. These Crusader States, although much reduced
+                        toward the coast, were sustained until the year 1291, which saw the fall of
+                        Acre.</p>
+                    <p>As for the Christians, the discriminating poll tax under Muslim rule was
+                        lifted. The Greek Orthodox hierarchy was forced under the supremacy of a new
+                        Latin hierarchy built up in the Crusader states. Local Christians of the
+                        Greek Orthodox denomination are known as the ‘Suriani’ in the Latin sources.
+                        They made up a considerable part of the Christian population all over the
+                        Levant. Albeit speaking Arabic in daily use, they themselves cherished their
+                        Syrian or Aramean origin. Their liturgy was byzantinized during the Crusader
+                        period.</p>
+                    <p>As the <abbr>Syr. Orth.</abbr> were considered heretical by the Latin Church, their
+                        hierarchy as well as the hierarchy of the Maronites on the whole was left
+                        intact. Almost all the areas of Maronite population fell under Latin rule in
+                        the County of Tripoli. Their patriarch resided in monasteries in the
+                        Maronite diocese of Jubail. Due to an extreme scarcity of sources, the
+                        history of the Maronites in this period is much disputed. The Latin
+                        chronicler William of Tyre regarded them as fine warriors and as allies of
+                        the Latins.</p>
+                    <p>The <abbr>Syr. Orth.</abbr> archdioceses of <ref rend="bold" target="https://gedsh.bethmardutho.org/Edessa">
+                            <placeName ref="http://syriaca.org/place/78">Edessa</placeName>
+                        </ref>, Samosata,
+                        Manbij, Tarsus, <ref rend="bold" target="https://gedsh.bethmardutho.org/Antioch">
+                            <placeName ref="http://syriaca.org/place/10">Antioch</placeName>
+                        </ref>, and
+                        Jerusalem, as well as important bishoprics such as Acre, Tripoli, Cyprus,
+                        Marʿash, Raban, Kesoun, and Saruj became part of the Crusader states. In the
+                        County of Edessa the <abbr>Syr. Orth.</abbr> became involved in the Latin administration
+                        and also in military action. The capture of Edessa by the Zengid army in
+                        1144 and the failed Latin attempt to regain the city caused much hardship
+                        among the Christian population. Massacres and slavery ended a short-lived
+                        period of pride and affluence. A spiritual crisis among the <abbr>Syr. Orth.</abbr> and
+                        theological debates flared up as a consequence.</p>
+                    <p>The <abbr>Ch. of E.</abbr> came into contact with the Latins only on its periphery. Under
+                        the authority of the metropolitan of the <abbr>Ch. of E.</abbr> in <ref rend="bold" target="https://gedsh.bethmardutho.org/Damascus">
+                            <placeName ref="http://syriaca.org/place/66">Damascus</placeName>
+                        </ref> and
+                        probably a second metropolitan of Jerusalem and Tripoli, members of this
+                        church lived also in Edessa, on Mount Lebanon, in Cyprus, in Antioch, and in
+                        the merchant towns on the sea coast. The communities were perhaps also
+                        enlarged by refugees, who had moved to the West during the Mongol invasions
+                        in Central Asia and Mesopotamia.</p>
+                    <p>The intensity of theological relations between the Eastern Churches and the
+                        Latins depended on dogmatic positions as well as on their geographical
+                        dispersion and on political constellations. A general climate of theological
+                        openness led Eastern Christians and Latins in the 12th and 13th <abbr>cent.</abbr> to
+                        study each other’s theological propositions and also to seek common ground,
+                        with different outcomes. While the union between the Latin and the Greek
+                        Church still was officially upheld in the Levant, Latin ecclesiastical
+                        supremacy and conflicts alienated the two Churches. During the 12th <abbr>cent.</abbr>
+                        almost no contacts between the Latins and the <abbr>Ch. of E.</abbr> are recorded. At the
+                        same time, the most isolated of the Syriac churches during that period, the
+                        Maronites, were officially united with the Roman Church. The Maronite
+                        patriarch Jeremiah II (1199–1230) was accepted as Primate of the Maronite
+                        Church and invited to the <choice>
+                            <sic>4th</sic>
+                            <corr>Fourth</corr>
+                        </choice> Lateran Council in 1215. Some opposition
+                        against Latinization however flared up, most notably towards the end of the
+                        Latin rule in the Levant.</p>
+                    <p>The <abbr>Syr. Orth.</abbr> Church sought a pragmatic understanding without giving up its
+                        independence, maintaining contact with the Latins and with the Byzantine
+                        Emperor Manuel. At the council of Jerusalem in 1141 the dogmatic differences
+                        between Latins, Armenians, and <abbr>Syr. Orth.</abbr> were not felt as grave as
+                        previously expected. Joint religious practice as well as theological
+                        disputations took place. The <abbr>Syr. Orth.</abbr> used the advantages of a government
+                        that was often unfavorable to the Greek Orthodox. In turn, several instances
+                        of direct church governance by the Latins can be detected in which the Latin
+                        authorities overruled internal decisions by the <abbr>Syr. Orth.</abbr> patriarchs or
+                        synods.</p>
+                    <p>During the 13th <abbr>cent.</abbr> the Pope intensified his diplomatic and missionary
+                        efforts among the <abbr>Ch. of E.</abbr> and the <abbr>Syr. Orth.</abbr> Church. The generally
+                        tolerant attitude of the Mongols towards Christians raised Latin hopes for
+                        new allies against the Muslims. The residences of the mendicants in the
+                        Crusader States served as bridgeheads for the missions, while the local
+                        Latin Church seems to have been little involved. Individual prelates of the
+                        <abbr>Syr. Orth.</abbr> Church and the <abbr>Ch. of E.</abbr> maintained close relations with the
+                        Latins. No Syr. source, however, corroborates Roman claims that some Syrian
+                        metropolitans or patriarchs recognized Roman primacy at that time. Such
+                        claims could be due to a misunderstanding of the Syrian attitudes. Such
+                        unions were in any case ephemeral and not supported by the communities.</p>
+                    <p>The frequent wars, their economical effects on local trade and agriculture,
+                        roaming bandits, and encroachments on the Eastern Christians caused
+                        hardship. Refugees fled to the coast especially after the final Muslim
+                        conquest of Edessa in 1146. A slow deterioration of the relations between
+                        the Christian and Muslim population is noticeable. Neither Muslims nor
+                        Latins sufficiently secured the indigenous population. At the same time for
+                        Syriac Christians this was a period of most important achievements in all
+                        fields of art and culture, for which the term ‘<ref rend="bold" target="https://gedsh.bethmardutho.org/Renaissance-Syriac">Syriac
+                            Renaissance</ref>’ has been often used (see in particular Kawerau 1960
+                        and Teule <abbr>et al.</abbr>, 2010).</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>M. Amouroux-Mourad, <title rend="italic">Le Comté d’Edesse.
+                                1089–1150</title> (1988).</bibl>
+                        <bibl>A.-D.  von  den  Brincken, <title rend="italic">Die “Nationes
+                                Christianorum Orientalium” im Verständnis der lateinischen
+                                Historiographie von der Mitte des 12. bis in die zweite Hälfte des
+                                14. Jahrhunderts</title> (1973).</bibl>
+                        <bibl>K.  Ciggaar and H.  Teule (<abbr>ed.</abbr>), <title rend="italic">East and West in
+                            the Crusader states. <choice>
+                                    <sic>Context-contacts-confrontations</sic>
+                                    <corr>Context — contacts — confrontations</corr>
+                                </choice>
+                            </title>, vol.
+                            2–3 (<abbr>OLA</abbr> 92, 125; 1999, 2003).</bibl>
+                        <bibl>K.  Ciggaar and M.  Metcalf (<abbr>ed.</abbr>), <title rend="italic">East and West
+                                in the Medieval Eastern Mediterranean</title>, vol. 1. <title rend="italic">Antioch from the Byzantine reconquest until the end of
+                                the Crusader Principality</title> (<abbr>OLA</abbr> 147; 2006).</bibl>
+                        <bibl>R. Ellenblum, <title rend="italic">Frankish Rural Settlement in the
+                                Latin Kingdom of Jerusalem</title> (1998).</bibl>
+                        <bibl>B.  Hamilton, <title rend="italic">The Latin Church in the Crusader
+                                States: The Secular Church</title> (1980).</bibl>
+                        <bibl>H.  Kaufhold, ‘Zur syrischen Kirchengeschichte des 12. Jahrhunderts.
+                            Neue Quellen über Theodoros bar Wahbûn’, <title rend="italic">
+                                <abbr>OC</abbr>
+                            </title>
+                            74 (1990), 115–51.</bibl>
+                        <bibl>P.  Kawerau, <title rend="italic">Die jakobitische Kirche im Zeitalter
+                                der syrischen Renaissance: Idee und Wirklichkeit</title>
+                            (1960).</bibl>
+                        <bibl>C. H.  MacEvitt, <title rend="italic">The Crusades and the Christian
+                                world of the East: Rough tolerance</title> (2008).</bibl>
+                        <bibl>H. E.  Mayer, <title rend="italic">The Crusades</title> (2nd <abbr>ed.</abbr>
+                            1988).</bibl>
+                        <bibl>A.  Palmer, ‘The History of the Syrian Orthodox in Jerusalem, Part
+                            Two: Queen Melisende and the Jacobite Estates’, <title rend="italic">
+                                <abbr>OC</abbr>
+                            </title> 76 (1992), 74–94.</bibl>
+                        <bibl>J.  Pahlitzsch, <title rend="italic">Graeci und Suriani im Palästina
+                                der Kreuzfahrerzeit</title> (Berliner Historische Studien 33;
+                            2001).</bibl>
+                        <bibl>K. M.  Setton <abbr>et al.</abbr> (<abbr>ed.</abbr>), <title rend="italic">A History of the
+                                Crusades</title> (6 vols.; 2nd <abbr>ed.</abbr> 1969–1989).</bibl>
+                        <bibl>H.  Teule, K.  Ciggaar, and A.  Davids (<abbr>ed.</abbr>), <title rend="italic">East and West in the Crusader states.
+                            <choice>
+                                    <sic>Context-contacts-confrontations</sic>
+                                    <corr>Context — contacts — confrontations</corr>
+                                </choice>
+                            </title> (<abbr>OLA</abbr> 75; 1996).</bibl>
+                        <bibl>H.  Teule <abbr>et al.</abbr> (<abbr>ed.</abbr>), <title rend="italic">The Syriac
+                                Renaissance</title> (<abbr>ECS</abbr> 9; 2010).</bibl>
+                        <bibl>Weltecke, <title rend="italic">Die «Beschreibung der
+                            Zeiten»</title>.</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Dorothea</forename> 
+                  <surname>Weltecke</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

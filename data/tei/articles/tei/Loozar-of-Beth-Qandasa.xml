@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Loʿozar of Beth Qandasa</title>
+            <author>
+               <persName>
+                  <forename>Lucas</forename> 
+                  <surname>Van Rompay</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.5">Electronic Edition Version 1.5</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Loʿozar of Beth Qandasa</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Loozar-of-Beth-Qandasa</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/342</idno>
+                    <idno type="entry">333</idno>
+                    <milestone unit="pages" n="252"/>
+                    <idno type="subject">http://syriaca.org/person/136</idno>
+                    <note type="type">person</note>
+                    <note type="abstract">Monk on the <placeName ref="http://syriaca.org/place/319">Holy Mountain of Edessa</placeName>, scholar, author of a commentary on
+                        the Pauline Epistles.<note/>
+                    </note>
+                </ab>
+                <ab type="infobox">(8th <abbr>cent.</abbr>?) [<abbr>Syr. Orth.</abbr>]</ab>
+                <div type="body">
+                    <p>Monk on the Holy Mountain of <ref rend="bold" target="https://gedsh.bethmardutho.org/Edessa">
+                            <placeName ref="http://syriaca.org/place/78">Edessa</placeName>
+                        </ref>, scholar,
+                        author of a commentary on the Pauline Epistles. The commentary is
+                        fragmentarily preserved in <abbr>ms.</abbr> Brit. Libr. Add. 14,683 (one of the <abbr>mss.</abbr>
+                        presented to <ref rend="bold" target="https://gedsh.bethmardutho.org/al-Suryan-Dayr">
+                            <placeName ref="http://syriaca.org/place/360">Dayr
+                            al-Suryān</placeName>
+                        </ref> by the Coptic <abbr>
+                            <choice>
+                                <sic>Patr.</sic>
+                                <corr>patr.</corr>
+                            </choice>
+                        </abbr> of Syr. descent Afrahām <abbr>b.</abbr> Zurʿa
+                        around 980). The commentary was divided into four parts and portions are
+                        preserved only for part 3 (Galatians, Philippians, Colossians, 1 and 2
+                        Thessalonians) and part 4 (Hebrews). A note written by one of Loʿozar’s
+                        disciples, Giwargis of Beth Naqe, gives information about his teacher, who
+                        is said to have been a scholar in the investigation of dogma (<hi rend="italic">buḥono d-dogma</hi>). The commentary, which is said to
+                        have been based on the work of <ref rend="bold" target="https://gedsh.bethmardutho.org/John-Chrysostom">
+                            <persName ref="http://syriaca.org/person/573">John
+                            Chrysostom</persName>
+                        </ref>, is provided with critical signs (dots and crosses) to
+                        assist with the interpretation. Inserted between the two parts is a
+                        chronological and historical section, which reaches until the accession of
+                        Caliph al-Mahdī (774) (E. W. Brooks in <abbr>CSCO</abbr> 5–6, 337– 341 [Syr.], 265–75
+                        [<abbr>LT</abbr>]). This section seems to provide a date for the composition of the work,
+                        if one assumes that it belonged to the original work. The scribe of the <abbr>ms.</abbr>,
+                        Ḥarith bar Sisin, of Sanbaṭ (probably in Egypt) and of <ref rend="bold" target="https://gedsh.bethmardutho.org/Harran">
+                            <placeName ref="http://syriaca.org/place/216">Ḥarran</placeName>
+                        </ref>, is also
+                        responsible for <abbr>ms.</abbr> Brit. Libr. Add. 14,682, a commentary on the Gospels of
+                        John and Mark, which was put together (<hi rend="italic">mkannaš</hi>) by
+                        Ḥarith on the basis of many sources, Christian and pagan (quoted are: John
+                        Chrysostom, <ref rend="bold" target="https://gedsh.bethmardutho.org/Yaqub-of-Serugh">
+                            <persName ref="http://syriaca.org/person/42">Yaʿqub of
+                            Serugh</persName>
+                        </ref>, <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Theodore-of-Mopsuestia">
+                            <persName ref="http://syriaca.org/person/780">Theodore
+                            of Mopsuestia</persName>
+                        </ref>, <ref rend="bold" target="https://gedsh.bethmardutho.org/Ephrem">
+                            <persName ref="http://syriaca.org/person/13">Ephrem</persName>
+                        </ref>, <ref rend="bold" target="https://gedsh.bethmardutho.org/Cyril-of-Alexandria">
+                            <persName ref="http://syriaca.org/person/430">Cyril of Alexandria</persName>
+                        </ref>, <choice>
+                            <sic>the Sibylline Oracles, and a work called
+                                ‘Hermes’</sic>
+                            <corr>extracts from a collection of ‘Prophecies of pagan philosophers’</corr>
+                        </choice>). The question then arises whether Ḥarith, the copyist of the
+                        commentary of <abbr>ms.</abbr> Add. 14,683, really was the redactor of the commentary of
+                        <abbr>ms.</abbr> Add. 14,682 (which then would be the redactor’s autograph). Or did he
+                        only copy the latter, as he did the former? Wright is inclined to see Ḥarith
+                        as the copyist of both commentaries and to attribute both works to Loʿozar
+                        (already in his <hi rend="italic">Catalogue</hi>, and more explicitly in his
+                            <hi rend="italic">Short history</hi>). Baumstark, however, refrains from
+                        accepting Loʿozar’s authorship of the Gospel commentary for lack of
+                        evidence. Barsoum agrees with Baumstark and regards Ḥarith as the redactor
+                        of the Gospel Commentary, whom he takes to be a Melkite on the basis of a
+                        passage in al-Masʿūdī (in <hi rend="italic">Murūj al-dhahab</hi>). To
+                        Loʿozar’s authorship of the commentary on the Pauline Epistles, one scholion
+                        can be added; it deals with the order of the Seraphs according to <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Dionysius-the-Areopagite-Pseudo-">Pseudo-Dionysius the Areopagite</ref> and it is explicitly
+                        attributed to him (preserved in <abbr>ms.</abbr> Brit. Libr. Add. 18,295, f. 149v; see
+                        also Barsoum, 366).</p>
+                    <p>Additional information about Loʿozar’s disciples or his school may be
+                        gathered from <abbr>ms.</abbr> Damascus, <abbr>Syr. Orth.</abbr>
+                        <abbr> Patr.</abbr> 12/23 (previously Jerusalem,
+                        St. Mark’s Monastery 123), which contains works by Pseudo-Dionysius and
+                        which was written by Yaʿqub bar Yonathan ‘in the school of (…) Rabban Mor
+                        (…) of Beth Qandasa’ <abbr>ca.</abbr> 890. The date of this <abbr>ms.</abbr> led Kaufhold to question
+                        Loʿozar’s traditional date (which is based solely on the chronological
+                        section inserted into his work) and to suggest that Loʿozar worked a few
+                        decades later than has generally been assumed (the alternative would be that
+                        Yaʿqub bar Yonathan was not Loʿozar’s immediate disciple).</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>Barsoum, <title rend="italic">Scattered pearls</title>,
+                            365–67.</bibl>
+                        <bibl>Baumstark, <title rend="italic">Literatur</title>, 271.</bibl>
+                        <bibl>
+                            <choice>
+                                <sic/>
+                                <corr>S. P. Brock, ‘A Syriac collection of prophecies of the pagan philosophers’, 
+                            <title rend="italic">OLP</title> 14 (1983), 203-246. (with a list of Loʿozar’s quotations on p. 213)
+                        </corr>
+                            </choice>
+                        </bibl>
+                        <bibl>H.  Kaufhold, ‘Zur Bedeutung Jerusalems für die Syrisch-Orthodoxe
+                            Kirche’, in <title rend="italic">L’idea di Gerusalemme nella
+                                spiritualità cristiana del Medioevo</title> (Pontificio Comitato di
+                            scienze storiche. Atti e documenti 12; 2003), 140–2.</bibl>
+                        <bibl>J. C.  McCullough, ‘Early Syriac commentaries on the New Testament
+                            (Part One)’, <title rend="italic">Theological Review</title> 5.1 (1982),
+                            21–22.</bibl>
+                        <bibl>Wright, <title rend="italic">Short history of Syriac
+                                literature</title>, 162–3.</bibl>
+                        <bibl>Wright, <title rend="italic">Catalogue … British Museum</title>, vol.
+                            2, 610a–612b (<abbr>ms.</abbr> Add. 14,683) and 608b–610a (<abbr>ms.</abbr> Add. 14,682); vol. 3,
+                            1184b (scholion attributed to Loʿozar).</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Lucas</forename> 
+                  <surname>Van Rompay</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

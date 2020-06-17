@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Yoḥannan of Dalyatha</title>
+            <author>
+               <persName>
+                  <forename>Brian Edric</forename> 
+                  <surname>Colless</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.5">Electronic Edition Version 1.5</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Yoḥannan of Dalyatha</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Yohannan-of-Dalyatha</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/610</idno>
+                    <idno type="entry">601</idno>
+                    <milestone unit="pages" n="441-442"/>
+                    <idno type="subject">http://syriaca.org/person/826</idno>
+                    <note type="type">person</note>
+                    <note type="abstract">Spiritual and mystical author.<note/>
+                    </note>
+                </ab>
+                <ab type="infobox">(8th <abbr>cent.</abbr>) [Ch. of E.]</ab>
+                <div type="body">
+                    <p>Commonly known as Yoḥannan Saba (‘Elder’). An E.-Syr. monk, author of a
+                        Syriac collection of mystical discourses, letters, and maxims (‘chapters of
+                        knowledge’). Born in Ardamut, a village northeast of <ref rend="bold" target="https://gedsh.bethmardutho.org/Mosul">
+                            <placeName ref="http://syriaca.org/place/139">Mosul</placeName>
+                        </ref>, in northern
+                        Iraq. As a youth he regularly visited the monastery of Mar Aphnimaran to
+                        read ascetical literature and to practice fasts and vigils. Eventually he
+                        entered the coenobium of Mar Yozadaq in the Qardu mountains (in present-day
+                        Turkey). After seven years he adopted the eremitic life in the mountains of
+                        Beth Dalyatha (‘house of the vine-branches’), north of Qardu. In his old age
+                        he returned to Qardu, where a group of monks made him their abbot, until his
+                        death. His ascetic writings circulated anonymously (by ‘the spiritual
+                        elder’) and were translated into Arabic and Ethiopic. Some of his homilies
+                        slipped into the Greek collection of <ref rend="bold" target="https://gedsh.bethmardutho.org/Ishaq-of-Nineveh">
+                            <persName ref="http://syriaca.org/person/550">Isḥaq of
+                            Nineveh</persName>
+                        </ref> and thence into Latin and other languages of medieval
+                        Europe. His writings have survived only in W.-Syr. <abbr>mss.</abbr>, presumably because
+                        his works were banned by <ref rend="bold" target="https://gedsh.bethmardutho.org/Timotheos-I">
+                            <persName ref="http://syriaca.org/person/790">Timotheos I</persName>
+                        </ref>,
+                        <abbr>
+                            <choice>
+                                <sic>Cath.</sic>
+                                <corr>cath.</corr>
+                            </choice>
+                        </abbr> of the <abbr>Ch. of E.</abbr>, in 786/7. He prescribed a spiritual path beginning
+                        with repentance and ascetic exercises, progressing through purity and
+                        serenity, and culminating in perfection. His system was based on guidelines
+                        in the Sermon on the Mount: ‘Be perfect as your heavenly Father is perfect’
+                        (Mt 5:48); ‘Blessed are the pure in heart, for they shall see God’ (Mt 5:8),
+                        ‘in their heart’, Yoḥannan mystically adds.</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>R.  Beulay, <title rend="italic">La collection des Lettres de
+                                Jean de Dalyatha</title> (<abbr>PO</abbr> 39.3; 1978).</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>R.  Beulay</reg>
+                        <orig>idem</orig>
+                     </choice>, <title rend="italic">L’enseignement spirituel de Jean de
+                                Dalyatha, mystique syro-oriental du VIIIe siècle</title>
+                            (1990).</bibl>
+                        <bibl>B. E.  Colless, ‘The Biographies of John Saba’, <title rend="italic">
+                                <abbr>ParOr</abbr>
+                            </title> 3 (1972), 45–63.</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>B. E.  Colless</reg>
+                        <orig>idem</orig>
+                     </choice>, <title rend="italic">The wisdom of the pearlers. An anthology of
+                                Syriac Christian mysticism</title> (Cistercian Studies Series 216;
+                            2008), 96–9, 149–170. (incl. <abbr>ET</abbr>)</bibl>
+                        <bibl>M.  Hansbury, <title rend="italic">The Letters of John of
+                                Dalyatha</title> (2006). (Syr. with <abbr>ET</abbr>)</bibl>
+                        <bibl>N.  Khayyat, <title rend="italic">Jean de Dalyatha: Les Homélies
+                                I–XV</title> (2007). (Syr. with <abbr>FT</abbr>)</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Brian Edric</forename> 
+                  <surname>Colless</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Ishoʿyahb III of Adiabene</title>
+            <author>
+               <persName>
+                  <forename>Sebastian P.</forename> 
+                  <surname>Brock</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.5">Electronic Edition Version 1.5</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Ishoʿyahb III of Adiabene</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Ishoyahb-III-of-Adiabene</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/298</idno>
+                    <idno type="entry">289</idno>
+                    <milestone unit="pages" n="218-219"/>
+                    <idno type="subject">http://syriaca.org/person/561</idno>
+                    <note type="type">person</note>
+                    <note type="abstract">
+                        <abbr>Patr.</abbr> (649-59), author, and liturgical reformer.<note/>
+                    </note>
+                </ab>
+                <ab type="infobox">(d. 659) [Ch. of E.]</ab>
+                <div type="body">
+                    <p>
+                        <abbr>Patr.</abbr> (649–59), author, and liturgical reformer. He was born in Kuplana (on
+                        the Greater Zab, in <ref rend="bold" target="https://gedsh.bethmardutho.org/Adiabene">
+                            <placeName ref="http://syriaca.org/place/993">Adiabene</placeName>
+                        </ref>), the son
+                        of a prominent landowner named Bastomag. He became a monk of the nearby <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Beth-Abe-Monastery-of">
+                            <placeName ref="http://syriaca.org/place/223">Monastery of Beth ʿAbe</placeName>
+                        </ref>, but was appointed <abbr>bp.</abbr> of <ref rend="bold" target="https://gedsh.bethmardutho.org/Nineveh">
+                            <placeName ref="http://syriaca.org/place/144">Nineveh</placeName>
+                        </ref> (<abbr>ca.</abbr> 629),
+                        and a decade or so later, metropolitan of <ref rend="bold" target="https://gedsh.bethmardutho.org/Arbela">
+                            <placeName ref="http://syriaca.org/place/13">Arbela</placeName>
+                        </ref>, finally to
+                        become <abbr>
+                            <choice>
+                                <sic>Cath.</sic>
+                                <corr>cath.</corr>
+                            </choice>
+                        </abbr> in 649. He is credited with many liturgical reforms, though the
+                        nature and extent of these is unclear; it seems that, among other things, it
+                        was he who limited the number of Anaphoras in use to the present three. In
+                        his ‘Catalogue’  <ref rend="bold" target="https://gedsh.bethmardutho.org/Abdisho-bar-Brikha">
+                            <persName ref="http://syriaca.org/person/310">ʿAbdishoʿ</persName>
+                        </ref> attributes to him the
+                        arrangement of the <hi rend="italic">Ḥudrā</hi>, the Baptismal Liturgy, and
+                        rite for the Consecration of a new church; this attribution is also found in
+                        the <abbr>mss.</abbr> of all these, but the emergence of these liturgical books is likely
+                        to have been much more complex (in the case of the Baptismal Service, the
+                        <abbr>mss.</abbr> record a further reform by the <abbr>Cath.</abbr> Eliya  III [1176–90]). A set of
+                        Questions and Answers on liturgical topics (in <abbr>ms.</abbr> Mingana Syr. 566) is also
+                        attributed to him, but Van Unnik, who edited them, showed that they must
+                        belong to a later date, and he allocated them to <ref rend="bold" target="https://gedsh.bethmardutho.org/Ishoyahb-IV">
+                            <persName ref="http://syriaca.org/person/562">Ishoʿyahb
+                        IV</persName>
+                        </ref>.</p>
+                    <p>Ishoʿyahb III is much more certainly the author of a long ‘Life of
+                        Ishoʿsabran’, a martyr of the late Sasanian Empire (<abbr>ed.</abbr> Chabot, with French
+                        summary), and of a collection of 106 Letters (<abbr>ed.</abbr> R. Duval, with <abbr>LT</abbr>). The
+                        Letters are arranged chronologically in three groups, those written while he
+                        was <abbr>bp.</abbr> (52), while he was metropolitan (32), and while he was <abbr>
+                            <choice>
+                                <sic>Cath.</sic>
+                                <corr>cath.</corr>
+                            </choice>
+                        </abbr> (22),
+                        though the chronological allocation in some cases cannot be correct. These
+                        convey a great deal of information about the life of the <abbr>Ch. of E.</abbr> during
+                        the period of the transition from Persian to Arab rule. (The edition by P.
+                        Scott-Moncrieff [1904] of Ishoʿyahb’s letters written while he was <abbr>bp.</abbr> omits
+                        Letters 1 and 12 in Duval’s edition; he gives handy brief summaries in
+                        English of each letter. His projected full translation never appeared).</p>
+                </div>
+                <div type="bibl">
+                    <listBibl>
+                        <listBibl>
+                            <head>Primary Sources</head>
+                            <bibl>J.-B.  Chabot, ‘Histoire de Jésus-Sabran, écrite par Jésus-yab
+                                d’Adiabène’, <title rend="italic">Nouvelles archives des missions
+                                    scientifiques et littéraires</title> 7 (1897), 485–584.</bibl>
+                            <bibl>R.  Duval, <title rend="italic">Isho ʿyahb III, Liber
+                                    Epistularum</title> (<abbr>CSCO</abbr> 11–12; 1904–1905). (with <abbr>LT</abbr>)</bibl>
+                        </listBibl>
+                        <listBibl>
+                            <head>Secondary Sources</head>
+                            <bibl> J.-M.  Fiey, ‘Ishoʿyaw le Grand. Vie du Catholicos nestorien’,
+                                    <title rend="italic">
+                                    <abbr>OCP</abbr>
+                                </title> 35 (1969), 503–33; 36 (1970),
+                                5–46.</bibl>
+                            <bibl>O. Ioan, <title rend="italic">Muslime und Araber bei Išojahb III.
+                                    (649–659)</title> (2009).</bibl>
+                            <bibl>H. G. B.  Teule, ‘Ishoʿyahb III of Adiabene’, in <title rend="italic">Christian-Muslim relations</title>, <abbr>ed.</abbr> Thomas and
+                                Roggema, 133–6.</bibl>
+                            <bibl>D. W.  Winkler, ‘Die Christologie des ostsyrischen Katholikos
+                                Ishoʿyahb von Adiabene’, in <title rend="italic">
+                                    <abbr>StPatr</abbr>
+                                </title>, 
+                                vol. 35 (2001), 516–26.</bibl>
+                        </listBibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Sebastian P.</forename> 
+                  <surname>Brock</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

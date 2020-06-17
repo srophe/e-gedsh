@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Exegesis, New Testament</title>
+            <author>
+               <persName>
+                  <forename>Craig E.</forename> 
+                  <surname>Morrison</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.5">Electronic Edition Version 1.5</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Exegesis, New Testament</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Exegesis-New-Testament</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/216</idno>
+                    <idno type="entry">207</idno>
+                    <milestone unit="pages" n="160-163"/>
+                    <idno type="althead" subtype="altorder">New Testament Exegesis</idno>
+                    <note type="type">subject</note>
+                    <note type="abstract">Syriac-speaking Christians have employed various exegetical strategies for
+                        interpreting their biblical canon.<note/>
+                    </note>
+                </ab>
+                <div type="body">
+                    <p>Syriac-speaking Christians, like Christians and Jews of every generation,
+                        have employed various exegetical strategies for interpreting their biblical
+                        canon. Their exegetical literature includes not only prose commentaries but
+                        also hymns, verse homilies, dialogue poems, treatises, commentaries on the
+                        lectionary cycle of biblical readings, and the Syriac versions of the <abbr>NT</abbr>.
+                        The astute biblical insights of early writers, such as <ref rend="bold" target="https://gedsh.bethmardutho.org/Ephrem">
+                            <persName ref="http://syriaca.org/person/13">Ephrem</persName>
+                        </ref> and <ref rend="bold" target="https://gedsh.bethmardutho.org/Yaqub-of-Serugh">
+                            <persName ref="http://syriaca.org/person/42">Yaʿqub of Serugh</persName>
+                        </ref>, were extolled by subsequent authors who
+                        recycled their ideas in later prose commentaries. Since most Syriac authors
+                        were rarely explicit about their hermeneutical approach, their methods for
+                        interpreting the Bible are uncovered by studying their works.</p>
+                    <label type="subsection">Early Syriac Literature</label>
+                    <p>The history of the reception of the <abbr>NT</abbr> in the Syriac-speaking world begins
+                        with the Syriac translations of the Greek text of the Gospels. These
+                        translations introduced (or perhaps preserved) interpretations of the
+                        Gospels that are no longer found (or were never found) in the Greek text.
+                        For example, <ref rend="bold" target="https://gedsh.bethmardutho.org/Tatian">
+                            <persName ref="http://syriaca.org/person/771">Tatian</persName>
+                        </ref>’s <ref rend="bold" target="https://gedsh.bethmardutho.org/Diatessaron">Diatessaron</ref> (2nd <abbr>cent.</abbr>) reports that John the Baptist (Mark 1:6) consumed milk and honey
+                        (not locusts and wild honey), which links his diet to the foods of the
+                        Promised Land (Deut. 6:3). The Old Syriac Gospels (<hi rend="italic">Ewangelion da-mparrše</hi>), also known as the <hi rend="italic">Vetus
+                            Syra</hi>, report that Barabbas was imprisoned for murder and <hi rend="italic">heresy </hi>(Luke 23:25 [Curetonian]), a reading that may
+                        allude to the theological controversies at the time of this translation.
+                        Much of early Christian Syriac literature, though not explicitly exegetical,
+                        is in dialogue with the <abbr>NT</abbr>. The elusive <ref rend="bold" target="https://gedsh.bethmardutho.org/Solomon-Odes-of">Odes of
+                            Solomon</ref> (2nd <abbr>cent.</abbr>), a group of 42 liturgical poems (a few of which
+                        are also known in Greek and Coptic), show traces of early interpretations of
+                        the <abbr>NT</abbr>, such as the extended meditation on the virgin birth of Jesus in Ode
+                        19. In the ‘<ref rend="bold" target="https://gedsh.bethmardutho.org/Thomas-Acts-of">Acts of
+                            Thomas</ref>’ (3rd <abbr>cent.</abbr>), the apostle Thomas sprinkles his farewell
+                        discourse with phrases from the <abbr>NT</abbr> allowing scholars to observe how these <abbr>NT</abbr>
+                        verses were interpreted in early Syriac Christianity. Particularly important
+                        for the author of the ‘Acts of Thomas’ were passages that promoted an
+                        encratic lifestyle such as Matt. 5:3 and 5 (ch. 94), 6:34 (ch. 28), and
+                        11:29 (ch. 28 and 86).</p>
+                    <label type="subsection">Aphrahaṭ and Ephrem</label>
+                    <p>
+                        <ref rend="bold" target="https://gedsh.bethmardutho.org/Aphrahat">
+                            <persName ref="http://syriaca.org/person/10">Aphrahaṭ</persName>
+                        </ref>, who called himself a ‘student of Holy Scriptures’
+                        (Dem.22, §26), composed twenty-three ‘Demonstrations’ (337–45) that rely
+                        heavily on the Bible (he cites the <abbr>NT</abbr> approximately 700 times). Reading the
+                        Bible as an integral book, he illustrates its integrity through numerous
+                        ‘exemplary sequences’ (Murray 1977) in which characters from the <abbr>NT</abbr> find
+                        their precursors in the <abbr>OT</abbr>. He can focus on particular passages, as in the
+                        Fifth Demonstration (‘On Wars’), which is an exegesis of Dan. 2, 7, and 8.
+                        His exegesis is driven by a concern for practical questions of Christian
+                        life, such as prayer, fasting, humility, and the relations between Jews and
+                        Christians. For this reason, he exhorts his audience to put biblical
+                        precepts into practice: ‘My friends, it is not sufficient that we learn to
+                        read the books of God [<choice>
+                            <sic>i.e. </sic>
+                            <corr>i.e., </corr>
+                        </choice>the Bible], rather, we must do them!’ (Dem. 14,
+                        §32).</p>
+                    <p>The first running Syriac commentary is Ephrem’s ‘Commentary on the
+                        Diatessaron’ (4th <abbr>cent.</abbr>), most of which survives in Syriac. He also wrote
+                        commentaries on the Acts of the Apostles and Paul’s letters (surviving in
+                        Armenian). Like most Syriac commentators, Ephrem does not remark on every
+                        verse, rather, employing a close reading of the text, he explains difficult
+                        verses and unravels conundrums. He distinguishes between the factual (or
+                        historical) and spiritual interpretations. The former focuses on the details
+                        in the biblical passage, the persons involved, and their historical
+                        circumstances, while the latter seeks to uncover the eternal truths within
+                        the text (Brock 2006). Aphrahaṭ (Dem. 5, §25 and Dem. 22, §26) and Ephrem
+                        (Comm. Diat.<hi rend="italic">,</hi>ch 1,18–9) would agree that while the
+                        factual interpretation of the Bible is essential, the sacred text permits
+                        innumerable spiritual interpretations. Ephrem can use his exegesis to engage
+                        in polemics against his adversaries such as the Marcionites, the followers
+                        of <ref rend="bold" target="https://gedsh.bethmardutho.org/Mani">
+                            <persName ref="http://syriaca.org/person/608">Mani</persName>
+                        </ref>,
+                        and those he calls Arians in order to defend Nicene orthodoxy
+                        (Shepardson).</p>
+                    <p>Like Aphrahaṭ, Ephrem interprets the Bible as an integral text: comparing and
+                        contrasting different scenes of the Bible, especially between the Old and
+                        New Testaments. Events in the <abbr>OT</abbr> prefigure (*<hi rend="italic">ṣwr</hi> and
+                            *<hi rend="italic">rmz</hi>) <abbr>NT</abbr> events and terms such as <hi rend="italic">rāzā</hi> ‘symbol’ or ‘mystery’, and <hi rend="italic">ṭupsā</hi> ‘type’ are used to penetrate the meaning of such events.
+                        These <hi rend="italic">rāze</hi>, or ‘mysteries’, are not enigmas or
+                        inscrutable quandaries; the term <hi rend="italic">rāzā</hi> is already
+                        found in Dan. 2:17–9 which reports that Nebuchadnezzar’s dream, along with
+                        its meaning, was a <hi rend="italic">rāzā</hi>, the significance of which
+                        could only be revealed by God. The <hi rend="italic">rāze</hi> drawn from
+                        nature prompt the believer to contemplate the divine. Thus, Ephrem teaches
+                        his audience how the natural characteristics of the olive tree illuminate
+                        the mystery of Christ (<hi rend="italic">rāz mšiḥā</hi>; Comm. Diat.<hi rend="italic">,</hi> ch. 21,11).</p>
+                    <p>Also in the 4th <abbr>cent.</abbr> dramatic dialogue poems, many of which are anonymous
+                        (though they are sometimes ascribed to <ref rend="bold" target="https://gedsh.bethmardutho.org/Narsai">
+                            <persName ref="http://syriaca.org/person/650">Narsai</persName>
+                        </ref>), pictured
+                        imaginary exchanges between two biblical characters. One such poem extends
+                        the conversation between Mary and the angel Gabriel in order to draw out the
+                        theological implications of the annunciation and Mary’s role in the economy
+                        of salvation.</p>
+                    <label type="subsection">
+                        <choice>
+                            <sic>Fifth and Sixth Century</sic>
+                            <corr>Fifth- and Sixth-Century</corr>
+                        </choice> Exegesis</label>
+                    <p>By the mid-5th <abbr>cent.</abbr>, the works of the Antiochene exegete, <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Theodore-of-Mopsuestia">
+                            <persName ref="http://syriaca.org/person/780">Theodore
+                            of Mopsuestia</persName>
+                        </ref> (d. 428), had been translated into Syriac. Theodore
+                        opposed the allegorical interpretation of the Alexandrian school in favor of
+                        a literal sense that takes into account the historicity of the passage and
+                        places less emphasis on the Christological interpretation of the <abbr>OT</abbr> (his
+                        ‘Commentary on the Gospel of John’ survives in Syriac). When emperor Zeno
+                        closed the <ref rend="bold" target="https://gedsh.bethmardutho.org/Edessa-School-of">School of
+                            Edessa</ref> for its adherence to Theodore’s theology (489), the school
+                        was reestablished at <ref rend="bold" target="https://gedsh.bethmardutho.org/Nisibis">
+                            <placeName ref="http://syriaca.org/place/142">Nisibis</placeName>
+                        </ref>, just
+                        inside the Persian border, under the direction of Narsai (d. <abbr>ca.</abbr> 500). The
+                        establishment of this school would lead to distinct E.- and W.-Syr.
+                        exegetical traditions. Narsai wrote over three hundred verse homilies (<hi rend="italic">memre</hi>) in many of which he recast particular biblical
+                        passages, including several Gospel parables, with dramatic style. His
+                        exegesis has much in common with Theodore’s: events in the <abbr>OT</abbr> must be seen
+                        in their context before they are considered as types for <abbr>NT</abbr> events.</p>
+                    <p>Yaʿqub of Serugh (d. 521), though schooled in <ref rend="bold" target="https://gedsh.bethmardutho.org/Edessa">
+                            <placeName ref="http://syriaca.org/place/78">Edessa</placeName>
+                        </ref> in the
+                        dyophysite Christology with Narsai, resisted Antiochene exegesis and the
+                        Chalcedonian formula. Like Narsai, he composed verse homilies (<hi rend="italic">memre</hi>) in metered couplets of 7 + 7 or 12 + 12 on
+                        biblical topics. He engaged the Bible with a close reading in which he
+                        explored the meaning of a single verse or word in relationship to other
+                        passages from the entire biblical canon (similar to Ephrem). Thus, when
+                        David selects rocks to sling at Goliath (1 Sam. 17:40), Yaʿqub sees the rock
+                        as Christ, a reference to 1 Cor. 10:4 in which Paul alludes to Ex. 17:6 and
+                        Num. 20:7–13 (David and Goliath; <hi rend="italic">Memrā</hi> 34). This
+                        complex interrelationship among four biblical verses illustrates how, for
+                        Yaʿqub, the Bible, an integral text, is best interpreted through an
+                        intertextual, typological approach.</p>
+                    <label type="subsection">The E.-Syr. Exegetical Tradition</label>
+                    <p>Adhering to the E.-Syr. tradition of Theodore of Mopsuestia and Narsai, <ref rend="bold" target="https://gedsh.bethmardutho.org/Theodoros-bar-Koni">
+                            <persName ref="http://syriaca.org/person/783">Theodoros bar Koni</persName>
+                        </ref> (8th <abbr>cent.</abbr>), a teacher at the school in
+                        Kashkar, wrote the ‘Book of the Scholion’ (792) which comprises 11 <hi rend="italic">memre</hi>, four of which treat the <abbr>NT</abbr>. This work consists
+                        of questions and answers (a format well-known in E.-Syr. exegesis; Griffith
+                        1982, 59) on individual or collections of biblical books. The <abbr>NT</abbr> chapters
+                        discuss the Gospels, the Acts of the Apostles, and difficult passages in
+                        Paul’s Letters. His hermeneutical approach is explicitly typological: words
+                        and events in the <abbr>OT</abbr> are types and allegories for Christ’s salvific role in
+                        the <abbr>NT</abbr>. His exegesis seeks to defend the doctrines that were of interest to
+                        Theodore of Mopsuestia and the E.-Syr. exegetical tradition, though he also
+                        quotes <ref rend="bold" target="https://gedsh.bethmardutho.org/John-Chrysostom">
+                            <persName ref="http://syriaca.org/person/573">John
+                            Chrysostom</persName>
+                        </ref> and Origen.</p>
+                    <p>In the mid-9th <abbr>cent.</abbr>, <ref rend="bold" target="https://gedsh.bethmardutho.org/Ishodad-of-Merv">
+                            <persName ref="http://syriaca.org/person/555">Ishoʿdad of
+                            Merv</persName>
+                        </ref> wrote commentaries on most of the <abbr>NT</abbr>, integrating the works
+                        of previous authors including Ephrem, <ref rend="bold" target="https://gedsh.bethmardutho.org/Basil-of-Caesarea">
+                            <persName ref="http://syriaca.org/person/376">Basil of
+                            Caesarea</persName>
+                        </ref> and the Cappadocians, John Chrysostom, and several
+                        unknown sources. He adhered to the exegetical approach of Theodore of
+                        Mopsuestia. The <ref rend="bold" target="https://gedsh.bethmardutho.org/Gannat-Bussame">Gannat
+                            Bussāme</ref> is an anonymous, lengthy commentary that compiles E.-Syr.
+                        exegetical traditions according to the cycle of biblical texts in the
+                        liturgical year. Its date is disputed; it may be as early as the 10th <abbr>cent.</abbr>
+                        It includes texts from Ephrem, <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Gregory-of-Nazianzus">
+                            <persName ref="http://syriaca.org/person/511">Gregory of
+                            Nazianzus</persName>
+                        </ref>, and especially Ishoʿdad of Merv. The writings of
+                        several E.-Syr. exegetes are only known through quotations in the <hi rend="italic">Gannat Bussāme</hi>. This repository of exegetical
+                        traditions influenced successive generations of Syriac authors.</p>
+                    <label type="subsection">The W.-Syr. Exegetical Tradition</label>
+                    <p>The W.-Syr. tradition steered closer to the exegetical approach of
+                        Alexandrian exegetes, the Cappadocians, and John Chrysostom. A contemporary
+                        of Yaʿqub of Serugh, <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Philoxenos-of-Mabbug">
+                            <persName ref="http://syriaca.org/person/44">Philoxenos
+                            of Mabbug</persName>
+                        </ref> (d. 523) wrote Gospel commentaries (surviving in
+                        fragments). Because he viewed the <ref rend="bold" target="https://gedsh.bethmardutho.org/Peshitta">Peshitta</ref> as
+                        unsatisfactory for theological argumentation, he initiated a new translation
+                        of the Greek <abbr>NT</abbr> into Syriac (known as the Philoxenian version of which only
+                        fragments survive) that included the Minor Catholic Epistles and Revelation.
+                        His commentaries, in which he focuses on the plain sense and context of a
+                        passage, are closer to polemical homilies than to a verse-by-verse exegesis
+                        (McCullough, 19–21). Much of the works of <ref rend="bold" target="https://gedsh.bethmardutho.org/Mushe-bar-Kipho">
+                            <persName ref="http://syriaca.org/person/173">Mushe bar
+                            Kipho</persName>
+                        </ref> (d. 903), who commented on the entire Bible, have been lost,
+                        though his commentaries on John, Luke and Acts along with part of the
+                        commentary on Matthew survive. He stands at the crossroads of W.-Syr.
+                        exegesis: as a compiler who brought together earlier exegetical traditions
+                        and as one who would influence later Syriac authors. <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Dionysios-bar-Salibi">
+                            <persName ref="http://syriaca.org/person/212">Dionysios
+                            bar Ṣalibi</persName>
+                        </ref> (d. 1171), who knew Mushe bar Kipho’s works, wrote
+                        commentaries on the entire <abbr>NT</abbr>. His aim was to summarize the exegetical
+                        insights of previous authors, though his main source may have been Ishoʿdad
+                        of Merv (McCullough, 83). Finally, in 1277 the polymath <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Bar-Ebroyo-Grigorios">
+                            <persName ref="http://syriaca.org/person/239">Bar
+                            ʿEbroyo</persName>
+                        </ref> (d. 1286) completed his ‘Storehouse of Mysteries’, a
+                        collection of exegetical remarks on the entire Bible that reaches back into
+                        Syriac exegetical tradition to quote Ephrem, Yaʿqub of Serugh, Philoxenos,
+                        and even the E.-Syr. writer Ishoʿdad of Merv, though he was largely
+                        dependent on Dionysios bar Ṣalibi.</p>
+                    <label type="subsection">Conclusion</label>
+                    <p>The Bible has held a central place in Syriac literature as this brief history
+                        of the reception of the <abbr>NT</abbr> demonstrates. Early Syriac writers such as
+                        Aphrahaṭ, Ephrem, and Yaʿqub of Serugh knew the Bible well, having committed
+                        much of it to memory, and their writings witness to a close reading of it.
+                        They focused on the factual or historical sense of a passage and then
+                        perceived the <hi rend="italic">rāze</hi> ‘mysteries’ within it that could
+                        give rise to spiritual interpretations. Syriac exegesis came under the
+                        increasing influence of the Greek Fathers. A century and a half after
+                        Ephrem, Philoxenos of Mabbug insisted on a new translation of the <abbr>NT</abbr> that
+                        was closer to the Greek. A century after that <ref rend="bold" target="https://gedsh.bethmardutho.org/Tumo-of-Harqel">
+                            <persName ref="http://syriaca.org/person/87">Tumo of
+                            Harqel</persName>
+                        </ref> revised the Philoxenian version (AD 616) mirroring the
+                        Greek text in Syriac at the expense of good Syriac idiom. But even as more
+                        Greek authors were translated into Syriac, later Syriac writers continued to
+                        revere the works of their cultural ancestors, such as Ephrem and Yaʿqub of
+                        Serugh, reprising their exegetical insights for successive generations
+                        including our own.</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>T.  Baarda, <title rend="italic">The Gospel quotations of
+                                Aphrahat the Persian Sage</title>, vol. 1. <title rend="italic">Aphrahat’s text of the fourth Gospel</title> (1975).</bibl>
+                        <bibl>B. M.  Boulos Sony, ‘La méthode exégétique de Jacques de Saroug’,
+                                <title rend="italic">
+                                <abbr>ParOr</abbr>
+                            </title> 9 (1979–1980), 67–103.</bibl>
+                        <bibl>S. P.  Brock, <title rend="italic">The Luminous Eye: The Spiritual
+                                World Vision of Saint Ephrem the Syrian</title> (Cistercian Studies
+                            Series 124; 1992).</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>S. P.  Brock</reg>
+                        <orig>idem</orig>
+                     </choice>, <title rend="italic">Bride of Light. Hymns on Mary from the
+                                Syriac Churches</title> (Moran Etho 6; 1994).</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>S. P.  Brock</reg>
+                        <orig>idem</orig>
+                     </choice>, <title rend="italic">The Bible in the Syriac tradition</title>
+                            (Gorgias Handbooks 7; 2006).</bibl>
+                        <bibl>J.  Frishman, ‘Type and reality in the exegetical homilies of Mar
+                            Narsai’, in <title rend="italic">
+                                <abbr>StPatr</abbr>
+                            </title>, vol. 20, <abbr>ed.</abbr> E. A.
+                            Livingstone (1989), 169–75.</bibl>
+                        <bibl>S. H.  Griffith, ‘Theodore bar Koni’s Scholion: a Nestorian Summa
+                            contra gentiles from the first Abbasid century’, in <title rend="italic">East of Byzantium</title>, <abbr>ed.</abbr> Garsoian <abbr>et al.</abbr>, 53–72.</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>S. H.  Griffith</reg>
+                        <orig>idem</orig>
+                     </choice>, <title rend="italic">‘Faith Adoring the Mystery’: Reading the
+                                Bible with St. Ephraem the Syrian</title> (The Père Marquette
+                            Lecture in Theology; 1997).</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>S. H.  Griffith</reg>
+                        <orig>idem</orig>
+                     </choice>, ‘Ephraem the Exegete (306–373): Biblical Commentary in the Works
+                            of Ephraem the Syrian’, in <title rend="italic">Handbook of Patristic
+                                Exegesis: The Bible in Ancient Christianity</title>, <abbr>ed.</abbr> C.
+                            Kannengiesser (2006), 1395–1428.</bibl>
+                        <bibl>C.  McCarthy, <title rend="italic">St. Ephrem’s Commentary on Tatian’s
+                                Diatessaron: An English translation of Chester Beatty Syriac MS
+                                709</title> (1993).</bibl>
+                        <bibl>J. C.  McCullough, ‘Early Syriac Commentaries on the New Testament’,
+                            I–II, <title rend="italic">Near East School of Theology, Theological
+                                Review</title> 5 (1982), 14–33 and 79–126.</bibl>
+                        <bibl>C. E.  Morrison, ‘The Bible in the hands of Aphrahat the Persian
+                            Sage’, in <title rend="italic">Syriac and Antiochian exegesis and
+                                biblical theology for the 3rd Millennium</title>, <abbr>ed.</abbr> R. D. Miller
+                            (<abbr>ECS</abbr> 6; 2008), 1–25.</bibl>
+                        <bibl>Murray, <title rend="italic">Symbols</title>.</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>C. E.  Morrison</reg>
+                        <orig>idem</orig>
+                     </choice>, ‘Rhetorical patterns in early Syriac literature’, in <title rend="italic">A Tribute to Arthur Vööbus</title>, <abbr>ed.</abbr> Fischer
+                            (1977), 109–31.</bibl>
+                        <bibl>Reinink, <title rend="italic">Studien zur Quellen- und
+                                Traditionsgeschichte</title>.</bibl>
+                        <bibl>F. Rilliet, ‘Rhétorique et style à l’époque de Jacques de Saroug’, in
+                                <abbr>
+                                <title rend="italic">SymSyr</title> IV</abbr>, 289–95.</bibl>
+                        <bibl>C.  Shepardson, <title rend="italic">Anti-Judaism and Christian
+                                Orthodoxy: Ephrem’s Hymns in fourth-century Syria</title> (Patristic
+                            Monograph Series 20; 2008).</bibl>
+                        <bibl>L.  Van  Rompay, ‘La littérature exégètique syriaque et le rap<hi rend="superscript"/>prochement des traditions syrienne-orientale et
+                            syrienne-occidentale’, <title rend="italic">
+                                <abbr>ParOr</abbr>
+                            </title> 20 (1995),
+                            221–35.</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>L.  Van  Rompay</reg>
+                        <orig>idem</orig>
+                     </choice>, ‘The Christian Syriac Tradition of Interpretation’, in <title rend="italic">Hebrew Bible / Old Testament: The History of its
+                                Interpretation</title>, <abbr>ed.</abbr> M. Sæbø <abbr>et al.</abbr>, I.1 (1996),
+                            612–41.</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>L.  Van  Rompay</reg>
+                        <orig>idem</orig>
+                     </choice>, ‘Development of Biblical Interpretation in the Syrian Churches
+                            of the Middle Ages’, in <title rend="italic">Hebrew Bible / Old
+                                Testament: The History of its Interpretation</title>, <abbr>ed.</abbr> M. Sæbø et
+                            al., I.2 (2000), 559–77.</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Craig E.</forename> 
+                  <surname>Morrison</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

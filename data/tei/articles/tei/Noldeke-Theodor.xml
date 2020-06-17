@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Nöldeke, Theodor</title>
+            <author>
+               <persName>
+                  <forename>Hubert</forename> 
+                  <surname>Kaufhold</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.5">Electronic Edition Version 1.5</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Nöldeke, Theodor</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Noldeke-Theodor</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/411</idno>
+                    <idno type="entry">402</idno>
+                    <milestone unit="pages" n="312-313"/>
+                    <idno type="althead" subtype="altorder">Theodor Nöldeke</idno>
+                    <idno type="subject">http://syriaca.org/person/661</idno>
+                    <note type="type">person</note>
+                    <note type="abstract">Influential German Syriac scholar.<note>brief</note>
+                    </note>
+                </ab>
+                <ab type="infobox">(1836–1930)</ab>
+                <div type="body">
+                    <p>German Semitist. Nöldeke was born in Harburg (near Hamburg) on 2 March 1836
+                        and died in Karlsruhe on 25 Dec. 1930. In 1853, he began the study of
+                        classical and Near Eastern languages in Göttingen, where he earned his
+                        doctoral degree in 1856. Starting in 1856, he undertook trips to Leipzig,
+                        Vienna, Leiden, Gotha, and Berlin, mainly to study Arabic and Turkish <abbr>mss.</abbr>
+                        Between 1858 and 1860, he was an assistant at the Königliche Bibliothek
+                        (Royal Library) in Berlin, and from 1860 at the University Library in
+                        Göttingen. In 1861, he became a <hi rend="italic">Privatdozent</hi>
+                        (university lecturer) for Semitic languages at Göttingen. In 1864 followed
+                        his appointment as professor of Near Eastern languages at the University of
+                        Kiel, and in 1872 at the newly founded German University of Strasbourg in
+                        the Alsace. After his retirement, in 1906, he first stayed in Strasbourg,
+                        until 1920, and then moved to Karlsruhe.</p>
+                    <p>In his earliest writings, Nöldeke dealt with the Qurʾān. His main publication
+                        in this field <hi rend="italic">Geschichte des Qorans</hi> (History of the
+                        Qurʾān) first appeared in 1860 and provided a new, solid foundation for
+                        research on the Qurʾān. Other projects concerned Arabic poetry and fable
+                        research. In 1896, a study on the classical Arabic language appeared.</p>
+                    <p>During his time in Kiel, where he also taught Old Testament and Sanskrit, and
+                        where the University Library had rich Syriac holdings, his interests in
+                        Aramaic became more prominent. It is in this period that he laid the
+                        foundations for his scholarly work on Syriac, Neo-Syriac, and Mandaic. As
+                        early as 1868, he published his <hi rend="italic">Grammatik der neusyrischen
+                            Sprache am Urmia-See und in Kurdistan</hi> (Grammar of the Neo-Syriac
+                        language at Lake Urmia and in Kurdistan), which was based on the
+                        publications of the American missionaries. His <hi rend="italic">Mandäische
+                            Grammatik</hi> (Mandaic Grammar) followed in 1875. On the basis of his
+                        extensive readings in Syriac literature, he wrote his Syriac Grammar, the
+                        first edition of which appeared in 1880 and the second expanded edition in
+                        1898. Without going into too much linguistic detail, its focus is on syntax,
+                        amply documented with textual references. As such it remains a unique tool
+                        up to the present day. An English translation appeared in 1904. Even though
+                        the content of Syriac literature — to which he devoted a short survey essay
+                        in 1906 — did not strongly appeal to him, he devoted studies to individual
+                        works such as the <ref rend="bold" target="https://gedsh.bethmardutho.org/Alexander-Cycle">Alexander</ref> Romance, <ref rend="bold" target="https://gedsh.bethmardutho.org/Julian-Romance">Julian
+                            Romance</ref>, the <ref rend="bold" target="https://gedsh.bethmardutho.org/Ahiqar">
+                            <persName ref="http://syriaca.org/person/323">Aḥiqar</persName>
+                        </ref>
+                        <choice>
+                            <sic> Story</sic>
+                            <corr> story</corr>
+                        </choice>, and
+                            <ref rend="bold" target="https://gedsh.bethmardutho.org/Kalila-and-Dimna">Kalila and Dimna</ref>. In addition, his contributions to Syriac
+                        studies consisted of numerous essays and reviews.</p>
+                    <p>A further important field of Nöldeke’s research was Iranian history and
+                        literature. In 1879, he published a translation from the Arabic Chronicle of
+                        al-Ṭabarī, entitled <hi rend="italic">Geschichte der Perser und Araber zur
+                            Zeit der Sasaniden</hi> (History of the Persians and Arabs in the time
+                        of the Sasanians). His relevant contributions to the <hi rend="italic">Encyclopaedia Britannica</hi> were reworked in German and published in
+                        1887 as <hi rend="italic">Aufsätze zur persischen Geschichte</hi> (Essays on
+                        Persian history). Additional fields of Nöldeke’s research were comparative
+                        Semitic linguistics and Old Testament.</p>
+                    <p>Characteristic for Nöldeke are his sober assessment and his common sense. He
+                        saw himself as a ‘rationalist’, limiting himself to what could be
+                        ascertained and avoiding unprovable hypotheses or speculations. Eastern
+                        mysticism remained utterly foreign to him.</p>
+                    <p>Nöldeke was among the most significant scholars of Near Eastern studies of
+                        his day even though due to poor health he never was able to visit the Middle
+                        East. Through him, Strasbourg became a center of Near Eastern studies in
+                        Germany. He had many students, including from abroad; he maintained contacts
+                        with many scholars and enjoyed international esteem. For his seventieth
+                        birthday, a Festschrift was published, of more than 1200 pages, to which 85
+                        colleagues contributed from all over the world (with photograph). A second
+                        Festschrift followed in 1916 for his eightieth birthday.</p>
+                </div>
+                <div type="bibl">
+                    <listBibl>
+                        <listBibl>
+                            <head>Select publications by Nöldeke</head>
+                            <bibl>
+                                <title rend="italic">Geschichte des Qorâns</title> (1860). (2nd <abbr>ed.</abbr>
+                                by F.  Schwally, G.  Bergsträßer, and O. Pretzl [1909, 1919,
+                                1938])</bibl>
+                            <bibl>
+                                <title rend="italic">Delectus veterum carminum arabicorum</title>
+                                (1890; <abbr>repr.</abbr> 1961).</bibl>
+                            <bibl>‘Zur Grammatik des classischen Arabisch’, in <title rend="italic">Denkschriften der Kaiserlichen Akademie der Wissenschaften in
+                                    Wien. Phil.-hist. Classe</title>, 45.2 (1897; <abbr>repr.</abbr> with
+                                appendix ‘Die handschriftlichen Ergänzungen in dem Handexemplar Th.
+                                N.s bearbeitet und mit Zusätzen versehen von A.  Spitaler’
+                                [1963]).</bibl>
+                            <bibl>
+                                <title rend="italic">Grammatik der neusyrischen Sprache am Urmia-See
+                                    und in Kurdistan</title> (1868; <abbr>repr.</abbr> 1974).</bibl>
+                            <bibl>
+                                <title rend="italic">Mandäische Grammatik</title> (1875; <abbr>repr.</abbr> with
+                                appendix by A. Schall 1964).</bibl>
+                            <bibl>
+                                <title rend="italic">Kurzgefasste syrische Grammatik. Mit einer
+                                    Schrifttafel von Julius Euting</title> (1880; 2nd <abbr>ed.</abbr> 1898;
+                                <abbr>repr.</abbr> of the 2nd <abbr>ed.</abbr> with appendix ‘Die handschriftlichen
+                                Ergänzungen in dem Handexemplar Th. N.s und <choice>
+                                    <sic>Registern</sic>
+                                    <corr>Register</corr>
+                                </choice> der
+                                Belegstellen, bearbeitet von A. Schall’ 1966; <abbr>repr.</abbr> 1977). (<abbr>ET</abbr> as
+                                    <title rend="italic">Compendious Syriac Grammar by Th. Nöldeke.
+                                    With a table of characters by Julius Euting. Translated [with
+                                    the sanction of the author] from the second and improved German
+                                    edition by J. A.  Crichton</title> [1904; <abbr>repr.</abbr> with an appendix
+                                ‘The handwritten additions in Th. Nöldeke’s personal copy edited by
+                                A.  Schall, translated by P. T. Daniels, 2001])</bibl>
+                            <bibl>‘Die von Guidi herausgegebene syrische Chronik übersetzt und
+                                commentiert’, in <title rend="italic">Sitzungsberichte der Kais. 
+                                    Akademie der Wissenschaften in Wien. Phil.-hist. Classe</title>,
+                                128 (1893).</bibl>
+                            <bibl>
+                                <title rend="italic">Beiträge zur semitischen
+                                    Sprachwissenschaft</title> (1904).</bibl>
+                            <bibl>
+                                <title rend="italic">Neue Beiträge zur semitischen
+                                    Sprachwissenschaft</title> (1910; <abbr>repr.</abbr> 1982).</bibl>
+                            <bibl>‘Die aramäische Literatur’, in <title rend="italic">Die Kultur der
+                                    Gegenwart, I,VII. Die orientalischen Literaturen</title>, <abbr>ed.</abbr> P.
+                                Hinneberg (1906), 103–23.</bibl>
+                            <bibl>
+                                <title rend="italic">Geschichte der Perser und Araber zur Zeit der
+                                    Sasaniden</title> (1879; <abbr>repr.</abbr> 1973).</bibl>
+                            <bibl>
+                                <title rend="italic">Aufsätze zur Persischen Geschichte</title>
+                                (1887; <abbr>repr.</abbr> 1974).</bibl>
+                        </listBibl>
+                        <listBibl>
+                            <head>Secondary Literature</head>
+                            <bibl>H.  Bobzin, ‘Theodor Nöldekes Biographische Blätter aus dem Jahr
+                                1917’, in <title rend="italic">Festschrift für Otto Jastrow zum 60.
+                                    Geburtstag</title>, <abbr>ed.</abbr> W.  Arnold and H.  Bobzin (2002),
+                                91–104. (bibliography)</bibl>
+                            <bibl>
+                                <title rend="italic">Deutsches Biographisches Archiv</title>, fiche
+                                I 903, 97–101; II 954, 89–107; III 669, 166–8; 1042, 199–204.</bibl>
+                            <bibl>M.  Frenchkowski, in <title rend="italic">
+                                    <abbr>BBK</abbr>
+                                </title>, vol. 6
+                                (1993), 979–83.</bibl>
+                            <bibl>E.  Kuhn, ‘Versuch einer Übersicht der Schriften Th. N.’s’, in
+                                    <title rend="italic">Orientalische Studien Th. Nöldeke zum
+                                    siebzigsten Geburtstag</title>, <abbr>ed.</abbr> C.  Bezold (1906; improved
+                                and expanded separate <abbr>ed.</abbr> 1907), vol. 1, XIII–LI.
+                                (bibliography)</bibl>
+                            <bibl>E.  Littmann, ‘Gedächtnisrede’, in <title rend="italic">Nachrichten der Gesellschaft der Wissenschaften zu Göttingen.
+                                    Geschäftliche Mitteilungen</title> (1930/ 1931), 1–10.</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>E.  Littmann</reg>
+                           <orig>idem</orig>
+                        </choice>, ‘Th. N.’, in <title rend="italic">Akademie der
+                                    Wissenschaften in Wien. Almanach für das Jahr 1931</title>, 81
+                                (1931), 239–55.</bibl>
+                            <bibl>F.  Rosenthal, <title rend="italic">Die aramaistische Forschung
+                                    seit Th. N.’s Veröffentlichungen</title> (1939), 289–95.
+                                (includes additional bibliography)</bibl>
+                            <bibl>R.  Sellheim, ‘Theodor Nöldeke (1836–1930), Begründer der modernen
+                                Orientalistik’, <title rend="italic">Die Welt des Orients</title> 37
+                                (2007), 135–44.</bibl>
+                            <bibl>C. Snouck Hurgronje, in <title rend="italic">
+                                    <abbr>ZDMG</abbr>
+                                </title> 85
+                                (1931), 239–81.</bibl>
+                        </listBibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Hubert</forename> 
+                  <surname>Kaufhold</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

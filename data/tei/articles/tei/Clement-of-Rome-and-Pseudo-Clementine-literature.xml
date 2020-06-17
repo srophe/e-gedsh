@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Clement of Rome and Pseudo-Clementine literature</title>
+            <author>
+               <persName>
+                  <forename>Jeff W.</forename> 
+                  <surname>Childers</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.5">Electronic Edition Version 1.5</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Clement of Rome and Pseudo-Clementine literature</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Clement-of-Rome-and-Pseudo-Clementine-literature</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/145</idno>
+                    <idno type="entry">136</idno>
+                    <milestone unit="pages" n="100-101"/>
+                    <note type="abstract">
+                        <abbr>Bp.</abbr> of Rome (<abbr>ca.</abbr> 88–ca. 97) and author.<note/>
+                    </note>
+                </ab>
+                <ab type="infobox"/>
+                <div type="body">
+                    <p>
+                        <abbr>Bp.</abbr> of Rome (<abbr>ca.</abbr> 88 – <abbr>ca.</abbr> 97) and author. Clement has traditionally been
+                        identified as the author of 1 Clement, a pastoral letter written in Greek in
+                        Rome (<abbr>ca.</abbr> 96), responding to problems associated with a schism in the church
+                        at Corinth. A number of later works came also to be linked spuriously with
+                        Clement. The resulting corpus has left traces in several strands of the
+                        Syriac tradition.</p>
+                    <p>From an early date, 1 Clement circulated with an anonymous homily titled 2
+                        Clement, composed <abbr>ca.</abbr> 130–150 in Syria or Egypt. A Syriac version of both
+                        texts occurs in a <abbr>ms.</abbr> containing the complete Ḥarqlean <abbr>NT</abbr> (<abbr>ms.</abbr> Camb. Add.
+                        1700, dated 1170). In that <abbr>ms.</abbr>, 1–2 Clement appear with the Catholic
+                        Epistles and have been fully incorporated into the lectionary cycle.
+                        Although the scribe appears to have believed 1–2 Clement were translated
+                        with the rest of the Ḥarqlean <abbr>NT</abbr>, the version is in fact distinct, probably
+                        7th-cent, and possibly a product of the School of <ref rend="bold" target="https://gedsh.bethmardutho.org/Yaqub-of-Edessa">
+                            <persName ref="http://syriaca.org/person/113">Yaʿqub of
+                            Edessa</persName>
+                        </ref>. Fragments of a somewhat revised version of 1 Clement
+                        survive in a few modern Syriac <abbr>mss.</abbr>
+                    </p>
+                    <p>Two ascetical letters ‘To the Virgins’ were attributed to Clement as early as
+                        <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Epiphanius-of-Salamis">
+                            <persName ref="http://syriaca.org/person/477">Epiphanius</persName>
+                        </ref>’s time, but were in fact composed in
+                        the late 3rd or early 4th <abbr>cent.</abbr>, probably in a Syro-Palestinian environment.
+                        The Greek survives only in fragments, but a Syriac version exists in a
+                        15th-cent. <abbr>ms.</abbr> (now in Amsterdam, <abbr>ed.</abbr> Beelen) and in two more recent <abbr>mss.</abbr>
+                        (Birmingham, Mingana Syr. 480 [see Brock] and Manchester, John Rylands
+                        Libr., Syr. 11). There are also some earlier fragments in Coptic and in a
+                        few Syriac anthologies.</p>
+                    <p>The Pseudo-Clementines comprise the Homilies and the Recognitions, two
+                        interdependent 4th-cent. works that appear to go back to a common source
+                        from mid-3rd-cent. Syria. Together they present a colorful, if fictional,
+                        account of Clement’s conversion to Christianity, his subsequent adventures
+                        with the apostle Peter, and his reunion with his family. Composed in Greek,
+                        the Pseudo-Clementines quickly found their way into Syriac — the very early
+                        <abbr>ms.</abbr> Brit. Libr. Add. 12,150 (dated 411) contains substantial portions of the
+                        Recognitions and the Homilies, as does the 6th-cent. <abbr>ms.</abbr> Brit. Libr. Add.
+                        14,609. The two texts are the work of different translators. Late Greek
+                        copies of the Homilies are extant, but the Recognitions, apart from very
+                        small fragments, have been lost in Greek. They survive only in Rufinus’s
+                        Latin translation and in the Syriac version, which is the more reliable.
+                        Adaptations of the Pseudo-Clementines’s narrative material also appear in
+                        later Syriac epitomes.</p>
+                    <p>A collection of canons known as the Octateuch of Clement was translated into
+                        Syriac in the late 7th <abbr>cent.</abbr> Supposed to reflect the editorial work of
+                        Clement, the Octateuch contains such works as the Apostolic Constitutions
+                        and the <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Testament-of-our-Lord-Jesus-Christ">Testament of our Lord Jesus Christ</ref>. Often copied, excerpted, and
+                        translated, the Syriac version widely influenced canon law in Eastern
+                        Christian traditions. A number of W.-Syr. liturgical <abbr>mss.</abbr> have an Anaphora
+                        attributed to Clement, the final form of which probably dates no earlier
+                        than the 7th <abbr>cent.</abbr>
+                    </p>
+                    <p>Feast day 24 or 25 Nov. (23 Nov. in the west).</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <listBibl>
+                            <head>1–2 Clement</head>
+                            <bibl>
+                                <title rend="italic">
+                                    <abbr>CPG</abbr>
+                                </title> 1001, 1003.</bibl>
+                            <bibl>R. L.  Bensly and R. H.  Kennett, <title rend="italic">The
+                                    Epistles of <choice>
+                                        <sic>St</sic>
+                                        <corr>S</corr>
+                                    </choice>. Clement to the Corinthians in Syriac</title>
+                                (1899). (Syr.)</bibl>
+                            <bibl>S. P.  Brock, ‘Notes on Some Texts in the Mingana Collection’,
+                                    <title rend="italic">
+                                    <abbr>JSS</abbr>
+                                </title> 14 (1969), 207–8.</bibl>
+                            <bibl>J. B.  Lightfoot, <title rend="italic">The Apostolic Fathers. Part
+                                    I. S. Clement of Rome</title> (2nd <abbr>ed.</abbr> 1890), vol. 1,
+                                129–42.</bibl>
+                        </listBibl>
+                        <listBibl>
+                            <head>‘To the Virgins’</head>
+                            <bibl>
+                                <title rend="italic">
+                                    <abbr>CPG</abbr>
+                                </title> 1004.</bibl>
+                            <bibl>J. T.  Beelen, <title rend="italic">Sancti Patris nostri Clementis
+                                    Romani Epistolae binae de Virginitate Syriace</title> (1856).
+                                (Syr., <abbr>LT</abbr>)</bibl>
+                            <bibl>S. P.  Brock, ‘Notes on Some Texts in the Mingana Collection’,
+                                    <title rend="italic">
+                                    <abbr>JSS</abbr>
+                                </title> 14 (1969), 208–10.</bibl>
+                            <bibl>V.  Desprez, ‘Les lettres aux vierges attribuées à Saint Clément
+                                de Rome’, <title rend="italic">Lettre de Ligugé</title> 242.4 (1987),
+                                6–31. (<abbr>FT</abbr>)</bibl>
+                            <bibl>H.  Duensing, ‘Die dem Klemens von Rom zugeschriebenen Briefe über
+                                die Jungfräulichkeit’, <title rend="italic">
+                                    <abbr>ZKG</abbr>
+                                </title> 63 (1950–51),
+                                166–88. (<abbr>GT</abbr>)</bibl>
+                            <bibl>A new edition by M. L. Penn and L. Van Rompay is in
+                                preparation.</bibl>
+                        </listBibl>
+                        <listBibl>
+                            <head>Pseudo-Clementines</head>
+                            <bibl>
+                                <title rend="italic">
+                                    <abbr>CPG</abbr>
+                                </title> 1015 (4–5), 1016.</bibl>
+                            <bibl>P.  Bedjan, <title rend="italic">Acta Martyrum et
+                                    Sanctorum</title> (1896), vol. 6, 1–17. (epitome, Syr.)</bibl>
+                            <bibl>W.  Frankenberg, <title rend="italic">Die syrischen Clementinen
+                                    mit <choice>
+                                        <sic>griechischen</sic>
+                                        <corr>griechischem</corr>
+                                    </choice> Paralleltext</title> (<abbr>TU</abbr> 48.3; 1937).
+                                (Syr.)</bibl>
+                            <bibl>F. S.  Jones, ‘Evaluating the Latin and Syriac Translations of the
+                                Pseudo-Clementine <title rend="italic">Recognitions</title>’, <title rend="italic">Apocrypha</title> 3 (1992), 237–57.</bibl>
+                            <bibl>N.  Kelley, <title rend="italic">Knowledge and religious authority
+                                    in the Pseudo-Clementines. Situating the Recognitions in
+                                    fourth-century Syria</title> (Wissenschaftliche Untersuchungen
+                                zum Neuen Testament, 2. Reihe, 213; 2006), 1–34.</bibl>
+                            <bibl>P. A. de Lagarde, <title rend="italic">Clementis Romani
+                                    Recognitiones syriace</title> (1861).</bibl>
+                            <bibl>A.  Mingana, ‘Some Early Judaeo-Christian Documents in the John
+                                Rylands Library’, <title rend="italic">
+                                    <abbr>BJRL</abbr>
+                                </title> 4 (1917–18),
+                                59–118. (epitome, Syr. with <abbr>ET</abbr>)</bibl>
+                            <bibl>A. Y.  Reed, ‘ “Jewish Christianity” after the “Parting of the
+                                Ways”. Approaches to historiography and self-definition in the
+                                Pseudo-Clementines’, in <title rend="italic">The <choice>
+                                        <sic>Ways</sic>
+                                        <corr>ways</corr>
+                                    </choice> that never
+                                    parted. Jews and Christians in Late Antiquity and the Early
+                                    Middle Ages</title>, <abbr>ed.</abbr> A. H. Becker and A. Y. Reed (2003),
+                                189–231.</bibl>
+                        </listBibl>
+                        <listBibl>
+                            <head>Octateuch</head>
+                            <bibl>F.  Nau and P.  Ciprotti, <title rend="italic">La version syriaque
+                                    de l’Octateuque de Clément</title> (1967). (<abbr>FT</abbr>)</bibl>
+                            <bibl>A.  Vööbus, ‘Nouvelles sources de l’Octateuque clémentin
+                                syriaque’, <title rend="italic">
+                                    <abbr>LM</abbr>
+                                </title> 86 (1973), 105–9.</bibl>
+                        </listBibl>
+                        <listBibl>
+                            <head>Anaphora</head>
+                            <bibl>H.  Fuchs, <title rend="italic">Die Anaphora des monophysitischen
+                                    Patriarchen Jôḥannàn</title>, vol. 1 (Liturgiegeschichtliche
+                                Quellen 9; 1926).</bibl>
+                            <bibl>A.  Hänggi and I.  Pahl, <title rend="italic">Prex Eucharistica.
+                                    Textus a Variis Liturgiis Antiquioribus Selecti</title>
+                                (Spicilegium Friburgense 12; 1968), 298–303. (<abbr>LT</abbr>)</bibl>
+                        </listBibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Jeff W.</forename> 
+                  <surname>Childers</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

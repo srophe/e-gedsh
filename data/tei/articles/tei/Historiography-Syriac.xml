@@ -1,0 +1,733 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Historiography, Syriac</title>
+            <author>
+               <persName>
+                  <forename>Witold</forename> 
+                  <surname>Witakowski</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.5">Electronic Edition Version 1.5</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Historiography, Syriac</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Historiography-Syriac</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/272</idno>
+                    <idno type="entry">263</idno>
+                    <milestone unit="pages" n="199-203"/>
+                    <idno type="althead" subtype="altorder">Syriac Historiography</idno>
+                    <note type="type">subject</note>
+                    <note type="abstract">
+                        <note/>
+                    </note>
+                </ab>
+                <div type="body">
+                    <p>The beginnings of writing history in Syriac remain unknown, but one may
+                        connect it to the existence of notes on various events that were kept in the
+                        royal archives of Osrhoene (although there must have been similar archives
+                        in other <ref rend="bold" target="https://gedsh.bethmardutho.org/Aramaic">Aramaic</ref>-speaking countries, <choice>
+                            <sic>e.g.</sic>
+                            <corr>e.g., </corr>
+                        </choice>in <ref rend="bold" target="https://gedsh.bethmardutho.org/Adiabene">
+                            <placeName ref="http://syriaca.org/place/993">Adiabene</placeName>
+                        </ref>, we have
+                        no information about them). The notes per se are not historiography, but
+                        they could be used to construct a narrative of some kind about the past.
+                        After the end of the kingdom of Osrhoene, the materials from the royal
+                        archives, at least partly, found their way to the episcopal archives. This
+                        can be inferred from the first W.-Syr. local chronicle that we know, the
+                            <ref rend="bold" target="https://gedsh.bethmardutho.org/Chronicle-of-Edessa">Chronicle of
+                            Edessa</ref>, written soon after 532 in which local material from both
+                        the pre-Christian epoch (such as the chronologically first note: ‘The year
+                        180 [of the Seleucid era  = 132/1 BC]: kings began to reign in Edessa.’) and
+                        Christian epoch was included.</p>
+                    <label type="subsection">Chronicle Writing</label>
+                    <p>The Chronicle of <ref rend="bold" target="https://gedsh.bethmardutho.org/Edessa">
+                            <placeName ref="http://syriaca.org/place/78">Edessa</placeName>
+                        </ref> opens the
+                        series of local chronicles (which occasionally also have notes on non-local
+                        events, <choice>
+                            <sic>e.g.</sic>
+                            <corr>e.g., </corr>
+                        </choice>on the birth of Jesus or the accession of Roman emperors). A
+                        comparison of this Chronicle with other chronicles of similar character has
+                        revealed that it is an excerpt from a more extensive, not extant, work
+                        conventionally called the Original Chronicle of Edessa. Some of the notes
+                        (lemmata) of the latter that are not present in the extant Chronicle of
+                        Edessa can be found in other Syriac chronicles, <choice>
+                            <sic>e.g.</sic>
+                            <corr>e.g., </corr>
+                        </choice>the Chronicle to the
+                        year 819. In its first part it seems to have followed quite closely the
+                        Original Chronicle of Edessa, but in the second part it notes other events:
+                        a series of lemmata recount events connected with the <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Gabriel-Monastery-of-Mor">
+                            <placeName ref="http://syriaca.org/place/226">Monastery of Mor Gabriel</placeName>
+                        </ref>, from which it may be inferred that its
+                        author was a monk of that monastery.</p>
+                    <p>What the local chronicles also have in common is their annalistic structure,
+                        which means that they present historical events in short pieces of
+                        information, called lemmata. These begin with a year date and state what
+                        happened that year. A typical such lemma is for instance ‘The year 672:
+                        Walgash, bishop of Nisibis, died...’.</p>
+                    <p>There were certainly other chronicles of this type, which however have not
+                        survived. We have several fragments of such works, sometimes only a few
+                        folios long, but still valuable for the historical information they provide,
+                        as for instance one very mutilated folio that brings information on the Arab
+                        conquest of Syria in the beginning of the 7th <abbr>cent.</abbr>, or a fragment of a
+                        Chronicle up to the year 813 (<hi rend="italic">Chronica minora</hi>, II
+                        &amp; III).</p>
+                    <p>In addition to historical information of local character soon another type of
+                        historiographic literature developed, the so-called universal (or world)
+                        chronicles. This genre was implanted in Syriac by translation of two
+                        chronicles written in Greek, those of <ref rend="bold" target="https://gedsh.bethmardutho.org/Hippolytus-of-Rome">
+                            <persName ref="http://syriaca.org/person/537">Hippolytus of
+                            Rome</persName>
+                        </ref> and <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Eusebius-of-Caesarea">
+                            <persName ref="http://syriaca.org/person/480">Eusebius of
+                            Caesarea</persName>
+                        </ref>.</p>
+                    <p>The first of them seems to have been intended not as a continuous exposition
+                        of the events of world history, but rather as a gazetteer providing
+                        geographical, ethnographical, and linguistic information on the then known
+                        world, in addition to data on the early history of mankind, culled from the
+                        Bible. The Chronicle of Hippolytus of Rome (d. 235), or rather its material
+                        (as it had a complicated transmission history) is also known as the Division
+                        of the earth (<hi rend="italic">Diamerismos tēs gēs</hi>), <choice>
+                            <sic>i.e. </sic>
+                            <corr>i.e., </corr>
+                        </choice>between the
+                        sons of Noah, since geographical lists (of countries, mountains, rivers,
+                        islands), ethnographical (of various peoples), linguistic (of languages
+                        including those that have written literature), and historical were all
+                        expressed within the account of the vicissitudes of the three sons of Noah
+                        and their progeny. They were believed to have divided the world into their
+                        respective possessions. In Syriac several versions of Hippolytos’s material
+                        are known, sometimes only fragmentarily preserved, either as separate texts
+                        (Peoples after the confusion of languages in Babylon, On the families of
+                        languages), or  — more often — incorporated into larger works, be it
+                        chronicles (the Chronicle to the year 724, the Chronicle of <ref rend="bold" target="https://gedsh.bethmardutho.org/Michael-I-Rabo">
+                            <persName ref="http://syriaca.org/person/217">Michael Rabo</persName>
+                        </ref>, and that of <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Bar-Ebroyo-Grigorios">
+                            <persName ref="http://syriaca.org/person/239">Bar
+                                <choice>
+                                    <sic>ʾEbroyo</sic>
+                                    <corr>ʿEbroyo</corr>
+                                </choice>
+                            </persName>
+                        </ref> [see below]), or other texts, such as biblical
+                        commentaries (Scholion of <ref rend="bold" target="https://gedsh.bethmardutho.org/Theodoros-bar-Koni">
+                            <persName ref="http://syriaca.org/person/783">Theodoros Bar Koni</persName>
+                        </ref>, the
+                        Commentary of <ref rend="bold" target="https://gedsh.bethmardutho.org/Ishodad-of-Merv">
+                            <persName ref="http://syriaca.org/person/555">Ishoʿdad of
+                            Merv</persName>
+                        </ref>, and two other anonymous commentaries, all from the period of
+                        the 8th to 10th <abbr>cent.</abbr>), and accounts of sacred history (<ref rend="bold" target="https://gedsh.bethmardutho.org/Shlemon-of-Basra">
+                            <persName ref="http://syriaca.org/person/745">Shlemon of
+                            Baṣra</persName>
+                        </ref>’s ‘Book of the Bee’, 13th <abbr>cent.</abbr>) (Witakowski 1996).</p>
+                    <p>The Chronicle of Eusebius of Caesarea (d. 339) had a very specific form,
+                        called canons: it was written in the form of tables with parallel columns in
+                        which the years of the rulers of all nations or states known to him were
+                        enumerated (the so-called <hi rend="italic">fila regnorum</hi>), whereas on
+                        both sides of these columns, the so-called <hi rend="italic">spatium
+                            historicum</hi>, notes on various events were placed (Witakowski
+                        1999–2000). The Chronicle was translated into Syriac in the 6th <abbr>cent.</abbr> It has
+                        not been preserved, but it was used by many later Syr. chroniclers, thanks
+                        to whom we know relatively well how it was structured and what it contained.
+                        The work of Eusebius was expanded by later Greek chroniclers (Annianos [5th
+                        <abbr>cent.</abbr>] and Andronikos [6th <abbr>cent.</abbr>]), who added material from the creation of
+                        the world (Eusebius started his canons from Abraham) and continued its
+                        narrative up to their time. These chronicles were translated into Syriac
+                        too, but none of them is extant.</p>
+                    <p>The earliest Syr. chronicle which used Eusebius’s work as its source is the
+                        so-called Maronite Chronicle, written after 664. Its author supplemented the
+                        Eusebian material with material from other sources and notes on the history
+                        of the Maronites. He continued it until his own epoch, adding notes on the
+                        history of the Arabs. The Maronite Chronicle does not have the column
+                        form.</p>
+                    <p>Even earlier than the work just named is the Melkite Chronicle, composed
+                        after 638, which, however, did not use the Chronicle of Eusebius. It brings
+                        Old Testament chronology, and for the Christian period, lists of patriarchs
+                        of the main sees, becoming more informative only from the epoch of <ref rend="bold" target="https://gedsh.bethmardutho.org/Nestorius">
+                            <persName ref="http://syriaca.org/person/655">Nestorius</persName>
+                        </ref>. Its Melkite origin is clear from the presence of
+                        anti-Miaphysite anathemas (<abbr>ed.</abbr> de Halleux).</p>
+                    <p>The Eusebian model is on the other hand clearly seen in the Chronicle of <ref rend="bold" target="https://gedsh.bethmardutho.org/Yaqub-of-Edessa">
+                            <persName ref="http://syriaca.org/person/113">Yaʿqub of Edessa</persName>
+                        </ref> (d. 708). This work, only fragmentarily
+                        preserved, has the column format of Eusebius. Yaʿqub did not copy Eusebius’s
+                        work, only continued it. He provided material on the history of the Church,
+                        of the Byzantine empire, and of Persia, a country which Eusebius totally
+                        neglected, but which the Syr. historians for obvious reasons could not
+                        (Witakowski 2008).</p>
+                    <label type="subsection">Ecclesiastical History Writing</label>
+                    <p>Eusebius’s influence in Syr. historiography is seen not only in chronography,
+                        but also in another genre of history writing, namely ecclesiastical (or
+                        church) history (Syr. <hi rend="italic">eqlisiyasṭiqi</hi>). Eusebius’s
+                        Ecclesiastical History was very soon, in any case before the middle of the
+                        5th <abbr>cent.</abbr>, translated into Syriac (Van Rompay 1994), and contrary to the
+                        Chronicle it has been preserved, though with lacunae. It was used by later
+                        Syr. historians, whereby the genre of ecclesiastical history was implanted
+                        in Syriac historiography.</p>
+                    <p>Eusebius’s Ecclesiastical History found continuators in Greek too, and the
+                        work of at least one of them, Socrates Scholasticus (d. <abbr>ca.</abbr> 450), was
+                        translated into Syriac, and has been preserved both in excerpts and in an
+                        abbreviated form (not published). Whether works of other continuators of
+                        Eusebius, Sozomen, and <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Theodoret-of-Cyrrhus">
+                            <persName ref="http://syriaca.org/person/781">Theodoret of
+                            Cyrrhus</persName>
+                        </ref> were also translated into Syriac, but have not been
+                        preserved, is not certain. On the other hand, at least two fragments of the
+                        latter’s ‘Religious History’ were translated into Syriac: the lives of <ref rend="bold" target="https://gedsh.bethmardutho.org/Yaqub-of-Nisibis">
+                            <persName ref="http://syriaca.org/person/811">Yaʿqub of Nisibis</persName>
+                        </ref> and <ref rend="bold" target="https://gedsh.bethmardutho.org/Shemun-the-Stylite">
+                            <persName ref="http://syriaca.org/person/744">Shemʿun the
+                            Stylite</persName>
+                        </ref>. What is extant in Syriac is a translation of another
+                        Ecclesiastical History, namely that of <ref rend="bold" target="https://gedsh.bethmardutho.org/Zacharias-Rhetor">
+                            <persName ref="http://syriaca.org/person/58">Zacharias
+                            Rhetor</persName>
+                        </ref>, <abbr>bp.</abbr> of Mitylene (d. after 536), which is even more
+                        valuable as the Greek original is lost. Zacharias was a Miaphysite, which is
+                        why copying his works in Greek was discontinued, whereas they have survived
+                        in Syriac translations. The Syriac version of his Ecclesiastical History was
+                        incorporated into a larger compilation supplied with hagiographical and
+                        other material and continued until the year 569, by an anonymous historian
+                        who for lack of a better name is referred to as <ref rend="bold" target="https://gedsh.bethmardutho.org/Zacharias-Pseudo-">Pseudo-Zacharias</ref>.</p>
+                    <p>A church historian a few years younger than Zacharias was <ref rend="bold" target="https://gedsh.bethmardutho.org/Yuhanon-of-Ephesus">
+                            <persName ref="http://syriaca.org/person/74">Yuḥanon of
+                            Ephesus</persName>
+                        </ref> (d. 588), a monk from Northern Mesopotamia, who spent most
+                        of his life in Constantinople. Only the last, the third, part of his
+                        Ecclesiastical History has survived in a separate <abbr>ms.</abbr> tradition. We owe to
+                        Yuḥanon also another work, the ‘Lives of the Eastern Saints’, which is a
+                        collection of lives of Syr. ascetics, most of whom Yuḥanon knew
+                        personally.</p>
+                    <p>As far as the state of preservation is concerned the Ecclesiastical History
+                        of <abbr>Patr.</abbr>
+                        <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Dionysios-of-Tel-Mahre">
+                            <persName ref="http://syriaca.org/person/155"> Dionysios
+                            of Tel Maḥre</persName>
+                        </ref> (818–845) fared even worse. Fortunately it was used
+                        by later Syriac historians, especially by Michael Rabo and the author of the
+                        Chronicle to the year 1234.</p>
+                    <label type="subsection">Later W.-Syr. Historiography</label>
+                    <p>A work once erroneously attributed to <abbr>Patr.</abbr> Dionysios is a universal
+                        Chronicle whose anonymous author was a monk in the monastery of Zuqnin near
+                            <ref rend="bold" target="https://gedsh.bethmardutho.org/Amid">
+                            <placeName ref="http://syriaca.org/place/8">Amid</placeName>
+                        </ref>
+                        (8th  cent.). The Chronicle, composed in 775, was previously called the
+                        Chronicle of Pseudo-Dionysios, but is now mostly referred to as the <ref rend="bold" target="https://gedsh.bethmardutho.org/Zuqnin-Chronicle-of">Chronicle of Zuqnin</ref>. Although the author used Eusebian material,
+                        his work, especially in later parts, does not present information in short
+                        lemmata, but has extensive excerpts from other kinds of sources. In fact it
+                        is the largest Syr. historiographical work written until the 8th <abbr>cent.</abbr>,
+                        introducing a new genre: developed chronicle. The annalistic structure is
+                        kept (though there are no canons) but the author often inserted material
+                        from his sources in large extracts or in their entirety. His main sources
+                        are the Bible, the Chronicle of Eusebius, the Ecclesiastical History of
+                        Socrates, and that of Yuḥanon of Ephesus, while the last part contains his
+                        own material. He used many other sources, including works which have been
+                        subsequently lost (Witakowski 1987). One of such works, most probably copied
+                        by him in its entirety, is the Chronicle of Pseudo-<ref rend="bold" target="https://gedsh.bethmardutho.org/Yeshu-the-Stylite">
+                            <persName ref="http://syriaca.org/person/40">Yeshuʿ the
+                            Stylite</persName>
+                        </ref>, a history of the Persian-Byzantine war of the beginning
+                        of the 6th <abbr>cent.</abbr>, written practically as an eye-witness account.</p>
+                    <p>With this first developed chronicle in Syriac, the genre difference between
+                        chronicle and ecclesiastical history was abolished.</p>
+                    <p>It does not mean however that short chronicles were no longer composed. The
+                        material published under the title of the Chronicle to the year 724
+                        (anonymous, but see Palmer 1992) is actually not a chronicle in the meaning
+                        of a planned and elaborate historiographic work, but a collection of series
+                        of lemmata culled from various sources, including the Chronicle of
+                        Hippolytus, the Chronicle of Eusebius, together with its Antiochene
+                        Continuation (Burgess 1999), an account of Church councils, and a list of
+                        Umayyad caliphs, put down one after another without the chronological order.
+                        In fact for many lemmata dates are missing.</p>
+                    <p>The Chronicle to the year 846 is again a short lemma chronicle. Although the
+                        preserved text starts from the birth of Levi, the son of the Old Testament
+                        patriarch Jacob (there are many lacunae further on in the text too), there
+                        can be no doubt that it was a universal chronicle. It includes material
+                        taken from several sources, such as the Chronicle of Eusebius for universal
+                        history, and  — for local data — the Original Chronicle of Edessa, the
+                        Chronicle to the year 819, the <ref rend="bold" target="https://gedsh.bethmardutho.org/Addai-Teaching-of">Teaching of
+                            Addai</ref>, the Ecclesiastical Histories of Yuḥanon of Ephesus and
+                        Zacharias of Mitylene, lists of bishops of various sees, and accounts of
+                        church councils.</p>
+                    <p>Later chronicles, written during the period of the so-called <ref rend="bold" target="https://gedsh.bethmardutho.org/Renaissance-Syriac">Syriac
+                            Renaissance</ref>, are all of the developed type. These are the
+                        Chronicle of Michael Rabo (d. 1199), the anonymous <ref rend="bold" target="https://gedsh.bethmardutho.org/Chronicle-of-1234">Chronicle of
+                            1234</ref>, and the Chronicle of Bar ʿEbroyo (d. 1286). From the
+                        indications of the sources that the authors of these works have made (<choice>
+                            <sic>e.g.</sic>
+                            <corr>e.g.,</corr>
+                        </choice>
+                        the Chronicles by Basil of Edessa, <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Dionysios-bar-Salibi">
+                            <persName ref="http://syriaca.org/person/212">Dionysios
+                            bar Ṣalibi</persName>
+                        </ref>, etc.) we know that there was much more
+                        historiographical literature composed before the epoch of Michael Rabo, but
+                        none of them is extant. (For the latter Chronicle, see the entry on Michael
+                        Rabo.)</p>
+                    <p>The author of the anonymous Chronicle of 1234, was probably a monk of the
+                            <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Barsawmo-Dayro-d-Mor">
+                            <placeName ref="http://syriaca.org/place/224">Dayro d-Mor
+                            Barṣawmo</placeName>
+                        </ref>, and seems to have had some more or less official
+                        auxiliary ecclesiastical duties. He was a native of Edessa, which can be
+                        seen in his detailed notes on the events of the history of that city. Most
+                        of them, it is true, were taken from the lost Edessene chronicle of Basil
+                        Bar Shumana, the metropolitan of Edessa, but they continue even after the
+                        date of the latter’s death (1171). The Chronicle was begun as a simple work
+                        of universal history, but after the epoch of Constantine the abundance of
+                        material to be dealt with caused the author to divide it into two parts,
+                        ecclesiastical and secular. The Edessene author used many of the sources
+                        that Michael Rabo did, but independently from him: he did not know Michael’s
+                        work.</p>
+                    <p>Dividing historiographical works into two parts became a solution also with
+                        Bar ʿEbroyo. With his Chronicle the classical period of W.-Syr.
+                        historiography ends. (For further information on his work, see the entry on
+                        this author.)</p>
+                    <label type="subsection">E.-Syr. Historiography</label>
+                    <p>The output of the E.-Syr. historians seems smaller today than that of their
+                        W.-Syr. colleagues, but this impression is due to the fact that even fewer
+                        E.-Syr. historiographic works have been preserved than was the case with the
+                        W.-Syr. We do know, however, from <ref rend="bold" target="https://gedsh.bethmardutho.org/Eliya-of-Nisibis">
+                            <persName ref="http://syriaca.org/person/472">Eliya of
+                            Nisibis</persName>
+                        </ref> (see below) and from <ref rend="bold" target="https://gedsh.bethmardutho.org/Abdisho-bar-Brikha">
+                            <persName ref="http://syriaca.org/person/310">ʿAbdishoʿ Bar
+                            Brikha</persName>
+                        </ref>, the author of the so-called ‘Catalogue’ (13th <abbr>cent.</abbr>), that
+                        there were once many more historiographic works than are extant today in the
+                        known collections of <abbr>mss.</abbr>
+                    </p>
+                    <p>One such work of which ʿAbdishoʿ informs us was an Ecclesiastical History
+                        composed by one Mshiḥa Zkha. When a <abbr>ms.</abbr> containing an account of early
+                        Christian history in Adiabene was discovered and published in 1907, it
+                        seemed to its finder and editor (A. Mingana) that it was Mshiḥa Zkha’s work.
+                        This identification may not be correct, and in fact today it is referred to
+                        as an anonymous Chronicle of <ref rend="bold" target="https://gedsh.bethmardutho.org/Arbela">
+                            <placeName ref="http://syriaca.org/place/13">Arbela</placeName>
+                        </ref>. It is a
+                        collection of biographies of 20 bps. of this see, from the early 2nd <abbr>cent.</abbr>
+                        up to the middle of the 6th <abbr>cent.</abbr>, when it was probably composed. The
+                        authenticity of the Chronicle of Arbela was questioned (because of forgery
+                        of the only known <abbr>ms.</abbr> of the Chronicle; Fiey 1967), but the opinion of most
+                        scholars today is rather in favor of the authenticity of at least large
+                        parts of the material of the Chronicle (Kawerau 1985).</p>
+                    <p>The Ecclesiastical History of <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Barhadbshabba-Arbaya">
+                            <persName ref="http://syriaca.org/person/367">Barḥadbshabba ʿArbaya</persName>
+                        </ref> (6th <abbr>cent.</abbr>) is the oldest (preserved)
+                        E.-Syr. work of this genre. Barḥadbshabba, who was a senior scholar (Syr.
+                            <hi rend="italic">bādoqā</hi>) of the famous theological <ref rend="bold" target="https://gedsh.bethmardutho.org/Nisibis-School-of">School of Nisibis</ref>, provides a series of accounts of Church
+                        Fathers and ‘heretics’, starting from Arius and coming up to <ref rend="bold" target="https://gedsh.bethmardutho.org/Narsai">
+                            <persName ref="http://syriaca.org/person/650">Narsai</persName>
+                        </ref>
+                        and <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Abraham-of-Beth-Rabban">
+                            <persName ref="http://syriaca.org/person/319">Abraham</persName>
+                        </ref>, the doctors of the Persian Church
+                        (6th  cent.), attached to the School. Much place is naturally devoted to
+                            <ref rend="bold" target="https://gedsh.bethmardutho.org/Diodore-of-Tarsus">
+                            <persName ref="http://syriaca.org/person/451">Diodore of
+                            Tarsus</persName>
+                        </ref>, <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Theodore-of-Mopsuestia">
+                            <persName ref="http://syriaca.org/person/780">Theodore
+                            of Mopsuestia</persName>
+                        </ref>, and <ref rend="bold" target="https://gedsh.bethmardutho.org/Nestorius">
+                            <persName ref="http://syriaca.org/person/655">Nestorius</persName>
+                        </ref>, but
+                            <ref rend="bold" target="https://gedsh.bethmardutho.org/John-Chrysostom">
+                            <persName ref="http://syriaca.org/person/573">John Chrysostom</persName>
+                        </ref>, <ref rend="bold" target="https://gedsh.bethmardutho.org/Basil-of-Caesarea">
+                            <persName ref="http://syriaca.org/person/376">Basil of
+                            Caesarea</persName>
+                        </ref>, and other fathers have their place here too. Among the
+                        sources of Barḥadbshabba are the Ecclesiastical History of Socrates for the
+                        Greek fathers and Nestorius’s Book of Heraclides.</p>
+                    <p>The anonymous History of <ref rend="bold" target="https://gedsh.bethmardutho.org/Karka-d-Beth-Slokh">
+                            <placeName ref="http://syriaca.org/place/108">Karka d-Beth
+                            Slokh</placeName>
+                        </ref> (6th  cent.), except for a few details regarding the history
+                        of the city, is an account of the martyrdom of several inhabitants of that
+                        city who were killed during the persecutions of Yazdgard in the middle of
+                        the 5th <abbr>cent.</abbr>
+                    </p>
+                    <p>The Chronicle of Khuzistan, also known as the Chronicle of the last Sasanians
+                        (7th <abbr>cent.</abbr>), provides information on the history of the Persian Church, and
+                        moreover, it contains much valuable data for the history of Persia from the
+                        reign of Hormizd IV (579–90) until the Arab conquest. The Chronicle seems to
+                        be an excerpt from a larger (not preserved) work on ecclesiastical history,
+                        the author of which was, according to some scholars, Eliya metropolitan of
+                        Merv.</p>
+                    <p>
+                        <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Yohannan-bar-Penkaye">
+                            <persName ref="http://syriaca.org/person/821">Yoḥannan bar Penkaye</persName>
+                        </ref>, <choice>
+                            <sic>i.e. </sic>
+                            <corr>i.e., </corr>
+                        </choice>from the village Penek in Northern
+                        Mesopotamia, wrote soon after 686 the ‘Book of the Main Events’ (<hi rend="italic">Ktābā d-reš melle</hi>), which is an epitome of world
+                        history, intended as an account of God’s salvation economy. Still it is a
+                        valuable source for the last decades it covers (the reign of Caliph
+                        Muʿāwiyya and beyond).</p>
+                    <p>The E.-Syr. authors were perhaps more interested in monastic history than the
+                        W.-Syr. historians. One work of this type is the ‘Book of the Abbots of the
+                            <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Beth-Abe-Monastery-of">
+                            <placeName ref="http://syriaca.org/place/223">Monastery
+                            Beth ʿAbe</placeName>
+                        </ref>’, composed <abbr>ca.</abbr> 850 by <ref rend="bold" target="https://gedsh.bethmardutho.org/Toma-of-Marga">
+                            <persName ref="http://syriaca.org/person/796">Toma <abbr>bp.</abbr> of
+                            Marga</persName>
+                        </ref> in Adiabene.</p>
+                    <p>One or two decades later another monastic history, entitled ‘The Book of
+                        Chastity’, was composed by <ref rend="bold" target="https://gedsh.bethmardutho.org/Ishodnah">
+                            <persName ref="http://syriaca.org/person/556">Ishoʿdnaḥ</persName>
+                        </ref> the
+                        metropolitan of Baṣra. It contains 140 biographical sketches of E.-Syr.
+                        monastics, famous as founders of monasteries or as authors of ascetic
+                        writings. The same author is also known to have composed a separate
+                        Ecclesiastical History, which has not survived.</p>
+                    <p>The Chronicle of Eliya of Nisibis (d. 1046) is the only E.-Syr. universal
+                        chronicle of the Eusebian type. In the first, so-called chronographical,
+                        part Eliya, following Eusebius, gathered lists of Old Testament patriarchs,
+                        kings, and rulers of various countries, together with an annotated list of
+                        the catholicoi of the <abbr>Ch. of E.</abbr> The next part, the canons, is written in
+                        columns, but Eliya uses them in a different way from Eusebius. From right to
+                        left they contain: 1. dates given in the Seleucid era, and, for the Muslim
+                        period, in the era of Hijra; 2. the source of the entry (it is here that we
+                        learn of many Syr. historiographic works that once existed), which as a
+                        regularly recurring piece of information is exceptional in Syr. chronicle
+                        writing; and 3. the actual lemmata given in two languages, Syriac and Arabic
+                        (an indication that the Arabization of the E. Syrians had already made some
+                        progress). Eliya’s sources include Eusebius’s Chronicle, Socrates’s
+                        Ecclesiastical History, and W.-Syr. works: the Chronicle of Yuḥanon ‘the
+                        Jacobite’, <choice>
+                            <sic>i.e. </sic>
+                            <corr>i.e., </corr>
+                        </choice>Yuḥanon of Ephesus, Chronicle of Yaʿqub of Edessa, and a
+                        list of the <abbr>Syr. Orth.</abbr> patriarchs. This shows exchange between the
+                        intellectuals of the two Syr.-speaking churches. Among the E.-Syr. sources
+                        he quotes a list of the catholicoi and a chronicle of the metropolitans of
+                            <ref rend="bold" target="https://gedsh.bethmardutho.org/Nisibis">
+                            <placeName ref="http://syriaca.org/place/142">Nisibis</placeName>
+                        </ref>, but also Arabic sources. Altogether he quotes <abbr>ca.</abbr> 60
+                        sources of which half are unknown (Pinggéra 2006; Witakowski 2007).</p>
+                    <p>From the last period of the classical epoch of Syr. literature comes the
+                        biography of the <abbr>Cath.</abbr>
+                        <ref rend="bold" target="https://gedsh.bethmardutho.org/Yahbalaha-III">
+                            <persName ref="http://syriaca.org/person/810"> Yahbalaha  III</persName>
+                        </ref> (d. 1317), who before his election was a monk in
+                            <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/China-Syriac-Christianity-in">China</ref> of Uighur or Turkish origin. The Story of
+                        Yabhalaha is a biography of the <abbr>
+                            <choice>
+                                <sic>Cath.</sic>
+                                <corr>cath.</corr>
+                            </choice>
+                        </abbr> but also a travelogue of his journey,
+                        together with his companion, <ref rend="bold" target="https://gedsh.bethmardutho.org/Sawma-Rabban">
+                            <persName ref="http://syriaca.org/person/721">Rabban Ṣawma</persName>
+                        </ref>,
+                        across Asia, and in its second part Ṣawma’s across Europe. As such it is
+                        unique in Syriac literature. It provides an insight into the contacts
+                        between geographically remote provinces and the center of the once
+                        pan-Asiatic <abbr>Ch. of E.</abbr> before its decline in the subsequent epoch.</p>
+                    <p>E.-Syr. authors wrote also historiographic works in Arabic. The change of the
+                        language occurred gradually, the first step being taken by Eliya of Nisibis
+                        who used both languages in the same work. There is no doubt, however, that
+                        works such as the Chronicle of <ref rend="bold" target="https://gedsh.bethmardutho.org/Siirt">
+                            <placeName ref="http://syriaca.org/place/188">Siirt</placeName>
+                        </ref> (10th <abbr>cent.</abbr>) or
+                        The Book of the Tower (<hi rend="italic">Kitāb al-Majdāl</hi>; <abbr>ca.</abbr> 1350),
+                        although written in Arabic, were based on Syriac sources.</p>
+                </div>
+                <div type="bibl">
+                    <listBibl>
+                        <listBibl>
+                            <head>Primary Sources</head>
+                            <bibl>A.  Abouna and J.-M.  Fiey, <title rend="italic">Anonymi auctoris
+                                    Chronicon ad A. C. 1234 pertinens</title>, II (<abbr>CSCO</abbr> 354; 1974).
+                                (<abbr>FT</abbr> of Chabot 1916)</bibl>
+                            <bibl>J.-B.  Chabot, <title rend="italic">Anonymi auctoris Chronicon ad
+                                    annum Christi 1234 pertinens</title>, II (<abbr>CSCO</abbr> 82; 1916).
+                                (Syr.)</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>J.-B.  Chabot</reg>
+                           <orig>idem</orig>
+                        </choice>, <title rend="italic">Chronicon ad A.C. 1234
+                                    pertinens</title>, I (<abbr>CSCO</abbr> 81; 1920). (Syr.; p. 3–22 contain
+                                Chronicle of 819)</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>J.-B.  Chabot</reg>
+                           <orig>idem</orig>
+                        </choice>, <title rend="italic">Anonymi auctoris Chronicon ad A.C. 1234
+                                    pertinens</title>, I (<abbr>CSCO</abbr> 109; 1937). (<abbr>FT</abbr> of Chabot
+                                1920)</bibl>
+                            <bibl>Guidi <abbr>et al.</abbr>, <title rend="italic">Chronica minora</title> (<abbr>CSCO</abbr>
+                                1–4). (Syr. with <abbr>LT</abbr> of the Chronicle of Edessa, Chronicle of
+                                Khuzistan, Chronicle to the year 724, Chronicle to the year 846, and
+                                the <title rend="italic">Diamerismos tēs gēs</title>
+                                material)</bibl>
+                            <bibl>A.  de Halleux, ‘La Chronique melkite abrégée du <abbr>Ms.</abbr> Sinaï syr.
+                                10’, <title rend="italic">
+                                    <abbr>LM</abbr>
+                                </title> 91 (1978), 5–44.</bibl>
+                            <bibl>A.  Harrak, <title rend="italic">The Chronicle of Zuqnin, Parts
+                                    III and IV. A.D. 488–775</title> (1999).</bibl>
+                            <bibl>P.  Kawerau, <title rend="italic">Die Chronik von
+                                Arbela</title> (<abbr>CSCO</abbr> 467–8; 1985). (Syr. with <abbr>GT</abbr>)</bibl>
+                            <bibl>A.  Mingana, <title rend="italic">Sources syriaques</title>, vol.
+                                1 (1908). (Syr. with <abbr>FT</abbr> of Yoḥannan bar Penkaye)</bibl>
+                            <bibl>A. Palmer, <title rend="italic">The seventh century in the
+                                    West-Syrian chronicles</title> (1993).</bibl>
+                            <bibl>F. R.  Trombley and J. W. Watt, <title rend="italic">The Chronicle
+                                    of Pseudo-Joshua the Stylite</title> (2000).</bibl>
+                            <bibl>W.  Witakowski, <title rend="italic">Pseudo-Dionysius of
+                                    Tel-Mahre. Chronicle (known also as the Chronicle of Zuqnin).
+                                    Part III</title> (<abbr>TTH</abbr> 22; 1996).</bibl>
+                        </listBibl>
+                        <listBibl>
+                            <head>Secondary Sources</head>
+                            <bibl>R.  Burgess, <title rend="italic">Studies in Eusebian and
+                                    Post-Eusebian Chronography</title>, vol. 1. <title rend="italic">The Chronici canones of Eusebius of Caesarea: Structure,
+                                    Content, and Chronology, AD 282–325</title>; vol. 2. <title rend="italic">The Continuatio Antiochiensis Eusebii: A Chronicle
+                                    of Antioch and the Roman Near East during the Reigns of
+                                    Constantine and Constantius</title>  
+                        <title rend="italic">II, AD
+                                    325–350</title> (Historia Einzelschrift 135; 1999). (Continuatio
+                                Eusebiana)</bibl>
+                            <bibl>M.  Debié (<abbr>ed.</abbr>), <title rend="italic">L’historiographie
+                                    syriaque</title> (<abbr>ÉtSyr</abbr> 6; 2009).</bibl>
+                            <bibl>J.-M.  Fiey, ‘Autour de la chronique d’Arbèles’, <title rend="italic">
+                                    <abbr>OS</abbr>
+                                </title> 12 (1967), 265–302. (Chronicle of
+                                Arbela)</bibl>
+                            <bibl>P.  Nautin, ‘L’auteur de la “Chronique anonyme de Guidi”: Élie de
+                                Merw’, <title rend="italic">
+                                    <abbr>RHR</abbr>
+                                </title> 199 (1982), 303–14.
+                                (Chronicle of Khuzistan)</bibl>
+                            <bibl>Palmer, <title rend="italic">Monk and mason</title>. (Chronicles
+                                to the years 819 and 846)</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>Palmer</reg>
+                           <orig>idem</orig>
+                        </choice>, ‘Une chronique syriaque contemporaine de la conquête arabe:
+                                essai d’interprétation théologique et politique’, in <title rend="italic">La Syrie de Byzance à l’Islam, VII<hi rend="superscript">e</hi> et VIII<hi rend="superscript">e</hi> siècles</title>, <abbr>ed.</abbr> P.  Canivet and J.-P.
+                                Rey-Coquais (1992), 31–46. (Chronicle to the year 724)</bibl>
+                            <bibl>K.  Pinggéra, ‘Nestorianische Weltchronistik: Johannes Bar Penkāyē
+                                und Elias von Nisibis’, in <title rend="italic">Julius Africanus und
+                                    die christliche Weltchronistik</title>, <abbr>ed.</abbr> M. Wallraff (<abbr>TU</abbr> 157;
+                                2006), 263–83. (Eliya of Nisibis)</bibl>
+                            <bibl>L.  Van Rompay, ‘Some preliminary remarks on the origins of
+                                Classical Syriac as a standard language: the Syriac version of
+                                Eusebius of Caesarea’s Ecclesiastical History’, in <title rend="italic">Semitic and Cushitic studies</title>, <abbr>ed.</abbr> G.
+                                Goldenberg and Sh. Raz (1994), 70–89. (Ecclesiastical History of
+                                Eusebius)</bibl>
+                            <bibl>W.  Witakowski, ‘Chronicles of Edessa’, <title rend="italic">
+                                    <abbr>OrSuec</abbr>
+                                </title> 33–35 (1984–1986), 487–98. (Chronicle of Edessa
+                                and Original Chronicle of Edessa)</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>W.  Witakowski</reg>
+                           <orig>idem</orig>
+                        </choice>, <title rend="italic">The Syriac Chronicle of
+                                    Pseudo-Dionysius of Tel-Maḥrē: a study in the history of
+                                    historiography</title> (Acta Universitatis Upsaliensis. Studia
+                                Semitica Upsaliensia 7; 1987). (Zuqnin Chronicle)</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>W.  Witakowski</reg>
+                           <orig>idem</orig>
+                        </choice>, ‘The Division of the Earth between the Descendants of Noah
+                                in Syriac Tradition’, <title rend="italic">ARAM</title> 5 (1993
+                                [1996]), 635–56. (<choice>
+                                    <sic>Diamerismos</sic>
+                                    <corr>
+                                        <hi rend="italic">Diamerismos</hi>
+                                    </corr>
+                                </choice>)</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>W.  Witakowski</reg>
+                           <orig>idem</orig>
+                        </choice>, ‘The Chronicle of Eusebius: its type and continuation in
+                                Syriac historiography’, <title rend="italic">ARAM</title> 11–12
+                                (1999–2000), 419–37. (Chronicle of Eusebius)</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>W.  Witakowski</reg>
+                           <orig>idem</orig>
+                        </choice>, ‘Syriac historiographical sources’, in <title rend="italic">Byzantines and Crusaders in non-Greek sources,
+                                    1025–1204</title>, <abbr>ed.</abbr> M. Whitby (Proceedings of the British
+                                Academy, 132; 2007), 253–282. (Chronicle to the year 1234 [and
+                                Chronicles of Michael Rabo and Bar ʿEbroyo])</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>W.  Witakowski</reg>
+                           <orig>idem</orig>
+                        </choice>, ‘Elias BarShenaya’s Chronicle’, in <title rend="italic">Syriac Polemics. Studies in honour of G. J. Reinink</title>,
+                                <abbr>ed.</abbr> W. J. van Bekkum, J. W.  Drijvers, and A. C. Klugkist (<abbr>OLA</abbr> 170;
+                                2007), 219–37. (Eliya of Nisibis)</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>W.  Witakowski</reg>
+                           <orig>idem</orig>
+                        </choice>, ‘The Chronicle of Jacob of Edessa’, in <title rend="italic">Jacob of Edessa and the Syriac culture of his day</title>, <abbr>ed.</abbr>
+                                B. ter Haar Romeny (<abbr>MPIL</abbr> 18; 2008), 25–47.</bibl>
+                        </listBibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Witold</forename> 
+                  <surname>Witakowski</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

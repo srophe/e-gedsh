@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Antioch</title>
+            <author>
+               <persName>
+                  <forename>Hidemi</forename> 
+                  <surname>Takahashi</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.5">Electronic Edition Version 1.5</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Antioch</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Antioch</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/45</idno>
+                    <idno type="entry">36</idno>
+                    <milestone unit="pages" n="21-23"/>
+                    <idno type="althead">Antakya</idno>
+                    <idno type="subject">http://syriaca.org/place/10</idno>
+                    <note type="type">place</note>
+                    <note type="abstract">City in the historical region of <placeName ref="http://syriaca.org/place/486">Syria</placeName> (today in
+                        <placeName ref="http://syriaca.org/place/648">Turkey</placeName>).
+                        Titular see of <abbr>Syr. Orth.</abbr>, Syr. Catholic, <abbr>Maron.</abbr>, <abbr>Melk.</abbr> Orth., <abbr>Melk.</abbr>
+                        Catholic (united with <placeName type="diocese"
+                             ana="Melkite Catholic"
+                             ref="http://syriaca.org/place/572">Alexandria</placeName> and <placeName ref="http://syriaca.org/place/104">Jerusalem</placeName>) and, until 1953, Latin patriarchs.<note/>
+                    </note>
+                </ab>
+                <ab type="infobox">Antakya</ab>
+                <div type="body">
+                    <p>City in the historical region of Syria (today in Turkey). Titular see of Syr.
+                        Orth., Syr. Catholic, <abbr>Maron.</abbr>, <abbr>Melk.</abbr> Orth., <abbr>Melk.</abbr> Catholic (united with
+                        Alexandria and Jerusalem) and, until 1953, Latin patriarchs. Antioch is
+                        situated at the foot of Mt. Silpius in the valley of the Orontes,
+                        approximately 25 km. from the Mediterranean coast. Founded by Seleucus I
+                        Nicator <abbr>ca.</abbr> 300 BC and named after his father Antiochus, Antioch grew
+                        rapidly as the capital of the Seleucids. For the Romans who took it in 64 BC
+                        it was their largest and most prosperous city in Asia. Antioch was taken by
+                        the Sasanians for the first time in 256, when Shapur I deported many of its
+                        citizens and settled them in, among other places, the city he named ‘Better
+                        is the Antioch of Shapur’, the later Gondeshapur (<ref rend="bold" target="https://gedsh.bethmardutho.org/Beth-Lapat">
+                            <placeName ref="http://syriaca.org/place/35">Beth Lapaṭ</placeName>
+                        </ref>).
+                        After its destruction by <persName ref="http://syriaca.org/person/2244">Khusrau I</persName> in 540, the city was rebuilt on a smaller
+                        scale by <persName ref="http://syriaca.org/person/2284">Justinian</persName>, only to be attacked again by the Persians at the
+                        beginning of the 7th <abbr>cent.</abbr> and occupied by them for over a decade from 611.
+                        Antioch was captured by the Arabs in 637/8. Under the Byzantines again in
+                        969–1084, it was taken by the Crusaders in 1098. The Frankish Principality
+                        of Antioch lasted until 1268, when it was conquered by the Mamluks. A minor
+                        provincial town under the Ottomans and the French mandate, Antioch became
+                        the capital of the short-lived Republic of Hatay in 1938 before being
+                        incorporated, together with the rest of the former district (sancak) of
+                        Alexandretta, into the <placeName ref="http://syriaca.org/place/648">Republic of Turkey</placeName> in 1939.</p>
+                    <p>
+                        <persName ref="http://syriaca.org/person/2008">The Apostle St. Peter</persName> and St. <ref rend="bold" target="https://gedsh.bethmardutho.org/Ignatius-of-Antioch">
+                            <persName ref="http://syriaca.org/person/544">Ignatius of
+                                Antioch</persName>
+                        </ref> are reckoned as the first and third bishops of Antioch,
+                        and it is after them that it later became customary for the <abbr>Maron.</abbr>
+                        patriarchs to adopt the name ‘Peter’ and the <abbr>Syr. Orth.</abbr> and Syr. Catholic
+                        patriarchs the name ‘Ignatius’. The city in which <persName ref="http://syriaca.org/person/1983">St. Paul</persName> preached and the
+                        followers of <persName ref="http://syriaca.org/person/2245">Jesus</persName> were first called ‘Christian’ soon became the most
+                        important center of Christianity in <placeName>Asia</placeName>, and its see was recognised as
+                        ranking alongside those of <placeName ref="http://syriaca.org/place/2360">Rome</placeName> and <placeName>Alexandria</placeName> at the Council of Nicaea. The
+                        area under the ecclesiastical jurisdiction of Antioch that later became
+                        known as ‘patriarchate’ largely coincided with the civil diocese of the
+                        ‘East’ (Oriens) — whence the title ‘of Antioch and All the East’ still born
+                        by the patriarchs  — corresponding roughly to the parts of today’s Turkey
+                        south of the Taurus, Syria, Lebanon, Jordan, and the Holy Land, the last of
+                        which later formed a separate Patriarchate of <ref rend="bold" target="https://gedsh.bethmardutho.org/Jerusalem">
+                            <placeName ref="http://syriaca.org/place/104">Jerusalem
+                            </placeName>
+                        </ref> (although this was recognized only by the Chalcedonian churches). The
+                        theological school at Antioch which flourished in the 4th and 5th  cent. was
+                        to have a major influence on the theology of the <abbr>Ch. of E.</abbr> through the
+                        writings of <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Theodore-of-Mopsuestia">
+                            <persName ref="http://syriaca.org/person/780">Theodore
+                                of Mopsuestia</persName>
+                        </ref> and others. Antioch was one of the major
+                        battlegrounds in the Christological controversies of the 5th and 6th <abbr>cent.</abbr>
+                        that led to the formation of the Syriac Churches as separate entities from
+                        the Imperial Church. Among the patriarchs of Antioch resident in Antioch,
+                        <persName ref="http://syriaca.org/person/2449">John I</persName> (428–42) was a supporter of <ref rend="bold" target="https://gedsh.bethmardutho.org/Nestorius">
+                            <persName ref="http://syriaca.org/person/655">Nestorius</persName>
+                        </ref>, while
+                        <persName ref="http://syriaca.org/person/2474">Peter the Fuller</persName> (468–86, with interruptions) and <ref rend="bold" target="https://gedsh.bethmardutho.org/Severus-of-Antioch">
+                            <persName ref="http://syriaca.org/person/51">Severus of
+                                Antioch</persName>
+                        </ref> (512–18, d. 538) were important proponents of the
+                        Miaphysite teaching.</p>
+                    <p>Since the expulsion of Severus by <persName ref="http://syriaca.org/person/2268">Emperor Justin</persName> the <abbr>Syr. Orth.</abbr> patriarchs
+                        have usually been unable to reside in, or even visit, their titular see,
+                        except on such occasions as when Caliph Yazīd II allowed Eliya  I (709–24)
+                        to make a solemn entry into the city and consecrate a new church there in
+                        721, and during the Crusader period, when the Frankish rulers and Latin
+                        clergy of the city tended to favor the non-Chalcedonian Christians as their
+                        allies against Muslims and Melkites. From that period we know of a forced
+                        sojourn in Antioch of Athanasios (1090–1129) in <abbr>ca.</abbr> 1115, as well as of more
+                        friendly visits by <ref rend="bold" target="https://gedsh.bethmardutho.org/Michael-I-Rabo">
+                            <persName ref="http://syriaca.org/person/217">Michael Rabo</persName>
+                        </ref> (1166–99), who is
+                        said to have been enthroned on the chair of St. Peter during one of his
+                        visits in 1168–69, by Ignatius III Dawid (1222–52), who built a residence
+                        for himself on the outskirts of the city some time before 1246, and by <ref rend="bold" target="https://gedsh.bethmardutho.org/Yuhanon-bar-Madani">
+                            <persName ref="http://syriaca.org/person/236">Yuḥanon bar Maʿdani</persName>
+                        </ref> (1252–63), who was enthroned on the ‘chair of
+                        Great Severus’ in 1253. The <abbr>Syr. Orth.</abbr> had three churches in the city in
+                        1170 (Yoldat Aloho, Mor Giwargis and Mor Barṣawmo). The visit to Antioch by
+                        <abbr>Patr.</abbr> Ignatius Zakka Iwas in 2000 was probably the first by a <abbr>Syr. Orth.</abbr>
+                        patriarch since the 13th <abbr>cent.</abbr>
+                    </p>
+                    <p>In the 1920s there was a small community of Maronites in Antioch, who
+                        together with the Latin rite Christians numbered about fifty, alongside
+                        larger communities of Melkites numbering some 4,500 and Armenians numbering
+                        400 in a total population of 20,000–30,000. Today, the city still has
+                        functioning <abbr>Melk.</abbr> Orth. and Latin churches. St. Peter’s Church, or Grotto,
+                        the cave believed to be the site of the first church in Antioch, lies about
+                        2 km. to the northeast of the town center.</p>
+                    <p>
+                        <placeName ref="http://syriaca.org/place/317">The Black Mountain</placeName> (the Amanus Range) to the northwest of Antioch was a
+                        renowned center of monasticism. A number of Syriac liturgical <abbr>mss.</abbr> copied
+                        there attest to the continued use of Syriac alongside Greek and Georgian by
+                        Melkite monks in the region in the 11th <abbr>cent.</abbr>
+                    </p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>‘Antioche de Syrie. Histoire, images et traces de la ville
+                            antique’, <title rend="italic">Topoi</title> Supplément 5 (2004). (incl.
+                            several articles of relevance to the Syriac tradition in Antioch)</bibl>
+                        <bibl>S. P.  Brock, ‘Syriac manuscripts copied on the Black Mountain, near
+                            Antioch’, in <title rend="italic">Lingua restituta orientalis. Festgabe
+                                für Julius Assfalg</title>, <abbr>ed.</abbr> R. Schultz and M. Görg (1990),
+                            59–67.</bibl>
+                        <bibl>M. L.  Chaumont, in <title rend="italic">
+                            <abbr>EIr</abbr>
+                        </title>, vol. 2 (1987),
+                            119–25.</bibl>
+                        <bibl>C. Karalevskij, in <title rend="italic">
+                            <abbr>DHGE</abbr>
+                        </title>, vol. 3 (1924),
+                            563–703.</bibl>
+                        <bibl>T. Noujaim, in <title rend="italic">Encyclopédie Maronite</title>,
+                            vol. 1 (1992), 337–54.</bibl>
+                        <bibl>J. Rist, ‘Antiocheia am Orontes’, in <title rend="italic">
+                            <abbr>KLCO</abbr>
+                        </title>, 92–3.</bibl>
+                        <bibl>M. Streck and H. A. R. Gibb, in <title rend="italic">EI</title>
+                            <hi rend="superscript">2</hi>, vol. 1 (1960), 516–7.</bibl>
+                        <bibl>D. S. Wallace-Hadrill, <title rend="italic">Christian Antioch. A study
+                            of early Christian thought in the East</title> (1982).</bibl>
+                        <bibl>D.  Weltecke, ‘The Syriac Orthodox in the Principality of Antioch
+                            during the Crusader period’, in <title rend="italic">East and West in
+                                the Medieval Eastern Mediterranean</title>, vol. 1. <title rend="italic">Antioch from the Byzantine reconquest until the end of
+                                    the Crusader principality</title>, <abbr>ed.</abbr> K. N. Ciggaar and D. M.
+                            Metcalf (<abbr>OLA</abbr> 147; 2006), 95–124.</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Hidemi</forename> 
+                  <surname>Takahashi</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

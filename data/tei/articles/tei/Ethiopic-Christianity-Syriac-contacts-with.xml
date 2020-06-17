@@ -1,0 +1,831 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Ethiopic Christianity, Syriac contacts with</title>
+            <author>
+               <persName>
+                  <forename>Aaron M.</forename> 
+                  <surname>Butts</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.5">Electronic Edition Version 1.5</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Ethiopic Christianity, Syriac contacts with</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Ethiopic-Christianity-Syriac-contacts-with</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/209</idno>
+                    <idno type="entry">200</idno>
+                    <milestone unit="pages" n="148-153"/>
+                    <idno type="althead" subtype="altorder">Syriac contacts with Ethiopic
+                        Christianity</idno>
+                    <note type="type">subject</note>
+                    <note type="abstract">Throughout its history, Ethiopic Christianity has had
+                        various contacts with Syriac Christianity.<note/>
+                    </note>
+                </ab>
+                <div type="body">
+                    <p>Christianity reached the Kingdom of Aksum, on the northern edge of the great
+                        Ethiopian plateau, by the reign of ʿĒzānā in the middle of the 4th <abbr>cent.</abbr>
+                        According to Rufinus (4th <abbr>cent.</abbr>), the introduction of Christianity was
+                        facilitated by a certain Frumentius from Tyre (later known in the Ethiopic
+                        tradition as Salāmā Kaśātē Berhān), who was ordained <abbr>bp.</abbr> of ‘India’ (<choice>
+                            <sic>i.e.</sic>
+                            <corr>i.e.,</corr>
+                        </choice>
+                        Ethiopia) by <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Athanasius-of-Alexandria">
+                            <persName ref="http://syriaca.org/person/354">Athanasius of Alexandria</persName>
+                        </ref>. In the 6th <abbr>cent.</abbr>, the traveler Cosmas
+                        Indicopleustes reported that there were a large number of churches in
+                        Ethiopia as well as numerous bishops, martyrs, and monks. In time, Ethiopic
+                        Christianity became associated with the Oriental Orthodox Churches, which
+                        include the Coptic, Armenian, <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Syriac-Orthodox-Church">Syriac
+                            Orthodox</ref>, and <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Malankara-Syriac-Orthodox-Church">Malankara Syriac Orthodox</ref> Churches, all of which accept the
+                        Councils of Nicea, Constantinople, and Ephesus, but reject the Council of
+                        Chalcedon (see <ref rend="bold" target="https://gedsh.bethmardutho.org/Ecumenical-dialogue">Ecumenical
+                            dialogue</ref>). Throughout its history, Ethiopic Christianity has had
+                        various contacts with Syriac Christianity. In general, the influence of
+                        Ethiopic Christianity on Syriac Christianity seems to have been rather
+                        limited, though it was certainly not non-existent. The influence of Syriac
+                        Christianity on Ethiopic Christianity, on the other hand, was more
+                        substantial. This influence can be divided into two basic time periods: the
+                        Aksumite Period (4th <abbr>cent.</abbr> – <abbr>ca.</abbr> 900) and the Solomonic Period
+                        (1270–1770).</p>
+                    <label type="subsection">The Aksumite Period</label>
+                    <p>In the scholarly literature, a great deal of attention has been focused on
+                        possible Syriac influences on Ethiopic Christianity in the Aksumite period.
+                        Although Christianity reached Ethiopia in the 4th <abbr>cent.</abbr>, the spread of
+                        Christianity throughout Ethiopia is traditionally attributed to the efforts
+                        of a group of foreign missionaries active in the late 5th to early 6th <abbr>cent.</abbr>
+                        These missionaries include the Ṣādeqān, Maṭāʿ, and especially the so-called
+                        Nine Saints (see A. Brita, in <hi rend="italic">
+                            <abbr>EAe</abbr>
+                        </hi>, vol. 3, 1188–91).
+                        A number of scholars, including I. Guidi (1888, 33–4 with n. 1; 1932, 13–5)
+                        and especially C. Conti Rossini (1928, esp. 155–65), have argued that these
+                        foreign missionaries originated from Syriac-speaking areas. Based on this
+                        connection, a theory was developed that attributed a great deal of Syriac
+                        influence to the development of Christianity in Ethiopia, including the
+                        introduction of monasticism as well as the translation of the Bible into
+                        Geʿez, the classical language of Ethiopic Christianity. The association of
+                        these missionaries with Syriac-speaking areas was based on three principal
+                        arguments, all of which have been seriously challenged in more recent
+                        scholarship.</p>
+                    <p>First, it was argued that the personal names of the missionaries and the
+                        geographical names from which they are said to originate are of Syriac
+                        origin (Guidi 1888, 33–4 n. 1; Conti Rossini 1928, 161). More recently,
+                        however, Marrassini (1990, 35–8; 1999, 326–8) has shown that few, if any, of
+                        these names are actually of Syriac origin.</p>
+                    <p>Second, it was proposed that the transcription of Greek names in Geʿez,
+                        especially in translations of the Bible, was based on the pattern of Aramaic
+                        (Guidi 1888, 33–34 n. 1; Conti Rossini 1928, 156). Marrassini (1990, 39–41;
+                        1999, 329–30) has, however, pointed out that this pattern is not restricted
+                        to Aramaic, but rather it is the typical way in which Greek is transcribed
+                        in Semitic languages.</p>
+                    <p>The third argument adduced in favor of Syriac influence on Ethiopic
+                        Christianity in the Aksumite period involves Syriac loanwords in Geʿez. More
+                        than a century ago, Th. Nöldeke drew attention to a number of <ref rend="bold" target="https://gedsh.bethmardutho.org/Aramaic">Aramaic</ref>
+                        loanwords in Geʿez. Guidi (1932, 14) and especially Conti Rossini (1928,
+                        155) argued that some of these Aramaic loanwords in Geʿez are more
+                        specifically of Syriac origin, <choice>
+                            <sic>e.g.</sic>
+                            <corr>e.g., </corr>
+                        </choice>Geʿez <hi rend="italic">hāymānot</hi>
+                        ‘faith’ (often translating Greek <hi rend="italic">pístis</hi>) from Syriac
+                            <hi rend="italic">haymānutā</hi>. In an influential study, however,
+                        Polotsky showed that several of these Aramaic loanwords were not borrowed
+                        from Syriac, but rather from Jewish Aramaic, <choice>
+                            <sic>e.g.</sic>
+                            <corr>e.g., </corr>
+                        </choice>Geʿez <hi rend="italic">meṣwāt</hi> ‘alms, charity’ (no such word exists in Syriac) and Geʿez <hi rend="italic">ṭāʿot</hi> ‘idol’ (Syriac has <hi rend="italic">ṭāʿyutā</hi>, which not only preserves the third root consonant <hi rend="italic">y</hi>, but means ‘error, mistake’). Further research by
+                        Ullendorff (1967, 120–5), Witakowski (1989–90, 191–2; forthcoming), and
+                        Marrassini (1990, 38–9; 1999, 328–9) has raised additional questions about
+                        some of the purported Syriac loanwords in Geʿez while at the same time
+                        suggested several new possible examples. In the current state of research,
+                        it can only be conclusively stated that Geʿez contains a number of Aramaic
+                        loanwords, some of which are certainly not Syriac, but others of which may
+                        potentially be Syriac. Before any meaningful historical conclusions can be
+                        drawn, an updated analysis of all the Aramaic loanwords in Geʿez is needed,
+                        taking into account recent developments in Aramaic dialectology as well as
+                        the increasingly robust methodology of contact linguistics.</p>
+                    <p>In the end, the evidence for significant Syriac influence on Ethiopic
+                        Christianity in the Aksumite period is rather slim. Nevertheless, it does
+                        seem all but certain that there were contacts between Ethiopic Christianity
+                        and Syriac Christianity at this time, especially given that the Aksumite
+                        kingdom was involved in various power struggles with South Arabian kingdoms
+                        in the Arabian Peninsula, a place where Syriac-speaking Christians are known
+                        to have resided. In one instance of particular importance to contacts
+                        between Syriac and Ethiopic Christianity, the Aksumite <hi rend="italic">neguś</hi> Kālēb (<abbr>fl.</abbr> first half of the 6th <abbr>cent.</abbr>) intervened against
+                        the king of <ref rend="bold" target="https://gedsh.bethmardutho.org/Himyar">
+                            <placeName ref="http://syriaca.org/place/474">Ḥimyar</placeName>
+                        </ref> on behalf of miaphysite Christians who where being
+                        persecuted in <ref rend="bold" target="https://gedsh.bethmardutho.org/Nagran">
+                            <placeName ref="http://syriaca.org/place/464">Nagran</placeName>
+                        </ref> (see recently Nebes).</p>
+                    <label type="subsection">The Solomonic Period</label>
+                    <p>Setting aside the problematic evidence of the Aksumite period, Syriac
+                        influence on Ethiopic Christianity can be firmly established for Geʿez
+                        literature from the Solomonic period. In this case, however, Syriac
+                        influence was almost always mediated by Arabic Christianity, which inherited
+                        a great deal from the Syriac heritage.</p>
+                    <p>Alongside original compositions, Geʿez literature contains a significant body
+                        of translations which were made from Greek in the Aksumite period and from
+                        Arabic in the Solomonic period; there is little evidence for literary
+                        activity in the intervening time of the Zāg<hi rend="superscript">w</hi>ē
+                        dynasty (900–1270). In many cases, the Arabic literature was itself
+                        translated from Greek, Coptic, and Syriac. While there may be a few rare
+                        cases in which Syriac literature in Geʿez was translated directly from
+                        Syriac, in most cases Arabic was the bridge by which Syriac literature
+                        reached Ethiopic Christianity.</p>
+                    <p>The Bible is the earliest piece of literature associated with Ethiopic
+                        Christianity. At least part of the Bible was already translated into Geʿez
+                        by the end of the 4th to the early 5th <abbr>cent.</abbr> as can be deduced from biblical
+                        quotations in the Aksumite inscriptions (Knibb, 46–54). Though there is now
+                        general consensus that the Geʿez <abbr>OT</abbr> and <abbr>NT</abbr> were both translated from Greek,
+                        a number of different <hi rend="italic">Vorlagen</hi>, including Syriac,
+                        have been proposed throughout the history of scholarship. A. Vööbus, for
+                        instance, argued that the Geʿez Gospels were translated from Syriac and then
+                        revised against the Greek text. It is now clear, however, that Syriac
+                        influence on the Geʿez Bible occurred at a later stage (probably in the 14th
+                        <abbr>cent.</abbr>) when the Geʿez biblical text was revised against a Syriac biblical
+                        text or, more likely, an Arabic version of a Syriac biblical text (see
+                        Knibb, in <hi rend="italic">
+                            <abbr>EAe</abbr>
+                        </hi>, vol. 1, 565 and more extensively Knibb
+                        1999). Evidence of interest in the comparison of Syriac and Ethiopic
+                        biblical texts (along with Coptic, Arabic, and Armenian) is found in <abbr>ms.</abbr>
+                        Vat. Barberini Or. 2, a 15th-cent. polyglot Psalter in five languages, which
+                        was owned by a <abbr>Syr. Orth.</abbr> priest named Ṣalib (see S. P. Brock, <hi rend="italic">The Bible in the Syriac tradition</hi> [2nd <abbr>ed.</abbr> 2006],
+                        145).</p>
+                    <p>Moving beyond the Bible, a number of Syriac-speaking authors appear in Geʿez
+                        literature. Two demonstrations by <ref rend="bold" target="https://gedsh.bethmardutho.org/Aphrahat">
+                            <persName ref="http://syriaca.org/person/10">Aphrahaṭ</persName>
+                        </ref> (<abbr>fl.</abbr>
+                        336–45) are found in the Ethiopic tradition (see W. Witakowski, in <hi rend="italic">
+                            <abbr>EAe</abbr>
+                        </hi>, vol. 1, 287). In 1906, F. M. Esteves Pereira
+                        published a Geʿez version of Dem. 5. In this text, the author is
+                        (incorrectly) identified as <ref rend="bold" target="https://gedsh.bethmardutho.org/Yaqub-of-Nisibis">
+                            <persName ref="http://syriaca.org/person/811">Yaʿqub of
+                            Nisibis</persName>
+                        </ref>, an attribution which is also found in the earliest Syriac
+                        <abbr>ms.</abbr> of Aphrahaṭ (London, Brit. Libr. Add. 17,182; dated 474), as well as in
+                        the Armenian translation. In 1964, E. Cerulli published a text on the
+                        resurrection of the dead, which was subsequently identified as a portion of
+                        Aphrahaṭ’s Dem. 8 by T. Baarda.</p>
+                    <p>A number of Geʿez texts are attributed to <ref rend="bold" target="https://gedsh.bethmardutho.org/Ephrem">
+                            <persName ref="http://syriaca.org/person/13">Ephrem</persName>
+                        </ref> (d. 373),
+                        including both homilies and prayers (a list is provided by Weninger, in <hi rend="italic">
+                            <abbr>EAe</abbr>
+                        </hi>, vol. 1, 331–2); it is, however, unclear whether
+                        any of these are among Ephrem’s genuine writings. Several homilies
+                        attributed to Ephrem are extracted in the <hi rend="italic">Hāymānota
+                            ābaw</hi> ‘Faith of the Fathers’, which is a large compendium of
+                        patristic writings, synodical statements, and canons (unedited; see A.  Wion
+                        and E.  Fritsch, in <hi rend="italic">
+                            <abbr>EAe</abbr>
+                        </hi>, vol. 2, 1073–5 and Graf). In
+                        addition, Ephrem is said to have composed the <hi rend="italic">Weddāsē
+                            Māryām</hi> ‘Praise of Mary’ (<abbr>ed.</abbr> with <abbr>FT</abbr> Velat), a collection of hymns
+                        to Mary for each day of the week, which is found in Ethiopic Psalter <abbr>mss.</abbr> as
+                        well as in the <hi rend="italic">Meʿerāf</hi>, a liturgical text which forms
+                        part of the Divine Office. Due to his association with the <hi rend="italic">Weddāsē Māryām</hi>, Ephrem is usually depicted in Ethiopic iconography
+                        standing at the feet of an enthroned Mary (see Hammerschmidt and Jäger,
+                        101–8). Ephrem also sometimes bears the sobriquet <hi rend="italic">labḥāwi</hi> ‘the potter’ in the Ethiopic tradition, likely due to a
+                        conflation with <ref rend="bold" target="https://gedsh.bethmardutho.org/Shemun-Quqoyo">
+                            <persName ref="http://syriaca.org/person/37">Shemʿun
+                            Quqoyo</persName>
+                        </ref>.</p>
+                    <p>The legend of Abgar V Ukkama (see <ref rend="bold" target="https://gedsh.bethmardutho.org/Abgarids-of-Edessa">Abgarids</ref>), which is
+                        found in Syriac in the <ref rend="bold" target="https://gedsh.bethmardutho.org/Addai-Teaching-of">Teaching of
+                            Addai</ref>, exists in at least four Geʿez versions, two of which are
+                        associated with the <hi rend="italic">Taʾāmmera Iyasus</hi> ‘The miracles of
+                        Jesus’ (see Weninger, in <hi rend="italic">
+                            <abbr>EAe</abbr>
+                        </hi>, vol. 1, 40–41 and
+                        especially Haile). Most of the <hi rend="italic">Taʾāmmera Iyasus
+                        </hi>consists of a translation of the Arabic Apocryphal Gospel of John (<abbr>ed.</abbr>
+                        with <abbr>LT</abbr> I. Galbiati, <hi rend="italic">Iohannis evangelium apocryphum
+                            arabice</hi> [1957]), which is itself based on a variety of sources,
+                        including the <ref rend="bold" target="https://gedsh.bethmardutho.org/Cave-of-Treasures">Cave of
+                            Treasures</ref> and the <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Methodius-Apocalypse-of-Pseudo-">Apocalypse of
+                            Pseudo-Methodius</ref> (see Witakowski 1995).</p>
+                    <p>No less than twenty texts are attributed to <ref rend="bold" target="https://gedsh.bethmardutho.org/Yaqub-of-Serugh">
+                            <persName ref="http://syriaca.org/person/42">Yaʿqub of
+                            Serugh</persName>
+                        </ref> (d. 521) in the Ethiopic tradition (inventories are
+                        provided in W. Witakowski, in <hi rend="italic">
+                            <abbr>EAe</abbr>
+                        </hi>, vol. 2, 263 and
+                        Uhlig 1999, 13–16). A majority of these belong to the genre of <hi rend="italic">dersān</hi> ‘homily’, the Geʿez equivalent of Syriac <hi rend="italic">memrā</hi>. While only one of these homilies has thus far
+                        been edited (Uhlig 1999), it seems that many of them were translated from
+                        Arabic, and at least some may go back to Syriac originals. Others, however,
+                        were only ascribed to Yaʿqub in the Geʿez ms. tradition, <choice>
+                            <sic>e.g.</sic>
+                            <corr>e.g., </corr>
+                        </choice>the <hi rend="italic">Dersāna sanbat</hi> ‘Homily on the Sabbath’ (see Wurmbrand
+                        1963). Interestingly, Yaʿqub’s ‘Homily on the death of
+                        Aaron’ formed the basis for the <hi rend="italic">Mota Āron</hi> ‘Death of
+                        Aaron’, a Geʿez text that is found not only in the literary tradition of the
+                        Ethiopian Orthodox Church, but also in that of the Bēta Esrāʾēl (or Falāšā)
+                        (see Wurmbrand 1961). In addition to homilies, an anaphora, <choice>
+                            <sic>incipit</sic>
+                            <corr>
+                                <hi rend="italic">incipit</hi>
+                            </corr>
+                        </choice> ‘Stand
+                        up in the fear of the Lord’, is also attributed to Yaʿqub (<abbr>ed.</abbr> with <abbr>GT</abbr>
+                        Euringer), but again it is probably pseudonymous (see Hammerschmidt,
+                        47–8).</p>
+                    <p>A Profession of Faith attributed to <ref rend="bold" target="https://gedsh.bethmardutho.org/Yaqub-Burdoyo">
+                            <persName ref="http://syriaca.org/person/69">Yaʿqub
+                            Burdʿoyo</persName>
+                        </ref> (d. 578) is preserved in Geʿez in the <hi rend="italic">Hāymānota ābaw</hi> (<abbr>ed.</abbr> with <abbr>GT</abbr> Cornill; see J. Tubach, in <hi rend="italic">
+                            <abbr>EAe</abbr>
+                        </hi>, vol. 3, 261–2). This text is not extant in
+                        Syriac, but is found in Arabic (<abbr>ed.</abbr> with <abbr>DT</abbr> H. G. Kleyn, <hi rend="italic">Jacobus Baradaeüs. De stichter der syrische monophysietische
+                        kerk</hi> [1882], 121–63), from which the Geʿez was translated.</p>
+                    <p>Geʿez preserves the ‘Conflict of Severus’ by <ref rend="bold" target="https://gedsh.bethmardutho.org/Athanasios-I-Gamolo">
+                            <persName ref="http://syriaca.org/person/88">Athanasios I
+                            Gamolo</persName>
+                        </ref> (d. 631) (<abbr>ed.</abbr> Goodspeed and Crum), which deals with the
+                        life of <ref rend="bold" target="https://gedsh.bethmardutho.org/Severus-of-Antioch">
+                            <persName ref="http://syriaca.org/person/51">Severus of
+                            Antioch</persName>
+                        </ref> (d. 538). Though not extant in Syriac, this text is found
+                        in Arabic as well as in Coptic fragments. Several texts attributed to
+                        Severus also exist in Geʿez, some of which may ultimately derive from Syriac
+                        originals (see Witakowski 2004).</p>
+                    <p>Several Syriac authors feature prominently in the <hi rend="italic">Maṣḥafa
+                            manakosāt </hi>‘Book of monks’, which is one of the central collections
+                        of Ethiopic monasticism (see A. Bausi, in <hi rend="italic">
+                            <abbr>EAe</abbr>
+                        </hi>, vol.
+                        2, 997–9). This collection consists of three distinct texts, each of which
+                        is directly associated with at least one Syriac-speaking author. Included in
+                        the <hi rend="italic">Maṣḥafa manakosāt </hi>is the <hi rend="italic">Āragāwi manfasāwi</hi> ‘Spiritual Elder’, which is the name by which the
+                        <abbr>Ch. of E.</abbr> mystical writer <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Yohannan-of-Dalyatha">
+                            <persName ref="http://syriaca.org/person/826">Yoḥannan of
+                            Dalyatha</persName>
+                        </ref> (8th <abbr>cent.</abbr>), or Yoḥannan Saba (‘Elder’), is known in
+                        Geʿez. The <hi rend="italic">Āragāwi manfasāwi</hi> was translated from an
+                        Arabic version of Yoḥannan’s original Syriac composition (see E.  Lucchesi,
+                        in <hi rend="italic">
+                            <abbr>EAe</abbr>
+                        </hi>, vol.  1, 309–10). Another text found in the
+                            <hi rend="italic">Maṣḥafa manakosāt</hi> is the <hi rend="italic">Filkesyos</hi> (see Witakowski 2006; idem, in <hi rend="italic">
+                            <abbr>EAe</abbr>
+                        </hi>, vol. 2, 541–2). Though attributed to the <abbr>Syr. Orth.</abbr> theologian
+                            <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Philoxenos-of-Mabbug">
+                            <persName ref="http://syriaca.org/person/44">Philoxenos
+                            of Mabbug</persName>
+                        </ref> (d. 523), the <hi rend="italic">Filkesyos</hi> is
+                        actually a Geʿez version (via Arabic) of the commentary of <ref rend="bold" target="https://gedsh.bethmardutho.org/Dadisho-Qatraya">
+                            <persName ref="http://syriaca.org/person/434">Dadishoʿ
+                            Qaṭraya</persName>
+                        </ref> (late 7th <abbr>cent.</abbr>) on the ‘Paradise of the Fathers’ by <ref rend="bold" target="https://gedsh.bethmardutho.org/Enanisho">
+                            <persName ref="http://syriaca.org/person/474">ʿEnanishoʿ</persName>
+                        </ref> (7th <abbr>cent.</abbr>). ʿEnanishoʿ’s work is in turn a large
+                        compilation of monastic texts, which includes <ref rend="bold" target="https://gedsh.bethmardutho.org/Palladius">
+                            <persName ref="http://syriaca.org/person/668">Palladius</persName>
+                        </ref>’s
+                        ‘Lausiac history’, the ‘History of the monks in Egypt’, and various
+                        apophthegmata. The final book that makes up the <hi rend="italic">Maṣḥafa
+                            manakosāt</hi> is the <hi rend="italic">Maṣḥafa Mār Yesḥaq</hi> ‘The book
+                        of Mar Isaac’ (<abbr>ed.</abbr> with <abbr>GT</abbr> Berhanu; see S. Weninger, in <hi rend="italic">
+                            <abbr>EAe</abbr>
+                        </hi>, vol. 2, 193–4). As the title suggests, this text is
+                        attributed to the famous <abbr>Ch. of E.</abbr> monastic author <ref rend="bold" target="https://gedsh.bethmardutho.org/Ishaq-of-Nineveh">
+                            <persName ref="http://syriaca.org/person/550">Isḥaq of
+                            Nineveh</persName>
+                        </ref> (late 7th <abbr>cent.</abbr>). More specifically, the <hi rend="italic">Maṣḥafa Mār Yesḥaq</hi> is a Geʿez translation of the Arabic collection
+                        attributed to Isḥaq. The Arabic version is in turn a translation from a
+                        Greek version of writings attributed to Isḥaq, which consists of most of the
+                        ‘First Part’ of the original Syriac writings of Isḥaq as well as four
+                        homilies by Yoḥannan of Dalyatha and an abbreviated version of the ‘Letter
+                        to Patricius’ by Philoxenos of Mabbug. Thus, although the <hi rend="italic">Filkesyos </hi>is incorrectly ascribed to Philoxenos, the <hi rend="italic">Maṣḥafa manakosāt</hi> does still contain a text by this
+                        <abbr>Syr. Orth.</abbr> theologian. Outside of the <hi rend="italic">Maṣḥafa
+                            manakosāt</hi>, Geʿez monastic literature preserves a number of sayings
+                        attributed to Syriac-speaking authors, including Ephrem, Yoḥannan of
+                        Dalyatha, and Isḥaq of Nineveh, in various collections of apophthegmata (<abbr>ed.</abbr>
+                        with <abbr>LT</abbr> Arras 1963, 1967, 1984, 1986, 1988).</p>
+                    <p>Geʿez biblical exegesis has also been influenced by Syriac-speaking authors,
+                        especially those belonging to the <abbr>Ch. of E.</abbr>, such as <ref rend="bold" target="https://gedsh.bethmardutho.org/Ahob-Qatraya">
+                            <persName ref="http://syriaca.org/person/324">Aḥob Qaṭraya</persName>
+                        </ref>
+                        (late 6th <abbr>cent.</abbr>?), <ref rend="bold" target="https://gedsh.bethmardutho.org/Theodoros-bar-Koni">
+                            <persName ref="http://syriaca.org/person/783">Theodoros bar
+                            Koni</persName>
+                        </ref> (<abbr>fl.</abbr> end of the 8th <abbr>cent.</abbr>), <ref rend="bold" target="https://gedsh.bethmardutho.org/Isho-bar-Nun">
+                            <persName ref="http://syriaca.org/person/552">Ishoʿ bar Nun</persName>
+                        </ref>
+                        (d.  828), and <ref rend="bold" target="https://gedsh.bethmardutho.org/Ishodad-of-Merv">
+                            <persName ref="http://syriaca.org/person/555">Ishoʿdad of
+                            Merv</persName>
+                        </ref> (<abbr>fl.</abbr>
+                        <abbr> ca.</abbr> 850). This contact was mediated by the Christian
+                        Arabic tradition, in particular the exegetical works of <ref rend="bold" target="https://gedsh.bethmardutho.org/Ibn-al-Tayyib">
+                            <persName ref="http://syriaca.org/person/543">Ibn al-Ṭayyib</persName>
+                        </ref>
+                        (d. 1043), especially his <hi rend="italic">Firdaws al-naṣrāniyya </hi>‘The
+                        Paradise of Christianity’. In its Geʿez version, E.-Syr. biblical exegesis
+                        was transmitted to the Andemta commentary tradition (Cowley 1983, 1988). The
+                        Andemta commentaries contain a translation of the Geʿez biblical text into
+                        Amharic, the official language of present-day Ethiopia, as well as a wealth
+                        of traditional exegetical material (Psalms <abbr>ed.</abbr> with <abbr>ET</abbr> Stoffregen Pedersen;
+                        Hosea <abbr>ed.</abbr> with <abbr>IT</abbr> Andeberhan). Several anonymous Syriac exegetical homilies
+                        are also extant in Geʿez. The Syriac verse homily on Abraham and Sarah in
+                        Egypt (<abbr>ed.</abbr> with <abbr>ET</abbr> S. P. Brock and S. Hopkins, ‘A verse homily on Abraham
+                        and Sarah in Egypt: Syriac original with early Arabic translation’, <title rend="italic">
+                            <abbr>LM</abbr>
+                        </title> 105 [1992], 87–146), for instance, found its way
+                        via Arabic into Geʿez (<abbr>ed.</abbr> with <abbr>FT</abbr> Caquot), where it is attributed to
+                        Ephrem. Similarly, the Geʿez <hi rend="italic">Zenāhu la-Yosef</hi> ‘History
+                        of Joseph’ (<abbr>ET</abbr> Isaac; an edition of the Geʿez is in preparation by the
+                        current author) ultimately derives (via Arabic) from a Syriac version, which
+                        is attributed to <ref rend="bold" target="https://gedsh.bethmardutho.org/Basil-of-Caesarea">
+                            <persName ref="http://syriaca.org/person/376">Basil of
+                            Caesarea</persName>
+                        </ref> (see Heal; <abbr>ed.</abbr> M. Weinberg, <hi rend="italic">Die
+                            Geschichte Josefs angeblich verfasst von Basilius dem Grossen aus
+                            Caesarea</hi> [1893]; S. W. Link, <hi rend="italic">Die Geschichte
+                            Josefs angeblich verfasst von Basilius dem Grossen aus Cäsarea</hi>
+                        [1895]; K.  Heal, ‘A Missing leaf from the <hi rend="italic">Syriac History
+                            of Joseph</hi>’, forthcoming).</p>
+                    <p>Finally, a number of Syriac individuals appear in Geʿez hagiographic
+                        literature. The <hi rend="italic">Senkessar</hi> ‘Synaxary’, for instance,
+                        commemorates, among others, Abgar V Ukkama, <ref rend="bold" target="https://gedsh.bethmardutho.org/Barsawmo">
+                            <persName ref="http://syriaca.org/person/370">Barṣawmo</persName>
+                        </ref>, Ephrem
+                        (cf. Pérès), <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Marutha-of-Maypherqat">
+                            <persName ref="http://syriaca.org/person/25">Marutha of
+                            Maypherqaṭ</persName>
+                        </ref>, <ref rend="bold" target="https://gedsh.bethmardutho.org/Shemun-the-Stylite">
+                            <persName ref="http://syriaca.org/person/744">Shemʿun the
+                            Stylite</persName>
+                        </ref>, and Yaʿqub of Nisibis (<abbr>ed.</abbr> with <abbr>FT</abbr> by various authors in
+                        <abbr>PO</abbr>; for full references, see Colin; <abbr>ET</abbr> Budge 1928). More developed
+                        hagiographic works, such as the Life of Barṣawmo (<abbr>ed.</abbr> with
+                        <abbr>FT</abbr> Grébaut), are also extant in Geʿez.</p>
+                    <p>Among the many interesting aspects of this large body of Geʿez literature
+                        that is attributed to Syriac-speaking authors is the fact that several
+                        E.-Syr. authors are represented in the Ethiopic tradition, especially in
+                        texts related to biblical exegesis and monasticism. The appearance of these
+                        E.-Syr. authors is intriguing given that Ethiopic Christianity has
+                        throughout its history been dogmatically aligned with the <abbr>Syr. Orth.</abbr> Church,
+                        not with the <abbr>Ch. of E.</abbr> In some cases, a work by a <abbr>Ch. of E.</abbr> author seems to
+                        have been stripped of its distinctive E.-Syr. features before it passed into
+                        Geʿez. This is, for instance, the case with Ibn al-Ṭayyib’s ‘Commentary on
+                        the Gospels’, which is extant both in an original form as well as in an
+                        adapted, miaphysite version (<abbr>ed.</abbr> Y. Manquriyūs, <hi rend="italic">Tafsīr
+                            al-mašriqī</hi> [1908–10]; see Faultless), which served as the textual
+                        basis for the Geʿez translation. In other cases, however, it is less clear
+                        how Syriac-speaking authors belonging to the <abbr>Ch. of E.</abbr> found their way into
+                        Geʿez.</p>
+                    <p>In addition to the Geʿez literature that is attributed to Syriac-speaking
+                        authors, there are a number of originally Greek works that passed through
+                        Syriac on their way to the Ethiopic tradition, again almost always with
+                        Arabic standing in between. This is, for instance, likely the case with the
+                            <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Didascalia-Apostolorum">Didascalia
+                            Apostolorum</ref> (<abbr>ed.</abbr> with <abbr>ET</abbr> Platt; <abbr>ed.</abbr> with <abbr>ET</abbr> Horner), the <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Testament-of-our-Lord-Jesus-Christ">Testament of our Lord Jesus Christ</ref> (<abbr>ed.</abbr> with <abbr>FT</abbr> Beylot 1984), and
+                        several texts related to the <ref rend="bold" target="https://gedsh.bethmardutho.org/Alexander-Cycle">Alexander
+                            cycle</ref> (<abbr>ed.</abbr> with <abbr>ET</abbr> Budge 1896; see G. Lusini, in <hi rend="italic">
+                            <abbr>EAe</abbr>
+                        </hi>, vol. 1, 195). Likewise, the Sayings of <ref rend="bold" target="https://gedsh.bethmardutho.org/Ahiqar">
+                            <persName ref="http://syriaca.org/person/323">Aḥiqar</persName>
+                        </ref> seem to have
+                        traveled through Syriac (and then Arabic) on their way to the Ethiopic
+                        tradition, where they are transmitted in late <abbr>mss.</abbr> of the <hi rend="italic">Maṣḥafa falāsfa ṭabibān</hi> ‘Book of the wise philosophers’ (see U.
+                        Pietruschka, in <hi rend="italic">
+                            <abbr>EAe</abbr>
+                        </hi>, vol. 2, 485–6). A similar
+                        trajectory is likely for the related narrative about Aḥiqar that is
+                        preserved in Geʿez (<abbr>ed.</abbr> with <abbr>FT</abbr> Schneider).</p>
+                    <p>It is clear then that Geʿez literature from the Solomonic period, which
+                        includes a number of texts that are attributed to Syriac-speaking authors as
+                        well as texts that passed through Syriac on their way to Geʿez, provides an
+                        example of Syriac influence on Ethiopic Christianity. It must be stressed,
+                        however, that this Syriac influence was in most, if not all, cases mediated
+                        by Arabic Christianity.</p>
+                    <p>The Syriac influence on Ethiopic Christianity in the Solomonic period can be
+                        explained by various points of contact. During the reign of Yekunno Amlāk
+                        (1270–85) at the beginning of the Solomonic period, it appears that a
+                        ‘Syrian’ became head of the Ethiopian Church, a position normally restricted
+                        to Coptic monks (see Tamrat, 69–72). Though this seems to have been short
+                        lived, it clearly demonstrates a Syriac presence in Ethiopia at this time.
+                        Outside of Ethiopia, contacts between Ethiopic and Syriac Christianity
+                        occurred at various locations. Ethiopic monks are known to have lived in
+                        several monastic communities in Egypt alongside Syriac monks (in general,
+                        see O. Meinardus, in <hi rend="italic">
+                            <abbr>EAe</abbr>
+                        </hi>, vol. 2, 243–5). Both Syriac
+                        and Ethiopic monks also resided at the <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Catherine-Monastery-of-St">
+                            <placeName ref="http://syriaca.org/place/368">Monastery of St.
+                            Catherine</placeName>
+                        </ref> (Cerulli, 1943–7, vol. 1, 148 and 151). In addition,
+                        contacts between Syriac and Ethiopic monks took place in <ref rend="bold" target="https://gedsh.bethmardutho.org/Jerusalem">
+                            <placeName ref="http://syriaca.org/place/104">Jerusalem</placeName>
+                        </ref>, where
+                        the various Christian communities were represented (Cerulli 1943–7).
+                        Finally, moving closer to the Syriac homeland, Ethiopic monks were present
+                        from the 13th <abbr>cent.</abbr> onwards in Lebanon and Syria, and some may have possibly
+                        played a role in the renaming of <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Musa-al-Habashi-Dayr-Mar">
+                            <placeName ref="http://syriaca.org/place/228">Dayr Mār
+                            Mūsā al-Ḥabashī</placeName>
+                        </ref> (‘Monastery of St. Moses the Ethiopian’) (Cerulli
+                        1943–7, vol. 1, 325–33; Cruikshank Dodd, 19–25; Kaufhold, 54–9).</p>
+                    <p>See <ref target="https://gedsh.bethmardutho.org/fig/48">Fig. 48</ref> and <ref target="https://gedsh.bethmardutho.org/fig/49c">49c</ref>.</p>
+                </div>
+                <div type="bibl">
+                    <listBibl>
+                        <listBibl>
+                            <head>Primary Sources</head>
+                            <bibl>W. Andeberhan, <title rend="italic">Commentari etiopici sul Libro
+                                    del Profeta Osea</title> (<abbr>ÄF</abbr> 40; 1994). (Amharic with <abbr>IT</abbr>)</bibl>
+                            <bibl>V. Arras, <title rend="italic">Collectio monastica</title> (<abbr>CSCO</abbr>
+                                238–9; 1963). (Geʿez with <abbr>LT</abbr>)</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>V. Arras</reg>
+                           <orig>idem</orig>
+                        </choice>, <title rend="italic">Patericon aethiopice</title> (<abbr>CSCO</abbr>
+                                277–8; 1967). (Geʿez with <abbr>LT</abbr>)</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>V. Arras</reg>
+                           <orig>idem</orig>
+                        </choice>, <title rend="italic">Asceticon</title> (<abbr>CSCO</abbr> 458–9; 1984).
+                                (Geʿez with <abbr>LT</abbr>)</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>V. Arras</reg>
+                           <orig>idem</orig>
+                        </choice>, <title rend="italic">Geronticon</title> (<abbr>CSCO</abbr> 476–7; 1986).
+                                (Geʿez with <abbr>LT</abbr>)</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>V. Arras</reg>
+                           <orig>idem</orig>
+                        </choice>, <title rend="italic">Quadraginta historiae
+                                    monachorum</title> (<abbr>CSCO</abbr> 505–506; 1988). (Geʿez with <abbr>LT</abbr>)</bibl>
+                            <bibl>D. Berhanu, <title rend="italic">Das Mashafa Mar Yeshaq von
+                                    Ninive</title> (1997). (Geʿez with <abbr>GT</abbr>)</bibl>
+                            <bibl>R. Beylot, <title rend="italic">Testamentum Domini
+                                    éthiopien</title> (1984). (Geʿez with <abbr>FT</abbr>)</bibl>
+                            <bibl>E. A. W. Budge, <title rend="italic">The life and exploits of
+                                    Alexander the Great being a series of Ethiopic texts …</title> (2
+                                vols.; 1896). (Geʿez with <abbr>ET</abbr>)</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>E. A. W. Budge</reg>
+                           <orig>idem</orig>
+                        </choice>, <title rend="italic">The book of the saints of the Ethiopian
+                                    church</title> (4 vols.; 1928). (<abbr>ET</abbr>)</bibl>
+                            <bibl>A.  Caquot, ‘Une homélie éthiopienne attribuée à Saint Mar Éphrem
+                                sur le séjour d’Abraham et Sara en Égypte’, in <title rend="italic">Mélanges Antoine Guillaumont. Contributions à l’étude des
+                                    christianismes orientaux</title> (Cahiers d’orientalisme 20;
+                                1988), 173–85. (Geʿez with <abbr>FT</abbr>)</bibl>
+                            <bibl>E.  Cerulli, ‘ “De resurrectione mortuorum” opuscolo della chiesa
+                                Etiopica del sec. XIV’, in <title rend="italic">Mélanges Eugène
+                                    Tisserant</title>, vol. 2. <title rend="italic">Orient
+                                    chrétien</title> (<abbr>SeT</abbr> 232; 1964), 1–27. (Geʿez with <abbr>IT</abbr>)</bibl>
+                            <bibl>C. H. Cornill, ‘Das Glaubensbekenntniss des Jacob Baradaeus in
+                                äthiopischer Uebersetzung’, <title rend="italic">
+                                    <abbr>ZDMG</abbr>
+                                </title> 30
+                                (1876), 417–466. (Geʿez with <abbr>GT</abbr>)</bibl>
+                            <bibl>F. M.  Esteves Pereira, ‘Jacobi, episcopi Nisibeni, Homilia de
+                                adventu regis Persarum adversus urbem Nisibis’, in <title rend="italic">Orientalische Studien Theodor Nöldeke zum
+                                    siebzigsten Geburtstag (2. März 1906) gewidmet …</title>, <abbr>ed.</abbr> C.
+                                Bezold, vol. 2 (1906), 877–92. (Geʿez)</bibl>
+                            <bibl>S. Euringer, <title rend="italic">Die äthiopischen Anaphoren des
+                                    hl. Evangelisten Johannes des Donnersohnes und des hl. Jacobus
+                                    von Sarug</title> (<abbr>OCA</abbr> 90; 1934), 79–122. (Geʿez with <abbr>GT</abbr>)</bibl>
+                            <bibl>E.  J.  Goodspeed and W. E. Crum, <title rend="italic">The
+                                    Conflict of Severus, patriarch of Antioch, by Athanasius</title>
+                                (<abbr>PO</abbr> 4.6; 1909). (Geʿez with <abbr>ET</abbr>)</bibl>
+                            <bibl>S.  Grébaut, ‘Vie de Barsoma le Syrien’, <title rend="italic">ROC</title> 13 (1908), 337–345; 14 (1909), 135–42, 264–75,
+                                401–16. (Geʿez with <abbr>FT</abbr>)</bibl>
+                            <bibl>G. Haile, ‘The legend of Abgar in Ethiopic tradition’, <title rend="italic">
+                                    <abbr>OCP</abbr>
+                                </title> 55 (1989), 375–410. (Geʿez with
+                                <abbr>ET</abbr>)</bibl>
+                            <bibl>G.  Horner, <title rend="italic">The statutes of the Apostles or
+                                    Canones Ecclesiastici</title> (1904), 1–87 (Geʿez), 127–232
+                                (<abbr>ET</abbr>).</bibl>
+                            <bibl>E. Isaac, ‘The Ethiopic History of Joseph’, <title rend="italic">Journal for the Study of the Pseudepigrapha</title> 6 (1990),
+                                3–125. (<abbr>ET</abbr>)</bibl>
+                            <bibl>T. P. P. Platt, <title rend="italic">The Ethiopic
+                                    Didascalia</title> (1834). (Geʿez with <abbr>ET</abbr>)</bibl>
+                            <bibl>R.  Schneider, ‘L’histoire d’Ahiqar en éthiopien’, <title rend="italic">Annales d’Éthiopie</title> 11 (1978), 141–52.
+                                (Geʿez with <abbr>FT</abbr>)</bibl>
+                            <bibl>K. Stoffregen Pedersen, <title rend="italic">Traditional Ethiopian
+                                    exegesis of the Book of Psalms</title> (<abbr>ÄF</abbr> 36; 1995). (Amharic
+                                with <abbr>ET</abbr>)</bibl>
+                            <bibl>S. Uhlig, ‘Dersan des Yaʿqob von Serug für den vierten Sonntag im
+                                Monat Taḫśaś’, <title rend="italic">Aethiopica</title> 2 (1999),
+                                7–52. (Geʿez with <abbr>GT</abbr>)</bibl>
+                            <bibl>B. Velat, <title rend="italic">Études sur le Meʿerāf. Commun de
+                                    l’office divin éthiopien</title> (<abbr>PO</abbr> 33; 1966), 284–96.
+                                (<abbr>FT</abbr>)</bibl>
+                            <bibl>B. Velat, <title rend="italic">Meʿerāf. Commun de l’office divin
+                                    éthiopien pour toute l’année</title> (<abbr>PO</abbr> 34.1–2; 1966), 76–91.
+                                (Geʿez)</bibl>
+                            <bibl>M.  Wurmbrand, ‘Le “Dersâna sanbat”. Une homélie éthiopienne
+                                attribuée à Jacques de Saroug’, <title rend="italic">
+                                    <abbr>OS</abbr>
+                                </title> 8
+                                (1963), 343–394. (<abbr>FT</abbr>)</bibl>
+                        </listBibl>
+                        <listBibl>
+                            <head>Secondary Sources</head>
+                            <bibl>T.  Abraha, ‘Quotations from patristic writings and references to
+                                early Christian literature in the <title rend="italic">Books of St.
+                                    Yared</title>’, <title rend="italic">
+                                    <abbr>LM</abbr> 
+                        </title> 122 (2009),
+                                331–404.</bibl>
+                            <bibl>T. Baarda, ‘Another treatise of Aphrahat the Persian sage in
+                                Ethiopic translation’, <title rend="italic">
+                                    <abbr>NTS</abbr>
+                                </title> 27 (1980–81),
+                                632–40.</bibl>
+                            <bibl>E.  Cerulli, <title rend="italic">Etiopi in Palestina. Storia
+                                    della comunità etiopica di Gerusalemme</title> (2 vols.;
+                                1943–47).</bibl>
+                            <bibl>G. Colin, <title rend="italic">Le synaxaire éthiopien. Index
+                                    généraux</title> (<abbr>PO</abbr> 48.3; 1999).</bibl>
+                            <bibl>C. Conti Rossini, <title rend="italic">Storia
+                                d’Etiopia</title> (1928).</bibl>
+                            <bibl>R. W. Cowley, <title rend="italic">The traditional interpretation
+                                    of the Apocalypse of St John in the Ethiopian Orthodox
+                                    Church</title> (1983).</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>R. W. Cowley</reg>
+                           <orig>idem</orig>
+                        </choice>, <title rend="italic">Ethiopian biblical interpretation. A
+                                    study in exegetical traditions and hermeneutics</title>
+                                (1988).</bibl>
+                            <bibl>E.  Cruikshank Dodd, <title rend="italic">The frescoes of Mar Musa
+                                    al-Habashi. A study in medieval painting in Syria</title>
+                                (Studies and Texts 139; 2001).</bibl>
+                            <bibl>J.  Faultless, ‘The two recensions of the Prologue to John in Ibn
+                                al-Ṭayyib’s <title rend="italic">Commentary on the Gospels</title>’,
+                                in <title rend="italic">Christians at the heart of Islamic rule.
+                                    Church life and scholarship in ʿAbbasid Iraq</title>, <abbr>ed.</abbr> D. R.
+                                Thomas (The History of Christian-Muslim Relations 1; 2003),
+                                177–98.</bibl>
+                            <bibl>G.  Graf, ‘Zwei Dogmatische Florilegien der Kopten, B. Das
+                                Bekenntnis der Väter’, <title rend="italic">
+                                    <abbr>OCP</abbr>
+                                </title> 3 (1937),
+                                345–402.</bibl>
+                            <bibl>I. Guidi, <title rend="italic">Le traduzioni degli Evangeli in
+                                    arabo e in etiopico</title> (1888).</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>I. Guidi</reg>
+                           <orig>idem</orig>
+                        </choice>, <title rend="italic">Storia della letteratura
+                                    etiopica</title> (1932).</bibl>
+                            <bibl>E.  Hammerschmidt, <title rend="italic">Studies in the Ethiopic
+                                    Anaphoras</title> (<abbr>ÄF</abbr> 25; 2nd revised <abbr>ed.</abbr> 1987).</bibl>
+                            <bibl>E.  Hammerschmidt and O. A.  Jäger, <title rend="italic">Illuminierte äthiopische Handschriften</title> (Verzeichnis der
+                                orientalischen Handschriften in Deutschland 15; 1968).</bibl>
+                            <bibl>K. S.  Heal, ‘Identifying the Syriac <title rend="italic">Vorlage</title> of the Ethiopic <title rend="italic">History of
+                                    Joseph</title>’, in <title rend="italic">Malphono w-rabo
+                                    d-malphone</title>, <abbr>ed.</abbr> G. A. Kiraz (2008), 205–10.</bibl>
+                            <bibl>H.  Kaufhold, ‘Notizen über das Moseskloster bei Nabk und das
+                                Julianskloster bei Qaryatain in Syrien’, <title rend="italic">
+                                    <abbr>OC</abbr>
+                                </title> 79 (1995), 48–119.</bibl>
+                            <bibl>M. A.  Knibb, <title rend="italic">Translating the Bible. The
+                                    Ethiopic version of the Old Testament</title> (1999).</bibl>
+                            <bibl>P.  Marrassini, ‘Some considerations on the problem of the “Syriac
+                                influences” on Aksumite Ethiopia’, <title rend="italic">Journal of
+                                    Ethiopian Studies</title> 23 (1990), 35–46.</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>P.  Marrassini</reg>
+                           <orig>idem</orig>
+                        </choice>, ‘Ancora sul problema degli influssi siriaci in età
+                                aksumita’, in <title rend="italic">Biblica et semitica. Studi in
+                                    memoria di Francesco Vattioni</title>, <abbr>ed.</abbr> L. Cagni (1999),
+                                325–37.</bibl>
+                            <bibl>N.  Nebes, ‘Die Märtyrer von Nagrān und das Ende der Ḥimyar. Zur
+                                politischen Geschichte Südarabiens im frühen sechsten Jahrhundert’,
+                                    <title rend="italic">Aethiopica </title>11 (2008), 7–40.</bibl>
+                            <bibl>Th.  Nöldeke, ‘Lehnwörter in und aus dem Äthiopischen’, in his
+                                    <title rend="italic">Neue Beiträge zur semitischen
+                                    Sprachwissenschaft</title> (1910), 31–66.</bibl>
+                            <bibl>J.-N. Pérès, ‘Saint Éphrem dans le Sinaxaire éthiopien’, in <title rend="italic">Saint Éphrem, un poète pour notre temps</title>
+                                (Patrimoine syriaque, Colloque XI; 2007), 255–63.</bibl>
+                            <bibl>H. J.  Polotsky, ‘Aramaic, Syriac, and Geʿez’, <title rend="italic">
+                                    <abbr>JSS</abbr>
+                                </title> 9 (1964), 1–10.</bibl>
+                            <bibl>T. Tamrat, <title rend="italic">Church and state in Ethiopia.
+                                    1270–1527</title> (1972).</bibl>
+                            <bibl>S.  Uhlig (<abbr>ed.</abbr>), <title rend="italic">Encyclopaedia
+                                    Aethiopica</title> (2003–). (3 vols. of a projected 5 have
+                                appeared)</bibl>
+                            <bibl>E.  Ullendorff, <title rend="italic">Ethiopia and the
+                                    Bible</title> (1967).</bibl>
+                            <bibl>A. Vööbus, <title rend="italic">Die Spuren eines älteren
+                                    aethiopischen Evangelientextes im Lichte der literarischen
+                                    Monumente</title> (<abbr>PETSE</abbr> 2; 1951).</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>A. Vööbus</reg>
+                           <orig>idem</orig>
+                        </choice>  ‘Taʾāmera Iyasus. Zeuge eines älteren äthiopischen
+                                Evangelientypus’, <title rend="italic">
+                                    <abbr>OCP</abbr>
+                                </title> 17 (1951),
+                                462–67.</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>A. Vööbus</reg>
+                           <orig>idem</orig>
+                        </choice>  
+                        <title rend="italic">Early versions of the New
+                                    Testament</title> (<abbr>PETSE</abbr> 6; 1954), 243–69.</bibl>
+                            <bibl>W.  Witakowski, ‘Syrian influences in Ethiopian culture’, <title rend="italic">Orientalia Suecana</title> 38–39 (1989–90),
+                                191–202.</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>W.  Witakowski</reg>
+                           <orig>idem</orig>
+                        </choice>  ‘The Miracles of Jesus: An Ethiopian apocryphal Gospel’,
+                                    <title rend="italic">Apocrypha</title> 6 (1995), 279–98.</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>W.  Witakowski</reg>
+                           <orig>idem</orig>
+                        </choice>, ‘Severus of Antioch in Ethiopian tradition’, in <title rend="italic">Studia Aethiopica in honour of Siegbert
+                                    Uhlig</title>, <abbr>ed.</abbr> V.  Böll <abbr>et al.</abbr> (2004), 115–25.</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>W.  Witakowski</reg>
+                           <orig>idem</orig>
+                        </choice>, ‘Filekseyus, the Ethiopic version of the Syriac Dadisho
+                                Qatraya’s Commentary on the Paradise of the Fathers’, <title rend="italic">Rocznik Orientalistycny</title> 59 (2006),
+                                281–96.</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>W.  Witakowski</reg>
+                           <orig>idem</orig>
+                        </choice>, ‘Syrian influences in Ethiopia’, in <title rend="italic">
+                                    <abbr>EAe</abbr>
+                                </title>, vol. 4. Forthcoming.</bibl>
+                            <bibl>M.  Wurmbrand, ‘Homélie de Jacques de Saroug sur la mort d’Aaron’,
+                                    <title rend="italic">
+                                    <abbr>OS</abbr>
+                                </title> 6 (1961), 255–78.</bibl>
+                        </listBibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Aaron M.</forename> 
+                  <surname>Butts</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

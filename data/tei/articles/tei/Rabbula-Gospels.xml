@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Rabbula Gospels</title>
+            <author>
+               <persName>
+                  <forename>Lucas</forename> 
+                  <surname>Van Rompay</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.5">Electronic Edition Version 1.5</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Rabbula Gospels</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Rabbula-Gospels</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/460</idno>
+                    <idno type="entry">451</idno>
+                    <milestone unit="pages" n="348-349"/>
+                    <note type="type">work</note>
+                    <note type="abstract">Syriac <abbr>ms.</abbr> (now Florence, Bibl. Mediceo-Laurenziana,
+                        Pluteus I,56) containing the four Gospels, preceded by an important set of
+                        illuminations; sixth century.<note/>
+                    </note>
+                </ab>
+                <div type="body">
+                    <p>Syriac <abbr>ms.</abbr> (now Florence, Bibl. Mediceo-Laurenziana, Pluteus I,56) containing
+                        the four Gospels, preceded by an important set of illuminations (f. 1r–14v).
+                        A colophon (f. 292r–v) provides the name of the scribe, Rabbula (who is
+                        otherwise unknown), and of those who contributed to the production of the
+                        <abbr>ms.</abbr> (the miniaturists are not named), as well as the date (Febr. 586) and
+                        the place of origin: the Monastery of Beth Mar Yuḥanon of Beth Zagba. This
+                        monastery, no longer in existence, was probably situated in the Djebel Riḥa,
+                        some 50 km. north of <ref rend="bold" target="https://gedsh.bethmardutho.org/Apamea">
+                            <placeName ref="http://syriaca.org/place/11">Apamea</placeName>
+                        </ref>, in Syria
+                        (see Mundell Mango 1983).</p>
+                    <p>While this <abbr>ms.</abbr> ranks among the earliest dated <abbr>mss.</abbr> of the Four Gospels (see
+                            <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Bible-New-Testament-manuscripts">Bible, <abbr>NT</abbr> manuscripts</ref>, under  3), it is even more
+                        famous for its illuminations. It opens with three full-page illuminations
+                        (f. 1r–2r): the selection of Matthias, the Virgin and Child (of the <hi rend="italic">Hodegetria</hi> type), and standing figures of Ammonius of
+                        Alexandria and <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Eusebius-of-Caesarea">
+                            <persName ref="http://syriaca.org/person/480">Eusebius of
+                            Ceasarea</persName>
+                        </ref>. F. 2v–3r show the text, written inside two nicely
+                        decorated frames, of Eusebius’s ‘Letter to Carpianus’ concerning the use of
+                        the Eusebian ‘canons’, <choice>
+                            <sic>i.e. </sic>
+                            <corr>i.e., </corr>
+                        </choice>synoptic tables listing the parallel passages in
+                        the four Gospels. The canons themselves follow on f. 3v–12v. They are
+                        integrated in architectural structures, in which the lists of text
+                        references are separated by pillars. These are roofed with arches, on top of
+                        which a variety of birds and plants are depicted. The canons are followed by
+                        four more full-page illuminations (f. 13r–14v): the Crucifixion with
+                        Resurrection, the Ascension, Christ enthroned and approached by four men
+                        (two of them holding each a book and two others following behind their
+                        brothers and supporting them), and Pentecost. The text of the Gospels itself
+                        (f. 20–291) does not contain any further illuminations.</p>
+                    <p>The disposition and decoration of the Eusebian canons are of a common type,
+                        found in both the East and West. Their further elaboration, however, with
+                        additional themes and motifs, reveals the specific Syriac context of this
+                        <abbr>ms.</abbr> Folios 3v–9r have in the upper register (to the right and left of the
+                        arches) <abbr>OT</abbr> figures, accompanied by their names in Esṭrangela script: Aaron,
+                        Moses, Joshua, Samuel, David, Solomon, Hosea, Joel, Amos, Obadiah, Jonah,
+                        Micah, Nahum, Zephaniah, Job, Isaiah, Habakkuk, Haggai, Zechariah, Jeremiah,
+                        Ezekiel, Daniel, Malachi, and Elisha. In the middle register (to the right
+                        and left halfway of the outer pillars) <abbr>NT</abbr> scenes are depicted, while the
+                        right and left corners at the bottom are mostly filled with animals and
+                        plants. Some of the representations, such as the scenes of Christ’s Nativity
+                        and Baptism (with fire coming out of the water) and the impressive
+                        compositions of the Crucifixion (with Christ wearing the purple <hi rend="italic">kolobion</hi>) and the Resurrection (with Christ appearing
+                        to the two Maries) reflect their Syriac context and are reminiscent of <ref rend="bold" target="https://gedsh.bethmardutho.org/Ephrem">
+                            <persName ref="http://syriaca.org/person/13">Ephrem</persName>
+                        </ref>’s
+                        hymns and other Syriac writings.</p>
+                    <p>The <abbr>ms.</abbr> in all likelihood originated in a <abbr>Syr. Orth.</abbr> environment and
+                        subsequently came into the possession of the Maronites. For at least two
+                        centuries it was housed in the Maronite Monastery of Qannubin, in Lebanon,
+                        before it was transferred to the Florentine library in the 16th <abbr>cent.</abbr>
+                    </p>
+                    <p>There has been much discussion among scholars about the question of whether
+                        the quire with the illuminations (f. 1–14) and the main part containing the
+                        Gospel texts originally belonged together. While D. H. Wright in 1973, after
+                        personal inspection of the <abbr>ms.</abbr>, reached the conclusion that the
+                        illuminations were indeed part of the codex that was created in 586, the
+                        recent study by P. G. Borbone and A. Mengozzi (in Bernabò, 2008) has
+                        challenged this widely held view. They point to a <ref rend="bold" target="https://gedsh.bethmardutho.org/Garshuni">Garshuni</ref> note on
+                        f. 11v (written between the pillars of the canons) which records a
+                        significant (judging from the size and formal character of the note)
+                        donation by two priests to the Monastery of Qannubin in 1460/61. The object
+                        of the donation is described in the note as <hi rend="italic">al-dast
+                            al-kabīr</hi> ‘the great <hi rend="italic">dast</hi>’. S. E. Assemani,
+                        in his first description of the <abbr>ms.</abbr> (1742) understood the term <hi rend="italic">dast</hi> to mean ‘copper vessel’, while Borbone and
+                        Mengozzi argue that it means ‘fascicle, quire’, and see in it a reference to
+                        the impressive gathering of illuminations which, according to their view,
+                        would have been joined to the Gospel text only in the 15th <abbr>cent.</abbr> This
+                        interpretation, which has not yet encountered general support (see Mundell
+                        Mango, in Bernabò 2008, 113–14), does not imply that the illuminations are
+                        of a very late date. On the contrary, the early date of most of the
+                        illuminations (probably 6th <abbr>cent.</abbr>) should not be questioned and is supported
+                        by the Syriac script found on these folios. We would be dealing then with
+                        the re-use of an early quire of illuminations that had become disconnected
+                        from its original manuscript.</p>
+                    <p>Even while this and other questions continue to exist, the codex is one of
+                        the most precious illuminated <abbr>mss.</abbr> of the ancient world. Sharing so many
+                        characteristics with late-ancient and early Byzantine art, it also reflects
+                        the very refined local culture that existed in the leading Syriac
+                        monasteries. In recent years the illuminations have not only been studied
+                        intensively, they also have served as a source of inspiration for modern
+                        sacred art, especially in contemporary wall paintings in <abbr>Maron.</abbr>, <abbr>Syr. Orth.</abbr>,
+                        and Syr. Catholic churches.</p>
+                    <p>See <ref target="https://gedsh.bethmardutho.org/fig/50">Fig. 50</ref>, <ref target="https://gedsh.bethmardutho.org/fig/54">54</ref>, <ref target="https://gedsh.bethmardutho.org/fig/71c">71c</ref>, and <ref target="https://gedsh.bethmardutho.org/fig/91">91</ref>.</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>A.  Badwi, <title rend="italic">The liturgical year iconography
+                                of the Syro-Maronite Church</title> (2006). (many examples of the
+                            Rabbula illuminations as a source of inspiration in modern art)</bibl>
+                        <bibl>M.  Bernabò (<abbr>ed.</abbr>), <title rend="italic">Il Tetravangelo di Rabbula.
+                                Firenze, Biblioteca Medicea Laurenziana, Plut. 1.56. L’illustrazione
+                                del Nuovo Testamento nella Siria del VI secolo</title> (2008). (with
+                            important contributions by M.  Bernabò, P. G.  Borbone, A.  Mengozzi, M.
+                            Mundell Mango, among others)</bibl>
+                        <bibl>B.  Botte, ‘Notes sur l’évangéliaire de Rabbula’, <title rend="italic">Revue de sciences religieuses</title> 36 (1962), 13–26.</bibl>
+                        <bibl>C.  Ceccheli, G.  Furlani, M.  Salmi, <title rend="italic">The Rabbula
+                                Gospels. Facsimile edition of the miniatures of the Syriac
+                                manuscript Plut. I,56 in the Medicaean-Laurentian Library</title>
+                            (1959).</bibl>
+                        <bibl>J.  Leroy, <title rend="italic">Les manuscrits syriaques à
+                                peintures</title> (Institut français d’archéologie de Beyrouth,
+                            Bibliothèque archéologique et historique 77; 1964), 139–97.</bibl>
+                        <bibl>M.  Mundell Mango, ‘Where was Beth Zagba?’, <title rend="italic">Harvard Ukrainian Studies</title> 7 (1983), 405–30.</bibl>
+                        <bibl>R. Murray, <title rend="italic">Symbols of church and kingdom. A study
+                                in early Syriac tradition</title> (1975), 37 and 331.</bibl>
+                        <bibl>D. H. Wright, ‘The date and arrangement of the illustrations in the
+                            Rabbula Gospels’, <title rend="italic">
+                                <abbr>DOP</abbr>
+                            </title> 27 (1973),
+                            197–208.</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Lucas</forename> 
+                  <surname>Van Rompay</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

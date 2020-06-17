@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Daniel of Ṣalaḥ</title>
+            <author>
+               <persName>
+                  <forename>David G. K.</forename> 
+                  <surname>Taylor</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.5">Electronic Edition Version 1.5</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Daniel of Ṣalaḥ</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Daniel-of-Salah</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/163</idno>
+                    <idno type="entry">154</idno>
+                    <milestone unit="pages" n="114-115"/>
+                    <idno type="subject">http://syriaca.org/person/59</idno>
+                    <note type="type">person</note>
+                    <note type="abstract">Biblical exegete, theologian, abbot and possibly
+                        <abbr>bp.</abbr>
+                        <note/>
+                    </note>
+                </ab>
+                <ab type="infobox">(<abbr>fl.</abbr> mid-6th <abbr>cent.</abbr>) [<abbr>Syr. Orth.</abbr>]</ab>
+                <div type="body">
+                    <p>Biblical exegete, theologian, abbot and possibly <abbr>bp.</abbr> Although he is one of
+                        the most influential <abbr>Syr. Orth.</abbr> writers, none of Daniel’s writings have been
+                        fully edited, and the little that is known about his life is almost entirely
+                        dependent upon these texts. In a homily (on Ps. 83) in the middle of his
+                        best known work, and the only one at present thought to have been preserved
+                        in its entirety, his ‘Great Commentary on the Psalms’, he gives the current
+                        date as year of the Greeks 853, <choice>
+                            <sic>i.e. </sic>
+                            <corr>i.e., </corr>
+                        </choice>AD 542. Since J. S. Assemani
+                        erroneously identified him with a Daniel known to have corresponded with
+                            <ref rend="bold" target="https://gedsh.bethmardutho.org/Yaqub-of-Edessa">
+                            <persName ref="http://syriaca.org/person/113">Yaʿqub of Edessa</persName>
+                        </ref> in the 8th <abbr>cent.</abbr>, it should be emphasised that a
+                        6th-cent. date is confirmed by Daniel’s theological concerns, his references
+                        to contemporary historical events (such as the incursions and raids of the
+                        Blemmyes, Sabirai, and Antai), and by the prefixed correspondence in which
+                        Daniel is requested to write the commentary by Abbot Yuḥanon of the
+                        monastery of Mor Eusebios of Kaprā d-Bartā (or d-Birtā) northwest of <ref rend="bold" target="https://gedsh.bethmardutho.org/Apamea">
+                            <placeName ref="http://syriaca.org/place/11">Apamea</placeName>
+                        </ref>
+                        (the modern twin villages of Kefr and Bara). Abbot Yuḥanon is listed in the
+                        Chronicle of <ref rend="bold" target="https://gedsh.bethmardutho.org/Michael-I-Rabo">
+                            <persName ref="http://syriaca.org/person/217">Michael Rabo</persName>
+                        </ref> (IX.14) amongst those
+                        condemned for their opposition to Chalcedon by the emperor Justinian. It
+                        appears to be the same Yuḥanon (described as ‘a wall against wolves’) for
+                        whom a copy of the Acts of the Second Council of Ephesus was produced by one
+                        of his monks in 535 (<abbr>ms.</abbr> London, Brit. Libr. Add. 14,530). By 567, however,
+                        Yuḥanon had disappeared from the scene, for one Qustantinos is listed as
+                        abbot of this important monastery.</p>
+                    <p>Assemani also linked Daniel with the village of Ṣalaḥ in <ref rend="bold" target="https://gedsh.bethmardutho.org/Tur-Abdin">
+                            <placeName ref="http://syriaca.org/place/221">Ṭur ʿAbdin</placeName>
+                        </ref>
+                        (southeast Turkey), and this has been followed by all subsequent western
+                        scholars. In the present <abbr>Syr. Orth.</abbr> monastery of Ṣalaḥ, however, this
+                        prestigious connection is rejected, as also by the <abbr>Syr. Orth.</abbr> scholar and
+                        <abbr>Patr.</abbr> Ignatius Afram Barsoum who instead links Daniel to Ṣaliḥiye (near
+                        modern Abū Kāmāl in Syria) on the left bank of the Euphrates just south of
+                        ancient <ref rend="bold" target="https://gedsh.bethmardutho.org/Dura-Europos">
+                            <placeName ref="http://syriaca.org/place/77">Dura-Europos</placeName>
+                        </ref>. Some support for this can be found in the Chronicle
+                        of Michael who describes him as Abbot Daniel of Bayt Ṣaliḥe (IX.34),
+                        although the exact name and location of his monastery is not given. Later
+                        tradition also links Daniel with Tella d-Mawzelat (ancient Constantina,
+                        modern Viranşehir south-west of Diyarbakır, Turkey), although in some
+                        sources he is said to have been born there and in others to have become its
+                        bishop, as a successor to the famous <ref rend="bold" target="https://gedsh.bethmardutho.org/Yuhanon-of-Tella">
+                            <persName ref="http://syriaca.org/person/50">Yuḥanon of
+                            Tella</persName>
+                        </ref> (d. 538). Although Daniel was certainly a leading figure in
+                        the anti-Chalcedonian party he is not listed amongst those bps. ordained by
+                            <ref rend="bold" target="https://gedsh.bethmardutho.org/Yaqub-Burdoyo">
+                            <persName ref="http://syriaca.org/person/69">Yaʿqub Burdʿoyo</persName>
+                        </ref>, and neither has any later reference to his
+                        episcopacy yet been found in any source other than the <abbr>mss.</abbr> of his Psalm
+                        Commentary.</p>
+                    <p>Daniel’s Psalm Commentary is a vast work of erudition and spirituality, and
+                        appears to be the oldest known psalm commentary composed in Syriac. It runs
+                        to more than 1,000 <abbr>ms.</abbr> pages and is divided into three volumes each
+                        containing fifty psalms. Although it was long thought by western scholars to
+                        have been only partially preserved, it has in fact continued to be read and
+                        studied in the <abbr>Syr. Orth.</abbr> church to the present day, and so their complete
+                        <abbr>mss.</abbr> now make a critical edition of this important work possible.</p>
+                    <p>The commentary acts as a great storehouse of <abbr>Syr. Orth.</abbr> exegetical traditions
+                        and theology and preserves both ideas known from earlier Syrian writers such
+                        as <ref rend="bold" target="https://gedsh.bethmardutho.org/Ephrem">
+                            <persName ref="http://syriaca.org/person/13">Ephrem</persName>
+                        </ref> and <ref rend="bold" target="https://gedsh.bethmardutho.org/Aphrahat">
+                            <persName ref="http://syriaca.org/person/10">Aphrahaṭ</persName>
+                        </ref>, but also
+                        many others previously unknown. It does not appear to be dependent on any
+                        previous commentary, although there is evidence that Daniel knew Greek and
+                        even had some access to Hebrew texts and traditions. As with Ephrem’s
+                        commentary on the <ref rend="bold" target="https://gedsh.bethmardutho.org/Diatessaron">Diatessaron</ref> no
+                        attempt is made to expound every line or word of the Psalms, but only those
+                        which attract the author’s attention. The exegesis is also structured in the
+                        form of self-contained homilies, which makes them suitable for either
+                        private or communal reading — in contrast, for example, with the technical,
+                        philological commentary of <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Bar-Ebroyo-Grigorios">
+                            <persName ref="http://syriaca.org/person/239">Bar ʿEbroyo</persName>
+                        </ref>. Although
+                        Daniel often attempts to identify the historical occasions of the Psalms’
+                        composition, he usually moves quickly on to expound their spirit-inspired
+                        references to the divine dispensation personified in Emmanuel, God the Word.
+                        He regularly engages with christological issues, and he is especially
+                        concerned to counter the teachings of <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Julian-of-Halicarnassus">
+                            <persName ref="http://syriaca.org/person/579">Julian of
+                            Halicarnassus</persName>
+                        </ref> and his followers, often known as the ‘Phantasiasts’
+                        or ‘Aphthartodocetae’, which were creating bitter dissension in his age
+                        within both Chalcedonian and non-Chalcedonian parties. He clearly developed
+                        a reputation for expertise in this area since his letter to the monks of the
+                        monastery of Mar Bassus on the subject formed the basis of the official Syr.
+                        Orth. response to the edict of Emperor Justinian, issued in 565, that ‘all
+                        bishops everywhere’ should accept Julianism (Michael’s Chronicle, IX.34),
+                        and this may have been one of the key reasons that Abbot Yuḥanon requested
+                        him to write this commentary.</p>
+                    <p>Its great size has led to at least four major attempts to reduce it to a
+                        manageable format; the best known of these is an edition (produced before
+                        1515) of approximately 250 pages which is usually described as the
+                        commentary of ‘Daniel (or David) of Tella’, and which also includes some
+                        material and interpretation not found in the original work, and to this can
+                        be added a collection of short extracts, plus editions by <abbr>Patr.</abbr> Ignatius V
+                            (<ref rend="bold" target="https://gedsh.bethmardutho.org/Behnam-Hadloyo">
+                            <persName ref="http://syriaca.org/person/263">Behnam Ḥadloyo</persName>
+                        </ref>, d. 1454) and by <ref rend="bold" target="https://gedsh.bethmardutho.org/Dawid-Puniqoyo">
+                            <persName ref="http://syriaca.org/person/273">Dawid
+                            Puniqoyo</persName>
+                        </ref> (d. 1500), none of which has yet been published. It is
+                        also cited by the monk <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Severos-Commentary-of-the-monk">Severos</ref>, <ref rend="bold" target="https://gedsh.bethmardutho.org/Antun-of-Tagrit">
+                            <persName ref="http://syriaca.org/person/154">Anṭun of
+                            Tagrit</persName>
+                        </ref>, and Bar ʿEbroyo, and was one of the major sources for the
+                        psalm commentary of <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Dionysios-bar-Salibi">
+                            <persName ref="http://syriaca.org/person/212">Dionysios
+                            bar Ṣalibi</persName>
+                        </ref>. An important Armenian translation was commissioned by
+                        Catholicos Grigor Vkayaser in the late 11th <abbr>cent.</abbr>, and an Arabic version was
+                        made in 1730 by ʿAbd al-Nūr Amīdī.</p>
+                    <p>In addition to the Great Psalm Commentary, and the letter written to the
+                        monks of Mar Bassus (elements of which may survive in the large unedited
+                        collections of anti-Julianist material still preserved in the <abbr>mss.</abbr> of the
+                        British Library and the Vatican), citations of a commentary on Qohelet
+                        (Ecclesiastes) have also been preserved, and Daniel himself (in his homily
+                        on Ps. 78) refers to an earlier homily on the plagues which afflicted the
+                        Egyptians in the time of Moses. Complete texts of these writings are not yet
+                        known, but it is to hoped that the publication of the Psalm Commentary will
+                        encourage others to look for copies in the great <abbr>Syr. Orth.</abbr> libraries and in
+                        the <abbr>ms.</abbr> collections of the west.</p>
+                </div>
+                <div type="bibl">
+                    <listBibl>
+                        <listBibl>
+                            <head>Primary Sources</head>
+                            <bibl>G.  Diettrich, <title rend="italic">Eine jakobitische Einleitung
+                                    in den Psalter</title> (Beihefte zur <abbr>ZAW</abbr> 5; 1901).</bibl>
+                            <bibl>L.  Lazarus, ‘Ueber einen Psalmencommentar aus der ersten Hälfte
+                                des VI. Jahrhunderts p. Chr.’, <title rend="italic">
+                                    <abbr>WZKM</abbr>
+                                </title> 9
+                                (1895), 85–108, 181–224.</bibl>
+                            <bibl>Y. Manquriyūs and Ḥ. Jirjis, <title rend="italic">al-Rawḍ al-nadīr
+                                    fī tafsīr al-mazāmīr</title> (Cairo, 1902). (short extracts from
+                                the Arabic version)</bibl>
+                            <bibl>E. Nestle, <title rend="italic">Brevis linguae Syriacae
+                                    grammatica, litteratura, chrestomathia cum glossario</title>
+                                (Porta Linguarum Orientalium 5; 1881), 86–90. (Syr.)</bibl>
+                            <bibl>I. E. Rahmani, <title rend="italic">Studia Syriaca</title>, vol. 1
+                                (1904), 27–29 (Syr.); 26–27 (<abbr>LT</abbr>), 61 (notes).</bibl>
+                            <bibl>D. G. K.  Taylor (first two volumes of a six-volume edition and <abbr>ET</abbr>
+                                of the Great Psalm Commentary); forthcoming (<abbr>CSCO</abbr>).</bibl>
+                        </listBibl>
+                        <listBibl>
+                            <head>Secondary Sources</head>
+                            <bibl>Barsoum, <title rend="italic">Scattered <choice>
+                                        <sic>Pearls</sic>
+                                        <corr>pearls</corr>
+                                    </choice>
+                                </title>,
+                                294–6.</bibl>
+                            <bibl>Baumstark, <title rend="italic">Literatur</title>, 179.</bibl>
+                            <bibl>Assemani, <title rend="italic">BibOr</title>, vol. 1,
+                                487–95.</bibl>
+                            <bibl>P. Cowe, ‘Daniel of Ṣalaḥ as Commentator on the Psalter’, in
+                                    <title rend="italic">
+                                    <abbr>StPatr</abbr>
+                                </title>, vol.20 (1989),
+                                152–59.</bibl>
+                            <bibl>D. G. K.  Taylor, ‘The manuscript tradition of Daniel of Ṣalaḥ’s
+                                Psalm Commentary’, in <abbr>
+                                    <title rend="italic">SymSyr</title> VII</abbr>,
+                                61–9.</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>D. G. K.  Taylor</reg>
+                           <orig>idem</orig>
+                        </choice>, ‘The great Psalm Commentary of Daniel of Ṣalaḥ’, <title rend="italic">
+                                    <abbr>Harp</abbr>
+                                </title> 11–12 (1998–99), 33–42.</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>D. G. K.  Taylor</reg>
+                           <orig>idem</orig>
+                        </choice>, ‘The Christology of the Syriac Psalm Commentary (AD 541/2)
+                                of Daniel of Ṣalaḥ and the Phantasiast controversy’, in <title rend="italic">
+                                    <abbr>StPatr</abbr>
+                                </title>, vol. 35 (2001), 516–23.</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>D. G. K.  Taylor</reg>
+                           <orig>idem</orig>
+                        </choice>, ‘The Psalm Commentary of Daniel of Salah and the formation
+                                of sixth-century Syrian Orthodox identity’, in <title rend="italic">Religious origins of nations? The Christian communities of the
+                                    Middle East</title>, <abbr>ed.</abbr> R. B. ter Haar Romeny (2010),
+                                65–92.</bibl>
+                        </listBibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>David G. K.</forename> 
+                  <surname>Taylor</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

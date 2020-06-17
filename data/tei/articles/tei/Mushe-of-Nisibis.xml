@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Mushe of Nisibis</title>
+            <author>
+               <persName>
+                  <forename>Lucas</forename> 
+                  <surname>Van Rompay</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.5">Electronic Edition Version 1.5</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Mushe of Nisibis</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Mushe-of-Nisibis</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/396</idno>
+                    <idno type="entry">387</idno>
+                    <milestone unit="pages" n="301-302"/>
+                    <idno type="subject">http://syriaca.org/person/647</idno>
+                    <note type="type">person</note>
+                    <note type="abstract">Scribe, abbot of Dayr al-Suryān, collector of <abbr>mss. who was instrumental in establishing the monastery’s library.</abbr>
+                        <note/>
+                    </note>
+                </ab>
+                <ab type="infobox">(first half of 10th <abbr>cent.</abbr>) [<abbr>Syr. Orth.</abbr>]</ab>
+                <div type="body">
+                    <p>Scribe, abbot of <ref rend="bold" target="https://gedsh.bethmardutho.org/al-Suryan-Dayr">
+                            <placeName ref="http://syriaca.org/place/360">Dayr
+                            al-Suryān</placeName>
+                        </ref>, collector of <abbr>mss.</abbr> Mushe’s presence in Dayr al-Suryān,
+                        the ‘Monastery of the Syrians’ in the Egyptian Wadi al-Natrun, is attested
+                        from the beginning of the 10th <abbr>cent.</abbr>, when he worked as a scribe (903/4) and
+                        was instrumental in the donation to the monastery of a 6th-cent. biblical
+                        <abbr>ms.</abbr> (<abbr>ms.</abbr> London, Brit. Libr. Add. 12,142) by a Tagriti family (906/7).
+                        A  few years later, he was abbot (<hi rend="italic">riš dayro</hi>) and was
+                        in charge of a major renovation project in the main church. This is recorded
+                        in two inscriptions dated 914 and 926/7. Mushe’s name may perhaps also be
+                        found in a majestic Coptic inscription inside the dome of the church, which
+                        reads: <hi rend="italic">Papa Moyses pi-hikoymenos</hi> ‘Papa Moses the
+                        hegoumenos’. The latest mention of Mushe as abbot is found in a note dated
+                        943/4 (<abbr>ms.</abbr> London, Brit. Libr. Add. 14,525, f. 1v).</p>
+                    <p>Shortly after 926/7, Mushe traveled to <ref rend="bold" target="https://gedsh.bethmardutho.org/Baghdad">
+                            <placeName ref="http://syriaca.org/place/41">Baghdad</placeName>
+                        </ref> in order to
+                        appeal, on behalf of the Egyptian monasteries, against new taxes imposed by
+                        Caliph al-Muqtadir. The information provided by notes in Syriac <abbr>mss.</abbr> is
+                        corroborated by the Muslim historian al-Maqrīzī, though he does not mention
+                        Mushe by name. In the course of the long negotiation process in Baghdad,
+                        which turned out to be successful, Mushe traveled around collecting <abbr>mss.</abbr> for
+                        the library of Dayr al-Suryān. In 931/2, he returned with 250 <abbr>mss.</abbr> These
+                        <abbr>mss.</abbr>, bought or received as gifts in <ref rend="bold" target="https://gedsh.bethmardutho.org/Tagrit">
+                            <placeName ref="http://syriaca.org/place/193">Tagrit</placeName>
+                        </ref>, <ref rend="bold" target="https://gedsh.bethmardutho.org/Reshayna">
+                            <placeName ref="http://syriaca.org/place/172">Reshʿayna</placeName>
+                        </ref>, <ref rend="bold" target="https://gedsh.bethmardutho.org/Harran">
+                            <placeName ref="http://syriaca.org/place/216">Ḥarran</placeName>
+                        </ref>, and many
+                        other locations in Mesopotamia, at once made Dayr al-Suryān into a major
+                        treasure house of Syriac Christian culture. Even though Syriac <abbr>mss.</abbr> arrived
+                        at Dayr al-Suryān both before and after Mushe, his was by far the largest
+                        single addition to the library. In each of the 250 <abbr>mss.</abbr> Mushe himself wrote
+                        a lengthy note recording the acquisition (in this process he more than once
+                        erased older notes, thereby destroying evidence of the <abbr>ms.</abbr>’s previous
+                        history). The fact that more than seventy of these notes have survived to
+                        the present day lends credibility to the reported number of 250. In the
+                        course of the 18th and 19th <abbr>cent.</abbr>, most of the Syriac <abbr>mss.</abbr> from Dayr
+                        al-Suryān were transferred to major western libraries. A small collection,
+                        however, still exists in the monastery today. As the most well-known
+                        representative of the Syrian abbots and of the Syrian and Coptic monks who
+                        collected, produced, and preserved Syriac <abbr>mss.</abbr> in Dayr al-Suryān, Mushe
+                        played a unique role in providing present-day Syriac scholars with an
+                        impressive number of sources of very great antiquity.</p>
+                    <p>See <ref target="https://gedsh.bethmardutho.org/fig/89">Fig. 89</ref> and <ref target="https://gedsh.bethmardutho.org/fig/90">90</ref>.</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>M. J.  Blanchard, ‘Moses of Nisibis (<abbr>fl.</abbr> 906–943) and the
+                            library of Deir Suriani’, in <title rend="italic">Studies in the
+                                Christian East in memory of Mirrit Boutros Ghali</title>, <abbr>ed.</abbr> L. S.
+                            B. MacCoull (1995), 13–24.</bibl>
+                        <bibl>F.  Briquel Chatonnet, A. Desreumaux, A. Binggeli, ‘Un cas très ancien
+                            de garshouni? Quelques réflexions sur le manuscrit BL Add. 14644’, in
+                                <title rend="italic">Loquentes linguis. <abbr>FS</abbr> F. A.</title>  
+                     <title rend="italic">Pennacchietti</title>, <abbr>ed.</abbr> P. G.  Borbone <abbr>et al.</abbr>
+                            (2006), 141–47.</bibl>
+                        <bibl>S. P.  Brock, ‘Without Mushē of Nisibis, where would we be? Some
+                            reflections on the transmission of Syriac literature’, in <abbr>
+                                <title rend="italic">SymSyr</title> VIII</abbr>, 15–24.</bibl>
+                        <bibl>H. G.  Evelyn White, <title rend="italic">The monasteries of the Wâdi
+                                ’n Natrun</title>, vol. 2. <title rend="italic">The history of the
+                                monasteries of Nitria and Scetis</title> (1932), esp. 337–8 and
+                            439–58.</bibl>
+                        <bibl>K.  Innemée and L. Van Rompay, ‘La présence des Syriens dans le Wadi
+                            al-Natrun (Égypte). À propos des découvertes récentes de peintures et de
+                            textes muraux dans l’Église de la Vierge du Couvent des Syriens’, <title rend="italic">
+                                <abbr>ParOr</abbr>
+                            </title> 23 (1998), esp. 186–9.</bibl>
+                        <bibl>J.  Leroy, ‘Moïse de Nisibe’, in <abbr>
+                                <title rend="italic">SymSyr</title>
+                            I</abbr>, 457–70.</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Lucas</forename> 
+                  <surname>Van Rompay</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

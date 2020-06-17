@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Chronicle of Edessa</title>
+            <author>
+               <persName>
+                  <forename>Lucas</forename> 
+                  <surname>Van Rompay</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.5">Electronic Edition Version 1.5</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Chronicle of Edessa</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Chronicle-of-Edessa</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/141</idno>
+                    <idno type="entry">132</idno>
+                    <milestone unit="pages" n="97-98"/>
+                    <note type="type">work</note>
+                    <note type="abstract">6th-cent. collection consisting of <abbr>ca.</abbr> 106 independent
+                        entries (‘lemmas’), most of them beginning with the precise indication of
+                        the year (‘In the year…’).<note/>
+                    </note>
+                </ab>
+                <ab type="infobox">(mid-6th <abbr>cent.</abbr>)</ab>
+                <div type="body">
+                    <p>6th-cent. collection consisting of <abbr>ca.</abbr> 106 independent entries (‘lemmas’),
+                        most of them beginning with the precise indication of the year (‘In the year
+                        …’). It is preserved in six remaining folios of an ancient, probably
+                        7th-cent., <abbr>ms.</abbr> (Vat. Syr. 163) and has the title: <hi rend="italic">Tašʿyātā
+                            d-suʿrāne a(y)k da-b-pāsiqātā</hi>, ‘Narratives of events in brief’. Its
+                        importance was first recognized by J. S. Assemani, who provided an edition
+                        (with <abbr>LT</abbr>) in his <hi rend="italic">Bibliotheca Orientalis</hi>, vol. 1
+                        (1719), 387–417. Later editions were done by L. Hallier (1892, with <abbr>GT</abbr>) and
+                        I. Guidi (1903, with <abbr>LT</abbr>).</p>
+                    <p>Most of the entries either deal with, or are immediately relevant to, the
+                        history of <ref rend="bold" target="https://gedsh.bethmardutho.org/Edessa">
+                            <placeName ref="http://syriaca.org/place/78">Edessa</placeName>
+                        </ref>. Hence modern scholars, since Assemani, have called it
+                        ‘Chronicle of Edessa’. The period covered extends from 133/2 BC (A. Gr. 180)
+                        to AD 540, <choice>
+                            <sic>i.e. </sic>
+                            <corr>i.e., </corr>
+                        </choice>from the pre-Christian period (when Edessa was a kingdom
+                        under the <ref rend="bold" target="https://gedsh.bethmardutho.org/Abgarids-of-Edessa">Abgarids</ref>) well into the time that most of
+                        Edessa was Christian. The work opens with an elaborate account of a flood in
+                        Edessa in November AD 201 (no. 1; this contains a brief mention of damage
+                        done to ‘the sanctuary [<hi rend="italic">hayklā</hi>] of the church of the
+                        Christians’), and then steps back to the year 133/2 BC, which is said to be
+                        when kings began to reign in Edessa (no. 2). With the exception of the flood
+                        account, the entries are few and sparse until the beginning of the 4th
+                        <abbr>cent.</abbr>, when <abbr>Bp.</abbr> Qune is mentioned (no. 12). From then onwards entries become
+                        more frequent and more substantial, and regularly provide the names of the
+                        ruling bps. of the city. There are brief and rather detached references to
+                            <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Theodore-of-Mopsuestia">
+                            <persName ref="http://syriaca.org/person/780">Theodore
+                                of Mopsuestia</persName>
+                        </ref> (no. 46), to Bps. <ref rend="bold" target="https://gedsh.bethmardutho.org/Rabbula-of-Edessa">
+                            <persName ref="http://syriaca.org/person/26">Rabbula</persName>
+                        </ref>
+                        (nos. 51 and 59) and <ref rend="bold" target="https://gedsh.bethmardutho.org/Hiba">
+                            <persName ref="http://syriaca.org/person/534">Hiba</persName>
+                        </ref> (nos. 59, 60, 64,
+                        and 68), to the 449 Council of Ephesus (no. 63), to the Council of Chalcedon
+                        (no. 66), to the closure of the <ref rend="bold" target="https://gedsh.bethmardutho.org/Edessa-School-of">School of
+                            Edessa</ref> in 488/9 (no. 73), and to the anti-Chalcedonian policy of
+                        Emp. Anastasius (nos. 77, 83, and 84). The author’s language, however,
+                        becomes more personal when he reports about the religious policy of Emperors
+                        Justin I (518–527) and Justinian (527–565), and he empathetically mentions
+                        Justinian’s concern and care (<hi rend="italic">bṭiluthā w-yaṣṣiputhā</hi>)
+                        to have the four synods (including the one of Chalcedon) recognized (no.
+                        95). It is likely, therefore, that this reflects the author’s own religious
+                        (Chalcedonian) perspective.</p>
+                    <p>As the city archives are explicitly mentioned at the end of the flood
+                        account, the author may very well have had access to them, directly or, more
+                        likely, indirectly. Since some of the later Chronicles reflect the use of
+                        archival materials as well, it has been suggested that the chronicler
+                        excerpted entries from an earlier and more comprehensive chronicle
+                        (‘Original Chronicle of Edessa’), from which also some of the later
+                        chroniclers drew (see Witakowski).</p>
+                    <p>As one of the rare sources with a focused interest in the early history of
+                        Edessa, the short Chronicle has received much attention in modern
+                        scholarship. The Chronicle’s extreme paucity of data on Christianity in
+                        Edessa prior to the beginning of the 4th <abbr>cent.</abbr>
+                        <choice>
+                            <sic>—</sic>
+                            <corr>— </corr>
+                        </choice>while, tellingly, <ref rend="bold" target="https://gedsh.bethmardutho.org/Marcion">
+                            <persName ref="http://syriaca.org/person/616">Marcion</persName>
+                        </ref>
+                        (no. 6), <ref rend="bold" target="https://gedsh.bethmardutho.org/Bardaisan">
+                            <persName ref="http://syriaca.org/person/3">Bardaiṣan</persName>
+                        </ref> (no. 7), and <ref rend="bold" target="https://gedsh.bethmardutho.org/Mani">
+                            <persName ref="http://syriaca.org/person/608">Mani</persName>
+                        </ref> (no.  10) are
+                        explicitly mentioned<choice>
+                            <sic>—</sic>
+                            <corr> — </corr>
+                        </choice>led Bauer to challenge the traditional view that
+                        ‘orthodox’ Christianity preceded ‘heresy’ in Edessa, and to posit that prior
+                        to the early 4th <abbr>cent.</abbr> various Christian groups vied for power. It was only
+                        in the 4th <abbr>cent.</abbr>, in his view, that ‘orthodox’ Christianity was able to
+                        assert itself and to oppress ‘non-orthodox’ groups, whose literary history
+                        subsequently fell into oblivion or was deliberately erased. In addition,
+                        scholars have noted the absence in the Chronicle of any reference to the
+                        conversion of the Abgarids or to the mission of Addai. This has contributed
+                        to the view that the legend of Addai, as found in the <ref rend="bold" target="https://gedsh.bethmardutho.org/Addai-Teaching-of">Teaching of
+                            Addai</ref>, represents an attempt at ‘orthodox’ rewriting of early
+                        Edessene Christian history, an attempt that<choice>
+                            <sic>—</sic>
+                            <corr> — </corr>
+                        </choice>as <ref rend="bold" target="https://gedsh.bethmardutho.org/Ephrem">
+                            <persName ref="http://syriaca.org/person/13">Ephrem</persName>
+                        </ref> shows in the
+                        4th <abbr>cent.</abbr> and the Chronicle of Edessa in the 6th<choice>
+                            <sic>—</sic>
+                            <corr> — </corr>
+                        </choice>was not necessarily
+                        universally accepted.</p>
+                </div>
+                <div type="bibl">
+                    <listBibl>
+                        <listBibl>
+                            <head>Primary Sources</head>
+                            <bibl>B. H. Cowper, ‘Selections from the Syriac, No. 1. The Chronicle of
+                                Edessa’, <title rend="italic">Journal of Sacred Literature</title>,
+                                <abbr>ns</abbr>. 5 (1864), 28–45. (<abbr>ET</abbr>)</bibl>
+                            <bibl>I. Guidi, <title rend="italic">Chronica minora</title>, 1 (<abbr>CSCO</abbr>
+                                1–2; 1903), 1–13 and 1–11 (Syr. with <abbr>LT</abbr>).</bibl>
+                            <bibl>L. Hallier, <title rend="italic">Untersuchungen über die
+                                    Edessenische Chronik</title> (<abbr>TU</abbr> 9.2; 1892).</bibl>
+                        </listBibl>
+                        <listBibl>
+                            <head>Secondary Sources</head>
+                            <bibl>W. Bauer, <title rend="italic">Rechtgläubigkeit und Ketzerei im
+                                    ältesten Christentum</title> (1934, 2nd <abbr>ed.</abbr> 1963; <abbr>ET</abbr> by R. A.
+                                Kraft and G. Krodel, <title rend="italic">Orthodoxy and heresy in
+                                    earliest Christianity</title> [1971]). (first chapter on
+                                Edessa)</bibl>
+                            <bibl>J. B. Segal, <title rend="italic">Edessa ‘The blessed
+                                    city’</title> (1970). (for the early period largely based on
+                                Chronicle of Edessa, with many excerpts)</bibl>
+                            <bibl>W. Witakowski, ‘Chronicles of Edessa’, <title rend="italic">
+                                    <abbr>OrSuec</abbr>
+                                </title> 33–35 (1984–86), 487–98. (Chronicle of Edessa
+                                and Original Chronicle of Edessa)</bibl>
+                        </listBibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Lucas</forename> 
+                  <surname>Van Rompay</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

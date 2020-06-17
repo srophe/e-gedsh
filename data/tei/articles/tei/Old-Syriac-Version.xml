@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Old Syriac Version</title>
+            <author>
+               <persName>
+                  <forename>Andreas</forename> 
+                  <surname>Juckel</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.5">Electronic Edition Version 1.5</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Old Syriac Version</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Old-Syriac-Version</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/417</idno>
+                    <idno type="entry">408</idno>
+                    <milestone unit="pages" n="317-318"/>
+                    <idno type="althead">Vetus Syra</idno>
+                    <note type="type">work</note>
+                    <note type="abstract">Modern term for the <abbr>NT</abbr> versions prior to the Peshitta
+                        (excluding the Diatessaron), which includes 1. the ‘Curetonian’ and Sinaitic
+                        Gospel <abbr>mss.</abbr>; 2. quotations mainly in the writings of Aphrahaṭ, <persName ref="http://syriaca.org/person/13">Ephrem</persName>, and in the Book of
+                        Steps; and 3. the Old Syriac heritage of early Peshitta <abbr>mss.</abbr> Frequently the
+                        term is restricted to the two mentioned Gospel <abbr>mss.</abbr> only.<note/>
+                    </note>
+                </ab>
+                <ab type="infobox">Vetus Syra</ab>
+                <div type="body">
+                    <p>Modern term for the <abbr>NT</abbr> versions prior to the <ref rend="bold" target="https://gedsh.bethmardutho.org/Peshitta">Peshitta</ref>
+                        (excluding the <ref rend="bold" target="https://gedsh.bethmardutho.org/Diatessaron">Diatessaron</ref>),
+                        which includes 1. the ‘Curetonian’ and Sinaitic Gospel <abbr>mss.</abbr>; 2. quotations
+                        mainly in the writings of <ref rend="bold" target="https://gedsh.bethmardutho.org/Aphrahat">
+                            <persName ref="http://syriaca.org/person/10">Aphrahaṭ</persName>
+                        </ref>, <ref rend="bold" target="https://gedsh.bethmardutho.org/Ephrem">
+                            <persName ref="http://syriaca.org/person/13">Ephrem</persName>
+                        </ref>,
+                        and in the <ref rend="bold" target="https://gedsh.bethmardutho.org/Book-of-Steps">Book of
+                        Steps</ref>; and 3. the Old Syriac heritage of early Peshitta <abbr>mss.</abbr>
+                        Frequently the term is restricted to the two mentioned Gospel <abbr>mss.</abbr> only. The
+                        Old Syriac Version is the earliest representative of the four-Gospel <abbr>NT</abbr> in
+                        the Syriac speaking area East of <ref rend="bold" target="https://gedsh.bethmardutho.org/Antioch">
+                            <placeName ref="http://syriaca.org/place/10">Antioch</placeName>
+                        </ref>. As <hi rend="italic">ewangeliyon da-mparrše</hi> (‘Gospel of the separate ones
+                        [i.e., books]’) it circulated beside the Diatessaron (<hi rend="italic">ewangeliyon da-mḥallṭe</hi>, ‘Gospel of the mixed ones [i.e., books]’)
+                        and was replaced by the Peshitta in the course of the 5th/6th <abbr>cent.</abbr>
+                    </p>
+                    <p>The ‘Codex Curetonianus’ (‘C’; Wright, <hi rend="italic">Catalogue … British
+                            Museum</hi>, vol. 1, no. CXIX, <abbr>ms.</abbr> London, Brit. Libr. Add. 14,451) is
+                        named after <ref rend="bold" target="https://gedsh.bethmardutho.org/Cureton-William">
+                            <persName ref="http://syriaca.org/person/429">W. Cureton</persName>
+                        </ref>, who identified the version
+                        and prepared the first edition in 1858. It is based on the 87 parchment
+                        folios which came to the British Museum in 1842–47 from <ref rend="bold" target="https://gedsh.bethmardutho.org/al-Suryan-Dayr">
+                            <placeName ref="http://syriaca.org/place/360">Dayr
+                            al-Suryān</placeName>
+                        </ref> in the Nitrian Desert (Egypt). The definitive edition,
+                        prepared by F. C. Burkitt (1904) includes three further leaves preserved at
+                        Berlin (Orient. Quart. 528, first <abbr>ed.</abbr> by E.  Roediger 1872) and gives the
+                        deviations of the Sinaitic <abbr>ms.</abbr> in the footnotes. One additional folio (still
+                        at Dayr al-Suryān) was published by D. McConaughy in 1987. The unusual
+                        sequence of the Gospels in this 5th-cent. codex is Mt, Mk, Jn, Lk. The text
+                        of the present-day <abbr>ms.</abbr> is Mt 1:1–8:22; 10:32–23:25; Mk 16:17–20 (Mk almost
+                        completely lost); Jn 1:1–42; 3:5–8:19; 14:10–2, 15–9, 21–4, 26–9; Lk
+                        2:48–3:16; 7:33–15:21; 17:24–24:44. The three folios in Berlin: Jn
+                        7:37–8:19; Lk 15:22–16:12; 17:1–23; the single folio published by D.
+                        McConaughy: Lk 16:13–17:1.</p>
+                    <p>The ‘Sinaitic <abbr>ms.</abbr>’ (‘S’; <abbr>ms.</abbr> Sin. Syr. 30; Hatch, <hi rend="italic">Album</hi>, plate XLVI) Agnes Smith Lewis and her twin sister Margaret
+                        D. Gibson discovered in 1892 during a visit at <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Catherine-Monastery-of-St">
+                            <placeName ref="http://syriaca.org/place/368">St.
+                            Catherine Monastery</placeName>
+                        </ref> at Mount Sinai. This 4th/5th-cent. codex is a
+                        palimpsest, the original Gospel text was removed in the 8th <abbr>cent.</abbr> to reuse
+                        the parchment for the history of female saints. R. L. Bensly, J. R. Harris,
+                        and F. C. Burkitt assisted A. S. Lewis in the difficult decipherment of the
+                        under-writing, which required five additional journeys to St. Catharine and
+                        the application of a reagent. In 1894 the team of scholars published the
+                        palimpsest; some re-examined folios with improved readings followed in 1896.
+                        The standard edition of the Sinaitic <abbr>ms.</abbr> with further improvements and much
+                        additional material was published by A. S. Lewis in 1910, now with the
+                        deviations of Codex Curetonianus in the footnotes. The surviving 142 leaves
+                        preserve the text of Mt 1:1–6:10; 8:3–12:4, 6–25, 30–16:15; 17:11–20:24;
+                        21:20–25:15, 17–20, 25–26, 32–28:7; Mk 1:12–44; 2:21–4:17, 41–5:26;
+                        6:5–16:8; Lk 1:1–16, 38–5:28; 6:12–24:52; Jn 1:25–47; 2:16–4:37; 5:6–25,
+                        46–18:31; 19:40–21:25. Some passages in Mt are partially illegible.
+                        Ultra-violet photography applied to the codex by K. and B. Aland in 1982
+                        failed to decipher additional portions of the text.</p>
+                    <p>The relation between C and S is not definitely settled. On the one hand, both
+                        <abbr>mss.</abbr> are too different to be copies of the same text; on the other, their
+                        agreements exclude the possibility of two different translations of the
+                        Greek. They are rather independent traditions of the same version and
+                        reflect a revisional development. This would imply a longer period of
+                        revision and allow for the possibility of originally more than two
+                        independent traditions side by side.</p>
+                    <p>The date and origin of the Old Syriac Version are disputed too. The
+                        introduction of the Four-Gospel canon is certainly due to Western influence
+                        and corresponds with the advance of ‘orthodox’ Graeco-Roman theology and
+                        organization to Syria and Mesopotamia. This makes Antioch and Northern
+                        Palestine more probable as the place of origin than <ref rend="bold" target="https://gedsh.bethmardutho.org/Edessa">
+                            <placeName ref="http://syriaca.org/place/78">Edessa</placeName>
+                        </ref>. The Old
+                        Syriac Version came into being in an area dominated by the Diatessaron,
+                        since <abbr>ca.</abbr> 170, which was replaced by the Four-Gospel canon only in the 5th
+                        <abbr>cent.</abbr> The first attempts to produce Separate Gospels may have started in the
+                        3rd <abbr>cent.</abbr>, and the archetype of C and S may tentatively be traced to these
+                        early efforts; however, the introduction of the Four-Gospel canon as the
+                        approved <abbr>NT</abbr> in the area East of Antioch cannot be dated earlier than the
+                        4th/5th <abbr>cent.</abbr> The Four-Gospel canon was definitely settled in the time of
+                            <ref rend="bold" target="https://gedsh.bethmardutho.org/Rabbula-of-Edessa">
+                            <persName ref="http://syriaca.org/person/26">Rabbula</persName>
+                        </ref> by a thorough revision of the Old Syriac
+                        textual traditions, which resulted in the Peshitta.</p>
+                    <p>Quotations of the Old Syriac type are in the writings of Aphrahaṭ, Ephrem, in
+                        the ‘Book of Steps’, and in a few additional documents; they are collected
+                        by Burkitt, Leloir, and Kerschensteiner. Here the qualification ‘Old Syriac’
+                        refers to the pre-Peshitta origin of the texts. In the Gospels comparison
+                        with C, S, and the Peshitta is possible; outside of the Gospels, where there
+                        is no direct attestation in Old Syriac <abbr>mss.</abbr>, solely the Peshitta can be
+                        compared. It is not certain whether these quotations reflect an established
+                        Old Syriac Version or individual attempts of translation. In the Gospels the
+                        Diatessaron is quoted side by side with the Separate Gospels (labelled as
+                        ‘the Greek’ by Ephrem); this may reflect the dominance of the Diatessaron
+                        and the circulation of Old Syriac textual traditions in the 4th <abbr>cent.</abbr>
+                        According to Ephrem’s commentary on the Pauline epistles (preserved in
+                        Armenian), an additional (3rd) epistle to the Corinthians was part of the
+                        Old Syriac <abbr>NT</abbr> canon. The Catholic Epistles probably were not included in the
+                        canon; although 1 Pet and 1 Jn are known, they are never qualified as
+                        ‘Scripture.’</p>
+                    <p>The Old Syriac heritage of early Peshitta <abbr>mss.</abbr> is a minor source of the Old
+                        Syriac Version and still awaiting exploitation. This heritage derives from
+                        the Old Syriac prehistory of the Peshitta and was set out in some detail by
+                        A.  Allgeier (1932) and A. Juckel (2003). M. Black launched the hypothesis
+                        of a ‘Pre-Peshitta’ (1952), produced by Rabbula and closer to the Old Syriac
+                        than the definitive Peshitta. From this Pre-Peshitta remaining Old Syriac
+                        elements were successively (though insufficiently) eliminated by further
+                        revision. Whatever the role of Rabbula in this context may be, the agreement
+                        of the definitively revised Peshitta with the Old Syriac is striking.
+                        Majority readings as well as minority readings (represented by single or
+                        several <abbr>mss.</abbr> only) of the definitive Peshitta participate in this agreement.
+                        Access to this source of the Old Syriac Version is given by the collation of
+                        Peshitta <abbr>mss.</abbr> presented in the Gospel volume prepared by Ph. E.  Pusey /
+                        G. H. Gwilliam (1901). Among these <abbr>mss.</abbr> Codex Phillipps 1388 (5th/6th <abbr>cent.</abbr>)
+                        is the most prominent witness. Further collations are necessary to exploit
+                        this source of the Old Syriac Version sufficiently in order to reconstruct
+                        the pre-Peshitta as far as possible.</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>A. Allgeier, ‘Cod. <choice>
+                                <sic>Phillips</sic>
+                                <corr>Phillipps</corr>
+                            </choice> 1388 in Berlin und seine Bedeutung
+                            für die Geschichte der Pešitta’, <title rend="italic">
+                                <abbr>OC</abbr>
+                            </title> 29
+                            (1932), 1–15.</bibl>
+                        <bibl>M.  Black, ‘Zur Geschichte des syrischen Evangelientextes’, <title rend="italic">Theologische Literaturzeitung</title> 77 (1952),
+                            705–10.</bibl>
+                        <bibl>F. C.  Burkitt, <title rend="italic">Evangelion
+                            da-Mepharreshe</title> (2 vols.; 1904).</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>F. C.  Burkitt</reg>
+                        <orig>idem</orig>
+                     </choice>, <title rend="italic">Ephraim’s quotations from the
+                                Gospel</title> (1901).</bibl>
+                        <bibl>A.  Hjelt, <title rend="italic">Syrus Sinaiticus</title>
+                            (1930).</bibl>
+                        <bibl>A.  Juckel, ‘A Re-Examination of Codex Phillipps 1388’, <title rend="italic">
+                                <abbr>Hugoye</abbr>
+                            </title> 6.1 (2003).</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>A.  Juckel</reg>
+                        <orig>idem</orig>
+                     </choice>, ‛Research on the Old Syriac heritage of the Peshitta Gospels. A
+                            collation of MS Bibl. Nationale syr. 30 (Paris)’, <title rend="italic">
+                                <abbr>Hugoye</abbr>
+                            </title> 12.1 (2009).</bibl>
+                        <bibl>J. Kerschensteiner, ‘Beobachtungen zum altsyrischen Actatext’, <title rend="italic">Biblica</title> 45 (1964), 63–74.</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>J. Kerschensteiner</reg>
+                        <orig>idem</orig>
+                     </choice>, <title rend="italic">Der altsyrische Paulustext</title> (<abbr>CSCO</abbr>
+                            315; 1970).</bibl>
+                        <bibl>Kiraz, <title rend="italic">CESG</title>, with plates.</bibl>
+                        <bibl>L.  Leloir, <title rend="italic">L’Évangile d’Éphrem d’après les
+                                oeuvres éditées</title> (<abbr>CSCO</abbr> 180; 1958).</bibl>
+                        <bibl>J. A.  Lund, <title rend="italic">The Old Syriac Gospel of the
+                                distinct evangelists. A key-word-in-context concordance</title> (3
+                            vols.; 2004).</bibl>
+                        <bibl>D. McConaughy, ‘A recently discovered folio of the Old Syriac (syc)
+                            text of Luke 16,13–17,1’, <title rend="italic">Biblica</title> 68
+                            (1987), 85–8.</bibl>
+                        <bibl>A. Smith Lewis, <title rend="italic">The Old Syriac Gospels or
+                                Evangelion da-Mepharreshê</title> (1910).</bibl>
+                        <bibl>E. J.  Wilson, <title rend="italic">The Old Syriac Gospels. Studies
+                                and comparative translations</title> (2 vols.; 2nd <abbr>ed.</abbr> 2003).</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Andreas</forename> 
+                  <surname>Juckel</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

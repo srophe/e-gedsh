@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Dionysios of Tel Maḥre</title>
+            <author>
+               <persName>
+                  <forename>Witold</forename> 
+                  <surname>Witakowski</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.5">Electronic Edition Version 1.5</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Dionysios of Tel Maḥre</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Dionysios-of-Tel-Mahre</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/179</idno>
+                    <idno type="entry">170</idno>
+                    <milestone unit="pages" n="127-128"/>
+                    <idno type="subject">http://syriaca.org/person/155</idno>
+                    <note type="type">person</note>
+                    <note type="abstract">
+                        <abbr>Patr.</abbr> 818–845, historian.<note/>
+                    </note>
+                </ab>
+                <ab type="infobox">(d. 845) [<abbr>Syr. Orth.</abbr>]</ab>
+                <div type="body">
+                    <p>
+                        <abbr>Patr.</abbr> 818–45, historian. Dionysios came from the village of Tel Maḥre. He was
+                        a monk in the monastery of John bar Aphtonia at <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Qenneshre-Monastery-of">
+                            <placeName ref="http://syriaca.org/place/230">Qenneshre</placeName>
+                        </ref>, but after its destruction by fire in <abbr>ca.</abbr> 810, he moved
+                        to another monastery and eventually to the Monastery of Mar Yaʿqub at
+                        Kayshum. On 1 Aug. 818 at the synod in Kallinikos, on the suggestion of <abbr>
+                            <choice>
+                                <sic>bp.</sic>
+                                <corr>Bp.</corr>
+                            </choice>
+                        </abbr>
+                        Theodoros of the same monastery, Dionysios was elected <abbr>patr.</abbr> Then, in three
+                        successive days he was ordained deacon, priest, and patriarch (Michael,
+                       <choice>
+                            <sic> 503/III</sic>
+                            <corr>503 / III</corr>
+                        </choice>, 43).</p>
+                    <p>At the very beginning of his pontificate he had to face opposition from
+                        Abraham, whom Dionysios calls Abiram (<choice>
+                            <sic>cp.</sic>
+                            <corr>cf.</corr>
+                        </choice> Num. 16), a monk of Qarṭmin, and
+                        his followers of the Monastery of Gubba Barraya. The group was schismatic
+                        (Abraham ordained his own bishops), but also held dissenting views in the
+                        matter of the liturgical formula <hi rend="italic">Panem caelestem
+                            frangimus</hi> (‘We break the heavenly bread’), which they wished to be
+                        accepted by the whole <abbr>Syr. Orth.</abbr> Church. The conflict in this matter had
+                        been troubling the Church already during the pontificate of Dionysios’s
+                        predecessor, <abbr>Patr.</abbr> 
+                  <ref rend="bold" target="https://gedsh.bethmardutho.org/Quryaqos">
+                            <persName ref="http://syriaca.org/person/145">Quryaqos</persName>
+                        </ref>. As it
+                        proved impossible to solve it, the synod of Kallinikos, at which Dionysios
+                        was elected, accepted that the usage of the formula was at the discretion of
+                        every <abbr>bp.</abbr> However not even this tolerant solution was accepted by Abraham’s
+                        group. Dionysios however succeeded in appeasing at least the people and
+                        monks of the diocese of Cyrrhus, who previously had supported Abraham. The
+                        latter repeatedly presented himself to the Muslim authorities as the
+                        legitimate <abbr>patr.</abbr>, but without receiving official recognition (Michael 507,
+                        508–12 / III, 49, 55–9), due to Dionysios’s intervention. In 820 Dionysios
+                        went to <ref rend="bold" target="https://gedsh.bethmardutho.org/Baghdad">
+                            <placeName ref="http://syriaca.org/place/41">Baghdad</placeName>
+                        </ref> where he received the confirmation of his election from
+                        Caliph al-Maʾmūn. In 829, after long talks with the caliph, Dionysios
+                        obtained from him a decree to the effect that non-legitimate bishops would
+                        not be officially approved by the Muslims. In this way Abraham no longer
+                        presented a threat to Dionysios’s authority or the unity of the Church. He
+                        died in 837, but the schism nevertheless continued, as Abraham’s supporters
+                        elected his brother Shemʿun counter-patriarch. Some bishops, however, turned
+                        their allegiance to Dionysios, so that this later phase of the schism was
+                        less troublesome, as Dionysios himself reports (Chronicle of 1234,
+                        234/206).</p>
+                    <p>Another problem Dionysios had to face was the opposition of the eastern
+                        (maphrianate) bishops, among whom the main figure was Basil <abbr>bp.</abbr> of <ref rend="bold" target="https://gedsh.bethmardutho.org/Tagrit">
+                            <placeName ref="http://syriaca.org/place/193">Tagrit</placeName>
+                        </ref>.
+                        As he antagonised also the Muslims of his diocese, he was arrested by the
+                        Muslim authorities, which however also led to anti-Christian acts of
+                        violence, including destruction of churches, <choice>
+                            <sic>e.g.</sic>
+                            <corr>e.g., </corr>
+                        </choice>in <ref rend="bold" target="https://gedsh.bethmardutho.org/Edessa">
+                            <placeName ref="http://syriaca.org/place/78">Edessa</placeName>
+                        </ref> and <ref rend="bold" target="https://gedsh.bethmardutho.org/Harran">
+                            <placeName ref="http://syriaca.org/place/216">Ḥarran</placeName>
+                        </ref>.
+                        Dionysios, together with his brother, <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Theodosios-of-Edessa">
+                            <persName ref="http://syriaca.org/person/150">Theodosios
+                            <abbr>bp.</abbr> of Edessa</persName>
+                        </ref>, went to Egypt to meet Emir ʿAbdallāh, from whom he
+                        received an edict commanding any further destruction of churches to stop and
+                        to rebuild the ones that had been destroyed (Michael, 516 / III, 63–4).</p>
+                    <p>Dionysios’s relations with the Muslim authorities were so good that on the
+                        caliph’s request he even intervened far beyond his own jurisdiction, namely
+                        in the matters of a group of Coptic Christians, known as Bashmurites, who
+                        had revolted against their Muslim oppressors. It seems that thanks to his
+                        intervention the caliph did not punish them with death but deportation.</p>
+                    <p>During his pontificate Dionysios ordained 99 bishops (Michael, 754–55 / III,
+                        453–55). He died on 22 Aug. 845 and was buried in his former monastery of
+                        Qenneshre.</p>
+                    <p>Dionysios was the author of an historical work in two parts, dealing with
+                        ecclesiastical (written earlier) and with secular matters, altogether in 16
+                        books. Dedicated to <ref rend="bold" target="https://gedsh.bethmardutho.org/Iwannis-of-Dara">
+                            <persName ref="http://syriaca.org/person/161">Iwannis of
+                            Dara</persName>
+                        </ref>, it covered the period of over two and a half centuries, from
+                        the accession of the Byzantine emperor Maurice (582) until the death of
+                        Emperor Theophilos and of Caliph Abū Isḥāq al-Muʿtaṣim (842) (Michael,
+                        Chronicle, 544 / III, 111). It has not been preserved, except for fragments
+                        (<abbr>ed.</abbr> Brooks, <abbr>CSCO</abbr> 84, 88) and is known mostly from later Syriac chronicles,
+                        whose authors used it as their source, namely the anonymous <ref rend="bold" target="https://gedsh.bethmardutho.org/Chronicle-of-1234">Chronicle of
+                            1234</ref> and the Chronicle of <ref rend="bold" target="https://gedsh.bethmardutho.org/Michael-I-Rabo">
+                            <persName ref="http://syriaca.org/person/217">Michael Rabo</persName>
+                        </ref>.</p>
+                    <p>Dionysios’s sources are not directly known, but the analyses by J.-B. Chabot
+                        (Introduction to <hi rend="italic">Chronique de Michel</hi>, XXXII–XXXIV)
+                        and A. Palmer and R. Hoyland (<hi rend="italic">The Seventh Century</hi>,
+                        95–104) have identified some of them: Daniel son of Mushe (8th <abbr>cent.</abbr>),
+                        Yoḥannan son of <choice>
+                            <sic>Shmu’el</sic>
+                            <corr>Shmuʾel</corr>
+                        </choice>, <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Theophilos-of-Edessa">
+                            <persName ref="http://syriaca.org/person/787">Theophilos</persName>
+                        </ref> the ‘Chalcedonian’, son of Toma of Edessa, the Common
+                        Source of the Byzantine chronicler Theophanes (d. 818), the Melkite Agapius
+                        of Mabbug, who wrote in Arabic (10th <abbr>cent.</abbr>), part of the material preserved
+                        in the Chronicle to the year 724, and some other Syriac, but also Greek and
+                        Arabic sources.</p>
+                    <p>Due to an erroneous attribution by J. S. Assemani, Dionysios was until the
+                        end of the 19th century considered to be the author of the anonymous <ref rend="bold" target="https://gedsh.bethmardutho.org/Zuqnin-Chronicle-of">Chronicle of Zuqnin</ref>, which consequently became known as that of
+                        Pseudo-Dionysios of Tel Maḥre.</p>
+                    <p>Dionysios also promulgated some disciplinary canons, preserved in the
+                        Synodicon of the <abbr>Syr. Orth.</abbr> Church (<abbr>ed.</abbr> Vööbus). Another text of his is his
+                        profession of faith in Arabic, most probably one that he sent to the Coptic
+                        <abbr>patr.</abbr> of Alexandria (as was customary for newly elected patriarchs of both
+                        churches), in which, however, he says nothing about the current issues (the
+                            <hi rend="italic">Panem caelestem</hi> controversy).</p>
+                </div>
+                <div type="bibl">
+                    <listBibl>
+                        <listBibl>
+                            <head>Primary Sources</head>
+                            <bibl>Abbeloos and Lamy, <title rend="italic">Gregorii Barhebraei
+                                    chronicon ecclesiasticum</title>, vol. 1, cols. 343–386. (<choice>
+                                    <sic>Syr</sic>
+                                    <corr>Syr.</corr>
+                                </choice>
+                                and <abbr>LT</abbr>)</bibl>
+                            <bibl>A.  Abouna, <title rend="italic">Anonymi auctoris Chronicon ad
+                                    A.C. 1234 pertinens</title> (<abbr>CSCO</abbr> 354; 1974), 198–206.</bibl>
+                            <bibl>R.  Abramowski, <title rend="italic">Dionysius von Tellmahre,
+                                    jakobitischer Patriarch von 818–845. Zur Geschichte der Kirche
+                                    unter dem Islam</title> (Abhandlungen für die Kunde des
+                                Morgenlandes 25:2; 1940), 130–42. (The profession of faith; Arabic
+                                with <abbr>GT</abbr>)</bibl>
+                            <bibl>E. W.  Brooks, <title rend="italic">Historia ecclesiastica
+                                    Zachariae Rhetori vulgo adscripta</title>, vol. 2. <title rend="italic">Accedit fragmentum Historiae Ecclesiasticae
+                                    Dionysii Telmahrensis</title> (<abbr>CSCO</abbr> 84, 88; 1921–24), 219–24
+                                (Syr.); 149–54 (<abbr>LT</abbr>).</bibl>
+                            <bibl>Chabot, <title rend="italic">Chronique de Michel le
+                                Syrien</title>, 378–544 (Syr.); vol. 2, 357 – vol. 3, 111
+                                (<abbr>FT</abbr>).</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>Chabot</reg>
+                           <orig>idem</orig>
+                        </choice>, <title rend="italic">Anonymi auctoris Chronicon ad annum
+                                    <choice>
+                                        <sic>Chirsti</sic>
+                                        <corr>Christi</corr>
+                                    </choice> 1234 pertinens</title> (<abbr>CSCO</abbr> 82; 1916), 263–74.</bibl>
+                            <bibl>A.  Palmer <abbr>et al.</abbr>, <title rend="italic">The seventh century in the
+                                    West-Syrian chronicles</title> (<abbr>TTH</abbr> 15; 1993), 85–221. (excerpts
+                                in <abbr>ET</abbr>)</bibl>
+                            <bibl>A.  Vööbus, <title rend="italic">The Synodicon in the West Syrian
+                                    tradition</title> (<abbr>CSCO</abbr> 367–368, 375–6; 1975–76), 25–34 (Syr.);
+                                27–36 (<abbr>ET</abbr>).</bibl>
+                        </listBibl>
+                        <listBibl>
+                            <head>Secondary Sources</head>
+                            <bibl>Abramowski (see above).</bibl>
+                            <bibl>H. G. B.  Teule, ‘Dionysius of Tell-Maḥrē’, in <title rend="italic">Christian-Muslim relations</title>, <abbr>ed.</abbr> Thomas and
+                                Roggema, 622–6.</bibl>
+                            <bibl>A.  Vööbus, ‘Neues Licht über die kirchlichen Reformbestrebungen
+                                des Patriarchen Dionysios von Tell Maḥrē’, <title rend="italic">
+                                    <abbr>OC</abbr>
+                                </title> 49 (1964), 286–300.</bibl>
+                        </listBibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Witold</forename> 
+                  <surname>Witakowski</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

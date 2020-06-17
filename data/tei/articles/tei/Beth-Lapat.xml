@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Beth Lapaṭ</title>
+            <author>
+               <persName>
+                  <forename>Sebastian P.</forename> 
+                  <surname>Brock</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.5">Electronic Edition Version 1.5</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Beth Lapaṭ</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Beth-Lapat</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/109</idno>
+                    <idno type="entry">100</idno>
+                    <milestone unit="pages" n="72"/>
+                    <idno type="althead">Gondeshapur</idno>
+                    <idno type="althead">Jundi-Shapur</idno>
+                    <idno type="subject">http://syriaca.org/place/35</idno>
+                    <note type="type">place</note>
+                    <note type="abstract">Chief city of Beth Huzaye/Khuzistan, whose metropolitan
+                        bishopric ranked second after that of Seleucia-Ctesiphon.<note/>
+                    </note>
+                </ab>
+                <ab type="infobox">Gondeshapur, Jundi-Shapur</ab>
+                <div type="body">
+                    <p>Chief city of Beth Huzaye/Khuzistan, whose metropolitan bishopric ranked
+                        second after that of <ref rend="bold" target="https://gedsh.bethmardutho.org/Seleucia-Ctesiphon">
+                            <placeName ref="http://syriaca.org/place/182">Seleucia-Ctesiphon</placeName>
+                        </ref>. Its ruins are near Sahabad, between Tustar
+                        and Dezful. Beth Lapaṭ was (re-)founded soon after the sack of <ref rend="bold" target="https://gedsh.bethmardutho.org/Antioch">
+                            <placeName ref="http://syriaca.org/place/10">Antioch</placeName>
+                        </ref>
+                        (256) by Shapur I (241–272) with the name Gondeshapur (‘Shapur’s Antioch is
+                        better’), and was settled with prisoners from the Roman Empire. Among the
+                        captives was the <abbr>bp.</abbr> of Antioch, Demetrianus, and the episcopal line of Beth
+                        Lapaṭ will have commenced with him. It was at Beth Lapaṭ, one of the Shah’s
+                        summer residences, that <ref rend="bold" target="https://gedsh.bethmardutho.org/Mani">
+                            <persName ref="http://syriaca.org/person/608">Mani</persName>
+                        </ref> was put to death
+                        in 276/7. Beth Lapaṭ produced several martyrs during the persecutions of
+                        Shapur II, one being <abbr>
+                            <choice>
+                                <sic>bp.</sic>
+                                <corr>Bp.</corr>
+                            </choice>
+                        </abbr> Gadyab (mentioned by Sozomen, Ecclesiastical
+                        History, II.13), who, according to the early Life of Miles, consecrated
+                        Miles as <abbr>bp.</abbr> of Susa. At the Synod of Seleucia-Ctesiphon of 410 the
+                        metropolitan of Beth Lapaṭ features first in the list of metropolitan sees,
+                        and later <ref rend="bold" target="https://gedsh.bethmardutho.org/Aba-I">
+                            <persName ref="http://syriaca.org/person/306">Mar Aba</persName>
+                        </ref> specifies that he should preside
+                        over the election of a new <abbr>
+                            <choice>
+                                <sic>Cath.</sic>
+                                <corr>cath.</corr>
+                            </choice>
+                        </abbr> (<hi rend="italic">Synodicon
+                        Orientale</hi>, 543–44, tr. 554). In 410 its suffragan dioceses are listed
+                        as Karka d-Ledan, Hormizd Ardashir (Ahwaz), Shushterin (Tustar), and Shush
+                        (Susa); later additions were Ram Hormizd and Mihraqan Qadaq (linked with
+                        Ispahan in the synod of 497). It was at Beth Lapaṭ that <abbr>
+                            <choice>
+                                <sic>bp.</sic>
+                                <corr>Bp.</corr>
+                            </choice>
+                        </abbr> 
+                  <ref rend="bold" target="https://gedsh.bethmardutho.org/Barsawma-of-Nisibis">
+                            <persName ref="http://syriaca.org/person/369">Barsawma of
+                            Nisibis</persName>
+                        </ref> convened his rebel synod in 484, whose acts were later
+                        annulled in 486. A theological school is known to have existed in Beth Lapaṭ
+                        in the late Sasanian Empire; whether or not it also had a medical school
+                        attached (as was the case at <ref rend="bold" target="https://gedsh.bethmardutho.org/Nisibis">
+                            <placeName ref="http://syriaca.org/place/142">Nisibis</placeName>
+                        </ref> at the end
+                        of the 6th <abbr>cent.</abbr>) is disputed (see Reinink). Such a school is definitely
+                        attested for the early Abbasid period by <ref rend="bold" target="https://gedsh.bethmardutho.org/Timotheos-I">
+                            <persName ref="http://syriaca.org/person/790">Timotheos I</persName>
+                        </ref>’s
+                        Letter 13 (<abbr>ed.</abbr> Braun, <abbr>CSCO</abbr> 74, 108), and is implied by al-Manṣūr’s summoning
+                        of Gewargis, of the Bokhtishoʿ family (see <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Gabriel-bar-Bokhtisho">
+                            <persName ref="http://syriaca.org/person/492">Gabriel bar
+                            Bokhtishoʿ</persName>
+                        </ref>) in Beth Lapaṭ, to be his physician in <ref rend="bold" target="https://gedsh.bethmardutho.org/Baghdad">
+                            <placeName ref="http://syriaca.org/place/41">Baghdad</placeName>
+                        </ref>. By this
+                        time the metropolitan see was known as that of Elam. Apart from the names of
+                        a number of its bishops little is known of the later history of Beth Lapaṭ,
+                        and the see evidently came to an end some time in the 14th <abbr>cent.</abbr> (For a
+                        synoptic list of bishops of Beth Lapaṭ and its dioceses, see C. and F.
+                        Jullien, in <hi rend="italic">Dictionnaire de la Bible, Supplément</hi>,
+                        fasc. 74 [2003], cols. 617–18<choice>
+                            <sic>).</sic>
+                            <corr>.)</corr>
+                        </choice>
+                    </p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>N. Abbott, ‘Jundi-Shapur: A preliminary historical sketch’,
+                                <title rend="italic">Ars Orientalis</title> 7 (1968), 53–73.</bibl>
+                        <bibl>J.-M. Fiey, ‘L’Elam, la première des métropoles ecclésiastiques
+                            syriennes orientales’, <title rend="italic">Melto</title> 5 (1969),
+                            221–67. (<abbr>repr.</abbr> in his <title rend="italic">Communautés
+                            syriaques</title>, IIIa)</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>J.-M. Fiey</reg>
+                        <orig>idem</orig>
+                     </choice>, <title rend="italic">Pour un Oriens christianus novus</title>,
+                            83–85.</bibl>
+                        <bibl>R.  F.  Hau, ‘Gondeschapur — <choice>
+                                <sic>ein</sic>
+                                <corr>eine</corr>
+                            </choice> Medizinschule aus dem 6. Jh. nach
+                            Chr.’, <title rend="italic">Gesnerus</title> 36 (1979), 98–115.</bibl>
+                        <bibl>C.  L.  Huart and A. Sayılı, ‘Gondeshapur’, <title rend="italic">
+                                <abbr>EI</abbr>
+                            </title>
+                            <hi rend="superscript">2</hi>, vol. 2 (1965), 1119–20.</bibl>
+                        <bibl>C.  Jullien, ‘Contribution des Actes des martyrs perses à la
+                            géographie historique et à l’administration de l’empire sassanide’,
+                                <title rend="italic">Res Orientales</title> 16 (2004),
+                            148–49.</bibl>
+                        <bibl>G.  J.  Reinink, ‘Theology and medicine in Jundishapur. Cultural
+                            change in the Nestorian School tradition’, in <title rend="italic">Learned Antiquity. Scholarship in the Near East, the Greco-Roman
+                                World and the Early Medieval World</title>, <abbr>ed.</abbr> A. A. MacDonald et
+                            al. (2003), 163–74.</bibl>
+                        <bibl>L.  Richter-Bernberg, ‘Gondeshapur. History and medical school’, in
+                                <title rend="italic">
+                                <abbr>EIr</abbr>
+                            </title>, vol. 11 (2003), 133–35.</bibl>
+                        <bibl>W.  Schwaigert, <title rend="italic">Das Christentum in Huzistan im
+                                Rahmen der frühen Kirchengeschichte Persiens bis zur Synode von
+                                Seleukia-Ktesiphon im Jahre 410</title> (1989).</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>W.  Schwaigert</reg>
+                        <orig>idem</orig>
+                     </choice>  ‘Die Theologenschule von Bet Lapat-Gundaisabur’, <title rend="italic">
+                                <abbr>ZDMG</abbr> Suppl</title>. 4 (1980), 185–87.</bibl>
+                        <bibl>H.  H.  Schoffler, <title rend="italic">Die Akademie von Gondischapur.
+                                Aristoteles auf dem Wege in den Orient</title> (1980).</bibl>
+                        <bibl>A.  Siassi, ‘L’université de Gond-i Shapur et l’étendue de son
+                            rayonnement’, in <title rend="italic">Mélanges H. Massé</title> (1963),
+                            366–74.</bibl>
+                        <bibl>A.  Van Lantschoot, ‘Beth Lapat’, <title rend="italic">
+                                <abbr>DHGE</abbr>
+                            </title>,
+                            vol. 8 (1935), 1233–1235.</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Sebastian P.</forename> 
+                  <surname>Brock</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Zuqnin, Chronicle of</title>
+            <author>
+               <persName>
+                  <forename>Amir</forename> 
+                  <surname>Harrak</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.5">Electronic Edition Version 1.5</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Zuqnin, Chronicle of</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Zuqnin-Chronicle-of</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/631</idno>
+                    <idno type="entry">622</idno>
+                    <milestone unit="pages" n="450"/>
+                    <idno type="althead" subtype="altorder">Chronicle of Zuqnin</idno>
+                    <note type="type">work</note>
+                    <note type="abstract">A universal chronicle which begins with the creation of
+                        the world and ends with the year 775/6, the time of composition.<note/>
+                    </note>
+                </ab>
+                <div type="body">
+                    <p>A universal chronicle which begins with the creation of the world and ends
+                        with the year 775/6, the time of composition. It is known from a single <abbr>ms.</abbr>,
+                        partially palimpsest, purchased by <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Assemani-Josephus-Simonius">
+                            <persName ref="http://syriaca.org/person/349">J. S. Assemani</persName>
+                        </ref>
+                        from <ref rend="bold" target="https://gedsh.bethmardutho.org/al-Suryan-Dayr">
+                            <placeName ref="http://syriaca.org/place/360">Dayr al-Suryān</placeName>
+                        </ref> in Egypt in 1715 and added to the treasures of the
+                        Vatican Library under the siglum Codex Zuqninensis Vat. Syr. 162. Separate
+                        folios belonging to the last part of the chronicle were acquired in 1842
+                        from the same monastery by H. Tattam, and are now housed in the British
+                        Library (Add. 14,665, ff. 2–7). The author’s name is not given; the first
+                        folios which may have included it are missing. A likely candidate, however,
+                        is <ref rend="bold" target="https://gedsh.bethmardutho.org/Yeshu-the-Stylite">
+                            <persName ref="http://syriaca.org/person/40">Yeshuʿ the Stylite</persName>
+                        </ref> of Zuqnin, whose name is commemorated in a <choice>
+                            <sic>9th </sic>
+                            <corr>9th-</corr>
+                        </choice>
+                        <abbr>cent.</abbr>
+                        colophon inserted in the chronicle by a Syriac monk residing in Egypt.
+                        The work is conveniently divided into four parts reflecting more or less the
+                        major literary sources compiled by the author. Part I spans from the
+                        creation of the world to the reign of Constantine, and in it the Chronicle
+                        of <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Eusebius-of-Caesarea">
+                            <persName ref="http://syriaca.org/person/480">Eusebius of
+                            Caesarea</persName>
+                        </ref> is a major source. Part II goes from the time of
+                        Constantine to the time of Theodosius II, on the basis of the Ecclesiastical
+                        History of Socrates Scholasticus and such other literary sources as the
+                        so-called Chronicle of Yeshuʿ the Stylite. Part III, based among others on
+                        the Ecclesiastical History of <ref rend="bold" target="https://gedsh.bethmardutho.org/Yuhanon-of-Ephesus">
+                            <persName ref="http://syriaca.org/person/74">Yuḥanon of
+                            Ephesus</persName>
+                        </ref>, covers the reigns of Zeno, Anastasius, Justin I, and
+                        Justinian. Part IV, essentially the personal contribution of the chronicler,
+                        deals with the reign of Justinian and continues to the year 775. The
+                        accounts dealing with the period between 767 and 775 are particularly
+                        detailed and altogether they form a unique source on the economic policies
+                        of the early Abbasids, namely Caliph Abū Jaʿfar al-Manṣūr, and on the
+                        history of the <abbr>Syr. Orth.</abbr> Church in the Jazīra in those years.</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>I.-B.  Chabot, <title rend="italic">Incerti auctoris Chronicon
+                                Pseudo-Dionysianum vulgo dictum</title> (<abbr>CSCO</abbr> 91, 104, 121;
+                            1927–1949).</bibl>
+                        <bibl>A.  Harrak, <title rend="italic">The Chronicle of Zuqnīn<choice>
+                                    <sic/>
+                                    <corr>,</corr>
+                                </choice> Parts III and
+                                IV<choice>
+                                    <sic/>
+                                    <corr>:</corr>
+                                </choice> A.D. 488–775</title> (1999).</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>A.  Harrak</reg>
+                        <orig>idem</orig>
+                     </choice>, ‘Joshua the Stylite of Zuqnīn’, in <title rend="italic">Christian-Muslim relations</title>, <abbr>ed.</abbr> Thomas and Roggema,
+                            322–6.</bibl>
+                        <bibl>R.  Hespel, <title rend="italic">Chronicon Anonymum Pseudo-Dionysianum
+                                <choice>
+                                    <sic>dictum</sic>
+                                    <corr>vulgo dictum</corr>
+                                </choice>
+                            </title>, II (<abbr>CSCO</abbr> 507; 1989).</bibl>
+                        <bibl>F. R.  Trombley and J. W.  Watt, <title rend="italic">The Chronicle of
+                                Pseudo-Joshua the Stylite</title> (2000).</bibl>
+                        <bibl>W.  Witakowski, <title rend="italic">The Syriac Chronicle of
+                                Pseudo-Dionysius of Tel-Mahrē. A Study in the history of
+                                historiography</title> (1987).</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>W.  Witakowski</reg>
+                        <orig>idem</orig>
+                     </choice>, <title rend="italic">Pseudo-Dionysius of Tel-Mahre. Chronicle
+                                (known also as the Chronicle of Zuqnin). Part III</title> (<abbr>TTH</abbr> 22;
+                            1996).</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Amir</forename> 
+                  <surname>Harrak</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

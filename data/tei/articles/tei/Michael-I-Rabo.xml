@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Michael I Rabo</title>
+            <author>
+               <persName>
+                  <forename>Dorothea</forename> 
+                  <surname>Weltecke</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.5">Electronic Edition Version 1.5</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Michael I Rabo</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Michael-I-Rabo</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/382</idno>
+                    <idno type="entry">373</idno>
+                    <milestone unit="pages" n="287-290"/>
+                    <idno type="subject">http://syriaca.org/person/217</idno>
+                    <note type="type">person</note>
+                    <note type="abstract">
+                        <abbr>Patr.</abbr> and historian, most notably of a World Chronicle.
+                        <note/>
+                    </note>
+                </ab>
+                <ab type="infobox">(d. 1199) [<abbr>Syr. Orth.</abbr>]</ab>
+                <div type="body">
+                    <p>
+                        <abbr>Patr.</abbr> and historian, most notably author of a World Chronicle. Michael I Rabo
+                        (1126–99) was a distinguished <abbr>
+                            <choice>
+                                <sic>Patr.</sic>
+                                <corr>patr.</corr>
+                            </choice>
+                        </abbr> and a dominant figure in the
+                        intellectual history of the <abbr>Syr. Orth.</abbr> Church during the 12th <abbr>cent.</abbr> He was
+                        renowned for his intrepid diplomacy, his rigorous legislation, and sanctions
+                        in order to reform the <abbr>Syr. Orth.</abbr> ecclesiastical administration as a means
+                        to enhance Christian autonomy. Michael was born in 1126 in a still largely
+                        Christian <ref rend="bold" target="https://gedsh.bethmardutho.org/Melitene">
+                            <placeName ref="http://syriaca.org/place/136">Melitene</placeName>
+                        </ref>, where Greeks as well as <abbr>Syr. Orth.</abbr> and Armenians lived
+                        side by side with Muslims. Being a member of a clerical family, Michael was
+                        sent to the nearby <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Barsawmo-Dayro-d-Mor">
+                            <placeName ref="http://syriaca.org/place/224">Dayro d-Mor
+                            Barṣawmo</placeName>
+                        </ref> for education. He stayed on as a monk and prior. In the
+                        year 1166 Michael was elected <abbr>patr.</abbr> of the <abbr>Syr. Orth.</abbr> Church under the
+                        pressure of a reform party among the bishops. In order to ensure his and his
+                        flock’s interests and freedom of action Michael balanced out his relations
+                        with the warring parties in the area of his jurisdiction. Especially in the
+                        first half of his patriarchate his authority was felt and sought within the
+                        entire group of non-Chalcedonian churches, Copts and Armenians included.
+                        Michael was accepted as a frequent visitor in Latin <ref rend="bold" target="https://gedsh.bethmardutho.org/Antioch">
+                            <placeName ref="http://syriaca.org/place/10">Antioch</placeName>
+                        </ref> with the
+                        consent of the Byzantine emperor Manuel Komnenos (1143–80) in spite of the
+                        opposition of the Greek-orthodox community. In Antioch he was the first Syr.
+                        Orth. <abbr>
+                            <choice>
+                                <sic>Patr.</sic>
+                                <corr>patr.</corr>
+                            </choice>
+                        </abbr> after the expulsion of <ref rend="bold" target="https://gedsh.bethmardutho.org/Severus-of-Antioch">
+                            <persName ref="http://syriaca.org/person/51">Severus of
+                            Antioch</persName>
+                        </ref> (in 518) to act as <abbr>patr.</abbr> there and to consecrate a number
+                        of bishops. He also visited <ref rend="bold" target="https://gedsh.bethmardutho.org/Jerusalem">
+                            <placeName ref="http://syriaca.org/place/104">Jerusalem</placeName>
+                        </ref> several
+                        times. Michael was invited to take part in the third Lateran Council in
+                        1179, but declined.</p>
+                    <p>The second half of his patriarchate was overshadowed by the election of an
+                        anti-patriarch, named <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Theodoros-bar-Wahbun">
+                            <persName ref="http://syriaca.org/person/216">Theodoros
+                            bar Wahbun</persName>
+                        </ref> (d. 1193) in 1180, who was supported by the Latins in
+                        the Crusader States as well as by the Armenian <abbr>Cath.</abbr> Gregory IV (1173–93).
+                        Apart from a rapprochement between Michael and the Seljuk Sultan Qilij
+                        Arslan II (1155–92), this led to some temporary diplomatic isolation until
+                        1193, when Michael was fully recognized again by his church as well as by
+                        his Christian neighbors. Michael was buried in his newly-built church in Mor
+                        Barṣawmo.</p>
+                    <p>Michael’s writing was largely concentrated on the reform project. Parallel to
+                        his numerous obligations as a <abbr>patr.</abbr>, he collected <abbr>mss.</abbr> of theological and
+                        historical content and restored and compiled hagiographical and liturgical
+                        works. His canonistic work is partly conserved in later collections, but the
+                        greater part is lost, as is his treatise on dualist heresies composed for
+                        the Lateran Council. He also composed some liturgical and hagiographical
+                        works and collected ancient theological and historical sources.</p>
+                    <p>These he used for his monumental world chronicle from the origin of the world
+                        to 1195. Michael’s chronicle has been studied intensively since its edition
+                        and translation by J.-B Chabot. Inspired by the works of <abbr>
+                            <choice>
+                                <sic>bp.</sic>
+                                <corr>Bp.</corr>
+                            </choice>
+                        </abbr> 
+                  <ref rend="bold" target="https://gedsh.bethmardutho.org/Yaqub-of-Edessa">
+                            <persName ref="http://syriaca.org/person/113">Yaʿqub of Edessa</persName>
+                        </ref> (d. 708) and <abbr>Patr. </abbr>
+                        <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Dionysios-of-Tel-Mahre">
+                            <persName ref="http://syriaca.org/person/155">Dionysios
+                            of Tel Maḥre</persName>
+                        </ref> (d. 845), Michael’s chronicle blended both Eusebian
+                        genres, the chronological tables and the narrative ecclesiastical history.
+                        Michael used chronographies and ecclesiastical histories as sources and
+                        added further material. Only part of these he had directly before his eyes;
+                        others he used through intermediaries, as he reveals himself. Michael
+                        related his own time from a well informed and independent point of view. In
+                        view of source-critical methods and the universality of the chronological
+                        scope the highest standard in <abbr>Syr. Orth.</abbr> chronography was reached with this
+                        chronicle. Michael intended his work for learned clerical readers with
+                        access to a well-stocked library.</p>
+                    <p>The text is not preserved in its entirety, and the layout of Michael’s
+                        chronicle was distorted through the process of copying. Chabot’s edition is
+                        a facsimile of a documentary copy written for him in <ref rend="bold" target="https://gedsh.bethmardutho.org/Edessa">
+                            <placeName ref="http://syriaca.org/place/78">Edessa</placeName>
+                        </ref> (Urfa) from
+                        1897 to 1899. While the scribes tried to imitate the layout, a number of
+                        mistakes were introduced. Its <hi rend="italic">Vorlage</hi>, the only
+                        extant <abbr>ms.</abbr>, was written in 1598 by a very competent scribe. It is kept by
+                        the community of the Edessenians in <ref rend="bold" target="https://gedsh.bethmardutho.org/Aleppo">
+                            <placeName ref="http://syriaca.org/place/18">Aleppo</placeName>
+                        </ref>. In view of
+                        the loss of the original, this beautiful manuscript is the best witness for
+                        the layout of the chronicle. Fortunately it will soon be made available in
+                        print. This <abbr>ms.</abbr> was probably the <hi rend="italic">Vorlage</hi> for an
+                        Arabic translation, which also sought to preserve some of the visual
+                        features, while changing others. The Arabic translation has much the same
+                        lacunae as the Syriac text. By comparing his version with the Arabic
+                        translation preserved in <abbr>ms.</abbr> London, Brit. Libr. Or. 4402 (which is one of
+                        several Arabic copies), Chabot detected some details lost in the Syriac
+                        text. No further research has been done so far on this problem.</p>
+                    <p>The historical material was originally organized in four columns, the first
+                        being designated as the ‘succession of the patriarchs’, the second as
+                        ‘succession of the kings’, the chronological canon as ‘computation of the
+                        years’. No title of the additional column, which contains mixed material, is
+                        now known. Chapters with excursus were inserted, which interrupted the
+                        system of columns. After an open and abrupt end, six appendices follow. The
+                        first appendix is a monumental synopsis of all the kings and patriarchs
+                        mentioned. It was supposed to function as a directory. The second appendix
+                        is a treatise on the historical identity of the Syrians, who are connected
+                        to the Ancient Oriental Empires, the Assyrians, the Babylonians, and the
+                            <ref rend="bold" target="https://gedsh.bethmardutho.org/Arameans">Arameans</ref>. When the chronicle was translated into Armenian, in two
+                        different translations, in 1246 and 1247, it was transformed according to
+                        Armenian interests.</p>
+                    <p>Michael’s chronicle was motivated by a strong cognitive interest in
+                        historical and chronological knowledge. It also examines the historical role
+                        of the <abbr>Syr. Orth.</abbr> as a cultural-ethnic group as well as a church on the one
+                        hand with respect to God’s plan of salvation and on the other the universal
+                        reality of historical change and contingency.</p>
+                    <p>See <ref target="https://gedsh.bethmardutho.org/fig/75">Fig. 75</ref> and <ref target="https://gedsh.bethmardutho.org/fig/76c">76c</ref>.</p>
+                </div>
+                <div type="bibl">
+                    <listBibl>
+                        <listBibl>
+                            <head>Primary Sources</head>
+                            <bibl>Chabot, <title rend="italic">Chronique de Michel le
+                                Syrien</title>, I–V. (Syr. with <abbr>FT</abbr>)</bibl>
+                            <bibl>G.  Kiraz (<abbr>ed.</abbr>), <title rend="italic">Texts and translations of
+                                    the Chronicle of Michael the Syrian</title> (2009–). (a
+                                multi-volume series that includes a <abbr>repr.</abbr> of Chabot’s edition and
+                                translation, and a facsimile edition of the Aleppo <abbr>ms.</abbr>)</bibl>
+                        </listBibl>
+                        <listBibl>
+                            <head>Secondary Sources</head>
+                            <bibl>R. Abramowski, <title rend="italic">Dionysius von Tellmahre.
+                                    Jakobitischer Patriarch von 818–845. Zur Geschichte der Kirche
+                                    unter dem Islam</title> (1940).</bibl>
+                            <bibl>L. P.  Bernhard, ‘Die Universalgeschichtsschreibung des
+                                christlichen Orients’, in <title rend="italic">Mensch und
+                                    Weltgeschichte. Zur Geschichte der
+                                    Universalgeschichtsschreibung</title>, <abbr>ed.</abbr> A.  Randa (1969),
+                                111–141.</bibl>
+                            <bibl>S. P.  Brock, ‘Syriac historical writing: A survey of the main
+                                sources’, <title rend="italic">Journal of the Iraqi Academy. Syriac
+                                    Corporation</title> 5 (1978–80), 1–30. (<abbr>repr.</abbr> in <title rend="italic">Studies in Syriac Christianity</title> [1992], ch.
+                                I)</bibl>
+                            <bibl>J.  van Ginkel, ‘Michael the Syrian and his sources’, <title rend="italic">
+                                    <abbr>JCSSS</abbr>
+                                </title> 6 (2006), 53–60.</bibl>
+                            <bibl>A.  Schmidt, ‘Die zweifache armenische Rezension der syrischen
+                                Chronik Michaels des Großen’, <title rend="italic">
+                                    <abbr>LM</abbr>
+                                </title> 109
+                                (1996), 299–319.</bibl>
+                            <bibl>Weltecke, <title rend="italic">Die «Beschreibung der
+                                    Zeiten»</title>.</bibl>
+                            <bibl>W.  Witakowski, <title rend="italic">The Syriac Chronicle of
+                                    Pseudo-Dionysius of Tel-Maḥrē. A Study in the History of
+                                    <choice>
+                                        <sic>Histiography</sic>
+                                        <corr>Historiography</corr>
+                                    </choice>
+                                </title> (1987).</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>W.  Witakowski</reg>
+                           <orig>idem</orig>
+                        </choice>, ‘The Chronicle of Eusebius: Its Type and Continuation in
+                                Syriac Historiography’, <title rend="italic">ARAM</title> 11–12
+                                (1999–2000), 419–37.</bibl>
+                        </listBibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Dorothea</forename> 
+                  <surname>Weltecke</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

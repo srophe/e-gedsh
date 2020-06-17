@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Iwannis Yuḥanon</title>
+            <author>
+               <persName>
+                  <forename>George A.</forename> 
+                  <surname>Kiraz</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.5">Electronic Edition Version 1.5</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Iwannis Yuḥanon</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Iwannis-Yuhanon</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/305</idno>
+                    <idno type="entry">296</idno>
+                    <milestone unit="pages" n="224-225"/>
+                    <idno type="subject">http://syriaca.org/person/567</idno>
+                    <note type="type">person</note>
+                    <note type="abstract">Scribe and <abbr>bp.</abbr> for various dioceses. He was born Yuḥanon
+                        <abbr>b.</abbr> Shahīn <abbr>b.</abbr> Shamo of Amid, also nicknamed <abbr>b.</abbr> al-ʿAraqjanji ’son of the
+                        maker of <foreign rend="italic" xml:lang="en-x-gedsh">ʿarraqiyya</foreign>
+                        (a small cap worn under a turban to absorb sweat)’.<note/>
+                    </note>
+                </ab>
+                <ab type="infobox">(d. 1755) [<abbr>Syr. Orth.</abbr>]</ab>
+                <div type="body">
+                    <p>Scribe and <abbr>bp.</abbr> for various dioceses. He was born Yuḥanon <abbr>b.</abbr> Shahīn <abbr>b.</abbr> Shamo
+                        of <ref rend="bold" target="https://gedsh.bethmardutho.org/Amid">
+                            <placeName ref="http://syriaca.org/place/8">Amid</placeName>
+                        </ref>,
+                        also nicknamed <abbr>b.</abbr> al-ʿAraqjanji ‘son of the maker of <hi rend="italic">ʿarraqiyya</hi> (a small cap worn under a turban to absorb sweat)’. His
+                        brother, ʿAbd al-Karīm, and he became monks at <ref rend="bold" target="https://gedsh.bethmardutho.org/al-Zafaran-Dayr">
+                            <placeName ref="http://syriaca.org/place/69">Dayr
+                            al-Zaʿfarān</placeName>
+                        </ref> prior to 1716. He spent some time in <ref rend="bold" target="https://gedsh.bethmardutho.org/Matay-Dayro-d-Mor">
+                            <persName ref="http://syriaca.org/person/227">Dayro d-Mor
+                            Matay</persName>
+                        </ref> between 1727 and 1732. <abbr>Patr.</abbr> Shukrallāh consecrated him
+                        assistant <abbr>bp.</abbr> in 1740; he then became <abbr>bp.</abbr> of Dayro d-Mor Matay in 1743.</p>
+                    <p>Iwannis was sent to serve in Malankara <abbr>ca.</abbr> 1746. His bad temper and
+                        mismanagement led to much trouble. He toured the churches in India damaging
+                        sculptures which the Portuguese Catholics introduced and forcing priests to
+                        wear hats (<hi rend="italic">ʿarraqiyya</hi>s!). Iwannis prohibited many
+                        priests who did not follow the <abbr>Syr. Orth.</abbr> tradition from performing
+                        ecclesiastical duties which led to much friction between him and the local
+                        <abbr>bp.</abbr> Thoma V, the legitimacy of whose consecration was already under dispute.
+                        Both Iwannis and Thoma, however, wrote to the <abbr>
+                            <choice>
+                                <sic>Patr.</sic>
+                                <corr>patr.</corr>
+                            </choice>
+                        </abbr> requesting him to send a
+                            <ref rend="bold" target="https://gedsh.bethmardutho.org/Maphrian">maphrian</ref> to Malankara. The <abbr>
+                            <choice>
+                                <sic>Patr.</sic>
+                                <corr>patr.</corr>
+                            </choice>
+                        </abbr> sent Maph.
+                        Shukrallāh of Aleppo who arrived in 1751. When the maph. witnessed Iwannis’s
+                        bad temper and harsh treatment of priests, he detained him in Cochin and
+                        sent him back to the Middle East on the next ship. In 1752, Iwannis became
+                        the <abbr>bp.</abbr> of Badlis. He died in 1755 as did his brother, who was a <abbr>bp.</abbr>
+                    </p>
+                    <p>Iwannis was a notable scribe. He produced a number of liturgical <abbr>mss.</abbr>
+                    </p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>Barsoum, in <title rend="italic">
+                                <abbr>PatMagJer</abbr>
+                            </title> 6 (1939),
+                            265–7.</bibl>
+                        <bibl>I.  Yaʿqub, <title rend="italic">Taʾrīkh al-kanīsa al-suryāniyya
+                                al-hindiyya</title> (1951), 122ff.</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>George A.</forename> 
+                  <surname>Kiraz</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

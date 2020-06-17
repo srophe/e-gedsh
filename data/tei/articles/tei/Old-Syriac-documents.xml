@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Old Syriac documents</title>
+            <author>
+               <persName>
+                  <forename>Aaron M.</forename> 
+                  <surname>Butts</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.5">Electronic Edition Version 1.5</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Old Syriac documents</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Old-Syriac-documents</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/416</idno>
+                    <idno type="entry">407</idno>
+                    <milestone unit="pages" n="314-317"/>
+                    <note type="type">subject</note>
+                    <note type="abstract">Several parchments from the third century were found in Dura Europos.
+                    </note>
+                </ab>
+                <div type="body">
+                    <p>The <ref rend="bold" target="https://gedsh.bethmardutho.org/Syriac-Language"> Syriac language</ref> is best known from the large
+                        corpus of Christian literature that began to be produced by the <choice>
+                            <sic>2nd-cent.</sic>
+                            <corr>2nd cent.</corr>
+                        </choice>
+                        and continues to be composed until the present day. Syriac is, however, also
+                        attested in a much smaller corpus of non-Christian documentary texts that
+                        date from the 1st to the 3rd <abbr>cent.</abbr> These texts are traditionally termed ‘Old
+                        Syriac’. The largest group of Old Syriac texts are <ref rend="bold" target="https://gedsh.bethmardutho.org/Inscriptions">inscriptions</ref>, which number over 100 (<abbr>ed.</abbr> Drijvers and Healey). In
+                        addition to the Old Syriac inscriptions, there are also the Old Syriac
+                        documents, which include three Syriac parchments as well as several Syriac
+                        texts found on (primarily) Greek documents from the Middle Euphrates
+                        region.</p>
+                    <p>The first of the Old Syriac parchments was discovered in 1933 during
+                        excavations of <ref rend="bold" target="https://gedsh.bethmardutho.org/Dura-Europos">
+                            <placeName ref="http://syriaca.org/place/77">Dura-Europos</placeName>
+                        </ref>,
+                        an important military outpost for the Parthian Empire and then the Roman
+                        Empire on the Euphrates. This document, which is now known as P. Dura 28, is
+                        a bill of sale for a female slave dated 9 May 243 (the most accessible
+                        version of the text is in Drijvers and Healey, 232–6 [s.v. P1]; but see also
+                        Bellinger and Welles; Goldstein; Healey 2009, 264–75 [with plate 9]; Torrey;
+                        Welles, Fink, and Gilliam, 142–9 [with pl. LXIX, LXXI]; plates are also
+                        found in Moller, 185–6). In addition to this Syriac parchment, more than 150
+                        other documents were found at Dura-Europos, most of which are in Greek or
+                        Latin though there are also a few in Iranian or Aramaic (<abbr>ed.</abbr> Welles, Fink,
+                        and Gilliam). For more than fifty years, P. Dura 28 was without parallel,
+                        but in 1988 two similar Old Syriac parchments, now known as P.  Euphrates 19
+                        and 20, came to light. Though not found in controlled excavations, it is
+                        likely that both of these documents originate from Appadana (Neapolis), just
+                        north of Dura-Europos on the Euphrates. P. Euphrates 19 is a transfer of
+                        debt dated 28 Dec. 240 (the most accessible version of the text is in
+                        Drijvers and Healey, 237–42 [s.v. P2], but see also Teixidor 1989, 220;
+                        1990, 144–54 [includes two plates]; Brock; Aggoula; Healey 2008; 2009,
+                        252–64 [with plate 8]). P. Euphrates  20 is a property lease dated 1 Sept.
+                        242 (the most accessible version of the text is in Drijvers and Healey,
+                        243–8 [s.v. P3]; see also Teixidor 1989; 1990, 154–57; 1991–1992 [includes
+                        two plates]; Brock; Aggoula). These two Syriac parchments belong to a cache
+                        of texts that also includes 19 Greek papyri and parchments (<abbr>ed.</abbr> Feissel and
+                        Gascou [and Teixidor]). On several of these Greek texts, there is additional
+                        writing in Syriac. P. Euphrates 6 (with its duplicate P. Euphrates 7), for
+                        instance, contains a bill of sale for a slave in Greek, which is followed by
+                        seven lines of Syriac summarizing the sale as well as a list of witnesses
+                        and guarantors (verso), both in Syriac. In addition, a Syriac subscription
+                        occurs on two of the Greek papyri, viz. P. Euphrates 3 and its duplicate P.
+                        Euphrates 4. This subscription is the earliest witness to the use of Syriac
+                        on papyrus (see <ref rend="bold" target="https://gedsh.bethmardutho.org/Papyri-Syriac">Papyri,
+                            Syriac</ref>).</p>
+                    <p>Since their discovery, the Old Syriac documents have proven important on a
+                        number of fronts. In both their content and form they have added to the
+                        growing body of data for the Aramaic legal tradition. The three Old Syriac
+                        parchments are of the <hi rend="italic">Doppelurkunde-</hi>type, in which
+                        the main text is presented on the lower portion of the parchment and an
+                        abbreviated summary occurs on the top. This top section would have
+                        originally been rolled up and sealed in order to prevent tampering. This
+                        practice is well attested both in Greek and Aramaic papyrology, and it may
+                        have antecedents in the cuneiform tradition where tablets were enclosed in
+                        clay envelopes. The legal terminology in the Old Syriac parchments also
+                        points to continuity with other Aramaic legal texts, such as the Elephantine
+                        papyri, the Samaria Papyri, the Nabataean papyri, and the Jewish legal texts
+                        from the Judaean desert and the ‘Cave of Letters’ in Naḥal Ḥever (see Healey
+                        2005). In P. Dura 28, for instance, it is stated: ‘From today until forever,
+                        you, Tiro, the buyer, and your heirs will have authority (<hi rend="italic">šlyṭ</hi>) over this female slave whom I have sold to you, to possess
+                        or to sell or to do with her whatever you wish (<hi rend="italic">kl
+                            d-tṣbʾ</hi>)’ (ln. 11–12). This type of statement — commonly called a
+                            <hi rend="italic">Kyrieia</hi>-clause  — is found throughout the Aramaic
+                        legal tradition, as well as in Greek papyri.</p>
+                    <p>The dating formulae in the Old Syriac documents <choice>
+                            <sic>has</sic>
+                            <corr>have</corr>
+                        </choice> provided valuable
+                        information for the chronology of the last kings of <ref rend="bold" target="https://gedsh.bethmardutho.org/Edessa">
+                            <placeName ref="http://syriaca.org/place/78">Edessa</placeName>
+                        </ref> (see <ref rend="bold" target="https://gedsh.bethmardutho.org/Abgarids-of-Edessa">Abgarids</ref>). P. Dura 28 shows that the Abgarid dynasty
+                        must have come to an end in 212/213 when the city became a Roman <hi rend="italic">colonia</hi>. On the basis of P. Euphrates 19, which
+                        states that 28 Dec. 240 is the 2nd year of king Abgar, it can be established
+                        that the dynasty was restored in 239 (or late 238) under Abgar X, son of
+                        Maʿnu. Finally, it seems that Edessa must have reverted to a <hi rend="italic">colonia</hi> by 242 on the basis of P. Euphrates 20, which
+                        gives 1 Sept. 242 as year 30 of the <hi rend="italic">colonia</hi>.</p>
+                    <p>The Old Syriac documents are also an important witness to an early stage of
+                        the Syriac language. The <ref rend="bold" target="https://gedsh.bethmardutho.org/Script-Syriac">script</ref> of the Old Syriac
+                        documents is not the monumental Esṭrangela that is found in most of the Old
+                        Syriac inscriptions and the oldest Syriac literary <abbr>mss.</abbr>, but rather it is of
+                        a more cursive type (especially in P. Euphrates 20) that also occurs in some
+                        mosaic inscriptions. These documents, thus, corroborate the existence of a
+                        cursive script, which was used alongside Esṭrangela already in the earliest
+                        period of Syriac and which would later develop into Serṭo (see Healey 2000).
+                        In orthography, the Old Syriac documents have features in common with the
+                        Old Syriac inscriptions, but different from Classical Syriac, e.g. the
+                        defective writing of historical short *<hi rend="italic">u</hi> (e.g. <hi rend="italic">ḥšbn</hi> ‘reckoning’) versus the plene writing with a <hi rend="italic">mater lectionis</hi> in Classical Syriac (e.g. <hi rend="italic">ḥwšbn</hi>) and the representation of the etymological
+                        lateral *<hi rend="italic">ɬ</hi> (= traditional <hi rend="italic">ś</hi>)
+                        with <hi rend="italic">š</hi> (e.g. <hi rend="italic">ʿšryn</hi> ‘twenty’)
+                        versus <hi rend="italic">s</hi> in Classical Syriac (e.g. <hi rend="italic">ʿsryn</hi>). In one important diagnostic feature, however, the Old
+                        Syriac documents differ from most of the Old Syriac inscriptions in
+                        agreement with Classical Syriac: the prefix marker of the 3rd-person
+                        masculine prefix-conjugation is <hi rend="italic">y</hi> in most of the Old
+                        Syriac inscriptions, but <hi rend="italic">n</hi> in both the Old Syriac
+                        documents and Classical Syriac. This shows that there was already linguistic
+                        variation in Old Syriac (see recently Healey 2008). Finally, the Old Syriac
+                        documents provide evidence for Syriac-Greek language contact already in the
+                        middle of the 3rd <abbr>cent.</abbr> as there are a relatively large number of Greek
+                        lexical borrowings (20 types that occur more than 50 times) in the
+                        documents, several of which show a significant degree of incorporation into
+                        the Syriac language, e.g. <hi rend="italic">ʾsṭrṭgwtʾ </hi>‘strategos-ship’
+                        (&lt; Greek <hi rend="italic">stratēgós</hi>) and <hi rend="italic">ʾrkwnwtʾ</hi> ‘archon-ship’ (&lt; Greek <hi rend="italic">árchōn</hi>).</p>
+                    <p>See <ref target="https://gedsh.bethmardutho.org/fig/1">Fig. 1</ref> and <ref target="https://gedsh.bethmardutho.org/fig/94">94</ref>.</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>B.  Aggoula, ‘Studia Aramaica III’, <title rend="italic">Syria</title> 59 (1992), 391–422, esp. 391–9.</bibl>
+                        <bibl>A. R.  Bellinger and C. B.  Welles, ‘A third-century contract of sale
+                            from Edessa in Osrhoene’, <title rend="italic">Yale Classical
+                                Studies</title> 5 (1935), 95–154 with plates I–III.</bibl>
+                        <bibl>S. P.  Brock, ‘Some new Syriac documents from the third century AD’,
+                                <title rend="italic">ARAM</title> 3 (1991), 259–67.</bibl>
+                        <bibl>H. M.  Cotton, W. E. H.  Cockle, and F. G. B.  Millar, ‘The papyrology
+                            of the Roman near East: A survey’, <title rend="italic">The Journal of
+                                Roman Studies</title> 85 (1995), 214–35. (provides a useful checklist
+                            of texts)</bibl>
+                        <bibl>Drijvers and Healey, <title rend="italic">The Old Syriac
+                                inscriptions</title>.</bibl>
+                        <bibl>D.  Feissel and J.  Gascou, ‘Documents d’archives romains inédits du
+                            Moyen-Euphrate (III<hi rend="superscript">e</hi> siècle après J.-C.)’,
+                                <title rend="italic">
+                                <abbr>CRAIBL</abbr>
+                            </title> 1989, 535–61.</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>D.  Feissel and J.  Gascou</reg>
+                        <orig>idem</orig>
+                     </choice>, ‘Documents d’archives romains inédits du Moyen Euphrate (III<hi rend="superscript">e</hi> s. après J.-C.). I. Les pétitions (P.
+                            Euphr. 1 à 5)’, <title rend="italic">Journal des Savants</title> 1995,
+                            65–119.</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>D.  Feissel and J.  Gascou</reg>
+                        <orig>idem</orig>
+                     </choice>, ‘Documents d’archives romains inédits du Moyen Euphrate (III<hi rend="superscript">e</hi> s. après J.-C.). III. Actes diverses et
+                            lettres (P. Euphr. 11 à 17)’, <title rend="italic">Journal des
+                                Savants</title> 2000, 157–208.</bibl>
+                        <bibl>D.  Feissel, J.  Gascou, and J.  Teixidor, ‘Documents d’archives
+                            romains inédits du Moyen Euphrate (III<hi rend="superscript">e</hi> s.
+                            après J.-C.). II. Les actes de vente-achat (P. Euphr. 6 à 10)’, <title rend="italic">Journal des Savants</title> 1997, 3–57.</bibl>
+                        <bibl>J.  Gascou, ‘The papyrology of the Near East’, in <title rend="italic">The Oxford handbook of papyrology</title>, <abbr>ed.</abbr> R. S. Bagnall
+                            (2009), 473–94. (ch. 20)</bibl>
+                        <bibl>J. A.  Goldstein, ‘The Syriac Deed of Sale from Dura-Europos’, <title rend="italic">
+                                <abbr>JNES</abbr>
+                            </title> 25 (1966), 1–16.</bibl>
+                        <bibl>J. F.  Healey, ‘The early history of the Syriac Script: A
+                            reassessment’, <title rend="italic">
+                                <abbr>JSS</abbr>
+                            </title> 45 (2000), 55–67.</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>J. F.  Healey</reg>
+                        <orig>idem</orig>
+                     </choice>, ‘New evidence for the Aramaic legal tradition: From Elephantine
+                            to Edessa’, in <title rend="italic">Studia semitica. The Journal of
+                                Semitic Studies jubilee volume</title>, <abbr>ed.</abbr> P. S. Alexander et
+                            al. (<abbr>JSS</abbr> Supplement 16; 2005), 115–27.</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>J. F.  Healey</reg>
+                        <orig>idem</orig>
+                     </choice>, ‘Some lexical and legal notes on a Syriac loan transfer of 240
+                            CE’, in <title rend="italic">Malphono w-Rabo d-Malphone</title>, <abbr>ed.</abbr>
+                            G. A. Kiraz, 211–26.</bibl>
+                        <bibl>J. F.  Healey, ‘Variety in early Syriac: The context in contemporary
+                            Aramaic’, in <title rend="italic">Aramaic in its historical and
+                                linguistic setting</title>, <abbr>ed.</abbr> H. Gzella and M. L. Folmer (Akademie
+                            der Wissenschaften und der Literatur, Mainz. Veröffentlichungen der
+                            Orientalischen Kommission 50; 2008), 221–29.</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>J. F.  Healey</reg>
+                        <orig>idem</orig>
+                     </choice>, <title rend="italic">Aramaic Inscriptions and Documents of the
+                                Roman Period</title> (Textbook of Syrian Semitic Inscriptions 4;
+                            2009), esp.  252–75.</bibl>
+                        <bibl>Millar, <title rend="italic">Roman Near East</title>, 478–81.</bibl>
+                        <bibl>G. I. Moller, ‘Towards a new typology of the Syriac manuscript
+                            alphabet’, <title rend="italic">JNSL</title> 14 (1988), 153–97.</bibl>
+                        <bibl>S. K. Ross, ‘The last king of Edessa: New evidence from the Middle
+                            Euphrates’, <title rend="italic">
+                                <abbr>ZPE</abbr>
+                            </title> 97 (1993), 187–206.</bibl>
+                        <bibl>J. Teixidor, ‘Les derniers rois d’Édesse d’après deux nouveaux
+                            documents syriaques’, <title rend="italic">
+                                <abbr>ZPE</abbr>
+                            </title> 76 (1989),
+                            219–22.</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>J. Teixidor</reg>
+                        <orig>idem</orig>
+                     </choice>, ‘Deux documents syriaques du III<hi rend="superscript">e</hi>
+                            siècle après J.-C., provenant du Moyen Euphrate’, <title rend="italic">
+                                <abbr>CRAIBL</abbr>
+                            </title> (1990), 144–166.</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>J. Teixidor</reg>
+                        <orig>idem</orig>
+                     </choice>, ‘Un document syriaque de fermage de 242 après J.-C.’, <title rend="italic">Semitica</title> 41–42 (1991–1992), 195–208.</bibl>
+                        <bibl>Ch. C.  Torrey, ‘A Syriac parchment from Edessa of the year 243 A.D.’,
+                                <title rend="italic">Zeitschrift für Semitistik und verwandte
+                                Gebiete</title> 10 (1935), 32–45.</bibl>
+                        <bibl>C. B.  Welles, R. O.  Fink and J. F.  Gilliam, <title rend="italic">The excavations at Dura-Europus by Yale University and the French
+                                Academy of Inscriptions and Letters</title>, Final Report V, Part 1.
+                                <title rend="italic">The parchments and papyri</title>
+                            (1959).</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Aaron M.</forename> 
+                  <surname>Butts</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

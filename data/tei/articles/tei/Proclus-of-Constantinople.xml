@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Proclus of Constantinople</title>
+            <author>
+               <persName>
+                  <forename>Lucas</forename> 
+                  <surname>Van Rompay</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.5">Electronic Edition Version 1.5</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Proclus of Constantinople</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Proclus-of-Constantinople</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/446</idno>
+                    <idno type="entry">437</idno>
+                    <milestone unit="pages" n="340-341"/>
+                    <idno type="subject">http://syriaca.org/person/688</idno>
+                    <note type="type">person</note>
+                    <note type="abstract">
+                        <abbr>Bp.</abbr> of Cyzicus and since 434 <abbr>
+                            <choice>
+                                <sic>Patr.</sic>
+                                <corr>patr.</corr>
+                            </choice>
+                        </abbr> of
+                        Constantinople.<note/>
+                    </note>
+                </ab>
+                <ab type="infobox">(d. 446 or 447)</ab>
+                <div type="body">
+                    <p>
+                        <abbr>Bp.</abbr> of Cyzicus and since 434 <abbr>
+                            <choice>
+                                <sic>Patr.</sic>
+                                <corr>patr.</corr>
+                            </choice>
+                        </abbr> of Constantinople. His literary work, all
+                        in Greek, consists of homilies and letters. His homilies enjoyed great
+                        popularity and were translated into several languages. While Leroy’s 1967
+                        study surveyed 34 homilies, the authors of <hi rend="italic">
+                            <abbr>CPG</abbr>
+                        </hi> list
+                        37 homilies, without counting those of dubious authenticity (<hi rend="italic">
+                            <abbr>CPG</abbr>
+                        </hi> 5800–5836). A number of these have found their
+                        way into the Syr. homiliaries, in particular of the <abbr>Syr. Orth.</abbr> tradition.
+                        Three homilies were published by Chabot: Hom. 23 (‘On the dogma of the
+                        incarnation’); Hom. 24 (‘On the Nativity’, edited in a different version by
+                        Moss); and Hom. 25 (‘On St. Clement <abbr>bp.</abbr> of Ancyra’). Hom. 1 (‘On the Mother
+                        of God’, delivered in Constantinople in 428 or 429, in the presence of
+                        Nestorius) was edited by Lucchesi. Both Lebon and Brière edited Hom. 5 (‘On
+                        the Virgin and Mother of God’), which in the Syr. version is expanded with a
+                        homily by Atticus of Constantinople. Hom. 17 (‘On St. Stephen the first
+                        martyr’) is in the Syriac version attributed to <ref rend="bold" target="https://gedsh.bethmardutho.org/John-Chrysostom">
+                            <persName ref="http://syriaca.org/person/573">John
+                            Chrysostom</persName>
+                        </ref>; it was edited by Malki. Sauget edited Hom. 37 (1969:
+                        ‘On the Ascension of Jesus Christ’). Homilies that exist in Syriac, but have
+                        not yet been edited are: nos. 3 (‘On the Incarnation’; Leroy, 75); 10 (‘On
+                        Holy Friday’; Leroy, 110–11); 13 (‘On the Pascha’; Sauget 1969, 6); 30 (‘On
+                        Holy Friday and on the Trinity’, which does not exist in Greek; Sauget 1961,
+                        406 and Leroy, 212–23).</p>
+                    <p>Among Proclus’s correspondence, one letter in particular became very
+                        influential: the letter that he wrote as <abbr>patr.</abbr>, probably in 435, to the
+                        Armenians, which is known as the ‘Tomos to the Armenians’ (<hi rend="italic">
+                            <abbr>CPG</abbr>
+                        </hi> 5897). Written shortly after the Council of Ephesus (431), it
+                        contains a balanced, albeit somewhat vague, Christological exposition, which
+                        was understood as a rejection of dyophysite Christology associated with the
+                        names of <ref rend="bold" target="https://gedsh.bethmardutho.org/Nestorius">
+                            <persName ref="http://syriaca.org/person/655">Nestorius</persName>
+                        </ref> and <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Theodore-of-Mopsuestia">
+                            <persName ref="http://syriaca.org/person/780">Theodore
+                            of Mopsuestia</persName>
+                        </ref> (neither of whom is mentioned by name in the text).
+                        There exist three different Syriac versions: the first is preserved in a
+                        7th-cent. miaphysite Florilegium (<abbr>ms.</abbr> Brit. Libr. Add. 14,557) and was
+                        edited by Bedjan; the second was incorporated in the Ecclesiastical History
+                        attributed in Syr. to <ref rend="bold" target="https://gedsh.bethmardutho.org/Zacharias-Pseudo-">Zacharias</ref> (<abbr>ed.</abbr> Brooks); the
+                        third was included in a 6th-cent. miaphysite Florilegium (<abbr>ms.</abbr> Brit. Libr.
+                        Add. 12,156) and remains unpublished. Whereas the first and second version
+                        represent the same translation (of which the text in Ps.-Zacharias is a
+                        revision), the third version is an independent and more accurate translation
+                        of the Greek, which probably belongs to the early 6th century, while the
+                        other translation is typologically earlier.</p>
+                    <p>Proclus’s works were often used in later Christological treatises and
+                        florilegia. <ref rend="bold" target="https://gedsh.bethmardutho.org/Severus-of-Antioch">
+                            <persName ref="http://syriaca.org/person/51">Severus of
+                            Antioch</persName>
+                        </ref> quotes both from the homilies and from the ‘Tomos’, while
+                        Miaphysite florilegia contain several excerpts from the ‘Tomos’. Quotations
+                        from Proclus in the works attributed to <ref rend="bold" target="https://gedsh.bethmardutho.org/Yuhanon-Maron">
+                            <persName ref="http://syriaca.org/person/832">Yuḥanon Maron</persName>
+                        </ref>
+                        and in the later Maronite tradition have been studied by Breydy.</p>
+                </div>
+                <div type="bibl">
+                    <listBibl>
+                        <head>Primary Sources</head>
+                        <bibl>
+                            <title rend="italic">
+                                <abbr>CPG</abbr>
+                            </title> 5800–5915.</bibl>
+                        <bibl>P. Bedjan, <title rend="italic">Nestorius. Le Livre d’Héraclide de
+                                Damas</title> (1910), 596–615. (Syr. of ‘Tomos to the
+                            Armenians’)</bibl>
+                        <bibl>M. Brière, ‘Une homélie inédite d’Atticus, patriarche de
+                            Constantinople’, <title rend="italic">ROC</title> 29 (1933–34), 160–86.
+                            (Syr. with <abbr>FT</abbr>)</bibl>
+                        <bibl>E. W.  Brooks, <title rend="italic">Historia ecclesiastica Zachariae
+                                Rhetori vulgo adscripta</title> I (<abbr>CSCO</abbr> 83 and 87; 1919–1924),
+                            127–43 (Syr.) and 88–99 (<abbr>LT</abbr>). (‘Tomos to the Armenians’)</bibl>
+                        <bibl>J.-B.  Chabot, ‘Trois homélies de Proclus évêque de Constantinople
+                            éditées pour la première fois dans la version syriaque d’après les <abbr>mss.</abbr>
+                            de la Bibliothèque Vaticane’, <title rend="italic">Rendiconti della
+                                Reale Accademia dei Lincei. Classe di Scienze morali, storiche e
+                                filologiche</title> V.5 (1896), 178–97.</bibl>
+                        <bibl>J.  Lebon, ‘Discours d’Atticus de Constantinople, sur la sainte Mère
+                            de Dieu’, <title rend="italic">
+                                <abbr>LM</abbr>
+                            </title> 46 (1933), 167–202. (Syr. with
+                            <abbr>LT</abbr>)</bibl>
+                        <bibl>E.  Lucchesi, ‘L’<title rend="italic">Oratio I</title> «De laudibus S.
+                            Mariae» de Proclus de Constantinople. Version syriaque inédite’, in
+                                <title rend="italic">Mémorial A.-J. Festugière. Antiquité païenne et
+                                chrétienne</title>, <abbr>ed.</abbr> E. Lucchesi and H. D.  Saffrey (Cahiers
+                            d’Orientalisme 10; 1984), 187–98. (Syr. with <abbr>LT</abbr>)</bibl>
+                        <bibl>E.  Malki, <title rend="italic">Die syrische Handschrift Berlin Sachau
+                                220</title> (Heidelberger Orientalistische Studien 6; 1984), 119–47.
+                            (Syr. with <abbr>GT</abbr>)</bibl>
+                        <bibl>C.  Moss, ‘Proclus of Constantinople: Homily on the Nativity’, <title rend="italic">
+                                <abbr>LM</abbr>
+                            </title> 42 (1929), 61–73. (Syr. with <abbr>ET</abbr>)</bibl>
+                        <bibl>J.-M.  Sauget, ‘Une homélie de Proclus de Constantinople sur
+                            l’Ascension de Notre-Seigneur en version syriaque’, <title rend="italic">
+                                <abbr>LM</abbr>
+                            </title> 82 (1969), 5–33. (Syr. with <abbr>FT</abbr>)</bibl>
+                    </listBibl>
+                    <listBibl>
+                        <head>Secondary Sources</head>
+
+                        <bibl>M.  Breydy, ‘Les extraits syriaques de Proclus dans l’Exposé de la Foi
+                            de Jean Maron’, <title rend="italic">
+                                <abbr>ParOr</abbr>
+                            </title> 13 (1986), 95–110.
+                            (<abbr>repr.</abbr> with minor changes in <title rend="italic">Proceedings of the
+                                XXXII International Congress for Asian and North African Studies,
+                                Hamburg 1986</title>, <abbr>ed.</abbr> A. Wezler and E. Hammerschmidt [<abbr>ZDMG</abbr>
+                            Suppl. 9; 1992], 226–42)</bibl>
+                        <bibl>F. J.  Leroy, <title rend="italic">L’homilétique de Proclus de
+                                Constantinople</title> (<abbr>SeT</abbr> 247; 1967).</bibl>
+                        <bibl>J.-M.  Sauget, ‘Deux homéliaires syriaques de la Bibliothèque
+                            Vaticane’, <title rend="italic">
+                                <abbr>OCP</abbr>
+                            </title> 27 (1961), 387–424.</bibl>
+                        <bibl>L.  Van  Rompay, ‘Proclus of Constantinople’s “Tomus ad Armenios” in
+                            the Post-Chalcedonian tradition’, in <title rend="italic">After
+                                Chalcedon</title>, <abbr>ed.</abbr> Laga <abbr>et al.</abbr>, 425–49.</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Lucas</forename> 
+                  <surname>Van Rompay</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

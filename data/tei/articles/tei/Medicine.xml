@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Medicine</title>
+            <author>
+               <persName>
+                  <forename>Peter E.</forename> 
+                  <surname>Pormann</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.5">Electronic Edition Version 1.5</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Medicine</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Medicine</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/375</idno>
+                    <idno type="entry">366</idno>
+                    <milestone unit="pages" n="282-283"/>
+                    <note type="type">subject</note>
+                    <note type="abstract">Syriac Medicine comprises the efforts of the
+                        Syriac-speaking communities of the West and the East to avoid disease and
+                        cure ailments.The focus in the
+                        present article will be on Syriac medical literature of Late Antiquity and
+                        the Middle Ages; at the end of the entry, the role of Syriac-speaking
+                        Christians in the development of hospitals will come under scrutiny.<note/>
+                    </note>
+                </ab>
+                <div type="body">
+                    <p>Syriac Medicine comprises the efforts of the Syriac-speaking communities of
+                        the West and the East to avoid disease and cure ailments. The focus in the
+                        present article will be on Syriac medical literature of Late Antiquity and
+                        the Middle Ages; at the end of the entry, the role of Syriac-speaking
+                        Christians in the development of hospitals will come under scrutiny.</p>
+                    <p>The Syriac medical tradition, as Syriac literature in general, owes a great
+                        debt to the Greek heritage, and notably to the Galenism of Late Antique
+                        Alexandria (see Temkin). Two periods of Graeco-Syriac translation mark this
+                        transfer of knowledge. The first occurred during the early 6th, and the
+                        second during the 9th <abbr>cent.</abbr>
+                        <choice>
+                            <sic>.</sic>
+                            <corr/>
+                        </choice> The first period is mainly associated with <ref rend="bold" target="https://gedsh.bethmardutho.org/Sergios-of-Reshayna">
+                            <persName ref="http://syriaca.org/person/49">Sergios of Reshʿayna</persName>
+                        </ref>, a W.-Syr. priest who studied medicine and
+                        philosophy in Alexandria. He translated many philosophical texts, but also
+                        the so-called Sixteen Books of <ref rend="bold" target="https://gedsh.bethmardutho.org/Galen">
+                            <persName ref="http://syriaca.org/person/496">Galen</persName>
+                        </ref>, a selection of
+                        works used to teach medicine in Alexandria, as well as other works by Galen;
+                        Theodoros, the <abbr>bp.</abbr> of Karkh Juddan (<abbr>fl.</abbr>
+                        <abbr> ca.</abbr> 525–45), commissioned a number
+                        of them. The E.-Syr. <ref rend="bold" target="https://gedsh.bethmardutho.org/Hunayn-b-Ishaq">
+                            <persName ref="http://syriaca.org/person/542">Ḥunayn <abbr>b.</abbr>
+                            Isḥāq</persName>
+                        </ref> (d. <abbr>ca.</abbr> 873) and his school dominate the second period. It
+                        has to be emphasised that Ḥunayn’s school produced many more and often much
+                        better translations than the 6th-cent. translators (see Gutas). Despite
+                        their popularity, few of these Syriac versions survived; the Arabic versions
+                        by Ḥunayn’s school quickly eclipsed them. We are, however, able to study the
+                        Graeco-Syriac translation technique, not least since <ref rend="bold" target="https://gedsh.bethmardutho.org/Bar-Bahlul-Hasan">
+                            <persName ref="http://syriaca.org/person/365">Bar
+                        Bahlul</persName>
+                        </ref>’s ‘Lexicon’ incorporates the vocabulary lists used by Ḥunayn
+                        and his entourage (see Bhayro).</p>
+                    <p>Syriac authors did not limit themselves to translating Greek sources, but
+                        also wrote many independent treatises on various aspects of medicine. But
+                        here again, most of the literature is lost today. There are, however, at
+                        least two works which ought to be mentioned here. The most substantial
+                        extant medical text in Syriac is the so-called ‘Syrian Book of Medicine’ by
+                        an unknown author and of unknown date (estimates range from the 6th to the
+                        13th <abbr>cent.</abbr>). It consists of three distinct parts: Part One is mainly based
+                        on Galen’s ‘On the Affected Parts’ and ‘On the Composition of Drugs
+                        according to Places in the Body’; Part Two deals with astro-medicine, that
+                        is the impact of the stars on human health; and Part Three contains many
+                        popular and magic recipes and treatments. <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Yohannan-bar-Sarapion">
+                            <persName ref="http://syriaca.org/person/822">Yoḥannan
+                            bar Sarapion</persName>
+                        </ref> (Ibn Sarābiyūn) compiled the second extant
+                        independent work: a medical encyclopedia (<hi rend="italic">kunnāš</hi>) in
+                        seven books which is lost in the Syriac original, but does survive in
+                        Arabic, Latin, and Hebrew translations (Pormann). It provides an outline of
+                        Galenic medicine, the first four books dealing with diseases ‘from tip to
+                        toe’; the fifth with bites by insects and poisonous animals, skin condition,
+                        and gynaecological disorders; the sixth with fevers; and the seventh with
+                        ‘compound drugs’, <choice>
+                            <sic>i.e. </sic>
+                            <corr>i.e., </corr>
+                        </choice>it contains many thousands of recipes. Yoḥannan bar
+                        Sarapion continues the Greek encyclopaedic tradition as represented by Paul
+                        of Aegina (<abbr>fl.</abbr>
+                        <abbr> ca.</abbr> 640s), but also incorporates the pharmacopoeia of the
+                        East (notably Indian) into the system of humoral pathology inherited from
+                        the Greeks.</p>
+                    <p>We know of many famous Syriac-speaking physicians. Ḥunayn <abbr>b.</abbr> Isḥāq was not
+                        only a translator, but also the personal physician of a number of caliphs.
+                        Likewise, his teacher Yūḥannā <abbr>b.</abbr> Māsawayh (d. 857) also excelled in the
+                        medical art. Both mostly wrote in Arabic, and acquired great fame in the
+                        area of ophthalmology. The most prominent Syriac medical family are without
+                        any doubt the Bukhtishūʿ. They hailed from the famous city of Gondeshapur
+                            (<ref rend="bold" target="https://gedsh.bethmardutho.org/Beth-Lapat">
+                            <placeName ref="http://syriaca.org/place/35">Beth
+                            Lapaṭ</placeName>
+                        </ref>), and were in the employ of various caliphs from the 7th to
+                        the 10th <abbr>cent.</abbr>
+                    </p>
+                    <p>This leads us to the final topic: hospitals set up by Syriac Christians. Some
+                        scholars have argued that by the 4th <abbr>cent.</abbr> sophisticated hospitals existed
+                        in the Christian world (<choice>
+                            <sic>e.g.</sic>
+                            <corr>e.g., </corr>
+                        </choice>in Cappadocia or Gondeshapur); but these claims
+                        have rightly been dismissed (see Dols; Horden). It is, however, beyond doubt
+                        that Christian charitable ideas had an impact on the development of Islamic
+                        Hospitals (Pormann). From a letter to the <abbr>Ch. of E.</abbr>
+                        <abbr> Patr. </abbr> 
+                  <ref rend="bold" target="https://gedsh.bethmardutho.org/Timotheos-I">
+                            <persName ref="http://syriaca.org/person/790">Timotheos I</persName>
+                        </ref> (d.
+                        823) we know that a substantial Syriac hospital was in existence by the late
+                        8th <abbr>cent.</abbr>; it was called <hi rend="italic">xenodocheion</hi> (Greek for
+                        ‘place for strangers’) and <hi rend="italic">bimāristān</hi> (Persian for
+                        ‘place of the sick’). Moreover, a number of important Abbasid officials who
+                        set up Islamic hospitals  — such as ʿAlī <abbr>b.</abbr> ʿĪsā, the ‘good vizier’ (d. 946)
+                        — had Syriac family backgrounds or ties to the Syriac medical elite.</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>S.  Bhayro, ‘Syriac medical terminology: Sergius and Galen’s
+                            Pharmacopia’, <title rend="italic">AS</title> 3 (2005), 147–65.</bibl>
+                        <bibl>R.  Degen, ‘Ein Corpus Medicorum Syriacorum’, <title rend="italic">
+                                <choice>
+                                    <sic>Medizin historisches</sic>
+                                    <corr>Medizinhistorisches</corr>
+                                </choice> Journal</title> 7 (1972), 114–22</bibl>
+                        <bibl>M. D.  Dols, ‘The origins of the Islamic hospital: Myth and reality’,
+                                <title rend="italic">Bulletin of the History of Medicine</title> 61
+                            (1987), 367–390.</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>M. D.  Dols</reg>
+                        <orig>idem</orig>
+                     </choice>, ‘Syriac into Arabic: the transmission of Greek medicine’, <title rend="italic">ARAM</title> 1.1 (1989), 45–52.</bibl>
+                        <bibl>Gutas, <title rend="italic">Greek thought, Arabic culture</title>
+                            (1998).</bibl>
+                        <bibl>P.  Horden, ‘The earliest hospitals in Byzantium, Western Europe, and
+                            Islam’, <title rend="italic">Journal of Interdisciplinary
+                                History</title> 35 (2005), 361–89.</bibl>
+                        <bibl>P. E.  Pormann, ‘Yūḥannā ibn Sarābiyūn: Further Studies into the
+                            transmission of his works’, <title rend="italic">Arabic Sciences and
+                                Philosophy</title> 14 (2004), 233–62.</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>P. E.  Pormann</reg>
+                        <orig>idem</orig>
+                     </choice>  ‘Islamic Hospitals in the Time of al-Muqtadir’, in <title rend="italic">Abbasid Studies: Occasional Papers of the School of
+                            ʿAbbasid Studies, Leuven, 27 June <choice>
+                                    <sic>—</sic>
+                                    <corr>–</corr>
+                                </choice> 1 July 2004</title>, <abbr>ed.</abbr>
+                            J.  Nawas <abbr>et al.</abbr> (2010, forthcoming).</bibl>
+                        <bibl>O.  Temkin, <title rend="italic">Galenism: Rise and decline of a
+                                medical philosophy</title> (1973).</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Peter E.</forename> 
+                  <surname>Pormann</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

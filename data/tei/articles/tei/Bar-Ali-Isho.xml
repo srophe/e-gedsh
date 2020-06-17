@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Bar ʿAli, Ishoʿ</title>
+            <author>
+               <persName>
+                  <forename>Aaron M.</forename> 
+                  <surname>Butts</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.5">Electronic Edition Version 1.5</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Bar ʿAli, Ishoʿ</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Bar-Ali-Isho</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/81</idno>
+                    <idno type="entry">72</idno>
+                    <milestone unit="pages" n="53-54"/>
+                    <idno type="althead" subtype="altorder">Ishoʿ Bar ʿAli</idno>
+                    <idno type="althead">ʿĪsā b. ʿAlī</idno>
+                    <idno type="althead">Yashūʿ b. ʿAlī</idno>
+                    <idno type="subject">http://syriaca.org/person/364</idno>
+                    <note type="type">person</note>
+                    <note type="abstract">Physician, scribe, and author of a Syriac-Arabic
+                        lexicon.<note/>
+                    </note>
+                </ab>
+                <ab type="infobox">ʿĪsā <abbr>b.</abbr> ʿAlī, Yashūʿ <abbr>b.</abbr> ʿAlī (second half of the 9th <abbr>cent.</abbr>) [Ch.
+                    of E.]</ab>
+                <div type="body">
+                    <p>Physician, scribe, and author of a Syriac-Arabic Lexicon. In spite of some
+                        confusion in the scholarly literature (see Butts), Ishoʿ bar ʿAli can in all
+                        likelihood be identified with ʿĪsā <abbr>b.</abbr> ʿAlī, student of the well-known
+                        translator <ref rend="bold" target="https://gedsh.bethmardutho.org/Hunayn-b-Ishaq">
+                            <persName ref="http://syriaca.org/person/542">Ḥunayn <abbr>b.</abbr>
+                            Isḥāq</persName>
+                        </ref> (d. 873). From Arabic sources, it is known that he was the
+                        personal physician of Caliph al-Muʿtamid (<abbr>r.</abbr> 870–892), and that he authored
+                        two works (in Arabic) in the field of medicine, the ‘Book of the benefits
+                        made use of from the organs of animals’ and the ‘Book of poisons’. In
+                        addition, he is mentioned as a scribe in the colophon of two <abbr>mss.</abbr> of the
+                        Arabic Diatessaron (Vatican, Borg. Arab. 250; Oxford, Bodleian Arab. e
+                        163).</p>
+                    <p>Bar ʿAli is, however, best known for his Syriac-Arabic Lexicon (<abbr>ed.</abbr> Hoffmann
+                            [<hi rend="italic">ʾālap</hi> through <hi rend="italic">mim</hi>];
+                        Gottheil [<hi rend="italic">nun</hi> through <hi rend="italic">taw</hi>]).
+                        In the preface to his Lexicon, Bar ʿAli states that he undertook its writing
+                        at the behest of a certain deacon Abraham. During his readings, Abraham had
+                        been employing the Lexicon of Ḥunayn <abbr>b.</abbr> Isḥāq as well as a Lexicon compiled
+                        by <ref rend="bold" target="https://gedsh.bethmardutho.org/Isho-of-Merv">
+                            <persName ref="http://syriaca.org/person/553">Ishoʿ of Merv</persName>
+                        </ref>. Abraham seems to have been happy with the former,
+                        but less so with the latter. In addition, according to Abraham, the lexicon
+                        of Ḥunayn <abbr>b.</abbr> Isḥāq and that of Ishoʿ of Merv differed at times in their
+                        definitions. Thus, Bar ʿAli undertook composing a new lexicon on the basis
+                        of these two previous works and supplemented by his own readings. At the end
+                        of the Preface, Bar ʿAli exhorts his future readers to expand and supplement
+                        his Lexicon with additional words. The name of one such expander is known
+                        from a postscript found in some <abbr>mss.</abbr>, and it is none other than the
+                        aforementioned deacon Abraham.</p>
+                    <p>The Lexicon of Bar ʿAli is an important source for Syriac lexicography.
+                        Already in the 1830s, the Hebrew grammarian and lexicographer F. H. W.
+                        Gesenius pointed out the significance of Bar ʿAli’s Lexicon for Semitic
+                        studies. In addition, the Lexicon of Bar ʿAli — along with that of <ref rend="bold" target="https://gedsh.bethmardutho.org/Bar-Bahlul-Hasan">
+                            <persName ref="http://syriaca.org/person/365">Ḥasan Bar Bahlul</persName>
+                        </ref> (mid-10th <abbr>cent.</abbr>) — was incorporated into R.
+                        Payne Smith’s <hi rend="italic">Thesaurus Syriacus </hi>and, to a lesser
+                        extent, C. Brockelmann’s <hi rend="italic">Lexicon Syriacum</hi>.</p>
+                    <p>Finally, it should be noted that Bar ʿAli is to be distinguished from two
+                        other individuals with similar names: 1. ʿĪsā <abbr>b.</abbr> ʿAlī, who was the son of
+                        the ‘good vizier’ ʿAlī <abbr>b.</abbr> ʿĪsā <abbr>b.</abbr> Dāʾūd <abbr>b.</abbr> al-Jarrāḥ (d. 946), who was a
+                        student of <ref rend="bold" target="https://gedsh.bethmardutho.org/Yahya-b-Adi">
+                            <persName ref="http://syriaca.org/person/180">Yaḥyā <abbr>b.</abbr> ʿAdī</persName>
+                        </ref>
+                        (d. 974), and who died in 1001 (see J. L. Kraemer, <hi rend="italic">Humanism in the Renaissance of Islam. The cultural revival during the
+                            Buyid age</hi> [1986], 134–36); 2. ʿAlī <abbr>b.</abbr> ʿĪsā al-kaḥḥāl, who authored
+                        the ‘Prescription of Oculists’(<hi rend="italic">tadhkirat
+                        al-kaḥḥālīn</hi>), who was a student of <ref rend="bold" target="https://gedsh.bethmardutho.org/Ibn-al-Tayyib">
+                            <persName ref="http://syriaca.org/person/543">Ibn al-Ṭayyib</persName>
+                        </ref>
+                        (d. 1043), and who died sometime after 1010 (see E. Mittwoch, in <title rend="italic">EI</title>
+                        <hi rend="superscript">2</hi>, vol. 1, 388).</p>
+                </div>
+                <div type="bibl">
+                    <listBibl>
+                        <listBibl>
+                            <head>Primary Sources</head>
+                            <bibl>R. J. H.  Gottheil, <title rend="italic">Bar ʿAli (Ishoʿ). The
+                                    Syriac-Arabic Glosses</title> (2 vols.; Atti della R. Accademia
+                                dei Lincei. Classe di Scienzi morali, storiche e filologiche Ser. 5,
+                                vol. 13; 1910, 1928).</bibl>
+                            <bibl>G.  Hoffmann, <title rend="italic">Syrisch-Arabische Glossen.
+                                    Autographie einer gothaischen Handschrift enthaltend Bar Ali’s
+                                    Lexikon von Alaf bis Mim</title> (1874).</bibl>
+                        </listBibl>
+                        <listBibl>
+                            <head>Secondary Sources</head>
+                            <bibl>Assemani, <title rend="italic">BibOr</title>, vol. 3.1,
+                                257.</bibl>
+                            <bibl>Baumstark, <title rend="italic">Literatur</title>, 241–242. (with
+                                a different identification of Bar ʿAli)</bibl>
+                            <bibl>A. M. Butts, ‘The biography of the lexicographer Ishoʿ bar ʿAli
+                                (ʿĪsā <abbr>b.</abbr> ʿAlī)’, <title rend="italic">
+                                    <abbr>OC</abbr>
+                                </title> 93 (2009), 59–70.
+                                (incl. further references)</bibl>
+                            <bibl>Duval, <title rend="italic">La littérature syriaque</title>,
+                                297–8.</bibl>
+                            <bibl>F. H. W. Gesenius, <title rend="italic">De Bar Alio et Bar
+                                    Bahlulo, lexicographis Syro-Arabicis ineditis, commentatio
+                                    litteraria philologica</title>, 1–2 (1834, 1839).</bibl>
+                        </listBibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Aaron M.</forename> 
+                  <surname>Butts</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

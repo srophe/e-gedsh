@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Dadishoʿ Qaṭraya</title>
+            <author>
+               <persName>
+                  <forename>Sebastian P.</forename> 
+                  <surname>Brock</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.5">Electronic Edition Version 1.5</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Dadishoʿ Qaṭraya</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Dadisho-Qatraya</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/156</idno>
+                    <idno type="entry">147</idno>
+                    <milestone unit="pages" n="111"/>
+                    <idno type="subject">http://syriaca.org/person/434</idno>
+                    <note type="type">person</note>
+                    <note type="abstract">Monastic author.<note>brief</note>
+                    </note>
+                </ab>
+                <ab type="infobox">(late 7th <abbr>cent.</abbr>) [Ch. of E.]</ab>
+                <div type="body">
+                    <p>Monastic author. Originating from <ref rend="bold" target="https://gedsh.bethmardutho.org/Beth-Qatraye">
+                            <placeName ref="http://syriaca.org/place/37">Beth Qaṭraye</placeName>
+                        </ref>
+                        (like <ref rend="bold" target="https://gedsh.bethmardutho.org/Ishaq-of-Nineveh">
+                            <persName ref="http://syriaca.org/person/550">Isḥaq of
+                            Nineveh</persName>
+                        </ref>), he was later associated (again, like Isḥaq) with the
+                        Monastery of Rabban Shabur. Nothing further is known of his life. His
+                        surviving writings consist of a learned Commentary on the Asceticon of <ref rend="bold" target="https://gedsh.bethmardutho.org/Isaiah-of-Scetis">
+                            <persName ref="http://syriaca.org/person/548">Isaiah of Scetis</persName>
+                        </ref>; a Commentary on the Paradise of the Fathers,
+                        compiled by <ref rend="bold" target="https://gedsh.bethmardutho.org/Enanisho">
+                            <persName ref="http://syriaca.org/person/474">ʿEnanishoʿ</persName>
+                        </ref>; a treatise on Stillness (<hi rend="italic">šelyā</hi>), concerning the monastic practice of retreats for seven weeks
+                        in solitude; a Letter to Abkosh, also on Stillness, and various short texts
+                        concerning the spiritual life. The Commentary on the Paradise of the Fathers
+                        was translated into <ref rend="bold" target="https://gedsh.bethmardutho.org/Sogdian">Sogdian</ref> (only a
+                        fragment survives), Arabic, and Ethiopic. There is also a fragment of his
+                        Commentary on Abba Isaiah in Sogdian.</p>
+                </div>
+                <div type="bibl">
+                    <listBibl>
+                        <listBibl>
+                            <head>Primary Sources</head>
+                            <bibl>F. Del Río Sánchez, <title rend="italic">Los cincos tratados sobre
+                                    la quietud (shelya) de Dadishoʿ Qatraya</title> (Aula Orientalis
+                                Supplement 18; 2001). (Syr.)</bibl>
+                            <bibl>R. Draguet, <title rend="italic">Le commentaire du livre d’Abba
+                                    Isaïe (logoi I–XV) par Dadišoʿ Qaṭraya (VII<hi rend="superscript">e</hi> s.)</title> (<abbr>CSCO</abbr> 326–7; 1972).
+                                (Syr. with <abbr>FT</abbr>)</bibl>
+                            <bibl>A.  Guillaumont and M. Albert, ‘Lettre de Dadishoʿ Qatraya à
+                                Abkosh sur l’Hesychia’, in <title rend="italic">Mémorial A-J.
+                                    Festugière</title>, <abbr>ed.</abbr> E.  Lucchesi and H. D. Saffrey (1984),
+                                235–45. (Letter to Abkosh)</bibl>
+                            <bibl>A.  Mingana, ‘Early Christian Mystics’, <title rend="italic">Woodbrooke Studies</title> 7 (1934), 70–143 (Syr.), 201–47
+                                (<abbr>ET</abbr>). (‘On Stillness’; the earlier edition by Bedjan, at the end of
+                                his <title rend="italic">Mar Isaacus Ninivita</title>, 601–28, does
+                                not give the full text)</bibl>
+                            <bibl>N.  Sims-Williams, <title rend="italic">The Christian Sogdian
+                                    Manuscript C2</title> (1985), 78–86. (Sogdian fragment)</bibl>
+                            <bibl>An edition of the Commentary on The Paradise of the Fathers is in
+                                preparation by D. Phillips.</bibl>
+                        </listBibl>
+                        <listBibl>
+                            <head>Secondary Sources</head>
+                            <bibl>L.  Abramowski, ‘Dadisho Qatraya and his Commentary on the Book of
+                                Abbas Isaiah’, <title rend="italic">Harp</title> 4 (1991),
+                                67–83.</bibl>
+                            <bibl>R. A.  Kitchen, ‘Dadisho Qatraya’s Commenatry on Abba Isaiah: the
+                                Apophthegmata Patrum connection’, <title rend="italic">
+                                    <abbr>StPatr</abbr>
+                                </title>, vol. 41 (2006), 35–50.</bibl>
+                            <bibl>N.  Sims-Williams, ‘Dadishoʿ Qaṭraya’s Commentary on the Paradise
+                                of the Fathers’, <title rend="italic">
+                                    <abbr>AB</abbr>
+                                </title> 112 (1994),
+                                33–64.</bibl>
+                            <bibl>M.  Tamcke, ‘Theology and practice of the communal life according
+                                to Dadisho’, <title rend="italic">Harp</title> 4 (1991),
+                                173–88.</bibl>
+                            <bibl>W.  Witakowski, ‘Filekseyus, the Ethiopic version of the Syriac
+                                Dadisho Qatraya’s Commentary on the Paradise of the Fathers’, <title rend="italic">Rocznik Orientalistyczny</title> 59 (2006),
+                                281–96.</bibl>
+                        </listBibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Sebastian P.</forename> 
+                  <surname>Brock</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Christian Palestinian Aramaic</title>
+            <author>
+               <persName>
+                  <forename>Sebastian P.</forename> 
+                  <surname>Brock</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.5">Electronic Edition Version 1.5</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Christian Palestinian Aramaic</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Christian-Palestinian-Aramaic</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/139</idno>
+                    <idno type="entry">130</idno>
+                    <milestone unit="pages" n="96-97"/>
+                    <note type="type">subject</note>
+                    <note type="abstract">A Late Aramaic dialect (also misleadingly known as
+                        Palestinian Syriac) which was employed by Chalcedonian Christian communities
+                        in Palestine and Transjordan from <abbr>ca.</abbr> 5th to 14th <abbr>cent.</abbr>, after which it
+                        disappeared.<note/>
+                    </note>
+                </ab>
+                <div type="body">
+                    <p>A Late Aramaic dialect (also misleadingly known as Palestinian Syriac) which
+                        was employed by Chalcedonian Christian communities in Palestine and
+                        Transjordan from <abbr>ca.</abbr> 5th–14th <abbr>cent.</abbr>, after which it disappeared. The oldest
+                        texts (<abbr>ca.</abbr> 5th–8th centuries) are inscriptions and fragmentary <abbr>mss.</abbr> (often
+                        in the form of the underwriting in palimpsest <abbr>mss.</abbr>, many of which are
+                        connected with <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Catherine-Monastery-of-St">
+                            <placeName ref="http://syriaca.org/place/368">St. Catherine’s Monastery</placeName>
+                        </ref>, Sinai).
+                        Complete <abbr>mss.</abbr> (all liturgical) only date from the 11th <abbr>cent.</abbr> or later. All
+                        the surviving literary texts are translations from Greek, the only exception
+                        being a short magical work. The older <abbr>mss.</abbr> contain biblical and patristic
+                        texts, the former often being in the form of lectionaries, whose rubrics
+                        sometimes conform with the old Jerusalem liturgical rite which is otherwise
+                        best attested in Armenian and Georgian sources. The best preserved (though
+                        none is complete) among the patristic texts are parts of <ref rend="bold" target="https://gedsh.bethmardutho.org/Cyril-of-Jerusalem">
+                            <persName ref="http://syriaca.org/person/431">Cyril of
+                            Jerusalem</persName>
+                        </ref>’s Catecheses, and two hagiographical texts, the ‘Forty
+                        Martyrs of Sinai’, and the narrative concerning Eulogius the Stonecutter
+                        (belonging to the cycle of texts associated with Daniel of Scetis). Other
+                        very fragmentary texts include some works attributed to <ref rend="bold" target="https://gedsh.bethmardutho.org/Ephrem">
+                            <persName ref="http://syriaca.org/person/13">Ephrem</persName>
+                        </ref> (but which
+                        are only known in Greek), and the narratives of Alexis the <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Man-of-God-of-Edessa">
+                            <persName ref="http://syriaca.org/person/607">Man of God</persName>
+                        </ref> and of Abraham of Qidun (both of which reached
+                        Christian Palestinian Aramaic by way of Greek). There are also fragments of
+                        <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Athanasius-of-Alexandria">
+                            <persName ref="http://syriaca.org/person/354">Athanasius</persName>
+                        </ref>’s ‘Life of Antony’, a homily on the
+                        Prodigal Son attributed to <ref rend="bold" target="https://gedsh.bethmardutho.org/John-Chrysostom">
+                            <persName ref="http://syriaca.org/person/573">John
+                            Chrysostom</persName>
+                        </ref>, various Apophthegmata, and some apocryphal and
+                        hagiographical texts.</p>
+                    <p>Among the later <abbr>mss.</abbr> are three dated Gospel Lectionaries, of 1030, 1104, and
+                        1118. The first of these (<abbr>ms.</abbr> Vat. Syr. 19) was the first text in this
+                        dialect to be published (in 1861–4). Also from the later period are two
+                        further important liturgical <abbr>mss.</abbr>, a Euchologion and a Horologion.</p>
+                    <p>The texts preserved in the older <abbr>mss.</abbr> are in the course of re-publication by
+                        C. Müller-Kessler and M. Sokoloff.</p>
+                </div>
+                <div type="bibl">
+                    <listBibl>
+                        <listBibl>
+                            <head>Primary Sources</head>
+                            <listBibl>
+                                <head>Older texts</head>
+                                <bibl>S. P.  Brock, ‘Fragments of Ps. John Chrysostom, Homily on the
+                                    Prodigal Son, in Christian Palestinian Aramaic’, <title rend="italic">
+                                        <abbr>LM</abbr>
+                                    </title> 112 (1999), 333–62.</bibl>
+                                <bibl>A. Desreumaux, ‘Une inscription araméenne melkite sous une
+                                    peinture copte du Musée du Louvre. Le texte araméen melkite’,
+                                        <title rend="italic">
+                                        <abbr>OC</abbr>
+                                    </title> 80 (1996), 82–97.</bibl>
+                                <bibl>
+                           <choice>
+                              <reg>A. Desreumaux</reg>
+                              <orig>idem</orig>
+                           </choice>, <title rend="italic">Codex <choice>
+                                            <sic>Sinaticus</sic>
+                                            <corr>Sinaiticus</corr>
+                                        </choice> Zosimi
+                                        Rescriptus</title> (1997).</bibl>
+                                <bibl>J.-B. Humbert and A. Desreumaux, <title rend="italic">Fouilles
+                                        de Khirbet es-Samra en Jordanie</title>, vol. I. <title rend="italic">La voie romaine, le cimetière, les documents
+                                        épigraphiques</title> (1998).</bibl>
+                                <bibl>C.  Müller-Kessler and M.  Sokoloff, <title rend="italic">A
+                                        Corpus of Christian Palestinian Aramaic</title>, 1 [<abbr>OT</abbr> and
+                                    Apocrypha], IIA–B [<abbr>NT</abbr>], III [XL Martyrs of Sinai, Eulogius,
+                                    Anastasia]; IV (forthcoming); V [Cyril of Jerusalem, Catecheses]
+                                    (1996– ).</bibl>
+                                <bibl>E.  Puech, ‘Notes d’épigraphie christo-palestinienne
+                                    cisjordanienne’, <title rend="italic">
+                                        <abbr>RB</abbr>
+                                    </title> 108 (2001),
+                                    61–72.</bibl>
+                            </listBibl>
+                            <listBibl>
+                                <head>Later texts</head>
+                                <bibl>A. S.  Lewis and M. D.  Gibson, <title rend="italic">The
+                                        Palestinian Syriac Lectionary of the Gospels</title>
+                                    (1899).</bibl>
+                                <bibl>M.  Black, <title rend="italic">Rituale Melchitarum. A
+                                        Christian Palestinian Euchologion</title> (1938).</bibl>
+                                <bibl>
+                           <choice>
+                              <reg>M.  Black</reg>
+                              <orig>idem</orig>
+                           </choice>, <title rend="italic">A Christian Palestinian Syriac
+                                        Horologion</title> (1954).</bibl>
+                            </listBibl>
+                            <listBibl>
+                                <head>Magic</head>
+                                <bibl>M.  Baillet, ‘Un livret magique en christo-palestinien à
+                                    l’Université de Louvain’, <title rend="italic">
+                                        <abbr>LM</abbr>
+                                    </title> 76
+                                    (1963), 375–401.</bibl>
+                            </listBibl>
+                        </listBibl>
+                        <listBibl>
+                            <head>Secondary Sources</head>
+                            <bibl>M.  Bar Asher, ‘Le syro-palestinien — Études grammaticales’,
+                                    <title rend="italic">
+                                    <abbr>JA</abbr> 
+                        </title> 276 (1988), 27–59.</bibl>
+                            <bibl>Brock and Taylor, <title rend="italic">Hidden Pearl</title>, vol.
+                                2, 95–8.</bibl>
+                            <bibl>F. C.  Burkitt, ‘Christian Palestinian literature’, <title rend="italic">
+                                    <abbr>JTS</abbr>
+                                </title> 2 (1901), 174–83. (<abbr>ST</abbr> by M. López
+                                Pérez, in <title rend="italic">
+                                    <abbr>CCO</abbr>
+                                </title> 2 [2005], 327–340)</bibl>
+                            <bibl>C.  Müller-Kessler, <title rend="italic">Grammatik des
+                                    Christlich-Palästinisch-Aramäischen</title>, I (1991). (with
+                                bibliography and list of inscriptions)</bibl>
+                            <bibl>F. <choice>
+                                    <sic>Schultess</sic>
+                                    <corr>Schulthess</corr>
+                                </choice>, <title rend="italic">Lexicon Syropalaestinum</title>
+                                (1903).</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>F. Schulthess</reg>
+                           <orig>idem</orig>
+                        </choice>, <title rend="italic">Grammatik des christlich-palästinischen
+                                    Aramäisch</title> (1924).</bibl>
+                            <bibl>M.  Sokoloff and J.  Yahalom, ‘Christian Palimpsests from the
+                                Cairo Geniza’, <title rend="italic">Revue d’Histoire des
+                                    Textes</title> 8 (1978), 111–32.</bibl>
+                        </listBibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Sebastian P.</forename> 
+                  <surname>Brock</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Yaʿqub of Serugh</title>
+            <author>
+               <persName>
+                  <forename>Sebastian P.</forename> 
+                  <surname>Brock</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.5">Electronic Edition Version 1.5</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Yaʿqub of Serugh</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Yaqub-of-Serugh</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/593</idno>
+                    <idno type="entry">584</idno>
+                    <milestone unit="pages" n="433-435"/>
+                    <idno type="subject">http://syriaca.org/person/42</idno>
+                    <note type="type">person</note>
+                    <note type="abstract">Poet and <abbr>bp.</abbr> of Baṭnan da-Srug (519–21).<note/>
+                    </note>
+                </ab>
+                <ab type="infobox">(<abbr>ca.</abbr> 451–521) [<abbr>Syr. Orth.</abbr>]</ab>
+                <div type="body">
+                    <p>Poet, known as ‘the Flute of the Holy Spirit and the Harp of the Church’; <abbr>bp.</abbr>
+                        of Baṭnan da-Srug (519–21). Most of the little information about his life
+                        comes from two notices (<abbr>ed.</abbr> Assemani, <hi rend="italic">BibOr</hi>, vol. 1,
+                        286–9, and Abbeloos, <hi rend="italic">De vita et scriptis Jacobi...</hi>
+                        [1867], 311–2); there are also two panegyrics (<abbr>ed.</abbr> Krüger, <title rend="italic">
+                            <abbr>OC</abbr>
+                        </title> 56 [1972]) and a late Biography. An outline based on all these
+                        sources was compiled by P. Y. Dolabani (<hi rend="italic">Swodo
+                            mpaygono…</hi> [Mardin, 1952]).</p>
+                    <p>Born in Kurtam, on the Euphrates, his poetic gifts became evident early on.
+                        He was a student at the <ref rend="bold" target="https://gedsh.bethmardutho.org/Edessa-School-of">School of
+                            Edessa</ref>, and this explains the appearance in his <hi rend="italic">mimre</hi> of some exegetical traditions that go back to <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Theodore-of-Mopsuestia">
+                            <persName ref="http://syriaca.org/person/780">Theodore
+                            of Mopsuestia</persName>
+                        </ref>. At an unknown date he was appointed Chorepiscopos
+                        of Ḥawra, and then at the age of 67 he was consecrated <abbr>bp.</abbr> of Baṭnan in 519
+                        by Pawlos <abbr>bp.</abbr> of Edessa. The date of his death is given as 29 Nov. 521 in
+                        the notice published in <hi rend="italic">BibOr</hi>, and this is the date
+                        of his liturgical commemoration; other sources, however, give different
+                        dates (and even a different year, 520; see Vööbus, <hi rend="italic">Handschr. Überlieferung</hi>, vol. 1, 4). A contemporary source
+                        (‘Chronicle of <ref rend="bold" target="https://gedsh.bethmardutho.org/Yeshu-the-Stylite">
+                            <persName ref="http://syriaca.org/person/40">Yeshuʿ the
+                            Stylite</persName>
+                        </ref>’, 54) states that, at the time of the Persian invasion of
+                        north Mesopotamia (502/3), ‘the respected Yaʿqub, the periodeutes, who
+                        composed many <hi rend="italic">mimre</hi> on Scriptural passages, and <hi rend="italic">sugyoto</hi> and <hi rend="italic">zmiroto</hi> ... wrote
+                        letters’ of encouragement to different cities.</p>
+                    <p>Yaʿqub is primarily known for his verse <hi rend="italic">memre</hi> in the
+                        12-syllable <choice>
+                     <reg>meter</reg>
+                     <orig>metre</orig>
+                  </choice> (which is named after him); these are said to have
+                        numbered 763. At least 380 survive, and over half of these have been edited
+                        by P. Bedjan. The majority of these are highly imaginative expositions of
+                        biblical passages; a number of others deal with saints (<choice>
+                            <sic>e.g.</sic>
+                            <corr>e.g., </corr>
+                        </choice>
+                        <ref rend="bold" target="https://gedsh.bethmardutho.org/Shemun-the-Stylite">
+                            <persName ref="http://syriaca.org/person/744">Shemʿun the Stylite</persName>
+                        </ref>, <ref rend="bold" target="https://gedsh.bethmardutho.org/Ephrem">
+                            <persName ref="http://syriaca.org/person/13">Ephrem</persName>
+                        </ref>, George,
+                        etc.). The attribution of some <hi rend="italic">mimre</hi> remains
+                        uncertain: thus that on the myron is also attributed to <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Giwargi-bp-of-the-Arab-tribes">
+                            <persName ref="http://syriaca.org/person/122">Giwargi <abbr>bp.</abbr> of the Arab tribes</persName>
+                        </ref>; definitely not by Yaʿqub, despite
+                        the attribution, is the <hi rend="italic">mimro</hi> on <ref rend="bold" target="https://gedsh.bethmardutho.org/Alexander-Cycle">Alexander</ref> (<abbr>ed.</abbr> Reinink, <abbr>CSCO</abbr> 454–5). A number of <hi rend="italic">madroše</hi> and <hi rend="italic">sugyoto</hi> in <abbr>mss.</abbr>
+                        are also attributed to him, at least some of which are very probably
+                        genuinely his.</p>
+                    <p>Yaʿqub’s prose writings consist of 1. six <hi rend="italic">turgome</hi>, or
+                        prose homilies, for Nativity, Epiphany, Lent, Palm Sunday (Hosanna), Good
+                        Friday and the Resurrection; 2. Lives of holy men of his own lifetime,
+                        Daniel of Galash and Hannina (unpublished; summaries by F. Nau, in <title rend="italic">ROC</title> 15 [1910], 60–64); and 3. a collection of 43
+                        Letters (not all of which are complete).</p>
+                    <p>Various liturgical texts are attributed to Yaʿqub, in particular, three
+                        Anaphoras (<abbr>ed.</abbr> H. G. Codrington, in <hi rend="italic">Anaphorae
+                            Syriacae</hi>, II.1 [1951]) and the Maronite baptismal rite (<abbr>ed.</abbr> A.
+                        Mouhanna [<abbr>OCA</abbr> 212; 1980]). Though the attibutions are uncertain, these texts
+                        share many themes to be found in Yaʿqub’s <hi rend="italic">mimre</hi>.
+                        Liturgical <hi rend="italic">boʿawoto</hi> are attributed to Yaʿqub, as well
+                        as to Ephrem and <ref rend="bold" target="https://gedsh.bethmardutho.org/Balai">
+                            <persName ref="http://syriaca.org/person/27">Balai</persName>
+                        </ref> (depending on
+                        their meter); some of those attributed to Yaʿqub are just excerpts from his
+                            <hi rend="italic">mimre</hi>. Likewise, many <hi rend="italic">bote
+                            d-ḥašo</hi> (<abbr>ed.</abbr> Strothmann [<abbr>GOFS</abbr> 32; 1989]) are adapted from Yaʿqub’s
+                            <hi rend="italic">mimre</hi> (see <hi rend="italic">
+                            <abbr>JSS</abbr>
+                        </hi> 36 [1991],
+                        201–4). Surprisingly, a passage from Yaʿqub’s <hi rend="italic">turgomo</hi>
+                        for the Resurrection is to be found in the <hi rend="italic">Ḥudrā</hi> (<abbr>ed.</abbr>
+                        Darmo, vol. 2, 553–4; see <title rend="italic">
+                            <abbr>OCP</abbr>
+                        </title> 55 [1989], 339–43).</p>
+                    <p>Yaʿqub is commemorated on 29 Nov. in both the <abbr>Syr. Orth.</abbr> and the <abbr>Maron.</abbr>
+                        Calendar. Although Assemani and others have claimed that Yaʿqub was
+                        Chalcedonian, it is now known that he objected to the Council of Chalcedon:
+                        this is clear from some of his Letters and from a <hi rend="italic">mimro</hi> (probably genuine) lamenting the Council. Basically, Yaʿqub
+                        disliked the analytic approach to theology current in the controversy that
+                        followed the Council of 451; his preference was for the theology of symbol
+                        and paradox that characterised Ephrem’s approach.</p>
+                    <p>The appreciation with which Yaʿqub’s <hi rend="italic">mimre</hi> have always
+                        been held is indicated by the large number of <abbr>mss.</abbr> containing them. The
+                        oldest of these go back to the 6th <abbr>cent.</abbr>, while several <abbr>mss.</abbr> of the 11th to
+                        13th <abbr>cent.</abbr> contain huge collections, sometimes with well over 200 <hi rend="italic">memre</hi>. There are also translations into Armenian,
+                        Arabic, Ethiopic (by way of Arabic), and Georgian.</p>
+                </div>
+                <div type="bibl">
+                    <listBibl>
+                        <listBibl>
+                            <head>Primary Sources</head>
+                            <listBibl>
+                                <head>Mimre</head>
+                                <bibl>M.  Albert, <title rend="italic">Homélies contre les Juifs par
+                                        Jacques de Saroug</title> (<abbr>PO</abbr> 38.1; 1976).</bibl>
+                                <bibl>Kh.  Alwan, <title rend="italic">Jacques de Saroug, Quatre
+                                        homélies métriques sur la Création</title> (<abbr>CSCO</abbr> 508/9,
+                                    1989).</bibl>
+                                <bibl>J.  Amar, <title rend="italic">A metrical homily on Holy Mar
+                                        Ephrem by Jacob of Serugh</title> (<abbr>PO</abbr> 47.1; 1995).</bibl>
+                                <bibl>P.  Bedjan, <title rend="italic">Homiliae Selectae Mar-Jacobi
+                                        Sarugensis</title>, I–V (1905–10), I–VI (<abbr>repr.</abbr> 2006). (The
+                                    extra volume of the reprint includes the 11 <title rend="italic">memre</title> published by Bedjan at the end of his edition
+                                    of Martyrius/Sahdona [1902], 603–85; it also has an index of
+                                    first lines and of modern translations)</bibl>
+                                <bibl>B.  Sony, <title rend="italic">L’Homélie de <choice>
+                                            <sic>J. de S.</sic>
+                                            <corr>Jaques de Sarough</corr>
+                                        </choice> sur
+                                        l’Hexaméron</title>, I–II (2000). (Syr. with <abbr>AT</abbr>)</bibl>
+                                <bibl>W.  Strothmann, <title rend="italic">Jakob von Sarug, der
+                                        Prophet Hosea</title> (<abbr>GOFS</abbr> 5; 1973).</bibl>
+                                <bibl>
+                           <choice>
+                              <reg>W.  Strothmann</reg>
+                              <orig>idem</orig>
+                           </choice>, <title rend="italic">Jakob von Sarug, drei Gedichte über
+                                        den Apostel Thomas</title> (<abbr>GOFS</abbr> 12; 1976).</bibl>
+                                <bibl>A bilingual series (Syr. with <abbr>ET</abbr>) of individual homilies,
+                                    entitled <title rend="italic">The Metrical Homilies of Mar Jacob
+                                        of Sarug</title> (2008<choice>
+                                        <sic>-</sic>
+                                        <corr>–</corr>
+                                    </choice>), is in the process of
+                                    publication.</bibl>
+                            </listBibl>
+                            <listBibl>
+                                <head>Prose works</head>
+                                <bibl>S. P.  Brock, <title rend="italic">Turgome što d-qadišo Mor
+                                        Yaʿqub da-Srug malpono</title> (Monastery of St. Ephrem,
+                                    1984).</bibl>
+                                <bibl>G.  Olinder, <title rend="italic">Iacobi Sarugensis Epistulae
+                                        quotquot supersunt</title> (<abbr>CSCO</abbr> 110; 1937).</bibl>
+                                <bibl>F.  Rilliet, <title rend="italic">Jacques de Saroug, Six
+                                        homélies festales en prose</title> (<abbr>PO</abbr> 43.4; 1986).</bibl>
+                            </listBibl>
+                            <listBibl>
+                                <head>Translations</head>
+                                <bibl>M.  Albert, <title rend="italic">Les Lettres de Jacques de
+                                        Saroug</title> (2004).</bibl>
+                                <bibl>G.  Bickell, <title rend="italic">Ausgewählte Gedichte der
+                                        syrischen Väter Cyrillonas ... und Jakob v. Sarug</title>
+                                    (1872).</bibl>
+                                <bibl>M.  Hansbury, <title rend="italic">Jacob of Serug, On the
+                                        Mother of God</title> (1998).</bibl>
+                                <bibl>I.  Isebaert-Cauuet, <title rend="italic">Jacques de Saroug,
+                                        Homélies sur la fin du monde</title> (2005).</bibl>
+                                <bibl>T.  Kollamparampil, <title rend="italic">Jacob of Serugh,
+                                        Select Festal Homilies</title> (1997).</bibl>
+                                <bibl>S.  Landersdorfer, <title rend="italic">Ausgewählte Schriften
+                                        der syrischen Dichter Cyrillonas ... und Jakob v.
+                                        Sarug</title> (1912).</bibl>
+                                <bibl>C.  Vona, <title rend="italic">Omilie Mariologiche di S.
+                                        Giacomo di Sarug</title> (1953).</bibl>
+                            </listBibl>
+                        </listBibl>
+                        <listBibl>
+                            <head>Secondary Sources</head>
+                            <bibl>Kh.  Alwan, in <title rend="italic">
+                                    <abbr>ParOr</abbr>
+                                </title> 13 (1986),
+                                313–83. (bibliography)</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>Kh.  Alwan</reg>
+                           <orig>idem</orig>
+                        </choice>, <title rend="italic">Anthropologie de Jacques de
+                                    Saroug</title> (1988).</bibl>
+                            <bibl>J. G.  Blum, ‘Zum Bau von Abschnitten in Memre von Jakob von
+                                Sarug’, in <abbr>
+                                    <title rend="italic">SymSyr</title> III</abbr>, 307–21.</bibl>
+                            <bibl>T.  Bou Mansour, <title rend="italic">La théologie de Jacques de
+                                    Saroug</title> (2 vols.; 1993, 2000).</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>T.  Bou Mansour</reg>
+                           <orig>idem</orig>
+                        </choice>, ‘Die Christologie des Jakob van Sarug’, in <title rend="italic">Jesus der Christus</title>, <abbr>ed.</abbr> Grillmeier and
+                                Hainthaler, vol. 2/3, 449–499.</bibl>
+                            <bibl>F.  Graffin, ‘Jacques de Saroug’, in <title rend="italic">
+                                    <abbr>DSpir</abbr>
+                                </title>, vol. 8 (1974), 56–60.</bibl>
+                            <bibl>G. A. Kiraz (<abbr>ed.</abbr>), <title rend="italic">Jacob of Serugh and his
+                                    times</title> (2010).</bibl>
+                            <bibl>T.  Kollamparampil, <title rend="italic">Salvation in Christ
+                                    according to Jacob of Serugh</title> (2001).</bibl>
+                            <bibl>M.  Papoutsakis, ‘Formulaic language in the metrical homilies of
+                                <choice>
+                                    <sic>J. of S</sic>
+                                    <corr>Jacob of Serugh</corr>
+                                </choice>.’, in <abbr>
+                                    <title rend="italic">SymSyr</title> VII</abbr>,
+                                445–51.</bibl>
+                            <bibl>J.  Puthuparampil, <title rend="italic">Mariological Thought of
+                                    Mar Jacob of Serugh (451–521)</title> (Moran Etho 25;
+                                2005).</bibl>
+                            <bibl>B. M. P.  Sony, <title rend="italic">La doctrine de Jacques de
+                                    Saroug sur la Création et l’anthropologie</title> (1989).</bibl>
+                            <bibl>A.  Vööbus, <title rend="italic">Handschriftliche Überlieferung
+                                    der Memre-Dichtung des Jaʿqob von Serug</title>, I–IV (<abbr>CSCO</abbr>
+                                344–5, 421–2; 1973, 1980).</bibl>
+                        </listBibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Sebastian P.</forename> 
+                  <surname>Brock</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

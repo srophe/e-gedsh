@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Menander, Syriac sentences of</title>
+            <author>
+               <persName>
+                  <forename>Ute</forename> 
+                  <surname>Possekel</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.5">Electronic Edition Version 1.5</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Menander, Syriac sentences of</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Menander-Syriac-sentences-of</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/380</idno>
+                    <idno type="entry">371</idno>
+                    <milestone unit="pages" n="286-287"/>
+                    <idno type="althead" subtype="altorder">Syriac sentences of Menander</idno>
+                    <note type="type">work</note>
+                    <note type="abstract">A collection of Syriac sentences attributed to ‘Menander
+                        the Wise’.<note/>
+                    </note>
+                </ab>
+                <div type="body">
+                    <p>A collection of Syriac sentences attributed to ‘Menander the Wise’, probably
+                        the Greek comedian (d. 292/1 BC) under whose name circulated Greek
+                        monostichs (<abbr>ed.</abbr> Jaekel), many of which were not original to Menander. The
+                        Syriac sentences are preserved in the 7th-cent. <abbr>ms.</abbr> London, Brit. Libr. Add.
+                        14,658 (<abbr>ed.</abbr> Land; corrections by Wright) which contains also various
+                        philosophical treatises and gnomologia (cf. Wright, <hi rend="italic">Catalogue … British Museum</hi>, vol. 3, 1154–60). An epitome of the
+                        collection exists in London, Brit. Libr. Add. 14,614 (<abbr>ed.</abbr> Sachau).</p>
+                    <p> Scholars have differently divided the collection into individual sayings,
+                        ranging in number from 96 (Audet) to 153 (Baumstark; Schulthess has 101,
+                        Riessler 103). More recently, the sayings have been cited according to line
+                        number (Baarda counts 474 lines). The literary form of the sentences varies:
+                        there are indicative and imperative maxims as well as longer sections of
+                        moral advice. Noteworthy is the dialogue scene between Homer and his friends
+                        (<abbr>ed.</abbr> Land, 66.8–15; tr. Baarda, lines 78–93).</p>
+                    <p>The Syriac sentences of Menander are addressed to a well-situated man of the
+                        upper class of society. They contain practical advice on how to live a
+                        happy, prosperous, and peaceful life, addressing themes such as the fear of
+                        God, respect for parents and elders, raising of children, choice of a wife,
+                        moderate consumption of food and drink, treatment of servants, warnings not
+                        to commit adultery, proper behavior as a guest, and friendship. The thematic
+                        structure of the Syriac Menander is loose; Kirk has argued that the
+                        collection is organized along the major stages of a life, from birth through
+                        adulthood and old age to death.</p>
+                    <p>The Syriac text probably is a translation from the Greek (Land; Baumstark,
+                        473f.; Schulthess, 201; Küchler, 316; Baarda, 584), the original of which is
+                        no longer extant. Frankenberg’s thesis of a Hebrew original has been widely
+                        rejected.</p>
+                    <p>The question of the author’s cultural context is still being debated: the
+                        Syriac Menander bears resemblances both to Jewish wisdom literature
+                        (especially Proverbs, Jesus Sirach, <ref rend="bold" target="https://gedsh.bethmardutho.org/Ahiqar">
+                            <persName ref="http://syriaca.org/person/323">Aḥiqar</persName>
+                        </ref>,
+                        Pseudo-Phocylides) and to Greek wisdom traditions (some Syriac sentences
+                        have a parallel in the Greek monostichs); the Syriac collection thus is part
+                        of an ‘international wisdom tradition’ (Schulthess, 201). Several earlier
+                        scholars stressed the Greek affinities (Renan, Land, Baumstark, Schulthess),
+                        whereas others argued for a Jewish authorship (Frankenberg, Riessler, Kirk).
+                        Problematic for a Jewish authorship remains a passage which warns against
+                        table fellowship with (pagan) priests (Land, 69,17–24; tr. Baarda, lines
+                        262–77), implying a polytheistic background of the author. The text’s
+                        classification as a Jewish pseudepigraphon has been challenged (Schmid and
+                        Stählin, 623; Schürer, 693), but has recently been upheld by Baarda and
+                        Kirk. Audet argued for an Egyptian provenance; his thesis was followed by
+                        Küchler, but rejected by Baarda.</p>
+                    <p>Concerning the date of composition, there is a consensus that the sentences
+                        date to the Roman period. An allusion to the law that a master may not kill
+                        his slave (Land, 67,21f.; tr. Baarda, line 159), first stipulated by
+                        Hadrian, suggests a date after the middle of the 1st <abbr>cent.</abbr> A reference to
+                        the schools of gladiators (Land, 65,13–15; tr. Baarda lines 34–33) implies
+                        as <hi rend="italic">terminus ante quem</hi> 
+                  <abbr> ca.</abbr> 400, since after
+                        Constantine’s legislation against gladiatorial games in 325 (Cod. Theod.
+                        15.12.1) the schools gradually disappeared (cf. Audet, 77f.). Moreover, a
+                        reference to crucifixion as punishment for theft (Land, 70,8; tr. Baarda
+                        line 295) suggests a date before Constantine’s prohibition of this form of
+                        punishment. Hence most scholars date the collection to the 3rd <abbr>cent.</abbr>
+                        However, the date of the Syriac translation remains uncertain.</p>
+                </div>
+                <div type="bibl">
+                    <listBibl>
+                        <listBibl>
+                            <head>Primary Sources</head>
+                            <bibl>T.  Baarda, ‘The Sentences of the Syriac Menander (Third Century
+                                A.D.): A new translation and introduction’, in <title rend="italic">The Old Testament Apocrypha</title>, <abbr>ed.</abbr> J. H. Charlesworth,
+                                vol. 2 (1985), 583–606. (<abbr>ET</abbr>)</bibl>
+                            <bibl>A.  Geiger, in <title rend="italic">
+                                    <abbr>ZDMG</abbr>
+                                </title> 17 (1863),
+                                752–59. (corrections to Land 1862)</bibl>
+                            <bibl>S.  Jaekel, <title rend="italic">Menandri sententiae: Comparatio
+                                    Menandri et Philistionis</title> (1964).</bibl>
+                            <bibl>J. P. N.  Land, <title rend="italic">Anecdota syriaca</title>,
+                                vol. 1 (1862; <abbr>repr.</abbr> 1989), 64–73 (Syr.), 156–164 (<abbr>LT</abbr>).</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>J. P. N.  Land</reg>
+                           <orig>idem</orig>
+                        </choice>, <title rend="italic">Anecdota syriaca</title>, vol. 2
+                                (1868), 25–6. (corrections to Land 1862)</bibl>
+                            <bibl>E.  Sachau, <title rend="italic">Inedita Syriaca. Eine Sammlung
+                                    syrischer Übersetzungen von Schriften griechischer
+                                    Profanliteratur</title> (1870), 80–3.</bibl>
+                            <bibl>F. Schulthess, ‘Die Sprüche des Menander, aus dem Syrischen
+                                übersetzt’, <title rend="italic">
+                                    <abbr>ZAW</abbr>
+                                </title> 32 (1912), 199–224.
+                                (<abbr>GT</abbr>)</bibl>
+                            <bibl>W.  Wright, ‘Anecdota Syriaca’, <title rend="italic">Journal of
+                                    Sacred Literature and Biblical Record</title>, 4th series, 3
+                                (April 1863), 115–30. (corrections to Land 1862)</bibl>
+                        </listBibl>
+                        <listBibl>
+                            <head>Secondary Sources</head>
+                            <bibl>J.-P. Audet, ‘La sagesse de Ménandre l’Égyptien’, <title rend="italic">
+                                    <abbr>RB</abbr>
+                                </title> 59 (1952), 55–81.</bibl>
+                            <bibl>T. Baarda, ‘Syriac Menander’, in <title rend="italic">
+                                    <abbr>ABD</abbr>
+                                </title>,
+                                vol. 6 (1992), 281f.</bibl>
+                            <bibl>A.  Baumstark, <title rend="italic">Lucubrationes
+                                    Syro-Graecae</title> (Jahrbücher für classische Philologie,
+                                Supplementband 21; 1894), 473–490.</bibl>
+                            <bibl>P. Bettiolo, ‘Dei casi della vita, della pietà e del buon nome:
+                                Intorno ai “detti” siriaci di Menandro’, in <choice>
+                                    <sic>
+                                        <title rend="italic">Aspetti di letteratura gnomica nel mondo antico,</title>
+                                    </sic>
+                                    <corr>
+                                        <title rend="italic">Aspetti di letteratura gnomica nel mondo antico</title>,</corr>
+                                </choice> ed. M.
+                                S. Funghi (2003), 83–103.</bibl>
+                            <bibl>S. P.  Brock, ‘Syriac translations of Greek popular philosophy’,
+                                in <title rend="italic">Von Athen nach Bagdad. Zur Rezeption
+                                    griechischer Philosophie von der Spätantike bis zum
+                                    Islam</title>, <abbr>ed.</abbr> P.  Bruns (Hereditas 22; 2003), 9–28.</bibl>
+                            <bibl>W. Frankenberg, ‘Die Schrift des Menander (Land anecd. syr. I, S.
+                                64ff.), ein Produkt der jüdischen Spruchweisheit’<choice>
+                                    <sic>. </sic>
+                                    <corr>, </corr>
+                                </choice>
+                                <title rend="italic">
+                                    <abbr>ZAW</abbr>
+                                </title> 15 (1895), 226–77.</bibl>
+                            <bibl>A. Kirk, ‘The composed life of the Syriac Menander’, <title rend="italic">Studies in Religion/Sciences
+                                Religieuses</title> 26/2 (1997), 169–83.</bibl>
+                            <bibl>M.  Küchler, <title rend="italic">Frühjüdische
+                                    Weisheitstraditionen: Zum Fortgang weisheitlichen Denkens im
+                                    Bereich des frühjüdischen Jahweglaubens</title> (Orbis Biblicus
+                                et Orientalis 26; 1979), 303–18.</bibl>
+                            <bibl>E.  Renan, ‘Lettre à M. Reinaud, sur quelques manuscrits syriaques
+                                du Musée britannique, contenant des traductions d’auteurs grecs
+                                profanes et des traités philosophiques’, <title rend="italic">
+                                    <abbr>JA</abbr>
+                                </title> 4.19 (1852), 293–333.</bibl>
+                            <bibl>P. Riessler, <title rend="italic">Altjüdisches Schrifttum
+                                    ausserhalb der Bibel. Übersetzt und erklärt</title> (1928; <abbr>repr.</abbr>
+                                1966), 1047–57, 1328f.</bibl>
+                            <bibl>W. Schmid and O. Stählin, <title rend="italic">Geschichte der
+                                    griechischen Literatur</title>, vol. 2.1 (6th <abbr>ed.</abbr> 1920; <abbr>repr.</abbr>
+                                1959), 623.</bibl>
+                            <bibl>E.  Schürer, <title rend="italic">The History of the Jewish People
+                                    in the Age of Jesus Christ (175 B.C.-A.D. 135)</title>, vol. 3/1
+                                (a new English version revised and edited by G. Vermes, F. Millar,
+                                and M.  Goodman; 1987), 692–694.</bibl>
+                            <bibl>Wright, <title rend="italic">Catalogue … British Museum</title>,
+                                vol. 3.</bibl>
+                            <bibl>N.  Zeegers-Van der Vorst, ‘Une gnomologie d’auteurs grecs en
+                                traduction syriaque’, in <abbr>
+                                    <title rend="italic">SymSyr</title> II</abbr>,
+                                163–77.</bibl>
+                        </listBibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Ute</forename> 
+                  <surname>Possekel</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">China, Syriac Christianity in</title>
+            <author>
+               <persName>
+                  <forename>Hidemi</forename> 
+                  <surname>Takahashi</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.5">Electronic Edition Version 1.5</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>China, Syriac Christianity in</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/China-Syriac-Christianity-in</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/138</idno>
+                    <idno type="entry">129</idno>
+                    <milestone unit="pages" n="94-96"/>
+                    <idno type="althead" subtype="altorder">Syriac Christianity in China</idno>
+                    <note type="type">subject</note>
+                    <note type="abstract">
+                        <note/>
+                    </note>
+                </ab>
+                <div type="body">
+                    <p>It remains uncertain when Christians first reached the main, historically
+                        Chinese-speaking (Han), part of China. The tradition of making St. Thomas
+                        the apostle of China, which appears in such E.-Syr. sources as <ref rend="bold" target="https://gedsh.bethmardutho.org/Ibn-al-Tayyib">
+                            <persName ref="http://syriaca.org/person/543">Ibn
+                            al-Ṭayyib</persName>
+                        </ref>’s <hi rend="italic">Fiqh al-naṣrāniyya</hi> (VI.1.41,
+                        <abbr>ed.</abbr> Hoenerbach-Spies II.138.7–8), <ref rend="bold" target="https://gedsh.bethmardutho.org/Abdisho-bar-Brikha">
+                            <persName ref="http://syriaca.org/person/310">ʿAbdishoʿ bar
+                            Brikha</persName>
+                        </ref>’s <hi rend="italic">Nomocanon</hi> (IX.1, <abbr>ed.</abbr> Mai 317a
+                        14–15), and the Chaldean breviary, can be found in its nascent form in the
+                            <ref rend="bold" target="https://gedsh.bethmardutho.org/Zuqnin-Chronicle-of">Chronicle of
+                            Zuqnin</ref> and may have originated in the late Sasanian period (see
+                        Tubach 1995–6). Although it is likely that individual Christians travelling
+                        along the Silk Road reached China before the 7th <abbr>cent.</abbr>, there is little
+                        evidence to support the historicity of the tradition reported by ʿAbdishoʿ
+                            (<hi rend="italic">Nomocanon</hi> VIII.15, <abbr>ed.</abbr> Mai 304a 20–21) which
+                        credits the <abbr>Ch. of E.</abbr> Catholicoi Aḥai (410–414) and Shila (503–523) with the
+                        erection of a metropolitan see for China. ʿAbdishoʿ himself gives the credit
+                        to Ṣliba Zka (714–28), while Ishoʿyahb (probably <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Ishoyahb-III-of-Adiabene">
+                            <persName ref="http://syriaca.org/person/561">Ishoʿyahb III</persName>
+                        </ref> [649–59]) is given the honor by Ibn al-Ṭayyib (<hi rend="italic">Fiqh al-naṣrāniyya</hi> VI.1.16, <abbr>ed.</abbr> Hoenerbach-Spies
+                        II.121.4–5). The existence of metropolitans for China in the time of <ref rend="bold" target="https://gedsh.bethmardutho.org/Timotheos-I">
+                            <persName ref="http://syriaca.org/person/790">Timotheos
+                            I</persName>
+                        </ref> (780–823) is attested to by his letter mentioning the death of a
+                        ‘metropolitan of Beth Ṣinaye’ (Letter 13, <abbr>ed.</abbr> Braun 109.22–23) and by the
+                        report by <ref rend="bold" target="https://gedsh.bethmardutho.org/Toma-of-Marga">
+                            <persName ref="http://syriaca.org/person/796">Toma of
+                        Marga</persName>
+                        </ref>, told on the authority of Timotheos, of Dawid, a monk of <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Beth-Abe-Monastery-of">
+                            <placeName ref="http://syriaca.org/place/223">Beth ʿAbe</placeName>
+                        </ref>, being elected metropolitan for ‘Beth
+                        Ṣinaye’ (‘Book of Governors’, IV.20, <abbr>ed.</abbr> Budge 238.14–15).</p>
+                    <p>The history of Christianity in China as recorded in the so-called <ref rend="bold" target="https://gedsh.bethmardutho.org/Xian">
+                            <placeName ref="http://syriaca.org/place/479">Xi’an</placeName>
+                        </ref>
+                        Stele (erected in 781) and other Chinese documents begins with the arrival
+                        of the missionary Aluoben in Chang’an (present-day Xi’an) in 635 and his
+                        reception by Emperor Taizong (626–49). The Stele goes on to tell us of the
+                        progress of Christianity in China under the protection of the successive
+                        emperors. Like the <ref rend="bold" target="https://gedsh.bethmardutho.org/Thomas-Christians">Thomas
+                            Christians</ref> in India, the Syriac Christians in China were subject
+                        to bishops sent to them from their mother Church in the West. If the term
+                            <hi rend="italic">dade</hi> used in the Stele is equivalent to ‘bishop’
+                        (or ‘metropolitan’), these bishops will include, besides Aluoben, Jilie
+                        (Gabriel) in the first half of <choice>
+                            <sic/>
+                            <corr>the </corr>
+                        </choice>8th <abbr>cent.</abbr>, Jihe (Giwargis or Gigoy?), who
+                        arrived in 744, and Yaolun (Yoḥannan), who was <hi rend="italic">dade</hi>
+                        and <hi rend="italic">apesqopā</hi> at the time of the erection of the
+                        Stele.</p>
+                    <p>Chinese records from the early Tang period refer to Christianity as the
+                        religion of Persia (Bosi) and, after 745, as that of the Roman (or
+                        Byzantine) Empire (<hi rend="italic">Da Qin</hi>), while the Christians
+                        themselves called their religion <hi rend="italic">Jingjiao</hi>, or the
+                        ‘luminous religion’. The Persian term <hi rend="italic">tarsā</hi> was also
+                        sometimes used of Christians in China and appears in the form <hi rend="italic">dasuo</hi> in the Xi’an Stele. Although there is evidence
+                        for the existence of a number of Christian communities outside Chang’an, the
+                        passage of the Stele telling us that monasteries were built in every
+                        ‘prefecture’ of the land (of which there were approximately 360) during the
+                        reign of Gaozong (650–83) is clearly exaggerated. It is likely that
+                        Christians, like the Manicheans and Zoroastrians who also entered China
+                        along the Silk Road in the middle of the first millennium, remained a small
+                        minority and, consisting mainly of peoples of Iranian origin (Persians and
+                        Sogdians), were generally regarded as a ‘foreign’ element within the Chinese
+                        population.</p>
+                    <p>The decline of <hi rend="italic">Jingjiao</hi> in the 9th <abbr>cent.</abbr> is no doubt
+                        to be attributed to increasing political instability and difficulty of
+                        travel along the Silk Road. Emperor Wuzong’s edict of 845 proscribing
+                        ‘foreign’ religions, though aimed primarily at Buddhists, evidently had a
+                        devastating effect on Christianity, as well as on Manichaeism and
+                        Zoroastrianism, in China. Little is heard of the Christians in China after
+                        845, although the mention in an Arabic source of ‘Christians’, along with
+                        Muslims, Jews, and Zoroastrians, among the groups massacred in Guanzhou
+                        (Canton) during the rebellion of Huang Chao in 878/9 has been interpreted as
+                        indicating their survival for a period in southern China, while the wording
+                        of the colophon of the <abbr>ms.</abbr> containing the <hi rend="italic">Sanwei mengdu
+                            zan</hi> and <hi rend="italic">Zun jing</hi> (nos. 3 and 4 below) has
+                        been understood to indicate that it was copied after the fall of the Tang
+                        Dynasty in 907, suggesting the survival of Christian communities using
+                        Chinese after that date.</p>
+                    <p>Besides in the Xi’an Stele (properly, the ‘Monument on the propagation of the
+                        Religion of the Light of Da Qin in China’, <hi rend="italic">Da Qin Jingjiao
+                            liuxing Zhongguo bei</hi>), what remains of the literary activities of
+                        the Christians in Chinese during the Tang period is to be found in a number
+                        of documents discovered in the early 20th <abbr>cent.</abbr> in Dunhuang. The so-called
+                        Dunhuang Christian documents comprise: 1. <hi rend="italic">Xuting Mishisuo
+                            jing</hi> (‘Book of Jesus-Messiah’ or ‘Book of listening to the
+                        Messiah’; Takakusu <abbr>ms.</abbr>); 2. <hi rend="italic">Yishen lun</hi> (‘Discourse on
+                        the One God’, consisting of three disparate treatises; Tomioka <abbr>ms.</abbr>); 3. <hi rend="italic">Da Qin Jingjiao Sanwei mengdu zan</hi> (‘Hymn in adoration
+                        of the Holy Trinity’); 4. <hi rend="italic">Zun jing</hi> (‘Book of honor’
+                        or [list of] ‘Venerable books’); 5. <hi rend="italic">Zhi xuan anle
+                            jing</hi> (‘Book on attaining profound peace and joy’); 6a. Beginning of
+                            <hi rend="italic">Da Qin Jingjiao Xuan yuan zhiben jing</hi> (‘Book of
+                        proclamation of the highest origin of origins’); 6b. End of <hi rend="italic">Da Qin Jingjiao Xuan yuan zhiben jing</hi> (Kojima <abbr>ms.</abbr> B);
+                        7. <hi rend="italic">Da Qin Jingjiao Dasheng tongzhen guifa zan</hi> (‘Hymn
+                        of praise for the Transfiguration of Our Lord’; Kojima <abbr>ms.</abbr> A). Of these, no.
+                        3 is a paraphrase of the Great Doxology (<choice>
+                            <sic>i.e. </sic>
+                            <corr>i.e., </corr>
+                        </choice>the equivalent of the Latin
+                            <hi rend="italic">Gloria [in excelsis Deo]</hi>); the remaining texts,
+                        though clearly Christian in content, appear to be original compositions and
+                        have no known counterparts in Syriac. No. 6b is now known to be a modern
+                        forgery, and the same is most likely to be the case with no. 7. Nos. 1 and 2
+                        have been associated by scholars with the missionary activity of Aluoben. It
+                        has been suggested that the manuscripts we have today of these two texts too
+                        are modern forgeries, though based on genuine Tang-Dynasty documents (see
+                        Lin 2006). The remaining texts have been judged to date from a later period;
+                        nos.  3, 5, and 6 may have been composed by Jingjing, who was responsible
+                        also for the text of the Xi’an Stele. An important new addition was made to
+                        this corpus in 2006 with the discovery in Luoyang, the ‘eastern capital’ of
+                        the Tang Dynasty, of a stone pillar, which was erected by a family evidently
+                        of Sogdian origin in 814/5 and which, though missing its lower part, is
+                        inscribed with a more complete text of no. 6 than is found in the Dunhuang
+                        manuscript (see Ge 2009 and Tang 2009).</p>
+                    <p>After the turn of the millennium, the presence of Syriac Christians in China
+                        becomes perceptible again during the 12th <abbr>cent.</abbr> with the movement into
+                        northern China of those Turkic tribes that counted E.-Syr. converts among
+                        their members, and reached a new peak during the period of the Yuan Dynasty
+                        (1271–1368), whose Mongol rulers were in close marital and political
+                        alliances with Turco-Mongol tribal federations with strong Christian
+                        elements, such as the Kerait and the Öngüt. The open religious policy of
+                        Genghis Khan and his heirs, the expansion of their empire to the far western
+                        parts of Eurasia, and the resulting facilitation of east-west travel both by
+                        land and by sea led to the arrival also of non-Syriac Christians in China,
+                        including Latin missionaries and traders, as well as Armenians, Alans, and
+                        Georgians. The term <hi rend="italic">Yelikewen</hi> (Turkic/Mongolian <hi rend="italic">Erke’ün</hi>), whose etymology remains unclear, was used
+                        to refer to Christians of all these denominations in the Chinese records
+                        from this period.</p>
+                    <p>We learn from the ‘History of Mar Yahbalaha’ that there was a <abbr>Ch. of E.</abbr>
+                        metropolitan in Khan Baliq (Dadu, modern Beijing), which Khubilai Khan
+                        officially made his capital in 1272, by the middle of the 13th <abbr>cent.</abbr>, and it
+                        was from Khan Baliq that <ref rend="bold" target="https://gedsh.bethmardutho.org/Sawma-Rabban">
+                            <persName ref="http://syriaca.org/person/721">Rabban Ṣawma</persName>
+                        </ref>
+                        and the Öngüt monk Marqos, the future <abbr>
+                            <choice>
+                                <sic>Cath.</sic>
+                                <corr>cath.</corr>
+                            </choice>
+                        </abbr> 
+                  <ref rend="bold" target="https://gedsh.bethmardutho.org/Yahbalaha-III">
+                            <persName ref="http://syriaca.org/person/810">Yahbalaha
+                        III</persName>
+                        </ref>, set out for the West in around 1275. As during the Tang period,
+                        the Christian population of Yuan China evidently consisted largely of
+                        ‘foreign’, non-Han, elements, usually of Turkic origin. Official and
+                        semi-official Chinese sources, accounts left by members of Latin mendicant
+                        orders and by Marco Polo, and archaeological evidence, including a large
+                        number of crosses and funerary inscriptions, sometimes written in Syriac and
+                        more often in Turkic in Syriac script (see <ref rend="bold" target="https://gedsh.bethmardutho.org/Inscriptions">Inscriptions</ref>,
+                        ‘Central and East Asia’), testify to the presence of Syriac Christians,
+                        besides in cities along the Silk Road, especially in Inner Mongolia and in
+                        the southern port city of Quanzhou (Zaitun), as well as in the area around
+                        Beijing and in commercial centers around the lower reaches of the Changjiang
+                        (Yangtze River), such as Yangzhou, Zhenjiang, and Hangzhou.</p>
+                    <p>The history of Syriac Christianity in China more or less came to a close with
+                        the fall of the Yuan Dynasty to the native Chinese Ming Dynasty (1368–1644),
+                        although the possible survival of some descendants of these Christians into
+                        a later period is suggested by a fragmentary <abbr>ms.</abbr> of <ref rend="bold" target="https://gedsh.bethmardutho.org/Qdam-w-Bathar">
+                            <hi rend="italic">Qdām w-Bāthar</hi>
+                        </ref>
+                        which was discovered within the imperial palace complexes in Beijing in 1909
+                        and may date from the 15th or 16th <abbr>cent.</abbr>
+                    </p>
+                    <p>See <ref target="https://gedsh.bethmardutho.org/fig/34">Fig. 34</ref> and <ref target="https://gedsh.bethmardutho.org/fig/127">127</ref>.</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>Ge Chengyong (<abbr>ed.</abbr>), <title rend="italic">Jingjiao yizhen.
+                                Luoyang xin chu Tangdai Jingjiao jingchuang yanjiu</title> (Precious
+                            Nestorian Relic. Studies on the Nestorian Stone Pillar of the Tang
+                            Dynasty Recently Discovered in Luoyang) (Beijing, 2009).</bibl>
+                        <bibl>Fiey, <title rend="italic">Pour un Oriens christianus novus</title>,
+                            70–71, 103–104, 105 (s.v. ‘Chine’, ‘Khan Baliq’, ‘Khumdan et
+                            Sarag’).</bibl>
+                        <bibl>Lin Wushu, ‘Additional Notes on the Authenticity of Tomioka’s and
+                            Takakusu’s Manuscripts’, in Malek 2006,
+                            133–42.</bibl>
+                        <bibl>R. Malek (<abbr>ed.</abbr>), <title rend="italic">Jingjiao. The Church of the East
+                                in China and Central Asia</title> (Sankt Augustin, 2006). (=
+                            Proceedings of the First International Conference ‘Research on the
+                            Church of the East in China and Central Asia’; incl. a comprehensive
+                            bibliography of the relevant literature)</bibl>
+                        <bibl> J. van Mechelen, ‘Yuan’, in <title rend="italic">Handbook of
+                                Christianity in China</title>, vol. 1, <abbr>ed.</abbr> N. Standaert (2001),
+                            43–111.</bibl>
+                        <bibl>M. Nicolini-Zani, <title rend="italic">La via radiosa per l’oriente. I
+                                testi e la storia del primo incontro del cristianesimo con il mondo
+                                culturale e religioso cinese (secoli VII–IX)</title> (Magnano,
+                            2009).</bibl>
+                        <bibl>P. Pelliot, <title rend="italic">L’inscription nestorienne de
+                                Si-ngan-fou, edited with Supplements by Antonino Forte</title>
+                            (Kyoto/Paris, 1996).</bibl>
+                        <bibl>P. Riboud, ‘Tang’, in <title rend="italic">Handbook of Christianity in
+                                China</title>, vol. 1, <abbr>ed.</abbr> N. Standaert (2001), 1–42.</bibl>
+                        <bibl>L. Tang, <title rend="italic">A Study of the History of Nestorian
+                                Christianity in China and its Literature in Chinese. Together with a
+                                New English Translation of the Dunhuang Nestorian Documents</title>
+                            (2004).</bibl>
+                        <bibl>eadem, ‘A Preliminary Study on the Jingjiao Inscription of Luoyang:
+                            Text Analysis, Commentary and English Translation’, in Winkler and Tang
+                            2009, 109–132.</bibl>
+                        <bibl>J. Tubach, ‘Der Apostel Thomas in China. Die Herkunft einer
+                            Tradition’, <title rend="italic">
+                                <choice>
+                                    <sic>The Harp</sic>
+                                </choice>
+                                <corr>Harp</corr>
+                            </title> 8–9 (1995–6),
+                            397–430.</bibl>
+                        <bibl>D. W. Winkler and L. Tang (eds.), <title rend="italic">Hidden
+                                Treasures and Intercultural Encounters. Studies on East Syriac
+                                Christianity in China and Central Asia</title> (2009). (=
+                            Proceedings of the Second International Conference ‘Research on the
+                            Church of the East in China and Central Asia’)</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Hidemi</forename> 
+                  <surname>Takahashi</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

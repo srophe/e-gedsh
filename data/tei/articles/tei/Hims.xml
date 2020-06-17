@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Ḥimṣ</title>
+            <author>
+               <persName>
+                  <forename>Hidemi</forename> 
+                  <surname>Takahashi</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.5">Electronic Edition Version 1.5</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Ḥimṣ</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Hims</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/268</idno>
+                    <idno type="entry">259</idno>
+                    <milestone unit="pages" n="196-197"/>
+                    <idno type="althead">Ḥomṣ</idno>
+                    <idno type="althead">Emesa</idno>
+                    <idno type="subject">http://syriaca.org/place/215</idno>
+                    <note type="type">place</note>
+                    <note type="abstract">City in <placeName>Syria</placeName>, 
+                        located on a fertile
+                        plain just east of the Orontes river.<note/>
+                    </note>
+                </ab>
+                <ab type="infobox">Ḥomṣ, Emesa</ab>
+                <div type="body">
+                    <p>City in Syria. Ḥimṣ, known in Syriac as <hi rend="italic">Ḥemṣ</hi>, <hi rend="italic">Ḥmeṣ</hi>, and <hi rend="italic">Puniqi</hi>, and located
+                        on a fertile plain just east of the Orontes (ʿĀṣī) river, was in the 1st
+                        <abbr>cent.</abbr> BC the seat of a local Arab principality, which became a vassal of
+                        Rome in 64 BC. Ḥimṣ rose to political prominence in the 3rd <abbr>cent.</abbr> when Julia
+                        Domna, a daughter of the Emesan princely-priestly family, married Emperor
+                        Septimius Severus (193–211) and two sons of the same family, Elagabalus
+                        (218–22) and Alexander Severus (222–35), ascended the imperial throne. Ḥimṣ
+                        fell to the Arabs in 637. In the latter part of the 10th <abbr>cent.</abbr>, Ḥimṣ was
+                        occupied on several occasions by the Byzantines. Ḥimṣ was attacked, but not
+                        taken, by the Crusaders in 1098 and 1126. Under Ottoman rule (1516–1918),
+                        Ḥimṣ was the administrative center of a district within the province of <ref rend="bold" target="https://gedsh.bethmardutho.org/Damascus">
+                            <placeName ref="http://syriaca.org/place/66">Damascus</placeName>
+                        </ref>. Ḥimṣ is today a provincial capital with a population of
+                        just under 1 million, making it the third largest city in Syria after <ref rend="bold" target="https://gedsh.bethmardutho.org/Aleppo">
+                            <placeName ref="http://syriaca.org/place/18">Aleppo</placeName>
+                        </ref>
+                        and Damascus.</p>
+                    <p>Ḥimṣ, the birthplace of Pope Anicetus (<abbr>ca.</abbr> 154–66), was no doubt evangelised
+                        at an early date. The Passion of the local martyr Julian (Elian) has two of
+                        its inhabitants healed by Jesus and has the apostles Peter and John pass
+                        through Ḥimṣ on their way to <ref rend="bold" target="https://gedsh.bethmardutho.org/Antioch">
+                            <placeName ref="http://syriaca.org/place/10">Antioch</placeName>
+                        </ref>, while the
+                        Chronicle of <ref rend="bold" target="https://gedsh.bethmardutho.org/Michael-I-Rabo">
+                            <persName ref="http://syriaca.org/person/217">Michael Rabo</persName>
+                        </ref> has Malyo, one of the
+                        seventy, preach the Gospel in Ḥimṣ. Historically more certain is <abbr>
+                            <choice>
+                                <sic>bp.</sic>
+                                <corr>Bp.</corr>
+                            </choice>
+                        </abbr>
+                        Silvanus, who was martyred under Diocletian. Among his successors in the 4th
+                        <abbr>cent.</abbr> were <ref rend="bold" target="https://gedsh.bethmardutho.org/Eusebius-of-Emesa">
+                            <persName ref="http://syriaca.org/person/481">Eusebius of
+                            Emesa</persName>
+                        </ref> and Nemesius, the author of the treatise ‘On the nature of
+                        man’. Ḥimṣ, originally suffragan to Damascus, became a metropolitan see
+                        after the head of St. John the Baptist was discovered in the nearby
+                        Monastery of Spelaeon in 452. <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Romanos-the-Melodist">
+                            <persName ref="http://syriaca.org/person/706">Romanos the
+                            Melodist</persName>
+                        </ref> was a native of Ḥimṣ. <abbr>Bp.</abbr> Julian of Ḥimṣ was among the
+                        Miaphysite bishops banished with <ref rend="bold" target="https://gedsh.bethmardutho.org/Severus-of-Antioch">
+                            <persName ref="http://syriaca.org/person/51">Severus of
+                            Antioch</persName>
+                        </ref> in 519. A noteworthy <abbr>Syr. Orth.</abbr> scholar from Ḥimṣ is ʿAbd
+                        al-Masīḥ <abbr>b.</abbr> Nāʿima al-Ḥimṣī (<abbr>fl.</abbr>
+                        <abbr> ca.</abbr> 830), who translated the so-called
+                        ‘Theology of Aristotle’ into Arabic. In later times, together with <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Musa-al-Habashi-Dayr-Mar">
+                            <placeName ref="http://syriaca.org/place/228">Dayr Mār
+                            Mūsā al-Ḥabashī</placeName>
+                        </ref> some 70 km. to the south, the area around Ḥimṣ
+                        remained a center of <abbr>Syr. Orth.</abbr> activities, which gained in importance
+                        especially around the time of <ref rend="bold" target="https://gedsh.bethmardutho.org/Dawid-Puniqoyo">
+                            <persName ref="http://syriaca.org/person/273">Dawid
+                            Puniqoyo</persName>
+                        </ref> (<choice>
+                            <sic>i.e. </sic>
+                            <corr>i.e., </corr>
+                        </choice>Dawid of Ḥimṣ) and <ref rend="bold" target="https://gedsh.bethmardutho.org/Nuh-the-Lebanese">
+                            <persName ref="http://syriaca.org/person/277">Nuḥ the
+                            Lebanese</persName>
+                        </ref> (<abbr>
+                            <choice>
+                                <sic>Patr.</sic>
+                                <corr>patr.</corr>
+                            </choice>
+                        </abbr> 1493–1509), who was <abbr>bp.</abbr> of Ḥimṣ in 1480–90 and who
+                        spent the latter part of his patriarchate (1493–1509) in the area of Ḥimṣ
+                        and Ḥama, consecrating the myron once in the Monastery of al-Zunnār in Ḥimṣ
+                        and once in the Church of the Forty Martyrs there. Ḥimṣ became the seat of
+                        the <abbr>Syr. Orth.</abbr> patriarchate again when Severos <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Barsoum-Ignatius-Afram">
+                            <persName ref="http://syriaca.org/person/372">Afram
+                            Barsoum</persName>
+                        </ref>, <abbr>metr.</abbr> of Syria and resident in Ḥimṣ, was elected <abbr>
+                            <choice>
+                                <sic>Patr.</sic>
+                                <corr>patr.</corr>
+                            </choice>
+                        </abbr> in
+                        1933 and remained so until 1959 when the patriarchate was transferred to
+                        Damascus.</p>
+                    <p>At the beginning of the 20th <abbr>cent.</abbr>, Ḥimṣ is reported to have had a population
+                        of around 50,000, including 33,000 Muslims, 14,500 <abbr>Melk.</abbr> Orth., 1,000 Syr.
+                        Orth., 500 <abbr>Melk.</abbr> Catholics, and 350 <abbr>Maron.</abbr> Ḥimṣ is today the seat of four
+                        bishoprics: <abbr>Syr. Orth.</abbr> (united with Ḥama, with <abbr>ca.</abbr> 50,000 faithful), Syr.
+                        Catholic (united with Ḥama and Nabk, <abbr>ca.</abbr> 10,000), <abbr>Melk.</abbr> Orth. and <abbr>Melk.</abbr>
+                        Catholic (united with Ḥama and Yabrud). The <abbr>Syr. Orth.</abbr> cathedral of St. Mary
+                        (Umm al-Zunnār) in the eastern part of the old city houses the girdle (<hi rend="italic">zunoro</hi>) of Our Lady which was rediscovered under the
+                        altar of the church by <abbr>Patr.</abbr> Ignatius Aphram Barsoum in 1953.</p>
+                    <p>In the environs of Ḥimṣ are two other old centers of W.-Syr. Christianity:
+                        Ṣadad (<abbr>ca.</abbr> 50 km. south-southeast of Ḥimṣ), whose bishops are attested
+                        sporadically from the 11th <abbr>cent.</abbr> onwards and which was the birthplace of
+                        <abbr>Syr. Orth.</abbr>
+                        <abbr> Patr.</abbr> Ignatius <ref rend="bold" target="https://gedsh.bethmardutho.org/Abdullah-II-Sattuf">
+                            <persName ref="http://syriaca.org/person/313">ʿAbdullāh
+                            Saṭṭūf</persName>
+                        </ref> (1906–15); and Qaryatayn (75 km. southeast), with the
+                        Monastery of St. Julian/Mar Elian (now <abbr>Syr. Cath.</abbr>) just to the west of the
+                        village. Several other villages in the area also have (or had) Syr.
+                        populations: Zaydal (5 km. east of center of Ḥimṣ), Fayrūza (5 km.
+                        southeast), Maskana (7 km. south; birthplace of Syr. Catholic <abbr>Patr.</abbr> Ignatius
+                        Mūsā Dāʾūd, <abbr>
+                            <choice>
+                                <sic>Patr.</sic>
+                                <corr>patr.</corr>
+                            </choice>
+                        </abbr> 1998–2001), al-Fuḥīla (20 km. southeast), Furqlus (35 km.
+                        east-southeast) and al-Ḥafar (7  km. south of Ṣadad).</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>N.  Elisséeff, in <title rend="italic">EI</title>
+                            <hi rend="superscript">2</hi>, vol. 3, 397–402 with map facing 402. (s.v. ‘Ḥimṣ’)</bibl>
+                        <bibl>Fiey, <title rend="italic">Pour un Oriens christianus novus</title>,
+                            211–214 (s.v. ‘Hims’), 261–262 (s.v. ‘Sadad’).</bibl>
+                        <bibl>H.  Kaufhold, ‘Notizen über das Moseskloster und das Julianskloster
+                            bei Qaryatain in Syrien’, <title rend="italic">
+                                <abbr>OC</abbr>
+                            </title> 79 (1995),
+                            48–119.</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>H.  Kaufhold</reg>
+                        <orig>idem</orig>
+                     </choice>, ‘Homs’, <title rend="italic">
+                                <abbr>KLCO</abbr>
+                            </title>, 199.</bibl>
+                        <bibl>J.  Nasrallah, ‘Saints et évêques d’Emèse (Homs)’, <title rend="italic">
+                                <abbr>POC</abbr>
+                            </title> 21 (1971), 213–34.</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Hidemi</forename> 
+                  <surname>Takahashi</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

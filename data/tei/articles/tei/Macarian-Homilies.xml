@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Macarian Homilies</title>
+            <author>
+               <persName>
+                  <forename>Columba Andrew</forename> 
+                  <surname>Stewart</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.5">Electronic Edition Version 1.5</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Macarian Homilies</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Macarian-Homilies</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/344</idno>
+                    <idno type="entry">335</idno>
+                    <milestone unit="pages" n="253-254"/>
+                    <note type="type">subject</note>
+                    <note type="abstract">Anonymous 4th-cent. Greek ascetical texts.<note/>
+                    </note>
+                </ab>
+                <div type="body">
+                    <p>Anonymous 4th-cent. Greek ascetical texts. The original Greek writings
+                        survive in three overlapping collections probably assembled in Byzantine
+                        monastic circles of the 10th and 11th <abbr>cent.</abbr> The most common attribution is
+                        to ‘Macarius’, identified with either of the famous 4th-cent. Egyptian
+                        monks, Macarius the Great or Macarius the Alexandrian. Their authorship is
+                        disproved by study of the spiritual vocabulary of the writings and the use
+                        of quotations from them in a 5th-cent. anti-Messalian dossier preserved by
+                            <ref rend="bold" target="https://gedsh.bethmardutho.org/John-of-Damascus">
+                            <persName ref="http://syriaca.org/person/575">John of Damascus</persName>
+                        </ref>. These indications link the Pseudo-Macarian
+                        texts with an ascetical movement originating in late 4th-cent. Asia Minor or
+                        Syria, within a culture strongly influenced by Syriac Christianity.</p>
+                    <p>The collections contain exhortations and responses to questions about prayer
+                        and progress in the spiritual life. The writings emphasize conflict between
+                        sin and grace within the ‘inner person’, characterized in vivid images of
+                        sensation, mingling, indwelling, and fullness. The sin present in human
+                        beings is ‘uprooted’ by divine power, when the Lord comes to dwell in the
+                        heart and fills it with the Spirit. When liberated from the passions, one
+                        becomes a ‘perfect’ or ‘mature’ Christian and can fulfill the commandments
+                        with ease. Despite powerful experiences of the Spirit, life continues to be
+                        a struggle. Even the perfect Christian is always at risk of relapse, whether
+                        through inattention or by God’s design as a test of faith.</p>
+                    <p>The association of these texts with ‘Messalianism’ in controversial
+                        literature of the 4th and 5th <abbr>cent.</abbr> seems to have been unknown or overlooked
+                        by both contemporary and later authors. The so-called ‘Great Letter’ (<hi rend="italic">Epistola Magna</hi>) of Pseudo-Macarius was the major
+                        source for <ref rend="bold" target="https://gedsh.bethmardutho.org/Gregory-of-Nyssa">
+                            <persName ref="http://syriaca.org/person/512">Gregory of
+                            Nyssa</persName>
+                        </ref>’s ascetic treatise commonly known as <hi rend="italic">De
+                            instituto christiano</hi> ‘On a Christian way of life’. Macarian themes
+                        and language strongly influenced later writers, notably Diadochus of Photike
+                        and <ref rend="bold" target="https://gedsh.bethmardutho.org/Ishaq-of-Nineveh">
+                            <persName ref="http://syriaca.org/person/550">Isḥaq of Nineveh</persName>
+                        </ref>. At least two Syriac translations survive; among
+                        these are two 6th-cent. <abbr>mss.</abbr>, by far the oldest extant <abbr>mss.</abbr> of the
+                        (Peudo-)Macarian corpus. There are also Arabic and Georgian versions of some
+                        of the texts.</p>
+                </div>
+                <div type="bibl">
+                    <listBibl>
+                        <listBibl>
+                            <head>Primary Sources</head>
+                            <listBibl>
+                                <head>Greek</head>
+                                <bibl>Collection I, <abbr>ed.</abbr> H. Berthold (<abbr>GCS</abbr>, 1973).</bibl>
+                                <bibl>Collection II, <abbr>ed.</abbr> H. Dörries <abbr>et al.</abbr> (<abbr>PTS</abbr> 4, 1964).</bibl>
+                                <bibl>Collection III, <abbr>ed.</abbr> V. Desprez (SC 275, 1980).</bibl>
+                                <bibl>
+                                    <title rend="italic">Epistola magna</title>, <abbr>ed.</abbr> R. Staats
+                                    (Abhandlungen der Akademie der Wissenschaften in Göttingen,
+                                    Philol.-hist. Klasse, 3rd series, 134; 1984).</bibl>
+                                <bibl>
+                                    <abbr>ET</abbr> of Collection II and <title rend="italic">Epistola
+                                        magna</title> in G. A. Maloney, <title rend="italic">Pseudo-Macarius. The fifty Spiritual Homilies and the Great
+                                        Letter</title> (1992).</bibl>
+                                <bibl>Texts transmitted under Ephrem’s name <abbr>ed.</abbr> W. Strothmann (<abbr>GOFS</abbr>
+                                    22, 1981).</bibl>
+                            </listBibl>
+                            <listBibl>
+                                <head>Syriac</head>
+                                <bibl>W. Strothmann, <title rend="italic">Die syrische Überlieferung
+                                        der Schriften des Makarios</title>, I–II (<abbr>GOFS</abbr> 21,
+                                    1981).</bibl>
+                            </listBibl>
+                        </listBibl>
+                        <listBibl>
+                            <head>Secondary Sources</head>
+                            <bibl>H.  Dörries, <title rend="italic">Symeon von Mesopotamien. Die
+                                    Überlieferung der messalianischen ‘Makarios’-Schriften</title>
+                                (<abbr>TU</abbr> 55; 1941).</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>H.  Dörries</reg>
+                           <orig>idem</orig>
+                        </choice>, <title rend="italic">Die Theologie des
+                                    Makarios-Symeon</title> (Abhandlungen der Akademie der
+                                Wissenschaften in Göttingen, Philol.-hist. Klasse, 3rd series, 103,
+                                1978).</bibl>
+                            <bibl>R.  Draguet, ‘Parallèles macariens syriaques des Logoi I et III de
+                                l’Ascéticon isaïen syriaque’, <title rend="italic">
+                                    <abbr>LM</abbr>
+                                </title> 83
+                                (1970), 483–96.</bibl>
+                            <bibl>K.  Fitschen, <title rend="italic">
+                                    <choice>
+                                        <sic>Messialianismus</sic>
+                                        <corr>Messalianismus</corr>
+                                    </choice> und
+                                    Antimessalianismus. Ein Beispiel ostkirchlicher
+                                    Ketzergeschichte</title> (1998).</bibl>
+                            <bibl>M.  Plested, <title rend="italic">The Macarian legacy. The place
+                                    of Macarius-Symeon in the Eastern Christian tradition</title>
+                                (2004).</bibl>
+                            <bibl>C.  Stewart, <title rend="italic">Working the earth of the heart:
+                                    the Messalian controversy in history, texts and literature to
+                                    A.D. 431</title> (1992).</bibl>
+                            <bibl>W.  Strothmann, ‘Makarios und die Makariosschriften in der
+                                syrischen Literatur’, <title rend="italic">
+                                    <abbr>OC</abbr>
+                                </title> 54 (1970),
+                                96–105.</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>W.  Strothmann</reg>
+                           <orig>idem</orig>
+                        </choice>, <title rend="italic">Makarios-Symposium über das Böse:
+                                    Vorträge der Finnisch-Deutschen Theologentagung in Goslar
+                                    1980</title> (<abbr>GOFS</abbr> 24; 1983).</bibl>
+                        </listBibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Columba Andrew</forename> 
+                  <surname>Stewart</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

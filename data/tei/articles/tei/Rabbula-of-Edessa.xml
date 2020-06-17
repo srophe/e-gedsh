@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Rabbula of Edessa</title>
+            <author>
+               <persName>
+                  <forename>Susan Ashbrook</forename> 
+                  <surname>Harvey</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.5">Electronic Edition Version 1.5</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Rabbula of Edessa</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Rabbula-of-Edessa</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/459</idno>
+                    <idno type="entry">450</idno>
+                    <milestone unit="pages" n="348"/>
+                    <idno type="subject">http://syriaca.org/person/26</idno>
+                    <note type="type">person</note>
+                    <note type="abstract">
+                        <abbr>Bp.</abbr> of <placeName>Edessa</placeName>
+                            (411/2–435/6).<note>brief</note>
+                    </note>
+                </ab>
+                <ab type="infobox">(d. 435/6)</ab>
+                <div type="body">
+                    <p>
+                        <abbr>Bp.</abbr> of <ref rend="bold" target="https://gedsh.bethmardutho.org/Edessa">
+                            <placeName ref="http://syriaca.org/place/78">Edessa</placeName>
+                        </ref> (411/2–435/6). Born into an aristocratic family in
+                        Qenneshrin (Chalcis), son of a pagan father and a Christian mother, Rabbula
+                        converted to Christianity as an adult, leaving his mother, wife, and
+                        children for the monastic life. Before long, he was elected <abbr>
+                            <choice>
+                                <sic>Bp.</sic>
+                                <corr>bp.</corr>
+                            </choice>
+                        </abbr> of Edessa,
+                        where he became one of the great church leaders of his time. A fierce
+                        advocate for <ref rend="bold" target="https://gedsh.bethmardutho.org/Cyril-of-Alexandria">
+                            <persName ref="http://syriaca.org/person/430">Cyril of
+                            Alexandria</persName>
+                        </ref> in the emerging Christological debates, Rabbula was
+                        said to have campaigned violently against pagans, ‘heretics’, and Jews, and
+                        to have destroyed four temples and a synagogue. Rabbula was also renowned
+                        for his work among the poor, for building hospitals, for regulating clergy,
+                        monastics, and members of the Covenant (<ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Bnay-Qyama-Bnat-Qyama">
+                            <hi rend="italic">Bnay qyāmā</hi>
+                        </ref>)
+                        with extensive legislation; for promoting a revised translation of the New
+                        Testament, and for composing numerous hymns. His extant writings are few,
+                        and some of dubious authenticity: several collections of rules governing
+                        church order, a sermon he delivered in Constantinople (in Syriac
+                        translation), a few letters including correspondence with Cyril, and various
+                        hymns. There is a magnificent hagiography in his honor.</p>
+                    <p>See <ref target="https://gedsh.bethmardutho.org/fig/105">Fig. 105</ref>.</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>
+                            <title rend="italic">
+                                <abbr>CPG</abbr>
+                            </title> 6490–6497.</bibl>
+                        <bibl>G. G.  Blum, <title rend="italic">Rabbula von Edessa</title> (<abbr>CSCO</abbr>
+                            300; 1969).</bibl>
+                        <bibl>R.  Doran, <title rend="italic">Stewards of the poor: The Man of God,
+                            Rabbula, and Hiba in <choice>
+                                    <sic>fifth century</sic>
+                                    <corr>fifth-century</corr>
+                                </choice> Edessa</title> (2006), 65–105.
+                            (<abbr>ET</abbr> of the Life)</bibl>
+                        <bibl>H. J. W.  Drijvers, ‘The Man of God of Edessa, Bishop Rabbula, and the
+                            urban poor: Church and society in the fifth century’, <title rend="italic">
+                                <abbr>JECS</abbr>
+                            </title> 4 (1996), 235–48.</bibl>
+                        <bibl>M.  Gaddis, <title rend="italic">There is no crime for those who have
+                                Christ. Religious violence in the Christian Roman Empire</title>
+                            (2005).</bibl>
+                        <bibl>C.  Horn and R.  Phenix, <title rend="italic">The Rabbula Corpus
+                          </title> (forthcoming).</bibl>
+                        <bibl>J. J.  Overbeck, <title rend="italic">
+                                <choice>
+                                    <sic>Ephraemi Syri</sic>
+                                    <corr>S. Ephraemi Syri</corr>
+                                </choice>, Rabulae episcopi
+                                Edesseni, Balaei aliorumque opera selecta</title> (1865; <abbr>repr.</abbr>
+                            2007), 157–248. (Syr.)</bibl>
+                        <bibl>K.  Pinggéra, ‘Rabbula von Edessa’, in <title rend="italic">Syrische
+                                Kirchenväter</title>, <abbr>ed.</abbr> W. Klein (2004), 57–70.</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Susan Ashbrook</forename> 
+                  <surname>Harvey</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

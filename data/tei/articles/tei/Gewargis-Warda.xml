@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Gewargis Warda</title>
+            <author>
+               <persName>
+                  <forename>Alessandro</forename> 
+                  <surname>Mengozzi</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.5">Electronic Edition Version 1.5</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Gewargis Warda</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Gewargis-Warda</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/236</idno>
+                    <idno type="entry">227</idno>
+                    <milestone unit="pages" n="176-177"/>
+                    <idno type="subject">http://syriaca.org/person/504</idno>
+                    <note type="type">person</note>
+                    <note type="abstract">Author to whom a collection of hymns titled <title rend="italic" xml:lang="en-x-gedsh">Kthābhā
+                            d-wardā</title> ‘Book of the Rose’ is attributed.<note/>
+                    </note>
+                </ab>
+                <ab type="infobox">(13th <abbr>cent.</abbr>?) [Ch. of E.]</ab>
+                <div type="body">
+                    <p>The <hi rend="italic">Kthābhā d-wardā</hi> ‘Book of the Rose’ is a collection
+                        of hymns for the various festivals of the liturgical year, usually
+                        attributed in the <abbr>mss.</abbr> to a certain Gewargis, surnamed Warda. Most of the
+                        hymns belong to the <ref rend="bold" target="https://gedsh.bethmardutho.org/Onitha">
+                            <hi rend="italic">ʿOnithā</hi>
+                        </ref> genre and
+                        parts or the whole of the corpus have been incorporated, especially in the
+                        19th <abbr>cent.</abbr>, in larger collections of <hi rend="italic">ʿonyāthā</hi> by
+                        other hymnographers. So far, only 31 of the <abbr>ca.</abbr> 150 items have been
+                        published or translated. The <abbr>ms.</abbr> transmission presents a high degree of
+                        variation in the number and order of the texts. No systematic study of the
+                        text history of the <hi rend="italic">Kthābhā d-wardā</hi> or of the hymns
+                        attributed to Gewargis is available, and it is therefore difficult to define
+                        criteria of authenticity. The two poems ‘On the capture of Jerusalem by
+                        Saladin’, preserved in only one <abbr>ms.</abbr>, probably do not belong to the original
+                        nucleus.</p>
+                    <p>There is no reliable information on the life or birthplace of the alleged
+                        author (and/or compiler?). One poem is an outcry against an infidel deacon
+                        of a village near <ref rend="bold" target="https://gedsh.bethmardutho.org/Arbela">
+                            <placeName ref="http://syriaca.org/place/13">Arbela</placeName>
+                        </ref>, and in one
+                        <abbr>ms.</abbr> (Sachau 64) it is said that Gewargis was from Arbela, perhaps because he
+                        has been confused with the 10th-cent. E-Syr. author <ref rend="bold" target="https://gedsh.bethmardutho.org/Gewargis-of-Arbela">
+                            <persName ref="http://syriaca.org/person/502">Gewargis of
+                            Arbela</persName>
+                        </ref>, or in order to distinguish him from a Gewargis of <ref rend="bold" target="https://gedsh.bethmardutho.org/Mosul">
+                            <placeName ref="http://syriaca.org/place/139">Mosul</placeName>
+                        </ref>,
+                        mentioned in the same <abbr>ms.</abbr> Like <ref rend="bold" target="https://gedsh.bethmardutho.org/Khamis-bar-Qardahe">
+                            <persName ref="http://syriaca.org/person/587">Khamis bar
+                            Qardaḥe</persName>
+                        </ref> (also connected with Arbela), Gewargis is not included in
+                        the ‘Paradise of Eden’ by <ref rend="bold" target="https://gedsh.bethmardutho.org/Abdisho-bar-Brikha">
+                            <persName ref="http://syriaca.org/person/310">ʿAbdishoʿ bar
+                            Brikha</persName>
+                        </ref>. Attempts to place Gewargis in the first half of the 13th
+                        <abbr>cent.</abbr> at the time of the events described in poems of the <hi rend="italic">Wardā</hi> collection (famines and the Mongol raids of 1223/4–1235/6)
+                        are in contradiction with, <choice>
+                            <sic>e.g.</sic>
+                            <corr>e.g., </corr>
+                        </choice>the mention of Timotheos II (<abbr>
+                            <choice>
+                                <sic>Patr.</sic>
+                                <corr>patr.</corr>
+                            </choice>
+                        </abbr> from 1318
+                        to 1332) in the ‘ʿOnithā on the Catholicoi of the East’.</p>
+                    <p>The <hi rend="italic">Wardā</hi> contains exhortations to repentance, hymns
+                        for the various feasts, commemorations of saints, martyrs, and calamitous
+                        historical events. The melody and the liturgical occasion for which the text
+                        is fitted are noted above each poem. The use of biblical texts and exempla
+                        is often rich and felicitous. Some texts elaborate on apocryphal material,
+                        <choice>
+                            <sic>e.g.</sic>
+                            <corr>e.g., </corr>
+                        </choice>‘In praise of Mary’ lists the traditional names of the twelve kings (as
+                        in <ref rend="bold" target="https://gedsh.bethmardutho.org/Shlemon-of-Basra">
+                            <persName ref="http://syriaca.org/person/745">Shlemon of Baṣra</persName>
+                        </ref>) and ‘On the Childhood of Christ’ possibly
+                        derives from a lost E.-Syr. source, parts of which are preserved in the
+                        ‘History of the Blessed Virgin Mary’ (<abbr>ed.</abbr> E. A. W.  Budge, 1899). A ‘<hi rend="italic">memrā</hi> on Man as Microcosm’ appears to derive from
+                        Greek medical and philosophical traditions via the Syr. <hi rend="italic">Traité d’Ahoudemmeh sur l’homme</hi> (<abbr>ed.</abbr> F. Nau, <abbr>PO</abbr> 3.1, 1905). The
+                        hymns on historical events have recently been read as examples of
+                        theological reflection on history. More properly, they should be interpreted
+                        as liturgical texts, as their function was stated to be. Referring to
+                        specific historical events or, more in general, to disasters which were
+                        dramatically recurrent, they probably functioned as textual supports for
+                        public commemorations, as prayers of supplication, or to avert disaster.</p>
+                </div>
+                <div type="bibl">
+                    <listBibl>
+                        <listBibl>
+                            <head>Primary Sources</head>
+                            <bibl>G. P. Badger, <title rend="italic">The Nestorians and their
+                                    rituals</title> (1852), vol. 3, 51–7. (Mary; only <abbr>ET</abbr>)</bibl>
+                            <bibl>G.  Cardahi, <title rend="italic">Liber thesauri de arte poetica
+                                    Syrorum</title> (1875), 51–55. (Annunciation)</bibl>
+                            <bibl>A.  Deutsch, <title rend="italic">Edition dreier syrischer Lieder
+                                    nach einer Handschrift der Berliner Königlichen
+                                    Bibliothek</title> (1895). (1. Attack by the Mongols at
+                                Karamlish in 1235/6; 2–3. Rogation of the Ninivites; Syr. with
+                                <abbr>GT</abbr>)</bibl>
+                            <bibl>I.  Folkmann, <title rend="italic">Ausgewählte nestorianische
+                                    Gedichte von Giwargis Warda, mit Einleitung, Anmerkungen und
+                                    deutscher Übersetzung</title> (1896). (1. Penitence; 2–7. St.
+                                George)</bibl>
+                            <bibl>Ph. Gignoux, ‘Un poème inédit sur l’homme-microcosme de Guiwarguis
+                                Wardā (13ème siècle)’, in <title rend="italic">Ressembler au
+                                    monde</title> (1999), 95–189. (Syr. with <abbr>FT</abbr>)</bibl>
+                            <bibl>H. Hilgenfeld, <title rend="italic">Ausgewählte Gesänge des
+                                    Giwargis Warda von Arbel</title> (1904). (1–4. Famine and other
+                                calamities; 5. Attack by the Mongols at Karamlish in 1235/6 AD; 6.
+                                The deacon Abraham of Meshkaleg, an infidel; 7. John the Baptist; 8.
+                                Tahmazgerd and the martyrs of Karkha d-Beth Slokh; 9. Jacob of Beth
+                                Lapat)</bibl>
+                            <bibl>
+                                <title rend="italic">Ktābonā d-partute</title> (Urmia, 1898; <abbr>repr.</abbr>
+                                    <title rend="italic"> The Book of Crumbs</title>, 2006), 266–74.
+                                (for the 3rd Sunday of Elijah; partial <abbr>FT</abbr> in H. Pognon, <title rend="italic">Une version syriaque des aphorismes d’Hippocrate
+                                </title>[1903], vol. 2, v–x)</bibl>
+                            <bibl>J. E.  Manna, <title rend="italic">Morceaux choisis de litérature
+                                    araméenne</title> (1901), vol. 2, 295–322. (1. In praise of
+                                Mary; 2. Temporal Birth of God; 3. Man as Microcosm)</bibl>
+                            <bibl>Th.  Noeldeke, ‘Zwei syrische Lieder auf die Einnahme Jerusalems
+                                durch Saladin’, <title rend="italic">
+                                    <abbr>ZDMG</abbr>
+                                </title> 27 (1873),
+                                489–510. (Syr. and <abbr>GT</abbr>)</bibl>
+                            <bibl>A.  Pritula, ‘An autobiographic hymn by Givargis Warda’, in <title rend="italic">Syriaca</title> II, <abbr>ed.</abbr> M. Tamcke (2004), 229–41.
+                                (photo-reproduction of a <abbr>ms.</abbr>, here and there illegible, and
+                                <abbr>ET</abbr>)</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>A.  Pritula</reg>
+                           <orig>idem</orig>
+                        </choice>, ‘A Hymn by Givargis Warda on the Childhood of Christ’, in
+                                    <title rend="italic">Die Suryoye und ihre Umwelt</title>, <abbr>ed.</abbr> M.
+                                Tamcke and A. Heinz (2005), 423–51. (Syr. and <abbr>ET</abbr>)</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>A.  Pritula</reg>
+                           <orig>idem</orig>
+                        </choice>, ‘Iz istorii vostochno-siriyskoy liturgicheskoy poezii:
+                                Zaklyuchitelnoe pesnopenie “Moleniya Ninevityan”’, <title rend="italic">Volshebnaya gora</title> 12 (2006), 147–59.
+                                (Rogation of the Ninivites; Syr. with <abbr>RT</abbr>)</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>A.  Pritula</reg>
+                           <orig>idem</orig>
+                        </choice>, ‘Pesnopenie Givargisa Vardy o grobe’, <title rend="italic">Volshebnaya gora</title> 14 (2007), 92–103. (The soul and the
+                                body in the grave, Syr. with <abbr>RT</abbr>)</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>A.  Pritula</reg>
+                           <orig>idem</orig>
+                        </choice>, ‘Gimn o neravenstve v chelovecheskom obshchestve iz
+                                vostochno-siriyskogo sbornika Varda’, <title rend="italic">Volshebnaya gora</title> 15 (2008), 123–35. (Social inequality;
+                                Syr. with <abbr>RT</abbr>)</bibl>
+                            <bibl>B.  Vandenhoff, ‘Vier geistliche Gedichte in syrischer und
+                                neusyrischer Sprache’, <title rend="italic">
+                                    <abbr>OC</abbr>
+                                </title> 8 (1908),
+                                389–452. (Childhood of Christ; <abbr>GT</abbr> of the Syr. text and of a Sureth
+                                poetic version attributed to Yawsep of Telkepe)</bibl>
+                        </listBibl>
+                        <listBibl>
+                            <head>Secondary Sources</head>
+                            <bibl>D. Bundy, ‘Georges Warda’, <title rend="italic">
+                                    <abbr>DHGE</abbr>
+                                </title>,
+                                vol.20 (1983), 668–9.</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>D. Bundy</reg>
+                           <orig>idem</orig>
+                        </choice>, ‘Interpreter of the acts of God and humans: George Warda,
+                                historian and theologian of the 13th century’, <title rend="italic">
+                                    <abbr>Harp</abbr>
+                                </title> 6.1 (1993), 7–20.</bibl>
+                            <bibl>Ph. Gignoux, ‘Giorgio Warda’, <title rend="italic">Storia della
+                                    scienza — Treccani</title>, vol. 4, sez. 1. <title rend="italic">La scienza siriaca</title>, <abbr>ed.</abbr> J. Teixidor and R. Contini
+                                (2001), 52–3.</bibl>
+                            <bibl>M.  Tamcke, ‘Bemerkungen zu Giwargis Wardas ʿOnita über die
+                                Katholikoi des Ostens’, in <title rend="italic">Syriaca II</title>,
+                                <abbr>ed.</abbr> M. Tamcke (2004), 203–27.</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>M.  Tamcke</reg>
+                           <orig>idem</orig>
+                        </choice>  ‘Die islamische Zeit in Giwargis Wardas ʿOnita über die
+                                Katholikoi des Ostens’, in <title rend="italic">The Encounter of
+                                    Eastern Christianity with Early Islam</title>, <abbr>ed.</abbr> E. Grypeou,
+                                M. Swanson, and D. Thomas (2006), 139–52.</bibl>
+                            <bibl>M.  Tamcke,  ‘How Giwargis Warda retells biblical texts: Some
+                                remarks’, in <title rend="italic">Rewritten Bible
+                                    Reconsidered</title>, <abbr>ed.</abbr> A. Laato and J. van Ruiten (2008),
+                                249–69.</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>M.  Tamcke</reg>
+                           <orig>idem</orig>
+                        </choice>, ‘Heuschrecken, Dürre und Mongolen. Gott und die Katastrophen
+                                in der syrischen Literatur’, in <title rend="italic">Vorsehung,
+                                    Schicksal und göttliche Macht</title>, <abbr>ed.</abbr> R. G.  Kratz and
+                                H.  Spieckermann (2008), 241–63.</bibl>
+                        </listBibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Alessandro</forename> 
+                  <surname>Mengozzi</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

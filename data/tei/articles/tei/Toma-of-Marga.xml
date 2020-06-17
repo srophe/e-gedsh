@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Toma of Marga</title>
+            <author>
+               <persName>
+                  <forename>Witold</forename> 
+                  <surname>Witakowski</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.5">Electronic Edition Version 1.5</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Toma of Marga</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Toma-of-Marga</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/571</idno>
+                    <idno type="entry">562</idno>
+                    <milestone unit="pages" n="417"/>
+                    <idno type="subject">http://syriaca.org/person/796</idno>
+                    <note type="type">person</note>
+                    <note type="abstract">E.-Syr. abbot and <abbr>bp.</abbr>, the author of a monastic
+                        history.<note/>
+                    </note>
+                </ab>
+                <ab type="infobox">(9th <abbr>cent.</abbr>) [Ch. of E.]</ab>
+                <div type="body">
+                    <p>E.-Syr. abbot and <abbr>bp.</abbr>, the author of a monastic history. Toma son of Yaʿqob,
+                        was born in the 810s in the village of Neḥshon (Book of Governors, II, 311)
+                        in the district of Beth Sharonaye, in the diocese of Slokh, <ref rend="bold" target="https://gedsh.bethmardutho.org/Adiabene">
+                            <placeName ref="http://syriaca.org/place/993">Adiabene</placeName>
+                        </ref>.</p>
+                    <p>In 832, as a ‘young man’ he became a monk in the <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Beth-Abe-Monastery-of">
+                            <placeName ref="http://syriaca.org/place/223">Monastery
+                            of Beth ʿAbe</placeName>
+                        </ref> (‘The Forest Monastery’), in Marga, ca 100 km.
+                        north-east of <ref rend="bold" target="https://gedsh.bethmardutho.org/Mosul">
+                            <placeName ref="http://syriaca.org/place/139">Mosul</placeName>
+                        </ref>. It was one of the most renowned E.-Syr. monasteries, from
+                        which many bps., metropolitans, and catholicoi of the E.-Syr. Church hailed.
+                        When in the year 837 a former monk and abbot of Beth ʿAbe, Abraham, became
+                        <abbr>Cath.</abbr> (Abraham  II, 837–50), Toma, his friend in the monastery, became his
+                        secretary. A few years later (in 840s) Abraham appointed Toma <abbr>bp.</abbr> of Marga.
+                        We know nothing more about his life, and even the date of his death remains
+                        unknown.</p>
+                    <p>For a long time it was thought that Toma was also appointed by <abbr>Cath.</abbr> Abraham
+                        II metropolitan of <ref rend="bold" target="https://gedsh.bethmardutho.org/Beth-Garmai">
+                            <placeName ref="http://syriaca.org/place/33">Beth Garmai</placeName>
+                        </ref>,
+                        and that he was a brother of <abbr>Cath.</abbr> Theodosios (853–58). However, in the
+                        light of Fiey’s research (1965, 362–4), it appears that Toma of Marga and
+                        Toma the metropolitan of Beth Garmai are two different persons.</p>
+                    <p>Toma wrote three books, all within the genre of monastic history.</p>
+                    <p>The first of them, which may have been entitled ‘The Histories of certain
+                        holy men’, is only known from his own mention of it in the ‘Book of
+                        Governors’. It is probable that the material of the former book was re-used
+                        by Toma in the latter.</p>
+                    <p>Toma’s second work was ‘The History of the Monastery of Rabban Cyprian’ (in
+                        Birtha, in the diocese of Marga), which contained an account of the first
+                        monks (before <ref rend="bold" target="https://gedsh.bethmardutho.org/Abraham-of-Kashkar">
+                            <persName ref="http://syriaca.org/person/320">Abraham of
+                            Kashkar</persName>
+                        </ref>) in this region. This, although written earlier, was
+                        incorporated as the 6th book of Toma’s third and most comprehensive
+                        work:</p>
+                    <p>The Book of the Governors (Syr. <hi rend="italic">ktābā d-rešāne</hi>), scil.
+                        of the Monastery of Beth ʿAbe (better: Book of Abbots), is also known in
+                        Western scholarship as <hi rend="italic">Historia Monastica</hi>. This short
+                        title is known only from the colophon, whereas the full Syriac title is:
+                        ‘Useful stories and accounts of holy men and monks who for generations lived
+                        in the holy monastery of Beth ʿAbe, written by the venerable Mar Toma bishop
+                        of Marga’. The work was most probably written <abbr>ca.</abbr> 850 when Toma already was
+                        the <abbr>bp.</abbr> of Marga. He dedicated it to ʿAbdishoʿ, another monk in the same
+                        monastery, who encouraged him to write. It was modelled on the pattern of
+                        the Paradise of <ref rend="bold" target="https://gedsh.bethmardutho.org/Palladius">
+                            <persName ref="http://syriaca.org/person/668">Palladius</persName>
+                        </ref>, known
+                        to Toma in the redaction of <ref rend="bold" target="https://gedsh.bethmardutho.org/Enanisho">
+                            <persName ref="http://syriaca.org/person/474">ʿEnanishoʿ</persName>
+                        </ref> (<abbr>ca.</abbr>
+                        670) (Budge, <hi rend="italic">The Book</hi>, vol. 1, xxxi–xxxiii). It
+                        provides not only a series of lives of the abbots, but also information on
+                        the catholicoi, metropolitans, and bps., as well as on the establishment of
+                        schools, theological controversies, etc. There is much material both on
+                        monks from other monastic houses (those on Mount Izla) and on the
+                        development of E.-Syr. monasticism in general from the 6th until the 9th
+                        <abbr>cent.</abbr> Toma also provides important accounts of the non-monastic history of
+                        the <abbr>Ch. of E.</abbr>, such as the conversion of the peoples living southeast of the
+                        Caspian Sea and the missions to South Arabia, Persia, and <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/China-Syriac-Christianity-in">China</ref>. He writes on the relations of the Christians with the
+                        Persian and later Muslim authorities, but also on matters such as the murder
+                        of the Sasanian king Khusrau and the expansion of the Muslim empire.</p>
+                    <p>Toma has also shown his poetical skills by inserting into Book 3 a <hi rend="italic">memrā</hi> in the 12–syllable meter on Maranʿammeh,
+                        metropolitan of <ref rend="bold" target="https://gedsh.bethmardutho.org/Arbela">
+                            <placeName ref="http://syriaca.org/place/13">Arbela</placeName>
+                        </ref>, <choice>
+                            <sic>i.e. </sic>
+                            <corr>i.e., </corr>
+                        </choice>of
+                        Adiabene, who had also been a monk of Beth ʿAbe.</p>
+                </div>
+                <div type="bibl">
+                    <listBibl>
+                        <listBibl>
+                            <head>Primary Sources</head>
+                            <bibl>A.  Abūna, <title rend="italic">Kitāb al-ruʾasāʾ…</title> (1966).
+                                (<abbr>AT</abbr>, non vidi)</bibl>
+                            <bibl>Assemani, <title rend="italic">BibOr</title>, 3.1. 463–501. (=
+                                Cap. XXIII: Thomas episcopus Margensis), and passim. (<abbr>LT</abbr>
+                                excerpts)</bibl>
+                            <bibl>P.  Bedjan. <title rend="italic">Liber Superiorum seu historia
+                                    monastica auctore Thoma episcopo Margensi</title> (1901).
+                                (Syr.)</bibl>
+                            <bibl>Braun, <title rend="italic">Ausgewählte Akten persischer
+                                    Märtyrer</title>, 289–317. (<abbr>GT</abbr> excerpts)</bibl>
+                            <bibl>J. E.  Manna, <title rend="italic">Morceaux choisis de littérature
+                                    araméenne</title>, vol. 2 (1901), 55–68. (Syr. excerpts)</bibl>
+                            <bibl>E. A. W.  Budge, <title rend="italic">The Book of Governors: the
+                                    Historia Monastica of Thomas Bishop of Margâ, A.D. 840</title>
+                                (1893). (Syr. with <abbr>ET</abbr>)</bibl>
+                        </listBibl>
+                        <listBibl>
+                            <head>Secondary Sources</head>
+                            <bibl>
+                        <choice>
+                           <sic>J. M.  Fiey</sic>
+                           <corr>J.-M.  Fiey</corr>
+                        </choice>, ‘Thomas de Marga: Notule de littérature syriaque’,
+                                    <title rend="italic">
+                                    <abbr>LM</abbr>
+                                </title> 78 (1965), 361–66.</bibl>
+                            <bibl>W.  Schwaigert, ‘Thomas von Margā’, in <title rend="italic">
+                                    <abbr>BBK</abbr>
+                                </title>, vol. 11 (1996), 1400–1402.</bibl>
+                            <bibl>A.  Solignac, ‘Thomas de Marga’, in <title rend="italic">
+                                    <abbr>DSpir</abbr>
+                                </title>, vol. 15 (1991), 847–49.</bibl>
+                            <bibl>H. G. B.  Teule, ‘Thomas of Margā’, in <title rend="italic">Christian-Muslim relations</title>, <abbr>ed.</abbr> Thomas and Roggema,
+                                688–90.</bibl>
+                        </listBibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Witold</forename> 
+                  <surname>Witakowski</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

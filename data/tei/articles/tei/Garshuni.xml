@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Garshuni</title>
+            <author>
+               <persName>
+                  <forename>Alessandro</forename> 
+                  <surname>Mengozzi</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.5">Electronic Edition Version 1.5</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Garshuni</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Garshuni</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/230</idno>
+                    <idno type="entry">221</idno>
+                    <milestone unit="pages" n="172-173"/>
+                    <idno type="althead">Karshuni</idno>
+                    <note type="type">subject</note>
+                    <note type="abstract">The term Garshuni refers to Arabic texts written in Syriac
+                        script.<note/>
+                    </note>
+                </ab>
+                <ab type="infobox">Karshuni</ab>
+                <div type="body">
+                    <p>The term Garshuni refers to Arabic texts written in <ref rend="bold" target="https://gedsh.bethmardutho.org/Script-Syriac">Syriac
+                        script</ref>. The etymology is unknown: it has been connected with Gershon
+                        (Ex 2.22) and therefore to the legend of Moses as the inventor of writing,
+                        or to a certain Carsciun. In Levantine Arabic, <hi rend="italic">btaḥkī
+                            karšūnī</hi>? ‘do you speak Garshuni?’ indicates an exotic,
+                        incomprehensible language. The variant Karshuni probably derives from the
+                        rendering of a Syriac /g/ in Arabic script. The use of the term has been
+                        extended to label other cases of heterography: Armenian, Kurdish, Malayalam,
+                        Persian, or Turkish ‘Garshuni’ (E.-Syr. script).</p>
+                    <p>Most Garshuni texts are written in Serṭo. Especially <abbr>Maron.</abbr> scribes,
+                        belonging to a profoundly arabized community, wrote various kinds of
+                        Garshuni texts, on various mediums. The earliest dated sample known so far
+                        is a historical note written in 1154 in the margins of the <ref rend="bold" target="https://gedsh.bethmardutho.org/Rabbula-Gospels">Rabbula
+                            Gospels</ref>, f. 7b. The earliest complete literary texts copied in
+                        Garshuni are of the 14th <abbr>cent.</abbr> The system was used by E. Syrians too, from
+                        the 17th <abbr>cent.</abbr> Recording the Arabic language in Syriac script answers
+                        ideological rather than practical purposes. The emergence of Garshuni may be
+                        explained by the symbolic significance of the traditional alphabet as a
+                        device to assert and strengthen cultural identity and the magic and
+                        aesthetic virtues attributed to it.</p>
+                    <p>Garshuni requires a high degree of literacy in Arabic. Classical Arabic
+                        diacritics and spelling conventions are commonly used. The correspondence
+                        between Syriac graphemes and Arabic phonemes is not always one-to-one, e.g.,
+                        the Syriac letter <hi rend="italic">g</hi> is used for both Arabic <hi rend="italic">gh</hi> and <hi rend="italic">j</hi>.</p>
+                    <p>See <ref target="https://gedsh.bethmardutho.org/fig/54">Fig. 54</ref>.</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>J.  Assfalg, ‘Arabische Handschriften in syrischer Schrift
+                            (Karšuni)’, in <title rend="italic">Grundriss der arabischen
+                                Philologie</title>, vol. 1, <abbr>ed.</abbr> W.  Fischer (1982), 297–302.</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>J.  Assfalg</reg>
+                        <orig>idem</orig>
+                     </choice>, in <title rend="italic">
+                                <abbr>KLCO</abbr>
+                            </title>, 223.</bibl>
+                        <bibl>F. Briquel Chatonnet, ‘De l’intérêt de l’étude du garshouni et des
+                            manuscrits écrits selon ce système’, in <title rend="italic">L’Orient
+                                chrétien dans l’empire musulman</title>, <abbr>ed.</abbr> G. Gobillot and M.-T.
+                            Urvoy (2005), 463–75.</bibl>
+                        <bibl>F. del Río Sánchez, ‘El árabe karshūnī come preservación de la
+                            identidad siríaca’, in <title rend="italic">Lenguas en contacto</title>,
+                            <abbr>ed.</abbr> P. Bádenas de la Peña <abbr>et al.</abbr> (2004), 185–94.</bibl>
+                        <bibl>S. K.  Samir, ‘La tradition arabe chrétienne: état de la question,
+                            problèmes et besoins’, in <title rend="italic">Premier Congrès
+                                International d’études Arabes Chrétiennes</title> (Rome, 1982),
+                            21–120.</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Alessandro</forename> 
+                  <surname>Mengozzi</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

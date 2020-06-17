@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Yaʿqub Burdʿoyo</title>
+            <author>
+               <persName>
+                  <forename>Sebastian P.</forename> 
+                  <surname>Brock</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.5">Electronic Edition Version 1.5</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Yaʿqub Burdʿoyo</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Yaqub-Burdoyo</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/590</idno>
+                    <idno type="entry">581</idno>
+                    <milestone unit="pages" n="431-432"/>
+                    <idno type="althead">Jacob Baradaeus</idno>
+                    <idno type="subject">http://syriaca.org/person/69</idno>
+                    <note type="type">person</note>
+                    <note type="abstract">
+                        <abbr>Bp.</abbr> of <placeName>Edessa</placeName>
+                        (542–578) and missionary.<note>brief</note>
+                    </note>
+                </ab>
+                <ab type="infobox">Jacob Baradaeus (d. 578) [<abbr>Syr. Orth.</abbr>]</ab>
+                <div type="body">
+                    <p>
+                        <abbr>Bp.</abbr> of <ref rend="bold" target="https://gedsh.bethmardutho.org/Edessa">
+                            <placeName ref="http://syriaca.org/place/78">Edessa</placeName>
+                        </ref> (542–78) and missionary. Born in Tella, and educated in
+                        the nearby monastery of Phesilta. In 527/8 he was sent to Constantinople to
+                        look after the interests of the Miaphysites. In Constantinople Justinian’s
+                        wife <ref rend="bold" target="https://gedsh.bethmardutho.org/Theodora-Empress">
+                            <persName ref="http://syriaca.org/person/779">Theodora</persName>
+                        </ref> had put the Palace of Hormisdas at the
+                        disposal of the considerable number of Miaphysite refugees who had gathered
+                        there. In 542/3, when the Ghassanid leader, Ḥārith <abbr>b.</abbr> Gabala, asked Theodora
+                        for some bishops to look after the non-Chalcedonian commmunities, Yaʿqub and
+                        Theodore were secretly consecrated in Constantinople by <ref rend="bold" target="https://gedsh.bethmardutho.org/Theodosios-patr">
+                            <persName ref="http://syriaca.org/person/169">Theodosius</persName>
+                        </ref>, <abbr>
+                            <choice>
+                                <sic>Patr.</sic>
+                                <corr>patr.</corr>
+                            </choice>
+                        </abbr> of Alexandria, and were designated as bishops
+                        of Edessa and of (the Ghassanid) <ref rend="bold" target="https://gedsh.bethmardutho.org/Hirta">
+                            <placeName ref="http://syriaca.org/place/219">Ḥirta</placeName>
+                        </ref>. Yaʿqub
+                        subsequently played an important role in providing for the pastoral needs of
+                        Miaphysite communities all over the Near East; often pursued by the imperial
+                        authorities, he travelled in disguise, whence his nickname <hi rend="italic">burdʿoyo</hi> ‘(dressed in) saddle-cloth’, Hellenized as <hi rend="italic">Baradaios</hi> (the back formation of ‘Bar Adai’ is due to
+                        a modern misinterpretation). Towards the end of his life he was much
+                        involved in the opposition to <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Pawlos-of-Beth-Ukome">
+                            <persName ref="http://syriaca.org/person/72">Pawlos of
+                            Beth Ukomo</persName>
+                        </ref> (Paul ‘the Black’; <abbr>
+                            <choice>
+                                <sic>Patr.</sic>
+                                <corr>patr.</corr>
+                            </choice>
+                        </abbr> from 564 to 577) and in the
+                        ‘Tritheist’ controversy.</p>
+                    <p>The two main biographical accounts are: 1. <ref rend="bold" target="https://gedsh.bethmardutho.org/Yuhanon-of-Ephesus">
+                            <persName ref="http://syriaca.org/person/74">Yuḥanon of
+                            Ephesus</persName>
+                        </ref>’ ‘Lives of Eastern Saints’, ch. 49–50 (<abbr>ed.</abbr> Brooks, <choice>
+                            <sic>
+                                <title rend="italic">
+                                    <abbr>PO</abbr>
+                                </title>
+                            </sic>
+                            <corr>
+                                <abbr>PO</abbr>
+                            </corr>
+                        </choice> 18, 488–95 and <choice>
+                            <sic>
+                                <title rend="italic">
+                                    <abbr>PO</abbr>
+                                </title>
+                            </sic>
+                            <corr>
+                                <abbr>PO</abbr>
+                            </corr>
+                        </choice> 19,
+                        499–504); and 2. a longer anonymous Life (also in Brooks, <choice>
+                            <sic>
+                                <title rend="italic">
+                                    <abbr>PO</abbr>
+                                </title>
+                            </sic>
+                            <corr>
+                                <abbr>PO</abbr>
+                            </corr>
+                        </choice> 19, 574–614). The latter in particular attributes to him an
+                        exaggerated number of ordinations. Writing from a European perspective, and
+                        influenced by the subsequent hostile designation of the <abbr>Syr. Orth.</abbr> as
+                        ‘Jacobites’, Kleyn described Yaʿqub as ‘the founder of the Monophysite
+                        Church’. While undoubtedly he played a very important role, along with
+                        Theodore, in ensuring the survival of the Syriac (and other) communities who
+                        were opposed to the imperial religious policy which sought to impose the
+                        Chalcedonian Definition on the Church, he should better be seen as someone
+                        motivated primarily by pastoral concerns.</p>
+                    <p>Nine letters written by him (sometimes alongside others) are preserved in a
+                        <abbr>ms.</abbr> containing a large number of miaphysite texts (<abbr>ed.</abbr> Chabot); other texts
+                        under his name are an Anaphora, a profession of faith, and a homily on the
+                        Annunciation preserved only in Arabic translation; the authenticity of the
+                        last two, in particular, is doubtful (the homily is also transmitted under
+                        the name of <abbr>Patr.</abbr> 
+                  <ref rend="bold" target="https://gedsh.bethmardutho.org/Nuh-the-Lebanese">
+                            <persName ref="http://syriaca.org/person/277">Nuḥ the
+                            Lebanese</persName>
+                        </ref>!).</p>
+                    <p>His liturgical commemoration is on 31 July.</p>
+                    <p>See <ref target="https://gedsh.bethmardutho.org/fig/128">Fig. 128</ref>.</p>
+                </div>
+                <div type="bibl">
+                    <listBibl>
+                        <listBibl>
+                            <head>Primary Sources</head>
+                            <bibl>J.-B.  Chabot, <title rend="italic">Documenta ad origines
+                                    monophysitarum illustrandas</title> (<abbr>CSCO</abbr> 17; 1908), 90–4,
+                                144–5, 165–7, 179–80, 185–6, 187–9, 189–95, 196–204, 204–9.
+                                (Letters; <abbr>LT</abbr> in <abbr>CSCO</abbr> 103 [1933])</bibl>
+                            <bibl>E.  Renaudot, <title rend="italic">Liturgiarum Orientalium
+                                    Collectio</title> (2nd <abbr>ed.</abbr> 1847), vol. 2, 332–46. (LT of
+                                Anaphora)</bibl>
+                            <bibl>A.  Van Roey and P.  Allen, <title rend="italic">Monophysite texts
+                                    of the sixth century</title> (<abbr>OLA</abbr> 56; 1994), 267–303. (a guide
+                                in English to this important collection of texts)</bibl>
+                        </listBibl>
+                        <listBibl>
+                            <head>Secondary Sources</head>
+                            <bibl>D.  Bundy, ‘Jacob Baradaeus, the state of research’, <title rend="italic">
+                                    <abbr>LM</abbr>
+                                </title> 91 (1978), 45–86.</bibl>
+                            <bibl>W. H. C.  Frend, <title rend="italic">The rise of the Monophysite
+                                    movement</title> (1972), 285–293.</bibl>
+                            <bibl>Th.  Hainthaler, ‘Aufbau der antichalcedonischen Hierarchie durch
+                                Jacob Baradai’, in <title rend="italic">Jesus der Christus</title>,
+                                <abbr>ed.</abbr> Grillmeier and Hainthaler, vol. 2/3, 197–203.</bibl>
+                            <bibl>Honigmann, <title rend="italic">Évêques et évêchés
+                                    monophysites</title>, 157–77.</bibl>
+                            <bibl>H. G.  Kleyn, <title rend="italic">Jacobus Baradaeüs. De stichter
+                                    der syrische monophysietische Kerk</title> (1882).</bibl>
+                            <bibl>V. L.  Menze, <title rend="italic">Justinian and the Making of the
+                                    Syrian Orthodox Church</title> (2008).</bibl>
+                            <bibl>I.  Shahid, <title rend="italic">Byzantium and the Arabs in the
+                                    sixth century</title>, vol. I.2 (1995), 755–60, 768–74, 780–8,
+                                798–802, 806–15.</bibl>
+                            <bibl>W. A.  Wigram, <title rend="italic">The separation of the
+                                    Monophysites</title> (1923; <abbr>repr.</abbr> 1978), 133–79.</bibl>
+                        </listBibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Sebastian P.</forename> 
+                  <surname>Brock</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

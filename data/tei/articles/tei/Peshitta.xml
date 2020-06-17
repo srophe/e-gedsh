@@ -1,0 +1,730 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Peshitta</title>
+            <author>
+               <persName>
+                  <forename>Bas</forename> 
+                  <surname>ter Haar Romeny</surname>
+               </persName>
+               <persName>
+                  <forename>Craig E.</forename> 
+                  <surname>Morrison</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.5">Electronic Edition Version 1.5</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Peshitta</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Peshitta</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/434</idno>
+                    <idno type="entry">425</idno>
+                    <milestone unit="pages" n="326-331"/>
+                    <note type="type">work</note>
+                    <note type="abstract">The name ‘Peshitta’ is used both for the translation of
+                        the <abbr>OT</abbr>, made in the 2nd <abbr>cent.</abbr> on the basis of the Hebrew text, and for a
+                        revision of the Old Syriac Version of the <abbr>NT</abbr>, which became the standard
+                        version around 400.<note/>
+                    </note>
+                </ab>
+                <div type="body">
+                    <p>The name ‘Peshitta’ is used both for the translation of the <abbr>OT</abbr>, made in the
+                        2nd <abbr>cent.</abbr> on the basis of the Hebrew text, and for a revision of the <ref rend="bold" target="https://gedsh.bethmardutho.org/Old-Syriac-Version">Old Syriac Version</ref> of the <abbr>NT</abbr>, which became the standard version
+                        around 400.</p>
+                    <label type="subsection">The Name ‘Peshitta’</label>
+                    <p>It is only in the 9th <abbr>cent.</abbr> that we find the first attestation of the name
+                        ‘Peshitta’. <ref rend="bold" target="https://gedsh.bethmardutho.org/Mushe-bar-Kipho">
+                            <persName ref="http://syriaca.org/person/173">Mushe bar
+                            Kipho</persName>
+                        </ref> (d. 903) uses the name in his Commentary on the Hexaemeron
+                        (unedited; <abbr>GT</abbr> in L. Schlimme [<abbr>GOF</abbr> I. Syriaca 14.1; 1977], 167– 173) and his
+                        Introduction to the Psalter (<abbr>ed.</abbr> with <abbr>GT</abbr> in G. Diettrich, <hi rend="italic">Eine jakobitische Einleitung</hi> [Beihefte zur <abbr>ZAW</abbr> 5; 1901], 106–16).
+                        He explains that he knew of two translations in Syriac: the Peshitta, based
+                        on the Hebrew text, and <ref rend="bold" target="https://gedsh.bethmardutho.org/Pawlos-of-Tella">
+                            <persName ref="http://syriaca.org/person/82">Pawlos of
+                            Tella</persName>
+                        </ref>’s translation from the Greek text of the Septuagint (see
+                            <ref rend="bold" target="https://gedsh.bethmardutho.org/Syro-Hexapla">Syro-Hexapla</ref>). Earlier references, in Syriac as well as in Greek
+                        sources, simply refer to ‘the Syrian’.</p>
+                    <p>The Syriac word <hi rend="italic">pšiṭtā</hi> is the feminine passive
+                        participle of the verb <hi rend="italic">pšaṭ</hi> ‘to stretch out, to
+                        extend’. It presupposes the word <hi rend="italic">mappaqtā</hi>
+                        ‘translation’. The precise sense of this participle is no longer clear. In
+                        other contexts, it often means ‘simple’. As the use in <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Bar-Ebroyo-Grigorios">
+                            <persName ref="http://syriaca.org/person/239">Bar
+                            ʿEbroyo</persName>
+                        </ref> suggests, this is most probably also the sense when the
+                        word is applied to the Syriac Bible. Some modern scholars, however, have
+                        suggested other options. First, on the basis of the sense of the verb, the
+                        participle has been interpreted as ‘widespread’, in the sense of ‘in common
+                        use’, just like the Latin word <hi rend="italic">vulgata</hi>. The Syriac
+                        Bible based on the Hebrew was indeed in common use, in contrast to the
+                        versions made on the basis of the Greek Septuagint. Second, the usual sense
+                        of the participle, ‘simple’, could be interpreted as ‘single’ rather than as
+                        ‘abstaining from eloquent language’. This also assumes that the name was
+                        intended to contrast the version with the Syro-Hexapla, the word <hi rend="italic">Hexapla</hi> meaning ‘six-fold’.</p>
+                    <label type="subsection">Origin and Dating of the <abbr>OT</abbr> Peshitta</label>
+                    <p>Already in the 5th <abbr>cent.</abbr> one had to guess where the <abbr>OT</abbr> Peshitta came from.
+                        The Greek-speaking exegete <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Theodore-of-Mopsuestia">
+                            <persName ref="http://syriaca.org/person/780">Theodore
+                            of Mopsuestia</persName>
+                        </ref> (d. 428) says that the Syriac Bible was composed by
+                        some unknown man who often made mistakes and even made up stories. Syriac
+                        authors in the following centuries mentioned various theories: it would have
+                        been commissioned by Hiram, king of Tyre and an ally of David; alternatively
+                        it would have been translated by a priest called Asya, who was sent to
+                        Samaria by the king of Assyria (cf. 2 Kings 17:27–8), by the Apostles, by
+                        Mark the Evangelist, or in the time of Abgar.</p>
+                    <p>Modern scholars would agree with Theodore of Mopsuestia that the name of the
+                        translator (or translators) is unknown. Still, one can try to find out
+                        where, when, and in which community the Peshitta was translated. Over the
+                        past two centuries, some scholars have defended Jewish authorship, others
+                        Christian, whereas the famous linguist Theodor Nöldeke came up with the
+                        compromise that Jewish Christians were behind the work.</p>
+                    <p>The most thorough and innovative discussion of the origin of the Peshitta is
+                        that of the late Michael Weitzman. In his <hi rend="italic">Introduction</hi> to this Syriac version, he first explains that the
+                        categories of ‘Judaism’ and ‘Christianity’ as they were used in the debate
+                        do not take account of the diversity within both religions which research of
+                        the last decades has revealed (see <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Judaism-Syriac-contacts-with">Judaism, Syriac contacts with</ref>). It would be better, he argues,
+                        first to establish the ‘theological profile’ of the translation. Only then
+                        can we compare the version with what we know of the Jewish and Christian
+                        communities of the time. Weitzman’s own position is that the Peshitta was
+                        translated in <ref rend="bold" target="https://gedsh.bethmardutho.org/Edessa">
+                            <placeName ref="http://syriaca.org/place/78">Edessa</placeName>
+                        </ref> from 150 onwards by a non-rabbinic Jewish group that
+                        clearly identified themselves with Judaism, but neglected some elements of
+                        ritual in favour of a more personal belief, in which prayer played an
+                        important role. They emphasized faith and hope rather than observance. As
+                        they shared these values with Christians, they might have adopted
+                        Christianity. This would then explain how a Jewish translation came to be
+                        transmitted by the Eastern Churches, and why it was not received among
+                        rabbinic Jews.</p>
+                    <p>The evidence for the presence of Jews in Edessa may lead to a modification
+                        (Romeny 2005). As far as we can tell on the basis of the funerary
+                        inscriptions found close to Edessa, it appears that Edessan Jews did use
+                        more or less the same dialect of Aramaic, but did not use the same script as
+                        the local pagans. They chose the square Jewish Aramaic script that was also
+                        used for Hebrew. On the other hand, Classical Syriac as we know it from the
+                        earliest Christian sources suggests that Edessan Christians adopted the Old
+                        Syriac dialect and script that were used by the pagans, rather than the
+                        Jewish script. This confronts us with the paradox of a translation that
+                        supposes a knowledge of Hebrew found only among very learned Jews but that
+                        was not written in the Jewish script. Was the Peshitta a gentile project,
+                        after all, or should we assume that, perhaps together with an update of the
+                        language, the translation was recast in Syriac script? The alternative is
+                        that the translators were Jewish Christians (in the sense of: Jews who had
+                        come to believe that Jesus Christ brought salvation) from the start.</p>
+                    <p>It is certain that either some of the Jews of Edessa or one of its Christian
+                        groups felt the need for a version in the dialect of the town. What Weitzman
+                        calls the ‘theological profile’ of the translators is compatible with either
+                        possibility, as long as we do not think in terms of the ideal types of
+                        rabbinic Judaism and later Christianity. The use of the Syriac script,
+                        however, points solely in the direction of Christians. Whatever the case may
+                        be, it should be granted that the actual translation work was done by Jews,
+                        be they converted to Christianity before (Romeny) or after (Weitzman) the
+                        production of the Peshitta: we cannot assume that pagans who converted to
+                        Christianity commanded sufficient knowledge of Hebrew.</p>
+                    <p>Weitzman connects the Peshitta with the city of Edessa. The Peshitta
+                        introduces references to Mabbug, <ref rend="bold" target="https://gedsh.bethmardutho.org/Harran">
+                            <placeName ref="http://syriaca.org/place/216">Ḥarran</placeName>
+                        </ref>, and <ref rend="bold" target="https://gedsh.bethmardutho.org/Nisibis">
+                            <placeName ref="http://syriaca.org/place/142">Nisibis</placeName>
+                        </ref>
+                        as additions to the text or substitutions for other names. These names
+                        suggest an origin in Osrhoene, the province around Edessa. The dialect and
+                        script of the Peshitta also accord well with that of the inscriptions found
+                        in this province.</p>
+                    <p>Weitzman’s main argument for dating the <abbr>OT</abbr> Peshitta is formed by quotations
+                        of the Peshitta in other texts. On the basis of such quotations, a latest
+                        possible date can be established. If the Peshitta was indeed the basis for
+                        the <abbr>OT</abbr> quotations in the <ref rend="bold" target="https://gedsh.bethmardutho.org/Diatessaron">Diatessaron</ref>, at
+                        least the books actually cited, that is, the Pentateuch, the Latter
+                        Prophets, and the Psalms, already existed and had attained some status by
+                        around 170. On the other hand, the fact that <ref rend="bold" target="https://gedsh.bethmardutho.org/Bardaisan">
+                            <persName ref="http://syriaca.org/person/3">Bardaiṣan</persName>
+                        </ref>, born
+                        in 154, quotes Gen. 9:6 in a form that stands closer to the Jewish Targum
+                        Onqelos could still indicate some reserve towards the Peshitta. This is a
+                        warning against adopting a much earlier date, and makes Weitzman propose the
+                        date of <abbr>ca.</abbr> 150. Chronicles, and perhaps also Ezra and Nehemiah, may have
+                        been translated about fifty years later.</p>
+                    <label type="subsection">Origin and Dating of the <abbr>NT</abbr> Peshitta</label>
+                    <p>The history of the translation of the Greek <abbr>NT</abbr> into Syriac begins with <ref rend="bold" target="https://gedsh.bethmardutho.org/Tatian">
+                            <persName ref="http://syriaca.org/person/771">Tatian</persName>
+                        </ref>’s
+                        Diatessaron, a <choice>
+                            <sic>2nd </sic>
+                            <corr>2nd-</corr>
+                        </choice>
+                        <abbr>cent.</abbr> Gospel harmony. The Old Syriac Version (3rd <abbr>cent.</abbr>)
+                        is the oldest translation of the four separate Gospels and the Peshitta
+                        (early 5th <abbr>cent.</abbr>) is a revision that brought the Old Syriac closer to the
+                        Greek. Burkitt (1904) attributed the Peshitta to <ref rend="bold" target="https://gedsh.bethmardutho.org/Rabbula-of-Edessa">
+                            <persName ref="http://syriaca.org/person/26">Rabbula</persName>
+                        </ref>, the <abbr>bp.</abbr> of Edessa (411–35) who had vigorously suppressed
+                        the use of the Diatessaron in the Syriac Church. While Rabbula may have
+                        enforced the dissemination of the Peshitta version, the theory that he was
+                        responsible for its creation was convincingly challenged by Vööbus (1951)
+                        who illustrated how Rabbula’s own writings contained quotations from the Old
+                        Syriac Version and the Diatessaron.</p>
+                    <p>The Peshitta did not abruptly replace the Old Syriac. M. Black (1953) argued
+                        for the existence of an early Peshitta text, which he labelled
+                        ‘Pre-Peshitta’, that was closer to the Old Syriac than the later, definitive
+                        text of the Peshitta. ‘Genetic variants’ in the Syriac textual tradition,
+                        namely, readings that lie between the Old Syriac and the Peshitta, trace the
+                        gradual process of revision toward the Greek (Juckel 2009). Still, the
+                        Diatessaronic readings that appear in the Peshitta convinced Joosten (1996)
+                        that the Peshitta was based on a revised form of the Diatessaron. A precise
+                        description of the relationship between the Peshitta and the Old Syriac and
+                        Diatessaron will continue to elude scholars until a critical edition of the
+                        Peshitta Gospels is published.</p>
+                    <label type="subsection">Nature of the <abbr>OT</abbr> Translation</label>
+                    <p>There has been an extensive debate among specialists of the <abbr>OT</abbr> Peshitta on
+                        the question of whether those text forms that are closer to the Hebrew text
+                        are representatives of an older stage of the Peshitta tradition or products
+                        of a revision. Studies on the books of Genesis and Exodus in the <choice>
+                            <sic>5th </sic>
+                            <corr>5th-</corr>
+                        </choice>
+                        <abbr>cent.</abbr>
+                        <abbr>ms.</abbr> 5b1 (Brit. Libr. Add. 14,425) eventually showed that a translation very
+                        close to the Hebrew model had developed into one that was easier to read and
+                        less ambiguous. Some phrases were replaced by more idiomatic Syriac ones or
+                        by expressions which better met the prevailing standards of literary Syriac.
+                        What is implicit in the Hebrew text and in the original translation was made
+                        explicit, for example, by adding the subject. Complicated sentences were
+                        clarified by slight additions or omissions, or by changes in word order.
+                        Finally, certain passages were harmonized in the process of transmission.
+                        All this happened during the first stages of the history of the Peshitta.
+                        For other books, it appears that we can discern a comparable first stage.
+                        The importance of <abbr>ms.</abbr> 9a1 (Florence, Bibl. Medicea Laurenziana, Or. 58) has
+                        been pointed out in this respect. Even though this is a much later <abbr>ms.</abbr>, for
+                        some books it still preserves a text comparable to the Genesis and Exodus
+                        text of <abbr>ms.</abbr> 5b1.</p>
+                    <p>The relative uniformity of <abbr>mss.</abbr> in later stages of the textual history, that
+                        is, after the 6th <abbr>cent.</abbr>, suggests some kind of standardization: one text was
+                        chosen from a broader spectrum of texts which must have existed in the first
+                        stage. Koster’s research made it clear that after this second stage,
+                        represented by most <abbr>mss.</abbr> from the 6th until the 8th <abbr>cent.</abbr>, further textual
+                        convergence can be observed. We can speak of a third stage, which he termed
+                        that of the <hi rend="italic">Textus Receptus</hi> (others also speak of
+                        Standard Text). On the basis of <ref rend="bold" target="https://gedsh.bethmardutho.org/Theodoros-bar-Koni">
+                            <persName ref="http://syriaca.org/person/783">Theodoros bar
+                            Koni</persName>
+                        </ref>’s biblical quotations, we can say that the later Standard
+                        Text or <hi rend="italic">Textus Receptus</hi> was already available in the
+                        East at the end of the 8th <abbr>cent.</abbr> On the other hand, the biblical text of the
+                        commentary of the monk <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Severos-Commentary-of-the-monk">Severos</ref> shows us that in the
+                        West, variation was still possible up to the end of the 9th <abbr>cent.</abbr>, and that
+                        the western biblical <abbr>ms.</abbr> 9a1, which still represents the first stage of the
+                        development of the text, was not an isolated case.</p>
+                    <p>Another issue that has been debated widely is the influence of other versions
+                        on the Peshitta. Some scholars have even suggested that the Peshitta was not
+                        a direct translation of the Hebrew, but based on an earlier Targum. It is,
+                        however, natural that two translations of the same text have something in
+                        common and could combine together against the source text because of the
+                        demands of the language or a similarity in interpretation  — all the more so
+                        if the two translations are written in dialects of the same language (see
+                            <ref rend="bold" target="https://gedsh.bethmardutho.org/Aramaic">Aramaic</ref>). There are no external data that prove contact between
+                        the Peshitta and the existing Targumim, and all parallels between the
+                        Targumim and the Peshitta can be explained as being the result of
+                        polygenesis or dependence on a common exegetical tradition. However, for the
+                        Septuagint, which is a translation into a completely different language,
+                        these explanations do not always suffice. In some books, notably Ezekiel and
+                        the Twelve Prophets, we have to assume some literary dependence of the
+                        Peshitta on the Septuagint. However, this dependence is not of a
+                        systematical nature, and may be the result of changes made in the later
+                        tradition.</p>
+                    <label type="subsection">Nature of the <abbr>NT</abbr> Translation</label>
+                    <p>The <abbr>NT</abbr> Peshitta contains twenty-two books; it lacks 2–3  John, 2 Peter, Jude,
+                        and Revelation. It also omits John 7:53–8:11 (along with the Old Syriac and
+                            <ref rend="bold" target="https://gedsh.bethmardutho.org/Harqlean-Version">Ḥarqlean</ref> versions) and a few isolated verses,
+                        such as Luke 22:17–18. The history of the Syriac versions of the <abbr>NT</abbr> is
+                        characterized by gravitation toward the Greek text. Though, on occasion, the
+                        Peshitta preserves a Diatessaronic reading, where the Old Syriac reflects
+                        the Byzantine <hi rend="italic">Textus Receptus</hi> (both the Sinaiticus
+                        and Curetonian <abbr>mss.</abbr> show signs of revision toward the Greek text), in
+                        general the Peshitta is closer than the Old Syriac to the <hi rend="italic">Textus Receptus</hi>. It preserves readings that agree with the Western
+                        text type (Codex Bezae and the Old Latin), though many of its readings
+                        cannot be linked to any extant Greek witness. The readings unique to the
+                        Peshitta argue for its important role in <abbr>NT</abbr> textual criticism (Gwilliam
+                        1903). The meticulous presentation of the Peshitta <abbr>mss.</abbr> for the Catholic and
+                        Pauline epistles by B. Aland and A. Juckel (1986–2002) reveals the
+                        homogeneity of these <abbr>mss.</abbr> The minor differences among them suggest that the
+                        Peshitta text of these epistles did not undergo a major revision during its
+                        transmission.</p>
+                    <label type="subsection">The Importance of the Peshitta</label>
+                    <p>The reason why the International Organization for the Study of the Old
+                        Testament took the initiative to produce a new edition of the <abbr>OT</abbr> Peshitta
+                        (see below) is its relevance for the textual criticism of the Hebrew Bible.
+                        The edition and the studies based on it have made it clear that the Hebrew
+                        model of the Peshitta must have been nearly identical with the so-called
+                        Masoretic Text of the Hebrew Bible, the standard form of the text handed
+                        down to us by a tradition of Jewish scholars, the Masoretes. The Peshitta
+                        even reflects a vocalization of the Hebrew text that stands very close to
+                        the vocalization recorded many centuries later by the Masoretes. Thus, the
+                        Old Testament Peshitta is a prime witness to the strength and quality of the
+                        Jewish tradition since the 2nd <abbr>cent.</abbr> In the small number of instances where
+                        the Peshitta can be demonstrated to go back to a text that differs from the
+                        Masoretic Text, it can be useful to correct errors in the latter.</p>
+                    <p>Another issue of scholarly interest is the language of the <abbr>OT</abbr> Peshitta. It is
+                        one of the largest and oldest texts written in Syriac. A number of studies
+                        into the syntax of the Peshitta have already appeared, and the Leiden
+                        Peshitta Institute is conducting major research projects in this field (Van
+                        Keulen and Van Peursen 2006).</p>
+                    <p>The <abbr>NT</abbr> Peshitta remains an important textual witness to the Greek <abbr>NT</abbr> since
+                        some of its readings are unique. <abbr>NT</abbr> textual critics must distinguish the
+                        readings that witness to Greek variants from those that witness to the
+                        Peshitta’s translation technique and/or exegesis (see, for example, Williams
+                        2004). Continued research into the character of the <abbr>NT</abbr> Peshitta as a
+                        translation remains a <hi rend="italic">desideratum</hi>. In addition to its
+                        text critical value, the <abbr>NT</abbr> Peshitta witnesses to the reception and
+                        interpretation of the Greek <abbr>NT</abbr> by Syriac-speaking Christians in the 4th–5th
+                        <abbr>cent.</abbr>
+                    </p>
+                    <p>The Peshitta is, however, not only of interest to scholars. In the first
+                        place, it is the Bible of the Syriac Churches, and it has been a source of
+                        spirituality to them for ages. It is used in sermons, commentaries, <ref rend="bold" target="https://gedsh.bethmardutho.org/Poetry">poetry</ref>, and other genres of literature (see <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Exegesis-Old-Testament">Exegesis, <abbr>OT</abbr>
+                        </ref>and <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Exegesis-New-Testament">Exegesis,
+                            <abbr>NT</abbr>
+                        </ref>). Its interpretations and exegetical traditions have colored
+                        the liturgy, and the prayers and hymns of the Syriac Churches follow the
+                        choice of words of the Peshitta. Many terms specific to the spirituality of
+                        the Syriac Churches have their origins in this ancient and reliable version
+                        of the <abbr>OT</abbr> and <abbr>NT</abbr>.</p>
+                    <label type="subsection">Text Editions</label>
+                    <p>The first printed edition of part of the Syriac <abbr>OT</abbr> was the edition of the
+                        Psalms that was published in Quzḥayya, Lebanon, in 1610. It was followed in
+                        1625 by two more editions of the Psalms: that of the Maronite Gabriel
+                        Sionita (<ref rend="bold" target="https://gedsh.bethmardutho.org/al-Sahyuni-Jibrail">
+                            <persName ref="http://syriaca.org/person/712">al-Ṣahyūnī,
+                            Jibrāʾīl</persName>
+                        </ref>), published in Paris, and that of Thomas van Erpe
+                        (Erpenius), a professor of Arabic, printed in Leiden, the Netherlands.</p>
+                    <p>The first printed edition of the <abbr>OT</abbr> Peshitta as a whole is found in the Paris
+                        Polyglot. The Syriac text, edited by Gabriel Sionita, appeared in 1645. It
+                        was based on a rather poor <abbr>ms.</abbr>: 17a5 (Paris, Bibl. Nat. Syr. 6). In its
+                        turn, the Paris Polyglot became the basis of the London Polyglot published
+                        by Brian Walton in 1657. This edition adds a number of variant readings from
+                        <abbr>mss.</abbr> present in English libraries, but otherwise just reproduces the Paris
+                        text. The text most widely available today goes back to that of Walton, and
+                        thus eventually to the Paris <abbr>ms.</abbr> 17a5: in 1823 Samuel Lee published his
+                        edition of the Peshitta under the auspices of the British and Foreign Bible
+                        Society, adopting the text of the London Polyglot while making some use of
+                        the so-called Buchanan Bible (Cambridge, Univ. Libr. Oo. I.1,2 = 12a1). The
+                        United Bible Societies have been publishing reprints of Lee’s edition up to
+                        this day.</p>
+                    <p>Whereas Lee’s edition was printed in the W.-Syr. Serṭo script, the same
+                        century also saw two editions in E.-Syr. type: the so-called Urmia (1852)
+                        and Mosul (1887–92) Bibles. In parallel columns Urmia gives the text of the
+                        Peshitta based on Lee’s edition, corrected in some instances on the basis of
+                        <abbr>mss.</abbr> that were available locally, and a new translation of the Hebrew text
+                        into neo-Aramaic. It is assumed that the text of the Mosul edition, in its
+                        turn, made use of the Urmia edition. The Mosul edition was prepared by <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/David-Clemens-Joseph">
+                            <persName ref="http://syriaca.org/person/442">Clemens Joseph David</persName>
+                        </ref>, <abbr>Syr. Cath.</abbr> Archbishop of Damascus, and
+                        George ʿAbdishoʿ Khayyāṭ, Chaldean Archbishop of Diyarbakır; it was
+                        published by the <choice>
+                            <sic>
+                                <hi rend="bold">Dominican</hi>
+                            </sic>
+                            <corr>Dominican</corr>
+                        </choice> Fathers. This edition also
+                        contains the text of the apocryphal or deutero-canonical books.</p>
+                    <p>A 19th-cent. edition of a different nature was <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Ceriani-Antonio-Maria">
+                            <persName ref="http://syriaca.org/person/410">A. M. Ceriani</persName>
+                        </ref>’s facsimile publication of <abbr>ms.</abbr> 7a1, the oldest
+                        codex containing the complete text of the <abbr>OT</abbr> Peshitta, from the Ambrosian
+                        Library in Milan (<abbr>ms.</abbr> B 21 inf.). It was published in the years 1876–83.
+                        This publication was a landmark in Peshitta studies. For the first time, a
+                        text became available to a scholarly public that differed markedly from that
+                        of the Paris Polyglot. The first scientific edition, containing only the
+                        Psalms, was published by W. E. Barnes in 1904. He used 7a1 as his base text,
+                        but corrected it on the basis of a number of other <abbr>mss.</abbr> With the help of
+                        C. W. Mitchell and J. Pinkerton, the same author also published a new
+                        edition of the Pentateuch in 1914. This edition gives a corrected version of
+                        Lee’s text.</p>
+                    <p>It was not until 1959, however, that the International Organization for the
+                        Study of the Old Testament decided to start the Peshitta project, which was
+                        entrusted to the Leiden Peshitta Institute. In 1972 the first volume of the
+                        new edition appeared, under the title <hi rend="italic">The Old Testament in
+                            Syriac according to the Peshitta Version</hi>. The Leiden edition does
+                        not offer a critical text (one that tries to come as close to the original
+                        as possible). It prints a basic text, usually 7a1, with a number of
+                        emendations. Readings deemed impossible and readings not supported by two or
+                        more <abbr>mss.</abbr> dated before the year 1000 are emended. The <hi rend="italic">critical apparatus</hi>, the list of variant readings, only includes
+                        <abbr>mss.</abbr> older than the 13th <abbr>cent.</abbr> The reason for this unorthodox approach,
+                        which resulted in a mixed text, was economy. The main text was meant as a
+                        point of reference: it should be common enough to guarantee a concise
+                        apparatus. This entails that the main text as such has no status. As De Boer
+                        writes: ‘The text printed in this edition — it must be stated <hi rend="italic">expressis verbis</hi> — ought to be used in exegetical and
+                        textual study together with the apparatuses’ (De Boer, Preface to the
+                        Genesis-Exodus volume, p. viii). In other words, the reader cannot just
+                        quote the text; he or she should first go over the apparatus and do the work
+                        of the textual critic.</p>
+                    <p>Notwithstanding the shortcomings that are the result of its edition method,
+                        there is no doubt that the Leiden Peshitta edition is the most important
+                        tool for the study of the Peshitta of the <abbr>OT</abbr>. The edition will consist of 17
+                        volumes, 13 of which have now appeared. The Peshitta Institute intends to
+                        publish additional volumes with the variants of biblical <abbr>mss.</abbr> up to and
+                        including the 15th <abbr>cent.</abbr> as well as studies of the text of the Syriac
+                        fathers, whose witness is considered very important. The main text of the
+                        edition is also available in electronic format through the website of the
+                        Comprehensive Aramaic Lexicon (http://cal1.cn.huc.edu/).</p>
+                    <p>The first printed edition of the Syriac <abbr>NT</abbr> was prepared by Johann
+                        Widmanstetter in 1555. A year later Immanuel Tremellius produced another
+                        edition. A critical edition of the Gospels (citing forty-two <abbr>mss.</abbr> from the
+                        5th–12th <abbr>cent.</abbr>) was prepared by P. E.  Pusey and G. H.  Gwilliam (1901).
+                        Pusey and Gwilliam’s provisional text for the rest of the <abbr>NT</abbr> was combined
+                        with their edition of the Gospels to produce <hi rend="italic">The New
+                            Testament in Syriac</hi> (The British and Foreign Bible Society,
+                        1905–20). The minor Catholic letters (2 Peter, 2–3 John, and Jude) and the
+                        Book of Revelation in this edition are taken from J. Gwynn (1897 and 1909);
+                        these are remnants of the Philoxenian version (see <ref rend="bold" target="https://gedsh.bethmardutho.org/Polykarpos">
+                            <persName ref="http://syriaca.org/person/35">Polykarpos</persName>
+                        </ref>).
+                        More recently, G.  Kiraz produced a comparative edition of the Syriac
+                        Gospels (Kiraz 1996) that aligns the Siniaticus and Curetonian <abbr>mss.</abbr> with the
+                        Peshitta and Ḥarqlean versions. A new critical edition of the Peshitta
+                        Gospels is needed, though the quantity of Peshitta <abbr>mss.</abbr> renders this a
+                        formidable task. The Institut für Neutestamentliche Textforschung at
+                        Münster has produced an edition of the Catholic and Pauline letters (B.
+                        Aland and A. Juckel 1986–2002) that aligns Peshitta <abbr>mss.</abbr> with the Ḥarqlean
+                        text and quotations from Syriac authors.</p>
+                    <label type="subsection">Translation into English</label>
+                    <p>The Peshitta has been translated into English by <ref rend="bold" target="https://gedsh.bethmardutho.org/Lamsa-George">
+                            <persName ref="http://syriaca.org/person/593">George M.
+                            Lamsa</persName>
+                        </ref>. Unfortunately, this translation has been assimilated to the
+                        Hebrew text in quite a few places, and is not based on a reliable text of
+                        the Peshitta. The latter point also applies to Andrew Oliver’s lesser known
+                        translation of the Peshitta Psalter. A new English annotated translation of
+                        the <abbr>OT</abbr> Peshitta is now being prepared by a group of scholars as one of the
+                        Leiden Peshitta Institute’s projects. It will appear under the title <hi rend="italic">The Bible of Edessa</hi>. Portions of the <abbr>NT</abbr> have been
+                        translated into English by J. W. Etheridge (1846 and 1849) and by James
+                        Murdock (1851).</p>
+                </div>
+                <div type="bibl">
+                    <listBibl>
+                        <listBibl>
+                            <head>Bibliography</head>
+                            <bibl>P. B.  Dirksen, <title rend="italic">An annotated bibliography of
+                                    the Peshitta of the Old Testament</title> (<abbr>MPIL</abbr> 5; 1989).</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>P. B.  Dirksen</reg>
+                           <orig>idem</orig>
+                        </choice>, ‘Supplement to an annotated bibliography, 1989’, in <title rend="italic">The Peshitta as a translation: Papers read at the
+                                    II Peshitta Symposium held at Leiden 19–21 August 1993</title>,
+                                <abbr>ed.</abbr> P. B. Dirksen and A. van der Kooij (<abbr>MPIL</abbr> 8; 1995),
+                                221–36.</bibl>
+                            <bibl>The literature published since 1998, on all Syriac versions as
+                                well as the Targumim (Jewish Aramaic versions of the Old Testament),
+                                can be found in the ‘Bibliography of the Aramaic Bible’, published
+                                in the <title rend="italic">Journal for the Aramaic Bible</title>,
+                                since 2003 continued under the title <title rend="italic">Aramaic
+                                    Studies</title>. A selection of this material will be published
+                                on the website of the Peshitta Institute, together with the data on
+                                1995–97.</bibl>
+                        </listBibl>
+                        <listBibl>
+                            <head>Editions and Secondary Sources</head>
+                            <bibl>B.  Aland (in association with A. Juckel), <title rend="italic">Das Neue Testament in syrischer Überlieferung</title>, vol. I.
+                                    <title rend="italic">Die grossen Katholischen Briefe</title>
+                                (Arbeiten zur neutestamentlichen Textforschung 7; 1986).</bibl>
+                            <bibl>B.  Aland and A.  Juckel, <title rend="italic">Das Neue Testament
+                                    in syrischer Überlieferung</title>, vol. II. <title rend="italic">Die Paulinischen Briefe</title>, part 1: <title rend="italic">Römer und 1. Korintherbrief</title>; part 2:
+                                    <title rend="italic">2. Korintherbrief, Galaterbrief,
+                                    Epheserbrief, Philipperbrief und Kolosserbrief</title>; part 3:
+                                <choice>
+                                    <sic>
+                                        <title rend="italic">1./2 .  Thessaloniche</title>rbrief</sic>
+                                    <corr>
+                                        <title rend="italic">1./2 .  Thessalonicherbrief</title>
+                                    </corr>
+                                </choice>
+                                , <choice>
+                                    <sic>1./2. <title rend="italic">Timotheusbrief, Titusbrief, Philemonbrief
+                                    und Hebräerbrief</title>
+                                    </sic>
+                                    <corr>
+                                        <title rend="italic">1./2. Timotheusbrief, Titusbrief, Philemonbrief
+                                        und Hebräerbrief</title>
+                                    </corr>
+                                </choice> (Arbeiten zur neutestamentlichen
+                                Textforschung 14/23/32; 1991–2002).</bibl>
+                            <bibl>M.  Black, ‘The text of the Peshitta Tetraeuangelium’, in <title rend="italic">Studia paulina in honorem Johannis de Zwaan
+                                    septuagenarii</title>, <abbr>ed.</abbr> C. K.  Barrett <abbr>et al.</abbr> (1953),
+                                20–7.</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>M.  Black</reg>
+                           <orig>idem</orig>
+                        </choice>, ‘The Syriac versional tradition’, in <title rend="italic">Die alten Übersetzungen des Neuen Testaments. Die
+                                    Kirchenväterzitate und Lektionare: Der gegenwärtige Stand ihrer
+                                    Erforschung und ihre Bedeutung für die griechische
+                                    Textgeschichte</title>, <abbr>ed.</abbr> K. Aland (Arbeiten zur
+                                neutestamentlichen Textforschung 5; 1972), 120–59.</bibl>
+                            <bibl>F. C.  Burkitt, <title rend="italic">Evangelion da-Mepharreshe;
+                                    the Curetonian Syriac Gospels, re-edited, together with the
+                                    readings of the Sinatic palimpsest ...</title> (2 vols.;
+                                1904).</bibl>
+                            <bibl>S. P.  Brock, <title rend="italic">The Bible in the Syriac
+                                    tradition</title> (Gorgias Handbooks 7; 2006).</bibl>
+                            <bibl>F.  Briquel Chatonnet and Ph.  Le  Moigne (<abbr>ed.</abbr>), <title rend="italic">L’Ancien Testament en syriaque</title> (<abbr>ÉtSyr</abbr> 5;
+                                2008).</bibl>
+                            <bibl>P. B.  Dirksen, ‘The Old Testament Peshitta’, in <title rend="italic">Mikra. Text, translation, reading, and
+                                    interpretation of the Hebrew Bible in ancient Judaism and early
+                                    Christianity</title>, <abbr>ed.</abbr> M. J. Mulder (Compendia Rerum
+                                Iudaicarum ad Novum Testamentum 2.1; 1988).</bibl>
+                            <bibl>P. B.  Dirksen and M. J.  Mulder, <title rend="italic">The
+                                    Peshiṭta: Its early text and history. Papers read at the
+                                    Peshiṭta Symposium held at Leiden 30–31 August 1985</title>
+                                (<abbr>MPIL</abbr> 4; 1988).</bibl>
+                            <bibl>P. B.  Dirksen and A.  van  der  Kooij (<abbr>ed.</abbr>), <title rend="italic">The Peshitta as a translation. Papers read at the II Peshitta
+                                    Symposium held at Leiden 19–21 August 1993</title> (<abbr>MPIL</abbr> 8;
+                                1995).</bibl>
+                            <bibl>J. W.  Etheridge, <title rend="italic">The Syrian Churches: Early
+                                    history, liturgies, and literature. With a literal translation
+                                    of the four Gospels, from the Peschito</title> (1846).</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>J. W.  Etheridge</reg>
+                           <orig>idem</orig>
+                        </choice>, <title rend="italic">The Apostolical Acts and Epistles, from
+                                    the Peschito, or, ancient Syriac: to which are added, the
+                                    remaining Epistles, and the Book of Revelation, after a later
+                                    Syrian text</title> (1849).</bibl>
+                            <bibl>G. H.  Gwilliam, ‘The Place of the Peshitto version in the
+                                apparatus criticus of the Greek New Testament’, <title rend="italic">Studia biblica et ecclesiastica</title> 5 (1903),
+                                187–237.</bibl>
+                            <bibl>J.  Gwynn, <title rend="italic">The Apocalypse of St John, in a
+                                    Syriac version hitherto unknown</title> (1897).</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>J.  Gwynn</reg>
+                           <orig>idem</orig>
+                        </choice>, <title rend="italic">Remnants of the later Syriac versions
+                                    of the Bible ...</title> (1909; <abbr>repr.</abbr> 2005).</bibl>
+                            <bibl>K. D.  Jenner <abbr>et al.</abbr>, ‘The New English Annotated Translation of
+                                the Syriac Bible (NEATSB): Retrospect and prospect’, <title rend="italic">AS</title> 2 (2004), 85–106.</bibl>
+                            <bibl>A.  Juckel, ‘Research on the Old Syriac heritage of the Peshitta
+                                Gospels’, <title rend="italic">
+                                    <abbr>Hugoye</abbr>
+                                </title> 12.1 (2009),
+                                41–115.</bibl>
+                            <bibl>J.  Joosten, <title rend="italic">The Syriac language of the
+                                    Peshitta and Old Syriac versions of Matthew: Syntactic
+                                    structure, inner-Syriac developments and translation
+                                    technique</title> (1996).</bibl>
+                            <bibl>P. S. F. van Keulen and W. Th. van Peursen, <title rend="italic">Corpus linguistics and textual history. A computer-assisted
+                                    interdisciplinary approach to the Peshitta</title> (Studia
+                                semitica neerlandica 48; 2006).</bibl>
+                            <bibl>G. A.  Kiraz, <title rend="italic">Comparative edition of the
+                                    Syriac Gospels</title> (1996–2004).</bibl>
+                            <bibl>M. D.  Koster, <title rend="italic">The Peshitta of Exodus: The
+                                    development of its text in the course of fifteen
+                                    centuries</title> (1977).</bibl>
+                            <bibl>J. Murdock, <title rend="italic">The New Testament; or, the Book
+                                    of the Holy Gospel of our Lord and our God, Jesus the Messiah. A
+                                    literal translation from the Syriac version</title>
+                                (1851).</bibl>
+                            <bibl>W. L.  Petersen, <title rend="italic">Tatian’s Diatessaron. Its
+                                    creation, dissemination, significance, and history in
+                                    scholarship</title> (Supplements to <abbr>VC</abbr> 25; 1994).</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>W. L.  Petersen</reg>
+                           <orig>idem</orig>
+                        </choice>, ‘Problems in the Syriac New Testament and how Syrian
+                                exegetes solved them’, in <title rend="italic">The Peshitta: Its use
+                                    in literature and liturgy. Papers read at the Third Peshitta
+                                    Symposium,</title> 
+                        <abbr>ed.</abbr> R. B. ter Haar Romeny (<abbr>MPIL</abbr> 15; 2006),
+                                53–74.</bibl>
+                            <bibl>W. Th.  van  Peursen and R. B.  ter  Haar  Romeny (<abbr>ed.</abbr>), <title rend="italic">Text, translation, and tradition: Studies on the
+                                    Peshitta and its use in the Syriac tradition presented to Konrad
+                                    D. Jenner on the occasion of his sixty-fifth birthday</title>
+                                (<abbr>MPIL</abbr> 14; 2006).</bibl>
+                            <bibl>P. E.  Pusey and G. H.  Gwilliam, <title rend="italic">Tetraevangelium sanctum iuxta simplicem Syrorum versionem ad
+                                    fidem codicum, Massorae, editionum denuo recognitum
+                              </title> (1901).</bibl>
+                            <bibl>R. B.  ter  Haar  Romeny, ‘The Syriac versions of the Old
+                                Testament’, in <title rend="italic">Sources Syriaques</title>, vol.
+                                1. <title rend="italic">Nos Sources: Arts et littérature
+                                    syriaques</title>, <abbr>ed.</abbr> M. Atallah <abbr>et al.</abbr> (2005), 75–105.</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>R. B.  ter  Haar  Romeny</reg>
+                           <orig>idem</orig>
+                        </choice>, ‘Hypotheses on the development of Judaism and Christianity
+                                in Syria in the period after 70 <choice>
+                                    <sic>c.e.</sic>
+                                    <corr>C.E.</corr>
+                                </choice>’, in <title rend="italic">Matthew and the Didache: Two documents from the same
+                                    Jewish-Christian milieu?</title>
+                                <choice>
+                                    <sic>,</sic>
+                                    <corr/>
+                                </choice> 
+                        <abbr>ed.</abbr> H. van de Sandt (2005),
+                                13–33.</bibl>
+                            <bibl>R. B.  ter Haar Romeny (<abbr>ed.</abbr>), <title rend="italic">The Peshitta:
+                                    Its use in literature and liturgy. Papers read at the Third
+                                    Peshitta Symposium</title> (<abbr>MPIL</abbr> 15; 2006).</bibl>
+                            <bibl>A.  Vööbus, <title rend="italic">Studies in the history of the
+                                    Gospel text in Syriac</title> (2 vols.; <abbr>CSCO</abbr> 128, 496; 1951,
+                                1987).</bibl>
+                            <bibl>M. P.  Weitzman, <title rend="italic">The Syriac version of the
+                                    Old Testament: An introduction</title> (University of Cambridge
+                                Oriental Publications 56; 1999).</bibl>
+                            <bibl>P. J.  Williams, <title rend="italic">Early Syriac translation
+                                    technique and the textual criticism of the Greek Gospels</title>
+                                (Texts and Studies, Third Series 2; 2004).</bibl>
+                        </listBibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Bas</forename> 
+                  <surname>ter Haar Romeny</surname>
+               </persName> and <persName>
+                  <forename>Craig E.</forename> 
+                  <surname>Morrison</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

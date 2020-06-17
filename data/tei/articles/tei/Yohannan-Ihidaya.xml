@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Yoḥannan Iḥidaya</title>
+            <author>
+               <persName>
+                  <forename>Robert A.</forename> 
+                  <surname>Kitchen</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.5">Electronic Edition Version 1.5</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Yoḥannan Iḥidaya</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Yohannan-Ihidaya</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/611</idno>
+                    <idno type="entry">602</idno>
+                    <milestone unit="pages" n="442"/>
+                    <idno type="althead">John the Solitary of Apamea</idno>
+                    <idno type="subject">http://syriaca.org/person/827</idno>
+                    <note type="type">person</note>
+                    <note type="abstract">Theologian and theoretician of the spiritual life.<note/>
+                    </note>
+                </ab>
+                <ab type="infobox">John the Solitary of Apamea (first half of 5th <abbr>cent.</abbr>)</ab>
+                <div type="body">
+                    <p>Theologian and theoretician of the spiritual life. His identity has been
+                        confused with at least two other persons named Yoḥannan of Apamea: a
+                        contemporary writer accused of heresy by <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Philoxenos-of-Mabbug">
+                            <persName ref="http://syriaca.org/person/44">Philoxenos
+                            of Mabbug</persName>
+                        </ref> (who also called this writer ‘Yoḥannan the Egyptian’);
+                        an 8th-cent. writer condemned under <ref rend="bold" target="https://gedsh.bethmardutho.org/Timotheos-I">
+                            <persName ref="http://syriaca.org/person/790">Timotheos I</persName>
+                        </ref> of
+                        the <abbr>Ch. of E.</abbr> 
+                  <ref rend="bold" target="https://gedsh.bethmardutho.org/Theodoros-bar-Koni">
+                            <persName ref="http://syriaca.org/person/783">Theodoros bar
+                            Koni</persName>
+                        </ref> and <ref rend="bold" target="https://gedsh.bethmardutho.org/Michael-I-Rabo">
+                            <persName ref="http://syriaca.org/person/217">Michael Rabo</persName>
+                        </ref> reported heretical
+                        ideas attributed to Yoḥannan Iḥidaya, but these ideas have yet to be found
+                        in extant texts of Yoḥannan Iḥidaya. A number of texts are now available,
+                        written during the period 430–50. Yoḥannan Iḥidaya does not give evidence of
+                        allegiance to any side in the Christological controversies of that period,
+                        though de Halleux and Strothmann believe he had affinities to the miaphysite
+                        position. Yoḥannan Iḥidaya’s theological system features two tripartite
+                        structures of the spiritual life. First are the orders (<hi rend="italic">ṭakse</hi>) of spiritual development: the way of the body (<hi rend="italic">pagrānutā</hi>), the way of the soul (<hi rend="italic">napšānutā</hi>), the way of the spirit (<hi rend="italic">ruḥānutā</hi>) — which bears close resemblance to <ref rend="bold" target="https://gedsh.bethmardutho.org/Evagrius-of-Pontus">
+                            <persName ref="http://syriaca.org/person/483">Evagrius</persName>
+                        </ref>’s system. Second are the levels (<hi rend="italic">mušḥātā</hi>) which a person attains: purity (<hi rend="italic">dakyutā</hi>), serenity (<hi rend="italic">šapyutā</hi>), and
+                        perfection (<hi rend="italic">gmirutā</hi>). The latter can only be fully
+                        attained after the resurrection. Central to Yoḥannan Iḥidaya’s theology is
+                        the vision of the New World which will come only after the resurrection of
+                        the dead, but which is prefigured for the individual in the sacrament of
+                        baptism. Yoḥannan Iḥidaya’s influence on later Syriac writers, both Eastern
+                        and Western, is significant, particularly in his conceptualization of the
+                        tripartite ‘orders’ of the spiritual life. Probably due to the confusion and
+                        controversy over his identity, his works were seldom transmitted under his
+                        name. Those now identified by modern scholarship are largely letters and
+                        dialogues with several essays on prayer.</p>
+                    <p>Under his name are preserved a Commentary on Qohelet, the authenticity of
+                        which is disputed (<abbr>ed.</abbr> Strothmann), as well as fragments of a Commentary on
+                        Job, which most likely does not belong to him (<abbr>ed.</abbr> Van Rompay).</p>
+                </div>
+                <div type="bibl">
+                    <listBibl>
+                        <listBibl>
+                            <head>Primary Sources.</head>
+                            <bibl>S. P.  Brock, ‘John the Solitary, On Prayer’, <title rend="italic">
+                                    <abbr>JTS</abbr>
+                                </title>
+                                <abbr> ns</abbr> 30 (1979), 84–101. (Syr. with <abbr>ET</abbr>)</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>S. P.  Brock</reg>
+                           <orig>idem</orig>
+                        </choice>, <title rend="italic">The Syriac Fathers on Prayer</title>,
+                                78–100. (<abbr>ET</abbr> of ‘Letter to Hesychius’)</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>S. P.  Brock</reg>
+                           <orig>idem</orig>
+                        </choice>, <title rend="italic">Malponuto d-abohoto suryoye <choice>
+                                        <sic>d-‘al</sic>
+                                        <corr>d-ʿal</corr>
+                                    </choice>
+                                    ṣluto</title> (1988), 30–44. (Syr. of ‘Letter to
+                                Hesychius’)</bibl>
+                            <bibl>S.  Dedering, <title rend="italic">Johannes von Lycopolis: Ein
+                                    Dialog über die Seele und die Affekte des Menschen</title>
+                                (1936). (Syr.; <abbr>ET</abbr> by M.  Hansbury, forthcoming)</bibl>
+                            <bibl>I.  Hausherr, <title rend="italic">Dialogue sur l’âme et les
+                                    passions des hommes</title> (<abbr>OCA</abbr> 120; 1939). (<abbr>FT</abbr>)</bibl>
+                            <bibl>R.  Lavenant, <title rend="italic">Jean d’Apamée, Dialogues et
+                                    Traités</title> (SC 311; 1984). (<abbr>FT</abbr> of texts edited by
+                                Strothmann)</bibl>
+                            <bibl>L. G.  Rignell, <title rend="italic">Briefe von Johannes dem
+                                    Einsiedler</title> (1941). (Syr.)</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>L. G.  Rignell</reg>
+                           <orig>idem</orig>
+                        </choice>, <title rend="italic">Drei Traktate von Johannes dem
+                                    Einsiedler (Johannes von Apameia)</title> (1960). (Syr.)</bibl>
+                            <bibl>W.  Strothmann, <title rend="italic">Johannes von Apamea: Sechs
+                                    Gespräche mit Thomasios. Der Briefwechsel zwischen Thomasios und
+                                    Johannes und drei an Thomasios gerichtete Abhandlungen</title>
+                                (<abbr>PTS</abbr> 11; 1972). (Syr. with <abbr>GT</abbr>)</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>W.  Strothmann</reg>
+                           <orig>idem</orig>
+                        </choice>, <title rend="italic">Kohelet-Kommentar des Johannes von
+                                    Apamea</title> (<abbr>GOF</abbr> 1.30; 1988). (Syr. with <abbr>GT</abbr>)</bibl>
+                            <bibl>L.  Van  Rompay, ‘An ascetic reading of the Book of Job. Fragments
+                                from a Syriac commentary attributed to John the Solitary (<abbr>Ms.</abbr>
+                                London, British Library, Add. 18814, f. 91r–95r)’, <title rend="italic">
+                                    <abbr>LM</abbr>
+                                </title> 119 (2006), 1–24. (Syr. with <abbr>ET</abbr>)</bibl>
+                        </listBibl>
+                        <listBibl>
+                            <head>Secondary Sources</head>
+                            <bibl>A.  de Halleux, ‘Le milieu historique de Jean le Solitaire’, in
+                                    <abbr>
+                                    <title rend="italic">SymSyr</title> III</abbr>, 299–305.</bibl>
+                            <bibl>I.  Hausherr, ‘Un grand auteur spirituel retrouvé’, <title rend="italic">
+                                    <abbr>OCP</abbr>
+                                </title> 14 (1948), 3–42.</bibl>
+                            <bibl>W.  Strothmann, ‘Das Buch Kohelet und seine <choice>
+                                    <sic>syrische</sic>
+                                    <corr>syrischen</corr>
+                                </choice> Ausleger’,
+                                    <title rend="italic">Erkenntnisse und Meinungen</title>, vol. 1,
+                                <abbr>ed.</abbr> G. Wiessner (<abbr>GOF</abbr> 1.3; 1973), 209–15.</bibl>
+                        </listBibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Robert A.</forename> 
+                  <surname>Kitchen</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Tumo of Ḥarqel</title>
+            <author>
+               <persName>
+                  <forename>Andreas</forename> 
+                  <surname>Juckel</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.5">Electronic Edition Version 1.5</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Tumo of Ḥarqel</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Tumo-of-Harqel</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/573</idno>
+                    <idno type="entry">564</idno>
+                    <milestone unit="pages" n="418"/>
+                    <idno type="subject">http://syriaca.org/person/87</idno>
+                    <note type="type">person</note>
+                    <note type="abstract">
+                        <abbr>Bp.</abbr> of Mabbug, diplomat and Bible translator of excellent Greek
+                        education.<note/>
+                    </note>
+                </ab>
+                <ab type="infobox">(<abbr>ca.</abbr> 570–640) [<abbr>Syr. Orth.</abbr>]</ab>
+                <div type="body">
+                    <p>
+                        <abbr>Bp.</abbr> of Mabbug (Hierapolis northeast of <ref rend="bold" target="https://gedsh.bethmardutho.org/Aleppo">
+                            <placeName ref="http://syriaca.org/place/18">Aleppo</placeName>
+                        </ref>) at the
+                        beginning of the 7th <abbr>cent.</abbr>; diplomat and Bible translator of excellent Greek
+                        education. Only one exact chronological date is transmitted (his translation
+                        of the <abbr>NT</abbr> 615/16), but his activities on the official stage of his Church
+                        link him with persons and events of his time and provide a general idea
+                        about the chronology of his life. <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Bar-Ebroyo-Grigorios">
+                            <persName ref="http://syriaca.org/person/239">Bar ʿEbroyo</persName>
+                        </ref>,
+                        Ecclesiastical History (I, 50 = vol. 1, col. 267) and <ref rend="bold" target="https://gedsh.bethmardutho.org/Michael-I-Rabo">
+                            <persName ref="http://syriaca.org/person/217">Michael Rabo</persName>
+                        </ref>, Chronicle (X, 25 = vol. 4, 391) give a summary of
+                        his career: Born at Heraclea (Ḥarqel) in the Euphratensis (northwest of
+                        Mabbug) he pursued Greek studies in his youth at the <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Qenneshre-Monastery-of">
+                            <placeName ref="http://syriaca.org/place/230">Monastery
+                            of Qenneshre</placeName>
+                        </ref> (on the Euphrates) and became a monk in the monastery
+                        of Tarʿil (in the same region), subsequently <abbr>
+                            <choice>
+                                <sic>Bp.</sic>
+                                <corr>bp.</corr>
+                            </choice>
+                        </abbr> of Mabbug. He was expelled
+                        from his see by the Chalcedonians and fled to Alexandria (Egypt) where he
+                        translated the <abbr>NT</abbr>. His Greek education qualified him not only for the
+                        translation work but also to serve his Church on the ‘ecumenical’ scene. He
+                        doubtless could speak Greek fluently and was engaged in the negotiations
+                        with the Egyptian (Coptic) Miaphysites and with the Chalcedonians.</p>
+                    <p>His life is linked with Dometianus (<abbr>ca.</abbr> 550–602), the nephew of the Byzantine
+                        emperor Maurice (582–602), who was appointed Chalcedonian <abbr>
+                            <choice>
+                                <sic>Bp.</sic>
+                                <corr>bp.</corr>
+                            </choice>
+                        </abbr> of <ref rend="bold" target="https://gedsh.bethmardutho.org/Melitene">
+                            <placeName ref="http://syriaca.org/place/136">Melitene</placeName>
+                        </ref> (Malatya) by his uncle in <abbr>ca.</abbr> 580. In 598/99 this
+                        Dometianus started a persecution of the Miaphysites in the Orient, which
+                        made Tumo and other bps. (among whom was possibly <ref rend="bold" target="https://gedsh.bethmardutho.org/Pawlos-of-Tella">
+                            <persName ref="http://syriaca.org/person/82">Pawlos of
+                            Tella</persName>
+                        </ref>) flee to the <ref rend="bold" target="https://gedsh.bethmardutho.org/The-Enaton">
+                            <placeName ref="http://syriaca.org/place/473">Enaton</placeName>
+                        </ref>, a monastic
+                        district nine miles outside of Alexandria (Michael, Chronicle, X,23 = vol.
+                        4, 386). We do not know if he returned after the death of Dometianus when
+                        the Persians invaded the Byz. East and favoured the Miaphysites (but also
+                        the <abbr>Ch. of E.</abbr>) by expelling the Chalcedonian bishops (Bar ʿEbroyo,
+                        Ecclesiastical History, I,50 = vol. 1, col. 265; Michael, Chronicle, X,25 =
+                        vol. 4, 391).</p>
+                    <p>In 615–6 he was at the Enaton, now linked with his <abbr>Patr.</abbr> 
+                  <ref rend="bold" target="https://gedsh.bethmardutho.org/Athanasios-I-Gamolo">
+                            <persName ref="http://syriaca.org/person/88">Athanasios I
+                            Gamolo</persName>
+                        </ref> of <ref rend="bold" target="https://gedsh.bethmardutho.org/Antioch">
+                            <placeName ref="http://syriaca.org/place/10">Antioch</placeName>
+                        </ref> (594–631).
+                        Tumo was his ‘Synkellos’ and diplomat who shared his efforts to reunite with
+                        the Egyptian (Coptic) Miaphysites after decades of schism dating from the
+                        time of his predecessor <ref rend="bold" target="https://gedsh.bethmardutho.org/Peter-of-Kallinikos">
+                            <persName ref="http://syriaca.org/person/75">Peter of
+                            Kallinikos</persName>
+                        </ref> (581–91). The exile of the Syriac bishops in Egypt
+                        during the persecution might have invited the Miaphysites to reunite, but
+                        the actual negotiations were initiated by the Byzantine notable Nicetas and
+                        favoured by the Emperor Heraclius (610– 641) for political reasons. After
+                        the reunion of the Coptic and Syrian Miaphysites succeeded in 616 (Bar
+                        ʿEbroyo, Ecclesiastical History, I,50 = vol. 1, col. 269; Michael,
+                        Chronicle, X,26 = vol. 4, 392–9; ‘History of the <abbr>Patr.</abbr>’, <abbr>ed.</abbr> B. Evetts,
+                        480–3), Athanasios gave an extensive report to <abbr>Bp.</abbr> Quryaqos of <ref rend="bold" target="https://gedsh.bethmardutho.org/Amid">
+                            <placeName ref="http://syriaca.org/place/8">Amid</placeName>
+                        </ref>
+                        (Diyarbakır). This letter (Michael, Chronicle, X,26 = vol. 4, 392–9) reveals
+                        that both <abbr>
+                            <choice>
+                                <sic>Patr.</sic>
+                                <corr>patr.</corr>
+                            </choice>
+                        </abbr> were not present in person and that Tumo was appointed
+                        speaker of the Syrians and charged with the negotiations.</p>
+                    <p>When the Persians conquered Egypt and devastated the Enaton (619/20), Tumo
+                        and his version escaped destruction. After 627 the Persian power faded, and
+                        the victorious Emperor Heraclius was in a strong position when in 631 he met
+                        with Athanasios and twelve of his bishops (Tumo among them, according to
+                        Michael) at Mabbug to discuss a christological formula for union (Bar
+                        ʿEbroyo, Ecclesiastical History, I,50 = vol. 1, col. 271–73; Michael,
+                        Chronicle, XI,3 = vol. 4, 409–10). But no agreement was reached, and severe
+                        restrictions for the Miaphysites followed. In those days Tumo was about
+                        sixty years old, he died <abbr>ca.</abbr> 640. An anonymous Syriac account of Tumo’s life
+                        (Assemani, <hi rend="italic">BibOr</hi>, vol. 2, 90–2) confuses him with
+                        Tumo of Germanicea of the 6th <abbr>cent.</abbr>
+                    </p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>Baumstark, <title rend="italic">Literatur</title>, 188–9.</bibl>
+                        <bibl>B.  Evetts, <title rend="italic">History of the Patriarchs of the
+                                Coptic Church of Alexandria</title>, vol. 2 (<abbr>PO</abbr> 1.4; 1948).</bibl>
+                        <bibl>J.  Gwynn, ‘Thomas Harklensis’, in <title rend="italic">
+                                <abbr>DCB</abbr>
+                            </title>,
+                            vol. 4, 1014–21.</bibl>
+                        <bibl>E.  Honigmann, ‘Two metropolitans, relatives of the Emperor Maurice:
+                            Dometianus of Melitene (about 580 <choice>
+                                <sic>—</sic>
+                                <corr>–</corr>
+                            </choice> January 12, 602) and Athenogenes of
+                            Petra’, in his <title rend="italic">Patristic Studies</title> (<abbr>SeT</abbr> 173;
+                            1953), 217–25, esp. 222–23.</bibl>
+                        <bibl>C. D. G.  Müller, ‘Papst Anastasios und die Versöhnung der Ägypter mit
+                            den Westsyrern’, in <title rend="italic">Coptology: Past, present,
+                                future</title>, <abbr>ed.</abbr> S.  Gieversen, M.  Krause, and P.  Nagel (<abbr>FS</abbr>
+                            Rodolphe Kasser; 1994), 71–85.</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Andreas</forename> 
+                  <surname>Juckel</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

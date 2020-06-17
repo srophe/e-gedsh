@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Nathniel of Sirzor</title>
+            <author>
+               <persName>
+                  <forename>Lucas</forename> 
+                  <surname>Van Rompay</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.5">Electronic Edition Version 1.5</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Nathniel of Sirzor</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Nathniel-of-Sirzor</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/400</idno>
+                    <idno type="entry">391</idno>
+                    <milestone unit="pages" n="304-305"/>
+                    <idno type="subject">http://syriaca.org/person/651</idno>
+                    <note type="type">person</note>
+                    <note type="abstract">
+                        <abbr>Bp.</abbr> of Sirzor and biblical interpreter; affiliated with the School of Nisibis.<note/>
+                    </note>
+                </ab>
+                <ab type="infobox">(<abbr>ca.</abbr> 600) [Ch. of E.]</ab>
+                <div type="body">
+                    <p>
+                        <abbr>Bp.</abbr> of Sirzor; biblical interpreter. Nathniel studied at the <ref rend="bold" target="https://gedsh.bethmardutho.org/Nisibis-School-of">School of
+                            Nisibis</ref> and he probably continued working in the field of biblical
+                        interpretation after his graduation, but no details are known. As <abbr>bp.</abbr> of
+                        Sirzor he attended the synods of 585 (under <ref rend="bold" target="https://gedsh.bethmardutho.org/Ishoyahb-I">
+                            <persName ref="http://syriaca.org/person/559">Ishoʿyahb I</persName>
+                        </ref>) and
+                        605 (under <ref rend="bold" target="https://gedsh.bethmardutho.org/Grigor-I">
+                            <persName ref="http://syriaca.org/person/514">Grigor I</persName>
+                        </ref>) and signed the acts. At some later point during his
+                        tenure he was imprisoned (for having expelled from his city a Persian
+                        commander who had destroyed churches) and then put to death, still under the
+                        reign of Khusrau (<abbr>r.</abbr> 590–628), as is mentioned in the title of his surviving
+                        work.</p>
+                    <p>The only text by Nathniel that has been preserved is a ‘Cause of the Psalms’
+                            (<hi rend="italic">ʿEllat mazmore</hi>), which is a brief introduction
+                        to the Psalms. This is included in a larger collection of E.-Syr.
+                        introductory pieces to the Psalms, called ‘Book of causes of the Psalms’,
+                        which is found in a number of 19th-cent. <abbr>mss.</abbr> as a preamble to the
+                        Commentary on the Psalms by <ref rend="bold" target="https://gedsh.bethmardutho.org/Denha">
+                            <persName ref="http://syriaca.org/person/97">Denḥa</persName>
+                        </ref> (9th <abbr>cent.</abbr>?).
+                        The collection as a whole and the various <abbr>mss.</abbr> that contain it have been
+                        surveyed by Van den Eynde and Van Rompay. Nathniel’s text has been edited by
+                        Vandenhoff (with <abbr>LT</abbr>).</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>M.  Tamcke, ‘Natniel von Sirzor’, in <title rend="italic">
+                                <abbr>BBK</abbr>
+                            </title>, vol. 6 (1993), 494–5.</bibl>
+                        <bibl>C.  Van den Eynde, <title rend="italic">Commentaire d’Išoʿdad de Merv
+                                sur l’Ancien Testament</title>, VI. <title rend="italic">Psaumes</title> (<abbr>CSCO</abbr> 434; 1981), xxxiv–xxxvi.</bibl>
+                        <bibl>B.  Vandenhoff, <title rend="italic">Exegesis Psalmorum, imprimis
+                                messianicorum, apud Syros Nestorianos</title> (1899), 13–15 (Syr.),
+                            24–6 (<abbr>LT</abbr>).</bibl>
+                        <bibl>L.  Van Rompay, <title rend="italic">Théodore de Mopsueste. Fragments
+                                syriaques du Commentaire des Psaumes (Psaume 118 et Psaumes
+                                138–148)</title> (<abbr>CSCO</abbr> 436; 1982), ix–xiv.</bibl>
+                        <bibl>Vööbus, <title rend="italic">History of the School of Nisibis</title>,
+                            292–3.</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Lucas</forename> 
+                  <surname>Van Rompay</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

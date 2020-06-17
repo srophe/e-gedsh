@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Didascalia Apostolorum</title>
+            <author>
+               <persName>
+                  <forename>Maria E.</forename> 
+                  <surname>Doerfler</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.5">Electronic Edition Version 1.5</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Didascalia Apostolorum</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Didascalia-Apostolorum</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/175</idno>
+                    <idno type="entry">166</idno>
+                    <milestone unit="pages" n="124-125"/>
+                    <idno type="althead">Teaching of the Apostles</idno>
+                    <note type="type">work</note>
+                    <note type="abstract">Collection of teachings attributed to the twelve
+                        apostles.<note/>
+                    </note>
+                </ab>
+                <ab type="infobox">Teaching of the Apostles</ab>
+                <div type="body">
+                    <p>Collection of teachings attributed to the twelve apostles. While the
+                        provenance of the Didascalia Apostolorum is subject to scholarly debate, the
+                        work probably originated in Syria during the 3rd <abbr>cent.</abbr> Of the Greek original
+                        only fragments remain; there are, however, a number of early translations.
+                        Most significant among these is the Syriac translation which is preserved in
+                        numerous <abbr>mss.</abbr> dated or datable between the 7th (or 8th) and the 20th <abbr>cent.</abbr>
+                        Vööbus’s 1979 edition includes the evidence of 18 <abbr>mss.</abbr>, while an additional
+                        23 <abbr>mss.</abbr> contain legislative texts that were incorporated in the third
+                        chapter of the Didascalia Apostolorum but that also circulated separately.
+                        Some of the <abbr>mss.</abbr> show traces of a later revision. A fragment of the
+                        Didascalia survives furthermore in a 9th-cent. Syriac papyrus, of which
+                        Sauget and Brock have each published a folio<choice>
+                            <sic>.</sic>
+                            <corr>. </corr>
+                        </choice>The number of Syriac <abbr>mss.</abbr> and
+                        their geographical as well as chronological spread attest to the
+                        significance of the work within the juridical tradition of Syriac
+                        Christianity. The date of the Syriac translation is difficult to ascertain;
+                        scholars have variously attributed it to the mid-4th <abbr>cent.</abbr> (Vööbus,
+                        Connolly) or the late 5th through early 6th <abbr>cent.</abbr> (Brock, Schöllgen). While
+                        the Syriac translation of the Didascalia has occasionally been ascribed to
+                            <ref rend="bold" target="https://gedsh.bethmardutho.org/Yaqub-of-Edessa">
+                            <persName ref="http://syriaca.org/person/113">Yaʿqub of Edessa</persName>
+                        </ref>, such a claim lacks scholarly support. A Latin
+                        translation from the late 4th <abbr>cent.</abbr> is also extant, as well as later Arabic
+                        and Ethiopic translations. The Didascalia has further been preserved in
+                        Greek in the <choice>
+                            <sic>4th </sic>
+                            <corr>4th-</corr>
+                        </choice>
+                        <abbr>cent.</abbr> ‘Apostolic Constitutions’, of which the Didascalia
+                        makes up the lion’s share.</p>
+                    <p>A pseudepigraphical document, the Didascalia claims to be the product of the
+                        twelve apostles. Its real author remains unknown, although the emphasis on
+                        instructing bishops has led scholars to suspect episcopal authorship. The
+                        document’s stated purpose is the defense of the church against heretics and
+                        schismatics, particularly Judaizing Christians (ch. 26). The Didascalia,
+                        however, contains a wide range of other material, including advice on the
+                        selection and duties of bishops (chs. 4–8, 11–12, 18), male and female
+                        deacons (chs. 11, 16), as well as other church officers; instructions on
+                        church discipline and penitential practice (chs. 5–7, 9–11); theological
+                        direction (ch. 20), and guidelines for appropriate behavior of various
+                        groups of lay people within the church (chs. 14–15, 17, 19, 22).
+                        Interestingly, the Didascalia supports its arguments with extensive
+                        citations from Scripture, so much so that it resembles a topical commentary
+                        for church use. Because of its diverse content and regulatory aims, the
+                        Didascalia has been categorized as belonging to the Church Order genre, a
+                        designation the Didascalia shares with, e.g., the Didache and the Apostolic
+                        Tradition of <ref rend="bold" target="https://gedsh.bethmardutho.org/Hippolytus-of-Rome">
+                            <persName ref="http://syriaca.org/person/537">Hippolytus</persName>
+                        </ref>. While the existence of such
+                        a genre has recently been called into question, the grouping of the
+                        Didascalia with other legislative texts in ancient codices, as well as the
+                        interpolation of legislative material concerning, e.g., the election of
+                        clergy, between chs. 3 and 4 supports its consideration as an early
+                        fore-runner of canon law collections.</p>
+                </div>
+                <div type="bibl">
+                    <listBibl>
+                        <listBibl>
+                            <head>Primary Sources</head>
+                            <bibl>S. P.  Brock, ‘Two Syriac papyrus fragments from the Schøyen
+                                Collection’, <title rend="italic">
+                                    <abbr>OC</abbr>
+                                </title> 79 (1995), 9–22.</bibl>
+                            <bibl>R. H.  Connolly, <title rend="italic">Didascalia
+                                    Apostolorum</title> (1929). (<abbr>ET</abbr>)</bibl>
+                            <bibl>J.-M.  Sauget, ‘Le fragment de papyrus syriaque conservé à
+                                Florence’, <title rend="italic">
+                                    <abbr>AION</abbr>
+                                </title> 45 (1985), 1–16 with 2
+                                plates.</bibl>
+                            <bibl>A.  Stewart-Sykes, <title rend="italic">The Didascalia
+                                    Apostolorum: An English version with introduction and
+                                    annotation</title> (2009).</bibl>
+                            <bibl>A.  Vööbus, <title rend="italic">The Didascalia Apostolorum in
+                                    Syriac</title> (<abbr>CSCO</abbr> 401–402, 407–8; 1979).</bibl>
+                        </listBibl>
+                        <listBibl>
+                            <head>Secondary Sources</head>
+                            <bibl>S. P.  Brock, ‘Some aspects of Greek words in Syriac’, <title rend="italic">Synkretismus im syrisch-persischen
+                                    Kulturgebiet</title>, <abbr>ed.</abbr> A. Dietrich (1975), 80–108.</bibl>
+                            <bibl>A.  Camplani, ‘A Coptic fragment from the “Didascalia Apostolorum”
+                                (M579 f.1)’, <title rend="italic">Augustinianum</title> 36 (1996),
+                                47–51.</bibl>
+                            <bibl>C. Fonrobert, ‘The Didascalia apostolorum: a Mishnah for the
+                                disciples of Jesus’, <title rend="italic">
+                                    <abbr>JECS</abbr>
+                                </title> 9 (2001),
+                                483–509.</bibl>
+                            <bibl>C. Methuen, ‘Widows, bishops and the struggle for authority in the
+                                Didascalia Apostolorum’, <title rend="italic">
+                                    <abbr>JEH</abbr>
+                                </title> 46 (1995),
+                                197–213.</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>C. Methuen</reg>
+                           <orig>idem</orig>
+                        </choice>, ‘For pagans laugh to hear women teach: gender stereotypes in
+                                the Didascalia Apostolorum’, <choice>
+                                    <sic/>
+                                    <corr>in </corr>
+                                </choice>
+                                <title rend="italic">Gender and
+                                    Christian Religion</title>, <abbr>ed.</abbr> R. N. Swanson (1998),
+                                23–35.</bibl>
+                            <bibl>J. G.  Mueller, ‘The Ancient Church Order literature: Genre or
+                                tradition?’<choice>
+                                    <sic>,</sic>
+                                    <corr/>
+                                </choice>
+                                <title rend="italic">
+                                    <abbr> JECS</abbr>
+                                </title> 15 (2007),
+                                337–80.</bibl>
+                            <bibl>
+                                <choice>
+                                    <sic>M. K. </sic>
+                                    <corr>M.</corr>
+                                </choice> Penn, <choice>
+                                    <sic>‘Bold and having no shame’</sic>
+                                    <corr>‘“Bold and having no shame”</corr>
+                                </choice>: ambiguous widows,
+                                controlling clergy, and early Syrian communities’, <title rend="italic">
+                                    <abbr>Hugoye</abbr>
+                                </title> 4.2 (2001).</bibl>
+                            <bibl>G.  Schöllgen, ‘Die literarische Gattung der Syrischen
+                                Didaskalie’, in <abbr>
+                                    <title rend="italic">SymSyr</title> IV</abbr>,
+                                149–59.</bibl>
+                            <bibl>
+                        <choice>
+                           <reg>G.  Schöllgen</reg>
+                           <orig>idem</orig>
+                        </choice>, <title rend="italic">Die Anfänge der Professionalisierung
+                                    des Klerus und das <choice>
+                                        <sic>Kirchliche</sic>
+                                        <corr>kirchliche</corr>
+                                    </choice> Amt in der <choice>
+                                        <sic>Syrischen</sic>
+                                        <corr>syrischen</corr>
+                                    </choice>
+                                    Didaskalie</title> (JAC Ergänzungsband 26; 1998).</bibl>
+                            <bibl>B.  Steimer, <title rend="italic">Vertex Traditionis. Die Gattung
+                                    der altchristlichen Kirchenordnungen</title> (1992), 49–59,
+                                222–42, 372.</bibl>
+                            <bibl>K. J.  <choice>
+                                    <sic>Torjeson</sic>
+                                    <corr>Torjesen</corr>
+                                </choice>, ‘The episcopacy—sacerdotal or monarchical? The
+                                appeal to Old Testament institutions by Cyprian and the Didascalia’,
+                                    <title rend="italic">
+                                    <abbr>StPatr</abbr>
+                                </title>, vol. 36 (2001),
+                                387–406.</bibl>
+                        </listBibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Maria E.</forename> 
+                  <surname>Doerfler</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

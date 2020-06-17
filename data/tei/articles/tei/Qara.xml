@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Qara</title>
+            <author>
+               <persName>
+                  <forename>Lucas</forename> 
+                  <surname>Van Rompay</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.5">Electronic Edition Version 1.5</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Qara</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Qara</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/448</idno>
+                    <idno type="entry">439</idno>
+                    <milestone unit="pages" n="342-343"/>
+                    <idno type="subject">http://syriaca.org/place/161</idno>
+                    <note type="type">place</note>
+                    <note type="abstract">Town in the Qalamun mountains, <placeName>Syria</placeName>, <abbr>ca.</abbr> 95 km. northeast of Damascus
+                        and about 20 km. north of Nabk, often
+                        mentioned as a caravan station between Ḥimṣ and Damascus.<note/>
+                    </note>
+                </ab>
+                <div type="body">
+                    <p>Town in the Qalamun mountains, Syria, <abbr>ca.</abbr> 95 km. northeast of <ref rend="bold" target="https://gedsh.bethmardutho.org/Damascus">
+                            <placeName ref="http://syriaca.org/place/66">Damascus</placeName>
+                        </ref> and less than 20 km. north of Nabk (see <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Musa-al-Habashi-Dayr-Mar">
+                            <placeName ref="http://syriaca.org/place/228">Dayr Mār
+                            Mūsā al-Ḥabashī</placeName>
+                        </ref>), often mentioned as a caravan station between
+                            <ref rend="bold" target="https://gedsh.bethmardutho.org/Hims">
+                            <placeName ref="http://syriaca.org/place/215">Ḥimṣ</placeName>
+                        </ref>
+                        and Damascus. Qara’s Christian history can be traced back to the 5th <abbr>cent.</abbr>
+                        (mentioned as Chonachara or Chonochara). In the Christological controversies
+                        of the 5th and 6th <abbr>cent.</abbr> it was on the side of the Chalcedonians. After a
+                        long period during which the sources are silent, Qara reemerges around 1100,
+                        still as a center of <ref rend="bold" target="https://gedsh.bethmardutho.org/Melkite">Melkite</ref>
+                        Christianity. <abbr>Bp.</abbr> Michael of Qara is attested for the second half of the
+                        12th <abbr>cent.</abbr>, and he himself has left us a list of some of his predecessors
+                        (Schmidt, 27–9). The Muslim authors Ibn Jubayr (who visited Qara in July
+                        1184) and Yāqūt (1225) report that in their day Qara was entirely Christian.
+                        In 1266, however, Sultan Baybars, in his offensive against the Crusaders and
+                        Mongols, expelled or killed the Christians of Qara, which then became a
+                        Muslim town. It was able to regain some of its Christian population in the
+                        following decades and to recreate its episcopal see, no later than <abbr>ca.</abbr> 1400.
+                        In the first half of the 15th <abbr>cent.</abbr>
+                        <abbr> Bp.</abbr> Makarios built a scriptorium in Dayr
+                        Mar Yaʿqub, in which a number of Syriac and Arabic <abbr>mss.</abbr> were produced,
+                        mostly by bps. and priests belonging to some influential families. In the
+                        17th <abbr>cent.</abbr>, due to the ongoing islamization of the Qalamun region, the
+                        episcopal see of Qara lost its independence and was joined together with
+                        Ṣaydnāyā. The Monastery of Mar Yaʿqub, which had lost some of its earlier
+                        prestige, was destroyed by an earthquake in 1759 and remained in ruins. In
+                        the 18th <abbr>cent.</abbr>, Qara moved into the orbit of the Melkite-Catholic Church, to
+                        which most of the small Christian minority of Qara’s population nowadays
+                        belong.</p>
+                    <p>Today Qara has two historically important Christian sites, both of which are
+                        still in use. One is the Church of Sts. Sergius and Bacchus; the other is
+                        Dayr Mar Yaʿqub, just outside the town. The Church of Sergius and Bacchus
+                        contains partly preserved <ref rend="bold"
+                       target="https://gedsh.bethmardutho.org/Wall-paintings-in-Syria-and-Lebanon">wall paintings</ref>, some of which have inscriptions in
+                        Greek and Syriac Esṭrangela). The upper parts of
+                        five scenes are preserved on the north wall of the church: the breastfeeding
+                        Virgin, flanked by two equestrian saints, Theodore (left) and Sergius
+                        (right); John the Baptist; and (traces of) an unidentified female saint.</p>
+                    <p>
+                        Dayr Mar Yaʿqub, dedicated to the E.-Syr. saint Yaʿqub ‘the mutilated’ (‘the dissected’, Syr. <hi rend="italic">mpassqā</hi>, Arab. <hi rend="italic">muqaṭṭa</hi>ʿ, or
+                        Lat. Intercisus; cf. Fiey, <hi rend="italic">Saints syriaques</hi>, 107–8),
+                        is first attested with this name in the 15th <abbr>cent.</abbr> (Schmidt, 43). Its main
+                        church, however, in all likelihood goes back to the 11th <abbr>cent.</abbr> After it had
+                        fallen into ruins, in the 18th <abbr>cent.</abbr>, it was neglected for more than two
+                        centuries; several of its wall paintings were transferred to the National
+                        Museum of Damascus and to the museum of nearby Dayr ʿAtiya. It was only in
+                        the 1990s that, under the leadership of Sœur Agnès-Maria de la Croix, the
+                        monastery with its church was rebuilt and became the home of a community of
+                        female ascetics, belonging to the jurisdiction of the Melkite-Catholic <abbr>bp.</abbr>
+                        of Ḥimṣ, Ḥama, Yabrud, and Qara. Within the framework of this rebuilding and
+                        restoration project several of the paintings were returned to the monastery.
+                        Together with the newly discovered paintings, they were studied in a
+                        monograph by Schmidt and Westphalen (2005).</p>
+                    <p>The church of the monastery has a remarkable structure in that it consists of
+                        an upper and lower church, sharing the same apse construction. Accordingly,
+                        there are two parallel levels of decoration which, moreover, each were
+                        decorated twice, first in the 11th  cent. and again in the 13th <abbr>cent.</abbr>
+                        (before 1266). The various iconographic programs can be reconstructed only
+                        very imperfectly. Among the earliest paintings, there is a row of enthroned
+                        apostles (upper apse) and scenes from the life of Christ (nave of the lower
+                        church, probably by a different artist). As for the 13th-cent. layer, there
+                        are remnants of a large Deisis composition in the lower apse. In addition,
+                        both apses have a row of images of bps. or church fathers. Although heavily
+                        damaged, a few still show inscriptions with their names written in Greek and
+                        Syriac (Esṭrangela, running from top to bottom). Independent from the
+                        paintings, and written on the first layer of plaster, are two carefully
+                        written prayers, one in Syriac (Schmidt, 151–2) and one in Greek.</p>
+                    <p>In addition to their significance for art-historical studies and as a witness
+                        of the ongoing presence of Christian culture in the Qalamun mountains, the
+                        paintings and inscriptions in Qara provide precious information on the use
+                        of Syriac among the Melkites.</p>
+                    <p>See <ref target="https://gedsh.bethmardutho.org/fig/101">Fig. 101</ref> and
+                            <ref target="https://gedsh.bethmardutho.org/fig/102">102</ref>.</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>Brock and Taylor, <title rend="italic">Hidden pearl</title>,
+                            vol. 2, 217–8.</bibl>
+                        <bibl>M.  Immerzeel, <title rend="italic">Identity puzzles. Medieval
+                                Christian art in Syria and Lebanon</title> (<abbr>OLA</abbr> 184; 2009), 67–71,
+                            212–15 (Plates 38–43).</bibl>
+                        <bibl>A.  Schmidt and S.  Westphalen, <title rend="italic">Christliche
+                                Wandmalereien in Syrien. Qara und das Kloster Mar Yakub</title>
+                            (<abbr>SKCO</abbr> 14; 2005).</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Lucas</forename> 
+                  <surname>Van Rompay</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>

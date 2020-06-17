@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:syriaca="http://syriaca.org"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Severos, Commentary of the monk</title>
+            <author>
+               <persName>
+                  <forename>Lucas</forename> 
+                  <surname>Van Rompay</surname>
+               </persName>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+            <sponsor>Jean and Alexander Heard Library, Vanderbilt University</sponsor>
+            <funder>The International Balzan Prize Foundation</funder>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning and initial valid TEI encoding by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>XSLT transformations by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to semantic XML by</resp>
+               <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.5">Electronic Edition Version 1.5</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Published by Gorgias Press LLC, 954 River Road, Piscataway, NJ 08854 USA www.gorgiaspress.com for Beth Mardutho: The Syriac Institute</authority>
+            <authority>Published with the collaboration of Syriaca.org: The Syriac Reference Portal</authority>
+            <authority>Published and hosted with the collaboration of the Jean and Alexander Heard Library, Vanderbilt University</authority>
+            <availability status="restricted">
+               <p>Copyright ©2011 by Beth Mardutho: The Syriac Institute</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <p>Distributed under an Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.</p>
+               </licence>
+            </availability>
+            <date>2016-09-22-16:00</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</title>
+            <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#sbrock">Sebastian P. Brock</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#abutts">Aaron M. Butts</editor>
+            <editor role="print-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#lvanrompay">Lucas Van Rompay</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute Possekel</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</editor>
+            <editor role="electronic-edition"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, and TEI editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#upossekel">Ute S. Posssekel</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning and initial valid TEI encoding by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David Michelson</name>
+                </respStmt>
+            <respStmt> 
+                    <resp>XSLT transformations by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Data cleaning, editorial proofreading, TEI schema, and TEI encoding and editing by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L. Schwartz</name>
+                </respStmt>
+            <respStmt>
+                    <resp>Conversion to semantic XML by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#gkiraz">George A. Kiraz</name>
+                </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m">Gorgias Encyclopedic Dictionary of the Syriac Heritage</title>
+                  <editor>Sebastian P. Brock</editor>
+                  <editor>Aaron M. Butts</editor>
+                  <editor>George A. Kiraz</editor>
+                  <editor>Lucas Van Rompay</editor>
+                  <imprint>
+                     <pubPlace>Piscataway, N.J.</pubPlace>
+                     <publisher>Gorgias Press for Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2011</date>
+                     <note>Copyright ©2011 by Beth Mardutho: The Syriac Institute</note>
+                     <note>ISBN: 978-1-59333-714-8</note>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="uncorrected-draft">
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky"
+                 n="1.0"
+                 when="2020-05-18-04:00">Article record broken out form original electronic edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="entry">
+                <head>Severos, Commentary of the monk</head>
+                <ab type="idnos">
+                    <idno type="URI">https://gedsh.bethmardutho.org/Severos-Commentary-of-the-monk</idno>
+                    <idno type="syriaca-bibl">http://syriaca.org/bibl/495</idno>
+                    <idno type="entry">486</idno>
+                    <milestone unit="pages" n="367"/>
+                    <idno type="althead" subtype="altorder">Commentary of the monk Severos</idno>
+                    <idno type="althead">Catena Severi</idno>
+                    <note type="type">work</note>
+                    <note type="abstract">Collection of biblical commentaries (<abbr>OT</abbr> and <abbr>NT</abbr>) by
+                        Severos, a monk in the Monastery of St. Barbara near <placeName ref="http://syriaca.org/place/78">Edessa</placeName>, who completed his
+                        work in 861.<note/>
+                    </note>
+                </ab>
+                <ab type="infobox">
+                    <hi rend="italic">Catena Severi</hi> (9th <abbr>cent.</abbr>) [<abbr>Syr. Orth.</abbr>]</ab>
+                <div type="body">
+                    <p>Collection of biblical commentaries (<abbr>OT</abbr> and <abbr>NT</abbr>) by Severos, a monk in the
+                        Monastery of St. Barbara near <ref rend="bold" target="https://gedsh.bethmardutho.org/Edessa">
+                            <placeName ref="http://syriaca.org/place/78">Edessa</placeName>
+                        </ref>, who
+                        completed his work in 861. Severos compiled his work from existing
+                        commentaries and mentions as his main sources <ref rend="bold" target="https://gedsh.bethmardutho.org/Ephrem">
+                            <persName ref="http://syriaca.org/person/13">Ephrem</persName>
+                        </ref> and <ref rend="bold" target="https://gedsh.bethmardutho.org/Yaqub-of-Edessa">
+                            <persName ref="http://syriaca.org/person/113">Yaʿqub of Edessa</persName>
+                        </ref> (for the <abbr>OT</abbr>) and <ref rend="bold" target="https://gedsh.bethmardutho.org/John-Chrysostom">
+                            <persName ref="http://syriaca.org/person/573">John
+                            Chrysostom</persName>
+                        </ref> (for the <abbr>NT</abbr>). Between the extracts from these works
+                        there are a number of long insertions. One of them is a full commentary on
+                        the Octateuch by Yaʿqub of Edessa (Kruisheer). In another place a long
+                        extract from the Commentary on Isaiah by <ref rend="bold" target="https://gedsh.bethmardutho.org/Cyril-of-Alexandria">
+                            <persName ref="http://syriaca.org/person/430">Cyril of
+                            Alexandria</persName>
+                        </ref> was inserted (ter Haar Romeny, 155).</p>
+                    <p>Severos’s work did not reach us in its original form, but in an expanded
+                        form, as it was written down a few decades later by the scribe Shemʿun of
+                        Ḥisn Manṣur (or Ḥesna d-Manṣur), who worked in the Monastery of the Seven
+                        Martyrs near Perrhe (Syr. <hi rend="italic">Parrin</hi>). Shemʿun not only
+                        copied Severos’s work in a three-volume <abbr>ms.</abbr> (Vat. Syr. 103, late 9th or 10th
+                        <abbr>cent.</abbr>, cf. S. E. and J. S.  Assemani, <hi rend="italic">Bibliothecae
+                            Apostolicae Vaticanae … Catalogus</hi>, I.3 [1759], 7–28), but also — as
+                        he himself tells us (f. 371r)  — added in the margins a number of notes and
+                        comments extracted from the works of such authors as Cyril of Alexandria,
+                            <ref rend="bold" target="https://gedsh.bethmardutho.org/Daniel-of-Salah">
+                            <persName ref="http://syriaca.org/person/59">Daniel of Ṣalaḥ</persName>
+                        </ref>, <ref rend="bold" target="https://gedsh.bethmardutho.org/Hippolytus-of-Rome">
+                            <persName ref="http://syriaca.org/person/537">Hippolytus</persName>
+                        </ref>, <ref rend="bold" target="https://gedsh.bethmardutho.org/Isidore-of-Pelusium">
+                            <persName ref="http://syriaca.org/person/564">Isidore</persName>
+                        </ref> (of Pelusium), <ref rend="bold" target="https://gedsh.bethmardutho.org/Severus-of-Antioch">
+                            <persName ref="http://syriaca.org/person/51">Severus of
+                            Antioch</persName>
+                        </ref> (many <choice>
+                            <sic>extract</sic>
+                            <corr>extracts</corr>
+                        </choice> from his letters), <ref rend="bold" target="https://gedsh.bethmardutho.org/Yaqub-of-Serugh">
+                            <persName ref="http://syriaca.org/person/42">Yaʿqub
+                            of Serug</persName>
+                        </ref>, and from the <ref rend="bold" target="https://gedsh.bethmardutho.org/Book-of-Steps">Book of
+                        Steps</ref>. <abbr>Ms.</abbr> Vat. Syr. 103, which at an unknown date was brought to
+                        Egypt, was copied in the Monastery of the Mother of God in Gazarta, near
+                        Alexandria in (what is today) <abbr>ms.</abbr> Brit. Libr. Add. 12,144 (Wright, <hi rend="italic">Catalogue</hi> II, 908a–914a), of which the initial part
+                        (113 folios, mainly from quires 2–12) remained in Egypt (presently <abbr>ms.</abbr> 
+                  <ref rend="bold" target="https://gedsh.bethmardutho.org/al-Suryan-Dayr">
+                            <placeName ref="http://syriaca.org/place/360">Dayr
+                            al-Suryān</placeName>
+                        </ref> Syr. 15). In this copy, the marginal comments were
+                        incorporated into the main text so that the work of Severos can no longer be
+                        distinguished from that of Shemʿun.</p>
+                    <p>
+                        <abbr>Ms.</abbr> Vat. Syr. 103 left Dayr al-Suryān for Syria before 1646 and later came to
+                            <ref rend="bold" target="https://gedsh.bethmardutho.org/Aleppo">
+                            <placeName ref="http://syriaca.org/place/18">Aleppo</placeName>
+                        </ref>, where it was acquired for the Vatican Library by J. S.
+                        Assemani in 1716. <ref rend="bold" target="https://gedsh.bethmardutho.org/Mubarak-Butros">
+                            <persName ref="http://syriaca.org/person/643">Buṭros
+                            Mubārak</persName>
+                        </ref> (Petrus Benedictus) edited several parts attributed to
+                        Ephrem in his Ephrem edition (1737–1740), but in the absence of any tools
+                        for the critical study of Ephrem, he was unable to address the question of
+                        authenticity and he, therefore, sometimes uncritically combined texts of
+                        dubious authenticity with genuine Ephrem materials (such as those preserved
+                        in <abbr>ms.</abbr> Vat. Syr. 110). It should also be noted that some of the materials
+                        included in Severus’s collection have their counterpart in an Armenian
+                        commentary attributed to Ephrem (see Mathews).</p>
+                </div>
+                <div type="bibl">
+                    <head>Sources</head>
+                    <listBibl>
+                        <bibl>P.  Benedictus, <title rend="italic">Sancti Patris nostri
+                                Ephraem Syri Opera omnia quae extant</title>, 1–2 (1737–40).</bibl>
+                        <bibl>B.  ter Haar Romeny, ‘The Peshitta of Isaiah: Evidence from the Syriac
+                            Fathers’, in <title rend="italic">Text, translation, and tradition.
+                                Studies on the Peshitta and its use in the Syriac tradition
+                                presented to K. D.</title>  
+                     <title rend="italic">Jenner</title>, <abbr>ed.</abbr>
+                            W. Th.  van Peursen and R. B. ter Haar Romeny (<abbr>MPIL</abbr>14; 2006), esp.
+                            153–59.</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>B.  ter Haar Romeny</reg>
+                        <orig>idem</orig>
+                     </choice>, ‘Ephrem and Jacob of Edessa in the Commentary of the monk
+                            Severus’, in <title rend="italic">Malphono w-Rabo d-Malphone</title>,
+                            <abbr>ed.</abbr> G. Kiraz, 535–57.</bibl>
+                        <bibl>T. Jansma, ‘The provenance of the last sections in the Roman edition
+                            of Ephraem’s Commentary on Exodus’, <title rend="italic">
+                                <abbr>LM</abbr>
+                            </title> 85
+                            (1972), 155–67.</bibl>
+                        <bibl>D.  Kruisheer, ‘Ephrem, Jacob of Edessa, and the monk Severus: An
+                            analysis of <abbr>ms.</abbr> Vat. Syr. 103, ff. 1–72’, in <abbr>
+                                <title rend="italic">SymSyr</title> VII</abbr>, 599–605.</bibl>
+                        <bibl>E. G.  Mathews, Jr., ‘The Armenian Commentary on Genesis attributed to
+                            Ephrem the Syrian’, in <title rend="italic">The Book of Genesis in
+                                Jewish and Oriental Christian interpretation</title>, <abbr>ed.</abbr> J.
+                            Frishman and L. Van Rompay (<abbr>TEG</abbr> 5; 1997), 143–61.</bibl>
+                        <bibl>
+                     <choice>
+                        <reg>E. G.  Mathews, Jr.</reg>
+                        <orig>idem</orig>
+                     </choice>, <title rend="italic">The Armenian Commentary on Genesis
+                                Attributed to Ephrem the Syrian</title> (<abbr>CSCO</abbr> 572–573; 1998).</bibl>
+                        <bibl>E. G.  Mathews, Jr., <title rend="italic">The Armenian Commentary on
+                                Exodus-Deuteronomy Attributed to Ephrem the Syrian</title> (<abbr>CSCO</abbr>
+                            587–588; 2001).</bibl>
+                    </listBibl>
+                </div>
+                <byline>
+                    <persName>
+                  <forename>Lucas</forename> 
+                  <surname>Van Rompay</surname>
+               </persName>
+                </byline>
+            </div>
+      </body>
+   </text>
+</TEI>
